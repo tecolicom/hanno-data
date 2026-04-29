@@ -91,9 +91,6 @@ rules:
     occurrences:
       - 3
 overrides:
-  - date: 2026-04-29
-    category: burnable
-    note: 昭和の日 水曜だが可燃ごみ収集あり
   - date: 2026-12-31
     cancelled: true
     note: 年末休業 木曜の可燃ごみ休止
