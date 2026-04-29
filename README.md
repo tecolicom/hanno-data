@@ -35,6 +35,11 @@ hanno-data/
   https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/cleancenter/4/893.html
 - 各 YAML の `metadata.source` に PDF URL と取得日時を記録する
 
+## ドキュメント
+
+- [docs/categories.md](./docs/categories.md) — ゴミ種別 enum の命名規則と調査
+  (5374.jp、横浜市・東京 23 区・札幌市・大阪市・京都市の英語版を比較)
+
 ## 編集方針
 
 - 機械抽出(Claude API)した結果を人間レビュー後に PR でマージ
