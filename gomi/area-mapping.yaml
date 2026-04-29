@@ -1,0 +1,21 @@
+# 町名 → コース対応表
+# 出典: 飯能市公式サイト「家庭ごみ収集カレンダー」
+# https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/cleancenter/4/893.html
+#
+# コース識別子と公式名の対応:
+#   A-1: 原市場・名栗
+#   A-2: 中央南
+#   A-3: 加治
+#   B-1: 東吾野・吾野
+#   B-2: 中央北
+#   B-3: 精明
+#
+# TODO: 飯能市の町名一覧から各コースを埋める。現状はコース名と PDF URL のみ確認済み。
+
+version: "2026.04-draft"
+
+source:
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/cleancenter/4/893.html"
+  verified_at: "2026-04-29"
+
+mappings: []

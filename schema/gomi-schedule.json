@@ -1,0 +1,117 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hanno.tecoli.com/schema/gomi-schedule.json",
+  "title": "Hanno gomi collection schedule (per course, per year)",
+  "type": "object",
+  "required": ["metadata", "rules"],
+  "additionalProperties": false,
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "required": ["course", "year", "source"],
+      "additionalProperties": false,
+      "properties": {
+        "course": {
+          "type": "string",
+          "enum": ["A-1", "A-2", "A-3", "B-1", "B-2", "B-3"],
+          "description": "コース識別子"
+        },
+        "course_name_ja": {
+          "type": "string",
+          "description": "コース日本語名(例: 中央南)"
+        },
+        "area_names": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "コースに含まれる町名"
+        },
+        "year": {
+          "type": "integer",
+          "description": "西暦年(例: 2026)"
+        },
+        "fiscal_year_ja": {
+          "type": "string",
+          "description": "和暦年度(例: 令和8年度)"
+        },
+        "source": {
+          "type": "object",
+          "required": ["pdf_url", "extracted_at"],
+          "properties": {
+            "pdf_url": { "type": "string", "format": "uri" },
+            "extracted_at": { "type": "string", "format": "date" },
+            "extracted_by": { "type": "string", "description": "モデル名 or 人手の場合 'manual'" },
+            "verified_by": { "type": "string", "description": "レビュー者 (例: kaz)" },
+            "confidence": { "type": "number", "minimum": 0, "maximum": 1 }
+          }
+        }
+      }
+    },
+    "rules": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["category", "pattern"],
+        "additionalProperties": false,
+        "properties": {
+          "category": {
+            "type": "string",
+            "enum": [
+              "burnable",
+              "non_burnable",
+              "plastic",
+              "petbottle",
+              "can_bottle",
+              "paper_cloth",
+              "harmful",
+              "oversized"
+            ],
+            "description": "ゴミ種別"
+          },
+          "pattern": {
+            "type": "string",
+            "enum": ["weekly", "monthly_nth", "monthly_specific"],
+            "description": "weekly=毎週指定曜日, monthly_nth=毎月第N曜日, monthly_specific=毎月特定日"
+          },
+          "days": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": ["MO", "TU", "WE", "TH", "FR", "SA", "SU"]
+            },
+            "description": "weekly / monthly_nth で使用する曜日"
+          },
+          "occurrences": {
+            "type": "array",
+            "items": { "type": "integer", "minimum": 1, "maximum": 5 },
+            "description": "monthly_nth で第何週か (例: [1, 3] で第1・第3)"
+          },
+          "dates": {
+            "type": "array",
+            "items": { "type": "string", "format": "date" },
+            "description": "monthly_specific で具体日付列挙"
+          },
+          "note": { "type": "string" }
+        }
+      }
+    },
+    "overrides": {
+      "type": "array",
+      "description": "通常ルールの例外(年末年始休止、振替収集等)",
+      "items": {
+        "type": "object",
+        "required": ["date"],
+        "additionalProperties": false,
+        "properties": {
+          "date": { "type": "string", "format": "date" },
+          "category": {
+            "type": ["string", "null"],
+            "description": "category=null かつ cancelled=true で休止扱い"
+          },
+          "cancelled": { "type": "boolean", "description": "true で収集なし" },
+          "note": { "type": "string" }
+        }
+      }
+    }
+  }
+}

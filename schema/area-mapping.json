@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hanno.tecoli.com/schema/area-mapping.json",
+  "title": "Hanno town-name to course mapping",
+  "type": "object",
+  "required": ["version", "mappings"],
+  "additionalProperties": false,
+  "properties": {
+    "version": { "type": "string", "description": "対応表のバージョン(例: 2026.04)" },
+    "source": {
+      "type": "object",
+      "properties": {
+        "url": { "type": "string", "format": "uri" },
+        "verified_at": { "type": "string", "format": "date" }
+      }
+    },
+    "mappings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["area", "course"],
+        "additionalProperties": false,
+        "properties": {
+          "area": { "type": "string", "description": "町名(漢字)" },
+          "area_kana": { "type": "string", "description": "ふりがな(検索用)" },
+          "course": {
+            "type": "string",
+            "enum": ["A-1", "A-2", "A-3", "B-1", "B-2", "B-3"]
+          },
+          "note": { "type": "string", "description": "丁目別に分かれる場合等の注記" }
+        }
+      }
+    }
+  }
+}
