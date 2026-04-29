@@ -102,6 +102,3 @@ overrides:
   - date: 2027-01-01
     cancelled: true
     note: 元日休業(本来は金曜可燃)
-  - date: 2027-01-02
-    cancelled: true
-    note: 年始休業

@@ -102,6 +102,3 @@ overrides:
   - date: 2027-01-01
     cancelled: true
     note: 年始休業
-  - date: 2027-01-02
-    cancelled: true
-    note: 休業
