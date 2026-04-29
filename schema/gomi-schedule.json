@@ -37,7 +37,8 @@
           "type": "object",
           "required": ["pdf_url", "extracted_at"],
           "properties": {
-            "pdf_url": { "type": "string", "format": "uri" },
+            "pdf_url": { "type": "string", "format": "uri", "description": "コース別カレンダー PDF" },
+            "cover_pdf_url": { "type": "string", "format": "uri", "description": "凡例・早見表を含む表紙 PDF" },
             "extracted_at": { "type": "string", "format": "date" },
             "extracted_by": { "type": "string", "description": "モデル名 or 人手の場合 'manual'" },
             "verified_by": { "type": "string", "description": "レビュー者 (例: kaz)" },

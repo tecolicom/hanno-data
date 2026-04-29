@@ -91,6 +91,12 @@ rules:
     occurrences:
       - 3
 overrides:
+  - date: 2026-12-29
+    cancelled: true
+    note: 年末休業
+  - date: 2026-12-30
+    cancelled: true
+    note: 年末休業
   - date: 2026-12-31
     cancelled: true
     note: 年末休業 木曜の可燃ごみ休止
