@@ -60,10 +60,11 @@
               "burnable",
               "non_burnable",
               "plastic",
-              "petbottle",
-              "can_bottle",
+              "pet_bottle",
+              "beverage_can",
+              "glass_bottle",
               "paper_cloth",
-              "harmful",
+              "hazardous",
               "oversized"
             ],
             "description": "ゴミ種別"
