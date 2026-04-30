@@ -1,0 +1,2846 @@
+# 飯能市 ごみ分別事典 (令和8年4月修正)
+# Source: https://www.city.hanno.lg.jp/material/files/group/22/gomibunbetujitensyuusei.pdf
+# Extracted: 2026-04-30 by claude-opus-4-7
+# Items: 567
+
+source:
+  pdf_url: https://www.city.hanno.lg.jp/material/files/group/22/gomibunbetujitensyuusei.pdf
+  extracted_at: 2026-04-30
+  pages: P9-24
+items:
+  - name: アイスピック
+    reading_initial: あ
+    category: non_burnable
+    price: null
+    note: 先端部分を紙類で包み安全な状態で出す
+  - name: アイロン(衣類用)
+    reading_initial: あ
+    category: non_burnable
+    price: null
+    note: ヘアーアイロンは「不燃」
+  - name: アイロン台
+    reading_initial: あ
+    category: oversized
+    price: 400
+    note: 50㎝未満のものは素材に応じて分別
+  - name: アウトドア用品
+    reading_initial: あ
+    category: oversized
+    price: 400
+    note: テーブル、バーベキューセット、寝袋など。50cm未満は素材に応じて分別
+  - name: アコーディオンカーテン《1.5ｍ以上》
+    reading_initial: あ
+    category: oversized
+    price: 800
+    note: アコーディオンドア
+  - name: アコーディオンカーテン《1.5ｍ未満》
+    reading_initial: あ
+    category: oversized
+    price: 400
+    note: アコーディオンドア
+  - name: アタッシュケース
+    reading_initial: あ
+    category: oversized
+    price: 400
+    note: 50㎝未満のものは「不燃」、電動のものは(800円)
+  - name: アダプタ(電子機器の小型のもの)
+    reading_initial: あ
+    category: non_burnable
+    price: null
+    note: 電子機器の電源、充電用、各種変換用など。充電池内臓のものは「有害」
+  - name: アルバム
+    reading_initial: あ
+    category: burnable
+    price: null
+    note: 金具は「不燃」、写真は紙としてリサイクル出来ないため「可燃」
+  - name: アルミホイール(自動車のタイヤ用)
+    reading_initial: あ
+    category: not_collected
+    price: null
+    note: 受入れ不可
+  - name: アルミ箔(アルミホイル)
+    reading_initial: あ
+    category: non_burnable
+    price: null
+    note: null
+  - name: あんか(行火)電気式
+    reading_initial: あ
+    category: non_burnable
+    price: null
+    note: 電気を使用しない「あんか」「湯たんぽ」は素材に応じて分別
+  - name: アンテナ(地デジ、BS、CS)
+    reading_initial: あ
+    category: non_burnable
+    price: null
+    note: 50㎝以上は「粗大(400円)」
+  - name: 雨合羽
+    reading_initial: あ
+    category: plastic
+    price: null
+    note: 金具は取り除く、複合素材の場合は「可燃」
+  - name: 編み機
+    reading_initial: あ
+    category: oversized
+    price: 800
+    note: null
+  - name: 網(防鳥用、ネット、網戸の網)
+    reading_initial: あ
+    category: plastic
+    price: null
+    note: 50cm四方未満に切る(汚れがひどい場合「可燃」)、50㎝以上は「粗大(400円)」
+  - name: 網戸
+    reading_initial: あ
+    category: oversized
+    price: 400
+    note: 個人で撤去したもの限定。リフォーム等で発生したものは受入れ不可
+  - name: 油(食用)
+    reading_initial: あ
+    category: burnable
+    price: null
+    note: 固めるか紙や布などに染み込ませる ※生ごみ処理機はんのうキエーロでの処理推奨
+  - name: インクカートリッジ
+    reading_initial: い
+    category: burnable
+    price: null
+    note: 販売店や郵便局の回収ボックスを優先。飯能市のホームページも参照
+  - name: 衣類
+    reading_initial: い
+    category: paper_cloth
+    price: null
+    note: 汚れや破れているものは50㎝未満に切って「可燃」
+  - name: 衣類乾燥機
+    reading_initial: い
+    category: not_collected
+    price: null
+    note: 家電リサイクル法対象品 ※Ｐ８参照
+  - name: 井戸用ポンプ
+    reading_initial: い
+    category: not_collected
+    price: null
+    note: 受入れ不可
+  - name: 一斗缶(18L缶等)
+    reading_initial: い
+    category: non_burnable
+    price: null
+    note: 中身を使い切る、中身が残っている場合は中身を布などに染み込ませて「可燃」、業者が使用したものは受入れ不可
+  - name: 一輪車(こども用、スポーツ用)
+    reading_initial: い
+    category: oversized
+    price: 400
+    note: 「タイヤ」だけでも「粗大(400円)」
+  - name: 一輪車(運搬作業用)
+    reading_initial: い
+    category: oversized
+    price: 400
+    note: ネコ車、手押し一輪車。「タイヤ」だけでも「粗大(400円)」
+  - name: 犬小屋《1.5ｍ以上2ｍ未満》
+    reading_initial: い
+    category: drop_off_only
+    price: 1600
+    note: null
+  - name: 犬小屋《1ｍ以上1.5ｍ未満》
+    reading_initial: い
+    category: oversized
+    price: 800
+    note: 2ｍ以上は受入れ不可
+  - name: 犬小屋《1ｍ未満》
+    reading_initial: い
+    category: oversized
+    price: 400
+    note: null
+  - name: 石(漬物石、庭石、砂利)
+    reading_initial: い
+    category: not_collected
+    price: null
+    note: 受入れ不可
+  - name: 板 ※搬入サイズ2m以内
+    reading_initial: い
+    category: oversized
+    price: 400
+    note: 長さ50㎝未満で厚さ5㎝未満は「可燃」(金属は取り除く)、厚さ20㎝以上は受入れ不可
+  - name: ウィンドサーフィン(一式)
+    reading_initial: う
+    category: oversized
+    price: 1600
+    note: null
+  - name: ウィンドファン
+    reading_initial: う
+    category: oversized
+    price: 400
+    note: 家電リサイクル法対象品は受入れ不可 ※Ｐ８参照
+  - name: ウエイダー(胴長靴)
+    reading_initial: う
+    category: oversized
+    price: 400
+    note: 主に釣りや農作業用スーツ、50cm四方未満に切れば「可燃」
+  - name: ウォーターサーバ(ビールサーバ含む)
+    reading_initial: う
+    category: oversized
+    price: 400
+    note: 購入先への返却を優先、業務用やフロンガスを含むものは受入れ不可
+  - name: ウッドデッキ(自分で解体したもの)
+    reading_initial: う
+    category: reference
+    price: null
+    note: 業者に解体を依頼したものは受入れ不可、金額は「木」参照
+  - name: 植木鉢・プランター(プラ製)
+    reading_initial: う
+    category: plastic
+    price: null
+    note: 汚れがひどいものは「可燃」、50㎝以上は「粗大(400円/5個まで)」
+  - name: 植木鉢(陶磁器)
+    reading_initial: う
+    category: non_burnable
+    price: null
+    note: 50㎝以上は「粗大(400円)」
+  - name: 浮き輪(ビニールプール、ボートなど)
+    reading_initial: う
+    category: oversized
+    price: 400
+    note: 50㎝未満のものは「プラ」、金属は取り除き「不燃」
+  - name: ＭＤ(ミニディスク)
+    reading_initial: え
+    category: non_burnable
+    price: null
+    note: オーディオ記録用ディスク、プラ製ケースは「プラ」、紙類は「雑がみ」
+  - name: エアコン(エアーコンディショナー)
+    reading_initial: え
+    category: not_collected
+    price: null
+    note: 家電リサイクル法対象品 ※Ｐ８参照
+  - name: エアゾール缶(スプレー缶)
+    reading_initial: え
+    category: hazardous
+    price: null
+    note: 中身は使い切り風通しの良い屋外で穴をあける
+  - name: エアゾール缶(中身のあるスプレー缶)
+    reading_initial: え
+    category: drop_off_only
+    price: null
+    note: 中身が出せない場合や使い切れない場合限定
+  - name: 園芸用スチール棒
+    reading_initial: え
+    category: oversized
+    price: 400
+    note: 5本まで1点。50㎝未満に切れば「不燃」
+  - name: 延長コード(電気コード、非ドラム式)
+    reading_initial: え
+    category: non_burnable
+    price: null
+    note: 軽く結んだ状態で出す、ドラムに巻いてあるものは「粗大(400円)」
+  - name: 煙突
+    reading_initial: え
+    category: oversized
+    price: 400
+    note: 業者に解体を依頼したものは受入れ不可、2mまでで1点
+  - name: 縁台《1m以上》
+    reading_initial: え
+    category: oversized
+    price: 800
+    note: 簡単に移動できる細長い腰掛け台
+  - name: 縁台《1m未満》
+    reading_initial: え
+    category: oversized
+    price: 400
+    note: 簡単に移動できる細長い腰掛け台
+  - name: 絵の具(アルミ製)
+    reading_initial: え
+    category: non_burnable
+    price: null
+    note: 中身は使い切る、樹脂製のチューブは「可燃」
+  - name: オイル(エンジンオイルなどの廃油)
+    reading_initial: お
+    category: not_collected
+    price: null
+    note: 販売店、ガソリンスタンドへ問い合わせ
+  - name: オイルパック(廃油処理箱《6Lまで》)
+    reading_initial: お
+    category: drop_off_only
+    price: null
+    note: 販売店などでの処理優先
+  - name: オーディオ機器類
+    reading_initial: お
+    category: oversized
+    price: 400
+    note: アンプ(楽器用・ステレオ用)・デッキ・チューナーなど
+  - name: おまる(幼児用)
+    reading_initial: お
+    category: burnable
+    price: null
+    note: 50㎝以上は「粗大(400円)」
+  - name: おむつ
+    reading_initial: お
+    category: burnable
+    price: null
+    note: 汚物は取り除き、トイレに流す
+  - name: おもちゃ(玩具)
+    reading_initial: お
+    category: non_burnable
+    price: null
+    note: 電池は取り外し「有害」、素材に応じて分別。50㎝以上は「粗大(400円)」
+  - name: 桶(木製、プラ製)
+    reading_initial: お
+    category: burnable
+    price: null
+    note: プラ製のものは「プラ」、50㎝以上は「粗大(400円)」
+  - name: 温水器(屋外設置式)
+    reading_initial: お
+    category: not_collected
+    price: null
+    note: 受入れ不可
+  - name: 温度計・体温計(水銀)
+    reading_initial: お
+    category: hazardous
+    price: null
+    note: 測定液の色が「銀色」のもの(ケースに入れて割れないようにして出す)
+  - name: 温度計・体温計(電子も含む)
+    reading_initial: お
+    category: non_burnable
+    price: null
+    note: 水銀を使用していないもの、電子タイプの電池は取り外し「有害」
+  - name: 帯(着物用)
+    reading_initial: お
+    category: paper_cloth
+    price: null
+    note: 汚れているもの、再利用出来ないものは50㎝四方未満に切って「可燃」
+  - name: カーステレオ(カーナビ)《本体》
+    reading_initial: か
+    category: oversized
+    price: 400
+    note: スピーカーは別途(400円/2個まで)、一式(800円)
+  - name: カーテン(レース生地含む)
+    reading_initial: か
+    category: paper_cloth
+    price: null
+    note: 汚れがひどいものは50㎝四方未満に切って「可燃」
+  - name: カーテンレール
+    reading_initial: か
+    category: oversized
+    price: 400
+    note: 50㎝未満に切れば「不燃」、5本まで1点
+  - name: カーペット
+    reading_initial: か
+    category: reference
+    price: null
+    note: 金額は「じゅうたん類」参照
+  - name: かいまき(寝具、防寒着)
+    reading_initial: か
+    category: oversized
+    price: 400
+    note: 50㎝未満に切れば「可燃」
+  - name: カイロ(使い捨て)
+    reading_initial: か
+    category: burnable
+    price: null
+    note: 電池式・オイル式のものは「不燃」、電池は取り外し「有害」
+  - name: カイロ(充電式)
+    reading_initial: か
+    category: hazardous
+    price: null
+    note: 収集時など発火の恐れがあるため必ず「有害」
+  - name: かご(脱衣かご・バスケットなど)
+    reading_initial: か
+    category: plastic
+    price: null
+    note: 金属は「不燃」、籐製などは「可燃」、50㎝以上は「粗大(400円)」
+  - name: ガスコンロ(魚焼きなどがないもの)
+    reading_initial: か
+    category: oversized
+    price: 400
+    note: 電池は取り外し「有害」、50㎝未満の卓上カセットコンロは「不燃」
+  - name: ガス台(ガステーブル、ガスレンジ)
+    reading_initial: か
+    category: oversized
+    price: 800
+    note: 魚焼きなど機能があるもの、業者が交換したものは受入れ不可
+  - name: ガス湯沸器
+    reading_initial: か
+    category: oversized
+    price: 400
+    note: 本体を台所に取り付けて使用するもの
+  - name: カセットテープ
+    reading_initial: か
+    category: burnable
+    price: null
+    note: ケース(プラ製)は「プラ」、紙は「雑がみ」
+  - name: カセットデッキ
+    reading_initial: か
+    category: oversized
+    price: 400
+    note: 音楽用機器、録画用機器
+  - name: カセットボンベ(カセットガス)
+    reading_initial: か
+    category: hazardous
+    price: null
+    note: 中身は使い切り風通しの良い屋外で穴をあける、中身が出せない場合などはクリーンセンター持込限定で受入れ可
+  - name: ガソリン携行缶
+    reading_initial: か
+    category: non_burnable
+    price: null
+    note: 必ず中身を空にする。50㎝以上は「粗大(400円)」
+  - name: かばん(バッグ・リュック)
+    reading_initial: か
+    category: burnable
+    price: null
+    note: 金具が多いものは「不燃」、50㎝以上は「粗大(400円)」
+  - name: カミソリ
+    reading_initial: か
+    category: non_burnable
+    price: null
+    note: 紙類で包み安全な状態で出す(「カミソリ」と表示)
+  - name: カメラ(デジカメ、使い捨て、フィルム)
+    reading_initial: か
+    category: non_burnable
+    price: null
+    note: 電池は取り外し「有害」、デジカメは、※Ｐ６も参照
+  - name: カラオケ機器(家庭用)
+    reading_initial: か
+    category: oversized
+    price: 800
+    note: 事業用や大型のものは不可、マイクだけのカラオケは「不燃」
+  - name: ガラス類(食器等)
+    reading_initial: か
+    category: non_burnable
+    price: null
+    note: 紙類で包み安全な状態で出す、50㎝以上は「粗大(400円)」
+  - name: 加湿器
+    reading_initial: か
+    category: non_burnable
+    price: null
+    note: 電池式の電池は取り外し「有害」、50㎝以上は「粗大(400円)」
+  - name: 加熱式たばこ(電子式たばこ)
+    reading_initial: か
+    category: hazardous
+    price: null
+    note: 収集時など発火の恐れがあるため必ず「有害」
+  - name: 家具(いす・座いす)《1人用》
+    reading_initial: か
+    category: oversized
+    price: 400
+    note: ダイニングチェア・ロッキングチェア・オットマン・スツール・幼児用スイングチェア・ハイローチェアなど。ソファーやソファー構造のもの、電動式は「家具(ソファー)」参照、50㎝未満は素材に応じて分別
+  - name: 家具(いす・座いす)《2人以上用》
+    reading_initial: か
+    category: oversized
+    price: 800
+    note: null
+  - name: 家具(ソファー)《1人掛け用》
+    reading_initial: か
+    category: oversized
+    price: 800
+    note: 電動式は(1200円)
+  - name: 家具(ソファー)《3人掛け用まで》
+    reading_initial: か
+    category: oversized
+    price: 1200
+    note: ソファーベッドなども含む、電動式は(1600円)
+  - name: 家具(テーブル・座卓)《1m以上》
+    reading_initial: か
+    category: oversized
+    price: 800
+    note: null
+  - name: 家具(テーブル・座卓)《1m未満》
+    reading_initial: か
+    category: oversized
+    price: 400
+    note: ナイトテーブル・ベッドサイドテーブル・袖机・袖引出し・脇机・引出しや棚などの無い机など。アウトドア用は「アウトドア用品」参照
+  - name: 家具(ベビーラック・バウンサー)
+    reading_initial: か
+    category: oversized
+    price: 400
+    note: ベビーチェアなど。50㎝未満は素材に応じて分別
+  - name: 家具(ラック)《1m以上》
+    reading_initial: か
+    category: oversized
+    price: 800
+    note: null
+  - name: 家具(ラック)《1m未満》
+    reading_initial: か
+    category: oversized
+    price: 400
+    note: 主にフレームだけの棚など(スチール棚・メタルラック・パソコンラック・レンジ台・衣類乾燥機の台・キッチンワゴンなど)
+  - name: 家具(机)《1m以上》
+    reading_initial: か
+    category: oversized
+    price: 1200
+    note: null
+  - name: 家具(机)《1m未満》
+    reading_initial: か
+    category: oversized
+    price: 800
+    note: 学習机(棚や引出しと一体式)。学習机の棚のみ(400円)。一体式でない袖引出しや棚の無い簡易的な机などは「家具(テーブル・座卓)」参照
+  - name: 家具(収納庫)《1.5m以上》
+    reading_initial: か
+    category: oversized
+    price: 1600
+    note: null
+  - name: 家具(収納庫)《1.5m未満》
+    reading_initial: か
+    category: oversized
+    price: 1200
+    note: 押入れ収納庫、布団収納庫など。主にフレームだけの棚は「家具(ラック)」参照、プラ製は「家具(整理箱)」参照、スチール製の「物置」などは「物置」参照
+  - name: 家具(整理箱)《1m以上》
+    reading_initial: か
+    category: oversized
+    price: 800
+    note: null
+  - name: 家具(整理箱)《1m未満》
+    reading_initial: か
+    category: oversized
+    price: 400
+    note: カラーボックス・整理箱・衣装ケース・収納ケース・合板製などのカラーボックス形状のものや隙間家具など
+  - name: 家具(棚)《1.5m以上》
+    reading_initial: か
+    category: oversized
+    price: 1600
+    note: null
+  - name: 家具(棚)《1m以上1.5m未満》
+    reading_initial: か
+    category: oversized
+    price: 1200
+    note: null
+  - name: 家具(棚)《1m未満》
+    reading_initial: か
+    category: oversized
+    price: 800
+    note: 本棚・書棚・キャビネット・タンス・食器戸棚・サイドボード・オーディオラック・下駄箱・家具調のチェスト、テレビ台など。簡易な構造のものは「家具(整理箱)」参照、フレームだけの棚は「家具(ラック)」参照
+  - name: 家具類《50cm未満》
+    reading_initial: か
+    category: burnable
+    price: null
+    note: 金属製や金属が取り除けないものは「不燃」、プラだけのものは「プラ」
+  - name: 花びん(花器)
+    reading_initial: か
+    category: non_burnable
+    price: null
+    note: 50㎝以上は「粗大(400円)」
+  - name: 菓子箱(厚紙、段ボール)
+    reading_initial: か
+    category: paper_cloth
+    price: null
+    note: 厚紙は「雑がみ」、段ボールは「段ボール」 ※Ｐ４参照
+  - name: 画板(スケッチ板)
+    reading_initial: か
+    category: oversized
+    price: 400
+    note: null
+  - name: 懐中電灯(電球式、ＬＥＤ式)
+    reading_initial: か
+    category: non_burnable
+    price: null
+    note: 電池は取り外し「有害」、充電式でバッテリーが外せないものは「有害」
+  - name: 貝殻
+    reading_initial: か
+    category: burnable
+    price: null
+    note: null
+  - name: 革ジャンパー
+    reading_initial: か
+    category: paper_cloth
+    price: null
+    note: 汚れがひどいものは金具を取り外し「可燃」
+  - name: 革製品(合皮も含む)
+    reading_initial: か
+    category: burnable
+    price: null
+    note: 金具があるものは金具を取り外し「可燃」、金属は「不燃」
+  - name: 楽器(キーボード・卓上型シンセサイザー)
+    reading_initial: か
+    category: oversized
+    price: 400
+    note: 玩具も含む、台は別で(400円)、50cm未満は「不燃」
+  - name: 楽器(ピアノ・据置型シンセサイザー)
+    reading_initial: か
+    category: not_collected
+    price: null
+    note: 受入れ不可
+  - name: 楽器(手で持って演奏するもの)
+    reading_initial: か
+    category: oversized
+    price: 400
+    note: ギター・鍵盤ハーモニカ・大正琴・管楽器など、ケースは別で(400円)
+  - name: 楽器(電子ピアノなど)
+    reading_initial: か
+    category: oversized
+    price: 1600
+    note: エレクトーン・オルガン・電子ピアノ
+  - name: 額縁(写真立て)
+    reading_initial: か
+    category: burnable
+    price: null
+    note: ガラスは「不燃」、プラ製は「プラ」、50㎝以上は「粗大(400円)」
+  - name: 活性炭
+    reading_initial: か
+    category: burnable
+    price: null
+    note: 冷蔵庫用脱臭剤、食品用脱酸素剤など
+  - name: 刈払い機・草刈り機(電動式)
+    reading_initial: か
+    category: reference
+    price: null
+    note: 金額は「工具」参照
+  - name: 瓦
+    reading_initial: か
+    category: not_collected
+    price: null
+    note: 受入れ不可
+  - name: 乾燥機(靴用、布団用)
+    reading_initial: か
+    category: oversized
+    price: 400
+    note: 衣類乾燥機は家電リサイクル法対象のため受入れ不可 ※Ｐ８参照
+  - name: 乾燥剤
+    reading_initial: か
+    category: burnable
+    price: null
+    note: 生石灰タイプの乾燥剤は水に濡れると発熱するので注意
+  - name: 乾電池(充電式含む)
+    reading_initial: か
+    category: hazardous
+    price: null
+    note: 充電式、ボタン電池は販売店の回収ボックスを優先 ※Ｐ３参照
+  - name: 感熱紙(熱転写用紙)
+    reading_initial: か
+    category: burnable
+    price: null
+    note: ファックス用感熱紙、レシートなど ※Ｐ４参照
+  - name: 換気扇
+    reading_initial: か
+    category: oversized
+    price: 400
+    note: 業者によるリフォーム等で発生したものは受入れ不可
+  - name: 換気扇フード
+    reading_initial: か
+    category: non_burnable
+    price: null
+    note: 50㎝以上は「粗大(400円)」、リフォーム等で発生したものは受入れ不可
+  - name: 缶(スプレー缶・エアゾール缶)
+    reading_initial: か
+    category: hazardous
+    price: null
+    note: 中身は使い切り風通しの良い屋外で穴をあける、中身が出せない場合などはクリーンセンター持込限定で受入れ可
+  - name: 缶(ドラム缶)
+    reading_initial: か
+    category: not_collected
+    price: null
+    note: 受入れ不可
+  - name: 缶(飲料用)
+    reading_initial: か
+    category: reference
+    price: null
+    note: 飲料缶。中身は空にして、軽くすすぐ
+  - name: 缶(粉ミルク、食用、塗料、オイル等)
+    reading_initial: か
+    category: non_burnable
+    price: null
+    note: 中身は使い切る
+  - name: 鏡(姿見など)
+    reading_initial: か
+    category: oversized
+    price: 400
+    note: 50cm未満は「不燃」、鏡台は「鏡台・三面鏡」の欄参照
+  - name: 金網
+    reading_initial: か
+    category: oversized
+    price: 400
+    note: 50㎝四方未満に切ったものは「不燃」
+  - name: 傘(雨傘・日傘)
+    reading_initial: か
+    category: non_burnable
+    price: null
+    note: たたんだ状態で出す
+  - name: 壁紙(業者が施工したもの以外)
+    reading_initial: か
+    category: burnable
+    price: null
+    note: 50㎝四方未満に切れていないものは「粗大(400円)」、リフォーム等で発生したものやロール状の壁紙は受入れ不可
+  - name: キックボード・スケートボード
+    reading_initial: き
+    category: oversized
+    price: 400
+    note: 電動式・エンジン式でないもの、50cm未満は「不燃」
+  - name: キックボード《電動式》
+    reading_initial: き
+    category: oversized
+    price: 1600
+    note: エンジン式や電動式の公道仕様は受入れ不可
+  - name: キッチンワゴン(ワゴンテーブル)
+    reading_initial: き
+    category: reference
+    price: null
+    note: 主にフレームと棚で構成されたもの。金額は「家具(ラック)」参照
+  - name: キャットタワー
+    reading_initial: き
+    category: oversized
+    price: 400
+    note: 一式
+  - name: キャップ類(樹脂製)
+    reading_initial: き
+    category: plastic
+    price: null
+    note: 樹脂製は「プラ」、金属製は「不燃」
+  - name: キャリア(車ルーフ用)《1.5m以上》
+    reading_initial: き
+    category: oversized
+    price: 800
+    note: null
+  - name: キャリア(車ルーフ用)《1.5m未満》
+    reading_initial: き
+    category: oversized
+    price: 400
+    note: ベースバー(2本で1点)、アタッチメントは別途(ルーフボックス・ルーフラック・スノーボード・スキー用・自転車用など)
+  - name: キャリーカート・シルバーカート等
+    reading_initial: き
+    category: oversized
+    price: 400
+    note: 電動式でないもの、電動式は(800円)
+  - name: キャンバス(絵画用)
+    reading_initial: き
+    category: burnable
+    price: null
+    note: 50㎝以上は「粗大(400円)」
+  - name: 脚立・はしご《1.5ｍ以上》
+    reading_initial: き
+    category: oversized
+    price: 800
+    note: null
+  - name: 脚立・はしご《1.5ｍ未満》
+    reading_initial: き
+    category: oversized
+    price: 400
+    note: 伸ばせるタイプは伸ばした寸法、50cm未満は「不燃」
+  - name: 牛乳パック
+    reading_initial: き
+    category: paper_cloth
+    price: null
+    note: 洗って切り開いて乾かす、牛乳パックだけで束ねる ※Ｐ４参照
+  - name: 鏡台・三面鏡
+    reading_initial: き
+    category: oversized
+    price: 1200
+    note: 鏡のみ(400円)、台のみ(800円)、いすは別途(400円)
+  - name: 金庫(手提げ式)
+    reading_initial: き
+    category: non_burnable
+    price: null
+    note: 50㎝以上は「粗大(400円)」。耐火金庫は受入れ不可
+  - name: 着物(浴衣)
+    reading_initial: き
+    category: paper_cloth
+    price: null
+    note: 汚れのひどいものは50㎝四方未満に切って「可燃」
+  - name: 木(枝木、杭、串) ※搬入サイズ2m以内
+    reading_initial: き
+    category: burnable
+    price: null
+    note: 太さ5cm以上または長さ50cm以上は「粗大(400円/2mまで)」(太さ20㎝以上は受け入れ不可)
+  - name: クーラーボックス
+    reading_initial: く
+    category: oversized
+    price: 400
+    note: 50㎝未満は素材に応じて分別。冷温庫・温冷庫などでフロンガスを使用しているものは受入れ不可
+  - name: くつ・サンダル・ハイヒール・ミュール
+    reading_initial: く
+    category: burnable
+    price: null
+    note: つま先に金属が入っている安全靴など金具が大きいものは「不燃」
+  - name: クッション
+    reading_initial: く
+    category: burnable
+    price: null
+    note: 50㎝以上は「粗大(400円)」
+  - name: クリーナー(電動ブラシ付)
+    reading_initial: く
+    category: oversized
+    price: 400
+    note: 電池は取り外し「有害」
+  - name: クリスマスツリー
+    reading_initial: く
+    category: non_burnable
+    price: null
+    note: 50㎝以上は「粗大(400円)」、飾りは素材に応じて分別
+  - name: クレヨン
+    reading_initial: く
+    category: burnable
+    price: null
+    note: クレパス、クーピーペンシル、オイルパステルなど
+  - name: 空気清浄機(除湿器)
+    reading_initial: く
+    category: oversized
+    price: 400
+    note: フロンガスを使用しているものは受入れ不可
+  - name: 空気入れ
+    reading_initial: く
+    category: oversized
+    price: 400
+    note: 50㎝未満は「不燃」、充電式は50cm未満でも「粗大(400円)」
+  - name: 靴下
+    reading_initial: く
+    category: paper_cloth
+    price: null
+    note: ペアで使用出来れば「布」、汚れているものは「可燃」
+  - name: 車いす(電動でないもの)
+    reading_initial: く
+    category: oversized
+    price: 800
+    note: 電動式は受入れ不可
+  - name: 草
+    reading_initial: く
+    category: burnable
+    price: null
+    note: 土を取り除く、透明又は中身の確認できる袋に入れる
+  - name: 草焼きバーナー
+    reading_initial: く
+    category: oversized
+    price: 400
+    note: 燃料は必ず使い切る。カセットボンベ式は「カセットボンベ」も参照
+  - name: 草焼きバーナー(大型・業務用)
+    reading_initial: く
+    category: not_collected
+    price: null
+    note: 受入れ不可
+  - name: ゲーム機(携帯型)
+    reading_initial: け
+    category: non_burnable
+    price: null
+    note: 小型家電回収ボックス優先 ※Ｐ６参照
+  - name: ゲーム機(据置型)
+    reading_initial: け
+    category: oversized
+    price: 400
+    note: null
+  - name: 化粧品容器(口紅・マニュキアなど)
+    reading_initial: け
+    category: non_burnable
+    price: null
+    note: 中身を使い切る。ガラスや金属がなければ「可燃」
+  - name: 珪藻土(バスマット・キッチンマット)
+    reading_initial: け
+    category: non_burnable
+    price: null
+    note: 50㎝以上は「粗大(400円)」
+  - name: 携帯電話(スマートフォン)
+    reading_initial: け
+    category: hazardous
+    price: null
+    note: 販売店への返却などを優先 ※Ｐ６も参照
+  - name: 蛍光管(家庭用) 直管、丸管
+    reading_initial: け
+    category: hazardous
+    price: null
+    note: ケースや紙類で包み安全な状態で ※LED式の球は「不燃」
+  - name: 血圧計(水銀を含むもの)
+    reading_initial: け
+    category: hazardous
+    price: null
+    note: 業務用は受入れ不可、ケースに入れて破損しないようにする
+  - name: 血圧計(電気式)
+    reading_initial: け
+    category: non_burnable
+    price: null
+    note: 電池は取り外し「有害」
+  - name: 健康器具(小)
+    reading_initial: け
+    category: oversized
+    price: 400
+    note: 金魚運動機など
+  - name: 健康器具(大)
+    reading_initial: け
+    category: oversized
+    price: 1200
+    note: エアロバイク・ジョギングマシーンなど
+  - name: 健康器具(中)
+    reading_initial: け
+    category: oversized
+    price: 800
+    note: エアウォーカーなど
+  - name: 健康器具(特大)
+    reading_initial: け
+    category: oversized
+    price: 1600
+    note: 乗馬運動器具など
+  - name: 健康器具《50㎝未満》
+    reading_initial: け
+    category: non_burnable
+    price: null
+    note: ダンベル・鉄アレイなどで、重さ1.5kg以上は「粗大」。鉄の代わりにセメントや砂などを使用しているものは受入れ不可
+  - name: 剣道具(胴・竹刀)
+    reading_initial: け
+    category: oversized
+    price: 400
+    note: 竹刀は2本まで1点
+  - name: 剣道具(胴・竹刀以外)
+    reading_initial: け
+    category: non_burnable
+    price: null
+    note: 面は「不燃」、小手・垂は「可燃」
+  - name: 毛糸
+    reading_initial: け
+    category: burnable
+    price: null
+    note: 毛糸の服は着用出来れば「布」
+  - name: 毛皮(合皮を含む)
+    reading_initial: け
+    category: burnable
+    price: null
+    note: 50㎝四方未満に切れば「可燃」、毛皮の服は着用できれば「布」
+  - name: コードリール(電工ドラム)
+    reading_initial: こ
+    category: oversized
+    price: 400
+    note: 電線とリールに分ければ「不燃」
+  - name: コーヒーメーカー(ミルなし)
+    reading_initial: こ
+    category: non_burnable
+    price: null
+    note: 電池は取り外し「有害」、50㎝以上は「粗大(400円)」
+  - name: コーヒーメーカー(電動ミル付)
+    reading_initial: こ
+    category: oversized
+    price: 400
+    note: 電池は取り外し「有害」
+  - name: コーヒー豆用ミル(電動)
+    reading_initial: こ
+    category: oversized
+    price: 400
+    note: 手動は「不燃」
+  - name: ござ・むしろ
+    reading_initial: こ
+    category: reference
+    price: null
+    note: 金額は「じゅうたん類」参照 50㎝四方未満に切れば「可燃」
+  - name: こたつ《1m以上》
+    reading_initial: こ
+    category: oversized
+    price: 800
+    note: null
+  - name: こたつ《1m未満》
+    reading_initial: こ
+    category: oversized
+    price: 400
+    note: 一式(天板、ヒーター、やぐら)、別々に処分の場合は(各400円)、ヒーターは50cm未満の場合「不燃」
+  - name: コピー機(コピー機能のみ)
+    reading_initial: こ
+    category: oversized
+    price: 400
+    note: 業務用は受入れ不可
+  - name: コピー機(プリンター複合機)
+    reading_initial: こ
+    category: oversized
+    price: 800
+    note: 業務用は受入れ不可
+  - name: ゴム製品
+    reading_initial: こ
+    category: burnable
+    price: null
+    note: 50㎝以上は「粗大(400円)」
+  - name: コルセット
+    reading_initial: こ
+    category: non_burnable
+    price: null
+    note: 金属がないものは「可燃」
+  - name: ゴルフ用品(キャディバッグ)
+    reading_initial: こ
+    category: oversized
+    price: 400
+    note: クラブの仕切りのチューブがある場合は、別途(400円/一式)
+  - name: ゴルフ用品(クラブ)
+    reading_initial: こ
+    category: oversized
+    price: 400
+    note: クラブは7本まで1点、ボールは「可燃」、ピンは素材に応じて分別
+  - name: コンクリートブロック
+    reading_initial: こ
+    category: not_collected
+    price: null
+    note: 受入れ不可
+  - name: コンテナボックス
+    reading_initial: こ
+    category: plastic
+    price: null
+    note: 50㎝以上は「粗大(400円)」
+  - name: コントローラー(ゲーム機用)
+    reading_initial: こ
+    category: non_burnable
+    price: null
+    note: 充電式のコントローラーは「有害」
+  - name: コンポスター(生ごみ処理容器)
+    reading_initial: こ
+    category: oversized
+    price: 400
+    note: 中身は取り除く、木製も「粗大(400円)」、50cm未満は素材で分別
+  - name: コンポスター(電気式生ごみ処理容器)
+    reading_initial: こ
+    category: oversized
+    price: 800
+    note: 中身は取り除く
+  - name: 碁石
+    reading_initial: こ
+    category: non_burnable
+    price: null
+    note: プラ製のものは「プラ」
+  - name: 碁盤
+    reading_initial: こ
+    category: burnable
+    price: null
+    note: 厚さ5cm以上のものは「粗大(400円)」
+  - name: 鯉のぼり(ベランダなどに設置するもの)
+    reading_initial: こ
+    category: oversized
+    price: 400
+    note: 鯉のぼりとポール一式
+  - name: 鯉のぼり(庭などに設置する大型のもの)
+    reading_initial: こ
+    category: oversized
+    price: 400
+    note: ポールは別途「粗大」(クリーンセンターで処理出来るものに限る)
+  - name: 工具(電動・家庭用)《50cm以上》
+    reading_initial: こ
+    category: oversized
+    price: 800
+    note: null
+  - name: 工具(電動・家庭用)《50cm未満》
+    reading_initial: こ
+    category: oversized
+    price: 400
+    note: グラインダー(サンダー)・ドリル・ドライバー・丸ノコ・バリカン(園芸用)・チェーンソー・ヘッジトリマー・刈払い(草刈り)機・ハンディブロワなど。エンジン式は受入れ不可
+  - name: 高圧洗浄機(家庭用)
+    reading_initial: こ
+    category: oversized
+    price: 800
+    note: 延長ホースなどは別途、業務用は不可
+  - name: 梱包材
+    reading_initial: こ
+    category: plastic
+    price: null
+    note: 事業活動による「プラ製梱包材」などは受入れ不可
+  - name: 米びつ
+    reading_initial: こ
+    category: non_burnable
+    price: null
+    note: 金属のないものは素材に応じて分別、50㎝以上は「粗大(400円)」
+  - name: サーキュレーター(循環送風機)
+    reading_initial: さ
+    category: oversized
+    price: 400
+    note: ヒーター機能付なども含む
+  - name: サークル(ペット用の囲い)
+    reading_initial: さ
+    category: oversized
+    price: 400
+    note: null
+  - name: サーフボード
+    reading_initial: さ
+    category: oversized
+    price: 800
+    note: null
+  - name: サウナ(家庭用ポータブルサウナ)
+    reading_initial: さ
+    category: oversized
+    price: 1600
+    note: 2人用以上は受入れ不可、テント式は「テント」参照、シート・蒸気発生装置は別途(各400円)
+  - name: サップボード
+    reading_initial: さ
+    category: oversized
+    price: 1600
+    note: パドルは別途(400円)
+  - name: サンシェード(オーニング)
+    reading_initial: さ
+    category: oversized
+    price: 800
+    note: 50㎝四方未満に切ったものは「可燃」、車用の小型のものは(400円)
+  - name: 座布団(長座布団)
+    reading_initial: さ
+    category: oversized
+    price: 400
+    note: 1人用座布団は「可燃」、50㎝四方未満に切ったものは「可燃」
+  - name: 殺虫剤(煙タイプ)
+    reading_initial: さ
+    category: non_burnable
+    price: null
+    note: 未使用品は持込限定で受入れ可、スプレータイプは「スプレー缶」参照
+  - name: 雑誌・雑がみ
+    reading_initial: さ
+    category: paper_cloth
+    price: null
+    note: ※Ｐ４参照
+  - name: 三脚(カメラ、ビデオ、望遠鏡、スマホ)
+    reading_initial: さ
+    category: non_burnable
+    price: null
+    note: 保管寸法が50㎝以上は「粗大(400円)」
+  - name: 三輪車(幼児用)
+    reading_initial: さ
+    category: oversized
+    price: 400
+    note: null
+  - name: ＣＤ・ＤＶＤ・ブルーレイ(ケースも含む)
+    reading_initial: し
+    category: plastic
+    price: null
+    note: ディスク、ケースは「プラ」、ジャケットの紙は「雑がみ」 ※Ｐ４参照
+  - name: ＣＤプレーヤー
+    reading_initial: し
+    category: oversized
+    price: 400
+    note: ポータブルタイプは「不燃」、電池は取り外し「有害」
+  - name: シーツ
+    reading_initial: し
+    category: paper_cloth
+    price: null
+    note: 汚れがひどいものは50㎝四方未満に切って「可燃」
+  - name: シート(ブルーシート、レジャーシート)
+    reading_initial: し
+    category: oversized
+    price: 400
+    note: 50㎝四方未満に切れば「プラ」(汚れがひどいものは「可燃」)、金具は「不燃」
+  - name: シーリングファンライト(照明器具)
+    reading_initial: し
+    category: oversized
+    price: 400
+    note: 照明器具と空気を循環するファンが付いているもの
+  - name: ジャッキ(自動車用手動式)
+    reading_initial: し
+    category: non_burnable
+    price: null
+    note: 油圧を使用していないもの、50㎝以上は「粗大(400円)」
+  - name: ジャッキ(油圧式)《家庭用》
+    reading_initial: し
+    category: oversized
+    price: 800
+    note: 業務用は受入れ不可
+  - name: じゅうたん類《6畳以上》
+    reading_initial: し
+    category: oversized
+    price: 800
+    note: null
+  - name: じゅうたん類《6畳未満》
+    reading_initial: し
+    category: oversized
+    price: 400
+    note: カーペット・ウッドカーペット・ラグ・電気カーペット(コントローラーやコードは「不燃」)、50㎝四方未満に切れば「可燃」
+  - name: ジュニアシート(自動車座席用)
+    reading_initial: し
+    category: plastic
+    price: null
+    note: 金属を取り除けないものは「不燃」。50㎝以上は「粗大(400円)」
+  - name: シュレッダー(家庭用電動式)
+    reading_initial: し
+    category: oversized
+    price: 400
+    note: 50㎝未満の手動式は素材に応じて分別
+  - name: シュレッダーで裁断した紙
+    reading_initial: し
+    category: burnable
+    price: null
+    note: 「紙・布」でのリサイクル不可
+  - name: シルバーカー(シニアカー)
+    reading_initial: し
+    category: not_collected
+    price: null
+    note: 受入れ不可、販売店やメーカーなどに確認
+  - name: シルバーカート(キャリーカート)
+    reading_initial: し
+    category: oversized
+    price: 400
+    note: 電動式でないもの、電動式は(800円)
+  - name: シンク(流し台)
+    reading_initial: し
+    category: oversized
+    price: 800
+    note: 陶磁器製やリフォーム業者等が交換したものは受入れ不可
+  - name: 下着(肌着)
+    reading_initial: し
+    category: paper_cloth
+    price: null
+    note: 汚れているもの、再利用出来ないものは「可燃」
+  - name: 磁気マットレス
+    reading_initial: し
+    category: oversized
+    price: 400
+    note: スプリングが入ったものは受入れ不可
+  - name: 磁石
+    reading_initial: し
+    category: non_burnable
+    price: null
+    note: null
+  - name: 自転車・自動車車体用カバーシート
+    reading_initial: し
+    category: oversized
+    price: 400
+    note: 50㎝四方未満に切れば「可燃」
+  - name: 自転車(電動式含む)
+    reading_initial: し
+    category: oversized
+    price: 800
+    note: 電動式のバッテリーは購入先などへ依頼。電動のみで走行できる「モペット」は受入れ不可
+  - name: 自転車(幼児用)
+    reading_initial: し
+    category: oversized
+    price: 400
+    note: 防犯登録をしている場合は抹消する(防犯登録は埼玉県で登録した場合、8年過ぎたら無効)
+  - name: 自転車タイヤ(ホイールを含む)
+    reading_initial: し
+    category: oversized
+    price: 400
+    note: 1台分、ホイールだけでも「粗大(400円)」、チューブは50cm未満に切れば「可燃」、金属は「不燃」
+  - name: 自転車用チャイルドシート
+    reading_initial: し
+    category: non_burnable
+    price: null
+    note: 50㎝以上のものは「粗大(400円)」
+  - name: 自動車フロアマット
+    reading_initial: し
+    category: oversized
+    price: 400
+    note: 50㎝四方未満に切れば「可燃」 1台分まで400円
+  - name: 自動車座席カバー
+    reading_initial: し
+    category: oversized
+    price: 400
+    note: 50㎝四方未満に切れば「可燃」 1台分まで400円
+  - name: 室内物干しスタンド
+    reading_initial: し
+    category: oversized
+    price: 400
+    note: 衣類用、布団用など、主にパイプで構成されているもの
+  - name: 芝刈り機(手動式)
+    reading_initial: し
+    category: oversized
+    price: 400
+    note: null
+  - name: 芝刈り機(電気式)
+    reading_initial: し
+    category: oversized
+    price: 1200
+    note: エンジン式は受入れ不可、ハンディタイプは「工具」参照
+  - name: 写真
+    reading_initial: し
+    category: burnable
+    price: null
+    note: 「紙・布」でのリサイクル不可 ※Ｐ４参照
+  - name: 書籍(文庫本・単行本・辞典)
+    reading_initial: し
+    category: paper_cloth
+    price: null
+    note: 「プラ」「金属」などは取り除く
+  - name: 除湿器
+    reading_initial: し
+    category: oversized
+    price: 400
+    note: フロンガスを使用しているものは受入れ不可
+  - name: 除湿剤
+    reading_initial: し
+    category: burnable
+    price: null
+    note: null
+  - name: 除草剤の容器
+    reading_initial: し
+    category: burnable
+    price: null
+    note: 中身を必ず使い切り水ですすぐ。びんの容器は「不燃」。内容物は受入れ不可
+  - name: 将棋盤
+    reading_initial: し
+    category: burnable
+    price: null
+    note: 厚さ5cm以上のものは「粗大(400円)」
+  - name: 消火器
+    reading_initial: し
+    category: not_collected
+    price: null
+    note: 受入れ不可 ※Ｐ8参照
+  - name: 照明器具
+    reading_initial: し
+    category: non_burnable
+    price: null
+    note: 50㎝以上は「粗大(400円)」、蛍光管は取り外し「有害」、電球は「不燃」
+  - name: 照明器具の笠
+    reading_initial: し
+    category: burnable
+    price: null
+    note: 金属を取り除けないものは「不燃」、50㎝以上は「粗大(400円)」
+  - name: 障子
+    reading_initial: し
+    category: oversized
+    price: 400
+    note: 業者によるリフォーム等で発生したものは受入れ不可
+  - name: 浄水器(蛇口取付型・シンク収納設置型)
+    reading_initial: し
+    category: non_burnable
+    price: null
+    note: 50㎝以上は「粗大(400円)」
+  - name: 浄水器カートリッジ
+    reading_initial: し
+    category: burnable
+    price: null
+    note: 業者へ返却出来るものは返却を優先
+  - name: 食器・調理用具(プラスチック製)
+    reading_initial: し
+    category: plastic
+    price: null
+    note: null
+  - name: 食器・調理用具(陶磁器・金属製)
+    reading_initial: し
+    category: non_burnable
+    price: null
+    note: null
+  - name: 食器・調理用具(木製・紙製)
+    reading_initial: し
+    category: burnable
+    price: null
+    note: ≪例≫はし・茶碗・お椀・スプーン・フォーク・ナイフ・コップ・お皿・グラス・なべ・フライパン・オタマ・まな板・やかん・ボウル・せいろ・ピーラーなど
+      ※素材に応じて分別 50cm以上は「粗大(400円)」
+  - name: 食器乾燥機
+    reading_initial: し
+    category: oversized
+    price: 400
+    note: システムキッチンのビルトインタイプは受入れ不可
+  - name: 食器洗浄機・食器洗浄乾燥機
+    reading_initial: し
+    category: oversized
+    price: 800
+    note: システムキッチンのビルトインタイプは受入れ不可
+  - name: 食用油
+    reading_initial: し
+    category: burnable
+    price: null
+    note: 固めるか紙や布などに染み込ませる ※生ごみ処理機はんのうキエーロでの処理推奨
+  - name: 新聞紙
+    reading_initial: し
+    category: paper_cloth
+    price: null
+    note: 束ねるか、紙袋に入れてヒモで十字にしばる ビニール袋は不可
+  - name: 人工芝
+    reading_initial: し
+    category: reference
+    price: null
+    note: 金額は「じゅうたん類」参照
+  - name: 敷きパッド(寝具)
+    reading_initial: し
+    category: paper_cloth
+    price: null
+    note: 汚れがひどいものは50㎝四方未満に切って「可燃」
+  - name: スーツケース(トランクケース)
+    reading_initial: す
+    category: oversized
+    price: 400
+    note: 50㎝未満は「不燃」
+  - name: スキー・スノーボード(板)
+    reading_initial: す
+    category: oversized
+    price: 800
+    note: スキーは1組、50㎝未満に切ったものは「不燃」
+  - name: スキー(ストック)
+    reading_initial: す
+    category: oversized
+    price: 400
+    note: 2本まで1点、50㎝未満に切ったものは「不燃」
+  - name: スキー(ブーツ)
+    reading_initial: す
+    category: non_burnable
+    price: null
+    note: null
+  - name: スキー(一式)
+    reading_initial: す
+    category: oversized
+    price: 1200
+    note: スキー板(1組)とストック(2本まで)
+  - name: スキーウェア
+    reading_initial: す
+    category: paper_cloth
+    price: null
+    note: 汚れがひどいものは「可燃」
+  - name: スキーバッグ(キャリア)
+    reading_initial: す
+    category: oversized
+    price: 400
+    note: null
+  - name: スケートボード
+    reading_initial: す
+    category: oversized
+    price: 400
+    note: 電動式は50cm未満でも「粗大(800円)」。バーなどが付いたものは「キックボード」参照
+  - name: スケート靴
+    reading_initial: す
+    category: non_burnable
+    price: null
+    note: 刃の部分はケースなどで保護
+  - name: すだれ
+    reading_initial: す
+    category: oversized
+    price: 400
+    note: 50㎝四方未満に切ったものは「可燃」、概ね1m以下×2m以下で1点
+  - name: スチームクリーナー
+    reading_initial: す
+    category: oversized
+    price: 400
+    note: ポータブル型で家庭用のもの。業務用は受入れ不可
+  - name: スチール棒(園芸支柱)
+    reading_initial: す
+    category: oversized
+    price: 400
+    note: 5本まで1点。50㎝未満に切れば「不燃」
+  - name: ステレオ(一式)
+    reading_initial: す
+    category: oversized
+    price: 1600
+    note: アンプ、チューナー、プレーヤー、デッキ、スピーカー2個まで。単品の場合や追加のユニットは(各400円)
+  - name: ストッキング
+    reading_initial: す
+    category: burnable
+    price: null
+    note: タイツ・レギンス・スパッツなど、汚れがなく再利用出来るものは「布」
+  - name: すのこ
+    reading_initial: す
+    category: burnable
+    price: null
+    note: 金具は「不燃」、50㎝以上は「粗大(400円)」(概ね1m以下×2m以下で1点)
+  - name: スピーカー
+    reading_initial: す
+    category: oversized
+    price: 400
+    note: 2個で1点
+  - name: スプレー缶(エアゾール缶)
+    reading_initial: す
+    category: hazardous
+    price: null
+    note: 中身は使い切り風通しの良い屋外で穴をあける、中身が出せない場合などはクリーンセンター持込限定で受入れ可
+  - name: スポンジ(清掃用、食器用、風呂用など)
+    reading_initial: す
+    category: plastic
+    price: null
+    note: 汚れがひどいものは「可燃」
+  - name: ズボンプレッサー
+    reading_initial: す
+    category: oversized
+    price: 400
+    note: null
+  - name: スレート(屋根材・波板材など)
+    reading_initial: す
+    category: not_collected
+    price: null
+    note: 受入れ不可
+  - name: 硯(すずり)
+    reading_initial: す
+    category: non_burnable
+    price: null
+    note: null
+  - name: 砂(砂利)
+    reading_initial: す
+    category: not_collected
+    price: null
+    note: 受入れ不可
+  - name: 水槽
+    reading_initial: す
+    category: non_burnable
+    price: null
+    note: プラ製は「プラ」、50㎝以上は「粗大(400円)」
+  - name: 水中ポンプ(家庭用)
+    reading_initial: す
+    category: oversized
+    price: 400
+    note: 風呂用、水槽用ポンプなど小型のものは「不燃」。ホースは別途「ホース」参照
+  - name: 炊飯器(電気式・ガス式)
+    reading_initial: す
+    category: non_burnable
+    price: null
+    note: 50cm以上は「粗大(400円)」
+  - name: セーター
+    reading_initial: せ
+    category: paper_cloth
+    price: null
+    note: 汚れているもの、再利用出来ないものは50㎝四方未満に切って「可燃」
+  - name: センサーライト
+    reading_initial: せ
+    category: non_burnable
+    price: null
+    note: 蛍光管式の「蛍光管」は取り外し「有害」
+  - name: 石こうボード
+    reading_initial: せ
+    category: not_collected
+    price: null
+    note: 受入れ不可
+  - name: 扇風機・サーキュレーター
+    reading_initial: せ
+    category: oversized
+    price: 400
+    note: 電池式・充電式で小型のものは「ハンディファン」参照
+  - name: 洗濯ばさみ
+    reading_initial: せ
+    category: non_burnable
+    price: null
+    note: 金具を取り外せば「プラ」、金具が取れなければ「不燃」
+  - name: 洗濯機
+    reading_initial: せ
+    category: not_collected
+    price: null
+    note: 家電リサイクル法対象品 ※Ｐ８参照
+  - name: 洗面台(陶器部分は受入不可)
+    reading_initial: せ
+    category: oversized
+    price: 1200
+    note: 上部(鏡部分)「粗大(800円)」下部(陶器部分除く)「粗大(400円)」
+  - name: ソーラーパネル(太陽光発電)
+    reading_initial: そ
+    category: not_collected
+    price: null
+    note: 受入れ不可
+  - name: ソーラーパネル(太陽光発電)可搬用
+    reading_initial: そ
+    category: non_burnable
+    price: null
+    note: 50cm未満は「不燃」、50㎝以上は「粗大(400円)」※簡易なもの
+  - name: 双眼鏡・単眼鏡
+    reading_initial: そ
+    category: non_burnable
+    price: null
+    note: 電池式、充電式のものは、電池は取り外し「有害」
+  - name: 掃除ロボット(ロボットクリーナー)
+    reading_initial: そ
+    category: oversized
+    price: 400
+    note: 充電機能以外のドッキングステーションは別途(400円)、一式(800円)
+  - name: 掃除ロボット用ドッキングステーション
+    reading_initial: そ
+    category: oversized
+    price: 400
+    note: 充電機能以外のドッキングステーション
+  - name: 掃除機(充電式コードレスタイプ含む)
+    reading_initial: そ
+    category: oversized
+    price: 400
+    note: スタンド等がある場合は別途(400円)、一式(800円)
+  - name: 掃除機(電池式・卓上型のもの)
+    reading_initial: そ
+    category: non_burnable
+    price: null
+    note: 電池は取り外し「有害」、充電式は卓上型など一部小型のもの
+  - name: 掃除用具(チリトリ・たわしなど)
+    reading_initial: そ
+    category: non_burnable
+    price: null
+    note: 素材に応じて分別、プラ製は「プラ」、50㎝以上は「粗大(400円)」
+  - name: 掃除用具(モップなど電動でないもの)
+    reading_initial: そ
+    category: oversized
+    price: 400
+    note: 5本まで1点、50㎝未満に切ったものは素材に応じて分別
+  - name: 掃除用具(電動式のブラシ、モップ)
+    reading_initial: そ
+    category: oversized
+    price: 400
+    note: 電動式のブラシ部分だけでも「粗大(400円)」
+  - name: タープ(アウトドア用)
+    reading_initial: た
+    category: oversized
+    price: 400
+    note: テント(アウトドア用)は(800円)
+  - name: タイヤ(自転車、一輪車などのホイール)
+    reading_initial: た
+    category: oversized
+    price: 400
+    note: 2本まで1点。ホイール、ゴムだけでも「粗大(400円)」。ゴムは50㎝未満に切れば「可燃」
+  - name: タイヤ(自動車、バイクなど)
+    reading_initial: た
+    category: not_collected
+    price: null
+    note: 受入れ不可、ホイールだけでも受入れ不可
+  - name: タイル
+    reading_initial: た
+    category: not_collected
+    price: null
+    note: 受入れ不可
+  - name: ダウンジャケット
+    reading_initial: た
+    category: paper_cloth
+    price: null
+    note: 汚れているもの、再利用出来ないものは50㎝四方未満に切って「可燃」
+  - name: タオル(タオルケット)
+    reading_initial: た
+    category: paper_cloth
+    price: null
+    note: 汚れているもの、再利用出来ないものは50㎝四方未満に切って「可燃」
+  - name: タブレット
+    reading_initial: た
+    category: non_burnable
+    price: null
+    note: 販売店への返却などを優先 ※Ｐ６も参照
+  - name: ダンベル(鉄アレイ)《1.5kg以上》
+    reading_initial: た
+    category: oversized
+    price: 400
+    note: 2個まで1点、15kg以上は(800円)。1.5kg未満は「不燃」、鉄の代わりにセメントや砂などを使用しているものは受入れ不可
+  - name: 畳(スタイロ畳・建材畳)
+    reading_initial: た
+    category: oversized
+    price: 400
+    note: 中身がウレタンなど本畳でないものでクリーンセンターで処理出来るもの。1畳分で1点
+  - name: 畳(本畳)
+    reading_initial: た
+    category: not_collected
+    price: null
+    note: 受入れ不可
+  - name: 体温計・温度計(水銀)
+    reading_initial: た
+    category: hazardous
+    price: null
+    note: 測定液の色が「銀色」のもの(ケースに入れて割れないようにして出す)
+  - name: 体温計・温度計(電子)
+    reading_initial: た
+    category: non_burnable
+    price: null
+    note: 電池は取り外し「有害」
+  - name: 体重計(ヘルスメーター)
+    reading_initial: た
+    category: non_burnable
+    price: null
+    note: 電池は取り外し「有害」、50㎝以上は「粗大(400円)」
+  - name: 台車(家庭用)
+    reading_initial: た
+    category: oversized
+    price: 400
+    note: 電動でないもの、電動式は(800円)
+  - name: 脱水機(電動式)
+    reading_initial: た
+    category: oversized
+    price: 1200
+    note: 家電リサイクル法対象外のもの、手動式で50cm未満は「不燃」
+  - name: 炭酸水メーカー(ソーダメーカー)
+    reading_initial: た
+    category: non_burnable
+    price: null
+    note: 50㎝以上は「粗大(400円)」、フロンガスを使用しているものは受入れ不可
+  - name: 炭酸水メーカー(ソーダメーカー)ボンベ
+    reading_initial: た
+    category: not_collected
+    price: null
+    note: ガスシリンダー・ボンベ・カートリッジはメーカー又は販売店へ。小型の使用済みガスシリンダーなどは「有害」で受入れ可
+  - name: 暖房器具(アウトドア専用)
+    reading_initial: た
+    category: oversized
+    price: 400
+    note: 燃料は必ず空にする、ポータブルタイプは「不燃」
+  - name: 暖房器具(オイルヒーター)
+    reading_initial: た
+    category: oversized
+    price: 800
+    note: 電気で機器内部のオイルを温めるタイプのもの、オイル抜きは不要
+  - name: 暖房器具(カセットボンベ式・ガス式)
+    reading_initial: た
+    category: oversized
+    price: 400
+    note: カセットボンベは「カセットボンベ」の欄参照、50cm未満は「不燃」
+  - name: 暖房器具(セントラルヒーティング)
+    reading_initial: た
+    category: not_collected
+    price: null
+    note: 温水式、温風式ともに受入れ不可
+  - name: 暖房器具(薪・ペレット)
+    reading_initial: た
+    category: oversized
+    price: 400
+    note: 灰などは取り除く、煙突は別途、鋳物製のストーブは(800円)
+  - name: 暖房器具(電気式)
+    reading_initial: た
+    category: oversized
+    price: 400
+    note: カーボン・パネル・ハロゲン・シーズなど。50cm未満は「不燃」
+  - name: 暖房器具(電気式ファンヒーター)
+    reading_initial: た
+    category: oversized
+    price: 400
+    note: セラミックファンヒーターなど温風がでるもの
+  - name: 暖房器具(灯油式)
+    reading_initial: た
+    category: oversized
+    price: 400
+    note: 石油ファンヒーター、石油ストーブなど。灯油等は必ず空にする、電池は取り外し「有害」
+  - name: 段ボール
+    reading_initial: た
+    category: paper_cloth
+    price: null
+    note: 折りたたんでヒモで十字にしばる 金属は取り除いて「不燃」
+  - name: チェーン(自動車タイヤ装着用)
+    reading_initial: ち
+    category: oversized
+    price: 400
+    note: 2本分まで1点
+  - name: チェーンロック(自転車、バイク用)
+    reading_initial: ち
+    category: non_burnable
+    price: null
+    note: 伸ばした状態で、50㎝以上は「粗大(400円)」
+  - name: チェスト(衣類収納)
+    reading_initial: ち
+    category: reference
+    price: null
+    note: プラスチック製や籐製は「家具(整理箱)」、家具調のものは「家具(棚)」参照
+  - name: チャイルドシート・ジュニアシート
+    reading_initial: ち
+    category: oversized
+    price: 400
+    note: 50cm未満は素材に応じて分別
+  - name: チューナー(ＢＳ・ＣＳなど)
+    reading_initial: ち
+    category: oversized
+    price: 400
+    note: null
+  - name: チューブ(自転車など)
+    reading_initial: ち
+    category: oversized
+    price: 400
+    note: 長さ50㎝未満に切れば「可燃」、金具は「不燃」
+  - name: 治療器(高〈低〉周波)家庭用
+    reading_initial: ち
+    category: non_burnable
+    price: null
+    note: 電池は取り外し「有害」、50㎝以上は「粗大(400円)」、ハンディタイプ以外の治療器は50cm未満でも「粗大(400円)」。業務用は受入れ不可
+  - name: 治療器(赤外線・吸入器)家庭用
+    reading_initial: ち
+    category: oversized
+    price: 400
+    note: 業務用は受入れ不可
+  - name: 着火剤
+    reading_initial: ち
+    category: burnable
+    price: null
+    note: ジェル状のチューブ式のものは中身を使い切る
+  - name: 注射器・注射針
+    reading_initial: ち
+    category: not_collected
+    price: null
+    note: 医療機関へ返却
+  - name: 調理器具(クッキングヒーター)《電熱・IH》
+    reading_initial: ち
+    category: oversized
+    price: 800
+    note: 50㎝未満は「不燃」、ビルトインタイプで業者が交換したものは受入れ不可
+  - name: 調理器具(ジューサーミキサー)
+    reading_initial: ち
+    category: oversized
+    price: 400
+    note: ジューサー・ミキサー・泡だて器・ハンドミキサー・ブレンダーなど。乾電池式などの一部小型のものは「不燃」
+  - name: 調理器具(トースター・オーブントースター)
+    reading_initial: ち
+    category: non_burnable
+    price: null
+    note: 50㎝以上は「粗大(400円)」
+  - name: 調理器具(フードプロセッサー)
+    reading_initial: ち
+    category: oversized
+    price: 400
+    note: null
+  - name: 調理器具(ホームベーカリー・パン焼き機)
+    reading_initial: ち
+    category: oversized
+    price: 400
+    note: 餅つき機能のあるものも含む
+  - name: 調理器具(ホットプレート・グリル鍋)
+    reading_initial: ち
+    category: non_burnable
+    price: null
+    note: たこ焼き器・ホットサンド・ワッフルなど、50㎝以上は「粗大(400円)」
+  - name: 調理器具(魚焼き・ロースターグリル)
+    reading_initial: ち
+    category: non_burnable
+    price: null
+    note: 電気式。50㎝以上は「粗大(400円)」
+  - name: 調理器具(調理用計量器)
+    reading_initial: ち
+    category: non_burnable
+    price: null
+    note: キッチンスケール・クッキングスケールなど、電池は取り外し「有害」
+  - name: 調理器具(電気式でないもの)
+    reading_initial: ち
+    category: reference
+    price: null
+    note: 「食器・調理用具」参照
+  - name: 調理器具(電子レンジ・オーブンレンジ)
+    reading_initial: ち
+    category: oversized
+    price: 800
+    note: レンジ機能のないオーブンも「粗大」
+  - name: 調理器具(鍋)なべ・圧力鍋・電気圧力鍋
+    reading_initial: ち
+    category: non_burnable
+    price: null
+    note: アルミ・鉄・ステンレス・ホーロー・銅など。業務用は受入れ不可
+  - name: 漬け物石
+    reading_initial: つ
+    category: not_collected
+    price: null
+    note: 受入れ不可
+  - name: 釣竿
+    reading_initial: つ
+    category: oversized
+    price: 400
+    note: 5本まで1点、収納寸法50㎝未満は使用素材に応じて分別
+  - name: 土
+    reading_initial: つ
+    category: not_collected
+    price: null
+    note: 受入れ不可
+  - name: 突っ張り棚、突っ張り棒
+    reading_initial: つ
+    category: oversized
+    price: 400
+    note: 突っ張り棒は5本まで1点。50㎝未満は「不燃」
+  - name: ＤＶＤ-ＲＯＭドライブ
+    reading_initial: て
+    category: oversized
+    price: 400
+    note: ＣＤ、ブルーレイなども同様
+  - name: ＤＶＤプレーヤー(レコーダー)
+    reading_initial: て
+    category: oversized
+    price: 400
+    note: ポータブル(充電式・電池式)も「粗大」、電池は取り外し「有害」
+  - name: テープ(スズランテープ)
+    reading_initial: て
+    category: plastic
+    price: null
+    note: ビニール製、平テープ(梱包、飾りつけ用)
+  - name: テープ(粘着テープ・非粘着テープ)
+    reading_initial: て
+    category: burnable
+    price: null
+    note: ガムテープ、養生テープ、セロテープ、リボンテープなど
+  - name: テレビ(ブラウン管、液晶、プラズマ、有機ＥＬ)
+    reading_initial: て
+    category: not_collected
+    price: null
+    note: 家電リサイクル法対象品 ※Ｐ８参照
+  - name: テレビ(プロジェクションテレビ)
+    reading_initial: て
+    category: oversized
+    price: 1600
+    note: 家電リサイクル法対象外のもの
+  - name: テレビ(ポータブルタイプ)《10型以上》
+    reading_initial: て
+    category: oversized
+    price: 400
+    note: 家電リサイクル法対象外で充電式や乾電池式のもの、電池は取り外し「有害」。ブラウン管タイプは受入れ不可
+  - name: テレビ(ポータブルタイプ)《10型未満》
+    reading_initial: て
+    category: non_burnable
+    price: null
+    note: 家電リサイクル法対象外で充電式や乾電池式のもの、電池は取り外し「有害」。ブラウン管タイプは受入れ不可
+  - name: テレビ台
+    reading_initial: て
+    category: reference
+    price: null
+    note: 金額は「家具(棚)」参照、スピーカー付き含む
+  - name: テント(アウトドア用)
+    reading_initial: て
+    category: oversized
+    price: 800
+    note: タープ(アウトドア用)は(400円)
+  - name: 鉄アレイ(ダンベル)《1.5kg以上》
+    reading_initial: て
+    category: oversized
+    price: 400
+    note: 2個まで1点、15kg以上は(800円)。1.5kg未満は「不燃」、鉄の代わりにセメントや砂などを使用しているものは受入れ不可
+  - name: 鉄パイプ
+    reading_initial: て
+    category: oversized
+    price: 400
+    note: 50cm未満は「不燃」、クリーンセンターで処理出来ないものは受入れ不可
+  - name: 鉄板(アウトドア用)
+    reading_initial: て
+    category: non_burnable
+    price: null
+    note: 50㎝以上は「粗大(400円)」
+  - name: 電気カミソリ(電気シェーバー)
+    reading_initial: て
+    category: non_burnable
+    price: null
+    note: 電池は取り外して「有害」、充電式で電池が取り外せないものは「有害」
+  - name: 電気コード
+    reading_initial: て
+    category: non_burnable
+    price: null
+    note: 軽く結ぶ
+  - name: 電気スタンド(卓上用、インテリア用)
+    reading_initial: て
+    category: non_burnable
+    price: null
+    note: 50㎝以上は「粗大(400円)」、蛍光管や電池は取り外して「有害」
+  - name: 電気座布団(電気マット)
+    reading_initial: て
+    category: oversized
+    price: 400
+    note: 50㎝四方未満に切ったものは「可燃」、コントローラーやコードは「不燃」
+  - name: 電気毛布(ブランケット・ひざ掛け)
+    reading_initial: て
+    category: oversized
+    price: 400
+    note: 50㎝四方未満に切ったものは「可燃」、コントローラーやコードは「不燃」
+  - name: 電球(白熱、ＬＥＤ)
+    reading_initial: て
+    category: non_burnable
+    price: null
+    note: ガラス製は、ケースや紙類に包み安全な状態で。蛍光管タイプは「有害」
+  - name: 電子式たばこ
+    reading_initial: て
+    category: hazardous
+    price: null
+    note: 収集時など発火の恐れがあるため必ず「有害」
+  - name: 電卓(計算機)
+    reading_initial: て
+    category: non_burnable
+    price: null
+    note: 電池は取り外し「有害」
+  - name: 電動キックボード
+    reading_initial: て
+    category: oversized
+    price: 1600
+    note: エンジン式や公道仕様は受入れ不可
+  - name: 電話機(固定電話)
+    reading_initial: て
+    category: non_burnable
+    price: null
+    note: ＦＡＸ機能付は「粗大(400円)」、コードレスの電池は取り外し「有害」
+  - name: トイレ(簡易トイレ・ポータブルトイレ)
+    reading_initial: と
+    category: oversized
+    price: 400
+    note: 幼児用「おまる」など50cm未満は素材に応じて分別
+  - name: トタン板(波板・平板など)
+    reading_initial: と
+    category: oversized
+    price: 400
+    note: 50㎝四方未満に切れば「不燃」、概ね1ｍ以下×2ｍ以下で1点
+  - name: ドライヤー(ヘアドライヤー)
+    reading_initial: と
+    category: non_burnable
+    price: null
+    note: null
+  - name: 時計(壁掛け時計、腕時計、置き時計)
+    reading_initial: と
+    category: non_burnable
+    price: null
+    note: 電池は取り外し「有害」、50㎝以上は「粗大(400円)」
+  - name: 塗料缶
+    reading_initial: と
+    category: non_burnable
+    price: null
+    note: 中身を必ず使い切る、業者が使用したものは受入れ不可
+  - name: 灯油タンク《18L・20L》
+    reading_initial: と
+    category: burnable
+    price: null
+    note: 中身は必ず空にする
+  - name: 灯油ポンプ(家庭用)
+    reading_initial: と
+    category: burnable
+    price: null
+    note: 手動式は「可燃」、電動式は「不燃」、電池は取り外し「有害」
+  - name: 道具(鋭利なもの)
+    reading_initial: と
+    category: non_burnable
+    price: null
+    note: 紙などに包んで安全な状態で出す、50cm以上は「粗大(400円)」
+  - name: 道具(金属があるもの)《50cm未満》
+    reading_initial: と
+    category: non_burnable
+    price: null
+    note: ドライバー・ペンチ・バール・モンキー・金づち・砥石など
+  - name: 道具(刃があるもの)
+    reading_initial: と
+    category: non_burnable
+    price: null
+    note: ハサミ・ナイフ・ノコギリ・カンナ・鎌・剪定バサミ・ノミ・キリなど。紙などに包んで安全な状態で出す、50cm以上は「粗大(400円)」
+  - name: 道具《50cm以上》
+    reading_initial: と
+    category: oversized
+    price: 400
+    note: 高枝バサミ・スコップ・大ハンマー・クワ・スキ・園芸用道具など
+  - name: 生ごみ
+    reading_initial: な
+    category: burnable
+    price: null
+    note: 軽く絞り水気を切る ※生ごみ処理機はんのうキエーロでの処理推奨
+  - name: 生ごみ処理機(電気式)
+    reading_initial: な
+    category: oversized
+    price: 800
+    note: 中身は取り除く
+  - name: 生ごみ処理容器(コンポスター)
+    reading_initial: な
+    category: oversized
+    price: 400
+    note: 中身は取り除く、木製も「粗大(400円)」、50cm未満は素材で分別
+  - name: 長靴(釣り用も含む)
+    reading_initial: な
+    category: burnable
+    price: null
+    note: 50㎝以上は「粗大(400円)」、50㎝未満に切れば「可燃」
+  - name: 波板(プラスチック製・金属製)
+    reading_initial: な
+    category: oversized
+    price: 400
+    note: 50㎝四方未満に切ったものは素材で分別、概ね1ｍ以下×2ｍ以下で1点
+  - name: 人形
+    reading_initial: に
+    category: burnable
+    price: null
+    note: 50㎝以上は「粗大(400円)」 ※ケースは別途
+  - name: 人形ケース
+    reading_initial: に
+    category: non_burnable
+    price: null
+    note: ケースのみ、50㎝以上は「粗大(400円)」
+  - name: ぬいぐるみ
+    reading_initial: ぬ
+    category: burnable
+    price: null
+    note: 50㎝以上は「粗大(400円)」
+  - name: ネット(ゴルフ、園芸用等)
+    reading_initial: ね
+    category: oversized
+    price: 400
+    note: 50㎝四方未満に切ったものは「可燃」
+  - name: 寝袋・シェラフ(アウトドア用)
+    reading_initial: ね
+    category: oversized
+    price: 400
+    note: 50㎝四方未満に切ったものは「可燃」
+  - name: 粘土(工作用)
+    reading_initial: ね
+    category: burnable
+    price: null
+    note: 油粘土・樹脂粘土・紙粘土 ※土粘土は受入れ不可
+  - name: 農機具(耕運機、茶刈機)
+    reading_initial: の
+    category: not_collected
+    price: null
+    note: 受入れ不可
+  - name: 農業用シート(家庭菜園)
+    reading_initial: の
+    category: burnable
+    price: null
+    note: 50㎝四方未満に切って、50㎝以上は「粗大(400円)」
+  - name: 農薬
+    reading_initial: の
+    category: not_collected
+    price: null
+    note: 受入れ不可
+  - name: 農薬(除草剤など)容器
+    reading_initial: の
+    category: burnable
+    price: null
+    note: 中身を必ず使い切り水ですすぐ。びんの容器は「不燃」。内容物は受入れ不可
+  - name: バーベル
+    reading_initial: は
+    category: oversized
+    price: 400
+    note: バーの重さも含め15kg以上は(800円)、台は別途(400円)、鉄の代わりにセメントや砂などを使用しているものは受入れ不可
+  - name: バイク用リアボックス(収納ボックス)
+    reading_initial: は
+    category: non_burnable
+    price: null
+    note: 50㎝以上は「粗大(400円)」
+  - name: パイプハンガー(ハンガーラック)
+    reading_initial: は
+    category: oversized
+    price: 400
+    note: 主にパイプなどフレームがメインのもの
+  - name: はがき
+    reading_initial: は
+    category: paper_cloth
+    price: null
+    note: 光沢のある写真プリントはリサイクル不可のため「可燃」、個人情報があるものも「可燃」
+  - name: はしご
+    reading_initial: は
+    category: oversized
+    price: 800
+    note: 伸ばした寸法で1.5m未満は(400円)
+  - name: パソコン
+    reading_initial: は
+    category: not_collected
+    price: null
+    note: 資源有効利用促進法指定品目(リネットジャパン、メーカー、販売店へ依頼) ※Ｐ７参照
+  - name: パソコンラック・パソコンデスク
+    reading_initial: は
+    category: reference
+    price: null
+    note: 50cm未満は不燃、パソコンラックは「家具(ラック)」参照、パソコンデスクは「家具(机)」参照
+  - name: パソコン周辺機器
+    reading_initial: は
+    category: non_burnable
+    price: null
+    note: マウス、キーボード、ルーターなど。50㎝以上は「粗大(400円)」
+  - name: バッグ(デイバッグ・リュックサックなど)
+    reading_initial: は
+    category: burnable
+    price: null
+    note: 金具が多いものは「不燃」、50㎝以上は「粗大(400円)」
+  - name: バッテリー(自動車・バイク用等)
+    reading_initial: は
+    category: not_collected
+    price: null
+    note: 受入れ不可
+  - name: バット(野球)
+    reading_initial: は
+    category: oversized
+    price: 400
+    note: 2本まで1点、50㎝未満に切ったものは素材に応じて分別
+  - name: バリカン(電気式、手動式)
+    reading_initial: は
+    category: non_burnable
+    price: null
+    note: 電池は取り外し「有害」、充電式のものは「有害」。樹木などに使用する「バリカン」は「工具」参照
+  - name: ハンガー(プラ製)
+    reading_initial: は
+    category: plastic
+    price: null
+    note: 金属製や金属が取り外せないものは「不燃」
+  - name: ハンディーファン
+    reading_initial: は
+    category: hazardous
+    price: null
+    note: 充電式のものは「有害」、電池式は「不燃」、電池は取り外し「有害」
+  - name: 花火(未使用)
+    reading_initial: は
+    category: drop_off_only
+    price: null
+    note: 使用したものは火薬部分を十分水で濡らして「可燃」
+  - name: 花台(植木鉢台・フラワースタンド)
+    reading_initial: は
+    category: oversized
+    price: 400
+    note: 50cm未満のものは素材に応じて分別
+  - name: 灰(家庭用)
+    reading_initial: は
+    category: drop_off_only
+    price: null
+    note: 水をかけ火種を完全になくし袋に入れて持ち込む
+  - name: 歯ブラシ(電動式)
+    reading_initial: は
+    category: non_burnable
+    price: null
+    note: 電池は取り外し「有害」、電池が取り外せないものは「有害」
+  - name: 破魔矢(はまや)
+    reading_initial: は
+    category: burnable
+    price: null
+    note: 50㎝以上は「粗大(400円/5本まで)」
+  - name: 廃油(自動車オイル)
+    reading_initial: は
+    category: not_collected
+    price: null
+    note: 販売店、ガソリンスタンドへ問い合わせ
+  - name: 廃油(自動車オイル)廃油処理箱
+    reading_initial: は
+    category: drop_off_only
+    price: null
+    note: 6L以下で廃油処理箱を使用した場合
+  - name: 廃油(食用油)
+    reading_initial: は
+    category: burnable
+    price: null
+    note: 固めるか紙や布に染み込ませる ※生ごみ処理機はんのうキエーロでの処理推奨
+  - name: 発煙筒(未使用のもの)
+    reading_initial: は
+    category: drop_off_only
+    price: null
+    note: ディーラー、カー用品店等への返却優先、使い切ったものは「可燃」
+  - name: 発泡スチロール(家庭)
+    reading_initial: は
+    category: plastic
+    price: null
+    note: 事業活動によるものは受入れ不可
+  - name: 半紙
+    reading_initial: は
+    category: paper_cloth
+    price: null
+    note: 墨が付いているものはリサイクル不可のため「可燃」
+  - name: ビーチパラソル
+    reading_initial: ひ
+    category: oversized
+    price: 400
+    note: null
+  - name: ビールサーバ(家庭用、ボンベは別)
+    reading_initial: ひ
+    category: oversized
+    price: 400
+    note: フロンガスを使用しているものは受入れ不可
+  - name: ビールサーバ用ボンベ(家庭用)
+    reading_initial: ひ
+    category: not_collected
+    price: null
+    note: ガスシリンダー・ボンベ・カートリッジはメーカー又は販売店へ。小型の使用済みガスシリンダーなどは「有害」で受入れ可
+  - name: ひげそり(電池式、充電式)
+    reading_initial: ひ
+    category: non_burnable
+    price: null
+    note: 電池は取り外し「有害」、電池が取り外せない充電式のものは「有害」
+  - name: ビデオカメラ(磁気テープ、ＤＶＤ、ＨＤＤ)
+    reading_initial: ひ
+    category: non_burnable
+    price: null
+    note: 電池は取り外し「有害」
+  - name: ビデオテープ
+    reading_initial: ひ
+    category: burnable
+    price: null
+    note: テープ本体を入れるケース(プラ製)は「プラ」、紙は「雑がみ」
+  - name: ビデオデッキ
+    reading_initial: ひ
+    category: oversized
+    price: 400
+    note: ビデオ・ＨＤＤ・ＤＶＤ・ブルーレイなど
+  - name: ひな壇(5段以上)
+    reading_initial: ひ
+    category: oversized
+    price: 800
+    note: 付属品や人形は素材に応じて分別
+  - name: ひな壇(5段未満)
+    reading_initial: ひ
+    category: oversized
+    price: 400
+    note: 付属品や人形は素材に応じて分別
+  - name: びん(飲料、食用、薬用)
+    reading_initial: ひ
+    category: reference
+    price: null
+    note: びん。中身を使い切り軽くすすいで出す、ふたは素材に応じて分別
+  - name: びん(飲料、食用、薬用以外)
+    reading_initial: ひ
+    category: non_burnable
+    price: null
+    note: 中身を使い切り軽くすすいで出す、ふたは素材に応じて分別
+  - name: 美容器具(フェイススチーマーなど)
+    reading_initial: ひ
+    category: oversized
+    price: 400
+    note: 業務用は受入れ不可
+  - name: 美容器具(手動マッサージ器具)
+    reading_initial: ひ
+    category: non_burnable
+    price: null
+    note: 美容ローラー、洗顔器など小型のもの。電池は取り外し「有害」
+  - name: ファックス
+    reading_initial: ふ
+    category: oversized
+    price: 400
+    note: プリンターなどの機能がついている複合機は(800円)
+  - name: ファックス用インクリボン
+    reading_initial: ふ
+    category: burnable
+    price: null
+    note: 店頭リサイクル回収を優先
+  - name: フィルター(換気扇・エアコン用など)
+    reading_initial: ふ
+    category: burnable
+    price: null
+    note: 金属が取り外せないものは「不燃」、50cm以上は「粗大(400円)」
+  - name: プール(幼児用ビニール製)
+    reading_initial: ふ
+    category: oversized
+    price: 400
+    note: 50㎝四方未満に切ったものは「プラ」(汚れがひどいものは「可燃」)
+  - name: フォトフレーム(液晶タイプ)
+    reading_initial: ふ
+    category: non_burnable
+    price: null
+    note: 電池は取り外し「有害」、50cm以上は「粗大(400円)」 ※Ｐ６も参照
+  - name: フットバス(足湯・電気式)
+    reading_initial: ふ
+    category: oversized
+    price: 400
+    note: 50cm未満で保温機能だけのものは「不燃」
+  - name: ブラインド
+    reading_initial: ふ
+    category: oversized
+    price: 400
+    note: 取付幅1.5m以上は(800円)
+  - name: プランター(園芸用)
+    reading_initial: ふ
+    category: plastic
+    price: null
+    note: 50cm未満で汚れていれば「可燃」、50㎝以上は「粗大(400円/5個まで)」
+  - name: プリンター(インク式で多機能式以外)
+    reading_initial: ふ
+    category: oversized
+    price: 400
+    note: 電池式など特に小型のものは「不燃」
+  - name: プリンター(多機能式)
+    reading_initial: ふ
+    category: oversized
+    price: 800
+    note: コピー、スキャナー機能を兼ね備えたものやレーザー式
+  - name: ブルーレイプレイヤー(レコーダー)
+    reading_initial: ふ
+    category: oversized
+    price: 400
+    note: ポータブル(充電式・電池式)も「粗大」、電池は取り外し「有害」
+  - name: フローリングマット
+    reading_initial: ふ
+    category: plastic
+    price: null
+    note: 50㎝以上は「粗大」、金額は「じゅうたん類」の欄参照
+  - name: プロジェクター
+    reading_initial: ふ
+    category: oversized
+    price: 400
+    note: バッテリー式ポータブルタイプは「不燃」、電池は取り外し「有害」
+  - name: ブロック(コンクリート製など)
+    reading_initial: ふ
+    category: not_collected
+    price: null
+    note: 受入れ不可
+  - name: ブロワーポンプ(家庭浄化槽用)
+    reading_initial: ふ
+    category: oversized
+    price: 400
+    note: 家庭用の小型のもの、業者が施工したものは業者で処分
+  - name: 襖(ふすま)
+    reading_initial: ふ
+    category: oversized
+    price: 400
+    note: 業者によるリフォーム等で発生したものは受入れ不可
+  - name: 布団・こたつ布団
+    reading_initial: ふ
+    category: oversized
+    price: 400
+    note: 50㎝四方未満に切ったものは「可燃」
+  - name: 封筒
+    reading_initial: ふ
+    category: paper_cloth
+    price: null
+    note: ビニール、シールは取り除く ※Ｐ４参照
+  - name: 風呂の蓋
+    reading_initial: ふ
+    category: oversized
+    price: 400
+    note: 50㎝四方未満に切ったものは素材に応じて分別、(分割でも一式扱い)
+  - name: 噴霧器(家庭用手動蓄圧式)
+    reading_initial: ふ
+    category: non_burnable
+    price: null
+    note: 50㎝以上は「粗大(400円)」
+  - name: 噴霧器(家庭用電池式、電動式)
+    reading_initial: ふ
+    category: oversized
+    price: 400
+    note: 電池は取り外し「有害」、エンジン式は受入れ不可
+  - name: 文房具(50cm未満で金属のあるもの)
+    reading_initial: ふ
+    category: non_burnable
+    price: null
+    note: 電池は取り外し「有害」、分解出来るものは素材ごとに分別
+  - name: 文房具(50cm未満で金属のないもの)
+    reading_initial: ふ
+    category: burnable
+    price: null
+    note: 分解出来るものは素材ごとに分別
+  - name: ベッド(2段以上、折りたたみベッド)
+    reading_initial: へ
+    category: oversized
+    price: 1600
+    note: マットレスは別途(400円)、スプリング入りマットレスは受入れ不可
+  - name: ベッド(ウオーターベッド)
+    reading_initial: へ
+    category: oversized
+    price: 1600
+    note: 中身が出せない場合は受入れ不可
+  - name: ベッド(エアーベッド)
+    reading_initial: へ
+    category: oversized
+    price: 800
+    note: 空気は抜く
+  - name: ベッド(サマーベッド・ボンボンベッド)
+    reading_initial: へ
+    category: oversized
+    price: 400
+    note: ビーチベッド、アウトドア用ベッドなど簡易的なもの
+  - name: ベッド(シングル、ダブル)
+    reading_initial: へ
+    category: oversized
+    price: 1600
+    note: マットレスは別途(400円)、スプリング入りマットレスは受入れ不可
+  - name: ベッド(ベビーベッド)
+    reading_initial: へ
+    category: oversized
+    price: 800
+    note: 小児用ベッド サークルベッドなど
+  - name: ベッド(電動式)
+    reading_initial: へ
+    category: oversized
+    price: 1600
+    note: 自宅で使用していたもの、業務用は受入れ不可
+  - name: ベッドカバー
+    reading_initial: へ
+    category: paper_cloth
+    price: null
+    note: 汚れがひどいものは50㎝四方未満に切って「可燃」
+  - name: ペットキャリー(ペット運搬用ケージ)
+    reading_initial: へ
+    category: non_burnable
+    price: null
+    note: 50㎝以上は「粗大(400円)」
+  - name: ペットケージ(ペットサークル)
+    reading_initial: へ
+    category: oversized
+    price: 400
+    note: 一式
+  - name: ペットシート(トイレ用シート)
+    reading_initial: へ
+    category: burnable
+    price: null
+    note: null
+  - name: ぺットボトル
+    reading_initial: へ
+    category: reference
+    price: null
+    note: ペット。キャップ、ラベルは取り外して「プラ」、中身をすすぐ
+  - name: ペット用トイレの砂
+    reading_initial: へ
+    category: burnable
+    price: null
+    note: 本物の砂でないもの、少量ずつ出す、本物の砂は受入れ不可
+  - name: ベビーカー(乳母車)
+    reading_initial: へ
+    category: oversized
+    price: 400
+    note: null
+  - name: ベビーサークル(ベビーゲート)
+    reading_initial: へ
+    category: oversized
+    price: 400
+    note: 一式
+  - name: ベビーバス
+    reading_initial: へ
+    category: oversized
+    price: 400
+    note: null
+  - name: ヘルスメーター(体重計)
+    reading_initial: へ
+    category: non_burnable
+    price: null
+    note: 電池は取り外し「有害」、50㎝以上は「粗大(400円)」
+  - name: ベルト(衣服用など)
+    reading_initial: へ
+    category: burnable
+    price: null
+    note: ベルト部分は「可燃」、金具部分は「不燃」
+  - name: ヘルメット(バイク、自転車、スポーツ用)
+    reading_initial: へ
+    category: non_burnable
+    price: null
+    note: 金具がなければ「可燃」、事業で使用したものは受入れ不可
+  - name: ベンチ(縁台)《1m以上》
+    reading_initial: へ
+    category: oversized
+    price: 800
+    note: 簡単に移動できる細長い腰掛け台
+  - name: ベンチ(縁台)《1m未満》
+    reading_initial: へ
+    category: oversized
+    price: 400
+    note: 簡単に移動できる細長い腰掛け台
+  - name: 便器(陶器製)
+    reading_initial: へ
+    category: not_collected
+    price: null
+    note: 受入れ不可
+  - name: 便座(機能のないもの)
+    reading_initial: へ
+    category: plastic
+    price: null
+    note: 50㎝以上は「粗大(400円)」、汚れがひどいものは「可燃」
+  - name: 便座(暖房便座・温水洗浄便座)
+    reading_initial: へ
+    category: oversized
+    price: 400
+    note: 多機能便座
+  - name: ほうき(座敷ぼうき、高ぼうき、竹ぼうき等)
+    reading_initial: ほ
+    category: oversized
+    price: 400
+    note: 5本まで1点、50㎝未満に切ったものは素材に応じて分別
+  - name: ホース
+    reading_initial: ほ
+    category: oversized
+    price: 400
+    note: 50㎝未満に切ったものは素材に応じて分別
+  - name: ホースリール(ホース除く)
+    reading_initial: ほ
+    category: non_burnable
+    price: null
+    note: ホースを含むものは「粗大(400円)」
+  - name: ポータブル電源(鉛バッテリー仕様)
+    reading_initial: ほ
+    category: not_collected
+    price: null
+    note: 充電式100V出力のもの、受入れ不可
+  - name: ボート(ゴム製)《フィッシングボート等》
+    reading_initial: ほ
+    category: oversized
+    price: 1600
+    note: 船外機が取付けられるタイプなど本格的なゴムボートは受入れ不可
+  - name: ボート(ビニール製)《主にプール用》
+    reading_initial: ほ
+    category: oversized
+    price: 400
+    note: 50㎝未満に切ったものは「プラ」
+  - name: ボール(野球、ゴルフ、サッカー等球技用)
+    reading_initial: ほ
+    category: burnable
+    price: null
+    note: ボウリングのボールは受入れ不可、販売店などへ問い合わせ
+  - name: ポット(魔法瓶・電気ポット・電気ケトル)
+    reading_initial: ほ
+    category: non_burnable
+    price: null
+    note: null
+  - name: ボディーボード
+    reading_initial: ほ
+    category: oversized
+    price: 400
+    note: null
+  - name: ボトル(食用油・ドレッシング用など)
+    reading_initial: ほ
+    category: plastic
+    price: null
+    note: 中身を使い切り軽くすすぐ
+  - name: ポリタンク(水用)
+    reading_initial: ほ
+    category: plastic
+    price: null
+    note: 汚れがひどいものは「可燃」、中身は空にする、50cm以上は「粗大(400円)」。灯油用は「灯油タンク」参照
+  - name: ホワイトボード(白板・掲示板)
+    reading_initial: ほ
+    category: non_burnable
+    price: null
+    note: 50㎝以上は「粗大(400円)」 脚付きは「粗大(800円)」
+  - name: ボンベ(プロパンガス用)
+    reading_initial: ほ
+    category: not_collected
+    price: null
+    note: 受入れ不可、購入先などへ依頼
+  - name: 保冷剤
+    reading_initial: ほ
+    category: burnable
+    price: null
+    note: null
+  - name: 歩行器(乳幼児用・介護用・リハビリ用)
+    reading_initial: ほ
+    category: oversized
+    price: 400
+    note: 介護、リハビリ用は個人で所有しているものに限る
+  - name: 包丁
+    reading_initial: ほ
+    category: non_burnable
+    price: null
+    note: ケースや紙袋に包み安全な状態で(「包丁」と表示)
+  - name: 望遠鏡
+    reading_initial: ほ
+    category: oversized
+    price: 400
+    note: 三脚は別途(400円)。望遠鏡、三脚(収納寸法)とも50cm未満は「不燃」
+  - name: 防虫剤(スプレータイプ)
+    reading_initial: ほ
+    category: hazardous
+    price: null
+    note: 「スプレー缶」参照、煙タイプは「殺虫剤」参照
+  - name: 防虫剤(スプレータイプでないもの)
+    reading_initial: ほ
+    category: burnable
+    price: null
+    note: 中身を使い切る。プラ製は中身を空にして、すすいで「プラ」
+  - name: 防犯カメラ(ダミーカメラ等)
+    reading_initial: ほ
+    category: non_burnable
+    price: null
+    note: 電池は取り外し「有害」
+  - name: 防犯ブザー
+    reading_initial: ほ
+    category: non_burnable
+    price: null
+    note: 電池は取り外し「有害」
+  - name: まくら
+    reading_initial: ま
+    category: burnable
+    price: null
+    note: 50㎝以上は「粗大(400円)」
+  - name: マッサージ機(チェア型)
+    reading_initial: ま
+    category: oversized
+    price: 1600
+    note: 業務用は受入れ不可
+  - name: マッサージ機(座いす型)
+    reading_initial: ま
+    category: oversized
+    price: 800
+    note: null
+  - name: マッサージ機(小型)
+    reading_initial: ま
+    category: oversized
+    price: 400
+    note: ハンディータイプは「不燃」、電池は取り外し「有害」
+  - name: マッチ(未使用のもの)
+    reading_initial: ま
+    category: drop_off_only
+    price: null
+    note: 使い切ったものは「可燃」(十分水で濡らしてから出す)
+  - name: マット
+    reading_initial: ま
+    category: oversized
+    price: 400
+    note: 玄関マット・バスマット・キッチンマット、50㎝未満に切ったものは素材に応じて分別
+  - name: マットレス(スプリングなし)
+    reading_initial: ま
+    category: oversized
+    price: 400
+    note: スプリング入りのマットレスは受入れ不可
+  - name: ミシン(足踏み式)
+    reading_initial: み
+    category: oversized
+    price: 1200
+    note: 業務用は受入れ不可
+  - name: ミシン(電動卓上式)
+    reading_initial: み
+    category: oversized
+    price: 400
+    note: 玩具で50cm未満は「不燃」、電池は取り外し「有害」
+  - name: ミニコンポ
+    reading_initial: み
+    category: oversized
+    price: 800
+    note: 本体(一体式)とスピーカー2個。本体、スピーカー単品は(各400円)
+  - name: 虫取り網
+    reading_initial: む
+    category: oversized
+    price: 400
+    note: 50㎝未満に切ったものは素材に応じて分別、5本まで1点
+  - name: 面(野球、剣道等の防具)
+    reading_initial: め
+    category: non_burnable
+    price: null
+    note: 50cm未満で金属のないものは「可燃」、※剣道等の防具は「剣道具」の欄参照
+  - name: モバイルバッテリー
+    reading_initial: も
+    category: hazardous
+    price: null
+    note: 収集時など発火の恐れがあるため必ず「有害」
+  - name: モペット(ペダル付原動機付自転車)
+    reading_initial: も
+    category: not_collected
+    price: null
+    note: 受入れ不可。販売店、メーカーなどに問い合わせ
+  - name: 物干し竿
+    reading_initial: も
+    category: oversized
+    price: 400
+    note: 50㎝未満に切ったものは素材に応じて分別、2本まで1点
+  - name: 物干し台(コンクリートの土台)
+    reading_initial: も
+    category: not_collected
+    price: null
+    note: 受入れ不可
+  - name: 物干し台(支柱部分)
+    reading_initial: も
+    category: oversized
+    price: 400
+    note: 支柱2本まで400円、コンクリートの土台は受入れ不可
+  - name: 物置(スチール製組立式)《1.5m以上》
+    reading_initial: も
+    category: drop_off_only
+    price: 1600
+    note: 2m以上は受入れ不可
+  - name: 物置(スチール製組立式)《1.5m未満》
+    reading_initial: も
+    category: oversized
+    price: 1200
+    note: null
+  - name: 毛布(ブランケット)
+    reading_initial: も
+    category: paper_cloth
+    price: null
+    note: 汚れがひどいものは50㎝四方未満に切って「可燃」
+  - name: 木炭(キャンプ用など)
+    reading_initial: も
+    category: burnable
+    price: null
+    note: 十分水で濡らして火種がないことを確認してから
+  - name: 野球用品(バット・グローブ・防具・面)
+    reading_initial: や
+    category: oversized
+    price: 400
+    note: 50cm未満は素材に応じて分別、グローブは「可燃」、面は素材に応じて分別、バットは2本まで1点
+  - name: 遊具(子供用・家庭用)
+    reading_initial: ゆ
+    category: oversized
+    price: 400
+    note: ホッピングや鉄棒など、室内用で小型なもの、構造や素材が簡易なもの
+  - name: 遊具(子供用・家庭用)《大型》
+    reading_initial: ゆ
+    category: oversized
+    price: 800
+    note: トランポリン・ブランコ・バスケットゴール。遊具以外は受入れ不可
+  - name: よしず
+    reading_initial: よ
+    category: oversized
+    price: 800
+    note: 50㎝四方未満に切ったものは「可燃」
+  - name: 浴槽(バスタブ)
+    reading_initial: よ
+    category: not_collected
+    price: null
+    note: 受入れ不可
+  - name: ライター(使い捨て)
+    reading_initial: ら
+    category: hazardous
+    price: null
+    note: 可能な限り使い切り必ず「有害」
+  - name: ライター(補充式)《オイル式・ガス式》
+    reading_initial: ら
+    category: hazardous
+    price: null
+    note: オイルやガスなどは使い切り必ず「有害」
+  - name: ラケット(テニス、バドミントンなど)
+    reading_initial: ら
+    category: oversized
+    price: 400
+    note: 2本まで1点、50cm未満は素材に応じて分別
+  - name: ラケット(卓球用など金属のないもの)
+    reading_initial: ら
+    category: burnable
+    price: null
+    note: 50cm以上は「粗大(400円)」
+  - name: ラジオ
+    reading_initial: ら
+    category: non_burnable
+    price: null
+    note: 電池は取り外し「有害」
+  - name: ラジカセ(ＣＤラジカセなど)
+    reading_initial: ら
+    category: oversized
+    price: 400
+    note: 電池は取り外し「有害」
+  - name: ラジコン(ドローンも含む)
+    reading_initial: ら
+    category: non_burnable
+    price: null
+    note: 電池は取り外し「有害」、50㎝以上は「粗大(400円)」
+  - name: ラック
+    reading_initial: ら
+    category: reference
+    price: null
+    note: 金額は「家具(ラック)」参照
+  - name: ラティス(園芸用フェンス)
+    reading_initial: ら
+    category: oversized
+    price: 400
+    note: 50㎝未満に切ったものは素材に応じて分別
+  - name: ランチジャー(保温弁当箱)
+    reading_initial: ら
+    category: non_burnable
+    price: null
+    note: スープジャーなど
+  - name: ランドセル
+    reading_initial: ら
+    category: burnable
+    price: null
+    note: 金属が取り除けないものは「不燃」
+  - name: リール(釣具)
+    reading_initial: り
+    category: non_burnable
+    price: null
+    note: 釣り糸は、リールから外し「可燃」
+  - name: リモコン(テレビ用、エアコン用など)
+    reading_initial: り
+    category: non_burnable
+    price: null
+    note: 電池は取り外し「有害」 ※Ｐ６も参照
+  - name: レーザーディスク
+    reading_initial: れ
+    category: plastic
+    price: null
+    note: ケース、ジャケットは素材に応じて分別
+  - name: レーザーディスクプレイヤー
+    reading_initial: れ
+    category: oversized
+    price: 400
+    note: 業務用は受入れ不可
+  - name: レコードプレーヤー
+    reading_initial: れ
+    category: oversized
+    price: 400
+    note: null
+  - name: レコード盤
+    reading_initial: れ
+    category: plastic
+    price: null
+    note: ケース、ジャケットは素材に応じて分別
+  - name: レシート
+    reading_initial: れ
+    category: burnable
+    price: null
+    note: 「紙・布」でのリサイクル不可 ※Ｐ４参照
+  - name: レンガ(レンガブロック)
+    reading_initial: れ
+    category: not_collected
+    price: null
+    note: 受入れ不可
+  - name: レンジ台
+    reading_initial: れ
+    category: reference
+    price: null
+    note: 金額は「家具(ラック)」参照
+  - name: 冷温庫・保冷庫(車用等)
+    reading_initial: れ
+    category: not_collected
+    price: null
+    note: 家電リサイクル法対象品 ※Ｐ８参照
+  - name: 冷蔵庫、冷凍庫
+    reading_initial: れ
+    category: not_collected
+    price: null
+    note: 家電リサイクル法対象品 ※Ｐ８参照
+  - name: 冷風機、冷風扇
+    reading_initial: れ
+    category: oversized
+    price: 400
+    note: フロンガスを含むものは受入れ不可
+  - name: 練炭
+    reading_initial: れ
+    category: burnable
+    price: null
+    note: 水などをかけて、必ず火の気を完全になくす
+  - name: ロープ(麻製、ビニール製等)
+    reading_initial: ろ
+    category: oversized
+    price: 400
+    note: 50㎝未満に切ったものは素材に応じて分別
+  - name: ローラースケート(ローラーブレード)
+    reading_initial: ろ
+    category: non_burnable
+    price: null
+    note: null
+  - name: ロールスクリーン(ロールカーテン)
+    reading_initial: ろ
+    category: oversized
+    price: 400
+    note: 取付幅1.5m以上は(800円)
+  - name: ワードプロセッサー(ワープロ)
+    reading_initial: わ
+    category: oversized
+    price: 400
+    note: null
+  - name: ワイヤー(ペット用リード)
+    reading_initial: わ
+    category: oversized
+    price: 400
+    note: null
+  - name: ワイヤーロープ
+    reading_initial: わ
+    category: not_collected
+    price: null
+    note: ペット用、自転車、バイク用以外は受入れ不可
+  - name: ワイヤーロック(自転車・バイク用)
+    reading_initial: わ
+    category: oversized
+    price: 400
+    note: 伸ばした長さ50cm未満は「不燃」
