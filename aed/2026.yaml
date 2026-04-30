@@ -1,0 +1,442 @@
+# 飯能市 AED 設置施設一覧
+# Source: https://www.city.hanno.lg.jp/iryo_kenko_fukushi/iryo_kenko/iryo_iryokyufu/1/3720.html
+# Extracted: 2026-04-30
+# Geocoded by GSI (https://msearch.gsi.go.jp/) on 2026-04-30
+# Facilities: 54 (geocoded 54, failed 0)
+
+source:
+  url: https://www.city.hanno.lg.jp/iryo_kenko_fukushi/iryo_kenko/iryo_iryokyufu/1/3720.html
+  extracted_at: 2026-04-30
+facilities:
+  - no: 1
+    name: 吾野地区行政センター
+    address: 吾野186－1
+    location: 正面玄関入口
+    outdoor: true
+    lat: 35.919689
+    lng: 139.202652
+    matched_address: 埼玉県飯能市吾野
+  - no: 2
+    name: つぼみ園
+    address: 芦苅場570－4
+    location: 1階事務室
+    outdoor: false
+    lat: 35.864784
+    lng: 139.355469
+    matched_address: 埼玉県飯能市芦苅場５７０番地
+  - no: 3
+    name: 加治中学校
+    address: 阿須164－1
+    location: 校庭側職員玄関(屋外)
+    outdoor: true
+    lat: 35.83646
+    lng: 139.330597
+    matched_address: 埼玉県飯能市阿須１６４番地
+  - no: 4
+    name: トーベ・ヤンソンあけぼの子どもの森公園
+    address: 阿須893－1
+    location: 1階玄関(屋外)
+    outdoor: true
+    lat: 35.829842
+    lng: 139.343887
+    matched_address: 埼玉県飯能市阿須８９３番地
+  - no: 5
+    name: こども図書館
+    address: 稲荷町25－8
+    location: 1階事務室
+    outdoor: false
+    lat: 35.853878
+    lng: 139.311493
+    matched_address: 埼玉県飯能市稲荷町２５番８号
+  - no: 6
+    name: 加治東小学校
+    address: 岩沢1243
+    location: 1階職員玄関(屋外)
+    outdoor: true
+    lat: 35.836678
+    lng: 139.33844
+    matched_address: 埼玉県飯能市岩沢１２４３番地
+  - no: 7
+    name: 加治東地区行政センター
+    address: 岩沢1283－1
+    location: 2階入口(屋外)
+    outdoor: true
+    lat: 35.836678
+    lng: 139.33844
+    matched_address: 埼玉県飯能市岩沢１２８３番地
+  - no: 8
+    name: 加治地区行政センター
+    address: 笠縫59－1
+    location: 1階事務室
+    outdoor: false
+    lat: 35.839283
+    lng: 139.326508
+    matched_address: 埼玉県飯能市笠縫５９番地
+  - no: 9
+    name: 土地区画整理事務所
+    address: 笠縫112-1
+    location: 事務所内
+    outdoor: false
+    lat: 35.844559
+    lng: 139.329727
+    matched_address: 埼玉県飯能市笠縫１１２番地
+  - no: 10
+    name: 名栗小学校
+    address: 上名栗2944
+    location: 校舎1階校庭側昇降口(屋外)
+    outdoor: true
+    lat: 35.910126
+    lng: 139.1465
+    matched_address: 埼玉県飯能市上名栗
+  - no: 11
+    name: 名栗幼稚園
+    address: 上名栗2951
+    location: 1階職員室
+    outdoor: false
+    lat: 35.910126
+    lng: 139.1465
+    matched_address: 埼玉県飯能市上名栗
+  - no: 12
+    name: 名栗地区行政センター
+    address: 上名栗3125－1
+    location: 正面玄関入口(屋外)
+    outdoor: true
+    lat: 35.910126
+    lng: 139.1465
+    matched_address: 埼玉県飯能市上名栗
+  - no: 13
+    name: 保健センター名栗分室
+    address: 上名栗3086
+    location: 1階事務室
+    outdoor: false
+    lat: 35.910126
+    lng: 139.1465
+    matched_address: 埼玉県飯能市上名栗
+  - no: 14
+    name: 南高麗福祉センター
+    address: 上畑202
+    location: 正面玄関入口
+    outdoor: true
+    lat: 35.837265
+    lng: 139.284195
+    matched_address: 埼玉県飯能市上畑２０２番地
+  - no: 15
+    name: 加治小学校
+    address: 川寺500
+    location: 【平日】 南側校舎1階昇降口(屋内) 【土日祝日、年末年始】 南側校舎1階昇降口(屋外)
+    outdoor: true
+    lat: 35.84235
+    lng: 139.325806
+    matched_address: 埼玉県飯能市川寺５００番地
+  - no: 16
+    name: 加治保育所
+    address: 川寺531－4
+    location: 1階職員室
+    outdoor: false
+    lat: 35.840916
+    lng: 139.326019
+    matched_address: 埼玉県飯能市川寺５３１番地
+  - no: 17
+    name: 精明小学校
+    address: 小久保54－2
+    location: 校庭側1階昇降口(屋外)
+    outdoor: true
+    lat: 35.865459
+    lng: 139.343613
+    matched_address: 埼玉県飯能市小久保５４番地
+  - no: 18
+    name: 精明地区行政センター
+    address: 小久保55－1
+    location: 1階事務室
+    outdoor: false
+    lat: 35.865459
+    lng: 139.343613
+    matched_address: 埼玉県飯能市小久保５５番地
+  - no: 19
+    name: 東吾野地区行政センター
+    address: 虎秀14－5
+    location: 正面玄関入口
+    outdoor: true
+    lat: 35.906193
+    lng: 139.262482
+    matched_address: 埼玉県飯能市虎秀
+  - no: 20
+    name: 第二区地区行政センター
+    address: 小瀬戸19－1
+    location: 1階階段前壁面(屋外)
+    outdoor: true
+    lat: 35.869003
+    lng: 139.270126
+    matched_address: 埼玉県飯能市小瀬戸１９番地
+  - no: 21
+    name: 飯能第二小学校
+    address: 小瀬戸548－1
+    location: 1階南側昇降口(屋外)
+    outdoor: true
+    lat: 35.869003
+    lng: 139.270126
+    matched_address: 埼玉県飯能市小瀬戸５４８番地
+  - no: 22
+    name: 原市場小学校
+    address: 下赤工442－2
+    location: 校庭側1階職員玄関(屋外)
+    outdoor: true
+    lat: 35.863846
+    lng: 139.251877
+    matched_address: 埼玉県飯能市下赤工
+  - no: 23
+    name: 南高麗小学校
+    address: 下直竹38
+    location: 体育館入口(屋外)
+    outdoor: true
+    lat: 35.840244
+    lng: 139.277817
+    matched_address: 埼玉県飯能市下直竹３８番地
+  - no: 24
+    name: 南高麗地区行政センター
+    address: 下直竹1122－2
+    location: 正面玄関入口(屋外)
+    outdoor: true
+    lat: 35.842602
+    lng: 139.278915
+    matched_address: 埼玉県飯能市下直竹１１２２番地
+  - no: 25
+    name: 南高麗中学校
+    address: 下直竹1061
+    location: 校庭側昇降口(屋外)
+    outdoor: true
+    lat: 35.847874
+    lng: 139.268082
+    matched_address: 埼玉県飯能市下直竹１０６１番地
+  - no: 26
+    name: クリーンセンター
+    address: 下畑768－1
+    location: 一般持込ごみ受入棟1階事務室
+    outdoor: false
+    lat: 35.842098
+    lng: 139.295517
+    matched_address: 埼玉県飯能市下畑７６８番地
+  - no: 27
+    name: 吾野保育所
+    address: 長沢78－1
+    location: 1階玄関
+    outdoor: false
+    lat: 35.926548
+    lng: 139.232864
+    matched_address: 埼玉県飯能市長沢
+  - no: 28
+    name: 奥武蔵小学校
+    address: 長沢26－2
+    location: 校舎1階道路側昇降口(屋外)
+    outdoor: true
+    lat: 35.926548
+    lng: 139.232864
+    matched_address: 埼玉県飯能市長沢
+  - no: 29
+    name: 奥武蔵中学校
+    address: 長沢73－1
+    location: 体育館下駐車場体育館入口(屋外)
+    outdoor: true
+    lat: 35.926548
+    lng: 139.232864
+    matched_address: 埼玉県飯能市長沢
+  - no: 30
+    name: 浅間保育所
+    address: 双柳1185－3
+    location: 1階職員室
+    outdoor: false
+    lat: 35.85434
+    lng: 139.341354
+    matched_address: 埼玉県飯能市双柳１１８５番地
+  - no: 31
+    name: 市役所第二庁舎（教育センター）
+    address: 双柳94－25
+    location: 2階事務室
+    outdoor: false
+    lat: 35.857018
+    lng: 139.327576
+    matched_address: 埼玉県飯能市双柳９４番地
+  - no: 32
+    name: 市役所本庁舎
+    address: 双柳1－1
+    location: 【開庁時】1階正面受付 【閉庁時】西口宿直室
+    outdoor: false
+    lat: 35.857018
+    lng: 139.327576
+    matched_address: 埼玉県飯能市双柳１番地
+  - no: 33
+    name: 市役所本庁舎別館
+    address: 双柳1－1
+    location: 1階危機管理室脇
+    outdoor: false
+    lat: 35.857018
+    lng: 139.327576
+    matched_address: 埼玉県飯能市双柳１番地
+  - no: 34
+    name: 双柳小学校
+    address: 双柳1194
+    location: 校舎1階校庭側壁面(屋外)
+    outdoor: true
+    lat: 35.853424
+    lng: 139.339615
+    matched_address: 埼玉県飯能市双柳１１９４番地
+  - no: 35
+    name: 双柳地区行政センター
+    address: 双柳970－2
+    location: 正面玄関入口(屋外)
+    outdoor: true
+    lat: 35.849518
+    lng: 139.339935
+    matched_address: 埼玉県飯能市双柳９７０番地
+  - no: 36
+    name: 飯能第一中学校
+    address: 双柳1－1
+    location: 校庭側来校者入口(屋外)
+    outdoor: true
+    lat: 35.857018
+    lng: 139.327576
+    matched_address: 埼玉県飯能市双柳１番地
+  - no: 37
+    name: 富士見小学校
+    address: 双柳1－1
+    location: 1階西側昇降口(屋外)
+    outdoor: true
+    lat: 35.857018
+    lng: 139.327576
+    matched_address: 埼玉県飯能市双柳１番地
+  - no: 38
+    name: 富士見地区行政センター
+    address: 双柳1－16
+    location: 正面玄関入口(屋外)
+    outdoor: true
+    lat: 35.857018
+    lng: 139.327576
+    matched_address: 埼玉県飯能市双柳１番地
+  - no: 39
+    name: 富士見保育所
+    address: 双柳429－1
+    location: 1階職員室
+    outdoor: false
+    lat: 35.858513
+    lng: 139.330826
+    matched_address: 埼玉県飯能市双柳４２９番地
+  - no: 40
+    name: 保健センター
+    address: 双柳371－13
+    location: 1階事務室
+    outdoor: false
+    lat: 35.855453
+    lng: 139.329529
+    matched_address: 埼玉県飯能市双柳３７１番地
+  - no: 41
+    name: 原市場地区行政センター
+    address: 原市場1048－1
+    location: 1階入口(屋外)
+    outdoor: true
+    lat: 35.866642
+    lng: 139.226074
+    matched_address: 埼玉県飯能市原市場
+  - no: 42
+    name: 原市場中学校
+    address: 原市場646
+    location: 2階職員玄関(屋外)
+    outdoor: true
+    lat: 35.866642
+    lng: 139.226074
+    matched_address: 埼玉県飯能市原市場
+  - no: 43
+    name: 原市場福祉センター
+    address: 原市場599
+    location: 正面玄関入口
+    outdoor: true
+    lat: 35.866642
+    lng: 139.226074
+    matched_address: 埼玉県飯能市原市場
+  - no: 44
+    name: 市民会館
+    address: 飯能226－2
+    location: 1階事務室
+    outdoor: false
+    lat: 35.857887
+    lng: 139.311157
+    matched_address: 埼玉県飯能市飯能２２６番地
+  - no: 45
+    name: 博物館
+    address: 飯能258－1
+    location: 2階事務室前カウンター
+    outdoor: false
+    lat: 35.857292
+    lng: 139.310486
+    matched_address: 埼玉県飯能市飯能２５８番地
+  - no: 46
+    name: 飯能中央地区行政センター
+    address: 飯能60－1
+    location: 1階事務室
+    outdoor: false
+    lat: 35.855766
+    lng: 139.312454
+    matched_address: 埼玉県飯能市飯能６０番地
+  - no: 47
+    name: 飯能西中学校
+    address: 飯能287
+    location: 体育館入口(屋外)
+    outdoor: true
+    lat: 35.857849
+    lng: 139.306625
+    matched_address: 埼玉県飯能市飯能２８７番地
+  - no: 48
+    name: 美杉台小学校
+    address: 美杉台1－29
+    location: 体育館入口(屋外)
+    outdoor: true
+    lat: 35.844196
+    lng: 139.311157
+    matched_address: 埼玉県飯能市美杉台一丁目２９番
+  - no: 49
+    name: 美杉台地区行政センター
+    address: 美杉台1－2－1
+    location: 1階入口(屋外)
+    outdoor: true
+    lat: 35.845165
+    lng: 139.307877
+    matched_address: 埼玉県飯能市美杉台一丁目２番
+  - no: 50
+    name: 美杉台中学校
+    address: 美杉台5－3
+    location: 1階職員玄関
+    outdoor: true
+    lat: 35.847469
+    lng: 139.303894
+    matched_address: 埼玉県飯能市美杉台五丁目３番
+  - no: 51
+    name: 子育て総合センター
+    address: 山手町19－4
+    location: 2階事務室
+    outdoor: false
+    lat: 35.859089
+    lng: 139.314621
+    matched_address: 埼玉県飯能市山手町１９番４号
+  - no: 52
+    name: 図書館
+    address: 山手町19－5
+    location: 1階事務室
+    outdoor: false
+    lat: 35.859093
+    lng: 139.314468
+    matched_address: 埼玉県飯能市山手町１９番５号
+  - no: 53
+    name: 飯能第一小学校
+    address: 山手町13－8
+    location: 校舎1階西側昇降口(屋外)
+    outdoor: true
+    lat: 35.857803
+    lng: 139.314255
+    matched_address: 埼玉県飯能市山手町１３番８号
+  - no: 54
+    name: 山手保育所
+    address: 山手町19－4
+    location: 1階職員室
+    outdoor: false
+    lat: 35.859089
+    lng: 139.314621
+    matched_address: 埼玉県飯能市山手町１９番４号
