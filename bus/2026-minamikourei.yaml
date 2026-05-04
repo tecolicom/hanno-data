@@ -1,0 +1,114 @@
+# 南高麗線 (旧 名栗線/間野黒指方面の代替小規模運行)
+# 出典: 飯能市公式 PDF (R6.2024.10.1 改正)
+# https://www.city.hanno.lg.jp/material/files/group/17/minamikomakaisei.pdf
+#
+# NaviTime 非掲載のため、PDF から手動転記。
+# ダイヤ改正時は PDF を再度確認して更新が必要。
+#
+# 系統:
+#   南高麗01 月-金 小学校便
+#   南高麗02 月・水・金のみ 行政センター便
+#   南高麗02-2 月・水・金のみ 行政センター便
+#   南高麗03 月・水・金のみ 苅生便
+#   学02 要確認 (スクールバス、小学校予定により運休あり)
+#   学03 要確認 (スクールバス、小学校予定により運休あり)
+#
+# 平日のみ運行 (土日祝休み)
+
+meta:
+  source: 飯能市公式 (南高麗地区バス時刻表)
+  source_url: https://www.city.hanno.lg.jp/material/files/group/17/minamikomakaisei.pdf
+  source_note: 'R6(2024).10.1 改正、平日限定運行'
+  operator: 飯能市 (運行委託)
+  extracted_at: '2026-05-04'
+
+routes:
+  # ============================================================
+  # 飯能駅・東飯能駅発 (下り、でかける)
+  # ============================================================
+  - line: 南高麗線
+    stop_name: 東飯能駅 (駅前広場)
+    direction: 南高麗・間野黒指方面
+    schedule:
+      weekday:
+        - { time: '08:15', route: 南高麗01, dest: 間野黒指 }
+        - { time: '09:27', route: 南高麗03, dest: 苅生自治会館, note: 月・水・金のみ }
+        - { time: '10:54', route: 南高麗02, dest: 間野黒指, note: 月・水・金のみ }
+        - { time: '12:02', route: 南高麗02-2, dest: 南高麗, note: 月・水・金のみ }
+        - { time: '13:00', route: 南高麗03, dest: 苅生自治会館, note: 月・水・金のみ }
+        - { time: '14:18', route: 南高麗01, dest: 間野黒指 }
+        - { time: '15:28', route: 南高麗01, dest: 間野黒指 }
+
+  - line: 南高麗線
+    stop_name: 飯能駅
+    direction: 南高麗・間野黒指方面
+    schedule:
+      weekday:
+        - { time: '07:25', route: 学03, dest: 南高麗小学校, note: スクールバス・要確認 }
+        - { time: '08:18', route: 南高麗01, dest: 間野黒指 }
+        - { time: '09:30', route: 南高麗03, dest: 苅生自治会館, note: 月・水・金のみ }
+        - { time: '10:57', route: 南高麗02, dest: 間野黒指, note: 月・水・金のみ }
+        - { time: '12:05', route: 南高麗02-2, dest: 南高麗, note: 月・水・金のみ }
+        - { time: '13:03', route: 南高麗03, dest: 苅生自治会館, note: 月・水・金のみ }
+        - { time: '14:21', route: 南高麗01, dest: 間野黒指 }
+        - { time: '15:31', route: 南高麗01, dest: 間野黒指 }
+
+  # ============================================================
+  # 山あい停留所発 (上り、帰る)
+  # ============================================================
+  - line: 南高麗線
+    stop_name: 間野黒指
+    direction: 飯能駅・東飯能駅方面
+    schedule:
+      weekday:
+        - { time: '07:40', route: 南高麗01, dest: 東飯能駅 }
+        - { time: '08:50', route: 南高麗01, dest: 東飯能駅 }
+        - { time: '11:28', route: 南高麗02, dest: 東飯能駅, note: 月・水・金のみ }
+        - { time: '14:53', route: 南高麗01, dest: 東飯能駅 }
+        - { time: '16:06', route: 南高麗01, dest: 東飯能駅 }
+
+  - line: 南高麗線
+    stop_name: 南高麗
+    direction: 飯能駅・東飯能駅方面
+    schedule:
+      weekday:
+        - { time: '07:45', route: 南高麗01, dest: 東飯能駅 }
+        - { time: '08:55', route: 南高麗01, dest: 東飯能駅 }
+        - { time: '11:33', route: 南高麗02, dest: 東飯能駅, note: 月・水・金のみ }
+        - { time: '12:30', route: 南高麗02-2, dest: 東飯能駅, note: 月・水・金のみ }
+        - { time: '14:58', route: 南高麗01, dest: 東飯能駅 }
+        - { time: '16:11', route: 南高麗01, dest: 東飯能駅 }
+
+  - line: 南高麗線
+    stop_name: 南高麗小学校
+    direction: 飯能駅・東飯能駅方面
+    schedule:
+      weekday:
+        - { time: '07:48', route: 南高麗01, dest: 東飯能駅 }
+        - { time: '08:58', route: 南高麗01, dest: 東飯能駅 }
+        - { time: '10:03', route: 南高麗03, dest: 東飯能駅, note: 月・水・金のみ }
+        - { time: '13:35', route: 南高麗03, dest: 東飯能駅, note: 月・水・金のみ }
+        - { time: '14:50', route: 学03, dest: 前ケ貫入口, note: スクールバス・要確認 }
+        - { time: '15:01', route: 南高麗01, dest: 東飯能駅 }
+        - { time: '15:50', route: 学02, dest: 飯能駅, note: スクールバス・要確認 }
+        - { time: '16:14', route: 南高麗01, dest: 東飯能駅 }
+
+  - line: 南高麗線
+    stop_name: 苅生自治会館
+    direction: 飯能駅・東飯能駅方面
+    schedule:
+      weekday:
+        - { time: '09:58', route: 南高麗03, dest: 東飯能駅, note: 月・水・金のみ }
+        - { time: '13:30', route: 南高麗03, dest: 東飯能駅, note: 月・水・金のみ }
+
+  - line: 南高麗線
+    stop_name: 南高麗地区行政センター
+    direction: 飯能駅・東飯能駅方面
+    schedule:
+      weekday:
+        - { time: '10:01', route: 南高麗03, dest: 東飯能駅, note: 月・水・金のみ }
+        - { time: '11:36', route: 南高麗02, dest: 東飯能駅, note: 月・水・金のみ }
+        - { time: '12:33', route: 南高麗02-2, dest: 東飯能駅, note: 月・水・金のみ }
+        - { time: '13:33', route: 南高麗03, dest: 東飯能駅, note: 月・水・金のみ }
+        - { time: '14:50', route: 学03, dest: 前ケ貫入口, note: スクールバス・要確認 }
+        - { time: '15:50', route: 学02, dest: 飯能駅, note: スクールバス・要確認 }
