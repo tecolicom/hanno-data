@@ -1130,7 +1130,7 @@ routes:
   route_id: 00029154
   lat: 35.850857
   lng: 139.320393
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124293/00029154/0/
   schedule:
     weekday:
@@ -1598,7 +1598,7 @@ routes:
   route_id: 00029154
   lat: 35.851782
   lng: 139.322746
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00022782/00029154/0/
   schedule:
     weekday:
@@ -2066,7 +2066,7 @@ routes:
   route_id: 00029154
   lat: 35.851291
   lng: 139.324754
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124295/00029154/0/
   schedule:
     weekday:
@@ -2300,7 +2300,7 @@ routes:
   route_id: 00029154
   lat: 35.852368
   lng: 139.325622
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124443/00029154/0/
   schedule:
     weekday:
@@ -2768,7 +2768,7 @@ routes:
   route_id: 00029154
   lat: 35.852623
   lng: 139.323995
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124296/00029154/0/
   schedule:
     weekday:
@@ -3236,7 +3236,7 @@ routes:
   route_id: 00029154
   lat: 35.853862
   lng: 139.32125
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00023454/00029154/0/
   schedule:
     weekday:
@@ -3704,7 +3704,7 @@ routes:
   route_id: 00029154
   lat: 35.853963
   lng: 139.3181
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00023512/00029154/0/
   schedule:
     weekday:
@@ -4172,7 +4172,7 @@ routes:
   route_id: 00029154
   lat: 35.854423
   lng: 139.315786
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124299/00029154/0/
   schedule:
     weekday:
@@ -4640,7 +4640,7 @@ routes:
   route_id: 00029154
   lat: 35.855152
   lng: 139.314077
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124300/00029154/0/
   schedule:
     weekday:
@@ -5108,7 +5108,7 @@ routes:
   route_id: 00029154
   lat: 35.856884
   lng: 139.310057
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124301/00029154/0/
   schedule:
     weekday:
@@ -5576,7 +5576,7 @@ routes:
   route_id: 00029154
   lat: 35.856554
   lng: 139.307518
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124302/00029154/0/
   schedule:
     weekday:
@@ -6044,7 +6044,7 @@ routes:
   route_id: 00029154
   lat: 35.85698
   lng: 139.303364
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124303/00029154/0/
   schedule:
     weekday:
@@ -6512,7 +6512,7 @@ routes:
   route_id: 00029154
   lat: 35.858474
   lng: 139.30046
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124304/00029154/0/
   schedule:
     weekday:
@@ -6980,7 +6980,7 @@ routes:
   route_id: 00029154
   lat: 35.860981
   lng: 139.294529
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124305/00029154/0/
   schedule:
     weekday:
@@ -7448,7 +7448,7 @@ routes:
   route_id: 00029154
   lat: 35.862825
   lng: 139.289927
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124306/00029154/0/
   schedule:
     weekday:
@@ -7916,7 +7916,7 @@ routes:
   route_id: 00029154
   lat: 35.864932
   lng: 139.28675
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124307/00029154/0/
   schedule:
     weekday:
@@ -8384,7 +8384,7 @@ routes:
   route_id: 00029154
   lat: 35.869435
   lng: 139.279676
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124308/00029154/0/
   schedule:
     weekday:
@@ -8852,7 +8852,7 @@ routes:
   route_id: 00029154
   lat: 35.868249
   lng: 139.277294
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124309/00029154/0/
   schedule:
     weekday:
@@ -9320,7 +9320,7 @@ routes:
   route_id: 00029154
   lat: 35.866147
   lng: 139.273665
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124310/00029154/0/
   schedule:
     weekday:
@@ -9788,7 +9788,7 @@ routes:
   route_id: 00029154
   lat: 35.866538
   lng: 139.27
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124311/00029154/0/
   schedule:
     weekday:
@@ -10256,7 +10256,7 @@ routes:
   route_id: 00029154
   lat: 35.867952
   lng: 139.266966
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124318/00029154/0/
   schedule:
     weekday:
@@ -10724,7 +10724,7 @@ routes:
   route_id: 00029154
   lat: 35.869733
   lng: 139.261738
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124312/00029154/0/
   schedule:
     weekday:
@@ -11192,7 +11192,7 @@ routes:
   route_id: 00029154
   lat: 35.869096
   lng: 139.25992
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124313/00029154/0/
   schedule:
     weekday:
@@ -11660,7 +11660,7 @@ routes:
   route_id: 00029154
   lat: 35.868128
   lng: 139.257464
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124314/00029154/0/
   schedule:
     weekday:
@@ -12128,7 +12128,7 @@ routes:
   route_id: 00029154
   lat: 35.867606
   lng: 139.251491
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124315/00029154/0/
   schedule:
     weekday:
@@ -12596,7 +12596,7 @@ routes:
   route_id: 00029154
   lat: 35.86844
   lng: 139.248188
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124316/00029154/0/
   schedule:
     weekday:
@@ -13064,7 +13064,7 @@ routes:
   route_id: 00029154
   lat: 35.868982
   lng: 139.245972
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124317/00029154/0/
   schedule:
     weekday:
@@ -13532,7 +13532,7 @@ routes:
   route_id: 00029154
   lat: 35.870538
   lng: 139.241044
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124630/00029154/0/
   schedule:
     weekday:
@@ -14000,7 +14000,7 @@ routes:
   route_id: 00029154
   lat: 35.870779
   lng: 139.239304
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124319/00029154/0/
   schedule:
     weekday:
@@ -14468,7 +14468,7 @@ routes:
   route_id: 00029154
   lat: 35.87039
   lng: 139.235047
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124320/00029154/0/
   schedule:
     weekday:
@@ -14936,7 +14936,7 @@ routes:
   route_id: 00029154
   lat: 35.86715
   lng: 139.234758
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124321/00029154/0/
   schedule:
     weekday:
@@ -15404,7 +15404,7 @@ routes:
   route_id: 00029154
   lat: 35.864815
   lng: 139.235566
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124375/00029154/0/
   schedule:
     weekday:
@@ -15872,7 +15872,7 @@ routes:
   route_id: 00029154
   lat: 35.863375
   lng: 139.234523
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124322/00029154/0/
   schedule:
     weekday:
@@ -16340,7 +16340,7 @@ routes:
   route_id: 00029154
   lat: 35.860344
   lng: 139.231905
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124323/00029154/0/
   schedule:
     weekday:
@@ -16808,7 +16808,7 @@ routes:
   route_id: 00029154
   lat: 35.863097
   lng: 139.227317
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124324/00029154/0/
   schedule:
     weekday:
@@ -17276,7 +17276,7 @@ routes:
   route_id: 00029154
   lat: 35.863022
   lng: 139.224514
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124325/00029154/0/
   schedule:
     weekday:
@@ -17744,7 +17744,7 @@ routes:
   route_id: 00029154
   lat: 35.861049
   lng: 139.22081
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124326/00029154/0/
   schedule:
     weekday:
@@ -18212,7 +18212,7 @@ routes:
   route_id: 00029154
   lat: 35.858672
   lng: 139.217187
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124327/00029154/0/
   schedule:
     weekday:
@@ -18650,7 +18650,7 @@ routes:
   route_id: 00029154
   lat: 35.856156
   lng: 139.209829
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124328/00029154/0/
   schedule:
     weekday:
@@ -19088,7 +19088,7 @@ routes:
   route_id: 00029154
   lat: 35.857041
   lng: 139.20619
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124329/00029154/0/
   schedule:
     weekday:
@@ -19526,7 +19526,7 @@ routes:
   route_id: 00029154
   lat: 35.853721
   lng: 139.203997
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124330/00029154/0/
   schedule:
     weekday:
@@ -19964,7 +19964,7 @@ routes:
   route_id: 00029154
   lat: 35.852137
   lng: 139.203758
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124331/00029154/0/
   schedule:
     weekday:
@@ -20402,7 +20402,7 @@ routes:
   route_id: 00029154
   lat: 35.850944
   lng: 139.201548
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124332/00029154/0/
   schedule:
     weekday:
@@ -20840,7 +20840,7 @@ routes:
   route_id: 00029154
   lat: 35.853715
   lng: 139.199084
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124333/00029154/0/
   schedule:
     weekday:
@@ -21278,7 +21278,7 @@ routes:
   route_id: 00029154
   lat: 35.855238
   lng: 139.194994
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124334/00029154/0/
   schedule:
     weekday:
@@ -21716,7 +21716,7 @@ routes:
   route_id: 00029154
   lat: 35.857557
   lng: 139.192511
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124338/00029154/0/
   schedule:
     weekday:
@@ -22154,7 +22154,7 @@ routes:
   route_id: 00029154
   lat: 35.858807
   lng: 139.191442
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124335/00029154/0/
   schedule:
     weekday:
@@ -22592,7 +22592,7 @@ routes:
   route_id: 00029154
   lat: 35.860416
   lng: 139.189213
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124336/00029154/0/
   schedule:
     weekday:
@@ -23030,7 +23030,7 @@ routes:
   route_id: 00029154
   lat: 35.865514
   lng: 139.187756
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124337/00029154/0/
   schedule:
     weekday:
@@ -23468,7 +23468,7 @@ routes:
   route_id: 00029154
   lat: 35.867718
   lng: 139.186953
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124339/00029154/0/
   schedule:
     weekday:
@@ -23906,7 +23906,7 @@ routes:
   route_id: 00029154
   lat: 35.871237
   lng: 139.186731
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124340/00029154/0/
   schedule:
     weekday:
@@ -24251,7 +24251,7 @@ routes:
   route_id: 00029154
   lat: 35.873161
   lng: 139.183399
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124341/00029154/0/
   schedule:
     weekday:
@@ -24599,7 +24599,7 @@ routes:
   route_id: 00029154
   lat: 35.875407
   lng: 139.18636
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124343/00029154/0/
   schedule:
     weekday:
@@ -25037,7 +25037,7 @@ routes:
   route_id: 00029154
   lat: 35.877688
   lng: 139.185778
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124342/00029154/0/
   schedule:
     weekday:
@@ -25475,7 +25475,7 @@ routes:
   route_id: 00029154
   lat: 35.881377
   lng: 139.184459
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124344/00029154/0/
   schedule:
     weekday:
@@ -25913,7 +25913,7 @@ routes:
   route_id: 00029154
   lat: 35.883511
   lng: 139.183444
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124345/00029154/0/
   schedule:
     weekday:
@@ -26351,7 +26351,7 @@ routes:
   route_id: 00029154
   lat: 35.88784
   lng: 139.180841
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124346/00029154/0/
   schedule:
     weekday:
@@ -26789,7 +26789,7 @@ routes:
   route_id: 00029154
   lat: 35.891525
   lng: 139.178157
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124347/00029154/0/
   schedule:
     weekday:
@@ -27110,7 +27110,7 @@ routes:
   route_id: 00029154
   lat: 35.894969
   lng: 139.17624
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124348/00029154/0/
   schedule:
     weekday:
@@ -27431,7 +27431,7 @@ routes:
   route_id: 00029154
   lat: 35.895863
   lng: 139.17366
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124349/00029154/0/
   schedule:
     weekday:
@@ -27752,7 +27752,7 @@ routes:
   route_id: 00029154
   lat: 35.896997
   lng: 139.17007
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124350/00029154/0/
   schedule:
     weekday:
@@ -28073,7 +28073,7 @@ routes:
   route_id: 00029154
   lat: 35.898952
   lng: 139.1673
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124351/00029154/0/
   schedule:
     weekday:
@@ -28394,7 +28394,7 @@ routes:
   route_id: 00029154
   lat: 35.899968
   lng: 139.162314
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124352/00029154/0/
   schedule:
     weekday:
@@ -28715,7 +28715,7 @@ routes:
   route_id: 00029154
   lat: 35.904993
   lng: 139.159268
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124353/00029154/0/
   schedule:
     weekday:
@@ -29036,7 +29036,7 @@ routes:
   route_id: 00029154
   lat: 35.905352
   lng: 139.157804
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124354/00029154/0/
   schedule:
     weekday:
@@ -29357,7 +29357,7 @@ routes:
   route_id: 00029154
   lat: 35.906268
   lng: 139.156417
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124355/00029154/0/
   schedule:
     weekday:
@@ -29678,7 +29678,7 @@ routes:
   route_id: 00029154
   lat: 35.907874
   lng: 139.151784
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124356/00029154/0/
   schedule:
     weekday:
@@ -29999,7 +29999,7 @@ routes:
   route_id: 00029154
   lat: 35.911264
   lng: 139.14823
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124357/00029154/0/
   schedule:
     weekday:
@@ -30122,7 +30122,7 @@ routes:
   route_id: 00029154
   lat: 35.918336
   lng: 139.150346
-  direction: 湯の沢方面
+  direction: 名栗・湯の沢方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124359/00029154/0/
   schedule:
     weekday:
