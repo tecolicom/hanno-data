@@ -1,0 +1,1567 @@
+meta:
+  source: gtfs-data.jp (hannocity-seimei-kaji)
+  source_url: https://api.gtfs-data.jp/v2/organizations/hannocity/feeds/odekakemuma-seimei-kaji/files/feed.zip
+  operator: 飯能市 (運行委託)
+  license: CC0 1.0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/deed.ja
+  attribution: 飯能市
+  feed_publisher: 飯能市
+  feed_version: 20250401-2026年03月17日 11時29分03秒-西沢ツールver8.31
+  feed_start_date: '2025-04-01'
+  feed_end_date: '2027-03-31'
+  extracted_at: '2026-05-11'
+routes:
+- line: 精明・加治線
+  stop_id: '1_0'
+  stop_name: 東飯能駅東口
+  direction: 東飯能駅東口方面
+  lat: 35.852203
+  lng: 139.326665
+  schedule:
+    weekday:
+    - time: 08:00
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: 09:10
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '10:15'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '11:25'
+      route: 飯能市乗合ワゴン　精明西コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '13:20'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '14:25'
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '15:25'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '16:25'
+      route: 飯能市乗合ワゴン　精明西コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    saturday: []
+    holiday: []
+- line: 精明・加治線
+  stop_id: '2_1'
+  stop_name: 栄町
+  direction: 東飯能駅東口方面
+  lat: 35.8524525702926
+  lng: 139.329209925006
+  schedule:
+    weekday:
+    - time: 08:01
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: 09:11
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '10:16'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '11:26'
+      route: 飯能市乗合ワゴン　精明西コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '13:21'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '14:26'
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '15:26'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '16:26'
+      route: 飯能市乗合ワゴン　精明西コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    saturday: []
+    holiday: []
+- line: 精明・加治線
+  stop_id: '3_0'
+  stop_name: 飯能市役所
+  direction: 東飯能駅東口方面
+  lat: 35.8554416936393
+  lng: 139.327647038038
+  schedule:
+    weekday:
+    - time: 08:04
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: 08:52
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: 09:14
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: 09:59
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '10:19'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '11:07'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '11:29'
+      route: 飯能市乗合ワゴン　精明西コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '11:55'
+      route: 飯能市乗合ワゴン　精明西コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '13:24'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '14:08'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '14:29'
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '15:12'
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '15:29'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '16:13'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '16:29'
+      route: 飯能市乗合ワゴン　精明西コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '16:54'
+      route: 飯能市乗合ワゴン　精明西コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    saturday: []
+    holiday: []
+- line: 精明・加治線
+  stop_id: '4_1'
+  stop_name: 総合福祉センター南
+  direction: 東飯能駅東口方面
+  lat: 35.8544805303293
+  lng: 139.330118176126
+  schedule:
+    weekday:
+    - time: 08:05
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: 09:15
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '10:20'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '11:30'
+      route: 飯能市乗合ワゴン　精明西コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '13:25'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '14:30'
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '15:30'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '16:30'
+      route: 飯能市乗合ワゴン　精明西コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    saturday: []
+    holiday: []
+- line: 精明・加治線
+  stop_id: '5_1'
+  stop_name: 緑町
+  direction: 東飯能駅東口方面
+  lat: 35.8501365302805
+  lng: 139.330472520047
+  schedule:
+    weekday:
+    - time: 08:06
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: 09:16
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '10:21'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '11:31'
+      route: 飯能市乗合ワゴン　精明西コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '13:26'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '14:31'
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '15:31'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '16:31'
+      route: 飯能市乗合ワゴン　精明西コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    saturday: []
+    holiday: []
+- line: 精明・加治線
+  stop_id: '6_1'
+  stop_name: 双柳入口
+  direction: 東飯能駅東口方面
+  lat: 35.8482820939297
+  lng: 139.334498827125
+  schedule:
+    weekday:
+    - time: 08:07
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: 09:17
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '10:22'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '11:32'
+      route: 飯能市乗合ワゴン　精明西コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '13:27'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '14:32'
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '15:32'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '16:32'
+      route: 飯能市乗合ワゴン　精明西コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    saturday: []
+    holiday: []
+- line: 精明・加治線
+  stop_id: '30_1'
+  stop_name: 双柳南
+  direction: 東飯能駅東口方面
+  lat: 35.846751
+  lng: 139.338158
+  schedule:
+    weekday:
+    - time: 08:08
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '10:23'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '13:28'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '15:33'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    saturday: []
+    holiday: []
+- line: 精明・加治線
+  stop_id: '41_0'
+  stop_name: デンキチ飯能店前
+  direction: 東飯能駅東口方面
+  lat: 35.8451258885873
+  lng: 139.341595172882
+  schedule:
+    weekday:
+    - time: 08:09
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: 08:46
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '10:24'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '11:01'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '13:29'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '14:02'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '15:34'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '16:07'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    saturday: []
+    holiday: []
+- line: 精明・加治線
+  stop_id: '31_1'
+  stop_name: 白髪白山神社
+  direction: 東飯能駅東口方面
+  lat: 35.8436257382778
+  lng: 139.33926571399
+  schedule:
+    weekday:
+    - time: 08:11
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '10:26'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '13:31'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '15:36'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    saturday: []
+    holiday: []
+- line: 精明・加治線
+  stop_id: '32_1'
+  stop_name: 笠縫北
+  direction: 東飯能駅東口方面
+  lat: 35.8448465045313
+  lng: 139.333072849551
+  schedule:
+    weekday:
+    - time: 08:12
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '10:27'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '13:32'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '15:37'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    saturday: []
+    holiday: []
+- line: 精明・加治線
+  stop_id: '33_1'
+  stop_name: 笠縫西武踏切南
+  direction: 東飯能駅東口方面
+  lat: 35.8428048122669
+  lng: 139.331304437685
+  schedule:
+    weekday:
+    - time: 08:13
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '10:28'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '13:33'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '15:38'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    saturday: []
+    holiday: []
+- line: 精明・加治線
+  stop_id: '34_1'
+  stop_name: 加治小学校東
+  direction: 東飯能駅東口方面
+  lat: 35.8425776783903
+  lng: 139.328404068947
+  schedule:
+    weekday:
+    - time: 08:14
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '10:29'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '13:34'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '15:39'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    saturday: []
+    holiday: []
+- line: 精明・加治線
+  stop_id: '35_0'
+  stop_name: 加治地区行政センター
+  direction: 東飯能駅東口方面
+  lat: 35.8395031918213
+  lng: 139.326725006104
+  schedule:
+    weekday:
+    - time: 08:18
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: 08:40
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '10:33'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '10:55'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '13:37'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '13:56'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '15:42'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '16:01'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    saturday: []
+    holiday: []
+- line: 精明・加治線
+  stop_id: '36_1'
+  stop_name: 笠縫不動尊
+  direction: 東飯能駅東口方面
+  lat: 35.8393814276711
+  lng: 139.33179974556
+  schedule:
+    weekday:
+    - time: 08:20
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '10:35'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '13:39'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '15:44'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    saturday: []
+    holiday: []
+- line: 精明・加治線
+  stop_id: '37_0'
+  stop_name: 加治東地区行政センター
+  direction: 東飯能駅東口方面
+  lat: 35.8374157784383
+  lng: 139.337099790573
+  schedule:
+    weekday:
+    - time: 08:22
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: 08:35
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '10:37'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '10:50'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '13:41'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '13:52'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '15:46'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '15:57'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    saturday: []
+    holiday: []
+- line: 精明・加治線
+  stop_id: '38_1'
+  stop_name: 白鳥幼稚園
+  direction: 東飯能駅東口方面
+  lat: 35.8370896153103
+  lng: 139.341643452644
+  schedule:
+    weekday:
+    - time: 08:24
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '10:39'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '13:43'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '15:48'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    saturday: []
+    holiday: []
+- line: 精明・加治線
+  stop_id: '39_1'
+  stop_name: 前原
+  direction: 東飯能駅東口方面
+  lat: 35.8396336534107
+  lng: 139.341482520103
+  schedule:
+    weekday:
+    - time: 08:25
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '10:40'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '13:44'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '15:49'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    saturday: []
+    holiday: []
+- line: 精明・加治線
+  stop_id: '40_0'
+  stop_name: 元加治駅
+  direction: 東飯能駅東口方面
+  lat: 35.8406945599654
+  lng: 139.34536239381
+  schedule:
+    weekday:
+    - time: 08:31
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '10:46'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '13:48'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '15:53'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    saturday: []
+    holiday: []
+- line: 精明・加治線
+  stop_id: '39_2'
+  stop_name: 前原
+  direction: 東飯能駅東口方面
+  lat: 35.8396858380465
+  lng: 139.341675639153
+  schedule:
+    weekday:
+    - time: 08:32
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '10:47'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '13:49'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '15:54'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    saturday: []
+    holiday: []
+- line: 精明・加治線
+  stop_id: '38_2'
+  stop_name: 白鳥幼稚園
+  direction: 東飯能駅東口方面
+  lat: 35.8371026618354
+  lng: 139.341681003571
+  schedule:
+    weekday:
+    - time: 08:33
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '10:48'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '13:50'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '15:55'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    saturday: []
+    holiday: []
+- line: 精明・加治線
+  stop_id: '36_2'
+  stop_name: 笠縫不動尊
+  direction: 東飯能駅東口方面
+  lat: 35.8394901456623
+  lng: 139.330227971077
+  schedule:
+    weekday:
+    - time: 08:37
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '10:52'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '13:54'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '15:59'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    saturday: []
+    holiday: []
+- line: 精明・加治線
+  stop_id: '34_2'
+  stop_name: 加治小学校東
+  direction: 東飯能駅東口方面
+  lat: 35.8429516525342
+  lng: 139.327781796455
+  schedule:
+    weekday:
+    - time: 08:41
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '10:56'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '13:57'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '16:02'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    saturday: []
+    holiday: []
+- line: 精明・加治線
+  stop_id: '33_2'
+  stop_name: 笠縫西武踏切南
+  direction: 東飯能駅東口方面
+  lat: 35.8417731916204
+  lng: 139.331215023994
+  schedule:
+    weekday:
+    - time: 08:42
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '10:57'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '13:58'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '16:03'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    saturday: []
+    holiday: []
+- line: 精明・加治線
+  stop_id: '32_2'
+  stop_name: 笠縫北
+  direction: 東飯能駅東口方面
+  lat: 35.8448378076751
+  lng: 139.333243169812
+  schedule:
+    weekday:
+    - time: 08:43
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '10:58'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '13:59'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '16:04'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    saturday: []
+    holiday: []
+- line: 精明・加治線
+  stop_id: '31_2'
+  stop_name: 白髪白山神社
+  direction: 東飯能駅東口方面
+  lat: 35.8437353896957
+  lng: 139.339205363531
+  schedule:
+    weekday:
+    - time: 08:44
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '10:59'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '14:00'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '16:05'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    saturday: []
+    holiday: []
+- line: 精明・加治線
+  stop_id: '30_2'
+  stop_name: 双柳南
+  direction: 東飯能駅東口方面
+  lat: 35.8464454909703
+  lng: 139.338547819081
+  schedule:
+    weekday:
+    - time: 08:47
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '11:02'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '14:03'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '16:08'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    saturday: []
+    holiday: []
+- line: 精明・加治線
+  stop_id: '6_2'
+  stop_name: 双柳入口
+  direction: 東飯能駅東口方面
+  lat: 35.8481959381771
+  lng: 139.334509456144
+  schedule:
+    weekday:
+    - time: 08:48
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: 09:55
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '11:03'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '11:51'
+      route: 飯能市乗合ワゴン　精明西コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '14:04'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '15:08'
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '16:09'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '16:50'
+      route: 飯能市乗合ワゴン　精明西コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    saturday: []
+    holiday: []
+- line: 精明・加治線
+  stop_id: '5_2'
+  stop_name: 緑町
+  direction: 東飯能駅東口方面
+  lat: 35.850271
+  lng: 139.330372
+  schedule:
+    weekday:
+    - time: 08:49
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: 09:56
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '11:04'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '11:52'
+      route: 飯能市乗合ワゴン　精明西コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '14:05'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '15:09'
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '16:10'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '16:51'
+      route: 飯能市乗合ワゴン　精明西コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    saturday: []
+    holiday: []
+- line: 精明・加治線
+  stop_id: '4_2'
+  stop_name: 総合福祉センター南
+  direction: 東飯能駅東口方面
+  lat: 35.8544783563795
+  lng: 139.330002841141
+  schedule:
+    weekday:
+    - time: 08:51
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: 09:58
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '11:06'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '11:54'
+      route: 飯能市乗合ワゴン　精明西コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '14:07'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '15:11'
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '16:12'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '16:53'
+      route: 飯能市乗合ワゴン　精明西コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    saturday: []
+    holiday: []
+- line: 精明・加治線
+  stop_id: '2_2'
+  stop_name: 栄町
+  direction: 東飯能駅東口方面
+  lat: 35.852360462976
+  lng: 139.329155210125
+  schedule:
+    weekday:
+    - time: 08:54
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '10:01'
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '11:09'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '11:57'
+      route: 飯能市乗合ワゴン　精明西コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '14:10'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '15:14'
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '16:15'
+      route: 飯能市乗合ワゴン　加治コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '16:56'
+      route: 飯能市乗合ワゴン　精明西コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    saturday: []
+    holiday: []
+- line: 精明・加治線
+  stop_id: '7_1'
+  stop_name: 上の台
+  direction: 東飯能駅東口方面
+  lat: 35.859708
+  lng: 139.3429
+  schedule:
+    weekday:
+    - time: 09:23
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '11:38'
+      route: 飯能市乗合ワゴン　精明西コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '14:38'
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '16:38'
+      route: 飯能市乗合ワゴン　精明西コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    saturday: []
+    holiday: []
+- line: 精明・加治線
+  stop_id: '8_0'
+  stop_name: 向原団地
+  direction: 東飯能駅東口方面
+  lat: 35.8614481501232
+  lng: 139.342775344849
+  schedule:
+    weekday:
+    - time: 09:24
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: 09:48
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '11:39'
+      route: 飯能市乗合ワゴン　精明西コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '14:39'
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '15:01'
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '16:39'
+      route: 飯能市乗合ワゴン　精明西コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    saturday: []
+    holiday: []
+- line: 精明・加治線
+  stop_id: '9_0'
+  stop_name: 新田団地
+  direction: 東飯能駅東口方面
+  lat: 35.8623828618371
+  lng: 139.346460700035
+  schedule:
+    weekday:
+    - time: 09:24
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: 09:48
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '11:39'
+      route: 飯能市乗合ワゴン　精明西コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '14:39'
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '15:01'
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '16:39'
+      route: 飯能市乗合ワゴン　精明西コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    saturday: []
+    holiday: []
+- line: 精明・加治線
+  stop_id: '10_1'
+  stop_name: 平松団地
+  direction: 東飯能駅東口方面
+  lat: 35.8656433944422
+  lng: 139.345210790634
+  schedule:
+    weekday:
+    - time: 09:28
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '11:43'
+      route: 飯能市乗合ワゴン　精明西コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '14:42'
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '16:42'
+      route: 飯能市乗合ワゴン　精明西コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    saturday: []
+    holiday: []
+- line: 精明・加治線
+  stop_id: '18_1'
+  stop_name: 上平松
+  direction: 東飯能駅東口方面
+  lat: 35.8677377172659
+  lng: 139.346868828753
+  schedule:
+    weekday:
+    - time: 09:29
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '14:43'
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    saturday: []
+    holiday: []
+- line: 精明・加治線
+  stop_id: '19_1'
+  stop_name: 平松
+  direction: 東飯能駅東口方面
+  lat: 35.868092322201
+  lng: 139.348664432277
+  schedule:
+    weekday:
+    - time: 09:29
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '14:43'
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    saturday: []
+    holiday: []
+- line: 精明・加治線
+  stop_id: '20_0'
+  stop_name: 敬愛園
+  direction: 東飯能駅東口方面
+  lat: 35.8665737074999
+  lng: 139.357919096947
+  schedule:
+    weekday:
+    - time: 09:31
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '14:45'
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    saturday: []
+    holiday: []
+- line: 精明・加治線
+  stop_id: '21_0'
+  stop_name: 坂上地蔵尊
+  direction: 東飯能駅東口方面
+  lat: 35.8663563447643
+  lng: 139.362929463387
+  schedule:
+    weekday:
+    - time: 09:32
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '14:46'
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    saturday: []
+    holiday: []
+- line: 精明・加治線
+  stop_id: '22_0'
+  stop_name: 芦苅場南
+  direction: 東飯能駅東口方面
+  lat: 35.865609
+  lng: 139.3686
+  schedule:
+    weekday:
+    - time: 09:34
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '14:48'
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    saturday: []
+    holiday: []
+- line: 精明・加治線
+  stop_id: '23_0'
+  stop_name: 芳ヶ谷
+  direction: 東飯能駅東口方面
+  lat: 35.868979
+  lng: 139.367566
+  schedule:
+    weekday:
+    - time: 09:35
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '14:49'
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    saturday: []
+    holiday: []
+- line: 精明・加治線
+  stop_id: '24_0'
+  stop_name: 下川崎西
+  direction: 東飯能駅東口方面
+  lat: 35.8721423216166
+  lng: 139.361899495125
+  schedule:
+    weekday:
+    - time: 09:37
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '14:51'
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    saturday: []
+    holiday: []
+- line: 精明・加治線
+  stop_id: '25_0'
+  stop_name: 下川崎東
+  direction: 東飯能駅東口方面
+  lat: 35.8745939538567
+  lng: 139.364345669746
+  schedule:
+    weekday:
+    - time: 09:38
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '14:52'
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    saturday: []
+    holiday: []
+- line: 精明・加治線
+  stop_id: '26_0'
+  stop_name: 下川崎センター
+  direction: 東飯能駅東口方面
+  lat: 35.8764195855671
+  lng: 139.363455176353
+  schedule:
+    weekday:
+    - time: 09:39
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '14:53'
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    saturday: []
+    holiday: []
+- line: 精明・加治線
+  stop_id: '27_0'
+  stop_name: 川崎センター
+  direction: 東飯能駅東口方面
+  lat: 35.8748286792368
+  lng: 139.357613325119
+  schedule:
+    weekday:
+    - time: 09:41
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '14:55'
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    saturday: []
+    holiday: []
+- line: 精明・加治線
+  stop_id: '28_0'
+  stop_name: 中原
+  direction: 東飯能駅東口方面
+  lat: 35.8728943363636
+  lng: 139.355016946793
+  schedule:
+    weekday:
+    - time: 09:42
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '14:56'
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    saturday: []
+    holiday: []
+- line: 精明・加治線
+  stop_id: '29_0'
+  stop_name: 川崎入口
+  direction: 東飯能駅東口方面
+  lat: 35.8683797017166
+  lng: 139.352578851644
+  schedule:
+    weekday:
+    - time: 09:43
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '14:57'
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    saturday: []
+    holiday: []
+- line: 精明・加治線
+  stop_id: '19_2'
+  stop_name: 平松
+  direction: 東飯能駅東口方面
+  lat: 35.8680189557929
+  lng: 139.349049204461
+  schedule:
+    weekday:
+    - time: 09:44
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '14:58'
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    saturday: []
+    holiday: []
+- line: 精明・加治線
+  stop_id: '18_2'
+  stop_name: 上平松
+  direction: 東飯能駅東口方面
+  lat: 35.8676154393341
+  lng: 139.346853739647
+  schedule:
+    weekday:
+    - time: 09:44
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '14:58'
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    saturday: []
+    holiday: []
+- line: 精明・加治線
+  stop_id: '10_2'
+  stop_name: 平松団地
+  direction: 東飯能駅東口方面
+  lat: 35.8657825071424
+  lng: 139.345452189445
+  schedule:
+    weekday:
+    - time: 09:46
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '14:59'
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    saturday: []
+    holiday: []
+- line: 精明・加治線
+  stop_id: '7_2'
+  stop_name: 上の台
+  direction: 東飯能駅東口方面
+  lat: 35.860243
+  lng: 139.34284
+  schedule:
+    weekday:
+    - time: 09:49
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '15:02'
+      route: 飯能市乗合ワゴン　精明東コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    saturday: []
+    holiday: []
+- line: 精明・加治線
+  stop_id: '11_0'
+  stop_name: 精明地区行政センター
+  direction: 東飯能駅東口方面
+  lat: 35.8662215798683
+  lng: 139.344368577003
+  schedule:
+    weekday:
+    - time: '11:43'
+      route: 飯能市乗合ワゴン　精明西コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '16:42'
+      route: 飯能市乗合ワゴン　精明西コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    saturday: []
+    holiday: []
+- line: 精明・加治線
+  stop_id: '12_0'
+  stop_name: 精明小学校
+  direction: 東飯能駅東口方面
+  lat: 35.8661419726038
+  lng: 139.342614408385
+  schedule:
+    weekday:
+    - time: '11:44'
+      route: 飯能市乗合ワゴン　精明西コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '16:43'
+      route: 飯能市乗合ワゴン　精明西コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    saturday: []
+    holiday: []
+- line: 精明・加治線
+  stop_id: '13_0'
+  stop_name: 下加治
+  direction: 東飯能駅東口方面
+  lat: 35.8652904195555
+  lng: 139.338343579611
+  schedule:
+    weekday:
+    - time: '11:45'
+      route: 飯能市乗合ワゴン　精明西コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '16:44'
+      route: 飯能市乗合ワゴン　精明西コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    saturday: []
+    holiday: []
+- line: 精明・加治線
+  stop_id: '14_0'
+  stop_name: 飯能靖和病院
+  direction: 東飯能駅東口方面
+  lat: 35.8648033529097
+  lng: 139.335406140947
+  schedule:
+    weekday:
+    - time: '11:46'
+      route: 飯能市乗合ワゴン　精明西コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '16:45'
+      route: 飯能市乗合ワゴン　精明西コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    saturday: []
+    holiday: []
+- line: 精明・加治線
+  stop_id: '15_0'
+  stop_name: 白子神社
+  direction: 東飯能駅東口方面
+  lat: 35.8639098519995
+  lng: 139.33341600637
+  schedule:
+    weekday:
+    - time: '11:46'
+      route: 飯能市乗合ワゴン　精明西コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '16:45'
+      route: 飯能市乗合ワゴン　精明西コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    saturday: []
+    holiday: []
+- line: 精明・加治線
+  stop_id: '16_0'
+  stop_name: 飯能看護学校
+  direction: 東飯能駅東口方面
+  lat: 35.86062
+  lng: 139.334455
+  schedule:
+    weekday:
+    - time: '11:47'
+      route: 飯能市乗合ワゴン　精明西コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '16:46'
+      route: 飯能市乗合ワゴン　精明西コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    saturday: []
+    holiday: []
+- line: 精明・加治線
+  stop_id: '17_0'
+  stop_name: 飯能警察署
+  direction: 東飯能駅東口方面
+  lat: 35.8580439711304
+  lng: 139.335136413574
+  schedule:
+    weekday:
+    - time: '11:48'
+      route: 飯能市乗合ワゴン　精明西コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    - time: '16:47'
+      route: 飯能市乗合ワゴン　精明西コース
+      dest: 東飯能駅東口
+      note: 月・水・金のみ
+    saturday: []
+    holiday: []
