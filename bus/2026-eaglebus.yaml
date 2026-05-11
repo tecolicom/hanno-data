@@ -1,0 +1,2309 @@
+meta:
+  source: イーグルバス公式 (KML + 停留所別 PDF)
+  source_url: https://eaglebus.group/rosen/hanno_miyazawa/
+  operator: イーグルバス
+  extracted_at: '2026-05-11'
+routes:
+- line: 飯能駅・宮沢路線
+  stop_id: eagle_3032
+  stop_name: 飯能駅 北口
+  direction: メッツア・宮沢 飯能靖和病院経由
+  lat: 35.8510156
+  lng: 139.3201885
+  source_url: https://eaglebus.group/wp-content/uploads/2026/03/3032_2026.04.01hnnou.pdf
+  schedule:
+    weekday:
+    - time: 07:02
+      note: 宮沢行き
+    - time: 07:28
+    - time: 08:15
+      note: 宮沢行き
+    - time: 08:40
+    - time: 09:25
+    - time: '10:40'
+    - time: '11:25'
+    - time: '12:20'
+    - time: '12:50'
+    - time: '13:15'
+    - time: '13:50'
+    - time: '14:37'
+    - time: '15:05'
+    - time: '15:58'
+    - time: '16:28'
+    - time: '17:13'
+    - time: '18:05'
+    - time: '18:45'
+      note: 宮沢行き
+    - time: '19:16'
+    - time: '20:04'
+    - time: '20:52'
+    - time: '21:52'
+      note: 宮沢行き
+    saturday:
+    - time: 07:02
+      note: 宮沢行き
+    - time: 07:35
+    - time: 08:20
+      note: 宮沢行き
+    - time: 09:10
+    - time: '10:30'
+    - time: '11:45'
+    - time: '12:30'
+    - time: '12:55'
+    - time: '13:19'
+    - time: '14:08'
+    - time: '14:47'
+    - time: '15:40'
+    - time: '15:54'
+    - time: '16:43'
+    - time: '17:23'
+    - time: '17:50'
+    - time: '18:38'
+      note: 宮沢行き
+    - time: '19:30'
+    - time: '20:52'
+    - time: '21:52'
+      note: 宮沢行き
+    holiday:
+    - time: 07:02
+      note: 宮沢行き
+    - time: 07:35
+    - time: 08:20
+      note: 宮沢行き
+    - time: 09:10
+    - time: '10:30'
+    - time: '11:45'
+    - time: '12:30'
+    - time: '12:55'
+    - time: '13:19'
+    - time: '14:08'
+    - time: '14:47'
+    - time: '15:40'
+    - time: '15:54'
+    - time: '16:43'
+    - time: '17:23'
+    - time: '17:50'
+    - time: '18:38'
+      note: 宮沢行き
+    - time: '19:30'
+    - time: '20:52'
+    - time: '21:52'
+      note: 宮沢行き
+- line: 飯能駅・宮沢路線
+  stop_id: eagle_3032
+  stop_name: 飯能駅 北口
+  direction: メッツァ 直通
+  lat: 35.8510156
+  lng: 139.3201885
+  source_url: https://eaglebus.group/wp-content/uploads/2026/03/3032_2026.04.01hnnou.pdf
+  schedule:
+    weekday:
+    - time: 09:40
+      note: 西武バス(メッツァ直通)
+    - time: '10:20'
+      note: 西武バス(メッツァ直通)
+    - time: '11:00'
+      note: 西武バス(メッツァ直通)
+    - time: '11:50'
+      note: 西武バス(メッツァ直通)
+    - time: '12:35'
+      note: 西武バス(メッツァ直通)
+    - time: '14:08'
+      note: 西武バス(メッツァ直通)
+    - time: '14:50'
+      note: 西武バス(メッツァ直通)
+    - time: '15:33'
+      note: 西武バス(メッツァ直通)
+    - time: '16:10'
+      note: 西武バス(メッツァ直通)
+    - time: '16:50'
+      note: 西武バス(メッツァ直通)
+    saturday:
+    - time: 08:50
+      note: 国際興業バス(メッツァ直通)
+    - time: 09:29
+      note: 国際興業バス(メッツァ直通)
+    - time: 09:45
+      note: イーグルバス(メッツァ直通)
+    - time: '10:05'
+      note: 国際興業バス(メッツァ直通)
+    - time: '10:20'
+      note: イーグルバス(メッツァ直通)
+    - time: '10:36'
+      note: 国際興業バス(メッツァ直通)
+    - time: '10:48'
+      note: 国際興業バス(メッツァ直通)
+    - time: '11:00'
+      note: イーグルバス(メッツァ直通)
+    - time: '11:15'
+      note: 国際興業バス(メッツァ直通)
+    - time: '11:30'
+      note: 国際興業バス(メッツァ直通)
+    - time: '12:00'
+      note: イーグルバス(メッツァ直通)
+    - time: '12:20'
+      note: 国際興業バス(メッツァ直通)
+    - time: '12:45'
+      note: イーグルバス(メッツァ直通)
+    - time: '13:05'
+      note: 国際興業バス(メッツァ直通)
+    - time: '13:35'
+      note: 国際興業バス(メッツァ直通)
+    - time: '13:48'
+      note: 国際興業バス(メッツァ直通)
+    - time: '14:13'
+      note: イーグルバス(メッツァ直通)
+    - time: '14:28'
+      note: 国際興業バス(メッツァ直通)
+    - time: '14:53'
+      note: イーグルバス(メッツァ直通)
+    - time: '15:08'
+      note: 国際興業バス(メッツァ直通)
+    - time: '15:28'
+      note: 国際興業バス(メッツァ直通)
+    - time: '15:45'
+      note: イーグルバス(メッツァ直通)
+    - time: '16:08'
+      note: 国際興業バス(メッツァ直通)
+    - time: '16:29'
+      note: 国際興業バス(メッツァ直通)
+    - time: '16:48'
+      note: 国際興業バス(メッツァ直通)
+    - time: '17:03'
+      note: 国際興業バス(メッツァ直通)
+    - time: '17:28'
+      note: イーグルバス(メッツァ直通)
+    - time: '18:03'
+      note: 国際興業バス(メッツァ直通)
+    - time: '18:13'
+      note: イーグルバス(メッツァ直通)
+    - time: '18:25'
+      note: 国際興業バス(メッツァ直通)
+    - time: '18:55'
+      note: イーグルバス(メッツァ直通)
+    - time: '19:13'
+      note: 国際興業バス(メッツァ直通)
+    - time: '19:53'
+      note: 国際興業バス(メッツァ直通)
+    holiday:
+    - time: 08:50
+      note: 国際興業バス(メッツァ直通)
+    - time: 09:29
+      note: 国際興業バス(メッツァ直通)
+    - time: 09:45
+      note: イーグルバス(メッツァ直通)
+    - time: '10:05'
+      note: 国際興業バス(メッツァ直通)
+    - time: '10:20'
+      note: イーグルバス(メッツァ直通)
+    - time: '10:36'
+      note: 国際興業バス(メッツァ直通)
+    - time: '10:48'
+      note: 国際興業バス(メッツァ直通)
+    - time: '11:00'
+      note: イーグルバス(メッツァ直通)
+    - time: '11:15'
+      note: 国際興業バス(メッツァ直通)
+    - time: '11:30'
+      note: 国際興業バス(メッツァ直通)
+    - time: '12:00'
+      note: イーグルバス(メッツァ直通)
+    - time: '12:20'
+      note: 国際興業バス(メッツァ直通)
+    - time: '12:45'
+      note: イーグルバス(メッツァ直通)
+    - time: '13:05'
+      note: 国際興業バス(メッツァ直通)
+    - time: '13:35'
+      note: 国際興業バス(メッツァ直通)
+    - time: '13:48'
+      note: 国際興業バス(メッツァ直通)
+    - time: '14:13'
+      note: イーグルバス(メッツァ直通)
+    - time: '14:28'
+      note: 国際興業バス(メッツァ直通)
+    - time: '14:53'
+      note: イーグルバス(メッツァ直通)
+    - time: '15:08'
+      note: 国際興業バス(メッツァ直通)
+    - time: '15:28'
+      note: 国際興業バス(メッツァ直通)
+    - time: '15:45'
+      note: イーグルバス(メッツァ直通)
+    - time: '16:08'
+      note: 国際興業バス(メッツァ直通)
+    - time: '16:29'
+      note: 国際興業バス(メッツァ直通)
+    - time: '16:48'
+      note: 国際興業バス(メッツァ直通)
+    - time: '17:03'
+      note: 国際興業バス(メッツァ直通)
+    - time: '17:28'
+      note: イーグルバス(メッツァ直通)
+    - time: '18:03'
+      note: 国際興業バス(メッツァ直通)
+    - time: '18:13'
+      note: イーグルバス(メッツァ直通)
+    - time: '18:25'
+      note: 国際興業バス(メッツァ直通)
+    - time: '18:55'
+      note: イーグルバス(メッツァ直通)
+    - time: '19:13'
+      note: 国際興業バス(メッツァ直通)
+    - time: '19:53'
+      note: 国際興業バス(メッツァ直通)
+- line: 飯能駅・宮沢路線
+  stop_id: eagle_3031
+  stop_name: 中央通り
+  direction: 飯能駅北口
+  lat: 35.8538483
+  lng: 139.3212184
+  source_url: https://eaglebus.group/wp-content/uploads/2025/03/3031.pdf
+  schedule:
+    weekday:
+    - time: 06:42
+    - time: 07:11
+    - time: 07:58
+    - time: 08:24
+    - time: 09:10
+    - time: '10:25'
+    - time: '11:10'
+    - time: '12:00'
+    - time: '12:30'
+    - time: '12:55'
+    - time: '13:30'
+    - time: '14:20'
+    - time: '14:48'
+    - time: '15:43'
+    - time: '16:13'
+    - time: '16:58'
+    - time: '17:48'
+    - time: '18:28'
+    - time: '18:58'
+    - time: '19:46'
+    - time: '20:34'
+    - time: '21:39'
+    saturday:
+    - time: 06:42
+    - time: 07:15
+    - time: 08:07
+    - time: 08:52
+    - time: '10:13'
+    - time: '11:28'
+    - time: '12:13'
+    - time: '12:38'
+    - time: '13:02'
+    - time: '13:51'
+    - time: '14:30'
+    - time: '15:23'
+    - time: '15:37'
+    - time: '16:26'
+    - time: '17:06'
+    - time: '17:33'
+    - time: '18:21'
+    - time: '19:13'
+    - time: '20:34'
+    - time: '21:28'
+    holiday:
+    - time: 06:42
+    - time: 07:15
+    - time: 08:07
+    - time: 08:52
+    - time: '10:13'
+    - time: '11:28'
+    - time: '12:13'
+    - time: '12:38'
+    - time: '13:02'
+    - time: '13:51'
+    - time: '14:30'
+    - time: '15:23'
+    - time: '15:37'
+    - time: '16:26'
+    - time: '17:06'
+    - time: '17:33'
+    - time: '18:21'
+    - time: '19:13'
+    - time: '20:34'
+    - time: '21:28'
+- line: 飯能駅・宮沢路線
+  stop_id: eagle_3031
+  stop_name: 中央通り
+  direction: メッツア・宮沢 飯能靖和病院経由
+  lat: 35.8538483
+  lng: 139.3212184
+  source_url: https://eaglebus.group/wp-content/uploads/2025/03/3031.pdf
+  schedule:
+    weekday:
+    - time: 07:02
+      note: 各停・ メッツァ経由宮沢行き
+    - time: 07:28
+      note: 各停・ メッツァ止まり
+    - time: 08:15
+      note: 各停・ メッツァ経由宮沢行き
+    - time: 08:40
+      note: 各停・ メッツァ止まり
+    - time: 09:25
+      note: 各停・ メッツァ止まり
+    - time: '10:40'
+      note: 各停・ メッツァ止まり
+    - time: '11:25'
+      note: 各停・ メッツァ止まり
+    - time: '12:20'
+      note: 各停・ メッツァ止まり
+    - time: '12:50'
+      note: 各停・ メッツァ止まり
+    - time: '13:15'
+      note: 各停・ メッツァ止まり
+    - time: '13:50'
+      note: 各停・ メッツァ止まり
+    - time: '14:37'
+      note: 各停・ メッツァ止まり
+    - time: '15:05'
+      note: 各停・ メッツァ止まり
+    - time: '15:58'
+      note: 各停・ メッツァ止まり
+    - time: '16:28'
+      note: 各停・ メッツァ止まり
+    - time: '17:13'
+      note: 各停・ メッツァ止まり
+    - time: '18:05'
+      note: 各停・ メッツァ止まり
+    - time: '18:45'
+      note: 各停・ メッツァ経由宮沢行き
+    - time: '19:16'
+      note: 各停・ メッツァ止まり
+    - time: '20:04'
+      note: 各停・ メッツァ止まり
+    - time: '20:52'
+      note: 各停・ メッツァ止まり
+    - time: '21:52'
+      note: 各停・ メッツァ経由宮沢行き
+    saturday:
+    - time: 07:02
+      note: 各停・ メッツァ経由宮沢行き
+    - time: 07:35
+      note: 各停・ メッツァ止まり
+    - time: 08:20
+      note: 各停・ メッツァ経由宮沢行き
+    - time: 09:10
+      note: 各停・ メッツァ止まり
+    - time: '10:30'
+      note: 各停・ メッツァ止まり
+    - time: '11:45'
+      note: 各停・ メッツァ止まり
+    - time: '12:30'
+      note: 各停・ メッツァ止まり
+    - time: '12:55'
+      note: 各停・ メッツァ止まり
+    - time: '13:19'
+      note: 各停・ メッツァ止まり
+    - time: '14:08'
+      note: 各停・ メッツァ止まり
+    - time: '14:47'
+      note: 各停・ メッツァ止まり
+    - time: '15:40'
+      note: 各停・ メッツァ止まり
+    - time: '15:54'
+      note: 各停・ メッツァ止まり
+    - time: '16:43'
+      note: 各停・ メッツァ止まり
+    - time: '17:23'
+      note: 各停・ メッツァ止まり
+    - time: '17:50'
+      note: 各停・ メッツァ止まり
+    - time: '18:38'
+      note: 各停・ メッツァ経由宮沢行き
+    - time: '19:30'
+      note: 各停・ メッツァ止まり
+    - time: '20:52'
+      note: 各停・ メッツァ止まり
+    - time: '21:52'
+      note: 各停・ メッツァ経由宮沢行き
+    holiday:
+    - time: 07:02
+      note: 各停・ メッツァ経由宮沢行き
+    - time: 07:35
+      note: 各停・ メッツァ止まり
+    - time: 08:20
+      note: 各停・ メッツァ経由宮沢行き
+    - time: 09:10
+      note: 各停・ メッツァ止まり
+    - time: '10:30'
+      note: 各停・ メッツァ止まり
+    - time: '11:45'
+      note: 各停・ メッツァ止まり
+    - time: '12:30'
+      note: 各停・ メッツァ止まり
+    - time: '12:55'
+      note: 各停・ メッツァ止まり
+    - time: '13:19'
+      note: 各停・ メッツァ止まり
+    - time: '14:08'
+      note: 各停・ メッツァ止まり
+    - time: '14:47'
+      note: 各停・ メッツァ止まり
+    - time: '15:40'
+      note: 各停・ メッツァ止まり
+    - time: '15:54'
+      note: 各停・ メッツァ止まり
+    - time: '16:43'
+      note: 各停・ メッツァ止まり
+    - time: '17:23'
+      note: 各停・ メッツァ止まり
+    - time: '17:50'
+      note: 各停・ メッツァ止まり
+    - time: '18:38'
+      note: 各停・ メッツァ経由宮沢行き
+    - time: '19:30'
+      note: 各停・ メッツァ止まり
+    - time: '20:52'
+      note: 各停・ メッツァ止まり
+    - time: '21:52'
+      note: 各停・ メッツァ経由宮沢行き
+- line: 飯能駅・宮沢路線
+  stop_id: eagle_3030
+  stop_name: 八幡町
+  direction: 飯能駅北口
+  lat: 35.8560484
+  lng: 139.3218166
+  source_url: https://eaglebus.group/wp-content/uploads/2025/03/3030.pdf
+  schedule:
+    weekday:
+    - time: 06:41
+    - time: 07:10
+    - time: 07:57
+    - time: 08:23
+    - time: 09:09
+    - time: '10:24'
+    - time: '11:09'
+    - time: '11:59'
+    - time: '12:29'
+    - time: '12:54'
+    - time: '13:29'
+    - time: '14:19'
+    - time: '14:47'
+    - time: '15:42'
+    - time: '16:12'
+    - time: '16:57'
+    - time: '17:47'
+    - time: '18:27'
+    - time: '18:57'
+    - time: '19:45'
+    - time: '20:33'
+    - time: '21:38'
+    saturday:
+    - time: 06:41
+    - time: 07:14
+    - time: 08:06
+    - time: 08:51
+    - time: '10:12'
+    - time: '11:27'
+    - time: '12:12'
+    - time: '12:37'
+    - time: '13:01'
+    - time: '13:50'
+    - time: '14:29'
+    - time: '15:22'
+    - time: '15:36'
+    - time: '16:25'
+    - time: '17:05'
+    - time: '17:32'
+    - time: '18:20'
+    - time: '19:12'
+    - time: '20:33'
+    - time: '21:27'
+    holiday:
+    - time: 06:41
+    - time: 07:14
+    - time: 08:06
+    - time: 08:51
+    - time: '10:12'
+    - time: '11:27'
+    - time: '12:12'
+    - time: '12:37'
+    - time: '13:01'
+    - time: '13:50'
+    - time: '14:29'
+    - time: '15:22'
+    - time: '15:36'
+    - time: '16:25'
+    - time: '17:05'
+    - time: '17:32'
+    - time: '18:20'
+    - time: '19:12'
+    - time: '20:33'
+    - time: '21:27'
+- line: 飯能駅・宮沢路線
+  stop_id: eagle_3030
+  stop_name: 八幡町
+  direction: メッツア・宮沢 飯能靖和病院経由
+  lat: 35.8560484
+  lng: 139.3218166
+  source_url: https://eaglebus.group/wp-content/uploads/2025/03/3030.pdf
+  schedule:
+    weekday:
+    - time: 07:03
+      note: 各停・ メッツァ経由宮沢行き
+    - time: 07:29
+      note: 各停・ メッツァ止まり
+    - time: 08:16
+      note: 各停・ メッツァ経由宮沢行き
+    - time: 08:41
+      note: 各停・ メッツァ止まり
+    - time: 09:26
+      note: 各停・ メッツァ止まり
+    - time: '10:41'
+      note: 各停・ メッツァ止まり
+    - time: '11:26'
+      note: 各停・ メッツァ止まり
+    - time: '12:21'
+      note: 各停・ メッツァ止まり
+    - time: '12:51'
+      note: 各停・ メッツァ止まり
+    - time: '13:16'
+      note: 各停・ メッツァ止まり
+    - time: '13:51'
+      note: 各停・ メッツァ止まり
+    - time: '14:38'
+      note: 各停・ メッツァ止まり
+    - time: '15:06'
+      note: 各停・ メッツァ止まり
+    - time: '15:59'
+      note: 各停・ メッツァ止まり
+    - time: '16:29'
+      note: 各停・ メッツァ止まり
+    - time: '17:14'
+      note: 各停・ メッツァ止まり
+    - time: '18:06'
+      note: 各停・ メッツァ止まり
+    - time: '18:46'
+      note: 各停・ メッツァ経由宮沢行き
+    - time: '19:17'
+      note: 各停・ メッツァ止まり
+    - time: '20:05'
+      note: 各停・ メッツァ止まり
+    - time: '20:53'
+      note: 各停・ メッツァ止まり
+    - time: '21:53'
+      note: 各停・ メッツァ経由宮沢行き
+    saturday:
+    - time: 07:03
+      note: 各停・ メッツァ経由宮沢行き
+    - time: 07:36
+      note: 各停・ メッツァ止まり
+    - time: 08:21
+      note: 各停・ メッツァ経由宮沢行き
+    - time: 09:11
+      note: 各停・ メッツァ止まり
+    - time: '10:31'
+      note: 各停・ メッツァ止まり
+    - time: '11:46'
+      note: 各停・ メッツァ止まり
+    - time: '12:31'
+      note: 各停・ メッツァ止まり
+    - time: '12:56'
+      note: 各停・ メッツァ止まり
+    - time: '13:20'
+      note: 各停・ メッツァ止まり
+    - time: '14:09'
+      note: 各停・ メッツァ止まり
+    - time: '14:48'
+      note: 各停・ メッツァ止まり
+    - time: '15:41'
+      note: 各停・ メッツァ止まり
+    - time: '15:55'
+      note: 各停・ メッツァ止まり
+    - time: '16:44'
+      note: 各停・ メッツァ止まり
+    - time: '17:24'
+      note: 各停・ メッツァ止まり
+    - time: '17:51'
+      note: 各停・ メッツァ止まり
+    - time: '18:39'
+      note: 各停・ メッツァ経由宮沢行き
+    - time: '19:31'
+      note: 各停・ メッツァ止まり
+    - time: '20:53'
+      note: 各停・ メッツァ止まり
+    - time: '21:53'
+      note: 各停・ メッツァ経由宮沢行き
+    holiday:
+    - time: 07:03
+      note: 各停・ メッツァ経由宮沢行き
+    - time: 07:36
+      note: 各停・ メッツァ止まり
+    - time: 08:21
+      note: 各停・ メッツァ経由宮沢行き
+    - time: 09:11
+      note: 各停・ メッツァ止まり
+    - time: '10:31'
+      note: 各停・ メッツァ止まり
+    - time: '11:46'
+      note: 各停・ メッツァ止まり
+    - time: '12:31'
+      note: 各停・ メッツァ止まり
+    - time: '12:56'
+      note: 各停・ メッツァ止まり
+    - time: '13:20'
+      note: 各停・ メッツァ止まり
+    - time: '14:09'
+      note: 各停・ メッツァ止まり
+    - time: '14:48'
+      note: 各停・ メッツァ止まり
+    - time: '15:41'
+      note: 各停・ メッツァ止まり
+    - time: '15:55'
+      note: 各停・ メッツァ止まり
+    - time: '16:44'
+      note: 各停・ メッツァ止まり
+    - time: '17:24'
+      note: 各停・ メッツァ止まり
+    - time: '17:51'
+      note: 各停・ メッツァ止まり
+    - time: '18:39'
+      note: 各停・ メッツァ経由宮沢行き
+    - time: '19:31'
+      note: 各停・ メッツァ止まり
+    - time: '20:53'
+      note: 各停・ メッツァ止まり
+    - time: '21:53'
+      note: 各停・ メッツァ経由宮沢行き
+- line: 飯能駅・宮沢路線
+  stop_id: eagle_3029
+  stop_name: 聖望学園入口
+  direction: 飯能駅北口
+  lat: 35.85942
+  lng: 139.3226641
+  source_url: https://eaglebus.group/wp-content/uploads/2025/03/3029.pdf
+  schedule:
+    weekday:
+    - time: 06:40
+    - time: 07:09
+    - time: 07:56
+    - time: 08:22
+    - time: 09:08
+    - time: '10:23'
+    - time: '11:08'
+    - time: '11:58'
+    - time: '12:28'
+    - time: '12:53'
+    - time: '13:28'
+    - time: '14:18'
+    - time: '14:46'
+    - time: '15:41'
+    - time: '16:11'
+    - time: '16:56'
+    - time: '17:46'
+    - time: '18:26'
+    - time: '18:56'
+    - time: '19:44'
+    - time: '20:32'
+    - time: '21:37'
+    saturday:
+    - time: 06:40
+    - time: 07:13
+    - time: 08:05
+    - time: 08:50
+    - time: '10:11'
+    - time: '11:26'
+    - time: '12:11'
+    - time: '12:36'
+    - time: '13:00'
+    - time: '13:49'
+    - time: '14:28'
+    - time: '15:21'
+    - time: '15:35'
+    - time: '16:24'
+    - time: '17:04'
+    - time: '17:31'
+    - time: '18:19'
+    - time: '19:11'
+    - time: '20:32'
+    - time: '21:26'
+    holiday:
+    - time: 06:40
+    - time: 07:13
+    - time: 08:05
+    - time: 08:50
+    - time: '10:11'
+    - time: '11:26'
+    - time: '12:11'
+    - time: '12:36'
+    - time: '13:00'
+    - time: '13:49'
+    - time: '14:28'
+    - time: '15:21'
+    - time: '15:35'
+    - time: '16:24'
+    - time: '17:04'
+    - time: '17:31'
+    - time: '18:19'
+    - time: '19:11'
+    - time: '20:32'
+    - time: '21:26'
+- line: 飯能駅・宮沢路線
+  stop_id: eagle_3029
+  stop_name: 聖望学園入口
+  direction: メッツア・宮沢 飯能靖和病院経由
+  lat: 35.85942
+  lng: 139.3226641
+  source_url: https://eaglebus.group/wp-content/uploads/2025/03/3029.pdf
+  schedule:
+    weekday:
+    - time: 07:04
+      note: 各停・ メッツァ経由宮沢行き
+    - time: 07:30
+      note: 各停・ メッツァ止まり
+    - time: 08:17
+      note: 各停・ メッツァ経由宮沢行き
+    - time: 08:42
+      note: 各停・ メッツァ止まり
+    - time: 09:27
+      note: 各停・ メッツァ止まり
+    - time: '10:42'
+      note: 各停・ メッツァ止まり
+    - time: '11:27'
+      note: 各停・ メッツァ止まり
+    - time: '12:22'
+      note: 各停・ メッツァ止まり
+    - time: '12:52'
+      note: 各停・ メッツァ止まり
+    - time: '13:17'
+      note: 各停・ メッツァ止まり
+    - time: '13:52'
+      note: 各停・ メッツァ止まり
+    - time: '14:39'
+      note: 各停・ メッツァ止まり
+    - time: '15:07'
+      note: 各停・ メッツァ止まり
+    - time: '16:00'
+      note: 各停・ メッツァ止まり
+    - time: '16:30'
+      note: 各停・ メッツァ止まり
+    - time: '17:15'
+      note: 各停・ メッツァ止まり
+    - time: '18:07'
+      note: 各停・ メッツァ止まり
+    - time: '18:47'
+      note: 各停・ メッツァ経由宮沢行き
+    - time: '19:18'
+      note: 各停・ メッツァ止まり
+    - time: '20:06'
+      note: 各停・ メッツァ止まり
+    - time: '20:54'
+      note: 各停・ メッツァ止まり
+    - time: '21:54'
+      note: 各停・ メッツァ経由宮沢行き
+    saturday:
+    - time: 07:04
+      note: 各停・ メッツァ経由宮沢行き
+    - time: 07:37
+      note: 各停・ メッツァ止まり
+    - time: 08:22
+      note: 各停・ メッツァ経由宮沢行き
+    - time: 09:12
+      note: 各停・ メッツァ止まり
+    - time: '10:32'
+      note: 各停・ メッツァ止まり
+    - time: '11:47'
+      note: 各停・ メッツァ止まり
+    - time: '12:32'
+      note: 各停・ メッツァ止まり
+    - time: '12:57'
+      note: 各停・ メッツァ止まり
+    - time: '13:21'
+      note: 各停・ メッツァ止まり
+    - time: '14:10'
+      note: 各停・ メッツァ止まり
+    - time: '14:49'
+      note: 各停・ メッツァ止まり
+    - time: '15:42'
+      note: 各停・ メッツァ止まり
+    - time: '15:56'
+      note: 各停・ メッツァ止まり
+    - time: '16:45'
+      note: 各停・ メッツァ止まり
+    - time: '17:25'
+      note: 各停・ メッツァ止まり
+    - time: '17:52'
+      note: 各停・ メッツァ止まり
+    - time: '18:40'
+      note: 各停・ メッツァ経由宮沢行き
+    - time: '19:32'
+      note: 各停・ メッツァ止まり
+    - time: '20:54'
+      note: 各停・ メッツァ止まり
+    - time: '21:54'
+      note: 各停・ メッツァ経由宮沢行き
+    holiday:
+    - time: 07:04
+      note: 各停・ メッツァ経由宮沢行き
+    - time: 07:37
+      note: 各停・ メッツァ止まり
+    - time: 08:22
+      note: 各停・ メッツァ経由宮沢行き
+    - time: 09:12
+      note: 各停・ メッツァ止まり
+    - time: '10:32'
+      note: 各停・ メッツァ止まり
+    - time: '11:47'
+      note: 各停・ メッツァ止まり
+    - time: '12:32'
+      note: 各停・ メッツァ止まり
+    - time: '12:57'
+      note: 各停・ メッツァ止まり
+    - time: '13:21'
+      note: 各停・ メッツァ止まり
+    - time: '14:10'
+      note: 各停・ メッツァ止まり
+    - time: '14:49'
+      note: 各停・ メッツァ止まり
+    - time: '15:42'
+      note: 各停・ メッツァ止まり
+    - time: '15:56'
+      note: 各停・ メッツァ止まり
+    - time: '16:45'
+      note: 各停・ メッツァ止まり
+    - time: '17:25'
+      note: 各停・ メッツァ止まり
+    - time: '17:52'
+      note: 各停・ メッツァ止まり
+    - time: '18:40'
+      note: 各停・ メッツァ経由宮沢行き
+    - time: '19:32'
+      note: 各停・ メッツァ止まり
+    - time: '20:54'
+      note: 各停・ メッツァ止まり
+    - time: '21:54'
+      note: 各停・ メッツァ経由宮沢行き
+- line: 飯能駅・宮沢路線
+  stop_id: eagle_3028
+  stop_name: 中山
+  direction: 飯能駅北口
+  lat: 35.8623807
+  lng: 139.3233401
+  source_url: https://eaglebus.group/wp-content/uploads/2025/03/3028.pdf
+  schedule:
+    weekday:
+    - time: 06:39
+    - time: 07:08
+    - time: 07:55
+    - time: 08:21
+    - time: 09:07
+    - time: '10:22'
+    - time: '11:07'
+    - time: '11:57'
+    - time: '12:27'
+    - time: '12:52'
+    - time: '13:27'
+    - time: '14:17'
+    - time: '14:45'
+    - time: '15:40'
+    - time: '16:10'
+    - time: '16:55'
+    - time: '17:45'
+    - time: '18:25'
+    - time: '18:55'
+    - time: '19:43'
+    - time: '20:31'
+    - time: '21:36'
+    saturday:
+    - time: 06:39
+    - time: 07:12
+    - time: 08:04
+    - time: 08:49
+    - time: '10:10'
+    - time: '11:25'
+    - time: '12:10'
+    - time: '12:35'
+    - time: '12:59'
+    - time: '13:48'
+    - time: '14:27'
+    - time: '15:20'
+    - time: '15:34'
+    - time: '16:23'
+    - time: '17:03'
+    - time: '17:30'
+    - time: '18:18'
+    - time: '19:10'
+    - time: '20:31'
+    - time: '21:25'
+    holiday:
+    - time: 06:39
+    - time: 07:12
+    - time: 08:04
+    - time: 08:49
+    - time: '10:10'
+    - time: '11:25'
+    - time: '12:10'
+    - time: '12:35'
+    - time: '12:59'
+    - time: '13:48'
+    - time: '14:27'
+    - time: '15:20'
+    - time: '15:34'
+    - time: '16:23'
+    - time: '17:03'
+    - time: '17:30'
+    - time: '18:18'
+    - time: '19:10'
+    - time: '20:31'
+    - time: '21:25'
+- line: 飯能駅・宮沢路線
+  stop_id: eagle_3028
+  stop_name: 中山
+  direction: メッツア・宮沢 飯能靖和病院経由
+  lat: 35.8623807
+  lng: 139.3233401
+  source_url: https://eaglebus.group/wp-content/uploads/2025/03/3028.pdf
+  schedule:
+    weekday:
+    - time: 07:06
+      note: 各停・ メッツァ経由宮沢行き
+    - time: 07:32
+      note: 各停・ メッツァ止まり
+    - time: 08:19
+      note: 各停・ メッツァ経由宮沢行き
+    - time: 08:44
+      note: 各停・ メッツァ止まり
+    - time: 09:29
+      note: 各停・ メッツァ止まり
+    - time: '10:44'
+      note: 各停・ メッツァ止まり
+    - time: '11:29'
+      note: 各停・ メッツァ止まり
+    - time: '12:24'
+      note: 各停・ メッツァ止まり
+    - time: '12:54'
+      note: 各停・ メッツァ止まり
+    - time: '13:19'
+      note: 各停・ メッツァ止まり
+    - time: '13:54'
+      note: 各停・ メッツァ止まり
+    - time: '14:41'
+      note: 各停・ メッツァ止まり
+    - time: '15:09'
+      note: 各停・ メッツァ止まり
+    - time: '16:02'
+      note: 各停・ メッツァ止まり
+    - time: '16:32'
+      note: 各停・ メッツァ止まり
+    - time: '17:17'
+      note: 各停・ メッツァ止まり
+    - time: '18:09'
+      note: 各停・ メッツァ止まり
+    - time: '18:49'
+      note: 各停・ メッツァ経由宮沢行き
+    - time: '19:20'
+      note: 各停・ メッツァ止まり
+    - time: '20:08'
+      note: 各停・ メッツァ止まり
+    - time: '20:56'
+      note: 各停・ メッツァ止まり
+    - time: '21:56'
+      note: 各停・ メッツァ経由宮沢行き
+    saturday:
+    - time: 07:06
+      note: 各停・ メッツァ経由宮沢行き
+    - time: 07:39
+      note: 各停・ メッツァ止まり
+    - time: 08:24
+      note: 各停・ メッツァ経由宮沢行き
+    - time: 09:14
+      note: 各停・ メッツァ止まり
+    - time: '10:34'
+      note: 各停・ メッツァ止まり
+    - time: '11:49'
+      note: 各停・ メッツァ止まり
+    - time: '12:34'
+      note: 各停・ メッツァ止まり
+    - time: '12:59'
+      note: 各停・ メッツァ止まり
+    - time: '13:23'
+      note: 各停・ メッツァ止まり
+    - time: '14:12'
+      note: 各停・ メッツァ止まり
+    - time: '14:51'
+      note: 各停・ メッツァ止まり
+    - time: '15:44'
+      note: 各停・ メッツァ止まり
+    - time: '15:58'
+      note: 各停・ メッツァ止まり
+    - time: '16:47'
+      note: 各停・ メッツァ止まり
+    - time: '17:27'
+      note: 各停・ メッツァ止まり
+    - time: '17:54'
+      note: 各停・ メッツァ止まり
+    - time: '18:42'
+      note: 各停・ メッツァ経由宮沢行き
+    - time: '19:34'
+      note: 各停・ メッツァ止まり
+    - time: '20:56'
+      note: 各停・ メッツァ止まり
+    - time: '21:56'
+      note: 各停・ メッツァ経由宮沢行き
+    holiday:
+    - time: 07:06
+      note: 各停・ メッツァ経由宮沢行き
+    - time: 07:39
+      note: 各停・ メッツァ止まり
+    - time: 08:24
+      note: 各停・ メッツァ経由宮沢行き
+    - time: 09:14
+      note: 各停・ メッツァ止まり
+    - time: '10:34'
+      note: 各停・ メッツァ止まり
+    - time: '11:49'
+      note: 各停・ メッツァ止まり
+    - time: '12:34'
+      note: 各停・ メッツァ止まり
+    - time: '12:59'
+      note: 各停・ メッツァ止まり
+    - time: '13:23'
+      note: 各停・ メッツァ止まり
+    - time: '14:12'
+      note: 各停・ メッツァ止まり
+    - time: '14:51'
+      note: 各停・ メッツァ止まり
+    - time: '15:44'
+      note: 各停・ メッツァ止まり
+    - time: '15:58'
+      note: 各停・ メッツァ止まり
+    - time: '16:47'
+      note: 各停・ メッツァ止まり
+    - time: '17:27'
+      note: 各停・ メッツァ止まり
+    - time: '17:54'
+      note: 各停・ メッツァ止まり
+    - time: '18:42'
+      note: 各停・ メッツァ経由宮沢行き
+    - time: '19:34'
+      note: 各停・ メッツァ止まり
+    - time: '20:56'
+      note: 各停・ メッツァ止まり
+    - time: '21:56'
+      note: 各停・ メッツァ経由宮沢行き
+- line: 飯能駅・宮沢路線
+  stop_id: eagle_3027
+  stop_name: 中居
+  direction: 飯能駅北口
+  lat: 35.8628307
+  lng: 139.327476
+  source_url: https://eaglebus.group/wp-content/uploads/2025/03/3027.pdf
+  schedule:
+    weekday:
+    - time: 06:38
+    - time: 07:07
+    - time: 07:54
+    - time: 08:20
+    - time: 09:06
+    - time: '10:21'
+    - time: '11:06'
+    - time: '11:56'
+    - time: '12:26'
+    - time: '12:51'
+    - time: '13:26'
+    - time: '14:16'
+    - time: '14:44'
+    - time: '15:39'
+    - time: '16:09'
+    - time: '16:54'
+    - time: '17:44'
+    - time: '18:24'
+    - time: '18:54'
+    - time: '19:42'
+    - time: '20:30'
+    - time: '21:35'
+    saturday:
+    - time: 06:38
+    - time: 07:11
+    - time: 08:03
+    - time: 08:48
+    - time: '10:09'
+    - time: '11:24'
+    - time: '12:09'
+    - time: '12:34'
+    - time: '12:58'
+    - time: '13:47'
+    - time: '14:26'
+    - time: '15:19'
+    - time: '15:33'
+    - time: '16:22'
+    - time: '17:02'
+    - time: '17:29'
+    - time: '18:17'
+    - time: '19:09'
+    - time: '20:30'
+    - time: '21:24'
+    holiday:
+    - time: 06:38
+    - time: 07:11
+    - time: 08:03
+    - time: 08:48
+    - time: '10:09'
+    - time: '11:24'
+    - time: '12:09'
+    - time: '12:34'
+    - time: '12:58'
+    - time: '13:47'
+    - time: '14:26'
+    - time: '15:19'
+    - time: '15:33'
+    - time: '16:22'
+    - time: '17:02'
+    - time: '17:29'
+    - time: '18:17'
+    - time: '19:09'
+    - time: '20:30'
+    - time: '21:24'
+- line: 飯能駅・宮沢路線
+  stop_id: eagle_3027
+  stop_name: 中居
+  direction: メッツア・宮沢 飯能靖和病院経由
+  lat: 35.8628307
+  lng: 139.327476
+  source_url: https://eaglebus.group/wp-content/uploads/2025/03/3027.pdf
+  schedule:
+    weekday:
+    - time: 07:07
+      note: 各停・ メッツァ経由宮沢行き
+    - time: 07:33
+      note: 各停・ メッツァ止まり
+    - time: 08:20
+      note: 各停・ メッツァ経由宮沢行き
+    - time: 08:45
+      note: 各停・ メッツァ止まり
+    - time: 09:30
+      note: 各停・ メッツァ止まり
+    - time: '10:45'
+      note: 各停・ メッツァ止まり
+    - time: '11:30'
+      note: 各停・ メッツァ止まり
+    - time: '12:25'
+      note: 各停・ メッツァ止まり
+    - time: '12:55'
+      note: 各停・ メッツァ止まり
+    - time: '13:20'
+      note: 各停・ メッツァ止まり
+    - time: '13:55'
+      note: 各停・ メッツァ止まり
+    - time: '14:42'
+      note: 各停・ メッツァ止まり
+    - time: '15:10'
+      note: 各停・ メッツァ止まり
+    - time: '16:03'
+      note: 各停・ メッツァ止まり
+    - time: '16:33'
+      note: 各停・ メッツァ止まり
+    - time: '17:18'
+      note: 各停・ メッツァ止まり
+    - time: '18:10'
+      note: 各停・ メッツァ止まり
+    - time: '18:50'
+      note: 各停・ メッツァ経由宮沢行き
+    - time: '19:21'
+      note: 各停・ メッツァ止まり
+    - time: '20:09'
+      note: 各停・ メッツァ止まり
+    - time: '20:57'
+      note: 各停・ メッツァ止まり
+    - time: '21:57'
+      note: 各停・ メッツァ経由宮沢行き
+    saturday:
+    - time: 07:07
+      note: 各停・ メッツァ経由宮沢行き
+    - time: 07:40
+      note: 各停・ メッツァ止まり
+    - time: 08:25
+      note: 各停・ メッツァ経由宮沢行き
+    - time: 09:15
+      note: 各停・ メッツァ止まり
+    - time: '10:35'
+      note: 各停・ メッツァ止まり
+    - time: '11:50'
+      note: 各停・ メッツァ止まり
+    - time: '12:35'
+      note: 各停・ メッツァ止まり
+    - time: '13:00'
+      note: 各停・ メッツァ止まり
+    - time: '13:24'
+      note: 各停・ メッツァ止まり
+    - time: '14:13'
+      note: 各停・ メッツァ止まり
+    - time: '14:52'
+      note: 各停・ メッツァ止まり
+    - time: '15:45'
+      note: 各停・ メッツァ止まり
+    - time: '15:59'
+      note: 各停・ メッツァ止まり
+    - time: '16:48'
+      note: 各停・ メッツァ止まり
+    - time: '17:28'
+      note: 各停・ メッツァ止まり
+    - time: '17:55'
+      note: 各停・ メッツァ止まり
+    - time: '18:43'
+      note: 各停・ メッツァ経由宮沢行き
+    - time: '19:35'
+      note: 各停・ メッツァ止まり
+    - time: '20:57'
+      note: 各停・ メッツァ止まり
+    - time: '21:57'
+      note: 各停・ メッツァ経由宮沢行き
+    holiday:
+    - time: 07:07
+      note: 各停・ メッツァ経由宮沢行き
+    - time: 07:40
+      note: 各停・ メッツァ止まり
+    - time: 08:25
+      note: 各停・ メッツァ経由宮沢行き
+    - time: 09:15
+      note: 各停・ メッツァ止まり
+    - time: '10:35'
+      note: 各停・ メッツァ止まり
+    - time: '11:50'
+      note: 各停・ メッツァ止まり
+    - time: '12:35'
+      note: 各停・ メッツァ止まり
+    - time: '13:00'
+      note: 各停・ メッツァ止まり
+    - time: '13:24'
+      note: 各停・ メッツァ止まり
+    - time: '14:13'
+      note: 各停・ メッツァ止まり
+    - time: '14:52'
+      note: 各停・ メッツァ止まり
+    - time: '15:45'
+      note: 各停・ メッツァ止まり
+    - time: '15:59'
+      note: 各停・ メッツァ止まり
+    - time: '16:48'
+      note: 各停・ メッツァ止まり
+    - time: '17:28'
+      note: 各停・ メッツァ止まり
+    - time: '17:55'
+      note: 各停・ メッツァ止まり
+    - time: '18:43'
+      note: 各停・ メッツァ経由宮沢行き
+    - time: '19:35'
+      note: 各停・ メッツァ止まり
+    - time: '20:57'
+      note: 各停・ メッツァ止まり
+    - time: '21:57'
+      note: 各停・ メッツァ経由宮沢行き
+- line: 飯能駅・宮沢路線
+  stop_id: eagle_3026
+  stop_name: 青木
+  direction: 飯能駅北口
+  lat: 35.8628285
+  lng: 139.3315718
+  source_url: https://eaglebus.group/wp-content/uploads/2025/03/3026.pdf
+  schedule:
+    weekday:
+    - time: 06:37
+    - time: 07:06
+    - time: 07:53
+    - time: 08:19
+    - time: 09:05
+    - time: '10:20'
+    - time: '11:05'
+    - time: '11:55'
+    - time: '12:25'
+    - time: '12:50'
+    - time: '13:25'
+    - time: '14:15'
+    - time: '14:43'
+    - time: '15:38'
+    - time: '16:08'
+    - time: '16:53'
+    - time: '17:43'
+    - time: '18:23'
+    - time: '18:53'
+    - time: '19:41'
+    - time: '20:29'
+    - time: '21:34'
+    saturday:
+    - time: 06:37
+    - time: 07:10
+    - time: 08:02
+    - time: 08:47
+    - time: '10:08'
+    - time: '11:23'
+    - time: '12:08'
+    - time: '12:33'
+    - time: '12:57'
+    - time: '13:46'
+    - time: '14:25'
+    - time: '15:18'
+    - time: '15:32'
+    - time: '16:21'
+    - time: '17:01'
+    - time: '17:28'
+    - time: '18:16'
+    - time: '19:08'
+    - time: '20:29'
+    - time: '21:23'
+    holiday:
+    - time: 06:37
+    - time: 07:10
+    - time: 08:02
+    - time: 08:47
+    - time: '10:08'
+    - time: '11:23'
+    - time: '12:08'
+    - time: '12:33'
+    - time: '12:57'
+    - time: '13:46'
+    - time: '14:25'
+    - time: '15:18'
+    - time: '15:32'
+    - time: '16:21'
+    - time: '17:01'
+    - time: '17:28'
+    - time: '18:16'
+    - time: '19:08'
+    - time: '20:29'
+    - time: '21:23'
+- line: 飯能駅・宮沢路線
+  stop_id: eagle_3026
+  stop_name: 青木
+  direction: メッツア・宮沢 飯能靖和病院経由
+  lat: 35.8628285
+  lng: 139.3315718
+  source_url: https://eaglebus.group/wp-content/uploads/2025/03/3026.pdf
+  schedule:
+    weekday:
+    - time: 07:08
+      note: 各停・ メッツァ経由宮沢行き
+    - time: 07:34
+      note: 各停・ メッツァ止まり
+    - time: 08:21
+      note: 各停・ メッツァ経由宮沢行き
+    - time: 08:46
+      note: 各停・ メッツァ止まり
+    - time: 09:31
+      note: 各停・ メッツァ止まり
+    - time: '10:46'
+      note: 各停・ メッツァ止まり
+    - time: '11:31'
+      note: 各停・ メッツァ止まり
+    - time: '12:26'
+      note: 各停・ メッツァ止まり
+    - time: '12:56'
+      note: 各停・ メッツァ止まり
+    - time: '13:21'
+      note: 各停・ メッツァ止まり
+    - time: '13:56'
+      note: 各停・ メッツァ止まり
+    - time: '14:43'
+      note: 各停・ メッツァ止まり
+    - time: '15:11'
+      note: 各停・ メッツァ止まり
+    - time: '16:04'
+      note: 各停・ メッツァ止まり
+    - time: '16:34'
+      note: 各停・ メッツァ止まり
+    - time: '17:19'
+      note: 各停・ メッツァ止まり
+    - time: '18:11'
+      note: 各停・ メッツァ止まり
+    - time: '18:51'
+      note: 各停・ メッツァ経由宮沢行き
+    - time: '19:22'
+      note: 各停・ メッツァ止まり
+    - time: '20:10'
+      note: 各停・ メッツァ止まり
+    - time: '20:58'
+      note: 各停・ メッツァ止まり
+    - time: '21:58'
+      note: 各停・ メッツァ経由宮沢行き
+    saturday:
+    - time: 07:08
+      note: 各停・ メッツァ経由宮沢行き
+    - time: 07:41
+      note: 各停・ メッツァ止まり
+    - time: 08:26
+      note: 各停・ メッツァ経由宮沢行き
+    - time: 09:16
+      note: 各停・ メッツァ止まり
+    - time: '10:36'
+      note: 各停・ メッツァ止まり
+    - time: '11:51'
+      note: 各停・ メッツァ止まり
+    - time: '12:36'
+      note: 各停・ メッツァ止まり
+    - time: '13:01'
+      note: 各停・ メッツァ止まり
+    - time: '13:25'
+      note: 各停・ メッツァ止まり
+    - time: '14:14'
+      note: 各停・ メッツァ止まり
+    - time: '14:53'
+      note: 各停・ メッツァ止まり
+    - time: '15:46'
+      note: 各停・ メッツァ止まり
+    - time: '16:00'
+      note: 各停・ メッツァ止まり
+    - time: '16:49'
+      note: 各停・ メッツァ止まり
+    - time: '17:29'
+      note: 各停・ メッツァ止まり
+    - time: '17:56'
+      note: 各停・ メッツァ止まり
+    - time: '18:44'
+      note: 各停・ メッツァ経由宮沢行き
+    - time: '19:36'
+      note: 各停・ メッツァ止まり
+    - time: '20:58'
+      note: 各停・ メッツァ止まり
+    - time: '21:58'
+      note: 各停・ メッツァ経由宮沢行き
+    holiday:
+    - time: 07:08
+      note: 各停・ メッツァ経由宮沢行き
+    - time: 07:41
+      note: 各停・ メッツァ止まり
+    - time: 08:26
+      note: 各停・ メッツァ経由宮沢行き
+    - time: 09:16
+      note: 各停・ メッツァ止まり
+    - time: '10:36'
+      note: 各停・ メッツァ止まり
+    - time: '11:51'
+      note: 各停・ メッツァ止まり
+    - time: '12:36'
+      note: 各停・ メッツァ止まり
+    - time: '13:01'
+      note: 各停・ メッツァ止まり
+    - time: '13:25'
+      note: 各停・ メッツァ止まり
+    - time: '14:14'
+      note: 各停・ メッツァ止まり
+    - time: '14:53'
+      note: 各停・ メッツァ止まり
+    - time: '15:46'
+      note: 各停・ メッツァ止まり
+    - time: '16:00'
+      note: 各停・ メッツァ止まり
+    - time: '16:49'
+      note: 各停・ メッツァ止まり
+    - time: '17:29'
+      note: 各停・ メッツァ止まり
+    - time: '17:56'
+      note: 各停・ メッツァ止まり
+    - time: '18:44'
+      note: 各停・ メッツァ経由宮沢行き
+    - time: '19:36'
+      note: 各停・ メッツァ止まり
+    - time: '20:58'
+      note: 各停・ メッツァ止まり
+    - time: '21:58'
+      note: 各停・ メッツァ経由宮沢行き
+- line: 飯能駅・宮沢路線
+  stop_id: eagle_3025
+  stop_name: 白子神社
+  direction: 飯能駅北口
+  lat: 35.8639892
+  lng: 139.3335512
+  source_url: https://eaglebus.group/wp-content/uploads/2025/03/3025.pdf
+  schedule:
+    weekday:
+    - time: 06:36
+    - time: 07:05
+    - time: 07:52
+    - time: 08:18
+    - time: 09:04
+    - time: '10:19'
+    - time: '11:04'
+    - time: '11:54'
+    - time: '12:24'
+    - time: '12:49'
+    - time: '13:24'
+    - time: '14:14'
+    - time: '14:42'
+    - time: '15:37'
+    - time: '16:07'
+    - time: '16:52'
+    - time: '17:42'
+    - time: '18:22'
+    - time: '18:52'
+    - time: '19:40'
+    - time: '20:28'
+    - time: '21:33'
+    saturday:
+    - time: 06:36
+    - time: 07:09
+    - time: 08:01
+    - time: 08:46
+    - time: '10:07'
+    - time: '11:22'
+    - time: '12:07'
+    - time: '12:32'
+    - time: '12:56'
+    - time: '13:45'
+    - time: '14:24'
+    - time: '15:17'
+    - time: '15:31'
+    - time: '16:20'
+    - time: '17:00'
+    - time: '17:27'
+    - time: '18:15'
+    - time: '19:07'
+    - time: '20:28'
+    - time: '21:22'
+    holiday:
+    - time: 06:36
+    - time: 07:09
+    - time: 08:01
+    - time: 08:46
+    - time: '10:07'
+    - time: '11:22'
+    - time: '12:07'
+    - time: '12:32'
+    - time: '12:56'
+    - time: '13:45'
+    - time: '14:24'
+    - time: '15:17'
+    - time: '15:31'
+    - time: '16:20'
+    - time: '17:00'
+    - time: '17:27'
+    - time: '18:15'
+    - time: '19:07'
+    - time: '20:28'
+    - time: '21:22'
+- line: 飯能駅・宮沢路線
+  stop_id: eagle_3025
+  stop_name: 白子神社
+  direction: メッツア・宮沢 飯能靖和病院経由
+  lat: 35.8639892
+  lng: 139.3335512
+  source_url: https://eaglebus.group/wp-content/uploads/2025/03/3025.pdf
+  schedule:
+    weekday:
+    - time: 07:08
+      note: 各停・ メッツァ経由宮沢行き
+    - time: 07:34
+      note: 各停・ メッツァ止まり
+    - time: 08:21
+      note: 各停・ メッツァ経由宮沢行き
+    - time: 08:46
+      note: 各停・ メッツァ止まり
+    - time: 09:31
+      note: 各停・ メッツァ止まり
+    - time: '10:46'
+      note: 各停・ メッツァ止まり
+    - time: '11:31'
+      note: 各停・ メッツァ止まり
+    - time: '12:26'
+      note: 各停・ メッツァ止まり
+    - time: '12:56'
+      note: 各停・ メッツァ止まり
+    - time: '13:21'
+      note: 各停・ メッツァ止まり
+    - time: '13:56'
+      note: 各停・ メッツァ止まり
+    - time: '14:43'
+      note: 各停・ メッツァ止まり
+    - time: '15:11'
+      note: 各停・ メッツァ止まり
+    - time: '16:04'
+      note: 各停・ メッツァ止まり
+    - time: '16:34'
+      note: 各停・ メッツァ止まり
+    - time: '17:19'
+      note: 各停・ メッツァ止まり
+    - time: '18:11'
+      note: 各停・ メッツァ止まり
+    - time: '18:51'
+      note: 各停・ メッツァ経由宮沢行き
+    - time: '19:22'
+      note: 各停・ メッツァ止まり
+    - time: '20:10'
+      note: 各停・ メッツァ止まり
+    - time: '20:58'
+      note: 各停・ メッツァ止まり
+    - time: '21:58'
+      note: 各停・ メッツァ経由宮沢行き
+    saturday:
+    - time: 07:08
+      note: 各停・ メッツァ経由宮沢行き
+    - time: 07:41
+      note: 各停・ メッツァ止まり
+    - time: 08:26
+      note: 各停・ メッツァ経由宮沢行き
+    - time: 09:16
+      note: 各停・ メッツァ止まり
+    - time: '10:36'
+      note: 各停・ メッツァ止まり
+    - time: '11:51'
+      note: 各停・ メッツァ止まり
+    - time: '12:36'
+      note: 各停・ メッツァ止まり
+    - time: '13:01'
+      note: 各停・ メッツァ止まり
+    - time: '13:25'
+      note: 各停・ メッツァ止まり
+    - time: '14:14'
+      note: 各停・ メッツァ止まり
+    - time: '14:53'
+      note: 各停・ メッツァ止まり
+    - time: '15:46'
+      note: 各停・ メッツァ止まり
+    - time: '16:00'
+      note: 各停・ メッツァ止まり
+    - time: '16:49'
+      note: 各停・ メッツァ止まり
+    - time: '17:29'
+      note: 各停・ メッツァ止まり
+    - time: '17:56'
+      note: 各停・ メッツァ止まり
+    - time: '18:44'
+      note: 各停・ メッツァ経由宮沢行き
+    - time: '19:36'
+      note: 各停・ メッツァ止まり
+    - time: '20:58'
+      note: 各停・ メッツァ止まり
+    - time: '21:58'
+      note: 各停・ メッツァ経由宮沢行き
+    holiday:
+    - time: 07:08
+      note: 各停・ メッツァ経由宮沢行き
+    - time: 07:41
+      note: 各停・ メッツァ止まり
+    - time: 08:26
+      note: 各停・ メッツァ経由宮沢行き
+    - time: 09:16
+      note: 各停・ メッツァ止まり
+    - time: '10:36'
+      note: 各停・ メッツァ止まり
+    - time: '11:51'
+      note: 各停・ メッツァ止まり
+    - time: '12:36'
+      note: 各停・ メッツァ止まり
+    - time: '13:01'
+      note: 各停・ メッツァ止まり
+    - time: '13:25'
+      note: 各停・ メッツァ止まり
+    - time: '14:14'
+      note: 各停・ メッツァ止まり
+    - time: '14:53'
+      note: 各停・ メッツァ止まり
+    - time: '15:46'
+      note: 各停・ メッツァ止まり
+    - time: '16:00'
+      note: 各停・ メッツァ止まり
+    - time: '16:49'
+      note: 各停・ メッツァ止まり
+    - time: '17:29'
+      note: 各停・ メッツァ止まり
+    - time: '17:56'
+      note: 各停・ メッツァ止まり
+    - time: '18:44'
+      note: 各停・ メッツァ経由宮沢行き
+    - time: '19:36'
+      note: 各停・ メッツァ止まり
+    - time: '20:58'
+      note: 各停・ メッツァ止まり
+    - time: '21:58'
+      note: 各停・ メッツァ経由宮沢行き
+- line: 飯能駅・宮沢路線
+  stop_id: eagle_3024
+  stop_name: 飯能靖和病院
+  direction: 飯能駅北口
+  lat: 35.8647891
+  lng: 139.3352196
+  source_url: https://eaglebus.group/wp-content/uploads/2025/03/3024.pdf
+  schedule:
+    weekday:
+    - time: 06:36
+    - time: 07:05
+    - time: 07:52
+    - time: 08:18
+    - time: 09:04
+    - time: '10:19'
+    - time: '11:04'
+    - time: '11:54'
+    - time: '12:24'
+    - time: '12:49'
+    - time: '13:24'
+    - time: '14:14'
+    - time: '14:42'
+    - time: '15:37'
+    - time: '16:07'
+    - time: '16:52'
+    - time: '17:42'
+    - time: '18:22'
+    - time: '18:52'
+    - time: '19:40'
+    - time: '20:28'
+    - time: '21:33'
+    saturday:
+    - time: 06:36
+    - time: 07:09
+    - time: 08:01
+    - time: 08:46
+    - time: '10:07'
+    - time: '11:22'
+    - time: '12:07'
+    - time: '12:32'
+    - time: '12:56'
+    - time: '13:45'
+    - time: '14:24'
+    - time: '15:17'
+    - time: '15:31'
+    - time: '16:20'
+    - time: '17:00'
+    - time: '17:27'
+    - time: '18:15'
+    - time: '19:07'
+    - time: '20:28'
+    - time: '21:22'
+    holiday:
+    - time: 06:36
+    - time: 07:09
+    - time: 08:01
+    - time: 08:46
+    - time: '10:07'
+    - time: '11:22'
+    - time: '12:07'
+    - time: '12:32'
+    - time: '12:56'
+    - time: '13:45'
+    - time: '14:24'
+    - time: '15:17'
+    - time: '15:31'
+    - time: '16:20'
+    - time: '17:00'
+    - time: '17:27'
+    - time: '18:15'
+    - time: '19:07'
+    - time: '20:28'
+    - time: '21:22'
+- line: 飯能駅・宮沢路線
+  stop_id: eagle_3024
+  stop_name: 飯能靖和病院
+  direction: メッツア・宮沢
+  lat: 35.8647891
+  lng: 139.3352196
+  source_url: https://eaglebus.group/wp-content/uploads/2025/03/3024.pdf
+  schedule:
+    weekday:
+    - time: 07:09
+      note: 各停・ メッツァ経由宮沢行き
+    - time: 07:35
+      note: 各停・ メッツァ止まり
+    - time: 08:22
+      note: 各停・ メッツァ経由宮沢行き
+    - time: 08:47
+      note: 各停・ メッツァ止まり
+    - time: 09:32
+      note: 各停・ メッツァ止まり
+    - time: '10:47'
+      note: 各停・ メッツァ止まり
+    - time: '11:32'
+      note: 各停・ メッツァ止まり
+    - time: '12:27'
+      note: 各停・ メッツァ止まり
+    - time: '12:57'
+      note: 各停・ メッツァ止まり
+    - time: '13:22'
+      note: 各停・ メッツァ止まり
+    - time: '13:57'
+      note: 各停・ メッツァ止まり
+    - time: '14:44'
+      note: 各停・ メッツァ止まり
+    - time: '15:12'
+      note: 各停・ メッツァ止まり
+    - time: '16:05'
+      note: 各停・ メッツァ止まり
+    - time: '16:35'
+      note: 各停・ メッツァ止まり
+    - time: '17:20'
+      note: 各停・ メッツァ止まり
+    - time: '18:12'
+      note: 各停・ メッツァ止まり
+    - time: '18:52'
+      note: 各停・ メッツァ経由宮沢行き
+    - time: '19:23'
+      note: 各停・ メッツァ止まり
+    - time: '20:11'
+      note: 各停・ メッツァ止まり
+    - time: '20:59'
+      note: 各停・ メッツァ止まり
+    - time: '21:59'
+      note: 各停・ メッツァ経由宮沢行き
+    saturday:
+    - time: 07:09
+      note: 各停・ メッツァ経由宮沢行き
+    - time: 07:42
+      note: 各停・ メッツァ止まり
+    - time: 08:27
+      note: 各停・ メッツァ経由宮沢行き
+    - time: 09:17
+      note: 各停・ メッツァ止まり
+    - time: '10:37'
+      note: 各停・ メッツァ止まり
+    - time: '11:52'
+      note: 各停・ メッツァ止まり
+    - time: '12:37'
+      note: 各停・ メッツァ止まり
+    - time: '13:02'
+      note: 各停・ メッツァ止まり
+    - time: '13:26'
+      note: 各停・ メッツァ止まり
+    - time: '14:15'
+      note: 各停・ メッツァ止まり
+    - time: '14:54'
+      note: 各停・ メッツァ止まり
+    - time: '15:47'
+      note: 各停・ メッツァ止まり
+    - time: '16:01'
+      note: 各停・ メッツァ止まり
+    - time: '16:50'
+      note: 各停・ メッツァ止まり
+    - time: '17:30'
+      note: 各停・ メッツァ止まり
+    - time: '17:57'
+      note: 各停・ メッツァ止まり
+    - time: '18:45'
+      note: 各停・ メッツァ経由宮沢行き
+    - time: '19:37'
+      note: 各停・ メッツァ止まり
+    - time: '20:59'
+      note: 各停・ メッツァ止まり
+    - time: '21:59'
+      note: 各停・ メッツァ経由宮沢行き
+    holiday:
+    - time: 07:09
+      note: 各停・ メッツァ経由宮沢行き
+    - time: 07:42
+      note: 各停・ メッツァ止まり
+    - time: 08:27
+      note: 各停・ メッツァ経由宮沢行き
+    - time: 09:17
+      note: 各停・ メッツァ止まり
+    - time: '10:37'
+      note: 各停・ メッツァ止まり
+    - time: '11:52'
+      note: 各停・ メッツァ止まり
+    - time: '12:37'
+      note: 各停・ メッツァ止まり
+    - time: '13:02'
+      note: 各停・ メッツァ止まり
+    - time: '13:26'
+      note: 各停・ メッツァ止まり
+    - time: '14:15'
+      note: 各停・ メッツァ止まり
+    - time: '14:54'
+      note: 各停・ メッツァ止まり
+    - time: '15:47'
+      note: 各停・ メッツァ止まり
+    - time: '16:01'
+      note: 各停・ メッツァ止まり
+    - time: '16:50'
+      note: 各停・ メッツァ止まり
+    - time: '17:30'
+      note: 各停・ メッツァ止まり
+    - time: '17:57'
+      note: 各停・ メッツァ止まり
+    - time: '18:45'
+      note: 各停・ メッツァ経由宮沢行き
+    - time: '19:37'
+      note: 各停・ メッツァ止まり
+    - time: '20:59'
+      note: 各停・ メッツァ止まり
+    - time: '21:59'
+      note: 各停・ メッツァ経由宮沢行き
+- line: 飯能駅・宮沢路線
+  stop_id: eagle_3021
+  stop_name: メッツァ
+  direction: 飯能駅北口 飯能靖和病院経由
+  lat: 35.8708105
+  lng: 139.333027
+  source_url: https://eaglebus.group/wp-content/uploads/2026/03/3021_-2026.04.01metta.pdf
+  schedule:
+    weekday:
+    - time: 06:34
+      note: 飯能靖和病院経由・ 各停
+    - time: 07:03
+      note: 飯能靖和病院経由・ 各停
+    - time: 07:50
+      note: 飯能靖和病院経由・ 各停
+    - time: 08:16
+      note: 飯能靖和病院経由・ 各停
+    - time: 09:02
+      note: 飯能靖和病院経由・ 各停
+    - time: '10:17'
+      note: 飯能靖和病院経由・ 各停
+    - time: '11:02'
+      note: 飯能靖和病院経由・ 各停
+    - time: '11:52'
+      note: 飯能靖和病院経由・ 各停
+    - time: '12:22'
+      note: 飯能靖和病院経由・ 各停
+    - time: '12:47'
+      note: 飯能靖和病院経由・ 各停
+    - time: '13:22'
+      note: 飯能靖和病院経由・ 各停
+    - time: '14:12'
+      note: 飯能靖和病院経由・ 各停
+    - time: '14:40'
+      note: 飯能靖和病院経由・ 各停
+    - time: '15:35'
+      note: 飯能靖和病院経由・ 各停
+    - time: '16:05'
+      note: 飯能靖和病院経由・ 各停
+    - time: '16:50'
+      note: 飯能靖和病院経由・ 各停
+    - time: '17:40'
+      note: 飯能靖和病院経由・ 各停
+    - time: '18:20'
+      note: 飯能靖和病院経由・ 各停
+    - time: '18:50'
+      note: 飯能靖和病院経由・ 各停
+    - time: '19:38'
+      note: 飯能靖和病院経由・ 各停
+    - time: '20:26'
+      note: 飯能靖和病院経由・ 各停
+    - time: '21:31'
+      note: 飯能靖和病院経由・ 各停
+    saturday:
+    - time: 06:34
+      note: 飯能靖和病院経由・ 各停
+    - time: 07:07
+      note: 飯能靖和病院経由・ 各停
+    - time: 07:59
+      note: 飯能靖和病院経由・ 各停
+    - time: 08:44
+      note: 飯能靖和病院経由・ 各停
+    - time: '10:05'
+      note: 飯能靖和病院経由・ 各停
+    - time: '11:20'
+      note: 飯能靖和病院経由・ 各停
+    - time: '12:05'
+      note: 飯能靖和病院経由・ 各停
+    - time: '12:30'
+      note: 飯能靖和病院経由・ 各停
+    - time: '12:54'
+      note: 飯能靖和病院経由・ 各停
+    - time: '13:43'
+      note: 飯能靖和病院経由・ 各停
+    - time: '14:22'
+      note: 飯能靖和病院経由・ 各停
+    - time: '15:15'
+      note: 飯能靖和病院経由・ 各停
+    - time: '15:29'
+      note: 飯能靖和病院経由・ 各停
+    - time: '16:18'
+      note: 飯能靖和病院経由・ 各停
+    - time: '16:58'
+      note: 飯能靖和病院経由・ 各停
+    - time: '17:25'
+      note: 飯能靖和病院経由・ 各停
+    - time: '18:13'
+      note: 飯能靖和病院経由・ 各停
+    - time: '19:05'
+      note: 飯能靖和病院経由・ 各停
+    - time: '20:26'
+      note: 飯能靖和病院経由・ 各停
+    - time: '21:20'
+      note: 飯能靖和病院経由・ 各停
+    holiday:
+    - time: 06:34
+      note: 飯能靖和病院経由・ 各停
+    - time: 07:07
+      note: 飯能靖和病院経由・ 各停
+    - time: 07:59
+      note: 飯能靖和病院経由・ 各停
+    - time: 08:44
+      note: 飯能靖和病院経由・ 各停
+    - time: '10:05'
+      note: 飯能靖和病院経由・ 各停
+    - time: '11:20'
+      note: 飯能靖和病院経由・ 各停
+    - time: '12:05'
+      note: 飯能靖和病院経由・ 各停
+    - time: '12:30'
+      note: 飯能靖和病院経由・ 各停
+    - time: '12:54'
+      note: 飯能靖和病院経由・ 各停
+    - time: '13:43'
+      note: 飯能靖和病院経由・ 各停
+    - time: '14:22'
+      note: 飯能靖和病院経由・ 各停
+    - time: '15:15'
+      note: 飯能靖和病院経由・ 各停
+    - time: '15:29'
+      note: 飯能靖和病院経由・ 各停
+    - time: '16:18'
+      note: 飯能靖和病院経由・ 各停
+    - time: '16:58'
+      note: 飯能靖和病院経由・ 各停
+    - time: '17:25'
+      note: 飯能靖和病院経由・ 各停
+    - time: '18:13'
+      note: 飯能靖和病院経由・ 各停
+    - time: '19:05'
+      note: 飯能靖和病院経由・ 各停
+    - time: '20:26'
+      note: 飯能靖和病院経由・ 各停
+    - time: '21:20'
+      note: 飯能靖和病院経由・ 各停
+- line: 飯能駅・宮沢路線
+  stop_id: eagle_3021
+  stop_name: メッツァ
+  direction: 飯能駅北口 直通
+  lat: 35.8708105
+  lng: 139.333027
+  source_url: https://eaglebus.group/wp-content/uploads/2026/03/3021_-2026.04.01metta.pdf
+  schedule:
+    weekday:
+    - time: '10:02'
+      note: 西武バス(飯能駅北口直通)
+    - time: '10:42'
+      note: 西武バス(飯能駅北口直通)
+    - time: '11:32'
+      note: 西武バス(飯能駅北口直通)
+    - time: '12:09'
+      note: 西武バス(飯能駅北口直通)
+    - time: '13:50'
+      note: 西武バス(飯能駅北口直通)
+    - time: '14:30'
+      note: 西武バス(飯能駅北口直通)
+    - time: '15:15'
+      note: 西武バス(飯能駅北口直通)
+    - time: '15:50'
+      note: 西武バス(飯能駅北口直通)
+    - time: '16:30'
+      note: 西武バス(飯能駅北口直通)
+    - time: '17:15'
+      note: 西武バス(飯能駅北口直通)
+    saturday:
+    - time: 09:11
+      note: 国際興業バス(飯能駅北口直通)
+    - time: 09:47
+      note: 国際興業バス(飯能駅北口直通)
+    - time: '10:02'
+      note: イーグルバス(飯能駅北口直通)
+    - time: '10:25'
+      note: 国際興業バス(飯能駅北口直通)
+    - time: '10:42'
+      note: イーグルバス(飯能駅北口直通)
+    - time: '10:57'
+      note: 国際興業バス(飯能駅北口直通)
+    - time: '11:12'
+      note: 国際興業バス(飯能駅北口直通)
+    - time: '11:42'
+      note: イーグルバス(飯能駅北口直通)
+    - time: '11:57'
+      note: 国際興業バス(飯能駅北口直通)
+    - time: '12:27'
+      note: イーグルバス(飯能駅北口直通)
+    - time: '12:47'
+      note: 国際興業バス(飯能駅北口直通)
+    - time: '13:10'
+      note: 国際興業バス(飯能駅北口直通)
+    - time: '13:25'
+      note: 国際興業バス(飯能駅北口直通)
+    - time: '13:55'
+      note: イーグルバス(飯能駅北口直通)
+    - time: '14:10'
+      note: 国際興業バス(飯能駅北口直通)
+    - time: '14:35'
+      note: イーグルバス(飯能駅北口直通)
+    - time: '14:50'
+      note: 国際興業バス(飯能駅北口直通)
+    - time: '15:10'
+      note: 国際興業バス(飯能駅北口直通)
+    - time: '15:27'
+      note: イーグルバス(飯能駅北口直通)
+    - time: '15:50'
+      note: 国際興業バス(飯能駅北口直通)
+    - time: '16:11'
+      note: 国際興業バス(飯能駅北口直通)
+    - time: '16:30'
+      note: 国際興業バス(飯能駅北口直通)
+    - time: '16:45'
+      note: 国際興業バス(飯能駅北口直通)
+    - time: '17:10'
+      note: イーグルバス(飯能駅北口直通)
+    - time: '17:40'
+      note: 国際興業バス(飯能駅北口直通)
+    - time: '17:55'
+      note: イーグルバス(飯能駅北口直通)
+    - time: '18:07'
+      note: 国際興業バス(飯能駅北口直通)
+    - time: '18:25'
+      note: 国際興業バス(飯能駅北口直通)
+    - time: '18:37'
+      note: イーグルバス(飯能駅北口直通)
+    - time: '18:50'
+      note: 国際興業バス(飯能駅北口直通)
+    - time: '19:20'
+      note: イーグルバス(飯能駅北口直通)
+    - time: '19:35'
+      note: 国際興業バス(飯能駅北口直通)
+    - time: '20:15'
+      note: 国際興業バス(飯能駅北口直通)
+    holiday:
+    - time: 09:11
+      note: 国際興業バス(飯能駅北口直通)
+    - time: 09:47
+      note: 国際興業バス(飯能駅北口直通)
+    - time: '10:02'
+      note: イーグルバス(飯能駅北口直通)
+    - time: '10:25'
+      note: 国際興業バス(飯能駅北口直通)
+    - time: '10:42'
+      note: イーグルバス(飯能駅北口直通)
+    - time: '10:57'
+      note: 国際興業バス(飯能駅北口直通)
+    - time: '11:12'
+      note: 国際興業バス(飯能駅北口直通)
+    - time: '11:42'
+      note: イーグルバス(飯能駅北口直通)
+    - time: '11:57'
+      note: 国際興業バス(飯能駅北口直通)
+    - time: '12:27'
+      note: イーグルバス(飯能駅北口直通)
+    - time: '12:47'
+      note: 国際興業バス(飯能駅北口直通)
+    - time: '13:10'
+      note: 国際興業バス(飯能駅北口直通)
+    - time: '13:25'
+      note: 国際興業バス(飯能駅北口直通)
+    - time: '13:55'
+      note: イーグルバス(飯能駅北口直通)
+    - time: '14:10'
+      note: 国際興業バス(飯能駅北口直通)
+    - time: '14:35'
+      note: イーグルバス(飯能駅北口直通)
+    - time: '14:50'
+      note: 国際興業バス(飯能駅北口直通)
+    - time: '15:10'
+      note: 国際興業バス(飯能駅北口直通)
+    - time: '15:27'
+      note: イーグルバス(飯能駅北口直通)
+    - time: '15:50'
+      note: 国際興業バス(飯能駅北口直通)
+    - time: '16:11'
+      note: 国際興業バス(飯能駅北口直通)
+    - time: '16:30'
+      note: 国際興業バス(飯能駅北口直通)
+    - time: '16:45'
+      note: 国際興業バス(飯能駅北口直通)
+    - time: '17:10'
+      note: イーグルバス(飯能駅北口直通)
+    - time: '17:40'
+      note: 国際興業バス(飯能駅北口直通)
+    - time: '17:55'
+      note: イーグルバス(飯能駅北口直通)
+    - time: '18:07'
+      note: 国際興業バス(飯能駅北口直通)
+    - time: '18:25'
+      note: 国際興業バス(飯能駅北口直通)
+    - time: '18:37'
+      note: イーグルバス(飯能駅北口直通)
+    - time: '18:50'
+      note: 国際興業バス(飯能駅北口直通)
+    - time: '19:20'
+      note: イーグルバス(飯能駅北口直通)
+    - time: '19:35'
+      note: 国際興業バス(飯能駅北口直通)
+    - time: '20:15'
+      note: 国際興業バス(飯能駅北口直通)
+- line: 飯能駅・宮沢路線
+  stop_id: eagle_3020
+  stop_name: 上宮沢
+  direction: 飯能駅北口 メッツア・飯能靖和病院経由
+  lat: 35.873003
+  lng: 139.3345329
+  source_url: https://eaglebus.group/wp-content/uploads/2025/03/3020.pdf
+  schedule:
+    weekday:
+    - time: 06:31
+      note: 飯能靖和病院経由・ 各停
+    - time: 07:00
+      note: 飯能靖和病院経由・ 各停
+    - time: 08:13
+      note: 飯能靖和病院経由・ 各停
+    - time: '11:49'
+      note: 飯能靖和病院経由・ 各停
+    saturday:
+    - time: 06:31
+      note: 飯能靖和病院経由・ 各停
+    - time: 07:04
+      note: 飯能靖和病院経由・ 各停
+    - time: 08:41
+      note: 飯能靖和病院経由・ 各停
+    - time: '12:02'
+      note: 飯能靖和病院経由・ 各停
+    holiday:
+    - time: 06:31
+      note: 飯能靖和病院経由・ 各停
+    - time: 07:04
+      note: 飯能靖和病院経由・ 各停
+    - time: 08:41
+      note: 飯能靖和病院経由・ 各停
+    - time: '12:02'
+      note: 飯能靖和病院経由・ 各停
+- line: 飯能駅・宮沢路線
+  stop_id: eagle_3020
+  stop_name: 上宮沢
+  direction: 宮沢
+  lat: 35.873003
+  lng: 139.3345329
+  source_url: https://eaglebus.group/wp-content/uploads/2025/03/3020.pdf
+  schedule:
+    weekday:
+    - time: 07:20
+    - time: 08:33
+    - time: '19:03'
+    - time: '22:10'
+    saturday:
+    - time: 07:20
+    - time: 08:38
+    - time: '18:56'
+    - time: '22:10'
+    holiday:
+    - time: 07:20
+    - time: 08:38
+    - time: '18:56'
+    - time: '22:10'
+- line: 飯能駅・宮沢路線
+  stop_id: eagle_3019
+  stop_name: 宮沢
+  direction: 飯能駅北口 メッツア・飯能靖和病院経由
+  lat: 35.8768998
+  lng: 139.3351391
+  source_url: https://eaglebus.group/wp-content/uploads/2025/03/3019.pdf
+  schedule:
+    weekday:
+    - time: 06:31
+      note: 飯能靖和病院経由・ 各停
+    - time: 07:00
+      note: 飯能靖和病院経由・ 各停
+    - time: 08:13
+      note: 飯能靖和病院経由・ 各停
+    - time: '11:49'
+      note: 飯能靖和病院経由・ 各停
+    saturday:
+    - time: 06:31
+      note: 飯能靖和病院経由・ 各停
+    - time: 07:04
+      note: 飯能靖和病院経由・ 各停
+    - time: 08:41
+      note: 飯能靖和病院経由・ 各停
+    - time: '12:02'
+      note: 飯能靖和病院経由・ 各停
+    holiday:
+    - time: 06:31
+      note: 飯能靖和病院経由・ 各停
+    - time: 07:04
+      note: 飯能靖和病院経由・ 各停
+    - time: 08:41
+      note: 飯能靖和病院経由・ 各停
+    - time: '12:02'
+      note: 飯能靖和病院経由・ 各停

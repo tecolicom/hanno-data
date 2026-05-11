@@ -1,0 +1,42 @@
+# 各 source (NaviTime POI / Google MyMap KML 等) の自動取得座標が
+# 実態と乖離している停留所の座標オーバーライド + stop_name 表記揺れの統一。
+#
+# `google_maps` フィールドが座標の出典 (Google Maps の「共有」ボタンから
+# コピーした短縮 URL = maps.app.goo.gl/...)。
+# `lat` / `lng` は tools/bus-timetable-extractor/resolve-coords.py で
+# google_maps の redirect 先 URL から自動取得 → 上書きされる。
+#
+# `aliases` は別表記の stop_name を canonical 名 (= ヘッダー名) に
+# 統一するためのリスト。NaviTime route_all_stops と 5931bus 等で
+# 同じバス停を異なる name で持つことがあるため。
+#
+# 新規追加 / 修正後の手順:
+#   1. google_maps に short URL を貼る (lat/lng は空でも可)
+#   2. `cd tools/bus-timetable-extractor && python3 resolve-coords.py`
+#   3. 自動で lat/lng が書き込まれる
+#   4. 変更を commit
+
+overrides:
+  飯能駅 北口:
+    google_maps: https://maps.app.goo.gl/y2t41jPaFwt2SR6C7
+    lat: 35.850882
+    lng: 139.320392
+    aliases:
+    - 飯能駅
+  飯能駅 南口:
+    google_maps: https://maps.app.goo.gl/xW5ZhT8grDHy2rEA7
+    lat: 35.850802
+    lng: 139.318337
+    aliases:
+    - 飯能駅南口
+  東飯能駅:
+    google_maps: https://maps.app.goo.gl/HWjAEfUjSGysz6aA8
+    lat: 35.852416
+    lng: 139.325483
+    aliases:
+    - 東飯能駅〔駅前広場〕
+    - 東飯能駅 (駅前広場)
+  東飯能駅東口:
+    google_maps: https://maps.app.goo.gl/P65dEWnytFdvGQsp9
+    lat: 35.852578
+    lng: 139.326669
