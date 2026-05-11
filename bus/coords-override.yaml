@@ -23,6 +23,7 @@ overrides:
     lng: 139.320392
     aliases:
     - 飯能駅
+    - 飯能駅北口
   飯能駅 南口:
     google_maps: https://maps.app.goo.gl/xW5ZhT8grDHy2rEA7
     lat: 35.850802
@@ -36,6 +37,7 @@ overrides:
     aliases:
     - 東飯能駅〔駅前広場〕
     - 東飯能駅 (駅前広場)
+    - 東飯能駅（駅前広場）
   東飯能駅東口:
     google_maps: https://maps.app.goo.gl/P65dEWnytFdvGQsp9
     lat: 35.852578
