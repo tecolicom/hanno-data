@@ -9,12 +9,12 @@ meta:
   feed_version: 20250401-2026年03月17日 11時29分03秒-西沢ツールver8.31
   feed_start_date: '2025-04-01'
   feed_end_date: '2027-03-31'
-  extracted_at: '2026-05-11'
+  extracted_at: '2026-05-12'
 routes:
 - line: 精明・加治線
   stop_id: '1_0'
   stop_name: 東飯能駅東口
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.852203
   lng: 139.326665
   schedule:
@@ -56,7 +56,7 @@ routes:
 - line: 精明・加治線
   stop_id: '2_1'
   stop_name: 栄町
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.8524525702926
   lng: 139.329209925006
   schedule:
@@ -98,7 +98,7 @@ routes:
 - line: 精明・加治線
   stop_id: '3_0'
   stop_name: 飯能市役所
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.8554416936393
   lng: 139.327647038038
   schedule:
@@ -172,7 +172,7 @@ routes:
 - line: 精明・加治線
   stop_id: '4_1'
   stop_name: 総合福祉センター南
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.8544805303293
   lng: 139.330118176126
   schedule:
@@ -214,7 +214,7 @@ routes:
 - line: 精明・加治線
   stop_id: '5_1'
   stop_name: 緑町
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.8501365302805
   lng: 139.330472520047
   schedule:
@@ -256,7 +256,7 @@ routes:
 - line: 精明・加治線
   stop_id: '6_1'
   stop_name: 双柳入口
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.8482820939297
   lng: 139.334498827125
   schedule:
@@ -298,7 +298,7 @@ routes:
 - line: 精明・加治線
   stop_id: '30_1'
   stop_name: 双柳南
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.846751
   lng: 139.338158
   schedule:
@@ -324,7 +324,7 @@ routes:
 - line: 精明・加治線
   stop_id: '41_0'
   stop_name: デンキチ飯能店前
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.8451258885873
   lng: 139.341595172882
   schedule:
@@ -366,7 +366,7 @@ routes:
 - line: 精明・加治線
   stop_id: '31_1'
   stop_name: 白髪白山神社
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.8436257382778
   lng: 139.33926571399
   schedule:
@@ -392,7 +392,7 @@ routes:
 - line: 精明・加治線
   stop_id: '32_1'
   stop_name: 笠縫北
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.8448465045313
   lng: 139.333072849551
   schedule:
@@ -418,7 +418,7 @@ routes:
 - line: 精明・加治線
   stop_id: '33_1'
   stop_name: 笠縫西武踏切南
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.8428048122669
   lng: 139.331304437685
   schedule:
@@ -444,7 +444,7 @@ routes:
 - line: 精明・加治線
   stop_id: '34_1'
   stop_name: 加治小学校東
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.8425776783903
   lng: 139.328404068947
   schedule:
@@ -470,7 +470,7 @@ routes:
 - line: 精明・加治線
   stop_id: '35_0'
   stop_name: 加治地区行政センター
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.8395031918213
   lng: 139.326725006104
   schedule:
@@ -512,7 +512,7 @@ routes:
 - line: 精明・加治線
   stop_id: '36_1'
   stop_name: 笠縫不動尊
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.8393814276711
   lng: 139.33179974556
   schedule:
@@ -538,7 +538,7 @@ routes:
 - line: 精明・加治線
   stop_id: '37_0'
   stop_name: 加治東地区行政センター
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.8374157784383
   lng: 139.337099790573
   schedule:
@@ -580,7 +580,7 @@ routes:
 - line: 精明・加治線
   stop_id: '38_1'
   stop_name: 白鳥幼稚園
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.8370896153103
   lng: 139.341643452644
   schedule:
@@ -606,7 +606,7 @@ routes:
 - line: 精明・加治線
   stop_id: '39_1'
   stop_name: 前原
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.8396336534107
   lng: 139.341482520103
   schedule:
@@ -632,7 +632,7 @@ routes:
 - line: 精明・加治線
   stop_id: '40_0'
   stop_name: 元加治駅
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.8406945599654
   lng: 139.34536239381
   schedule:
@@ -658,7 +658,7 @@ routes:
 - line: 精明・加治線
   stop_id: '39_2'
   stop_name: 前原
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.8396858380465
   lng: 139.341675639153
   schedule:
@@ -684,7 +684,7 @@ routes:
 - line: 精明・加治線
   stop_id: '38_2'
   stop_name: 白鳥幼稚園
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.8371026618354
   lng: 139.341681003571
   schedule:
@@ -710,7 +710,7 @@ routes:
 - line: 精明・加治線
   stop_id: '36_2'
   stop_name: 笠縫不動尊
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.8394901456623
   lng: 139.330227971077
   schedule:
@@ -736,7 +736,7 @@ routes:
 - line: 精明・加治線
   stop_id: '34_2'
   stop_name: 加治小学校東
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.8429516525342
   lng: 139.327781796455
   schedule:
@@ -762,7 +762,7 @@ routes:
 - line: 精明・加治線
   stop_id: '33_2'
   stop_name: 笠縫西武踏切南
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.8417731916204
   lng: 139.331215023994
   schedule:
@@ -788,7 +788,7 @@ routes:
 - line: 精明・加治線
   stop_id: '32_2'
   stop_name: 笠縫北
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.8448378076751
   lng: 139.333243169812
   schedule:
@@ -814,7 +814,7 @@ routes:
 - line: 精明・加治線
   stop_id: '31_2'
   stop_name: 白髪白山神社
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.8437353896957
   lng: 139.339205363531
   schedule:
@@ -840,7 +840,7 @@ routes:
 - line: 精明・加治線
   stop_id: '30_2'
   stop_name: 双柳南
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.8464454909703
   lng: 139.338547819081
   schedule:
@@ -866,7 +866,7 @@ routes:
 - line: 精明・加治線
   stop_id: '6_2'
   stop_name: 双柳入口
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.8481959381771
   lng: 139.334509456144
   schedule:
@@ -908,7 +908,7 @@ routes:
 - line: 精明・加治線
   stop_id: '5_2'
   stop_name: 緑町
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.850271
   lng: 139.330372
   schedule:
@@ -950,7 +950,7 @@ routes:
 - line: 精明・加治線
   stop_id: '4_2'
   stop_name: 総合福祉センター南
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.8544783563795
   lng: 139.330002841141
   schedule:
@@ -992,7 +992,7 @@ routes:
 - line: 精明・加治線
   stop_id: '2_2'
   stop_name: 栄町
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.852360462976
   lng: 139.329155210125
   schedule:
@@ -1034,7 +1034,7 @@ routes:
 - line: 精明・加治線
   stop_id: '7_1'
   stop_name: 上の台
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.859708
   lng: 139.3429
   schedule:
@@ -1060,7 +1060,7 @@ routes:
 - line: 精明・加治線
   stop_id: '8_0'
   stop_name: 向原団地
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.8614481501232
   lng: 139.342775344849
   schedule:
@@ -1094,7 +1094,7 @@ routes:
 - line: 精明・加治線
   stop_id: '9_0'
   stop_name: 新田団地
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.8623828618371
   lng: 139.346460700035
   schedule:
@@ -1128,7 +1128,7 @@ routes:
 - line: 精明・加治線
   stop_id: '10_1'
   stop_name: 平松団地
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.8656433944422
   lng: 139.345210790634
   schedule:
@@ -1154,7 +1154,7 @@ routes:
 - line: 精明・加治線
   stop_id: '18_1'
   stop_name: 上平松
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.8677377172659
   lng: 139.346868828753
   schedule:
@@ -1172,7 +1172,7 @@ routes:
 - line: 精明・加治線
   stop_id: '19_1'
   stop_name: 平松
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.868092322201
   lng: 139.348664432277
   schedule:
@@ -1190,7 +1190,7 @@ routes:
 - line: 精明・加治線
   stop_id: '20_0'
   stop_name: 敬愛園
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.8665737074999
   lng: 139.357919096947
   schedule:
@@ -1208,7 +1208,7 @@ routes:
 - line: 精明・加治線
   stop_id: '21_0'
   stop_name: 坂上地蔵尊
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.8663563447643
   lng: 139.362929463387
   schedule:
@@ -1226,7 +1226,7 @@ routes:
 - line: 精明・加治線
   stop_id: '22_0'
   stop_name: 芦苅場南
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.865609
   lng: 139.3686
   schedule:
@@ -1244,7 +1244,7 @@ routes:
 - line: 精明・加治線
   stop_id: '23_0'
   stop_name: 芳ヶ谷
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.868979
   lng: 139.367566
   schedule:
@@ -1262,7 +1262,7 @@ routes:
 - line: 精明・加治線
   stop_id: '24_0'
   stop_name: 下川崎西
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.8721423216166
   lng: 139.361899495125
   schedule:
@@ -1280,7 +1280,7 @@ routes:
 - line: 精明・加治線
   stop_id: '25_0'
   stop_name: 下川崎東
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.8745939538567
   lng: 139.364345669746
   schedule:
@@ -1298,7 +1298,7 @@ routes:
 - line: 精明・加治線
   stop_id: '26_0'
   stop_name: 下川崎センター
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.8764195855671
   lng: 139.363455176353
   schedule:
@@ -1316,7 +1316,7 @@ routes:
 - line: 精明・加治線
   stop_id: '27_0'
   stop_name: 川崎センター
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.8748286792368
   lng: 139.357613325119
   schedule:
@@ -1334,7 +1334,7 @@ routes:
 - line: 精明・加治線
   stop_id: '28_0'
   stop_name: 中原
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.8728943363636
   lng: 139.355016946793
   schedule:
@@ -1352,7 +1352,7 @@ routes:
 - line: 精明・加治線
   stop_id: '29_0'
   stop_name: 川崎入口
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.8683797017166
   lng: 139.352578851644
   schedule:
@@ -1370,7 +1370,7 @@ routes:
 - line: 精明・加治線
   stop_id: '19_2'
   stop_name: 平松
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.8680189557929
   lng: 139.349049204461
   schedule:
@@ -1388,7 +1388,7 @@ routes:
 - line: 精明・加治線
   stop_id: '18_2'
   stop_name: 上平松
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.8676154393341
   lng: 139.346853739647
   schedule:
@@ -1406,7 +1406,7 @@ routes:
 - line: 精明・加治線
   stop_id: '10_2'
   stop_name: 平松団地
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.8657825071424
   lng: 139.345452189445
   schedule:
@@ -1424,7 +1424,7 @@ routes:
 - line: 精明・加治線
   stop_id: '7_2'
   stop_name: 上の台
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.860243
   lng: 139.34284
   schedule:
@@ -1442,7 +1442,7 @@ routes:
 - line: 精明・加治線
   stop_id: '11_0'
   stop_name: 精明地区行政センター
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.8662215798683
   lng: 139.344368577003
   schedule:
@@ -1460,7 +1460,7 @@ routes:
 - line: 精明・加治線
   stop_id: '12_0'
   stop_name: 精明小学校
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.8661419726038
   lng: 139.342614408385
   schedule:
@@ -1478,7 +1478,7 @@ routes:
 - line: 精明・加治線
   stop_id: '13_0'
   stop_name: 下加治
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.8652904195555
   lng: 139.338343579611
   schedule:
@@ -1496,7 +1496,7 @@ routes:
 - line: 精明・加治線
   stop_id: '14_0'
   stop_name: 飯能靖和病院
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.8648033529097
   lng: 139.335406140947
   schedule:
@@ -1514,7 +1514,7 @@ routes:
 - line: 精明・加治線
   stop_id: '15_0'
   stop_name: 白子神社
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.8639098519995
   lng: 139.33341600637
   schedule:
@@ -1532,7 +1532,7 @@ routes:
 - line: 精明・加治線
   stop_id: '16_0'
   stop_name: 飯能看護学校
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.86062
   lng: 139.334455
   schedule:
@@ -1550,7 +1550,7 @@ routes:
 - line: 精明・加治線
   stop_id: '17_0'
   stop_name: 飯能警察署
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.8580439711304
   lng: 139.335136413574
   schedule:

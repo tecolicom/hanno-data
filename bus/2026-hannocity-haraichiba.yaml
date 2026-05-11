@@ -9,12 +9,12 @@ meta:
   feed_version: 20230401-2025年12月25日 09時38分32秒-西沢ツールver8.25
   feed_start_date: '2025-01-01'
   feed_end_date: '2026-12-31'
-  extracted_at: '2026-05-11'
+  extracted_at: '2026-05-12'
 routes:
 - line: 原市場線
   stop_id: '4_2'
   stop_name: 中藤（青石橋）
-  direction: 原市場地区行政センター方面
+  direction: 原市場地区行政センター行
   lat: 35.8810602214106
   lng: 139.224065608493
   schedule:
@@ -36,7 +36,7 @@ routes:
 - line: 原市場線
   stop_id: '5_2'
   stop_name: 中内
-  direction: 原市場地区行政センター方面
+  direction: 原市場地区行政センター行
   lat: 35.879812081443
   lng: 139.226327358777
   schedule:
@@ -58,7 +58,7 @@ routes:
 - line: 原市場線
   stop_id: '6_2'
   stop_name: 旭橋
-  direction: 原市場地区行政センター方面
+  direction: 原市場地区行政センター行
   lat: 35.8770469509286
   lng: 139.227850149121
   schedule:
@@ -80,7 +80,7 @@ routes:
 - line: 原市場線
   stop_id: '7_2'
   stop_name: 清久橋
-  direction: 原市場地区行政センター方面
+  direction: 原市場地区行政センター行
   lat: 35.8783679504489
   lng: 139.230552750047
   schedule:
@@ -102,7 +102,7 @@ routes:
 - line: 原市場線
   stop_id: '8_2'
   stop_name: 久根花
-  direction: 原市場地区行政センター方面
+  direction: 原市場地区行政センター行
   lat: 35.8796721762976
   lng: 139.231139802028
   schedule:
@@ -124,7 +124,7 @@ routes:
 - line: 原市場線
   stop_id: '9_2'
   stop_name: 釣場
-  direction: 原市場地区行政センター方面
+  direction: 原市場地区行政センター行
   lat: 35.8830451532762
   lng: 139.233736460502
   schedule:
@@ -146,7 +146,7 @@ routes:
 - line: 原市場線
   stop_id: '10_2'
   stop_name: 中郷
-  direction: 原市場地区行政センター方面
+  direction: 原市場地区行政センター行
   lat: 35.8831863495264
   lng: 139.236206361083
   schedule:
@@ -168,7 +168,7 @@ routes:
 - line: 原市場線
   stop_id: '11_2'
   stop_name: 下郷
-  direction: 原市場地区行政センター方面
+  direction: 原市場地区行政センター行
   lat: 35.8797632807331
   lng: 139.239399321359
   schedule:
@@ -190,7 +190,7 @@ routes:
 - line: 原市場線
   stop_id: '12_2'
   stop_name: 天神橋
-  direction: 原市場地区行政センター方面
+  direction: 原市場地区行政センター行
   lat: 35.8807196779188
   lng: 139.242088475823
   schedule:
@@ -212,7 +212,7 @@ routes:
 - line: 原市場線
   stop_id: '13_2'
   stop_name: 種木橋
-  direction: 原市場地区行政センター方面
+  direction: 原市場地区行政センター行
   lat: 35.8793409076488
   lng: 139.246651967665
   schedule:
@@ -234,7 +234,7 @@ routes:
 - line: 原市場線
   stop_id: '14_2'
   stop_name: 野ヶ崎
-  direction: 原市場地区行政センター方面
+  direction: 原市場地区行政センター行
   lat: 35.8769583347623
   lng: 139.249058163684
   schedule:
@@ -256,7 +256,7 @@ routes:
 - line: 原市場線
   stop_id: '15_2'
   stop_name: 堂西
-  direction: 原市場地区行政センター方面
+  direction: 原市場地区行政センター行
   lat: 35.8741329201647
   lng: 139.255353994667
   schedule:
@@ -278,7 +278,7 @@ routes:
 - line: 原市場線
   stop_id: '16_2'
   stop_name: 野口
-  direction: 原市場地区行政センター方面
+  direction: 原市場地区行政センター行
   lat: 35.8722645320344
   lng: 139.257877312322
   schedule:
@@ -300,7 +300,7 @@ routes:
 - line: 原市場線
   stop_id: '17_2'
   stop_name: 新寺
-  direction: 原市場地区行政センター方面
+  direction: 原市場地区行政センター行
   lat: 35.8696305660661
   lng: 139.26166924043
   schedule:
@@ -322,7 +322,7 @@ routes:
 - line: 原市場線
   stop_id: '18_1'
   stop_name: 尾長入口
-  direction: 原市場地区行政センター方面
+  direction: 原市場地区行政センター行
   lat: 35.8690055996804
   lng: 139.259918064942
   schedule:
@@ -344,7 +344,7 @@ routes:
 - line: 原市場線
   stop_id: '19_1'
   stop_name: 曲竹
-  direction: 原市場地区行政センター方面
+  direction: 原市場地区行政センター行
   lat: 35.8680766940472
   lng: 139.257547369388
   schedule:
@@ -366,7 +366,7 @@ routes:
 - line: 原市場線
   stop_id: '20_1'
   stop_name: 下赤工
-  direction: 原市場地区行政センター方面
+  direction: 原市場地区行政センター行
   lat: 35.8676589746066
   lng: 139.251038001908
   schedule:
@@ -388,7 +388,7 @@ routes:
 - line: 原市場線
   stop_id: '21_1'
   stop_name: 原市場小学校
-  direction: 原市場地区行政センター方面
+  direction: 原市場地区行政センター行
   lat: 35.8683634314697
   lng: 139.248323009594
   schedule:
@@ -410,7 +410,7 @@ routes:
 - line: 原市場線
   stop_id: '22_1'
   stop_name: 赤工
-  direction: 原市場地区行政センター方面
+  direction: 原市場地区行政センター行
   lat: 35.8690713220914
   lng: 139.24562367482
   schedule:
@@ -432,7 +432,7 @@ routes:
 - line: 原市場線
   stop_id: '23_1'
   stop_name: エコス前
-  direction: 原市場地区行政センター方面
+  direction: 原市場地区行政センター行
   lat: 35.8704567312262
   lng: 139.241184671044
   schedule:
@@ -454,7 +454,7 @@ routes:
 - line: 原市場線
   stop_id: '24_1'
   stop_name: 上赤工
-  direction: 原市場地区行政センター方面
+  direction: 原市場地区行政センター行
   lat: 35.8707359962528
   lng: 139.239312409797
   schedule:
@@ -476,7 +476,7 @@ routes:
 - line: 原市場線
   stop_id: '25_1'
   stop_name: 畑中
-  direction: 原市場地区行政センター方面
+  direction: 原市場地区行政センター行
   lat: 35.8700086010541
   lng: 139.234995836862
   schedule:
@@ -498,7 +498,7 @@ routes:
 - line: 原市場線
   stop_id: '26_1'
   stop_name: 原市場中学校
-  direction: 原市場地区行政センター方面
+  direction: 原市場地区行政センター行
   lat: 35.8671442400111
   lng: 139.234822650974
   schedule:
@@ -520,7 +520,7 @@ routes:
 - line: 原市場線
   stop_id: '27_1'
   stop_name: 原市場
-  direction: 原市場地区行政センター方面
+  direction: 原市場地区行政センター行
   lat: 35.8650219048419
   lng: 139.235644481002
   schedule:
@@ -542,7 +542,7 @@ routes:
 - line: 原市場線
   stop_id: '1_0'
   stop_name: 中沢
-  direction: 原市場地区行政センター方面
+  direction: 原市場地区行政センター行
   lat: 35.8868295213085
   lng: 139.207899034437
   schedule:
@@ -556,7 +556,7 @@ routes:
 - line: 原市場線
   stop_id: '2_2'
   stop_name: 田中
-  direction: 原市場地区行政センター方面
+  direction: 原市場地区行政センター行
   lat: 35.8851003128491
   lng: 139.209126366037
   schedule:
@@ -570,7 +570,7 @@ routes:
 - line: 原市場線
   stop_id: '3_2'
   stop_name: 戸丸
-  direction: 原市場地区行政センター方面
+  direction: 原市場地区行政センター行
   lat: 35.879720191835
   lng: 139.214938410086
   schedule:
@@ -584,7 +584,7 @@ routes:
 - line: 原市場線
   stop_id: '28_0'
   stop_name: 原市場地区行政センター
-  direction: 中沢方面
+  direction: 中沢行
   lat: 35.8619146009294
   lng: 139.236332597901
   schedule:
@@ -598,7 +598,7 @@ routes:
 - line: 原市場線
   stop_id: '27_2'
   stop_name: 原市場
-  direction: 中沢方面
+  direction: 中沢行
   lat: 35.8648102527775
   lng: 139.235553686006
   schedule:
@@ -612,7 +612,7 @@ routes:
 - line: 原市場線
   stop_id: '26_2'
   stop_name: 原市場中学校
-  direction: 中沢方面
+  direction: 中沢行
   lat: 35.8671434841653
   lng: 139.234724434321
   schedule:
@@ -626,7 +626,7 @@ routes:
 - line: 原市場線
   stop_id: '25_2'
   stop_name: 畑中
-  direction: 中沢方面
+  direction: 中沢行
   lat: 35.8706101085248
   lng: 139.235219191445
   schedule:
@@ -640,7 +640,7 @@ routes:
 - line: 原市場線
   stop_id: '24_2'
   stop_name: 上赤工
-  direction: 中沢方面
+  direction: 中沢行
   lat: 35.8708593653474
   lng: 139.238995517684
   schedule:
@@ -654,7 +654,7 @@ routes:
 - line: 原市場線
   stop_id: '23_2'
   stop_name: エコス前
-  direction: 中沢方面
+  direction: 中沢行
   lat: 35.8705632332242
   lng: 139.241227586386
   schedule:
@@ -668,7 +668,7 @@ routes:
 - line: 原市場線
   stop_id: '22_2'
   stop_name: 赤工
-  direction: 中沢方面
+  direction: 中沢行
   lat: 35.8689878252348
   lng: 139.246242487225
   schedule:
@@ -682,7 +682,7 @@ routes:
 - line: 原市場線
   stop_id: '21_2'
   stop_name: 原市場小学校
-  direction: 中沢方面
+  direction: 中沢行
   lat: 35.8684808041111
   lng: 139.248171464794
   schedule:
@@ -696,7 +696,7 @@ routes:
 - line: 原市場線
   stop_id: '20_2'
   stop_name: 下赤工
-  direction: 中沢方面
+  direction: 中沢行
   lat: 35.8674897921532
   lng: 139.25219046812
   schedule:
@@ -710,7 +710,7 @@ routes:
 - line: 原市場線
   stop_id: '19_2'
   stop_name: 曲竹
-  direction: 中沢方面
+  direction: 中沢行
   lat: 35.8681092976941
   lng: 139.257413258946
   schedule:
@@ -724,7 +724,7 @@ routes:
 - line: 原市場線
   stop_id: '18_2'
   stop_name: 尾長入口
-  direction: 中沢方面
+  direction: 中沢行
   lat: 35.8691536179569
   lng: 139.259971773122
   schedule:
@@ -738,7 +738,7 @@ routes:
 - line: 原市場線
   stop_id: '17_1'
   stop_name: 新寺
-  direction: 中沢方面
+  direction: 中沢行
   lat: 35.8697066397296
   lng: 139.261599503
   schedule:
@@ -752,7 +752,7 @@ routes:
 - line: 原市場線
   stop_id: '16_1'
   stop_name: 野口
-  direction: 中沢方面
+  direction: 中沢行
   lat: 35.8722504045299
   lng: 139.25783707919
   schedule:
@@ -784,7 +784,7 @@ routes:
 - line: 原市場線
   stop_id: '15_1'
   stop_name: 堂西
-  direction: 中沢方面
+  direction: 中沢行
   lat: 35.8741030357608
   lng: 139.255316443744
   schedule:
@@ -816,7 +816,7 @@ routes:
 - line: 原市場線
   stop_id: '14_1'
   stop_name: 野ヶ崎
-  direction: 中沢方面
+  direction: 中沢行
   lat: 35.876858102695
   lng: 139.249067151678
   schedule:
@@ -848,7 +848,7 @@ routes:
 - line: 原市場線
   stop_id: '13_1'
   stop_name: 種木橋
-  direction: 中沢方面
+  direction: 中沢行
   lat: 35.8792834032672
   lng: 139.246592958181
   schedule:
@@ -880,7 +880,7 @@ routes:
 - line: 原市場線
   stop_id: '12_1'
   stop_name: 天神橋
-  direction: 中沢方面
+  direction: 中沢行
   lat: 35.8805647417416
   lng: 139.242728527411
   schedule:
@@ -912,7 +912,7 @@ routes:
 - line: 原市場線
   stop_id: '11_1'
   stop_name: 下郷
-  direction: 中沢方面
+  direction: 中沢行
   lat: 35.8796987698129
   lng: 139.239368245364
   schedule:
@@ -944,7 +944,7 @@ routes:
 - line: 原市場線
   stop_id: '10_1'
   stop_name: 中郷
-  direction: 中沢方面
+  direction: 中沢行
   lat: 35.8829576238533
   lng: 139.236345165392
   schedule:
@@ -976,7 +976,7 @@ routes:
 - line: 原市場線
   stop_id: '9_1'
   stop_name: 釣場
-  direction: 中沢方面
+  direction: 中沢行
   lat: 35.8830218860416
   lng: 139.23394880143
   schedule:
@@ -1008,7 +1008,7 @@ routes:
 - line: 原市場線
   stop_id: '8_1'
   stop_name: 久根花
-  direction: 中沢方面
+  direction: 中沢行
   lat: 35.8796831412102
   lng: 139.231252575018
   schedule:
@@ -1040,7 +1040,7 @@ routes:
 - line: 原市場線
   stop_id: '7_1'
   stop_name: 清久橋
-  direction: 中沢方面
+  direction: 中沢行
   lat: 35.8782889206025
   lng: 139.230624552881
   schedule:
@@ -1072,7 +1072,7 @@ routes:
 - line: 原市場線
   stop_id: '6_1'
   stop_name: 旭橋
-  direction: 中沢方面
+  direction: 中沢行
   lat: 35.8770024303802
   lng: 139.227827569039
   schedule:
@@ -1104,7 +1104,7 @@ routes:
 - line: 原市場線
   stop_id: '5_1'
   stop_name: 中内
-  direction: 中沢方面
+  direction: 中沢行
   lat: 35.8798207744624
   lng: 139.226230799259
   schedule:
@@ -1136,7 +1136,7 @@ routes:
 - line: 原市場線
   stop_id: '4_1'
   stop_name: 中藤（青石橋）
-  direction: 中沢方面
+  direction: 中沢行
   lat: 35.8809330390309
   lng: 139.224352369181
   schedule:
@@ -1168,7 +1168,7 @@ routes:
 - line: 原市場線
   stop_id: '3_1'
   stop_name: 戸丸
-  direction: 中沢方面
+  direction: 中沢行
   lat: 35.879665860379
   lng: 139.214896835849
   schedule:
@@ -1200,7 +1200,7 @@ routes:
 - line: 原市場線
   stop_id: '2_1'
   stop_name: 田中
-  direction: 中沢方面
+  direction: 中沢行
   lat: 35.8849633949416
   lng: 139.209140424178
   schedule:
@@ -1232,7 +1232,7 @@ routes:
 - line: 原市場線
   stop_id: '28_0'
   stop_name: 原市場地区行政センター
-  direction: 中藤（青石橋）方面
+  direction: 中藤（青石橋）行
   lat: 35.8619146009294
   lng: 139.236332597901
   schedule:
@@ -1250,7 +1250,7 @@ routes:
 - line: 原市場線
   stop_id: '27_2'
   stop_name: 原市場
-  direction: 中藤（青石橋）方面
+  direction: 中藤（青石橋）行
   lat: 35.8648102527775
   lng: 139.235553686006
   schedule:
@@ -1268,7 +1268,7 @@ routes:
 - line: 原市場線
   stop_id: '26_2'
   stop_name: 原市場中学校
-  direction: 中藤（青石橋）方面
+  direction: 中藤（青石橋）行
   lat: 35.8671434841653
   lng: 139.234724434321
   schedule:
@@ -1286,7 +1286,7 @@ routes:
 - line: 原市場線
   stop_id: '25_2'
   stop_name: 畑中
-  direction: 中藤（青石橋）方面
+  direction: 中藤（青石橋）行
   lat: 35.8706101085248
   lng: 139.235219191445
   schedule:
@@ -1304,7 +1304,7 @@ routes:
 - line: 原市場線
   stop_id: '24_2'
   stop_name: 上赤工
-  direction: 中藤（青石橋）方面
+  direction: 中藤（青石橋）行
   lat: 35.8708593653474
   lng: 139.238995517684
   schedule:
@@ -1322,7 +1322,7 @@ routes:
 - line: 原市場線
   stop_id: '23_2'
   stop_name: エコス前
-  direction: 中藤（青石橋）方面
+  direction: 中藤（青石橋）行
   lat: 35.8705632332242
   lng: 139.241227586386
   schedule:
@@ -1340,7 +1340,7 @@ routes:
 - line: 原市場線
   stop_id: '22_2'
   stop_name: 赤工
-  direction: 中藤（青石橋）方面
+  direction: 中藤（青石橋）行
   lat: 35.8689878252348
   lng: 139.246242487225
   schedule:
@@ -1358,7 +1358,7 @@ routes:
 - line: 原市場線
   stop_id: '21_2'
   stop_name: 原市場小学校
-  direction: 中藤（青石橋）方面
+  direction: 中藤（青石橋）行
   lat: 35.8684808041111
   lng: 139.248171464794
   schedule:
@@ -1376,7 +1376,7 @@ routes:
 - line: 原市場線
   stop_id: '20_2'
   stop_name: 下赤工
-  direction: 中藤（青石橋）方面
+  direction: 中藤（青石橋）行
   lat: 35.8674897921532
   lng: 139.25219046812
   schedule:
@@ -1394,7 +1394,7 @@ routes:
 - line: 原市場線
   stop_id: '19_2'
   stop_name: 曲竹
-  direction: 中藤（青石橋）方面
+  direction: 中藤（青石橋）行
   lat: 35.8681092976941
   lng: 139.257413258946
   schedule:
@@ -1412,7 +1412,7 @@ routes:
 - line: 原市場線
   stop_id: '18_2'
   stop_name: 尾長入口
-  direction: 中藤（青石橋）方面
+  direction: 中藤（青石橋）行
   lat: 35.8691536179569
   lng: 139.259971773122
   schedule:
@@ -1430,7 +1430,7 @@ routes:
 - line: 原市場線
   stop_id: '17_1'
   stop_name: 新寺
-  direction: 中藤（青石橋）方面
+  direction: 中藤（青石橋）行
   lat: 35.8697066397296
   lng: 139.261599503
   schedule:
@@ -1448,7 +1448,7 @@ routes:
 - line: 原市場線
   stop_id: '16_1'
   stop_name: 野口
-  direction: 中藤（青石橋）方面
+  direction: 中藤（青石橋）行
   lat: 35.8722504045299
   lng: 139.25783707919
   schedule:
@@ -1482,7 +1482,7 @@ routes:
 - line: 原市場線
   stop_id: '15_1'
   stop_name: 堂西
-  direction: 中藤（青石橋）方面
+  direction: 中藤（青石橋）行
   lat: 35.8741030357608
   lng: 139.255316443744
   schedule:
@@ -1516,7 +1516,7 @@ routes:
 - line: 原市場線
   stop_id: '14_1'
   stop_name: 野ヶ崎
-  direction: 中藤（青石橋）方面
+  direction: 中藤（青石橋）行
   lat: 35.876858102695
   lng: 139.249067151678
   schedule:
@@ -1550,7 +1550,7 @@ routes:
 - line: 原市場線
   stop_id: '13_1'
   stop_name: 種木橋
-  direction: 中藤（青石橋）方面
+  direction: 中藤（青石橋）行
   lat: 35.8792834032672
   lng: 139.246592958181
   schedule:
@@ -1584,7 +1584,7 @@ routes:
 - line: 原市場線
   stop_id: '12_1'
   stop_name: 天神橋
-  direction: 中藤（青石橋）方面
+  direction: 中藤（青石橋）行
   lat: 35.8805647417416
   lng: 139.242728527411
   schedule:
@@ -1618,7 +1618,7 @@ routes:
 - line: 原市場線
   stop_id: '11_1'
   stop_name: 下郷
-  direction: 中藤（青石橋）方面
+  direction: 中藤（青石橋）行
   lat: 35.8796987698129
   lng: 139.239368245364
   schedule:
@@ -1652,7 +1652,7 @@ routes:
 - line: 原市場線
   stop_id: '10_1'
   stop_name: 中郷
-  direction: 中藤（青石橋）方面
+  direction: 中藤（青石橋）行
   lat: 35.8829576238533
   lng: 139.236345165392
   schedule:
@@ -1686,7 +1686,7 @@ routes:
 - line: 原市場線
   stop_id: '9_1'
   stop_name: 釣場
-  direction: 中藤（青石橋）方面
+  direction: 中藤（青石橋）行
   lat: 35.8830218860416
   lng: 139.23394880143
   schedule:
@@ -1720,7 +1720,7 @@ routes:
 - line: 原市場線
   stop_id: '8_1'
   stop_name: 久根花
-  direction: 中藤（青石橋）方面
+  direction: 中藤（青石橋）行
   lat: 35.8796831412102
   lng: 139.231252575018
   schedule:
@@ -1754,7 +1754,7 @@ routes:
 - line: 原市場線
   stop_id: '7_1'
   stop_name: 清久橋
-  direction: 中藤（青石橋）方面
+  direction: 中藤（青石橋）行
   lat: 35.8782889206025
   lng: 139.230624552881
   schedule:
@@ -1788,7 +1788,7 @@ routes:
 - line: 原市場線
   stop_id: '6_1'
   stop_name: 旭橋
-  direction: 中藤（青石橋）方面
+  direction: 中藤（青石橋）行
   lat: 35.8770024303802
   lng: 139.227827569039
   schedule:
@@ -1822,7 +1822,7 @@ routes:
 - line: 原市場線
   stop_id: '5_1'
   stop_name: 中内
-  direction: 中藤（青石橋）方面
+  direction: 中藤（青石橋）行
   lat: 35.8798207744624
   lng: 139.226230799259
   schedule:
@@ -1856,7 +1856,7 @@ routes:
 - line: 原市場線
   stop_id: '4_2'
   stop_name: 中藤（青石橋）
-  direction: 新寺方面
+  direction: 新寺行
   lat: 35.8810602214106
   lng: 139.224065608493
   schedule:
@@ -1900,7 +1900,7 @@ routes:
 - line: 原市場線
   stop_id: '5_2'
   stop_name: 中内
-  direction: 新寺方面
+  direction: 新寺行
   lat: 35.879812081443
   lng: 139.226327358777
   schedule:
@@ -1944,7 +1944,7 @@ routes:
 - line: 原市場線
   stop_id: '6_2'
   stop_name: 旭橋
-  direction: 新寺方面
+  direction: 新寺行
   lat: 35.8770469509286
   lng: 139.227850149121
   schedule:
@@ -1988,7 +1988,7 @@ routes:
 - line: 原市場線
   stop_id: '7_2'
   stop_name: 清久橋
-  direction: 新寺方面
+  direction: 新寺行
   lat: 35.8783679504489
   lng: 139.230552750047
   schedule:
@@ -2032,7 +2032,7 @@ routes:
 - line: 原市場線
   stop_id: '8_2'
   stop_name: 久根花
-  direction: 新寺方面
+  direction: 新寺行
   lat: 35.8796721762976
   lng: 139.231139802028
   schedule:
@@ -2076,7 +2076,7 @@ routes:
 - line: 原市場線
   stop_id: '9_2'
   stop_name: 釣場
-  direction: 新寺方面
+  direction: 新寺行
   lat: 35.8830451532762
   lng: 139.233736460502
   schedule:
@@ -2120,7 +2120,7 @@ routes:
 - line: 原市場線
   stop_id: '10_2'
   stop_name: 中郷
-  direction: 新寺方面
+  direction: 新寺行
   lat: 35.8831863495264
   lng: 139.236206361083
   schedule:
@@ -2164,7 +2164,7 @@ routes:
 - line: 原市場線
   stop_id: '11_2'
   stop_name: 下郷
-  direction: 新寺方面
+  direction: 新寺行
   lat: 35.8797632807331
   lng: 139.239399321359
   schedule:
@@ -2208,7 +2208,7 @@ routes:
 - line: 原市場線
   stop_id: '12_2'
   stop_name: 天神橋
-  direction: 新寺方面
+  direction: 新寺行
   lat: 35.8807196779188
   lng: 139.242088475823
   schedule:
@@ -2252,7 +2252,7 @@ routes:
 - line: 原市場線
   stop_id: '13_2'
   stop_name: 種木橋
-  direction: 新寺方面
+  direction: 新寺行
   lat: 35.8793409076488
   lng: 139.246651967665
   schedule:
@@ -2296,7 +2296,7 @@ routes:
 - line: 原市場線
   stop_id: '14_2'
   stop_name: 野ヶ崎
-  direction: 新寺方面
+  direction: 新寺行
   lat: 35.8769583347623
   lng: 139.249058163684
   schedule:
@@ -2340,7 +2340,7 @@ routes:
 - line: 原市場線
   stop_id: '15_2'
   stop_name: 堂西
-  direction: 新寺方面
+  direction: 新寺行
   lat: 35.8741329201647
   lng: 139.255353994667
   schedule:
@@ -2384,7 +2384,7 @@ routes:
 - line: 原市場線
   stop_id: '16_2'
   stop_name: 野口
-  direction: 新寺方面
+  direction: 新寺行
   lat: 35.8722645320344
   lng: 139.257877312322
   schedule:
@@ -2428,7 +2428,7 @@ routes:
 - line: 原市場線
   stop_id: '1_0'
   stop_name: 中沢
-  direction: 新寺方面
+  direction: 新寺行
   lat: 35.8868295213085
   lng: 139.207899034437
   schedule:
@@ -2456,7 +2456,7 @@ routes:
 - line: 原市場線
   stop_id: '2_2'
   stop_name: 田中
-  direction: 新寺方面
+  direction: 新寺行
   lat: 35.8851003128491
   lng: 139.209126366037
   schedule:
@@ -2484,7 +2484,7 @@ routes:
 - line: 原市場線
   stop_id: '3_2'
   stop_name: 戸丸
-  direction: 新寺方面
+  direction: 新寺行
   lat: 35.879720191835
   lng: 139.214938410086
   schedule:
@@ -2512,7 +2512,7 @@ routes:
 - line: 原市場線
   stop_id: '17_2'
   stop_name: 新寺
-  direction: 中藤（青石橋）方面
+  direction: 中藤（青石橋）行
   lat: 35.8696305660661
   lng: 139.26166924043
   schedule:
@@ -2538,7 +2538,7 @@ routes:
 - line: 原市場線
   stop_id: '17_2'
   stop_name: 新寺
-  direction: 中沢方面
+  direction: 中沢行
   lat: 35.8696305660661
   lng: 139.26166924043
   schedule:

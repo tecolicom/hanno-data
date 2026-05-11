@@ -9,12 +9,12 @@ meta:
   feed_version: '20260402'
   feed_start_date: '2026-04-01'
   feed_end_date: '2026-06-30'
-  extracted_at: '2026-05-11'
+  extracted_at: '2026-05-12'
 routes:
 - line: 飯42
   stop_id: 160176-01
   stop_name: 飯能駅南口
-  direction: 岩井堂方面
+  direction: 岩井堂行
   lat: 35.850293
   lng: 139.318408
   schedule:
@@ -42,7 +42,7 @@ routes:
 - line: 飯42
   stop_id: 160186-02
   stop_name: 南町東
-  direction: 岩井堂方面
+  direction: 岩井堂行
   lat: 35.846673
   lng: 139.320954
   schedule:
@@ -70,7 +70,7 @@ routes:
 - line: 飯42
   stop_id: 160187-02
   stop_name: 一本松
-  direction: 岩井堂方面
+  direction: 岩井堂行
   lat: 35.841934
   lng: 139.322575
   schedule:
@@ -98,7 +98,7 @@ routes:
 - line: 飯42
   stop_id: 160188-02
   stop_name: 川寺南
-  direction: 岩井堂方面
+  direction: 岩井堂行
   lat: 35.839965
   lng: 139.324072
   schedule:
@@ -126,7 +126,7 @@ routes:
 - line: 飯42
   stop_id: 160189-02
   stop_name: 加治橋
-  direction: 岩井堂方面
+  direction: 岩井堂行
   lat: 35.838801
   lng: 139.325604
   schedule:
@@ -154,7 +154,7 @@ routes:
 - line: 飯42
   stop_id: 160190-02
   stop_name: 加治中学校
-  direction: 岩井堂方面
+  direction: 岩井堂行
   lat: 35.836602
   lng: 139.326111
   schedule:
@@ -182,7 +182,7 @@ routes:
 - line: 飯42
   stop_id: 160191-02
   stop_name: 阿須
-  direction: 岩井堂方面
+  direction: 岩井堂行
   lat: 35.833906
   lng: 139.329188
   schedule:
@@ -210,7 +210,7 @@ routes:
 - line: 飯42
   stop_id: 160192-02
   stop_name: 落合（飯能市）
-  direction: 岩井堂方面
+  direction: 岩井堂行
   lat: 35.833937
   lng: 139.322333
   schedule:
@@ -238,7 +238,7 @@ routes:
 - line: 飯42
   stop_id: 160196-02
   stop_name: 前ヶ貫入口
-  direction: 岩井堂方面
+  direction: 岩井堂行
   lat: 35.834691
   lng: 139.314289
   schedule:
@@ -266,7 +266,7 @@ routes:
 - line: 飯42
   stop_id: 160197-02
   stop_name: 岩渕
-  direction: 岩井堂方面
+  direction: 岩井堂行
   lat: 35.835736
   lng: 139.31231
   schedule:
@@ -294,7 +294,7 @@ routes:
 - line: 飯42
   stop_id: 160199-02
   stop_name: 尾根下
-  direction: 岩井堂方面
+  direction: 岩井堂行
   lat: 35.837098
   lng: 139.30644
   schedule:
@@ -322,7 +322,7 @@ routes:
 - line: 飯42
   stop_id: 160200-02
   stop_name: 岩渕団地
-  direction: 岩井堂方面
+  direction: 岩井堂行
   lat: 35.837137
   lng: 139.304577
   schedule:
@@ -350,7 +350,7 @@ routes:
 - line: 飯42
   stop_id: 160202-01
   stop_name: 岩井堂
-  direction: 飯能駅南口方面
+  direction: 飯能駅南口行
   lat: 35.832834
   lng: 139.296929
   schedule:
@@ -429,7 +429,7 @@ routes:
 - line: 飯42
   stop_id: 160200-01
   stop_name: 岩渕団地
-  direction: 飯能駅南口方面
+  direction: 飯能駅南口行
   lat: 35.837181
   lng: 139.305389
   schedule:
@@ -508,7 +508,7 @@ routes:
 - line: 飯42
   stop_id: 160199-01
   stop_name: 尾根下
-  direction: 飯能駅南口方面
+  direction: 飯能駅南口行
   lat: 35.83712
   lng: 139.307015
   schedule:
@@ -587,7 +587,7 @@ routes:
 - line: 飯42
   stop_id: 160197-01
   stop_name: 岩渕
-  direction: 飯能駅南口方面
+  direction: 飯能駅南口行
   lat: 35.835981
   lng: 139.311609
   schedule:
@@ -666,7 +666,7 @@ routes:
 - line: 飯42
   stop_id: 160196-01
   stop_name: 前ヶ貫入口
-  direction: 飯能駅南口方面
+  direction: 飯能駅南口行
   lat: 35.834389
   lng: 139.315843
   schedule:
@@ -745,7 +745,7 @@ routes:
 - line: 飯42
   stop_id: 160192-01
   stop_name: 落合（飯能市）
-  direction: 飯能駅南口方面
+  direction: 飯能駅南口行
   lat: 35.833985
   lng: 139.322486
   schedule:
@@ -824,7 +824,7 @@ routes:
 - line: 飯42
   stop_id: 160191-01
   stop_name: 阿須
-  direction: 飯能駅南口方面
+  direction: 飯能駅南口行
   lat: 35.833998
   lng: 139.329246
   schedule:
@@ -903,7 +903,7 @@ routes:
 - line: 飯42
   stop_id: 160190-01
   stop_name: 加治中学校
-  direction: 飯能駅南口方面
+  direction: 飯能駅南口行
   lat: 35.836423
   lng: 139.326079
   schedule:
@@ -982,7 +982,7 @@ routes:
 - line: 飯42
   stop_id: 160189-01
   stop_name: 加治橋
-  direction: 飯能駅南口方面
+  direction: 飯能駅南口行
   lat: 35.838609
   lng: 139.325762
   schedule:
@@ -1061,7 +1061,7 @@ routes:
 - line: 飯42
   stop_id: 160188-01
   stop_name: 川寺南
-  direction: 飯能駅南口方面
+  direction: 飯能駅南口行
   lat: 35.840028
   lng: 139.323877
   schedule:
@@ -1140,7 +1140,7 @@ routes:
 - line: 飯42
   stop_id: 160187-01
   stop_name: 一本松
-  direction: 飯能駅南口方面
+  direction: 飯能駅南口行
   lat: 35.842227
   lng: 139.322364
   schedule:
@@ -1219,7 +1219,7 @@ routes:
 - line: 飯42
   stop_id: 160186-01
   stop_name: 南町東
-  direction: 飯能駅南口方面
+  direction: 飯能駅南口行
   lat: 35.847003
   lng: 139.320872
   schedule:
@@ -1298,7 +1298,7 @@ routes:
 - line: 飯41-1
   stop_id: 160176-01
   stop_name: 飯能駅南口
-  direction: 東青梅駅方面
+  direction: 東青梅駅行
   lat: 35.850293
   lng: 139.318408
   schedule:
@@ -1365,7 +1365,7 @@ routes:
 - line: 飯41-1
   stop_id: 160186-02
   stop_name: 南町東
-  direction: 東青梅駅方面
+  direction: 東青梅駅行
   lat: 35.846673
   lng: 139.320954
   schedule:
@@ -1432,7 +1432,7 @@ routes:
 - line: 飯41-1
   stop_id: 160187-02
   stop_name: 一本松
-  direction: 東青梅駅方面
+  direction: 東青梅駅行
   lat: 35.841934
   lng: 139.322575
   schedule:
@@ -1499,7 +1499,7 @@ routes:
 - line: 飯41-1
   stop_id: 160188-02
   stop_name: 川寺南
-  direction: 東青梅駅方面
+  direction: 東青梅駅行
   lat: 35.839965
   lng: 139.324072
   schedule:
@@ -1566,7 +1566,7 @@ routes:
 - line: 飯41-1
   stop_id: 160189-02
   stop_name: 加治橋
-  direction: 東青梅駅方面
+  direction: 東青梅駅行
   lat: 35.838801
   lng: 139.325604
   schedule:
@@ -1633,7 +1633,7 @@ routes:
 - line: 飯41-1
   stop_id: 160190-02
   stop_name: 加治中学校
-  direction: 東青梅駅方面
+  direction: 東青梅駅行
   lat: 35.836602
   lng: 139.326111
   schedule:
@@ -1700,7 +1700,7 @@ routes:
 - line: 飯41-1
   stop_id: 160191-02
   stop_name: 阿須
-  direction: 東青梅駅方面
+  direction: 東青梅駅行
   lat: 35.833906
   lng: 139.329188
   schedule:
@@ -1767,7 +1767,7 @@ routes:
 - line: 飯41-1
   stop_id: 160192-02
   stop_name: 落合（飯能市）
-  direction: 東青梅駅方面
+  direction: 東青梅駅行
   lat: 35.833937
   lng: 139.322333
   schedule:
@@ -1834,7 +1834,7 @@ routes:
 - line: 飯41-1
   stop_id: 160196-02
   stop_name: 前ヶ貫入口
-  direction: 東青梅駅方面
+  direction: 東青梅駅行
   lat: 35.834691
   lng: 139.314289
   schedule:
@@ -1901,7 +1901,7 @@ routes:
 - line: 飯41-1
   stop_id: 160197-02
   stop_name: 岩渕
-  direction: 東青梅駅方面
+  direction: 東青梅駅行
   lat: 35.835736
   lng: 139.31231
   schedule:
@@ -1968,7 +1968,7 @@ routes:
 - line: 飯41-1
   stop_id: 160199-02
   stop_name: 尾根下
-  direction: 東青梅駅方面
+  direction: 東青梅駅行
   lat: 35.837098
   lng: 139.30644
   schedule:
@@ -2035,7 +2035,7 @@ routes:
 - line: 飯41-1
   stop_id: 160200-02
   stop_name: 岩渕団地
-  direction: 東青梅駅方面
+  direction: 東青梅駅行
   lat: 35.837137
   lng: 139.304577
   schedule:
@@ -2102,7 +2102,7 @@ routes:
 - line: 飯41-1
   stop_id: 160202-02-15
   stop_name: 岩井堂
-  direction: 東青梅駅方面
+  direction: 東青梅駅行
   lat: 35.832141
   lng: 139.296697
   schedule:
@@ -2169,7 +2169,7 @@ routes:
 - line: 飯41-1
   stop_id: 160203-02
   stop_name: 中央橋
-  direction: 東青梅駅方面
+  direction: 東青梅駅行
   lat: 35.829336
   lng: 139.293683
   schedule:
@@ -2236,7 +2236,7 @@ routes:
 - line: 飯41-1
   stop_id: 160204-02
   stop_name: 常福寺入口
-  direction: 東青梅駅方面
+  direction: 東青梅駅行
   lat: 35.828482
   lng: 139.292177
   schedule:
@@ -2303,7 +2303,7 @@ routes:
 - line: 飯41-1
   stop_id: 160205-02
   stop_name: 岩蔵温泉
-  direction: 東青梅駅方面
+  direction: 東青梅駅行
   lat: 35.826607
   lng: 139.289976
   schedule:
@@ -2370,7 +2370,7 @@ routes:
 - line: 飯41-1
   stop_id: 160206-02
   stop_name: 東京炭鉱前
-  direction: 東青梅駅方面
+  direction: 東青梅駅行
   lat: 35.823226
   lng: 139.286225
   schedule:
@@ -2437,7 +2437,7 @@ routes:
 - line: 飯41-1
   stop_id: 160207-02
   stop_name: 小曽木診療所
-  direction: 東青梅駅方面
+  direction: 東青梅駅行
   lat: 35.822437
   lng: 139.281489
   schedule:
@@ -2504,7 +2504,7 @@ routes:
 - line: 飯41-1
   stop_id: 160208-02
   stop_name: ＪＡ小曽木支店
-  direction: 東青梅駅方面
+  direction: 東青梅駅行
   lat: 35.82204
   lng: 139.278858
   schedule:
@@ -2571,7 +2571,7 @@ routes:
 - line: 飯41-1
   stop_id: 160209-02
   stop_name: 中井橋（青梅市）
-  direction: 東青梅駅方面
+  direction: 東青梅駅行
   lat: 35.822218
   lng: 139.276907
   schedule:
@@ -2638,7 +2638,7 @@ routes:
 - line: 飯41-1
   stop_id: 160210-02
   stop_name: 青梅第六中学校
-  direction: 東青梅駅方面
+  direction: 東青梅駅行
   lat: 35.82102
   lng: 139.275586
   schedule:
@@ -2705,7 +2705,7 @@ routes:
 - line: 飯41-1
   stop_id: 160211-02
   stop_name: 青梅第七小学校
-  direction: 東青梅駅方面
+  direction: 東青梅駅行
   lat: 35.818569
   lng: 139.275006
   schedule:
@@ -2772,7 +2772,7 @@ routes:
 - line: 飯41-1
   stop_id: 160212-02
   stop_name: 荒田
-  direction: 東青梅駅方面
+  direction: 東青梅駅行
   lat: 35.815864
   lng: 139.270839
   schedule:
@@ -2839,7 +2839,7 @@ routes:
 - line: 飯41-1
   stop_id: 160213-02
   stop_name: 小枕
-  direction: 東青梅駅方面
+  direction: 東青梅駅行
   lat: 35.814883
   lng: 139.268398
   schedule:
@@ -2906,7 +2906,7 @@ routes:
 - line: 飯41-1
   stop_id: 160214-02
   stop_name: 黒沢神社
-  direction: 東青梅駅方面
+  direction: 東青梅駅行
   lat: 35.813857
   lng: 139.264446
   schedule:
@@ -2973,7 +2973,7 @@ routes:
 - line: 飯41-1
   stop_id: 160215-02
   stop_name: 柳川
-  direction: 東青梅駅方面
+  direction: 東青梅駅行
   lat: 35.810324
   lng: 139.259347
   schedule:
@@ -3040,7 +3040,7 @@ routes:
 - line: 飯41-1
   stop_id: 160216-02
   stop_name: 聖明福祉協会前
-  direction: 東青梅駅方面
+  direction: 東青梅駅行
   lat: 35.805127
   lng: 139.265153
   schedule:
@@ -3107,7 +3107,7 @@ routes:
 - line: 飯41-1
   stop_id: 160217-02
   stop_name: 多摩団地前
-  direction: 東青梅駅方面
+  direction: 東青梅駅行
   lat: 35.801981
   lng: 139.265179
   schedule:
@@ -3174,7 +3174,7 @@ routes:
 - line: 飯41-1
   stop_id: 160218-02
   stop_name: 諏訪神社前
-  direction: 東青梅駅方面
+  direction: 東青梅駅行
   lat: 35.800428
   lng: 139.265559
   schedule:
@@ -3241,7 +3241,7 @@ routes:
 - line: 飯41-1
   stop_id: 160219-02
   stop_name: 根ヶ布
-  direction: 東青梅駅方面
+  direction: 東青梅駅行
   lat: 35.797597
   lng: 139.267945
   schedule:
@@ -3308,7 +3308,7 @@ routes:
 - line: 飯41-1
   stop_id: 160220-02
   stop_name: 第四小学校前
-  direction: 東青梅駅方面
+  direction: 東青梅駅行
   lat: 35.793736
   lng: 139.270631
   schedule:
@@ -3375,7 +3375,7 @@ routes:
 - line: 飯41-1
   stop_id: 160221-02
   stop_name: 東青梅
-  direction: 東青梅駅方面
+  direction: 東青梅駅行
   lat: 35.790928
   lng: 139.272226
   schedule:
@@ -3442,7 +3442,7 @@ routes:
 - line: 飯41-1
   stop_id: 160222-01-15
   stop_name: 東青梅駅
-  direction: 飯能駅南口方面
+  direction: 飯能駅南口行
   lat: 35.790241
   lng: 139.272964
   schedule:
@@ -3509,7 +3509,7 @@ routes:
 - line: 飯41-1
   stop_id: 160221-01
   stop_name: 東青梅
-  direction: 飯能駅南口方面
+  direction: 飯能駅南口行
   lat: 35.790898
   lng: 139.272007
   schedule:
@@ -3576,7 +3576,7 @@ routes:
 - line: 飯41-1
   stop_id: 160220-01
   stop_name: 第四小学校前
-  direction: 飯能駅南口方面
+  direction: 飯能駅南口行
   lat: 35.793696
   lng: 139.270542
   schedule:
@@ -3643,7 +3643,7 @@ routes:
 - line: 飯41-1
   stop_id: 160219-01
   stop_name: 根ヶ布
-  direction: 飯能駅南口方面
+  direction: 飯能駅南口行
   lat: 35.797615
   lng: 139.26783
   schedule:
@@ -3710,7 +3710,7 @@ routes:
 - line: 飯41-1
   stop_id: 160218-01
   stop_name: 諏訪神社前
-  direction: 飯能駅南口方面
+  direction: 飯能駅南口行
   lat: 35.800624
   lng: 139.265407
   schedule:
@@ -3777,7 +3777,7 @@ routes:
 - line: 飯41-1
   stop_id: 160217-01
   stop_name: 多摩団地前
-  direction: 飯能駅南口方面
+  direction: 飯能駅南口行
   lat: 35.802341
   lng: 139.265175
   schedule:
@@ -3844,7 +3844,7 @@ routes:
 - line: 飯41-1
   stop_id: 160216-01
   stop_name: 聖明福祉協会前
-  direction: 飯能駅南口方面
+  direction: 飯能駅南口行
   lat: 35.805125
   lng: 139.265069
   schedule:
@@ -3911,7 +3911,7 @@ routes:
 - line: 飯41-1
   stop_id: 160215-01
   stop_name: 柳川
-  direction: 飯能駅南口方面
+  direction: 飯能駅南口行
   lat: 35.809931
   lng: 139.259396
   schedule:
@@ -3978,7 +3978,7 @@ routes:
 - line: 飯41-1
   stop_id: 160214-01
   stop_name: 黒沢神社
-  direction: 飯能駅南口方面
+  direction: 飯能駅南口行
   lat: 35.814118
   lng: 139.264582
   schedule:
@@ -4045,7 +4045,7 @@ routes:
 - line: 飯41-1
   stop_id: 160213-01
   stop_name: 小枕
-  direction: 飯能駅南口方面
+  direction: 飯能駅南口行
   lat: 35.81484
   lng: 139.267805
   schedule:
@@ -4112,7 +4112,7 @@ routes:
 - line: 飯41-1
   stop_id: 160212-01
   stop_name: 荒田
-  direction: 飯能駅南口方面
+  direction: 飯能駅南口行
   lat: 35.81566
   lng: 139.270136
   schedule:
@@ -4179,7 +4179,7 @@ routes:
 - line: 飯41-1
   stop_id: 160211-01
   stop_name: 青梅第七小学校
-  direction: 飯能駅南口方面
+  direction: 飯能駅南口行
   lat: 35.818748
   lng: 139.275201
   schedule:
@@ -4246,7 +4246,7 @@ routes:
 - line: 飯41-1
   stop_id: 160210-01
   stop_name: 青梅第六中学校
-  direction: 飯能駅南口方面
+  direction: 飯能駅南口行
   lat: 35.820969
   lng: 139.275528
   schedule:
@@ -4313,7 +4313,7 @@ routes:
 - line: 飯41-1
   stop_id: 160209-01
   stop_name: 中井橋（青梅市）
-  direction: 飯能駅南口方面
+  direction: 飯能駅南口行
   lat: 35.822301
   lng: 139.276843
   schedule:
@@ -4380,7 +4380,7 @@ routes:
 - line: 飯41-1
   stop_id: 160208-01
   stop_name: ＪＡ小曽木支店
-  direction: 飯能駅南口方面
+  direction: 飯能駅南口行
   lat: 35.82214
   lng: 139.279041
   schedule:
@@ -4447,7 +4447,7 @@ routes:
 - line: 飯41-1
   stop_id: 160207-01
   stop_name: 小曽木診療所
-  direction: 飯能駅南口方面
+  direction: 飯能駅南口行
   lat: 35.822479
   lng: 139.281314
   schedule:
@@ -4514,7 +4514,7 @@ routes:
 - line: 飯41-1
   stop_id: 160206-01
   stop_name: 東京炭鉱前
-  direction: 飯能駅南口方面
+  direction: 飯能駅南口行
   lat: 35.823058
   lng: 139.285367
   schedule:
@@ -4581,7 +4581,7 @@ routes:
 - line: 飯41-1
   stop_id: 160205-01
   stop_name: 岩蔵温泉
-  direction: 飯能駅南口方面
+  direction: 飯能駅南口行
   lat: 35.82674
   lng: 139.290031
   schedule:
@@ -4648,7 +4648,7 @@ routes:
 - line: 飯41-1
   stop_id: 160204-01
   stop_name: 常福寺入口
-  direction: 飯能駅南口方面
+  direction: 飯能駅南口行
   lat: 35.828057
   lng: 139.291427
   schedule:
@@ -4715,7 +4715,7 @@ routes:
 - line: 飯41-1
   stop_id: 160203-01
   stop_name: 中央橋
-  direction: 飯能駅南口方面
+  direction: 飯能駅南口行
   lat: 35.829388
   lng: 139.29364
   schedule:
@@ -4782,7 +4782,7 @@ routes:
 - line: m01
   stop_id: 160231-01
   stop_name: 飯能駅北口
-  direction: メッツァ方面
+  direction: メッツァ行
   lat: 35.850973
   lng: 139.320188
   schedule:
@@ -4822,7 +4822,7 @@ routes:
 - line: m01
   stop_id: 165146-01-02-03-15
   stop_name: メッツァ
-  direction: 飯能駅北口方面
+  direction: 飯能駅北口行
   lat: 35.87099
   lng: 139.332853
   schedule:
@@ -4862,7 +4862,7 @@ routes:
 - line: 飯26
   stop_id: 160231-03
   stop_name: 飯能駅北口
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.850881
   lng: 139.320385
   schedule:
@@ -4878,7 +4878,7 @@ routes:
 - line: 飯26
   stop_id: 160232-01
   stop_name: 車庫前（飯能市）
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.851796
   lng: 139.322795
   schedule:
@@ -4894,7 +4894,7 @@ routes:
 - line: 飯26
   stop_id: 160233-01
   stop_name: 笠縫
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.849994
   lng: 139.327847
   schedule:
@@ -4910,7 +4910,7 @@ routes:
 - line: 飯26
   stop_id: 160236-01
   stop_name: 緑町
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.850177
   lng: 139.330367
   schedule:
@@ -4926,7 +4926,7 @@ routes:
 - line: 飯26
   stop_id: 160235-01
   stop_name: 栄町（飯能市）
-  direction: 東飯能駅東口方面
+  direction: 東飯能駅東口行
   lat: 35.852375
   lng: 139.329178
   schedule:
@@ -4942,7 +4942,7 @@ routes:
 - line: 飯26
   stop_id: 160234-01
   stop_name: 東飯能駅東口
-  direction: 飯能駅北口方面
+  direction: 飯能駅北口行
   lat: 35.852567
   lng: 139.326677
   schedule:
@@ -4958,7 +4958,7 @@ routes:
 - line: 飯26
   stop_id: 160235-02
   stop_name: 栄町（飯能市）
-  direction: 飯能駅北口方面
+  direction: 飯能駅北口行
   lat: 35.852433
   lng: 139.329265
   schedule:
@@ -4974,7 +4974,7 @@ routes:
 - line: 飯26
   stop_id: 160236-02
   stop_name: 緑町
-  direction: 飯能駅北口方面
+  direction: 飯能駅北口行
   lat: 35.850135
   lng: 139.330475
   schedule:
@@ -4990,7 +4990,7 @@ routes:
 - line: 飯26
   stop_id: 160233-02
   stop_name: 笠縫
-  direction: 飯能駅北口方面
+  direction: 飯能駅北口行
   lat: 35.849936
   lng: 139.327804
   schedule:
@@ -5006,7 +5006,7 @@ routes:
 - line: 飯26
   stop_id: 160232-02
   stop_name: 車庫前（飯能市）
-  direction: 飯能駅北口方面
+  direction: 飯能駅北口行
   lat: 35.851789
   lng: 139.322648
   schedule:
@@ -5022,7 +5022,7 @@ routes:
 - line: 飯20
   stop_id: 160176-02
   stop_name: 飯能駅南口
-  direction: 美杉台ニュータウン方面
+  direction: 美杉台ニュータウン行
   lat: 35.850487
   lng: 139.318521
   schedule:
@@ -5434,7 +5434,7 @@ routes:
 - line: 飯20
   stop_id: 160177-02
   stop_name: 飯能駅入口
-  direction: 美杉台ニュータウン方面
+  direction: 美杉台ニュータウン行
   lat: 35.849223
   lng: 139.317298
   schedule:
@@ -5846,7 +5846,7 @@ routes:
 - line: 飯20
   stop_id: 160178-02
   stop_name: 毘沙門天前
-  direction: 美杉台ニュータウン方面
+  direction: 美杉台ニュータウン行
   lat: 35.845982
   lng: 139.314378
   schedule:
@@ -6258,7 +6258,7 @@ routes:
 - line: 飯20
   stop_id: 160179-02
   stop_name: ひかり橋
-  direction: 美杉台ニュータウン方面
+  direction: 美杉台ニュータウン行
   lat: 35.842244
   lng: 139.311098
   schedule:
@@ -6670,7 +6670,7 @@ routes:
 - line: 飯20
   stop_id: 160180-02
   stop_name: 美杉台小学校
-  direction: 美杉台ニュータウン方面
+  direction: 美杉台ニュータウン行
   lat: 35.844058
   lng: 139.309937
   schedule:
@@ -7082,7 +7082,7 @@ routes:
 - line: 飯20
   stop_id: 160181-02
   stop_name: 美杉台公園
-  direction: 美杉台ニュータウン方面
+  direction: 美杉台ニュータウン行
   lat: 35.847563
   lng: 139.309116
   schedule:
@@ -7494,7 +7494,7 @@ routes:
 - line: 飯20
   stop_id: 160183-02
   stop_name: 美杉台中学校
-  direction: 美杉台ニュータウン方面
+  direction: 美杉台ニュータウン行
   lat: 35.846992
   lng: 139.304877
   schedule:
@@ -7906,7 +7906,7 @@ routes:
 - line: 飯20
   stop_id: 160184-01
   stop_name: 美杉台ニュータウン
-  direction: 飯能駅南口方面
+  direction: 飯能駅南口行
   lat: 35.846125
   lng: 139.302723
   schedule:
@@ -8582,7 +8582,7 @@ routes:
 - line: 飯20
   stop_id: 160183-01
   stop_name: 美杉台中学校
-  direction: 飯能駅南口方面
+  direction: 飯能駅南口行
   lat: 35.847042
   lng: 139.304842
   schedule:
@@ -9258,7 +9258,7 @@ routes:
 - line: 飯20
   stop_id: 160181-01
   stop_name: 美杉台公園
-  direction: 飯能駅南口方面
+  direction: 飯能駅南口行
   lat: 35.847639
   lng: 139.309129
   schedule:
@@ -9934,7 +9934,7 @@ routes:
 - line: 飯20
   stop_id: 160180-01
   stop_name: 美杉台小学校
-  direction: 飯能駅南口方面
+  direction: 飯能駅南口行
   lat: 35.84406
   lng: 139.310026
   schedule:
@@ -10610,7 +10610,7 @@ routes:
 - line: 飯20
   stop_id: 160179-01
   stop_name: ひかり橋
-  direction: 飯能駅南口方面
+  direction: 飯能駅南口行
   lat: 35.842393
   lng: 139.311075
   schedule:
@@ -11286,7 +11286,7 @@ routes:
 - line: 飯20
   stop_id: 160178-01
   stop_name: 毘沙門天前
-  direction: 飯能駅南口方面
+  direction: 飯能駅南口行
   lat: 35.846127
   lng: 139.314311
   schedule:
@@ -11962,7 +11962,7 @@ routes:
 - line: 飯20
   stop_id: 160177-01
   stop_name: 飯能駅入口
-  direction: 飯能駅南口方面
+  direction: 飯能駅南口行
   lat: 35.849491
   lng: 139.317543
   schedule:
@@ -12638,7 +12638,7 @@ routes:
 - line: 飯21
   stop_id: 160176-02
   stop_name: 飯能駅南口
-  direction: ユーエイキャスター前【大河原工業団地東】方面
+  direction: ユーエイキャスター前【大河原工業団地東】行
   lat: 35.850487
   lng: 139.318521
   schedule:
@@ -12870,7 +12870,7 @@ routes:
 - line: 飯21
   stop_id: 160177-02
   stop_name: 飯能駅入口
-  direction: ユーエイキャスター前【大河原工業団地東】方面
+  direction: ユーエイキャスター前【大河原工業団地東】行
   lat: 35.849223
   lng: 139.317298
   schedule:
@@ -13102,7 +13102,7 @@ routes:
 - line: 飯21
   stop_id: 160178-02
   stop_name: 毘沙門天前
-  direction: ユーエイキャスター前【大河原工業団地東】方面
+  direction: ユーエイキャスター前【大河原工業団地東】行
   lat: 35.845982
   lng: 139.314378
   schedule:
@@ -13334,7 +13334,7 @@ routes:
 - line: 飯21
   stop_id: 160179-02
   stop_name: ひかり橋
-  direction: ユーエイキャスター前【大河原工業団地東】方面
+  direction: ユーエイキャスター前【大河原工業団地東】行
   lat: 35.842244
   lng: 139.311098
   schedule:
@@ -13566,7 +13566,7 @@ routes:
 - line: 飯21
   stop_id: 160180-02
   stop_name: 美杉台小学校
-  direction: ユーエイキャスター前【大河原工業団地東】方面
+  direction: ユーエイキャスター前【大河原工業団地東】行
   lat: 35.844058
   lng: 139.309937
   schedule:
@@ -13798,7 +13798,7 @@ routes:
 - line: 飯21
   stop_id: 160181-02
   stop_name: 美杉台公園
-  direction: ユーエイキャスター前【大河原工業団地東】方面
+  direction: ユーエイキャスター前【大河原工業団地東】行
   lat: 35.847563
   lng: 139.309116
   schedule:
@@ -14030,7 +14030,7 @@ routes:
 - line: 飯21
   stop_id: 160183-02
   stop_name: 美杉台中学校
-  direction: ユーエイキャスター前【大河原工業団地東】方面
+  direction: ユーエイキャスター前【大河原工業団地東】行
   lat: 35.846992
   lng: 139.304877
   schedule:
@@ -14262,7 +14262,7 @@ routes:
 - line: 飯21
   stop_id: 160184-02-15
   stop_name: 美杉台ニュータウン
-  direction: ユーエイキャスター前【大河原工業団地東】方面
+  direction: ユーエイキャスター前【大河原工業団地東】行
   lat: 35.846138
   lng: 139.302937
   schedule:
@@ -14494,7 +14494,7 @@ routes:
 - line: 飯21
   stop_id: 160281-02
   stop_name: 美杉台ニュータウン南
-  direction: ユーエイキャスター前【大河原工業団地東】方面
+  direction: ユーエイキャスター前【大河原工業団地東】行
   lat: 35.84546
   lng: 139.298578
   schedule:
@@ -14726,7 +14726,7 @@ routes:
 - line: 飯21
   stop_id: 160282-02
   stop_name: 大河原工業団地入口
-  direction: ユーエイキャスター前【大河原工業団地東】方面
+  direction: ユーエイキャスター前【大河原工業団地東】行
   lat: 35.845553
   lng: 139.294983
   schedule:
@@ -14958,7 +14958,7 @@ routes:
 - line: 飯21
   stop_id: 160283-02
   stop_name: 茜台
-  direction: ユーエイキャスター前【大河原工業団地東】方面
+  direction: ユーエイキャスター前【大河原工業団地東】行
   lat: 35.847296
   lng: 139.293351
   schedule:
@@ -15190,7 +15190,7 @@ routes:
 - line: 飯21
   stop_id: 160284-01
   stop_name: ユーエイキャスター前【大河原工業団地東】
-  direction: 飯能駅南口方面
+  direction: 飯能駅南口行
   lat: 35.848234
   lng: 139.292988
   schedule:
@@ -15446,7 +15446,7 @@ routes:
 - line: 飯21
   stop_id: 160283-01
   stop_name: 茜台
-  direction: 飯能駅南口方面
+  direction: 飯能駅南口行
   lat: 35.847245
   lng: 139.293477
   schedule:
@@ -15702,7 +15702,7 @@ routes:
 - line: 飯21
   stop_id: 160282-01
   stop_name: 大河原工業団地入口
-  direction: 飯能駅南口方面
+  direction: 飯能駅南口行
   lat: 35.845592
   lng: 139.295165
   schedule:
@@ -15958,7 +15958,7 @@ routes:
 - line: 飯21
   stop_id: 160281-01
   stop_name: 美杉台ニュータウン南
-  direction: 飯能駅南口方面
+  direction: 飯能駅南口行
   lat: 35.845522
   lng: 139.298842
   schedule:
@@ -16214,7 +16214,7 @@ routes:
 - line: 飯22
   stop_id: 160176-02
   stop_name: 飯能駅南口
-  direction: クラウンパッケージ前方面
+  direction: クラウンパッケージ前行
   lat: 35.850487
   lng: 139.318521
   schedule:
@@ -16254,7 +16254,7 @@ routes:
 - line: 飯22
   stop_id: 160177-02
   stop_name: 飯能駅入口
-  direction: クラウンパッケージ前方面
+  direction: クラウンパッケージ前行
   lat: 35.849223
   lng: 139.317298
   schedule:
@@ -16294,7 +16294,7 @@ routes:
 - line: 飯22
   stop_id: 160178-02
   stop_name: 毘沙門天前
-  direction: クラウンパッケージ前方面
+  direction: クラウンパッケージ前行
   lat: 35.845982
   lng: 139.314378
   schedule:
@@ -16334,7 +16334,7 @@ routes:
 - line: 飯22
   stop_id: 160179-02
   stop_name: ひかり橋
-  direction: クラウンパッケージ前方面
+  direction: クラウンパッケージ前行
   lat: 35.842244
   lng: 139.311098
   schedule:
@@ -16374,7 +16374,7 @@ routes:
 - line: 飯22
   stop_id: 160180-02
   stop_name: 美杉台小学校
-  direction: クラウンパッケージ前方面
+  direction: クラウンパッケージ前行
   lat: 35.844058
   lng: 139.309937
   schedule:
@@ -16414,7 +16414,7 @@ routes:
 - line: 飯22
   stop_id: 160181-02
   stop_name: 美杉台公園
-  direction: クラウンパッケージ前方面
+  direction: クラウンパッケージ前行
   lat: 35.847563
   lng: 139.309116
   schedule:
@@ -16454,7 +16454,7 @@ routes:
 - line: 飯22
   stop_id: 160183-02
   stop_name: 美杉台中学校
-  direction: クラウンパッケージ前方面
+  direction: クラウンパッケージ前行
   lat: 35.846992
   lng: 139.304877
   schedule:
@@ -16494,7 +16494,7 @@ routes:
 - line: 飯22
   stop_id: 160184-02-15
   stop_name: 美杉台ニュータウン
-  direction: クラウンパッケージ前方面
+  direction: クラウンパッケージ前行
   lat: 35.846138
   lng: 139.302937
   schedule:
@@ -16534,7 +16534,7 @@ routes:
 - line: 飯22
   stop_id: 160281-02
   stop_name: 美杉台ニュータウン南
-  direction: クラウンパッケージ前方面
+  direction: クラウンパッケージ前行
   lat: 35.84546
   lng: 139.298578
   schedule:
@@ -16574,7 +16574,7 @@ routes:
 - line: 飯22
   stop_id: 160282-02
   stop_name: 大河原工業団地入口
-  direction: クラウンパッケージ前方面
+  direction: クラウンパッケージ前行
   lat: 35.845553
   lng: 139.294983
   schedule:
@@ -16614,7 +16614,7 @@ routes:
 - line: 飯22
   stop_id: 160283-02
   stop_name: 茜台
-  direction: クラウンパッケージ前方面
+  direction: クラウンパッケージ前行
   lat: 35.847296
   lng: 139.293351
   schedule:
@@ -16654,7 +16654,7 @@ routes:
 - line: 飯22
   stop_id: 160284-02-15
   stop_name: ユーエイキャスター前【大河原工業団地東】
-  direction: クラウンパッケージ前方面
+  direction: クラウンパッケージ前行
   lat: 35.848912
   lng: 139.292468
   schedule:
@@ -16694,7 +16694,7 @@ routes:
 - line: 飯22
   stop_id: 165022-02
   stop_name: 協和電機化学前
-  direction: クラウンパッケージ前方面
+  direction: クラウンパッケージ前行
   lat: 35.850471
   lng: 139.290775
   schedule:
@@ -16734,7 +16734,7 @@ routes:
 - line: 飯22
   stop_id: 165023-02
   stop_name: グラウンド前
-  direction: クラウンパッケージ前方面
+  direction: クラウンパッケージ前行
   lat: 35.851062
   lng: 139.287446
   schedule:
@@ -16774,7 +16774,7 @@ routes:
 - line: 飯22
   stop_id: 165024-01
   stop_name: クラウンパッケージ前
-  direction: 飯能駅南口方面
+  direction: 飯能駅南口行
   lat: 35.853127
   lng: 139.285319
   schedule:
@@ -16802,7 +16802,7 @@ routes:
 - line: 飯22
   stop_id: 165023-01
   stop_name: グラウンド前
-  direction: 飯能駅南口方面
+  direction: 飯能駅南口行
   lat: 35.851641
   lng: 139.286635
   schedule:
@@ -16830,7 +16830,7 @@ routes:
 - line: 飯22
   stop_id: 165022-01
   stop_name: 協和電機化学前
-  direction: 飯能駅南口方面
+  direction: 飯能駅南口行
   lat: 35.850697
   lng: 139.290561
   schedule:
