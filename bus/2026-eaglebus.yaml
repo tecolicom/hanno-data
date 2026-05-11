@@ -7,7 +7,7 @@ routes:
 - line: 飯能駅・宮沢路線
   stop_id: eagle_3032
   stop_name: 飯能駅 北口
-  direction: メッツア・宮沢 飯能靖和病院経由
+  direction: メッツァ・宮沢 飯能靖和病院経由
   lat: 35.8510156
   lng: 139.3201885
   source_url: https://eaglebus.group/wp-content/uploads/2026/03/3032_2026.04.01hnnou.pdf
@@ -328,7 +328,7 @@ routes:
 - line: 飯能駅・宮沢路線
   stop_id: eagle_3031
   stop_name: 中央通り
-  direction: メッツア・宮沢 飯能靖和病院経由
+  direction: メッツァ・宮沢 飯能靖和病院経由
   lat: 35.8538483
   lng: 139.3212184
   source_url: https://eaglebus.group/wp-content/uploads/2025/03/3031.pdf
@@ -536,7 +536,7 @@ routes:
 - line: 飯能駅・宮沢路線
   stop_id: eagle_3030
   stop_name: 八幡町
-  direction: メッツア・宮沢 飯能靖和病院経由
+  direction: メッツァ・宮沢 飯能靖和病院経由
   lat: 35.8560484
   lng: 139.3218166
   source_url: https://eaglebus.group/wp-content/uploads/2025/03/3030.pdf
@@ -744,7 +744,7 @@ routes:
 - line: 飯能駅・宮沢路線
   stop_id: eagle_3029
   stop_name: 聖望学園入口
-  direction: メッツア・宮沢 飯能靖和病院経由
+  direction: メッツァ・宮沢 飯能靖和病院経由
   lat: 35.85942
   lng: 139.3226641
   source_url: https://eaglebus.group/wp-content/uploads/2025/03/3029.pdf
@@ -952,7 +952,7 @@ routes:
 - line: 飯能駅・宮沢路線
   stop_id: eagle_3028
   stop_name: 中山
-  direction: メッツア・宮沢 飯能靖和病院経由
+  direction: メッツァ・宮沢 飯能靖和病院経由
   lat: 35.8623807
   lng: 139.3233401
   source_url: https://eaglebus.group/wp-content/uploads/2025/03/3028.pdf
@@ -1160,7 +1160,7 @@ routes:
 - line: 飯能駅・宮沢路線
   stop_id: eagle_3027
   stop_name: 中居
-  direction: メッツア・宮沢 飯能靖和病院経由
+  direction: メッツァ・宮沢 飯能靖和病院経由
   lat: 35.8628307
   lng: 139.327476
   source_url: https://eaglebus.group/wp-content/uploads/2025/03/3027.pdf
@@ -1368,7 +1368,7 @@ routes:
 - line: 飯能駅・宮沢路線
   stop_id: eagle_3026
   stop_name: 青木
-  direction: メッツア・宮沢 飯能靖和病院経由
+  direction: メッツァ・宮沢 飯能靖和病院経由
   lat: 35.8628285
   lng: 139.3315718
   source_url: https://eaglebus.group/wp-content/uploads/2025/03/3026.pdf
@@ -1576,7 +1576,7 @@ routes:
 - line: 飯能駅・宮沢路線
   stop_id: eagle_3025
   stop_name: 白子神社
-  direction: メッツア・宮沢 飯能靖和病院経由
+  direction: メッツァ・宮沢 飯能靖和病院経由
   lat: 35.8639892
   lng: 139.3335512
   source_url: https://eaglebus.group/wp-content/uploads/2025/03/3025.pdf
@@ -1784,7 +1784,7 @@ routes:
 - line: 飯能駅・宮沢路線
   stop_id: eagle_3024
   stop_name: 飯能靖和病院
-  direction: メッツア・宮沢
+  direction: メッツァ・宮沢
   lat: 35.8647891
   lng: 139.3352196
   source_url: https://eaglebus.group/wp-content/uploads/2025/03/3024.pdf
@@ -2217,7 +2217,7 @@ routes:
 - line: 飯能駅・宮沢路線
   stop_id: eagle_3020
   stop_name: 上宮沢
-  direction: 飯能駅北口 メッツア・飯能靖和病院経由
+  direction: 飯能駅北口 メッツァ・飯能靖和病院経由
   lat: 35.873003
   lng: 139.3345329
   source_url: https://eaglebus.group/wp-content/uploads/2025/03/3020.pdf
@@ -2275,7 +2275,7 @@ routes:
 - line: 飯能駅・宮沢路線
   stop_id: eagle_3019
   stop_name: 宮沢
-  direction: 飯能駅北口 メッツア・飯能靖和病院経由
+  direction: 飯能駅北口 メッツァ・飯能靖和病院経由
   lat: 35.8768998
   lng: 139.3351391
   source_url: https://eaglebus.group/wp-content/uploads/2025/03/3019.pdf
