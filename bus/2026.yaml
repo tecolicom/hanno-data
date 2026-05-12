@@ -30245,7 +30245,7 @@ routes:
   route_id: 00029155
   lat: 35.850857
   lng: 139.320393
-  direction: 中沢方面
+  direction: 中沢・中藤方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124293/00029155/0/
   schedule:
     weekday:
@@ -30308,7 +30308,7 @@ routes:
   route_id: 00029155
   lat: 35.851782
   lng: 139.322746
-  direction: 中沢方面
+  direction: 中沢・中藤方面
   source_url: https://www.navitime.co.jp/diagram/bus/00022782/00029155/0/
   schedule:
     weekday:
@@ -30371,7 +30371,7 @@ routes:
   route_id: 00029155
   lat: 35.851291
   lng: 139.324754
-  direction: 中沢方面
+  direction: 中沢・中藤方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124295/00029155/0/
   schedule:
     weekday:
@@ -30398,7 +30398,7 @@ routes:
   route_id: 00029155
   lat: 35.852368
   lng: 139.325622
-  direction: 中沢方面
+  direction: 中沢・中藤方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124443/00029155/0/
   schedule:
     weekday:
@@ -30461,7 +30461,7 @@ routes:
   route_id: 00029155
   lat: 35.852623
   lng: 139.323995
-  direction: 中沢方面
+  direction: 中沢・中藤方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124296/00029155/0/
   schedule:
     weekday:
@@ -30524,7 +30524,7 @@ routes:
   route_id: 00029155
   lat: 35.853862
   lng: 139.32125
-  direction: 中沢方面
+  direction: 中沢・中藤方面
   source_url: https://www.navitime.co.jp/diagram/bus/00023454/00029155/0/
   schedule:
     weekday:
@@ -30587,7 +30587,7 @@ routes:
   route_id: 00029155
   lat: 35.853963
   lng: 139.3181
-  direction: 中沢方面
+  direction: 中沢・中藤方面
   source_url: https://www.navitime.co.jp/diagram/bus/00023512/00029155/0/
   schedule:
     weekday:
@@ -30650,7 +30650,7 @@ routes:
   route_id: 00029155
   lat: 35.854423
   lng: 139.315786
-  direction: 中沢方面
+  direction: 中沢・中藤方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124299/00029155/0/
   schedule:
     weekday:
@@ -30713,7 +30713,7 @@ routes:
   route_id: 00029155
   lat: 35.855152
   lng: 139.314077
-  direction: 中沢方面
+  direction: 中沢・中藤方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124300/00029155/0/
   schedule:
     weekday:
@@ -30776,7 +30776,7 @@ routes:
   route_id: 00029155
   lat: 35.856884
   lng: 139.310057
-  direction: 中沢方面
+  direction: 中沢・中藤方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124301/00029155/0/
   schedule:
     weekday:
@@ -30839,7 +30839,7 @@ routes:
   route_id: 00029155
   lat: 35.856554
   lng: 139.307518
-  direction: 中沢方面
+  direction: 中沢・中藤方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124302/00029155/0/
   schedule:
     weekday:
@@ -30902,7 +30902,7 @@ routes:
   route_id: 00029155
   lat: 35.85698
   lng: 139.303364
-  direction: 中沢方面
+  direction: 中沢・中藤方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124303/00029155/0/
   schedule:
     weekday:
@@ -30965,7 +30965,7 @@ routes:
   route_id: 00029155
   lat: 35.858474
   lng: 139.30046
-  direction: 中沢方面
+  direction: 中沢・中藤方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124304/00029155/0/
   schedule:
     weekday:
@@ -31028,7 +31028,7 @@ routes:
   route_id: 00029155
   lat: 35.860981
   lng: 139.294529
-  direction: 中沢方面
+  direction: 中沢・中藤方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124305/00029155/0/
   schedule:
     weekday:
@@ -31091,7 +31091,7 @@ routes:
   route_id: 00029155
   lat: 35.862825
   lng: 139.289927
-  direction: 中沢方面
+  direction: 中沢・中藤方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124306/00029155/0/
   schedule:
     weekday:
@@ -31154,7 +31154,7 @@ routes:
   route_id: 00029155
   lat: 35.864932
   lng: 139.28675
-  direction: 中沢方面
+  direction: 中沢・中藤方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124307/00029155/0/
   schedule:
     weekday:
@@ -31217,7 +31217,7 @@ routes:
   route_id: 00029155
   lat: 35.869435
   lng: 139.279676
-  direction: 中沢方面
+  direction: 中沢・中藤方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124308/00029155/0/
   schedule:
     weekday:
@@ -31280,7 +31280,7 @@ routes:
   route_id: 00029155
   lat: 35.868249
   lng: 139.277294
-  direction: 中沢方面
+  direction: 中沢・中藤方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124309/00029155/0/
   schedule:
     weekday:
@@ -31343,7 +31343,7 @@ routes:
   route_id: 00029155
   lat: 35.866147
   lng: 139.273665
-  direction: 中沢方面
+  direction: 中沢・中藤方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124310/00029155/0/
   schedule:
     weekday:
@@ -31406,7 +31406,7 @@ routes:
   route_id: 00029155
   lat: 35.866538
   lng: 139.27
-  direction: 中沢方面
+  direction: 中沢・中藤方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124311/00029155/0/
   schedule:
     weekday:
@@ -31469,7 +31469,7 @@ routes:
   route_id: 00029155
   lat: 35.867952
   lng: 139.266966
-  direction: 中沢方面
+  direction: 中沢・中藤方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124318/00029155/0/
   schedule:
     weekday:
@@ -31532,7 +31532,7 @@ routes:
   route_id: 00029155
   lat: 35.869733
   lng: 139.261738
-  direction: 中沢方面
+  direction: 中沢・中藤方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124312/00029155/0/
   schedule:
     weekday:
@@ -31595,7 +31595,7 @@ routes:
   route_id: 00029155
   lat: 35.872125
   lng: 139.257994
-  direction: 中沢方面
+  direction: 中沢・中藤方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124360/00029155/0/
   schedule:
     weekday:
@@ -31658,7 +31658,7 @@ routes:
   route_id: 00029155
   lat: 35.874109
   lng: 139.255341
-  direction: 中沢方面
+  direction: 中沢・中藤方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124361/00029155/0/
   schedule:
     weekday:
@@ -31721,7 +31721,7 @@ routes:
   route_id: 00029155
   lat: 35.876739
   lng: 139.24938
-  direction: 中沢方面
+  direction: 中沢・中藤方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124362/00029155/0/
   schedule:
     weekday:
@@ -31784,7 +31784,7 @@ routes:
   route_id: 00029155
   lat: 35.879282
   lng: 139.246681
-  direction: 中沢方面
+  direction: 中沢・中藤方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124363/00029155/0/
   schedule:
     weekday:
@@ -31847,7 +31847,7 @@ routes:
   route_id: 00029155
   lat: 35.880662
   lng: 139.242363
-  direction: 中沢方面
+  direction: 中沢・中藤方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124364/00029155/0/
   schedule:
     weekday:
@@ -31910,7 +31910,7 @@ routes:
   route_id: 00029155
   lat: 35.879763
   lng: 139.239483
-  direction: 中沢方面
+  direction: 中沢・中藤方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124365/00029155/0/
   schedule:
     weekday:
@@ -31973,7 +31973,7 @@ routes:
   route_id: 00029155
   lat: 35.883074
   lng: 139.236259
-  direction: 中沢方面
+  direction: 中沢・中藤方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124366/00029155/0/
   schedule:
     weekday:
@@ -32036,7 +32036,7 @@ routes:
   route_id: 00029155
   lat: 35.883074
   lng: 139.233948
-  direction: 中沢方面
+  direction: 中沢・中藤方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124367/00029155/0/
   schedule:
     weekday:
@@ -32099,7 +32099,7 @@ routes:
   route_id: 00029155
   lat: 35.879683
   lng: 139.231176
-  direction: 中沢方面
+  direction: 中沢・中藤方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124368/00029155/0/
   schedule:
     weekday:
@@ -32162,7 +32162,7 @@ routes:
   route_id: 00029155
   lat: 35.878294
   lng: 139.230541
-  direction: 中沢方面
+  direction: 中沢・中藤方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124688/00029155/0/
   schedule:
     weekday:
@@ -32225,7 +32225,7 @@ routes:
   route_id: 00029155
   lat: 35.877031
   lng: 139.227807
-  direction: 中沢方面
+  direction: 中沢・中藤方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124369/00029155/0/
   schedule:
     weekday:
@@ -32288,7 +32288,7 @@ routes:
   route_id: 00029155
   lat: 35.8798
   lng: 139.226262
-  direction: 中沢方面
+  direction: 中沢・中藤方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124370/00029155/0/
   schedule:
     weekday:
@@ -32351,7 +32351,7 @@ routes:
   route_id: 00029155
   lat: 35.880988
   lng: 139.224093
-  direction: 中沢方面
+  direction: 中沢・中藤方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124371/00029155/0/
   schedule:
     weekday:
@@ -32411,7 +32411,7 @@ routes:
   route_id: 00029155
   lat: 35.879692
   lng: 139.214922
-  direction: 中沢方面
+  direction: 中沢・中藤方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124372/00029155/0/
   schedule:
     weekday:
@@ -32471,7 +32471,7 @@ routes:
   route_id: 00029155
   lat: 35.885011
   lng: 139.20919
-  direction: 中沢方面
+  direction: 中沢・中藤方面
   source_url: https://www.navitime.co.jp/diagram/bus/00124373/00029155/0/
   schedule:
     weekday:

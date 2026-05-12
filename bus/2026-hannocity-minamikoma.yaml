@@ -14,7 +14,7 @@ routes:
 - line: 南高麗線
   stop_id: '2_2'
   stop_name: 間野黒指
-  direction: 東飯能駅（駅前広場）方面
+  direction: 飯能駅・東飯能駅方面
   lat: 35.8429701969197
   lng: 139.233358557949
   schedule:
@@ -40,7 +40,7 @@ routes:
 - line: 南高麗線
   stop_id: '3_2'
   stop_name: 間野
-  direction: 東飯能駅（駅前広場）方面
+  direction: 飯能駅・東飯能駅方面
   lat: 35.8426287784809
   lng: 139.243275813613
   schedule:
@@ -66,7 +66,7 @@ routes:
 - line: 南高麗線
   stop_id: '4_2'
   stop_name: 下間野
-  direction: 東飯能駅（駅前広場）方面
+  direction: 飯能駅・東飯能駅方面
   lat: 35.8427856409052
   lng: 139.250986684255
   schedule:
@@ -92,7 +92,7 @@ routes:
 - line: 南高麗線
   stop_id: '5_2'
   stop_name: 弁天前
-  direction: 東飯能駅（駅前広場）方面
+  direction: 飯能駅・東飯能駅方面
   lat: 35.8438297098784
   lng: 139.255704424519
   schedule:
@@ -118,7 +118,7 @@ routes:
 - line: 南高麗線
   stop_id: '6_2'
   stop_name: 南高麗
-  direction: 東飯能駅（駅前広場）方面
+  direction: 飯能駅・東飯能駅方面
   lat: 35.8458188405286
   lng: 139.259819088193
   schedule:
@@ -148,7 +148,7 @@ routes:
 - line: 南高麗線
   stop_id: '7_2'
   stop_name: 申渕
-  direction: 東飯能駅（駅前広場）方面
+  direction: 飯能駅・東飯能駅方面
   lat: 35.8441880860042
   lng: 139.265695735595
   schedule:
@@ -178,7 +178,7 @@ routes:
 - line: 南高麗線
   stop_id: '8_2'
   stop_name: 八坂橋
-  direction: 東飯能駅（駅前広場）方面
+  direction: 飯能駅・東飯能駅方面
   lat: 35.8422640215743
   lng: 139.274943943174
   schedule:
@@ -208,7 +208,7 @@ routes:
 - line: 南高麗線
   stop_id: '9_2'
   stop_name: 南高麗小学校
-  direction: 東飯能駅（駅前広場）方面
+  direction: 飯能駅・東飯能駅方面
   lat: 35.840750557247
   lng: 139.278426253707
   schedule:
@@ -238,7 +238,7 @@ routes:
 - line: 南高麗線
   stop_id: '10_2'
   stop_name: 成木一丁目四ツ角
-  direction: 東飯能駅（駅前広場）方面
+  direction: 飯能駅・東飯能駅方面
   lat: 35.8385856313327
   lng: 139.281014824479
   schedule:
@@ -268,7 +268,7 @@ routes:
 - line: 南高麗線
   stop_id: '11_2'
   stop_name: 畑の蔵
-  direction: 東飯能駅（駅前広場）方面
+  direction: 飯能駅・東飯能駅方面
   lat: 35.8377652400046
   lng: 139.282530445627
   schedule:
@@ -298,7 +298,7 @@ routes:
 - line: 南高麗線
   stop_id: '13_2'
   stop_name: 上畑
-  direction: 東飯能駅（駅前広場）方面
+  direction: 飯能駅・東飯能駅方面
   lat: 35.8378277044465
   lng: 139.285424144412
   schedule:
@@ -336,7 +336,7 @@ routes:
 - line: 南高麗線
   stop_id: '14_2'
   stop_name: 下畑
-  direction: 東飯能駅（駅前広場）方面
+  direction: 飯能駅・東飯能駅方面
   lat: 35.8384255161257
   lng: 139.291227457083
   schedule:
@@ -374,7 +374,7 @@ routes:
 - line: 南高麗線
   stop_id: '15_2'
   stop_name: 飯能リハビリ館
-  direction: 東飯能駅（駅前広場）方面
+  direction: 飯能駅・東飯能駅方面
   lat: 35.8365068914303
   lng: 139.294895854957
   schedule:
@@ -412,7 +412,7 @@ routes:
 - line: 南高麗線
   stop_id: '16_2'
   stop_name: 東下畑
-  direction: 東飯能駅（駅前広場）方面
+  direction: 飯能駅・東飯能駅方面
   lat: 35.8371844176543
   lng: 139.299153310984
   schedule:
@@ -450,7 +450,7 @@ routes:
 - line: 南高麗線
   stop_id: '17_2'
   stop_name: 住宅前
-  direction: 東飯能駅（駅前広場）方面
+  direction: 飯能駅・東飯能駅方面
   lat: 35.8383000588406
   lng: 139.303712166549
   schedule:
@@ -488,7 +488,7 @@ routes:
 - line: 南高麗線
   stop_id: '18_2'
   stop_name: 尾根下
-  direction: 東飯能駅（駅前広場）方面
+  direction: 飯能駅・東飯能駅方面
   lat: 35.8378188865322
   lng: 139.306535666566
   schedule:
@@ -526,7 +526,7 @@ routes:
 - line: 南高麗線
   stop_id: '19_2'
   stop_name: みどり橋
-  direction: 東飯能駅（駅前広場）方面
+  direction: 飯能駅・東飯能駅方面
   lat: 35.8380284940319
   lng: 139.308407481638
   schedule:
@@ -564,7 +564,7 @@ routes:
 - line: 南高麗線
   stop_id: '20_2'
   stop_name: アルプス美杉台店
-  direction: 東飯能駅（駅前広場）方面
+  direction: 飯能駅・東飯能駅方面
   lat: 35.8413602110723
   lng: 139.310319646999
   schedule:
@@ -602,7 +602,7 @@ routes:
 - line: 南高麗線
   stop_id: '21_0'
   stop_name: 飯能駅
-  direction: 東飯能駅（駅前広場）方面
+  direction: 飯能駅・東飯能駅方面
   lat: 35.850845851143
   lng: 139.320364524598
   schedule:
@@ -640,7 +640,7 @@ routes:
 - line: 南高麗線
   stop_id: '22_0'
   stop_name: 東飯能駅（駅前広場）
-  direction: 間野黒指方面
+  direction: 南高麗・間野黒指方面
   lat: 35.8524007396499
   lng: 139.325478591685
   schedule:
@@ -648,9 +648,21 @@ routes:
     - time: 08:15
       route: 小学校便
       dest: 間野黒指
+    - time: 09:27
+      route: 苅生便
+      dest: 苅生自治会館
+      note: 月・水・金のみ
     - time: '10:54'
       route: 南高麗地区行政センター便
       dest: 間野黒指
+      note: 月・水・金のみ
+    - time: '12:02'
+      route: 南高麗地区行政センター便
+      dest: 南高麗
+      note: 月・水・金のみ
+    - time: '13:00'
+      route: 苅生便
+      dest: 苅生自治会館
       note: 月・水・金のみ
     - time: '14:18'
       route: 小学校便
@@ -663,7 +675,7 @@ routes:
 - line: 南高麗線
   stop_id: '21_0'
   stop_name: 飯能駅
-  direction: 間野黒指方面
+  direction: 南高麗・間野黒指方面
   lat: 35.850845851143
   lng: 139.320364524598
   schedule:
@@ -671,9 +683,21 @@ routes:
     - time: 08:18
       route: 小学校便
       dest: 間野黒指
+    - time: 09:30
+      route: 苅生便
+      dest: 苅生自治会館
+      note: 月・水・金のみ
     - time: '10:57'
       route: 南高麗地区行政センター便
       dest: 間野黒指
+      note: 月・水・金のみ
+    - time: '12:05'
+      route: 南高麗地区行政センター便
+      dest: 南高麗
+      note: 月・水・金のみ
+    - time: '13:03'
+      route: 苅生便
+      dest: 苅生自治会館
       note: 月・水・金のみ
     - time: '14:21'
       route: 小学校便
@@ -686,7 +710,7 @@ routes:
 - line: 南高麗線
   stop_id: '20_1'
   stop_name: アルプス美杉台店
-  direction: 間野黒指方面
+  direction: 南高麗・間野黒指方面
   lat: 35.8415583061394
   lng: 139.310607904508
   schedule:
@@ -694,9 +718,21 @@ routes:
     - time: 08:23
       route: 小学校便
       dest: 間野黒指
+    - time: 09:35
+      route: 苅生便
+      dest: 苅生自治会館
+      note: 月・水・金のみ
     - time: '11:02'
       route: 南高麗地区行政センター便
       dest: 間野黒指
+      note: 月・水・金のみ
+    - time: '12:10'
+      route: 南高麗地区行政センター便
+      dest: 南高麗
+      note: 月・水・金のみ
+    - time: '13:08'
+      route: 苅生便
+      dest: 苅生自治会館
       note: 月・水・金のみ
     - time: '14:26'
       route: 小学校便
@@ -709,7 +745,7 @@ routes:
 - line: 南高麗線
   stop_id: '19_1'
   stop_name: みどり橋
-  direction: 間野黒指方面
+  direction: 南高麗・間野黒指方面
   lat: 35.8380556740372
   lng: 139.308521475513
   schedule:
@@ -717,9 +753,21 @@ routes:
     - time: 08:23
       route: 小学校便
       dest: 間野黒指
+    - time: 09:35
+      route: 苅生便
+      dest: 苅生自治会館
+      note: 月・水・金のみ
     - time: '11:02'
       route: 南高麗地区行政センター便
       dest: 間野黒指
+      note: 月・水・金のみ
+    - time: '12:10'
+      route: 南高麗地区行政センター便
+      dest: 南高麗
+      note: 月・水・金のみ
+    - time: '13:08'
+      route: 苅生便
+      dest: 苅生自治会館
       note: 月・水・金のみ
     - time: '14:26'
       route: 小学校便
@@ -732,7 +780,7 @@ routes:
 - line: 南高麗線
   stop_id: '18_1'
   stop_name: 尾根下
-  direction: 間野黒指方面
+  direction: 南高麗・間野黒指方面
   lat: 35.8377868140292
   lng: 139.306469281897
   schedule:
@@ -740,9 +788,21 @@ routes:
     - time: 08:24
       route: 小学校便
       dest: 間野黒指
+    - time: 09:36
+      route: 苅生便
+      dest: 苅生自治会館
+      note: 月・水・金のみ
     - time: '11:03'
       route: 南高麗地区行政センター便
       dest: 間野黒指
+      note: 月・水・金のみ
+    - time: '12:11'
+      route: 南高麗地区行政センター便
+      dest: 南高麗
+      note: 月・水・金のみ
+    - time: '13:09'
+      route: 苅生便
+      dest: 苅生自治会館
       note: 月・水・金のみ
     - time: '14:27'
       route: 小学校便
@@ -755,7 +815,7 @@ routes:
 - line: 南高麗線
   stop_id: '17_1'
   stop_name: 住宅前
-  direction: 間野黒指方面
+  direction: 南高麗・間野黒指方面
   lat: 35.8383360068167
   lng: 139.30441227503
   schedule:
@@ -763,9 +823,21 @@ routes:
     - time: 08:25
       route: 小学校便
       dest: 間野黒指
+    - time: 09:37
+      route: 苅生便
+      dest: 苅生自治会館
+      note: 月・水・金のみ
     - time: '11:04'
       route: 南高麗地区行政センター便
       dest: 間野黒指
+      note: 月・水・金のみ
+    - time: '12:12'
+      route: 南高麗地区行政センター便
+      dest: 南高麗
+      note: 月・水・金のみ
+    - time: '13:10'
+      route: 苅生便
+      dest: 苅生自治会館
       note: 月・水・金のみ
     - time: '14:28'
       route: 小学校便
@@ -778,7 +850,7 @@ routes:
 - line: 南高麗線
   stop_id: '16_1'
   stop_name: 東下畑
-  direction: 間野黒指方面
+  direction: 南高麗・間野黒指方面
   lat: 35.8365417191891
   lng: 139.299160897416
   schedule:
@@ -786,9 +858,21 @@ routes:
     - time: 08:26
       route: 小学校便
       dest: 間野黒指
+    - time: 09:38
+      route: 苅生便
+      dest: 苅生自治会館
+      note: 月・水・金のみ
     - time: '11:05'
       route: 南高麗地区行政センター便
       dest: 間野黒指
+      note: 月・水・金のみ
+    - time: '12:13'
+      route: 南高麗地区行政センター便
+      dest: 南高麗
+      note: 月・水・金のみ
+    - time: '13:11'
+      route: 苅生便
+      dest: 苅生自治会館
       note: 月・水・金のみ
     - time: '14:29'
       route: 小学校便
@@ -801,7 +885,7 @@ routes:
 - line: 南高麗線
   stop_id: '15_1'
   stop_name: 飯能リハビリ館
-  direction: 間野黒指方面
+  direction: 南高麗・間野黒指方面
   lat: 35.8364630078763
   lng: 139.294873300359
   schedule:
@@ -809,9 +893,21 @@ routes:
     - time: 08:29
       route: 小学校便
       dest: 間野黒指
+    - time: 09:41
+      route: 苅生便
+      dest: 苅生自治会館
+      note: 月・水・金のみ
     - time: '11:08'
       route: 南高麗地区行政センター便
       dest: 間野黒指
+      note: 月・水・金のみ
+    - time: '12:16'
+      route: 南高麗地区行政センター便
+      dest: 南高麗
+      note: 月・水・金のみ
+    - time: '13:14'
+      route: 苅生便
+      dest: 苅生自治会館
       note: 月・水・金のみ
     - time: '14:32'
       route: 小学校便
@@ -824,7 +920,7 @@ routes:
 - line: 南高麗線
   stop_id: '14_1'
   stop_name: 下畑
-  direction: 間野黒指方面
+  direction: 南高麗・間野黒指方面
   lat: 35.8382325241253
   lng: 139.292140563995
   schedule:
@@ -832,9 +928,21 @@ routes:
     - time: 08:30
       route: 小学校便
       dest: 間野黒指
+    - time: 09:42
+      route: 苅生便
+      dest: 苅生自治会館
+      note: 月・水・金のみ
     - time: '11:09'
       route: 南高麗地区行政センター便
       dest: 間野黒指
+      note: 月・水・金のみ
+    - time: '12:17'
+      route: 南高麗地区行政センター便
+      dest: 南高麗
+      note: 月・水・金のみ
+    - time: '13:15'
+      route: 苅生便
+      dest: 苅生自治会館
       note: 月・水・金のみ
     - time: '14:33'
       route: 小学校便
@@ -847,7 +955,7 @@ routes:
 - line: 南高麗線
   stop_id: '13_1'
   stop_name: 上畑
-  direction: 間野黒指方面
+  direction: 南高麗・間野黒指方面
   lat: 35.8377577464621
   lng: 139.28554363072
   schedule:
@@ -855,9 +963,21 @@ routes:
     - time: 08:31
       route: 小学校便
       dest: 間野黒指
+    - time: 09:43
+      route: 苅生便
+      dest: 苅生自治会館
+      note: 月・水・金のみ
     - time: '11:10'
       route: 南高麗地区行政センター便
       dest: 間野黒指
+      note: 月・水・金のみ
+    - time: '12:18'
+      route: 南高麗地区行政センター便
+      dest: 南高麗
+      note: 月・水・金のみ
+    - time: '13:16'
+      route: 苅生便
+      dest: 苅生自治会館
       note: 月・水・金のみ
     - time: '14:34'
       route: 小学校便
@@ -870,7 +990,7 @@ routes:
 - line: 南高麗線
   stop_id: '11_1'
   stop_name: 畑の蔵
-  direction: 間野黒指方面
+  direction: 南高麗・間野黒指方面
   lat: 35.8376934845077
   lng: 139.28256464379
   schedule:
@@ -878,6 +998,14 @@ routes:
     - time: 08:32
       route: 小学校便
       dest: 間野黒指
+    - time: 09:44
+      route: 苅生便
+      dest: 苅生自治会館
+      note: 月・水・金のみ
+    - time: '13:17'
+      route: 苅生便
+      dest: 苅生自治会館
+      note: 月・水・金のみ
     - time: '14:35'
       route: 小学校便
       dest: 間野黒指
@@ -889,7 +1017,7 @@ routes:
 - line: 南高麗線
   stop_id: '10_1'
   stop_name: 成木一丁目四ツ角
-  direction: 間野黒指方面
+  direction: 南高麗・間野黒指方面
   lat: 35.8388865775776
   lng: 139.280862745412
   schedule:
@@ -897,6 +1025,14 @@ routes:
     - time: 08:33
       route: 小学校便
       dest: 間野黒指
+    - time: 09:45
+      route: 苅生便
+      dest: 苅生自治会館
+      note: 月・水・金のみ
+    - time: '13:18'
+      route: 苅生便
+      dest: 苅生自治会館
+      note: 月・水・金のみ
     - time: '14:36'
       route: 小学校便
       dest: 間野黒指
@@ -908,7 +1044,7 @@ routes:
 - line: 南高麗線
   stop_id: '9_1'
   stop_name: 南高麗小学校
-  direction: 間野黒指方面
+  direction: 南高麗・間野黒指方面
   lat: 35.8407582126419
   lng: 139.278326874379
   schedule:
@@ -916,6 +1052,14 @@ routes:
     - time: 08:34
       route: 小学校便
       dest: 間野黒指
+    - time: 09:46
+      route: 苅生便
+      dest: 苅生自治会館
+      note: 月・水・金のみ
+    - time: '13:19'
+      route: 苅生便
+      dest: 苅生自治会館
+      note: 月・水・金のみ
     - time: '14:37'
       route: 小学校便
       dest: 間野黒指
@@ -927,7 +1071,7 @@ routes:
 - line: 南高麗線
   stop_id: '8_1'
   stop_name: 八坂橋
-  direction: 間野黒指方面
+  direction: 南高麗・間野黒指方面
   lat: 35.8421913756729
   lng: 139.274834305947
   schedule:
@@ -935,6 +1079,14 @@ routes:
     - time: 08:35
       route: 小学校便
       dest: 間野黒指
+    - time: 09:47
+      route: 苅生便
+      dest: 苅生自治会館
+      note: 月・水・金のみ
+    - time: '13:20'
+      route: 苅生便
+      dest: 苅生自治会館
+      note: 月・水・金のみ
     - time: '14:38'
       route: 小学校便
       dest: 間野黒指
@@ -946,7 +1098,7 @@ routes:
 - line: 南高麗線
   stop_id: '7_1'
   stop_name: 申渕
-  direction: 間野黒指方面
+  direction: 南高麗・間野黒指方面
   lat: 35.8440665224108
   lng: 139.265690826705
   schedule:
@@ -957,6 +1109,10 @@ routes:
     - time: '11:15'
       route: 南高麗地区行政センター便
       dest: 間野黒指
+      note: 月・水・金のみ
+    - time: '12:23'
+      route: 南高麗地区行政センター便
+      dest: 南高麗
       note: 月・水・金のみ
     - time: '14:40'
       route: 小学校便
@@ -969,7 +1125,7 @@ routes:
 - line: 南高麗線
   stop_id: '6_1'
   stop_name: 南高麗
-  direction: 間野黒指方面
+  direction: 南高麗・間野黒指方面
   lat: 35.8457828540229
   lng: 139.259641740227
   schedule:
@@ -992,7 +1148,7 @@ routes:
 - line: 南高麗線
   stop_id: '5_1'
   stop_name: 弁天前
-  direction: 間野黒指方面
+  direction: 南高麗・間野黒指方面
   lat: 35.8437530073971
   lng: 139.255809185033
   schedule:
@@ -1015,7 +1171,7 @@ routes:
 - line: 南高麗線
   stop_id: '4_1'
   stop_name: 下間野
-  direction: 間野黒指方面
+  direction: 南高麗・間野黒指方面
   lat: 35.8427346552281
   lng: 139.251035905649
   schedule:
@@ -1038,7 +1194,7 @@ routes:
 - line: 南高麗線
   stop_id: '3_1'
   stop_name: 間野
-  direction: 間野黒指方面
+  direction: 南高麗・間野黒指方面
   lat: 35.8425907286645
   lng: 139.243169866364
   schedule:
@@ -1061,7 +1217,7 @@ routes:
 - line: 南高麗線
   stop_id: '12_2'
   stop_name: 南高麗地区行政センター
-  direction: 東飯能駅（駅前広場）方面
+  direction: 飯能駅・東飯能駅方面
   lat: 35.8426904549384
   lng: 139.278056234037
   schedule:
@@ -1079,7 +1235,7 @@ routes:
 - line: 南高麗線
   stop_id: '12_1'
   stop_name: 南高麗地区行政センター
-  direction: 間野黒指方面
+  direction: 南高麗・間野黒指方面
   lat: 35.8425521129534
   lng: 139.27817345066
   schedule:
@@ -1088,171 +1244,7 @@ routes:
       route: 南高麗地区行政センター便
       dest: 間野黒指
       note: 月・水・金のみ
-    saturday: []
-    holiday: []
-- line: 南高麗線
-  stop_id: '22_0'
-  stop_name: 東飯能駅（駅前広場）
-  direction: 南高麗方面
-  lat: 35.8524007396499
-  lng: 139.325478591685
-  schedule:
-    weekday:
-    - time: '12:02'
-      route: 南高麗地区行政センター便
-      dest: 南高麗
-      note: 月・水・金のみ
-    saturday: []
-    holiday: []
-- line: 南高麗線
-  stop_id: '21_0'
-  stop_name: 飯能駅
-  direction: 南高麗方面
-  lat: 35.850845851143
-  lng: 139.320364524598
-  schedule:
-    weekday:
-    - time: '12:05'
-      route: 南高麗地区行政センター便
-      dest: 南高麗
-      note: 月・水・金のみ
-    saturday: []
-    holiday: []
-- line: 南高麗線
-  stop_id: '20_1'
-  stop_name: アルプス美杉台店
-  direction: 南高麗方面
-  lat: 35.8415583061394
-  lng: 139.310607904508
-  schedule:
-    weekday:
-    - time: '12:10'
-      route: 南高麗地区行政センター便
-      dest: 南高麗
-      note: 月・水・金のみ
-    saturday: []
-    holiday: []
-- line: 南高麗線
-  stop_id: '19_1'
-  stop_name: みどり橋
-  direction: 南高麗方面
-  lat: 35.8380556740372
-  lng: 139.308521475513
-  schedule:
-    weekday:
-    - time: '12:10'
-      route: 南高麗地区行政センター便
-      dest: 南高麗
-      note: 月・水・金のみ
-    saturday: []
-    holiday: []
-- line: 南高麗線
-  stop_id: '18_1'
-  stop_name: 尾根下
-  direction: 南高麗方面
-  lat: 35.8377868140292
-  lng: 139.306469281897
-  schedule:
-    weekday:
-    - time: '12:11'
-      route: 南高麗地区行政センター便
-      dest: 南高麗
-      note: 月・水・金のみ
-    saturday: []
-    holiday: []
-- line: 南高麗線
-  stop_id: '17_1'
-  stop_name: 住宅前
-  direction: 南高麗方面
-  lat: 35.8383360068167
-  lng: 139.30441227503
-  schedule:
-    weekday:
-    - time: '12:12'
-      route: 南高麗地区行政センター便
-      dest: 南高麗
-      note: 月・水・金のみ
-    saturday: []
-    holiday: []
-- line: 南高麗線
-  stop_id: '16_1'
-  stop_name: 東下畑
-  direction: 南高麗方面
-  lat: 35.8365417191891
-  lng: 139.299160897416
-  schedule:
-    weekday:
-    - time: '12:13'
-      route: 南高麗地区行政センター便
-      dest: 南高麗
-      note: 月・水・金のみ
-    saturday: []
-    holiday: []
-- line: 南高麗線
-  stop_id: '15_1'
-  stop_name: 飯能リハビリ館
-  direction: 南高麗方面
-  lat: 35.8364630078763
-  lng: 139.294873300359
-  schedule:
-    weekday:
-    - time: '12:16'
-      route: 南高麗地区行政センター便
-      dest: 南高麗
-      note: 月・水・金のみ
-    saturday: []
-    holiday: []
-- line: 南高麗線
-  stop_id: '14_1'
-  stop_name: 下畑
-  direction: 南高麗方面
-  lat: 35.8382325241253
-  lng: 139.292140563995
-  schedule:
-    weekday:
-    - time: '12:17'
-      route: 南高麗地区行政センター便
-      dest: 南高麗
-      note: 月・水・金のみ
-    saturday: []
-    holiday: []
-- line: 南高麗線
-  stop_id: '13_1'
-  stop_name: 上畑
-  direction: 南高麗方面
-  lat: 35.8377577464621
-  lng: 139.28554363072
-  schedule:
-    weekday:
-    - time: '12:18'
-      route: 南高麗地区行政センター便
-      dest: 南高麗
-      note: 月・水・金のみ
-    saturday: []
-    holiday: []
-- line: 南高麗線
-  stop_id: '12_1'
-  stop_name: 南高麗地区行政センター
-  direction: 南高麗方面
-  lat: 35.8425521129534
-  lng: 139.27817345066
-  schedule:
-    weekday:
     - time: '12:20'
-      route: 南高麗地区行政センター便
-      dest: 南高麗
-      note: 月・水・金のみ
-    saturday: []
-    holiday: []
-- line: 南高麗線
-  stop_id: '7_1'
-  stop_name: 申渕
-  direction: 南高麗方面
-  lat: 35.8440665224108
-  lng: 139.265690826705
-  schedule:
-    weekday:
-    - time: '12:23'
       route: 南高麗地区行政センター便
       dest: 南高麗
       note: 月・水・金のみ
@@ -1261,7 +1253,7 @@ routes:
 - line: 南高麗線
   stop_id: '1_0'
   stop_name: 苅生自治会館
-  direction: 東飯能駅（駅前広場）方面
+  direction: 飯能駅・東飯能駅方面
   lat: 35.8489312441534
   lng: 139.276222044326
   schedule:
@@ -1279,7 +1271,7 @@ routes:
 - line: 南高麗線
   stop_id: '12_1'
   stop_name: 南高麗地区行政センター
-  direction: 東飯能駅（駅前広場）方面
+  direction: 飯能駅・東飯能駅方面
   lat: 35.8425521129534
   lng: 139.27817345066
   schedule:
@@ -1295,261 +1287,9 @@ routes:
     saturday: []
     holiday: []
 - line: 南高麗線
-  stop_id: '22_0'
-  stop_name: 東飯能駅（駅前広場）
-  direction: 苅生自治会館方面
-  lat: 35.8524007396499
-  lng: 139.325478591685
-  schedule:
-    weekday:
-    - time: 09:27
-      route: 苅生便
-      dest: 苅生自治会館
-      note: 月・水・金のみ
-    - time: '13:00'
-      route: 苅生便
-      dest: 苅生自治会館
-      note: 月・水・金のみ
-    saturday: []
-    holiday: []
-- line: 南高麗線
-  stop_id: '21_0'
-  stop_name: 飯能駅
-  direction: 苅生自治会館方面
-  lat: 35.850845851143
-  lng: 139.320364524598
-  schedule:
-    weekday:
-    - time: 09:30
-      route: 苅生便
-      dest: 苅生自治会館
-      note: 月・水・金のみ
-    - time: '13:03'
-      route: 苅生便
-      dest: 苅生自治会館
-      note: 月・水・金のみ
-    saturday: []
-    holiday: []
-- line: 南高麗線
-  stop_id: '20_1'
-  stop_name: アルプス美杉台店
-  direction: 苅生自治会館方面
-  lat: 35.8415583061394
-  lng: 139.310607904508
-  schedule:
-    weekday:
-    - time: 09:35
-      route: 苅生便
-      dest: 苅生自治会館
-      note: 月・水・金のみ
-    - time: '13:08'
-      route: 苅生便
-      dest: 苅生自治会館
-      note: 月・水・金のみ
-    saturday: []
-    holiday: []
-- line: 南高麗線
-  stop_id: '19_1'
-  stop_name: みどり橋
-  direction: 苅生自治会館方面
-  lat: 35.8380556740372
-  lng: 139.308521475513
-  schedule:
-    weekday:
-    - time: 09:35
-      route: 苅生便
-      dest: 苅生自治会館
-      note: 月・水・金のみ
-    - time: '13:08'
-      route: 苅生便
-      dest: 苅生自治会館
-      note: 月・水・金のみ
-    saturday: []
-    holiday: []
-- line: 南高麗線
-  stop_id: '18_1'
-  stop_name: 尾根下
-  direction: 苅生自治会館方面
-  lat: 35.8377868140292
-  lng: 139.306469281897
-  schedule:
-    weekday:
-    - time: 09:36
-      route: 苅生便
-      dest: 苅生自治会館
-      note: 月・水・金のみ
-    - time: '13:09'
-      route: 苅生便
-      dest: 苅生自治会館
-      note: 月・水・金のみ
-    saturday: []
-    holiday: []
-- line: 南高麗線
-  stop_id: '17_1'
-  stop_name: 住宅前
-  direction: 苅生自治会館方面
-  lat: 35.8383360068167
-  lng: 139.30441227503
-  schedule:
-    weekday:
-    - time: 09:37
-      route: 苅生便
-      dest: 苅生自治会館
-      note: 月・水・金のみ
-    - time: '13:10'
-      route: 苅生便
-      dest: 苅生自治会館
-      note: 月・水・金のみ
-    saturday: []
-    holiday: []
-- line: 南高麗線
-  stop_id: '16_1'
-  stop_name: 東下畑
-  direction: 苅生自治会館方面
-  lat: 35.8365417191891
-  lng: 139.299160897416
-  schedule:
-    weekday:
-    - time: 09:38
-      route: 苅生便
-      dest: 苅生自治会館
-      note: 月・水・金のみ
-    - time: '13:11'
-      route: 苅生便
-      dest: 苅生自治会館
-      note: 月・水・金のみ
-    saturday: []
-    holiday: []
-- line: 南高麗線
-  stop_id: '15_1'
-  stop_name: 飯能リハビリ館
-  direction: 苅生自治会館方面
-  lat: 35.8364630078763
-  lng: 139.294873300359
-  schedule:
-    weekday:
-    - time: 09:41
-      route: 苅生便
-      dest: 苅生自治会館
-      note: 月・水・金のみ
-    - time: '13:14'
-      route: 苅生便
-      dest: 苅生自治会館
-      note: 月・水・金のみ
-    saturday: []
-    holiday: []
-- line: 南高麗線
-  stop_id: '14_1'
-  stop_name: 下畑
-  direction: 苅生自治会館方面
-  lat: 35.8382325241253
-  lng: 139.292140563995
-  schedule:
-    weekday:
-    - time: 09:42
-      route: 苅生便
-      dest: 苅生自治会館
-      note: 月・水・金のみ
-    - time: '13:15'
-      route: 苅生便
-      dest: 苅生自治会館
-      note: 月・水・金のみ
-    saturday: []
-    holiday: []
-- line: 南高麗線
-  stop_id: '13_1'
-  stop_name: 上畑
-  direction: 苅生自治会館方面
-  lat: 35.8377577464621
-  lng: 139.28554363072
-  schedule:
-    weekday:
-    - time: 09:43
-      route: 苅生便
-      dest: 苅生自治会館
-      note: 月・水・金のみ
-    - time: '13:16'
-      route: 苅生便
-      dest: 苅生自治会館
-      note: 月・水・金のみ
-    saturday: []
-    holiday: []
-- line: 南高麗線
-  stop_id: '11_1'
-  stop_name: 畑の蔵
-  direction: 苅生自治会館方面
-  lat: 35.8376934845077
-  lng: 139.28256464379
-  schedule:
-    weekday:
-    - time: 09:44
-      route: 苅生便
-      dest: 苅生自治会館
-      note: 月・水・金のみ
-    - time: '13:17'
-      route: 苅生便
-      dest: 苅生自治会館
-      note: 月・水・金のみ
-    saturday: []
-    holiday: []
-- line: 南高麗線
-  stop_id: '10_1'
-  stop_name: 成木一丁目四ツ角
-  direction: 苅生自治会館方面
-  lat: 35.8388865775776
-  lng: 139.280862745412
-  schedule:
-    weekday:
-    - time: 09:45
-      route: 苅生便
-      dest: 苅生自治会館
-      note: 月・水・金のみ
-    - time: '13:18'
-      route: 苅生便
-      dest: 苅生自治会館
-      note: 月・水・金のみ
-    saturday: []
-    holiday: []
-- line: 南高麗線
-  stop_id: '9_1'
-  stop_name: 南高麗小学校
-  direction: 苅生自治会館方面
-  lat: 35.8407582126419
-  lng: 139.278326874379
-  schedule:
-    weekday:
-    - time: 09:46
-      route: 苅生便
-      dest: 苅生自治会館
-      note: 月・水・金のみ
-    - time: '13:19'
-      route: 苅生便
-      dest: 苅生自治会館
-      note: 月・水・金のみ
-    saturday: []
-    holiday: []
-- line: 南高麗線
-  stop_id: '8_1'
-  stop_name: 八坂橋
-  direction: 苅生自治会館方面
-  lat: 35.8421913756729
-  lng: 139.274834305947
-  schedule:
-    weekday:
-    - time: 09:47
-      route: 苅生便
-      dest: 苅生自治会館
-      note: 月・水・金のみ
-    - time: '13:20'
-      route: 苅生便
-      dest: 苅生自治会館
-      note: 月・水・金のみ
-    saturday: []
-    holiday: []
-- line: 南高麗線
   stop_id: '12_2'
   stop_name: 南高麗地区行政センター
-  direction: 苅生自治会館方面
+  direction: 南高麗・間野黒指方面
   lat: 35.8426904549384
   lng: 139.278056234037
   schedule:
