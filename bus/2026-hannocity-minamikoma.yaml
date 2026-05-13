@@ -38,90 +38,105 @@ trips:
   service_id: hannocity-minamikoma:月水金
   trip_headsign: 東飯能駅（駅前広場）
   direction_id: 1
+  direction_name: 飯能駅・東飯能駅方面
   shape_id: hannocity-minamikoma:SHP0001
 - trip_id: hannocity-minamikoma:3+1+月水金+2
   route_id: hannocity-minamikoma:3
   service_id: hannocity-minamikoma:月水金
   trip_headsign: 東飯能駅（駅前広場）
   direction_id: 1
+  direction_name: 飯能駅・東飯能駅方面
   shape_id: hannocity-minamikoma:SHP0001
 - trip_id: hannocity-minamikoma:3+0+月水金+1
   route_id: hannocity-minamikoma:3
   service_id: hannocity-minamikoma:月水金
   trip_headsign: 苅生自治会館
   direction_id: 0
+  direction_name: 南高麗・間野黒指方面
   shape_id: hannocity-minamikoma:SHP0002
 - trip_id: hannocity-minamikoma:3+0+月水金+2
   route_id: hannocity-minamikoma:3
   service_id: hannocity-minamikoma:月水金
   trip_headsign: 苅生自治会館
   direction_id: 0
+  direction_name: 南高麗・間野黒指方面
   shape_id: hannocity-minamikoma:SHP0002
 - trip_id: hannocity-minamikoma:2+1+月水金+1
   route_id: hannocity-minamikoma:2
   service_id: hannocity-minamikoma:月水金
   trip_headsign: 東飯能駅（駅前広場）
   direction_id: 1
+  direction_name: 飯能駅・東飯能駅方面
   shape_id: hannocity-minamikoma:SHP0003
 - trip_id: hannocity-minamikoma:2+1+月水金+2
   route_id: hannocity-minamikoma:2
   service_id: hannocity-minamikoma:月水金
   trip_headsign: 東飯能駅（駅前広場）
   direction_id: 1
+  direction_name: 飯能駅・東飯能駅方面
   shape_id: hannocity-minamikoma:SHP0004
 - trip_id: hannocity-minamikoma:2+0+月水金+1
   route_id: hannocity-minamikoma:2
   service_id: hannocity-minamikoma:月水金
   trip_headsign: 間野黒指
   direction_id: 0
+  direction_name: 南高麗・間野黒指方面
   shape_id: hannocity-minamikoma:SHP0005
 - trip_id: hannocity-minamikoma:2+0+月水金+2
   route_id: hannocity-minamikoma:2
   service_id: hannocity-minamikoma:月水金
   trip_headsign: 間野黒指
   direction_id: 0
+  direction_name: 南高麗・間野黒指方面
   shape_id: hannocity-minamikoma:SHP0006
 - trip_id: hannocity-minamikoma:1+1+月～金+1
   route_id: hannocity-minamikoma:1
   service_id: hannocity-minamikoma:月～金
   trip_headsign: 東飯能駅（駅前広場）
   direction_id: 1
+  direction_name: 飯能駅・東飯能駅方面
   shape_id: hannocity-minamikoma:SHP0007
 - trip_id: hannocity-minamikoma:1+1+月～金+2
   route_id: hannocity-minamikoma:1
   service_id: hannocity-minamikoma:月～金
   trip_headsign: 東飯能駅（駅前広場）
   direction_id: 1
+  direction_name: 飯能駅・東飯能駅方面
   shape_id: hannocity-minamikoma:SHP0007
 - trip_id: hannocity-minamikoma:1+1+月～金+3
   route_id: hannocity-minamikoma:1
   service_id: hannocity-minamikoma:月～金
   trip_headsign: 東飯能駅（駅前広場）
   direction_id: 1
+  direction_name: 飯能駅・東飯能駅方面
   shape_id: hannocity-minamikoma:SHP0007
 - trip_id: hannocity-minamikoma:1+1+月～金+4
   route_id: hannocity-minamikoma:1
   service_id: hannocity-minamikoma:月～金
   trip_headsign: 東飯能駅（駅前広場）
   direction_id: 1
+  direction_name: 飯能駅・東飯能駅方面
   shape_id: hannocity-minamikoma:SHP0007
 - trip_id: hannocity-minamikoma:1+0+月～金+1
   route_id: hannocity-minamikoma:1
   service_id: hannocity-minamikoma:月～金
   trip_headsign: 間野黒指
   direction_id: 0
+  direction_name: 南高麗・間野黒指方面
   shape_id: hannocity-minamikoma:SHP0008
 - trip_id: hannocity-minamikoma:1+0+月～金+2
   route_id: hannocity-minamikoma:1
   service_id: hannocity-minamikoma:月～金
   trip_headsign: 間野黒指
   direction_id: 0
+  direction_name: 南高麗・間野黒指方面
   shape_id: hannocity-minamikoma:SHP0008
 - trip_id: hannocity-minamikoma:1+0+月～金+3
   route_id: hannocity-minamikoma:1
   service_id: hannocity-minamikoma:月～金
   trip_headsign: 間野黒指
   direction_id: 0
+  direction_name: 南高麗・間野黒指方面
   shape_id: hannocity-minamikoma:SHP0008
 stops:
 - stop_id: '1_0'

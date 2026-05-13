@@ -28,21 +28,25 @@ trips:
   service_id: seibu:16-土曜
   trip_headsign: 飯能駅北口～東飯能駅東口
   direction_id: 1
+  direction_name: 飯能駅北口～東飯能駅東口方面
 - trip_id: seibu:555020-1_16-休日_31201
   route_id: seibu:555020
   service_id: seibu:16-休日
   trip_headsign: 飯能駅北口～東飯能駅東口
   direction_id: 1
+  direction_name: 飯能駅北口～東飯能駅東口方面
 - trip_id: seibu:555020-2_16-土曜_31202
   route_id: seibu:555020
   service_id: seibu:16-土曜
   trip_headsign: 東飯能駅東口～飯能駅北口
   direction_id: 0
+  direction_name: 東飯能駅東口～飯能駅北口方面
 - trip_id: seibu:555020-2_16-休日_31203
   route_id: seibu:555020
   service_id: seibu:16-休日
   trip_headsign: 東飯能駅東口～飯能駅北口
   direction_id: 0
+  direction_name: 東飯能駅東口～飯能駅北口方面
 stops:
 - stop_id: 160231-03
   stop_name: 飯能駅北口

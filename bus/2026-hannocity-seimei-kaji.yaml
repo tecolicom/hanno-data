@@ -38,48 +38,56 @@ trips:
   service_id: hannocity-seimei-kaji:月水金
   trip_headsign: 東飯能駅東口
   direction_id: 1
+  direction_name: 精明・加治方面
   shape_id: hannocity-seimei-kaji:SHP0001
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+3
   route_id: hannocity-seimei-kaji:加治系統
   service_id: hannocity-seimei-kaji:月水金
   trip_headsign: 東飯能駅東口
   direction_id: 1
+  direction_name: 精明・加治方面
   shape_id: hannocity-seimei-kaji:SHP0001
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+5
   route_id: hannocity-seimei-kaji:加治系統
   service_id: hannocity-seimei-kaji:月水金
   trip_headsign: 東飯能駅東口
   direction_id: 1
+  direction_name: 精明・加治方面
   shape_id: hannocity-seimei-kaji:SHP0001
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+7
   route_id: hannocity-seimei-kaji:加治系統
   service_id: hannocity-seimei-kaji:月水金
   trip_headsign: 東飯能駅東口
   direction_id: 1
+  direction_name: 精明・加治方面
   shape_id: hannocity-seimei-kaji:SHP0001
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   route_id: hannocity-seimei-kaji:精明東系統
   service_id: hannocity-seimei-kaji:月水金
   trip_headsign: 東飯能駅東口
   direction_id: 1
+  direction_name: 精明・加治方面
   shape_id: hannocity-seimei-kaji:SHP0002
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+6
   route_id: hannocity-seimei-kaji:精明東系統
   service_id: hannocity-seimei-kaji:月水金
   trip_headsign: 東飯能駅東口
   direction_id: 1
+  direction_name: 精明・加治方面
   shape_id: hannocity-seimei-kaji:SHP0002
 - trip_id: hannocity-seimei-kaji:精明西系統+1+月水金+4
   route_id: hannocity-seimei-kaji:精明西系統
   service_id: hannocity-seimei-kaji:月水金
   trip_headsign: 東飯能駅東口
   direction_id: 1
+  direction_name: 精明・加治方面
   shape_id: hannocity-seimei-kaji:SHP0003
 - trip_id: hannocity-seimei-kaji:精明西系統+1+月水金+8
   route_id: hannocity-seimei-kaji:精明西系統
   service_id: hannocity-seimei-kaji:月水金
   trip_headsign: 東飯能駅東口
   direction_id: 1
+  direction_name: 精明・加治方面
   shape_id: hannocity-seimei-kaji:SHP0003
 stops:
 - stop_id: '1_0'

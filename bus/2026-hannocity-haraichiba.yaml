@@ -31,156 +31,182 @@ trips:
   service_id: hannocity-haraichiba:月～金
   trip_headsign: 新寺
   direction_id: 1
+  direction_name: 新寺方面
   shape_id: hannocity-haraichiba:SHP0001
 - trip_id: hannocity-haraichiba:2+1+月～金+2
   route_id: hannocity-haraichiba:2
   service_id: hannocity-haraichiba:月～金
   trip_headsign: 新寺
   direction_id: 1
+  direction_name: 新寺方面
   shape_id: hannocity-haraichiba:SHP0001
 - trip_id: hannocity-haraichiba:2+1+月～金+3
   route_id: hannocity-haraichiba:2
   service_id: hannocity-haraichiba:月～金
   trip_headsign: 新寺
   direction_id: 1
+  direction_name: 新寺方面
   shape_id: hannocity-haraichiba:SHP0002
 - trip_id: hannocity-haraichiba:2+1+月～金+4
   route_id: hannocity-haraichiba:2
   service_id: hannocity-haraichiba:月～金
   trip_headsign: 新寺
   direction_id: 1
+  direction_name: 新寺方面
   shape_id: hannocity-haraichiba:SHP0001
 - trip_id: hannocity-haraichiba:2+1+月～金+5
   route_id: hannocity-haraichiba:2
   service_id: hannocity-haraichiba:月～金
   trip_headsign: 新寺
   direction_id: 1
+  direction_name: 新寺方面
   shape_id: hannocity-haraichiba:SHP0001
 - trip_id: hannocity-haraichiba:2+1+月～金+6
   route_id: hannocity-haraichiba:2
   service_id: hannocity-haraichiba:月～金
   trip_headsign: 新寺
   direction_id: 1
+  direction_name: 新寺方面
   shape_id: hannocity-haraichiba:SHP0002
 - trip_id: hannocity-haraichiba:2+1+土休日+7
   route_id: hannocity-haraichiba:2
   service_id: hannocity-haraichiba:土休日
   trip_headsign: 新寺
   direction_id: 1
+  direction_name: 新寺方面
   shape_id: hannocity-haraichiba:SHP0001
 - trip_id: hannocity-haraichiba:2+1+土休日+8
   route_id: hannocity-haraichiba:2
   service_id: hannocity-haraichiba:土休日
   trip_headsign: 新寺
   direction_id: 1
+  direction_name: 新寺方面
   shape_id: hannocity-haraichiba:SHP0002
 - trip_id: hannocity-haraichiba:2+1+土休日+9
   route_id: hannocity-haraichiba:2
   service_id: hannocity-haraichiba:土休日
   trip_headsign: 新寺
   direction_id: 1
+  direction_name: 新寺方面
   shape_id: hannocity-haraichiba:SHP0002
 - trip_id: hannocity-haraichiba:2+1+土休日+10
   route_id: hannocity-haraichiba:2
   service_id: hannocity-haraichiba:土休日
   trip_headsign: 新寺
   direction_id: 1
+  direction_name: 新寺方面
   shape_id: hannocity-haraichiba:SHP0002
 - trip_id: hannocity-haraichiba:2+0+月～金+1
   route_id: hannocity-haraichiba:2
   service_id: hannocity-haraichiba:月～金
   trip_headsign: 中藤（青石橋）
   direction_id: 0
+  direction_name: 中沢・中藤方面
   shape_id: hannocity-haraichiba:SHP0003
 - trip_id: hannocity-haraichiba:2+0+月～金+2
   route_id: hannocity-haraichiba:2
   service_id: hannocity-haraichiba:月～金
   trip_headsign: 中藤（青石橋）
   direction_id: 0
+  direction_name: 中沢・中藤方面
   shape_id: hannocity-haraichiba:SHP0003
 - trip_id: hannocity-haraichiba:2+0+月～金+3
   route_id: hannocity-haraichiba:2
   service_id: hannocity-haraichiba:月～金
   trip_headsign: 中沢
   direction_id: 0
+  direction_name: 中沢・中藤方面
   shape_id: hannocity-haraichiba:SHP0004
 - trip_id: hannocity-haraichiba:2+0+月～金+4
   route_id: hannocity-haraichiba:2
   service_id: hannocity-haraichiba:月～金
   trip_headsign: 中藤（青石橋）
   direction_id: 0
+  direction_name: 中沢・中藤方面
   shape_id: hannocity-haraichiba:SHP0003
 - trip_id: hannocity-haraichiba:2+0+月～金+5
   route_id: hannocity-haraichiba:2
   service_id: hannocity-haraichiba:月～金
   trip_headsign: 中藤（青石橋）
   direction_id: 0
+  direction_name: 中沢・中藤方面
   shape_id: hannocity-haraichiba:SHP0003
 - trip_id: hannocity-haraichiba:2+0+月～金+6
   route_id: hannocity-haraichiba:2
   service_id: hannocity-haraichiba:月～金
   trip_headsign: 中沢
   direction_id: 0
+  direction_name: 中沢・中藤方面
   shape_id: hannocity-haraichiba:SHP0004
 - trip_id: hannocity-haraichiba:2+0+土休日+7
   route_id: hannocity-haraichiba:2
   service_id: hannocity-haraichiba:土休日
   trip_headsign: 中藤（青石橋）
   direction_id: 0
+  direction_name: 中沢・中藤方面
   shape_id: hannocity-haraichiba:SHP0003
 - trip_id: hannocity-haraichiba:2+0+土休日+8
   route_id: hannocity-haraichiba:2
   service_id: hannocity-haraichiba:土休日
   trip_headsign: 中沢
   direction_id: 0
+  direction_name: 中沢・中藤方面
   shape_id: hannocity-haraichiba:SHP0004
 - trip_id: hannocity-haraichiba:2+0+土休日+9
   route_id: hannocity-haraichiba:2
   service_id: hannocity-haraichiba:土休日
   trip_headsign: 中沢
   direction_id: 0
+  direction_name: 中沢・中藤方面
   shape_id: hannocity-haraichiba:SHP0004
 - trip_id: hannocity-haraichiba:2+0+土休日+10
   route_id: hannocity-haraichiba:2
   service_id: hannocity-haraichiba:土休日
   trip_headsign: 中沢
   direction_id: 0
+  direction_name: 中沢・中藤方面
   shape_id: hannocity-haraichiba:SHP0004
 - trip_id: hannocity-haraichiba:1+1+月水金+1
   route_id: hannocity-haraichiba:1
   service_id: hannocity-haraichiba:月水金
   trip_headsign: 原市場地区行政センター
   direction_id: 1
+  direction_name: 名栗・湯の沢方面
   shape_id: hannocity-haraichiba:SHP0005
 - trip_id: hannocity-haraichiba:1+1+月水金+2
   route_id: hannocity-haraichiba:1
   service_id: hannocity-haraichiba:月水金
   trip_headsign: 原市場地区行政センター
   direction_id: 1
+  direction_name: 名栗・湯の沢方面
   shape_id: hannocity-haraichiba:SHP0006
 - trip_id: hannocity-haraichiba:1+1+月水金+3
   route_id: hannocity-haraichiba:1
   service_id: hannocity-haraichiba:月水金
   trip_headsign: 原市場地区行政センター
   direction_id: 1
+  direction_name: 名栗・湯の沢方面
   shape_id: hannocity-haraichiba:SHP0005
 - trip_id: hannocity-haraichiba:1+0+月水金+1
   route_id: hannocity-haraichiba:1
   service_id: hannocity-haraichiba:月水金
   trip_headsign: 中沢
   direction_id: 0
+  direction_name: 中沢・中藤方面
   shape_id: hannocity-haraichiba:SHP0007
 - trip_id: hannocity-haraichiba:1+0+月水金+2
   route_id: hannocity-haraichiba:1
   service_id: hannocity-haraichiba:月水金
   trip_headsign: 中藤（青石橋）
   direction_id: 0
+  direction_name: 中沢・中藤方面
   shape_id: hannocity-haraichiba:SHP0008
 - trip_id: hannocity-haraichiba:1+0+月水金+3
   route_id: hannocity-haraichiba:1
   service_id: hannocity-haraichiba:月水金
   trip_headsign: 中藤（青石橋）
   direction_id: 0
+  direction_name: 中沢・中藤方面
   shape_id: hannocity-haraichiba:SHP0008
 stops:
 - stop_id: '1_0'
