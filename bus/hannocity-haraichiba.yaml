@@ -13,14 +13,14 @@ agencies:
 routes:
 - route_id: hannocity-haraichiba:1
   agency_id: '9000020112097'
-  route_short_name: null
+  route_short_name: 原市場地区行政センター便
   route_long_name: 中藤・中沢むーま号
   route_type: 3
   route_color: 00B050
   route_text_color: FFFFFF
 - route_id: hannocity-haraichiba:2
   agency_id: '9000020112097'
-  route_short_name: null
+  route_short_name: 新寺便
   route_long_name: 中藤・中沢むーま号
   route_type: 3
   route_color: FFC000
