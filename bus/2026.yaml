@@ -120599,77 +120599,77 @@ calendar_dates:
   exception_type: 1
 transfers:
 - from_stop_id: '00124312'
-  to_stop_id: '17_2'
+  to_stop_id: hannocity-haraichiba:17_2
   transfer_type: 1
   from_trip_id: ikb:名栗線:weekday:飯01-2:湯の沢:1
   to_trip_id: hannocity-haraichiba:1+1+月水金+3
 - from_stop_id: '00124312'
-  to_stop_id: '17_2'
+  to_stop_id: hannocity-haraichiba:17_2
   transfer_type: 1
   from_trip_id: ikb:名栗線:weekday:飯02:名栗車庫:3
   to_trip_id: hannocity-haraichiba:2+0+月～金+1
 - from_stop_id: '00124312'
-  to_stop_id: '17_2'
+  to_stop_id: hannocity-haraichiba:17_2
   transfer_type: 1
   from_trip_id: ikb:名栗線:weekday:飯02:名栗車庫:4
   to_trip_id: hannocity-haraichiba:2+0+月～金+2
 - from_stop_id: '00124312'
-  to_stop_id: '17_2'
+  to_stop_id: hannocity-haraichiba:17_2
   transfer_type: 1
   from_trip_id: ikb:名栗線:weekday:飯01:湯の沢:3
   to_trip_id: hannocity-haraichiba:2+0+月～金+3
 - from_stop_id: '00124312'
-  to_stop_id: '17_2'
+  to_stop_id: hannocity-haraichiba:17_2
   transfer_type: 1
   from_trip_id: ikb:名栗線:weekday:飯03:名郷:2
   to_trip_id: hannocity-haraichiba:2+0+月～金+4
 - from_stop_id: '00124312'
-  to_stop_id: '17_2'
+  to_stop_id: hannocity-haraichiba:17_2
   transfer_type: 1
   from_trip_id: ikb:名栗線:weekday:飯02:名栗車庫:5
   to_trip_id: hannocity-haraichiba:2+0+月～金+5
 - from_stop_id: '00124312'
-  to_stop_id: '17_2'
+  to_stop_id: hannocity-haraichiba:17_2
   transfer_type: 1
   from_trip_id: ikb:名栗線:weekday:飯03:名郷:3
   to_trip_id: hannocity-haraichiba:2+0+月～金+6
 - from_stop_id: '00124312'
-  to_stop_id: '17_2'
+  to_stop_id: hannocity-haraichiba:17_2
   transfer_type: 1
   from_trip_id: ikb:名栗線:saturday:飯01-2:湯の沢:3
   to_trip_id: hannocity-haraichiba:2+0+土休日+7
 - from_stop_id: '00124312'
-  to_stop_id: '17_2'
+  to_stop_id: hannocity-haraichiba:17_2
   transfer_type: 1
   from_trip_id: ikb:名栗線:saturday:飯03:名郷:1
   to_trip_id: hannocity-haraichiba:2+0+土休日+8
 - from_stop_id: '00124312'
-  to_stop_id: '17_2'
+  to_stop_id: hannocity-haraichiba:17_2
   transfer_type: 1
   from_trip_id: ikb:名栗線:saturday:飯02:名栗車庫:1
   to_trip_id: hannocity-haraichiba:2+0+土休日+9
 - from_stop_id: '00124312'
-  to_stop_id: '17_2'
+  to_stop_id: hannocity-haraichiba:17_2
   transfer_type: 1
   from_trip_id: ikb:名栗線:saturday:飯03:名郷:2
   to_trip_id: hannocity-haraichiba:2+0+土休日+10
 - from_stop_id: '00124312'
-  to_stop_id: '17_2'
+  to_stop_id: hannocity-haraichiba:17_2
   transfer_type: 1
   from_trip_id: ikb:名栗線:holiday:飯01-2:湯の沢:3
   to_trip_id: hannocity-haraichiba:2+0+土休日+7
 - from_stop_id: '00124312'
-  to_stop_id: '17_2'
+  to_stop_id: hannocity-haraichiba:17_2
   transfer_type: 1
   from_trip_id: ikb:名栗線:holiday:飯03:名郷:1
   to_trip_id: hannocity-haraichiba:2+0+土休日+8
 - from_stop_id: '00124312'
-  to_stop_id: '17_2'
+  to_stop_id: hannocity-haraichiba:17_2
   transfer_type: 1
   from_trip_id: ikb:名栗線:holiday:飯02:名栗車庫:1
   to_trip_id: hannocity-haraichiba:2+0+土休日+9
 - from_stop_id: '00124312'
-  to_stop_id: '17_2'
+  to_stop_id: hannocity-haraichiba:17_2
   transfer_type: 1
   from_trip_id: ikb:名栗線:holiday:飯03:名郷:2
   to_trip_id: hannocity-haraichiba:2+0+土休日+10

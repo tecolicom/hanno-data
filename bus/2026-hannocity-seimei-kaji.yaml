@@ -90,287 +90,287 @@ trips:
   direction_name: 精明・加治方面
   shape_id: hannocity-seimei-kaji:SHP0003
 stops:
-- stop_id: '1_0'
+- stop_id: hannocity-seimei-kaji:1_0
   stop_name: 東飯能駅東口
   location_type: 0
   stop_lat: 35.852203
   stop_lon: 139.326665
-- stop_id: '2_1'
+- stop_id: hannocity-seimei-kaji:2_1
   stop_name: 栄町
   location_type: 0
   stop_lat: 35.8524525702926
   stop_lon: 139.329209925006
-- stop_id: '2_2'
+- stop_id: hannocity-seimei-kaji:2_2
   stop_name: 栄町
   location_type: 0
   stop_lat: 35.852360462976
   stop_lon: 139.329155210125
-- stop_id: '3_0'
+- stop_id: hannocity-seimei-kaji:3_0
   stop_name: 飯能市役所
   location_type: 0
   stop_lat: 35.8554416936393
   stop_lon: 139.327647038038
-- stop_id: '4_1'
+- stop_id: hannocity-seimei-kaji:4_1
   stop_name: 総合福祉センター南
   location_type: 0
   stop_lat: 35.8544805303293
   stop_lon: 139.330118176126
-- stop_id: '4_2'
+- stop_id: hannocity-seimei-kaji:4_2
   stop_name: 総合福祉センター南
   location_type: 0
   stop_lat: 35.8544783563795
   stop_lon: 139.330002841141
-- stop_id: '5_1'
+- stop_id: hannocity-seimei-kaji:5_1
   stop_name: 緑町
   location_type: 0
   stop_lat: 35.8501365302805
   stop_lon: 139.330472520047
-- stop_id: '5_2'
+- stop_id: hannocity-seimei-kaji:5_2
   stop_name: 緑町
   location_type: 0
   stop_lat: 35.850271
   stop_lon: 139.330372
-- stop_id: '6_1'
+- stop_id: hannocity-seimei-kaji:6_1
   stop_name: 双柳入口
   location_type: 0
   stop_lat: 35.8482820939297
   stop_lon: 139.334498827125
-- stop_id: '6_2'
+- stop_id: hannocity-seimei-kaji:6_2
   stop_name: 双柳入口
   location_type: 0
   stop_lat: 35.8481959381771
   stop_lon: 139.334509456144
-- stop_id: '7_1'
+- stop_id: hannocity-seimei-kaji:7_1
   stop_name: 上の台
   location_type: 0
   stop_lat: 35.859708
   stop_lon: 139.3429
-- stop_id: '7_2'
+- stop_id: hannocity-seimei-kaji:7_2
   stop_name: 上の台
   location_type: 0
   stop_lat: 35.860243
   stop_lon: 139.34284
-- stop_id: '8_0'
+- stop_id: hannocity-seimei-kaji:8_0
   stop_name: 向原団地
   location_type: 0
   stop_lat: 35.8614481501232
   stop_lon: 139.342775344849
-- stop_id: '9_0'
+- stop_id: hannocity-seimei-kaji:9_0
   stop_name: 新田団地
   location_type: 0
   stop_lat: 35.8623828618371
   stop_lon: 139.346460700035
-- stop_id: '10_1'
+- stop_id: hannocity-seimei-kaji:10_1
   stop_name: 平松団地
   location_type: 0
   stop_lat: 35.8656433944422
   stop_lon: 139.345210790634
-- stop_id: '10_2'
+- stop_id: hannocity-seimei-kaji:10_2
   stop_name: 平松団地
   location_type: 0
   stop_lat: 35.8657825071424
   stop_lon: 139.345452189445
-- stop_id: '11_0'
+- stop_id: hannocity-seimei-kaji:11_0
   stop_name: 精明地区行政センター
   location_type: 0
   stop_lat: 35.8662215798683
   stop_lon: 139.344368577003
-- stop_id: '12_0'
+- stop_id: hannocity-seimei-kaji:12_0
   stop_name: 精明小学校
   location_type: 0
   stop_lat: 35.8661419726038
   stop_lon: 139.342614408385
-- stop_id: '13_0'
+- stop_id: hannocity-seimei-kaji:13_0
   stop_name: 下加治
   location_type: 0
   stop_lat: 35.8652904195555
   stop_lon: 139.338343579611
-- stop_id: '14_0'
+- stop_id: hannocity-seimei-kaji:14_0
   stop_name: 飯能靖和病院
   location_type: 0
   stop_lat: 35.8648033529097
   stop_lon: 139.335406140947
-- stop_id: '15_0'
+- stop_id: hannocity-seimei-kaji:15_0
   stop_name: 白子神社
   location_type: 0
   stop_lat: 35.8639098519995
   stop_lon: 139.33341600637
-- stop_id: '16_0'
+- stop_id: hannocity-seimei-kaji:16_0
   stop_name: 飯能看護学校
   location_type: 0
   stop_lat: 35.86062
   stop_lon: 139.334455
-- stop_id: '17_0'
+- stop_id: hannocity-seimei-kaji:17_0
   stop_name: 飯能警察署
   location_type: 0
   stop_lat: 35.8580439711304
   stop_lon: 139.335136413574
-- stop_id: '18_1'
+- stop_id: hannocity-seimei-kaji:18_1
   stop_name: 上平松
   location_type: 0
   stop_lat: 35.8677377172659
   stop_lon: 139.346868828753
-- stop_id: '18_2'
+- stop_id: hannocity-seimei-kaji:18_2
   stop_name: 上平松
   location_type: 0
   stop_lat: 35.8676154393341
   stop_lon: 139.346853739647
-- stop_id: '19_1'
+- stop_id: hannocity-seimei-kaji:19_1
   stop_name: 平松
   location_type: 0
   stop_lat: 35.868092322201
   stop_lon: 139.348664432277
-- stop_id: '19_2'
+- stop_id: hannocity-seimei-kaji:19_2
   stop_name: 平松
   location_type: 0
   stop_lat: 35.8680189557929
   stop_lon: 139.349049204461
-- stop_id: '20_0'
+- stop_id: hannocity-seimei-kaji:20_0
   stop_name: 敬愛園
   location_type: 0
   stop_lat: 35.8665737074999
   stop_lon: 139.357919096947
-- stop_id: '21_0'
+- stop_id: hannocity-seimei-kaji:21_0
   stop_name: 坂上地蔵尊
   location_type: 0
   stop_lat: 35.8663563447643
   stop_lon: 139.362929463387
-- stop_id: '22_0'
+- stop_id: hannocity-seimei-kaji:22_0
   stop_name: 芦苅場南
   location_type: 0
   stop_lat: 35.865609
   stop_lon: 139.3686
-- stop_id: '23_0'
+- stop_id: hannocity-seimei-kaji:23_0
   stop_name: 芳ヶ谷
   location_type: 0
   stop_lat: 35.868979
   stop_lon: 139.367566
-- stop_id: '24_0'
+- stop_id: hannocity-seimei-kaji:24_0
   stop_name: 下川崎西
   location_type: 0
   stop_lat: 35.8721423216166
   stop_lon: 139.361899495125
-- stop_id: '25_0'
+- stop_id: hannocity-seimei-kaji:25_0
   stop_name: 下川崎東
   location_type: 0
   stop_lat: 35.8745939538567
   stop_lon: 139.364345669746
-- stop_id: '26_0'
+- stop_id: hannocity-seimei-kaji:26_0
   stop_name: 下川崎センター
   location_type: 0
   stop_lat: 35.8764195855671
   stop_lon: 139.363455176353
-- stop_id: '27_0'
+- stop_id: hannocity-seimei-kaji:27_0
   stop_name: 川崎センター
   location_type: 0
   stop_lat: 35.8748286792368
   stop_lon: 139.357613325119
-- stop_id: '28_0'
+- stop_id: hannocity-seimei-kaji:28_0
   stop_name: 中原
   location_type: 0
   stop_lat: 35.8728943363636
   stop_lon: 139.355016946793
-- stop_id: '29_0'
+- stop_id: hannocity-seimei-kaji:29_0
   stop_name: 川崎入口
   location_type: 0
   stop_lat: 35.8683797017166
   stop_lon: 139.352578851644
-- stop_id: '30_1'
+- stop_id: hannocity-seimei-kaji:30_1
   stop_name: 双柳南
   location_type: 0
   stop_lat: 35.846751
   stop_lon: 139.338158
-- stop_id: '30_2'
+- stop_id: hannocity-seimei-kaji:30_2
   stop_name: 双柳南
   location_type: 0
   stop_lat: 35.8464454909703
   stop_lon: 139.338547819081
-- stop_id: '41_0'
+- stop_id: hannocity-seimei-kaji:41_0
   stop_name: デンキチ飯能店前
   location_type: 0
   stop_lat: 35.8451258885873
   stop_lon: 139.341595172882
-- stop_id: '31_1'
+- stop_id: hannocity-seimei-kaji:31_1
   stop_name: 白髪白山神社
   location_type: 0
   stop_lat: 35.8436257382778
   stop_lon: 139.33926571399
-- stop_id: '31_2'
+- stop_id: hannocity-seimei-kaji:31_2
   stop_name: 白髪白山神社
   location_type: 0
   stop_lat: 35.8437353896957
   stop_lon: 139.339205363531
-- stop_id: '32_1'
+- stop_id: hannocity-seimei-kaji:32_1
   stop_name: 笠縫北
   location_type: 0
   stop_lat: 35.8448465045313
   stop_lon: 139.333072849551
-- stop_id: '32_2'
+- stop_id: hannocity-seimei-kaji:32_2
   stop_name: 笠縫北
   location_type: 0
   stop_lat: 35.8448378076751
   stop_lon: 139.333243169812
-- stop_id: '33_1'
+- stop_id: hannocity-seimei-kaji:33_1
   stop_name: 笠縫西武踏切南
   location_type: 0
   stop_lat: 35.8428048122669
   stop_lon: 139.331304437685
-- stop_id: '33_2'
+- stop_id: hannocity-seimei-kaji:33_2
   stop_name: 笠縫西武踏切南
   location_type: 0
   stop_lat: 35.8417731916204
   stop_lon: 139.331215023994
-- stop_id: '34_1'
+- stop_id: hannocity-seimei-kaji:34_1
   stop_name: 加治小学校東
   location_type: 0
   stop_lat: 35.8425776783903
   stop_lon: 139.328404068947
-- stop_id: '34_2'
+- stop_id: hannocity-seimei-kaji:34_2
   stop_name: 加治小学校東
   location_type: 0
   stop_lat: 35.8429516525342
   stop_lon: 139.327781796455
-- stop_id: '35_0'
+- stop_id: hannocity-seimei-kaji:35_0
   stop_name: 加治地区行政センター
   location_type: 0
   stop_lat: 35.8395031918213
   stop_lon: 139.326725006104
-- stop_id: '36_1'
+- stop_id: hannocity-seimei-kaji:36_1
   stop_name: 笠縫不動尊
   location_type: 0
   stop_lat: 35.8393814276711
   stop_lon: 139.33179974556
-- stop_id: '36_2'
+- stop_id: hannocity-seimei-kaji:36_2
   stop_name: 笠縫不動尊
   location_type: 0
   stop_lat: 35.8394901456623
   stop_lon: 139.330227971077
-- stop_id: '37_0'
+- stop_id: hannocity-seimei-kaji:37_0
   stop_name: 加治東地区行政センター
   location_type: 0
   stop_lat: 35.8374157784383
   stop_lon: 139.337099790573
-- stop_id: '38_1'
+- stop_id: hannocity-seimei-kaji:38_1
   stop_name: 白鳥幼稚園
   location_type: 0
   stop_lat: 35.8370896153103
   stop_lon: 139.341643452644
-- stop_id: '38_2'
+- stop_id: hannocity-seimei-kaji:38_2
   stop_name: 白鳥幼稚園
   location_type: 0
   stop_lat: 35.8371026618354
   stop_lon: 139.341681003571
-- stop_id: '39_1'
+- stop_id: hannocity-seimei-kaji:39_1
   stop_name: 前原
   location_type: 0
   stop_lat: 35.8396336534107
   stop_lon: 139.341482520103
-- stop_id: '39_2'
+- stop_id: hannocity-seimei-kaji:39_2
   stop_name: 前原
   location_type: 0
   stop_lat: 35.8396858380465
   stop_lon: 139.341675639153
-- stop_id: '40_0'
+- stop_id: hannocity-seimei-kaji:40_0
   stop_name: 元加治駅
   location_type: 0
   stop_lat: 35.8406945599654
@@ -378,7 +378,7 @@ stops:
 stop_times:
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 1
-  stop_id: '1_0'
+  stop_id: hannocity-seimei-kaji:1_0
   arrival_time: '8:00:00'
   departure_time: '8:00:00'
   stop_headsign: 元加治駅
@@ -387,7 +387,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 2
-  stop_id: '2_1'
+  stop_id: hannocity-seimei-kaji:2_1
   arrival_time: '8:01:00'
   departure_time: '8:01:00'
   stop_headsign: 元加治駅
@@ -396,7 +396,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 3
-  stop_id: '3_0'
+  stop_id: hannocity-seimei-kaji:3_0
   arrival_time: '8:04:00'
   departure_time: '8:04:00'
   stop_headsign: 元加治駅
@@ -405,7 +405,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 4
-  stop_id: '4_1'
+  stop_id: hannocity-seimei-kaji:4_1
   arrival_time: '8:05:00'
   departure_time: '8:05:00'
   stop_headsign: 元加治駅
@@ -414,7 +414,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 5
-  stop_id: '5_1'
+  stop_id: hannocity-seimei-kaji:5_1
   arrival_time: '8:06:00'
   departure_time: '8:06:00'
   stop_headsign: 元加治駅
@@ -423,7 +423,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 6
-  stop_id: '6_1'
+  stop_id: hannocity-seimei-kaji:6_1
   arrival_time: '8:07:00'
   departure_time: '8:07:00'
   stop_headsign: 元加治駅
@@ -432,7 +432,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 7
-  stop_id: '30_1'
+  stop_id: hannocity-seimei-kaji:30_1
   arrival_time: '8:08:00'
   departure_time: '8:08:00'
   stop_headsign: 元加治駅
@@ -441,7 +441,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 8
-  stop_id: '41_0'
+  stop_id: hannocity-seimei-kaji:41_0
   arrival_time: '8:09:00'
   departure_time: '8:09:00'
   stop_headsign: 元加治駅
@@ -450,7 +450,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 9
-  stop_id: '31_1'
+  stop_id: hannocity-seimei-kaji:31_1
   arrival_time: '8:11:00'
   departure_time: '8:11:00'
   stop_headsign: 元加治駅
@@ -459,7 +459,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 10
-  stop_id: '32_1'
+  stop_id: hannocity-seimei-kaji:32_1
   arrival_time: '8:12:00'
   departure_time: '8:12:00'
   stop_headsign: 元加治駅
@@ -468,7 +468,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 11
-  stop_id: '33_1'
+  stop_id: hannocity-seimei-kaji:33_1
   arrival_time: '8:13:00'
   departure_time: '8:13:00'
   stop_headsign: 元加治駅
@@ -477,7 +477,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 12
-  stop_id: '34_1'
+  stop_id: hannocity-seimei-kaji:34_1
   arrival_time: '8:14:00'
   departure_time: '8:14:00'
   stop_headsign: 元加治駅
@@ -486,7 +486,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 13
-  stop_id: '35_0'
+  stop_id: hannocity-seimei-kaji:35_0
   arrival_time: '8:18:00'
   departure_time: '8:18:00'
   stop_headsign: 元加治駅
@@ -495,7 +495,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 14
-  stop_id: '36_1'
+  stop_id: hannocity-seimei-kaji:36_1
   arrival_time: '8:20:00'
   departure_time: '8:20:00'
   stop_headsign: 元加治駅
@@ -504,7 +504,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 15
-  stop_id: '37_0'
+  stop_id: hannocity-seimei-kaji:37_0
   arrival_time: '8:22:00'
   departure_time: '8:22:00'
   stop_headsign: 元加治駅
@@ -513,7 +513,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 16
-  stop_id: '38_1'
+  stop_id: hannocity-seimei-kaji:38_1
   arrival_time: '8:24:00'
   departure_time: '8:24:00'
   stop_headsign: 元加治駅
@@ -522,7 +522,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 17
-  stop_id: '39_1'
+  stop_id: hannocity-seimei-kaji:39_1
   arrival_time: '8:25:00'
   departure_time: '8:25:00'
   stop_headsign: 元加治駅
@@ -531,7 +531,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 18
-  stop_id: '40_0'
+  stop_id: hannocity-seimei-kaji:40_0
   arrival_time: '8:31:00'
   departure_time: '8:31:00'
   stop_headsign: 東飯能駅東口
@@ -540,7 +540,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 19
-  stop_id: '39_2'
+  stop_id: hannocity-seimei-kaji:39_2
   arrival_time: '8:32:00'
   departure_time: '8:32:00'
   stop_headsign: 東飯能駅東口
@@ -549,7 +549,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 20
-  stop_id: '38_2'
+  stop_id: hannocity-seimei-kaji:38_2
   arrival_time: '8:33:00'
   departure_time: '8:33:00'
   stop_headsign: 東飯能駅東口
@@ -558,7 +558,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 21
-  stop_id: '37_0'
+  stop_id: hannocity-seimei-kaji:37_0
   arrival_time: '8:35:00'
   departure_time: '8:35:00'
   stop_headsign: 東飯能駅東口
@@ -567,7 +567,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 22
-  stop_id: '36_2'
+  stop_id: hannocity-seimei-kaji:36_2
   arrival_time: '8:37:00'
   departure_time: '8:37:00'
   stop_headsign: 東飯能駅東口
@@ -576,7 +576,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 23
-  stop_id: '35_0'
+  stop_id: hannocity-seimei-kaji:35_0
   arrival_time: '8:40:00'
   departure_time: '8:40:00'
   stop_headsign: 東飯能駅東口
@@ -585,7 +585,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 24
-  stop_id: '34_2'
+  stop_id: hannocity-seimei-kaji:34_2
   arrival_time: '8:41:00'
   departure_time: '8:41:00'
   stop_headsign: 東飯能駅東口
@@ -594,7 +594,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 25
-  stop_id: '33_2'
+  stop_id: hannocity-seimei-kaji:33_2
   arrival_time: '8:42:00'
   departure_time: '8:42:00'
   stop_headsign: 東飯能駅東口
@@ -603,7 +603,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 26
-  stop_id: '32_2'
+  stop_id: hannocity-seimei-kaji:32_2
   arrival_time: '8:43:00'
   departure_time: '8:43:00'
   stop_headsign: 東飯能駅東口
@@ -612,7 +612,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 27
-  stop_id: '31_2'
+  stop_id: hannocity-seimei-kaji:31_2
   arrival_time: '8:44:00'
   departure_time: '8:44:00'
   stop_headsign: 東飯能駅東口
@@ -621,7 +621,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 28
-  stop_id: '41_0'
+  stop_id: hannocity-seimei-kaji:41_0
   arrival_time: '8:46:00'
   departure_time: '8:46:00'
   stop_headsign: 東飯能駅東口
@@ -630,7 +630,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 29
-  stop_id: '30_2'
+  stop_id: hannocity-seimei-kaji:30_2
   arrival_time: '8:47:00'
   departure_time: '8:47:00'
   stop_headsign: 東飯能駅東口
@@ -639,7 +639,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 30
-  stop_id: '6_2'
+  stop_id: hannocity-seimei-kaji:6_2
   arrival_time: '8:48:00'
   departure_time: '8:48:00'
   stop_headsign: 東飯能駅東口
@@ -648,7 +648,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 31
-  stop_id: '5_2'
+  stop_id: hannocity-seimei-kaji:5_2
   arrival_time: '8:49:00'
   departure_time: '8:49:00'
   stop_headsign: 東飯能駅東口
@@ -657,7 +657,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 32
-  stop_id: '4_2'
+  stop_id: hannocity-seimei-kaji:4_2
   arrival_time: '8:51:00'
   departure_time: '8:51:00'
   stop_headsign: 東飯能駅東口
@@ -666,7 +666,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 33
-  stop_id: '3_0'
+  stop_id: hannocity-seimei-kaji:3_0
   arrival_time: '8:52:00'
   departure_time: '8:52:00'
   stop_headsign: 東飯能駅東口
@@ -675,7 +675,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 34
-  stop_id: '2_2'
+  stop_id: hannocity-seimei-kaji:2_2
   arrival_time: '8:54:00'
   departure_time: '8:54:00'
   stop_headsign: 東飯能駅東口
@@ -684,7 +684,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 35
-  stop_id: '1_0'
+  stop_id: hannocity-seimei-kaji:1_0
   arrival_time: '8:55:00'
   departure_time: '8:55:00'
   stop_headsign: 東飯能駅東口
@@ -693,7 +693,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+3
   stop_sequence: 1
-  stop_id: '1_0'
+  stop_id: hannocity-seimei-kaji:1_0
   arrival_time: '10:15:00'
   departure_time: '10:15:00'
   stop_headsign: 元加治駅
@@ -702,7 +702,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+3
   stop_sequence: 2
-  stop_id: '2_1'
+  stop_id: hannocity-seimei-kaji:2_1
   arrival_time: '10:16:00'
   departure_time: '10:16:00'
   stop_headsign: 元加治駅
@@ -711,7 +711,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+3
   stop_sequence: 3
-  stop_id: '3_0'
+  stop_id: hannocity-seimei-kaji:3_0
   arrival_time: '10:19:00'
   departure_time: '10:19:00'
   stop_headsign: 元加治駅
@@ -720,7 +720,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+3
   stop_sequence: 4
-  stop_id: '4_1'
+  stop_id: hannocity-seimei-kaji:4_1
   arrival_time: '10:20:00'
   departure_time: '10:20:00'
   stop_headsign: 元加治駅
@@ -729,7 +729,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+3
   stop_sequence: 5
-  stop_id: '5_1'
+  stop_id: hannocity-seimei-kaji:5_1
   arrival_time: '10:21:00'
   departure_time: '10:21:00'
   stop_headsign: 元加治駅
@@ -738,7 +738,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+3
   stop_sequence: 6
-  stop_id: '6_1'
+  stop_id: hannocity-seimei-kaji:6_1
   arrival_time: '10:22:00'
   departure_time: '10:22:00'
   stop_headsign: 元加治駅
@@ -747,7 +747,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+3
   stop_sequence: 7
-  stop_id: '30_1'
+  stop_id: hannocity-seimei-kaji:30_1
   arrival_time: '10:23:00'
   departure_time: '10:23:00'
   stop_headsign: 元加治駅
@@ -756,7 +756,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+3
   stop_sequence: 8
-  stop_id: '41_0'
+  stop_id: hannocity-seimei-kaji:41_0
   arrival_time: '10:24:00'
   departure_time: '10:24:00'
   stop_headsign: 元加治駅
@@ -765,7 +765,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+3
   stop_sequence: 9
-  stop_id: '31_1'
+  stop_id: hannocity-seimei-kaji:31_1
   arrival_time: '10:26:00'
   departure_time: '10:26:00'
   stop_headsign: 元加治駅
@@ -774,7 +774,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+3
   stop_sequence: 10
-  stop_id: '32_1'
+  stop_id: hannocity-seimei-kaji:32_1
   arrival_time: '10:27:00'
   departure_time: '10:27:00'
   stop_headsign: 元加治駅
@@ -783,7 +783,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+3
   stop_sequence: 11
-  stop_id: '33_1'
+  stop_id: hannocity-seimei-kaji:33_1
   arrival_time: '10:28:00'
   departure_time: '10:28:00'
   stop_headsign: 元加治駅
@@ -792,7 +792,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+3
   stop_sequence: 12
-  stop_id: '34_1'
+  stop_id: hannocity-seimei-kaji:34_1
   arrival_time: '10:29:00'
   departure_time: '10:29:00'
   stop_headsign: 元加治駅
@@ -801,7 +801,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+3
   stop_sequence: 13
-  stop_id: '35_0'
+  stop_id: hannocity-seimei-kaji:35_0
   arrival_time: '10:33:00'
   departure_time: '10:33:00'
   stop_headsign: 元加治駅
@@ -810,7 +810,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+3
   stop_sequence: 14
-  stop_id: '36_1'
+  stop_id: hannocity-seimei-kaji:36_1
   arrival_time: '10:35:00'
   departure_time: '10:35:00'
   stop_headsign: 元加治駅
@@ -819,7 +819,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+3
   stop_sequence: 15
-  stop_id: '37_0'
+  stop_id: hannocity-seimei-kaji:37_0
   arrival_time: '10:37:00'
   departure_time: '10:37:00'
   stop_headsign: 元加治駅
@@ -828,7 +828,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+3
   stop_sequence: 16
-  stop_id: '38_1'
+  stop_id: hannocity-seimei-kaji:38_1
   arrival_time: '10:39:00'
   departure_time: '10:39:00'
   stop_headsign: 元加治駅
@@ -837,7 +837,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+3
   stop_sequence: 17
-  stop_id: '39_1'
+  stop_id: hannocity-seimei-kaji:39_1
   arrival_time: '10:40:00'
   departure_time: '10:40:00'
   stop_headsign: 元加治駅
@@ -846,7 +846,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+3
   stop_sequence: 18
-  stop_id: '40_0'
+  stop_id: hannocity-seimei-kaji:40_0
   arrival_time: '10:46:00'
   departure_time: '10:46:00'
   stop_headsign: 東飯能駅東口
@@ -855,7 +855,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+3
   stop_sequence: 19
-  stop_id: '39_2'
+  stop_id: hannocity-seimei-kaji:39_2
   arrival_time: '10:47:00'
   departure_time: '10:47:00'
   stop_headsign: 東飯能駅東口
@@ -864,7 +864,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+3
   stop_sequence: 20
-  stop_id: '38_2'
+  stop_id: hannocity-seimei-kaji:38_2
   arrival_time: '10:48:00'
   departure_time: '10:48:00'
   stop_headsign: 東飯能駅東口
@@ -873,7 +873,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+3
   stop_sequence: 21
-  stop_id: '37_0'
+  stop_id: hannocity-seimei-kaji:37_0
   arrival_time: '10:50:00'
   departure_time: '10:50:00'
   stop_headsign: 東飯能駅東口
@@ -882,7 +882,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+3
   stop_sequence: 22
-  stop_id: '36_2'
+  stop_id: hannocity-seimei-kaji:36_2
   arrival_time: '10:52:00'
   departure_time: '10:52:00'
   stop_headsign: 東飯能駅東口
@@ -891,7 +891,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+3
   stop_sequence: 23
-  stop_id: '35_0'
+  stop_id: hannocity-seimei-kaji:35_0
   arrival_time: '10:55:00'
   departure_time: '10:55:00'
   stop_headsign: 東飯能駅東口
@@ -900,7 +900,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+3
   stop_sequence: 24
-  stop_id: '34_2'
+  stop_id: hannocity-seimei-kaji:34_2
   arrival_time: '10:56:00'
   departure_time: '10:56:00'
   stop_headsign: 東飯能駅東口
@@ -909,7 +909,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+3
   stop_sequence: 25
-  stop_id: '33_2'
+  stop_id: hannocity-seimei-kaji:33_2
   arrival_time: '10:57:00'
   departure_time: '10:57:00'
   stop_headsign: 東飯能駅東口
@@ -918,7 +918,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+3
   stop_sequence: 26
-  stop_id: '32_2'
+  stop_id: hannocity-seimei-kaji:32_2
   arrival_time: '10:58:00'
   departure_time: '10:58:00'
   stop_headsign: 東飯能駅東口
@@ -927,7 +927,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+3
   stop_sequence: 27
-  stop_id: '31_2'
+  stop_id: hannocity-seimei-kaji:31_2
   arrival_time: '10:59:00'
   departure_time: '10:59:00'
   stop_headsign: 東飯能駅東口
@@ -936,7 +936,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+3
   stop_sequence: 28
-  stop_id: '41_0'
+  stop_id: hannocity-seimei-kaji:41_0
   arrival_time: '11:01:00'
   departure_time: '11:01:00'
   stop_headsign: 東飯能駅東口
@@ -945,7 +945,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+3
   stop_sequence: 29
-  stop_id: '30_2'
+  stop_id: hannocity-seimei-kaji:30_2
   arrival_time: '11:02:00'
   departure_time: '11:02:00'
   stop_headsign: 東飯能駅東口
@@ -954,7 +954,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+3
   stop_sequence: 30
-  stop_id: '6_2'
+  stop_id: hannocity-seimei-kaji:6_2
   arrival_time: '11:03:00'
   departure_time: '11:03:00'
   stop_headsign: 東飯能駅東口
@@ -963,7 +963,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+3
   stop_sequence: 31
-  stop_id: '5_2'
+  stop_id: hannocity-seimei-kaji:5_2
   arrival_time: '11:04:00'
   departure_time: '11:04:00'
   stop_headsign: 東飯能駅東口
@@ -972,7 +972,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+3
   stop_sequence: 32
-  stop_id: '4_2'
+  stop_id: hannocity-seimei-kaji:4_2
   arrival_time: '11:06:00'
   departure_time: '11:06:00'
   stop_headsign: 東飯能駅東口
@@ -981,7 +981,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+3
   stop_sequence: 33
-  stop_id: '3_0'
+  stop_id: hannocity-seimei-kaji:3_0
   arrival_time: '11:07:00'
   departure_time: '11:07:00'
   stop_headsign: 東飯能駅東口
@@ -990,7 +990,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+3
   stop_sequence: 34
-  stop_id: '2_2'
+  stop_id: hannocity-seimei-kaji:2_2
   arrival_time: '11:09:00'
   departure_time: '11:09:00'
   stop_headsign: 東飯能駅東口
@@ -999,7 +999,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+3
   stop_sequence: 35
-  stop_id: '1_0'
+  stop_id: hannocity-seimei-kaji:1_0
   arrival_time: '11:10:00'
   departure_time: '11:10:00'
   stop_headsign: 東飯能駅東口
@@ -1008,7 +1008,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+5
   stop_sequence: 1
-  stop_id: '1_0'
+  stop_id: hannocity-seimei-kaji:1_0
   arrival_time: '13:20:00'
   departure_time: '13:20:00'
   stop_headsign: 元加治駅
@@ -1017,7 +1017,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+5
   stop_sequence: 2
-  stop_id: '2_1'
+  stop_id: hannocity-seimei-kaji:2_1
   arrival_time: '13:21:00'
   departure_time: '13:21:00'
   stop_headsign: 元加治駅
@@ -1026,7 +1026,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+5
   stop_sequence: 3
-  stop_id: '3_0'
+  stop_id: hannocity-seimei-kaji:3_0
   arrival_time: '13:24:00'
   departure_time: '13:24:00'
   stop_headsign: 元加治駅
@@ -1035,7 +1035,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+5
   stop_sequence: 4
-  stop_id: '4_1'
+  stop_id: hannocity-seimei-kaji:4_1
   arrival_time: '13:25:00'
   departure_time: '13:25:00'
   stop_headsign: 元加治駅
@@ -1044,7 +1044,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+5
   stop_sequence: 5
-  stop_id: '5_1'
+  stop_id: hannocity-seimei-kaji:5_1
   arrival_time: '13:26:00'
   departure_time: '13:26:00'
   stop_headsign: 元加治駅
@@ -1053,7 +1053,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+5
   stop_sequence: 6
-  stop_id: '6_1'
+  stop_id: hannocity-seimei-kaji:6_1
   arrival_time: '13:27:00'
   departure_time: '13:27:00'
   stop_headsign: 元加治駅
@@ -1062,7 +1062,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+5
   stop_sequence: 7
-  stop_id: '30_1'
+  stop_id: hannocity-seimei-kaji:30_1
   arrival_time: '13:28:00'
   departure_time: '13:28:00'
   stop_headsign: 元加治駅
@@ -1071,7 +1071,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+5
   stop_sequence: 8
-  stop_id: '41_0'
+  stop_id: hannocity-seimei-kaji:41_0
   arrival_time: '13:29:00'
   departure_time: '13:29:00'
   stop_headsign: 元加治駅
@@ -1080,7 +1080,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+5
   stop_sequence: 9
-  stop_id: '31_1'
+  stop_id: hannocity-seimei-kaji:31_1
   arrival_time: '13:31:00'
   departure_time: '13:31:00'
   stop_headsign: 元加治駅
@@ -1089,7 +1089,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+5
   stop_sequence: 10
-  stop_id: '32_1'
+  stop_id: hannocity-seimei-kaji:32_1
   arrival_time: '13:32:00'
   departure_time: '13:32:00'
   stop_headsign: 元加治駅
@@ -1098,7 +1098,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+5
   stop_sequence: 11
-  stop_id: '33_1'
+  stop_id: hannocity-seimei-kaji:33_1
   arrival_time: '13:33:00'
   departure_time: '13:33:00'
   stop_headsign: 元加治駅
@@ -1107,7 +1107,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+5
   stop_sequence: 12
-  stop_id: '34_1'
+  stop_id: hannocity-seimei-kaji:34_1
   arrival_time: '13:34:00'
   departure_time: '13:34:00'
   stop_headsign: 元加治駅
@@ -1116,7 +1116,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+5
   stop_sequence: 13
-  stop_id: '35_0'
+  stop_id: hannocity-seimei-kaji:35_0
   arrival_time: '13:37:00'
   departure_time: '13:37:00'
   stop_headsign: 元加治駅
@@ -1125,7 +1125,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+5
   stop_sequence: 14
-  stop_id: '36_1'
+  stop_id: hannocity-seimei-kaji:36_1
   arrival_time: '13:39:00'
   departure_time: '13:39:00'
   stop_headsign: 元加治駅
@@ -1134,7 +1134,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+5
   stop_sequence: 15
-  stop_id: '37_0'
+  stop_id: hannocity-seimei-kaji:37_0
   arrival_time: '13:41:00'
   departure_time: '13:41:00'
   stop_headsign: 元加治駅
@@ -1143,7 +1143,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+5
   stop_sequence: 16
-  stop_id: '38_1'
+  stop_id: hannocity-seimei-kaji:38_1
   arrival_time: '13:43:00'
   departure_time: '13:43:00'
   stop_headsign: 元加治駅
@@ -1152,7 +1152,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+5
   stop_sequence: 17
-  stop_id: '39_1'
+  stop_id: hannocity-seimei-kaji:39_1
   arrival_time: '13:44:00'
   departure_time: '13:44:00'
   stop_headsign: 元加治駅
@@ -1161,7 +1161,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+5
   stop_sequence: 18
-  stop_id: '40_0'
+  stop_id: hannocity-seimei-kaji:40_0
   arrival_time: '13:48:00'
   departure_time: '13:48:00'
   stop_headsign: 東飯能駅東口
@@ -1170,7 +1170,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+5
   stop_sequence: 19
-  stop_id: '39_2'
+  stop_id: hannocity-seimei-kaji:39_2
   arrival_time: '13:49:00'
   departure_time: '13:49:00'
   stop_headsign: 東飯能駅東口
@@ -1179,7 +1179,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+5
   stop_sequence: 20
-  stop_id: '38_2'
+  stop_id: hannocity-seimei-kaji:38_2
   arrival_time: '13:50:00'
   departure_time: '13:50:00'
   stop_headsign: 東飯能駅東口
@@ -1188,7 +1188,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+5
   stop_sequence: 21
-  stop_id: '37_0'
+  stop_id: hannocity-seimei-kaji:37_0
   arrival_time: '13:52:00'
   departure_time: '13:52:00'
   stop_headsign: 東飯能駅東口
@@ -1197,7 +1197,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+5
   stop_sequence: 22
-  stop_id: '36_2'
+  stop_id: hannocity-seimei-kaji:36_2
   arrival_time: '13:54:00'
   departure_time: '13:54:00'
   stop_headsign: 東飯能駅東口
@@ -1206,7 +1206,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+5
   stop_sequence: 23
-  stop_id: '35_0'
+  stop_id: hannocity-seimei-kaji:35_0
   arrival_time: '13:56:00'
   departure_time: '13:56:00'
   stop_headsign: 東飯能駅東口
@@ -1215,7 +1215,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+5
   stop_sequence: 24
-  stop_id: '34_2'
+  stop_id: hannocity-seimei-kaji:34_2
   arrival_time: '13:57:00'
   departure_time: '13:57:00'
   stop_headsign: 東飯能駅東口
@@ -1224,7 +1224,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+5
   stop_sequence: 25
-  stop_id: '33_2'
+  stop_id: hannocity-seimei-kaji:33_2
   arrival_time: '13:58:00'
   departure_time: '13:58:00'
   stop_headsign: 東飯能駅東口
@@ -1233,7 +1233,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+5
   stop_sequence: 26
-  stop_id: '32_2'
+  stop_id: hannocity-seimei-kaji:32_2
   arrival_time: '13:59:00'
   departure_time: '13:59:00'
   stop_headsign: 東飯能駅東口
@@ -1242,7 +1242,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+5
   stop_sequence: 27
-  stop_id: '31_2'
+  stop_id: hannocity-seimei-kaji:31_2
   arrival_time: '14:00:00'
   departure_time: '14:00:00'
   stop_headsign: 東飯能駅東口
@@ -1251,7 +1251,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+5
   stop_sequence: 28
-  stop_id: '41_0'
+  stop_id: hannocity-seimei-kaji:41_0
   arrival_time: '14:02:00'
   departure_time: '14:02:00'
   stop_headsign: 東飯能駅東口
@@ -1260,7 +1260,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+5
   stop_sequence: 29
-  stop_id: '30_2'
+  stop_id: hannocity-seimei-kaji:30_2
   arrival_time: '14:03:00'
   departure_time: '14:03:00'
   stop_headsign: 東飯能駅東口
@@ -1269,7 +1269,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+5
   stop_sequence: 30
-  stop_id: '6_2'
+  stop_id: hannocity-seimei-kaji:6_2
   arrival_time: '14:04:00'
   departure_time: '14:04:00'
   stop_headsign: 東飯能駅東口
@@ -1278,7 +1278,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+5
   stop_sequence: 31
-  stop_id: '5_2'
+  stop_id: hannocity-seimei-kaji:5_2
   arrival_time: '14:05:00'
   departure_time: '14:05:00'
   stop_headsign: 東飯能駅東口
@@ -1287,7 +1287,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+5
   stop_sequence: 32
-  stop_id: '4_2'
+  stop_id: hannocity-seimei-kaji:4_2
   arrival_time: '14:07:00'
   departure_time: '14:07:00'
   stop_headsign: 東飯能駅東口
@@ -1296,7 +1296,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+5
   stop_sequence: 33
-  stop_id: '3_0'
+  stop_id: hannocity-seimei-kaji:3_0
   arrival_time: '14:08:00'
   departure_time: '14:08:00'
   stop_headsign: 東飯能駅東口
@@ -1305,7 +1305,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+5
   stop_sequence: 34
-  stop_id: '2_2'
+  stop_id: hannocity-seimei-kaji:2_2
   arrival_time: '14:10:00'
   departure_time: '14:10:00'
   stop_headsign: 東飯能駅東口
@@ -1314,7 +1314,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+5
   stop_sequence: 35
-  stop_id: '1_0'
+  stop_id: hannocity-seimei-kaji:1_0
   arrival_time: '14:11:00'
   departure_time: '14:11:00'
   stop_headsign: 東飯能駅東口
@@ -1323,7 +1323,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+7
   stop_sequence: 1
-  stop_id: '1_0'
+  stop_id: hannocity-seimei-kaji:1_0
   arrival_time: '15:25:00'
   departure_time: '15:25:00'
   stop_headsign: 元加治駅
@@ -1332,7 +1332,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+7
   stop_sequence: 2
-  stop_id: '2_1'
+  stop_id: hannocity-seimei-kaji:2_1
   arrival_time: '15:26:00'
   departure_time: '15:26:00'
   stop_headsign: 元加治駅
@@ -1341,7 +1341,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+7
   stop_sequence: 3
-  stop_id: '3_0'
+  stop_id: hannocity-seimei-kaji:3_0
   arrival_time: '15:29:00'
   departure_time: '15:29:00'
   stop_headsign: 元加治駅
@@ -1350,7 +1350,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+7
   stop_sequence: 4
-  stop_id: '4_1'
+  stop_id: hannocity-seimei-kaji:4_1
   arrival_time: '15:30:00'
   departure_time: '15:30:00'
   stop_headsign: 元加治駅
@@ -1359,7 +1359,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+7
   stop_sequence: 5
-  stop_id: '5_1'
+  stop_id: hannocity-seimei-kaji:5_1
   arrival_time: '15:31:00'
   departure_time: '15:31:00'
   stop_headsign: 元加治駅
@@ -1368,7 +1368,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+7
   stop_sequence: 6
-  stop_id: '6_1'
+  stop_id: hannocity-seimei-kaji:6_1
   arrival_time: '15:32:00'
   departure_time: '15:32:00'
   stop_headsign: 元加治駅
@@ -1377,7 +1377,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+7
   stop_sequence: 7
-  stop_id: '30_1'
+  stop_id: hannocity-seimei-kaji:30_1
   arrival_time: '15:33:00'
   departure_time: '15:33:00'
   stop_headsign: 元加治駅
@@ -1386,7 +1386,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+7
   stop_sequence: 8
-  stop_id: '41_0'
+  stop_id: hannocity-seimei-kaji:41_0
   arrival_time: '15:34:00'
   departure_time: '15:34:00'
   stop_headsign: 元加治駅
@@ -1395,7 +1395,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+7
   stop_sequence: 9
-  stop_id: '31_1'
+  stop_id: hannocity-seimei-kaji:31_1
   arrival_time: '15:36:00'
   departure_time: '15:36:00'
   stop_headsign: 元加治駅
@@ -1404,7 +1404,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+7
   stop_sequence: 10
-  stop_id: '32_1'
+  stop_id: hannocity-seimei-kaji:32_1
   arrival_time: '15:37:00'
   departure_time: '15:37:00'
   stop_headsign: 元加治駅
@@ -1413,7 +1413,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+7
   stop_sequence: 11
-  stop_id: '33_1'
+  stop_id: hannocity-seimei-kaji:33_1
   arrival_time: '15:38:00'
   departure_time: '15:38:00'
   stop_headsign: 元加治駅
@@ -1422,7 +1422,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+7
   stop_sequence: 12
-  stop_id: '34_1'
+  stop_id: hannocity-seimei-kaji:34_1
   arrival_time: '15:39:00'
   departure_time: '15:39:00'
   stop_headsign: 元加治駅
@@ -1431,7 +1431,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+7
   stop_sequence: 13
-  stop_id: '35_0'
+  stop_id: hannocity-seimei-kaji:35_0
   arrival_time: '15:42:00'
   departure_time: '15:42:00'
   stop_headsign: 元加治駅
@@ -1440,7 +1440,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+7
   stop_sequence: 14
-  stop_id: '36_1'
+  stop_id: hannocity-seimei-kaji:36_1
   arrival_time: '15:44:00'
   departure_time: '15:44:00'
   stop_headsign: 元加治駅
@@ -1449,7 +1449,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+7
   stop_sequence: 15
-  stop_id: '37_0'
+  stop_id: hannocity-seimei-kaji:37_0
   arrival_time: '15:46:00'
   departure_time: '15:46:00'
   stop_headsign: 元加治駅
@@ -1458,7 +1458,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+7
   stop_sequence: 16
-  stop_id: '38_1'
+  stop_id: hannocity-seimei-kaji:38_1
   arrival_time: '15:48:00'
   departure_time: '15:48:00'
   stop_headsign: 元加治駅
@@ -1467,7 +1467,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+7
   stop_sequence: 17
-  stop_id: '39_1'
+  stop_id: hannocity-seimei-kaji:39_1
   arrival_time: '15:49:00'
   departure_time: '15:49:00'
   stop_headsign: 元加治駅
@@ -1476,7 +1476,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+7
   stop_sequence: 18
-  stop_id: '40_0'
+  stop_id: hannocity-seimei-kaji:40_0
   arrival_time: '15:53:00'
   departure_time: '15:53:00'
   stop_headsign: 東飯能駅東口
@@ -1485,7 +1485,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+7
   stop_sequence: 19
-  stop_id: '39_2'
+  stop_id: hannocity-seimei-kaji:39_2
   arrival_time: '15:54:00'
   departure_time: '15:54:00'
   stop_headsign: 東飯能駅東口
@@ -1494,7 +1494,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+7
   stop_sequence: 20
-  stop_id: '38_2'
+  stop_id: hannocity-seimei-kaji:38_2
   arrival_time: '15:55:00'
   departure_time: '15:55:00'
   stop_headsign: 東飯能駅東口
@@ -1503,7 +1503,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+7
   stop_sequence: 21
-  stop_id: '37_0'
+  stop_id: hannocity-seimei-kaji:37_0
   arrival_time: '15:57:00'
   departure_time: '15:57:00'
   stop_headsign: 東飯能駅東口
@@ -1512,7 +1512,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+7
   stop_sequence: 22
-  stop_id: '36_2'
+  stop_id: hannocity-seimei-kaji:36_2
   arrival_time: '15:59:00'
   departure_time: '15:59:00'
   stop_headsign: 東飯能駅東口
@@ -1521,7 +1521,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+7
   stop_sequence: 23
-  stop_id: '35_0'
+  stop_id: hannocity-seimei-kaji:35_0
   arrival_time: '16:01:00'
   departure_time: '16:01:00'
   stop_headsign: 東飯能駅東口
@@ -1530,7 +1530,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+7
   stop_sequence: 24
-  stop_id: '34_2'
+  stop_id: hannocity-seimei-kaji:34_2
   arrival_time: '16:02:00'
   departure_time: '16:02:00'
   stop_headsign: 東飯能駅東口
@@ -1539,7 +1539,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+7
   stop_sequence: 25
-  stop_id: '33_2'
+  stop_id: hannocity-seimei-kaji:33_2
   arrival_time: '16:03:00'
   departure_time: '16:03:00'
   stop_headsign: 東飯能駅東口
@@ -1548,7 +1548,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+7
   stop_sequence: 26
-  stop_id: '32_2'
+  stop_id: hannocity-seimei-kaji:32_2
   arrival_time: '16:04:00'
   departure_time: '16:04:00'
   stop_headsign: 東飯能駅東口
@@ -1557,7 +1557,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+7
   stop_sequence: 27
-  stop_id: '31_2'
+  stop_id: hannocity-seimei-kaji:31_2
   arrival_time: '16:05:00'
   departure_time: '16:05:00'
   stop_headsign: 東飯能駅東口
@@ -1566,7 +1566,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+7
   stop_sequence: 28
-  stop_id: '41_0'
+  stop_id: hannocity-seimei-kaji:41_0
   arrival_time: '16:07:00'
   departure_time: '16:07:00'
   stop_headsign: 東飯能駅東口
@@ -1575,7 +1575,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+7
   stop_sequence: 29
-  stop_id: '30_2'
+  stop_id: hannocity-seimei-kaji:30_2
   arrival_time: '16:08:00'
   departure_time: '16:08:00'
   stop_headsign: 東飯能駅東口
@@ -1584,7 +1584,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+7
   stop_sequence: 30
-  stop_id: '6_2'
+  stop_id: hannocity-seimei-kaji:6_2
   arrival_time: '16:09:00'
   departure_time: '16:09:00'
   stop_headsign: 東飯能駅東口
@@ -1593,7 +1593,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+7
   stop_sequence: 31
-  stop_id: '5_2'
+  stop_id: hannocity-seimei-kaji:5_2
   arrival_time: '16:10:00'
   departure_time: '16:10:00'
   stop_headsign: 東飯能駅東口
@@ -1602,7 +1602,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+7
   stop_sequence: 32
-  stop_id: '4_2'
+  stop_id: hannocity-seimei-kaji:4_2
   arrival_time: '16:12:00'
   departure_time: '16:12:00'
   stop_headsign: 東飯能駅東口
@@ -1611,7 +1611,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+7
   stop_sequence: 33
-  stop_id: '3_0'
+  stop_id: hannocity-seimei-kaji:3_0
   arrival_time: '16:13:00'
   departure_time: '16:13:00'
   stop_headsign: 東飯能駅東口
@@ -1620,7 +1620,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+7
   stop_sequence: 34
-  stop_id: '2_2'
+  stop_id: hannocity-seimei-kaji:2_2
   arrival_time: '16:15:00'
   departure_time: '16:15:00'
   stop_headsign: 東飯能駅東口
@@ -1629,7 +1629,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+7
   stop_sequence: 35
-  stop_id: '1_0'
+  stop_id: hannocity-seimei-kaji:1_0
   arrival_time: '16:16:00'
   departure_time: '16:16:00'
   stop_headsign: 東飯能駅東口
@@ -1638,7 +1638,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 1
-  stop_id: '1_0'
+  stop_id: hannocity-seimei-kaji:1_0
   arrival_time: '9:10:00'
   departure_time: '9:10:00'
   stop_headsign: 下川崎センター
@@ -1647,7 +1647,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 2
-  stop_id: '2_1'
+  stop_id: hannocity-seimei-kaji:2_1
   arrival_time: '9:11:00'
   departure_time: '9:11:00'
   stop_headsign: 下川崎センター
@@ -1656,7 +1656,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 3
-  stop_id: '3_0'
+  stop_id: hannocity-seimei-kaji:3_0
   arrival_time: '9:14:00'
   departure_time: '9:14:00'
   stop_headsign: 下川崎センター
@@ -1665,7 +1665,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 4
-  stop_id: '4_1'
+  stop_id: hannocity-seimei-kaji:4_1
   arrival_time: '9:15:00'
   departure_time: '9:15:00'
   stop_headsign: 下川崎センター
@@ -1674,7 +1674,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 5
-  stop_id: '5_1'
+  stop_id: hannocity-seimei-kaji:5_1
   arrival_time: '9:16:00'
   departure_time: '9:16:00'
   stop_headsign: 下川崎センター
@@ -1683,7 +1683,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 6
-  stop_id: '6_1'
+  stop_id: hannocity-seimei-kaji:6_1
   arrival_time: '9:17:00'
   departure_time: '9:17:00'
   stop_headsign: 下川崎センター
@@ -1692,7 +1692,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 7
-  stop_id: '7_1'
+  stop_id: hannocity-seimei-kaji:7_1
   arrival_time: '9:23:00'
   departure_time: '9:23:00'
   stop_headsign: 下川崎センター
@@ -1701,7 +1701,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 8
-  stop_id: '8_0'
+  stop_id: hannocity-seimei-kaji:8_0
   arrival_time: '9:24:00'
   departure_time: '9:24:00'
   stop_headsign: 下川崎センター
@@ -1710,7 +1710,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 9
-  stop_id: '9_0'
+  stop_id: hannocity-seimei-kaji:9_0
   arrival_time: '9:24:00'
   departure_time: '9:24:00'
   stop_headsign: 下川崎センター
@@ -1719,7 +1719,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 10
-  stop_id: '10_1'
+  stop_id: hannocity-seimei-kaji:10_1
   arrival_time: '9:28:00'
   departure_time: '9:28:00'
   stop_headsign: 下川崎センター
@@ -1728,7 +1728,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 11
-  stop_id: '18_1'
+  stop_id: hannocity-seimei-kaji:18_1
   arrival_time: '9:29:00'
   departure_time: '9:29:00'
   stop_headsign: 下川崎センター
@@ -1737,7 +1737,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 12
-  stop_id: '19_1'
+  stop_id: hannocity-seimei-kaji:19_1
   arrival_time: '9:29:00'
   departure_time: '9:29:00'
   stop_headsign: 下川崎センター
@@ -1746,7 +1746,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 13
-  stop_id: '20_0'
+  stop_id: hannocity-seimei-kaji:20_0
   arrival_time: '9:31:00'
   departure_time: '9:31:00'
   stop_headsign: 下川崎センター
@@ -1755,7 +1755,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 14
-  stop_id: '21_0'
+  stop_id: hannocity-seimei-kaji:21_0
   arrival_time: '9:32:00'
   departure_time: '9:32:00'
   stop_headsign: 下川崎センター
@@ -1764,7 +1764,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 15
-  stop_id: '22_0'
+  stop_id: hannocity-seimei-kaji:22_0
   arrival_time: '9:34:00'
   departure_time: '9:34:00'
   stop_headsign: 下川崎センター
@@ -1773,7 +1773,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 16
-  stop_id: '23_0'
+  stop_id: hannocity-seimei-kaji:23_0
   arrival_time: '9:35:00'
   departure_time: '9:35:00'
   stop_headsign: 下川崎センター
@@ -1782,7 +1782,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 17
-  stop_id: '24_0'
+  stop_id: hannocity-seimei-kaji:24_0
   arrival_time: '9:37:00'
   departure_time: '9:37:00'
   stop_headsign: 下川崎センター
@@ -1791,7 +1791,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 18
-  stop_id: '25_0'
+  stop_id: hannocity-seimei-kaji:25_0
   arrival_time: '9:38:00'
   departure_time: '9:38:00'
   stop_headsign: 下川崎センター
@@ -1800,7 +1800,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 19
-  stop_id: '26_0'
+  stop_id: hannocity-seimei-kaji:26_0
   arrival_time: '9:39:00'
   departure_time: '9:39:00'
   stop_headsign: 東飯能駅東口
@@ -1809,7 +1809,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 20
-  stop_id: '27_0'
+  stop_id: hannocity-seimei-kaji:27_0
   arrival_time: '9:41:00'
   departure_time: '9:41:00'
   stop_headsign: 東飯能駅東口
@@ -1818,7 +1818,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 21
-  stop_id: '28_0'
+  stop_id: hannocity-seimei-kaji:28_0
   arrival_time: '9:42:00'
   departure_time: '9:42:00'
   stop_headsign: 東飯能駅東口
@@ -1827,7 +1827,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 22
-  stop_id: '29_0'
+  stop_id: hannocity-seimei-kaji:29_0
   arrival_time: '9:43:00'
   departure_time: '9:43:00'
   stop_headsign: 東飯能駅東口
@@ -1836,7 +1836,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 23
-  stop_id: '19_2'
+  stop_id: hannocity-seimei-kaji:19_2
   arrival_time: '9:44:00'
   departure_time: '9:44:00'
   stop_headsign: 東飯能駅東口
@@ -1845,7 +1845,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 24
-  stop_id: '18_2'
+  stop_id: hannocity-seimei-kaji:18_2
   arrival_time: '9:44:00'
   departure_time: '9:44:00'
   stop_headsign: 東飯能駅東口
@@ -1854,7 +1854,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 25
-  stop_id: '10_2'
+  stop_id: hannocity-seimei-kaji:10_2
   arrival_time: '9:46:00'
   departure_time: '9:46:00'
   stop_headsign: 東飯能駅東口
@@ -1863,7 +1863,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 26
-  stop_id: '9_0'
+  stop_id: hannocity-seimei-kaji:9_0
   arrival_time: '9:48:00'
   departure_time: '9:48:00'
   stop_headsign: 東飯能駅東口
@@ -1872,7 +1872,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 27
-  stop_id: '8_0'
+  stop_id: hannocity-seimei-kaji:8_0
   arrival_time: '9:48:00'
   departure_time: '9:48:00'
   stop_headsign: 東飯能駅東口
@@ -1881,7 +1881,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 28
-  stop_id: '7_2'
+  stop_id: hannocity-seimei-kaji:7_2
   arrival_time: '9:49:00'
   departure_time: '9:49:00'
   stop_headsign: 東飯能駅東口
@@ -1890,7 +1890,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 29
-  stop_id: '6_2'
+  stop_id: hannocity-seimei-kaji:6_2
   arrival_time: '9:55:00'
   departure_time: '9:55:00'
   stop_headsign: 東飯能駅東口
@@ -1899,7 +1899,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 30
-  stop_id: '5_2'
+  stop_id: hannocity-seimei-kaji:5_2
   arrival_time: '9:56:00'
   departure_time: '9:56:00'
   stop_headsign: 東飯能駅東口
@@ -1908,7 +1908,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 31
-  stop_id: '4_2'
+  stop_id: hannocity-seimei-kaji:4_2
   arrival_time: '9:58:00'
   departure_time: '9:58:00'
   stop_headsign: 東飯能駅東口
@@ -1917,7 +1917,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 32
-  stop_id: '3_0'
+  stop_id: hannocity-seimei-kaji:3_0
   arrival_time: '9:59:00'
   departure_time: '9:59:00'
   stop_headsign: 東飯能駅東口
@@ -1926,7 +1926,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 33
-  stop_id: '2_2'
+  stop_id: hannocity-seimei-kaji:2_2
   arrival_time: '10:01:00'
   departure_time: '10:01:00'
   stop_headsign: 東飯能駅東口
@@ -1935,7 +1935,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 34
-  stop_id: '1_0'
+  stop_id: hannocity-seimei-kaji:1_0
   arrival_time: '10:02:00'
   departure_time: '10:02:00'
   stop_headsign: 東飯能駅東口
@@ -1944,7 +1944,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+6
   stop_sequence: 1
-  stop_id: '1_0'
+  stop_id: hannocity-seimei-kaji:1_0
   arrival_time: '14:25:00'
   departure_time: '14:25:00'
   stop_headsign: 下川崎センター
@@ -1953,7 +1953,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+6
   stop_sequence: 2
-  stop_id: '2_1'
+  stop_id: hannocity-seimei-kaji:2_1
   arrival_time: '14:26:00'
   departure_time: '14:26:00'
   stop_headsign: 下川崎センター
@@ -1962,7 +1962,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+6
   stop_sequence: 3
-  stop_id: '3_0'
+  stop_id: hannocity-seimei-kaji:3_0
   arrival_time: '14:29:00'
   departure_time: '14:29:00'
   stop_headsign: 下川崎センター
@@ -1971,7 +1971,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+6
   stop_sequence: 4
-  stop_id: '4_1'
+  stop_id: hannocity-seimei-kaji:4_1
   arrival_time: '14:30:00'
   departure_time: '14:30:00'
   stop_headsign: 下川崎センター
@@ -1980,7 +1980,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+6
   stop_sequence: 5
-  stop_id: '5_1'
+  stop_id: hannocity-seimei-kaji:5_1
   arrival_time: '14:31:00'
   departure_time: '14:31:00'
   stop_headsign: 下川崎センター
@@ -1989,7 +1989,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+6
   stop_sequence: 6
-  stop_id: '6_1'
+  stop_id: hannocity-seimei-kaji:6_1
   arrival_time: '14:32:00'
   departure_time: '14:32:00'
   stop_headsign: 下川崎センター
@@ -1998,7 +1998,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+6
   stop_sequence: 7
-  stop_id: '7_1'
+  stop_id: hannocity-seimei-kaji:7_1
   arrival_time: '14:38:00'
   departure_time: '14:38:00'
   stop_headsign: 下川崎センター
@@ -2007,7 +2007,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+6
   stop_sequence: 8
-  stop_id: '8_0'
+  stop_id: hannocity-seimei-kaji:8_0
   arrival_time: '14:39:00'
   departure_time: '14:39:00'
   stop_headsign: 下川崎センター
@@ -2016,7 +2016,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+6
   stop_sequence: 9
-  stop_id: '9_0'
+  stop_id: hannocity-seimei-kaji:9_0
   arrival_time: '14:39:00'
   departure_time: '14:39:00'
   stop_headsign: 下川崎センター
@@ -2025,7 +2025,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+6
   stop_sequence: 10
-  stop_id: '10_1'
+  stop_id: hannocity-seimei-kaji:10_1
   arrival_time: '14:42:00'
   departure_time: '14:42:00'
   stop_headsign: 下川崎センター
@@ -2034,7 +2034,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+6
   stop_sequence: 11
-  stop_id: '18_1'
+  stop_id: hannocity-seimei-kaji:18_1
   arrival_time: '14:43:00'
   departure_time: '14:43:00'
   stop_headsign: 下川崎センター
@@ -2043,7 +2043,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+6
   stop_sequence: 12
-  stop_id: '19_1'
+  stop_id: hannocity-seimei-kaji:19_1
   arrival_time: '14:43:00'
   departure_time: '14:43:00'
   stop_headsign: 下川崎センター
@@ -2052,7 +2052,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+6
   stop_sequence: 13
-  stop_id: '20_0'
+  stop_id: hannocity-seimei-kaji:20_0
   arrival_time: '14:45:00'
   departure_time: '14:45:00'
   stop_headsign: 下川崎センター
@@ -2061,7 +2061,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+6
   stop_sequence: 14
-  stop_id: '21_0'
+  stop_id: hannocity-seimei-kaji:21_0
   arrival_time: '14:46:00'
   departure_time: '14:46:00'
   stop_headsign: 下川崎センター
@@ -2070,7 +2070,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+6
   stop_sequence: 15
-  stop_id: '22_0'
+  stop_id: hannocity-seimei-kaji:22_0
   arrival_time: '14:48:00'
   departure_time: '14:48:00'
   stop_headsign: 下川崎センター
@@ -2079,7 +2079,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+6
   stop_sequence: 16
-  stop_id: '23_0'
+  stop_id: hannocity-seimei-kaji:23_0
   arrival_time: '14:49:00'
   departure_time: '14:49:00'
   stop_headsign: 下川崎センター
@@ -2088,7 +2088,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+6
   stop_sequence: 17
-  stop_id: '24_0'
+  stop_id: hannocity-seimei-kaji:24_0
   arrival_time: '14:51:00'
   departure_time: '14:51:00'
   stop_headsign: 下川崎センター
@@ -2097,7 +2097,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+6
   stop_sequence: 18
-  stop_id: '25_0'
+  stop_id: hannocity-seimei-kaji:25_0
   arrival_time: '14:52:00'
   departure_time: '14:52:00'
   stop_headsign: 下川崎センター
@@ -2106,7 +2106,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+6
   stop_sequence: 19
-  stop_id: '26_0'
+  stop_id: hannocity-seimei-kaji:26_0
   arrival_time: '14:53:00'
   departure_time: '14:53:00'
   stop_headsign: 東飯能駅東口
@@ -2115,7 +2115,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+6
   stop_sequence: 20
-  stop_id: '27_0'
+  stop_id: hannocity-seimei-kaji:27_0
   arrival_time: '14:55:00'
   departure_time: '14:55:00'
   stop_headsign: 東飯能駅東口
@@ -2124,7 +2124,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+6
   stop_sequence: 21
-  stop_id: '28_0'
+  stop_id: hannocity-seimei-kaji:28_0
   arrival_time: '14:56:00'
   departure_time: '14:56:00'
   stop_headsign: 東飯能駅東口
@@ -2133,7 +2133,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+6
   stop_sequence: 22
-  stop_id: '29_0'
+  stop_id: hannocity-seimei-kaji:29_0
   arrival_time: '14:57:00'
   departure_time: '14:57:00'
   stop_headsign: 東飯能駅東口
@@ -2142,7 +2142,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+6
   stop_sequence: 23
-  stop_id: '19_2'
+  stop_id: hannocity-seimei-kaji:19_2
   arrival_time: '14:58:00'
   departure_time: '14:58:00'
   stop_headsign: 東飯能駅東口
@@ -2151,7 +2151,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+6
   stop_sequence: 24
-  stop_id: '18_2'
+  stop_id: hannocity-seimei-kaji:18_2
   arrival_time: '14:58:00'
   departure_time: '14:58:00'
   stop_headsign: 東飯能駅東口
@@ -2160,7 +2160,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+6
   stop_sequence: 25
-  stop_id: '10_2'
+  stop_id: hannocity-seimei-kaji:10_2
   arrival_time: '14:59:00'
   departure_time: '14:59:00'
   stop_headsign: 東飯能駅東口
@@ -2169,7 +2169,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+6
   stop_sequence: 26
-  stop_id: '9_0'
+  stop_id: hannocity-seimei-kaji:9_0
   arrival_time: '15:01:00'
   departure_time: '15:01:00'
   stop_headsign: 東飯能駅東口
@@ -2178,7 +2178,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+6
   stop_sequence: 27
-  stop_id: '8_0'
+  stop_id: hannocity-seimei-kaji:8_0
   arrival_time: '15:01:00'
   departure_time: '15:01:00'
   stop_headsign: 東飯能駅東口
@@ -2187,7 +2187,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+6
   stop_sequence: 28
-  stop_id: '7_2'
+  stop_id: hannocity-seimei-kaji:7_2
   arrival_time: '15:02:00'
   departure_time: '15:02:00'
   stop_headsign: 東飯能駅東口
@@ -2196,7 +2196,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+6
   stop_sequence: 29
-  stop_id: '6_2'
+  stop_id: hannocity-seimei-kaji:6_2
   arrival_time: '15:08:00'
   departure_time: '15:08:00'
   stop_headsign: 東飯能駅東口
@@ -2205,7 +2205,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+6
   stop_sequence: 30
-  stop_id: '5_2'
+  stop_id: hannocity-seimei-kaji:5_2
   arrival_time: '15:09:00'
   departure_time: '15:09:00'
   stop_headsign: 東飯能駅東口
@@ -2214,7 +2214,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+6
   stop_sequence: 31
-  stop_id: '4_2'
+  stop_id: hannocity-seimei-kaji:4_2
   arrival_time: '15:11:00'
   departure_time: '15:11:00'
   stop_headsign: 東飯能駅東口
@@ -2223,7 +2223,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+6
   stop_sequence: 32
-  stop_id: '3_0'
+  stop_id: hannocity-seimei-kaji:3_0
   arrival_time: '15:12:00'
   departure_time: '15:12:00'
   stop_headsign: 東飯能駅東口
@@ -2232,7 +2232,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+6
   stop_sequence: 33
-  stop_id: '2_2'
+  stop_id: hannocity-seimei-kaji:2_2
   arrival_time: '15:14:00'
   departure_time: '15:14:00'
   stop_headsign: 東飯能駅東口
@@ -2241,7 +2241,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+6
   stop_sequence: 34
-  stop_id: '1_0'
+  stop_id: hannocity-seimei-kaji:1_0
   arrival_time: '15:15:00'
   departure_time: '15:15:00'
   stop_headsign: 東飯能駅東口
@@ -2250,7 +2250,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明西系統+1+月水金+4
   stop_sequence: 1
-  stop_id: '1_0'
+  stop_id: hannocity-seimei-kaji:1_0
   arrival_time: '11:25:00'
   departure_time: '11:25:00'
   stop_headsign: 平松団地
@@ -2259,7 +2259,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明西系統+1+月水金+4
   stop_sequence: 2
-  stop_id: '2_1'
+  stop_id: hannocity-seimei-kaji:2_1
   arrival_time: '11:26:00'
   departure_time: '11:26:00'
   stop_headsign: 平松団地
@@ -2268,7 +2268,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明西系統+1+月水金+4
   stop_sequence: 3
-  stop_id: '3_0'
+  stop_id: hannocity-seimei-kaji:3_0
   arrival_time: '11:29:00'
   departure_time: '11:29:00'
   stop_headsign: 平松団地
@@ -2277,7 +2277,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明西系統+1+月水金+4
   stop_sequence: 4
-  stop_id: '4_1'
+  stop_id: hannocity-seimei-kaji:4_1
   arrival_time: '11:30:00'
   departure_time: '11:30:00'
   stop_headsign: 平松団地
@@ -2286,7 +2286,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明西系統+1+月水金+4
   stop_sequence: 5
-  stop_id: '5_1'
+  stop_id: hannocity-seimei-kaji:5_1
   arrival_time: '11:31:00'
   departure_time: '11:31:00'
   stop_headsign: 平松団地
@@ -2295,7 +2295,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明西系統+1+月水金+4
   stop_sequence: 6
-  stop_id: '6_1'
+  stop_id: hannocity-seimei-kaji:6_1
   arrival_time: '11:32:00'
   departure_time: '11:32:00'
   stop_headsign: 平松団地
@@ -2304,7 +2304,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明西系統+1+月水金+4
   stop_sequence: 7
-  stop_id: '7_1'
+  stop_id: hannocity-seimei-kaji:7_1
   arrival_time: '11:38:00'
   departure_time: '11:38:00'
   stop_headsign: 平松団地
@@ -2313,7 +2313,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明西系統+1+月水金+4
   stop_sequence: 8
-  stop_id: '8_0'
+  stop_id: hannocity-seimei-kaji:8_0
   arrival_time: '11:39:00'
   departure_time: '11:39:00'
   stop_headsign: 平松団地
@@ -2322,7 +2322,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明西系統+1+月水金+4
   stop_sequence: 9
-  stop_id: '9_0'
+  stop_id: hannocity-seimei-kaji:9_0
   arrival_time: '11:39:00'
   departure_time: '11:39:00'
   stop_headsign: 平松団地
@@ -2331,7 +2331,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明西系統+1+月水金+4
   stop_sequence: 10
-  stop_id: '10_1'
+  stop_id: hannocity-seimei-kaji:10_1
   arrival_time: '11:43:00'
   departure_time: '11:43:00'
   stop_headsign: 東飯能駅東口
@@ -2340,7 +2340,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明西系統+1+月水金+4
   stop_sequence: 11
-  stop_id: '11_0'
+  stop_id: hannocity-seimei-kaji:11_0
   arrival_time: '11:43:00'
   departure_time: '11:43:00'
   stop_headsign: 東飯能駅東口
@@ -2349,7 +2349,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明西系統+1+月水金+4
   stop_sequence: 12
-  stop_id: '12_0'
+  stop_id: hannocity-seimei-kaji:12_0
   arrival_time: '11:44:00'
   departure_time: '11:44:00'
   stop_headsign: 東飯能駅東口
@@ -2358,7 +2358,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明西系統+1+月水金+4
   stop_sequence: 13
-  stop_id: '13_0'
+  stop_id: hannocity-seimei-kaji:13_0
   arrival_time: '11:45:00'
   departure_time: '11:45:00'
   stop_headsign: 東飯能駅東口
@@ -2367,7 +2367,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明西系統+1+月水金+4
   stop_sequence: 14
-  stop_id: '14_0'
+  stop_id: hannocity-seimei-kaji:14_0
   arrival_time: '11:46:00'
   departure_time: '11:46:00'
   stop_headsign: 東飯能駅東口
@@ -2376,7 +2376,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明西系統+1+月水金+4
   stop_sequence: 15
-  stop_id: '15_0'
+  stop_id: hannocity-seimei-kaji:15_0
   arrival_time: '11:46:00'
   departure_time: '11:46:00'
   stop_headsign: 東飯能駅東口
@@ -2385,7 +2385,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明西系統+1+月水金+4
   stop_sequence: 16
-  stop_id: '16_0'
+  stop_id: hannocity-seimei-kaji:16_0
   arrival_time: '11:47:00'
   departure_time: '11:47:00'
   stop_headsign: 東飯能駅東口
@@ -2394,7 +2394,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明西系統+1+月水金+4
   stop_sequence: 17
-  stop_id: '17_0'
+  stop_id: hannocity-seimei-kaji:17_0
   arrival_time: '11:48:00'
   departure_time: '11:48:00'
   stop_headsign: 東飯能駅東口
@@ -2403,7 +2403,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明西系統+1+月水金+4
   stop_sequence: 18
-  stop_id: '6_2'
+  stop_id: hannocity-seimei-kaji:6_2
   arrival_time: '11:51:00'
   departure_time: '11:51:00'
   stop_headsign: 東飯能駅東口
@@ -2412,7 +2412,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明西系統+1+月水金+4
   stop_sequence: 19
-  stop_id: '5_2'
+  stop_id: hannocity-seimei-kaji:5_2
   arrival_time: '11:52:00'
   departure_time: '11:52:00'
   stop_headsign: 東飯能駅東口
@@ -2421,7 +2421,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明西系統+1+月水金+4
   stop_sequence: 20
-  stop_id: '4_2'
+  stop_id: hannocity-seimei-kaji:4_2
   arrival_time: '11:54:00'
   departure_time: '11:54:00'
   stop_headsign: 東飯能駅東口
@@ -2430,7 +2430,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明西系統+1+月水金+4
   stop_sequence: 21
-  stop_id: '3_0'
+  stop_id: hannocity-seimei-kaji:3_0
   arrival_time: '11:55:00'
   departure_time: '11:55:00'
   stop_headsign: 東飯能駅東口
@@ -2439,7 +2439,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明西系統+1+月水金+4
   stop_sequence: 22
-  stop_id: '2_2'
+  stop_id: hannocity-seimei-kaji:2_2
   arrival_time: '11:57:00'
   departure_time: '11:57:00'
   stop_headsign: 東飯能駅東口
@@ -2448,7 +2448,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明西系統+1+月水金+4
   stop_sequence: 23
-  stop_id: '1_0'
+  stop_id: hannocity-seimei-kaji:1_0
   arrival_time: '11:58:00'
   departure_time: '11:58:00'
   stop_headsign: 東飯能駅東口
@@ -2457,7 +2457,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明西系統+1+月水金+8
   stop_sequence: 1
-  stop_id: '1_0'
+  stop_id: hannocity-seimei-kaji:1_0
   arrival_time: '16:25:00'
   departure_time: '16:25:00'
   stop_headsign: 平松団地
@@ -2466,7 +2466,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明西系統+1+月水金+8
   stop_sequence: 2
-  stop_id: '2_1'
+  stop_id: hannocity-seimei-kaji:2_1
   arrival_time: '16:26:00'
   departure_time: '16:26:00'
   stop_headsign: 平松団地
@@ -2475,7 +2475,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明西系統+1+月水金+8
   stop_sequence: 3
-  stop_id: '3_0'
+  stop_id: hannocity-seimei-kaji:3_0
   arrival_time: '16:29:00'
   departure_time: '16:29:00'
   stop_headsign: 平松団地
@@ -2484,7 +2484,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明西系統+1+月水金+8
   stop_sequence: 4
-  stop_id: '4_1'
+  stop_id: hannocity-seimei-kaji:4_1
   arrival_time: '16:30:00'
   departure_time: '16:30:00'
   stop_headsign: 平松団地
@@ -2493,7 +2493,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明西系統+1+月水金+8
   stop_sequence: 5
-  stop_id: '5_1'
+  stop_id: hannocity-seimei-kaji:5_1
   arrival_time: '16:31:00'
   departure_time: '16:31:00'
   stop_headsign: 平松団地
@@ -2502,7 +2502,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明西系統+1+月水金+8
   stop_sequence: 6
-  stop_id: '6_1'
+  stop_id: hannocity-seimei-kaji:6_1
   arrival_time: '16:32:00'
   departure_time: '16:32:00'
   stop_headsign: 平松団地
@@ -2511,7 +2511,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明西系統+1+月水金+8
   stop_sequence: 7
-  stop_id: '7_1'
+  stop_id: hannocity-seimei-kaji:7_1
   arrival_time: '16:38:00'
   departure_time: '16:38:00'
   stop_headsign: 平松団地
@@ -2520,7 +2520,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明西系統+1+月水金+8
   stop_sequence: 8
-  stop_id: '8_0'
+  stop_id: hannocity-seimei-kaji:8_0
   arrival_time: '16:39:00'
   departure_time: '16:39:00'
   stop_headsign: 平松団地
@@ -2529,7 +2529,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明西系統+1+月水金+8
   stop_sequence: 9
-  stop_id: '9_0'
+  stop_id: hannocity-seimei-kaji:9_0
   arrival_time: '16:39:00'
   departure_time: '16:39:00'
   stop_headsign: 平松団地
@@ -2538,7 +2538,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明西系統+1+月水金+8
   stop_sequence: 10
-  stop_id: '10_1'
+  stop_id: hannocity-seimei-kaji:10_1
   arrival_time: '16:42:00'
   departure_time: '16:42:00'
   stop_headsign: 東飯能駅東口
@@ -2547,7 +2547,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明西系統+1+月水金+8
   stop_sequence: 11
-  stop_id: '11_0'
+  stop_id: hannocity-seimei-kaji:11_0
   arrival_time: '16:42:00'
   departure_time: '16:42:00'
   stop_headsign: 東飯能駅東口
@@ -2556,7 +2556,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明西系統+1+月水金+8
   stop_sequence: 12
-  stop_id: '12_0'
+  stop_id: hannocity-seimei-kaji:12_0
   arrival_time: '16:43:00'
   departure_time: '16:43:00'
   stop_headsign: 東飯能駅東口
@@ -2565,7 +2565,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明西系統+1+月水金+8
   stop_sequence: 13
-  stop_id: '13_0'
+  stop_id: hannocity-seimei-kaji:13_0
   arrival_time: '16:44:00'
   departure_time: '16:44:00'
   stop_headsign: 東飯能駅東口
@@ -2574,7 +2574,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明西系統+1+月水金+8
   stop_sequence: 14
-  stop_id: '14_0'
+  stop_id: hannocity-seimei-kaji:14_0
   arrival_time: '16:45:00'
   departure_time: '16:45:00'
   stop_headsign: 東飯能駅東口
@@ -2583,7 +2583,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明西系統+1+月水金+8
   stop_sequence: 15
-  stop_id: '15_0'
+  stop_id: hannocity-seimei-kaji:15_0
   arrival_time: '16:45:00'
   departure_time: '16:45:00'
   stop_headsign: 東飯能駅東口
@@ -2592,7 +2592,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明西系統+1+月水金+8
   stop_sequence: 16
-  stop_id: '16_0'
+  stop_id: hannocity-seimei-kaji:16_0
   arrival_time: '16:46:00'
   departure_time: '16:46:00'
   stop_headsign: 東飯能駅東口
@@ -2601,7 +2601,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明西系統+1+月水金+8
   stop_sequence: 17
-  stop_id: '17_0'
+  stop_id: hannocity-seimei-kaji:17_0
   arrival_time: '16:47:00'
   departure_time: '16:47:00'
   stop_headsign: 東飯能駅東口
@@ -2610,7 +2610,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明西系統+1+月水金+8
   stop_sequence: 18
-  stop_id: '6_2'
+  stop_id: hannocity-seimei-kaji:6_2
   arrival_time: '16:50:00'
   departure_time: '16:50:00'
   stop_headsign: 東飯能駅東口
@@ -2619,7 +2619,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明西系統+1+月水金+8
   stop_sequence: 19
-  stop_id: '5_2'
+  stop_id: hannocity-seimei-kaji:5_2
   arrival_time: '16:51:00'
   departure_time: '16:51:00'
   stop_headsign: 東飯能駅東口
@@ -2628,7 +2628,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明西系統+1+月水金+8
   stop_sequence: 20
-  stop_id: '4_2'
+  stop_id: hannocity-seimei-kaji:4_2
   arrival_time: '16:53:00'
   departure_time: '16:53:00'
   stop_headsign: 東飯能駅東口
@@ -2637,7 +2637,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明西系統+1+月水金+8
   stop_sequence: 21
-  stop_id: '3_0'
+  stop_id: hannocity-seimei-kaji:3_0
   arrival_time: '16:54:00'
   departure_time: '16:54:00'
   stop_headsign: 東飯能駅東口
@@ -2646,7 +2646,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明西系統+1+月水金+8
   stop_sequence: 22
-  stop_id: '2_2'
+  stop_id: hannocity-seimei-kaji:2_2
   arrival_time: '16:56:00'
   departure_time: '16:56:00'
   stop_headsign: 東飯能駅東口
@@ -2655,7 +2655,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-seimei-kaji:精明西系統+1+月水金+8
   stop_sequence: 23
-  stop_id: '1_0'
+  stop_id: hannocity-seimei-kaji:1_0
   arrival_time: '16:57:00'
   departure_time: '16:57:00'
   stop_headsign: 東飯能駅東口

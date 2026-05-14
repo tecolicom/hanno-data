@@ -139,207 +139,207 @@ trips:
   direction_name: 南高麗・間野黒指方面
   shape_id: hannocity-minamikoma:SHP0008
 stops:
-- stop_id: '1_0'
+- stop_id: hannocity-minamikoma:1_0
   stop_name: 苅生自治会館
   location_type: 0
   stop_lat: 35.8489312441534
   stop_lon: 139.276222044326
-- stop_id: '2_1'
+- stop_id: hannocity-minamikoma:2_1
   stop_name: 間野黒指
   location_type: 0
   stop_lat: 35.8430069371233
   stop_lon: 139.233217548402
-- stop_id: '2_2'
+- stop_id: hannocity-minamikoma:2_2
   stop_name: 間野黒指
   location_type: 0
   stop_lat: 35.8429701969197
   stop_lon: 139.233358557949
-- stop_id: '3_1'
+- stop_id: hannocity-minamikoma:3_1
   stop_name: 間野
   location_type: 0
   stop_lat: 35.8425907286645
   stop_lon: 139.243169866364
-- stop_id: '3_2'
+- stop_id: hannocity-minamikoma:3_2
   stop_name: 間野
   location_type: 0
   stop_lat: 35.8426287784809
   stop_lon: 139.243275813613
-- stop_id: '4_1'
+- stop_id: hannocity-minamikoma:4_1
   stop_name: 下間野
   location_type: 0
   stop_lat: 35.8427346552281
   stop_lon: 139.251035905649
-- stop_id: '4_2'
+- stop_id: hannocity-minamikoma:4_2
   stop_name: 下間野
   location_type: 0
   stop_lat: 35.8427856409052
   stop_lon: 139.250986684255
-- stop_id: '5_1'
+- stop_id: hannocity-minamikoma:5_1
   stop_name: 弁天前
   location_type: 0
   stop_lat: 35.8437530073971
   stop_lon: 139.255809185033
-- stop_id: '5_2'
+- stop_id: hannocity-minamikoma:5_2
   stop_name: 弁天前
   location_type: 0
   stop_lat: 35.8438297098784
   stop_lon: 139.255704424519
-- stop_id: '6_1'
+- stop_id: hannocity-minamikoma:6_1
   stop_name: 南高麗
   location_type: 0
   stop_lat: 35.8457828540229
   stop_lon: 139.259641740227
-- stop_id: '6_2'
+- stop_id: hannocity-minamikoma:6_2
   stop_name: 南高麗
   location_type: 0
   stop_lat: 35.8458188405286
   stop_lon: 139.259819088193
-- stop_id: '7_1'
+- stop_id: hannocity-minamikoma:7_1
   stop_name: 申渕
   location_type: 0
   stop_lat: 35.8440665224108
   stop_lon: 139.265690826705
-- stop_id: '7_2'
+- stop_id: hannocity-minamikoma:7_2
   stop_name: 申渕
   location_type: 0
   stop_lat: 35.8441880860042
   stop_lon: 139.265695735595
-- stop_id: '8_1'
+- stop_id: hannocity-minamikoma:8_1
   stop_name: 八坂橋
   location_type: 0
   stop_lat: 35.8421913756729
   stop_lon: 139.274834305947
-- stop_id: '8_2'
+- stop_id: hannocity-minamikoma:8_2
   stop_name: 八坂橋
   location_type: 0
   stop_lat: 35.8422640215743
   stop_lon: 139.274943943174
-- stop_id: '9_1'
+- stop_id: hannocity-minamikoma:9_1
   stop_name: 南高麗小学校
   location_type: 0
   stop_lat: 35.8407582126419
   stop_lon: 139.278326874379
-- stop_id: '9_2'
+- stop_id: hannocity-minamikoma:9_2
   stop_name: 南高麗小学校
   location_type: 0
   stop_lat: 35.840750557247
   stop_lon: 139.278426253707
-- stop_id: '10_1'
+- stop_id: hannocity-minamikoma:10_1
   stop_name: 成木一丁目四ツ角
   location_type: 0
   stop_lat: 35.8388865775776
   stop_lon: 139.280862745412
-- stop_id: '10_2'
+- stop_id: hannocity-minamikoma:10_2
   stop_name: 成木一丁目四ツ角
   location_type: 0
   stop_lat: 35.8385856313327
   stop_lon: 139.281014824479
-- stop_id: '11_1'
+- stop_id: hannocity-minamikoma:11_1
   stop_name: 畑の蔵
   location_type: 0
   stop_lat: 35.8376934845077
   stop_lon: 139.28256464379
-- stop_id: '11_2'
+- stop_id: hannocity-minamikoma:11_2
   stop_name: 畑の蔵
   location_type: 0
   stop_lat: 35.8377652400046
   stop_lon: 139.282530445627
-- stop_id: '12_1'
+- stop_id: hannocity-minamikoma:12_1
   stop_name: 南高麗地区行政センター
   location_type: 0
   stop_lat: 35.8425521129534
   stop_lon: 139.27817345066
-- stop_id: '12_2'
+- stop_id: hannocity-minamikoma:12_2
   stop_name: 南高麗地区行政センター
   location_type: 0
   stop_lat: 35.8426904549384
   stop_lon: 139.278056234037
-- stop_id: '13_1'
+- stop_id: hannocity-minamikoma:13_1
   stop_name: 上畑
   location_type: 0
   stop_lat: 35.8377577464621
   stop_lon: 139.28554363072
-- stop_id: '13_2'
+- stop_id: hannocity-minamikoma:13_2
   stop_name: 上畑
   location_type: 0
   stop_lat: 35.8378277044465
   stop_lon: 139.285424144412
-- stop_id: '14_1'
+- stop_id: hannocity-minamikoma:14_1
   stop_name: 下畑
   location_type: 0
   stop_lat: 35.8382325241253
   stop_lon: 139.292140563995
-- stop_id: '14_2'
+- stop_id: hannocity-minamikoma:14_2
   stop_name: 下畑
   location_type: 0
   stop_lat: 35.8384255161257
   stop_lon: 139.291227457083
-- stop_id: '15_1'
+- stop_id: hannocity-minamikoma:15_1
   stop_name: 飯能リハビリ館
   location_type: 0
   stop_lat: 35.8364630078763
   stop_lon: 139.294873300359
-- stop_id: '15_2'
+- stop_id: hannocity-minamikoma:15_2
   stop_name: 飯能リハビリ館
   location_type: 0
   stop_lat: 35.8365068914303
   stop_lon: 139.294895854957
-- stop_id: '16_1'
+- stop_id: hannocity-minamikoma:16_1
   stop_name: 東下畑
   location_type: 0
   stop_lat: 35.8365417191891
   stop_lon: 139.299160897416
-- stop_id: '16_2'
+- stop_id: hannocity-minamikoma:16_2
   stop_name: 東下畑
   location_type: 0
   stop_lat: 35.8371844176543
   stop_lon: 139.299153310984
-- stop_id: '17_1'
+- stop_id: hannocity-minamikoma:17_1
   stop_name: 住宅前
   location_type: 0
   stop_lat: 35.8383360068167
   stop_lon: 139.30441227503
-- stop_id: '17_2'
+- stop_id: hannocity-minamikoma:17_2
   stop_name: 住宅前
   location_type: 0
   stop_lat: 35.8383000588406
   stop_lon: 139.303712166549
-- stop_id: '18_1'
+- stop_id: hannocity-minamikoma:18_1
   stop_name: 尾根下
   location_type: 0
   stop_lat: 35.8377868140292
   stop_lon: 139.306469281897
-- stop_id: '18_2'
+- stop_id: hannocity-minamikoma:18_2
   stop_name: 尾根下
   location_type: 0
   stop_lat: 35.8378188865322
   stop_lon: 139.306535666566
-- stop_id: '19_1'
+- stop_id: hannocity-minamikoma:19_1
   stop_name: みどり橋
   location_type: 0
   stop_lat: 35.8380556740372
   stop_lon: 139.308521475513
-- stop_id: '19_2'
+- stop_id: hannocity-minamikoma:19_2
   stop_name: みどり橋
   location_type: 0
   stop_lat: 35.8380284940319
   stop_lon: 139.308407481638
-- stop_id: '20_1'
+- stop_id: hannocity-minamikoma:20_1
   stop_name: アルプス美杉台店
   location_type: 0
   stop_lat: 35.8415583061394
   stop_lon: 139.310607904508
-- stop_id: '20_2'
+- stop_id: hannocity-minamikoma:20_2
   stop_name: アルプス美杉台店
   location_type: 0
   stop_lat: 35.8413602110723
   stop_lon: 139.310319646999
-- stop_id: '21_0'
+- stop_id: hannocity-minamikoma:21_0
   stop_name: 飯能駅
   location_type: 0
   stop_lat: 35.850845851143
   stop_lon: 139.320364524598
-- stop_id: '22_0'
+- stop_id: hannocity-minamikoma:22_0
   stop_name: 東飯能駅（駅前広場）
   location_type: 0
   stop_lat: 35.8524007396499
@@ -347,7 +347,7 @@ stops:
 stop_times:
 - trip_id: hannocity-minamikoma:3+1+月水金+1
   stop_sequence: 1
-  stop_id: '1_0'
+  stop_id: hannocity-minamikoma:1_0
   arrival_time: '9:58:00'
   departure_time: '9:58:00'
   pickup_type: 0
@@ -355,7 +355,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+1+月水金+1
   stop_sequence: 2
-  stop_id: '12_1'
+  stop_id: hannocity-minamikoma:12_1
   arrival_time: '10:01:00'
   departure_time: '10:01:00'
   pickup_type: 0
@@ -363,7 +363,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+1+月水金+1
   stop_sequence: 3
-  stop_id: '8_2'
+  stop_id: hannocity-minamikoma:8_2
   arrival_time: '10:02:00'
   departure_time: '10:02:00'
   pickup_type: 0
@@ -371,7 +371,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+1+月水金+1
   stop_sequence: 4
-  stop_id: '9_2'
+  stop_id: hannocity-minamikoma:9_2
   arrival_time: '10:03:00'
   departure_time: '10:03:00'
   pickup_type: 0
@@ -379,7 +379,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+1+月水金+1
   stop_sequence: 5
-  stop_id: '10_2'
+  stop_id: hannocity-minamikoma:10_2
   arrival_time: '10:04:00'
   departure_time: '10:04:00'
   pickup_type: 0
@@ -387,7 +387,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+1+月水金+1
   stop_sequence: 6
-  stop_id: '11_2'
+  stop_id: hannocity-minamikoma:11_2
   arrival_time: '10:04:00'
   departure_time: '10:04:00'
   pickup_type: 0
@@ -395,7 +395,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+1+月水金+1
   stop_sequence: 7
-  stop_id: '13_2'
+  stop_id: hannocity-minamikoma:13_2
   arrival_time: '10:05:00'
   departure_time: '10:05:00'
   pickup_type: 0
@@ -403,7 +403,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+1+月水金+1
   stop_sequence: 8
-  stop_id: '14_2'
+  stop_id: hannocity-minamikoma:14_2
   arrival_time: '10:06:00'
   departure_time: '10:06:00'
   pickup_type: 0
@@ -411,7 +411,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+1+月水金+1
   stop_sequence: 9
-  stop_id: '15_2'
+  stop_id: hannocity-minamikoma:15_2
   arrival_time: '10:08:00'
   departure_time: '10:08:00'
   pickup_type: 0
@@ -419,7 +419,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+1+月水金+1
   stop_sequence: 10
-  stop_id: '16_2'
+  stop_id: hannocity-minamikoma:16_2
   arrival_time: '10:10:00'
   departure_time: '10:10:00'
   pickup_type: 0
@@ -427,7 +427,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+1+月水金+1
   stop_sequence: 11
-  stop_id: '17_2'
+  stop_id: hannocity-minamikoma:17_2
   arrival_time: '10:11:00'
   departure_time: '10:11:00'
   pickup_type: 0
@@ -435,7 +435,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+1+月水金+1
   stop_sequence: 12
-  stop_id: '18_2'
+  stop_id: hannocity-minamikoma:18_2
   arrival_time: '10:12:00'
   departure_time: '10:12:00'
   pickup_type: 0
@@ -443,7 +443,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+1+月水金+1
   stop_sequence: 13
-  stop_id: '19_2'
+  stop_id: hannocity-minamikoma:19_2
   arrival_time: '10:13:00'
   departure_time: '10:13:00'
   pickup_type: 0
@@ -451,7 +451,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+1+月水金+1
   stop_sequence: 14
-  stop_id: '20_2'
+  stop_id: hannocity-minamikoma:20_2
   arrival_time: '10:13:00'
   departure_time: '10:13:00'
   pickup_type: 0
@@ -459,7 +459,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+1+月水金+1
   stop_sequence: 15
-  stop_id: '21_0'
+  stop_id: hannocity-minamikoma:21_0
   arrival_time: '10:20:00'
   departure_time: '10:20:00'
   pickup_type: 0
@@ -467,7 +467,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+1+月水金+1
   stop_sequence: 16
-  stop_id: '22_0'
+  stop_id: hannocity-minamikoma:22_0
   arrival_time: '10:25:00'
   departure_time: '10:25:00'
   pickup_type: 1
@@ -475,7 +475,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+1+月水金+2
   stop_sequence: 1
-  stop_id: '1_0'
+  stop_id: hannocity-minamikoma:1_0
   arrival_time: '13:30:00'
   departure_time: '13:30:00'
   pickup_type: 0
@@ -483,7 +483,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+1+月水金+2
   stop_sequence: 2
-  stop_id: '12_1'
+  stop_id: hannocity-minamikoma:12_1
   arrival_time: '13:33:00'
   departure_time: '13:33:00'
   pickup_type: 0
@@ -491,7 +491,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+1+月水金+2
   stop_sequence: 3
-  stop_id: '8_2'
+  stop_id: hannocity-minamikoma:8_2
   arrival_time: '13:34:00'
   departure_time: '13:34:00'
   pickup_type: 0
@@ -499,7 +499,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+1+月水金+2
   stop_sequence: 4
-  stop_id: '9_2'
+  stop_id: hannocity-minamikoma:9_2
   arrival_time: '13:35:00'
   departure_time: '13:35:00'
   pickup_type: 0
@@ -507,7 +507,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+1+月水金+2
   stop_sequence: 5
-  stop_id: '10_2'
+  stop_id: hannocity-minamikoma:10_2
   arrival_time: '13:36:00'
   departure_time: '13:36:00'
   pickup_type: 0
@@ -515,7 +515,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+1+月水金+2
   stop_sequence: 6
-  stop_id: '11_2'
+  stop_id: hannocity-minamikoma:11_2
   arrival_time: '13:36:00'
   departure_time: '13:36:00'
   pickup_type: 0
@@ -523,7 +523,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+1+月水金+2
   stop_sequence: 7
-  stop_id: '13_2'
+  stop_id: hannocity-minamikoma:13_2
   arrival_time: '13:37:00'
   departure_time: '13:37:00'
   pickup_type: 0
@@ -531,7 +531,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+1+月水金+2
   stop_sequence: 8
-  stop_id: '14_2'
+  stop_id: hannocity-minamikoma:14_2
   arrival_time: '13:38:00'
   departure_time: '13:38:00'
   pickup_type: 0
@@ -539,7 +539,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+1+月水金+2
   stop_sequence: 9
-  stop_id: '15_2'
+  stop_id: hannocity-minamikoma:15_2
   arrival_time: '13:40:00'
   departure_time: '13:40:00'
   pickup_type: 0
@@ -547,7 +547,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+1+月水金+2
   stop_sequence: 10
-  stop_id: '16_2'
+  stop_id: hannocity-minamikoma:16_2
   arrival_time: '13:42:00'
   departure_time: '13:42:00'
   pickup_type: 0
@@ -555,7 +555,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+1+月水金+2
   stop_sequence: 11
-  stop_id: '17_2'
+  stop_id: hannocity-minamikoma:17_2
   arrival_time: '13:43:00'
   departure_time: '13:43:00'
   pickup_type: 0
@@ -563,7 +563,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+1+月水金+2
   stop_sequence: 12
-  stop_id: '18_2'
+  stop_id: hannocity-minamikoma:18_2
   arrival_time: '13:44:00'
   departure_time: '13:44:00'
   pickup_type: 0
@@ -571,7 +571,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+1+月水金+2
   stop_sequence: 13
-  stop_id: '19_2'
+  stop_id: hannocity-minamikoma:19_2
   arrival_time: '13:45:00'
   departure_time: '13:45:00'
   pickup_type: 0
@@ -579,7 +579,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+1+月水金+2
   stop_sequence: 14
-  stop_id: '20_2'
+  stop_id: hannocity-minamikoma:20_2
   arrival_time: '13:45:00'
   departure_time: '13:45:00'
   pickup_type: 0
@@ -587,7 +587,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+1+月水金+2
   stop_sequence: 15
-  stop_id: '21_0'
+  stop_id: hannocity-minamikoma:21_0
   arrival_time: '13:52:00'
   departure_time: '13:52:00'
   pickup_type: 0
@@ -595,7 +595,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+1+月水金+2
   stop_sequence: 16
-  stop_id: '22_0'
+  stop_id: hannocity-minamikoma:22_0
   arrival_time: '13:57:00'
   departure_time: '13:57:00'
   pickup_type: 1
@@ -603,7 +603,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+0+月水金+1
   stop_sequence: 1
-  stop_id: '22_0'
+  stop_id: hannocity-minamikoma:22_0
   arrival_time: '9:27:00'
   departure_time: '9:27:00'
   pickup_type: 0
@@ -611,7 +611,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+0+月水金+1
   stop_sequence: 2
-  stop_id: '21_0'
+  stop_id: hannocity-minamikoma:21_0
   arrival_time: '9:30:00'
   departure_time: '9:30:00'
   pickup_type: 0
@@ -619,7 +619,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+0+月水金+1
   stop_sequence: 3
-  stop_id: '20_1'
+  stop_id: hannocity-minamikoma:20_1
   arrival_time: '9:35:00'
   departure_time: '9:35:00'
   pickup_type: 0
@@ -627,7 +627,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+0+月水金+1
   stop_sequence: 4
-  stop_id: '19_1'
+  stop_id: hannocity-minamikoma:19_1
   arrival_time: '9:35:00'
   departure_time: '9:35:00'
   pickup_type: 0
@@ -635,7 +635,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+0+月水金+1
   stop_sequence: 5
-  stop_id: '18_1'
+  stop_id: hannocity-minamikoma:18_1
   arrival_time: '9:36:00'
   departure_time: '9:36:00'
   pickup_type: 0
@@ -643,7 +643,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+0+月水金+1
   stop_sequence: 6
-  stop_id: '17_1'
+  stop_id: hannocity-minamikoma:17_1
   arrival_time: '9:37:00'
   departure_time: '9:37:00'
   pickup_type: 0
@@ -651,7 +651,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+0+月水金+1
   stop_sequence: 7
-  stop_id: '16_1'
+  stop_id: hannocity-minamikoma:16_1
   arrival_time: '9:38:00'
   departure_time: '9:38:00'
   pickup_type: 0
@@ -659,7 +659,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+0+月水金+1
   stop_sequence: 8
-  stop_id: '15_1'
+  stop_id: hannocity-minamikoma:15_1
   arrival_time: '9:41:00'
   departure_time: '9:41:00'
   pickup_type: 0
@@ -667,7 +667,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+0+月水金+1
   stop_sequence: 9
-  stop_id: '14_1'
+  stop_id: hannocity-minamikoma:14_1
   arrival_time: '9:42:00'
   departure_time: '9:42:00'
   pickup_type: 0
@@ -675,7 +675,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+0+月水金+1
   stop_sequence: 10
-  stop_id: '13_1'
+  stop_id: hannocity-minamikoma:13_1
   arrival_time: '9:43:00'
   departure_time: '9:43:00'
   pickup_type: 0
@@ -683,7 +683,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+0+月水金+1
   stop_sequence: 11
-  stop_id: '11_1'
+  stop_id: hannocity-minamikoma:11_1
   arrival_time: '9:44:00'
   departure_time: '9:44:00'
   pickup_type: 0
@@ -691,7 +691,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+0+月水金+1
   stop_sequence: 12
-  stop_id: '10_1'
+  stop_id: hannocity-minamikoma:10_1
   arrival_time: '9:45:00'
   departure_time: '9:45:00'
   pickup_type: 0
@@ -699,7 +699,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+0+月水金+1
   stop_sequence: 13
-  stop_id: '9_1'
+  stop_id: hannocity-minamikoma:9_1
   arrival_time: '9:46:00'
   departure_time: '9:46:00'
   pickup_type: 0
@@ -707,7 +707,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+0+月水金+1
   stop_sequence: 14
-  stop_id: '8_1'
+  stop_id: hannocity-minamikoma:8_1
   arrival_time: '9:47:00'
   departure_time: '9:47:00'
   pickup_type: 0
@@ -715,7 +715,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+0+月水金+1
   stop_sequence: 15
-  stop_id: '12_2'
+  stop_id: hannocity-minamikoma:12_2
   arrival_time: '9:49:00'
   departure_time: '9:49:00'
   pickup_type: 0
@@ -723,7 +723,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+0+月水金+1
   stop_sequence: 16
-  stop_id: '1_0'
+  stop_id: hannocity-minamikoma:1_0
   arrival_time: '9:54:00'
   departure_time: '9:54:00'
   pickup_type: 1
@@ -731,7 +731,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+0+月水金+2
   stop_sequence: 1
-  stop_id: '22_0'
+  stop_id: hannocity-minamikoma:22_0
   arrival_time: '13:00:00'
   departure_time: '13:00:00'
   pickup_type: 0
@@ -739,7 +739,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+0+月水金+2
   stop_sequence: 2
-  stop_id: '21_0'
+  stop_id: hannocity-minamikoma:21_0
   arrival_time: '13:03:00'
   departure_time: '13:03:00'
   pickup_type: 0
@@ -747,7 +747,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+0+月水金+2
   stop_sequence: 3
-  stop_id: '20_1'
+  stop_id: hannocity-minamikoma:20_1
   arrival_time: '13:08:00'
   departure_time: '13:08:00'
   pickup_type: 0
@@ -755,7 +755,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+0+月水金+2
   stop_sequence: 4
-  stop_id: '19_1'
+  stop_id: hannocity-minamikoma:19_1
   arrival_time: '13:08:00'
   departure_time: '13:08:00'
   pickup_type: 0
@@ -763,7 +763,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+0+月水金+2
   stop_sequence: 5
-  stop_id: '18_1'
+  stop_id: hannocity-minamikoma:18_1
   arrival_time: '13:09:00'
   departure_time: '13:09:00'
   pickup_type: 0
@@ -771,7 +771,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+0+月水金+2
   stop_sequence: 6
-  stop_id: '17_1'
+  stop_id: hannocity-minamikoma:17_1
   arrival_time: '13:10:00'
   departure_time: '13:10:00'
   pickup_type: 0
@@ -779,7 +779,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+0+月水金+2
   stop_sequence: 7
-  stop_id: '16_1'
+  stop_id: hannocity-minamikoma:16_1
   arrival_time: '13:11:00'
   departure_time: '13:11:00'
   pickup_type: 0
@@ -787,7 +787,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+0+月水金+2
   stop_sequence: 8
-  stop_id: '15_1'
+  stop_id: hannocity-minamikoma:15_1
   arrival_time: '13:14:00'
   departure_time: '13:14:00'
   pickup_type: 0
@@ -795,7 +795,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+0+月水金+2
   stop_sequence: 9
-  stop_id: '14_1'
+  stop_id: hannocity-minamikoma:14_1
   arrival_time: '13:15:00'
   departure_time: '13:15:00'
   pickup_type: 0
@@ -803,7 +803,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+0+月水金+2
   stop_sequence: 10
-  stop_id: '13_1'
+  stop_id: hannocity-minamikoma:13_1
   arrival_time: '13:16:00'
   departure_time: '13:16:00'
   pickup_type: 0
@@ -811,7 +811,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+0+月水金+2
   stop_sequence: 11
-  stop_id: '11_1'
+  stop_id: hannocity-minamikoma:11_1
   arrival_time: '13:17:00'
   departure_time: '13:17:00'
   pickup_type: 0
@@ -819,7 +819,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+0+月水金+2
   stop_sequence: 12
-  stop_id: '10_1'
+  stop_id: hannocity-minamikoma:10_1
   arrival_time: '13:18:00'
   departure_time: '13:18:00'
   pickup_type: 0
@@ -827,7 +827,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+0+月水金+2
   stop_sequence: 13
-  stop_id: '9_1'
+  stop_id: hannocity-minamikoma:9_1
   arrival_time: '13:19:00'
   departure_time: '13:19:00'
   pickup_type: 0
@@ -835,7 +835,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+0+月水金+2
   stop_sequence: 14
-  stop_id: '8_1'
+  stop_id: hannocity-minamikoma:8_1
   arrival_time: '13:20:00'
   departure_time: '13:20:00'
   pickup_type: 0
@@ -843,7 +843,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+0+月水金+2
   stop_sequence: 15
-  stop_id: '12_2'
+  stop_id: hannocity-minamikoma:12_2
   arrival_time: '13:22:00'
   departure_time: '13:22:00'
   pickup_type: 0
@@ -851,7 +851,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:3+0+月水金+2
   stop_sequence: 16
-  stop_id: '1_0'
+  stop_id: hannocity-minamikoma:1_0
   arrival_time: '13:27:00'
   departure_time: '13:27:00'
   pickup_type: 1
@@ -859,7 +859,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+1+月水金+1
   stop_sequence: 1
-  stop_id: '2_2'
+  stop_id: hannocity-minamikoma:2_2
   arrival_time: '11:28:00'
   departure_time: '11:28:00'
   pickup_type: 0
@@ -867,7 +867,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+1+月水金+1
   stop_sequence: 2
-  stop_id: '3_2'
+  stop_id: hannocity-minamikoma:3_2
   arrival_time: '11:30:00'
   departure_time: '11:30:00'
   pickup_type: 0
@@ -875,7 +875,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+1+月水金+1
   stop_sequence: 3
-  stop_id: '4_2'
+  stop_id: hannocity-minamikoma:4_2
   arrival_time: '11:31:00'
   departure_time: '11:31:00'
   pickup_type: 0
@@ -883,7 +883,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+1+月水金+1
   stop_sequence: 4
-  stop_id: '5_2'
+  stop_id: hannocity-minamikoma:5_2
   arrival_time: '11:32:00'
   departure_time: '11:32:00'
   pickup_type: 0
@@ -891,7 +891,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+1+月水金+1
   stop_sequence: 5
-  stop_id: '6_2'
+  stop_id: hannocity-minamikoma:6_2
   arrival_time: '11:33:00'
   departure_time: '11:33:00'
   pickup_type: 0
@@ -899,7 +899,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+1+月水金+1
   stop_sequence: 6
-  stop_id: '7_2'
+  stop_id: hannocity-minamikoma:7_2
   arrival_time: '11:34:00'
   departure_time: '11:34:00'
   pickup_type: 0
@@ -907,7 +907,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+1+月水金+1
   stop_sequence: 7
-  stop_id: '12_2'
+  stop_id: hannocity-minamikoma:12_2
   arrival_time: '11:36:00'
   departure_time: '11:36:00'
   pickup_type: 0
@@ -915,7 +915,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+1+月水金+1
   stop_sequence: 8
-  stop_id: '13_2'
+  stop_id: hannocity-minamikoma:13_2
   arrival_time: '11:37:00'
   departure_time: '11:37:00'
   pickup_type: 0
@@ -923,7 +923,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+1+月水金+1
   stop_sequence: 9
-  stop_id: '14_2'
+  stop_id: hannocity-minamikoma:14_2
   arrival_time: '11:38:00'
   departure_time: '11:38:00'
   pickup_type: 0
@@ -931,7 +931,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+1+月水金+1
   stop_sequence: 10
-  stop_id: '15_2'
+  stop_id: hannocity-minamikoma:15_2
   arrival_time: '11:40:00'
   departure_time: '11:40:00'
   pickup_type: 0
@@ -939,7 +939,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+1+月水金+1
   stop_sequence: 11
-  stop_id: '16_2'
+  stop_id: hannocity-minamikoma:16_2
   arrival_time: '11:42:00'
   departure_time: '11:42:00'
   pickup_type: 0
@@ -947,7 +947,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+1+月水金+1
   stop_sequence: 12
-  stop_id: '17_2'
+  stop_id: hannocity-minamikoma:17_2
   arrival_time: '11:43:00'
   departure_time: '11:43:00'
   pickup_type: 0
@@ -955,7 +955,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+1+月水金+1
   stop_sequence: 13
-  stop_id: '18_2'
+  stop_id: hannocity-minamikoma:18_2
   arrival_time: '11:44:00'
   departure_time: '11:44:00'
   pickup_type: 0
@@ -963,7 +963,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+1+月水金+1
   stop_sequence: 14
-  stop_id: '19_2'
+  stop_id: hannocity-minamikoma:19_2
   arrival_time: '11:45:00'
   departure_time: '11:45:00'
   pickup_type: 0
@@ -971,7 +971,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+1+月水金+1
   stop_sequence: 15
-  stop_id: '20_2'
+  stop_id: hannocity-minamikoma:20_2
   arrival_time: '11:45:00'
   departure_time: '11:45:00'
   pickup_type: 0
@@ -979,7 +979,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+1+月水金+1
   stop_sequence: 16
-  stop_id: '21_0'
+  stop_id: hannocity-minamikoma:21_0
   arrival_time: '11:52:00'
   departure_time: '11:52:00'
   pickup_type: 0
@@ -987,7 +987,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+1+月水金+1
   stop_sequence: 17
-  stop_id: '22_0'
+  stop_id: hannocity-minamikoma:22_0
   arrival_time: '11:57:00'
   departure_time: '11:57:00'
   pickup_type: 1
@@ -995,7 +995,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+1+月水金+2
   stop_sequence: 5
-  stop_id: '6_2'
+  stop_id: hannocity-minamikoma:6_2
   arrival_time: '12:30:00'
   departure_time: '12:30:00'
   pickup_type: 0
@@ -1003,7 +1003,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+1+月水金+2
   stop_sequence: 6
-  stop_id: '7_2'
+  stop_id: hannocity-minamikoma:7_2
   arrival_time: '12:31:00'
   departure_time: '12:31:00'
   pickup_type: 0
@@ -1011,7 +1011,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+1+月水金+2
   stop_sequence: 7
-  stop_id: '12_2'
+  stop_id: hannocity-minamikoma:12_2
   arrival_time: '12:33:00'
   departure_time: '12:33:00'
   pickup_type: 0
@@ -1019,7 +1019,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+1+月水金+2
   stop_sequence: 8
-  stop_id: '13_2'
+  stop_id: hannocity-minamikoma:13_2
   arrival_time: '12:34:00'
   departure_time: '12:34:00'
   pickup_type: 0
@@ -1027,7 +1027,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+1+月水金+2
   stop_sequence: 9
-  stop_id: '14_2'
+  stop_id: hannocity-minamikoma:14_2
   arrival_time: '12:35:00'
   departure_time: '12:35:00'
   pickup_type: 0
@@ -1035,7 +1035,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+1+月水金+2
   stop_sequence: 10
-  stop_id: '15_2'
+  stop_id: hannocity-minamikoma:15_2
   arrival_time: '12:37:00'
   departure_time: '12:37:00'
   pickup_type: 0
@@ -1043,7 +1043,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+1+月水金+2
   stop_sequence: 11
-  stop_id: '16_2'
+  stop_id: hannocity-minamikoma:16_2
   arrival_time: '12:39:00'
   departure_time: '12:39:00'
   pickup_type: 0
@@ -1051,7 +1051,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+1+月水金+2
   stop_sequence: 12
-  stop_id: '17_2'
+  stop_id: hannocity-minamikoma:17_2
   arrival_time: '12:40:00'
   departure_time: '12:40:00'
   pickup_type: 0
@@ -1059,7 +1059,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+1+月水金+2
   stop_sequence: 13
-  stop_id: '18_2'
+  stop_id: hannocity-minamikoma:18_2
   arrival_time: '12:41:00'
   departure_time: '12:41:00'
   pickup_type: 0
@@ -1067,7 +1067,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+1+月水金+2
   stop_sequence: 14
-  stop_id: '19_2'
+  stop_id: hannocity-minamikoma:19_2
   arrival_time: '12:42:00'
   departure_time: '12:42:00'
   pickup_type: 0
@@ -1075,7 +1075,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+1+月水金+2
   stop_sequence: 15
-  stop_id: '20_2'
+  stop_id: hannocity-minamikoma:20_2
   arrival_time: '12:42:00'
   departure_time: '12:42:00'
   pickup_type: 0
@@ -1083,7 +1083,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+1+月水金+2
   stop_sequence: 16
-  stop_id: '21_0'
+  stop_id: hannocity-minamikoma:21_0
   arrival_time: '12:49:00'
   departure_time: '12:49:00'
   pickup_type: 0
@@ -1091,7 +1091,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+1+月水金+2
   stop_sequence: 17
-  stop_id: '22_0'
+  stop_id: hannocity-minamikoma:22_0
   arrival_time: '12:54:00'
   departure_time: '12:54:00'
   pickup_type: 1
@@ -1099,7 +1099,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+0+月水金+1
   stop_sequence: 1
-  stop_id: '22_0'
+  stop_id: hannocity-minamikoma:22_0
   arrival_time: '10:54:00'
   departure_time: '10:54:00'
   pickup_type: 0
@@ -1107,7 +1107,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+0+月水金+1
   stop_sequence: 2
-  stop_id: '21_0'
+  stop_id: hannocity-minamikoma:21_0
   arrival_time: '10:57:00'
   departure_time: '10:57:00'
   pickup_type: 0
@@ -1115,7 +1115,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+0+月水金+1
   stop_sequence: 3
-  stop_id: '20_1'
+  stop_id: hannocity-minamikoma:20_1
   arrival_time: '11:02:00'
   departure_time: '11:02:00'
   pickup_type: 0
@@ -1123,7 +1123,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+0+月水金+1
   stop_sequence: 4
-  stop_id: '19_1'
+  stop_id: hannocity-minamikoma:19_1
   arrival_time: '11:02:00'
   departure_time: '11:02:00'
   pickup_type: 0
@@ -1131,7 +1131,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+0+月水金+1
   stop_sequence: 5
-  stop_id: '18_1'
+  stop_id: hannocity-minamikoma:18_1
   arrival_time: '11:03:00'
   departure_time: '11:03:00'
   pickup_type: 0
@@ -1139,7 +1139,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+0+月水金+1
   stop_sequence: 6
-  stop_id: '17_1'
+  stop_id: hannocity-minamikoma:17_1
   arrival_time: '11:04:00'
   departure_time: '11:04:00'
   pickup_type: 0
@@ -1147,7 +1147,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+0+月水金+1
   stop_sequence: 7
-  stop_id: '16_1'
+  stop_id: hannocity-minamikoma:16_1
   arrival_time: '11:05:00'
   departure_time: '11:05:00'
   pickup_type: 0
@@ -1155,7 +1155,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+0+月水金+1
   stop_sequence: 8
-  stop_id: '15_1'
+  stop_id: hannocity-minamikoma:15_1
   arrival_time: '11:08:00'
   departure_time: '11:08:00'
   pickup_type: 0
@@ -1163,7 +1163,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+0+月水金+1
   stop_sequence: 9
-  stop_id: '14_1'
+  stop_id: hannocity-minamikoma:14_1
   arrival_time: '11:09:00'
   departure_time: '11:09:00'
   pickup_type: 0
@@ -1171,7 +1171,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+0+月水金+1
   stop_sequence: 10
-  stop_id: '13_1'
+  stop_id: hannocity-minamikoma:13_1
   arrival_time: '11:10:00'
   departure_time: '11:10:00'
   pickup_type: 0
@@ -1179,7 +1179,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+0+月水金+1
   stop_sequence: 11
-  stop_id: '12_1'
+  stop_id: hannocity-minamikoma:12_1
   arrival_time: '11:12:00'
   departure_time: '11:12:00'
   pickup_type: 0
@@ -1187,7 +1187,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+0+月水金+1
   stop_sequence: 12
-  stop_id: '7_1'
+  stop_id: hannocity-minamikoma:7_1
   arrival_time: '11:15:00'
   departure_time: '11:15:00'
   pickup_type: 0
@@ -1195,7 +1195,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+0+月水金+1
   stop_sequence: 13
-  stop_id: '6_1'
+  stop_id: hannocity-minamikoma:6_1
   arrival_time: '11:16:00'
   departure_time: '11:16:00'
   pickup_type: 0
@@ -1203,7 +1203,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+0+月水金+1
   stop_sequence: 14
-  stop_id: '5_1'
+  stop_id: hannocity-minamikoma:5_1
   arrival_time: '11:17:00'
   departure_time: '11:17:00'
   pickup_type: 0
@@ -1211,7 +1211,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+0+月水金+1
   stop_sequence: 15
-  stop_id: '4_1'
+  stop_id: hannocity-minamikoma:4_1
   arrival_time: '11:18:00'
   departure_time: '11:18:00'
   pickup_type: 0
@@ -1219,7 +1219,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+0+月水金+1
   stop_sequence: 16
-  stop_id: '3_1'
+  stop_id: hannocity-minamikoma:3_1
   arrival_time: '11:19:00'
   departure_time: '11:19:00'
   pickup_type: 0
@@ -1227,7 +1227,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+0+月水金+1
   stop_sequence: 17
-  stop_id: '2_1'
+  stop_id: hannocity-minamikoma:2_1
   arrival_time: '11:23:00'
   departure_time: '11:23:00'
   pickup_type: 1
@@ -1235,7 +1235,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+0+月水金+2
   stop_sequence: 1
-  stop_id: '22_0'
+  stop_id: hannocity-minamikoma:22_0
   arrival_time: '12:02:00'
   departure_time: '12:02:00'
   pickup_type: 0
@@ -1243,7 +1243,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+0+月水金+2
   stop_sequence: 2
-  stop_id: '21_0'
+  stop_id: hannocity-minamikoma:21_0
   arrival_time: '12:05:00'
   departure_time: '12:05:00'
   pickup_type: 0
@@ -1251,7 +1251,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+0+月水金+2
   stop_sequence: 3
-  stop_id: '20_1'
+  stop_id: hannocity-minamikoma:20_1
   arrival_time: '12:10:00'
   departure_time: '12:10:00'
   pickup_type: 0
@@ -1259,7 +1259,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+0+月水金+2
   stop_sequence: 4
-  stop_id: '19_1'
+  stop_id: hannocity-minamikoma:19_1
   arrival_time: '12:10:00'
   departure_time: '12:10:00'
   pickup_type: 0
@@ -1267,7 +1267,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+0+月水金+2
   stop_sequence: 5
-  stop_id: '18_1'
+  stop_id: hannocity-minamikoma:18_1
   arrival_time: '12:11:00'
   departure_time: '12:11:00'
   pickup_type: 0
@@ -1275,7 +1275,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+0+月水金+2
   stop_sequence: 6
-  stop_id: '17_1'
+  stop_id: hannocity-minamikoma:17_1
   arrival_time: '12:12:00'
   departure_time: '12:12:00'
   pickup_type: 0
@@ -1283,7 +1283,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+0+月水金+2
   stop_sequence: 7
-  stop_id: '16_1'
+  stop_id: hannocity-minamikoma:16_1
   arrival_time: '12:13:00'
   departure_time: '12:13:00'
   pickup_type: 0
@@ -1291,7 +1291,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+0+月水金+2
   stop_sequence: 8
-  stop_id: '15_1'
+  stop_id: hannocity-minamikoma:15_1
   arrival_time: '12:16:00'
   departure_time: '12:16:00'
   pickup_type: 0
@@ -1299,7 +1299,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+0+月水金+2
   stop_sequence: 9
-  stop_id: '14_1'
+  stop_id: hannocity-minamikoma:14_1
   arrival_time: '12:17:00'
   departure_time: '12:17:00'
   pickup_type: 0
@@ -1307,7 +1307,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+0+月水金+2
   stop_sequence: 10
-  stop_id: '13_1'
+  stop_id: hannocity-minamikoma:13_1
   arrival_time: '12:18:00'
   departure_time: '12:18:00'
   pickup_type: 0
@@ -1315,7 +1315,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+0+月水金+2
   stop_sequence: 11
-  stop_id: '12_1'
+  stop_id: hannocity-minamikoma:12_1
   arrival_time: '12:20:00'
   departure_time: '12:20:00'
   pickup_type: 0
@@ -1323,7 +1323,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+0+月水金+2
   stop_sequence: 12
-  stop_id: '7_1'
+  stop_id: hannocity-minamikoma:7_1
   arrival_time: '12:23:00'
   departure_time: '12:23:00'
   pickup_type: 0
@@ -1331,7 +1331,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:2+0+月水金+2
   stop_sequence: 13
-  stop_id: '6_1'
+  stop_id: hannocity-minamikoma:6_1
   arrival_time: '12:26:00'
   departure_time: '12:26:00'
   pickup_type: 1
@@ -1339,7 +1339,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+1
   stop_sequence: 1
-  stop_id: '2_2'
+  stop_id: hannocity-minamikoma:2_2
   arrival_time: '7:40:00'
   departure_time: '7:40:00'
   pickup_type: 0
@@ -1347,7 +1347,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+1
   stop_sequence: 2
-  stop_id: '3_2'
+  stop_id: hannocity-minamikoma:3_2
   arrival_time: '7:42:00'
   departure_time: '7:42:00'
   pickup_type: 0
@@ -1355,7 +1355,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+1
   stop_sequence: 3
-  stop_id: '4_2'
+  stop_id: hannocity-minamikoma:4_2
   arrival_time: '7:43:00'
   departure_time: '7:43:00'
   pickup_type: 0
@@ -1363,7 +1363,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+1
   stop_sequence: 4
-  stop_id: '5_2'
+  stop_id: hannocity-minamikoma:5_2
   arrival_time: '7:44:00'
   departure_time: '7:44:00'
   pickup_type: 0
@@ -1371,7 +1371,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+1
   stop_sequence: 5
-  stop_id: '6_2'
+  stop_id: hannocity-minamikoma:6_2
   arrival_time: '7:45:00'
   departure_time: '7:45:00'
   pickup_type: 0
@@ -1379,7 +1379,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+1
   stop_sequence: 6
-  stop_id: '7_2'
+  stop_id: hannocity-minamikoma:7_2
   arrival_time: '7:46:00'
   departure_time: '7:46:00'
   pickup_type: 0
@@ -1387,7 +1387,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+1
   stop_sequence: 7
-  stop_id: '8_2'
+  stop_id: hannocity-minamikoma:8_2
   arrival_time: '7:47:00'
   departure_time: '7:47:00'
   pickup_type: 0
@@ -1395,7 +1395,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+1
   stop_sequence: 8
-  stop_id: '9_2'
+  stop_id: hannocity-minamikoma:9_2
   arrival_time: '7:48:00'
   departure_time: '7:48:00'
   pickup_type: 0
@@ -1403,7 +1403,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+1
   stop_sequence: 9
-  stop_id: '10_2'
+  stop_id: hannocity-minamikoma:10_2
   arrival_time: '7:49:00'
   departure_time: '7:49:00'
   pickup_type: 0
@@ -1411,7 +1411,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+1
   stop_sequence: 10
-  stop_id: '11_2'
+  stop_id: hannocity-minamikoma:11_2
   arrival_time: '7:49:00'
   departure_time: '7:49:00'
   pickup_type: 0
@@ -1419,7 +1419,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+1
   stop_sequence: 11
-  stop_id: '13_2'
+  stop_id: hannocity-minamikoma:13_2
   arrival_time: '7:50:00'
   departure_time: '7:50:00'
   pickup_type: 0
@@ -1427,7 +1427,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+1
   stop_sequence: 12
-  stop_id: '14_2'
+  stop_id: hannocity-minamikoma:14_2
   arrival_time: '7:51:00'
   departure_time: '7:51:00'
   pickup_type: 0
@@ -1435,7 +1435,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+1
   stop_sequence: 13
-  stop_id: '15_2'
+  stop_id: hannocity-minamikoma:15_2
   arrival_time: '7:53:00'
   departure_time: '7:53:00'
   pickup_type: 0
@@ -1443,7 +1443,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+1
   stop_sequence: 14
-  stop_id: '16_2'
+  stop_id: hannocity-minamikoma:16_2
   arrival_time: '7:55:00'
   departure_time: '7:55:00'
   pickup_type: 0
@@ -1451,7 +1451,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+1
   stop_sequence: 15
-  stop_id: '17_2'
+  stop_id: hannocity-minamikoma:17_2
   arrival_time: '7:56:00'
   departure_time: '7:56:00'
   pickup_type: 0
@@ -1459,7 +1459,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+1
   stop_sequence: 16
-  stop_id: '18_2'
+  stop_id: hannocity-minamikoma:18_2
   arrival_time: '7:57:00'
   departure_time: '7:57:00'
   pickup_type: 0
@@ -1467,7 +1467,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+1
   stop_sequence: 17
-  stop_id: '19_2'
+  stop_id: hannocity-minamikoma:19_2
   arrival_time: '7:58:00'
   departure_time: '7:58:00'
   pickup_type: 0
@@ -1475,7 +1475,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+1
   stop_sequence: 18
-  stop_id: '20_2'
+  stop_id: hannocity-minamikoma:20_2
   arrival_time: '7:58:00'
   departure_time: '7:58:00'
   pickup_type: 0
@@ -1483,7 +1483,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+1
   stop_sequence: 19
-  stop_id: '21_0'
+  stop_id: hannocity-minamikoma:21_0
   arrival_time: '8:05:00'
   departure_time: '8:05:00'
   pickup_type: 0
@@ -1491,7 +1491,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+1
   stop_sequence: 20
-  stop_id: '22_0'
+  stop_id: hannocity-minamikoma:22_0
   arrival_time: '8:10:00'
   departure_time: '8:10:00'
   pickup_type: 1
@@ -1499,7 +1499,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+2
   stop_sequence: 1
-  stop_id: '2_2'
+  stop_id: hannocity-minamikoma:2_2
   arrival_time: '8:50:00'
   departure_time: '8:50:00'
   pickup_type: 0
@@ -1507,7 +1507,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+2
   stop_sequence: 2
-  stop_id: '3_2'
+  stop_id: hannocity-minamikoma:3_2
   arrival_time: '8:52:00'
   departure_time: '8:52:00'
   pickup_type: 0
@@ -1515,7 +1515,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+2
   stop_sequence: 3
-  stop_id: '4_2'
+  stop_id: hannocity-minamikoma:4_2
   arrival_time: '8:53:00'
   departure_time: '8:53:00'
   pickup_type: 0
@@ -1523,7 +1523,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+2
   stop_sequence: 4
-  stop_id: '5_2'
+  stop_id: hannocity-minamikoma:5_2
   arrival_time: '8:54:00'
   departure_time: '8:54:00'
   pickup_type: 0
@@ -1531,7 +1531,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+2
   stop_sequence: 5
-  stop_id: '6_2'
+  stop_id: hannocity-minamikoma:6_2
   arrival_time: '8:55:00'
   departure_time: '8:55:00'
   pickup_type: 0
@@ -1539,7 +1539,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+2
   stop_sequence: 6
-  stop_id: '7_2'
+  stop_id: hannocity-minamikoma:7_2
   arrival_time: '8:56:00'
   departure_time: '8:56:00'
   pickup_type: 0
@@ -1547,7 +1547,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+2
   stop_sequence: 7
-  stop_id: '8_2'
+  stop_id: hannocity-minamikoma:8_2
   arrival_time: '8:57:00'
   departure_time: '8:57:00'
   pickup_type: 0
@@ -1555,7 +1555,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+2
   stop_sequence: 8
-  stop_id: '9_2'
+  stop_id: hannocity-minamikoma:9_2
   arrival_time: '8:58:00'
   departure_time: '8:58:00'
   pickup_type: 0
@@ -1563,7 +1563,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+2
   stop_sequence: 9
-  stop_id: '10_2'
+  stop_id: hannocity-minamikoma:10_2
   arrival_time: '8:59:00'
   departure_time: '8:59:00'
   pickup_type: 0
@@ -1571,7 +1571,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+2
   stop_sequence: 10
-  stop_id: '11_2'
+  stop_id: hannocity-minamikoma:11_2
   arrival_time: '8:59:00'
   departure_time: '8:59:00'
   pickup_type: 0
@@ -1579,7 +1579,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+2
   stop_sequence: 11
-  stop_id: '13_2'
+  stop_id: hannocity-minamikoma:13_2
   arrival_time: '9:00:00'
   departure_time: '9:00:00'
   pickup_type: 0
@@ -1587,7 +1587,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+2
   stop_sequence: 12
-  stop_id: '14_2'
+  stop_id: hannocity-minamikoma:14_2
   arrival_time: '9:01:00'
   departure_time: '9:01:00'
   pickup_type: 0
@@ -1595,7 +1595,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+2
   stop_sequence: 13
-  stop_id: '15_2'
+  stop_id: hannocity-minamikoma:15_2
   arrival_time: '9:03:00'
   departure_time: '9:03:00'
   pickup_type: 0
@@ -1603,7 +1603,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+2
   stop_sequence: 14
-  stop_id: '16_2'
+  stop_id: hannocity-minamikoma:16_2
   arrival_time: '9:05:00'
   departure_time: '9:05:00'
   pickup_type: 0
@@ -1611,7 +1611,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+2
   stop_sequence: 15
-  stop_id: '17_2'
+  stop_id: hannocity-minamikoma:17_2
   arrival_time: '9:06:00'
   departure_time: '9:06:00'
   pickup_type: 0
@@ -1619,7 +1619,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+2
   stop_sequence: 16
-  stop_id: '18_2'
+  stop_id: hannocity-minamikoma:18_2
   arrival_time: '9:07:00'
   departure_time: '9:07:00'
   pickup_type: 0
@@ -1627,7 +1627,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+2
   stop_sequence: 17
-  stop_id: '19_2'
+  stop_id: hannocity-minamikoma:19_2
   arrival_time: '9:08:00'
   departure_time: '9:08:00'
   pickup_type: 0
@@ -1635,7 +1635,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+2
   stop_sequence: 18
-  stop_id: '20_2'
+  stop_id: hannocity-minamikoma:20_2
   arrival_time: '9:08:00'
   departure_time: '9:08:00'
   pickup_type: 0
@@ -1643,7 +1643,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+2
   stop_sequence: 19
-  stop_id: '21_0'
+  stop_id: hannocity-minamikoma:21_0
   arrival_time: '9:15:00'
   departure_time: '9:15:00'
   pickup_type: 0
@@ -1651,7 +1651,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+2
   stop_sequence: 20
-  stop_id: '22_0'
+  stop_id: hannocity-minamikoma:22_0
   arrival_time: '9:20:00'
   departure_time: '9:20:00'
   pickup_type: 1
@@ -1659,7 +1659,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+3
   stop_sequence: 1
-  stop_id: '2_2'
+  stop_id: hannocity-minamikoma:2_2
   arrival_time: '14:53:00'
   departure_time: '14:53:00'
   pickup_type: 0
@@ -1667,7 +1667,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+3
   stop_sequence: 2
-  stop_id: '3_2'
+  stop_id: hannocity-minamikoma:3_2
   arrival_time: '14:55:00'
   departure_time: '14:55:00'
   pickup_type: 0
@@ -1675,7 +1675,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+3
   stop_sequence: 3
-  stop_id: '4_2'
+  stop_id: hannocity-minamikoma:4_2
   arrival_time: '14:56:00'
   departure_time: '14:56:00'
   pickup_type: 0
@@ -1683,7 +1683,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+3
   stop_sequence: 4
-  stop_id: '5_2'
+  stop_id: hannocity-minamikoma:5_2
   arrival_time: '14:57:00'
   departure_time: '14:57:00'
   pickup_type: 0
@@ -1691,7 +1691,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+3
   stop_sequence: 5
-  stop_id: '6_2'
+  stop_id: hannocity-minamikoma:6_2
   arrival_time: '14:58:00'
   departure_time: '14:58:00'
   pickup_type: 0
@@ -1699,7 +1699,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+3
   stop_sequence: 6
-  stop_id: '7_2'
+  stop_id: hannocity-minamikoma:7_2
   arrival_time: '14:59:00'
   departure_time: '14:59:00'
   pickup_type: 0
@@ -1707,7 +1707,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+3
   stop_sequence: 7
-  stop_id: '8_2'
+  stop_id: hannocity-minamikoma:8_2
   arrival_time: '15:00:00'
   departure_time: '15:00:00'
   pickup_type: 0
@@ -1715,7 +1715,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+3
   stop_sequence: 8
-  stop_id: '9_2'
+  stop_id: hannocity-minamikoma:9_2
   arrival_time: '15:01:00'
   departure_time: '15:01:00'
   pickup_type: 0
@@ -1723,7 +1723,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+3
   stop_sequence: 9
-  stop_id: '10_2'
+  stop_id: hannocity-minamikoma:10_2
   arrival_time: '15:02:00'
   departure_time: '15:02:00'
   pickup_type: 0
@@ -1731,7 +1731,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+3
   stop_sequence: 10
-  stop_id: '11_2'
+  stop_id: hannocity-minamikoma:11_2
   arrival_time: '15:02:00'
   departure_time: '15:02:00'
   pickup_type: 0
@@ -1739,7 +1739,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+3
   stop_sequence: 11
-  stop_id: '13_2'
+  stop_id: hannocity-minamikoma:13_2
   arrival_time: '15:03:00'
   departure_time: '15:03:00'
   pickup_type: 0
@@ -1747,7 +1747,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+3
   stop_sequence: 12
-  stop_id: '14_2'
+  stop_id: hannocity-minamikoma:14_2
   arrival_time: '15:04:00'
   departure_time: '15:04:00'
   pickup_type: 0
@@ -1755,7 +1755,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+3
   stop_sequence: 13
-  stop_id: '15_2'
+  stop_id: hannocity-minamikoma:15_2
   arrival_time: '15:06:00'
   departure_time: '15:06:00'
   pickup_type: 0
@@ -1763,7 +1763,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+3
   stop_sequence: 14
-  stop_id: '16_2'
+  stop_id: hannocity-minamikoma:16_2
   arrival_time: '15:08:00'
   departure_time: '15:08:00'
   pickup_type: 0
@@ -1771,7 +1771,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+3
   stop_sequence: 15
-  stop_id: '17_2'
+  stop_id: hannocity-minamikoma:17_2
   arrival_time: '15:09:00'
   departure_time: '15:09:00'
   pickup_type: 0
@@ -1779,7 +1779,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+3
   stop_sequence: 16
-  stop_id: '18_2'
+  stop_id: hannocity-minamikoma:18_2
   arrival_time: '15:10:00'
   departure_time: '15:10:00'
   pickup_type: 0
@@ -1787,7 +1787,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+3
   stop_sequence: 17
-  stop_id: '19_2'
+  stop_id: hannocity-minamikoma:19_2
   arrival_time: '15:11:00'
   departure_time: '15:11:00'
   pickup_type: 0
@@ -1795,7 +1795,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+3
   stop_sequence: 18
-  stop_id: '20_2'
+  stop_id: hannocity-minamikoma:20_2
   arrival_time: '15:11:00'
   departure_time: '15:11:00'
   pickup_type: 0
@@ -1803,7 +1803,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+3
   stop_sequence: 19
-  stop_id: '21_0'
+  stop_id: hannocity-minamikoma:21_0
   arrival_time: '15:18:00'
   departure_time: '15:18:00'
   pickup_type: 0
@@ -1811,7 +1811,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+3
   stop_sequence: 20
-  stop_id: '22_0'
+  stop_id: hannocity-minamikoma:22_0
   arrival_time: '15:23:00'
   departure_time: '15:23:00'
   pickup_type: 1
@@ -1819,7 +1819,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+4
   stop_sequence: 1
-  stop_id: '2_2'
+  stop_id: hannocity-minamikoma:2_2
   arrival_time: '16:06:00'
   departure_time: '16:06:00'
   pickup_type: 0
@@ -1827,7 +1827,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+4
   stop_sequence: 2
-  stop_id: '3_2'
+  stop_id: hannocity-minamikoma:3_2
   arrival_time: '16:08:00'
   departure_time: '16:08:00'
   pickup_type: 0
@@ -1835,7 +1835,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+4
   stop_sequence: 3
-  stop_id: '4_2'
+  stop_id: hannocity-minamikoma:4_2
   arrival_time: '16:09:00'
   departure_time: '16:09:00'
   pickup_type: 0
@@ -1843,7 +1843,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+4
   stop_sequence: 4
-  stop_id: '5_2'
+  stop_id: hannocity-minamikoma:5_2
   arrival_time: '16:10:00'
   departure_time: '16:10:00'
   pickup_type: 0
@@ -1851,7 +1851,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+4
   stop_sequence: 5
-  stop_id: '6_2'
+  stop_id: hannocity-minamikoma:6_2
   arrival_time: '16:11:00'
   departure_time: '16:11:00'
   pickup_type: 0
@@ -1859,7 +1859,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+4
   stop_sequence: 6
-  stop_id: '7_2'
+  stop_id: hannocity-minamikoma:7_2
   arrival_time: '16:12:00'
   departure_time: '16:12:00'
   pickup_type: 0
@@ -1867,7 +1867,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+4
   stop_sequence: 7
-  stop_id: '8_2'
+  stop_id: hannocity-minamikoma:8_2
   arrival_time: '16:13:00'
   departure_time: '16:13:00'
   pickup_type: 0
@@ -1875,7 +1875,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+4
   stop_sequence: 8
-  stop_id: '9_2'
+  stop_id: hannocity-minamikoma:9_2
   arrival_time: '16:14:00'
   departure_time: '16:14:00'
   pickup_type: 0
@@ -1883,7 +1883,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+4
   stop_sequence: 9
-  stop_id: '10_2'
+  stop_id: hannocity-minamikoma:10_2
   arrival_time: '16:15:00'
   departure_time: '16:15:00'
   pickup_type: 0
@@ -1891,7 +1891,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+4
   stop_sequence: 10
-  stop_id: '11_2'
+  stop_id: hannocity-minamikoma:11_2
   arrival_time: '16:15:00'
   departure_time: '16:15:00'
   pickup_type: 0
@@ -1899,7 +1899,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+4
   stop_sequence: 11
-  stop_id: '13_2'
+  stop_id: hannocity-minamikoma:13_2
   arrival_time: '16:16:00'
   departure_time: '16:16:00'
   pickup_type: 0
@@ -1907,7 +1907,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+4
   stop_sequence: 12
-  stop_id: '14_2'
+  stop_id: hannocity-minamikoma:14_2
   arrival_time: '16:17:00'
   departure_time: '16:17:00'
   pickup_type: 0
@@ -1915,7 +1915,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+4
   stop_sequence: 13
-  stop_id: '15_2'
+  stop_id: hannocity-minamikoma:15_2
   arrival_time: '16:19:00'
   departure_time: '16:19:00'
   pickup_type: 0
@@ -1923,7 +1923,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+4
   stop_sequence: 14
-  stop_id: '16_2'
+  stop_id: hannocity-minamikoma:16_2
   arrival_time: '16:21:00'
   departure_time: '16:21:00'
   pickup_type: 0
@@ -1931,7 +1931,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+4
   stop_sequence: 15
-  stop_id: '17_2'
+  stop_id: hannocity-minamikoma:17_2
   arrival_time: '16:22:00'
   departure_time: '16:22:00'
   pickup_type: 0
@@ -1939,7 +1939,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+4
   stop_sequence: 16
-  stop_id: '18_2'
+  stop_id: hannocity-minamikoma:18_2
   arrival_time: '16:23:00'
   departure_time: '16:23:00'
   pickup_type: 0
@@ -1947,7 +1947,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+4
   stop_sequence: 17
-  stop_id: '19_2'
+  stop_id: hannocity-minamikoma:19_2
   arrival_time: '16:24:00'
   departure_time: '16:24:00'
   pickup_type: 0
@@ -1955,7 +1955,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+4
   stop_sequence: 18
-  stop_id: '20_2'
+  stop_id: hannocity-minamikoma:20_2
   arrival_time: '16:24:00'
   departure_time: '16:24:00'
   pickup_type: 0
@@ -1963,7 +1963,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+4
   stop_sequence: 19
-  stop_id: '21_0'
+  stop_id: hannocity-minamikoma:21_0
   arrival_time: '16:31:00'
   departure_time: '16:31:00'
   pickup_type: 0
@@ -1971,7 +1971,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+1+月～金+4
   stop_sequence: 20
-  stop_id: '22_0'
+  stop_id: hannocity-minamikoma:22_0
   arrival_time: '16:36:00'
   departure_time: '16:36:00'
   pickup_type: 1
@@ -1979,7 +1979,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+1
   stop_sequence: 1
-  stop_id: '22_0'
+  stop_id: hannocity-minamikoma:22_0
   arrival_time: '8:15:00'
   departure_time: '8:15:00'
   pickup_type: 0
@@ -1987,7 +1987,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+1
   stop_sequence: 2
-  stop_id: '21_0'
+  stop_id: hannocity-minamikoma:21_0
   arrival_time: '8:18:00'
   departure_time: '8:18:00'
   pickup_type: 0
@@ -1995,7 +1995,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+1
   stop_sequence: 3
-  stop_id: '20_1'
+  stop_id: hannocity-minamikoma:20_1
   arrival_time: '8:23:00'
   departure_time: '8:23:00'
   pickup_type: 0
@@ -2003,7 +2003,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+1
   stop_sequence: 4
-  stop_id: '19_1'
+  stop_id: hannocity-minamikoma:19_1
   arrival_time: '8:23:00'
   departure_time: '8:23:00'
   pickup_type: 0
@@ -2011,7 +2011,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+1
   stop_sequence: 5
-  stop_id: '18_1'
+  stop_id: hannocity-minamikoma:18_1
   arrival_time: '8:24:00'
   departure_time: '8:24:00'
   pickup_type: 0
@@ -2019,7 +2019,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+1
   stop_sequence: 6
-  stop_id: '17_1'
+  stop_id: hannocity-minamikoma:17_1
   arrival_time: '8:25:00'
   departure_time: '8:25:00'
   pickup_type: 0
@@ -2027,7 +2027,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+1
   stop_sequence: 7
-  stop_id: '16_1'
+  stop_id: hannocity-minamikoma:16_1
   arrival_time: '8:26:00'
   departure_time: '8:26:00'
   pickup_type: 0
@@ -2035,7 +2035,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+1
   stop_sequence: 8
-  stop_id: '15_1'
+  stop_id: hannocity-minamikoma:15_1
   arrival_time: '8:29:00'
   departure_time: '8:29:00'
   pickup_type: 0
@@ -2043,7 +2043,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+1
   stop_sequence: 9
-  stop_id: '14_1'
+  stop_id: hannocity-minamikoma:14_1
   arrival_time: '8:30:00'
   departure_time: '8:30:00'
   pickup_type: 0
@@ -2051,7 +2051,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+1
   stop_sequence: 10
-  stop_id: '13_1'
+  stop_id: hannocity-minamikoma:13_1
   arrival_time: '8:31:00'
   departure_time: '8:31:00'
   pickup_type: 0
@@ -2059,7 +2059,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+1
   stop_sequence: 11
-  stop_id: '11_1'
+  stop_id: hannocity-minamikoma:11_1
   arrival_time: '8:32:00'
   departure_time: '8:32:00'
   pickup_type: 0
@@ -2067,7 +2067,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+1
   stop_sequence: 12
-  stop_id: '10_1'
+  stop_id: hannocity-minamikoma:10_1
   arrival_time: '8:33:00'
   departure_time: '8:33:00'
   pickup_type: 0
@@ -2075,7 +2075,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+1
   stop_sequence: 13
-  stop_id: '9_1'
+  stop_id: hannocity-minamikoma:9_1
   arrival_time: '8:34:00'
   departure_time: '8:34:00'
   pickup_type: 0
@@ -2083,7 +2083,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+1
   stop_sequence: 14
-  stop_id: '8_1'
+  stop_id: hannocity-minamikoma:8_1
   arrival_time: '8:35:00'
   departure_time: '8:35:00'
   pickup_type: 0
@@ -2091,7 +2091,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+1
   stop_sequence: 15
-  stop_id: '7_1'
+  stop_id: hannocity-minamikoma:7_1
   arrival_time: '8:37:00'
   departure_time: '8:37:00'
   pickup_type: 0
@@ -2099,7 +2099,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+1
   stop_sequence: 16
-  stop_id: '6_1'
+  stop_id: hannocity-minamikoma:6_1
   arrival_time: '8:38:00'
   departure_time: '8:38:00'
   pickup_type: 0
@@ -2107,7 +2107,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+1
   stop_sequence: 17
-  stop_id: '5_1'
+  stop_id: hannocity-minamikoma:5_1
   arrival_time: '8:39:00'
   departure_time: '8:39:00'
   pickup_type: 0
@@ -2115,7 +2115,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+1
   stop_sequence: 18
-  stop_id: '4_1'
+  stop_id: hannocity-minamikoma:4_1
   arrival_time: '8:40:00'
   departure_time: '8:40:00'
   pickup_type: 0
@@ -2123,7 +2123,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+1
   stop_sequence: 19
-  stop_id: '3_1'
+  stop_id: hannocity-minamikoma:3_1
   arrival_time: '8:41:00'
   departure_time: '8:41:00'
   pickup_type: 0
@@ -2131,7 +2131,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+1
   stop_sequence: 20
-  stop_id: '2_1'
+  stop_id: hannocity-minamikoma:2_1
   arrival_time: '8:45:00'
   departure_time: '8:45:00'
   pickup_type: 1
@@ -2139,7 +2139,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+2
   stop_sequence: 1
-  stop_id: '22_0'
+  stop_id: hannocity-minamikoma:22_0
   arrival_time: '14:18:00'
   departure_time: '14:18:00'
   pickup_type: 0
@@ -2147,7 +2147,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+2
   stop_sequence: 2
-  stop_id: '21_0'
+  stop_id: hannocity-minamikoma:21_0
   arrival_time: '14:21:00'
   departure_time: '14:21:00'
   pickup_type: 0
@@ -2155,7 +2155,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+2
   stop_sequence: 3
-  stop_id: '20_1'
+  stop_id: hannocity-minamikoma:20_1
   arrival_time: '14:26:00'
   departure_time: '14:26:00'
   pickup_type: 0
@@ -2163,7 +2163,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+2
   stop_sequence: 4
-  stop_id: '19_1'
+  stop_id: hannocity-minamikoma:19_1
   arrival_time: '14:26:00'
   departure_time: '14:26:00'
   pickup_type: 0
@@ -2171,7 +2171,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+2
   stop_sequence: 5
-  stop_id: '18_1'
+  stop_id: hannocity-minamikoma:18_1
   arrival_time: '14:27:00'
   departure_time: '14:27:00'
   pickup_type: 0
@@ -2179,7 +2179,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+2
   stop_sequence: 6
-  stop_id: '17_1'
+  stop_id: hannocity-minamikoma:17_1
   arrival_time: '14:28:00'
   departure_time: '14:28:00'
   pickup_type: 0
@@ -2187,7 +2187,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+2
   stop_sequence: 7
-  stop_id: '16_1'
+  stop_id: hannocity-minamikoma:16_1
   arrival_time: '14:29:00'
   departure_time: '14:29:00'
   pickup_type: 0
@@ -2195,7 +2195,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+2
   stop_sequence: 8
-  stop_id: '15_1'
+  stop_id: hannocity-minamikoma:15_1
   arrival_time: '14:32:00'
   departure_time: '14:32:00'
   pickup_type: 0
@@ -2203,7 +2203,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+2
   stop_sequence: 9
-  stop_id: '14_1'
+  stop_id: hannocity-minamikoma:14_1
   arrival_time: '14:33:00'
   departure_time: '14:33:00'
   pickup_type: 0
@@ -2211,7 +2211,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+2
   stop_sequence: 10
-  stop_id: '13_1'
+  stop_id: hannocity-minamikoma:13_1
   arrival_time: '14:34:00'
   departure_time: '14:34:00'
   pickup_type: 0
@@ -2219,7 +2219,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+2
   stop_sequence: 11
-  stop_id: '11_1'
+  stop_id: hannocity-minamikoma:11_1
   arrival_time: '14:35:00'
   departure_time: '14:35:00'
   pickup_type: 0
@@ -2227,7 +2227,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+2
   stop_sequence: 12
-  stop_id: '10_1'
+  stop_id: hannocity-minamikoma:10_1
   arrival_time: '14:36:00'
   departure_time: '14:36:00'
   pickup_type: 0
@@ -2235,7 +2235,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+2
   stop_sequence: 13
-  stop_id: '9_1'
+  stop_id: hannocity-minamikoma:9_1
   arrival_time: '14:37:00'
   departure_time: '14:37:00'
   pickup_type: 0
@@ -2243,7 +2243,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+2
   stop_sequence: 14
-  stop_id: '8_1'
+  stop_id: hannocity-minamikoma:8_1
   arrival_time: '14:38:00'
   departure_time: '14:38:00'
   pickup_type: 0
@@ -2251,7 +2251,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+2
   stop_sequence: 15
-  stop_id: '7_1'
+  stop_id: hannocity-minamikoma:7_1
   arrival_time: '14:40:00'
   departure_time: '14:40:00'
   pickup_type: 0
@@ -2259,7 +2259,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+2
   stop_sequence: 16
-  stop_id: '6_1'
+  stop_id: hannocity-minamikoma:6_1
   arrival_time: '14:41:00'
   departure_time: '14:41:00'
   pickup_type: 0
@@ -2267,7 +2267,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+2
   stop_sequence: 17
-  stop_id: '5_1'
+  stop_id: hannocity-minamikoma:5_1
   arrival_time: '14:42:00'
   departure_time: '14:42:00'
   pickup_type: 0
@@ -2275,7 +2275,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+2
   stop_sequence: 18
-  stop_id: '4_1'
+  stop_id: hannocity-minamikoma:4_1
   arrival_time: '14:43:00'
   departure_time: '14:43:00'
   pickup_type: 0
@@ -2283,7 +2283,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+2
   stop_sequence: 19
-  stop_id: '3_1'
+  stop_id: hannocity-minamikoma:3_1
   arrival_time: '14:44:00'
   departure_time: '14:44:00'
   pickup_type: 0
@@ -2291,7 +2291,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+2
   stop_sequence: 20
-  stop_id: '2_1'
+  stop_id: hannocity-minamikoma:2_1
   arrival_time: '14:48:00'
   departure_time: '14:48:00'
   pickup_type: 1
@@ -2299,7 +2299,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+3
   stop_sequence: 1
-  stop_id: '22_0'
+  stop_id: hannocity-minamikoma:22_0
   arrival_time: '15:28:00'
   departure_time: '15:28:00'
   pickup_type: 0
@@ -2307,7 +2307,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+3
   stop_sequence: 2
-  stop_id: '21_0'
+  stop_id: hannocity-minamikoma:21_0
   arrival_time: '15:31:00'
   departure_time: '15:31:00'
   pickup_type: 0
@@ -2315,7 +2315,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+3
   stop_sequence: 3
-  stop_id: '20_1'
+  stop_id: hannocity-minamikoma:20_1
   arrival_time: '15:36:00'
   departure_time: '15:36:00'
   pickup_type: 0
@@ -2323,7 +2323,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+3
   stop_sequence: 4
-  stop_id: '19_1'
+  stop_id: hannocity-minamikoma:19_1
   arrival_time: '15:36:00'
   departure_time: '15:36:00'
   pickup_type: 0
@@ -2331,7 +2331,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+3
   stop_sequence: 5
-  stop_id: '18_1'
+  stop_id: hannocity-minamikoma:18_1
   arrival_time: '15:37:00'
   departure_time: '15:37:00'
   pickup_type: 0
@@ -2339,7 +2339,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+3
   stop_sequence: 6
-  stop_id: '17_1'
+  stop_id: hannocity-minamikoma:17_1
   arrival_time: '15:38:00'
   departure_time: '15:38:00'
   pickup_type: 0
@@ -2347,7 +2347,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+3
   stop_sequence: 7
-  stop_id: '16_1'
+  stop_id: hannocity-minamikoma:16_1
   arrival_time: '15:39:00'
   departure_time: '15:39:00'
   pickup_type: 0
@@ -2355,7 +2355,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+3
   stop_sequence: 8
-  stop_id: '15_1'
+  stop_id: hannocity-minamikoma:15_1
   arrival_time: '15:42:00'
   departure_time: '15:42:00'
   pickup_type: 0
@@ -2363,7 +2363,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+3
   stop_sequence: 9
-  stop_id: '14_1'
+  stop_id: hannocity-minamikoma:14_1
   arrival_time: '15:43:00'
   departure_time: '15:43:00'
   pickup_type: 0
@@ -2371,7 +2371,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+3
   stop_sequence: 10
-  stop_id: '13_1'
+  stop_id: hannocity-minamikoma:13_1
   arrival_time: '15:44:00'
   departure_time: '15:44:00'
   pickup_type: 0
@@ -2379,7 +2379,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+3
   stop_sequence: 11
-  stop_id: '11_1'
+  stop_id: hannocity-minamikoma:11_1
   arrival_time: '15:45:00'
   departure_time: '15:45:00'
   pickup_type: 0
@@ -2387,7 +2387,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+3
   stop_sequence: 12
-  stop_id: '10_1'
+  stop_id: hannocity-minamikoma:10_1
   arrival_time: '15:46:00'
   departure_time: '15:46:00'
   pickup_type: 0
@@ -2395,7 +2395,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+3
   stop_sequence: 13
-  stop_id: '9_1'
+  stop_id: hannocity-minamikoma:9_1
   arrival_time: '15:47:00'
   departure_time: '15:47:00'
   pickup_type: 0
@@ -2403,7 +2403,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+3
   stop_sequence: 14
-  stop_id: '8_1'
+  stop_id: hannocity-minamikoma:8_1
   arrival_time: '15:48:00'
   departure_time: '15:48:00'
   pickup_type: 0
@@ -2411,7 +2411,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+3
   stop_sequence: 15
-  stop_id: '7_1'
+  stop_id: hannocity-minamikoma:7_1
   arrival_time: '15:50:00'
   departure_time: '15:50:00'
   pickup_type: 0
@@ -2419,7 +2419,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+3
   stop_sequence: 16
-  stop_id: '6_1'
+  stop_id: hannocity-minamikoma:6_1
   arrival_time: '15:51:00'
   departure_time: '15:51:00'
   pickup_type: 0
@@ -2427,7 +2427,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+3
   stop_sequence: 17
-  stop_id: '5_1'
+  stop_id: hannocity-minamikoma:5_1
   arrival_time: '15:52:00'
   departure_time: '15:52:00'
   pickup_type: 0
@@ -2435,7 +2435,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+3
   stop_sequence: 18
-  stop_id: '4_1'
+  stop_id: hannocity-minamikoma:4_1
   arrival_time: '15:53:00'
   departure_time: '15:53:00'
   pickup_type: 0
@@ -2443,7 +2443,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+3
   stop_sequence: 19
-  stop_id: '3_1'
+  stop_id: hannocity-minamikoma:3_1
   arrival_time: '15:54:00'
   departure_time: '15:54:00'
   pickup_type: 0
@@ -2451,7 +2451,7 @@ stop_times:
   timepoint: 1
 - trip_id: hannocity-minamikoma:1+0+月～金+3
   stop_sequence: 20
-  stop_id: '2_1'
+  stop_id: hannocity-minamikoma:2_1
   arrival_time: '15:58:00'
   departure_time: '15:58:00'
   pickup_type: 1
