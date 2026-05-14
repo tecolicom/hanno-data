@@ -379,8 +379,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 1
   stop_id: hannocity-seimei-kaji:1_0
-  arrival_time: '8:00:00'
-  departure_time: '8:00:00'
+  arrival_time: 08:00:00
+  departure_time: 08:00:00
   stop_headsign: 元加治駅
   pickup_type: 0
   drop_off_type: 1
@@ -388,8 +388,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 2
   stop_id: hannocity-seimei-kaji:2_1
-  arrival_time: '8:01:00'
-  departure_time: '8:01:00'
+  arrival_time: 08:01:00
+  departure_time: 08:01:00
   stop_headsign: 元加治駅
   pickup_type: 0
   drop_off_type: 0
@@ -397,8 +397,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 3
   stop_id: hannocity-seimei-kaji:3_0
-  arrival_time: '8:04:00'
-  departure_time: '8:04:00'
+  arrival_time: 08:04:00
+  departure_time: 08:04:00
   stop_headsign: 元加治駅
   pickup_type: 0
   drop_off_type: 0
@@ -406,8 +406,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 4
   stop_id: hannocity-seimei-kaji:4_1
-  arrival_time: '8:05:00'
-  departure_time: '8:05:00'
+  arrival_time: 08:05:00
+  departure_time: 08:05:00
   stop_headsign: 元加治駅
   pickup_type: 0
   drop_off_type: 0
@@ -415,8 +415,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 5
   stop_id: hannocity-seimei-kaji:5_1
-  arrival_time: '8:06:00'
-  departure_time: '8:06:00'
+  arrival_time: 08:06:00
+  departure_time: 08:06:00
   stop_headsign: 元加治駅
   pickup_type: 0
   drop_off_type: 0
@@ -424,8 +424,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 6
   stop_id: hannocity-seimei-kaji:6_1
-  arrival_time: '8:07:00'
-  departure_time: '8:07:00'
+  arrival_time: 08:07:00
+  departure_time: 08:07:00
   stop_headsign: 元加治駅
   pickup_type: 0
   drop_off_type: 0
@@ -433,8 +433,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 7
   stop_id: hannocity-seimei-kaji:30_1
-  arrival_time: '8:08:00'
-  departure_time: '8:08:00'
+  arrival_time: 08:08:00
+  departure_time: 08:08:00
   stop_headsign: 元加治駅
   pickup_type: 0
   drop_off_type: 0
@@ -442,8 +442,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 8
   stop_id: hannocity-seimei-kaji:41_0
-  arrival_time: '8:09:00'
-  departure_time: '8:09:00'
+  arrival_time: 08:09:00
+  departure_time: 08:09:00
   stop_headsign: 元加治駅
   pickup_type: 0
   drop_off_type: 0
@@ -451,8 +451,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 9
   stop_id: hannocity-seimei-kaji:31_1
-  arrival_time: '8:11:00'
-  departure_time: '8:11:00'
+  arrival_time: 08:11:00
+  departure_time: 08:11:00
   stop_headsign: 元加治駅
   pickup_type: 0
   drop_off_type: 0
@@ -460,8 +460,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 10
   stop_id: hannocity-seimei-kaji:32_1
-  arrival_time: '8:12:00'
-  departure_time: '8:12:00'
+  arrival_time: 08:12:00
+  departure_time: 08:12:00
   stop_headsign: 元加治駅
   pickup_type: 0
   drop_off_type: 0
@@ -469,8 +469,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 11
   stop_id: hannocity-seimei-kaji:33_1
-  arrival_time: '8:13:00'
-  departure_time: '8:13:00'
+  arrival_time: 08:13:00
+  departure_time: 08:13:00
   stop_headsign: 元加治駅
   pickup_type: 0
   drop_off_type: 0
@@ -478,8 +478,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 12
   stop_id: hannocity-seimei-kaji:34_1
-  arrival_time: '8:14:00'
-  departure_time: '8:14:00'
+  arrival_time: 08:14:00
+  departure_time: 08:14:00
   stop_headsign: 元加治駅
   pickup_type: 0
   drop_off_type: 0
@@ -487,8 +487,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 13
   stop_id: hannocity-seimei-kaji:35_0
-  arrival_time: '8:18:00'
-  departure_time: '8:18:00'
+  arrival_time: 08:18:00
+  departure_time: 08:18:00
   stop_headsign: 元加治駅
   pickup_type: 0
   drop_off_type: 0
@@ -496,8 +496,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 14
   stop_id: hannocity-seimei-kaji:36_1
-  arrival_time: '8:20:00'
-  departure_time: '8:20:00'
+  arrival_time: 08:20:00
+  departure_time: 08:20:00
   stop_headsign: 元加治駅
   pickup_type: 0
   drop_off_type: 0
@@ -505,8 +505,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 15
   stop_id: hannocity-seimei-kaji:37_0
-  arrival_time: '8:22:00'
-  departure_time: '8:22:00'
+  arrival_time: 08:22:00
+  departure_time: 08:22:00
   stop_headsign: 元加治駅
   pickup_type: 0
   drop_off_type: 0
@@ -514,8 +514,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 16
   stop_id: hannocity-seimei-kaji:38_1
-  arrival_time: '8:24:00'
-  departure_time: '8:24:00'
+  arrival_time: 08:24:00
+  departure_time: 08:24:00
   stop_headsign: 元加治駅
   pickup_type: 0
   drop_off_type: 0
@@ -523,8 +523,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 17
   stop_id: hannocity-seimei-kaji:39_1
-  arrival_time: '8:25:00'
-  departure_time: '8:25:00'
+  arrival_time: 08:25:00
+  departure_time: 08:25:00
   stop_headsign: 元加治駅
   pickup_type: 0
   drop_off_type: 0
@@ -532,8 +532,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 18
   stop_id: hannocity-seimei-kaji:40_0
-  arrival_time: '8:31:00'
-  departure_time: '8:31:00'
+  arrival_time: 08:31:00
+  departure_time: 08:31:00
   stop_headsign: 東飯能駅東口
   pickup_type: 0
   drop_off_type: 0
@@ -541,8 +541,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 19
   stop_id: hannocity-seimei-kaji:39_2
-  arrival_time: '8:32:00'
-  departure_time: '8:32:00'
+  arrival_time: 08:32:00
+  departure_time: 08:32:00
   stop_headsign: 東飯能駅東口
   pickup_type: 0
   drop_off_type: 0
@@ -550,8 +550,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 20
   stop_id: hannocity-seimei-kaji:38_2
-  arrival_time: '8:33:00'
-  departure_time: '8:33:00'
+  arrival_time: 08:33:00
+  departure_time: 08:33:00
   stop_headsign: 東飯能駅東口
   pickup_type: 0
   drop_off_type: 0
@@ -559,8 +559,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 21
   stop_id: hannocity-seimei-kaji:37_0
-  arrival_time: '8:35:00'
-  departure_time: '8:35:00'
+  arrival_time: 08:35:00
+  departure_time: 08:35:00
   stop_headsign: 東飯能駅東口
   pickup_type: 0
   drop_off_type: 0
@@ -568,8 +568,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 22
   stop_id: hannocity-seimei-kaji:36_2
-  arrival_time: '8:37:00'
-  departure_time: '8:37:00'
+  arrival_time: 08:37:00
+  departure_time: 08:37:00
   stop_headsign: 東飯能駅東口
   pickup_type: 0
   drop_off_type: 0
@@ -577,8 +577,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 23
   stop_id: hannocity-seimei-kaji:35_0
-  arrival_time: '8:40:00'
-  departure_time: '8:40:00'
+  arrival_time: 08:40:00
+  departure_time: 08:40:00
   stop_headsign: 東飯能駅東口
   pickup_type: 0
   drop_off_type: 0
@@ -586,8 +586,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 24
   stop_id: hannocity-seimei-kaji:34_2
-  arrival_time: '8:41:00'
-  departure_time: '8:41:00'
+  arrival_time: 08:41:00
+  departure_time: 08:41:00
   stop_headsign: 東飯能駅東口
   pickup_type: 0
   drop_off_type: 0
@@ -595,8 +595,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 25
   stop_id: hannocity-seimei-kaji:33_2
-  arrival_time: '8:42:00'
-  departure_time: '8:42:00'
+  arrival_time: 08:42:00
+  departure_time: 08:42:00
   stop_headsign: 東飯能駅東口
   pickup_type: 0
   drop_off_type: 0
@@ -604,8 +604,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 26
   stop_id: hannocity-seimei-kaji:32_2
-  arrival_time: '8:43:00'
-  departure_time: '8:43:00'
+  arrival_time: 08:43:00
+  departure_time: 08:43:00
   stop_headsign: 東飯能駅東口
   pickup_type: 0
   drop_off_type: 0
@@ -613,8 +613,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 27
   stop_id: hannocity-seimei-kaji:31_2
-  arrival_time: '8:44:00'
-  departure_time: '8:44:00'
+  arrival_time: 08:44:00
+  departure_time: 08:44:00
   stop_headsign: 東飯能駅東口
   pickup_type: 0
   drop_off_type: 0
@@ -622,8 +622,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 28
   stop_id: hannocity-seimei-kaji:41_0
-  arrival_time: '8:46:00'
-  departure_time: '8:46:00'
+  arrival_time: 08:46:00
+  departure_time: 08:46:00
   stop_headsign: 東飯能駅東口
   pickup_type: 0
   drop_off_type: 0
@@ -631,8 +631,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 29
   stop_id: hannocity-seimei-kaji:30_2
-  arrival_time: '8:47:00'
-  departure_time: '8:47:00'
+  arrival_time: 08:47:00
+  departure_time: 08:47:00
   stop_headsign: 東飯能駅東口
   pickup_type: 0
   drop_off_type: 0
@@ -640,8 +640,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 30
   stop_id: hannocity-seimei-kaji:6_2
-  arrival_time: '8:48:00'
-  departure_time: '8:48:00'
+  arrival_time: 08:48:00
+  departure_time: 08:48:00
   stop_headsign: 東飯能駅東口
   pickup_type: 0
   drop_off_type: 0
@@ -649,8 +649,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 31
   stop_id: hannocity-seimei-kaji:5_2
-  arrival_time: '8:49:00'
-  departure_time: '8:49:00'
+  arrival_time: 08:49:00
+  departure_time: 08:49:00
   stop_headsign: 東飯能駅東口
   pickup_type: 0
   drop_off_type: 0
@@ -658,8 +658,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 32
   stop_id: hannocity-seimei-kaji:4_2
-  arrival_time: '8:51:00'
-  departure_time: '8:51:00'
+  arrival_time: 08:51:00
+  departure_time: 08:51:00
   stop_headsign: 東飯能駅東口
   pickup_type: 0
   drop_off_type: 0
@@ -667,8 +667,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 33
   stop_id: hannocity-seimei-kaji:3_0
-  arrival_time: '8:52:00'
-  departure_time: '8:52:00'
+  arrival_time: 08:52:00
+  departure_time: 08:52:00
   stop_headsign: 東飯能駅東口
   pickup_type: 0
   drop_off_type: 0
@@ -676,8 +676,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 34
   stop_id: hannocity-seimei-kaji:2_2
-  arrival_time: '8:54:00'
-  departure_time: '8:54:00'
+  arrival_time: 08:54:00
+  departure_time: 08:54:00
   stop_headsign: 東飯能駅東口
   pickup_type: 0
   drop_off_type: 0
@@ -685,8 +685,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 35
   stop_id: hannocity-seimei-kaji:1_0
-  arrival_time: '8:55:00'
-  departure_time: '8:55:00'
+  arrival_time: 08:55:00
+  departure_time: 08:55:00
   stop_headsign: 東飯能駅東口
   pickup_type: 1
   drop_off_type: 0
@@ -1639,8 +1639,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 1
   stop_id: hannocity-seimei-kaji:1_0
-  arrival_time: '9:10:00'
-  departure_time: '9:10:00'
+  arrival_time: 09:10:00
+  departure_time: 09:10:00
   stop_headsign: 下川崎センター
   pickup_type: 0
   drop_off_type: 1
@@ -1648,8 +1648,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 2
   stop_id: hannocity-seimei-kaji:2_1
-  arrival_time: '9:11:00'
-  departure_time: '9:11:00'
+  arrival_time: 09:11:00
+  departure_time: 09:11:00
   stop_headsign: 下川崎センター
   pickup_type: 0
   drop_off_type: 0
@@ -1657,8 +1657,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 3
   stop_id: hannocity-seimei-kaji:3_0
-  arrival_time: '9:14:00'
-  departure_time: '9:14:00'
+  arrival_time: 09:14:00
+  departure_time: 09:14:00
   stop_headsign: 下川崎センター
   pickup_type: 0
   drop_off_type: 0
@@ -1666,8 +1666,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 4
   stop_id: hannocity-seimei-kaji:4_1
-  arrival_time: '9:15:00'
-  departure_time: '9:15:00'
+  arrival_time: 09:15:00
+  departure_time: 09:15:00
   stop_headsign: 下川崎センター
   pickup_type: 0
   drop_off_type: 0
@@ -1675,8 +1675,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 5
   stop_id: hannocity-seimei-kaji:5_1
-  arrival_time: '9:16:00'
-  departure_time: '9:16:00'
+  arrival_time: 09:16:00
+  departure_time: 09:16:00
   stop_headsign: 下川崎センター
   pickup_type: 0
   drop_off_type: 0
@@ -1684,8 +1684,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 6
   stop_id: hannocity-seimei-kaji:6_1
-  arrival_time: '9:17:00'
-  departure_time: '9:17:00'
+  arrival_time: 09:17:00
+  departure_time: 09:17:00
   stop_headsign: 下川崎センター
   pickup_type: 0
   drop_off_type: 0
@@ -1693,8 +1693,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 7
   stop_id: hannocity-seimei-kaji:7_1
-  arrival_time: '9:23:00'
-  departure_time: '9:23:00'
+  arrival_time: 09:23:00
+  departure_time: 09:23:00
   stop_headsign: 下川崎センター
   pickup_type: 0
   drop_off_type: 0
@@ -1702,8 +1702,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 8
   stop_id: hannocity-seimei-kaji:8_0
-  arrival_time: '9:24:00'
-  departure_time: '9:24:00'
+  arrival_time: 09:24:00
+  departure_time: 09:24:00
   stop_headsign: 下川崎センター
   pickup_type: 0
   drop_off_type: 0
@@ -1711,8 +1711,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 9
   stop_id: hannocity-seimei-kaji:9_0
-  arrival_time: '9:24:00'
-  departure_time: '9:24:00'
+  arrival_time: 09:24:00
+  departure_time: 09:24:00
   stop_headsign: 下川崎センター
   pickup_type: 0
   drop_off_type: 0
@@ -1720,8 +1720,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 10
   stop_id: hannocity-seimei-kaji:10_1
-  arrival_time: '9:28:00'
-  departure_time: '9:28:00'
+  arrival_time: 09:28:00
+  departure_time: 09:28:00
   stop_headsign: 下川崎センター
   pickup_type: 0
   drop_off_type: 0
@@ -1729,8 +1729,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 11
   stop_id: hannocity-seimei-kaji:18_1
-  arrival_time: '9:29:00'
-  departure_time: '9:29:00'
+  arrival_time: 09:29:00
+  departure_time: 09:29:00
   stop_headsign: 下川崎センター
   pickup_type: 0
   drop_off_type: 0
@@ -1738,8 +1738,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 12
   stop_id: hannocity-seimei-kaji:19_1
-  arrival_time: '9:29:00'
-  departure_time: '9:29:00'
+  arrival_time: 09:29:00
+  departure_time: 09:29:00
   stop_headsign: 下川崎センター
   pickup_type: 0
   drop_off_type: 0
@@ -1747,8 +1747,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 13
   stop_id: hannocity-seimei-kaji:20_0
-  arrival_time: '9:31:00'
-  departure_time: '9:31:00'
+  arrival_time: 09:31:00
+  departure_time: 09:31:00
   stop_headsign: 下川崎センター
   pickup_type: 0
   drop_off_type: 0
@@ -1756,8 +1756,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 14
   stop_id: hannocity-seimei-kaji:21_0
-  arrival_time: '9:32:00'
-  departure_time: '9:32:00'
+  arrival_time: 09:32:00
+  departure_time: 09:32:00
   stop_headsign: 下川崎センター
   pickup_type: 0
   drop_off_type: 0
@@ -1765,8 +1765,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 15
   stop_id: hannocity-seimei-kaji:22_0
-  arrival_time: '9:34:00'
-  departure_time: '9:34:00'
+  arrival_time: 09:34:00
+  departure_time: 09:34:00
   stop_headsign: 下川崎センター
   pickup_type: 0
   drop_off_type: 0
@@ -1774,8 +1774,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 16
   stop_id: hannocity-seimei-kaji:23_0
-  arrival_time: '9:35:00'
-  departure_time: '9:35:00'
+  arrival_time: 09:35:00
+  departure_time: 09:35:00
   stop_headsign: 下川崎センター
   pickup_type: 0
   drop_off_type: 0
@@ -1783,8 +1783,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 17
   stop_id: hannocity-seimei-kaji:24_0
-  arrival_time: '9:37:00'
-  departure_time: '9:37:00'
+  arrival_time: 09:37:00
+  departure_time: 09:37:00
   stop_headsign: 下川崎センター
   pickup_type: 0
   drop_off_type: 0
@@ -1792,8 +1792,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 18
   stop_id: hannocity-seimei-kaji:25_0
-  arrival_time: '9:38:00'
-  departure_time: '9:38:00'
+  arrival_time: 09:38:00
+  departure_time: 09:38:00
   stop_headsign: 下川崎センター
   pickup_type: 0
   drop_off_type: 0
@@ -1801,8 +1801,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 19
   stop_id: hannocity-seimei-kaji:26_0
-  arrival_time: '9:39:00'
-  departure_time: '9:39:00'
+  arrival_time: 09:39:00
+  departure_time: 09:39:00
   stop_headsign: 東飯能駅東口
   pickup_type: 0
   drop_off_type: 0
@@ -1810,8 +1810,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 20
   stop_id: hannocity-seimei-kaji:27_0
-  arrival_time: '9:41:00'
-  departure_time: '9:41:00'
+  arrival_time: 09:41:00
+  departure_time: 09:41:00
   stop_headsign: 東飯能駅東口
   pickup_type: 0
   drop_off_type: 0
@@ -1819,8 +1819,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 21
   stop_id: hannocity-seimei-kaji:28_0
-  arrival_time: '9:42:00'
-  departure_time: '9:42:00'
+  arrival_time: 09:42:00
+  departure_time: 09:42:00
   stop_headsign: 東飯能駅東口
   pickup_type: 0
   drop_off_type: 0
@@ -1828,8 +1828,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 22
   stop_id: hannocity-seimei-kaji:29_0
-  arrival_time: '9:43:00'
-  departure_time: '9:43:00'
+  arrival_time: 09:43:00
+  departure_time: 09:43:00
   stop_headsign: 東飯能駅東口
   pickup_type: 0
   drop_off_type: 0
@@ -1837,8 +1837,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 23
   stop_id: hannocity-seimei-kaji:19_2
-  arrival_time: '9:44:00'
-  departure_time: '9:44:00'
+  arrival_time: 09:44:00
+  departure_time: 09:44:00
   stop_headsign: 東飯能駅東口
   pickup_type: 0
   drop_off_type: 0
@@ -1846,8 +1846,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 24
   stop_id: hannocity-seimei-kaji:18_2
-  arrival_time: '9:44:00'
-  departure_time: '9:44:00'
+  arrival_time: 09:44:00
+  departure_time: 09:44:00
   stop_headsign: 東飯能駅東口
   pickup_type: 0
   drop_off_type: 0
@@ -1855,8 +1855,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 25
   stop_id: hannocity-seimei-kaji:10_2
-  arrival_time: '9:46:00'
-  departure_time: '9:46:00'
+  arrival_time: 09:46:00
+  departure_time: 09:46:00
   stop_headsign: 東飯能駅東口
   pickup_type: 0
   drop_off_type: 0
@@ -1864,8 +1864,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 26
   stop_id: hannocity-seimei-kaji:9_0
-  arrival_time: '9:48:00'
-  departure_time: '9:48:00'
+  arrival_time: 09:48:00
+  departure_time: 09:48:00
   stop_headsign: 東飯能駅東口
   pickup_type: 0
   drop_off_type: 0
@@ -1873,8 +1873,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 27
   stop_id: hannocity-seimei-kaji:8_0
-  arrival_time: '9:48:00'
-  departure_time: '9:48:00'
+  arrival_time: 09:48:00
+  departure_time: 09:48:00
   stop_headsign: 東飯能駅東口
   pickup_type: 0
   drop_off_type: 0
@@ -1882,8 +1882,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 28
   stop_id: hannocity-seimei-kaji:7_2
-  arrival_time: '9:49:00'
-  departure_time: '9:49:00'
+  arrival_time: 09:49:00
+  departure_time: 09:49:00
   stop_headsign: 東飯能駅東口
   pickup_type: 0
   drop_off_type: 0
@@ -1891,8 +1891,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 29
   stop_id: hannocity-seimei-kaji:6_2
-  arrival_time: '9:55:00'
-  departure_time: '9:55:00'
+  arrival_time: 09:55:00
+  departure_time: 09:55:00
   stop_headsign: 東飯能駅東口
   pickup_type: 0
   drop_off_type: 0
@@ -1900,8 +1900,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 30
   stop_id: hannocity-seimei-kaji:5_2
-  arrival_time: '9:56:00'
-  departure_time: '9:56:00'
+  arrival_time: 09:56:00
+  departure_time: 09:56:00
   stop_headsign: 東飯能駅東口
   pickup_type: 0
   drop_off_type: 0
@@ -1909,8 +1909,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 31
   stop_id: hannocity-seimei-kaji:4_2
-  arrival_time: '9:58:00'
-  departure_time: '9:58:00'
+  arrival_time: 09:58:00
+  departure_time: 09:58:00
   stop_headsign: 東飯能駅東口
   pickup_type: 0
   drop_off_type: 0
@@ -1918,8 +1918,8 @@ stop_times:
 - trip_id: hannocity-seimei-kaji:精明東系統+1+月水金+2
   stop_sequence: 32
   stop_id: hannocity-seimei-kaji:3_0
-  arrival_time: '9:59:00'
-  departure_time: '9:59:00'
+  arrival_time: 09:59:00
+  departure_time: 09:59:00
   stop_headsign: 東飯能駅東口
   pickup_type: 0
   drop_off_type: 0
