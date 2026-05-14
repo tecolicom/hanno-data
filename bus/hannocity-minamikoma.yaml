@@ -14,21 +14,21 @@ routes:
 - route_id: hannocity-minamikoma:1
   agency_id: '9000020112097'
   route_short_name: null
-  route_long_name: 小学校便
+  route_long_name: 南高麗線
   route_type: 3
   route_color: FFC000
   route_text_color: '000000'
 - route_id: hannocity-minamikoma:2
   agency_id: '9000020112097'
   route_short_name: null
-  route_long_name: 南高麗地区行政センター便
+  route_long_name: 南高麗線
   route_type: 3
   route_color: 4472C4
   route_text_color: FFFFFF
 - route_id: hannocity-minamikoma:3
   agency_id: '9000020112097'
   route_short_name: null
-  route_long_name: 苅生便
+  route_long_name: 南高麗線
   route_type: 3
   route_color: 70AD47
   route_text_color: FFFFFF

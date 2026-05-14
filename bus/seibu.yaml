@@ -17,8 +17,8 @@ agencies:
 routes:
 - route_id: seibu:555020
   agency_id: '6013301006270'
-  route_short_name: 飯２６
-  route_long_name: ''
+  route_short_name: 飯26
+  route_long_name: 飯能駅・東飯能駅東口線
   route_type: 3
   route_color: null
   route_text_color: null
