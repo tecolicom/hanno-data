@@ -10,7 +10,7 @@ on:
       - 'calendar/events/**'
 
 permissions:
-  contents: read
+  contents: write  # manual additions の commit & push のため
 
 concurrency:
   group: cal-sync
@@ -53,6 +53,46 @@ jobs:
         env:
           GOOGLE_APPLICATION_CREDENTIALS: /tmp/sa.json
         run: ./calendar/bin/cal-myhanno snapshot -o calendar/snapshots
+
+      - name: Ingest manual Calendar additions
+        id: ingest
+        env:
+          GOOGLE_APPLICATION_CREDENTIALS: /tmp/sa.json
+        run: |
+          # Calendar 上にあって YAML に無いイベントを新規 YAML 化 (既存は触らない)
+          ./calendar/bin/cal-myhanno ingest -o calendar/events
+          if [ -n "$(git status --porcelain calendar/events)" ]; then
+            ADDED=$(git status --porcelain calendar/events | wc -l | tr -d ' ')
+            LIST=$(git status --porcelain calendar/events | head -10 | sed 's/^...//')
+            {
+              echo "added=$ADDED"
+              echo "list<<EOF"
+              echo "$LIST"
+              echo "EOF"
+              echo "captured=true"
+            } >> "$GITHUB_OUTPUT"
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add calendar/events
+            git commit -m "calendar: ingest manual additions $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          else
+            echo "captured=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Notify Discord on ingest
+        if: steps.ingest.outputs.captured == 'true' && env.DISCORD_WEBHOOK != ''
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_CALENDAR_WEBHOOK }}
+          ADDED: ${{ steps.ingest.outputs.added }}
+          LIST: ${{ steps.ingest.outputs.list }}
+        run: |
+          URL="https://github.com/${GITHUB_REPOSITORY}/commit/$(git rev-parse HEAD)"
+          CONTENT=$(jq -nr --arg n "$ADDED" --arg l "$LIST" --arg u "$URL" \
+            '"📥 **Calendar 手動追加を取り込み**\n\n\($n) 件の手動追加イベントを YAML に取り込みました。\n\n```\n\($l)\n```\n\n\($u)"')
+          jq -n --arg c "$CONTENT" '{content: $c}' \
+            | curl -fsS -X POST -H "Content-Type: application/json" -d @- "$DISCORD_WEBHOOK" \
+            || echo "Discord notification failed (non-fatal)"
 
       - name: Diff Calendar vs YAML
         id: diff
