@@ -117,6 +117,10 @@ def extract_raw(html: str) -> tuple[str, str, dict[str, str]]:
 # ---------- 開催日・時刻 ----------
 
 
+def _valid_time(hh: int, mm: int) -> bool:
+    return 0 <= hh <= 23 and 0 <= mm <= 59
+
+
 def parse_sessions(date_field_text: str, year: int) -> list[dict]:
     """`①5月9日（土） ②5月17日（日） … 各日 14：00～16：00` から各セッションを抽出.
 
@@ -126,8 +130,16 @@ def parse_sessions(date_field_text: str, year: int) -> list[dict]:
 
     # 時刻 HH:MM[〜～~-]HH:MM
     tm = re.search(r"(\d{1,2}):(\d{2})\s*[〜～~\-ｰ]\s*(\d{1,2}):(\d{2})", t)
-    start_hhmm = f"{int(tm.group(1)):02d}:{tm.group(2)}" if tm else None
-    end_hhmm = f"{int(tm.group(3)):02d}:{tm.group(4)}" if tm else None
+    start_hhmm: str | None = None
+    end_hhmm: str | None = None
+    if tm:
+        sh, sm, eh, em = int(tm.group(1)), int(tm.group(2)), int(tm.group(3)), int(tm.group(4))
+        # 時刻値の妥当性 (0-23/0-59) + start < end
+        if _valid_time(sh, sm) and _valid_time(eh, em) and (sh * 60 + sm) < (eh * 60 + em):
+            start_hhmm = f"{sh:02d}:{sm:02d}"
+            end_hhmm = f"{eh:02d}:{em:02d}"
+        else:
+            print(f"  WARN: invalid time range {sh}:{sm}-{eh}:{em} — treating as all-day", file=sys.stderr)
 
     # 1 ツアーで 30 セッション超は実情と合わない (誤抽出の防衛線)
     MAX_SESSIONS_PER_URL = 30
@@ -271,14 +283,59 @@ def read_url_list(path: str) -> list[str]:
     return urls
 
 
+URL_ALLOWLIST_PATTERN = re.compile(r"^https://hanno-tourism\.jp/hanno-eco/tour/[a-z0-9\-]+/?$")
+
+
+def url_ok(url: str) -> bool:
+    """ホワイトリストに合致する URL のみ許可."""
+    return bool(URL_ALLOWLIST_PATTERN.match(url))
+
+
+def canonical_url_matches(html: str, expected_url: str) -> bool:
+    """ページの og:url や canonical link が要求 URL と一致するか.
+
+    一致しない (= リダイレクトで別ページが返ってきた) ケースを検知。
+    """
+    for m in [
+        re.search(r'<meta[^>]+property=["\']og:url["\'][^>]+content=["\']([^"\']+)["\']', html),
+        re.search(r'<link[^>]+rel=["\']canonical["\'][^>]+href=["\']([^"\']+)["\']', html),
+    ]:
+        if m:
+            got = m.group(1).rstrip("/")
+            want = expected_url.rstrip("/")
+            if got == want:
+                return True
+            # どちらかが見つかったが不一致なら NG
+            print(f"  WARN: page canonical/og:url mismatch ({got} != {want})", file=sys.stderr)
+            return False
+    # メタが見つからなければ判定不能 (通す)
+    return True
+
+
+CANCELED_KEYWORDS = ("中止", "キャンセル", "中止になりました", "開催中止")
+
+
+def looks_canceled(description: str) -> bool:
+    return any(k in description for k in CANCELED_KEYWORDS)
+
+
 def process_one(url: str, out_dir: str, uid_prefix: str, dry_run: bool) -> int:
     """1 URL を処理して書いたファイル数を返す."""
+    if not url_ok(url):
+        print(f"  WARN: URL outside allowlist, skip: {url}", file=sys.stderr)
+        return 0
+
     html = fetch_html(url)
     slug = slug_from_url(url)
 
+    if not canonical_url_matches(html, url):
+        print(f"  WARN: page canonical URL does not match request, skip {url}", file=sys.stderr)
+        return 0
+
     title, lead, fields = extract_raw(html)
-    if not title:
-        print(f"  WARN: no h1, skip {url}", file=sys.stderr)
+    # 最小品質チェック (title が極端に短い・空はおかしい)
+    if not title or len(title) < 3:
+        print(f"  WARN: no/too-short h1 ({title!r}), skip {url}", file=sys.stderr)
         return 0
     date_field = fields.get("開催日・時間") or fields.get("開催日") or ""
     if not date_field:
@@ -299,6 +356,10 @@ def process_one(url: str, out_dir: str, uid_prefix: str, dry_run: bool) -> int:
     location = f"集合 {location_clean}" if location_clean else None
 
     description = build_description(lead, fields)
+
+    # 「中止」等のキーワード検知 (警告のみ。削除はしない、人が判断)
+    if looks_canceled(description):
+        print(f"  WARN: description contains cancellation keyword. Review {url}", file=sys.stderr)
 
     # 抽出後の正本データに対する hash。HTML 全体 hash と違って動的トークン等の
     # 内容変化に左右されず、ソースの「中身が変わった時だけ」変化する。
