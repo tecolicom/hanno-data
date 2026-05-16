@@ -7,7 +7,7 @@
   "end": {
     "date": "2026-06-28"
   },
-  "etag": "\"3557848761284702\"",
+  "etag": "\"3557853773673470\"",
   "eventType": "default",
   "htmlLink": "https://www.google.com/calendar/event?eid=X2Nscjc4YjlpNjBwM2NjMW02OHJpcWMxaDgxazYycmplZHNuNjZxYmtmNG43OHBiM2R0bTZpYmozZHRtZyAyMDU0MDNjOTcxZGM1ZWYyMWVmZDgxYzFkNTM4NDljYWRmZDkwMWI3NWM3N2Q4ODk1NWQ5NjAwZjQ1ZjJhMDEzQGc",
   "iCalUID": "evt-20260627-01@hanno.city.tecoli.com",
@@ -32,5 +32,5 @@
   },
   "status": "confirmed",
   "summary": "安全大会",
-  "updated": "2026-05-16T09:39:40.642Z"
+  "updated": "2026-05-16T10:21:26.836Z"
 }

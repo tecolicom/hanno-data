@@ -8,7 +8,7 @@
   "end": {
     "date": "2026-05-22"
   },
-  "etag": "\"3557848688328574\"",
+  "etag": "\"3557853701039518\"",
   "eventType": "default",
   "htmlLink": "https://www.google.com/calendar/event?eid=ODVnNTQ5NXZmNGI2dTk3MjkzMHZiajNkdDQgMjA1NDAzYzk3MWRjNWVmMjFlZmQ4MWMxZDUzODQ5Y2FkZmQ5MDFiNzVjNzdkODg5NTVkOTYwMGY0NWYyYTAxM0Bn",
   "iCalUID": "85g5495vf4b6u972930vbj3dt4@google.com",
@@ -28,5 +28,5 @@
   },
   "status": "confirmed",
   "summary": "Myはんのう v1.17.2 リリース",
-  "updated": "2026-05-16T09:39:04.164Z"
+  "updated": "2026-05-16T10:20:50.519Z"
 }

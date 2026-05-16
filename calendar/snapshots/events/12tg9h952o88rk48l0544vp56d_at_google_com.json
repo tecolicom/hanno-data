@@ -7,7 +7,7 @@
   "end": {
     "date": "2026-05-04"
   },
-  "etag": "\"3557848665886014\"",
+  "etag": "\"3557853678948510\"",
   "eventType": "default",
   "htmlLink": "https://www.google.com/calendar/event?eid=MTJ0ZzloOTUybzg4cms0OGwwNTQ0dnA1NmQgMjA1NDAzYzk3MWRjNWVmMjFlZmQ4MWMxZDUzODQ5Y2FkZmQ5MDFiNzVjNzdkODg5NTVkOTYwMGY0NWYyYTAxM0Bn",
   "iCalUID": "12tg9h952o88rk48l0544vp56d@google.com",
@@ -22,12 +22,11 @@
   "reminders": {
     "useDefault": false
   },
-  "sequence": 1,
+  "sequence": 0,
   "start": {
     "date": "2026-05-03"
   },
   "status": "confirmed",
   "summary": "AKAI FACTORY 10周年",
-  "transparency": "transparent",
-  "updated": "2026-05-16T09:38:52.943Z"
+  "updated": "2026-05-16T10:20:39.474Z"
 }
