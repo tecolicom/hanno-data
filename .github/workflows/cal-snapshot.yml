@@ -23,12 +23,13 @@ jobs:
         run: |
           VERSION=v0.22.5
           URL="https://github.com/googleworkspace/cli/releases/download/${VERSION}/google-workspace-cli-x86_64-unknown-linux-gnu.tar.gz"
-          curl -sSL -o /tmp/gws.tar.gz "$URL"
-          tar -xzf /tmp/gws.tar.gz -C /tmp
-          BIN=$(find /tmp -maxdepth 3 -name gws -type f -executable | head -1)
+          mkdir -p /tmp/gws-install
+          curl -sSL -o /tmp/gws-install/gws.tar.gz "$URL"
+          tar -xzf /tmp/gws-install/gws.tar.gz -C /tmp/gws-install
+          BIN=$(find /tmp/gws-install -name gws -type f -executable | head -1)
           if [ -z "$BIN" ]; then
             echo "gws binary not found in archive" >&2
-            tar -tzf /tmp/gws.tar.gz | head
+            tar -tzf /tmp/gws-install/gws.tar.gz | head
             exit 1
           fi
           sudo install "$BIN" /usr/local/bin/gws
