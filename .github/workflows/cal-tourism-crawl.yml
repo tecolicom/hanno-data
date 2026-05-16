@@ -20,6 +20,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Install Python deps
+        run: pip install --quiet pyyaml
+
       - name: Run cal-tourism-fetch
         # --min-sessions: 抽出件数が極端に少ない (= パース失敗の疑い) なら exit 2
         run: ./calendar/bin/cal-tourism-fetch --out-dir calendar/events --min-sessions 5
@@ -74,10 +77,24 @@ jobs:
           CHANGED: ${{ steps.commit.outputs.changed }}
           CHANGED_LIST: ${{ steps.commit.outputs.changed_list }}
         run: |
-          URL="https://github.com/${GITHUB_REPOSITORY}/commit/$(git rev-parse HEAD)"
-          CONTENT=$(jq -nr \
-            --arg n "$CHANGED" --arg l "$CHANGED_LIST" --arg u "$URL" \
-            '"📅 **Myはんのう カレンダー更新** (tourism crawl)\n\n\($n) 件のイベント YAML が変化しました。\n\n```\n\($l)\n```\n\n\($u)"')
+          SUMMARY=$(python3 - <<'PYEOF'
+          import os, yaml
+          items = []
+          for path in os.environ.get("CHANGED_LIST", "").split("\n"):
+              path = path.strip()
+              if path and os.path.exists(path):
+                  with open(path) as f:
+                      d = yaml.safe_load(f) or {}
+                  ds = str(d.get("dtstart", ""))
+                  date = ds[:10] if "T" in ds else ds
+                  items.append((date, d.get("summary", "(no title)")))
+          items.sort()
+          for date, summary in items:
+              print(f"🗓 {date}  {summary}")
+          PYEOF
+          )
+          CONTENT=$(jq -nr --arg n "$CHANGED" --arg s "$SUMMARY" \
+            '"📅 Myはんのうカレンダーに **\($n) 件** の更新がありました (飯能ツーリズム)\n\n\($s)"')
           jq -n --arg c "$CONTENT" '{content: $c}' \
             | curl -fsS -X POST -H "Content-Type: application/json" -d @- "$DISCORD_WEBHOOK" \
             || echo "Discord notification failed (non-fatal)"

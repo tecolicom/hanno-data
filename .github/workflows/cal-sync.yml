@@ -87,9 +87,24 @@ jobs:
           ADDED: ${{ steps.ingest.outputs.added }}
           LIST: ${{ steps.ingest.outputs.list }}
         run: |
-          URL="https://github.com/${GITHUB_REPOSITORY}/commit/$(git rev-parse HEAD)"
-          CONTENT=$(jq -nr --arg n "$ADDED" --arg l "$LIST" --arg u "$URL" \
-            '"📥 **Calendar 手動追加を取り込み**\n\n\($n) 件の手動追加イベントを YAML に取り込みました。\n\n```\n\($l)\n```\n\n\($u)"')
+          SUMMARY=$(python3 - <<'PYEOF'
+          import os, yaml
+          items = []
+          for path in os.environ.get("LIST", "").split("\n"):
+              path = path.strip()
+              if path and os.path.exists(path):
+                  with open(path) as f:
+                      d = yaml.safe_load(f) or {}
+                  ds = str(d.get("dtstart", ""))
+                  date = ds[:10] if "T" in ds else ds
+                  items.append((date, d.get("summary", "(no title)")))
+          items.sort()
+          for date, summary in items:
+              print(f"🗓 {date}  {summary}")
+          PYEOF
+          )
+          CONTENT=$(jq -nr --arg n "$ADDED" --arg s "$SUMMARY" \
+            '"📥 Myはんのうカレンダーに **\($n) 件** 追加されました\n\n\($s)"')
           jq -n --arg c "$CONTENT" '{content: $c}' \
             | curl -fsS -X POST -H "Content-Type: application/json" -d @- "$DISCORD_WEBHOOK" \
             || echo "Discord notification failed (non-fatal)"
@@ -146,9 +161,7 @@ jobs:
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_CALENDAR_WEBHOOK }}
         run: |
-          URL="https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
-          CONTENT=$(jq -nr --arg u "$URL" \
-            '"✅ **Myはんのう カレンダー反映** (sync)\n\nevents/ の変更を Google Calendar に apply しました。\n\n\($u)"')
+          CONTENT="✅ Myはんのうカレンダーを更新しました"
           jq -n --arg c "$CONTENT" '{content: $c}' \
             | curl -fsS -X POST -H "Content-Type: application/json" -d @- "$DISCORD_WEBHOOK" \
             || echo "Discord notification failed (non-fatal)"
