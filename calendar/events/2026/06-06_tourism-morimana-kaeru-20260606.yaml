@@ -1,0 +1,30 @@
+uid: "tourism-morimana-kaeru-20260606@hanno.city.tecoli.com"
+summary: "夏のモリのカエル観察！〜昼夜のアオジシ谷を楽しく学ぼう！〜"
+location: "集合 飯能市立博物館前（国際興業バス「OH!!!・天覧山下」または「市民会館・博物館前」下車徒歩3分）"
+url: "https://hanno-tourism.jp/hanno-eco/tour/morimana-kaeru/"
+dtstart: "2026-06-06T16:00:00+09:00"
+dtend: "2026-06-06T20:30:00+09:00"
+description: |-
+  カエルの魅力にひっくりカエル!?生きもの観察にもってこいの季節に、樹上に産卵する魅力的なカエルを観察します。様々な生きものが集まる水辺を中心に、豊かな自然が楽しめます。暗くなると見たことのない何かを発見できるかも!?
+  
+  【利用料金】大人6,000円、学生5,000円 （ガイド料、保険、資料代）
+  
+  【定員】20名
+  
+  【ガイド】森のフィールド学舎スタッフ
+  
+  【持ち物】軽食、飲み物、観察道具（ケースや網）、雨具、ライト、長靴（ぬかるんだ場所を歩く場合があります）
+  
+  【備考】森のフィールド学舎HP https://morinomanabiya168.wixsite.com/website
+
+render:
+  gcal:
+    mode: single-allday
+    time_marker: "16:00–20:30"
+
+source:
+  type: hanno-tourism-jp
+  id: "morimana-kaeru"
+  url: "https://hanno-tourism.jp/hanno-eco/tour/morimana-kaeru/"
+  fetched_at: "2026-05-16T14:49:22.765949Z"
+  content_hash: "sha256-28a6926e2722e027"

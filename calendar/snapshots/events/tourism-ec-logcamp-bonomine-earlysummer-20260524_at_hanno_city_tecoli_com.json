@@ -1,0 +1,35 @@
+{
+  "created": "2026-05-16T14:50:16.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 07:30–20:00\n\nこのツアーは主催者都合により募集を中止しました。 棒ノ嶺山頂を目指し、ゴルジュ地形の美しい白谷沢ルートで沢歩きの基本を学び、沢を楽しむことができます。昼食と夕食はジビエレストランの謹製弁当とディナーを堪能し、ジビエについても学びます。\n\n【利用料金】一人23,000円 （ガイド料、弁当・夕食代、保険代）\n\n【定員】5名\n\n【ガイド】篠原 剛 日本山岳ガイド協会所属・登山ガイドステージⅢ\n\n【持ち物】20 ℓ ザック（防水対策を万全に）、沢装備一式、着替え、ヘルメット、ハーネス、登山装備、バス代、入浴代、電車代",
+  "end": {
+    "date": "2026-05-25"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bG02dXByM2M1bW4wYmIyZHRuNnVyYjlkcGlpcXBiMWU5bTdpc3JsZGxtbWFzaGQ2OG8zNGRoZzZrcDM4ZzM4YzVuNnNycGVjZGtuOHU5ZWVoaW02cnJjZDRuNjZycmQgMjA1NDAzYzk3MWRjNWVmMjFlZmQ4MWMxZDUzODQ5Y2FkZmQ5MDFiNzVjNzdkODg5NTVkOTYwMGY0NWYyYTAxM0Bn",
+  "iCalUID": "tourism-ec-logcamp-bonomine-earlysummer-20260524@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqpb35lm6upr3c5mn0bb2dtn6urb9dpiiqpb1e9m7isrldlmmashd68o34dhg6kp38g38c5n6srpecdkn8u9eehim6rrcd4n66rrd",
+  "kind": "calendar#event",
+  "location": "集合 西武池袋線「飯能駅」改札口",
+  "organizer": {
+    "displayName": "Myはんのう",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-logcamp-bonomine-earlysummer/"
+  },
+  "start": {
+    "date": "2026-05-24"
+  },
+  "status": "confirmed",
+  "summary": "棒ノ嶺・ゴルジュを沢歩きして、名栗川白谷沢源流歩きを楽しみジビエディナーを味わう旅",
+  "updated": "2026-05-16T14:50:17.154Z"
+}

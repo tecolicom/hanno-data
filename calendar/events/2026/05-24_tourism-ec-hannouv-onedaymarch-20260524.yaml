@@ -1,0 +1,30 @@
+uid: "tourism-ec-hannouv-onedaymarch-20260524@hanno.city.tecoli.com"
+summary: "気軽に新緑ワンデーマーチ〜森林文化都市飯能を楽しもう〜"
+location: "集合 NPO法人埼玉ハンノウ大学事務局 （飯能市仲町6-1(旧飯能織物協同組合事務所棟) 西武池袋線飯能駅下車徒歩7分"
+url: "https://hanno-tourism.jp/hanno-eco/tour/ec-hannouv-onedaymarch/"
+dtstart: "2026-05-24T09:30:00+09:00"
+dtend: "2026-05-24T12:30:00+09:00"
+description: |-
+  昨年までの「飯能新緑ツーデーマーチ」の約１０㎞のコースを飯能市の自然豊かな魅力を存分に学びながらご案内します。心地よい新緑の季節に、飯能河原、天覧山、吾妻峡、あさひ山などを巡りましょう。
+  
+  【利用料金】大人1,000円、学生500円
+  
+  【定員】50名
+  
+  【ガイド】埼玉ハンノウ大学スタッフ
+  
+  【持ち物】飲料水、天候によっては雨具など
+  
+  【備考】埼玉ハンノウ大学HP https://hanno-univ.net/
+
+render:
+  gcal:
+    mode: single-allday
+    time_marker: "09:30–12:30"
+
+source:
+  type: hanno-tourism-jp
+  id: "ec-hannouv-onedaymarch"
+  url: "https://hanno-tourism.jp/hanno-eco/tour/ec-hannouv-onedaymarch/"
+  fetched_at: "2026-05-16T14:49:21.266268Z"
+  content_hash: "sha256-693c3ac4a17dabbc"

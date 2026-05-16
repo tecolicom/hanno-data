@@ -1,6 +1,6 @@
 {
   "calendar_id": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
-  "count": 38,
+  "count": 43,
   "date": "2026-05-16",
   "events": [
     {
@@ -32,7 +32,7 @@
       },
       "status": "confirmed",
       "summary": "AKAI FACTORY 10周年",
-      "updated": "2026-05-16T10:20:38.069Z"
+      "updated": "2026-05-16T14:49:26.148Z"
     },
     {
       "created": "2026-05-06T08:54:00.000Z",
@@ -63,7 +63,7 @@
       },
       "status": "confirmed",
       "summary": "AKAI FACTORY 10周年",
-      "updated": "2026-05-16T10:20:39.474Z"
+      "updated": "2026-05-16T14:49:28.022Z"
     },
     {
       "created": "2026-05-06T08:54:00.000Z",
@@ -92,7 +92,7 @@
       },
       "status": "confirmed",
       "summary": "飯能あけぼの市",
-      "updated": "2026-05-16T10:20:40.749Z"
+      "updated": "2026-05-16T14:49:30.033Z"
     },
     {
       "created": "2026-05-06T08:54:00.000Z",
@@ -122,23 +122,23 @@
       },
       "status": "confirmed",
       "summary": "お散歩マーケット",
-      "updated": "2026-05-16T10:20:42.156Z"
+      "updated": "2026-05-16T14:49:33.215Z"
     },
     {
-      "created": "2026-05-16T00:23:01.000Z",
+      "created": "2026-05-16T14:49:35.000Z",
       "creator": {
         "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
       },
-      "description": "🕒 14:00–16:00\n\nガイドと巡る短時間の天覧山周辺自然観察。雨天中止。\n",
+      "description": "🕒 14:00–16:00\n\n普段の散歩ではなかなか気づかない自然の変化を、ガイドと一緒に歩きながら探してみませんか？ このツアーは短い時間で楽しむことのできる、お手軽ツアーになります。ぜひお気軽に参加してみてください。季節によっては自家製無農薬野菜もプレゼントします！\n\n【利用料金】1人2,000円、リピーター1,500円、一家族4,000円 （ガイド料、保険）\n\n【定員】10名\n\n【ガイド】児嶋翼（飯能市エコツーリズム市民ガイドの会 いきもの部）\n\n【持ち物】飲み物、雨具、リュックサックなど（両手が空くものがおすすめ）、タオル",
       "end": {
         "date": "2026-05-10"
       },
       "eventType": "default",
-      "htmlLink": "https://www.google.com/calendar/event?eid=X2Nscjc4YjlpNjBwM2NjMWw2MHNpcWMxaDgxazYycmplZHNuNjZxYmtmNG43OHBiM2R0bTZpYmozZHRtZyAyMDU0MDNjOTcxZGM1ZWYyMWVmZDgxYzFkNTM4NDljYWRmZDkwMWI3NWM3N2Q4ODk1NWQ5NjAwZjQ1ZjJhMDEzQGc",
-      "iCalUID": "evt-20260509-01@hanno.city.tecoli.com",
-      "id": "_clr78b9i60p3cc1l60siqc1h81k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+      "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bGhtZ3JyYmR0cTc4cnBkZWhpbXNzajFkcHQ2MnJoZGVkc211cXIxNWtwMzBjaG02MHFqMGVhMGQxZ21zcmpmNXBobWl0M3A1cHE2YW9yZmRoa2lzb3JmZGsgMjA1NDAzYzk3MWRjNWVmMjFlZmQ4MWMxZDUzODQ5Y2FkZmQ5MDFiNzVjNzdkODg5NTVkOTYwMGY0NWYyYTAxM0Bn",
+      "iCalUID": "tourism-ec-chokotto-tenranzan-syoka-20260509@hanno.city.tecoli.com",
+      "id": "_ehnnasj9edmiqpb35lhmgrrbdtq78rpdehimssj1dpt62rhdedsmuqr15kp30chm60qj0ea0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
       "kind": "calendar#event",
-      "location": "集合 飯能市立博物館前",
+      "location": "集合 飯能市立博物館前（国際興業バス「OH!!!・天覧山下」または「市民会館・博物館」下車徒歩3分）",
       "organizer": {
         "displayName": "Myはんのう",
         "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
@@ -157,7 +157,7 @@
       },
       "status": "confirmed",
       "summary": "ちょこっとお手軽ツアー〜天覧山〜",
-      "updated": "2026-05-16T10:20:43.658Z"
+      "updated": "2026-05-16T14:49:35.829Z"
     },
     {
       "created": "2026-05-16T00:22:57.000Z",
@@ -192,23 +192,23 @@
       },
       "status": "confirmed",
       "summary": "スゴ足ウォーク 飯能ツーデー吾野コースを歩く",
-      "updated": "2026-05-16T10:20:45.033Z"
+      "updated": "2026-05-16T14:49:37.858Z"
     },
     {
-      "created": "2026-05-16T00:22:58.000Z",
+      "created": "2026-05-16T14:49:39.000Z",
       "creator": {
         "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
       },
-      "description": "前坂・大高山・天覚山を縦走する4回シリーズの第3回。たいら栗園特製弁当付き。\n",
+      "description": "🕒 10:30–15:30\n\nこのツアーは主催者の都合により募集を中止いたしました。 伊豆ヶ岳から天覧山まで連なる、いわゆる飯能アルプスの脊梁を４回に分けて縦走します。3回目は吾野駅から前坂･大高山･天覚山といった飯能アルプスの代表的な峰々を走破します。昼食はたいら栗園の特製弁当をいただきます。\n\n【利用料金】一人7,800円 （ガイド料、昼食代、保険代）\n\n【定員】10名\n\n【ガイド】清水明（公社）日本山岳ガイド協会公認 登山ガイドステージⅡ\n\n【持ち物】手袋、飲料水、帽子、雨具、行動食（お菓子）、タオル",
       "end": {
         "date": "2026-05-14"
       },
       "eventType": "default",
-      "htmlLink": "https://www.google.com/calendar/event?eid=X2Nscjc4YjlpNjBwM2NjMWw2NHBpcWMxaTgxazYycmplZHNuNjZxYmtmNG43OHBiM2R0bTZpYmozZHRtZyAyMDU0MDNjOTcxZGM1ZWYyMWVmZDgxYzFkNTM4NDljYWRmZDkwMWI3NWM3N2Q4ODk1NWQ5NjAwZjQ1ZjJhMDEzQGc",
-      "iCalUID": "evt-20260513-02@hanno.city.tecoli.com",
-      "id": "_clr78b9i60p3cc1l64piqc1i81k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+      "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFycjhkY21tZ29iZWRwbm0ycjNnZWNwaXFjaGc2OHIzMGQ5aDZkMDZnb2JlZHBuaXNvcjllaHNpc3QzNWNkbm1vcTllY2RubXEgMjA1NDAzYzk3MWRjNWVmMjFlZmQ4MWMxZDUzODQ5Y2FkZmQ5MDFiNzVjNzdkODg5NTVkOTYwMGY0NWYyYTAxM0Bn",
+      "iCalUID": "tourism-ohk-hannoalps3-20260513@hanno.city.tecoli.com",
+      "id": "_ehnnasj9edmiqrr8dcmmgobedpnm2r3gecpiqchg68r30d9h6d06gobedpnisor9ehsist35cdnmoq9ecdnmq",
       "kind": "calendar#event",
-      "location": "集合 西武「吾野駅」駅前広場",
+      "location": "集合 西武池袋線・秩父線「吾野駅」駅前広場",
       "organizer": {
         "displayName": "Myはんのう",
         "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
@@ -226,8 +226,8 @@
         "date": "2026-05-13"
       },
       "status": "confirmed",
-      "summary": "登山ガイドと行く 飯能アルプス全山走破その3",
-      "updated": "2026-05-16T10:20:46.386Z"
+      "summary": "登山ガイドと行く飯能アルプス全山走破その3（吾野駅から前板・大高山・天覚山を越え東吾野駅）",
+      "updated": "2026-05-16T14:49:39.882Z"
     },
     {
       "created": "2026-05-13T23:43:53.000Z",
@@ -256,7 +256,7 @@
       },
       "status": "confirmed",
       "summary": "フカダヤ3周年",
-      "updated": "2026-05-16T10:20:47.738Z"
+      "updated": "2026-05-16T14:49:41.997Z"
     },
     {
       "created": "2026-05-15T00:24:31.000Z",
@@ -287,7 +287,7 @@
       },
       "status": "confirmed",
       "summary": "Myはんのう v1.17.1 リリース",
-      "updated": "2026-05-16T10:20:49.004Z"
+      "updated": "2026-05-16T14:49:43.931Z"
     },
     {
       "created": "2026-05-15T14:38:31.000Z",
@@ -318,7 +318,7 @@
       },
       "status": "confirmed",
       "summary": "Myはんのう v1.17.2 リリース",
-      "updated": "2026-05-16T10:20:50.519Z"
+      "updated": "2026-05-16T14:49:46.085Z"
     },
     {
       "created": "2026-05-16T00:22:58.000Z",
@@ -353,7 +353,7 @@
       },
       "status": "confirmed",
       "summary": "第14回 飯能ものづくりフェア",
-      "updated": "2026-05-16T10:20:51.764Z"
+      "updated": "2026-05-16T14:49:48.093Z"
     },
     {
       "created": "2026-05-16T00:22:59.000Z",
@@ -388,7 +388,7 @@
       },
       "status": "confirmed",
       "summary": "第14回 飯能ものづくりフェア",
-      "updated": "2026-05-16T10:20:53.084Z"
+      "updated": "2026-05-16T14:49:50.052Z"
     },
     {
       "created": "2026-05-06T08:54:00.000Z",
@@ -417,42 +417,7 @@
       },
       "status": "confirmed",
       "summary": "飯能市民清掃デー",
-      "updated": "2026-05-16T10:20:54.377Z"
-    },
-    {
-      "created": "2026-05-16T00:23:01.000Z",
-      "creator": {
-        "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
-      },
-      "description": "🕒 14:00–16:00\n\nガイドと巡る短時間の天覧山周辺自然観察。雨天中止。\n",
-      "end": {
-        "date": "2026-05-18"
-      },
-      "eventType": "default",
-      "htmlLink": "https://www.google.com/calendar/event?eid=X2Nscjc4YjlpNjBwM2NjMWw2NHJpcWMxaDgxazYycmplZHNuNjZxYmtmNG43OHBiM2R0bTZpYmozZHRtZyAyMDU0MDNjOTcxZGM1ZWYyMWVmZDgxYzFkNTM4NDljYWRmZDkwMWI3NWM3N2Q4ODk1NWQ5NjAwZjQ1ZjJhMDEzQGc",
-      "iCalUID": "evt-20260517-01@hanno.city.tecoli.com",
-      "id": "_clr78b9i60p3cc1l64riqc1h81k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
-      "kind": "calendar#event",
-      "location": "集合 飯能市立博物館前",
-      "organizer": {
-        "displayName": "Myはんのう",
-        "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
-        "self": true
-      },
-      "reminders": {
-        "useDefault": false
-      },
-      "sequence": 0,
-      "source": {
-        "title": "hanno-tourism.jp",
-        "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-chokotto-tenranzan-syoka/"
-      },
-      "start": {
-        "date": "2026-05-17"
-      },
-      "status": "confirmed",
-      "summary": "ちょこっとお手軽ツアー〜天覧山〜",
-      "updated": "2026-05-16T10:20:55.657Z"
+      "updated": "2026-05-16T14:49:52.306Z"
     },
     {
       "created": "2026-05-16T00:23:00.000Z",
@@ -487,23 +452,58 @@
       },
       "status": "confirmed",
       "summary": "第14回 飯能ものづくりフェア (最終日)",
-      "updated": "2026-05-16T10:20:56.937Z"
+      "updated": "2026-05-16T14:49:54.416Z"
     },
     {
-      "created": "2026-05-16T00:23:02.000Z",
+      "created": "2026-05-16T14:49:56.000Z",
       "creator": {
         "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
       },
-      "description": "🕒 09:30–14:40\n\n落ち葉農法のウネづくり・夏野菜の植え付け体験＋イタリアンランチ。\n",
+      "description": "🕒 14:00–16:00\n\n普段の散歩ではなかなか気づかない自然の変化を、ガイドと一緒に歩きながら探してみませんか？ このツアーは短い時間で楽しむことのできる、お手軽ツアーになります。ぜひお気軽に参加してみてください。季節によっては自家製無農薬野菜もプレゼントします！\n\n【利用料金】1人2,000円、リピーター1,500円、一家族4,000円 （ガイド料、保険）\n\n【定員】10名\n\n【ガイド】児嶋翼（飯能市エコツーリズム市民ガイドの会 いきもの部）\n\n【持ち物】飲み物、雨具、リュックサックなど（両手が空くものがおすすめ）、タオル",
       "end": {
         "date": "2026-05-18"
       },
       "eventType": "default",
-      "htmlLink": "https://www.google.com/calendar/event?eid=X2Nscjc4YjlpNjBwM2NjMWw2NHJpcWMxajgxazYycmplZHNuNjZxYmtmNG43OHBiM2R0bTZpYmozZHRtZyAyMDU0MDNjOTcxZGM1ZWYyMWVmZDgxYzFkNTM4NDljYWRmZDkwMWI3NWM3N2Q4ODk1NWQ5NjAwZjQ1ZjJhMDEzQGc",
-      "iCalUID": "evt-20260517-03@hanno.city.tecoli.com",
-      "id": "_clr78b9i60p3cc1l64riqc1j81k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+      "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bGhtZ3JyYmR0cTc4cnBkZWhpbXNzajFkcHQ2MnJoZGVkc211cXIxNWtwMzBjaG02MHFqMmRxMGQxZ21zcmpmNXBobWl0M3A1cHE2YW9yZmRoa2lzb3JmZGsgMjA1NDAzYzk3MWRjNWVmMjFlZmQ4MWMxZDUzODQ5Y2FkZmQ5MDFiNzVjNzdkODg5NTVkOTYwMGY0NWYyYTAxM0Bn",
+      "iCalUID": "tourism-ec-chokotto-tenranzan-syoka-20260517@hanno.city.tecoli.com",
+      "id": "_ehnnasj9edmiqpb35lhmgrrbdtq78rpdehimssj1dpt62rhdedsmuqr15kp30chm60qj2dq0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
       "kind": "calendar#event",
-      "location": "集合 ラ・ノーラ前の畑 (飯能市下加治243-25)",
+      "location": "集合 飯能市立博物館前（国際興業バス「OH!!!・天覧山下」または「市民会館・博物館」下車徒歩3分）",
+      "organizer": {
+        "displayName": "Myはんのう",
+        "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+        "self": true
+      },
+      "reminders": {
+        "useDefault": false
+      },
+      "sequence": 0,
+      "source": {
+        "title": "hanno-tourism.jp",
+        "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-chokotto-tenranzan-syoka/"
+      },
+      "start": {
+        "date": "2026-05-17"
+      },
+      "status": "confirmed",
+      "summary": "ちょこっとお手軽ツアー〜天覧山〜",
+      "updated": "2026-05-16T14:49:56.500Z"
+    },
+    {
+      "created": "2026-05-16T14:49:58.000Z",
+      "creator": {
+        "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+      },
+      "description": "🕒 09:30–14:40\n\n落ち葉や枝を活かした「菌ちゃん畑」で、夏野菜の植え付け体験ウネづくり。菌ちゃん農法の苗の植え方、育て方のコツをアドバイザーが分かりやすく伝授。ランチはレストラン「ラ ノーラ」で、菌ちゃん野菜を使ったイタリアンを堪能。\n\n【利用料金】大人8,800円、中学生以下2,200円 （ガイド料、昼食代、材料費、保険料）\n\n【定員】15名\n\n【ガイド】飯能たねとつち農園スタッフ\n\n【持ち物】飲み物、帽子、タオル、手袋など",
+      "end": {
+        "date": "2026-05-18"
+      },
+      "eventType": "default",
+      "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXF0MzFkcGluOHNybGVoa2lxYzlkNjhtajRjMWk2b28zYWM5bjgxazYycmplZHNuNjZxYmtmNG43OHBiM2R0bTZpYmozZHRtZyAyMDU0MDNjOTcxZGM1ZWYyMWVmZDgxYzFkNTM4NDljYWRmZDkwMWI3NWM3N2Q4ODk1NWQ5NjAwZjQ1ZjJhMDEzQGc",
+      "iCalUID": "tourism-tanetsuti-1-2-20260517@hanno.city.tecoli.com",
+      "id": "_ehnnasj9edmiqt31dpin8srlehkiqc9d68mj4c1i6oo3ac9n81k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+      "kind": "calendar#event",
+      "location": "集合 ラ・ノーラ前の畑 （飯能市下加治243-25、イーグルバス「飯能靖和病院」下車徒歩8分）",
       "organizer": {
         "displayName": "Myはんのう",
         "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
@@ -521,24 +521,24 @@
         "date": "2026-05-17"
       },
       "status": "confirmed",
-      "summary": "菌ちゃん畑づくりと夏野菜植えつけ体験",
-      "updated": "2026-05-16T10:20:58.246Z"
+      "summary": "森のまち飯能で楽しむ菌ちゃん畑づくりと夏野菜植えつけ体験",
+      "updated": "2026-05-16T14:49:58.717Z"
     },
     {
-      "created": "2026-05-16T00:23:03.000Z",
+      "created": "2026-05-16T14:50:00.000Z",
       "creator": {
         "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
       },
-      "description": "🕒 09:30–14:30\n\n無農薬薔薇とハーブに囲まれて、薔薇と採れたて野菜の身体にやさしいランチを参加者で作る。カンテレ演奏付き。\n",
+      "description": "🕒 09:30–14:30\n\n無農薬で育てた薔薇とハーブに囲まれて、薔薇の花と採れたて野菜で身体にやさしいランチを参加者みんなで作ります。カンテレの音色やローズウォーターに支えられ、五感を通して自然とつながり、身体の内側がほどけていくエコツアーです。\n\n【利用料金】一人4,000円 （ガイド、食材費、保険など）\n\n【定員】8名\n\n【ガイド】森香織\n\n【持ち物】マスク、エプロン、三角巾、筆記用具",
       "end": {
         "date": "2026-05-20"
       },
       "eventType": "default",
-      "htmlLink": "https://www.google.com/calendar/event?eid=X2Nscjc4YjlpNjBwM2NjMWw2NHNpcWMxaDgxazYycmplZHNuNjZxYmtmNG43OHBiM2R0bTZpYmozZHRtZyAyMDU0MDNjOTcxZGM1ZWYyMWVmZDgxYzFkNTM4NDljYWRmZDkwMWI3NWM3N2Q4ODk1NWQ5NjAwZjQ1ZjJhMDEzQGc",
-      "iCalUID": "evt-20260519-01@hanno.city.tecoli.com",
-      "id": "_clr78b9i60p3cc1l64siqc1h81k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+      "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bG1tdXNqOWRkZ211c2o5NWxwNnVzcjU1a3AzMGNobTYwcWoyZWEwZDFnbXNyamY1cGhtaXQzcDVwcTZhb3JmZGhraXNvcmZkayAyMDU0MDNjOTcxZGM1ZWYyMWVmZDgxYzFkNTM4NDljYWRmZDkwMWI3NWM3N2Q4ODk1NWQ5NjAwZjQ1ZjJhMDEzQGc",
+      "iCalUID": "tourism-ec-morikaori-rose-20260519@hanno.city.tecoli.com",
+      "id": "_ehnnasj9edmiqpb35lmmusj9ddgmusj95lp6usr55kp30chm60qj2ea0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
       "kind": "calendar#event",
-      "location": "飯能市笠縫",
+      "location": "集合 森香織宅（飯能市笠縫）※詳細は申込後 西武池袋線「飯能駅」から徒歩20分/「東飯能駅」から徒歩15分",
       "organizer": {
         "displayName": "Myはんのう",
         "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
@@ -557,23 +557,23 @@
       },
       "status": "confirmed",
       "summary": "ローズガーデンでほどける身体と薔薇のランチ・エコツアー",
-      "updated": "2026-05-16T10:20:59.685Z"
+      "updated": "2026-05-16T14:50:00.752Z"
     },
     {
-      "created": "2026-05-16T00:23:04.000Z",
+      "created": "2026-05-16T14:50:02.000Z",
       "creator": {
         "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
       },
-      "description": "🕒 08:00–15:10\n\n東吾野駅→天覚山→多峯主山→天覽山→飯能駅。シリーズ最終回。\n",
+      "description": "🕒 08:00–15:10\n\n伊豆ヶ岳から天覧山まで連なる、いわゆる飯能アルプスの脊梁を４回に分けて縦走します。4回目は東吾野駅から天覚山・久須美坂・永田山を越えて多峯主山･天覧山・飯能駅に向かいます。昼食はにこにこハウスの特製弁当をいただきます。\n\n【利用料金】一人7,800円 （ガイド料、昼食代、保険代）\n\n【定員】10名\n\n【ガイド】清水明（公社）日本山岳ガイド協会公認 登山ガイドステージⅡ\n\n【持ち物】手袋、飲料水、帽子、雨具、行動食（お菓子）、タオル",
       "end": {
         "date": "2026-05-21"
       },
       "eventType": "default",
-      "htmlLink": "https://www.google.com/calendar/event?eid=X2Nscjc4YjlpNjBwM2NjMWw2OG8ycWMxaDgxazYycmplZHNuNjZxYmtmNG43OHBiM2R0bTZpYmozZHRtZyAyMDU0MDNjOTcxZGM1ZWYyMWVmZDgxYzFkNTM4NDljYWRmZDkwMWI3NWM3N2Q4ODk1NWQ5NjAwZjQ1ZjJhMDEzQGc",
-      "iCalUID": "evt-20260520-01@hanno.city.tecoli.com",
-      "id": "_clr78b9i60p3cc1l68o2qc1h81k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+      "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFycjhkY21tZ29iZWRwbm0ycjNnZWNxMnFjaGc2OHIzMGQ5aTYxMDZnb2JlZHBuaXNvcjllaHNpc3QzNWNkbm1vcTllY2RubXEgMjA1NDAzYzk3MWRjNWVmMjFlZmQ4MWMxZDUzODQ5Y2FkZmQ5MDFiNzVjNzdkODg5NTVkOTYwMGY0NWYyYTAxM0Bn",
+      "iCalUID": "tourism-ohk-hannoalps4-20260520@hanno.city.tecoli.com",
+      "id": "_ehnnasj9edmiqrr8dcmmgobedpnm2r3gecq2qchg68r30d9i6106gobedpnisor9ehsist35cdnmoq9ecdnmq",
       "kind": "calendar#event",
-      "location": "集合 西武「東吾野駅」駅前広場",
+      "location": "集合 西武池袋線「東吾野駅」駅前広場",
       "organizer": {
         "displayName": "Myはんのう",
         "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
@@ -591,24 +591,24 @@
         "date": "2026-05-20"
       },
       "status": "confirmed",
-      "summary": "登山ガイドと行く 飯能アルプス全山走破その4",
-      "updated": "2026-05-16T10:21:01.488Z"
+      "summary": "登山ガイドと行く飯能アルプス全山走破その4（東吾野駅から天覚山・多峯主山・天覧山を越え飯能駅）",
+      "updated": "2026-05-16T14:50:02.771Z"
     },
     {
-      "created": "2026-05-16T00:23:04.000Z",
+      "created": "2026-05-16T14:50:04.000Z",
       "creator": {
         "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
       },
-      "description": "🕒 09:30–14:30\n\n無農薬薔薇とハーブに囲まれて、薔薇と採れたて野菜の身体にやさしいランチを参加者で作る。カンテレ演奏付き。\n",
+      "description": "🕒 09:30–14:30\n\n無農薬で育てた薔薇とハーブに囲まれて、薔薇の花と採れたて野菜で身体にやさしいランチを参加者みんなで作ります。カンテレの音色やローズウォーターに支えられ、五感を通して自然とつながり、身体の内側がほどけていくエコツアーです。\n\n【利用料金】一人4,000円 （ガイド、食材費、保険など）\n\n【定員】8名\n\n【ガイド】森香織\n\n【持ち物】マスク、エプロン、三角巾、筆記用具",
       "end": {
         "date": "2026-05-22"
       },
       "eventType": "default",
-      "htmlLink": "https://www.google.com/calendar/event?eid=X2Nscjc4YjlpNjBwM2NjMWw2OG9pcWMxaDgxazYycmplZHNuNjZxYmtmNG43OHBiM2R0bTZpYmozZHRtZyAyMDU0MDNjOTcxZGM1ZWYyMWVmZDgxYzFkNTM4NDljYWRmZDkwMWI3NWM3N2Q4ODk1NWQ5NjAwZjQ1ZjJhMDEzQGc",
-      "iCalUID": "evt-20260521-01@hanno.city.tecoli.com",
-      "id": "_clr78b9i60p3cc1l68oiqc1h81k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+      "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bG1tdXNqOWRkZ211c2o5NWxwNnVzcjU1a3AzMGNobTYwcWo0Y2EwZDFnbXNyamY1cGhtaXQzcDVwcTZhb3JmZGhraXNvcmZkayAyMDU0MDNjOTcxZGM1ZWYyMWVmZDgxYzFkNTM4NDljYWRmZDkwMWI3NWM3N2Q4ODk1NWQ5NjAwZjQ1ZjJhMDEzQGc",
+      "iCalUID": "tourism-ec-morikaori-rose-20260521@hanno.city.tecoli.com",
+      "id": "_ehnnasj9edmiqpb35lmmusj9ddgmusj95lp6usr55kp30chm60qj4ca0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
       "kind": "calendar#event",
-      "location": "飯能市笠縫",
+      "location": "集合 森香織宅（飯能市笠縫）※詳細は申込後 西武池袋線「飯能駅」から徒歩20分/「東飯能駅」から徒歩15分",
       "organizer": {
         "displayName": "Myはんのう",
         "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
@@ -627,42 +627,7 @@
       },
       "status": "confirmed",
       "summary": "ローズガーデンでほどける身体と薔薇のランチ・エコツアー",
-      "updated": "2026-05-16T10:21:02.838Z"
-    },
-    {
-      "created": "2026-05-16T00:23:05.000Z",
-      "creator": {
-        "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
-      },
-      "description": "🕒 09:30–12:30\n\n飯能河原・天覧山・吾妻峡・あさひ山などをめぐる約10kmコース。雨天時は5/24に延期。\n",
-      "end": {
-        "date": "2026-05-24"
-      },
-      "eventType": "default",
-      "htmlLink": "https://www.google.com/calendar/event?eid=X2Nscjc4YjlpNjBwM2NjMWw2OHBpcWMxaDgxazYycmplZHNuNjZxYmtmNG43OHBiM2R0bTZpYmozZHRtZyAyMDU0MDNjOTcxZGM1ZWYyMWVmZDgxYzFkNTM4NDljYWRmZDkwMWI3NWM3N2Q4ODk1NWQ5NjAwZjQ1ZjJhMDEzQGc",
-      "iCalUID": "evt-20260523-01@hanno.city.tecoli.com",
-      "id": "_clr78b9i60p3cc1l68piqc1h81k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
-      "kind": "calendar#event",
-      "location": "集合 NPO法人埼玉ハンノウ大学事務局 (飯能市仲町6-1)",
-      "organizer": {
-        "displayName": "Myはんのう",
-        "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
-        "self": true
-      },
-      "reminders": {
-        "useDefault": false
-      },
-      "sequence": 0,
-      "source": {
-        "title": "hanno-tourism.jp",
-        "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-hannouv-onedaymarch/"
-      },
-      "start": {
-        "date": "2026-05-23"
-      },
-      "status": "confirmed",
-      "summary": "気軽に新緑ワンデーマーチ〜森林文化都市飯能を楽しもう〜",
-      "updated": "2026-05-16T10:21:04.230Z"
+      "updated": "2026-05-16T14:50:04.826Z"
     },
     {
       "created": "2026-05-16T00:23:06.000Z",
@@ -697,7 +662,42 @@
       },
       "status": "confirmed",
       "summary": "スゴ足ウォーク 飯能ツーデー名栗コースを歩く",
-      "updated": "2026-05-16T10:21:05.478Z"
+      "updated": "2026-05-16T14:50:06.851Z"
+    },
+    {
+      "created": "2026-05-16T14:50:08.000Z",
+      "creator": {
+        "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+      },
+      "description": "🕒 09:30–12:30\n\n昨年までの「飯能新緑ツーデーマーチ」の約１０㎞のコースを飯能市の自然豊かな魅力を存分に学びながらご案内します。心地よい新緑の季節に、飯能河原、天覧山、吾妻峡、あさひ山などを巡りましょう。\n\n【利用料金】大人1,000円、学生500円\n\n【定員】50名\n\n【ガイド】埼玉ハンノウ大学スタッフ\n\n【持ち物】飲料水、天候によっては雨具など\n\n【備考】埼玉ハンノウ大学HP https://hanno-univ.net/",
+      "end": {
+        "date": "2026-05-24"
+      },
+      "eventType": "default",
+      "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bGs2MnJqZWR0cW5jYmJmZHBpbThvYnBkbGduNG9yODVrcDMwY2htNjBxajRjcTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIDIwNTQwM2M5NzFkYzVlZjIxZWZkODFjMWQ1Mzg0OWNhZGZkOTAxYjc1Yzc3ZDg4OTU1ZDk2MDBmNDVmMmEwMTNAZw",
+      "iCalUID": "tourism-ec-hannouv-onedaymarch-20260523@hanno.city.tecoli.com",
+      "id": "_ehnnasj9edmiqpb35lk62rjedtqncbbfdpim8obpdlgn4or85kp30chm60qj4cq0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+      "kind": "calendar#event",
+      "location": "集合 NPO法人埼玉ハンノウ大学事務局 （飯能市仲町6-1(旧飯能織物協同組合事務所棟) 西武池袋線飯能駅下車徒歩7分",
+      "organizer": {
+        "displayName": "Myはんのう",
+        "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+        "self": true
+      },
+      "reminders": {
+        "useDefault": false
+      },
+      "sequence": 0,
+      "source": {
+        "title": "hanno-tourism.jp",
+        "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-hannouv-onedaymarch/"
+      },
+      "start": {
+        "date": "2026-05-23"
+      },
+      "status": "confirmed",
+      "summary": "気軽に新緑ワンデーマーチ〜森林文化都市飯能を楽しもう〜",
+      "updated": "2026-05-16T14:50:08.922Z"
     },
     {
       "created": "2026-05-16T00:23:07.000Z",
@@ -732,7 +732,7 @@
       },
       "status": "confirmed",
       "summary": "スゴ足ウォーク 奥武蔵ウオーク",
-      "updated": "2026-05-16T10:21:06.775Z"
+      "updated": "2026-05-16T14:50:10.902Z"
     },
     {
       "created": "2026-05-16T00:23:08.000Z",
@@ -767,23 +767,58 @@
       },
       "status": "confirmed",
       "summary": "飯能消防防災フェスタ2026",
-      "updated": "2026-05-16T10:21:08.064Z"
+      "updated": "2026-05-16T14:50:12.996Z"
     },
     {
-      "created": "2026-05-16T00:23:09.000Z",
+      "created": "2026-05-16T14:50:14.000Z",
       "creator": {
         "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
       },
-      "description": "🕒 07:30–20:00\n\n白谷沢ルートで棒ノ嶺へ。昼食弁当・夕食ジビエディナー付き。要登山経験。\n",
+      "description": "🕒 09:30–12:30\n\n昨年までの「飯能新緑ツーデーマーチ」の約１０㎞のコースを飯能市の自然豊かな魅力を存分に学びながらご案内します。心地よい新緑の季節に、飯能河原、天覧山、吾妻峡、あさひ山などを巡りましょう。\n\n【利用料金】大人1,000円、学生500円\n\n【定員】50名\n\n【ガイド】埼玉ハンノウ大学スタッフ\n\n【持ち物】飲料水、天候によっては雨具など\n\n【備考】埼玉ハンノウ大学HP https://hanno-univ.net/",
       "end": {
         "date": "2026-05-25"
       },
       "eventType": "default",
-      "htmlLink": "https://www.google.com/calendar/event?eid=X2Nscjc4YjlpNjBwM2NjMWw2OHEycWMxajgxazYycmplZHNuNjZxYmtmNG43OHBiM2R0bTZpYmozZHRtZyAyMDU0MDNjOTcxZGM1ZWYyMWVmZDgxYzFkNTM4NDljYWRmZDkwMWI3NWM3N2Q4ODk1NWQ5NjAwZjQ1ZjJhMDEzQGc",
-      "iCalUID": "evt-20260524-03@hanno.city.tecoli.com",
-      "id": "_clr78b9i60p3cc1l68q2qc1j81k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+      "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bGs2MnJqZWR0cW5jYmJmZHBpbThvYnBkbGduNG9yODVrcDMwY2htNjBxajRkMjBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIDIwNTQwM2M5NzFkYzVlZjIxZWZkODFjMWQ1Mzg0OWNhZGZkOTAxYjc1Yzc3ZDg4OTU1ZDk2MDBmNDVmMmEwMTNAZw",
+      "iCalUID": "tourism-ec-hannouv-onedaymarch-20260524@hanno.city.tecoli.com",
+      "id": "_ehnnasj9edmiqpb35lk62rjedtqncbbfdpim8obpdlgn4or85kp30chm60qj4d20d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
       "kind": "calendar#event",
-      "location": "集合 西武「飯能駅」改札口",
+      "location": "集合 NPO法人埼玉ハンノウ大学事務局 （飯能市仲町6-1(旧飯能織物協同組合事務所棟) 西武池袋線飯能駅下車徒歩7分",
+      "organizer": {
+        "displayName": "Myはんのう",
+        "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+        "self": true
+      },
+      "reminders": {
+        "useDefault": false
+      },
+      "sequence": 0,
+      "source": {
+        "title": "hanno-tourism.jp",
+        "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-hannouv-onedaymarch/"
+      },
+      "start": {
+        "date": "2026-05-24"
+      },
+      "status": "confirmed",
+      "summary": "気軽に新緑ワンデーマーチ〜森林文化都市飯能を楽しもう〜",
+      "updated": "2026-05-16T14:50:15.015Z"
+    },
+    {
+      "created": "2026-05-16T14:50:16.000Z",
+      "creator": {
+        "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+      },
+      "description": "🕒 07:30–20:00\n\nこのツアーは主催者都合により募集を中止しました。 棒ノ嶺山頂を目指し、ゴルジュ地形の美しい白谷沢ルートで沢歩きの基本を学び、沢を楽しむことができます。昼食と夕食はジビエレストランの謹製弁当とディナーを堪能し、ジビエについても学びます。\n\n【利用料金】一人23,000円 （ガイド料、弁当・夕食代、保険代）\n\n【定員】5名\n\n【ガイド】篠原 剛 日本山岳ガイド協会所属・登山ガイドステージⅢ\n\n【持ち物】20 ℓ ザック（防水対策を万全に）、沢装備一式、着替え、ヘルメット、ハーネス、登山装備、バス代、入浴代、電車代",
+      "end": {
+        "date": "2026-05-25"
+      },
+      "eventType": "default",
+      "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bG02dXByM2M1bW4wYmIyZHRuNnVyYjlkcGlpcXBiMWU5bTdpc3JsZGxtbWFzaGQ2OG8zNGRoZzZrcDM4ZzM4YzVuNnNycGVjZGtuOHU5ZWVoaW02cnJjZDRuNjZycmQgMjA1NDAzYzk3MWRjNWVmMjFlZmQ4MWMxZDUzODQ5Y2FkZmQ5MDFiNzVjNzdkODg5NTVkOTYwMGY0NWYyYTAxM0Bn",
+      "iCalUID": "tourism-ec-logcamp-bonomine-earlysummer-20260524@hanno.city.tecoli.com",
+      "id": "_ehnnasj9edmiqpb35lm6upr3c5mn0bb2dtn6urb9dpiiqpb1e9m7isrldlmmashd68o34dhg6kp38g38c5n6srpecdkn8u9eehim6rrcd4n66rrd",
+      "kind": "calendar#event",
+      "location": "集合 西武池袋線「飯能駅」改札口",
       "organizer": {
         "displayName": "Myはんのう",
         "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
@@ -801,24 +836,24 @@
         "date": "2026-05-24"
       },
       "status": "confirmed",
-      "summary": "棒ノ嶺・ゴルジュ沢歩き＋白谷沢源流＆ジビエディナーの旅",
-      "updated": "2026-05-16T10:21:09.395Z"
+      "summary": "棒ノ嶺・ゴルジュを沢歩きして、名栗川白谷沢源流歩きを楽しみジビエディナーを味わう旅",
+      "updated": "2026-05-16T14:50:17.154Z"
     },
     {
-      "created": "2026-05-16T00:23:09.000Z",
+      "created": "2026-05-16T14:50:18.000Z",
       "creator": {
         "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
       },
-      "description": "🕒 14:00–16:00\n\nガイドと巡る短時間の天覧山周辺自然観察。雨天中止。\n",
+      "description": "🕒 14:00–16:00\n\n普段の散歩ではなかなか気づかない自然の変化を、ガイドと一緒に歩きながら探してみませんか？ このツアーは短い時間で楽しむことのできる、お手軽ツアーになります。ぜひお気軽に参加してみてください。季節によっては自家製無農薬野菜もプレゼントします！\n\n【利用料金】1人2,000円、リピーター1,500円、一家族4,000円 （ガイド料、保険）\n\n【定員】10名\n\n【ガイド】児嶋翼（飯能市エコツーリズム市民ガイドの会 いきもの部）\n\n【持ち物】飲み物、雨具、リュックサックなど（両手が空くものがおすすめ）、タオル",
       "end": {
         "date": "2026-05-26"
       },
       "eventType": "default",
-      "htmlLink": "https://www.google.com/calendar/event?eid=X2Nscjc4YjlpNjBwM2NjMWw2OHFpcWMxaDgxazYycmplZHNuNjZxYmtmNG43OHBiM2R0bTZpYmozZHRtZyAyMDU0MDNjOTcxZGM1ZWYyMWVmZDgxYzFkNTM4NDljYWRmZDkwMWI3NWM3N2Q4ODk1NWQ5NjAwZjQ1ZjJhMDEzQGc",
-      "iCalUID": "evt-20260525-01@hanno.city.tecoli.com",
-      "id": "_clr78b9i60p3cc1l68qiqc1h81k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+      "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bGhtZ3JyYmR0cTc4cnBkZWhpbXNzajFkcHQ2MnJoZGVkc211cXIxNWtwMzBjaG02MHFqNGRhMGQxZ21zcmpmNXBobWl0M3A1cHE2YW9yZmRoa2lzb3JmZGsgMjA1NDAzYzk3MWRjNWVmMjFlZmQ4MWMxZDUzODQ5Y2FkZmQ5MDFiNzVjNzdkODg5NTVkOTYwMGY0NWYyYTAxM0Bn",
+      "iCalUID": "tourism-ec-chokotto-tenranzan-syoka-20260525@hanno.city.tecoli.com",
+      "id": "_ehnnasj9edmiqpb35lhmgrrbdtq78rpdehimssj1dpt62rhdedsmuqr15kp30chm60qj4da0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
       "kind": "calendar#event",
-      "location": "集合 飯能市立博物館前",
+      "location": "集合 飯能市立博物館前（国際興業バス「OH!!!・天覧山下」または「市民会館・博物館」下車徒歩3分）",
       "organizer": {
         "displayName": "Myはんのう",
         "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
@@ -837,7 +872,7 @@
       },
       "status": "confirmed",
       "summary": "ちょこっとお手軽ツアー〜天覧山〜",
-      "updated": "2026-05-16T10:21:10.643Z"
+      "updated": "2026-05-16T14:50:19.111Z"
     },
     {
       "created": "2026-05-16T00:23:10.000Z",
@@ -872,7 +907,7 @@
       },
       "status": "confirmed",
       "summary": "登山ガイドと行く 初夏の蕨山",
-      "updated": "2026-05-16T10:21:12.027Z"
+      "updated": "2026-05-16T14:50:21.152Z"
     },
     {
       "created": "2026-05-06T08:54:00.000Z",
@@ -901,58 +936,23 @@
       },
       "status": "confirmed",
       "summary": "第4回 奥武蔵ロングトレイルレース",
-      "updated": "2026-05-16T10:21:13.398Z"
+      "updated": "2026-05-16T14:50:23.056Z"
     },
     {
-      "created": "2026-05-16T00:23:11.000Z",
+      "created": "2026-05-16T14:50:24.000Z",
       "creator": {
         "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
       },
-      "description": "🕒 16:00–20:30\n\n樹上産卵するモリアオガエル等を昼夜で観察。雨天実施、荒天時6/6に延期。\n",
+      "description": "🕒 07:30–20:00\n\nこのツアーは主催者都合により募集を中止しました。 棒ノ嶺山頂を目指し、ゴルジュ地形の美しい白谷沢ルートで沢歩きの基本を学び、沢を楽しむことができます。昼食と夕食はジビエレストランの謹製弁当とディナーを堪能し、ジビエについても学びます。\n\n【利用料金】一人23,000円 （ガイド料、弁当・夕食代、保険代）\n\n【定員】5名\n\n【ガイド】篠原 剛 日本山岳ガイド協会所属・登山ガイドステージⅢ\n\n【持ち物】20 ℓ ザック（防水対策を万全に）、沢装備一式、着替え、ヘルメット、ハーネス、登山装備、バス代、入浴代、電車代",
       "end": {
         "date": "2026-05-31"
       },
       "eventType": "default",
-      "htmlLink": "https://www.google.com/calendar/event?eid=X2Nscjc4YjlpNjBwM2NjMWw2Y28ycWMxaDgxazYycmplZHNuNjZxYmtmNG43OHBiM2R0bTZpYmozZHRtZyAyMDU0MDNjOTcxZGM1ZWYyMWVmZDgxYzFkNTM4NDljYWRmZDkwMWI3NWM3N2Q4ODk1NWQ5NjAwZjQ1ZjJhMDEzQGc",
-      "iCalUID": "evt-20260530-01@hanno.city.tecoli.com",
-      "id": "_clr78b9i60p3cc1l6co2qc1h81k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+      "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bG02dXByM2M1bW4wYmIyZHRuNnVyYjlkcGlpcXBiMWU5bTdpc3JsZGxtbWFzaGQ2OG8zNGRoZzZrcGowZzM4YzVuNnNycGVjZGtuOHU5ZWVoaW02cnJjZDRuNjZycmQgMjA1NDAzYzk3MWRjNWVmMjFlZmQ4MWMxZDUzODQ5Y2FkZmQ5MDFiNzVjNzdkODg5NTVkOTYwMGY0NWYyYTAxM0Bn",
+      "iCalUID": "tourism-ec-logcamp-bonomine-earlysummer-20260530@hanno.city.tecoli.com",
+      "id": "_ehnnasj9edmiqpb35lm6upr3c5mn0bb2dtn6urb9dpiiqpb1e9m7isrldlmmashd68o34dhg6kpj0g38c5n6srpecdkn8u9eehim6rrcd4n66rrd",
       "kind": "calendar#event",
-      "location": "集合 飯能市立博物館前",
-      "organizer": {
-        "displayName": "Myはんのう",
-        "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
-        "self": true
-      },
-      "reminders": {
-        "useDefault": false
-      },
-      "sequence": 0,
-      "source": {
-        "title": "hanno-tourism.jp",
-        "url": "https://hanno-tourism.jp/hanno-eco/tour/morimana-kaeru/"
-      },
-      "start": {
-        "date": "2026-05-30"
-      },
-      "status": "confirmed",
-      "summary": "夏のモリのカエル観察〜昼夜のアオジシ谷を楽しく学ぼう",
-      "updated": "2026-05-16T10:21:14.648Z"
-    },
-    {
-      "created": "2026-05-16T00:23:12.000Z",
-      "creator": {
-        "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
-      },
-      "description": "🕒 07:30–20:00\n\n白谷沢ルートで棒ノ嶺へ。昼食弁当・夕食ジビエディナー付き。要登山経験。\n",
-      "end": {
-        "date": "2026-05-31"
-      },
-      "eventType": "default",
-      "htmlLink": "https://www.google.com/calendar/event?eid=X2Nscjc4YjlpNjBwM2NjMWw2Y28ycWMxaTgxazYycmplZHNuNjZxYmtmNG43OHBiM2R0bTZpYmozZHRtZyAyMDU0MDNjOTcxZGM1ZWYyMWVmZDgxYzFkNTM4NDljYWRmZDkwMWI3NWM3N2Q4ODk1NWQ5NjAwZjQ1ZjJhMDEzQGc",
-      "iCalUID": "evt-20260530-02@hanno.city.tecoli.com",
-      "id": "_clr78b9i60p3cc1l6co2qc1i81k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
-      "kind": "calendar#event",
-      "location": "集合 西武「飯能駅」改札口",
+      "location": "集合 西武池袋線「飯能駅」改札口",
       "organizer": {
         "displayName": "Myはんのう",
         "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
@@ -970,8 +970,43 @@
         "date": "2026-05-30"
       },
       "status": "confirmed",
-      "summary": "棒ノ嶺・ゴルジュ沢歩き＋白谷沢源流＆ジビエディナーの旅",
-      "updated": "2026-05-16T10:21:15.924Z"
+      "summary": "棒ノ嶺・ゴルジュを沢歩きして、名栗川白谷沢源流歩きを楽しみジビエディナーを味わう旅",
+      "updated": "2026-05-16T14:50:25.051Z"
+    },
+    {
+      "created": "2026-05-16T14:50:26.000Z",
+      "creator": {
+        "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+      },
+      "description": "🕒 16:00–20:30\n\nカエルの魅力にひっくりカエル!?生きもの観察にもってこいの季節に、樹上に産卵する魅力的なカエルを観察します。様々な生きものが集まる水辺を中心に、豊かな自然が楽しめます。暗くなると見たことのない何かを発見できるかも!?\n\n【利用料金】大人6,000円、学生5,000円 （ガイド料、保険、資料代）\n\n【定員】20名\n\n【ガイド】森のフィールド学舎スタッフ\n\n【持ち物】軽食、飲み物、観察道具（ケースや網）、雨具、ライト、長靴（ぬかるんだ場所を歩く場合があります）\n\n【備考】森のフィールド学舎HP https://morinomanabiya168.wixsite.com/website",
+      "end": {
+        "date": "2026-05-31"
+      },
+      "eventType": "default",
+      "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFyYmZlOWttcW9iZWM0bW1tb2I1ZTlxaXFjaGc2OHIzMGQ5ajYxMDZnb2JlZHBuaXNvcjllaHNpc3QzNWNkbm1vcTllY2RubXEgMjA1NDAzYzk3MWRjNWVmMjFlZmQ4MWMxZDUzODQ5Y2FkZmQ5MDFiNzVjNzdkODg5NTVkOTYwMGY0NWYyYTAxM0Bn",
+      "iCalUID": "tourism-morimana-kaeru-20260530@hanno.city.tecoli.com",
+      "id": "_ehnnasj9edmiqrbfe9kmqobec4mmmob5e9qiqchg68r30d9j6106gobedpnisor9ehsist35cdnmoq9ecdnmq",
+      "kind": "calendar#event",
+      "location": "集合 飯能市立博物館前（国際興業バス「OH!!!・天覧山下」または「市民会館・博物館前」下車徒歩3分）",
+      "organizer": {
+        "displayName": "Myはんのう",
+        "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+        "self": true
+      },
+      "reminders": {
+        "useDefault": false
+      },
+      "sequence": 0,
+      "source": {
+        "title": "hanno-tourism.jp",
+        "url": "https://hanno-tourism.jp/hanno-eco/tour/morimana-kaeru/"
+      },
+      "start": {
+        "date": "2026-05-30"
+      },
+      "status": "confirmed",
+      "summary": "夏のモリのカエル観察！〜昼夜のアオジシ谷を楽しく学ぼう！〜",
+      "updated": "2026-05-16T14:50:26.955Z"
     },
     {
       "created": "2026-05-16T00:23:13.000Z",
@@ -1006,7 +1041,7 @@
       },
       "status": "confirmed",
       "summary": "西武・電車フェスタ2026 in 武蔵丘車両検修場",
-      "updated": "2026-05-16T10:21:17.294Z"
+      "updated": "2026-05-16T14:50:29.013Z"
     },
     {
       "created": "2026-05-16T00:22:54.000Z",
@@ -1041,23 +1076,58 @@
       },
       "status": "confirmed",
       "summary": "ホールでグランドピアノを弾いてみませんか",
-      "updated": "2026-05-16T10:21:18.681Z"
+      "updated": "2026-05-16T14:50:31.131Z"
     },
     {
-      "created": "2026-05-16T00:23:14.000Z",
+      "created": "2026-05-16T14:50:32.000Z",
       "creator": {
         "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
       },
-      "description": "🕒 12:30–14:30\n\n田んぼでもち米の田植えとマコモダケ植え体験。お茶菓子・地元野菜のお土産付き。\n",
+      "description": "🕒 16:00–20:30\n\nカエルの魅力にひっくりカエル!?生きもの観察にもってこいの季節に、樹上に産卵する魅力的なカエルを観察します。様々な生きものが集まる水辺を中心に、豊かな自然が楽しめます。暗くなると見たことのない何かを発見できるかも!?\n\n【利用料金】大人6,000円、学生5,000円 （ガイド料、保険、資料代）\n\n【定員】20名\n\n【ガイド】森のフィールド学舎スタッフ\n\n【持ち物】軽食、飲み物、観察道具（ケースや網）、雨具、ライト、長靴（ぬかるんだ場所を歩く場合があります）\n\n【備考】森のフィールド学舎HP https://morinomanabiya168.wixsite.com/website",
+      "end": {
+        "date": "2026-06-07"
+      },
+      "eventType": "default",
+      "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFyYmZlOWttcW9iZWM0bW1tb2I1ZTlxaXFjaGc2OHIzMGRoZzZwMDZnb2JlZHBuaXNvcjllaHNpc3QzNWNkbm1vcTllY2RubXEgMjA1NDAzYzk3MWRjNWVmMjFlZmQ4MWMxZDUzODQ5Y2FkZmQ5MDFiNzVjNzdkODg5NTVkOTYwMGY0NWYyYTAxM0Bn",
+      "iCalUID": "tourism-morimana-kaeru-20260606@hanno.city.tecoli.com",
+      "id": "_ehnnasj9edmiqrbfe9kmqobec4mmmob5e9qiqchg68r30dhg6p06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+      "kind": "calendar#event",
+      "location": "集合 飯能市立博物館前（国際興業バス「OH!!!・天覧山下」または「市民会館・博物館前」下車徒歩3分）",
+      "organizer": {
+        "displayName": "Myはんのう",
+        "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+        "self": true
+      },
+      "reminders": {
+        "useDefault": false
+      },
+      "sequence": 0,
+      "source": {
+        "title": "hanno-tourism.jp",
+        "url": "https://hanno-tourism.jp/hanno-eco/tour/morimana-kaeru/"
+      },
+      "start": {
+        "date": "2026-06-06"
+      },
+      "status": "confirmed",
+      "summary": "夏のモリのカエル観察！〜昼夜のアオジシ谷を楽しく学ぼう！〜",
+      "updated": "2026-05-16T14:50:33.142Z"
+    },
+    {
+      "created": "2026-05-16T14:50:34.000Z",
+      "creator": {
+        "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+      },
+      "description": "🕒 12:30–14:30\n\n田んぼの中で稲について学ぶツアーです。風やにおいを感じながら田植えをしてみませんか？地元小学生ガイド達との交流も魅力のひとつです。マコモダケの植え付けと、狭山茶とおやつも味わえ、地元野菜のお土産付とボリューム満点ツアーです。\n\n【利用料金】大人4,000円、小学生以下2,000円 （ガイド料、おやつ代、保険代）\n\n【定員】20名\n\n【ガイド】西村純（さゆり学童クラブ）\n\n【持ち物】飲み物、敷物、帽子、汚れても良い服装、ボロ長靴下、雨具、タオル、着替え\n\n【備考】さゆり幼稚園HP https://www.hannousayuri.com/",
       "end": {
         "date": "2026-06-08"
       },
       "eventType": "default",
-      "htmlLink": "https://www.google.com/calendar/event?eid=X2Nscjc4YjlpNjBwM2NjMW02MHJpcWMxaDgxazYycmplZHNuNjZxYmtmNG43OHBiM2R0bTZpYmozZHRtZyAyMDU0MDNjOTcxZGM1ZWYyMWVmZDgxYzFkNTM4NDljYWRmZDkwMWI3NWM3N2Q4ODk1NWQ5NjAwZjQ1ZjJhMDEzQGc",
-      "iCalUID": "evt-20260607-01@hanno.city.tecoli.com",
-      "id": "_clr78b9i60p3cc1m60riqc1h81k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+      "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFzcjFmNXFuNHE5ZGVoZ25hcDlkNjhvMzRkaGc2b28zZWczOGM1bjZzcnBlY2Rrbjh1OWVlaGltNnJyY2Q0bjY2cnJkIDIwNTQwM2M5NzFkYzVlZjIxZWZkODFjMWQ1Mzg0OWNhZGZkOTAxYjc1Yzc3ZDg4OTU1ZDk2MDBmNDVmMmEwMTNAZw",
+      "iCalUID": "tourism-sayuri-taue-20260607@hanno.city.tecoli.com",
+      "id": "_ehnnasj9edmiqsr1f5qn4q9dehgnap9d68o34dhg6oo3eg38c5n6srpecdkn8u9eehim6rrcd4n66rrd",
       "kind": "calendar#event",
-      "location": "集合 西武バス「加治中学校」バス停",
+      "location": "集合 西武バス「加治中学校」バス停前",
       "organizer": {
         "displayName": "Myはんのう",
         "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
@@ -1075,24 +1145,59 @@
         "date": "2026-06-07"
       },
       "status": "confirmed",
-      "summary": "キッズガイドがご案内！田んぼの風に吹かれて〜もち米の田植え＆マコモダケ植え",
-      "updated": "2026-05-16T10:21:19.952Z"
+      "summary": "キッズガイドがご案内！ 田んぼの風に吹かれて〜もち米の田植え＆マコモダケ植え〜",
+      "updated": "2026-05-16T14:50:35.144Z"
     },
     {
-      "created": "2026-05-16T00:23:14.000Z",
+      "created": "2026-05-16T14:50:36.000Z",
       "creator": {
         "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
       },
-      "description": "🕒 17:30–20:30\n\n夜の里山でホタル観察。15名定員、要事前申込。\n",
+      "description": "🕒 07:30–20:00\n\nこのツアーは主催者都合により募集を中止しました。 棒ノ嶺山頂を目指し、ゴルジュ地形の美しい白谷沢ルートで沢歩きの基本を学び、沢を楽しむことができます。昼食と夕食はジビエレストランの謹製弁当とディナーを堪能し、ジビエについても学びます。\n\n【利用料金】一人23,000円 （ガイド料、弁当・夕食代、保険代）\n\n【定員】5名\n\n【ガイド】篠原 剛 日本山岳ガイド協会所属・登山ガイドステージⅢ\n\n【持ち物】20 ℓ ザック（防水対策を万全に）、沢装備一式、着替え、ヘルメット、ハーネス、登山装備、バス代、入浴代、電車代",
       "end": {
         "date": "2026-06-14"
       },
       "eventType": "default",
-      "htmlLink": "https://www.google.com/calendar/event?eid=X2Nscjc4YjlpNjBwM2NjMW02NHBpcWMxaDgxazYycmplZHNuNjZxYmtmNG43OHBiM2R0bTZpYmozZHRtZyAyMDU0MDNjOTcxZGM1ZWYyMWVmZDgxYzFkNTM4NDljYWRmZDkwMWI3NWM3N2Q4ODk1NWQ5NjAwZjQ1ZjJhMDEzQGc",
-      "iCalUID": "evt-20260613-01@hanno.city.tecoli.com",
-      "id": "_clr78b9i60p3cc1m64piqc1h81k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+      "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bG02dXByM2M1bW4wYmIyZHRuNnVyYjlkcGlpcXBiMWU5bTdpc3JsZGxtbWFzaGQ2OG8zNGRoZzZvb2o2ZzM4YzVuNnNycGVjZGtuOHU5ZWVoaW02cnJjZDRuNjZycmQgMjA1NDAzYzk3MWRjNWVmMjFlZmQ4MWMxZDUzODQ5Y2FkZmQ5MDFiNzVjNzdkODg5NTVkOTYwMGY0NWYyYTAxM0Bn",
+      "iCalUID": "tourism-ec-logcamp-bonomine-earlysummer-20260613@hanno.city.tecoli.com",
+      "id": "_ehnnasj9edmiqpb35lm6upr3c5mn0bb2dtn6urb9dpiiqpb1e9m7isrldlmmashd68o34dhg6ooj6g38c5n6srpecdkn8u9eehim6rrcd4n66rrd",
       "kind": "calendar#event",
-      "location": "集合 飯能市立博物館前",
+      "location": "集合 西武池袋線「飯能駅」改札口",
+      "organizer": {
+        "displayName": "Myはんのう",
+        "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+        "self": true
+      },
+      "reminders": {
+        "useDefault": false
+      },
+      "sequence": 0,
+      "source": {
+        "title": "hanno-tourism.jp",
+        "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-logcamp-bonomine-earlysummer/"
+      },
+      "start": {
+        "date": "2026-06-13"
+      },
+      "status": "confirmed",
+      "summary": "棒ノ嶺・ゴルジュを沢歩きして、名栗川白谷沢源流歩きを楽しみジビエディナーを味わう旅",
+      "updated": "2026-05-16T14:50:37.041Z"
+    },
+    {
+      "created": "2026-05-16T14:50:38.000Z",
+      "creator": {
+        "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+      },
+      "description": "🕒 17:30–20:30\n\n今回のホタルの観察は、環境整備をしてホタル保全している「アオジシ谷」で開催します。発光の秘密や生態、歴史や文化から意外と知らない人とのつながりなど、ゲンジボタル、ヘイケボタルをガッツリ学べる夕方から夜のツアーです。\n\n【利用料金】大人6,000円、学生5,000円 （ガイド料、保険、資料代）\n\n【定員】15名\n\n【ガイド】森のフィールド学舎スタッフ\n\n【持ち物】飲み物、ライト、軽食、履き替え用の靴\n\n【備考】森のフィールド学舎HP https://morinomanabiya168.wixsite.com/website",
+      "end": {
+        "date": "2026-06-14"
+      },
+      "eventType": "default",
+      "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bG1tdXNqOWRsZ21zbzlkZWRnbjhycnBjNW1tMnEzZmVoZ240dDlkNjhvMzRkaGc2b29qNmczOGM1bjZzcnBlY2Rrbjh1OWVlaGltNnJyY2Q0bjY2cnJkIDIwNTQwM2M5NzFkYzVlZjIxZWZkODFjMWQ1Mzg0OWNhZGZkOTAxYjc1Yzc3ZDg4OTU1ZDk2MDBmNDVmMmEwMTNAZw",
+      "iCalUID": "tourism-ec-morimana-satoyamahotaru-20260613@hanno.city.tecoli.com",
+      "id": "_ehnnasj9edmiqpb35lmmusj9dlgmso9dedgn8rrpc5mm2q3fehgn4t9d68o34dhg6ooj6g38c5n6srpecdkn8u9eehim6rrcd4n66rrd",
+      "kind": "calendar#event",
+      "location": "集合 飯能市立博物館前（国際興業バス「OH!!!・天覧山下」または「市民会館・博物館」下車徒歩3分)",
       "organizer": {
         "displayName": "Myはんのう",
         "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
@@ -1110,8 +1215,8 @@
         "date": "2026-06-13"
       },
       "status": "confirmed",
-      "summary": "初夏にただよう光の正体？〜夜の里山でホタル観察",
-      "updated": "2026-05-16T10:21:21.373Z"
+      "summary": "初夏にただよう光の正体？〜夜の里山でホタル観察〜",
+      "updated": "2026-05-16T14:50:39.060Z"
     },
     {
       "created": "2026-05-16T00:22:55.000Z",
@@ -1146,7 +1251,77 @@
       },
       "status": "confirmed",
       "summary": "ホールでグランドピアノを弾いてみませんか",
-      "updated": "2026-05-16T10:21:22.834Z"
+      "updated": "2026-05-16T14:50:40.988Z"
+    },
+    {
+      "created": "2026-05-16T14:50:42.000Z",
+      "creator": {
+        "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+      },
+      "description": "🕒 07:30–20:00\n\nこのツアーは主催者都合により募集を中止しました。 棒ノ嶺山頂を目指し、ゴルジュ地形の美しい白谷沢ルートで沢歩きの基本を学び、沢を楽しむことができます。昼食と夕食はジビエレストランの謹製弁当とディナーを堪能し、ジビエについても学びます。\n\n【利用料金】一人23,000円 （ガイド料、弁当・夕食代、保険代）\n\n【定員】5名\n\n【ガイド】篠原 剛 日本山岳ガイド協会所属・登山ガイドステージⅢ\n\n【持ち物】20 ℓ ザック（防水対策を万全に）、沢装備一式、着替え、ヘルメット、ハーネス、登山装備、バス代、入浴代、電車代",
+      "end": {
+        "date": "2026-06-21"
+      },
+      "eventType": "default",
+      "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bG02dXByM2M1bW4wYmIyZHRuNnVyYjlkcGlpcXBiMWU5bTdpc3JsZGxtbWFzaGQ2OG8zNGRoZzZvcDMwZzM4YzVuNnNycGVjZGtuOHU5ZWVoaW02cnJjZDRuNjZycmQgMjA1NDAzYzk3MWRjNWVmMjFlZmQ4MWMxZDUzODQ5Y2FkZmQ5MDFiNzVjNzdkODg5NTVkOTYwMGY0NWYyYTAxM0Bn",
+      "iCalUID": "tourism-ec-logcamp-bonomine-earlysummer-20260620@hanno.city.tecoli.com",
+      "id": "_ehnnasj9edmiqpb35lm6upr3c5mn0bb2dtn6urb9dpiiqpb1e9m7isrldlmmashd68o34dhg6op30g38c5n6srpecdkn8u9eehim6rrcd4n66rrd",
+      "kind": "calendar#event",
+      "location": "集合 西武池袋線「飯能駅」改札口",
+      "organizer": {
+        "displayName": "Myはんのう",
+        "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+        "self": true
+      },
+      "reminders": {
+        "useDefault": false
+      },
+      "sequence": 0,
+      "source": {
+        "title": "hanno-tourism.jp",
+        "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-logcamp-bonomine-earlysummer/"
+      },
+      "start": {
+        "date": "2026-06-20"
+      },
+      "status": "confirmed",
+      "summary": "棒ノ嶺・ゴルジュを沢歩きして、名栗川白谷沢源流歩きを楽しみジビエディナーを味わう旅",
+      "updated": "2026-05-16T14:50:42.862Z"
+    },
+    {
+      "created": "2026-05-16T14:50:44.000Z",
+      "creator": {
+        "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+      },
+      "description": "🕒 09:30–14:40\n\n落ち葉や枝を活かした「菌ちゃん畑」で、夏野菜の植え付け体験ウネづくり。菌ちゃん農法の苗の植え方、育て方のコツをアドバイザーが分かりやすく伝授。ランチはレストラン「ラ ノーラ」で、菌ちゃん野菜を使ったイタリアンを堪能。\n\n【利用料金】大人8,800円、中学生以下2,200円 （ガイド料、昼食代、材料費、保険料）\n\n【定員】15名\n\n【ガイド】飯能たねとつち農園スタッフ\n\n【持ち物】飲み物、帽子、タオル、手袋など",
+      "end": {
+        "date": "2026-06-22"
+      },
+      "eventType": "default",
+      "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXF0MzFkcGluOHNybGVoa2lxYzlkNjhtajRjMWk2b28zY2NoaDgxazYycmplZHNuNjZxYmtmNG43OHBiM2R0bTZpYmozZHRtZyAyMDU0MDNjOTcxZGM1ZWYyMWVmZDgxYzFkNTM4NDljYWRmZDkwMWI3NWM3N2Q4ODk1NWQ5NjAwZjQ1ZjJhMDEzQGc",
+      "iCalUID": "tourism-tanetsuti-1-2-20260621@hanno.city.tecoli.com",
+      "id": "_ehnnasj9edmiqt31dpin8srlehkiqc9d68mj4c1i6oo3cchh81k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+      "kind": "calendar#event",
+      "location": "集合 ラ・ノーラ前の畑 （飯能市下加治243-25、イーグルバス「飯能靖和病院」下車徒歩8分）",
+      "organizer": {
+        "displayName": "Myはんのう",
+        "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+        "self": true
+      },
+      "reminders": {
+        "useDefault": false
+      },
+      "sequence": 0,
+      "source": {
+        "title": "hanno-tourism.jp",
+        "url": "https://hanno-tourism.jp/hanno-eco/tour/tanetsuti-1-2/"
+      },
+      "start": {
+        "date": "2026-06-21"
+      },
+      "status": "confirmed",
+      "summary": "森のまち飯能で楽しむ菌ちゃん畑づくりと夏野菜植えつけ体験",
+      "updated": "2026-05-16T14:50:44.943Z"
     },
     {
       "created": "2026-05-16T00:23:16.000Z",
@@ -1181,7 +1356,7 @@
       },
       "status": "confirmed",
       "summary": "吾野宿散策と高麗川でゲンジボタル＆カジカガエル鑑賞",
-      "updated": "2026-05-16T10:21:24.184Z"
+      "updated": "2026-05-16T14:50:47.009Z"
     },
     {
       "created": "2026-05-16T00:22:56.000Z",
@@ -1216,7 +1391,7 @@
       },
       "status": "confirmed",
       "summary": "ホールでグランドピアノを弾いてみませんか",
-      "updated": "2026-05-16T10:21:25.371Z"
+      "updated": "2026-05-16T14:50:48.943Z"
     },
     {
       "created": "2026-05-16T00:23:15.000Z",
@@ -1251,7 +1426,7 @@
       },
       "status": "confirmed",
       "summary": "安全大会",
-      "updated": "2026-05-16T10:21:26.836Z"
+      "updated": "2026-05-16T14:50:50.858Z"
     },
     {
       "created": "2026-05-06T08:54:00.000Z",
@@ -1280,7 +1455,7 @@
       },
       "status": "confirmed",
       "summary": "いなしん ONE MAN LIVE",
-      "updated": "2026-05-16T10:21:28.219Z"
+      "updated": "2026-05-16T14:50:52.995Z"
     }
   ]
 }

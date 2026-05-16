@@ -1,0 +1,35 @@
+{
+  "created": "2026-05-16T14:50:34.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 12:30–14:30\n\n田んぼの中で稲について学ぶツアーです。風やにおいを感じながら田植えをしてみませんか？地元小学生ガイド達との交流も魅力のひとつです。マコモダケの植え付けと、狭山茶とおやつも味わえ、地元野菜のお土産付とボリューム満点ツアーです。\n\n【利用料金】大人4,000円、小学生以下2,000円 （ガイド料、おやつ代、保険代）\n\n【定員】20名\n\n【ガイド】西村純（さゆり学童クラブ）\n\n【持ち物】飲み物、敷物、帽子、汚れても良い服装、ボロ長靴下、雨具、タオル、着替え\n\n【備考】さゆり幼稚園HP https://www.hannousayuri.com/",
+  "end": {
+    "date": "2026-06-08"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFzcjFmNXFuNHE5ZGVoZ25hcDlkNjhvMzRkaGc2b28zZWczOGM1bjZzcnBlY2Rrbjh1OWVlaGltNnJyY2Q0bjY2cnJkIDIwNTQwM2M5NzFkYzVlZjIxZWZkODFjMWQ1Mzg0OWNhZGZkOTAxYjc1Yzc3ZDg4OTU1ZDk2MDBmNDVmMmEwMTNAZw",
+  "iCalUID": "tourism-sayuri-taue-20260607@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqsr1f5qn4q9dehgnap9d68o34dhg6oo3eg38c5n6srpecdkn8u9eehim6rrcd4n66rrd",
+  "kind": "calendar#event",
+  "location": "集合 西武バス「加治中学校」バス停前",
+  "organizer": {
+    "displayName": "Myはんのう",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/sayuri-taue/"
+  },
+  "start": {
+    "date": "2026-06-07"
+  },
+  "status": "confirmed",
+  "summary": "キッズガイドがご案内！ 田んぼの風に吹かれて〜もち米の田植え＆マコモダケ植え〜",
+  "updated": "2026-05-16T14:50:35.144Z"
+}

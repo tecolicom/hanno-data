@@ -1,0 +1,30 @@
+uid: "tourism-ec-morimana-satoyamahotaru-20260613@hanno.city.tecoli.com"
+summary: "初夏にただよう光の正体？〜夜の里山でホタル観察〜"
+location: "集合 飯能市立博物館前（国際興業バス「OH!!!・天覧山下」または「市民会館・博物館」下車徒歩3分)"
+url: "https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-satoyamahotaru/"
+dtstart: "2026-06-13T17:30:00+09:00"
+dtend: "2026-06-13T20:30:00+09:00"
+description: |-
+  今回のホタルの観察は、環境整備をしてホタル保全している「アオジシ谷」で開催します。発光の秘密や生態、歴史や文化から意外と知らない人とのつながりなど、ゲンジボタル、ヘイケボタルをガッツリ学べる夕方から夜のツアーです。
+  
+  【利用料金】大人6,000円、学生5,000円 （ガイド料、保険、資料代）
+  
+  【定員】15名
+  
+  【ガイド】森のフィールド学舎スタッフ
+  
+  【持ち物】飲み物、ライト、軽食、履き替え用の靴
+  
+  【備考】森のフィールド学舎HP https://morinomanabiya168.wixsite.com/website
+
+render:
+  gcal:
+    mode: single-allday
+    time_marker: "17:30–20:30"
+
+source:
+  type: hanno-tourism-jp
+  id: "ec-morimana-satoyamahotaru"
+  url: "https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-satoyamahotaru/"
+  fetched_at: "2026-05-16T14:49:22.351664Z"
+  content_hash: "sha256-c5bd281fbbb62ec0"

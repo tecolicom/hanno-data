@@ -1,0 +1,35 @@
+{
+  "created": "2026-05-16T14:49:58.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 09:30–14:40\n\n落ち葉や枝を活かした「菌ちゃん畑」で、夏野菜の植え付け体験ウネづくり。菌ちゃん農法の苗の植え方、育て方のコツをアドバイザーが分かりやすく伝授。ランチはレストラン「ラ ノーラ」で、菌ちゃん野菜を使ったイタリアンを堪能。\n\n【利用料金】大人8,800円、中学生以下2,200円 （ガイド料、昼食代、材料費、保険料）\n\n【定員】15名\n\n【ガイド】飯能たねとつち農園スタッフ\n\n【持ち物】飲み物、帽子、タオル、手袋など",
+  "end": {
+    "date": "2026-05-18"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXF0MzFkcGluOHNybGVoa2lxYzlkNjhtajRjMWk2b28zYWM5bjgxazYycmplZHNuNjZxYmtmNG43OHBiM2R0bTZpYmozZHRtZyAyMDU0MDNjOTcxZGM1ZWYyMWVmZDgxYzFkNTM4NDljYWRmZDkwMWI3NWM3N2Q4ODk1NWQ5NjAwZjQ1ZjJhMDEzQGc",
+  "iCalUID": "tourism-tanetsuti-1-2-20260517@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqt31dpin8srlehkiqc9d68mj4c1i6oo3ac9n81k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+  "kind": "calendar#event",
+  "location": "集合 ラ・ノーラ前の畑 （飯能市下加治243-25、イーグルバス「飯能靖和病院」下車徒歩8分）",
+  "organizer": {
+    "displayName": "Myはんのう",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/tanetsuti-1-2/"
+  },
+  "start": {
+    "date": "2026-05-17"
+  },
+  "status": "confirmed",
+  "summary": "森のまち飯能で楽しむ菌ちゃん畑づくりと夏野菜植えつけ体験",
+  "updated": "2026-05-16T14:49:58.717Z"
+}
