@@ -7,7 +7,6 @@
   "end": {
     "date": "2026-06-07"
   },
-  "etag": "\"3557853754589406\"",
   "eventType": "default",
   "htmlLink": "https://www.google.com/calendar/event?eid=X2Nscjc4YjlpNjBwM2NjMW02MHIycWMxaDgxazYycmplZHNuNjZxYmtmNG43OHBiM2R0bTZpYmozZHRtZyAyMDU0MDNjOTcxZGM1ZWYyMWVmZDgxYzFkNTM4NDljYWRmZDkwMWI3NWM3N2Q4ODk1NWQ5NjAwZjQ1ZjJhMDEzQGc",
   "iCalUID": "evt-20260606-01@hanno.city.tecoli.com",
@@ -31,6 +30,5 @@
     "date": "2026-06-06"
   },
   "status": "confirmed",
-  "summary": "西武・電車フェスタ2026 in 武蔵丘車両検修場",
-  "updated": "2026-05-16T10:21:17.294Z"
+  "summary": "西武・電車フェスタ2026 in 武蔵丘車両検修場"
 }

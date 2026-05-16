@@ -7,7 +7,6 @@
   "end": {
     "date": "2026-05-20"
   },
-  "etag": "\"3557853719370046\"",
   "eventType": "default",
   "htmlLink": "https://www.google.com/calendar/event?eid=X2Nscjc4YjlpNjBwM2NjMWw2NHNpcWMxaDgxazYycmplZHNuNjZxYmtmNG43OHBiM2R0bTZpYmozZHRtZyAyMDU0MDNjOTcxZGM1ZWYyMWVmZDgxYzFkNTM4NDljYWRmZDkwMWI3NWM3N2Q4ODk1NWQ5NjAwZjQ1ZjJhMDEzQGc",
   "iCalUID": "evt-20260519-01@hanno.city.tecoli.com",
@@ -31,6 +30,5 @@
     "date": "2026-05-19"
   },
   "status": "confirmed",
-  "summary": "ローズガーデンでほどける身体と薔薇のランチ・エコツアー",
-  "updated": "2026-05-16T10:20:59.685Z"
+  "summary": "ローズガーデンでほどける身体と薔薇のランチ・エコツアー"
 }

@@ -7,7 +7,6 @@
   "end": {
     "date": "2026-05-16"
   },
-  "etag": "\"3557853703528510\"",
   "eventType": "default",
   "htmlLink": "https://www.google.com/calendar/event?eid=X2Nscjc4YjlpNjBwM2NjMWw2NHFpcWMxaDgxazYycmplZHNuNjZxYmtmNG43OHBiM2R0bTZpYmozZHRtZyAyMDU0MDNjOTcxZGM1ZWYyMWVmZDgxYzFkNTM4NDljYWRmZDkwMWI3NWM3N2Q4ODk1NWQ5NjAwZjQ1ZjJhMDEzQGc",
   "iCalUID": "evt-20260515-01@hanno.city.tecoli.com",
@@ -31,6 +30,5 @@
     "date": "2026-05-15"
   },
   "status": "confirmed",
-  "summary": "第14回 飯能ものづくりフェア",
-  "updated": "2026-05-16T10:20:51.764Z"
+  "summary": "第14回 飯能ものづくりフェア"
 }

@@ -6,7 +6,6 @@
   "end": {
     "date": "2026-06-01"
   },
-  "etag": "\"3557853746796222\"",
   "eventType": "default",
   "htmlLink": "https://www.google.com/calendar/event?eid=Mm1yMW5ldWVrdGY4azQ5bDltaTVidWpjY28gMjA1NDAzYzk3MWRjNWVmMjFlZmQ4MWMxZDUzODQ5Y2FkZmQ5MDFiNzVjNzdkODg5NTVkOTYwMGY0NWYyYTAxM0Bn",
   "iCalUID": "2mr1neuektf8k49l9mi5bujcco@google.com",
@@ -25,6 +24,5 @@
     "date": "2026-05-30"
   },
   "status": "confirmed",
-  "summary": "第4回 奥武蔵ロングトレイルレース",
-  "updated": "2026-05-16T10:21:13.398Z"
+  "summary": "第4回 奥武蔵ロングトレイルレース"
 }

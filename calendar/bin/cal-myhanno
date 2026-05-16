@@ -712,6 +712,19 @@ def safe_filename_from_uid(uid: str) -> str:
     return SLUG_BAD_RE.sub("_", s)
 
 
+# snapshot 時に取り除く Google 側のノイジーなメタデータ
+# (こちらが書き込んでなくても Google 内部処理で頻繁に変動するため)
+SNAPSHOT_STRIP_FIELDS = ("etag", "updated")
+
+
+def strip_noisy_fields(event: dict) -> dict:
+    """snapshot 用に etag / updated 等を取り除いたコピーを返す."""
+    out = dict(event)
+    for k in SNAPSHOT_STRIP_FIELDS:
+        out.pop(k, None)
+    return out
+
+
 def cmd_snapshot(args: argparse.Namespace) -> None:
     res = gws("calendar", "events", "list", params={
         "calendarId": cal_id(),
@@ -727,9 +740,10 @@ def cmd_snapshot(args: argparse.Namespace) -> None:
     os.makedirs(events_dir, exist_ok=True)
     os.makedirs(daily_dir, exist_ok=True)
 
-    # 個別イベントファイル (stable filename)
+    # 個別イベントファイル (stable filename) — ノイズ除去
     written = 0
-    for e in items:
+    stripped_items = [strip_noisy_fields(e) for e in items]
+    for e in stripped_items:
         uid = e.get("iCalUID") or e.get("id", "")
         if not uid:
             continue
@@ -738,15 +752,15 @@ def cmd_snapshot(args: argparse.Namespace) -> None:
             json.dump(e, f, ensure_ascii=False, indent=2, sort_keys=True)
         written += 1
 
-    # 日次バンドル
+    # 日次バンドル (ノイズ除去後の items を使う)
     from datetime import date as _date
     today = _date.today().isoformat()
     bundle_path = os.path.join(daily_dir, f"{today}.json")
     bundle = {
         "date": today,
         "calendar_id": cal_id(),
-        "count": len(items),
-        "events": items,
+        "count": len(stripped_items),
+        "events": stripped_items,
     }
     with open(bundle_path, "w", encoding="utf-8") as f:
         json.dump(bundle, f, ensure_ascii=False, indent=2, sort_keys=True)
