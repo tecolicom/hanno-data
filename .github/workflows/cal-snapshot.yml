@@ -1,0 +1,72 @@
+name: Calendar daily snapshot
+
+on:
+  schedule:
+    - cron: '0 21 * * *'   # 06:00 JST (= 21:00 UTC previous day)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cal-snapshot
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install gws (googleworkspace/cli)
+        run: |
+          VERSION=v0.22.5
+          URL="https://github.com/googleworkspace/cli/releases/download/${VERSION}/google-workspace-cli-x86_64-unknown-linux-gnu.tar.gz"
+          curl -sSL -o /tmp/gws.tar.gz "$URL"
+          tar -xzf /tmp/gws.tar.gz -C /tmp
+          BIN=$(find /tmp -maxdepth 3 -name gws -type f -executable | head -1)
+          if [ -z "$BIN" ]; then
+            echo "gws binary not found in archive" >&2
+            tar -tzf /tmp/gws.tar.gz | head
+            exit 1
+          fi
+          sudo install "$BIN" /usr/local/bin/gws
+          gws --version
+
+      - name: Install Python deps
+        run: pip install --quiet pyyaml
+
+      - name: Setup Service Account credentials
+        env:
+          GWS_SA_JSON: ${{ secrets.GWS_SA_JSON }}
+        run: |
+          if [ -z "${GWS_SA_JSON:-}" ]; then
+            echo "GWS_SA_JSON secret is empty. Add it under repo Settings → Secrets and variables → Actions." >&2
+            exit 1
+          fi
+          printf '%s' "$GWS_SA_JSON" > /tmp/sa.json
+          chmod 600 /tmp/sa.json
+          # 形式チェック (private_key の存在で簡易確認)
+          if ! grep -q '"private_key"' /tmp/sa.json; then
+            echo "SA JSON looks malformed (no private_key field)" >&2
+            exit 1
+          fi
+
+      - name: Take snapshot
+        env:
+          GOOGLE_APPLICATION_CREDENTIALS: /tmp/sa.json
+        run: |
+          ./calendar/bin/cal-myhanno snapshot -o calendar/snapshots
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain calendar/snapshots/)" ]; then
+            git add calendar/snapshots/
+            git commit -m "calendar: snapshot $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          else
+            echo "no snapshot changes"
+          fi
