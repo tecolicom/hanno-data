@@ -712,9 +712,10 @@ def safe_filename_from_uid(uid: str) -> str:
     return SLUG_BAD_RE.sub("_", s)
 
 
-# snapshot 時に取り除く Google 側のノイジーなメタデータ
-# (こちらが書き込んでなくても Google 内部処理で頻繁に変動するため)
-SNAPSHOT_STRIP_FIELDS = ("etag", "updated")
+# snapshot 時に取り除くフィールド.
+# etag は HTTP 条件付き取得用の不透明 token (中身を見ても情報なし)。
+# updated は「最終変更時刻」で意味があるので残す。
+SNAPSHOT_STRIP_FIELDS = ("etag",)
 
 
 def strip_noisy_fields(event: dict) -> dict:
