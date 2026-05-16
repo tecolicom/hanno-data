@@ -90,3 +90,18 @@ jobs:
           else
             echo "no snapshot changes"
           fi
+
+      - name: Notify Discord on failure
+        if: failure() && env.DISCORD_WEBHOOK != ''
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_CALENDAR_WEBHOOK }}
+        run: |
+          URL="https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          BODY=$(jq -n \
+            --arg c "⚠️ **cal-snapshot 失敗** (要確認)
+
+Calendar 状態のバックアップに失敗しました。
+
+$URL" \
+            '{content: $c}')
+          curl -fsS -X POST -H "Content-Type: application/json" -d "$BODY" "$DISCORD_WEBHOOK" || true

@@ -100,3 +100,34 @@ jobs:
         env:
           GOOGLE_APPLICATION_CREDENTIALS: /tmp/sa.json
         run: ./calendar/bin/cal-myhanno diff -d calendar/events
+
+      - name: Notify Discord on apply
+        if: steps.diff.outputs.exit_code == '2' && env.DISCORD_WEBHOOK != ''
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_CALENDAR_WEBHOOK }}
+        run: |
+          URL="https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          BODY=$(jq -n \
+            --arg c "✅ **Myはんのう カレンダー反映** (sync)
+
+events/ の変更を Google Calendar に apply しました。
+
+$URL" \
+            '{content: $c}')
+          curl -fsS -X POST -H "Content-Type: application/json" -d "$BODY" "$DISCORD_WEBHOOK" || echo "Discord notification failed (non-fatal)"
+
+      - name: Notify Discord on failure
+        if: failure() && env.DISCORD_WEBHOOK != ''
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_CALENDAR_WEBHOOK }}
+        run: |
+          URL="https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          BODY=$(jq -n \
+            --arg c "⚠️ **cal-sync 失敗** (要確認)
+
+YAML から Google Calendar への反映に失敗しました。Calendar 自体には変更なし
+(diff が exit 2 の場合のみ apply が走るため)、安全装置で停止した可能性あり。
+
+$URL" \
+            '{content: $c}')
+          curl -fsS -X POST -H "Content-Type: application/json" -d "$BODY" "$DISCORD_WEBHOOK" || true
