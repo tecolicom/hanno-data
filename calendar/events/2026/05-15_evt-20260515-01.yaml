@@ -1,0 +1,13 @@
+uid: "evt-20260515-01@hanno.city.tecoli.com"
+summary: "第14回 飯能ものづくりフェア"
+location: "飯能中央公園 (飯能市大字飯能226-2)"
+url: "https://hanno-monodukuri.jimdofree.com/"
+dtstart: "2026-05-15"
+dtend: "2026-05-15"
+description: |
+  10:00-17:00
+  陶芸、木工、金属、布、染め、織り、革、ガラス、竹、アクセサリー等のクラフト系出展者と飲食ブースが並ぶ手作り市。
+
+render:
+  gcal:
+    mode: single-allday

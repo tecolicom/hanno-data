@@ -1,0 +1,8 @@
+uid: "2mr1neuektf8k49l9mi5bujcco@google.com"
+summary: "第4回 奥武蔵ロングトレイルレース"
+dtstart: "2026-05-30"
+dtend: "2026-05-31"
+
+render:
+  gcal:
+    mode: span-allday

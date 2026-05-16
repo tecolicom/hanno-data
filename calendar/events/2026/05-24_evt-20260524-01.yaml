@@ -1,0 +1,13 @@
+uid: "evt-20260524-01@hanno.city.tecoli.com"
+summary: "スゴ足ウォーク 奥武蔵ウオーク"
+location: "集合 西武秩父線「吾野駅」駅前広場"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/13339.html"
+dtstart: "2026-05-24T08:20:00+09:00"
+dtend: "2026-05-24T12:20:00+09:00"
+description: |
+  約13km・約4時間、参加費100円。吾野駅→顔振峠（グリーンライン）→阿寺諏訪神社→ユガテ→東吾野駅で解散。申込締切5/20、吾野地区行政センター（042-978-1211）。
+
+render:
+  gcal:
+    mode: single-allday
+    time_marker: "08:20–12:20"

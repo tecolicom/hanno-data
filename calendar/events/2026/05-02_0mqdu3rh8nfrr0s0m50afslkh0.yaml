@@ -1,0 +1,10 @@
+uid: "0mqdu3rh8nfrr0s0m50afslkh0@google.com"
+summary: "AKAI FACTORY 10周年"
+location: "AKAIFACTORY（アカイファクトリー）, 日本、〒357-0069 埼玉県飯能市柳町２５−２５−９"
+dtstart: "2026-05-02T12:00:00+09:00"
+dtend: "2026-05-02T18:00:00+09:00"
+
+render:
+  gcal:
+    mode: single-allday
+    time_marker: "12:00–18:00"

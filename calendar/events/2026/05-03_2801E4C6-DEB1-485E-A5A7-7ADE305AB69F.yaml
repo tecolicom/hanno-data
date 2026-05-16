@@ -1,0 +1,8 @@
+uid: "2801E4C6-DEB1-485E-A5A7-7ADE305AB69F"
+summary: "飯能あけぼの市"
+dtstart: "2026-05-03"
+dtend: "2026-05-03"
+
+render:
+  gcal:
+    mode: single-allday

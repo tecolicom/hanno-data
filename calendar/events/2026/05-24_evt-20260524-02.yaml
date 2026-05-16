@@ -1,0 +1,13 @@
+uid: "evt-20260524-02@hanno.city.tecoli.com"
+summary: "飯能消防防災フェスタ2026"
+location: "飯能市役所 西側駐車場 (飯能市双柳1-1)"
+url: "https://www.city.hanno.lg.jp/"
+dtstart: "2026-05-24T09:00:00+09:00"
+dtend: "2026-05-24T14:00:00+09:00"
+description: |
+  特殊車両展示、防災体験（消火器・放水・煙体験・防火衣着装）、ステージイベント、第3回飯能消防団消防技術大会、キッチンカー多数。入場無料・申込不要。
+
+render:
+  gcal:
+    mode: single-allday
+    time_marker: "09:00–14:00"

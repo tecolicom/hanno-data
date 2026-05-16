@@ -1,0 +1,8 @@
+uid: "9A7BE532-7BDB-45F8-91A3-92CA2B3BD1F4"
+summary: "飯能市民清掃デー"
+dtstart: "2026-05-17"
+dtend: "2026-05-17"
+
+render:
+  gcal:
+    mode: single-allday

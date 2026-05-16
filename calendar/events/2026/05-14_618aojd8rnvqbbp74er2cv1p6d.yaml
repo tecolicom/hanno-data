@@ -1,0 +1,8 @@
+uid: "618aojd8rnvqbbp74er2cv1p6d@google.com"
+summary: "フカダヤ3周年"
+dtstart: "2026-05-14"
+dtend: "2026-05-14"
+
+render:
+  gcal:
+    mode: single-allday

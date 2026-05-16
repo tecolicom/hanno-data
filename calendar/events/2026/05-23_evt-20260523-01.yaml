@@ -1,0 +1,13 @@
+uid: "evt-20260523-01@hanno.city.tecoli.com"
+summary: "気軽に新緑ワンデーマーチ〜森林文化都市飯能を楽しもう〜"
+location: "集合 NPO法人埼玉ハンノウ大学事務局 (飯能市仲町6-1)"
+url: "https://hanno-tourism.jp/hanno-eco/tour/ec-hannouv-onedaymarch/"
+dtstart: "2026-05-23T09:30:00+09:00"
+dtend: "2026-05-23T12:30:00+09:00"
+description: |
+  飯能河原・天覧山・吾妻峡・あさひ山などをめぐる約10kmコース。雨天時は5/24に延期。
+
+render:
+  gcal:
+    mode: single-allday
+    time_marker: "09:30–12:30"

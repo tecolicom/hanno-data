@@ -1,0 +1,12 @@
+uid: "evt-20260513-01@hanno.city.tecoli.com"
+summary: "スゴ足ウォーク 飯能ツーデー吾野コースを歩く"
+location: "集合 西武秩父線「吾野駅」改札口"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/10588.html"
+dtstart: "2026-05-13"
+dtend: "2026-05-13"
+description: |
+  約14km・約4時間30分、参加費200円。吾野駅→たいら栗園→東吾野駅→武蔵横手駅→高麗駅。申込締切5/9、ASA飯能へ。
+
+render:
+  gcal:
+    mode: single-allday

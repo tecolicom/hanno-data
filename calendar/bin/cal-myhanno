@@ -1,0 +1,767 @@
+#!/usr/bin/env python3
+"""cal-myhanno — Myはんのう Google Calendar 管理ラッパ.
+
+汎用 CLI は googleworkspace/cli (`gws`) を採用し、本スクリプトは:
+  - Myはんのう calendar ID をデフォルト注入
+  - 終日 ↔ 時刻指定の往復 (時刻情報を description 冒頭に保存)
+  - JSON 出力を整形して扱いやすくする
+を担う薄いラッパ。
+
+認証:
+  GOOGLE_APPLICATION_CREDENTIALS env が未設定なら ~/.config/myhanno/sa.json を試す。
+
+カレンダー ID:
+  CAL_ID env で上書き可能。未指定なら Myはんのう を使う。
+"""
+from __future__ import annotations
+
+import argparse
+import json
+import os
+import re
+import subprocess
+import sys
+from typing import Any
+
+
+DEFAULT_CAL_ID = (
+    "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013"
+    "@group.calendar.google.com"
+)
+DEFAULT_TZ = "Asia/Tokyo"
+DEFAULT_SA = os.path.expanduser("~/.config/myhanno/sa.json")
+
+# description 冒頭に埋める marker (見た目 + パース対象)
+TIME_MARKER_PREFIX = "🕒 "
+TIME_MARKER_RE = re.compile(
+    r"^🕒\s+(\d{1,2}):(\d{2})\s*[–\-—]\s*(\d{1,2}):(\d{2})\s*$",
+    re.MULTILINE,
+)
+
+# description 末尾にあった「参考: URL」行 (構造化フィールド url: に抽出する対象)
+REFERENCE_URL_RE = re.compile(
+    r"^[ \t]*参考[:：][ \t]*(https?://\S+)[ \t]*$",
+    re.MULTILINE,
+)
+
+
+def ensure_auth() -> None:
+    if not os.environ.get("GOOGLE_APPLICATION_CREDENTIALS"):
+        if os.path.exists(DEFAULT_SA):
+            os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = DEFAULT_SA
+        else:
+            die(f"GOOGLE_APPLICATION_CREDENTIALS not set and {DEFAULT_SA} missing")
+
+
+def cal_id() -> str:
+    return os.environ.get("CAL_ID") or DEFAULT_CAL_ID
+
+
+def die(msg: str, code: int = 1) -> None:
+    print(f"cal-myhanno: {msg}", file=sys.stderr)
+    sys.exit(code)
+
+
+def gws(*args: str, body: dict | None = None, params: dict | None = None) -> dict:
+    """gws を呼んで JSON を返す."""
+    cmd = ["gws", *args, "--format", "json"]
+    if params is not None:
+        cmd += ["--params", json.dumps(params)]
+    if body is not None:
+        cmd += ["--json", json.dumps(body)]
+    proc = subprocess.run(cmd, capture_output=True, text=True)
+    if proc.returncode != 0:
+        die(f"gws failed: {proc.stderr.strip()}", code=proc.returncode)
+    try:
+        return json.loads(proc.stdout)
+    except json.JSONDecodeError as e:
+        die(f"failed to parse gws output: {e}\n--- stdout ---\n{proc.stdout}")
+        raise  # unreachable
+
+
+# ---------- format helpers ----------
+
+
+def fmt_hhmm(iso_datetime: str) -> str:
+    """ISO 8601 文字列の時:分部分を取り出す ('2026-05-17T10:00:00+09:00' -> '10:00')."""
+    m = re.search(r"T(\d{2}):(\d{2})", iso_datetime)
+    if not m:
+        die(f"invalid datetime: {iso_datetime}")
+    return f"{m.group(1)}:{m.group(2)}"
+
+
+def prepend_time_marker(description: str, start_iso: str, end_iso: str) -> str:
+    """description 冒頭に '🕒 HH:MM–HH:MM\\n\\n' を追加."""
+    line = f"{TIME_MARKER_PREFIX}{fmt_hhmm(start_iso)}–{fmt_hhmm(end_iso)}"
+    if description.strip():
+        return f"{line}\n\n{description}"
+    return line + "\n"
+
+
+def extract_time_marker(description: str) -> tuple[str, str, str] | None:
+    """description から marker を抜き出す.
+
+    戻り値: (start_hhmm, end_hhmm, description_without_marker) or None
+    """
+    if not description:
+        return None
+    lines = description.split("\n")
+    if not lines:
+        return None
+    m = TIME_MARKER_RE.match(lines[0])
+    if not m:
+        return None
+    start_hhmm = f"{int(m.group(1)):02d}:{m.group(2)}"
+    end_hhmm = f"{int(m.group(3)):02d}:{m.group(4)}"
+    rest = lines[1:]
+    # marker の直後の空行を 1 つだけ食う
+    if rest and rest[0] == "":
+        rest = rest[1:]
+    return start_hhmm, end_hhmm, "\n".join(rest)
+
+
+# ---------- commands ----------
+
+
+def cmd_find(args: argparse.Namespace) -> None:
+    params: dict[str, Any] = {"calendarId": cal_id(), "singleEvents": True, "maxResults": args.max_results}
+    if args.query:
+        params["q"] = args.query
+    if args.time_min:
+        params["timeMin"] = args.time_min
+    if args.time_max:
+        params["timeMax"] = args.time_max
+    res = gws("calendar", "events", "list", params=params)
+    items = res.get("items", [])
+    if args.json:
+        print(json.dumps(items, ensure_ascii=False, indent=2))
+        return
+    for e in items:
+        start = e.get("start", {}).get("dateTime") or e.get("start", {}).get("date", "?")
+        kind = "all-day" if "date" in e.get("start", {}) else "timed  "
+        print(f"{start}\t{kind}\t{e.get('id')}\t{e.get('summary', '(no title)')}")
+
+
+def cmd_show(args: argparse.Namespace) -> None:
+    e = gws("calendar", "events", "get", params={"calendarId": cal_id(), "eventId": args.event_id})
+    print(json.dumps(e, ensure_ascii=False, indent=2))
+
+
+def normalize_rrule_until(recurrence: list[str]) -> list[str]:
+    """RRULE の UNTIL を date-time から date に変換 (allday イベント用).
+
+    例: UNTIL=20260705T110000Z -> UNTIL=20260705
+    """
+    out = []
+    for line in recurrence:
+        out.append(re.sub(r"UNTIL=(\d{8})T\d{6}Z?", r"UNTIL=\1", line))
+    return out
+
+
+def cmd_set_allday(args: argparse.Namespace) -> None:
+    e = gws("calendar", "events", "get", params={"calendarId": cal_id(), "eventId": args.event_id})
+    start = e.get("start", {})
+    end = e.get("end", {})
+    if "date" in start:
+        die(f"event {args.event_id} is already all-day")
+    start_iso = start.get("dateTime")
+    end_iso = end.get("dateTime")
+    if not start_iso or not end_iso:
+        die("event has no dateTime — cannot convert")
+
+    # 同日内であること (複数日跨ぎは未サポート)
+    start_date = start_iso[:10]
+    end_date = end_iso[:10]
+    if start_date != end_date:
+        die(f"multi-day timed event not supported yet (start={start_date} end={end_date})")
+
+    new_description = prepend_time_marker(e.get("description", "") or "", start_iso, end_iso)
+
+    body = dict(e)
+    body["start"] = {"date": start_date}
+    # all-day の end.date は exclusive なので +1 日
+    from datetime import date, timedelta
+    y, m, d = map(int, start_date.split("-"))
+    body["end"] = {"date": (date(y, m, d) + timedelta(days=1)).isoformat()}
+    body["description"] = new_description
+    # 繰り返しマスターの場合は RRULE の UNTIL を date 化
+    if body.get("recurrence"):
+        body["recurrence"] = normalize_rrule_until(body["recurrence"])
+
+    if args.dry_run:
+        print(json.dumps({
+            "would_update": {
+                "id": e["id"],
+                "summary": e.get("summary"),
+                "start": body["start"],
+                "end": body["end"],
+                "description_preview": new_description[:200],
+            }
+        }, ensure_ascii=False, indent=2))
+        return
+
+    updated = gws(
+        "calendar", "events", "update",
+        params={"calendarId": cal_id(), "eventId": args.event_id},
+        body=body,
+    )
+    print(json.dumps({
+        "id": updated["id"],
+        "summary": updated.get("summary"),
+        "start": updated.get("start"),
+        "end": updated.get("end"),
+    }, ensure_ascii=False, indent=2))
+
+
+def cmd_set_timed(args: argparse.Namespace) -> None:
+    e = gws("calendar", "events", "get", params={"calendarId": cal_id(), "eventId": args.event_id})
+    start = e.get("start", {})
+    if "dateTime" in start:
+        die(f"event {args.event_id} is already timed")
+    start_date = start.get("date")
+    if not start_date:
+        die("event has no start.date")
+
+    parsed = extract_time_marker(e.get("description", "") or "")
+    if not parsed:
+        die("no '🕒 HH:MM–HH:MM' marker found in description; cannot restore time")
+    start_hhmm, end_hhmm, new_description = parsed
+
+    tz = e.get("start", {}).get("timeZone") or DEFAULT_TZ
+
+    body = dict(e)
+    body["start"] = {"dateTime": f"{start_date}T{start_hhmm}:00", "timeZone": tz}
+    body["end"]   = {"dateTime": f"{start_date}T{end_hhmm}:00",   "timeZone": tz}
+    body["description"] = new_description
+
+    if args.dry_run:
+        print(json.dumps({
+            "would_update": {
+                "id": e["id"],
+                "summary": e.get("summary"),
+                "start": body["start"],
+                "end": body["end"],
+                "description_preview": new_description[:200],
+            }
+        }, ensure_ascii=False, indent=2))
+        return
+
+    updated = gws(
+        "calendar", "events", "update",
+        params={"calendarId": cal_id(), "eventId": args.event_id},
+        body=body,
+    )
+    print(json.dumps({
+        "id": updated["id"],
+        "summary": updated.get("summary"),
+        "start": updated.get("start"),
+        "end": updated.get("end"),
+    }, ensure_ascii=False, indent=2))
+
+
+# ---------- pull: Calendar -> YAML ----------
+
+
+def yaml_escape_str(s: str) -> str:
+    """YAML scalar として安全な表現を返す.
+
+    シンプル化のため、ほぼ常にダブルクォートを使う (空文字・特殊文字含む全部)。
+    改行を含む値はこの関数を呼ばず、ブロックスカラ (|) で別途処理。
+    """
+    if s is None:
+        return "null"
+    # ダブルクォート内では \ と " をエスケープ
+    return '"' + s.replace("\\", "\\\\").replace('"', '\\"') + '"'
+
+
+def yaml_block_scalar(s: str, indent: int = 2) -> str:
+    """改行を含む文字列を YAML の `|` ブロックスカラとして整形."""
+    pad = " " * indent
+    lines = s.split("\n")
+    # 末尾改行があれば `|` (clip)、無ければ `|-` (strip) で書き分ける
+    if s.endswith("\n"):
+        head = "|"
+        body_lines = lines[:-1] if lines and lines[-1] == "" else lines
+    else:
+        head = "|-"
+        body_lines = lines
+    return head + "\n" + "\n".join(pad + ln for ln in body_lines)
+
+
+SLUG_BAD_RE = re.compile(r"[/\\:*?\"<>|\x00-\x1f]")
+
+
+def slugify_for_filename(s: str, max_len: int = 40) -> str:
+    s = SLUG_BAD_RE.sub("_", s)
+    s = re.sub(r"\s+", " ", s).strip()
+    if len(s) > max_len:
+        s = s[:max_len].rstrip()
+    return s or "untitled"
+
+
+def extract_marker_from_description(description: str) -> tuple[str, str, str] | None:
+    """description の先頭から marker を切り出す.
+
+    extract_time_marker と同じだが、戻り値の説明文は marker を抜いた残り。
+    """
+    return extract_time_marker(description)
+
+
+def event_to_yaml(e: dict) -> tuple[str, str]:
+    """イベント JSON から YAML 文字列とファイルパス (相対) を生成."""
+    start = e.get("start", {})
+    end = e.get("end", {})
+    summary = e.get("summary", "") or "(no title)"
+    location = e.get("location", "")
+    description = e.get("description", "") or ""
+    uid = e.get("iCalUID") or e.get("id", "")
+    # event.source.url を優先、無ければ description 内の「参考: URL」行を採用
+    url = (e.get("source") or {}).get("url") or ""
+    if not url:
+        m = REFERENCE_URL_RE.search(description)
+        if m:
+            url = m.group(1)
+    # description から「参考: URL」行を除去 (構造化フィールドへ移したので)
+    if url:
+        description = REFERENCE_URL_RE.sub("", description)
+        # 末尾の余計な空行を整理
+        description = re.sub(r"\n{3,}", "\n\n", description).rstrip() + ("\n" if description.endswith("\n") else "")
+
+    # 日付決定 (ファイル名用)
+    if "date" in start:
+        date_str = start["date"]
+    elif "dateTime" in start:
+        date_str = start["dateTime"][:10]
+    else:
+        date_str = "0000-00-00"
+    year = date_str[:4]
+    md = date_str[5:10]
+    # ファイル名は iCalUID の "@" より前を採用 (タイトル変更でブレない)
+    uid_prefix = uid.split("@", 1)[0] if uid else "nouid"
+    uid_prefix = SLUG_BAD_RE.sub("_", uid_prefix)
+    yaml_path = f"{year}/{md}_{uid_prefix}.yaml"
+
+    # marker 検出 → dtstart/dtend の真値復元
+    parsed = extract_marker_from_description(description)
+    description_clean = description
+    time_marker: str | None = None
+    dtstart: str
+    dtend: str
+    rrule: str | None = None
+    mode: str
+
+    if "date" in start:
+        start_date = start["date"]
+        end_date_excl = end.get("date") or start_date
+        # 終端 inclusive を計算
+        from datetime import date as _date, timedelta
+        y, m, d = map(int, end_date_excl.split("-"))
+        end_inclusive = (_date(y, m, d) - timedelta(days=1)).isoformat()
+        is_multi_day = start_date != end_inclusive
+
+        if parsed:
+            sh, eh, desc_rest = parsed
+            description_clean = desc_rest
+            time_marker = f"{sh}–{eh}"
+            dtstart = f"{start_date}T{sh}:00+09:00"
+            # 単日: 同日内、複数日: 末日に終了時刻
+            if is_multi_day:
+                dtend = f"{end_inclusive}T{eh}:00+09:00"
+                mode = "span-allday"
+            else:
+                dtend = f"{start_date}T{eh}:00+09:00"
+                mode = "single-allday"
+        else:
+            # 時刻情報なし — 真に終日
+            dtstart = start_date
+            dtend = end_inclusive
+            mode = "span-allday" if is_multi_day else "single-allday"
+    else:
+        # 時刻指定イベント (今はゼロのはず)
+        dtstart = start.get("dateTime", "")
+        dtend = end.get("dateTime", "")
+        mode = "timed"
+
+    # recurrence (今は無いはず)
+    rec = e.get("recurrence") or []
+    for line in rec:
+        if line.startswith("RRULE:"):
+            rrule = line[len("RRULE:"):]
+            break
+
+    # YAML 構築
+    out: list[str] = []
+    out.append(f"uid: {yaml_escape_str(uid)}")
+    out.append(f"summary: {yaml_escape_str(summary)}")
+    if location:
+        out.append(f"location: {yaml_escape_str(location)}")
+    if url:
+        out.append(f"url: {yaml_escape_str(url)}")
+    out.append(f"dtstart: {yaml_escape_str(dtstart)}")
+    out.append(f"dtend: {yaml_escape_str(dtend)}")
+    if rrule:
+        out.append(f"rrule: {yaml_escape_str(rrule)}")
+    if description_clean:
+        out.append("description: " + yaml_block_scalar(description_clean, indent=2))
+    out.append("")
+    out.append("render:")
+    out.append("  gcal:")
+    out.append(f"    mode: {mode}")
+    if time_marker:
+        out.append(f"    time_marker: {yaml_escape_str(time_marker)}")
+    out.append("")
+    return yaml_path, "\n".join(out)
+
+
+def cmd_pull(args: argparse.Namespace) -> None:
+    output_root = os.path.abspath(args.output)
+    items = gws("calendar", "events", "list", params={
+        "calendarId": cal_id(),
+        "singleEvents": False,
+        "maxResults": 500,
+        "showDeleted": False,
+    }).get("items", [])
+
+    # 過去はオプションで除外
+    if args.future_only:
+        from datetime import date as _date
+        today = _date.today().isoformat()
+        def fut(e: dict) -> bool:
+            s = e.get("start", {})
+            dt = s.get("date") or (s.get("dateTime", "")[:10])
+            return dt >= today
+        items = [e for e in items if fut(e)]
+
+    if args.dry_run:
+        print(f"would pull {len(items)} events to {output_root}/")
+        for e in items:
+            path, _ = event_to_yaml(e)
+            print(f"  {path}")
+        return
+
+    written, skipped = 0, 0
+    for e in items:
+        rel_path, content = event_to_yaml(e)
+        full_path = os.path.join(output_root, rel_path)
+        os.makedirs(os.path.dirname(full_path), exist_ok=True)
+        if os.path.exists(full_path) and not args.force:
+            skipped += 1
+            print(f"  SKIP (exists)  {rel_path}")
+            continue
+        with open(full_path, "w", encoding="utf-8") as f:
+            f.write(content)
+        written += 1
+        print(f"  WRITE  {rel_path}")
+    print()
+    print(f"summary: written={written}  skipped={skipped}  total={len(items)}")
+
+
+# ---------- apply: YAML -> Calendar ----------
+
+
+def load_yaml(path: str) -> dict:
+    import yaml as _yaml
+    with open(path, "r", encoding="utf-8") as f:
+        return _yaml.safe_load(f)
+
+
+def render_yaml_to_event(doc: dict) -> dict:
+    """YAML 1 件を Google Calendar event body に変換."""
+    mode = (doc.get("render") or {}).get("gcal", {}).get("mode", "single-allday")
+    explicit_marker = (doc.get("render") or {}).get("gcal", {}).get("time_marker")
+
+    body: dict = {"summary": doc.get("summary", "")}
+    if doc.get("location"):
+        body["location"] = doc["location"]
+    if doc.get("url"):
+        # Calendar API: source.title は必須 (URL のホスト名を使う)
+        from urllib.parse import urlparse
+        host = urlparse(doc["url"]).hostname or "リンク"
+        body["source"] = {"url": doc["url"], "title": host}
+
+    dtstart = str(doc.get("dtstart", ""))
+    dtend = str(doc.get("dtend", ""))
+
+    # time_marker: 明示優先、無ければ dtstart/dtend から自動派生
+    time_marker = explicit_marker
+    if not time_marker and "T" in dtstart and "T" in dtend:
+        time_marker = f"{dtstart[11:16]}–{dtend[11:16]}"
+
+    desc = doc.get("description", "") or ""
+    if time_marker:
+        desc = f"🕒 {time_marker}\n\n{desc}" if desc else f"🕒 {time_marker}\n"
+    if desc:
+        body["description"] = desc
+
+    if mode == "timed":
+        body["start"] = {"dateTime": dtstart, "timeZone": DEFAULT_TZ}
+        body["end"]   = {"dateTime": dtend,   "timeZone": DEFAULT_TZ}
+    elif mode in ("single-allday", "span-allday"):
+        sd = dtstart[:10] if "T" in dtstart else dtstart
+        ed = dtend[:10]   if "T" in dtend   else dtend
+        from datetime import date as _date, timedelta
+        y, m, d = map(int, ed.split("-"))
+        body["start"] = {"date": sd}
+        body["end"]   = {"date": (_date(y, m, d) + timedelta(days=1)).isoformat()}
+    else:
+        die(f"unknown render mode: {mode}")
+
+    if doc.get("rrule"):
+        body["recurrence"] = [f"RRULE:{doc['rrule']}"]
+
+    return body
+
+
+def find_event_by_uid(uid: str) -> dict | None:
+    """iCalUID で既存イベントを引く. 見つからなければ None."""
+    res = gws("calendar", "events", "list", params={
+        "calendarId": cal_id(),
+        "iCalUID": uid,
+        "singleEvents": False,
+        "showDeleted": False,
+    })
+    items = res.get("items", [])
+    return items[0] if items else None
+
+
+READ_ONLY_FIELDS = {
+    "etag", "kind", "updated", "created", "htmlLink",
+    "organizer", "creator", "sequence", "iCalUID", "id",
+}
+
+
+def cmd_apply(args: argparse.Namespace) -> None:
+    doc = load_yaml(args.yaml_file)
+    uid = doc.get("uid")
+    if not uid:
+        die(f"{args.yaml_file}: missing 'uid:' field")
+
+    new_body = render_yaml_to_event(doc)
+    existing = find_event_by_uid(uid)
+
+    if existing:
+        # update: 既存 body を新 body で上書き (YAML が真)
+        merged = {k: v for k, v in existing.items() if k not in READ_ONLY_FIELDS}
+        merged.update(new_body)
+        # YAML に無いフィールドは消す対象なので明示クリア
+        # location 等はもし YAML に無くて Calendar に有ったら、削除すべき
+        # (今は location/description のみ対象とする)
+        for k in ("location", "description", "recurrence", "source"):
+            if k not in new_body and k in merged:
+                merged.pop(k, None)
+
+        action = "would UPDATE" if args.dry_run else "UPDATE"
+        if args.dry_run:
+            print(json.dumps({
+                "action": "update",
+                "id": existing["id"],
+                "uid": uid,
+                "summary": new_body.get("summary"),
+                "start": new_body.get("start"),
+                "end": new_body.get("end"),
+            }, ensure_ascii=False, indent=2))
+            return
+
+        updated = gws(
+            "calendar", "events", "update",
+            params={"calendarId": cal_id(), "eventId": existing["id"]},
+            body=merged,
+        )
+        print(f"UPDATED  {uid}  ({updated.get('summary','')[:50]})")
+    else:
+        # import: 新規作成 with iCalUID
+        new_body["iCalUID"] = uid
+        new_body.setdefault("status", "confirmed")
+
+        if args.dry_run:
+            print(json.dumps({
+                "action": "import",
+                "uid": uid,
+                "summary": new_body.get("summary"),
+                "start": new_body.get("start"),
+                "end": new_body.get("end"),
+            }, ensure_ascii=False, indent=2))
+            return
+
+        imported = gws(
+            "calendar", "events", "import",
+            params={"calendarId": cal_id()},
+            body=new_body,
+        )
+        print(f"IMPORTED {uid}  ({imported.get('summary','')[:50]})")
+
+
+# ---------- diff: Calendar vs YAML ----------
+
+
+COMPARE_FIELDS = ("summary", "location", "description", "start", "end", "recurrence", "source")
+
+
+def normalize_for_diff(v):
+    """比較用の正規化. None と空文字を同一視、辞書のキーをソート."""
+    if v is None or v == "":
+        return None
+    if isinstance(v, dict):
+        return {k: normalize_for_diff(v[k]) for k in sorted(v.keys()) if v[k] not in (None, "")}
+    if isinstance(v, list):
+        return [normalize_for_diff(x) for x in v]
+    return v
+
+
+def cmd_diff(args: argparse.Namespace) -> None:
+    import glob
+    pattern = os.path.join(args.events_dir, "**", "*.yaml")
+    files = sorted(glob.glob(pattern, recursive=True))
+
+    yaml_by_uid: dict[str, tuple[str, dict]] = {}
+    for f in files:
+        doc = load_yaml(f)
+        uid = doc.get("uid")
+        if uid:
+            yaml_by_uid[uid] = (f, doc)
+
+    res = gws("calendar", "events", "list", params={
+        "calendarId": cal_id(), "singleEvents": False, "maxResults": 500, "showDeleted": False,
+    })
+    cal_events = res.get("items", [])
+    cal_by_uid = {e.get("iCalUID"): e for e in cal_events if e.get("iCalUID")}
+
+    yaml_uids = set(yaml_by_uid.keys())
+    cal_uids = set(cal_by_uid.keys())
+    missing_in_cal = yaml_uids - cal_uids
+    extra_in_cal = cal_uids - yaml_uids
+    common = yaml_uids & cal_uids
+
+    changed: list[tuple[str, str, list, str]] = []
+    for uid in common:
+        f, doc = yaml_by_uid[uid]
+        expected = render_yaml_to_event(doc)
+        actual = cal_by_uid[uid]
+        diffs = []
+        for k in COMPARE_FIELDS:
+            ev = normalize_for_diff(expected.get(k))
+            av = normalize_for_diff(actual.get(k))
+            if ev != av:
+                diffs.append((k, actual.get(k), expected.get(k)))
+        if diffs:
+            changed.append((uid, f, diffs, actual.get("summary", "")))
+
+    print(f"YAML files: {len(yaml_by_uid)}    Calendar events: {len(cal_by_uid)}")
+    print(f"in sync: {len(common) - len(changed)}    changed: {len(changed)}    "
+          f"missing in Calendar: {len(missing_in_cal)}    extra in Calendar: {len(extra_in_cal)}")
+    print()
+
+    if missing_in_cal:
+        print("=== + in YAML, missing in Calendar (would IMPORT) ===")
+        for uid in sorted(missing_in_cal):
+            f, doc = yaml_by_uid[uid]
+            print(f"  + {uid}  {doc.get('summary','')[:50]}")
+            print(f"      ({os.path.relpath(f, args.events_dir)})")
+        print()
+
+    if extra_in_cal:
+        print("=== ? in Calendar, missing from YAML (untracked) ===")
+        for uid in sorted(extra_in_cal):
+            e = cal_by_uid[uid]
+            print(f"  ? {uid}  {e.get('summary','')[:50]}")
+        print()
+
+    if changed:
+        print("=== ~ different (would UPDATE) ===")
+        for uid, f, diffs, summary in changed:
+            print(f"  ~ {uid}  {summary[:50]}")
+            for k, actual, expected in diffs:
+                print(f"      {k}:")
+                print(f"        actual:   {json.dumps(actual, ensure_ascii=False)[:120]}")
+                print(f"        expected: {json.dumps(expected, ensure_ascii=False)[:120]}")
+        print()
+
+    if not (missing_in_cal or extra_in_cal or changed):
+        print("✓ Calendar matches YAML — no drift")
+    else:
+        # exit non-zero so CI can gate
+        sys.exit(2)
+
+
+def cmd_apply_all(args: argparse.Namespace) -> None:
+    import glob
+    pattern = os.path.join(args.events_dir, "**", "*.yaml")
+    files = sorted(glob.glob(pattern, recursive=True))
+    if not files:
+        die(f"no YAML files under {args.events_dir}")
+    print(f"applying {len(files)} YAMLs...")
+    ok, err = 0, 0
+    for f in files:
+        try:
+            ns = argparse.Namespace(yaml_file=f, dry_run=args.dry_run)
+            cmd_apply(ns)
+            ok += 1
+        except SystemExit as e:
+            err += 1
+            print(f"  ERR  {f}: {e}")
+    print()
+    print(f"summary: ok={ok} err={err} total={len(files)}")
+
+
+# ---------- arg parser ----------
+
+
+def build_parser() -> argparse.ArgumentParser:
+    p = argparse.ArgumentParser(prog="cal-myhanno", description="Myはんのう Calendar wrapper around gws")
+    sub = p.add_subparsers(dest="command", required=True)
+
+    sp = sub.add_parser("find", help="list events (default: upcoming)")
+    sp.add_argument("-q", "--query", help="full-text search")
+    sp.add_argument("--time-min", help="ISO 8601 lower bound (e.g. 2026-05-01T00:00:00Z)")
+    sp.add_argument("--time-max", help="ISO 8601 upper bound")
+    sp.add_argument("--max-results", type=int, default=50)
+    sp.add_argument("--json", action="store_true", help="emit full JSON instead of table")
+    sp.set_defaults(func=cmd_find)
+
+    sp = sub.add_parser("show", help="show one event (full JSON)")
+    sp.add_argument("event_id")
+    sp.set_defaults(func=cmd_show)
+
+    sp = sub.add_parser("set-allday", help="convert timed event to all-day, preserving time in description")
+    sp.add_argument("event_id")
+    sp.add_argument("--dry-run", action="store_true")
+    sp.set_defaults(func=cmd_set_allday)
+
+    sp = sub.add_parser("set-timed", help="reverse of set-allday: parse marker from description, restore times")
+    sp.add_argument("event_id")
+    sp.add_argument("--dry-run", action="store_true")
+    sp.set_defaults(func=cmd_set_timed)
+
+    sp = sub.add_parser("pull", help="dump Calendar events as YAML (initial import)")
+    sp.add_argument("-o", "--output", default="events", help="output directory (default: events)")
+    sp.add_argument("--force", action="store_true", help="overwrite existing YAML files")
+    sp.add_argument("--dry-run", action="store_true")
+    sp.add_argument("--future-only", action="store_true", help="only events on or after today")
+    sp.set_defaults(func=cmd_pull)
+
+    sp = sub.add_parser("diff", help="show drift between YAML files and Calendar (no writes)")
+    sp.add_argument("-d", "--events-dir", default="events", help="events directory")
+    sp.set_defaults(func=cmd_diff)
+
+    sp = sub.add_parser("apply", help="apply one YAML to Calendar (insert if new, update if exists)")
+    sp.add_argument("yaml_file")
+    sp.add_argument("--dry-run", action="store_true")
+    sp.set_defaults(func=cmd_apply)
+
+    sp = sub.add_parser("apply-all", help="apply every YAML under events/")
+    sp.add_argument("-d", "--events-dir", default="events", help="events directory")
+    sp.add_argument("--dry-run", action="store_true")
+    sp.set_defaults(func=cmd_apply_all)
+
+    return p
+
+
+def main() -> None:
+    parser = build_parser()
+    args = parser.parse_args()
+    ensure_auth()
+    args.func(args)
+
+
+if __name__ == "__main__":
+    main()

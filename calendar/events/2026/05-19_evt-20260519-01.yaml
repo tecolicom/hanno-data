@@ -1,0 +1,13 @@
+uid: "evt-20260519-01@hanno.city.tecoli.com"
+summary: "ローズガーデンでほどける身体と薔薇のランチ・エコツアー"
+location: "飯能市笠縫"
+url: "https://hanno-tourism.jp/hanno-eco/tour/ec-morikaori-rose/"
+dtstart: "2026-05-19T09:30:00+09:00"
+dtend: "2026-05-19T14:30:00+09:00"
+description: |
+  無農薬薔薇とハーブに囲まれて、薔薇と採れたて野菜の身体にやさしいランチを参加者で作る。カンテレ演奏付き。
+
+render:
+  gcal:
+    mode: single-allday
+    time_marker: "09:30–14:30"

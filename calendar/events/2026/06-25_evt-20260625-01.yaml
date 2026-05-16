@@ -1,0 +1,13 @@
+uid: "evt-20260625-01@hanno.city.tecoli.com"
+summary: "吾野宿散策と高麗川でゲンジボタル＆カジカガエル鑑賞"
+location: "集合 古民家ゲストハウス吾野宿 (吾野駅徒歩7分)"
+url: "https://hanno-tourism.jp/hanno-eco/"
+dtstart: "2026-06-25T18:00:00+09:00"
+dtend: "2026-07-05T20:00:00+09:00"
+description: |
+  宿場町散策と築160年古民家でジビエカレー夕食、その後高麗川でゲンジボタル＆カジカガエル観賞。期間中6/25〜7/5の毎日18:00〜開催。
+
+render:
+  gcal:
+    mode: span-allday
+    time_marker: "18:00–20:00"

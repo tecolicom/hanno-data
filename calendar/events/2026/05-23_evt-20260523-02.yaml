@@ -1,0 +1,13 @@
+uid: "evt-20260523-02@hanno.city.tecoli.com"
+summary: "スゴ足ウォーク 飯能ツーデー名栗コースを歩く"
+location: "集合 第二区地区行政センター"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/12385.html"
+dtstart: "2026-05-23T10:00:00+09:00"
+dtend: "2026-05-23T14:30:00+09:00"
+description: |
+  約14km・約4時間30分、参加費200円。赤根ケ峠・あさひ山展望公園経由で飯能市役所まで。要事前申込。
+
+render:
+  gcal:
+    mode: single-allday
+    time_marker: "10:00–14:30"

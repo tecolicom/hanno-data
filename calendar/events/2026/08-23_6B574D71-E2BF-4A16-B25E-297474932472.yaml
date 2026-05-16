@@ -1,0 +1,8 @@
+uid: "6B574D71-E2BF-4A16-B25E-297474932472"
+summary: "いなしん ONE MAN LIVE"
+dtstart: "2026-08-23"
+dtend: "2026-08-23"
+
+render:
+  gcal:
+    mode: single-allday

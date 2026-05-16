@@ -1,0 +1,11 @@
+uid: "2pqvsb7tkn3u8a9k76ntmcs0vk@google.com"
+summary: "お散歩マーケット"
+dtstart: "2026-05-03T09:00:00+09:00"
+dtend: "2026-05-03T16:00:00+09:00"
+description: |-
+  <a href="https://hanno-tourism.jp/hanno-eco/tour/ec-osanpom-spring/">https://hanno-tourism.jp/hanno-eco/tour/ec-osanpom-spring/</a>
+
+render:
+  gcal:
+    mode: single-allday
+    time_marker: "09:00–16:00"
