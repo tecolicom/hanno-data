@@ -1,0 +1,14 @@
+# hanno-tourism.jp の対象イベント URL 一覧
+# cal-tourism-fetch が読み込む。1 行 1 URL、# 以降はコメント。
+# 新しいツアーが追加されたらここに追記する。
+
+https://hanno-tourism.jp/hanno-eco/tour/ec-chokotto-tenranzan-syoka/
+https://hanno-tourism.jp/hanno-eco/tour/ec-hannouv-onedaymarch/
+https://hanno-tourism.jp/hanno-eco/tour/ec-logcamp-bonomine-earlysummer/
+https://hanno-tourism.jp/hanno-eco/tour/ec-morikaori-rose/
+https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-satoyamahotaru/
+https://hanno-tourism.jp/hanno-eco/tour/morimana-kaeru/
+https://hanno-tourism.jp/hanno-eco/tour/ohk-hannoalps3/
+https://hanno-tourism.jp/hanno-eco/tour/ohk-hannoalps4/
+https://hanno-tourism.jp/hanno-eco/tour/sayuri-taue/
+https://hanno-tourism.jp/hanno-eco/tour/tanetsuti-1-2/

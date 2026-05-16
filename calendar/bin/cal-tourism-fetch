@@ -1,0 +1,340 @@
+#!/usr/bin/env python3
+"""cal-tourism-fetch — hanno-tourism.jp のイベント詳細ページを正規表現で構造化解析し、
+Myはんのうカレンダー用の YAML を生成する。
+
+LLM 不使用。CI で日次回す前提の決定論的パーサ。
+
+対象: https://hanno-tourism.jp/hanno-eco/tour/<slug>/
+ページのテンプレ:
+  <h1>イベント名</h1>
+  <article class="postSec"> ... 導入文の <p> ... </article>
+  <dl><dt>開催日・時間</dt><dd>①5月9日（土） ②5月17日（日） …</dd></dl>
+  <dl><dt>集合場所</dt><dd>…</dd></dl>
+  (他に 利用料金 / 定員 / ガイド / 持ち物 / 備考)
+
+使い方:
+  cal-tourism-fetch --url <URL>
+  cal-tourism-fetch --urls-file <path> --out-dir <dir>
+"""
+from __future__ import annotations
+
+import argparse
+import hashlib
+import json
+import os
+import re
+import sys
+import urllib.request
+from datetime import date as _date, datetime
+from typing import Iterable
+
+
+USER_AGENT = "myhanno-calendar-fetcher/0.1 (+https://city.tecoli.com)"
+UID_NAMESPACE = "hanno.city.tecoli.com"
+DEFAULT_UID_PREFIX = "tourism"
+
+
+# ---------- HTML fetch / normalize ----------
+
+
+def fetch_html(url: str) -> str:
+    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        return r.read().decode("utf-8", errors="replace")
+
+
+_TAG_RE = re.compile(r"<[^>]+>")
+_WS_RE = re.compile(r"\s+")
+
+
+def strip_tags(s: str) -> str:
+    # &nbsp; や HTML エンティティを少し処理
+    s = _TAG_RE.sub("", s)
+    s = s.replace("&nbsp;", " ").replace("&amp;", "&").replace("&lt;", "<").replace("&gt;", ">").replace("&quot;", '"')
+    return s
+
+
+def collapse_space(s: str) -> str:
+    return _WS_RE.sub(" ", s).strip()
+
+
+def normalize_fullwidth_digits(s: str) -> str:
+    out = []
+    for c in s:
+        co = ord(c)
+        if 0xff10 <= co <= 0xff19:
+            out.append(chr(co - 0xff10 + 0x30))
+        else:
+            out.append(c)
+    return "".join(out)
+
+
+def normalize_colon(s: str) -> str:
+    return s.replace("：", ":")
+
+
+def normalize_tilde(s: str) -> str:
+    # フルワイドティルダ U+FF5E → 波ダッシュ U+301C
+    return s.replace("～", "〜")
+
+
+# ---------- 構造抽出 ----------
+
+
+def extract_raw(html: str) -> tuple[str, str, dict[str, str]]:
+    """戻り値: (title, lead_paragraph, dt_dd_map)"""
+    # h1 (空のものをスキップ)
+    title = ""
+    for m in re.finditer(r"<h1[^>]*>([\s\S]*?)</h1>", html):
+        t = collapse_space(strip_tags(m.group(1)))
+        if t:
+            title = t
+            break
+
+    # article.postSec 内の最初の長い <p> を lead に
+    lead = ""
+    art_m = re.search(r'<article[^>]*postSec[^>]*>([\s\S]*?)</article>', html)
+    if art_m:
+        for pm in re.finditer(r"<p[^>]*>([\s\S]*?)</p>", art_m.group(1)):
+            t = collapse_space(strip_tags(pm.group(1)))
+            if len(t) > 30:
+                lead = t
+                break
+
+    # dl の dt/dd ペアを HTML 全体から
+    fields: dict[str, str] = {}
+    for dlm in re.finditer(r"<dl[^>]*>([\s\S]*?)</dl>", html):
+        dl = dlm.group(1)
+        for pm in re.finditer(r"<dt[^>]*>([\s\S]*?)</dt>\s*<dd[^>]*>([\s\S]*?)</dd>", dl):
+            dt = collapse_space(strip_tags(pm.group(1)))
+            dd = collapse_space(strip_tags(pm.group(2)))
+            if dt:
+                fields[dt] = dd
+
+    return normalize_tilde(title), normalize_tilde(lead), {k: normalize_tilde(v) for k, v in fields.items()}
+
+
+# ---------- 開催日・時刻 ----------
+
+
+def parse_sessions(date_field_text: str, year: int) -> list[dict]:
+    """`①5月9日（土） ②5月17日（日） … 各日 14：00～16：00` から各セッションを抽出.
+
+    戻り値: [{"date":"YYYY-MM-DD", "start":"HH:MM" or None, "end":"HH:MM" or None}, ...]
+    """
+    t = normalize_colon(normalize_fullwidth_digits(date_field_text))
+
+    # 時刻 HH:MM[〜～~-]HH:MM
+    tm = re.search(r"(\d{1,2}):(\d{2})\s*[〜～~\-ｰ]\s*(\d{1,2}):(\d{2})", t)
+    start_hhmm = f"{int(tm.group(1)):02d}:{tm.group(2)}" if tm else None
+    end_hhmm = f"{int(tm.group(3)):02d}:{tm.group(4)}" if tm else None
+
+    # 日付 M月D日
+    seen: set[str] = set()
+    sessions: list[dict] = []
+    for m in re.finditer(r"(\d{1,2})月(\d{1,2})日", t):
+        date_str = f"{year}-{int(m.group(1)):02d}-{int(m.group(2)):02d}"
+        if date_str in seen:
+            continue
+        seen.add(date_str)
+        sessions.append({"date": date_str, "start": start_hhmm, "end": end_hhmm})
+    return sessions
+
+
+def infer_year(html: str) -> int:
+    m = re.search(r'<meta[^>]+property=["\']og:updated_time["\'][^>]+content=["\'](\d{4})-', html)
+    return int(m.group(1)) if m else _date.today().year
+
+
+# ---------- YAML 出力 ----------
+
+
+_LOCATION_GMAP_RE = re.compile(r"\s*Google Map→.*$")
+_INCLUDE_FIELDS = ["利用料金", "定員", "ガイド", "持ち物", "備考"]
+
+
+def build_description(lead: str, fields: dict[str, str]) -> str:
+    parts: list[str] = []
+    if lead:
+        parts.append(lead)
+    for k in _INCLUDE_FIELDS:
+        v = fields.get(k, "").strip()
+        if v and v != "準備中":
+            parts.append(f"【{k}】{v}")
+    return "\n\n".join(parts)
+
+
+def yaml_escape_str(s: str) -> str:
+    return '"' + s.replace("\\", "\\\\").replace('"', '\\"') + '"'
+
+
+def yaml_block_scalar(s: str, indent: int = 2) -> str:
+    pad = " " * indent
+    lines = s.split("\n")
+    if s.endswith("\n"):
+        head, body = "|", lines[:-1] if lines and lines[-1] == "" else lines
+    else:
+        head, body = "|-", lines
+    return head + "\n" + "\n".join(pad + ln for ln in body)
+
+
+def slug_from_url(url: str) -> str:
+    from urllib.parse import urlparse
+    parts = [p for p in urlparse(url).path.rstrip("/").split("/") if p]
+    return parts[-1] if parts else "event"
+
+
+def build_yaml_doc(
+    uid: str,
+    url: str,
+    slug: str,
+    title: str,
+    location: str | None,
+    description: str,
+    session: dict,
+    html_hash: str,
+) -> str:
+    has_time = session["start"] and session["end"]
+    if has_time:
+        dtstart = f"{session['date']}T{session['start']}:00+09:00"
+        dtend = f"{session['date']}T{session['end']}:00+09:00"
+        time_marker = f"{session['start']}–{session['end']}"
+    else:
+        dtstart = session["date"]
+        dtend = session["date"]
+        time_marker = None
+
+    lines: list[str] = []
+    lines.append(f"uid: {yaml_escape_str(uid)}")
+    lines.append(f"summary: {yaml_escape_str(title)}")
+    if location:
+        lines.append(f"location: {yaml_escape_str(location)}")
+    lines.append(f"url: {yaml_escape_str(url)}")
+    lines.append(f"dtstart: {yaml_escape_str(dtstart)}")
+    lines.append(f"dtend: {yaml_escape_str(dtend)}")
+    if description:
+        lines.append("description: " + yaml_block_scalar(description, indent=2))
+    lines.append("")
+    lines.append("render:")
+    lines.append("  gcal:")
+    lines.append(f"    mode: single-allday")
+    if time_marker:
+        lines.append(f"    time_marker: {yaml_escape_str(time_marker)}")
+    lines.append("")
+    lines.append("source:")
+    lines.append(f"  type: hanno-tourism-jp")
+    lines.append(f"  id: {yaml_escape_str(slug)}")
+    lines.append(f"  url: {yaml_escape_str(url)}")
+    lines.append(f"  fetched_at: {yaml_escape_str(datetime.utcnow().isoformat() + 'Z')}")
+    lines.append(f"  content_hash: {yaml_escape_str('sha256-' + html_hash)}")
+    return "\n".join(lines) + "\n"
+
+
+# ---------- main ----------
+
+
+def read_url_list(path: str) -> list[str]:
+    urls: list[str] = []
+    with open(path, "r", encoding="utf-8") as f:
+        for raw in f:
+            line = raw.split("#", 1)[0].strip()
+            if line:
+                urls.append(line)
+    return urls
+
+
+def process_one(url: str, out_dir: str, uid_prefix: str, dry_run: bool) -> int:
+    """1 URL を処理して書いたファイル数を返す."""
+    html = fetch_html(url)
+    html_hash = hashlib.sha256(html.encode("utf-8")).hexdigest()[:16]
+    slug = slug_from_url(url)
+
+    title, lead, fields = extract_raw(html)
+    if not title:
+        print(f"  WARN: no h1, skip {url}", file=sys.stderr)
+        return 0
+    date_field = fields.get("開催日・時間") or fields.get("開催日") or ""
+    if not date_field:
+        print(f"  WARN: no '開催日・時間' field, skip {url}", file=sys.stderr)
+        return 0
+
+    year = infer_year(html)
+    sessions = parse_sessions(date_field, year)
+    if not sessions:
+        print(f"  WARN: no sessions parsed from '{date_field}'", file=sys.stderr)
+        return 0
+
+    location_raw = fields.get("集合場所", "")
+    location_clean = _LOCATION_GMAP_RE.sub("", location_raw).strip()
+    location = f"集合 {location_clean}" if location_clean else None
+
+    description = build_description(lead, fields)
+
+    written = 0
+    for s in sessions:
+        compact_date = s["date"].replace("-", "")
+        uid = f"{uid_prefix}-{slug}-{compact_date}@{UID_NAMESPACE}"
+        doc = build_yaml_doc(uid, url, slug, title, location, description, s, html_hash)
+
+        if dry_run:
+            year_part = s["date"][:4]
+            md = s["date"][5:10]
+            fname = f"{year_part}/{md}_{uid.split('@')[0]}.yaml"
+            print(f"# === {fname} ===")
+            print(doc)
+            written += 1
+            continue
+
+        year_part = s["date"][:4]
+        md = s["date"][5:10]
+        fname = f"{md}_{uid.split('@')[0]}.yaml"
+        out_path = os.path.join(out_dir, year_part, fname)
+        os.makedirs(os.path.dirname(out_path), exist_ok=True)
+        with open(out_path, "w", encoding="utf-8") as f:
+            f.write(doc)
+        print(f"  WROTE {out_path}", file=sys.stderr)
+        written += 1
+    return written
+
+
+def main() -> None:
+    here = os.path.dirname(os.path.abspath(__file__))
+    default_urls_file = os.path.join(here, "..", "sources", "hanno-tourism", "urls.txt")
+    default_out_dir = os.path.join(here, "..", "events")
+
+    ap = argparse.ArgumentParser(description="hanno-tourism.jp イベント YAML 生成 (LLM 不使用)")
+    ap.add_argument("--url", help="単一イベント URL")
+    ap.add_argument("--urls-file", default=default_urls_file, help=f"1 行 1 URL のテキストファイル (default: {default_urls_file})")
+    ap.add_argument("--out-dir", default=default_out_dir, help=f"events 出力先 (default: {default_out_dir})")
+    ap.add_argument("--uid-prefix", default=DEFAULT_UID_PREFIX, help=f"UID prefix (default: {DEFAULT_UID_PREFIX})")
+    ap.add_argument("--dry-run", action="store_true", help="stdout に出すだけ")
+    args = ap.parse_args()
+
+    urls: list[str] = []
+    if args.url:
+        urls.append(args.url)
+    elif args.urls_file:
+        if not os.path.exists(args.urls_file):
+            sys.exit(f"urls-file not found: {args.urls_file}")
+        urls.extend(read_url_list(args.urls_file))
+
+    if not urls:
+        sys.exit("No URL specified. Pass --url or --urls-file.")
+
+    print(f"Processing {len(urls)} URL(s) deterministically (no LLM)...", file=sys.stderr)
+    ok = err = total_sessions = 0
+    for i, u in enumerate(urls, 1):
+        print(f"[{i}/{len(urls)}] {u}", file=sys.stderr)
+        try:
+            n = process_one(u, args.out_dir, args.uid_prefix, args.dry_run)
+            if n > 0:
+                ok += 1
+                total_sessions += n
+        except Exception as e:
+            err += 1
+            print(f"  ERROR: {e}", file=sys.stderr)
+    print(f"Done. urls ok={ok} err={err}  total sessions written={total_sessions}", file=sys.stderr)
+
+
+if __name__ == "__main__":
+    main()

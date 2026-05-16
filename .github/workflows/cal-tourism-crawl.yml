@@ -1,0 +1,40 @@
+name: hanno-tourism crawl
+
+on:
+  schedule:
+    - cron: '0 22 * * *'   # 07:00 JST (= 22:00 UTC previous day)
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: cal-tourism-crawl
+  cancel-in-progress: false
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run cal-tourism-fetch
+        run: |
+          mkdir -p out/events
+          ./calendar/bin/cal-tourism-fetch --out-dir out/events
+
+      - name: Show summary
+        run: |
+          echo "=== Generated YAMLs ==="
+          find out -name "*.yaml" | sort
+          echo ""
+          echo "=== count ==="
+          find out -name "*.yaml" | wc -l
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: hanno-tourism-events
+          path: out/events
+          retention-days: 14
