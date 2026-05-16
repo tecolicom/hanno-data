@@ -737,38 +737,34 @@ def cmd_snapshot(args: argparse.Namespace) -> None:
 
     output_root = os.path.abspath(args.output)
     events_dir = os.path.join(output_root, "events")
-    daily_dir = os.path.join(output_root, "daily")
     os.makedirs(events_dir, exist_ok=True)
-    os.makedirs(daily_dir, exist_ok=True)
 
     # 個別イベントファイル (stable filename) — ノイズ除去
-    written = 0
     stripped_items = [strip_noisy_fields(e) for e in items]
+    expected_filenames: set[str] = set()
     for e in stripped_items:
         uid = e.get("iCalUID") or e.get("id", "")
         if not uid:
             continue
-        path = os.path.join(events_dir, f"{safe_filename_from_uid(uid)}.json")
-        with open(path, "w", encoding="utf-8") as f:
+        fname = f"{safe_filename_from_uid(uid)}.json"
+        expected_filenames.add(fname)
+        with open(os.path.join(events_dir, fname), "w", encoding="utf-8") as f:
             json.dump(e, f, ensure_ascii=False, indent=2, sort_keys=True)
-        written += 1
 
-    # 日次バンドル (ノイズ除去後の items を使う)
-    from datetime import date as _date
-    today = _date.today().isoformat()
-    bundle_path = os.path.join(daily_dir, f"{today}.json")
-    bundle = {
-        "date": today,
-        "calendar_id": cal_id(),
-        "count": len(stripped_items),
-        "events": stripped_items,
-    }
-    with open(bundle_path, "w", encoding="utf-8") as f:
-        json.dump(bundle, f, ensure_ascii=False, indent=2, sort_keys=True)
+    # mirror semantics: 現在の Calendar に存在しないイベントの snapshot は削除
+    # (削除自体は git history に履歴として残る)
+    removed = 0
+    for existing in os.listdir(events_dir):
+        if not existing.endswith(".json"):
+            continue
+        if existing not in expected_filenames:
+            os.remove(os.path.join(events_dir, existing))
+            removed += 1
 
-    print(f"snapshot saved to {output_root}/")
-    print(f"  events/  {written} files")
-    print(f"  daily/{today}.json  ({len(items)} events bundled)")
+    print(f"snapshot saved to {output_root}/events/")
+    print(f"  current: {len(expected_filenames)} files (mirror of Calendar)")
+    if removed:
+        print(f"  removed: {removed} orphan file(s) (events no longer on Calendar)")
 
 
 # ---------- wipe: delete all events (destructive) ----------

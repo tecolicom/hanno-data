@@ -20,8 +20,7 @@ calendar/
 ├── events/                  canonical YAML (1 イベント 1 ファイル)
 │   └── <year>/<MM-DD>_<uid>.yaml
 ├── snapshots/               Calendar 状態のミラー (バックアップ + 監査台帳)
-│   ├── events/<uid>.json    各イベントの API JSON (stable filename → git diff 可読)
-│   └── daily/YYYY-MM-DD.json
+│   └── events/<uid>.json    各イベントの API JSON (stable filename → git diff 可読)
 └── sources/                 クローラ用設定
     └── hanno-tourism/urls.txt
 ```
@@ -91,6 +90,8 @@ YAML を読んで `render.gcal.mode` (`single-allday` / `span-allday` / `timed`)
 ### snapshot
 
 Calendar 全イベントを JSON で `snapshots/events/<safe-iCalUID>.json` に書き出す。stable filename なので git diff で「いつ何が変わったか」が読める。Google が頻繁に変動させる `etag` は除外、`updated` は残す。
+
+**真の mirror セマンティクス**: Calendar から削除されたイベントの snapshot ファイルも自動で削除 (削除自体は git history が保持)。これにより `snapshots/events/` のファイル数は常に現在 Calendar 件数と一致する。
 
 ### wipe + apply-all による完全再構築
 
