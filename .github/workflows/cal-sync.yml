@@ -1,0 +1,102 @@
+name: Calendar sync (apply YAML to Google Calendar)
+
+on:
+  schedule:
+    - cron: '0 23 * * *'   # 08:00 JST (= 23:00 UTC previous day)、crawler の 1 時間後
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'calendar/events/**'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: cal-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install gws (googleworkspace/cli)
+        run: |
+          VERSION=v0.22.5
+          URL="https://github.com/googleworkspace/cli/releases/download/${VERSION}/google-workspace-cli-x86_64-unknown-linux-gnu.tar.gz"
+          mkdir -p /tmp/gws-install
+          curl -sSL -o /tmp/gws-install/gws.tar.gz "$URL"
+          tar -xzf /tmp/gws-install/gws.tar.gz -C /tmp/gws-install
+          BIN=$(find /tmp/gws-install -name gws -type f -executable | head -1)
+          sudo install "$BIN" /usr/local/bin/gws
+          gws --version
+
+      - name: Install Python deps
+        run: pip install --quiet pyyaml
+
+      - name: Setup Service Account credentials
+        env:
+          GWS_SA_JSON: ${{ secrets.GWS_SA_JSON }}
+        run: |
+          if [ -z "${GWS_SA_JSON:-}" ]; then
+            echo "::error::GWS_SA_JSON secret missing"
+            exit 1
+          fi
+          printf '%s' "$GWS_SA_JSON" > /tmp/sa.json
+          chmod 600 /tmp/sa.json
+
+      - name: Pre-sync snapshot (safety backup)
+        env:
+          GOOGLE_APPLICATION_CREDENTIALS: /tmp/sa.json
+        run: ./calendar/bin/cal-myhanno snapshot -o calendar/snapshots
+
+      - name: Diff Calendar vs YAML
+        id: diff
+        env:
+          GOOGLE_APPLICATION_CREDENTIALS: /tmp/sa.json
+        run: |
+          set +e
+          ./calendar/bin/cal-myhanno diff -d calendar/events
+          ec=$?
+          set -e
+          echo "exit_code=$ec" >> "$GITHUB_OUTPUT"
+          # 0 = in sync, 2 = drift detected
+          if [ "$ec" -eq 0 ]; then
+            echo "in sync, no apply needed"
+          elif [ "$ec" -eq 2 ]; then
+            echo "drift detected, will apply"
+          else
+            echo "::error::diff returned unexpected exit code $ec"
+            exit "$ec"
+          fi
+
+      - name: Safety check (cap event count)
+        if: steps.diff.outputs.exit_code == '2'
+        run: |
+          # YAML 総数の上限 (本格的に増える前の安全弁、当面 100 件で運用)
+          YAML_COUNT=$(find calendar/events -name '*.yaml' | wc -l | tr -d ' ')
+          echo "YAML count: $YAML_COUNT"
+          if [ "$YAML_COUNT" -gt 100 ]; then
+            echo "::error::YAML count ($YAML_COUNT) > 100. Refusing to apply."
+            exit 3
+          fi
+          if [ "$YAML_COUNT" -lt 5 ]; then
+            echo "::error::YAML count ($YAML_COUNT) < 5. Suspiciously low; refusing to apply."
+            exit 4
+          fi
+
+      - name: Apply YAML to Calendar
+        if: steps.diff.outputs.exit_code == '2'
+        env:
+          GOOGLE_APPLICATION_CREDENTIALS: /tmp/sa.json
+        run: ./calendar/bin/cal-myhanno apply-all -d calendar/events
+
+      - name: Verify post-apply (diff must be 0)
+        if: steps.diff.outputs.exit_code == '2'
+        env:
+          GOOGLE_APPLICATION_CREDENTIALS: /tmp/sa.json
+        run: ./calendar/bin/cal-myhanno diff -d calendar/events
