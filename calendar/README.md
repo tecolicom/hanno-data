@@ -55,7 +55,7 @@ cal-myhanno find [-q QUERY] [--time-min ISO] [--time-max ISO] [--json]
 cal-myhanno show <event-id>
 cal-myhanno set-allday <event-id> [--dry-run]     # 時刻指定 → 終日 (marker 付き)
 cal-myhanno set-timed  <event-id> [--dry-run]     # 終日 (marker 付き) → 時刻指定
-cal-myhanno ingest       [-o events] [--force]      # Calendar → YAML 一括吸い上げ
+cal-myhanno fetch       [-o events] [--force]      # Calendar → YAML 一括吸い上げ
 cal-myhanno apply      <yaml-file> [--dry-run]    # YAML 1 件 → Calendar
 cal-myhanno apply-all  [-d events] [--dry-run]    # events/ 全件 → Calendar
 cal-myhanno diff       [-d events]                # YAML と Calendar の整合チェック

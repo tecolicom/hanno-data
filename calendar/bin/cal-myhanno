@@ -413,7 +413,7 @@ def event_to_yaml(e: dict) -> tuple[str, str]:
     return yaml_path, "\n".join(out)
 
 
-def cmd_ingest(args: argparse.Namespace) -> None:
+def cmd_fetch(args: argparse.Namespace) -> None:
     output_root = os.path.abspath(args.output)
     items = gws("calendar", "events", "list", params={
         "calendarId": cal_id(),
@@ -859,13 +859,13 @@ def build_parser() -> argparse.ArgumentParser:
     sp.add_argument("--dry-run", action="store_true")
     sp.set_defaults(func=cmd_set_timed)
 
-    sp = sub.add_parser("ingest", aliases=["pull"],
+    sp = sub.add_parser("fetch",
         help="Calendar → YAML 取り込み (Calendar 上にあって YAML に無い event を新規 YAML 化、既存は触らない)")
     sp.add_argument("-o", "--output", default="events", help="output directory (default: events)")
     sp.add_argument("--force", action="store_true", help="overwrite existing YAML files")
     sp.add_argument("--dry-run", action="store_true")
     sp.add_argument("--future-only", action="store_true", help="only events on or after today")
-    sp.set_defaults(func=cmd_ingest)
+    sp.set_defaults(func=cmd_fetch)
 
     sp = sub.add_parser("diff", help="show drift between YAML files and Calendar (no writes)")
     sp.add_argument("-d", "--events-dir", default="events", help="events directory")

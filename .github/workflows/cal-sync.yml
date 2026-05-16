@@ -54,13 +54,13 @@ jobs:
           GOOGLE_APPLICATION_CREDENTIALS: /tmp/sa.json
         run: ./calendar/bin/cal-myhanno snapshot -o calendar/snapshots
 
-      - name: Ingest manual Calendar additions
-        id: ingest
+      - name: Fetch manual Calendar additions
+        id: fetch
         env:
           GOOGLE_APPLICATION_CREDENTIALS: /tmp/sa.json
         run: |
           # Calendar 上にあって YAML に無いイベントを新規 YAML 化 (既存は触らない)
-          ./calendar/bin/cal-myhanno ingest -o calendar/events
+          ./calendar/bin/cal-myhanno fetch -o calendar/events
           if [ -n "$(git status --porcelain calendar/events)" ]; then
             ADDED=$(git status --porcelain calendar/events | wc -l | tr -d ' ')
             LIST=$(git status --porcelain calendar/events | head -10 | sed 's/^...//')
@@ -74,18 +74,18 @@ jobs:
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add calendar/events
-            git commit -m "calendar: ingest manual additions $(date -u +%Y-%m-%dT%H:%MZ)"
+            git commit -m "calendar: fetch manual additions $(date -u +%Y-%m-%dT%H:%MZ)"
             git push
           else
             echo "captured=false" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Notify Discord on ingest
-        if: steps.ingest.outputs.captured == 'true' && env.DISCORD_WEBHOOK != ''
+      - name: Notify Discord on fetch
+        if: steps.fetch.outputs.captured == 'true' && env.DISCORD_WEBHOOK != ''
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_CALENDAR_WEBHOOK }}
-          ADDED: ${{ steps.ingest.outputs.added }}
-          LIST: ${{ steps.ingest.outputs.list }}
+          ADDED: ${{ steps.fetch.outputs.added }}
+          LIST: ${{ steps.fetch.outputs.list }}
         run: |
           SUMMARY=$(python3 - <<'PYEOF'
           import os, yaml
