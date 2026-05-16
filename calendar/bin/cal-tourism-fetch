@@ -129,16 +129,42 @@ def parse_sessions(date_field_text: str, year: int) -> list[dict]:
     start_hhmm = f"{int(tm.group(1)):02d}:{tm.group(2)}" if tm else None
     end_hhmm = f"{int(tm.group(3)):02d}:{tm.group(4)}" if tm else None
 
+    # 1 ツアーで 30 セッション超は実情と合わない (誤抽出の防衛線)
+    MAX_SESSIONS_PER_URL = 30
+
     # 日付 M月D日
     seen: set[str] = set()
     sessions: list[dict] = []
     for m in re.finditer(r"(\d{1,2})月(\d{1,2})日", t):
-        date_str = f"{year}-{int(m.group(1)):02d}-{int(m.group(2)):02d}"
+        try:
+            mm, dd = int(m.group(1)), int(m.group(2))
+            if not (1 <= mm <= 12 and 1 <= dd <= 31):
+                continue
+            from datetime import date as _date
+            _date(year, mm, dd)  # 不正な日付を弾く (2月30日等)
+        except ValueError:
+            continue
+        date_str = f"{year}-{mm:02d}-{dd:02d}"
         if date_str in seen:
             continue
         seen.add(date_str)
         sessions.append({"date": date_str, "start": start_hhmm, "end": end_hhmm})
+        if len(sessions) >= MAX_SESSIONS_PER_URL:
+            print(f"  WARN: hit MAX_SESSIONS_PER_URL ({MAX_SESSIONS_PER_URL}); truncating", file=sys.stderr)
+            break
     return sessions
+
+
+def session_year_ok(sessions: list[dict]) -> bool:
+    """セッション年が現在 ± 2 年の範囲か (誤年判定の最終防衛)."""
+    if not sessions:
+        return True
+    this_year = _date.today().year
+    for s in sessions:
+        y = int(s["date"][:4])
+        if not (this_year - 2 <= y <= this_year + 2):
+            return False
+    return True
 
 
 def infer_year(html: str) -> int:
@@ -264,6 +290,9 @@ def process_one(url: str, out_dir: str, uid_prefix: str, dry_run: bool) -> int:
     if not sessions:
         print(f"  WARN: no sessions parsed from '{date_field}'", file=sys.stderr)
         return 0
+    if not session_year_ok(sessions):
+        print(f"  WARN: session years out of plausible range (this_year ± 2), skip {url}", file=sys.stderr)
+        return 0
 
     location_raw = fields.get("集合場所", "")
     location_clean = _LOCATION_GMAP_RE.sub("", location_raw).strip()
@@ -331,6 +360,8 @@ def main() -> None:
     ap.add_argument("--out-dir", default=default_out_dir, help=f"events 出力先 (default: {default_out_dir})")
     ap.add_argument("--uid-prefix", default=DEFAULT_UID_PREFIX, help=f"UID prefix (default: {DEFAULT_UID_PREFIX})")
     ap.add_argument("--dry-run", action="store_true", help="stdout に出すだけ")
+    ap.add_argument("--min-sessions", type=int, default=5,
+                    help="抽出セッション数がこの数未満なら exit code 2 (CI 暴走防止、default: 5)")
     args = ap.parse_args()
 
     urls: list[str] = []
@@ -357,6 +388,16 @@ def main() -> None:
             err += 1
             print(f"  ERROR: {e}", file=sys.stderr)
     print(f"Done. urls ok={ok} err={err}  total sessions written={total_sessions}", file=sys.stderr)
+
+    # サニティチェック: 抽出セッションが想定より極端に少ないと
+    # (ソース構造変化等で) パース失敗の可能性が高い → exit code 2
+    if total_sessions < args.min_sessions and not args.dry_run:
+        print(
+            f"FAIL: total sessions ({total_sessions}) < --min-sessions ({args.min_sessions}). "
+            f"Likely source structure change. Refusing to commit a possibly-corrupt result.",
+            file=sys.stderr,
+        )
+        sys.exit(2)
 
 
 if __name__ == "__main__":

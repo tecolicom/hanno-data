@@ -15,12 +15,33 @@ concurrency:
 jobs:
   crawl:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
       - name: Run cal-tourism-fetch
-        run: ./calendar/bin/cal-tourism-fetch --out-dir calendar/events
+        # --min-sessions: 抽出件数が極端に少ない (= パース失敗の疑い) なら exit 2
+        run: ./calendar/bin/cal-tourism-fetch --out-dir calendar/events --min-sessions 5
+
+      - name: Safety check (blast radius cap)
+        # 1 回の crawl で変更が 30 ファイルを超えるのは異常 (誤抽出の可能性)
+        # 変更対象は calendar/events/ 配下のみであることも検証
+        run: |
+          CHANGED=$(git status --porcelain calendar/events | wc -l | tr -d ' ')
+          echo "changed in calendar/events: $CHANGED files"
+          if [ "$CHANGED" -gt 30 ]; then
+            echo "::error::Too many changes ($CHANGED > 30). Refusing to auto-commit." >&2
+            git status --short calendar/events | head -40 >&2
+            exit 3
+          fi
+          # crawler が想定外のディレクトリを触っていないことを確認
+          OUT_OF_SCOPE=$(git status --porcelain | grep -v '^.. calendar/events/' || true)
+          if [ -n "$OUT_OF_SCOPE" ]; then
+            echo "::error::Crawler touched paths outside calendar/events/:" >&2
+            echo "$OUT_OF_SCOPE" >&2
+            exit 4
+          fi
 
       - name: Commit if changed
         run: |
