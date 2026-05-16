@@ -703,6 +703,122 @@ def cmd_apply_all(args: argparse.Namespace) -> None:
     print(f"summary: ok={ok} err={err} total={len(files)}")
 
 
+# ---------- snapshot: Calendar -> JSON (backup) ----------
+
+
+def safe_filename_from_uid(uid: str) -> str:
+    """iCalUID をファイル名安全な形に. '@' → '_at_', '.' → '_', その他不正文字も置換."""
+    s = uid.replace("@", "_at_").replace(".", "_")
+    return SLUG_BAD_RE.sub("_", s)
+
+
+def cmd_snapshot(args: argparse.Namespace) -> None:
+    res = gws("calendar", "events", "list", params={
+        "calendarId": cal_id(),
+        "singleEvents": False,
+        "maxResults": 500,
+        "showDeleted": False,
+    })
+    items = res.get("items", [])
+
+    output_root = os.path.abspath(args.output)
+    events_dir = os.path.join(output_root, "events")
+    daily_dir = os.path.join(output_root, "daily")
+    os.makedirs(events_dir, exist_ok=True)
+    os.makedirs(daily_dir, exist_ok=True)
+
+    # 個別イベントファイル (stable filename)
+    written = 0
+    for e in items:
+        uid = e.get("iCalUID") or e.get("id", "")
+        if not uid:
+            continue
+        path = os.path.join(events_dir, f"{safe_filename_from_uid(uid)}.json")
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(e, f, ensure_ascii=False, indent=2, sort_keys=True)
+        written += 1
+
+    # 日次バンドル
+    from datetime import date as _date
+    today = _date.today().isoformat()
+    bundle_path = os.path.join(daily_dir, f"{today}.json")
+    bundle = {
+        "date": today,
+        "calendar_id": cal_id(),
+        "count": len(items),
+        "events": items,
+    }
+    with open(bundle_path, "w", encoding="utf-8") as f:
+        json.dump(bundle, f, ensure_ascii=False, indent=2, sort_keys=True)
+
+    print(f"snapshot saved to {output_root}/")
+    print(f"  events/  {written} files")
+    print(f"  daily/{today}.json  ({len(items)} events bundled)")
+
+
+# ---------- wipe: delete all events (destructive) ----------
+
+
+def cmd_wipe(args: argparse.Namespace) -> None:
+    if not args.confirm:
+        die("wipe requires --confirm to proceed")
+
+    res = gws("calendar", "events", "list", params={
+        "calendarId": cal_id(),
+        "singleEvents": False,
+        "maxResults": 500,
+        "showDeleted": False,
+    })
+    items = res.get("items", [])
+
+    if not items:
+        print("no events to wipe")
+        return
+
+    print(f"target: {len(items)} events on calendar {cal_id()}")
+
+    # 削除前にスナップショットを強制
+    print(f"\n=== taking pre-wipe snapshot to {args.snapshot_dir}/ ===")
+    snap_args = argparse.Namespace(output=args.snapshot_dir)
+    cmd_snapshot(snap_args)
+
+    if args.dry_run:
+        print("\n=== dry-run: would delete: ===")
+        for e in items:
+            uid = e.get("iCalUID", e.get("id", "?"))
+            print(f"  {uid}  {e.get('summary','')[:50]}")
+        return
+
+    print("\n=== deleting ===")
+    # gws delete は cwd に download.html を書く副作用がある — /tmp で実行
+    orig_cwd = os.getcwd()
+    try:
+        os.chdir("/tmp")
+        ok, err = 0, 0
+        for e in items:
+            eid = e["id"]
+            uid = e.get("iCalUID", eid)
+            cmd = ["gws", "calendar", "events", "delete",
+                   "--params", json.dumps({"calendarId": cal_id(), "eventId": eid}),
+                   "--format", "json"]
+            p = subprocess.run(cmd, capture_output=True, text=True)
+            if p.returncode != 0:
+                err += 1
+                print(f"  DELETE FAIL  {uid}: {p.stderr.strip()[:200]}")
+            else:
+                ok += 1
+                print(f"  DELETED  {uid}  ({e.get('summary','')[:40]})")
+    finally:
+        os.chdir(orig_cwd)
+        # 後始末
+        try:
+            os.remove("/tmp/download.html")
+        except FileNotFoundError:
+            pass
+
+    print(f"\nsummary: deleted={ok}  failed={err}  total={len(items)}")
+
+
 # ---------- arg parser ----------
 
 
@@ -752,6 +868,16 @@ def build_parser() -> argparse.ArgumentParser:
     sp.add_argument("-d", "--events-dir", default="events", help="events directory")
     sp.add_argument("--dry-run", action="store_true")
     sp.set_defaults(func=cmd_apply_all)
+
+    sp = sub.add_parser("snapshot", help="back up current Calendar state to JSON files")
+    sp.add_argument("-o", "--output", default="snapshots", help="output directory (default: snapshots)")
+    sp.set_defaults(func=cmd_snapshot)
+
+    sp = sub.add_parser("wipe", help="DELETE all events from Calendar (requires --confirm; snapshots first)")
+    sp.add_argument("--confirm", action="store_true", help="required to actually proceed")
+    sp.add_argument("--dry-run", action="store_true", help="list what would be deleted (still takes snapshot)")
+    sp.add_argument("--snapshot-dir", default="snapshots", help="where to save pre-wipe snapshot")
+    sp.set_defaults(func=cmd_wipe)
 
     return p
 

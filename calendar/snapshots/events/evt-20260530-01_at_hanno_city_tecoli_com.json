@@ -1,0 +1,36 @@
+{
+  "created": "2026-05-16T00:23:11.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 16:00–20:30\n\n樹上産卵するモリアオガエル等を昼夜で観察。雨天実施、荒天時6/6に延期。\n",
+  "end": {
+    "date": "2026-05-31"
+  },
+  "etag": "\"3557848737510814\"",
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Nscjc4YjlpNjBwM2NjMWw2Y28ycWMxaDgxazYycmplZHNuNjZxYmtmNG43OHBiM2R0bTZpYmozZHRtZyAyMDU0MDNjOTcxZGM1ZWYyMWVmZDgxYzFkNTM4NDljYWRmZDkwMWI3NWM3N2Q4ODk1NWQ5NjAwZjQ1ZjJhMDEzQGc",
+  "iCalUID": "evt-20260530-01@hanno.city.tecoli.com",
+  "id": "_clr78b9i60p3cc1l6co2qc1h81k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+  "kind": "calendar#event",
+  "location": "集合 飯能市立博物館前",
+  "organizer": {
+    "displayName": "Myはんのう",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/morimana-kaeru/"
+  },
+  "start": {
+    "date": "2026-05-30"
+  },
+  "status": "confirmed",
+  "summary": "夏のモリのカエル観察〜昼夜のアオジシ谷を楽しく学ぼう",
+  "updated": "2026-05-16T09:39:28.755Z"
+}

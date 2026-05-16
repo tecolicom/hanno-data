@@ -1,0 +1,36 @@
+{
+  "created": "2026-05-16T00:23:16.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 18:00–20:00\n\n宿場町散策と築160年古民家でジビエカレー夕食、その後高麗川でゲンジボタル＆カジカガエル観賞。期間中6/25〜7/5の毎日18:00〜開催。\n",
+  "end": {
+    "date": "2026-07-06"
+  },
+  "etag": "\"3557848755825054\"",
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Nscjc4YjlpNjBwM2NjMW02OHFpcWMxaDgxazYycmplZHNuNjZxYmtmNG43OHBiM2R0bTZpYmozZHRtZyAyMDU0MDNjOTcxZGM1ZWYyMWVmZDgxYzFkNTM4NDljYWRmZDkwMWI3NWM3N2Q4ODk1NWQ5NjAwZjQ1ZjJhMDEzQGc",
+  "iCalUID": "evt-20260625-01@hanno.city.tecoli.com",
+  "id": "_clr78b9i60p3cc1m68qiqc1h81k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+  "kind": "calendar#event",
+  "location": "集合 古民家ゲストハウス吾野宿 (吾野駅徒歩7分)",
+  "organizer": {
+    "displayName": "Myはんのう",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/"
+  },
+  "start": {
+    "date": "2026-06-25"
+  },
+  "status": "confirmed",
+  "summary": "吾野宿散策と高麗川でゲンジボタル＆カジカガエル鑑賞",
+  "updated": "2026-05-16T09:39:37.912Z"
+}

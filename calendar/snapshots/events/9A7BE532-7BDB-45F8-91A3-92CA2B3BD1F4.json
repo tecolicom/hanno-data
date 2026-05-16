@@ -1,0 +1,31 @@
+{
+  "created": "2026-05-06T08:54:00.000Z",
+  "creator": {
+    "email": "tecolicom@gmail.com"
+  },
+  "end": {
+    "date": "2026-05-18"
+  },
+  "etag": "\"3557848696624926\"",
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=Xzc1MGplZ2k1NmtwajRiOW44OTI0NGI5azZsMzNnYjlwNjUwajZiOXA2OTFrMmNpMjZkMTQ4Y2E2NmcgMjA1NDAzYzk3MWRjNWVmMjFlZmQ4MWMxZDUzODQ5Y2FkZmQ5MDFiNzVjNzdkODg5NTVkOTYwMGY0NWYyYTAxM0Bn",
+  "iCalUID": "9A7BE532-7BDB-45F8-91A3-92CA2B3BD1F4",
+  "id": "_750jegi56kpj4b9n89244b9k6l33gb9p650j6b9p691k2ci26d148ca66g",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "Myはんのう",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "start": {
+    "date": "2026-05-17"
+  },
+  "status": "confirmed",
+  "summary": "飯能市民清掃デー",
+  "transparency": "transparent",
+  "updated": "2026-05-16T09:39:08.312Z"
+}

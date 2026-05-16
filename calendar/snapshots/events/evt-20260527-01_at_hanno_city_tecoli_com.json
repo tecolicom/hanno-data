@@ -1,0 +1,36 @@
+{
+  "created": "2026-05-16T00:23:10.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 08:00–16:00\n\n登山ガイド付きの蕨山ハイキング。\n",
+  "end": {
+    "date": "2026-05-28"
+  },
+  "etag": "\"3557848731973534\"",
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Nscjc4YjlpNjBwM2NjMWw2OHJpcWMxaDgxazYycmplZHNuNjZxYmtmNG43OHBiM2R0bTZpYmozZHRtZyAyMDU0MDNjOTcxZGM1ZWYyMWVmZDgxYzFkNTM4NDljYWRmZDkwMWI3NWM3N2Q4ODk1NWQ5NjAwZjQ1ZjJhMDEzQGc",
+  "iCalUID": "evt-20260527-01@hanno.city.tecoli.com",
+  "id": "_clr78b9i60p3cc1l68riqc1h81k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+  "kind": "calendar#event",
+  "location": "集合 西武池袋線「飯能駅」改札口",
+  "organizer": {
+    "displayName": "Myはんのう",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.walkerplus.com",
+    "url": "https://www.walkerplus.com/event/ar0311e594443/"
+  },
+  "start": {
+    "date": "2026-05-27"
+  },
+  "status": "confirmed",
+  "summary": "登山ガイドと行く 初夏の蕨山",
+  "updated": "2026-05-16T09:39:25.986Z"
+}

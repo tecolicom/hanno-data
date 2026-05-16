@@ -1,0 +1,31 @@
+{
+  "created": "2026-05-06T08:54:00.000Z",
+  "creator": {
+    "email": "tecolicom@gmail.com"
+  },
+  "description": "🕒 09:00–16:00\n\n<a href=\"https://hanno-tourism.jp/hanno-eco/tour/ec-osanpom-spring/\">https://hanno-tourism.jp/hanno-eco/tour/ec-osanpom-spring/</a>",
+  "end": {
+    "date": "2026-05-04"
+  },
+  "etag": "\"3557848670967614\"",
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=MnBxdnNiN3RrbjN1OGE5azc2bnRtY3MwdmsgMjA1NDAzYzk3MWRjNWVmMjFlZmQ4MWMxZDUzODQ5Y2FkZmQ5MDFiNzVjNzdkODg5NTVkOTYwMGY0NWYyYTAxM0Bn",
+  "iCalUID": "2pqvsb7tkn3u8a9k76ntmcs0vk@google.com",
+  "id": "2pqvsb7tkn3u8a9k76ntmcs0vk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "Myはんのう",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 1,
+  "start": {
+    "date": "2026-05-03"
+  },
+  "status": "confirmed",
+  "summary": "お散歩マーケット",
+  "updated": "2026-05-16T09:38:55.483Z"
+}
