@@ -31,6 +31,12 @@ hanno-data/
 │   ├── hannocity-haraichiba.yaml          # 飯能市乗合ワゴン 原市場 (GTFS-JP、native shape)
 │   ├── seibu.yaml                         # 西武バス 飯26 (GTFS-JP, ODPT、native shape)
 │   └── coords-override.yaml               # 停留所座標オーバーライド + 表記揺れ alias
+├── calendar/                     # Myはんのう Google カレンダー管理
+│   ├── bin/cal-myhanno                    # Google Calendar API ラッパ
+│   ├── bin/cal-tourism-fetch              # hanno-tourism.jp 決定論パーサ (LLM 不使用)
+│   ├── events/<year>/<MM-DD>_<uid>.yaml   # canonical YAML (1 イベント 1 ファイル)
+│   ├── snapshots/                         # Calendar 状態のミラー (バックアップ)
+│   └── sources/hanno-tourism/urls.txt     # クローラ対象 URL リスト
 ├── aed/                          # AED 設置場所 (リンクのみ、本リポジトリでは未管理)
 └── spots/                        # スポットマスタ(Phase 3、計画中)
     ├── hiking/
@@ -80,6 +86,23 @@ city-tecoli リポジトリ:
 
 city-tecoli 側で `make sanity-check` を実行すると参照整合性 / 孤児検出 / 時刻
 単調性 / 緯度経度範囲 / transfer 妥当性 / 期待 fixture を一括検査できる。
+
+### Myはんのうカレンダー
+
+`calendar/` は `tecolicom@gmail.com` 所有の Google カレンダー
+「Myはんのう」(city.tecoli.com/@hanno/ から ical 配信) を YAML で canonical に
+管理する仕組み。詳細は [`calendar/README.md`](./calendar/README.md) 参照。
+
+主なソース:
+- **手動キュレーション**: YAML を直接編集 (UID 形式 `evt-YYYYMMDD-NN@hanno.city.tecoli.com`)
+- **飯能ツーリズム協会** ([hanno-tourism.jp/hanno-eco/tour/](https://hanno-tourism.jp/hanno-eco/)):
+  `calendar/bin/cal-tourism-fetch` が決定論パースで自動取得 (LLM 不使用)。
+  毎日 07:00 JST に CI で更新
+
+CI 自動化 (GitHub Actions):
+- `cal-snapshot.yml` (06:00 JST) — Calendar 状態を `snapshots/` に backup commit
+- `cal-tourism-crawl.yml` (07:00 JST) — ソースから fetch、`events/` に commit
+- `cal-sync.yml` (08:00 JST) — `events/` を Google Calendar に反映
 
 ## ドキュメント
 
