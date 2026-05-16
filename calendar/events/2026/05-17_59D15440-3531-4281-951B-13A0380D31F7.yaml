@@ -1,0 +1,8 @@
+uid: "59D15440-3531-4281-951B-13A0380D31F7"
+summary: "第15回飯能ベアフットマラソン"
+dtstart: "2026-05-17"
+dtend: "2026-05-17"
+
+render:
+  gcal:
+    mode: single-allday
