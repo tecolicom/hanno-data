@@ -33,6 +33,7 @@ SOURCE_TYPE = "city-hanno-gikai"
 INDEX_URL = "https://www.city.hanno.lg.jp/soshikikarasagasu/gikaisomuka/kaigijoho/395.html"
 AGENDA_INDEX_URL = "https://www.city.hanno.lg.jp/soshikikarasagasu/gikaisomuka/kaigijoho/index.html"
 IPPAN_INDEX_URL = "https://www.city.hanno.lg.jp/soshikikarasagasu/gikaisomuka/kaigijoho/227.html"
+SANPI_INDEX_URL = "https://www.city.hanno.lg.jp/soshikikarasagasu/gikaisomuka/kaigijoho/396.html"
 URL_ALLOWLIST = re.compile(r"^https://www\.city\.hanno\.lg\.jp/soshikikarasagasu/gikaisomuka/kaigijoho/395\.html$")
 
 # レイアウト判定の閾値 (経験的)
@@ -94,26 +95,33 @@ def find_agenda_url(reiwa_y: int, month: int) -> str | None:
     return m.group(1) if m else None
 
 
-def find_ippan_pdf_url(reiwa_y: int, month: int) -> str | None:
-    """kaigijoho/227.html から対応する 一般質問 PDF の URL を探す。
+def _find_pdf_by_label(index_url: str, marker: str, reiwa_y: int, month: int) -> str | None:
+    """index ページから 【marker】令和X年Y月定例会 タイトルの PDF を引く。
 
-    ファイル名は ippannsitumon / ippansitumon / ippanshitumon 等のブレあり、
-    タイトル中の '令和{n}年{m}月定例会' で照合する。
+    ファイル名のブレ吸収のため title だけで照合する。
     """
     try:
-        html = fetch_html(IPPAN_INDEX_URL)
+        html = fetch_html(index_url)
     except Exception:
         return None
-    label = f"令和{reiwa_y}年{month}月定例会"
-    # href="//...pdf">【一般質問】令和8年3月定例会 (PDF...
+    session_kind = "定例会"
+    if month == 5 or month == 8:
+        session_kind = "臨時会"
+    label = f"令和{reiwa_y}年{month}月{session_kind}"
     pattern = (
-        r'href="(//[^"]+\.pdf)"[^>]*>【一般質問】\s*'
+        r'href="(//[^"]+\.pdf)"[^>]*>【' + re.escape(marker) + r'】\s*'
         + re.escape(label)
     )
     m = re.search(pattern, html)
-    if m:
-        return "https:" + m.group(1)
-    return None
+    return ("https:" + m.group(1)) if m else None
+
+
+def find_ippan_pdf_url(reiwa_y: int, month: int) -> str | None:
+    return _find_pdf_by_label(IPPAN_INDEX_URL, "一般質問", reiwa_y, month)
+
+
+def find_sanpi_pdf_url(reiwa_y: int, month: int) -> str | None:
+    return _find_pdf_by_label(SANPI_INDEX_URL, "議員別賛否状況", reiwa_y, month)
 
 
 def download_pdf(url: str, dest: str) -> None:
@@ -270,7 +278,8 @@ def yaml_block_scalar(s: str, indent: int = 2) -> str:
 
 def build_yaml_doc(uid: str, date_str: str, content: str, source_url: str,
                    source_id: str, html_hash: str, fetched_at: str | None,
-                   agenda_url: str | None, ippan_url: str | None) -> str:
+                   agenda_url: str | None, ippan_url: str | None,
+                   sanpi_url: str | None) -> str:
     lines: list[str] = []
     lines.append(f"uid: {yaml_escape_str(uid)}")
     # summary は content のみ。専用カレンダーで一覧表示するため「飯能市議会」プレフィクスは不要
@@ -286,6 +295,8 @@ def build_yaml_doc(uid: str, date_str: str, content: str, source_url: str,
         desc_lines.append(f"議案一覧表: {agenda_url}")
     if ippan_url:
         desc_lines.append(f"一般質問: {ippan_url}")
+    if sanpi_url:
+        desc_lines.append(f"議員別賛否状況: {sanpi_url}")
     desc_lines.append(f"会期日程: {source_url}")
     description = "\n".join(desc_lines)
     if description:
@@ -370,20 +381,22 @@ def main() -> None:
         print(f"Fetching PDF: {url}", file=sys.stderr)
         download_pdf(url, pdf_path)
 
-    # 議案一覧表 / 一般質問 PDF URL を取りに行く
-    agenda_url = None
-    ippan_url = None
+    # 議案一覧表 / 一般質問 / 議員別賛否状況 の各 URL を取りに行く
+    agenda_url = ippan_url = sanpi_url = None
     if reiwa_y:
-        try:
-            agenda_url = find_agenda_url(reiwa_y, base_month)
-            print(f"  議案一覧表: {agenda_url or '(not found)'}", file=sys.stderr)
-        except Exception as e:
-            print(f"  find_agenda_url error: {e}", file=sys.stderr)
-        try:
-            ippan_url = find_ippan_pdf_url(reiwa_y, base_month)
-            print(f"  一般質問: {ippan_url or '(not found)'}", file=sys.stderr)
-        except Exception as e:
-            print(f"  find_ippan_pdf_url error: {e}", file=sys.stderr)
+        for label, fn, setter in [
+            ("議案一覧表", lambda: find_agenda_url(reiwa_y, base_month), 'agenda'),
+            ("一般質問", lambda: find_ippan_pdf_url(reiwa_y, base_month), 'ippan'),
+            ("議員別賛否状況", lambda: find_sanpi_pdf_url(reiwa_y, base_month), 'sanpi'),
+        ]:
+            try:
+                url = fn()
+                print(f"  {label}: {url or '(not found)'}", file=sys.stderr)
+                if setter == 'agenda': agenda_url = url
+                elif setter == 'ippan': ippan_url = url
+                elif setter == 'sanpi': sanpi_url = url
+            except Exception as e:
+                print(f"  {label} lookup error: {e}", file=sys.stderr)
 
     # PDF → words
     words = pdftotext_tsv(pdf_path)
@@ -425,7 +438,7 @@ def main() -> None:
             except Exception:
                 pass
 
-        doc = build_yaml_doc(uid, ev["date"], ev["content"], source_url, source_id, html_hash, prev_fetched_at, agenda_url, ippan_url)
+        doc = build_yaml_doc(uid, ev["date"], ev["content"], source_url, source_id, html_hash, prev_fetched_at, agenda_url, ippan_url, sanpi_url)
 
         if args.dry_run:
             print(f"# === {year_part}/{fname} ===")

@@ -7,6 +7,7 @@ dtend: "2026-03-10"
 description: |-
   議案一覧表: https://www.city.hanno.lg.jp/soshikikarasagasu/gikaisomuka/kaigijoho/13089.html
   一般質問: https://www.city.hanno.lg.jp/material/files/group/45/ippannsitumon8-3.pdf
+  議員別賛否状況: https://www.city.hanno.lg.jp/material/files/group/45/sannpizyoukyou8-3.pdf
   会期日程: https://www.city.hanno.lg.jp/material/files/group/45/kaikinittei8-3.pdf
 
 render:
@@ -17,5 +18,5 @@ source:
   type: city-hanno-gikai
   id: "20260310-01"
   url: "https://www.city.hanno.lg.jp/material/files/group/45/kaikinittei8-3.pdf"
-  fetched_at: "2026-05-17T09:20:02.905125Z"
+  fetched_at: "2026-05-17T10:18:37.171632Z"
   content_hash: "sha256-f68156c9e9a89c2c"
