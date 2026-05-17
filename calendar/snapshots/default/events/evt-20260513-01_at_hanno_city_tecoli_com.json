@@ -1,0 +1,35 @@
+{
+  "created": "2026-05-16T00:22:57.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "約14km・約4時間30分、参加費200円。吾野駅→たいら栗園→東吾野駅→武蔵横手駅→高麗駅。申込締切5/9、ASA飯能へ。\n",
+  "end": {
+    "date": "2026-05-14"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Nscjc4YjlpNjBwM2NjMWw2NHBpcWMxaDgxazYycmplZHNuNjZxYmtmNG43OHBiM2R0bTZpYmozZHRtZyAyMDU0MDNjOTcxZGM1ZWYyMWVmZDgxYzFkNTM4NDljYWRmZDkwMWI3NWM3N2Q4ODk1NWQ5NjAwZjQ1ZjJhMDEzQGc",
+  "iCalUID": "evt-20260513-01@hanno.city.tecoli.com",
+  "id": "_clr78b9i60p3cc1l64piqc1h81k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+  "kind": "calendar#event",
+  "location": "集合 西武秩父線「吾野駅」改札口",
+  "organizer": {
+    "displayName": "Myはんのう",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/10588.html"
+  },
+  "start": {
+    "date": "2026-05-13"
+  },
+  "status": "confirmed",
+  "summary": "スゴ足ウォーク 飯能ツーデー吾野コースを歩く",
+  "updated": "2026-05-17T14:00:15.445Z"
+}

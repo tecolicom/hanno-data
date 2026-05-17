@@ -1,0 +1,29 @@
+{
+  "created": "2026-05-13T23:43:53.000Z",
+  "creator": {
+    "email": "tecolicom@gmail.com"
+  },
+  "end": {
+    "date": "2026-05-15"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=NjE4YW9qZDhybnZxYmJwNzRlcjJjdjFwNmQgMjA1NDAzYzk3MWRjNWVmMjFlZmQ4MWMxZDUzODQ5Y2FkZmQ5MDFiNzVjNzdkODg5NTVkOTYwMGY0NWYyYTAxM0Bn",
+  "iCalUID": "618aojd8rnvqbbp74er2cv1p6d@google.com",
+  "id": "618aojd8rnvqbbp74er2cv1p6d",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "Myはんのう",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "start": {
+    "date": "2026-05-14"
+  },
+  "status": "confirmed",
+  "summary": "フカダヤ3周年",
+  "updated": "2026-05-17T14:00:19.608Z"
+}

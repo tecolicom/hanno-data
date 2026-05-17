@@ -31,6 +31,26 @@ DEFAULT_CAL_ID = (
 DEFAULT_TZ = "Asia/Tokyo"
 DEFAULT_SA = os.path.expanduser("~/.config/myhanno/sa.json")
 
+# 管理対象カレンダー一覧 (logical name → Google Calendar ID)
+CALENDARS: dict[str, str] = {
+    "default": DEFAULT_CAL_ID,  # Myはんのう (公開イベント・ツーリズム・市民会館 等)
+    "gikai":   "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",  # 飯能市政
+}
+
+# source.type → calendar (logical name) ルーティング
+SOURCE_TYPE_TO_CALENDAR: dict[str, str] = {
+    "city-hanno-gikai": "gikai",
+}
+
+
+def calendar_key_for_doc(doc: dict) -> str:
+    src_type = (doc.get("source") or {}).get("type")
+    return SOURCE_TYPE_TO_CALENDAR.get(src_type, "default")
+
+
+def calendar_id_for_doc(doc: dict) -> str:
+    return CALENDARS[calendar_key_for_doc(doc)]
+
 # description 冒頭に埋める marker (見た目 + パース対象)
 TIME_MARKER_PREFIX = "🕒 "
 TIME_MARKER_RE = re.compile(
@@ -53,8 +73,11 @@ def ensure_auth() -> None:
             die(f"GOOGLE_APPLICATION_CREDENTIALS not set and {DEFAULT_SA} missing")
 
 
-def cal_id() -> str:
-    return os.environ.get("CAL_ID") or DEFAULT_CAL_ID
+def cal_id(name: str = "default") -> str:
+    # CAL_ID env は default 上書き用 (歴史的経緯、後方互換)
+    if name == "default" and os.environ.get("CAL_ID"):
+        return os.environ["CAL_ID"]
+    return CALENDARS[name]
 
 
 def die(msg: str, code: int = 1) -> None:
@@ -512,10 +535,10 @@ def render_yaml_to_event(doc: dict) -> dict:
     return body
 
 
-def find_event_by_uid(uid: str) -> dict | None:
+def find_event_by_uid(uid: str, calendar_id: str | None = None) -> dict | None:
     """iCalUID で既存イベントを引く. 見つからなければ None."""
     res = gws("calendar", "events", "list", params={
-        "calendarId": cal_id(),
+        "calendarId": calendar_id or cal_id(),
         "iCalUID": uid,
         "singleEvents": False,
         "showDeleted": False,
@@ -536,8 +559,9 @@ def cmd_apply(args: argparse.Namespace) -> None:
     if not uid:
         die(f"{args.yaml_file}: missing 'uid:' field")
 
+    target_cal_id = calendar_id_for_doc(doc)
     new_body = render_yaml_to_event(doc)
-    existing = find_event_by_uid(uid)
+    existing = find_event_by_uid(uid, target_cal_id)
 
     if existing:
         # update: 既存 body を新 body で上書き (YAML が真)
@@ -564,10 +588,10 @@ def cmd_apply(args: argparse.Namespace) -> None:
 
         updated = gws(
             "calendar", "events", "update",
-            params={"calendarId": cal_id(), "eventId": existing["id"]},
+            params={"calendarId": target_cal_id, "eventId": existing["id"]},
             body=merged,
         )
-        print(f"UPDATED  {uid}  ({updated.get('summary','')[:50]})")
+        print(f"UPDATED  {uid}  ({updated.get('summary','')[:50]})  [{calendar_key_for_doc(doc)}]")
     else:
         # import: 新規作成 with iCalUID
         new_body["iCalUID"] = uid
@@ -577,6 +601,7 @@ def cmd_apply(args: argparse.Namespace) -> None:
             print(json.dumps({
                 "action": "import",
                 "uid": uid,
+                "calendar": calendar_key_for_doc(doc),
                 "summary": new_body.get("summary"),
                 "start": new_body.get("start"),
                 "end": new_body.get("end"),
@@ -585,10 +610,10 @@ def cmd_apply(args: argparse.Namespace) -> None:
 
         imported = gws(
             "calendar", "events", "import",
-            params={"calendarId": cal_id()},
+            params={"calendarId": target_cal_id},
             body=new_body,
         )
-        print(f"IMPORTED {uid}  ({imported.get('summary','')[:50]})")
+        print(f"IMPORTED {uid}  ({imported.get('summary','')[:50]})  [{calendar_key_for_doc(doc)}]")
 
 
 # ---------- diff: Calendar vs YAML ----------
@@ -613,74 +638,90 @@ def cmd_diff(args: argparse.Namespace) -> None:
     pattern = os.path.join(args.events_dir, "**", "*.yaml")
     files = sorted(glob.glob(pattern, recursive=True))
 
-    yaml_by_uid: dict[str, tuple[str, dict]] = {}
+    # YAML を target calendar 別にグループ化
+    yaml_by_cal: dict[str, dict[str, tuple[str, dict]]] = {k: {} for k in CALENDARS}
     for f in files:
         doc = load_yaml(f)
         uid = doc.get("uid")
         if uid:
-            yaml_by_uid[uid] = (f, doc)
+            cal_key = calendar_key_for_doc(doc)
+            yaml_by_cal[cal_key][uid] = (f, doc)
 
-    res = gws("calendar", "events", "list", params={
-        "calendarId": cal_id(), "singleEvents": False, "maxResults": 500, "showDeleted": False,
-    })
-    cal_events = res.get("items", [])
-    cal_by_uid = {e.get("iCalUID"): e for e in cal_events if e.get("iCalUID")}
+    total_yaml = total_cal = total_in_sync = 0
+    total_missing = total_extra = total_changed = 0
+    has_issue = False
 
-    yaml_uids = set(yaml_by_uid.keys())
-    cal_uids = set(cal_by_uid.keys())
-    missing_in_cal = yaml_uids - cal_uids
-    extra_in_cal = cal_uids - yaml_uids
-    common = yaml_uids & cal_uids
+    for cal_key, cal_id_val in CALENDARS.items():
+        yaml_by_uid = yaml_by_cal[cal_key]
+        res = gws("calendar", "events", "list", params={
+            "calendarId": cal_id_val, "singleEvents": False, "maxResults": 500, "showDeleted": False,
+        })
+        cal_events = res.get("items", [])
+        cal_by_uid = {e.get("iCalUID"): e for e in cal_events if e.get("iCalUID")}
 
-    changed: list[tuple[str, str, list, str]] = []
-    for uid in common:
-        f, doc = yaml_by_uid[uid]
-        expected = render_yaml_to_event(doc)
-        actual = cal_by_uid[uid]
-        diffs = []
-        for k in COMPARE_FIELDS:
-            ev = normalize_for_diff(expected.get(k))
-            av = normalize_for_diff(actual.get(k))
-            if ev != av:
-                diffs.append((k, actual.get(k), expected.get(k)))
-        if diffs:
-            changed.append((uid, f, diffs, actual.get("summary", "")))
+        yaml_uids = set(yaml_by_uid.keys())
+        cal_uids = set(cal_by_uid.keys())
+        missing_in_cal = yaml_uids - cal_uids
+        extra_in_cal = cal_uids - yaml_uids
+        common = yaml_uids & cal_uids
 
-    print(f"YAML files: {len(yaml_by_uid)}    Calendar events: {len(cal_by_uid)}")
-    print(f"in sync: {len(common) - len(changed)}    changed: {len(changed)}    "
-          f"missing in Calendar: {len(missing_in_cal)}    extra in Calendar: {len(extra_in_cal)}")
-    print()
-
-    if missing_in_cal:
-        print("=== + in YAML, missing in Calendar (would IMPORT) ===")
-        for uid in sorted(missing_in_cal):
+        changed: list[tuple[str, str, list, str]] = []
+        for uid in common:
             f, doc = yaml_by_uid[uid]
-            print(f"  + {uid}  {doc.get('summary','')[:50]}")
-            print(f"      ({os.path.relpath(f, args.events_dir)})")
-        print()
+            expected = render_yaml_to_event(doc)
+            actual = cal_by_uid[uid]
+            diffs = []
+            for k in COMPARE_FIELDS:
+                ev = normalize_for_diff(expected.get(k))
+                av = normalize_for_diff(actual.get(k))
+                if ev != av:
+                    diffs.append((k, actual.get(k), expected.get(k)))
+            if diffs:
+                changed.append((uid, f, diffs, actual.get("summary", "")))
 
-    if extra_in_cal:
-        print("=== ? in Calendar, missing from YAML (untracked) ===")
-        for uid in sorted(extra_in_cal):
-            e = cal_by_uid[uid]
-            print(f"  ? {uid}  {e.get('summary','')[:50]}")
-        print()
+        in_sync = len(common) - len(changed)
+        total_yaml += len(yaml_by_uid)
+        total_cal += len(cal_by_uid)
+        total_in_sync += in_sync
+        total_missing += len(missing_in_cal)
+        total_extra += len(extra_in_cal)
+        total_changed += len(changed)
 
-    if changed:
-        print("=== ~ different (would UPDATE) ===")
-        for uid, f, diffs, summary in changed:
-            print(f"  ~ {uid}  {summary[:50]}")
-            for k, actual, expected in diffs:
-                print(f"      {k}:")
-                print(f"        actual:   {json.dumps(actual, ensure_ascii=False)[:120]}")
-                print(f"        expected: {json.dumps(expected, ensure_ascii=False)[:120]}")
-        print()
+        print(f"[{cal_key}]  YAML: {len(yaml_by_uid)}  Calendar: {len(cal_by_uid)}  "
+              f"in sync: {in_sync}  changed: {len(changed)}  missing: {len(missing_in_cal)}  extra: {len(extra_in_cal)}")
 
-    if not (missing_in_cal or extra_in_cal or changed):
-        print("✓ Calendar matches YAML — no drift")
-    else:
-        # exit non-zero so CI can gate
+        if missing_in_cal:
+            has_issue = True
+            print(f"  === [{cal_key}] + missing in Calendar (would IMPORT) ===")
+            for uid in sorted(missing_in_cal):
+                f, doc = yaml_by_uid[uid]
+                print(f"    + {uid}  {doc.get('summary','')[:50]}")
+
+        if extra_in_cal:
+            has_issue = True
+            print(f"  === [{cal_key}] ? extra in Calendar (untracked) ===")
+            for uid in sorted(extra_in_cal):
+                e = cal_by_uid[uid]
+                print(f"    ? {uid}  {e.get('summary','')[:50]}")
+
+        if changed:
+            has_issue = True
+            print(f"  === [{cal_key}] ~ different (would UPDATE) ===")
+            for uid, f, diffs, summary in changed:
+                print(f"    ~ {uid}  {summary[:50]}")
+                for k, actual, expected in diffs:
+                    print(f"        {k}:")
+                    print(f"          actual:   {json.dumps(actual, ensure_ascii=False)[:120]}")
+                    print(f"          expected: {json.dumps(expected, ensure_ascii=False)[:120]}")
+
+    print()
+    print(f"TOTAL  YAML: {total_yaml}  Calendar: {total_cal}  in sync: {total_in_sync}  "
+          f"changed: {total_changed}  missing: {total_missing}  extra: {total_extra}")
+
+    if has_issue:
         sys.exit(2)
+    else:
+        print("✓ All Calendars match YAML — no drift")
 
 
 def cmd_apply_all(args: argparse.Namespace) -> None:
@@ -727,44 +768,50 @@ def strip_noisy_fields(event: dict) -> dict:
 
 
 def cmd_snapshot(args: argparse.Namespace) -> None:
-    res = gws("calendar", "events", "list", params={
-        "calendarId": cal_id(),
-        "singleEvents": False,
-        "maxResults": 500,
-        "showDeleted": False,
-    })
-    items = res.get("items", [])
+    """全カレンダーを per-calendar ディレクトリに snapshot.
 
+    出力: <output>/<calendar-key>/events/<safe-iCalUID>.json
+    """
     output_root = os.path.abspath(args.output)
-    events_dir = os.path.join(output_root, "events")
-    os.makedirs(events_dir, exist_ok=True)
 
-    # 個別イベントファイル (stable filename) — ノイズ除去
-    stripped_items = [strip_noisy_fields(e) for e in items]
-    expected_filenames: set[str] = set()
-    for e in stripped_items:
-        uid = e.get("iCalUID") or e.get("id", "")
-        if not uid:
-            continue
-        fname = f"{safe_filename_from_uid(uid)}.json"
-        expected_filenames.add(fname)
-        with open(os.path.join(events_dir, fname), "w", encoding="utf-8") as f:
-            json.dump(e, f, ensure_ascii=False, indent=2, sort_keys=True)
+    for cal_key, cal_id_val in CALENDARS.items():
+        res = gws("calendar", "events", "list", params={
+            "calendarId": cal_id_val,
+            "singleEvents": False,
+            "maxResults": 500,
+            "showDeleted": False,
+        })
+        items = res.get("items", [])
 
-    # mirror semantics: 現在の Calendar に存在しないイベントの snapshot は削除
-    # (削除自体は git history に履歴として残る)
-    removed = 0
-    for existing in os.listdir(events_dir):
-        if not existing.endswith(".json"):
-            continue
-        if existing not in expected_filenames:
-            os.remove(os.path.join(events_dir, existing))
-            removed += 1
+        events_dir = os.path.join(output_root, cal_key, "events")
+        os.makedirs(events_dir, exist_ok=True)
 
-    print(f"snapshot saved to {output_root}/events/")
-    print(f"  current: {len(expected_filenames)} files (mirror of Calendar)")
-    if removed:
-        print(f"  removed: {removed} orphan file(s) (events no longer on Calendar)")
+        stripped_items = [strip_noisy_fields(e) for e in items]
+        expected_filenames: set[str] = set()
+        for e in stripped_items:
+            uid = e.get("iCalUID") or e.get("id", "")
+            if not uid:
+                continue
+            fname = f"{safe_filename_from_uid(uid)}.json"
+            expected_filenames.add(fname)
+            with open(os.path.join(events_dir, fname), "w", encoding="utf-8") as f:
+                json.dump(e, f, ensure_ascii=False, indent=2, sort_keys=True)
+
+        # mirror: 現在 Calendar に存在しないファイルは削除
+        removed = 0
+        for existing in os.listdir(events_dir):
+            if not existing.endswith(".json"):
+                continue
+            if existing not in expected_filenames:
+                os.remove(os.path.join(events_dir, existing))
+                removed += 1
+
+        msg = f"  [{cal_key}]  {len(expected_filenames)} files"
+        if removed:
+            msg += f"  (removed {removed} orphans)"
+        print(msg)
+
+    print(f"snapshot saved to {output_root}/<calendar>/events/")
 
 
 # ---------- wipe: delete all events (destructive) ----------

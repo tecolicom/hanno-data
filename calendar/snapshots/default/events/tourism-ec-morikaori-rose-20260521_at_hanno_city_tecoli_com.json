@@ -1,0 +1,35 @@
+{
+  "created": "2026-05-16T14:50:04.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 09:30–14:30\n\n無農薬で育てた薔薇とハーブに囲まれて、薔薇の花と採れたて野菜で身体にやさしいランチを参加者みんなで作ります。カンテレの音色やローズウォーターに支えられ、五感を通して自然とつながり、身体の内側がほどけていくエコツアーです。\n\n【利用料金】一人4,000円 （ガイド、食材費、保険など）\n\n【定員】8名\n\n【ガイド】森香織\n\n【持ち物】マスク、エプロン、三角巾、筆記用具",
+  "end": {
+    "date": "2026-05-22"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bG1tdXNqOWRkZ211c2o5NWxwNnVzcjU1a3AzMGNobTYwcWo0Y2EwZDFnbXNyamY1cGhtaXQzcDVwcTZhb3JmZGhraXNvcmZkayAyMDU0MDNjOTcxZGM1ZWYyMWVmZDgxYzFkNTM4NDljYWRmZDkwMWI3NWM3N2Q4ODk1NWQ5NjAwZjQ1ZjJhMDEzQGc",
+  "iCalUID": "tourism-ec-morikaori-rose-20260521@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqpb35lmmusj9ddgmusj95lp6usr55kp30chm60qj4ca0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "location": "集合 森香織宅（飯能市笠縫）※詳細は申込後 西武池袋線「飯能駅」から徒歩20分/「東飯能駅」から徒歩15分",
+  "organizer": {
+    "displayName": "Myはんのう",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-morikaori-rose/"
+  },
+  "start": {
+    "date": "2026-05-21"
+  },
+  "status": "confirmed",
+  "summary": "ローズガーデンでほどける身体と薔薇のランチ・エコツアー",
+  "updated": "2026-05-17T14:00:45.884Z"
+}

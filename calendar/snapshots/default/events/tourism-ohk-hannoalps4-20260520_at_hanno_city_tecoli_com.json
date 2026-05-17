@@ -1,0 +1,35 @@
+{
+  "created": "2026-05-16T14:50:02.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 08:00–15:10\n\n伊豆ヶ岳から天覧山まで連なる、いわゆる飯能アルプスの脊梁を４回に分けて縦走します。4回目は東吾野駅から天覚山・久須美坂・永田山を越えて多峯主山･天覧山・飯能駅に向かいます。昼食はにこにこハウスの特製弁当をいただきます。\n\n【利用料金】一人7,800円 （ガイド料、昼食代、保険代）\n\n【定員】10名\n\n【ガイド】清水明（公社）日本山岳ガイド協会公認 登山ガイドステージⅡ\n\n【持ち物】手袋、飲料水、帽子、雨具、行動食（お菓子）、タオル",
+  "end": {
+    "date": "2026-05-21"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFycjhkY21tZ29iZWRwbm0ycjNnZWNxMnFjaGc2OHIzMGQ5aTYxMDZnb2JlZHBuaXNvcjllaHNpc3QzNWNkbm1vcTllY2RubXEgMjA1NDAzYzk3MWRjNWVmMjFlZmQ4MWMxZDUzODQ5Y2FkZmQ5MDFiNzVjNzdkODg5NTVkOTYwMGY0NWYyYTAxM0Bn",
+  "iCalUID": "tourism-ohk-hannoalps4-20260520@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqrr8dcmmgobedpnm2r3gecq2qchg68r30d9i6106gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "集合 西武池袋線「東吾野駅」駅前広場",
+  "organizer": {
+    "displayName": "Myはんのう",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ohk-hannoalps4/"
+  },
+  "start": {
+    "date": "2026-05-20"
+  },
+  "status": "confirmed",
+  "summary": "登山ガイドと行く飯能アルプス全山走破その4（東吾野駅から天覚山・多峯主山・天覧山を越え飯能駅）",
+  "updated": "2026-05-17T14:00:43.684Z"
+}

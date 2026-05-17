@@ -1,0 +1,31 @@
+{
+  "created": "2026-05-06T08:54:00.000Z",
+  "creator": {
+    "email": "tecolicom@gmail.com"
+  },
+  "description": "🕒 12:00–18:00\n",
+  "end": {
+    "date": "2026-05-03"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=MG1xZHUzcmg4bmZycjBzMG01MGFmc2xraDAgMjA1NDAzYzk3MWRjNWVmMjFlZmQ4MWMxZDUzODQ5Y2FkZmQ5MDFiNzVjNzdkODg5NTVkOTYwMGY0NWYyYTAxM0Bn",
+  "iCalUID": "0mqdu3rh8nfrr0s0m50afslkh0@google.com",
+  "id": "0mqdu3rh8nfrr0s0m50afslkh0",
+  "kind": "calendar#event",
+  "location": "AKAIFACTORY（アカイファクトリー）, 日本、〒357-0069 埼玉県飯能市柳町２５−２５−９",
+  "organizer": {
+    "displayName": "Myはんのう",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "start": {
+    "date": "2026-05-02"
+  },
+  "status": "confirmed",
+  "summary": "AKAI FACTORY 10周年",
+  "updated": "2026-05-17T14:00:04.682Z"
+}
