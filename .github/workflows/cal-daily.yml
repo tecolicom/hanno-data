@@ -71,6 +71,9 @@ jobs:
       - name: Crawl city-hanno-shicho-blog
         run: ./calendar/bin/cal-shicho-blog-fetch --out-dir calendar/events --min-articles 0
 
+      - name: Crawl city-hanno-oshirase
+        run: ./calendar/bin/cal-oshirase-fetch --out-dir calendar/events --min-items 0
+
       - name: Fetch manual Calendar additions
         env:
           GOOGLE_APPLICATION_CREDENTIALS: /tmp/sa.json
@@ -176,9 +179,10 @@ jobs:
           # 表示順 (時系列の流れに沿う)
           SOURCES = OrderedDict([
               ("tourism-",      ("🌳", "飯能ツーリズム")),
-              ("shiminkaikan-", ("🏛", "飯能市民会館")),
-              ("gikai-",        ("📜", "飯能市議会")),
-              ("shicho-blog-",  ("🗣", "市長ブログ")),
+              ("shiminkaikan-", ("🎭", "飯能市民会館")),
+              ("gikai-",        ("🏛", "飯能市議会")),
+              ("shicho-blog-",  ("📝", "市長ブログ")),
+              ("oshirase-",     ("ℹ️", "飯能市政お知らせ")),
           ])
           MANUAL_KEY = ("✏️", "手動")
 
