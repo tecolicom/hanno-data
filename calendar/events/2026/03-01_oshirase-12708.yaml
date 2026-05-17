@@ -1,0 +1,18 @@
+uid: "oshirase-12708@hanno.city.tecoli.com"
+summary: "ℹ️ 緊急財政対策の取組に関する説明会の開催"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kinkyuuzaiseitaisaku/12708.html"
+dtstart: "2026-03-01"
+dtend: "2026-03-01"
+description: |-
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kinkyuuzaiseitaisaku/12708.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "12708"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kinkyuuzaiseitaisaku/12708.html"
+  fetched_at: "2026-05-17T23:34:06.426724Z"
+  content_hash: "sha256-6c6c585889bdf8dc"

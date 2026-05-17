@@ -1,0 +1,18 @@
+uid: "oshirase-9290@hanno.city.tecoli.com"
+summary: "ℹ️ スゴ足イベント 2026年6月27日（土曜日）武蔵台、横手台から吾妻峡を歩く"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/9290.html"
+dtstart: "2026-05-11"
+dtend: "2026-05-11"
+description: |-
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/9290.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "9290"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/9290.html"
+  fetched_at: "2026-05-17T23:34:06.367752Z"
+  content_hash: "sha256-271d8fb5729ed804"

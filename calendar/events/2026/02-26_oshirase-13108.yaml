@@ -1,0 +1,18 @@
+uid: "oshirase-13108@hanno.city.tecoli.com"
+summary: "ℹ️ 【飯能市図書館】開館時間及び休館日等の変更について"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/toshokan/13108.html"
+dtstart: "2026-02-26"
+dtend: "2026-02-26"
+description: |-
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/toshokan/13108.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13108"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/toshokan/13108.html"
+  fetched_at: "2026-05-17T23:34:06.428583Z"
+  content_hash: "sha256-3066548ff67a8799"

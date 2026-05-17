@@ -1,0 +1,18 @@
+uid: "oshirase-8239@hanno.city.tecoli.com"
+summary: "ℹ️ 飯能市食生活改善推進員協議会"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/8239.html"
+dtstart: "2026-03-24"
+dtend: "2026-03-24"
+description: |-
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/8239.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "8239"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/8239.html"
+  fetched_at: "2026-05-17T23:34:06.415461Z"
+  content_hash: "sha256-154870d2fb3439c4"

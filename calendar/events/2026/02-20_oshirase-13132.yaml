@@ -1,0 +1,18 @@
+uid: "oshirase-13132@hanno.city.tecoli.com"
+summary: "ℹ️ 公共施設におけるキッチンカー等出店のトライアル・サウンディングについて"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/13132.html"
+dtstart: "2026-02-20"
+dtend: "2026-02-20"
+description: |-
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/13132.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13132"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/13132.html"
+  fetched_at: "2026-05-17T23:34:06.434104Z"
+  content_hash: "sha256-84fd4ab57ebd0965"

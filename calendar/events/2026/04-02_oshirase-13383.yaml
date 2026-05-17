@@ -1,0 +1,18 @@
+uid: "oshirase-13383@hanno.city.tecoli.com"
+summary: "ℹ️ 環境緑水課移転のお知らせ"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/kankyomidorimizuka/13383.html"
+dtstart: "2026-04-02"
+dtend: "2026-04-02"
+description: |-
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/kankyomidorimizuka/13383.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13383"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/kankyomidorimizuka/13383.html"
+  fetched_at: "2026-05-17T23:34:06.395502Z"
+  content_hash: "sha256-cfcfe314ac207679"

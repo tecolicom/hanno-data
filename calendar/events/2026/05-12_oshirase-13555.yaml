@@ -1,0 +1,18 @@
+uid: "oshirase-13555@hanno.city.tecoli.com"
+summary: "ℹ️ 【注意喚起】個人住民税の納税を騙った詐欺メールにご注意ください！"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/shuzeika/13555.html"
+dtstart: "2026-05-12"
+dtend: "2026-05-12"
+description: |-
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/shuzeika/13555.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13555"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/shuzeika/13555.html"
+  fetched_at: "2026-05-17T23:34:06.357200Z"
+  content_hash: "sha256-782f6e734ddd0453"

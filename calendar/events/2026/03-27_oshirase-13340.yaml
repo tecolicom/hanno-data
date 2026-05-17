@@ -1,0 +1,18 @@
+uid: "oshirase-13340@hanno.city.tecoli.com"
+summary: "ℹ️ スゴ足イベント 2026年5月19日(火曜日)、30日(土曜日)スゴ足のんびりウオーク5月"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/13340.html"
+dtstart: "2026-03-27"
+dtend: "2026-03-27"
+description: |-
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/13340.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13340"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/13340.html"
+  fetched_at: "2026-05-17T23:34:06.413687Z"
+  content_hash: "sha256-c3d97d5c42c06793"

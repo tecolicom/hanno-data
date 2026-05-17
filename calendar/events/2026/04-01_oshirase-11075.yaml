@@ -1,0 +1,18 @@
+uid: "oshirase-11075@hanno.city.tecoli.com"
+summary: "ℹ️ 住民票の写しなどの証明書が取得できる証明書交付端末を市民課に導入しました"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminka/11075.html"
+dtstart: "2026-04-01"
+dtend: "2026-04-01"
+description: |-
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminka/11075.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "11075"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminka/11075.html"
+  fetched_at: "2026-05-17T23:34:06.400804Z"
+  content_hash: "sha256-d22699a88879ece1"

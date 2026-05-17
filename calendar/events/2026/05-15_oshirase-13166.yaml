@@ -1,0 +1,18 @@
+uid: "oshirase-13166@hanno.city.tecoli.com"
+summary: "ℹ️ 課税(非課税)・所得証明書のみコンビニ交付サービスを停止します"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/johosystem/13166.html"
+dtstart: "2026-05-15"
+dtend: "2026-05-15"
+description: |-
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/johosystem/13166.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13166"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/johosystem/13166.html"
+  fetched_at: "2026-05-17T23:34:06.354713Z"
+  content_hash: "sha256-95f7449a86ad61d9"

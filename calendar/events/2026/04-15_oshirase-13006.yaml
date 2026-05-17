@@ -1,0 +1,18 @@
+uid: "oshirase-13006@hanno.city.tecoli.com"
+summary: "ℹ️ オンライン飯能市役所"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/johosystem/13006.html"
+dtstart: "2026-04-15"
+dtend: "2026-04-15"
+description: |-
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/johosystem/13006.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13006"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/johosystem/13006.html"
+  fetched_at: "2026-05-17T23:34:06.390131Z"
+  content_hash: "sha256-c6b098ca4b452ac4"

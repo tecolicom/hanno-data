@@ -1,0 +1,18 @@
+uid: "oshirase-12596@hanno.city.tecoli.com"
+summary: "ℹ️ 【終了】市内保育施設に係るサウンディング型市場調査の実施について"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/kodomoseisakuka/12596.html"
+dtstart: "2026-02-18"
+dtend: "2026-02-18"
+description: |-
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/kodomoseisakuka/12596.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "12596"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/kodomoseisakuka/12596.html"
+  fetched_at: "2026-05-17T23:34:06.437707Z"
+  content_hash: "sha256-c799ebd085763ea3"

@@ -1,0 +1,18 @@
+uid: "oshirase-13507@hanno.city.tecoli.com"
+summary: "ℹ️ 「耳で聴くハザードマップ」サービスが始まります"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/5/13507.html"
+dtstart: "2026-05-07"
+dtend: "2026-05-07"
+description: |-
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/5/13507.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13507"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/5/13507.html"
+  fetched_at: "2026-05-17T23:34:06.369793Z"
+  content_hash: "sha256-8202fad05963db73"

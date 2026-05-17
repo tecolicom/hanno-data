@@ -1,0 +1,18 @@
+uid: "oshirase-11259@hanno.city.tecoli.com"
+summary: "ℹ️ 令和7年度飯能市生涯学習フェスティバルを開催しました"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/syogaigakusyu-sports/shogaigakushu/11259.html"
+dtstart: "2026-02-24"
+dtend: "2026-02-24"
+description: |-
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/syogaigakusyu-sports/shogaigakushu/11259.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "11259"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/syogaigakusyu-sports/shogaigakushu/11259.html"
+  fetched_at: "2026-05-17T23:34:06.432127Z"
+  content_hash: "sha256-d959aebbae602464"

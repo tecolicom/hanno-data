@@ -1,0 +1,18 @@
+uid: "oshirase-13353@hanno.city.tecoli.com"
+summary: "ℹ️ 令和6年度財政状況資料集"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/zaimushohyo/13353.html"
+dtstart: "2026-03-30"
+dtend: "2026-03-30"
+description: |-
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/zaimushohyo/13353.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13353"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/zaimushohyo/13353.html"
+  fetched_at: "2026-05-17T23:34:06.404506Z"
+  content_hash: "sha256-12745f938e37e8c7"

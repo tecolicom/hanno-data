@@ -1,0 +1,18 @@
+uid: "oshirase-13515@hanno.city.tecoli.com"
+summary: "ℹ️ 水道メーターの盗難にご注意ください"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/suidogyomuka/13515.html"
+dtstart: "2026-05-01"
+dtend: "2026-05-01"
+description: |-
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/suidogyomuka/13515.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13515"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/suidogyomuka/13515.html"
+  fetched_at: "2026-05-17T23:34:06.373623Z"
+  content_hash: "sha256-269f02956cdf8ea0"

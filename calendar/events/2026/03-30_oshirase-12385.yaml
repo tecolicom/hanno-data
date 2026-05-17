@@ -1,0 +1,18 @@
+uid: "oshirase-12385@hanno.city.tecoli.com"
+summary: "ℹ️ スゴ足イベント 2026年5月23日（土曜日）飯能ツーデー名栗コースを歩く"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/12385.html"
+dtstart: "2026-03-30"
+dtend: "2026-03-30"
+description: |-
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/12385.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "12385"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/12385.html"
+  fetched_at: "2026-05-17T23:34:06.408127Z"
+  content_hash: "sha256-602b38abf7422603"

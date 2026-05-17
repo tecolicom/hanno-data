@@ -1,0 +1,18 @@
+uid: "oshirase-13410@hanno.city.tecoli.com"
+summary: "ℹ️ 飯能市プレミアム付デジタル商品券事業のお知らせ"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/13410.html"
+dtstart: "2026-05-12"
+dtend: "2026-05-12"
+description: |-
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/13410.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13410"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/13410.html"
+  fetched_at: "2026-05-17T23:34:06.363682Z"
+  content_hash: "sha256-b42f91f43b64632f"

@@ -1,0 +1,18 @@
+uid: "oshirase-13138@hanno.city.tecoli.com"
+summary: "ℹ️ 定例記者会見（令和8年2月20日開催）"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025/13138.html"
+dtstart: "2026-02-20"
+dtend: "2026-02-20"
+description: |-
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025/13138.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13138"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025/13138.html"
+  fetched_at: "2026-05-17T23:34:06.435868Z"
+  content_hash: "sha256-edc78b81a9f226bc"

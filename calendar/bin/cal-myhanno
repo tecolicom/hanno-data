@@ -40,8 +40,9 @@ CALENDARS: dict[str, str] = {
 # source.type → calendar (logical name) ルーティング
 # logical name "gikai" は内部呼称、display は「飯能市政」(議会以外の市政情報も含む)
 SOURCE_TYPE_TO_CALENDAR: dict[str, str] = {
-    "city-hanno-gikai":      "gikai",
+    "city-hanno-gikai":       "gikai",
     "city-hanno-shicho-blog": "gikai",
+    "city-hanno-oshirase":    "gikai",
 }
 
 

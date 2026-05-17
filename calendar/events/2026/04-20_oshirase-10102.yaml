@@ -1,0 +1,18 @@
+uid: "oshirase-10102@hanno.city.tecoli.com"
+summary: "ℹ️ クーリングシェルターのご案内"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/10102.html"
+dtstart: "2026-04-20"
+dtend: "2026-04-20"
+description: |-
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/10102.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "10102"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/10102.html"
+  fetched_at: "2026-05-17T23:34:06.388276Z"
+  content_hash: "sha256-198cd2d1ac4cf218"

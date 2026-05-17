@@ -1,0 +1,18 @@
+uid: "oshirase-13168@hanno.city.tecoli.com"
+summary: "ℹ️ 有間エリア水源林保全プロジェクト （通称「クマタカとヤマネの森プロジェクト」）"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/shinrinzukurika/13168.html"
+dtstart: "2026-03-16"
+dtend: "2026-03-16"
+description: |-
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/shinrinzukurika/13168.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13168"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/shinrinzukurika/13168.html"
+  fetched_at: "2026-05-17T23:34:06.423005Z"
+  content_hash: "sha256-be667c5578c0bc7a"

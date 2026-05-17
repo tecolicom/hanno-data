@@ -1,0 +1,18 @@
+uid: "oshirase-11596@hanno.city.tecoli.com"
+summary: "ℹ️ 【令和7年度】報道発表資料"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025/11596.html"
+dtstart: "2026-03-31"
+dtend: "2026-03-31"
+description: |-
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025/11596.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "11596"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025/11596.html"
+  fetched_at: "2026-05-17T23:34:06.402711Z"
+  content_hash: "sha256-fd0674f27349551b"

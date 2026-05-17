@@ -1,0 +1,18 @@
+uid: "oshirase-2431@hanno.city.tecoli.com"
+summary: "ℹ️ 訪問看護ステーションほほえみ"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/iryo/2431.html"
+dtstart: "2026-04-01"
+dtend: "2026-04-01"
+description: |-
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/iryo/2431.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "2431"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/iryo/2431.html"
+  fetched_at: "2026-05-17T23:34:06.399038Z"
+  content_hash: "sha256-b45d1c983268d0f9"

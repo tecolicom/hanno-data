@@ -1,0 +1,18 @@
+uid: "oshirase-13444@hanno.city.tecoli.com"
+summary: "ℹ️ 貯水槽水道（受水槽）の適正な管理について"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/suidokomuka/13444.html"
+dtstart: "2026-04-15"
+dtend: "2026-04-15"
+description: |-
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/suidokomuka/13444.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13444"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/suidokomuka/13444.html"
+  fetched_at: "2026-05-17T23:34:06.391965Z"
+  content_hash: "sha256-d044c4bb1e0a1554"

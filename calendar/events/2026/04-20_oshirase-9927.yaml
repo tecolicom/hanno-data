@@ -1,0 +1,18 @@
+uid: "oshirase-9927@hanno.city.tecoli.com"
+summary: "ℹ️ 「飯能市涼み処（すずみどころ）」のご案内"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/9927.html"
+dtstart: "2026-04-20"
+dtend: "2026-04-20"
+description: |-
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/9927.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "9927"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/9927.html"
+  fetched_at: "2026-05-17T23:34:06.386494Z"
+  content_hash: "sha256-e017746b0e0650d6"

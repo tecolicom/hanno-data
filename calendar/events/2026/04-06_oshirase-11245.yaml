@@ -1,0 +1,18 @@
+uid: "oshirase-11245@hanno.city.tecoli.com"
+summary: "ℹ️ みん活サマー2026参加団体募集"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jitishinkoka/shiminkatudou/11245.html"
+dtstart: "2026-04-06"
+dtend: "2026-04-06"
+description: |-
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jitishinkoka/shiminkatudou/11245.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "11245"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jitishinkoka/shiminkatudou/11245.html"
+  fetched_at: "2026-05-17T23:34:06.393731Z"
+  content_hash: "sha256-9a68a8e300ca07ae"

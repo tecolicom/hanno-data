@@ -1,0 +1,18 @@
+uid: "oshirase-13015@hanno.city.tecoli.com"
+summary: "ℹ️ こども誰でも通園制度（乳児等通園支援事業）の利用について"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/hoikuka/13015.html"
+dtstart: "2026-03-19"
+dtend: "2026-03-19"
+description: |-
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/hoikuka/13015.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13015"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/hoikuka/13015.html"
+  fetched_at: "2026-05-17T23:34:06.419159Z"
+  content_hash: "sha256-95eb918f093429d7"

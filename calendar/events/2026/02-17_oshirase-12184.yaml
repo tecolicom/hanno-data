@@ -1,0 +1,18 @@
+uid: "oshirase-12184@hanno.city.tecoli.com"
+summary: "ℹ️ 事務事業の見直し"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kinkyuuzaiseitaisaku/12184.html"
+dtstart: "2026-02-17"
+dtend: "2026-02-17"
+description: |-
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kinkyuuzaiseitaisaku/12184.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "12184"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kinkyuuzaiseitaisaku/12184.html"
+  fetched_at: "2026-05-17T23:34:06.441355Z"
+  content_hash: "sha256-1d1dba8f0e18ad30"

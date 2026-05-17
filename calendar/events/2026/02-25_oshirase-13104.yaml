@@ -1,0 +1,18 @@
+uid: "oshirase-13104@hanno.city.tecoli.com"
+summary: "ℹ️ トーベ・ヤンソンあけぼの子どもの森公園の開園日等の変更（試行）のお知らせ"
+url: "https://www.city.hanno.lg.jp/akebono/oshirase/13104.html"
+dtstart: "2026-02-25"
+dtend: "2026-02-25"
+description: |-
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/akebono/oshirase/13104.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13104"
+  url: "https://www.city.hanno.lg.jp/akebono/oshirase/13104.html"
+  fetched_at: "2026-05-17T23:34:06.430361Z"
+  content_hash: "sha256-a4715c5b79c8b848"

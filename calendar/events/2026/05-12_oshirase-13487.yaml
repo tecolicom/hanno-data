@@ -1,0 +1,18 @@
+uid: "oshirase-13487@hanno.city.tecoli.com"
+summary: "ℹ️ 飯能くらしのガイドブック2026における追加掲載について"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/13487.html"
+dtstart: "2026-05-12"
+dtend: "2026-05-12"
+description: |-
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/13487.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13487"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/13487.html"
+  fetched_at: "2026-05-17T23:34:06.359406Z"
+  content_hash: "sha256-bd71ce1e9b1113af"

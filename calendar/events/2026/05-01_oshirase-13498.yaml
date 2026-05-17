@@ -1,0 +1,18 @@
+uid: "oshirase-13498@hanno.city.tecoli.com"
+summary: "ℹ️ きっとすキッズフェア開催のお知らせ"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/tenji_moyooshimono/13498.html"
+dtstart: "2026-05-01"
+dtend: "2026-05-01"
+description: |-
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/tenji_moyooshimono/13498.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13498"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/tenji_moyooshimono/13498.html"
+  fetched_at: "2026-05-17T23:34:06.371697Z"
+  content_hash: "sha256-f2ccd9a28110ddb9"

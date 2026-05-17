@@ -1,0 +1,18 @@
+uid: "oshirase-9873@hanno.city.tecoli.com"
+summary: "ℹ️ 令和8年度病害虫発生予察注意報第1号「ムギ類赤かび病」（令和8年4月27日）"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/nogyoshinkoka/9873.html"
+dtstart: "2026-04-27"
+dtend: "2026-04-27"
+description: |-
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/nogyoshinkoka/9873.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "9873"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/nogyoshinkoka/9873.html"
+  fetched_at: "2026-05-17T23:34:06.381096Z"
+  content_hash: "sha256-ea6f0e53b64d1047"

@@ -1,0 +1,18 @@
+uid: "oshirase-7983@hanno.city.tecoli.com"
+summary: "ℹ️ みんなでピンシャン ～動けるカラダプロジェクト～"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/ninchi-sisaku/ninchi-jigyou/7983.html"
+dtstart: "2026-03-30"
+dtend: "2026-03-30"
+description: |-
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/ninchi-sisaku/ninchi-jigyou/7983.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "7983"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/ninchi-sisaku/ninchi-jigyou/7983.html"
+  fetched_at: "2026-05-17T23:34:06.411908Z"
+  content_hash: "sha256-f116875bfe7e5140"

@@ -1,0 +1,18 @@
+uid: "oshirase-13330@hanno.city.tecoli.com"
+summary: "ℹ️ 第12次飯能市緊急経済対策について"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/13330.html"
+dtstart: "2026-04-01"
+dtend: "2026-04-01"
+description: |-
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/13330.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13330"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/13330.html"
+  fetched_at: "2026-05-17T23:34:06.397298Z"
+  content_hash: "sha256-66191d426a610c05"

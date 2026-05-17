@@ -1,0 +1,18 @@
+uid: "oshirase-13270@hanno.city.tecoli.com"
+summary: "ℹ️ 浅間地内雨水排水対策工事に伴う市道の通行止め及びバス経路変更のお知らせ"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/tosiseibika/13270.html"
+dtstart: "2026-03-23"
+dtend: "2026-03-23"
+description: |-
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/tosiseibika/13270.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13270"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/tosiseibika/13270.html"
+  fetched_at: "2026-05-17T23:34:06.417267Z"
+  content_hash: "sha256-4cf924901294c130"

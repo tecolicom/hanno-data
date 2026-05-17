@@ -1,0 +1,18 @@
+uid: "oshirase-12982@hanno.city.tecoli.com"
+summary: "ℹ️ 一般国道299号の一部区間の飯能市道への移管及び県道への変更について"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/ijikanrika/12982.html"
+dtstart: "2026-02-18"
+dtend: "2026-02-18"
+description: |-
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/ijikanrika/12982.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "12982"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/ijikanrika/12982.html"
+  fetched_at: "2026-05-17T23:34:06.439528Z"
+  content_hash: "sha256-3ccd8b39ce72b83b"

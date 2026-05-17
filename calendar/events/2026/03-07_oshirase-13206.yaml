@@ -1,0 +1,18 @@
+uid: "oshirase-13206@hanno.city.tecoli.com"
+summary: "ℹ️ 東飯能駅「新オブジェ」お披露目セレモニー"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/sangakukanrenkei/13206.html"
+dtstart: "2026-03-07"
+dtend: "2026-03-07"
+description: |-
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/sangakukanrenkei/13206.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13206"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/sangakukanrenkei/13206.html"
+  fetched_at: "2026-05-17T23:34:06.424907Z"
+  content_hash: "sha256-8870310ecff9383d"

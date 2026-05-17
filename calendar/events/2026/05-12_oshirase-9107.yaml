@@ -1,0 +1,18 @@
+uid: "oshirase-9107@hanno.city.tecoli.com"
+summary: "ℹ️ ふるさと納税寄附及び使途内容の報告について"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/furusatonozei/9107.html"
+dtstart: "2026-05-12"
+dtend: "2026-05-12"
+description: |-
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/furusatonozei/9107.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "9107"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/furusatonozei/9107.html"
+  fetched_at: "2026-05-17T23:34:06.361609Z"
+  content_hash: "sha256-6e1e0269552d778b"

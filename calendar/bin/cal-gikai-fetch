@@ -30,6 +30,7 @@ USER_AGENT = "myhanno-calendar-fetcher/0.1 (+https://city.tecoli.com)"
 UID_NAMESPACE = "hanno.city.tecoli.com"
 DEFAULT_UID_PREFIX = "gikai"
 SOURCE_TYPE = "city-hanno-gikai"
+SUMMARY_PREFIX = "🏛 "
 INDEX_URL = "https://www.city.hanno.lg.jp/soshikikarasagasu/gikaisomuka/kaigijoho/395.html"
 AGENDA_INDEX_URL = "https://www.city.hanno.lg.jp/soshikikarasagasu/gikaisomuka/kaigijoho/index.html"
 IPPAN_INDEX_URL = "https://www.city.hanno.lg.jp/soshikikarasagasu/gikaisomuka/kaigijoho/227.html"
@@ -290,8 +291,8 @@ def build_yaml_doc(uid: str, date_str: str, content: str, source_url: str,
                    sanpi_url: str | None) -> str:
     lines: list[str] = []
     lines.append(f"uid: {yaml_escape_str(uid)}")
-    # summary は content のみ。専用カレンダーで一覧表示するため「飯能市議会」プレフィクスは不要
-    lines.append(f"summary: {yaml_escape_str(content)}")
+    # 専用カレンダー上での視認性のため絵文字接頭辞のみ ("飯能市議会" は冗長で付けない)
+    lines.append(f"summary: {yaml_escape_str(SUMMARY_PREFIX + content)}")
     lines.append(f"location: {yaml_escape_str('飯能市役所 議場')}")
     lines.append(f"url: {yaml_escape_str(source_url)}")
     lines.append(f"dtstart: {yaml_escape_str(date_str)}")
