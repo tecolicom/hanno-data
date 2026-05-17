@@ -289,15 +289,15 @@ def build_yaml_doc(uid: str, date_str: str, content: str, source_url: str,
     lines.append(f"dtstart: {yaml_escape_str(date_str)}")
     lines.append(f"dtend: {yaml_escape_str(date_str)}")
 
-    # description: 関連資料リンク
+    # description: 関連資料リンク (時系列順: 会期 → 議案 → 質問 → 賛否)
     desc_lines: list[str] = []
+    desc_lines.append(f"会期日程: {source_url}")
     if agenda_url:
         desc_lines.append(f"議案一覧表: {agenda_url}")
     if ippan_url:
         desc_lines.append(f"一般質問: {ippan_url}")
     if sanpi_url:
         desc_lines.append(f"議員別賛否状況: {sanpi_url}")
-    desc_lines.append(f"会期日程: {source_url}")
     description = "\n".join(desc_lines)
     if description:
         lines.append("description: " + yaml_block_scalar(description, indent=2))
