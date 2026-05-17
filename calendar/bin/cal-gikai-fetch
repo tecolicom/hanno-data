@@ -250,7 +250,8 @@ def build_yaml_doc(uid: str, date_str: str, content: str, source_url: str,
                    agenda_url: str | None) -> str:
     lines: list[str] = []
     lines.append(f"uid: {yaml_escape_str(uid)}")
-    lines.append(f"summary: {yaml_escape_str('飯能市議会 ' + content)}")
+    # summary は content のみ。専用カレンダーで一覧表示するため「飯能市議会」プレフィクスは不要
+    lines.append(f"summary: {yaml_escape_str(content)}")
     lines.append(f"location: {yaml_escape_str('飯能市役所 議場')}")
     lines.append(f"url: {yaml_escape_str(source_url)}")
     lines.append(f"dtstart: {yaml_escape_str(date_str)}")
