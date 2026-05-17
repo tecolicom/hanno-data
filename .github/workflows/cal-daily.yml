@@ -68,6 +68,9 @@ jobs:
       - name: Crawl city-hanno-gikai
         run: ./calendar/bin/cal-gikai-fetch --out-dir calendar/events --min-events 0
 
+      - name: Crawl city-hanno-shicho-blog
+        run: ./calendar/bin/cal-shicho-blog-fetch --out-dir calendar/events --min-articles 0
+
       - name: Fetch manual Calendar additions
         env:
           GOOGLE_APPLICATION_CREDENTIALS: /tmp/sa.json
@@ -175,6 +178,7 @@ jobs:
               ("tourism-",      ("🌳", "飯能ツーリズム")),
               ("shiminkaikan-", ("🏛", "飯能市民会館")),
               ("gikai-",        ("📜", "飯能市議会")),
+              ("shicho-blog-",  ("🗣", "市長ブログ")),
           ])
           MANUAL_KEY = ("✏️", "手動")
 
