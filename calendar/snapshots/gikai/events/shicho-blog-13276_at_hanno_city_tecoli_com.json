@@ -1,0 +1,34 @@
+{
+  "created": "2026-05-17T14:27:47.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13276.html",
+  "end": {
+    "date": "2026-03-08"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2VkazZpb3I4ZHNtbTRyM2Zjc21qMmNwaTZzcjQwcTMxZHBuNnViajNkNXE3aWJqa2NsaG11cjM5NXBobXVyOCA2NzQ1OTE0YjI0MzIzMTEyYTE1ZjQzZGMyMGIzYTBmNGE0ODE3YWZkODAwYzhkMTY4N2QwYmYwYjdmODkwYzYxQGc",
+  "iCalUID": "shicho-blog-13276@hanno.city.tecoli.com",
+  "id": "_edk6ior8dsmm4r3fcsmj2cpi6sr40q31dpn6ubj3d5q7ibjkclhmur395phmur8",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市政",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13276.html"
+  },
+  "start": {
+    "date": "2026-03-07"
+  },
+  "status": "confirmed",
+  "summary": "[市長] 東飯能駅「新オブジェ」お披露目セレモニー",
+  "updated": "2026-05-17T14:43:47.683Z"
+}
