@@ -1,9 +1,9 @@
-uid: "gikai-20260316-01@hanno.city.tecoli.com"
-summary: "市政に対する一般質問"
+uid: "gikai-20260325-01@hanno.city.tecoli.com"
+summary: "委員長報告・質疑・討論・採決・閉会"
 location: "飯能市役所 議場"
 url: "https://www.city.hanno.lg.jp/material/files/group/45/kaikinittei8-3.pdf"
-dtstart: "2026-03-16"
-dtend: "2026-03-16"
+dtstart: "2026-03-25"
+dtend: "2026-03-25"
 description: |-
   会期日程: https://www.city.hanno.lg.jp/material/files/group/45/kaikinittei8-3.pdf
   議案一覧表: https://www.city.hanno.lg.jp/soshikikarasagasu/gikaisomuka/kaigijoho/13089.html
@@ -16,7 +16,7 @@ render:
 
 source:
   type: city-hanno-gikai
-  id: "20260316-01"
+  id: "20260325-01"
   url: "https://www.city.hanno.lg.jp/material/files/group/45/kaikinittei8-3.pdf"
-  fetched_at: "2026-05-17T14:06:13.906097Z"
+  fetched_at: "2026-05-17T14:06:13.906247Z"
   content_hash: "sha256-d3ca4b1e0a68c91c"

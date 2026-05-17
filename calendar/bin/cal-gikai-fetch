@@ -40,8 +40,8 @@ URL_ALLOWLIST = re.compile(r"^https://www\.city\.hanno\.lg\.jp/soshikikarasagasu
 COLUMN_SPLIT_X = 200.0  # x < 200 → 左半月、x >= 200 → 右半月
 ROW_GROUPING_TOLERANCE_Y = 4.0  # 同 Y とみなす許容差
 
-# 「休会」「休 会」表記を skip 判定するキーワード
-SKIP_KEYWORDS = ("休会", "休 会", "閉  会")
+# cell の content がこれだけ (= 議会活動なし) なら skip する
+SKIP_ONLY_CONTENTS = {"休会"}
 
 
 # ---------- index ページから最新 PDF を見つける ----------
@@ -252,10 +252,18 @@ def parse_column(words: list[dict], default_year: int, base_month: int) -> list[
         line_strs = ["".join(tokens) for _, tokens in line_groups if tokens]
         content = "・".join(s for s in line_strs if s)
 
-        # 「休 会」のように空白が入る場合の正規化
-        content_norm = re.sub(r"\s+", "", content)
-        if any(k.replace(" ", "") in content_norm for k in SKIP_KEYWORDS):
+        # cell が「休会」だけ (議会活動なし) なら skip
+        # 「閉会」を含むが他の議事 (委員長報告・採決等) もある cell は残す
+        content_norm = re.sub(r"[\s（）()【】・,、。]", "", content)
+        if content_norm in SKIP_ONLY_CONTENTS:
             continue
+        # 「議案調査日」のような注記だけの cell も skip 対象に追加してもよいが、
+        # 今は休会のみ
+        if content_norm.startswith("休会"):
+            # 「休会(議案調査日)」「休会（◯◯）」のようなパターン
+            tail = content_norm[len("休会"):]
+            if not tail or tail in {"議案調査日"}:
+                continue
         if not content:
             continue
         events.append({"date": date_str, "content": content})
