@@ -1,0 +1,231 @@
+name: Calendar daily
+
+on:
+  schedule:
+    - cron: '0 22 * * *'   # 07:00 JST (= 22:00 UTC previous day)
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'calendar/events/**'
+      - '.github/workflows/cal-daily.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cal-daily
+  cancel-in-progress: false
+
+jobs:
+  daily:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install gws (googleworkspace/cli)
+        run: |
+          VERSION=v0.22.5
+          URL="https://github.com/googleworkspace/cli/releases/download/${VERSION}/google-workspace-cli-x86_64-unknown-linux-gnu.tar.gz"
+          mkdir -p /tmp/gws-install
+          curl -sSL -o /tmp/gws-install/gws.tar.gz "$URL"
+          tar -xzf /tmp/gws-install/gws.tar.gz -C /tmp/gws-install
+          BIN=$(find /tmp/gws-install -name gws -type f -executable | head -1)
+          sudo install "$BIN" /usr/local/bin/gws
+
+      - name: Install Python + PDF deps
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq poppler-utils
+          pip install --quiet pyyaml
+
+      - name: Setup Service Account credentials
+        env:
+          GWS_SA_JSON: ${{ secrets.GWS_SA_JSON }}
+        run: |
+          if [ -z "${GWS_SA_JSON:-}" ]; then
+            echo "::error::GWS_SA_JSON secret missing"
+            exit 1
+          fi
+          printf '%s' "$GWS_SA_JSON" > /tmp/sa.json
+          chmod 600 /tmp/sa.json
+
+      - name: Pre-sync snapshot (safety backup)
+        env:
+          GOOGLE_APPLICATION_CREDENTIALS: /tmp/sa.json
+        run: ./calendar/bin/cal-myhanno snapshot -o calendar/snapshots
+
+      # ===== ソース別 crawler を順番に実行 (それぞれ events/ に書き込み) =====
+
+      - name: Crawl hanno-tourism
+        run: ./calendar/bin/cal-tourism-fetch --out-dir calendar/events --min-sessions 5
+
+      - name: Crawl city-hanno-shiminkaikan
+        run: ./calendar/bin/cal-shiminkaikan-fetch --out-dir calendar/events --min-events 3
+
+      - name: Crawl city-hanno-gikai
+        run: ./calendar/bin/cal-gikai-fetch --out-dir calendar/events --min-events 0
+
+      - name: Fetch manual Calendar additions
+        env:
+          GOOGLE_APPLICATION_CREDENTIALS: /tmp/sa.json
+        run: ./calendar/bin/cal-myhanno fetch -o calendar/events
+
+      # ===== Safety + commit + Calendar 反映 =====
+
+      - name: Safety check (blast radius cap)
+        run: |
+          CHANGED=$(git status --porcelain calendar/events | wc -l | tr -d ' ')
+          echo "events/ changed: $CHANGED files"
+          if [ "$CHANGED" -gt 50 ]; then
+            echo "::error::Too many event changes ($CHANGED > 50). Refusing to commit." >&2
+            git status --short calendar/events | head -60 >&2
+            exit 3
+          fi
+          OUT_OF_SCOPE=$(git status --porcelain | grep -v -E '^.. calendar/(events|snapshots)/' || true)
+          if [ -n "$OUT_OF_SCOPE" ]; then
+            echo "::error::Crawler touched paths outside calendar/events|snapshots/:" >&2
+            echo "$OUT_OF_SCOPE" >&2
+            exit 4
+          fi
+
+      - name: Capture event changes by source
+        id: changes
+        run: |
+          if [ -n "$(git status --porcelain calendar/events)" ]; then
+            CHANGED_LIST=$(git status --porcelain calendar/events | sed 's/^...//')
+            {
+              echo "changed_list<<EOF"
+              echo "$CHANGED_LIST"
+              echo "EOF"
+              echo "has_events_changes=true"
+            } >> "$GITHUB_OUTPUT"
+          else
+            echo "has_events_changes=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit events changes
+        if: steps.changes.outputs.has_events_changes == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add calendar/events
+          git commit -m "calendar: daily fetch $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push
+
+      - name: Apply events to Calendar (if drift)
+        id: apply
+        env:
+          GOOGLE_APPLICATION_CREDENTIALS: /tmp/sa.json
+        run: |
+          set +e
+          ./calendar/bin/cal-myhanno diff -d calendar/events
+          ec=$?
+          set -e
+          if [ "$ec" -eq 2 ]; then
+            echo "drift detected, applying..."
+            ./calendar/bin/cal-myhanno apply-all -d calendar/events
+            ./calendar/bin/cal-myhanno diff -d calendar/events
+            echo "applied=true" >> "$GITHUB_OUTPUT"
+          elif [ "$ec" -eq 0 ]; then
+            echo "in sync, no apply needed"
+            echo "applied=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "::error::diff unexpected exit code $ec"
+            exit "$ec"
+          fi
+
+      - name: Post-sync snapshot (mirror Calendar)
+        env:
+          GOOGLE_APPLICATION_CREDENTIALS: /tmp/sa.json
+        run: ./calendar/bin/cal-myhanno snapshot -o calendar/snapshots
+
+      - name: Commit snapshots changes
+        run: |
+          if [ -n "$(git status --porcelain calendar/snapshots)" ]; then
+            CHANGED=$(git status --porcelain calendar/snapshots | wc -l | tr -d ' ')
+            if [ "$CHANGED" -gt 200 ]; then
+              echo "::error::Too many snapshot changes ($CHANGED > 200)." >&2
+              exit 5
+            fi
+            git add calendar/snapshots
+            git commit -m "calendar: snapshot $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          else
+            echo "no snapshot changes"
+          fi
+
+      # ===== Discord 通知 (1 日 1 回まとめ) =====
+
+      - name: Notify Discord (consolidated)
+        if: steps.changes.outputs.has_events_changes == 'true' && env.DISCORD_WEBHOOK != ''
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_CALENDAR_WEBHOOK }}
+          CHANGED_LIST: ${{ steps.changes.outputs.changed_list }}
+        run: |
+          MSG=$(python3 - <<'PYEOF'
+          import os, yaml
+          from collections import OrderedDict
+
+          # source 識別: ファイル名の UID 部分の prefix で分類
+          # 表示順 (時系列の流れに沿う)
+          SOURCES = OrderedDict([
+              ("tourism-",      ("🌳", "飯能ツーリズム")),
+              ("shiminkaikan-", ("🏛", "飯能市民会館")),
+              ("gikai-",        ("📜", "飯能市議会")),
+          ])
+          MANUAL_KEY = ("✏️", "手動")
+
+          groups = OrderedDict()
+          for emoji, name in list(SOURCES.values()) + [MANUAL_KEY]:
+              groups[name] = (emoji, [])
+
+          for path in os.environ.get("CHANGED_LIST", "").split("\n"):
+              path = path.strip()
+              if not path or not os.path.exists(path):
+                  continue
+              with open(path) as f:
+                  d = yaml.safe_load(f) or {}
+              ds = str(d.get("dtstart", ""))
+              date = ds[:10] if "T" in ds else ds
+              summary = d.get("summary", "(no title)")
+
+              uid_local = path.split("/")[-1].rsplit("_", 1)[-1].replace(".yaml", "")
+              matched = False
+              for prefix, (em, name) in SOURCES.items():
+                  if uid_local.startswith(prefix):
+                      groups[name][1].append((date, summary))
+                      matched = True
+                      break
+              if not matched:
+                  groups[MANUAL_KEY[1]][1].append((date, summary))
+
+          out = ["📅 **Myはんのうカレンダー 日次更新**", ""]
+          for name, (emoji, items) in groups.items():
+              if not items:
+                  continue
+              items.sort()
+              out.append(f"{emoji} **{name}** ({len(items)} 件)")
+              for date, summary in items:
+                  out.append(f"  🗓 {date}  {summary}")
+              out.append("")
+          print("\n".join(out).rstrip())
+          PYEOF
+          )
+          jq -n --arg c "$MSG" '{content: $c}' \
+            | curl -fsS -X POST -H "Content-Type: application/json" -d @- "$DISCORD_WEBHOOK" \
+            || echo "Discord notification failed (non-fatal)"
+
+      - name: Notify Discord on failure
+        if: failure() && env.DISCORD_WEBHOOK != ''
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_CALENDAR_WEBHOOK }}
+        run: |
+          URL="https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          CONTENT=$(jq -nr --arg u "$URL" \
+            '"⚠️ **Calendar daily 失敗** (要確認)\n\n\($u)"')
+          jq -n --arg c "$CONTENT" '{content: $c}' \
+            | curl -fsS -X POST -H "Content-Type: application/json" -d @- "$DISCORD_WEBHOOK" \
+            || true
