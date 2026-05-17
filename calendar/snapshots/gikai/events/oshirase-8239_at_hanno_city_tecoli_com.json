@@ -1,0 +1,34 @@
+{
+  "created": "2026-05-17T23:36:42.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/8239.html",
+  "end": {
+    "date": "2026-03-25"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOW82OHBqaWczOGM1bjZzcnBlY2Rrbjh1OWVlaGltNnJyY2Q0bjY2cnJkIDY3NDU5MTRiMjQzMjMxMTJhMTVmNDNkYzIwYjNhMGY0YTQ4MTdhZmQ4MDBjOGQxNjg3ZDBiZjBiN2Y4OTBjNjFAZw",
+  "iCalUID": "oshirase-8239@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9o68pjig38c5n6srpecdkn8u9eehim6rrcd4n66rrd",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市政",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/8239.html"
+  },
+  "start": {
+    "date": "2026-03-24"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 飯能市食生活改善推進員協議会",
+  "updated": "2026-05-17T23:48:48.776Z"
+}

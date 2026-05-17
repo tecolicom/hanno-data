@@ -1,0 +1,34 @@
+{
+  "created": "2026-05-17T23:36:26.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/shinrinzukurika/13168.html",
+  "end": {
+    "date": "2026-03-17"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y29qY2UyMGQxZ21zcmpmNXBobWl0M3A1cHE2YW9yZmRoa2lzb3JmZGsgNjc0NTkxNGIyNDMyMzExMmExNWY0M2RjMjBiM2EwZjRhNDgxN2FmZDgwMGM4ZDE2ODdkMGJmMGI3Zjg5MGM2MUBn",
+  "iCalUID": "oshirase-13168@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6cojce20d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市政",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/shinrinzukurika/13168.html"
+  },
+  "start": {
+    "date": "2026-03-16"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 有間エリア水源林保全プロジェクト （通称「クマタカとヤマネの森プロジェクト」）",
+  "updated": "2026-05-17T23:48:32.014Z"
+}

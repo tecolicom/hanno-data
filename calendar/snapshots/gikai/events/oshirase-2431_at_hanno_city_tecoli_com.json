@@ -1,0 +1,34 @@
+{
+  "created": "2026-05-17T23:37:14.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/iryo/2431.html",
+  "end": {
+    "date": "2026-04-02"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWk2Z3BqMmczOGM1bjZzcnBlY2Rrbjh1OWVlaGltNnJyY2Q0bjY2cnJkIDY3NDU5MTRiMjQzMjMxMTJhMTVmNDNkYzIwYjNhMGY0YTQ4MTdhZmQ4MDBjOGQxNjg3ZDBiZjBiN2Y4OTBjNjFAZw",
+  "iCalUID": "oshirase-2431@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9i6gpj2g38c5n6srpecdkn8u9eehim6rrcd4n66rrd",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市政",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/iryo/2431.html"
+  },
+  "start": {
+    "date": "2026-04-01"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 訪問看護ステーションほほえみ",
+  "updated": "2026-05-17T23:49:21.321Z"
+}
