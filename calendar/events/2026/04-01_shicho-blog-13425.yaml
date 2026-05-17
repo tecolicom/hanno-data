@@ -1,0 +1,18 @@
+uid: "shicho-blog-13425@hanno.city.tecoli.com"
+summary: "[市長] 令和8年度飯能市新規採用職員辞令交付式"
+url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13425.html"
+dtstart: "2026-04-01"
+dtend: "2026-04-01"
+description: |-
+  市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13425.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-shicho-blog
+  id: "13425"
+  url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13425.html"
+  fetched_at: "2026-05-17T14:26:58.809526Z"
+  content_hash: "sha256-04ef17dfead17da5"

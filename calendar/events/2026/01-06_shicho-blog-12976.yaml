@@ -1,0 +1,18 @@
+uid: "shicho-blog-12976@hanno.city.tecoli.com"
+summary: "[市長] 令和8年 中区新年賀詞交換会"
+url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202601/12976.html"
+dtstart: "2026-01-06"
+dtend: "2026-01-06"
+description: |-
+  市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202601/12976.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-shicho-blog
+  id: "12976"
+  url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202601/12976.html"
+  fetched_at: "2026-05-17T14:26:50.246843Z"
+  content_hash: "sha256-aaba577a697319fe"

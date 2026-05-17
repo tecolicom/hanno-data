@@ -1,0 +1,18 @@
+uid: "shicho-blog-13338@hanno.city.tecoli.com"
+summary: "[市長] 阿須小久保線（岩沢工区）開通式"
+url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13338.html"
+dtstart: "2026-03-22"
+dtend: "2026-03-22"
+description: |-
+  市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13338.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-shicho-blog
+  id: "13338"
+  url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13338.html"
+  fetched_at: "2026-05-17T14:26:53.915606Z"
+  content_hash: "sha256-0f480aaf461d90d7"

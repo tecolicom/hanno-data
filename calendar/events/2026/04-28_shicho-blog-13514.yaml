@@ -1,0 +1,18 @@
+uid: "shicho-blog-13514@hanno.city.tecoli.com"
+summary: "[市長] 飯能ロータリークラブ様 寄附金の受領"
+url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13514.html"
+dtstart: "2026-04-28"
+dtend: "2026-04-28"
+description: |-
+  市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13514.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-shicho-blog
+  id: "13514"
+  url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13514.html"
+  fetched_at: "2026-05-17T14:26:55.919535Z"
+  content_hash: "sha256-8aeb7092c1ed2c01"

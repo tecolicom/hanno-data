@@ -1,0 +1,18 @@
+uid: "shicho-blog-13371@hanno.city.tecoli.com"
+summary: "[市長] 一般社団法人埼玉県トラック協会様 光るトラック型防犯ブザー寄贈式"
+url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13371.html"
+dtstart: "2026-03-30"
+dtend: "2026-03-30"
+description: |-
+  市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13371.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-shicho-blog
+  id: "13371"
+  url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13371.html"
+  fetched_at: "2026-05-17T14:26:52.889223Z"
+  content_hash: "sha256-cb0f8d8447eaaad1"

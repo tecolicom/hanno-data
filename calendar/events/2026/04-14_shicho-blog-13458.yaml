@@ -1,0 +1,18 @@
+uid: "shicho-blog-13458@hanno.city.tecoli.com"
+summary: "[市長] 埼玉県緊急銃猟想定訓練"
+url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13458.html"
+dtstart: "2026-04-14"
+dtend: "2026-04-14"
+description: |-
+  市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13458.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-shicho-blog
+  id: "13458"
+  url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13458.html"
+  fetched_at: "2026-05-17T14:26:57.439801Z"
+  content_hash: "sha256-6e27bb1f01085dfe"

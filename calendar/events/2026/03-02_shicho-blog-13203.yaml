@@ -1,0 +1,18 @@
+uid: "shicho-blog-13203@hanno.city.tecoli.com"
+summary: "[市長] 「交通安全教室」に関する支援について"
+url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13203.html"
+dtstart: "2026-03-02"
+dtend: "2026-03-02"
+description: |-
+  市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13203.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-shicho-blog
+  id: "13203"
+  url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13203.html"
+  fetched_at: "2026-05-17T14:26:55.173764Z"
+  content_hash: "sha256-3c3f785f5b508c73"

@@ -1,0 +1,18 @@
+uid: "shicho-blog-13455@hanno.city.tecoli.com"
+summary: "[市長] 駿河台大学寄附講座ガイダンス"
+url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13455.html"
+dtstart: "2026-04-14"
+dtend: "2026-04-14"
+description: |-
+  市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13455.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-shicho-blog
+  id: "13455"
+  url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13455.html"
+  fetched_at: "2026-05-17T14:26:57.237739Z"
+  content_hash: "sha256-4d01e9c3771f20d0"

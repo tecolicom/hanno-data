@@ -1,0 +1,18 @@
+uid: "shicho-blog-13201@hanno.city.tecoli.com"
+summary: "[市長] 第45回加治地区一周駅伝大会"
+url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13201.html"
+dtstart: "2026-03-01"
+dtend: "2026-03-01"
+description: |-
+  市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13201.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-shicho-blog
+  id: "13201"
+  url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13201.html"
+  fetched_at: "2026-05-17T14:26:55.454539Z"
+  content_hash: "sha256-2de684d51dcc7fad"

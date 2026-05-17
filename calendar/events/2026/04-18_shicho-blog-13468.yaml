@@ -1,0 +1,18 @@
+uid: "shicho-blog-13468@hanno.city.tecoli.com"
+summary: "[市長] わせがく夢育高等学校入学式"
+url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13468.html"
+dtstart: "2026-04-18"
+dtend: "2026-04-18"
+description: |-
+  市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13468.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-shicho-blog
+  id: "13468"
+  url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13468.html"
+  fetched_at: "2026-05-17T14:26:57.016496Z"
+  content_hash: "sha256-3ba978bd800e2b00"

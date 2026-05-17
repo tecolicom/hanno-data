@@ -1,0 +1,303 @@
+#!/usr/bin/env python3
+"""cal-shicho-blog-fetch — 飯能市長ブログ「市政一直線」を YAML 化。
+
+Source: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/
+
+階層:
+  top                              shichoblog/index.html
+  year (令和N年)                   shichoblog/shisei<YYYY>/index.html
+  month (令和N年M月)               shichoblog/shisei<YYYY>/shisei<YYYYMM>/index.html
+  article (各記事、市長が参加した行事等)  shichoblog/shisei<YYYY>/shisei<YYYYMM>/<page-id>.html
+
+LLM 不使用。当年度の全月を巡回し、新規 article の YAML を生成する。
+既存 YAML がある article は再 fetch しない (polite + 速い)。
+"""
+from __future__ import annotations
+
+import argparse
+import hashlib
+import json
+import os
+import re
+import sys
+import urllib.request
+from datetime import date as _date, datetime
+
+
+USER_AGENT = "myhanno-calendar-fetcher/0.1 (+https://city.tecoli.com)"
+UID_NAMESPACE = "hanno.city.tecoli.com"
+DEFAULT_UID_PREFIX = "shicho-blog"
+SOURCE_TYPE = "city-hanno-shicho-blog"
+SUMMARY_PREFIX = "[市長] "
+TOP_URL = "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/index.html"
+URL_HOST_ALLOWLIST = "www.city.hanno.lg.jp"
+URL_PATH_PREFIX = "/shiseijoho/shichoshitsu/shichoblog/"
+
+
+def fetch_html(url: str) -> str:
+    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        return r.read().decode("utf-8", errors="replace")
+
+
+def safe_url(url: str) -> bool:
+    """allowlist 内の URL のみ許可."""
+    return url.startswith(f"https://{URL_HOST_ALLOWLIST}{URL_PATH_PREFIX}")
+
+
+# ---------- index 巡回 ----------
+
+
+def find_year_page(top_html: str, reiwa_y: int) -> str | None:
+    """top index ページから「市政一直線（令和N年）」へのリンクを探す.
+
+    新しいページは shisei<YYYY>/, 古いものは 1/, 2/ のような番号 path もある。
+    令和8年=2026 → /shisei2026/
+    """
+    label = f"令和{reiwa_y}年"
+    pattern = (
+        r'href="(https?://[^"]+/shichoblog/[^"]+/index\.html)"[^>]*>市政一直線[（(]\s*'
+        + re.escape(label) + r'\s*[）)]'
+    )
+    m = re.search(pattern, top_html)
+    return m.group(1) if m else None
+
+
+def find_month_pages(year_html: str, reiwa_y: int) -> list[tuple[int, str]]:
+    """year index ページから各月へのリンクを取得.
+
+    戻り値: [(month, url), ...] 月昇順
+    """
+    out: list[tuple[int, str]] = []
+    pattern = (
+        r'href="(https?://[^"]+/shichoblog/[^"]+/index\.html)"[^>]*>市長ブログ[（(]\s*'
+        + re.escape(f"令和{reiwa_y}年") + r'(\d+)月\s*[）)]'
+    )
+    for m in re.finditer(pattern, year_html):
+        url, mm = m.group(1), int(m.group(2))
+        out.append((mm, url))
+    out.sort()
+    return out
+
+
+def find_article_links(month_html: str) -> list[tuple[str, str]]:
+    """month index ページから各記事へのリンクを取得.
+
+    戻り値: [(url, title), ...]
+    """
+    out: list[tuple[str, str]] = []
+    # href=".../shichoblog/<year>/<month>/<digits>.html">記事タイトル</a>
+    pattern = r'href="(https?://[^"]+/shichoblog/[^"]+/(\d+)\.html)"[^>]*>([^<]{3,})</a>'
+    seen: set[str] = set()
+    for m in re.finditer(pattern, month_html):
+        url, title = m.group(1), m.group(3).strip()
+        if url in seen:
+            continue
+        seen.add(url)
+        out.append((url, title))
+    return out
+
+
+# ---------- article parse ----------
+
+
+_DATE_RE = re.compile(r"(\d{4})年(\d{1,2})月(\d{1,2})日")
+
+
+def parse_article(html: str) -> dict | None:
+    """h1 + 更新日を抽出して dict 返す.
+
+    戻り値: {"title": str, "date": "YYYY-MM-DD"}, 失敗時 None
+    """
+    # h1 (空のものをスキップ、最初の意味あるものを採用)
+    title: str | None = None
+    for m in re.finditer(r"<h1[^>]*>([\s\S]*?)</h1>", html):
+        t = re.sub(r"<[^>]+>", "", m.group(1))
+        t = re.sub(r"\s+", " ", t).strip()
+        if t:
+            title = t
+            break
+    if not title:
+        return None
+
+    # 更新日 (本文上部に「更新日：YYYY年MM月DD日」)
+    dm = _DATE_RE.search(html)
+    if not dm:
+        return None
+    yyyy, mm, dd = int(dm.group(1)), int(dm.group(2)), int(dm.group(3))
+    try:
+        _date(yyyy, mm, dd)
+    except ValueError:
+        return None
+    return {"title": title, "date": f"{yyyy:04d}-{mm:02d}-{dd:02d}"}
+
+
+def slug_from_article_url(url: str) -> str:
+    """URL から page-id を抽出 (例: .../13537.html → 13537)."""
+    m = re.search(r"/(\d+)\.html$", url)
+    return m.group(1) if m else "0"
+
+
+# ---------- YAML 出力 ----------
+
+
+def yaml_escape_str(s: str) -> str:
+    return '"' + s.replace("\\", "\\\\").replace('"', '\\"') + '"'
+
+
+def yaml_block_scalar(s: str, indent: int = 2) -> str:
+    pad = " " * indent
+    lines = s.split("\n")
+    head, body = ("|", lines[:-1] if lines and lines[-1] == "" else lines) if s.endswith("\n") else ("|-", lines)
+    return head + "\n" + "\n".join(pad + ln for ln in body)
+
+
+def build_yaml_doc(uid: str, article_url: str, page_id: str, title: str, date_str: str,
+                   content_hash: str, fetched_at: str | None) -> str:
+    lines: list[str] = []
+    lines.append(f"uid: {yaml_escape_str(uid)}")
+    lines.append(f"summary: {yaml_escape_str(SUMMARY_PREFIX + title)}")
+    lines.append(f"url: {yaml_escape_str(article_url)}")
+    lines.append(f"dtstart: {yaml_escape_str(date_str)}")
+    lines.append(f"dtend: {yaml_escape_str(date_str)}")
+    lines.append("description: " + yaml_block_scalar(f"市長ブログ「市政一直線」: {article_url}", indent=2))
+    lines.append("")
+    lines.append("render:")
+    lines.append("  gcal:")
+    lines.append(f"    mode: single-allday")
+    lines.append("")
+    lines.append("source:")
+    lines.append(f"  type: {SOURCE_TYPE}")
+    lines.append(f"  id: {yaml_escape_str(page_id)}")
+    lines.append(f"  url: {yaml_escape_str(article_url)}")
+    ts = fetched_at or (datetime.utcnow().isoformat() + "Z")
+    lines.append(f"  fetched_at: {yaml_escape_str(ts)}")
+    lines.append(f"  content_hash: {yaml_escape_str('sha256-' + content_hash)}")
+    return "\n".join(lines) + "\n"
+
+
+def output_path_for(out_dir: str, uid: str, date_str: str) -> str:
+    year_part = date_str[:4]
+    md = date_str[5:10]
+    fname = f"{md}_{uid.split('@')[0]}.yaml"
+    return os.path.join(out_dir, year_part, fname)
+
+
+# ---------- main ----------
+
+
+def reiwa_to_gregorian(reiwa_y: int) -> int:
+    return 2018 + reiwa_y
+
+
+def gregorian_to_reiwa(year: int) -> int:
+    return year - 2018
+
+
+def main() -> None:
+    here = os.path.dirname(os.path.abspath(__file__))
+    default_out_dir = os.path.join(here, "..", "events")
+
+    ap = argparse.ArgumentParser(description="飯能市長ブログ「市政一直線」 → YAML")
+    ap.add_argument("--out-dir", default=default_out_dir)
+    ap.add_argument("--year", type=int, help="対象西暦 (default: 現在年)")
+    ap.add_argument("--uid-prefix", default=DEFAULT_UID_PREFIX)
+    ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--min-articles", type=int, default=0,
+                    help="抽出 article 数がこれ未満なら exit 2 (default: 0 = 失敗扱いしない)")
+    args = ap.parse_args()
+
+    year = args.year or _date.today().year
+    reiwa_y = gregorian_to_reiwa(year)
+
+    # 1. top index → 年ページ
+    print(f"Fetching top index for 令和{reiwa_y}年 ({year})...", file=sys.stderr)
+    top_html = fetch_html(TOP_URL)
+    year_url = find_year_page(top_html, reiwa_y)
+    if not year_url:
+        print(f"No year page found for 令和{reiwa_y}年", file=sys.stderr)
+        sys.exit(0)
+
+    # 2. 年ページ → 月ページ list
+    year_html = fetch_html(year_url)
+    month_pages = find_month_pages(year_html, reiwa_y)
+    print(f"Found {len(month_pages)} month pages", file=sys.stderr)
+
+    # 3. 各月ページ → 記事 list → 記事 fetch
+    written = 0
+    skipped = 0
+    for mm, month_url in month_pages:
+        if not safe_url(month_url):
+            print(f"  skip out-of-allowlist month URL: {month_url}", file=sys.stderr)
+            continue
+        month_html = fetch_html(month_url)
+        articles = find_article_links(month_html)
+        print(f"  [令和{reiwa_y}年{mm}月] {len(articles)} articles", file=sys.stderr)
+
+        for article_url, _title_from_index in articles:
+            if not safe_url(article_url):
+                continue
+            page_id = slug_from_article_url(article_url)
+            uid = f"{args.uid_prefix}-{page_id}@{UID_NAMESPACE}"
+
+            # 既存 YAML があれば skip (idempotent + polite)
+            # まず日付を仮置きで読み出すための予測 path は無理なので、events_dir 全 YAML を search
+            existing = _find_existing_by_uid(args.out_dir, uid)
+            if existing:
+                skipped += 1
+                continue
+
+            # 記事 fetch
+            try:
+                article_html = fetch_html(article_url)
+            except Exception as e:
+                print(f"    ERROR fetching {article_url}: {e}", file=sys.stderr)
+                continue
+            parsed = parse_article(article_html)
+            if not parsed:
+                print(f"    WARN: no title/date in {article_url}", file=sys.stderr)
+                continue
+
+            # canonical hash (title + date)
+            canonical = json.dumps(parsed, ensure_ascii=False, sort_keys=True)
+            content_hash = hashlib.sha256(canonical.encode("utf-8")).hexdigest()[:16]
+
+            doc = build_yaml_doc(uid, article_url, page_id, parsed["title"], parsed["date"],
+                                 content_hash, None)
+            out_path = output_path_for(args.out_dir, uid, parsed["date"])
+
+            if args.dry_run:
+                print(f"# === {os.path.relpath(out_path, args.out_dir)} ===")
+                print(doc)
+                continue
+
+            os.makedirs(os.path.dirname(out_path), exist_ok=True)
+            with open(out_path, "w", encoding="utf-8") as f:
+                f.write(doc)
+            print(f"    WROTE {out_path}", file=sys.stderr)
+            written += 1
+
+    print(f"Done. articles written={written}  skipped (existing)={skipped}", file=sys.stderr)
+
+    if written < args.min_articles and not args.dry_run:
+        print(f"FAIL: articles ({written}) < --min-articles ({args.min_articles}).", file=sys.stderr)
+        sys.exit(2)
+
+
+def _find_existing_by_uid(events_dir: str, uid: str) -> str | None:
+    """events_dir 配下に uid を含む YAML が既にあるかチェック."""
+    import glob
+    pattern = os.path.join(events_dir, "**", "*.yaml")
+    for path in glob.glob(pattern, recursive=True):
+        try:
+            with open(path, "r", encoding="utf-8") as f:
+                head = f.read(4096)  # 最初の 4KB だけで十分
+        except Exception:
+            continue
+        if uid in head:
+            return path
+    return None
+
+
+if __name__ == "__main__":
+    main()

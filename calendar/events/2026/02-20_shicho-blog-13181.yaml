@@ -1,0 +1,18 @@
+uid: "shicho-blog-13181@hanno.city.tecoli.com"
+summary: "[市長] 「災害時における福祉避難所の設営及び運営に関する協定」締結式"
+url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202602/13181.html"
+dtstart: "2026-02-20"
+dtend: "2026-02-20"
+description: |-
+  市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202602/13181.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-shicho-blog
+  id: "13181"
+  url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202602/13181.html"
+  fetched_at: "2026-05-17T14:26:51.466497Z"
+  content_hash: "sha256-afa816c322312436"
