@@ -1,16 +1,16 @@
 {
-  "created": "2026-05-16T00:22:56.000Z",
+  "created": "2026-05-17T01:40:03.000Z",
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "市民会館のグランドピアノを一般利用者が弾ける開放企画。\n",
+  "description": "【会場】小ホール\n【主催】市民会館",
   "end": {
-    "date": "2026-06-27"
+    "date": "2026-06-07"
   },
   "eventType": "default",
-  "htmlLink": "https://www.google.com/calendar/event?eid=X2Nscjc4YjlpNjBwM2NjMW02OHIycWMxaDgxazYycmplZHNuNjZxYmtmNG43OHBiM2R0bTZpYmozZHRtZyAyMDU0MDNjOTcxZGM1ZWYyMWVmZDgxYzFkNTM4NDljYWRmZDkwMWI3NWM3N2Q4ODk1NWQ5NjAwZjQ1ZjJhMDEzQGc",
-  "iCalUID": "evt-20260626-01@hanno.city.tecoli.com",
-  "id": "_clr78b9i60p3cc1m68r2qc1h81k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2VkazZpcmI5ZHBsbTJxYmJjNW4ycWNoZzY4cjMwZGhnNm9tajBjYTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIDIwNTQwM2M5NzFkYzVlZjIxZWZkODFjMWQ1Mzg0OWNhZGZkOTAxYjc1Yzc3ZDg4OTU1ZDk2MDBmNDVmMmEwMTNAZw",
+  "iCalUID": "shiminkaikan-20260606-01@hanno.city.tecoli.com",
+  "id": "_edk6irb9dplm2qbbc5n2qchg68r30dhg6omj0ca0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
   "kind": "calendar#event",
   "location": "飯能市民会館 小ホール",
   "organizer": {
@@ -27,9 +27,9 @@
     "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html"
   },
   "start": {
-    "date": "2026-06-26"
+    "date": "2026-06-06"
   },
   "status": "confirmed",
   "summary": "ホールでグランドピアノを弾いてみませんか",
-  "updated": "2026-05-16T14:50:48.943Z"
+  "updated": "2026-05-17T01:40:03.273Z"
 }

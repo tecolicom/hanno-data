@@ -1,0 +1,342 @@
+#!/usr/bin/env python3
+"""cal-shiminkaikan-fetch — 飯能市民会館「催し物予定表」を構造化 YAML 化.
+
+Source: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html
+
+ページのテンプレ:
+  <table>
+    <tr>… 月 月日 曜日 開演時間 催物名 会場 主催者 …</tr>
+    <tr>6月6日 土 (空) ホールでグランドピアノを弾いてみませんか 小ホール 市民会館</tr>
+    <tr>6月27日 土 14時00分 安全大会 小ホール 株式会社建昇ステップ</tr>
+    …
+  </table>
+
+LLM 不使用。CI で日次回す前提の決定論的パーサ。
+"""
+from __future__ import annotations
+
+import argparse
+import hashlib
+import json
+import os
+import re
+import sys
+import urllib.request
+from datetime import date as _date, datetime
+from typing import Iterable
+
+
+USER_AGENT = "myhanno-calendar-fetcher/0.1 (+https://city.tecoli.com)"
+UID_NAMESPACE = "hanno.city.tecoli.com"
+DEFAULT_UID_PREFIX = "shiminkaikan"
+SOURCE_TYPE = "city-hanno-shiminkaikan"
+SOURCE_URL = "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html"
+URL_ALLOWLIST = re.compile(r"^https://www\.city\.hanno\.lg\.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889\.html$")
+ASSUMED_DURATION_HOURS = 2  # 開演時刻のみ記載 → 終了時刻は +2h と仮定
+
+
+# ---------- HTML fetch / normalize ----------
+
+
+def fetch_html(url: str) -> str:
+    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        return r.read().decode("utf-8", errors="replace")
+
+
+def strip_tags(s: str) -> str:
+    s = re.sub(r"<[^>]+>", "", s)
+    return s.replace("&nbsp;", " ").replace("&amp;", "&").replace("&lt;", "<").replace("&gt;", ">").replace("&quot;", '"')
+
+
+def collapse_space(s: str) -> str:
+    return re.sub(r"\s+", " ", s).strip()
+
+
+def normalize_fullwidth_digits(s: str) -> str:
+    out = []
+    for c in s:
+        co = ord(c)
+        if 0xff10 <= co <= 0xff19:
+            out.append(chr(co - 0xff10 + 0x30))
+        else:
+            out.append(c)
+    return "".join(out)
+
+
+def normalize_tilde(s: str) -> str:
+    return s.replace("～", "〜")
+
+
+# ---------- 構造抽出 ----------
+
+
+def extract_tables(html: str) -> list[list[list[str]]]:
+    """各 <table> を二次元配列 (rows × cells) として抽出."""
+    tables: list[list[list[str]]] = []
+    for tm in re.finditer(r"<table[^>]*>([\s\S]*?)</table>", html):
+        rows: list[list[str]] = []
+        for tr in re.finditer(r"<tr[^>]*>([\s\S]*?)</tr>", tm.group(1)):
+            cells = []
+            for cm in re.finditer(r"<(?:td|th)[^>]*>([\s\S]*?)</(?:td|th)>", tr.group(1)):
+                cells.append(normalize_tilde(collapse_space(strip_tags(cm.group(1)))))
+            if cells:
+                rows.append(cells)
+        if rows:
+            tables.append(rows)
+    return tables
+
+
+def parse_time_jp(time_text: str) -> str | None:
+    """「14時00分」「14時」「14:00」等を HH:MM に正規化."""
+    t = normalize_fullwidth_digits(time_text.strip())
+    m = re.match(r"^\s*(\d{1,2})\s*[時:]\s*(\d{0,2})\s*分?\s*$", t)
+    if not m:
+        return None
+    hh = int(m.group(1))
+    mm = int(m.group(2)) if m.group(2) else 0
+    if not (0 <= hh <= 23 and 0 <= mm <= 59):
+        return None
+    return f"{hh:02d}:{mm:02d}"
+
+
+def parse_date_jp(date_text: str, year: int) -> str | None:
+    """「6月27日」を YYYY-MM-DD に."""
+    t = normalize_fullwidth_digits(date_text.strip())
+    m = re.match(r"^(\d{1,2})月(\d{1,2})日?$", t)
+    if not m:
+        return None
+    mm, dd = int(m.group(1)), int(m.group(2))
+    try:
+        _date(year, mm, dd)
+    except ValueError:
+        return None
+    return f"{year}-{mm:02d}-{dd:02d}"
+
+
+def infer_year(html: str) -> int:
+    m = re.search(r'<meta[^>]+property=["\']og:updated_time["\'][^>]+content=["\'](\d{4})-', html)
+    return int(m.group(1)) if m else _date.today().year
+
+
+def session_year_ok(date_str: str) -> bool:
+    this_year = _date.today().year
+    y = int(date_str[:4])
+    return this_year - 2 <= y <= this_year + 2
+
+
+# ---------- イベント抽出 ----------
+
+
+def extract_events(html: str, year: int) -> list[dict]:
+    """ページから event リストを抽出.
+
+    1 event = {date, start, end (optional), title, location, organizer}
+    """
+    events: list[dict] = []
+    for table in extract_tables(html):
+        if len(table) < 2:
+            continue
+        # ヘッダ行で「催物名」が含まれていれば、催し物表とみなす
+        header = " ".join(table[0])
+        if "催物名" not in header and "催し物" not in header:
+            continue
+        # 列インデックスを header から決定 (柔軟性のため)
+        col = {name: i for i, name in enumerate(table[0])}
+        # 期待カラム
+        date_col = next((col[k] for k in ("月日", "日付") if k in col), 0)
+        wday_col = col.get("曜日", 1)
+        time_col = next((col[k] for k in ("開演時間", "開演", "時間") if k in col), 2)
+        title_col = next((col[k] for k in ("催物名", "催し物") if k in col), 3)
+        loc_col = col.get("会場", 4)
+        org_col = col.get("主催者", 5)
+
+        for row in table[1:]:
+            if len(row) <= title_col:
+                continue
+            date_str = parse_date_jp(row[date_col], year)
+            if not date_str:
+                continue
+            if not session_year_ok(date_str):
+                continue
+            title = row[title_col].strip()
+            if not title or len(title) < 2:
+                continue
+            time_str = parse_time_jp(row[time_col]) if time_col < len(row) else None
+            location = row[loc_col].strip() if loc_col < len(row) and row[loc_col].strip() else None
+            organizer = row[org_col].strip() if org_col < len(row) and row[org_col].strip() else None
+
+            events.append({
+                "date": date_str,
+                "start": time_str,
+                "title": title,
+                "location": location,
+                "organizer": organizer,
+            })
+    return events
+
+
+# ---------- YAML 出力 ----------
+
+
+def yaml_escape_str(s: str) -> str:
+    return '"' + s.replace("\\", "\\\\").replace('"', '\\"') + '"'
+
+
+def yaml_block_scalar(s: str, indent: int = 2) -> str:
+    pad = " " * indent
+    lines = s.split("\n")
+    head, body = ("|", lines[:-1] if lines and lines[-1] == "" else lines) if s.endswith("\n") else ("|-", lines)
+    return head + "\n" + "\n".join(pad + ln for ln in body)
+
+
+def build_description(ev: dict) -> str:
+    parts: list[str] = []
+    if ev.get("location"):
+        parts.append(f"【会場】{ev['location']}")
+    if ev.get("organizer"):
+        parts.append(f"【主催】{ev['organizer']}")
+    return "\n".join(parts)
+
+
+def build_yaml_doc(uid: str, ev: dict, source_id: str, html_hash: str, fetched_at: str | None) -> str:
+    has_time = ev.get("start") is not None
+    if has_time:
+        start_hhmm = ev["start"]
+        # 終了時刻は仮定 (+2h)、24h を超えたら 23:59 に clamp
+        sh, sm = map(int, start_hhmm.split(":"))
+        eh = sh + ASSUMED_DURATION_HOURS
+        em = sm
+        if eh > 23:
+            eh, em = 23, 59
+        end_hhmm = f"{eh:02d}:{em:02d}"
+        dtstart = f"{ev['date']}T{start_hhmm}:00+09:00"
+        dtend = f"{ev['date']}T{end_hhmm}:00+09:00"
+        time_marker = f"{start_hhmm}–{end_hhmm}"
+    else:
+        dtstart = ev["date"]
+        dtend = ev["date"]
+        time_marker = None
+
+    description = build_description(ev)
+    location = f"飯能市民会館 {ev['location']}" if ev.get("location") else "飯能市民会館"
+
+    lines: list[str] = []
+    lines.append(f"uid: {yaml_escape_str(uid)}")
+    lines.append(f"summary: {yaml_escape_str(ev['title'])}")
+    lines.append(f"location: {yaml_escape_str(location)}")
+    lines.append(f"url: {yaml_escape_str(SOURCE_URL)}")
+    lines.append(f"dtstart: {yaml_escape_str(dtstart)}")
+    lines.append(f"dtend: {yaml_escape_str(dtend)}")
+    if description:
+        lines.append("description: " + yaml_block_scalar(description, indent=2))
+    lines.append("")
+    lines.append("render:")
+    lines.append("  gcal:")
+    lines.append(f"    mode: single-allday")
+    if time_marker:
+        lines.append(f"    time_marker: {yaml_escape_str(time_marker)}")
+    lines.append("")
+    lines.append("source:")
+    lines.append(f"  type: {SOURCE_TYPE}")
+    lines.append(f"  id: {yaml_escape_str(source_id)}")
+    lines.append(f"  url: {yaml_escape_str(SOURCE_URL)}")
+    ts = fetched_at or (datetime.utcnow().isoformat() + "Z")
+    lines.append(f"  fetched_at: {yaml_escape_str(ts)}")
+    lines.append(f"  content_hash: {yaml_escape_str('sha256-' + html_hash)}")
+    return "\n".join(lines) + "\n"
+
+
+# ---------- main ----------
+
+
+def assign_sequence(events: list[dict]) -> list[tuple[dict, int]]:
+    """同日複数イベントに連番 (01 始まり) を振る."""
+    out: list[tuple[dict, int]] = []
+    seq_by_date: dict[str, int] = {}
+    # date は元の table 順を維持したいので、stable に
+    for ev in events:
+        seq_by_date.setdefault(ev["date"], 0)
+        seq_by_date[ev["date"]] += 1
+        out.append((ev, seq_by_date[ev["date"]]))
+    return out
+
+
+def main() -> None:
+    here = os.path.dirname(os.path.abspath(__file__))
+    default_out_dir = os.path.join(here, "..", "events")
+
+    ap = argparse.ArgumentParser(description="飯能市民会館 催し物予定表 → YAML (LLM 不使用)")
+    ap.add_argument("--url", default=SOURCE_URL, help="ソース URL (allowlist 内のみ)")
+    ap.add_argument("--out-dir", default=default_out_dir, help=f"events 出力先 (default: {default_out_dir})")
+    ap.add_argument("--uid-prefix", default=DEFAULT_UID_PREFIX, help=f"UID prefix (default: {DEFAULT_UID_PREFIX})")
+    ap.add_argument("--dry-run", action="store_true", help="stdout に出すだけ")
+    ap.add_argument("--min-events", type=int, default=3,
+                    help="抽出イベント総数がこれ未満なら exit code 2 (CI 暴走防止、default: 3)")
+    args = ap.parse_args()
+
+    if not URL_ALLOWLIST.match(args.url):
+        sys.exit(f"URL outside allowlist: {args.url}")
+
+    html = fetch_html(args.url)
+    year = infer_year(html)
+
+    events = extract_events(html, year)
+    if not events:
+        print("WARN: no events extracted (ページ構造変化の可能性)", file=sys.stderr)
+
+    # 抽出後の正本データに対する hash
+    canonical = json.dumps([{k: ev.get(k) for k in ("date", "start", "title", "location", "organizer")}
+                            for ev in events], ensure_ascii=False, sort_keys=True)
+    html_hash = hashlib.sha256(canonical.encode("utf-8")).hexdigest()[:16]
+
+    print(f"Extracted {len(events)} events from {args.url}", file=sys.stderr)
+
+    written = 0
+    for ev, seq in assign_sequence(events):
+        compact_date = ev["date"].replace("-", "")
+        uid = f"{args.uid_prefix}-{compact_date}-{seq:02d}@{UID_NAMESPACE}"
+        source_id = f"{compact_date}-{seq:02d}"
+
+        # 既存の fetched_at を保持 (差分ゼロ維持)
+        year_part = ev["date"][:4]
+        md = ev["date"][5:10]
+        fname = f"{md}_{uid.split('@')[0]}.yaml"
+        out_path = os.path.join(args.out_dir, year_part, fname)
+
+        prev_fetched_at: str | None = None
+        if os.path.exists(out_path):
+            try:
+                with open(out_path, "r", encoding="utf-8") as f:
+                    prev = f.read()
+                hm = re.search(r"^\s*content_hash:\s*[\"']?sha256-([0-9a-f]+)", prev, re.MULTILINE)
+                fm = re.search(r"^\s*fetched_at:\s*[\"']?([^\"'\n]+)", prev, re.MULTILINE)
+                if hm and hm.group(1) == html_hash and fm:
+                    prev_fetched_at = fm.group(1).strip()
+            except Exception:
+                pass
+
+        doc = build_yaml_doc(uid, ev, source_id, html_hash, prev_fetched_at)
+
+        if args.dry_run:
+            print(f"# === {year_part}/{fname} ===")
+            print(doc)
+            written += 1
+            continue
+
+        os.makedirs(os.path.dirname(out_path), exist_ok=True)
+        with open(out_path, "w", encoding="utf-8") as f:
+            f.write(doc)
+        print(f"  WROTE {out_path}", file=sys.stderr)
+        written += 1
+
+    print(f"Done. events written={written}", file=sys.stderr)
+
+    if written < args.min_events and not args.dry_run:
+        print(f"FAIL: events ({written}) < --min-events ({args.min_events}). "
+              f"Likely source structure change. Refusing to commit.", file=sys.stderr)
+        sys.exit(2)
+
+
+if __name__ == "__main__":
+    main()
