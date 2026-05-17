@@ -1,0 +1,112 @@
+name: gikai crawl
+
+on:
+  schedule:
+    - cron: '30 22 * * *'   # 07:30 JST、tourism/shiminkaikan の後
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cal-gikai-crawl
+  cancel-in-progress: false
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y poppler-utils
+          pip install --quiet pyyaml
+
+      - name: Run cal-gikai-fetch
+        # min-events=0: 定例会の間 (PDF 未更新時) は 0 件もあり得るので閾値ゼロ
+        run: ./calendar/bin/cal-gikai-fetch --out-dir calendar/events --min-events 0
+
+      - name: Safety check (blast radius cap)
+        run: |
+          CHANGED=$(git status --porcelain calendar/events | wc -l | tr -d ' ')
+          echo "changed in calendar/events: $CHANGED files"
+          if [ "$CHANGED" -gt 30 ]; then
+            echo "::error::Too many changes ($CHANGED > 30). Refusing to auto-commit." >&2
+            git status --short calendar/events | head -40 >&2
+            exit 3
+          fi
+          OUT_OF_SCOPE=$(git status --porcelain | grep -v '^.. calendar/events/' || true)
+          if [ -n "$OUT_OF_SCOPE" ]; then
+            echo "::error::Crawler touched paths outside calendar/events/:" >&2
+            echo "$OUT_OF_SCOPE" >&2
+            exit 4
+          fi
+
+      - name: Commit if changed
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain calendar/events)" ]; then
+            CHANGED=$(git status --porcelain calendar/events | wc -l | tr -d ' ')
+            CHANGED_LIST=$(git status --porcelain calendar/events | head -20 | sed 's/^...//')
+            {
+              echo "changed=$CHANGED"
+              echo "changed_list<<EOF"
+              echo "$CHANGED_LIST"
+              echo "EOF"
+              echo "did_commit=true"
+            } >> "$GITHUB_OUTPUT"
+            git status --short calendar/events
+            git add calendar/events
+            git commit -m "calendar: gikai crawl $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          else
+            echo "no event changes"
+            echo "did_commit=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Notify Discord on commit
+        if: steps.commit.outputs.did_commit == 'true' && env.DISCORD_WEBHOOK != ''
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_CALENDAR_WEBHOOK }}
+          CHANGED: ${{ steps.commit.outputs.changed }}
+          CHANGED_LIST: ${{ steps.commit.outputs.changed_list }}
+        run: |
+          SUMMARY=$(python3 - <<'PYEOF'
+          import os, yaml
+          items = []
+          for path in os.environ.get("CHANGED_LIST", "").split("\n"):
+              path = path.strip()
+              if path and os.path.exists(path):
+                  with open(path) as f:
+                      d = yaml.safe_load(f) or {}
+                  ds = str(d.get("dtstart", ""))
+                  date = ds[:10] if "T" in ds else ds
+                  items.append((date, d.get("summary", "(no title)")))
+          items.sort()
+          for date, summary in items:
+              print(f"🗓 {date}  {summary}")
+          PYEOF
+          )
+          CONTENT=$(jq -nr --arg n "$CHANGED" --arg s "$SUMMARY" \
+            '"📅 Myはんのうカレンダーに **\($n) 件** の更新がありました (飯能市議会)\n\n\($s)"')
+          jq -n --arg c "$CONTENT" '{content: $c}' \
+            | curl -fsS -X POST -H "Content-Type: application/json" -d @- "$DISCORD_WEBHOOK" \
+            || echo "Discord notification failed (non-fatal)"
+
+      - name: Notify Discord on failure
+        if: failure() && env.DISCORD_WEBHOOK != ''
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_CALENDAR_WEBHOOK }}
+        run: |
+          URL="https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          CONTENT=$(jq -nr --arg u "$URL" \
+            '"⚠️ **gikai crawl 失敗** (要確認)\n\nPDF 構造変化や Safety check 発火の可能性があります。\n\n\($u)"')
+          jq -n --arg c "$CONTENT" '{content: $c}' \
+            | curl -fsS -X POST -H "Content-Type: application/json" -d @- "$DISCORD_WEBHOOK" \
+            || true

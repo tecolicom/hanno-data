@@ -1,0 +1,20 @@
+uid: "gikai-20260227-01@hanno.city.tecoli.com"
+summary: "飯能市議会 開会・先議議案上程・提案理由説明・質疑・討・論・採決・その他の議案上程・提案理由説明"
+location: "飯能市役所 議場"
+url: "https://www.city.hanno.lg.jp/material/files/group/45/kaikinittei8-3.pdf"
+dtstart: "2026-02-27"
+dtend: "2026-02-27"
+description: |-
+  議案一覧表: https://www.city.hanno.lg.jp/soshikikarasagasu/gikaisomuka/kaigijoho/13089.html
+  会期日程: https://www.city.hanno.lg.jp/material/files/group/45/kaikinittei8-3.pdf
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-gikai
+  id: "20260227-01"
+  url: "https://www.city.hanno.lg.jp/material/files/group/45/kaikinittei8-3.pdf"
+  fetched_at: "2026-05-17T06:04:46.121605Z"
+  content_hash: "sha256-f68156c9e9a89c2c"

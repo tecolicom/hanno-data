@@ -1,0 +1,421 @@
+#!/usr/bin/env python3
+"""cal-gikai-fetch — 飯能市議会「会期日程」PDF を構造化 YAML 化.
+
+Source page (PDF リンク一覧):
+  https://www.city.hanno.lg.jp/soshikikarasagasu/gikaisomuka/kaigijoho/395.html
+PDF 命名: kaikinittei<reiwa年>-<月>.pdf
+  例: 令和8年3月定例会 → kaikinittei8-3.pdf
+
+依存: pdftotext (poppler-utils)。LLM 不使用。
+
+PDF レイアウトは 2 列 (上半月 + 下半月) のテーブル。
+pdftotext -tsv で word の bounding box を取り、X で左右列に分割し、
+Y で行をクラスタリングして date + content を抽出する。
+"""
+from __future__ import annotations
+
+import argparse
+import hashlib
+import json
+import os
+import re
+import subprocess
+import sys
+import urllib.request
+from datetime import date as _date, datetime
+from typing import Iterable
+
+
+USER_AGENT = "myhanno-calendar-fetcher/0.1 (+https://city.tecoli.com)"
+UID_NAMESPACE = "hanno.city.tecoli.com"
+DEFAULT_UID_PREFIX = "gikai"
+SOURCE_TYPE = "city-hanno-gikai"
+INDEX_URL = "https://www.city.hanno.lg.jp/soshikikarasagasu/gikaisomuka/kaigijoho/395.html"
+AGENDA_INDEX_URL = "https://www.city.hanno.lg.jp/soshikikarasagasu/gikaisomuka/kaigijoho/index.html"
+URL_ALLOWLIST = re.compile(r"^https://www\.city\.hanno\.lg\.jp/soshikikarasagasu/gikaisomuka/kaigijoho/395\.html$")
+
+# レイアウト判定の閾値 (経験的)
+COLUMN_SPLIT_X = 200.0  # x < 200 → 左半月、x >= 200 → 右半月
+ROW_GROUPING_TOLERANCE_Y = 4.0  # 同 Y とみなす許容差
+
+# 「休会」「休 会」表記を skip 判定するキーワード
+SKIP_KEYWORDS = ("休会", "休 会", "閉  会")
+
+
+# ---------- index ページから最新 PDF を見つける ----------
+
+
+def fetch_html(url: str) -> str:
+    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        return r.read().decode("utf-8", errors="replace")
+
+
+def find_latest_pdf_url(index_html: str) -> tuple[str, int, int]:
+    """index ページから最新の (定例会・臨時会) PDF を探す。
+
+    戻り値: (絶対URL, reiwa年, 月)
+    """
+    # href="//.../kaikinittei<R>-<M>.pdf" or kaikinitei<R>-<M>.pdf (1 件タイポあり)
+    cands: list[tuple[int, int, str]] = []
+    for m in re.finditer(r'href="(//[^"]*kaiki[a-z]*?(\d+)-(\d+)\.pdf)"', index_html):
+        url = "https:" + m.group(1)
+        reiwa_y, mm = int(m.group(2)), int(m.group(3))
+        cands.append((reiwa_y, mm, url))
+    if not cands:
+        sys.exit("no PDF link found on index page")
+    # 最新 (R 年昇順、月昇順) を採用
+    cands.sort()
+    reiwa_y, mm, url = cands[-1]
+    return url, reiwa_y, mm
+
+
+def reiwa_to_gregorian(reiwa_y: int) -> int:
+    # 令和元年 = 2019
+    return 2018 + reiwa_y
+
+
+def find_agenda_url(reiwa_y: int, month: int) -> str | None:
+    """kaigijoho/ index ページから対応する議案一覧表ページの URL を探す。"""
+    try:
+        html = fetch_html(AGENDA_INDEX_URL)
+    except Exception:
+        return None
+    session_kind = "定例会"
+    if month == 5 or month == 8:  # 5月臨時会, 8月臨時会等 (慣例的な臨時会月)
+        session_kind = "臨時会"
+    label = f"令和{reiwa_y}年{month}月{session_kind}"
+    pattern = (
+        r'href="(https?://[^"]+/kaigijoho/\d+\.html)"[^>]*>議案一覧表[（(]\s*'
+        + re.escape(label) + r'\s*[）)]'
+    )
+    m = re.search(pattern, html)
+    return m.group(1) if m else None
+
+
+def download_pdf(url: str, dest: str) -> None:
+    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        with open(dest, "wb") as f:
+            f.write(r.read())
+
+
+# ---------- PDF → words (x, y, text) ----------
+
+
+def pdftotext_tsv(pdf_path: str) -> list[dict]:
+    """pdftotext -tsv で word + bounding box を取得."""
+    out_path = pdf_path + ".tsv"
+    res = subprocess.run(
+        ["pdftotext", "-tsv", pdf_path, out_path],
+        capture_output=True, text=True,
+    )
+    if res.returncode != 0:
+        sys.exit(f"pdftotext failed: {res.stderr}")
+    words: list[dict] = []
+    with open(out_path, "r", encoding="utf-8") as f:
+        header = f.readline().rstrip("\n").split("\t")
+        for line in f:
+            parts = line.rstrip("\n").split("\t")
+            if len(parts) < len(header):
+                continue
+            row = dict(zip(header, parts))
+            if row.get("level") != "5":
+                continue
+            text = row.get("text", "")
+            if not text or text.startswith("###"):
+                continue
+            try:
+                words.append({
+                    "x": float(row["left"]),
+                    "y": float(row["top"]),
+                    "text": text,
+                })
+            except (KeyError, ValueError):
+                continue
+    os.remove(out_path)
+    return words
+
+
+# ---------- 構造化 ----------
+
+
+def split_columns(words: list[dict]) -> tuple[list[dict], list[dict]]:
+    left = [w for w in words if w["x"] < COLUMN_SPLIT_X]
+    right = [w for w in words if w["x"] >= COLUMN_SPLIT_X]
+    return left, right
+
+
+_DATE_RE = re.compile(r"^(\d{1,2})/(\d{1,2})$|^(\d{1,2})$")
+_WEEKDAY_RE = re.compile(r"^[月火水木金土日]$")
+
+
+def parse_column(words: list[dict], default_year: int, base_month: int) -> list[dict]:
+    """1 列 (左 or 右) を処理して events を返す.
+
+    Args:
+        words: 列内の全 word
+        default_year: 西暦
+        base_month: 「単純な数字」で月情報無い時のデフォルト月
+    """
+    # Y でソート
+    words = sorted(words, key=lambda w: (w["y"], w["x"]))
+
+    # 1. date marker を Y 順に並べる
+    date_anchors: list[tuple[float, int, int]] = []  # (y, year, month, day)... → list of (y, date_str)
+    date_anchors_full: list[tuple[float, str]] = []
+    current_month = base_month
+    for w in words:
+        m = _DATE_RE.match(w["text"])
+        if not m:
+            continue
+        if m.group(1):  # M/D
+            mm, dd = int(m.group(1)), int(m.group(2))
+            current_month = mm
+        else:  # just D
+            mm = current_month
+            dd = int(m.group(3))
+        date_anchors_full.append((w["y"], f"{default_year:04d}-{mm:02d}-{dd:02d}"))
+
+    if not date_anchors_full:
+        return []
+
+    # 2. 各 anchor の Y 範囲を決める
+    # 各 date の row 中央 = anchor.y、隣接 anchor との中点で行境界
+    # ただし最初の anchor の上端は anchor 自身からあまり離れない位置に制限
+    # (= ページ上部のタイトル「令和8年第1回定例会」等を吸い込まないため)
+    HEAD_GUARD_PX = 30.0
+    anchors = date_anchors_full
+    boundaries: list[tuple[float, float]] = []
+    for i, (y, _) in enumerate(anchors):
+        if i == 0:
+            top = max(0.0, y - HEAD_GUARD_PX)
+        else:
+            top = (anchors[i - 1][0] + y) / 2.0
+        if i == len(anchors) - 1:
+            bot = y + HEAD_GUARD_PX * 5  # 最後の row は内容が長くなりがちなので緩め
+        else:
+            bot = (y + anchors[i + 1][0]) / 2.0
+        boundaries.append((top, bot))
+
+    # 3. 各行の content を集める (date / weekday / 「○」マーカーは除外)
+    # 同じ Y にある word は 1 つの行として結合、Y が変わると別行として「・」区切り
+    events: list[dict] = []
+    skip_terms = {"○"}
+    for (top, bot), (anchor_y, date_str) in zip(boundaries, anchors):
+        cell_words = [w for w in words if top <= w["y"] < bot]
+        cell_words.sort(key=lambda w: (round(w["y"] / ROW_GROUPING_TOLERANCE_Y), w["x"]))
+
+        # Y でグループ化 (同 Y は同一論理行)
+        line_groups: list[tuple[float, list[str]]] = []
+        for w in cell_words:
+            t = w["text"]
+            if _DATE_RE.match(t) or _WEEKDAY_RE.match(t) or t in skip_terms:
+                continue
+            if line_groups and abs(w["y"] - line_groups[-1][0]) <= ROW_GROUPING_TOLERANCE_Y:
+                line_groups[-1][1].append(t)
+            else:
+                line_groups.append((w["y"], [t]))
+
+        # 行内は空白なしで結合、行間は ・ で区切り
+        line_strs = ["".join(tokens) for _, tokens in line_groups if tokens]
+        content = "・".join(s for s in line_strs if s)
+
+        # 「休 会」のように空白が入る場合の正規化
+        content_norm = re.sub(r"\s+", "", content)
+        if any(k.replace(" ", "") in content_norm for k in SKIP_KEYWORDS):
+            continue
+        if not content:
+            continue
+        events.append({"date": date_str, "content": content})
+    return events
+
+
+# ---------- YAML 出力 ----------
+
+
+def yaml_escape_str(s: str) -> str:
+    return '"' + s.replace("\\", "\\\\").replace('"', '\\"') + '"'
+
+
+def yaml_block_scalar(s: str, indent: int = 2) -> str:
+    pad = " " * indent
+    lines = s.split("\n")
+    head, body = ("|", lines[:-1] if lines and lines[-1] == "" else lines) if s.endswith("\n") else ("|-", lines)
+    return head + "\n" + "\n".join(pad + ln for ln in body)
+
+
+def build_yaml_doc(uid: str, date_str: str, content: str, source_url: str,
+                   source_id: str, html_hash: str, fetched_at: str | None,
+                   agenda_url: str | None) -> str:
+    lines: list[str] = []
+    lines.append(f"uid: {yaml_escape_str(uid)}")
+    lines.append(f"summary: {yaml_escape_str('飯能市議会 ' + content)}")
+    lines.append(f"location: {yaml_escape_str('飯能市役所 議場')}")
+    lines.append(f"url: {yaml_escape_str(source_url)}")
+    lines.append(f"dtstart: {yaml_escape_str(date_str)}")
+    lines.append(f"dtend: {yaml_escape_str(date_str)}")
+
+    # description: 議案一覧表 + 会期日程 PDF へのリンク
+    desc_lines: list[str] = []
+    if agenda_url:
+        desc_lines.append(f"議案一覧表: {agenda_url}")
+    desc_lines.append(f"会期日程: {source_url}")
+    description = "\n".join(desc_lines)
+    if description:
+        lines.append("description: " + yaml_block_scalar(description, indent=2))
+
+    lines.append("")
+    lines.append("render:")
+    lines.append("  gcal:")
+    lines.append(f"    mode: single-allday")
+    lines.append("")
+    lines.append("source:")
+    lines.append(f"  type: {SOURCE_TYPE}")
+    lines.append(f"  id: {yaml_escape_str(source_id)}")
+    lines.append(f"  url: {yaml_escape_str(source_url)}")
+    ts = fetched_at or (datetime.utcnow().isoformat() + "Z")
+    lines.append(f"  fetched_at: {yaml_escape_str(ts)}")
+    lines.append(f"  content_hash: {yaml_escape_str('sha256-' + html_hash)}")
+    return "\n".join(lines) + "\n"
+
+
+# ---------- main ----------
+
+
+def assign_sequence(events: list[dict]) -> list[tuple[dict, int]]:
+    out: list[tuple[dict, int]] = []
+    seq: dict[str, int] = {}
+    for ev in events:
+        seq.setdefault(ev["date"], 0)
+        seq[ev["date"]] += 1
+        out.append((ev, seq[ev["date"]]))
+    return out
+
+
+def main() -> None:
+    here = os.path.dirname(os.path.abspath(__file__))
+    default_out_dir = os.path.join(here, "..", "events")
+
+    ap = argparse.ArgumentParser(description="飯能市議会 会期日程 PDF → YAML (LLM 不使用)")
+    ap.add_argument("--pdf", help="ローカル PDF パス (指定時は --url を無視)")
+    ap.add_argument("--url", help="PDF URL を直指定 (default: index ページから最新を自動取得)")
+    ap.add_argument("--year", type=int, help="西暦 (default: PDF ファイル名 R<n> から自動)")
+    ap.add_argument("--base-month", type=int, help="左列最初の date が月明示無しの時のデフォルト月")
+    ap.add_argument("--out-dir", default=default_out_dir)
+    ap.add_argument("--uid-prefix", default=DEFAULT_UID_PREFIX)
+    ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--min-events", type=int, default=2,
+                    help="抽出 event 数がこれ未満なら exit 2 (CI 暴走防止、default: 2)")
+    args = ap.parse_args()
+
+    # PDF 取得
+    reiwa_y: int = 0
+    if args.pdf:
+        pdf_path = args.pdf
+        source_url = args.url or f"file://{os.path.abspath(pdf_path)}"
+        # ファイル名から R<n>-<m> を取り出して year/month を推定 (例: kaikinittei8-3.pdf → R8, m=3)
+        fm = re.search(r"kaiki[a-z]*?(\d+)-(\d+)\.pdf", os.path.basename(pdf_path))
+        if fm:
+            reiwa_y = int(fm.group(1))
+            inferred_year = reiwa_to_gregorian(reiwa_y)
+            inferred_month = int(fm.group(2))
+        else:
+            inferred_year = _date.today().year
+            inferred_month = _date.today().month
+        year = args.year or inferred_year
+        base_month = args.base_month or inferred_month
+    else:
+        if args.url:
+            url = args.url
+            m = re.search(r"kaiki[a-z]*?(\d+)-(\d+)\.pdf", url)
+            reiwa_y = int(m.group(1)) if m else 0
+            base_month = int(m.group(2)) if m else _date.today().month
+        else:
+            html = fetch_html(INDEX_URL)
+            url, reiwa_y, base_month = find_latest_pdf_url(html)
+
+        year = args.year or reiwa_to_gregorian(reiwa_y)
+        if args.base_month:
+            base_month = args.base_month
+        source_url = url
+
+        pdf_path = "/tmp/cal-gikai-tmp.pdf"
+        print(f"Fetching PDF: {url}", file=sys.stderr)
+        download_pdf(url, pdf_path)
+
+    # 議案一覧表 URL を取りに行く (見つからなければ None)
+    agenda_url = None
+    if reiwa_y:
+        try:
+            agenda_url = find_agenda_url(reiwa_y, base_month)
+            if agenda_url:
+                print(f"Found agenda page: {agenda_url}", file=sys.stderr)
+            else:
+                print(f"No agenda page found for 令和{reiwa_y}年{base_month}月", file=sys.stderr)
+        except Exception as e:
+            print(f"find_agenda_url error: {e}", file=sys.stderr)
+
+    # PDF → words
+    words = pdftotext_tsv(pdf_path)
+    if not words:
+        sys.exit("no words extracted from PDF")
+
+    # 左右列に分割して各列を処理
+    left, right = split_columns(words)
+    events = parse_column(left, year, base_month) + parse_column(right, year, base_month)
+    # 日付順
+    events.sort(key=lambda e: e["date"])
+
+    print(f"Extracted {len(events)} events from {source_url}", file=sys.stderr)
+
+    # hash (event 内容ベース)
+    canonical = json.dumps(events, ensure_ascii=False, sort_keys=True)
+    html_hash = hashlib.sha256(canonical.encode("utf-8")).hexdigest()[:16]
+
+    written = 0
+    for ev, seq in assign_sequence(events):
+        compact = ev["date"].replace("-", "")
+        uid = f"{args.uid_prefix}-{compact}-{seq:02d}@{UID_NAMESPACE}"
+        source_id = f"{compact}-{seq:02d}"
+
+        year_part = ev["date"][:4]
+        md = ev["date"][5:10]
+        fname = f"{md}_{uid.split('@')[0]}.yaml"
+        out_path = os.path.join(args.out_dir, year_part, fname)
+
+        prev_fetched_at: str | None = None
+        if os.path.exists(out_path):
+            try:
+                with open(out_path, "r", encoding="utf-8") as f:
+                    prev = f.read()
+                hm = re.search(r"^\s*content_hash:\s*[\"']?sha256-([0-9a-f]+)", prev, re.MULTILINE)
+                fm = re.search(r"^\s*fetched_at:\s*[\"']?([^\"'\n]+)", prev, re.MULTILINE)
+                if hm and hm.group(1) == html_hash and fm:
+                    prev_fetched_at = fm.group(1).strip()
+            except Exception:
+                pass
+
+        doc = build_yaml_doc(uid, ev["date"], ev["content"], source_url, source_id, html_hash, prev_fetched_at, agenda_url)
+
+        if args.dry_run:
+            print(f"# === {year_part}/{fname} ===")
+            print(doc)
+            written += 1
+            continue
+
+        os.makedirs(os.path.dirname(out_path), exist_ok=True)
+        with open(out_path, "w", encoding="utf-8") as f:
+            f.write(doc)
+        print(f"  WROTE {out_path}", file=sys.stderr)
+        written += 1
+
+    print(f"Done. events written={written}", file=sys.stderr)
+
+    if written < args.min_events and not args.dry_run:
+        print(f"FAIL: events ({written}) < --min-events ({args.min_events}).", file=sys.stderr)
+        sys.exit(2)
+
+
+if __name__ == "__main__":
+    main()
