@@ -2,7 +2,9 @@ meta:
   source: NaviTime via 国際興業バス公式 (5931bus)
   operator: 国際興業バス
   feed_id: 5931bus
-  extracted_at: '2026-05-18'
+  extracted_at: '2026-05-19'
+  extractor_commit: 8d54ba5
+  extractor_script: extract.py
 agencies:
 - agency_id: kokusai_kogyo
   agency_name: 国際興業バス
