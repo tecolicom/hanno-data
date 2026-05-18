@@ -228,8 +228,10 @@ def build_yaml_doc(uid: str, ev: dict, source_id: str, html_hash: str, fetched_a
     lines.append(f"url: {yaml_escape_str(SOURCE_URL)}")
     lines.append(f"dtstart: {yaml_escape_str(dtstart)}")
     lines.append(f"dtend: {yaml_escape_str(dtend)}")
+    desc_with_url = f"飯能市民会館: {SOURCE_URL}"
     if description:
-        lines.append("description: " + yaml_block_scalar(description, indent=2))
+        desc_with_url = f"{desc_with_url}\n\n{description}"
+    lines.append("description: " + yaml_block_scalar(desc_with_url, indent=2))
     lines.append("")
     lines.append("render:")
     lines.append("  gcal:")
