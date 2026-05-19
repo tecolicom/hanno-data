@@ -41,6 +41,12 @@ jobs:
           sudo apt-get install -y -qq poppler-utils
           pip install --quiet pyyaml
 
+      - name: Configure git identity
+        # CI 内で commit するために必要。複数の commit step があるので一箇所に集約。
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
       - name: Setup Service Account credentials
         env:
           GWS_SA_JSON: ${{ secrets.GWS_SA_JSON }}
@@ -74,10 +80,12 @@ jobs:
       - name: Crawl city-hanno-oshirase
         run: ./calendar/bin/cal-oshirase-fetch --out-dir calendar/events --min-items 0
 
-      - name: Fetch manual Calendar additions
+      - name: Fetch manual Calendar additions + sync manual edits
+        # 手動 event は Calendar UI が canonical。新規追加と既存編集の両方を YAML に取り込む。
+        # クローラ管理 (source: あり) の YAML は触らない (クローラ + apply-all の責務領域)。
         env:
           GOOGLE_APPLICATION_CREDENTIALS: /tmp/sa.json
-        run: ./calendar/bin/cal-myhanno fetch -o calendar/events
+        run: ./calendar/bin/cal-myhanno fetch -o calendar/events --update-manual
 
       # ===== Safety + commit + Calendar 反映 =====
 
@@ -115,8 +123,6 @@ jobs:
       - name: Commit events changes
         if: steps.changes.outputs.has_events_changes == 'true'
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add calendar/events
           git commit -m "calendar: daily fetch $(date -u +%Y-%m-%dT%H:%MZ)"
           git push
@@ -131,8 +137,10 @@ jobs:
           ec=$?
           set -e
           if [ "$ec" -eq 2 ]; then
-            echo "drift detected, applying..."
-            ./calendar/bin/cal-myhanno apply-all -d calendar/events
+            echo "drift detected, applying managed events only..."
+            # 手動 event (source: なし) はスキップ。
+            # → Calendar UI の手動編集が CI で上書きされない
+            ./calendar/bin/cal-myhanno apply-all -d calendar/events --only-managed
             ./calendar/bin/cal-myhanno diff -d calendar/events
             echo "applied=true" >> "$GITHUB_OUTPUT"
           elif [ "$ec" -eq 0 ]; then

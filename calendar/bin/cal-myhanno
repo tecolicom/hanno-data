@@ -465,21 +465,36 @@ def cmd_fetch(args: argparse.Namespace) -> None:
             print(f"  {path}")
         return
 
-    written, skipped = 0, 0
+    written, updated, skipped = 0, 0, 0
     for e in items:
         rel_path, content = event_to_yaml(e)
         full_path = os.path.join(output_root, rel_path)
         os.makedirs(os.path.dirname(full_path), exist_ok=True)
-        if os.path.exists(full_path) and not args.force:
-            skipped += 1
-            print(f"  SKIP (exists)  {rel_path}")
-            continue
+        if os.path.exists(full_path):
+            if args.force:
+                pass  # 既存上書き (種別問わず)
+            elif args.update_manual:
+                # 手動 (source: なし) のみ上書き、クローラ管理はスキップ
+                existing = load_yaml(full_path) or {}
+                if existing.get("source"):
+                    skipped += 1
+                    print(f"  SKIP (managed)  {rel_path}")
+                    continue
+                with open(full_path, "w", encoding="utf-8") as f:
+                    f.write(content)
+                updated += 1
+                print(f"  UPDATE  {rel_path}")
+                continue
+            else:
+                skipped += 1
+                print(f"  SKIP (exists)  {rel_path}")
+                continue
         with open(full_path, "w", encoding="utf-8") as f:
             f.write(content)
         written += 1
         print(f"  WRITE  {rel_path}")
     print()
-    print(f"summary: written={written}  skipped={skipped}  total={len(items)}")
+    print(f"summary: written={written}  updated={updated}  skipped={skipped}  total={len(items)}")
 
 
 # ---------- apply: YAML -> Calendar ----------
@@ -733,9 +748,15 @@ def cmd_apply_all(args: argparse.Namespace) -> None:
     files = sorted(glob.glob(pattern, recursive=True))
     if not files:
         die(f"no YAML files under {args.events_dir}")
-    print(f"applying {len(files)} YAMLs...")
-    ok, err = 0, 0
+    only_managed = getattr(args, "only_managed", False)
+    print(f"applying {len(files)} YAMLs... (only-managed={only_managed})")
+    ok, err, skipped = 0, 0, 0
     for f in files:
+        if only_managed:
+            doc = load_yaml(f) or {}
+            if not doc.get("source"):
+                skipped += 1
+                continue
         try:
             ns = argparse.Namespace(yaml_file=f, dry_run=args.dry_run)
             cmd_apply(ns)
@@ -744,7 +765,7 @@ def cmd_apply_all(args: argparse.Namespace) -> None:
             err += 1
             print(f"  ERR  {f}: {e}")
     print()
-    print(f"summary: ok={ok} err={err} total={len(files)}")
+    print(f"summary: ok={ok} err={err} skipped={skipped} total={len(files)}")
 
 
 # ---------- snapshot: Calendar -> JSON (backup) ----------
@@ -912,7 +933,9 @@ def build_parser() -> argparse.ArgumentParser:
     sp = sub.add_parser("fetch",
         help="Calendar → YAML 取り込み (Calendar 上にあって YAML に無い event を新規 YAML 化、既存は触らない)")
     sp.add_argument("-o", "--output", default="events", help="output directory (default: events)")
-    sp.add_argument("--force", action="store_true", help="overwrite existing YAML files")
+    sp.add_argument("--force", action="store_true", help="overwrite existing YAML files (種別問わず)")
+    sp.add_argument("--update-manual", action="store_true",
+                    help="既存 YAML が手動 (source: なし) なら Calendar 内容で上書きする (クローラ管理はスキップ)")
     sp.add_argument("--dry-run", action="store_true")
     sp.add_argument("--future-only", action="store_true", help="only events on or after today")
     sp.set_defaults(func=cmd_fetch)
@@ -929,6 +952,8 @@ def build_parser() -> argparse.ArgumentParser:
     sp = sub.add_parser("apply-all", help="apply every YAML under events/")
     sp.add_argument("-d", "--events-dir", default="events", help="events directory")
     sp.add_argument("--dry-run", action="store_true")
+    sp.add_argument("--only-managed", action="store_true",
+                    help="クローラ管理 (source: あり) の event のみを Calendar へ反映、手動はスキップ")
     sp.set_defaults(func=cmd_apply_all)
 
     sp = sub.add_parser("snapshot", help="back up current Calendar state to JSON files")
