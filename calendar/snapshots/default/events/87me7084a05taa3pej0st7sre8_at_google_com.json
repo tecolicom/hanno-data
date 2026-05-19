@@ -6,7 +6,7 @@
   },
   "description": "### 新機能\n- **トップページに今日の年号 (西暦・和暦) を表示** — 月日・曜日の下に「2026/令和8」のように小さく出ます。\n\n### 修正\n- **双柳循環「工場前方面」の途中停留所が市役所までしか出ないバグを修正** — 飯能市役所から乗ったときに、工場前 → 浅間 → 市営住宅 ... を経て飯能駅まで戻る経路全体が見えるようになりました。\n- **飯能市役所 (む-ま号) と 市役所前 (5931bus) を同じ停留所として統合** — 別ストップ扱いで分かれていた表示を 1 つにまとめました。\n\n### 既に出ているはずの機能 (本リリースで効くようになるもの)\n- 観光協会・市民会館などのイベント詳細モーダルに「🔗 情報ソース URL」がリンクで出るようになります (v1.18.2 で表示機能、本リリースでデータが届く)。",
   "end": {
-    "date": "2026-05-26"
+    "date": "2026-05-22"
   },
   "eventType": "default",
   "htmlLink": "https://www.google.com/calendar/event?eid=ODdtZTcwODRhMDV0YWEzcGVqMHN0N3NyZTggMjA1NDAzYzk3MWRjNWVmMjFlZmQ4MWMxZDUzODQ5Y2FkZmQ5MDFiNzVjNzdkODg5NTVkOTYwMGY0NWYyYTAxM0Bn",
@@ -27,5 +27,5 @@
   },
   "status": "confirmed",
   "summary": "Myはんのう v1.18.3",
-  "updated": "2026-05-19T00:24:14.623Z"
+  "updated": "2026-05-19T00:41:16.678Z"
 }
