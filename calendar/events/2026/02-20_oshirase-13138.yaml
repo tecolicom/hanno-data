@@ -4,11 +4,13 @@ url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/h
 dtstart: "2026-02-20"
 dtend: "2026-02-20"
 description: |-
-  令和8年2月20日に開催される定例記者会見の提出予定案件です。
+  AI による要約 (正確な情報は元記事をご確認ください)
   
-  **第6次飯能市総合振興計画実施計画 令和8年度重点施策（第3期飯能市まち・ひと・しごと創生総合戦略）** や **第8次飯能市行政改革大綱（案）**、**令和8年度予算案の概要** のほか、飯能市長等及び職員の給与の特例、緊急財政対策、事業見直し検討結果などが発表される予定です。
+  令和8年2月20日に飯能市定例記者会見が開催されます。提出予定案件は以下の通りです。
   
-  また、公共施設におけるキッチンカー等出店のトライアル・サウンディング実施、**阿須小久保線（岩沢工区）の開通** など、令和8年度からスタートする各種計画・事業についても説明されます。
+  **第6次飯能市総合振興計画実施計画 令和8年度重点施策**（第3期飯能市まち・ひと・しごと創生総合戦略案）、**第8次飯能市行政改革大綱案**、飯能市長等及び職員の給与の特例、**令和8年度予算案の概要**、緊急財政対策、公共施設におけるキッチンカー等出店のトライアル・サウンディング実施、**阿須小久保線（岩沢工区）の開通**、令和8年度からスタートする計画についての報告・提案が予定されています。
+  
+  詳細は各資料（PDF）をご参照ください。
   
   飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025/13138.html
 
@@ -20,6 +22,6 @@ source:
   type: city-hanno-oshirase
   id: "13138"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025/13138.html"
-  fetched_at: "2026-05-20T03:32:29.384680Z"
-  content_hash: "sha256-2f251b361ec20f08"
+  fetched_at: "2026-05-20T03:54:32.145966Z"
+  content_hash: "sha256-7a5a2e97fda8e25a"
   summary_method: "llm-haiku-4-5"

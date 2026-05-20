@@ -50,6 +50,14 @@ URL_HOST_ALLOWLIST = "www.city.hanno.lg.jp"
 MIN_BODY_CHARS = 50    # これ未満なら抽出失敗扱い → URL のみ
 FULL_TEXT_THRESHOLD = 400  # これ以下は全文掲載、超は LLM 要約
 
+# description 整形フォーマットのバージョン. wrapper/disclaimer 変更時にインクリ
+# メントすると content_hash が変わり、既存 YAML が再生成される.
+# docs/ai-content-policy.md 参照.
+DESCRIPTION_FORMAT_VERSION = 2
+
+# AI 要約に付ける固定 disclaimer (冒頭配置). docs/ai-content-policy.md 参照.
+AI_DISCLAIMER = "AI による要約 (正確な情報は元記事をご確認ください)"
+
 # LLM (Claude Haiku 4.5) 設定
 LLM_MODEL = "claude-haiku-4-5"
 LLM_MAX_TOKENS = 1024
@@ -228,7 +236,8 @@ def _materialize_description(body: str, method: str, title: str, article_url: st
     if method == "llm-haiku-4-5":
         summary = summarize_with_llm(title, body)
         if summary:
-            return f"{summary}\n\n{suffix}"
+            return f"{AI_DISCLAIMER}\n\n{summary}\n\n{suffix}"
+        # LLM 失敗時は full にフォールバック (AI ラベルは付けない、元文そのまま転載)
         print(f"  fallback to full text for {article_url}", file=sys.stderr)
         return f"{body}\n\n{suffix}"
     return suffix
@@ -362,11 +371,12 @@ def main() -> None:
         else:
             method = "llm-haiku-4-5"
 
-        # 入力ベースの content_hash (= body + method)。LLM 出力は含めない。
-        # これにより LLM 非決定性に関わらず idempotent。
-        # body / method が変わった時だけ description 再生成。
+        # 入力ベースの content_hash (= body + method + format_version)。
+        # LLM 出力は含めない → LLM 非決定性に関わらず idempotent。
+        # body / method / format_version のどれかが変わった時だけ description 再生成。
         canonical = json.dumps(
-            {"title": it["title"], "date": it["date"], "body": body, "method": method},
+            {"title": it["title"], "date": it["date"], "body": body, "method": method,
+             "format_version": DESCRIPTION_FORMAT_VERSION},
             ensure_ascii=False, sort_keys=True,
         )
         content_hash = hashlib.sha256(canonical.encode("utf-8")).hexdigest()[:16]

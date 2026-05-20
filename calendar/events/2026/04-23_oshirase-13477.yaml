@@ -4,7 +4,11 @@ url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/sang
 dtstart: "2026-04-23"
 dtend: "2026-04-23"
 description: |-
-  飯能市立図書館に「ムーミンパパ」のオブジェを設置するお披露目セレモニーを、**令和8年4月23日(木曜日)** に開催いたしました。飯能駅・東飯能駅に続く第3弾のオブジェ設置により、まちなか回遊の新たな軸として「歩きたくなるまちづくり」をさらに推進し、中心市街地の賑わい創出と市内全域の活性化につなげます。セレモニーでは、株式会社ムーミン物語からムーミンの仕掛け絵本『ムーミン谷へのながいたび』、西武鉄道株式会社から西武鉄道車両のプラレールをご寄贈いただき、図書館で活用させていただきます。セレモニーには市長をはじめ関係機関の代表者や山手保育所の園児32名が参加いたしました。
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  令和8年4月23日(木曜日)、飯能市立図書館で「ムーミンパパ」のオブジェお披露目セレモニーを開催いたしました。飯能駅・東飯能駅に続く第3弾として、図書館にムーミンオブジェを設置することで、まちなか回遊の新たな軸を形成し、「歩きたくなるまちづくり」を推進します。
+  
+  セレモニーでは、株式会社ムーミン物語からムーミンの仕掛け絵本『ムーミン谷へのながいたび』、西武鉄道株式会社から西武鉄道車両のプラレールが寄贈されました。これらは図書館で展示・活用し、図書館の魅力向上と中心市街地の賑わい創出、市内全域の活性化につなげていきます。
   
   飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/sangakukanrenkei/13477.html
 
@@ -16,6 +20,6 @@ source:
   type: city-hanno-oshirase
   id: "13477"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/sangakukanrenkei/13477.html"
-  fetched_at: "2026-05-20T03:30:59.636581Z"
-  content_hash: "sha256-d037bca50d535794"
+  fetched_at: "2026-05-20T03:53:01.579915Z"
+  content_hash: "sha256-a5417a44821f0175"
   summary_method: "llm-haiku-4-5"

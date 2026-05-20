@@ -4,17 +4,24 @@ url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/h
 dtstart: "2026-04-30"
 dtend: "2026-04-30"
 description: |-
-  飯能市の令和8年度の主な報道発表資料一覧です。
+  AI による要約 (正確な情報は元記事をご確認ください)
   
-  **令和8年4月30日**：市役所職員の服装を通年ノーネクタイ等に変更します。
+  # 令和8年度 飯能市報道発表資料
   
-  **令和8年4月24日**：青梅信用金庫から飯能市への寄附がありました。
+  **令和8年4月30日**  
+  通年ノーネクタイ等の実施。服装の目安については別紙資料参照。
   
-  **令和8年4月22日**：有間エリア水源林保全プロジェクト（通称「クマタカとヤマネの森プロジェクト」）が始動します。
+  **令和8年4月24日**  
+  青梅信用金庫から飯能市への寄附。
   
-  **令和8年4月20日**：飯能ロータリークラブから飯能市への寄附金贈呈式が開催されました。
+  **令和8年4月22日**  
+  有間エリア水源林保全プロジェクト（通称「クマタカとヤマネの森プロジェクト」）を始動。
   
-  **令和8年4月6日**：MXモバイリング株式会社から企業版ふるさと納税による寄附がありました。
+  **令和8年4月20日**  
+  飯能ロータリークラブから飯能市への寄附金贈呈式を実施。
+  
+  **令和8年4月6日**  
+  MXモバイリング株式会社から企業版ふるさと納税による寄附。
   
   飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025_1/13388.html
 
@@ -26,6 +33,6 @@ source:
   type: city-hanno-oshirase
   id: "13388"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025_1/13388.html"
-  fetched_at: "2026-05-20T03:30:53.947713Z"
-  content_hash: "sha256-0d212a59da1ba1b7"
+  fetched_at: "2026-05-20T03:52:54.051902Z"
+  content_hash: "sha256-427941cca6ff1829"
   summary_method: "llm-haiku-4-5"

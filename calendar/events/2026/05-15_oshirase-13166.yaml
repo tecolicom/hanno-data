@@ -4,13 +4,17 @@ url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/johosystem/13
 dtstart: "2026-05-15"
 dtend: "2026-05-15"
 description: |-
-  **令和8年5月31日(日曜日)～6月2日(火曜日)終日**、システムメンテナンスのため課税(非課税)・所得証明書のみコンビニ交付サービスを停止します。令和8年度の証明書交付開始は6月3日(水曜日)からです。
+  AI による要約 (正確な情報は元記事をご確認ください)
   
-  休止期間中に証明書の発行が必要な場合は、以下の窓口をご利用ください。
+  課税(非課税)・所得証明書のコンビニ交付サービスを、**令和8年5月31日(日曜日)～令和8年6月2日(火曜日)終日停止**します。年度更新作業に関するシステムメンテナンスのためです。令和8年度の証明書交付は**6月3日(水曜日)から**となります。
   
-  **市役所・各地区行政センター(富士見地区行政センター除く)：午前9時～午後4時30分**
+  停止期間中に証明書が必要な場合は、以下の窓口をご利用ください。
   
-  **飯能駅サービスコーナー：午前9時～午後5時(税証明の即日交付受付は午前9時～午後4時30分)**
+  **市役所・各地区行政センター(富士見地区行政センターを除く)**
+  午前9時～午後4時30分
+  
+  **飯能駅サービスコーナー**
+  午前9時～午後5時(税証明の即日交付受付は午前9時～午後4時30分)
   
   飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/johosystem/13166.html
 
@@ -22,6 +26,6 @@ source:
   type: city-hanno-oshirase
   id: "13166"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/johosystem/13166.html"
-  fetched_at: "2026-05-20T03:30:34.566001Z"
-  content_hash: "sha256-e546d13cff812c06"
+  fetched_at: "2026-05-20T03:52:35.045393Z"
+  content_hash: "sha256-a6cc99f2ceb9e2e0"
   summary_method: "llm-haiku-4-5"

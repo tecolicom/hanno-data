@@ -4,13 +4,9 @@ url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/kodomoseisaku
 dtstart: "2026-02-18"
 dtend: "2026-02-18"
 description: |-
-  浅間保育所の建替えに伴う民営化に向けたサウンディング型市場調査を実施しました。本調査は、市有地での民間事業者による施設整備及び運営に関する意見・提案を伺うものです。
+  AI による要約 (正確な情報は元記事をご確認ください)
   
-  **【スケジュール】**
-  - **エントリーシート提出期間：令和7年11月19日（水曜日）から令和7年12月5日（金曜日）まで**
-  - **事前質問受付期間：令和7年11月19日（水曜日）から令和7年12月5日（金曜日）まで**
-  
-  実施要領と様式集は公式サイトで公開されており、事前質問に対する回答も確認できます。調査は令和8年2月18日に実施結果が公表され、終了しました。
+  浅間保育所の建替えに伴う民営化について、サウンディング型市場調査を実施しました。民間事業者による施設整備及び施設運営に関するご意見・ご提案を伺うもので、**エントリーシート提出期間は令和7年11月19日（水曜日）から令和7年12月5日（金曜日）まで**、**事前質問受付期間も同期間**です。詳細は実施要領、様式集、事前質問に対する回答を確認してください。実施結果は令和8年2月18日に公表されました。
   
   飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/kodomoseisakuka/12596.html
 
@@ -22,6 +18,6 @@ source:
   type: city-hanno-oshirase
   id: "12596"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/kodomoseisakuka/12596.html"
-  fetched_at: "2026-05-20T03:32:41.065689Z"
-  content_hash: "sha256-b8d707b2212f1365"
+  fetched_at: "2026-05-20T03:54:43.997283Z"
+  content_hash: "sha256-790cd7ec3fb875e6"
   summary_method: "llm-haiku-4-5"

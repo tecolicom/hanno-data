@@ -4,7 +4,15 @@ url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/nogyoshinkok
 dtstart: "2026-04-27"
 dtend: "2026-04-27"
 description: |-
-  ムギ類赤かび病の感染に好適な気象条件が続くとして、**令和8年4月27日に注意報が発表**されました。4月1日から26日までの子のう胞子飛散好適日は11日（平年同期7.9日）と過去10年で3番目に多く、特に4月14～16日と23～25日は3日間連続で飛散好適日が出現しています。11月中下旬に播種した小麦が開花期を迎える時期と一致しており、感染リスクが高まっています。向こう1か月は気温が高く晴れの日が少ない予報のため、本病の発生量増加が懸念されます。**発生が見られる小麦ほ場では追加の防除実施を推奨**します。
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  ムギ類赤かび病の感染に好適な気象条件が予想されるため、注意報が発令されました。
+  
+  4月1日から26日までの子のう胞子飛散好適日は**11日**（平年同期7.9日、過去10年で3番目に多い）。特に4月14～16日と23～25日は3日間連続で飛散好適日が出現し、11月中下旬播種の小麦の開花期とほぼ一致しています。
+  
+  向こう1か月は**気温が高く、晴れの日が少ないため、本病の感染に好適な気象条件になることが予想**されています。
+  
+  発生が見られる小麦ほ場では、**追加の防除を実施してください**。
   
   飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/nogyoshinkoka/9873.html
 
@@ -16,6 +24,6 @@ source:
   type: city-hanno-oshirase
   id: "9873"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/nogyoshinkoka/9873.html"
-  fetched_at: "2026-05-20T03:30:56.282698Z"
-  content_hash: "sha256-51bec35dc703dbac"
+  fetched_at: "2026-05-20T03:52:57.963846Z"
+  content_hash: "sha256-990d8985f8244e54"
   summary_method: "llm-haiku-4-5"
