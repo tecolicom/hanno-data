@@ -4,6 +4,12 @@ url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinko
 dtstart: "2026-04-01"
 dtend: "2026-04-01"
 description: |-
+  本市では、国の物価高騰対応重点支援地方創生臨時交付金を活用し、緊急経済対策に取り組んでいます。エネルギー・食品価格等の物価高騰が続く中、物価高騰等の影響を受けた生活者や事業者に対し、当該交付金を活用した第12次飯能市緊急経済対策を実施いたします。
+  
+  各事業概要については、以下のPDFファイルをご確認ください。
+  
+  第12次飯能市緊急経済対策一覧 (PDFファイル: 121.4KB)
+  
   飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/13330.html
 
 render:
@@ -14,5 +20,6 @@ source:
   type: city-hanno-oshirase
   id: "13330"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/13330.html"
-  fetched_at: "2026-05-17T23:34:06.397298Z"
-  content_hash: "sha256-66191d426a610c05"
+  fetched_at: "2026-05-20T03:31:21.880275Z"
+  content_hash: "sha256-b46fd0e9493769e0"
+  summary_method: "full"

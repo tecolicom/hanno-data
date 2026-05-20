@@ -4,6 +4,12 @@ url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinko
 dtstart: "2026-05-12"
 dtend: "2026-05-12"
 description: |-
+  飯能市では、消費喚起による地域事業者支援、物価高騰下における市民の消費下支えを目的に、国の「物価高騰対応重点支援地方創生臨時交付金」を活用し、市内店舗で利用できるプレミアム付デジタル商品券を販売します。
+  
+  事業の詳細については、広報はんのう6月号及び本ページにてお知らせいたします。
+  
+  今しばらくお待ちください。
+  
   飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/13410.html
 
 render:
@@ -14,5 +20,6 @@ source:
   type: city-hanno-oshirase
   id: "13410"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/13410.html"
-  fetched_at: "2026-05-17T23:34:06.363682Z"
-  content_hash: "sha256-b42f91f43b64632f"
+  fetched_at: "2026-05-20T03:30:37.242224Z"
+  content_hash: "sha256-7beba0b9e00e61fc"
+  summary_method: "full"

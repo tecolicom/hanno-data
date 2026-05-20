@@ -4,6 +4,14 @@ url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/johosystem/13
 dtstart: "2026-05-15"
 dtend: "2026-05-15"
 description: |-
+  **令和8年5月31日(日曜日)～6月2日(火曜日)終日**、システムメンテナンスのため課税(非課税)・所得証明書のみコンビニ交付サービスを停止します。令和8年度の証明書交付開始は6月3日(水曜日)からです。
+  
+  休止期間中に証明書の発行が必要な場合は、以下の窓口をご利用ください。
+  
+  **市役所・各地区行政センター(富士見地区行政センター除く)：午前9時～午後4時30分**
+  
+  **飯能駅サービスコーナー：午前9時～午後5時(税証明の即日交付受付は午前9時～午後4時30分)**
+  
   飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/johosystem/13166.html
 
 render:
@@ -14,5 +22,6 @@ source:
   type: city-hanno-oshirase
   id: "13166"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/johosystem/13166.html"
-  fetched_at: "2026-05-17T23:34:06.354713Z"
-  content_hash: "sha256-95f7449a86ad61d9"
+  fetched_at: "2026-05-20T03:30:34.566001Z"
+  content_hash: "sha256-e546d13cff812c06"
+  summary_method: "llm-haiku-4-5"

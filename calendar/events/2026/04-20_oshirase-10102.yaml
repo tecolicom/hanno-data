@@ -4,6 +4,22 @@ url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/1
 dtstart: "2026-04-20"
 dtend: "2026-04-20"
 description: |-
+  **熱中症特別警戒アラート**が発表された際に開放されるクーリングシェルター（涼しい場所）の案内です。
+  
+  **運用期間：令和8年4月22日（水曜日）から10月28日（水曜日）まで**
+  
+  市内公共施設及び民間施設を指定しており、やむを得ず外出した際に暑さを避けるため利用できます。各施設の営業時間内での開放となり、定員が設定されています。利用の際は各施設の指示に従い、静かに過ごしてください。
+  
+  **主なクーリングシェルター（飯能地区）：**
+  - 市立図書館（山手町19-5、火～日祝・毎月最終金曜日、9時30分～18時、定員9人）
+  - こども図書館（稲荷町25-8、火～日祝・毎月最終金曜日、11時～16時、定員3人）
+  - 飯能中央地区行政センター（飯能60-1、平日、9時～16時30分、定員15人）
+  - 博物館（飯能258-1、火～日、9時30分～16時30分、定員5人）
+  
+  その他地区（第二区、精明・双柳、加治・美杉台、南高麗、吾野、東吾野、原市場、名栗）にも複数の施設があります。
+  
+  **お問い合わせ：保健センター（042-974-3488）**
+  
   飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/10102.html
 
 render:
@@ -14,5 +30,6 @@ source:
   type: city-hanno-oshirase
   id: "10102"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/10102.html"
-  fetched_at: "2026-05-17T23:34:06.388276Z"
-  content_hash: "sha256-198cd2d1ac4cf218"
+  fetched_at: "2026-05-20T03:31:15.436710Z"
+  content_hash: "sha256-2429910f4e3bf723"
+  summary_method: "llm-haiku-4-5"

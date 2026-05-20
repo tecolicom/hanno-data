@@ -4,6 +4,8 @@ url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkura
 dtstart: "2026-04-20"
 dtend: "2026-04-20"
 description: |-
+  「人権擁護委員の日」にちなみ、**6月3日（水曜日）10時～15時**に飯能中央地区行政センターで特設人権相談所を開設します。セクハラやパワハラ、家庭内暴力、体罰やいじめ、インターネットでの誹謗中傷、差別など、人権に関する悩みをご相談ください。相談員は人権擁護委員が対応し、**相談は無料**です。一人で悩まず、お気軽にご相談ください。
+  
   飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/11548.html
 
 render:
@@ -14,5 +16,6 @@ source:
   type: city-hanno-oshirase
   id: "11548"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/11548.html"
-  fetched_at: "2026-05-17T23:34:06.384719Z"
-  content_hash: "sha256-e1af2ae57856434a"
+  fetched_at: "2026-05-20T03:31:01.520033Z"
+  content_hash: "sha256-14ea5472d4db68ef"
+  summary_method: "llm-haiku-4-5"

@@ -4,6 +4,17 @@ url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/1
 dtstart: "2026-05-12"
 dtend: "2026-05-12"
 description: |-
+  **「飯能くらしのガイドブック2026」に医療機関の掲載漏れ**
+  
+  令和8年4月刊行の「飯能くらしのガイドブック2026」について、掲載漏れがあった医療機関を以下の通り追加案内いたします。
+  
+  **薬局（67ページ）**
+  - ハート薬局飯能大河原店／大河原935-3／☎980-5195
+  
+  **施術所等（69ページ）**
+  - 村の整骨院／川寺46-3／柔道整復／☎911-9616
+  - 村の鍼灸院／川寺46-3／はり・きゅう／☎911-9616
+  
   飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/13487.html
 
 render:
@@ -14,5 +25,6 @@ source:
   type: city-hanno-oshirase
   id: "13487"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/13487.html"
-  fetched_at: "2026-05-17T23:34:06.359406Z"
-  content_hash: "sha256-bd71ce1e9b1113af"
+  fetched_at: "2026-05-20T03:30:36.749860Z"
+  content_hash: "sha256-e3ceee82ff42f361"
+  summary_method: "llm-haiku-4-5"

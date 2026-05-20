@@ -4,6 +4,19 @@ url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/toshokan/13108.htm
 dtstart: "2026-02-26"
 dtend: "2026-02-26"
 description: |-
+  緊急財政対策に伴い、飯能市立図書館及びこども図書館の開館時間・休館日を変更します（試行期間：令和8年4月1日～令和9年3月31日）。
+  
+  **市立図書館**
+  - 開館時間：火曜日～日曜日 9:30～18:00
+  - 休館日：月曜日（祝・休日を除く）、祝日の翌日（祝・休日の場合は開館）、毎月最終金曜日（祝・休日を除く）、特別整理期間（年1回、5日間）、年末年始等
+  
+  **こども図書館**
+  - 開館時間：火曜日～日曜日 11:00～16:00
+  - 休館日：市立図書館と同様
+  
+  **令和8年4月1日から廃止・休止**
+  名栗分室・富士見分室を廃止し、移動図書館を休止します。代わりに名栗地区行政センター及び富士見地区行政センターで「配本サービス」を開始します。
+  
   飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/toshokan/13108.html
 
 render:
@@ -14,5 +27,6 @@ source:
   type: city-hanno-oshirase
   id: "13108"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/toshokan/13108.html"
-  fetched_at: "2026-05-17T23:34:06.428583Z"
-  content_hash: "sha256-3066548ff67a8799"
+  fetched_at: "2026-05-20T03:32:19.321770Z"
+  content_hash: "sha256-7897f27e3117f55c"
+  summary_method: "llm-haiku-4-5"

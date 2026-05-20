@@ -4,6 +4,12 @@ url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/zaim
 dtstart: "2026-03-30"
 dtend: "2026-03-30"
 description: |-
+  令和6年度決算に基づく財政状況資料集をご覧いただけます。
+  
+  財政状況資料集は、地方公共団体の決算や財政の健全化度などの財政状況をより分かりやすく公表するために、総務省が全国共通の様式として定めたものです。
+  
+  令和6年度財政状況資料集 (Excelファイル: 577.4KB)
+  
   飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/zaimushohyo/13353.html
 
 render:
@@ -14,5 +20,6 @@ source:
   type: city-hanno-oshirase
   id: "13353"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/zaimushohyo/13353.html"
-  fetched_at: "2026-05-17T23:34:06.404506Z"
-  content_hash: "sha256-12745f938e37e8c7"
+  fetched_at: "2026-05-20T03:31:40.658359Z"
+  content_hash: "sha256-9f35353b1642d32c"
+  summary_method: "full"

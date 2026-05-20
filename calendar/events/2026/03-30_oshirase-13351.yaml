@@ -4,6 +4,8 @@ url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/zaim
 dtstart: "2026-03-30"
 dtend: "2026-03-30"
 description: |-
+  飯能市が平成28年度決算から作成・公表している**統一的な基準による令和6年度財務書類**を公開しました。現金主義会計では把握しにくい社会資本などのストック情報を明確にするため、総務省の「統一的な基準による地方公会計マニュアル」に基づいています。公開資料は、概要版、一般会計等財務書類、全体財務書類、連結財務書類、固定資産台帳など複数の書類から構成されています。
+  
   飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/zaimushohyo/13351.html
 
 render:
@@ -14,5 +16,6 @@ source:
   type: city-hanno-oshirase
   id: "13351"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/zaimushohyo/13351.html"
-  fetched_at: "2026-05-17T23:34:06.406301Z"
-  content_hash: "sha256-49b4b54f42e1eca8"
+  fetched_at: "2026-05-20T03:31:44.844393Z"
+  content_hash: "sha256-4254b329fdc04614"
+  summary_method: "llm-haiku-4-5"

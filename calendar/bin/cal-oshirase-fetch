@@ -9,7 +9,14 @@ RSS 1.0 (RDF) を取得し、各 <item> を 1 終日イベント (公開日) に
 - url:     item の link
 - UID:     oshirase-<page-id>@hanno.city.tecoli.com  (page-id は URL 末尾の数字)
 
+description は本文長に応じて 3 方式:
+- 抽出失敗 (<50字):    URL のみ                    (method=url-only)
+- 50-400字:           本文全文 + URL              (method=full)
+- >400字:             LLM (Claude Haiku) 要約 + URL (method=llm-haiku-4-5)
+                      ※ ANTHROPIC_API_KEY 必須。API 失敗時は full にフォールバック。
+
 既存 YAML がある UID は再 fetch しない (idempotent + 速い + polite)。
+--refetch-existing で全件再評価。
 """
 from __future__ import annotations
 
@@ -22,6 +29,11 @@ import sys
 import urllib.request
 from datetime import date as _date, datetime
 
+try:
+    import httpx  # LLM 要約用 (>400字 で必要)
+except ImportError:
+    httpx = None  # type: ignore
+
 
 USER_AGENT = "myhanno-calendar-fetcher/0.1 (+https://city.tecoli.com)"
 UID_NAMESPACE = "hanno.city.tecoli.com"
@@ -33,6 +45,24 @@ FEED_URL = (
     "?siteNew=1&displayCount=50&displayRange=90&includeShortcut=0"
 )
 URL_HOST_ALLOWLIST = "www.city.hanno.lg.jp"
+
+# 本文長に応じた処理しきい値
+MIN_BODY_CHARS = 50    # これ未満なら抽出失敗扱い → URL のみ
+FULL_TEXT_THRESHOLD = 400  # これ以下は全文掲載、超は LLM 要約
+
+# LLM (Claude Haiku 4.5) 設定
+LLM_MODEL = "claude-haiku-4-5"
+LLM_MAX_TOKENS = 1024
+LLM_SYSTEM_PROMPT = """あなたは飯能市公式サイトのお知らせ記事を、市民向けカレンダーに掲載するために短く要約するアシスタントです。
+
+要約方針:
+- 全体で 200〜400 字程度の日本語。
+- **日時・期間・場所・対象者・料金・申込締切・申込方法など、市民の行動に関わる事実は省略しない**。本文に書かれていないことは書かない (推測禁止)。
+- 重要な事実は **太字** (Markdown) で目立たせて良い。日付や金額は本文表記をそのまま (令和8年5月31日 等)。
+- 出だしに「お知らせ:」「概要:」のような冗語は不要。本題から始める。
+- 末尾に URL や「詳細は〜」を付けない。呼出側で付与する。
+- 要約だけ返す。前置きや「以下は要約です」等の説明は不要。
+"""
 
 
 def fetch(url: str) -> str:
@@ -83,6 +113,127 @@ def parse_items(xml: str) -> list[dict]:
     return out
 
 
+# ---------- 本文抽出 ----------
+
+
+def _strip_html(s: str) -> str:
+    """HTML タグ + 主要 entity を素のテキストに."""
+    s = re.sub(r"<br\s*/?>", "\n", s, flags=re.I)
+    s = re.sub(r"</p\s*>", "\n\n", s, flags=re.I)
+    s = re.sub(r"</li\s*>", "\n", s, flags=re.I)
+    s = re.sub(r"</h[1-6]\s*>", "\n\n", s, flags=re.I)
+    s = re.sub(r"<[^>]+>", "", s)
+    s = s.replace("&nbsp;", " ").replace("&amp;", "&")
+    s = s.replace("&lt;", "<").replace("&gt;", ">").replace("&quot;", '"')
+    return s
+
+
+def _normalize_body(text: str) -> str:
+    """段落間 1 空行、行頭空白除去、末尾空白除去."""
+    lines = [ln.rstrip() for ln in text.split("\n")]
+    lines = [re.sub(r"^[ 　]+", "", ln) for ln in lines]
+    out: list[str] = []
+    blank_run = 0
+    for ln in lines:
+        if ln == "":
+            blank_run += 1
+            if blank_run <= 1:
+                out.append(ln)
+        else:
+            blank_run = 0
+            out.append(ln)
+    return "\n".join(out).strip()
+
+
+def extract_body(html: str) -> str:
+    """記事 HTML から本文テキストを抽出.
+
+    `<div id="contents-in">` から `<div class="toiawase">` 直前まで。
+    page-number-display ブロックと figure を除外。h2 (head-title) も含めて、
+    複数セクション構造 (h2 + wysiwyg の繰り返し) のお知らせに対応。
+    """
+    m = re.search(r'<div id="contents-in"[^>]*>([\s\S]*?)<!--\s*//#contents-in', html)
+    if not m:
+        return ""
+    block = m.group(1)
+    # toiawase (お問い合わせ先) を境界として除去
+    block = re.sub(r'<div class="toiawase">[\s\S]*$', "", block)
+    # page-id 表示 (本文ではない)
+    block = re.sub(r'<div class="page-number-display">[\s\S]*?</div>\s*</div>', "", block)
+    # figure / img (本文意味ほぼ無し、altのみ拾うのは複雑なので除外)
+    block = re.sub(r"<figure[^>]*>[\s\S]*?</figure>", "", block)
+    # h2 は内容を "## " 付きで残す (head-title span 入れ子を一旦テキスト化)
+    def _h2_repl(m: re.Match) -> str:
+        inner = re.sub(r"<[^>]+>", "", m.group(1))
+        inner = re.sub(r"\s+", " ", inner).strip()
+        return f"\n\n## {inner}\n\n" if inner else "\n\n"
+    block = re.sub(r"<h2[^>]*>([\s\S]*?)</h2>", _h2_repl, block)
+    text = _strip_html(block)
+    return _normalize_body(text)
+
+
+# ---------- LLM 要約 ----------
+
+
+def summarize_with_llm(title: str, body: str) -> str | None:
+    """Claude Haiku 4.5 で要約。失敗時 None を返す (呼出側で fallback)."""
+    if httpx is None:
+        print("  WARN: httpx not installed, skipping LLM summary", file=sys.stderr)
+        return None
+    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    if not api_key:
+        print("  WARN: ANTHROPIC_API_KEY not set, skipping LLM summary", file=sys.stderr)
+        return None
+    if not body or len(body) < MIN_BODY_CHARS:
+        # 安全装置: 空 body で LLM を呼ばない (ハルシネーション防止)
+        return None
+    try:
+        r = httpx.post(
+            "https://api.anthropic.com/v1/messages",
+            headers={
+                "x-api-key": api_key,
+                "anthropic-version": "2023-06-01",
+                "content-type": "application/json",
+            },
+            json={
+                "model": LLM_MODEL,
+                "max_tokens": LLM_MAX_TOKENS,
+                "system": LLM_SYSTEM_PROMPT,
+                "messages": [{"role": "user", "content": f"# {title}\n\n{body}"}],
+            },
+            timeout=60,
+        )
+        r.raise_for_status()
+        data = r.json()
+        return data["content"][0]["text"].strip()
+    except Exception as e:
+        print(f"  WARN: LLM summary failed: {e}", file=sys.stderr)
+        return None
+
+
+# ---------- description 組立 ----------
+
+
+def _materialize_description(body: str, method: str, title: str, article_url: str) -> str:
+    """method に応じて description を組み立てる (LLM 呼出はこの中で発生).
+
+    LLM 失敗時は full にフォールバック (ただし呼出側 method は llm-haiku-4-5 のまま
+    記録される点に注意 — hash 計算は body ベースなので一貫性は保たれる)。
+    """
+    suffix = f"飯能市公式サイト 新着情報: {article_url}"
+    if method == "url-only":
+        return suffix
+    if method == "full":
+        return f"{body}\n\n{suffix}"
+    if method == "llm-haiku-4-5":
+        summary = summarize_with_llm(title, body)
+        if summary:
+            return f"{summary}\n\n{suffix}"
+        print(f"  fallback to full text for {article_url}", file=sys.stderr)
+        return f"{body}\n\n{suffix}"
+    return suffix
+
+
 # ---------- YAML 出力 ----------
 
 
@@ -98,6 +249,7 @@ def yaml_block_scalar(s: str, indent: int = 2) -> str:
 
 
 def build_yaml_doc(uid: str, item_url: str, page_id: str, title: str, date_str: str,
+                   description: str, method: str,
                    content_hash: str, fetched_at: str | None) -> str:
     lines: list[str] = []
     lines.append(f"uid: {yaml_escape_str(uid)}")
@@ -105,7 +257,7 @@ def build_yaml_doc(uid: str, item_url: str, page_id: str, title: str, date_str: 
     lines.append(f"url: {yaml_escape_str(item_url)}")
     lines.append(f"dtstart: {yaml_escape_str(date_str)}")
     lines.append(f"dtend: {yaml_escape_str(date_str)}")
-    lines.append("description: " + yaml_block_scalar(f"飯能市公式サイト 新着情報: {item_url}", indent=2))
+    lines.append("description: " + yaml_block_scalar(description, indent=2))
     lines.append("")
     lines.append("render:")
     lines.append("  gcal:")
@@ -118,6 +270,7 @@ def build_yaml_doc(uid: str, item_url: str, page_id: str, title: str, date_str: 
     ts = fetched_at or (datetime.utcnow().isoformat() + "Z")
     lines.append(f"  fetched_at: {yaml_escape_str(ts)}")
     lines.append(f"  content_hash: {yaml_escape_str('sha256-' + content_hash)}")
+    lines.append(f"  summary_method: {yaml_escape_str(method)}")
     return "\n".join(lines) + "\n"
 
 
@@ -145,6 +298,18 @@ def _find_existing_by_uid(events_dir: str, uid: str) -> str | None:
     return None
 
 
+def _read_yaml_scalar(path: str, key: str) -> str | None:
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            for ln in f:
+                m = re.match(r"^\s*" + re.escape(key) + r":\s*\"([^\"]*)\"\s*$", ln)
+                if m:
+                    return m.group(1)
+    except Exception:
+        return None
+    return None
+
+
 def main() -> None:
     here = os.path.dirname(os.path.abspath(__file__))
     default_out_dir = os.path.join(here, "..", "events")
@@ -153,6 +318,8 @@ def main() -> None:
     ap.add_argument("--out-dir", default=default_out_dir)
     ap.add_argument("--uid-prefix", default=DEFAULT_UID_PREFIX)
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--refetch-existing", action="store_true",
+                    help="既存 YAML も記事 fetch して content_hash 不一致なら上書き (backfill 用)")
     ap.add_argument("--min-items", type=int, default=0,
                     help="抽出 item 数がこれ未満なら exit 2 (default: 0)")
     args = ap.parse_args()
@@ -162,41 +329,112 @@ def main() -> None:
     items = parse_items(xml)
     print(f"Parsed {len(items)} items", file=sys.stderr)
 
+    # --refetch-existing 時は events_dir 配下の oshirase YAML も拾って items に追加
+    # (RSS は直近 90 日分しか返さないため、過去分の backfill には不足)
+    if args.refetch_existing:
+        items = _augment_with_existing(items, args.out_dir, args.uid_prefix)
+        print(f"  with existing YAMLs: {len(items)} items total", file=sys.stderr)
+
     written = 0
     skipped = 0
+    unchanged = 0
     for it in items:
         if not safe_url(it["url"]):
             continue
         uid = f"{args.uid_prefix}-{it['page_id']}@{UID_NAMESPACE}"
 
-        if _find_existing_by_uid(args.out_dir, uid):
+        existing_path = _find_existing_by_uid(args.out_dir, uid)
+        if existing_path and not args.refetch_existing:
             skipped += 1
             continue
 
-        canonical = json.dumps({"title": it["title"], "date": it["date"]},
-                               ensure_ascii=False, sort_keys=True)
+        # 記事 fetch → body 抽出 + method 判定 (LLM 呼出はまだ)
+        try:
+            article_html = fetch(it["url"])
+        except Exception as e:
+            print(f"  ERROR fetching {it['url']}: {e}", file=sys.stderr)
+            continue
+        body = extract_body(article_html)
+        if not body or len(body) < MIN_BODY_CHARS:
+            method = "url-only"
+        elif len(body) <= FULL_TEXT_THRESHOLD:
+            method = "full"
+        else:
+            method = "llm-haiku-4-5"
+
+        # 入力ベースの content_hash (= body + method)。LLM 出力は含めない。
+        # これにより LLM 非決定性に関わらず idempotent。
+        # body / method が変わった時だけ description 再生成。
+        canonical = json.dumps(
+            {"title": it["title"], "date": it["date"], "body": body, "method": method},
+            ensure_ascii=False, sort_keys=True,
+        )
         content_hash = hashlib.sha256(canonical.encode("utf-8")).hexdigest()[:16]
+
+        if existing_path:
+            old_hash = _read_yaml_scalar(existing_path, "content_hash")
+            if old_hash == f"sha256-{content_hash}":
+                # 入力同一 → 既存 YAML をそのまま温存 (LLM 呼出も書込もしない)
+                unchanged += 1
+                continue
+
+        # description を実際に組み立てる (LLM 呼出はここで初めて発生)
+        description = _materialize_description(body, method, it["title"], it["url"])
         doc = build_yaml_doc(uid, it["url"], it["page_id"], it["title"], it["date"],
-                             content_hash, None)
+                             description, method, content_hash, None)
         out_path = output_path_for(args.out_dir, uid, it["date"])
 
         if args.dry_run:
-            print(f"# === {os.path.relpath(out_path, args.out_dir)} ===")
+            print(f"# === {os.path.relpath(out_path, args.out_dir)} === [method={method}]")
             print(doc)
             continue
 
+        if existing_path and os.path.abspath(existing_path) != os.path.abspath(out_path):
+            os.remove(existing_path)
         os.makedirs(os.path.dirname(out_path), exist_ok=True)
         with open(out_path, "w", encoding="utf-8") as f:
             f.write(doc)
-        print(f"  WROTE {out_path}", file=sys.stderr)
+        verb = "UPDATED" if existing_path else "WROTE"
+        print(f"  {verb} [{method}] {out_path}", file=sys.stderr)
         written += 1
 
-    print(f"Done. items written={written}  skipped (existing)={skipped}", file=sys.stderr)
+    print(f"Done. items written={written}  unchanged={unchanged}  skipped (existing)={skipped}",
+          file=sys.stderr)
 
     if (written + skipped) < args.min_items and not args.dry_run:
         print(f"FAIL: items ({written + skipped}) < --min-items ({args.min_items}).",
               file=sys.stderr)
         sys.exit(2)
+
+
+def _augment_with_existing(items: list[dict], out_dir: str, uid_prefix: str) -> list[dict]:
+    """既存 oshirase YAML を items に追加 (RSS の 90 日窓を超えた backfill 用).
+
+    既に items に含まれる page_id は skip。
+    """
+    import glob
+    seen = {it["page_id"] for it in items}
+    pattern = os.path.join(out_dir, "**", "*.yaml")
+    extra: list[dict] = []
+    for path in sorted(glob.glob(pattern, recursive=True)):
+        uid = _read_yaml_scalar(path, "uid")
+        if not uid or not uid.startswith(f"{uid_prefix}-"):
+            continue
+        page_id_m = re.match(rf"{re.escape(uid_prefix)}-(\d+)@", uid)
+        if not page_id_m:
+            continue
+        page_id = page_id_m.group(1)
+        if page_id in seen:
+            continue
+        url = _read_yaml_scalar(path, "url")
+        date = _read_yaml_scalar(path, "dtstart")
+        title_full = _read_yaml_scalar(path, "summary") or ""
+        title = title_full[len(SUMMARY_PREFIX):] if title_full.startswith(SUMMARY_PREFIX) else title_full
+        if not (url and date and title):
+            continue
+        extra.append({"title": title, "url": url, "date": date, "page_id": page_id})
+        seen.add(page_id)
+    return items + extra
 
 
 if __name__ == "__main__":

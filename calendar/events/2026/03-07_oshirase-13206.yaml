@@ -4,6 +4,12 @@ url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/sang
 dtstart: "2026-03-07"
 dtend: "2026-03-07"
 description: |-
+  令和8年3月7日（土曜日）に、東飯能駅の自由通路に**「ムーミンママ」のオブジェをお披露目するセレモニーを開催**しました。
+  
+  飯能駅に続く第2弾として設置されたこのオブジェにより、飯能エリアの二つの玄関口（飯能駅・東飯能駅）がムーミンで結ばれます。駅を起点とした「歩きたくなるまちづくり」を推進し、中心市街地の賑わい創出や市内全域の活性化につなげるとともに、地域住民のシビックプライドや来訪者の満足度向上を目指しています。
+  
+  セレモニーには、飯能市長をはじめ、株式会社ムーミン物語、西武鉄道、飯能商工会議所、奥むさし飯能観光協会など関係機関が出席し、ムーミントロール・ムーミンパパのキャラクターや保育園児も参加しました。「ムーミンに会えるまち、はんのう」プロジェクト推進協議会では、今後もさまざまな施策を展開し、まちの活性化に取り組んでいきます。
+  
   飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/sangakukanrenkei/13206.html
 
 render:
@@ -14,5 +20,6 @@ source:
   type: city-hanno-oshirase
   id: "13206"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/sangakukanrenkei/13206.html"
-  fetched_at: "2026-05-17T23:34:06.424907Z"
-  content_hash: "sha256-8870310ecff9383d"
+  fetched_at: "2026-05-20T03:32:13.032487Z"
+  content_hash: "sha256-c05a22d76bc82776"
+  summary_method: "llm-haiku-4-5"

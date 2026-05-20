@@ -4,6 +4,24 @@ url: "https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/shuzeika/13555.html"
 dtstart: "2026-05-12"
 dtend: "2026-05-12"
 description: |-
+  ## 不審なメール等にご注意ください
+  
+  市役所の税務担当部局（例「市役所 市民税課」）を装って、市民税・県民税（住民税）の納税を、コード決済サービスを利用して記載されたリンク先から行うよう催促する詐欺メールが確認されています。
+  
+  飯能市からメールやSMS、LINE等から税金や延滞金の納付を求める案内をすることはありません。
+  
+  身に覚えのない不審なメールやSMS、LINE等が届いた場合には、速やかに削除してください。
+  
+  ・メール内にURL等のリンクがあった場合、絶対にクリックしないでください。
+  
+  ・万が一クリックした場合でも、リンク先では個人情報等を入力せず、支払手続き等も行わないでください。
+  
+  ・支払いをしてしまった場合は、速やかに最寄りの警察署へご相談ください。
+  
+  警察に対する相談は警察相談専用電話 「＃9110」番へ（政府広報オンライン）
+  
+  不審なメールや電話にご注意ください（国税庁）
+  
   飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/shuzeika/13555.html
 
 render:
@@ -14,5 +32,6 @@ source:
   type: city-hanno-oshirase
   id: "13555"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/shuzeika/13555.html"
-  fetched_at: "2026-05-17T23:34:06.357200Z"
-  content_hash: "sha256-782f6e734ddd0453"
+  fetched_at: "2026-05-20T03:30:34.704325Z"
+  content_hash: "sha256-71726ab8172075cf"
+  summary_method: "full"

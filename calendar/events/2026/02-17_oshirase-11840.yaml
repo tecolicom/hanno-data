@@ -4,6 +4,14 @@ url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kink
 dtstart: "2026-02-17"
 dtend: "2026-02-17"
 description: |-
+  飯能市は持続可能な行財政運営を目指し、緊急財政対策を推進しています。令和8年2月現在、市長を本部長とする緊急財政対策本部会議を9回、プロジェクトチーム会議を4回開催し、検討を重ねています。
+  
+  **緊急財政対策プランの2つの目標**は、①令和8年度末までに財政調整金及び減債基金の合計残高を標準財政規模の10％（**19.5億円以上**）確保する、②歳入に見合った歳出への転換を図ることです。
+  
+  全ての事務事業について見直しを行い、受益者負担の変更、規模縮小、休止・廃止、実施先延ばしなど段階的に整理しています。事務事業見直し検討シート確定版は**令和8年2月17日から公表**されています。
+  
+  令和7年6月に「飯能市緊急財政対策プラン」を策定し、令和8年度当初予算案の編成に向けて全庁一丸となって取組を進めています。使用料・手数料の見直しや窓口開庁時間・住民向け施設の開館時間短縮の検討も進められています。令和8年3月定例会で令和8年度当初予算案を提出予定です。
+  
   飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kinkyuuzaiseitaisaku/11840.html
 
 render:
@@ -14,5 +22,6 @@ source:
   type: city-hanno-oshirase
   id: "11840"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kinkyuuzaiseitaisaku/11840.html"
-  fetched_at: "2026-05-17T23:34:06.443263Z"
-  content_hash: "sha256-692f383d0e29757d"
+  fetched_at: "2026-05-20T03:32:33.646852Z"
+  content_hash: "sha256-f3dbc96177d5e56c"
+  summary_method: "llm-haiku-4-5"

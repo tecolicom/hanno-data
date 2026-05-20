@@ -4,6 +4,10 @@ url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/syogaigakusyu-spor
 dtstart: "2026-02-24"
 dtend: "2026-02-24"
 description: |-
+  令和8年2月21日（土曜日）10時～15時、飯能市市民会館・飯能中央公園で **生涯学習フェスティバル** を開催しました。市民の学習活動の発表・交流と、生涯学習のPRの場として実施し、こどもから大人まで多くの方が来場されました。
+  
+  講座は「超入門 楽しく学ぶ低山ハイク！！天覧山から飯能の山々」「大人もこどもも一緒に学ぼう！お金のはなし」を開設。体験ブースでは脳トレゲーム、ヒノキのぶんぶんゴマ・マグネット、お囃子体験、郷土芸能保存会による模擬演奏、博物館展示案内、里親制度普及啓発の展示、囲碁体験、スライムづくり、ホッケー体験、モルック体験など多彩な内容を提供しました。飯能中央公園では飲食販売も実施されました。
+  
   飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/syogaigakusyu-sports/shogaigakushu/11259.html
 
 render:
@@ -14,5 +18,6 @@ source:
   type: city-hanno-oshirase
   id: "11259"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/syogaigakusyu-sports/shogaigakushu/11259.html"
-  fetched_at: "2026-05-17T23:34:06.432127Z"
-  content_hash: "sha256-d959aebbae602464"
+  fetched_at: "2026-05-20T03:32:24.228276Z"
+  content_hash: "sha256-533b50fbd10ecdc6"
+  summary_method: "llm-haiku-4-5"

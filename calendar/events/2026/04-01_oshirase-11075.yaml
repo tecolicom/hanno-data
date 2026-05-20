@@ -4,6 +4,19 @@ url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminka/1
 dtstart: "2026-04-01"
 dtend: "2026-04-01"
 description: |-
+  飯能市役所本庁舎市民課ロビーに、**令和7年2月3日より証明書交付端末を設置**しました。マイナンバーカードと暗証番号（数字4桁）で、申請書記入や窓口待機なしに住民票の写しなど各種証明書が取得できます。
+  
+  **利用時間：平日午前9時～午後4時30分**（市役所開庁時間と同じ。一部休日開庁日でもご利用いただける場合あり）
+  
+  **支払い：現金のみ**（5円、10円、50円、100円、500円、1,000円紙幣。両替不可）
+  
+  **注意事項：**
+  - 証明書発行後の差し替え・返金不可（印刷不良は窓口で対応）
+  - 市条例による手数料免除対象でも、端末での取得は有料
+  - 複数枚でもホチキス留めなし。取り忘れに注意
+  - 印鑑登録証は取得不可
+  - 暗証番号を3回間違えるとロック。ロック解除は窓口で対応（混雑時は長時間待機あり）
+  
   飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminka/11075.html
 
 render:
@@ -14,5 +27,6 @@ source:
   type: city-hanno-oshirase
   id: "11075"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminka/11075.html"
-  fetched_at: "2026-05-17T23:34:06.400804Z"
-  content_hash: "sha256-d22699a88879ece1"
+  fetched_at: "2026-05-20T03:31:31.123308Z"
+  content_hash: "sha256-b6cb9e70b1191b49"
+  summary_method: "llm-haiku-4-5"

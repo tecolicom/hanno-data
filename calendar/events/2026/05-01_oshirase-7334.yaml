@@ -4,6 +4,16 @@ url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika
 dtstart: "2026-05-01"
 dtend: "2026-05-01"
 description: |-
+  飯能市が山手町の土地6筆を売却します。
+  
+  **売却物件**は、山手町211番1・3・4（畑）、山手町1406番3・1407番4・1410番2（宅地）です。**最低売却価格は6筆合計68,000,000円**。用途地域は第一種住居地域。
+  
+  **入札保証金は10,200,000円**です。
+  
+  **入札申込期間**は**令和8年5月22日（金曜日）～令和8年6月5日（金曜日）**（受付時間：午前9時～午後4時30分）。**入札日時**は**令和8年6月19日（金曜日）午後2時**、**会場は飯能市役所本庁舎2階入札室**です。
+  
+  申込書類（一般競争入札案内、契約書案、入札参加申込書、委任状、入札書、入札辞退届、入札保証金返還請求書、債権者登録申請書）は公式サイトからダウンロードできます。
+  
   飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/7334.html
 
 render:
@@ -14,5 +24,6 @@ source:
   type: city-hanno-oshirase
   id: "7334"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/7334.html"
-  fetched_at: "2026-05-17T23:34:06.377437Z"
-  content_hash: "sha256-c27f92c1a02077be"
+  fetched_at: "2026-05-20T03:30:51.767850Z"
+  content_hash: "sha256-965502fd5e329899"
+  summary_method: "llm-haiku-4-5"

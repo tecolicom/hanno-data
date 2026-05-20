@@ -4,6 +4,14 @@ url: "https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/suidokomuka/134
 dtstart: "2026-04-15"
 dtend: "2026-04-15"
 description: |-
+  有効容量が**10立方メートルを超える貯水槽（受水槽）**を有する施設は、水道法に基づき「簡易専用水道」として、設置者・管理者が適切な維持管理を行うことが義務付けられています。
+  
+  **定期的に実施すべき事項:**
+  - **貯水槽の清掃：1年に1回以上**
+  - **水質検査：1年に1回、登録検査機関にて実施**
+  
+  浄水場でつくられた安全な水を各家庭に適切に供給するため、貯水槽水道の衛生管理が重要です。有効容量10立方メートル以下の小規模貯水槽水道の場合でも、同様の管理に努めてください。清掃や水質検査を行った場合、水道工務課への報告は不要です。
+  
   飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/suidokomuka/13444.html
 
 render:
@@ -14,5 +22,6 @@ source:
   type: city-hanno-oshirase
   id: "13444"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/suidokomuka/13444.html"
-  fetched_at: "2026-05-17T23:34:06.391965Z"
-  content_hash: "sha256-d044c4bb1e0a1554"
+  fetched_at: "2026-05-20T03:31:21.576569Z"
+  content_hash: "sha256-ab2da167a589fb30"
+  summary_method: "llm-haiku-4-5"

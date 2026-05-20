@@ -4,6 +4,16 @@ url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kink
 dtstart: "2026-03-01"
 dtend: "2026-03-01"
 description: |-
+  緊急財政対策に至った経緯と事務事業の見直しについての説明会を、飯能市役所および各地区行政センターで開催しました（令和8年1月・2月）。
+  
+  **1月開催分（終了）**
+  - **1月17日（土）13時30分～15時30分**、1月18日（日）9時30分～11時30分、飯能市役所本庁舎別館
+  
+  **2月開催分（終了）**
+  各地区行政センターで2月9日～28日に開催。加治地区（2月9日19時～21時）、精明地区（2月10日19時～21時）、吾野地区（2月12日19時～21時）、飯能中央地区（2月15日9時30分～11時30分、手話通訳対応）、南高麗地区（2月17日19時～21時）、原市場地区（2月18日19時～21時）、富士見地区（2月19日19時～21時、手話通訳対応）、美杉台地区（2月22日9時30分～11時30分）、名栗地区（2月22日14時30分～16時30分）、双柳地区（2月24日19時～21時）、第二区地区（2月26日19時～21時）、加治東地区（2月27日19時～21時）、東吾野地区（2月28日9時30分～11時30分、手話通訳対応）。
+  
+  **事前申し込み不要。直接会場へお越しください。** 参加希望者が多数の場合は入場を制限することがあります。
+  
   飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kinkyuuzaiseitaisaku/12708.html
 
 render:
@@ -14,5 +24,6 @@ source:
   type: city-hanno-oshirase
   id: "12708"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kinkyuuzaiseitaisaku/12708.html"
-  fetched_at: "2026-05-17T23:34:06.426724Z"
-  content_hash: "sha256-6c6c585889bdf8dc"
+  fetched_at: "2026-05-20T03:32:16.799699Z"
+  content_hash: "sha256-a050909abe5fa292"
+  summary_method: "llm-haiku-4-5"

@@ -4,6 +4,16 @@ url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushi
 dtstart: "2026-03-18"
 dtend: "2026-03-18"
 description: |-
+  日本赤十字社埼玉県支部飯能地区で、国内義援金と海外救援金を受け付けています。
+  
+  **国内義援金**は令和6年能登半島地震災害義援金（石川県・富山県・新潟県）と令和6年9月能登半島大雨災害義援金（石川県）で、いずれも**受付終了予定日は令和9年3月22日**です。
+  
+  **海外救援金**は、中東人道危機救援金、バングラデシュ南部避難民救援金、ウクライナ人道危機救援金（いずれも受付終了予定日は令和9年3月23日）、イラン及び周辺国人道危機救援金（受付終了予定日は令和8年5月25日）、無指定海外救援金（通年受付）があります。
+  
+  **受付場所**は市役所本庁舎正面玄関総合案内（募金箱）または1階11番窓口・地域福祉課で、**受付時間は平日8時30分～17時15分**です。領収書を希望される場合も、地域福祉課で受け付けます。
+  
+  寄せられた義援金は全額が被災地の生活支援に充てられます。
+  
   飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/12265.html
 
 render:
@@ -14,5 +24,6 @@ source:
   type: city-hanno-oshirase
   id: "12265"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/12265.html"
-  fetched_at: "2026-05-17T23:34:06.421100Z"
-  content_hash: "sha256-aad297d759aa293a"
+  fetched_at: "2026-05-20T03:32:06.471326Z"
+  content_hash: "sha256-5df58cbc46860736"
+  summary_method: "llm-haiku-4-5"

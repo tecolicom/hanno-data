@@ -4,6 +4,34 @@ url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/1
 dtstart: "2026-03-30"
 dtend: "2026-03-30"
 description: |-
+  ## イベント内容
+  
+  	期日 5月13日(水曜日)
+  
+  	集合時間 9時45分
+  
+  	集合場所 吾野駅改札口
+  
+  	コース 吾野駅 → たいら栗園 → 東吾野駅 → 武蔵横手駅(マイゴール:約10キロメートル) → 高麗駅
+  
+  	距離  約14キロメートル
+  
+  	予定時間 約4時間30分
+  
+  	参加費 200円(資料代等、当日集金)
+  
+  	持ち物   弁当、飲み物、雨具、交通系ICカード、スゴ足手帳(お持ちの方)
+  
+  	申し込み  5月9日(土曜日）までにASA飯能へ 電話 042-972-4701 ファックス 042-974-2190
+  
+  	中止の確認  天候等による中止の確認は、前日15時以降にASA飯能へ。
+  
+  	その他 保険は各自でお願いします。
+  
+  	問い合わせ 恩田 090-2205-8073
+  
+  	主催  飯能ウオーキング倶楽部
+  
   飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/10588.html
 
 render:
@@ -14,5 +42,6 @@ source:
   type: city-hanno-oshirase
   id: "10588"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/10588.html"
-  fetched_at: "2026-05-17T23:34:06.410025Z"
-  content_hash: "sha256-ef4e4145a0fd10be"
+  fetched_at: "2026-05-20T03:31:45.151440Z"
+  content_hash: "sha256-259d416c3f4f7551"
+  summary_method: "full"

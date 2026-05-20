@@ -4,6 +4,12 @@ url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/shinrinzukur
 dtstart: "2026-03-16"
 dtend: "2026-03-16"
 description: |-
+  飯能市が有間ダム上流の市有林（約1,300ha）を対象に、手入れ不足のスギ・ヒノキ人工林を針広混交林へと復元するプロジェクトを**令和7(2025)年度から実証的に開始**しました。
+  
+  森林の水源涵養機能や災害防止機能を高め、**生物多様性の高い森林づくり**を目指します。プロジェクトでは間伐などの施業に加え、エコツアーやモニタリング、順応的管理にも取り組みます。
+  
+  シンボル種として、対象地で確認されている**クマタカ**（環境省・埼玉県の絶滅危惧IB類、国内希少野生動植物種指定）と**ヤマネ**（埼玉県の準絶滅危惧1型、国指定天然記念物）を設定。施業時には、クマタカの営巣期や狩り場、ヤマネが利用する種子・果実、コケ類などの生育・生息環境に配慮します。
+  
   飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/shinrinzukurika/13168.html
 
 render:
@@ -14,5 +20,6 @@ source:
   type: city-hanno-oshirase
   id: "13168"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/shinrinzukurika/13168.html"
-  fetched_at: "2026-05-17T23:34:06.423005Z"
-  content_hash: "sha256-be667c5578c0bc7a"
+  fetched_at: "2026-05-20T03:32:09.866074Z"
+  content_hash: "sha256-210d3956d4db1029"
+  summary_method: "llm-haiku-4-5"

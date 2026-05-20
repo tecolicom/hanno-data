@@ -4,6 +4,12 @@ url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinko
 dtstart: "2026-05-12"
 dtend: "2026-05-12"
 description: |-
+  飯能市ふるさと納税に多大なるご寄附を賜りまして、誠にありがとうございます。
+  
+  頂戴しましたふるさと納税につきまして、寄附及び使途内容をご報告いたします。
+  
+  令和7年度 ふるさと納税寄附及び使途内容報告書 (PDFファイル: 2.9MB)
+  
   飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/furusatonozei/9107.html
 
 render:
@@ -14,5 +20,6 @@ source:
   type: city-hanno-oshirase
   id: "9107"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/furusatonozei/9107.html"
-  fetched_at: "2026-05-17T23:34:06.361609Z"
-  content_hash: "sha256-6e1e0269552d778b"
+  fetched_at: "2026-05-20T03:30:36.987470Z"
+  content_hash: "sha256-61742191cf6722e2"
+  summary_method: "full"

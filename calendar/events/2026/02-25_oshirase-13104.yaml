@@ -4,6 +4,16 @@ url: "https://www.city.hanno.lg.jp/akebono/oshirase/13104.html"
 dtstart: "2026-02-25"
 dtend: "2026-02-25"
 description: |-
+  トーベ・ヤンソンあけぼの子どもの森公園は、令和8年度から当面の間、季節ごとの利用状況に応じ、開園日・開園時間の変更を試行的に行います。
+  
+  **開園日の変更**
+  繁忙期（4月～5月、9月中旬～12月、3月下旬）は火曜日～日曜日開園、毎週月曜日休園。閑散期（6月～9月上旬、1月～3月中旬）は木曜日～日曜日開園、毎週月曜日・火曜日・水曜日休園。祝日時の振替対応あり。年末年始（12月28日～1月4日）は従来通り休園。
+  
+  **開園時間の変更**
+  土曜日・日曜日・祝日に実施していたライトアップは、令和8年3月29日（日曜日）をもって休止。すべての開園日の閉園時間は17:00となります。
+  
+  詳細な開園カレンダーは飯能市ホームページで公開予定です。来園前に最新情報をご確認ください。
+  
   飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/akebono/oshirase/13104.html
 
 render:
@@ -14,5 +24,6 @@ source:
   type: city-hanno-oshirase
   id: "13104"
   url: "https://www.city.hanno.lg.jp/akebono/oshirase/13104.html"
-  fetched_at: "2026-05-17T23:34:06.430361Z"
-  content_hash: "sha256-a4715c5b79c8b848"
+  fetched_at: "2026-05-20T03:32:21.913540Z"
+  content_hash: "sha256-7f7064e62fea5335"
+  summary_method: "llm-haiku-4-5"

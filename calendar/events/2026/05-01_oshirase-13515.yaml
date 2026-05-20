@@ -4,6 +4,8 @@ url: "https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/suidogyomuka/13
 dtstart: "2026-05-01"
 dtend: "2026-05-01"
 description: |-
+  水道メーターの盗難が全国的に多発しています。飯能市では集合住宅や空き家、工事現場などで被害が起こりやすい傾向があります。メーターは市から使用者への貸与品のため、**定期的にメーターボックスを確認し、漏水の有無をチェック**してください。盗難を発見した場合や不審な行動を見かけた場合は、**警察または水道業務課（電話：042-973-2111）**へご連絡ください。なお、水道メーターの検針は「第一環境株式会社」が実施し、交換作業は飯能市水道事業協同組合に加盟する市内水道工事店が実施します。いずれも市が発行した身分証明書または腕章を携帯していますので、不審に思われたら提示をお求めください。
+  
   飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/suidogyomuka/13515.html
 
 render:
@@ -14,5 +16,6 @@ source:
   type: city-hanno-oshirase
   id: "13515"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/suidogyomuka/13515.html"
-  fetched_at: "2026-05-17T23:34:06.373623Z"
-  content_hash: "sha256-269f02956cdf8ea0"
+  fetched_at: "2026-05-20T03:30:45.681401Z"
+  content_hash: "sha256-bebdfca099642de3"
+  summary_method: "llm-haiku-4-5"

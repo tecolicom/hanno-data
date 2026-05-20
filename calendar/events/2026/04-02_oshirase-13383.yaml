@@ -4,6 +4,16 @@ url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/kankyomidori
 dtstart: "2026-04-02"
 dtend: "2026-04-02"
 description: |-
+  令和8年4月1日より、環境緑水課はクリーンセンターへ移転します。
+  
+  ご用の際は、クリーンセンター3階 事務室へお越しください。
+  
+  移転先住所：飯能市大字下畑768番地の1
+  
+  移転場所は以下の地図をご参照ください。
+  
+  移転先地図 (PDFファイル: 292.6KB)
+  
   飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/kankyomidorimizuka/13383.html
 
 render:
@@ -14,5 +24,6 @@ source:
   type: city-hanno-oshirase
   id: "13383"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/kankyomidorimizuka/13383.html"
-  fetched_at: "2026-05-17T23:34:06.395502Z"
-  content_hash: "sha256-cfcfe314ac207679"
+  fetched_at: "2026-05-20T03:31:21.777878Z"
+  content_hash: "sha256-10b27efee5ee68d9"
+  summary_method: "full"

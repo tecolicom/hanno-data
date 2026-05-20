@@ -4,6 +4,18 @@ url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/hoikuka/13015
 dtstart: "2026-03-19"
 dtend: "2026-03-19"
 description: |-
+  **こども誰でも通園制度**は、保育所等に通っていない生後6か月以上3歳未満のこどもを対象に、月10時間までの範囲内で就労要件等を問わず保育所等が利用できる制度です。
+  
+  **利用対象者**は、(1)生後6か月～満3歳未満、(2)保育所等に在籍していない、(3)飯能市に住所を有する、の全てを満たすこども。実施施設により受入可能年齢が異なります。
+  
+  **利用料金**は1時間あたり300円（生活困窮家庭などは減額あり）。給食代やおやつ代は別途実費負担。予約後のキャンセル料が生じる場合があります。
+  
+  **実施場所**（令和8年4月1日時点）：あかり保育園飯能（柳町23-6、定員9、柔軟利用）、学校法人さゆり学園（緑町2-5、定員12、定期利用）
+  
+  **利用までの流れ**：認定申請→利用アカウント発行・パスワード登録→面談予約・実施→利用予約→利用。こども誰でも通園制度総合支援システムへの登録が必要です。
+  
+  利用する事業所ごとに初回面談が必須。面談は親子同席が基本です。各事業所には定員があり、利用希望者多数の場合は利用できないことがあります。
+  
   飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/hoikuka/13015.html
 
 render:
@@ -14,5 +26,6 @@ source:
   type: city-hanno-oshirase
   id: "13015"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/hoikuka/13015.html"
-  fetched_at: "2026-05-17T23:34:06.419159Z"
-  content_hash: "sha256-95eb918f093429d7"
+  fetched_at: "2026-05-20T03:32:03.801801Z"
+  content_hash: "sha256-7779a55ddf51b9ac"
+  summary_method: "llm-haiku-4-5"

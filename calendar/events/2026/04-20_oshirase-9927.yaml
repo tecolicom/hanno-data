@@ -4,6 +4,14 @@ url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/9
 dtstart: "2026-04-20"
 dtend: "2026-04-20"
 description: |-
+  飯能市では、**令和8年4月22日から10月28日まで**、市内の公共施設や民間事業者の協力により、冷房完備の「涼み処」を開放します。外出先での熱中症予防に活用できます。
+  
+  **利用は営業時間内であれば誰でも無料で利用可能**です。各施設の開放日時は以下の通りです。
+  
+  **飯能地区**：こども図書館（火〜日祝、最終金曜、11〜16時）、いなり町薬局・ふれあい薬局飯能店・マサカヤ薬局・ハート薬局飯能大河原店（各営業日）、市民活動センター（月〜日、10〜19時）、飯能中央地区行政センター（平日、9〜16時30分）、博物館（火〜日、9時30分〜16時30分）、ふれあい薬局本町店（平日、9時30分〜18時30分）、市立図書館（火〜日祝、最終金曜、9時30分〜18時）
+  
+  **その他地区**：第二区地区行政センター、精明地区行政センター、飯能市役所、富士見地区行政センター、双柳地区行政センター、総合福祉センター、加治・美杉台・南高麗・吾野・東吾野・原市場・名栗各地区の行政センター、及び複数の薬局・診療所が対応しています。各施設の詳細な開放日時は施設により異なります。
+  
   飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/9927.html
 
 render:
@@ -14,5 +22,6 @@ source:
   type: city-hanno-oshirase
   id: "9927"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/9927.html"
-  fetched_at: "2026-05-17T23:34:06.386494Z"
-  content_hash: "sha256-e017746b0e0650d6"
+  fetched_at: "2026-05-20T03:31:10.131395Z"
+  content_hash: "sha256-4e1ffa8a84900a03"
+  summary_method: "llm-haiku-4-5"

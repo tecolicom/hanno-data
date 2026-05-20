@@ -4,6 +4,18 @@ url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kink
 dtstart: "2026-02-17"
 dtend: "2026-02-17"
 description: |-
+  飯能市が極めて厳しい財政状況に対応するため、**事務事業見直し検討シートを複数回公表しています**。
+  
+  **令和7年8月版（第1弾）** では、受益者負担の見直し、規模縮小、休止・廃止、実施先延ばしなどを段階的に整理。
+  
+  **令和7年10月版（第2弾）** では見直し状況を更新。しかし当初予算比で**約9.5億円の収支乖離が残存**。
+  
+  **令和7年11月版（第3弾）** では、想定を上回る収支乖離に対応するため追加の事務事業見直しを実施。それでも**10億円以上の乖離**があり、市始まって以来の最大危機と位置づけています。
+  
+  **令和8年1月版（第4弾）** では、12月定例会での質問や市民意見を踏まえ一部見直しを改め、**財政調整基金に頼らない予算編成**が可能となる見込みとなりました。ただし国の臨時交付金活用、市長・職員給与削減、事務事業の休止・廃止・縮小など応急的対応によるものです。
+  
+  **確定版** は3月定例会提出予算案と整合させたもので、市民意見や基金残高を踏まえ、社会保障関連経費の一部を復活させています。
+  
   飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kinkyuuzaiseitaisaku/12184.html
 
 render:
@@ -14,5 +26,6 @@ source:
   type: city-hanno-oshirase
   id: "12184"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kinkyuuzaiseitaisaku/12184.html"
-  fetched_at: "2026-05-17T23:34:06.441355Z"
-  content_hash: "sha256-1d1dba8f0e18ad30"
+  fetched_at: "2026-05-20T03:32:38.707804Z"
+  content_hash: "sha256-71a2a9ae1d0ebadd"
+  summary_method: "llm-haiku-4-5"

@@ -4,6 +4,34 @@ url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/1
 dtstart: "2026-03-30"
 dtend: "2026-03-30"
 description: |-
+  ## イベント内容
+  
+  	期日 5月23日(土曜日)
+  
+  	集合時間 10時
+  
+  	集合場所 第二区地区行政センター
+  
+  	コース 第二区地区行政センター → 赤根ケ峠 → 美杉台セブンイレブン → あさひ山展望公園 → 飯能中央地区行政センター前 → 飯能市役所
+  
+  	距離 約14キロメートル
+  
+  	予定時間 約4時間30分
+  
+  	費用 200円(資料代。当日集金)
+  
+  	持ち物 弁当、飲み物、雨具、交通系ICカード、スゴ足手帳(お持ちの方)
+  
+  	その他 保険は各自でお願いします。
+  
+  	申込み 5月19日（火曜日）までにASA飯能へ 電話 972‐4701 ファックス 974‐2190
+  
+  	中止の確認 天候による中止の確認は、前日15時以降にASA飯能中央へ
+  
+  	問い合わせ 恩田 090-2205-8073
+  
+  	主催 飯能ウオーキング倶楽部
+  
   飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/12385.html
 
 render:
@@ -14,5 +42,6 @@ source:
   type: city-hanno-oshirase
   id: "12385"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/12385.html"
-  fetched_at: "2026-05-17T23:34:06.408127Z"
-  content_hash: "sha256-602b38abf7422603"
+  fetched_at: "2026-05-20T03:31:44.993722Z"
+  content_hash: "sha256-20597da75f74e661"
+  summary_method: "full"
