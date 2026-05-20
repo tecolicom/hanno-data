@@ -1,0 +1,18 @@
+uid: "oshirase-13272@hanno.city.tecoli.com"
+summary: "ℹ️ 令和8年度文化財めぐりを開催します（5月20日受付終了）"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/bunkazaitanto/bunkazai/13272.html"
+dtstart: "2026-05-20"
+dtend: "2026-05-20"
+description: |-
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/bunkazaitanto/bunkazai/13272.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13272"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/bunkazaitanto/bunkazai/13272.html"
+  fetched_at: "2026-05-20T23:16:41.799306Z"
+  content_hash: "sha256-44b1b7773435e9d5"

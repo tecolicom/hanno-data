@@ -1,7 +1,7 @@
 uid: "87me7084a05taa3pej0st7sre8@google.com"
 summary: "Myはんのう v1.18.4"
 dtstart: "2026-05-19"
-dtend: "2026-05-21"
+dtend: "2026-05-19"
 description: |-
   ### v1.18.3 新機能
   - **トップページに今日の年号 (西暦・和暦) を表示** — 月日・曜日の下に「2026/令和8」のように小さく出ます。
@@ -18,4 +18,4 @@ description: |-
 
 render:
   gcal:
-    mode: span-allday
+    mode: single-allday

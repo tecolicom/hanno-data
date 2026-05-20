@@ -1,9 +1,9 @@
-uid: "tourism-tanetsuti-1-2-20260621@hanno.city.tecoli.com"
+uid: "tourism-tanetsuti-1-2-20260628@hanno.city.tecoli.com"
 summary: "森のまち飯能で楽しむ菌ちゃん畑づくりと夏野菜植えつけ体験"
 location: "集合 ラ・ノーラ前の畑 （飯能市下加治243-25、イーグルバス「飯能靖和病院」下車徒歩8分）"
 url: "https://hanno-tourism.jp/hanno-eco/tour/tanetsuti-1-2/"
-dtstart: "2026-06-21T09:30:00+09:00"
-dtend: "2026-06-21T14:40:00+09:00"
+dtstart: "2026-06-28T09:30:00+09:00"
+dtend: "2026-06-28T14:40:00+09:00"
 description: |-
   飯能エコツーリズム協会: https://hanno-tourism.jp/hanno-eco/tour/tanetsuti-1-2/
   
@@ -26,5 +26,5 @@ source:
   type: hanno-tourism-jp
   id: "tanetsuti-1-2"
   url: "https://hanno-tourism.jp/hanno-eco/tour/tanetsuti-1-2/"
-  fetched_at: "2026-05-20T23:16:28.812437Z"
+  fetched_at: "2026-05-20T23:16:28.812676Z"
   content_hash: "sha256-5df8478ffa9633cc"
