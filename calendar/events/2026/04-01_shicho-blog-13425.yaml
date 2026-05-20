@@ -4,6 +4,10 @@ url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026
 dtstart: "2026-04-01"
 dtend: "2026-04-01"
 description: |-
+  4月1日（水曜日）、令和8年度新規採用職員の辞令交付を行い、新たに15人が希望を胸に飯能市の職員としてスタートを切りました。
+  
+  新たな職員を含め職員一丸となり、将来都市像「人・自然・未来がつながる 森林文化都市 はんのう～好循環を育む ずっと暮らしたいまち～」の実現のため、今後も全力で取り組んでまいります。
+  
   市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13425.html
 
 render:
@@ -14,5 +18,5 @@ source:
   type: city-hanno-shicho-blog
   id: "13425"
   url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13425.html"
-  fetched_at: "2026-05-17T14:26:58.809526Z"
-  content_hash: "sha256-04ef17dfead17da5"
+  fetched_at: "2026-05-20T02:17:48.494406Z"
+  content_hash: "sha256-7424542953614c7f"

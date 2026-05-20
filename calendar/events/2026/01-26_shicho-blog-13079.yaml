@@ -4,6 +4,10 @@ url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026
 dtstart: "2026-01-26"
 dtend: "2026-01-26"
 description: |-
+  1月26日（月曜日）、西部電設協力会様から飯能市の地域防犯に役立てていただきたいとのお申し出をいただき、LED防犯灯8基をご寄附いただきました。
+  
+  西部電設協力会様からは、昭和53年から毎年欠かさず防犯灯のご寄附をいただき、これまでの総数が1,300基に達しました。今回いただいたLED防犯灯につきましても、地域の安全安心と犯罪抑止のために活用させていただきます。
+  
   市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202601/13079.html
 
 render:
@@ -14,5 +18,5 @@ source:
   type: city-hanno-shicho-blog
   id: "13079"
   url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202601/13079.html"
-  fetched_at: "2026-05-17T14:26:49.141664Z"
-  content_hash: "sha256-57fe684d33863b0e"
+  fetched_at: "2026-05-20T02:17:42.106413Z"
+  content_hash: "sha256-537a4991ef6bb820"

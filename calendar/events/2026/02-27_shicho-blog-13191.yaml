@@ -4,6 +4,10 @@ url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026
 dtstart: "2026-02-27"
 dtend: "2026-02-27"
 description: |-
+  2月27日（金曜日）、令和8年第1回飯能市議会定例会が開会されました。
+  
+  会期は2月27日から3月25日までで、専決処分の承認を求めることについて、条例案、補正予算案、当初予算案など計39件の議案についてご審議いただく予定です。
+  
   市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202602/13191.html
 
 render:
@@ -14,5 +18,5 @@ source:
   type: city-hanno-shicho-blog
   id: "13191"
   url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202602/13191.html"
-  fetched_at: "2026-05-17T14:26:50.861298Z"
-  content_hash: "sha256-9146ba03c1a3deca"
+  fetched_at: "2026-05-20T02:17:43.233750Z"
+  content_hash: "sha256-cd407e8855a8c142"

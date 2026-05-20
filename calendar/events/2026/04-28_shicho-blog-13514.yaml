@@ -4,6 +4,12 @@ url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026
 dtstart: "2026-04-28"
 dtend: "2026-04-28"
 description: |-
+  4月28日（火曜日）、飯能ロータリークラブ様より、小・中学生の環境教育のために役立ててほしいとの趣旨により、ご寄附をいただきました。
+  
+  令和4年度から同様の趣旨でご寄附をいただき、令和4年度・令和6年度は飯能市立の小学校、令和5年度・令和7年度は飯能市立の中学校で環境学習用品を購入させていただきました。
+  
+  今回いただいた寄附金につきましても、趣旨に沿うよう有効に活用させていただきます。
+  
   市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13514.html
 
 render:
@@ -14,5 +20,5 @@ source:
   type: city-hanno-shicho-blog
   id: "13514"
   url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13514.html"
-  fetched_at: "2026-05-17T14:26:55.919535Z"
-  content_hash: "sha256-8aeb7092c1ed2c01"
+  fetched_at: "2026-05-20T02:17:46.781055Z"
+  content_hash: "sha256-a49d9e9ca32e2d41"

@@ -4,6 +4,12 @@ url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026
 dtstart: "2026-04-20"
 dtend: "2026-04-20"
 description: |-
+  4月20日（月曜日）、令和8年度 春季埼玉県高等学校野球大会の組合せが発表されました。
+  
+  聖望学園高校は4月24日（金曜日）にUDトラックス上尾スタジアムにて大宮北高校と、10年ぶりに地区予選を勝ち抜いた飯能高校は4月25日（土曜日）に大宮公園野球場にて浦和学院と対戦する予定です。
+  
+  市民の皆さまの応援をよろしくお願いいたします。
+  
   市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13465.html
 
 render:
@@ -14,5 +20,5 @@ source:
   type: city-hanno-shicho-blog
   id: "13465"
   url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13465.html"
-  fetched_at: "2026-05-17T14:26:56.794383Z"
-  content_hash: "sha256-6f8944deab0e0fee"
+  fetched_at: "2026-05-20T02:17:47.231712Z"
+  content_hash: "sha256-a29d5bee3cded357"

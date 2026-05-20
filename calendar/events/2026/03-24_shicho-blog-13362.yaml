@@ -4,6 +4,14 @@ url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026
 dtstart: "2026-03-24"
 dtend: "2026-03-24"
 description: |-
+  3月24日（火曜日）、本市と株式会社富士薬品は「包括連携協定」を締結しました。
+  
+  株式会社富士薬品様は、「とどけ、元気。つづけ、元気。」のスローガンのもと、ひとの元気なくらしを支え続けることを使命に掲げ、配置薬販売をはじめ、ドラッグストア・調剤薬局の展開、医薬品の開発・製造を通じて、地域の人々の生活に寄り添う良質なサービスの提供に努められています。
+  
+  昨今は、事業活動によって地方自治体が取り組むまちづくりを支援すべく、地方自治体との連携協定を推進されており、本市においてもその知識や経験を活用し、相互に協力してまちづくりに取り組んでいくため包括連携協定を締結することといたしました。
+  
+  今後、双方が連携して、防災・災害対策の強化や市民の健康づくりを推進し、地域の活性化を目指してまいります。
+  
   市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13362.html
 
 render:
@@ -14,5 +22,5 @@ source:
   type: city-hanno-shicho-blog
   id: "13362"
   url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13362.html"
-  fetched_at: "2026-05-17T14:26:53.308020Z"
-  content_hash: "sha256-fbe12e8939bb992a"
+  fetched_at: "2026-05-20T02:17:45.033010Z"
+  content_hash: "sha256-d4b1901008a9e0dc"

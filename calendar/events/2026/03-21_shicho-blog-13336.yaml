@@ -4,6 +4,10 @@ url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026
 dtstart: "2026-03-21"
 dtend: "2026-03-21"
 description: |-
+  3月21日（土曜日）、飯能ライオンズクラブ桜並木 ぼんぼり点灯式にお招きいただき参加してまいりました。この点灯式は飯能ライオンズクラブ桜並木が市民の皆様から桜の名所と親しまれるよう、実施されています。
+  
+  点灯式開催にあたり、ご尽力いただきました関係者の方々に感謝申し上げます。
+  
   市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13336.html
 
 render:
@@ -14,5 +18,5 @@ source:
   type: city-hanno-shicho-blog
   id: "13336"
   url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13336.html"
-  fetched_at: "2026-05-17T14:26:54.128941Z"
-  content_hash: "sha256-e5ab257d1a58f07c"
+  fetched_at: "2026-05-20T02:17:45.605106Z"
+  content_hash: "sha256-a9bd4c3294a2599c"

@@ -4,6 +4,10 @@ url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026
 dtstart: "2026-04-03"
 dtend: "2026-04-03"
 description: |-
+  4月3日（金曜日）、晴天の中、駿河台大学にて、令和8年度駿河台大学入学式が執り行われ、来賓として出席し、祝辞を述べました。
+  
+  入学された皆さん、ご入学誠におめでとうございます。皆さんが広いキャンパスと本市の恵まれた自然環境の中で、学問そしてスポーツ、文化活動と充実した学生生活を送られることを切望するとともに、ご臨席されました皆様のご健康、ご多幸、そして駿河台大学の更なるご発展を心からお祈り申し上げます。
+  
   市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13407.html
 
 render:
@@ -14,5 +18,5 @@ source:
   type: city-hanno-shicho-blog
   id: "13407"
   url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13407.html"
-  fetched_at: "2026-05-17T14:26:58.095279Z"
-  content_hash: "sha256-8bfae56b37b1733e"
+  fetched_at: "2026-05-20T02:17:48.071658Z"
+  content_hash: "sha256-b5c5a84cdd214b9f"

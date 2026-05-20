@@ -4,6 +4,14 @@ url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026
 dtstart: "2026-04-05"
 dtend: "2026-04-05"
 description: |-
+  4月5日（日曜日）、飯能日高消防署にて、飯能消防団入団式を多くのご来賓のご臨席をいただき挙行いたしました。
+  
+  入団式では、4月1日付け入団者の13名に加え、令和7年度途中入団者の6名、計19名が出席し地域防災の要である消防団員の一員として新たなスタートを切りました。
+  
+  また、第15代飯能消防団長の大附泰久様におかれましては、31年にわたり消防団員としてご尽力いただき3月31日をもちまして団長を退任され、新たに金子和弘団長が就任し、それぞれ辞令を交付いたしました。
+  
+  消防団員におかれましては、日頃から昼夜を問わず災害の対応していただいておりますことに感謝申し上げますとともに、市民の安心・安全を守るため引き続きご精進いただきますようお願いいたします。
+  
   市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13428.html
 
 render:
@@ -14,5 +22,5 @@ source:
   type: city-hanno-shicho-blog
   id: "13428"
   url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13428.html"
-  fetched_at: "2026-05-17T14:26:57.886110Z"
-  content_hash: "sha256-3664991fc705a0b2"
+  fetched_at: "2026-05-20T02:17:47.926464Z"
+  content_hash: "sha256-4f0cd8a61338a788"

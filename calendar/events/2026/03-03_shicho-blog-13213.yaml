@@ -4,6 +4,12 @@ url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026
 dtstart: "2026-03-03"
 dtend: "2026-03-03"
 description: |-
+  3月3日（火曜日）、いるま野農業協同組合様から交通安全活動の一環として、交通事故防止に役立てていただきたいとのご趣旨により、横断旗399本（児童用339本、保護者用60本）、児童用の交通安全雨傘300本を寄贈していただきました。
+  
+  交通安全雨傘は、傘を差していても前が見えやすいよう傘の一部が透明になっています。
+  
+  今回寄贈していただいた横断旗及び交通安全雨傘につきましては、飯能市立小学校での交通安全、交通事故防止に活用させていただきたいと考えております。
+  
   市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13213.html
 
 render:
@@ -14,5 +20,5 @@ source:
   type: city-hanno-shicho-blog
   id: "13213"
   url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13213.html"
-  fetched_at: "2026-05-17T14:26:54.975002Z"
-  content_hash: "sha256-94112f77ae4ee615"
+  fetched_at: "2026-05-20T02:17:46.278358Z"
+  content_hash: "sha256-2bbd9cc3077e1f07"

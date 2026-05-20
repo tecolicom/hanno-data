@@ -4,6 +4,16 @@ url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026
 dtstart: "2026-03-02"
 dtend: "2026-03-02"
 description: |-
+  3月2日（月曜日）、令和7年度飯能市交通安全教室業務委託を請け負っている株式会社セーフティユニオン様から、来年度の交通安全教室を無償で実施する旨の申し出をいただきました。
+  
+  飯能市では、現在、緊急財政対策に取り組んでおり、全庁的に事業の見直しを進めております。その見直しでは全事業を対象とし、令和8年度においては生活安全課が所管している交通安全教室業務委託も休止となりました。
+  
+  そのような中、セーフティユニオン様におかれましては、市民の「安全・安心」のため、市民の皆様の支援を目的として、令和7年度に実施している交通安全教室を令和8年度において無償で実施するご提案をいただきました。
+  
+  また、交通安全だけではなく地域の防犯や防災にも貢献したいとの大変ありがたい申し出もいただきました。
+  
+  今後とも市民の皆様が交通事故に遭うことなく安心して生活することができる飯能市を目指してまいります。
+  
   市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13203.html
 
 render:
@@ -14,5 +24,5 @@ source:
   type: city-hanno-shicho-blog
   id: "13203"
   url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13203.html"
-  fetched_at: "2026-05-17T14:26:55.173764Z"
-  content_hash: "sha256-3c3f785f5b508c73"
+  fetched_at: "2026-05-20T02:17:46.420424Z"
+  content_hash: "sha256-bb3b7dbf6851aae0"

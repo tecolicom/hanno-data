@@ -4,6 +4,12 @@ url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026
 dtstart: "2026-04-21"
 dtend: "2026-04-21"
 description: |-
+  4月21日（火曜日）、青梅信用金庫様より『あおしん“TASUKI”寄附金』をいただきました。
+  
+  地域の発展を担うこどもの未来のために創設されたこの寄附金制度は、寄附を通じてこども達への支援や子育て家庭への支援を図ることを目的とされ、令和5年度から毎年ご寄附をいただいております。
+  
+  この度のご寄附については、0歳児の赤ちゃんの保護者が育児用品等の購入に使用できる「赤ちゃんスマイルクーポン」を支給するための財源にさせていただきます。
+  
   市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13482.html
 
 render:
@@ -14,5 +20,5 @@ source:
   type: city-hanno-shicho-blog
   id: "13482"
   url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13482.html"
-  fetched_at: "2026-05-17T14:26:56.576510Z"
-  content_hash: "sha256-d76989f944a84c8a"
+  fetched_at: "2026-05-20T02:17:47.122638Z"
+  content_hash: "sha256-56790bfcffeee1b6"

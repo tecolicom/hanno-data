@@ -103,11 +103,98 @@ def find_article_links(month_html: str) -> list[tuple[str, str]]:
 
 _DATE_RE = re.compile(r"(\d{4})年(\d{1,2})月(\d{1,2})日")
 
+# 本文抽出のしきい値・パラメータ
+BODY_FULL_THRESHOLD = 800   # この字数以下なら全文掲載
+BODY_EXCERPT_TARGET = 600   # 超過時の目標抜粋字数
+
+
+def _strip_html(s: str) -> str:
+    """HTML タグ + 主要 entity を素のテキストに."""
+    s = re.sub(r"<br\s*/?>", "\n", s, flags=re.I)
+    s = re.sub(r"</p\s*>", "\n\n", s, flags=re.I)
+    s = re.sub(r"<[^>]+>", "", s)
+    s = s.replace("&nbsp;", " ").replace("&amp;", "&")
+    s = s.replace("&lt;", "<").replace("&gt;", ">").replace("&quot;", '"')
+    return s
+
+
+def _normalize_body(text: str) -> str:
+    """段落間 1 空行、行頭空白除去、末尾空白除去."""
+    lines = [ln.rstrip() for ln in text.split("\n")]
+    # 行頭の連続空白は段落字下げの装飾なので除去
+    lines = [re.sub(r"^[ 　]+", "", ln) for ln in lines]
+    # 3 行以上の空行は 2 行に圧縮 (段落区切り = 1 空行)
+    out: list[str] = []
+    blank_run = 0
+    for ln in lines:
+        if ln == "":
+            blank_run += 1
+            if blank_run <= 1:
+                out.append(ln)
+        else:
+            blank_run = 0
+            out.append(ln)
+    return "\n".join(out).strip()
+
+
+def extract_body(html: str) -> str:
+    """記事 HTML から本文テキストを抽出.
+
+    `<div class="free-layout-area">` 配下、`<div class="toiawase">` (お問い合わせ先)
+    手前まで。h2 の日付見出しは除外 (title 由来情報なので冗長)。
+    """
+    m = re.search(r'<div class="free-layout-area">([\s\S]*?)(?=<div class="toiawase">|</article>)', html)
+    if not m:
+        return ""
+    block = m.group(1)
+    # h2 (日付見出し) は除外
+    block = re.sub(r"<h2[^>]*>[\s\S]*?</h2>", "", block)
+    # figure / img は除外
+    block = re.sub(r"<figure[^>]*>[\s\S]*?</figure>", "", block)
+    text = _strip_html(block)
+    return _normalize_body(text)
+
+
+def truncate_body(body: str, full_threshold: int = BODY_FULL_THRESHOLD,
+                  excerpt_target: int = BODY_EXCERPT_TARGET) -> tuple[str, bool]:
+    """長さに応じて全文 or 抜粋を返す.
+
+    戻り値: (text, truncated)
+    """
+    if len(body) <= full_threshold:
+        return body, False
+
+    # 段落境界優先
+    paragraphs = body.split("\n\n")
+    acc: list[str] = []
+    total = 0
+    for p in paragraphs:
+        if acc and total + len(p) + 2 > excerpt_target:
+            break
+        acc.append(p)
+        total += len(p) + 2
+    excerpt = "\n\n".join(acc).strip()
+
+    # 段落 1 個ですでに長過ぎる → 句点で切る
+    if not excerpt or len(excerpt) > excerpt_target * 1.5:
+        first = paragraphs[0]
+        cut = -1
+        for i in range(min(len(first), excerpt_target + 100), 0, -1):
+            if first[i - 1] == "。":
+                cut = i
+                break
+        if cut > 0:
+            excerpt = first[:cut]
+        else:
+            excerpt = first[:excerpt_target]
+    return excerpt + "…", True
+
 
 def parse_article(html: str) -> dict | None:
-    """h1 + 更新日を抽出して dict 返す.
+    """h1 + 更新日 + 本文を抽出して dict 返す.
 
-    戻り値: {"title": str, "date": "YYYY-MM-DD"}, 失敗時 None
+    戻り値: {"title": str, "date": "YYYY-MM-DD", "body": str, "body_truncated": bool},
+            失敗時 (title/date 取れない時) None
     """
     # h1 (空のものをスキップ、最初の意味あるものを採用)
     title: str | None = None
@@ -129,7 +216,16 @@ def parse_article(html: str) -> dict | None:
         _date(yyyy, mm, dd)
     except ValueError:
         return None
-    return {"title": title, "date": f"{yyyy:04d}-{mm:02d}-{dd:02d}"}
+
+    body_full = extract_body(html)
+    body, truncated = truncate_body(body_full) if body_full else ("", False)
+
+    return {
+        "title": title,
+        "date": f"{yyyy:04d}-{mm:02d}-{dd:02d}",
+        "body": body,
+        "body_truncated": truncated,
+    }
 
 
 def slug_from_article_url(url: str) -> str:
@@ -152,7 +248,24 @@ def yaml_block_scalar(s: str, indent: int = 2) -> str:
     return head + "\n" + "\n".join(pad + ln for ln in body)
 
 
+def build_description(article_url: str, body: str, truncated: bool) -> str:
+    """description テキストを組み立て.
+
+    本文があれば 本文 + 区切り + リンク。
+    本文無し (抽出失敗) の場合は従来通り URL のみ。
+    """
+    if not body:
+        return f"市長ブログ「市政一直線」: {article_url}"
+    tail = "（続きはリンク先で）" if truncated else ""
+    parts = [body]
+    if tail:
+        parts.append(tail)
+    parts.append(f"市長ブログ「市政一直線」: {article_url}")
+    return "\n\n".join(parts)
+
+
 def build_yaml_doc(uid: str, article_url: str, page_id: str, title: str, date_str: str,
+                   body: str, body_truncated: bool,
                    content_hash: str, fetched_at: str | None) -> str:
     lines: list[str] = []
     lines.append(f"uid: {yaml_escape_str(uid)}")
@@ -160,7 +273,8 @@ def build_yaml_doc(uid: str, article_url: str, page_id: str, title: str, date_st
     lines.append(f"url: {yaml_escape_str(article_url)}")
     lines.append(f"dtstart: {yaml_escape_str(date_str)}")
     lines.append(f"dtend: {yaml_escape_str(date_str)}")
-    lines.append("description: " + yaml_block_scalar(f"市長ブログ「市政一直線」: {article_url}", indent=2))
+    description = build_description(article_url, body, body_truncated)
+    lines.append("description: " + yaml_block_scalar(description, indent=2))
     lines.append("")
     lines.append("render:")
     lines.append("  gcal:")
@@ -203,6 +317,8 @@ def main() -> None:
     ap.add_argument("--year", type=int, help="対象西暦 (default: 現在年)")
     ap.add_argument("--uid-prefix", default=DEFAULT_UID_PREFIX)
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--refetch-existing", action="store_true",
+                    help="既存 YAML も再 fetch し、content_hash 不一致なら上書き (本文取り込みの backfill 用)")
     ap.add_argument("--min-articles", type=int, default=0,
                     help="抽出 article 数がこれ未満なら exit 2 (default: 0 = 失敗扱いしない)")
     args = ap.parse_args()
@@ -226,6 +342,7 @@ def main() -> None:
     # 3. 各月ページ → 記事 list → 記事 fetch
     written = 0
     skipped = 0
+    unchanged = 0
     for mm, month_url in month_pages:
         if not safe_url(month_url):
             print(f"  skip out-of-allowlist month URL: {month_url}", file=sys.stderr)
@@ -240,10 +357,9 @@ def main() -> None:
             page_id = slug_from_article_url(article_url)
             uid = f"{args.uid_prefix}-{page_id}@{UID_NAMESPACE}"
 
-            # 既存 YAML があれば skip (idempotent + polite)
-            # まず日付を仮置きで読み出すための予測 path は無理なので、events_dir 全 YAML を search
-            existing = _find_existing_by_uid(args.out_dir, uid)
-            if existing:
+            # 既存 YAML 検索 (idempotent + polite)
+            existing_path = _find_existing_by_uid(args.out_dir, uid)
+            if existing_path and not args.refetch_existing:
                 skipped += 1
                 continue
 
@@ -258,12 +374,26 @@ def main() -> None:
                 print(f"    WARN: no title/date in {article_url}", file=sys.stderr)
                 continue
 
-            # canonical hash (title + date)
-            canonical = json.dumps(parsed, ensure_ascii=False, sort_keys=True)
+            # canonical hash (title + date + body 抜粋)。本文変化を検知する。
+            canonical = json.dumps(
+                {"title": parsed["title"], "date": parsed["date"],
+                 "body": parsed["body"], "body_truncated": parsed["body_truncated"]},
+                ensure_ascii=False, sort_keys=True,
+            )
             content_hash = hashlib.sha256(canonical.encode("utf-8")).hexdigest()[:16]
 
+            # 既存 YAML と hash 一致なら fetched_at を流用して diff ゼロ維持
+            fetched_at = None
+            if existing_path:
+                old_hash = _read_content_hash(existing_path)
+                old_fetched_at = _read_fetched_at(existing_path)
+                if old_hash == f"sha256-{content_hash}":
+                    fetched_at = old_fetched_at  # 上書きするが内容同一 → ts も同一
+                    unchanged += 1
+
             doc = build_yaml_doc(uid, article_url, page_id, parsed["title"], parsed["date"],
-                                 content_hash, None)
+                                 parsed["body"], parsed["body_truncated"],
+                                 content_hash, fetched_at)
             out_path = output_path_for(args.out_dir, uid, parsed["date"])
 
             if args.dry_run:
@@ -271,13 +401,17 @@ def main() -> None:
                 print(doc)
                 continue
 
+            # 既存 path と新 path が違う (日付変更等) なら旧 path 削除
+            if existing_path and os.path.abspath(existing_path) != os.path.abspath(out_path):
+                os.remove(existing_path)
             os.makedirs(os.path.dirname(out_path), exist_ok=True)
             with open(out_path, "w", encoding="utf-8") as f:
                 f.write(doc)
-            print(f"    WROTE {out_path}", file=sys.stderr)
+            verb = "UPDATED" if existing_path else "WROTE"
+            print(f"    {verb} {out_path}", file=sys.stderr)
             written += 1
 
-    print(f"Done. articles written={written}  skipped (existing)={skipped}", file=sys.stderr)
+    print(f"Done. articles written={written}  unchanged={unchanged}  skipped (existing)={skipped}", file=sys.stderr)
 
     if written < args.min_articles and not args.dry_run:
         print(f"FAIL: articles ({written}) < --min-articles ({args.min_articles}).", file=sys.stderr)
@@ -297,6 +431,27 @@ def _find_existing_by_uid(events_dir: str, uid: str) -> str | None:
         if uid in head:
             return path
     return None
+
+
+def _read_yaml_scalar(path: str, key: str) -> str | None:
+    """素朴な YAML 単一行スカラ取り出し (`  key: "value"` のような行のみ対応)."""
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            for ln in f:
+                m = re.match(r"^\s*" + re.escape(key) + r":\s*\"([^\"]*)\"\s*$", ln)
+                if m:
+                    return m.group(1)
+    except Exception:
+        return None
+    return None
+
+
+def _read_content_hash(path: str) -> str | None:
+    return _read_yaml_scalar(path, "content_hash")
+
+
+def _read_fetched_at(path: str) -> str | None:
+    return _read_yaml_scalar(path, "fetched_at")
 
 
 if __name__ == "__main__":

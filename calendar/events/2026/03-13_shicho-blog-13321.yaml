@@ -4,6 +4,10 @@ url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026
 dtstart: "2026-03-13"
 dtend: "2026-03-13"
 description: |-
+  3月13日（金曜日）、市内各中学校で卒業証書授与式が行われ、市立加治中学校卒業証書授与式に来賓として出席し、祝辞を述べました。
+  
+  卒業生の皆さん、ご卒業誠におめでとうございます。
+  
   市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13321.html
 
 render:
@@ -14,5 +18,5 @@ source:
   type: city-hanno-shicho-blog
   id: "13321"
   url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13321.html"
-  fetched_at: "2026-05-17T14:26:54.557139Z"
-  content_hash: "sha256-7fc7f9a48f43e1e4"
+  fetched_at: "2026-05-20T02:17:45.899727Z"
+  content_hash: "sha256-4a6a869102e22973"

@@ -4,6 +4,12 @@ url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026
 dtstart: "2026-02-08"
 dtend: "2026-02-08"
 description: |-
+  2月8日（日曜日）、飯能市民体育館メインアリーナにて開催された「飯能ロータリークラブカップ第36回せせらぎ杯中学生卓球大会」開会式に出席してまいりました。
+  
+  この大会は普段の練習成果を発揮する機会として、飯能市内の中学生をはじめ、埼玉県内及び関東各地の中学生の卓球チームが集い開催されています。
+  
+  開催にあたり、ご尽力いただきました関係者の方々に感謝申し上げます。
+  
   市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202602/13119.html
 
 render:
@@ -14,5 +20,5 @@ source:
   type: city-hanno-shicho-blog
   id: "13119"
   url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202602/13119.html"
-  fetched_at: "2026-05-17T14:26:52.083256Z"
-  content_hash: "sha256-53d62e7287d0d492"
+  fetched_at: "2026-05-20T02:17:44.163690Z"
+  content_hash: "sha256-86d9310ba3f9cc05"

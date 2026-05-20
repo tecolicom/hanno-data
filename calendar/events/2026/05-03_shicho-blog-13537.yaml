@@ -4,6 +4,8 @@ url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026
 dtstart: "2026-05-03"
 dtend: "2026-05-03"
 description: |-
+  5月3日（日曜日）、日高アリーナにて開催された第14回オープントーナメント埼玉県空手道選手権大会に出席してまいりました。
+  
   市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202605/13537.html
 
 render:
@@ -14,5 +16,5 @@ source:
   type: city-hanno-shicho-blog
   id: "13537"
   url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202605/13537.html"
-  fetched_at: "2026-05-17T14:26:59.214606Z"
-  content_hash: "sha256-c1c8d0efbfa40180"
+  fetched_at: "2026-05-20T02:17:48.729515Z"
+  content_hash: "sha256-b86f19ee273fca5d"

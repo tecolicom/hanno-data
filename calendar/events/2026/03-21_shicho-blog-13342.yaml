@@ -4,6 +4,12 @@ url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026
 dtstart: "2026-03-21"
 dtend: "2026-03-21"
 description: |-
+  3月21日（土曜日）、中央公園（駐車場下）にて行われた、天覧山つつじ花公園づくり植樹会に参加してまいりました。
+  
+  この植樹会は飯能地区まちづくり推進委員会主催によるもので、飯能ロータリークラブのご支援をいただき行われました。
+  
+  この公園が桜の季節の後に「飯能市の花 つつじ」をはじめ美しい花々を楽しめる場所として、市民の皆様や多数の来訪者に親しまれる新しい花の名所となることを大いに期待しております。
+  
   市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13342.html
 
 render:
@@ -14,5 +20,5 @@ source:
   type: city-hanno-shicho-blog
   id: "13342"
   url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13342.html"
-  fetched_at: "2026-05-17T14:26:54.339791Z"
-  content_hash: "sha256-ea9db56eb2453492"
+  fetched_at: "2026-05-20T02:17:45.763178Z"
+  content_hash: "sha256-f9959ff10f528345"

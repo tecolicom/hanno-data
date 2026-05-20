@@ -4,6 +4,12 @@ url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026
 dtstart: "2026-03-26"
 dtend: "2026-03-26"
 description: |-
+  3月26日（木曜日）、株式会社金子組様からパンダ鉛筆500ダースを寄贈していただきました。
+  
+  パンダ鉛筆を販売する一般社団法人埼玉県筋ジストロフィー協会様は、筋ジストロフィー症の撲滅を願うとともに、患者及びそのご家族の方への支援と福祉の増進に寄与することを目的として設立された福祉団体です。パンダ鉛筆の売上げは患者様及びそのご家族の方の支援活動等に役立てられるとのことです。
+  
+  今回寄贈していただいたパンダ鉛筆につきましては、令和8年度に飯能市立小学校に入学する新1年生児童へ配布し、学習に活用させていただきます。
+  
   市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13356.html
 
 render:
@@ -14,5 +20,5 @@ source:
   type: city-hanno-shicho-blog
   id: "13356"
   url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13356.html"
-  fetched_at: "2026-05-17T14:26:53.710554Z"
-  content_hash: "sha256-cec9be37de99bb63"
+  fetched_at: "2026-05-20T02:17:45.331610Z"
+  content_hash: "sha256-f7fa3a470ebe969d"

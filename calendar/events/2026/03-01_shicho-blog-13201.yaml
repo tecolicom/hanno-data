@@ -4,6 +4,8 @@ url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026
 dtstart: "2026-03-01"
 dtend: "2026-03-01"
 description: |-
+  3月1日（日曜日）、第45回加治地区一周駅伝大会 開会式に出席してまいりました。青空の下、当日は多くの方が参加されており、開会式後にはスターターを務めさせていただきました。
+  
   市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13201.html
 
 render:
@@ -14,5 +16,5 @@ source:
   type: city-hanno-shicho-blog
   id: "13201"
   url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13201.html"
-  fetched_at: "2026-05-17T14:26:55.454539Z"
-  content_hash: "sha256-2de684d51dcc7fad"
+  fetched_at: "2026-05-20T02:17:46.578854Z"
+  content_hash: "sha256-5ca7be4b443fe746"

@@ -4,6 +4,14 @@ url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026
 dtstart: "2026-04-14"
 dtend: "2026-04-14"
 description: |-
+  4月14日（火曜日）、駿河台大学にて、今年度の寄附講座の開講に当たり、学生の皆さんを前にご挨拶させていただきました。
+  
+  本市は、駿河台大学と平成23年に連携に関する基本協定を締結し、平成27年度から、協定に基づく取組の一環として本市の職員を講師として派遣しています。
+  
+  この講座は、地方自治体の仕組みと役割、求められる地方公務員像、飯能市の重点施策など全15回の寄附講座を開催し、地方公務員を目指す学生に対し、駿河台大学の特色ある講義となっています。
+  
+  「地域行政と法」についてしっかりと学んでいただき、この学びを通じて受講される皆さんの成長と飛躍を期待しております。
+  
   市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13455.html
 
 render:
@@ -14,5 +22,5 @@ source:
   type: city-hanno-shicho-blog
   id: "13455"
   url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13455.html"
-  fetched_at: "2026-05-17T14:26:57.237739Z"
-  content_hash: "sha256-4d01e9c3771f20d0"
+  fetched_at: "2026-05-20T02:17:47.444935Z"
+  content_hash: "sha256-1445d95a757d852e"

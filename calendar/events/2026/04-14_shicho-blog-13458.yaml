@@ -4,6 +4,16 @@ url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026
 dtstart: "2026-04-14"
 dtend: "2026-04-14"
 description: |-
+  4月14日（火曜日）、埼玉県内初の緊急銃猟想定訓練が飯能市内で行われました。飯能河原での現場訓練では、埼玉県、埼玉県警察本部、飯能警察署、飯能猟友会の皆さんと本市が連携し、緊急銃猟の手順の確認など実施しました。
+  
+  クマの冬眠が終わり、クマと出くわす可能性が高まり全国で緊急銃猟の例が出てきています。このような事態がいつ必要になるかわかりません。
+  
+  本市の緊急銃猟のマニュアルは作成されたばかりであり、今回の訓練を通じて見直しが必要な点もあったと思います。
+  
+  今後とも、関係者の皆様と連携、協力し、市民や飯能市を訪れていただく皆さんの安心・安全のために取り組んでまいります。
+  
+  なお、訓練会場となった飯能河原で実際にクマが目撃されたことはありません。これからの時期はバーベキューや川遊びスポットとして賑わいを見せます。本市は飯能河原以外にも風光明媚な自然、観光スポットなどにあふれています。是非、お越しください。
+  
   市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13458.html
 
 render:
@@ -14,5 +24,5 @@ source:
   type: city-hanno-shicho-blog
   id: "13458"
   url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13458.html"
-  fetched_at: "2026-05-17T14:26:57.439801Z"
-  content_hash: "sha256-6e27bb1f01085dfe"
+  fetched_at: "2026-05-20T02:17:47.553419Z"
+  content_hash: "sha256-3b21d6ff9bdd7916"

@@ -4,6 +4,14 @@ url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026
 dtstart: "2026-01-11"
 dtend: "2026-01-11"
 description: |-
+  1月11日（日曜日）、飯能市市民会館にて令和8年飯能市成人式～二十歳の祝い～を開催いたしました。
+  
+  今年度、本市で20歳を迎えられる方の人数は742名で、式典には467名の方が出席されました。
+  
+  人生の大きな節目を迎えられました20歳の皆様、ご家族の皆様、誠におめでとうございます。
+  
+  これからの人生が素晴らしいものになりますことを心よりご祈念申し上げます。
+  
   市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202601/12981.html
 
 render:
@@ -14,5 +22,5 @@ source:
   type: city-hanno-shicho-blog
   id: "12981"
   url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202601/12981.html"
-  fetched_at: "2026-05-17T14:26:49.555878Z"
-  content_hash: "sha256-5cc26e6c54d7a845"
+  fetched_at: "2026-05-20T02:17:42.401290Z"
+  content_hash: "sha256-ae0a3b1f1f24e67d"

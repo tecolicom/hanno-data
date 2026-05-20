@@ -4,6 +4,8 @@ url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026
 dtstart: "2026-01-07"
 dtend: "2026-01-07"
 description: |-
+  1月7日（水曜日）、新年の幕開けを祝う市主催の新年祝賀式「令和8年おめでとう飯能」を開催し、飯能市の各界の代表者の皆様など多くの方々にご出席いただきました。
+  
   市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202601/12978.html
 
 render:
@@ -14,5 +16,5 @@ source:
   type: city-hanno-shicho-blog
   id: "12978"
   url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202601/12978.html"
-  fetched_at: "2026-05-17T14:26:50.035873Z"
-  content_hash: "sha256-d30adcb90bad8cd6"
+  fetched_at: "2026-05-20T02:17:42.676107Z"
+  content_hash: "sha256-1584804c4feeb237"

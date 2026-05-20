@@ -4,6 +4,12 @@ url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026
 dtstart: "2026-02-01"
 dtend: "2026-02-01"
 description: |-
+  2月1日（日曜日）、飯能市民体育館メインアリーナにて開催された第50回加治卓球大会 開会式に出席してまいりました。
+  
+  この大会は地区住民のスポーツを振興し、体力づくりと相互親睦を図ることを目的としており、今回で50回目を迎えた歴史と伝統のある大会です。
+  
+  開催にあたり、ご尽力いただきました関係者の方々に感謝申し上げます。
+  
   市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202602/13115.html
 
 render:
@@ -14,5 +20,5 @@ source:
   type: city-hanno-shicho-blog
   id: "13115"
   url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202602/13115.html"
-  fetched_at: "2026-05-17T14:26:52.487452Z"
-  content_hash: "sha256-41ffe21ba13062b2"
+  fetched_at: "2026-05-20T02:17:44.436912Z"
+  content_hash: "sha256-b403216006375e21"

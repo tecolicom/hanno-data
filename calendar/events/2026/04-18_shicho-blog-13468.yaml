@@ -4,6 +4,10 @@ url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026
 dtstart: "2026-04-18"
 dtend: "2026-04-18"
 description: |-
+  4月18日（土曜日）、わせがく夢育高等学校2026年度入学式に出席してまいりました。
+  
+  わせがく夢育高等学校は、東吾野地区の皆さんとともに様々な体験、経験を積むことができる学校です。地域とともに歩み、成長し続けていくこの学校で、生徒の皆さんが「将来の夢」を見つけ、その実現に向けて、成長し、大きく羽ばたかれることを心から期待しています。入学おめでとうございます。
+  
   市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13468.html
 
 render:
@@ -14,5 +18,5 @@ source:
   type: city-hanno-shicho-blog
   id: "13468"
   url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13468.html"
-  fetched_at: "2026-05-17T14:26:57.016496Z"
-  content_hash: "sha256-3ba978bd800e2b00"
+  fetched_at: "2026-05-20T02:17:47.338234Z"
+  content_hash: "sha256-1f524d91a5355f66"

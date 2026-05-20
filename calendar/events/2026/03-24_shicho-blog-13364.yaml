@@ -4,6 +4,10 @@ url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026
 dtstart: "2026-03-24"
 dtend: "2026-03-24"
 description: |-
+  3月24日（火曜日）、市内各小学校では卒業証書授与式が行われ、市立奥武蔵小学校卒業証書授与式に来賓として出席し、祝辞を述べました。
+  
+  卒業生の皆さん、ご卒業誠におめでとうございます。
+  
   市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13364.html
 
 render:
@@ -14,5 +18,5 @@ source:
   type: city-hanno-shicho-blog
   id: "13364"
   url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13364.html"
-  fetched_at: "2026-05-17T14:26:53.082473Z"
-  content_hash: "sha256-5b63e2f993e6353f"
+  fetched_at: "2026-05-20T02:17:44.825174Z"
+  content_hash: "sha256-32253db814f34a47"

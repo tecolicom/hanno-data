@@ -4,6 +4,10 @@ url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026
 dtstart: "2026-04-24"
 dtend: "2026-04-24"
 description: |-
+  4月24日（金曜日）、東吾野駐在所の建て替え完了に伴い、開所式に参加してまいりました。
+  
+  東吾野駐在所は、地域住民の皆さまの生活に最も身近で、安心・安全を守る地域の拠点です。新しくなった拠点を軸に、今まで以上に地域住民と連携し、地域に更に深く溶け込んでいただき、地域の心強い存在、よりどころとして、暮らしを支えていただくことを期待しております。
+  
   市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13484.html
 
 render:
@@ -14,5 +18,5 @@ source:
   type: city-hanno-shicho-blog
   id: "13484"
   url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13484.html"
-  fetched_at: "2026-05-17T14:26:56.340256Z"
-  content_hash: "sha256-5eaa0e50fdb3e313"
+  fetched_at: "2026-05-20T02:17:47.022471Z"
+  content_hash: "sha256-1db16e86036de42c"

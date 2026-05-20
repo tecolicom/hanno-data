@@ -4,6 +4,10 @@ url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026
 dtstart: "2026-02-07"
 dtend: "2026-02-07"
 description: |-
+  2月7日（土曜日）、阿須運動公園ホッケー場にて開催された県下6人制ホッケー大会 開会式に出席してまいりました。
+  
+  午前中に小中学生の交流試合、午後には一般の部（高校生以上）の試合が行われました。
+  
   市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202602/13117.html
 
 render:
@@ -14,5 +18,5 @@ source:
   type: city-hanno-shicho-blog
   id: "13117"
   url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202602/13117.html"
-  fetched_at: "2026-05-17T14:26:52.288470Z"
-  content_hash: "sha256-66e290fe4d674de3"
+  fetched_at: "2026-05-20T02:17:44.301761Z"
+  content_hash: "sha256-5c8e5d7bbbdc3b13"

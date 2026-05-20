@@ -4,6 +4,14 @@ url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026
 dtstart: "2026-02-25"
 dtend: "2026-02-25"
 description: |-
+  2月25日（水曜日）、本市と日本生命保険相互会社川越支社は「包括連携協定」を締結しました。
+  
+  日本生命保険相互会社様は、既に全国47都道府県や、多くの市区町村との連携協定に基づき、それぞれの地域・社会の課題に応じた様々な協働取組を進めています。
+  
+  本市においても、その知識や経験を活用し、相互に協力してまちづくりに取り組んでいくため包括連携協定を締結しました。
+  
+  双方が有する人的・物的資源を有効活用し、市民の福祉の向上や地域の活性化等につながるよう、双方で連携した活動を展開してまいります。
+  
   市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202602/13199.html
 
 render:
@@ -14,5 +22,5 @@ source:
   type: city-hanno-shicho-blog
   id: "13199"
   url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202602/13199.html"
-  fetched_at: "2026-05-17T14:26:51.066865Z"
-  content_hash: "sha256-81959f69be1ba719"
+  fetched_at: "2026-05-20T02:17:43.388019Z"
+  content_hash: "sha256-0aaeb2b0d4106550"

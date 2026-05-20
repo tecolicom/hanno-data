@@ -4,6 +4,10 @@ url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026
 dtstart: "2026-04-25"
 dtend: "2026-04-25"
 description: |-
+  4月25日（土曜日）、阿須運動公園ホッケー場で行われたALDER飯能の試合を観戦してまいりました。高円宮牌2026ホッケー日本リーグサムライリーグD2（ディビジョン2）の開幕戦 東京農業大学との試合は2-0で見事ALDER飯能が勝利しました。
+  
+  ディビジョン2での優勝及び来季のディビジョン1への昇格へ向け、皆様の応援をよろしくお願いします。
+  
   市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13512.html
 
 render:
@@ -14,5 +18,5 @@ source:
   type: city-hanno-shicho-blog
   id: "13512"
   url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13512.html"
-  fetched_at: "2026-05-17T14:26:56.125291Z"
-  content_hash: "sha256-9015f5ed3fc6ccb7"
+  fetched_at: "2026-05-20T02:17:46.883487Z"
+  content_hash: "sha256-6f5dba2b30b102a1"
