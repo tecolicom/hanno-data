@@ -1,20 +1,23 @@
 # AI 生成コンテンツの取扱い方針
 
-このリポジトリでは LLM (Claude Haiku 4.5) によりお知らせ記事を要約して
-カレンダー description に掲載している (`calendar/bin/cal-oshirase-fetch`)。
-本書はその表示方針と背景の調査結果を記録するもの。
+このリポジトリでは LLM (Claude Haiku 4.5) を 2 用途で使用している:
+
+1. **お知らせ記事の要約** (`calendar/bin/cal-oshirase-fetch`) — 長文の市公式
+   お知らせを 200〜400 字に圧縮、日時/場所/対象等の事実を保持
+2. **全 event の英訳** (`calendar/bin/cal-translate-en`) — 元の summary/description
+   を英語化、`translations.en.*` に in-place 格納
+
+本書はこの 2 用途の表示方針と背景の調査結果を記録するもの。
 
 ## 結論 (運用ルール)
+
+### 日本語要約 (summarization)
 
 LLM が要約に関わった description には、**冒頭** に以下の固定文言を入れる:
 
 ```
 AI による要約 (正確な情報は元記事をご確認ください)
 ```
-
-- 絵文字なし
-- モデル名は入れない (将来モデルを差し替えた時に陳腐化するため)
-- 個別記事の機密性ではなく **要約の信頼性をユーザに正しく期待させる** ことが目的
 
 技術的な追跡は YAML の `source.summary_method` フィールドで行う:
 
@@ -23,6 +26,24 @@ AI による要約 (正確な情報は元記事をご確認ください)
 | `url-only` | URL のみ (本文取得失敗) | なし |
 | `full` | 元記事の本文をそのまま転載 | なし (引用扱い) |
 | `llm-haiku-4-5` | Claude Haiku 4.5 による要約 | **あり** |
+
+### 英訳 (translation)
+
+`translations.en.description` の **冒頭** に以下の固定文言を入れる:
+
+```
+Automated translation (refer to source for accuracy)
+```
+
+末尾に元 (日本語) の URL を `Source (Japanese): <URL>` として保持。
+技術的な追跡は YAML の `translations.en.model` + `translation_hash` で行う。
+
+### 共通方針
+
+- 絵文字なし
+- モデル名は user-facing 文言には入れない (将来モデルを差し替えた時に陳腐化するため)
+- 個別記事の機密性ではなく **生成物の信頼性をユーザに正しく期待させる** ことが目的
+- 元 URL は必ず併記 (出典明示)
 
 ## 調査結果サマリ (2026-05-19 時点)
 
