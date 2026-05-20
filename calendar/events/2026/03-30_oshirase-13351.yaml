@@ -6,7 +6,14 @@ dtend: "2026-03-30"
 description: |-
   AI による要約 (正確な情報は元記事をご確認ください)
   
-  令和6年度の飯能市財務書類を公表しました。統一的な基準による財務書類は、従来の現金主義会計に加えて、社会資本（資産）や地方債（負債）などのストック情報を明確にするもので、平成28年度決算から作成・公表しています。今年度は**概要版、一般会計等財務書類、全体財務書類、連結財務書類、固定資産台帳**の各種資料を公開しており、市の財政状況をより総合的に把握できます。
+  令和6年度財務書類を公表します。飯能市では平成28年度決算から、従来の現金主義会計に加えて、統一的な基準による財務書類を作成・公表しています。この方式により、社会資本などの資産や地方債などの負債といったストック情報がより明確に把握できます。
+  
+  【公表資料】
+  ・財務書類概要版
+  ・一般会計等財務書類（附属明細書、注記含む）
+  ・市全体財務書類（附属明細書、注記含む）
+  ・連結財務書類（附属明細書、注記含む）
+  ・固定資産台帳
   
   飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/zaimushohyo/13351.html
 
@@ -18,6 +25,6 @@ source:
   type: city-hanno-oshirase
   id: "13351"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/zaimushohyo/13351.html"
-  fetched_at: "2026-05-20T03:53:40.380968Z"
-  content_hash: "sha256-eabfbe02f8377fd2"
+  fetched_at: "2026-05-20T04:56:29.737584Z"
+  content_hash: "sha256-0a45996e27c59c09"
   summary_method: "llm-haiku-4-5"

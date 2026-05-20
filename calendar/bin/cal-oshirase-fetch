@@ -53,7 +53,10 @@ FULL_TEXT_THRESHOLD = 400  # これ以下は全文掲載、超は LLM 要約
 # description 整形フォーマットのバージョン. wrapper/disclaimer 変更時にインクリ
 # メントすると content_hash が変わり、既存 YAML が再生成される.
 # docs/ai-content-policy.md 参照.
-DESCRIPTION_FORMAT_VERSION = 2
+# v1: 初版
+# v2: AI disclaimer 追加 (LLM要約の冒頭)
+# v3: LLM 出力から Markdown 記法を除去 (Google Calendar は plain text 扱い)
+DESCRIPTION_FORMAT_VERSION = 3
 
 # AI 要約に付ける固定 disclaimer (冒頭配置). docs/ai-content-policy.md 参照.
 AI_DISCLAIMER = "AI による要約 (正確な情報は元記事をご確認ください)"
@@ -65,10 +68,12 @@ LLM_SYSTEM_PROMPT = """あなたは飯能市公式サイトのお知らせ記事
 
 要約方針:
 - 全体で 200〜400 字程度の日本語。
-- **日時・期間・場所・対象者・料金・申込締切・申込方法など、市民の行動に関わる事実は省略しない**。本文に書かれていないことは書かない (推測禁止)。
-- 重要な事実は **太字** (Markdown) で目立たせて良い。日付や金額は本文表記をそのまま (令和8年5月31日 等)。
+- 日時・期間・場所・対象者・料金・申込締切・申込方法など、市民の行動に関わる事実は省略しない。本文に書かれていないことは書かない (推測禁止)。
+- 日付や金額は本文表記をそのまま (令和8年5月31日 等)。
 - 出だしに「お知らせ:」「概要:」のような冗語は不要。本題から始める。
 - 末尾に URL や「詳細は〜」を付けない。呼出側で付与する。
+- **Markdown 記法 (**太字**、*斜体*、# 見出し、- リスト、`code`、リンク [text](url) 等) は一切使わないでください**。出力先は Google カレンダーの予定欄で、Markdown は literal なテキストとして表示されてしまいます。
+- 構造化したい場合は改行と全角記号で表現してください: 箇条書きは行頭「・」、見出しは「【見出し】」、強調が必要な場合は「」または 【 】 を使う。
 - 要約だけ返す。前置きや「以下は要約です」等の説明は不要。
 """
 
@@ -183,6 +188,31 @@ def extract_body(html: str) -> str:
 # ---------- LLM 要約 ----------
 
 
+def strip_markdown(text: str) -> str:
+    """LLM が混入させた Markdown を plain text に変換.
+
+    Google Calendar の description は Markdown を解釈しない (literal 表示) ため、
+    プロンプトで「使うな」と指示した上で、保険として実行する.
+    """
+    if not text:
+        return text
+    # **bold**, __bold__ → bold (非貪欲)
+    text = re.sub(r"\*\*([^*\n]+?)\*\*", r"\1", text)
+    text = re.sub(r"__([^_\n]+?)__", r"\1", text)
+    # *italic*, _italic_ → italic (改行を跨がない、ペアでない単独 * は触らない)
+    text = re.sub(r"(?<!\*)\*(?!\*)([^*\n]+?)(?<!\*)\*(?!\*)", r"\1", text)
+    text = re.sub(r"(?<!_)_(?!_)([^_\n]+?)(?<!_)_(?!_)", r"\1", text)
+    # 行頭 #/##/### 見出し記号 → 削除
+    text = re.sub(r"(?m)^#{1,6}\s+", "", text)
+    # 行頭 - / * リスト → 全角中黒
+    text = re.sub(r"(?m)^[ \t]*[-*]\s+", "・", text)
+    # `code` → code
+    text = re.sub(r"`([^`\n]+?)`", r"\1", text)
+    # [text](url) → text (url の意味は本文外で扱う)
+    text = re.sub(r"\[([^\]\n]+)\]\((https?://[^)\s]+)\)", r"\1 (\2)", text)
+    return text
+
+
 def summarize_with_llm(title: str, body: str) -> str | None:
     """Claude Haiku 4.5 で要約。失敗時 None を返す (呼出側で fallback)."""
     if httpx is None:
@@ -213,7 +243,7 @@ def summarize_with_llm(title: str, body: str) -> str | None:
         )
         r.raise_for_status()
         data = r.json()
-        return data["content"][0]["text"].strip()
+        return strip_markdown(data["content"][0]["text"].strip())
     except Exception as e:
         print(f"  WARN: LLM summary failed: {e}", file=sys.stderr)
         return None

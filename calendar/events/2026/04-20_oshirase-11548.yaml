@@ -6,7 +6,13 @@ dtend: "2026-04-20"
 description: |-
   AI による要約 (正確な情報は元記事をご確認ください)
   
-  6月3日(水曜日)10時～15時、飯能中央地区行政センターで「人権擁護委員の日」特設人権相談所を開設します。セクハラ、パワハラ、家庭内暴力、体罰、いじめ、インターネット誹謗中傷、差別など、人権侵害に関する相談に応じます。**相談は無料で、人権擁護委員が対応します**。一人で悩まず、気軽にご相談ください。
+  6月3日(水曜日)10時～15時、飯能中央地区行政センターで「人権擁護委員の日」特設人権相談所を開設します。
+  
+  人権擁護委員法が施行された6月1日の「人権擁護委員の日」にちなんで実施されるものです。
+  
+  セクハラやパワハラ、家庭内暴力、体罰やいじめ、インターネットでの誹謗中傷、差別など、「自分の悩みは人権侵害かも？」と思ったら、気軽にご相談ください。相談員は人権擁護委員が対応し、相談は無料です。
+  
+  飯能市には7名の人権擁護委員が所沢人権擁護委員協議会に所属し、人権啓発や人権相談などの活動を行っています。
   
   飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/11548.html
 
@@ -18,6 +24,6 @@ source:
   type: city-hanno-oshirase
   id: "11548"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/11548.html"
-  fetched_at: "2026-05-20T03:53:04.447324Z"
-  content_hash: "sha256-ac3a2dc937ac7426"
+  fetched_at: "2026-05-20T04:55:48.783335Z"
+  content_hash: "sha256-5a2588b4282c52c8"
   summary_method: "llm-haiku-4-5"
