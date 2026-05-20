@@ -28,3 +28,30 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ohk-hannoalps3/"
   fetched_at: "2026-05-16T15:10:02.788974Z"
   content_hash: "sha256-fbf74909e9ebbe02"
+translations:
+  en:
+    summary: "Mountain guide tour: Hanno Alps full traverse part 3 (Agano Station to Maeita, Odaka, and Tengaku mountains to Higashi-Agano Station)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      Hanno Eco-tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ohk-hannoalps3/
+
+      This tour has been closed to new registrations due to organizer circumstances.
+
+      This tour traverses the spine of the Hanno Alps—the mountain range running from Izugadake to Tenranzan—over 4 separate outings. Part 3 covers the section from Agano Station, running over the signature peaks of the Hanno Alps: Maeita, Odaka, and Tengaku mountains. Lunch will be a special bento from Taira Kuri-en (local orchard).
+
+      【Fee】
+      7,800 yen per person (guide fee, lunch, insurance)
+
+      【Capacity】
+      10 people
+
+      【Guide】
+      Akira Shimizu – certified mountain guide, Japan Alpine Guides Association, Stage II
+
+      【What to bring】
+      Gloves, drinking water, hat, rain gear, snacks, towel
+    translation_hash: "sha256-427a7b36a9c5cb23"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:36:47.634316Z"
+    format_version: 1

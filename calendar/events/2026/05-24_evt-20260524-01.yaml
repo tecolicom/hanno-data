@@ -11,3 +11,18 @@ render:
   gcal:
     mode: single-allday
     time_marker: "08:20–12:20"
+translations:
+  en:
+    summary: "Sugo-ashi Walk: Oku-Musashi Walk"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      About 13 km and 4 hours. Participation fee: 100 yen.
+
+      Route: Agano Station → Kaoburi Pass (Green Line) → Adera Suwa Shrine → Yugate → Higashi-Agano Station (finish).
+
+      Application deadline: May 20. Contact: Agano District Administrative Center (042-978-1211).
+    translation_hash: "sha256-9feacf00079d5b0e"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:37:32.592872Z"
+    format_version: 1

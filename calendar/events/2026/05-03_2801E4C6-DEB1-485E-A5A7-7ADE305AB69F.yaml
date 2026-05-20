@@ -6,3 +6,12 @@ dtend: "2026-05-03"
 render:
   gcal:
     mode: single-allday
+translations:
+  en:
+    summary: "Hanno Akebono Market"
+    description: |-
+
+    translation_hash: "sha256-4855a2d30a40f0d2"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:39:50.706888Z"
+    format_version: 1

@@ -20,3 +20,18 @@ source:
   url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202602/13117.html"
   fetched_at: "2026-05-20T02:17:44.301761Z"
   content_hash: "sha256-5c8e5d7bbbdc3b13"
+translations:
+  en:
+    summary: "📝 Mayor: Prefectural 6-a-side Hockey Tournament"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      On February 7 (Saturday), I attended the opening ceremony of the Prefectural 6-a-side Hockey Tournament held at Asu Sports Park Hockey Field.
+
+      In the morning, there were friendly matches between elementary and junior high school students, and in the afternoon, matches in the general division (high school students and older) took place.
+
+      Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202602/13117.html
+    translation_hash: "sha256-ffd0bc5e88bf50ea"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:31:52.214236Z"
+    format_version: 1

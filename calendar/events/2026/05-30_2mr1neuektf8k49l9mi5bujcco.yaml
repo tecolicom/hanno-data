@@ -6,3 +6,12 @@ dtend: "2026-05-31"
 render:
   gcal:
     mode: span-allday
+translations:
+  en:
+    summary: "4th Oku-Musashi Long Trail Race"
+    description: |-
+
+    translation_hash: "sha256-4071f47a97a4bd18"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:39:57.677593Z"
+    format_version: 1

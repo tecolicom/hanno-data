@@ -33,3 +33,28 @@ source:
   fetched_at: "2026-05-20T04:57:19.008320Z"
   content_hash: "sha256-82e6743fb11661a5"
   summary_method: "llm-haiku-4-5"
+translations:
+  en:
+    summary: "ℹ️ Regular press conference (held February 20, 2026 (Reiwa 8))"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      Hanno City will hold a regular press conference on February 20, 2026 (Reiwa 8).
+
+      【Scheduled agenda items】
+      • 6th Hanno City Comprehensive Promotion Plan Implementation Plan – Reiwa 8 Priority Measures (3rd Hanno City Comprehensive Strategy for Creating Places, People, and Jobs) (draft)
+      • 8th Hanno City Administrative Reform Guidelines (draft)
+      • Regarding special compensation provisions for the Mayor and staff
+      • Outline of the Reiwa 8 budget proposal
+      • Emergency fiscal measures
+      • Implementation of trial soundings for food truck and similar vendors at public facilities
+      • Regarding the opening of the Asu-Okokubo Line (Iwasawa section)
+      • Plans starting in Reiwa 8
+
+      Detailed materials (PDF files) for each agenda item are posted on the city's official website.
+
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025/13138.html
+    translation_hash: "sha256-44c03352b6b6571c"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:32:25.900003Z"
+    format_version: 1

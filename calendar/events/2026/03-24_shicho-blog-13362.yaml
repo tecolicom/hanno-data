@@ -24,3 +24,22 @@ source:
   url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13362.html"
   fetched_at: "2026-05-20T02:17:45.033010Z"
   content_hash: "sha256-d4b1901008a9e0dc"
+translations:
+  en:
+    summary: "📝 Mayor: Comprehensive Partnership Agreement Signed with Fuji Pharmacy Co., Ltd."
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      On Tuesday, March 24, the city and Fuji Pharmacy Co., Ltd. signed a comprehensive partnership agreement.
+
+      Fuji Pharmacy Co., Ltd. operates under the slogan "Deliver wellness. Continue wellness." With a mission to support people's healthy lives, the company provides quality services close to the community through mail-order pharmaceutical sales, drugstore and pharmacy operations, and the development and manufacture of pharmaceuticals.
+
+      Recently, the company has been advancing partnership agreements with local governments to support their community-building efforts through business activities. Hanno City decided to sign this comprehensive partnership agreement to leverage their knowledge and experience, enabling both parties to cooperate and work together on community development.
+
+      Moving forward, both parties will collaborate to strengthen disaster prevention and response measures, promote public health, and work toward revitalizing the region.
+
+      Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13362.html
+    translation_hash: "sha256-34c28ddbd161dcd3"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:33:51.713202Z"
+    format_version: 1

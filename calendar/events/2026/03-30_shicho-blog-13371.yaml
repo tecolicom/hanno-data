@@ -22,3 +22,20 @@ source:
   url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13371.html"
   fetched_at: "2026-05-20T02:17:44.678220Z"
   content_hash: "sha256-2049048b26340aad"
+translations:
+  en:
+    summary: "📝 Mayor: Saitama Truck Association donates 508 illuminated truck-shaped safety buzzers"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      On Monday, March 30, the Saitama Truck Association (a general incorporated association) donated 508 illuminated truck-shaped safety buzzers to Hanno City.
+
+      The Saitama Truck Association promotes various initiatives to contribute to safe and secure lives for residents of Saitama Prefecture. One of their key priorities is "promotion of social contribution activities." In July 2005, they signed a "Saitama Crime Prevention Town Development Agreement" with Saitama Prefecture and the Saitama Prefectural Police. Through this partnership, they carry out activities to protect children, women, and elderly people from street crimes and other dangers. As part of these efforts, they have been manufacturing illuminated truck-shaped safety buzzers since fiscal year 2006 and donating them to newly enrolled elementary school students. This time, they have donated 508 units to children entering Hanno City public elementary schools.
+
+      The illuminated truck-shaped safety buzzers donated this time will be distributed to first-grade students entering Hanno City public elementary schools in fiscal year 2026 (Reiwa 8). We will use them effectively to ensure children's safety and help prevent crimes against children.
+
+      Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13371.html
+    translation_hash: "sha256-14899312123a6f79"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:34:25.030511Z"
+    format_version: 1

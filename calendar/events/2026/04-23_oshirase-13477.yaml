@@ -27,3 +27,22 @@ source:
   fetched_at: "2026-05-20T04:55:46.649056Z"
   content_hash: "sha256-2aec70bf3f490c12"
   summary_method: "llm-haiku-4-5"
+translations:
+  en:
+    summary: "ℹ️ Hanno City Library unveils new Moomin Papa character object"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      On April 23, 2026 (Reiwa 8), Hanno City Library held a ceremony to unveil an object featuring Moomin Papa.
+
+      This object, installed as the third in a series following those at Hanno Station and Higashi-Hanno Station, connects three locations across the Hanno area through Moomin characters. This furthers the city's goal of creating a walkable downtown and boosting vitality throughout the community while fostering a sense of civic pride among residents.
+
+      At the ceremony, Moomin Stories Company donated a pop-up Moomin book titled "A Long Journey to Moomin Valley," and Seibu Railway Company donated Plarail model trains featuring Seibu Railway vehicles. These items will be enjoyed by many visitors to the library.
+
+      Attendees included the Hanno City Mayor, the President of Moomin Stories Company, a General Manager of Seibu Railway Company, the Director of the Hanno Chamber of Commerce and Industry, the Chair of the Okumusashi Hanno Tourism Association, the Director of Education, the Education Department Director, the Library Director, 32 children from Yamate Childcare Center, and Moomin characters.
+
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/sangakukanrenkei/13477.html
+    translation_hash: "sha256-158c33f2009a10a4"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:35:46.384514Z"
+    format_version: 1

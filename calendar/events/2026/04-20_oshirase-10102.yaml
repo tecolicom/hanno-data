@@ -49,3 +49,44 @@ source:
   fetched_at: "2026-05-20T04:56:02.950955Z"
   content_hash: "sha256-b006104b1222f933"
   summary_method: "llm-haiku-4-5"
+translations:
+  en:
+    summary: "ℹ️ Cooling shelters open during extreme heat alerts"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      Hanno City has designated public and private facilities as cooling shelters (air-conditioned rest areas) that open when heat stroke special warning alerts are issued.
+
+      【Operating Period】
+      April 22, 2026 (Reiwa 8) through October 28, 2026 (Wednesday)
+
+      【How to Use】
+      • Facilities open during their regular hours when an alert is issued
+      • Please follow the instructions of each facility
+      • Keep noise to a minimum in the lobby areas
+
+      【Main Facilities】
+
+      【Hanno District】
+      • Children's Library (Inari-cho 25-8) Tue–Sun & holidays, last Friday of month 11:00–16:00 Capacity: 3 people
+      • Hanno Municipal Library (Yamate-cho 19-5) Tue–Sun & holidays, last Friday of month 9:30–18:00 Capacity: 9 people
+      • Hanno Museum (Hanno 258-1) Tue–Sun 9:30–16:30 Capacity: 5 people
+      • Hanno Central District Administrative Center (Hanno 60-1) Weekdays 9:00–16:30 Capacity: 15 people
+      • Maruhiro Department Store Hanno Branch, 7th Floor Citizen Activities Center (Sakae-cho 24-4) Mon–Sun 10:00–19:00 Capacity: 5 people
+      • Maruhiro Department Store, 6th Floor Rest Area (Sakae-cho 24-4) Mon–Sun 10:00–19:00 Capacity: 5 people
+      • Other: Post offices, pharmacies
+
+      【Other Districts】
+      Administrative centers, welfare centers, post offices, and similar facilities are available in each district.
+
+      ※Parking at the Citizen Activities Center and Maruhiro Department Store parking lot requires a fee.
+      ※For detailed opening hours and capacity information, please contact each facility directly.
+
+      【Contact】
+      Health Center 042-974-3488
+
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/10102.html
+    translation_hash: "sha256-53d61b9f1468d6dc"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:35:27.282990Z"
+    format_version: 1

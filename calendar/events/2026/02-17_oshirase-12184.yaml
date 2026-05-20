@@ -31,3 +31,26 @@ source:
   fetched_at: "2026-05-20T04:57:29.033850Z"
   content_hash: "sha256-42d48938cb32fd14"
   summary_method: "llm-haiku-4-5"
+translations:
+  en:
+    summary: "ℹ️ Review of administrative operations and services"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      To address Hanno City's severe financial situation, we are conducting a phased review of administrative operations and services.
+
+      The review began with the August 2025 (Reiwa 7) version (Phase 1) and includes changes to user fees, service reductions, suspensions and closures, and postponements of implementation.
+
+      In the October 2025 (Reiwa 7) version (Phase 2), we strengthened the review, but a shortfall of approximately 950 million yen remains on a general revenue basis, making further review necessary.
+
+      The November 2025 (Reiwa 7) version (Phase 3) was an emergency additional review to address revenue-expenditure gaps larger than expected. The content is extremely severe, and a shortfall of over 1 billion yen remains as of now.
+
+      In the January 2026 (Reiwa 8) version (Phase 4), we revised some measures based on general questions from the December regular council session and public comments. We now expect to be able to prepare the Reiwa 8 budget proposal without relying on the financial adjustment reserve fund. However, this is only possible through emergency measures such as using national temporary grants, salary reductions for the mayor and others, staff reductions, and suspension, closure, or reduction of administrative operations and services.
+
+      The final version aligns with the Reiwa 8 budget proposal submitted to the March regular council session and includes review effects. As a funding source for restoring social security-related expenditures, we will make the minimum necessary withdrawals from the financial adjustment reserve fund and debt reduction fund.
+
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kinkyuuzaiseitaisaku/12184.html
+    translation_hash: "sha256-7c04514ee4037eeb"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:32:09.170779Z"
+    format_version: 1

@@ -28,3 +28,23 @@ source:
   fetched_at: "2026-05-20T04:56:29.737584Z"
   content_hash: "sha256-0a45996e27c59c09"
   summary_method: "llm-haiku-4-5"
+translations:
+  en:
+    summary: "ℹ️ Fiscal Year 2024 Financial Statements"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      Hanno City is publishing its Fiscal Year 2024 (Reiwa 6) financial statements. Since the fiscal year 2016 results, Hanno City has prepared and published financial statements based on unified accounting standards in addition to the traditional cash basis accounting. This method provides a clearer picture of stock information such as assets like social capital and liabilities such as municipal bonds.
+
+      【Published Materials】
+      • Financial statements summary
+      • General account financial statements (including supplementary schedules and notes)
+      • City-wide financial statements (including supplementary schedules and notes)
+      • Consolidated financial statements (including supplementary schedules and notes)
+      • Fixed assets register
+
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/zaimushohyo/13351.html
+    translation_hash: "sha256-f117681c61d6aefa"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:34:15.261720Z"
+    format_version: 1

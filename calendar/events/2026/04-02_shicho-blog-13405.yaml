@@ -22,3 +22,20 @@ source:
   url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13405.html"
   fetched_at: "2026-05-20T02:17:48.216088Z"
   content_hash: "sha256-18183f36b831cc87"
+translations:
+  en:
+    summary: "📝 Mayor: Spring National Traffic Safety Campaign Kickoff Ceremony"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      On April 2, 2026 (Reiwa 8), a Thursday, the Spring National Traffic Safety Campaign kickoff ceremony was held at the Tawayanagi District Administrative Center, and I attended as a guest.
+
+      This ceremony was held to align the commitment of the police, local government, and traffic-related organizations toward traffic safety, build momentum for the campaign, and raise public awareness about preventing traffic accidents.
+
+      Going forward, we will work together with all relevant agencies to prevent traffic accidents.
+
+      Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13405.html
+    translation_hash: "sha256-d3cacc1d0f0147df"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:34:55.723725Z"
+    format_version: 1

@@ -11,3 +11,14 @@ render:
   gcal:
     mode: span-allday
     time_marker: "18:00–20:00"
+translations:
+  en:
+    summary: "Stroll through Agano post town and view Genji fireflies & kajika frogs at Komagawa River"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      Explore the historic post town, enjoy wild game curry dinner in a 160-year-old traditional house, then watch Genji fireflies and kajika frogs at Komagawa River. Held daily from June 25 to July 5, starting at 6:00 PM each evening.
+    translation_hash: "sha256-e23e82832f080293"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:38:17.523313Z"
+    format_version: 1

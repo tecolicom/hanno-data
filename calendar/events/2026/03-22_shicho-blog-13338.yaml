@@ -24,3 +24,20 @@ source:
   url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13338.html"
   fetched_at: "2026-05-20T02:17:45.464056Z"
   content_hash: "sha256-66c0e97649d5eb35"
+translations:
+  en:
+    summary: "📝 Mayor: Opening ceremony for Asu-Okokubo Line (Iwasawa section)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      On March 22 (Sunday), we held an opening ceremony for the Asu-Okokubo Line (Iwasawa section).
+
+      Since its urban planning approval in 1966 (Showa 41), this Asu-Okokubo Line has been anticipated by residents as a road running north-south through the city center. The Iwasawa section has been developed following the opening of the Iwasawa Overpass in fiscal year 2021 (Reiwa 3), and with the warm cooperation of local residents, we were able to open the section up to National Route 299.
+
+      With this section now open, we expect improved access from the Asu area to National Route 299 and enhanced pedestrian safety to contribute to residents' daily convenience. We also anticipate this will significantly strengthen disaster preparedness and community resilience for emergencies.
+
+      Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13338.html
+    translation_hash: "sha256-98ce4caa9dd58083"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:33:40.448553Z"
+    format_version: 1

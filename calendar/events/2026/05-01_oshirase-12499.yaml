@@ -31,3 +31,26 @@ source:
   fetched_at: "2026-05-20T04:55:35.946130Z"
   content_hash: "sha256-345e93c4d549b156"
   summary_method: "llm-haiku-4-5"
+translations:
+  en:
+    summary: "ℹ️ Hanno City shifts to standardized municipal information system on February 24, 2026"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      Hanno City's core business systems transitioned to a standardized system compliant with the Local Government Information Systems Standardization Act on February 24, 2026 (Reiwa 8), with some functions beginning January 14, 2026.
+
+      【Main Changes】
+
+      Twenty standardized business areas are affected, including child allowances, resident registers, family records, fixed asset tax, residential tax, light vehicle tax, long-term care insurance, and national health insurance.
+
+      • Names and addresses on various certificates and mailed documents will be unified using the "Administrative Standard Font" (行政事務標準文字). This means the appearance of characters may change. This change applies to all local governments nationwide to enable efficient administrative services and disaster response.
+
+      • Some large-volume mailings, such as residential and prefectural tax and forest environment tax payment notices and national health insurance tax payment notices, will be sent from Kanazawa Post Office (Kanazawa City, Ishikawa Prefecture). Depending on mail conditions, delivery may take longer.
+
+      If you have questions about character differences or other concerns, please contact the relevant department.
+
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/johosystem/12499.html
+    translation_hash: "sha256-63b3c35d8a5aa34b"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:36:04.318679Z"
+    format_version: 1

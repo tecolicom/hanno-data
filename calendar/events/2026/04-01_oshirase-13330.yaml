@@ -23,3 +23,20 @@ source:
   fetched_at: "2026-05-20T04:56:10.141683Z"
   content_hash: "sha256-a04acb486ec9ea90"
   summary_method: "full"
+translations:
+  en:
+    summary: "ℹ️ 12th Hanno City Emergency Economic Support Package"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      Hanno City is carrying out emergency economic support using the national government's emergency local revitalization grant for price stabilization. As energy and food prices remain high, we are implementing the 12th Hanno City Emergency Economic Support Package to help residents and businesses affected by rising prices and other economic pressures.
+
+      For details on each program, please see the PDF file below.
+
+      12th Hanno City Emergency Economic Support Package List (PDF file: 121.4KB)
+
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/13330.html
+    translation_hash: "sha256-53111e7f3416f816"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:34:41.052895Z"
+    format_version: 1

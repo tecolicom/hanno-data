@@ -20,3 +20,18 @@ source:
   url: "https://www.city.hanno.lg.jp/material/files/group/45/kaikinittei8-3.pdf"
   fetched_at: "2026-05-17T14:06:13.906247Z"
   content_hash: "sha256-d3ca4b1e0a68c91c"
+translations:
+  en:
+    summary: "🏛 Committee Chair Report, Questions and Answers, Discussion, Vote, and Closing"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      Session schedule: https://www.city.hanno.lg.jp/material/files/group/45/kaikinittei8-3.pdf
+      Proposed bills list: https://www.city.hanno.lg.jp/soshikikarasagasu/gikaisomuka/kaigijoho/13089.html
+      General questions: https://www.city.hanno.lg.jp/material/files/group/45/ippannsitumon8-3.pdf
+
+      Source (Japanese): https://www.city.hanno.lg.jp/material/files/group/45/sannpizyoukyou8-3.pdf
+    translation_hash: "sha256-64cffafddbb2f6e6"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:33:55.708332Z"
+    format_version: 1

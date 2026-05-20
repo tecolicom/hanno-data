@@ -27,3 +27,22 @@ source:
   fetched_at: "2026-05-20T04:55:48.783335Z"
   content_hash: "sha256-5a2588b4282c52c8"
   summary_method: "llm-haiku-4-5"
+translations:
+  en:
+    summary: "ℹ️ Special human rights consultation desk opens for \"Human Rights Advocates Day\""
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      On Wednesday, June 3, from 10:00 a.m. to 3:00 p.m., a special human rights consultation desk will open at the Hanno Central District Administrative Center (飯能中央地区行政センター).
+
+      This is held in observance of "Human Rights Advocates Day" on June 1, the date when the Human Rights Advocates Law was enacted.
+
+      If you're wondering "Could my concern be a human rights violation?", please feel free to consult about issues like sexual harassment, power harassment, domestic violence, corporal punishment, bullying, online harassment or defamation, and discrimination. Human rights advocates will handle your consultation, and there is no fee.
+
+      Seven human rights advocates from Hanno City belong to the Tokorozawa Human Rights Advocates Council and carry out activities including human rights awareness and human rights consultations.
+
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/11548.html
+    translation_hash: "sha256-407c0afcf1c57a70"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:35:30.103878Z"
+    format_version: 1

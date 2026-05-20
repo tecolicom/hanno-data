@@ -45,3 +45,42 @@ source:
   fetched_at: "2026-05-20T04:56:29.857415Z"
   content_hash: "sha256-a95f36eb25458ccf"
   summary_method: "full"
+translations:
+  en:
+    summary: "ℹ️ Sugo-Ashi Event: Walk the Hanno Two-Day Nago Course on Saturday, May 23, 2026"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      Event Details
+
+      Date: Saturday, May 23
+
+      Gathering Time: 10:00 AM
+
+      Gathering Place: Daini-ku District Administrative Center
+
+      Course: Daini-ku District Administrative Center → Akanegataoge Pass → Misugi-dai Seven-Eleven → Asahi-yama Observation Park → Hanno Central District Administrative Center → Hanno City Hall
+
+      Distance: Approximately 14 kilometers
+
+      Expected Duration: Approximately 4 hours 30 minutes
+
+      Fee: 200 yen (materials fee, collected on the day)
+
+      What to Bring: Lunch box, drinking water, rain gear, transportation IC card, Sugo-Ashi handbook (if you have one)
+
+      Other Notes: Please arrange your own insurance.
+
+      Registration: Apply to ASA Hanno by Tuesday, May 19. Phone: 972-4701 / Fax: 974-2190
+
+      Weather Cancellation: Check ASA Hanno Central after 3:00 PM on the day before for cancellation due to weather.
+
+      Inquiries: Onda 090-2205-8073
+
+      Organizer: Hanno Walking Club
+
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/12385.html
+    translation_hash: "sha256-654e01595b064665"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:34:12.873489Z"
+    format_version: 1

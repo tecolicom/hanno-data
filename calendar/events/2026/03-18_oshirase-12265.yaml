@@ -38,3 +38,34 @@ source:
   fetched_at: "2026-05-20T04:56:52.362129Z"
   content_hash: "sha256-5ba01f891da90949"
   summary_method: "llm-haiku-4-5"
+translations:
+  en:
+    summary: "ℹ️ Relief and aid fund donations now being accepted"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      The Japanese Red Cross is accepting donations to support disaster-affected areas. The Hanno branch of the Saitama Prefecture chapter is cooperating, and all donations received are sent in full to the relief fund distribution committees of the affected prefectures.
+
+      【Domestic Relief Funds】
+      • Noto Peninsula Earthquake Disaster Relief Fund (Ishikawa, Toyama, Fukui prefectures) — Scheduled end date: March 22, 2027 (Reiwa 9)
+      • September 2024 Noto Peninsula Heavy Rain Disaster Relief Fund (Ishikawa) — Scheduled end date: March 22, 2027
+
+      【International Humanitarian Aid Funds】
+      • Middle East Humanitarian Crisis Relief Fund — Scheduled end date: March 23, 2027
+      • Bangladesh Southern Refugee Relief Fund — Scheduled end date: March 23, 2027
+      • Ukraine Humanitarian Crisis Relief Fund — Scheduled end date: March 23, 2027
+      • Iran and Neighboring Countries Humanitarian Crisis Relief Fund — Scheduled end date: May 25, 2026 (Reiwa 8)
+      • Undesignated International Relief Fund — Accepted year-round
+
+      【Where to donate】
+      City Hall main building front entrance information desk (donation box), or 1st floor window 11, Community Welfare Division
+
+      【Hours】Weekdays 8:30 a.m. to 5:15 p.m.
+
+      If you would like a receipt, please contact the Community Welfare Division (1st floor window 11).
+
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/12265.html
+    translation_hash: "sha256-842648ea532c07e7"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:33:29.139053Z"
+    format_version: 1

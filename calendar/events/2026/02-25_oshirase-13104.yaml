@@ -31,3 +31,26 @@ source:
   fetched_at: "2026-05-20T04:57:08.687093Z"
   content_hash: "sha256-77b3f06b6e171d59"
   summary_method: "llm-haiku-4-5"
+translations:
+  en:
+    summary: "ℹ️ Changes to opening days and hours at Tove Jansson Akebono Children's Forest Park (trial from fiscal year 2026)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      Tove Jansson Akebono Children's Forest Park will trial changes to its opening days and hours starting in fiscal year 2026 (Reiwa 8) as part of a review of park operations.
+
+      【Changes to Opening Days】
+      Busy season (April–May, mid-September–December, late March): Open Tuesday–Sunday, closed every Monday (or the next weekday if Monday is a holiday)
+      Quiet season (June–early September, January–mid-March): Open Thursday–Sunday, closed Mondays, Tuesdays, and Wednesdays (with day-off adjustments if a holiday falls on these days)
+      Year-end and New Year period (December 28–January 4): Closed as usual
+
+      【Changes to Opening Hours】
+      The evening light-up events held on Saturdays, Sundays, and holidays will end on March 29, 2026. The closing time on all open days will be 17:00.
+
+      For detailed information about opening days and hours, please check the fiscal year 2026 opening calendar on Hanno City's website.
+
+      Source (Japanese): https://www.city.hanno.lg.jp/akebono/oshirase/13104.html
+    translation_hash: "sha256-e70e75c87b9467ff"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:32:37.060887Z"
+    format_version: 1

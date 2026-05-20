@@ -11,3 +11,14 @@ render:
   gcal:
     mode: single-allday
     time_marker: "10:00–14:30"
+translations:
+  en:
+    summary: "Sug足Walk: Hike the Hanno Two-Day Nagurie Course"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      About 14 km and roughly 4 hours 30 minutes. Participation fee: 200 yen. The route goes via Akane-ga-toge Pass and Asahi Mountain Observation Park, ending at Hanno City Hall. Prior registration required.
+    translation_hash: "sha256-56a24814b3f4e0ff"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:37:27.978296Z"
+    format_version: 1

@@ -6,3 +6,12 @@ dtend: "2026-08-23"
 render:
   gcal:
     mode: single-allday
+translations:
+  en:
+    summary: "いなしん ONE MAN LIVE"
+    description: |-
+
+    translation_hash: "sha256-0c2eb41d4a19611c"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:39:58.597291Z"
+    format_version: 1

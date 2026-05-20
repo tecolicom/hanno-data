@@ -37,3 +37,32 @@ source:
   fetched_at: "2026-05-20T04:56:43.346793Z"
   content_hash: "sha256-f7561484e7e9f050"
   summary_method: "llm-haiku-4-5"
+translations:
+  en:
+    summary: "ℹ️ Road closure and bus route changes due to stormwater drainage work in the Asama area"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      Road closure and bus route changes due to stormwater drainage work in the Asama area
+
+      【Work Overview】
+      Project name: Asama area stormwater drainage work, phase 4
+      Work location: Yanagiwarai, Hanno City
+      Work period: March 30, 2026 (Reiwa 8) to June 30, 2026 (scheduled)
+      Work hours: 9:00 AM to 5:00 PM
+      Work details: Drainage structure construction and paving
+
+      【Road Closure】
+      Municipal Road 1-15-2 will be closed.
+
+      【Bus Route Changes】
+      Detour period: March 30, 2026 to June 30, 2026 (scheduled)
+      Affected buses: Buses serving the Asama stop Monday through Saturday (excluding holidays during the work period) between 9:00 AM and 5:00 PM during the closure
+
+      During the road closure, passengers using the Asama bus stop should use the Kojoumae (Factory Front) stop or Shiei Jutaku (Municipal Housing) stop instead. Detailed route information will be posted at bus stops. We apologize for any inconvenience and appreciate your understanding and cooperation.
+
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/tosiseibika/13270.html
+    translation_hash: "sha256-4d267ac4aff6cfd2"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:33:44.002524Z"
+    format_version: 1

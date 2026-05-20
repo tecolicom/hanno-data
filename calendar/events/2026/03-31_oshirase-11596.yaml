@@ -87,3 +87,82 @@ source:
   fetched_at: "2026-05-20T04:56:27.390284Z"
   content_hash: "sha256-ed5eef0aa6f1a839"
   summary_method: "llm-haiku-4-5"
+translations:
+  en:
+    summary: "ℹ️ 【Reiwa 7 (2025) Fiscal Year】Press Release Materials"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      Emergency gun-hunting drill conducted in preparation for bear and other wildlife encounters.
+
+      「Mirror Rock on Tenranzan」and「Gorge Formation in Shirotani Gorge」have been designated as cultural properties.
+
+      Lighting-equipped truck-shaped crime prevention buzzers have been donated to Hanno City by the Saitama Truck Association.
+
+      Daito Kentaku Co., Ltd. donated funds through the corporate hometown tax program.
+
+      Hanno City and Fuji Yakuhin Co., Ltd. concluded a comprehensive partnership agreement.
+
+      Panda-shaped pencils have been donated to Hanno City by Kaneko Gumi Co., Ltd.
+
+      Reiwa 7 fiscal year recipients of fire department and community activity commendations have been decided.
+
+      Cross-traffic flags and traffic safety umbrellas have been donated to Hanno City by Iruma Nō Agricultural Cooperative.
+
+      Hanno City and Nippon Life Insurance Mutual Company Kawagoe Branch concluded a comprehensive partnership agreement.
+
+      Emergency fiscal measures were announced.
+
+      Double issuance of ballots occurred in the 51st House of Councillors election.
+
+      The 51st House of Councillors election and the 27th Supreme Court Justice national referendum were held on January 23, 2026 (Reiwa 8).
+
+      Daiichi Life Insurance Company donated funds through the corporate hometown tax program.
+
+      A briefing session on emergency fiscal measures was held.
+
+      Reiwa 7 fiscal year wildlife damage prevention training session was conducted.
+
+      The 12th Hanno City Emergency Economic Measures package was announced.
+
+      Nippon Life Insurance Mutual Company donated funds through the corporate hometown tax program.
+
+      Market sounding survey for privatization accompanying rebuilding of Sengen Nursery will be conducted.
+
+      Museum PR video will be produced through collaboration with Surugadai University Media Information Department Takada Seminar.
+
+      Unauthorized receipt of childcare and education facility benefits and administrative penalties were implemented.
+
+      Revised Administrative Operations Review Checklist (Phase 2) was released.
+
+      Special Exhibition 「Rare Amulets – Old and Unusual Items on Display」was held.
+
+      Reappointment of Vice Mayor and Superintendent of Education was decided.
+
+      28th Hanno City Elementary and Junior High School Social Studies Research Exhibition award winners were decided.
+
+      Collection shortfalls in late-stage medical insurance premiums were found.
+
+      Ceremony for presentation of「Nishikawa timber blocks」to newborns was held.
+
+      New Hanno City Mayor took office.
+
+      Demonstration project for conservation of natural and living environment through expanded occupancy zones around Hanno Riverbed will be conducted.
+
+      Bus route wrapped with fire department recruitment messaging will operate.
+
+      Presentation of「Nishikawa timber blocks」to newborns began.
+
+      Donation received from Koyo-sha Co., Ltd.
+
+      Hanno City Council vice-chairpersons and chairperson took office.
+
+      Appointment ceremony for Hanno City PR ambassadors was held.
+
+      Donation presentation ceremony from Hanno Rotary Club to Hanno City was held.
+
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025/11596.html
+    translation_hash: "sha256-e0b5702445c68870"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:34:34.227543Z"
+    format_version: 1

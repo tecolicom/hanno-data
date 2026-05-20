@@ -41,3 +41,36 @@ source:
   fetched_at: "2026-05-20T04:55:40.649550Z"
   content_hash: "sha256-2eeba351193f2f81"
   summary_method: "llm-haiku-4-5"
+translations:
+  en:
+    summary: "ℹ️ Press releases for Fiscal Year 2026 (Reiwa 8)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      A list of press releases from Hanno City.
+
+      【April 30, 2026 (Reiwa 8)】
+      No-necktie dress code year-round at City Hall
+      Clothing at City Hall will be no-necktie year-round.
+
+      【April 24, 2026】
+      Donation from Ome Shinkin Bank
+      Ome Shinkin Bank will make a donation to Hanno City.
+
+      【April 22, 2026】
+      Launch of the Arima Area Water Source Forest Conservation Project (nickname: "Forest Project for Mountain Hawks and Japanese Dormice")
+      A new project focused on conserving water source forests is launching.
+
+      【April 20, 2026】
+      Donation ceremony from Hanno Rotary Club
+      Hanno Rotary Club will present a donation to Hanno City.
+
+      【April 6, 2026】
+      Donation from MX Mobiling Co., Ltd. (Corporate Hometown Tax)
+      MX Mobiling Co., Ltd. will make a donation through the Corporate Hometown Tax program.
+
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025_1/13388.html
+    translation_hash: "sha256-278c46a7c12adfcc"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:36:00.346992Z"
+    format_version: 1

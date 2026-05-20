@@ -11,3 +11,16 @@ description: |
 render:
   gcal:
     mode: single-allday
+translations:
+  en:
+    summary: "14th Hanno Crafts Fair"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      10:00–17:00
+
+      A handmade market featuring craft vendors and food stalls. Browse ceramics, woodworking, metalwork, fabric, dyeing, weaving, leather, glasswork, bamboo, accessories, and more.
+    translation_hash: "sha256-34ef6bfae45649a1"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:36:57.360166Z"
+    format_version: 1

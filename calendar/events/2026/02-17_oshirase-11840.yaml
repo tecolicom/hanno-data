@@ -31,3 +31,26 @@ source:
   fetched_at: "2026-05-20T04:57:24.473290Z"
   content_hash: "sha256-f0605b8d8d351a12"
   summary_method: "llm-haiku-4-5"
+translations:
+  en:
+    summary: "ℹ️ Status update on emergency financial measures"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      Hanno City is working on emergency financial measures to establish sustainable municipal operations. As of February 2026 (Reiwa 8), the Emergency Financial Measures Headquarters meeting chaired by the mayor has been held 9 times, and project team meetings 4 times, with concrete discussions ongoing.
+
+      【Goals of the Emergency Financial Measures Plan】
+      • By the end of fiscal year 2026 (Reiwa 8), secure a combined balance of financial adjustment funds and debt reduction funds equal to at least 10% of the city's standard financial scale (1.95 billion yen)
+      • Determine an appropriate and sustainable budget size in line with revenue scale, and shift toward expenditures that match revenue
+
+      【Review of Administrative Operations and Services】
+      The entire city is reviewing all administrative operations and services without exemptions, and is organizing them in stages for continuation (after reviewing user fees), downsizing, suspension/discontinuation, or postponement. The finalized checklist for reviewing administrative operations and services has been published since February 17, 2026 (Reiwa 8).
+
+      【Progress to Date】
+      Since reporting the implementation of emergency financial measures in February 2025 (Reiwa 7), the city has proceeded with plan formulation (June), multiple publications of revised review checklists, submission of ordinance amendment proposals for reviewing usage fees and service charges, and holding of district briefing meetings. The initial budget proposal for fiscal year 2026 (Reiwa 8) is scheduled to be submitted to the March regular session of the city assembly in March 2026 (Reiwa 8).
+
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kinkyuuzaiseitaisaku/11840.html
+    translation_hash: "sha256-f9e49d879b698a6a"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:32:04.909001Z"
+    format_version: 1

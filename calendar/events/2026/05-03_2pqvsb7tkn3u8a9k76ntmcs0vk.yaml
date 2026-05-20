@@ -9,3 +9,14 @@ render:
   gcal:
     mode: single-allday
     time_marker: "09:00–16:00"
+translations:
+  en:
+    summary: "Osanpo Market"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      https://hanno-tourism.jp/hanno-eco/tour/ec-osanpom-spring/
+    translation_hash: "sha256-e092a8beefc6aea8"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:36:15.797174Z"
+    format_version: 1

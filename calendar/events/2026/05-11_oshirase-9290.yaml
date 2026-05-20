@@ -43,3 +43,40 @@ source:
   fetched_at: "2026-05-20T04:55:27.071430Z"
   content_hash: "sha256-96fe41e2c40fc0f3"
   summary_method: "full"
+translations:
+  en:
+    summary: "ℹ️ Sugo-Ashi Walking Event – June 27, 2026 (Saturday) – Walk from Musashidai and Yokotedai to Azuma Gorge"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      Event Details
+
+      Date: June 27 (Saturday)
+
+      Gathering Time: 10:00 a.m.
+
+      Gathering Place: West parking lot of Hanno City Hall
+
+      Route: City Hall → Nakai → Mountain path beside Musashi Golf Club → Tourist Information Office (currently closed) → Beside Musashidai Water Distribution Station → Yokotedai → Beside Manfukuji Temple → Azuma Gorge → Hanno River Floodplain → City Hall
+
+      Distance: Approximately 13 kilometers
+
+      Estimated Time: Approximately 4 hours
+
+      Cost: 200 yen (insurance and other fees, collected on the day)
+
+      What to Bring: Packed lunch, beverages, rain gear, Sugo-Ashi handbook (if you have one)
+
+      Registration: Register with ASA Hanno by Tuesday, June 23. Phone: 042-972-4701 | Fax: 042-974-2190
+
+      Cancellation Check: To confirm cancellation due to weather or other reasons, contact ASA Hanno after 9:00 a.m. on the day of the event.
+
+      Inquiries: Onda 090-2205-8073
+
+      Organized by: Hanno Walking Club
+
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/9290.html
+    translation_hash: "sha256-e54c08ce96b38bdc"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:36:31.036089Z"
+    format_version: 1

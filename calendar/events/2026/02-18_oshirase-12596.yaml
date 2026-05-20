@@ -29,3 +29,24 @@ source:
   fetched_at: "2026-05-20T04:57:30.951681Z"
   content_hash: "sha256-2f936f0631b6022f"
   summary_method: "llm-haiku-4-5"
+translations:
+  en:
+    summary: "ℹ️ 【Concluded】Sounding-type market survey for municipal childcare facilities"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      A sounding-type market survey was conducted to gather input for the privatization of Sengan Childcare Center as part of its rebuilding.
+
+      This survey sought opinions and proposals from private operators regarding facility construction and operations on municipal land at the rebuilding candidate site, in place of the current Sengan Childcare Center.
+
+      【Schedule (Concluded)】
+      • Entry sheet submission period: November 19, 2025 (Wednesday) to December 5, 2025 (Friday)
+      • Advance question submission period: November 19, 2025 (Wednesday) to December 5, 2025 (Friday)
+
+      The results were made public on February 18, 2026 (Reiwa 8).
+
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/kodomoseisakuka/12596.html
+    translation_hash: "sha256-3bc76c0ce929177d"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:32:14.930830Z"
+    format_version: 1

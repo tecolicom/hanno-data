@@ -6,3 +6,12 @@ dtend: "2026-05-14"
 render:
   gcal:
     mode: single-allday
+translations:
+  en:
+    summary: "Fukadaya 3rd Anniversary"
+    description: |-
+
+    translation_hash: "sha256-4b74b5d31d26efbd"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:39:51.746162Z"
+    format_version: 1

@@ -26,3 +26,24 @@ source:
   url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13203.html"
   fetched_at: "2026-05-20T02:17:46.420424Z"
   content_hash: "sha256-bb3b7dbf6851aae0"
+translations:
+  en:
+    summary: "📝 Mayor: Support for \"Traffic Safety Classes\""
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      On Monday, March 2, Safety Union Co., Ltd., which has contracted to provide Hanno City's traffic safety classes for fiscal year 2025 (Reiwa 7), made an offer to conduct next year's traffic safety classes free of charge.
+
+      Hanno City is currently working on emergency fiscal measures and reviewing operations across all departments. As part of this review, all programs were examined, and traffic safety class contracting—overseen by the Community Safety Division—was suspended for fiscal year 2026 (Reiwa 8).
+
+      In this context, Safety Union has generously proposed to conduct the traffic safety classes that are currently being held in fiscal year 2025 at no cost in fiscal year 2026, in order to support residents' safety and peace of mind.
+
+      Beyond traffic safety alone, the company has also made the wonderful offer to contribute to community crime prevention and disaster preparedness.
+
+      Moving forward, Hanno City will continue to aim to be a place where all residents can live with confidence and security, free from traffic accidents.
+
+      Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13203.html
+    translation_hash: "sha256-dea259c9e156a24a"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:32:57.253454Z"
+    format_version: 1

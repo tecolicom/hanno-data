@@ -11,3 +11,14 @@ render:
   gcal:
     mode: single-allday
     time_marker: "08:00–16:00"
+translations:
+  en:
+    summary: "Early summer hike up Mt. Warabi with a mountain guide"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      A guided hiking tour of Mt. Warabi with a professional mountain guide.
+    translation_hash: "sha256-820067a87c42183d"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:37:44.003271Z"
+    format_version: 1

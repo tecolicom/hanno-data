@@ -35,3 +35,30 @@ source:
   fetched_at: "2026-05-20T04:56:07.375941Z"
   content_hash: "sha256-aaa2b040e96ea410"
   summary_method: "llm-haiku-4-5"
+translations:
+  en:
+    summary: "ℹ️ Online Hanno City Hall"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      Some of the applications and notifications handled at Hanno City Hall windows are now available 24 hours a day, 365 days a year through the internet.
+
+      【Main Online Services】
+
+      • Hanno City Electronic Application and Notification Service: Search for applications and notifications by category or keyword to complete procedures
+      • My Number Portal "Pittari Service": Electronic applications available through the national My Number Portal
+      • Public Facility Reservation System: Make reservations for public facilities, enter lottery applications, check availability
+      • Certificate Convenience Store Delivery: Use your My Number Card to obtain resident certificates and similar documents at convenience stores anytime, including weekends and holidays (except during maintenance)
+      • Hanno City GIS: View urban planning information, hazard maps, hiking maps, and more
+      • Email Distribution Service: Receive city announcements and event information at your registered email address
+      • Procedure Navigator: Get guidance on necessary procedures based on your situation, such as moving or getting married
+      • Neko no Me Dot Com: Check waiting times at the Citizen Services window and receive notification when it's your turn
+      • Road Emergency Hotline (#9910): Available 24 hours for reporting road damage and similar issues (LINE reports also accepted)
+
+      From April 1, 2024 to March 31, 2025, there were 291 online procedure uses and a total of 87,168 procedures completed.
+
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/johosystem/13006.html
+    translation_hash: "sha256-35e4aafa3cff4b67"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:35:17.418746Z"
+    format_version: 1

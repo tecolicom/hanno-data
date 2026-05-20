@@ -24,3 +24,22 @@ source:
   url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202601/13086.html"
   fetched_at: "2026-05-20T02:17:42.250575Z"
   content_hash: "sha256-3ad317a0a3bc49db"
+translations:
+  en:
+    summary: "📝 Mayor: 24th Oku-Musashi Ekiden Relay Race"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      On January 25 (Sunday), the 24th Oku-Musashi Ekiden Relay Race was held.
+
+      This year's event again welcomed the participation of 175 teams, including corporate teams, university teams, high school teams active in nationwide relay competitions, and teams formed locally.
+
+      The sight of athletes running with full strength through the Oku-Musashi routes brought great emotion and vitality to our citizens.
+
+      Congratulations to all the athletes who placed in the competition. I would also like to thank everyone involved in the management and running of the event.
+
+      Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202601/13086.html
+    translation_hash: "sha256-dd083bd1af0db53b"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:31:46.273652Z"
+    format_version: 1

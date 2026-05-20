@@ -41,3 +41,36 @@ source:
   fetched_at: "2026-05-20T04:56:36.748522Z"
   content_hash: "sha256-e781b34f972593e0"
   summary_method: "llm-haiku-4-5"
+translations:
+  en:
+    summary: "ℹ️ Sugo-Ashi Relaxed Walk – May 19 (Tuesday) and May 30 (Saturday), 2026"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      Sugo-Ashi Relaxed Walk will be held on May 19 (Tuesday) and May 30 (Saturday), 2026 (Reiwa 8).
+
+      Gathering time: 10:00 a.m.
+      Gathering place: West parking lot of Hanno City Hall
+
+      Two course options will be available depending on weather and number of participants.
+
+      【Course 1】City Hall → Benzaiten → Chikkanji → Nakayama-Nishi Signal → Yatsuda → Nonin Temple → Central Park → Hongo Water Purification Plant → Hanno River Stepping Stone Bridge → Hanno Station → Higashi-Hanno Station → City Hall
+
+      【Course 2】City Hall → Within Hanno City (Shimokaji, Futayanagi, Kaji, etc.) → Within Iruma City (Shinko, Noda, etc.) → Fushiko Station (return by train)
+
+      Distance: Approximately 7 kilometers
+      Estimated time: Approximately 2.5 hours
+      Cost: Free (insurance is the responsibility of each participant)
+
+      What to bring: Drinking water, rain gear, IC transit card, Sugo-Ashi handbook (if you have one)
+
+      This is a same-day participation event. Please arrive at the gathering place by the designated time. To confirm cancellations due to weather or other reasons, check the Hanno Walking Club website or contact Onda after 3:00 p.m. on the day before the event.
+
+      Inquiries: Onda 090-2205-8073
+      Organized by: Hanno Walking Club
+
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/13340.html
+    translation_hash: "sha256-59e8addc9ded7322"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:34:05.583146Z"
+    format_version: 1

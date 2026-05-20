@@ -30,3 +30,25 @@ source:
   fetched_at: "2026-05-20T04:56:56.890527Z"
   content_hash: "sha256-71c260ad1d634f4a"
   summary_method: "llm-haiku-4-5"
+translations:
+  en:
+    summary: "ℹ️ Arima Area Water Source Forest Conservation Project (known as \"Golden Eagle and Japanese Dormouse Forest Project\")"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      Hanno City will launch the "Arima Area Water Source Forest Conservation Project" starting in fiscal year 2025 (Reiwa 7), targeting about 1,300 hectares of city-owned forest in the Arima area upstream of Arima Dam. The project is nicknamed the "Golden Eagle and Japanese Dormouse Forest Project."
+
+      【Purpose】
+      The project aims to convert poorly maintained artificial forests of cedar and cypress into mixed needle-leaf and broadleaf forests, and eventually restore them to natural forest. This will enhance water source conservation, disaster prevention, and biodiversity.
+
+      【Activities】
+      The project includes forest management (thinning and deer damage prevention), eco-tours, biodiversity monitoring, and adaptive management in response to environmental changes.
+
+      【Symbolic Species】
+      The project has designated two species as symbols: the "Golden Eagle" (a species designated as endangered by Japan's Ministry of the Environment and Saitama Prefecture, confirmed in the target area) and the "Japanese Dormouse" (Saitama Prefecture Near-Threatened Category 1 and nationally designated Natural Monument). Forestry operations will be conducted with care for the habitats and breeding environments of these species. Special attention will be paid to protecting the Golden Eagle's nesting areas and hunting grounds, and conserving seeds, fruits, and moss (which serve as food and nesting materials for the Japanese Dormouse).
+
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/shinrinzukurika/13168.html
+    translation_hash: "sha256-6847ff0b4c749b2a"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:33:23.952552Z"
+    format_version: 1

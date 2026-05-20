@@ -32,3 +32,27 @@ source:
   fetched_at: "2026-05-20T04:57:33.626203Z"
   content_hash: "sha256-fdf37faa5583a4dc"
   summary_method: "llm-haiku-4-5"
+translations:
+  en:
+    summary: "ℹ️ Transfer of part of National Route 299 to Hanno City roads and prefectural roads on April 1, 2026 (Reiwa 8)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      On April 1, 2026 (Reiwa 8), part of National Route 299 within Hanno City will be abolished and transferred to Hanno City roads and prefectural roads.
+
+      【Transfer to Hanno City Roads】
+      The section from Hanno Station Front intersection to the Iruma City border will be transferred as Hanno City Road 1st District No. 2,961. Applications for road occupancy permits, road construction authorization, road boundary certificates, and other permits should be submitted to Hanno City Hall.
+
+      【Change to Prefectural Roads】
+      The section from Nakayama Overpass (West) intersection to Hanno Station Front intersection will become a prefectural road, managed by the Saitama Hanno Civil Engineering Office. From Nakayama Overpass (West) intersection to Higashimachi intersection, it will be Major Local Road Ome-Hanno Line; from Higashimachi intersection to Hanno Station Front intersection, it will be General Prefectural Road Hanno Station Line.
+
+      【Other Sections】
+      The section from Hanno City border to Sasai intersection in Sayama City will be transferred to Iruma City roads and Sayama City roads.
+
+      For details, contact the Hanno Civil Engineering Office (042-973-2281) or the Kawagoe Civil Engineering Office (049-243-2020).
+
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/ijikanrika/12982.html
+    translation_hash: "sha256-a5ee840167904a5d"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:32:18.819456Z"
+    format_version: 1

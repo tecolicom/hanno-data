@@ -32,3 +32,27 @@ source:
   fetched_at: "2026-05-20T04:55:21.830354Z"
   content_hash: "sha256-420d55314a955b3d"
   summary_method: "llm-haiku-4-5"
+translations:
+  en:
+    summary: "ℹ️ Convenience store service for tax/non-taxable and income certificates suspended"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      The convenience store service for issuing tax (non-taxable) and income certificates will be suspended from May 31 to June 2, 2026 (Reiwa 8) due to system maintenance and annual fiscal year updates.
+
+      Tax (non-taxable) and income certificates for fiscal year 2026 will be available starting June 3, 2026 (Wednesday).
+
+      If you need a certificate issued during the suspension period, please use one of the following:
+
+      • Hanno City Hall and each district administrative center (excluding Fujimi District Administrative Center)
+      9:00 a.m. to 4:30 p.m.
+
+      • Hanno Station Service Counter
+      9:00 a.m. to 5:00 p.m.
+      (Same-day issuance of tax certificates accepted from 9:00 a.m. to 4:30 p.m.)
+
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/johosystem/13166.html
+    translation_hash: "sha256-cb593280fe8555b1"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:36:59.919388Z"
+    format_version: 1

@@ -20,3 +20,20 @@ source:
   url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13321.html"
   fetched_at: "2026-05-20T02:17:45.899727Z"
   content_hash: "sha256-4a6a869102e22973"
+translations:
+  en:
+    summary: "📝 Mayor: Hanno Municipal Kaji Junior High School 47th Graduation Ceremony"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      On Friday, March 13, graduation ceremonies were held at junior high schools throughout the city. I attended the Hanno Municipal Kaji Junior High School graduation ceremony as a guest and offered congratulatory remarks.
+
+      Congratulations to all graduates on your graduation.
+
+      Dear graduates, my heartfelt congratulations on this momentous occasion.
+
+      Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13321.html
+    translation_hash: "sha256-132de545f3439c92"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:33:18.483480Z"
+    format_version: 1

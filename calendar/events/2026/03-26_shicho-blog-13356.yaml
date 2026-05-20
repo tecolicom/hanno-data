@@ -22,3 +22,20 @@ source:
   url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13356.html"
   fetched_at: "2026-05-20T02:17:45.331610Z"
   content_hash: "sha256-f7fa3a470ebe969d"
+translations:
+  en:
+    summary: "📝 Mayor: Donation ceremony for Panda pencils from Kaneko-gumi Co., Ltd."
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      On March 26 (Thursday), Kaneko-gumi Co., Ltd. donated 500 dozen Panda pencils to the city.
+
+      The organization that sells Panda pencils, the Saitama Muscular Dystrophy Association (a general incorporated association), is a welfare organization established to work toward the elimination of muscular dystrophy and to support patients and their families while promoting their welfare. The proceeds from Panda pencil sales are used to support patients and their families.
+
+      The Panda pencils donated this time will be distributed to first-grade students entering Hanno City municipal elementary schools in fiscal year 2026 (Reiwa 8), and will be used in their studies.
+
+      Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13356.html
+    translation_hash: "sha256-49472125ca3988bc"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:33:58.094307Z"
+    format_version: 1

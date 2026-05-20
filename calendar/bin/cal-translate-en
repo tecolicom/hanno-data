@@ -1,0 +1,322 @@
+#!/usr/bin/env python3
+"""cal-translate-en — events/ 配下の YAML を英訳して translations.en.* に格納.
+
+各 YAML の summary と description を Claude Haiku 4.5 で英訳する.
+出力先は同じ YAML に in-place で増設するフィールド:
+
+    translations:
+      en:
+        summary: "..."
+        description: |
+          ...
+        translation_hash: "sha256-..."   # 元 summary+description の hash
+        model: "claude-haiku-4-5"
+        translated_at: "2026-...Z"
+        format_version: 1
+
+translation_hash 一致なら skip (idempotent) — 元の日本語が変わったら自動で
+再翻訳が走る. format_version を bump すると wrapper/disclaimer 変更を
+全件に伝播できる.
+
+ANTHROPIC_API_KEY 必須. 失敗時は warn して該当 YAML を変更しない.
+
+docs/ai-content-policy.md 参照. 英訳出力にも AI ラベル disclaimer を冒頭付与.
+"""
+from __future__ import annotations
+
+import argparse
+import glob
+import hashlib
+import json
+import os
+import re
+import sys
+from datetime import datetime
+
+import yaml
+import httpx
+
+
+# --- 設定 ---
+LLM_MODEL = "claude-haiku-4-5"
+LLM_MAX_TOKENS = 2048  # 翻訳なので summarize より長めに
+LANG = "en"
+
+# format_version: wrapper/disclaimer/プロンプト改変時に bump.
+# v1: 初版 (Plain English, AI disclaimer 冒頭, 元 URL を末尾保持)
+TRANSLATION_FORMAT_VERSION = 1
+
+# AI 翻訳 disclaimer (冒頭). docs/ai-content-policy.md 参照.
+EN_DISCLAIMER = "Automated translation (refer to source for accuracy)"
+
+# 翻訳プロンプト. Google Calendar 表示 (plain text) を前提.
+SYSTEM_PROMPT = """You translate Japanese municipal calendar entries from Hanno City (飯能市, Saitama Prefecture, Japan) into clear plain English for non-Japanese-speaking residents and visitors.
+
+Style and format:
+- Plain, accessible English. Prefer everyday words over bureaucratic English.
+- Keep dates in Western format with the Japanese era in parentheses on first mention if helpful: "May 31, 2026 (Reiwa 8)". Subsequent mentions can use Western only.
+- Translate Japanese era expressions correctly: 令和N年 = year (2018+N). e.g., 令和8年 = 2026.
+- Keep proper nouns recognizable: place names in romaji ("Hanno", "Tenranzan", "Iruma River"), facility names as commonly used ("Hanno City Hall", "Hanno Library"). For very local names without standard English, use romaji + brief gloss in parentheses on first mention.
+- Preserve all facts: dates, times, locations, eligibility, fees, deadlines, application methods, contact info. **Do not invent or omit factual details.**
+- Match the source's tone (announcement = neutral/informative, mayor's reflection = first-person reflective, event listing = inviting).
+- Use newlines and 【brackets】 for structure if the original is structured. **Do not use any Markdown** (no **bold**, *italic*, # headings, - bullet lists, `code`, or [text](url) links). Calendar displays this as literal text.
+- For bullet-like lists in the source, use "•" (bullet) or just newline-separated lines.
+
+Output format:
+You will be given the Japanese SUMMARY and DESCRIPTION separately. Return strictly the following JSON (no commentary, no markdown fences):
+
+{"summary": "<English summary, short, matches the length of the Japanese summary>", "description": "<English translation of the description body, preserving paragraphs with \\n\\n>"}
+
+If the Japanese contains a leading emoji marker (e.g. ℹ️, 📝, 🎉), keep that same emoji at the start of the English summary so the calendar's visual type indicator is preserved.
+
+Notes:
+- The Source URL line and the "AI summary disclaimer" line have already been stripped from the input description. Just translate what is given.
+- If the description ends with a Japanese "(continued at the link...)" marker like "（続きはリンク先で）", translate it naturally, e.g. "(Continued at the link below)".
+"""
+
+
+def strip_markdown(text: str) -> str:
+    """LLM が混入させた Markdown を plain text に変換. cal-oshirase-fetch と同じロジック."""
+    if not text:
+        return text
+    text = re.sub(r"\*\*([^*\n]+?)\*\*", r"\1", text)
+    text = re.sub(r"__([^_\n]+?)__", r"\1", text)
+    text = re.sub(r"(?<!\*)\*(?!\*)([^*\n]+?)(?<!\*)\*(?!\*)", r"\1", text)
+    text = re.sub(r"(?<!_)_(?!_)([^_\n]+?)(?<!_)_(?!_)", r"\1", text)
+    text = re.sub(r"(?m)^#{1,6}\s+", "", text)
+    text = re.sub(r"(?m)^[ \t]*[-*]\s+", "• ", text)
+    text = re.sub(r"`([^`\n]+?)`", r"\1", text)
+    text = re.sub(r"\[([^\]\n]+)\]\((https?://[^)\s]+)\)", r"\1 (\2)", text)
+    return text
+
+
+def translate(jp_summary: str, jp_description: str) -> dict | None:
+    """Claude Haiku に翻訳依頼. 失敗時 None."""
+    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    if not api_key:
+        print("  ERROR: ANTHROPIC_API_KEY not set", file=sys.stderr)
+        return None
+    user_msg = f"SUMMARY:\n{jp_summary}\n\nDESCRIPTION:\n{jp_description}"
+    try:
+        r = httpx.post(
+            "https://api.anthropic.com/v1/messages",
+            headers={
+                "x-api-key": api_key,
+                "anthropic-version": "2023-06-01",
+                "content-type": "application/json",
+            },
+            json={
+                "model": LLM_MODEL,
+                "max_tokens": LLM_MAX_TOKENS,
+                "system": SYSTEM_PROMPT,
+                "messages": [{"role": "user", "content": user_msg}],
+            },
+            timeout=90,
+        )
+        r.raise_for_status()
+        data = r.json()
+        raw = data["content"][0]["text"].strip()
+        # JSON コードフェンスが付くケースに対応
+        raw = re.sub(r"^```(?:json)?\s*", "", raw)
+        raw = re.sub(r"\s*```$", "", raw)
+        parsed = json.loads(raw)
+        return {
+            "summary": strip_markdown(parsed["summary"].strip()),
+            "description": strip_markdown(parsed["description"].strip()),
+        }
+    except Exception as e:
+        print(f"  ERROR LLM translate: {e}", file=sys.stderr)
+        return None
+
+
+_AI_DISCLAIMER_JP = "AI による要約 (正確な情報は元記事をご確認ください)"
+
+
+def split_description(description: str) -> tuple[str, str | None]:
+    """description を (本文, source_url) に分解.
+
+    LLM に翻訳させたくない要素を事前に除去:
+      - 冒頭の AI 要約 disclaimer 行 (oshirase)
+      - 末尾の "ラベル: URL" 行 (source URL)
+    """
+    text = description
+    # 冒頭 AI disclaimer 行 (oshirase 用) を除去
+    text = re.sub(r"^" + re.escape(_AI_DISCLAIMER_JP) + r"\s*\n+", "", text)
+
+    # 末尾の URL 行 (例: "市長ブログ「市政一直線」: https://...", "飯能市公式サイト 新着情報: https://...")
+    source_url = None
+    m = re.search(r"\n+([^\n]*?:[ \t]*(https?://\S+))\s*$", text)
+    if m:
+        source_url = m.group(2)
+        text = text[:m.start()]
+    else:
+        # URL 単独行 (ラベル無し) も検出
+        m2 = re.search(r"\n+(https?://\S+)\s*$", text)
+        if m2:
+            source_url = m2.group(1)
+            text = text[:m2.start()]
+
+    return text.strip(), source_url
+
+
+def build_en_description(en_body: str, source_url: str | None) -> str:
+    """英語 description を組み立て: disclaimer + 本文 + Source URL."""
+    parts = [EN_DISCLAIMER, en_body.strip()]
+    if source_url:
+        parts.append(f"Source (Japanese): {source_url}")
+    return "\n\n".join(parts)
+
+
+def compute_translation_hash(summary: str, description: str) -> str:
+    canonical = json.dumps(
+        {"summary": summary, "description": description,
+         "format_version": TRANSLATION_FORMAT_VERSION, "lang": LANG},
+        ensure_ascii=False, sort_keys=True,
+    )
+    return "sha256-" + hashlib.sha256(canonical.encode("utf-8")).hexdigest()[:16]
+
+
+def load_yaml(path: str) -> dict:
+    with open(path, "r", encoding="utf-8") as f:
+        return yaml.safe_load(f) or {}
+
+
+def yaml_escape_str(s: str) -> str:
+    return '"' + s.replace("\\", "\\\\").replace('"', '\\"') + '"'
+
+
+def yaml_block_scalar(s: str, indent: int = 4) -> str:
+    pad = " " * indent
+    lines = s.split("\n")
+    head = "|-" if not s.endswith("\n") else "|"
+    body = lines[:-1] if s.endswith("\n") else lines
+    return head + "\n" + "\n".join((pad + ln if ln else "") for ln in body)
+
+
+def render_translations_block(en_summary: str, en_description: str,
+                              translation_hash: str, translated_at: str) -> str:
+    """既存 YAML に追記する translations: ブロックを文字列で組み立て."""
+    lines = ["translations:"]
+    lines.append("  en:")
+    lines.append(f"    summary: {yaml_escape_str(en_summary)}")
+    if en_description:
+        lines.append("    description: " + yaml_block_scalar(en_description, indent=6))
+    lines.append(f"    translation_hash: {yaml_escape_str(translation_hash)}")
+    lines.append(f"    model: {yaml_escape_str(LLM_MODEL)}")
+    lines.append(f"    translated_at: {yaml_escape_str(translated_at)}")
+    lines.append(f"    format_version: {TRANSLATION_FORMAT_VERSION}")
+    return "\n".join(lines) + "\n"
+
+
+def write_yaml_with_translations(path: str, en_summary: str, en_description: str,
+                                 translation_hash: str, translated_at: str,
+                                 dry_run: bool) -> None:
+    """既存 YAML を読み、translations: ブロックを upsert して書き戻す.
+
+    YAML 全体を pyyaml で round-trip すると元のコメント・改行が壊れるため、
+    `translations:` ブロックだけ末尾置換/追記する素朴な方式.
+    """
+    with open(path, "r", encoding="utf-8") as f:
+        content = f.read()
+
+    new_block = render_translations_block(en_summary, en_description,
+                                          translation_hash, translated_at)
+
+    # 既存 translations: ブロックを探して置換 (or 末尾追加)
+    # トップレベル "translations:" 行から、次のトップレベル key or EOF まで
+    m = re.search(r"^translations:\n(?:[ \t]+.*\n)*", content, re.MULTILINE)
+    if m:
+        new_content = content[:m.start()] + new_block + content[m.end():]
+    else:
+        # 末尾改行を保証してから追加
+        if not content.endswith("\n"):
+            content += "\n"
+        new_content = content + new_block
+
+    if dry_run:
+        print(f"# === {path} ===")
+        print(new_content)
+        return
+
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(new_content)
+
+
+def main() -> None:
+    here = os.path.dirname(os.path.abspath(__file__))
+    default_events_dir = os.path.join(here, "..", "events")
+
+    ap = argparse.ArgumentParser(description="events/ YAML 一括英訳 → translations.en.*")
+    ap.add_argument("--events-dir", default=default_events_dir)
+    ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--limit", type=int, default=0, help="先頭 N 件だけ処理 (テスト用)")
+    ap.add_argument("--only-uid", help="特定 UID のみ処理 (テスト用)")
+    args = ap.parse_args()
+
+    pattern = os.path.join(args.events_dir, "**", "*.yaml")
+    paths = sorted(glob.glob(pattern, recursive=True))
+    if args.limit:
+        paths = paths[:args.limit]
+    print(f"Found {len(paths)} YAML files", file=sys.stderr)
+
+    translated = 0
+    skipped = 0
+    errors = 0
+    for path in paths:
+        try:
+            doc = load_yaml(path)
+        except Exception as e:
+            print(f"  ERROR loading {path}: {e}", file=sys.stderr)
+            errors += 1
+            continue
+        if args.only_uid and doc.get("uid") != args.only_uid:
+            continue
+        summary = doc.get("summary", "")
+        description = doc.get("description", "")
+        if not summary:
+            print(f"  SKIP (no summary): {path}", file=sys.stderr)
+            skipped += 1
+            continue
+
+        new_hash = compute_translation_hash(summary, description)
+        existing = (doc.get("translations") or {}).get("en") or {}
+        if existing.get("translation_hash") == new_hash:
+            skipped += 1
+            continue
+
+        # description 無しの manual event は summary だけ翻訳
+        if not description:
+            result = translate(summary, "(no description)")
+            if not result:
+                errors += 1
+                continue
+            en_description = ""
+        else:
+            # 前処理: AI disclaimer 行と末尾 URL 行を取り除いてから LLM へ
+            body_for_llm, source_url = split_description(description)
+            if not body_for_llm:
+                # description はあるが strip 後に空 → summary のみ翻訳
+                result = translate(summary, "(no body)")
+                if not result:
+                    errors += 1
+                    continue
+                en_description = ""
+            else:
+                result = translate(summary, body_for_llm)
+                if not result:
+                    errors += 1
+                    continue
+                en_description = build_en_description(result["description"], source_url)
+        translated_at = datetime.utcnow().isoformat() + "Z"
+        write_yaml_with_translations(path, result["summary"], en_description,
+                                     new_hash, translated_at, args.dry_run)
+        verb = "DRY" if args.dry_run else "WROTE"
+        print(f"  {verb} {path}", file=sys.stderr)
+        translated += 1
+
+    print(f"Done. translated={translated}  skipped={skipped}  errors={errors}",
+          file=sys.stderr)
+
+
+if __name__ == "__main__":
+    main()

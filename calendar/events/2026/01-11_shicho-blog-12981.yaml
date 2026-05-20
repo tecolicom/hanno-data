@@ -24,3 +24,22 @@ source:
   url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202601/12981.html"
   fetched_at: "2026-05-20T02:17:42.401290Z"
   content_hash: "sha256-ae0a3b1f1f24e67d"
+translations:
+  en:
+    summary: "📝 Mayor: Hanno City Coming-of-Age Ceremony 2026 ~ Celebration of Turning Twenty"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      On Sunday, January 11, 2026 (Reiwa 8), we held the Hanno City Coming-of-Age Ceremony ~ Celebration of Turning Twenty ~ at Hanno Civic Hall.
+
+      This year, 742 people in our city are turning twenty, and 467 of them attended the ceremony.
+
+      Congratulations to all of you who are reaching this major milestone in life, and to your families.
+
+      I sincerely wish that your futures will be filled with wonderful moments and achievements.
+
+      Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202601/12981.html
+    translation_hash: "sha256-ce42b0ab2bef37bc"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:31:44.094620Z"
+    format_version: 1

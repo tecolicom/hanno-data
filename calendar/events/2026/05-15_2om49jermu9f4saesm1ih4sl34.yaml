@@ -17,3 +17,23 @@ description: |-
 render:
   gcal:
     mode: single-allday
+translations:
+  en:
+    summary: "Myはんのう v1.17.1 リリース"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      Changes
+      • Soryugawa Circulation bus timetable (Kokusai Kogyo Route Hanno 15) is now accurate — Previously, due to NaviTime's data structure, there was confusion like "the same bus shown multiple times for different directions" and "can't find the Hanno Station route." Routes have been consolidated and reorganized to match the actual circulation loop:
+      • If you board at Hanno Station, you see "Factory Front direction" (residential area loop); if you board at City Hall Front, you see "Hanno Station direction" (short return route) — intuitive buttons organized by use case
+      • On the countdown screen, stops are now displayed in the actual route order (which direction)
+
+      Fixes
+      • Unified City Hall Front / Hanno City Hall as the same stop — Kokusai Kogyo buses called it "City Hall Front" while Muma buses called it "Hanno City Hall," but they are the same stop operationally, so merged to match Muma's official name.
+      • Corrected display names like "Soryugawa Circulation bound" and "Nakasawa" to show actual destinations — resolved the issue where bus timetables showed route names instead of destinations.
+      • Bus return screen countdown: the stop list now cuts off at "boarding → My stop (home)" instead of showing all the way to the final stop. The bus boarding screen continues to show all the way to the terminus.
+      • Other improvements: fixed numerous duplicate and misleading bus schedule displays.
+    translation_hash: "sha256-a1a4ea461172cfb5"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:36:52.670454Z"
+    format_version: 1

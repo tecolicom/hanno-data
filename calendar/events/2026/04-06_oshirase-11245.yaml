@@ -31,3 +31,28 @@ source:
   fetched_at: "2026-05-20T04:56:09.892756Z"
   content_hash: "sha256-56d28f3e4dd033be"
   summary_method: "full"
+translations:
+  en:
+    summary: "ℹ️ Recruiting groups to participate in Minna-katsu Summer 2026"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      We are recruiting groups to help make "Minna-katsu Summer 2026" a success.
+
+      Event date and time: August 2, 2026 (Sunday), 10:30 a.m. to 4:00 p.m.
+
+      Location: Civic Activity Center (7th floor, Maruhiro Department Store Hanno)
+
+      What we're looking for: Groups that can run workshops open to all ages
+
+      Application period: May 7 to 22, 2026 (Thursday to Friday)
+
+      How to apply: Visit the Civic Activity Center in person and fill out a participation application form.
+
+      Number of spots: 5 groups. If we receive more applications than spots, we will select participants by lottery.
+
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jitishinkoka/shiminkatudou/11245.html
+    translation_hash: "sha256-f975c7c39f76940a"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:35:04.159081Z"
+    format_version: 1

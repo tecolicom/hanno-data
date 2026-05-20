@@ -23,3 +23,20 @@ source:
   fetched_at: "2026-05-20T04:55:24.068606Z"
   content_hash: "sha256-28479a5fff7a0c4b"
   summary_method: "full"
+translations:
+  en:
+    summary: "ℹ️ Report on Hometown Tax Donations and How They're Being Used"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      Thank you very much for your generous hometown tax donations to Hanno City.
+
+      We are reporting on the donations received and how they are being used.
+
+      Fiscal Year 2025 (Reiwa 7) Hometown Tax Donation and Usage Report (PDF file: 2.9MB)
+
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/furusatonozei/9107.html
+    translation_hash: "sha256-51e3b68dae3e1b97"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:36:41.478380Z"
+    format_version: 1

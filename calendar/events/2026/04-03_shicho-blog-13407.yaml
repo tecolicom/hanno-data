@@ -20,3 +20,18 @@ source:
   url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13407.html"
   fetched_at: "2026-05-20T02:17:48.071658Z"
   content_hash: "sha256-b5c5a84cdd214b9f"
+translations:
+  en:
+    summary: "📝 Mayor: Surugadai University Entrance Ceremony, Reiwa 8 (2026)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      On Friday, April 3, 2026 (Reiwa 8), under clear skies, the Surugadai University entrance ceremony took place. I attended as a guest and offered congratulatory remarks.
+
+      To all of you who have been admitted: my heartfelt congratulations on your enrollment. I sincerely hope that you will enjoy a fulfilling student life—studying, participating in sports and cultural activities—within the university's spacious campus and against the backdrop of this city's abundant natural environment. I also offer my warmest wishes for the health and happiness of all those in attendance, and for the continued development of Surugadai University.
+
+      Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13407.html
+    translation_hash: "sha256-af3aa21276c6ed1f"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:34:58.184061Z"
+    format_version: 1

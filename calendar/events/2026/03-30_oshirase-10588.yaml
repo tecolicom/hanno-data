@@ -45,3 +45,42 @@ source:
   fetched_at: "2026-05-20T04:56:29.971807Z"
   content_hash: "sha256-7efd92bf59c5ff87"
   summary_method: "full"
+translations:
+  en:
+    summary: "ℹ️ Sugo-Ashi Event – Walk the Hanno Two-Day Agano Course on May 13, 2026 (Wednesday)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      Event Details
+
+      Date: May 13 (Wednesday)
+
+      Meeting Time: 9:45 a.m.
+
+      Meeting Place: Agano Station ticket gate
+
+      Route: Agano Station → Taira Chestnut Orchard → Higashi-Agano Station → Musashi-Yokote Station (My Goal: approx. 10 kilometers) → Koma Station
+
+      Distance: Approx. 14 kilometers
+
+      Estimated Duration: Approx. 4 hours 30 minutes
+
+      Participation Fee: 200 yen (materials, collected on the day)
+
+      What to Bring: Lunch box, drinking water, rain gear, transit IC card, Sugo-Ashi handbook (if you have one)
+
+      Registration: Apply to ASA Hanno by May 9 (Saturday). Phone: 042-972-4701, Fax: 042-974-2190
+
+      Weather Cancellation Check: If the event is cancelled due to weather or other reasons, check with ASA Hanno after 3 p.m. on the day before.
+
+      Other: Please arrange your own insurance.
+
+      Inquiries: Onda, 090-2205-8073
+
+      Organizer: Hanno Walking Club
+
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/10588.html
+    translation_hash: "sha256-44de52779dda0e7f"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:34:09.155547Z"
+    format_version: 1

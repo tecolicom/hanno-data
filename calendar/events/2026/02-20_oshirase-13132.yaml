@@ -25,3 +25,20 @@ source:
   fetched_at: "2026-05-20T04:57:16.168136Z"
   content_hash: "sha256-f4c5010e05e079af"
   summary_method: "llm-haiku-4-5"
+translations:
+  en:
+    summary: "ℹ️ Trial run for food trucks and vendor stalls at public facilities"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      We will run a trial program for food trucks and vendor stalls at public facilities. Working together with the Okumusashi Hanno Tourism Association, from April 1 to June 30, 2026 (Reiwa 8), we will conduct a trial-and-soundings project (social experiment) using public facilities such as City Hall, the library, and parks.
+
+      Vendor stalls and food trucks participating in the program will be limited to member businesses of the tourism association. Specific details about which vendors will operate where and when will be shared through the tourism association's social media and other channels.
+
+      This initiative aims to improve convenience for residents, create new business opportunities for local companies, and achieve sustainable city administration. Based on the results and lessons learned from this trial, we will consider building systems for permanent vendor stalls and public-private partnerships to better use public assets. We also plan to survey users' satisfaction through questionnaires. After the trial ends, we will publish the evaluation results and consider full implementation and vendor operations at other public facilities.
+
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/13132.html
+    translation_hash: "sha256-897d1282dd8b2c04"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:32:22.071813Z"
+    format_version: 1

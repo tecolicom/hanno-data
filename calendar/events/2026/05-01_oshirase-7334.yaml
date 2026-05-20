@@ -40,3 +40,35 @@ source:
   fetched_at: "2026-05-20T04:55:38.275260Z"
   content_hash: "sha256-7db1a4b7a1a5b310"
   summary_method: "llm-haiku-4-5"
+translations:
+  en:
+    summary: "ℹ️ City-owned land sale (open competitive bidding)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      Hanno City will sell six city-owned parcels in Yamate-cho through open competitive bidding.
+
+      【Properties for Sale】
+      1. Yamate-cho 211-1 Field 36.85㎡
+      2. Yamate-cho 211-3 Field 116.93㎡
+      3. Yamate-cho 211-4 Field 88.45㎡
+      4. Yamate-cho 1406-3 Residential land 87.57㎡
+      5. Yamate-cho 1407-4 Residential land 538.21㎡
+      6. Yamate-cho 1410-2 Residential land 171.97㎡
+
+      Minimum sale price: ¥68,000,000 (total for six parcels)
+      Bid security: ¥10,200,000
+      Zoning: First-class residential district
+
+      【Schedule】
+      Bid application period: May 22 – June 5, 2026 (Reiwa 8), 9:00 a.m. to 4:30 p.m.
+      Bid date and time: June 19, 2026 (Reiwa 8), 2:00 p.m.
+      Bid venue: Hanno City Hall Main Building, 2nd floor, Bidding Room
+
+      Application documents are available on the Hanno City official website.
+
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/7334.html
+    translation_hash: "sha256-05f1a3774636e67f"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:36:12.926887Z"
+    format_version: 1

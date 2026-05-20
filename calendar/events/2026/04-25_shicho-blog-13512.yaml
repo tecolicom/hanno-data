@@ -20,3 +20,18 @@ source:
   url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13512.html"
   fetched_at: "2026-05-20T02:17:46.883487Z"
   content_hash: "sha256-6f5dba2b30b102a1"
+translations:
+  en:
+    summary: "📝 Mayor: Watched ALDER Hanno Hockey Game"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      On Saturday, April 25, I attended a match played by ALDER Hanno at the Asu Sports Park Hockey Field. In the opening game of the Takamado Cup 2026 Hockey Japan League Samurai League Division 2, ALDER Hanno won a decisive 2-0 victory against Tokyo University of Agriculture.
+
+      As we work toward winning the Division 2 championship and securing promotion to Division 1 next season, we ask for your continued support and encouragement.
+
+      Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13512.html
+    translation_hash: "sha256-258d2e2abe39bf23"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:35:51.266201Z"
+    format_version: 1

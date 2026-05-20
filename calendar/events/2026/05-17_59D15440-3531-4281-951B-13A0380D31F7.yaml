@@ -6,3 +6,12 @@ dtend: "2026-05-17"
 render:
   gcal:
     mode: single-allday
+translations:
+  en:
+    summary: "15th Hanno Barefoot Marathon"
+    description: |-
+
+    translation_hash: "sha256-07a7c9232f5f8f3f"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:39:52.572058Z"
+    format_version: 1

@@ -20,3 +20,18 @@ source:
   url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13468.html"
   fetched_at: "2026-05-20T02:17:47.338234Z"
   content_hash: "sha256-1f524d91a5355f66"
+translations:
+  en:
+    summary: "📝 Mayor: Attends Wasegaku Yume-Iku High School Opening Ceremony"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      On April 18 (Saturday), I attended the 2026 school year opening ceremony at Wasegaku Yume-Iku High School.
+
+      Wasegaku Yume-Iku High School is a place where students can gain diverse experiences and learning together with the people of the Higashi-Agano district. At this school, which walks alongside the community and continues to grow, I sincerely hope that all students will discover their "dreams for the future" and grow to spread their wings wide as they work toward making those dreams come true. Congratulations on your admission.
+
+      Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13468.html
+    translation_hash: "sha256-04fe9431a0a1bf1f"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:35:22.480022Z"
+    format_version: 1

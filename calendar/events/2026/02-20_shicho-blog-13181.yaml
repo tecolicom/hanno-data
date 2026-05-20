@@ -22,3 +22,20 @@ source:
   url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202602/13181.html"
   fetched_at: "2026-05-20T02:17:43.675681Z"
   content_hash: "sha256-24a20a430c12980e"
+translations:
+  en:
+    summary: "📝 Mayor: Agreement signed for welfare evacuation shelter setup and operation during disasters"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      On February 20 (Friday), we held a signing ceremony for an agreement with Sayuri Gakuen school corporation regarding the setup and operation of a welfare evacuation shelter during disasters.
+
+      In December of last year, Sayuri Gakuen, which operates Certified Kindergarten Sayuri Yochien, offered to make their facility available as a secondary evacuation site following facility improvements.
+
+      During a disaster, Certified Kindergarten Sayuri Yochien can serve as a secondary evacuation destination for infants and young children for whom shelter life at a designated evacuation center would be difficult. This allows us to provide evacuees with a safe and secure environment. After coordinating the details, we reached an agreement on the contract.
+
+      Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202602/13181.html
+    translation_hash: "sha256-ac3d4662f8c380a8"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:32:28.590574Z"
+    format_version: 1

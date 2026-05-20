@@ -54,3 +54,49 @@ source:
   fetched_at: "2026-05-20T04:56:33.823118Z"
   content_hash: "sha256-f92d48a009cb709b"
   summary_method: "llm-haiku-4-5"
+translations:
+  en:
+    summary: "ℹ️ Everyone Together for Fitness — Moving Body Project"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      Everyone Together for Fitness — Moving Body Project
+
+      Learn about preventing frailty. Four lectures on exercise, nutrition, oral health, and dementia prevention will be held.
+
+      【Higashi-Aono District Administrative Center】(10:00–11:00)
+      • June 11, 2026 (Reiwa 8), Thursday: Dementia Prevention Lecture
+      • September 10, 2026, Thursday: Oral Health Lecture
+      • October 8, 2026, Wednesday: Nutrition Lecture
+      • February 25, 2027 (Reiwa 9), Thursday: Exercise Lecture
+      Registration: Community Comprehensive Support Center Hachiman-cho 042-975-3011
+
+      【Kaji District Administrative Center】(14:00–15:00)
+      • December 9, 2026, Wednesday: Dementia Prevention Lecture
+      • December 23, 2026, Wednesday: Exercise Lecture
+      • January 13, 2027, Wednesday: Oral Health Lecture
+      • January 27, 2027, Wednesday: Nutrition Lecture
+      Registration: Community Comprehensive Support Center Minami-cho 042-978-5777
+
+      【Harashiba Welfare Center】(14:00–15:00)
+      • May 13, 2026, Wednesday: Dementia Prevention Lecture
+      • May 27, 2026, Wednesday: Oral Health Lecture
+      • June 10, 2026, Wednesday: Nutrition Lecture
+      • June 24, 2026, Wednesday: Exercise Lecture
+      Registration: Community Comprehensive Support Center Inari-cho 042-980-5043
+
+      【Futayanagi District Administrative Center】(10:00–11:00)
+      • October 9, 2026, Friday: Dementia Prevention Lecture
+      • November 6, 2026, Friday: Nutrition Lecture
+      • December 11, 2026, Friday: Oral Health Lecture
+      • February 12, 2027, Friday: Exercise Lecture
+      Registration: Community Comprehensive Support Center Sakae-cho 042-971-3172
+
+      【Registration Opens】One month before each lecture
+      【What to Bring】Writing materials, drinking water, eyeglasses (if needed), face towel and comfortable exercise clothes and shoes (for exercise lecture)
+
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/ninchi-sisaku/ninchi-jigyou/7983.html
+    translation_hash: "sha256-33d1e4bf1710f0cd"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:34:21.409925Z"
+    format_version: 1

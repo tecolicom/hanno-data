@@ -16,3 +16,14 @@ source:
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/tenji_moyooshimono/13498.html"
   fetched_at: "2026-05-17T23:34:06.371697Z"
   content_hash: "sha256-f2ccd9a28110ddb9"
+translations:
+  en:
+    summary: "ℹ️ Kitto Kids Fair to be held"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      Hanno City Official Website News: https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/tenji_moyooshimono/13498.html
+    translation_hash: "sha256-ece606e2995cd100"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:36:05.822895Z"
+    format_version: 1

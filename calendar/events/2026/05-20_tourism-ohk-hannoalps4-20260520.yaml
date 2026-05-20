@@ -28,3 +28,28 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ohk-hannoalps4/"
   fetched_at: "2026-05-16T15:10:03.116800Z"
   content_hash: "sha256-fdb5ac60b37ef0e7"
+translations:
+  en:
+    summary: "Mountain guide tour: Hanno Alps full traverse Part 4 (Higashi-Agano Station to Tengaku Mountain, Takuomineyama, Tenranzan, ending at Hanno Station)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      Hanno Ecotourism Association: https://hanno-tourism.jp/hanno-eco/tour/ohk-hannoalps4/
+
+      We traverse the ridge of the Hanno Alps—which extends from Izugadake to Tenranzan—over four separate outings. Part 4 starts at Higashi-Agano Station and crosses Tengaku Mountain, Kusumizaka, and Nagadayama on the way to Takuomineyama, Tenranzan, and Hanno Station. Lunch will be a special bento box from Nikoniko House.
+
+      【Fee】
+      ¥7,800 per person (includes guide service, lunch, and insurance)
+
+      【Capacity】
+      10 people
+
+      【Guide】
+      Akira Shimizu (certified mountain guide, Japan Alpine Guide Association, Stage II)
+
+      【What to bring】
+      Gloves, drinking water, hat, rain gear, snacks, towel
+    translation_hash: "sha256-0ae868266f2df3c4"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:37:23.921421Z"
+    format_version: 1

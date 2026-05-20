@@ -27,3 +27,29 @@ source:
   fetched_at: "2026-05-20T04:56:18.192718Z"
   content_hash: "sha256-00d22c9f410075a0"
   summary_method: "llm-haiku-4-5"
+translations:
+  en:
+    summary: "ℹ️ A certificate issuing machine has been installed at the Citizens Division to obtain copies of resident registers and other documents."
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      A certificate issuing machine has been installed in the lobby of the Citizens Division at Hanno City Hall Main Building starting February 3, 2025 (Reiwa 7). Using your My Number Card and a 4-digit PIN, you can obtain various certificates such as copies of resident registers without waiting in line at the counter.
+
+      Operating hours are Monday through Friday, 9:00 a.m. to 4:30 p.m.—the same as the city hall's regular hours. The machine may also be available on some holidays, such as year-end and year-beginning special opening days. Please note that the machine may be unavailable on weekdays due to system maintenance.
+
+      Payment is cash only; no change is given. Acceptable coins are 5 yen, 10 yen, 50 yen, 100 yen, and 500 yen (including new 500-yen coins), and 1,000-yen bills (including new bills).
+
+      Important notes:
+      • Certificates cannot be exchanged or refunded after issuance (printing defects will be corrected).
+      • Even if a fee is normally waived by municipal ordinance, certificates obtained from the machine are subject to a charge. If you wish to claim an exemption, please apply at the counter.
+      • Multiple certificates are not stapled together; when obtaining multiple copies, be careful not to forget to collect all of them.
+      • Seal registration certificates cannot be obtained from this machine.
+      • If you enter your PIN incorrectly 3 times, the machine will lock. To unlock it, visit the Citizens Division counter.
+
+      For more details, contact the Citizens Division at Hanno City Hall.
+
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminka/11075.html
+    translation_hash: "sha256-a7d5bd2d8328f027"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:34:39.140012Z"
+    format_version: 1

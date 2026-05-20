@@ -28,3 +28,26 @@ source:
   url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13276.html"
   fetched_at: "2026-05-20T02:17:46.122198Z"
   content_hash: "sha256-e29181acac637c95"
+translations:
+  en:
+    summary: "📝 Mayor: Unveiling ceremony for new Moomin statue at Higashi-Hanno Station"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      On March 7 (Saturday), I attended the unveiling ceremony for the new Moomin statue at Higashi-Hanno Station.
+
+      It has been one year since the first Moomin statue was installed at Hanno Station last March. Thanks to the warm welcome from our residents and many visitors, we have taken the first step toward becoming "Hanno—the town where you can meet Moomin."
+
+      I am delighted to unveil the second Moomin statue in our city—Moominmamma—at Higashi-Hanno Station.
+
+      Higashi-Hanno Station, where the Seibu Line and JR Line intersect, is truly a vital hub in our city's railway network. By connecting our two gateways—Hanno Station and Higashi-Hanno Station—through Moomin, we create a new axis for foot traffic throughout town.
+
+      We will accelerate "town-building that makes people want to walk," with the station as our starting point, and further strengthen the vitalization of the entire central business district.
+
+      I extend my heartfelt gratitude to the members of the "Hanno—the town where you can meet Moomin" Project Promotion Council and all related parties for their tremendous efforts in advancing this project.
+
+      Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13276.html
+    translation_hash: "sha256-b2efcc5353de1863"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:33:11.819268Z"
+    format_version: 1

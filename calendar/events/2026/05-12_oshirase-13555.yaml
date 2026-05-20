@@ -35,3 +35,32 @@ source:
   fetched_at: "2026-05-20T04:55:21.934745Z"
   content_hash: "sha256-b4a638f364d5f818"
   summary_method: "full"
+translations:
+  en:
+    summary: "ℹ️ 【Alert】Beware of scam emails claiming to be about resident income tax payments!"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      Beware of suspicious emails and messages
+
+      We have confirmed scam emails posing as Hanno City Hall's tax department (for example, "City Hall Citizen Tax Division") that urge residents to pay citizen and prefectural resident taxes using code payment services by following links in the message.
+
+      Hanno City does not send requests for tax or late payment notices via email, SMS, LINE, or similar channels.
+
+      If you receive any suspicious emails, SMS messages, LINE messages, or similar communications that you do not recognize, please delete them immediately.
+
+      • If there are any links or URLs in an email, do not click on them under any circumstances.
+
+      • Even if you do click by mistake, do not enter any personal information at the destination link and do not proceed with any payment.
+
+      • If you have already made a payment, please contact your nearest police station right away.
+
+      For inquiries with the police, call the Police Consultation Hotline "#9110" (Government Online PR)
+
+      Be cautious of suspicious emails and phone calls (National Tax Agency)
+
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/shuzeika/13555.html
+    translation_hash: "sha256-a6b802b29049d9f6"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:36:40.030484Z"
+    format_version: 1

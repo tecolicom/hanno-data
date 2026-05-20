@@ -28,3 +28,26 @@ source:
   url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13450.html"
   fetched_at: "2026-05-20T02:17:48.358922Z"
   content_hash: "sha256-48c9289f603da17c"
+translations:
+  en:
+    summary: "📝 Mayor's Report: Starting a Social Experiment with Food Trucks and Market Stalls"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      Hanno City Hall has launched a social experiment in partnership with the Oku-Musashi Tourism Association. Starting today, April 1st, through June 30th (Reiwa 6), food trucks and market stalls will operate on weekday lunch hours at the city hall grounds.
+
+      This initiative aims to make better use of public facilities as a resource, improve convenience for residents, create new business opportunities for local vendors, and support sustainable city management.
+
+      Food trucks operate almost daily, and market stalls are held once a week on the main office building's wood deck.
+
+      Different vendors rotate in each day, and the public is welcome to visit. Please stop by!
+
+      For details about this project and vendor information, see the URL below:
+
+      http://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/13132.html
+
+      Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13450.html
+    translation_hash: "sha256-fcb3edd7c957f7a7"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:34:51.308649Z"
+    format_version: 1

@@ -19,3 +19,22 @@ description: |-
 render:
   gcal:
     mode: single-allday
+translations:
+  en:
+    summary: "Myはんのう v1.18.3"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      New Features
+      • Top page now displays today's year in both Western and Japanese calendar format — A small date like "2026/Reiwa 8" appears below the day and day of week.
+
+      Bug Fixes
+      • Fixed bug in Soyanaigi Circulation "Factory Front direction" where stops only showed up to City Hall — When boarding from Hanno City Hall, you can now see the full route: Factory Front → Sengen → Municipal Housing ... and back to Hanno Station.
+      • Integrated Hanno City Hall (mu-ma bus) and City Hall Front (5931bus) as the same stop — Unified the display that was previously shown as separate stops into one.
+
+      Features Already Released (Now Working in This Version)
+      • Event detail modals for the Tourism Association, Citizens Hall, and similar venues will now display a "🔗 Information Source URL" as a clickable link (display feature added in v1.18.2; data now available in this release).
+    translation_hash: "sha256-b55ab15d123a0069"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:37:17.671364Z"
+    format_version: 1

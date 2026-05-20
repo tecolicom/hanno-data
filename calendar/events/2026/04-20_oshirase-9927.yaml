@@ -45,3 +45,44 @@ source:
   fetched_at: "2026-05-20T04:55:57.158499Z"
   content_hash: "sha256-0624e68f21256c52"
   summary_method: "llm-haiku-4-5"
+translations:
+  en:
+    summary: "ℹ️ Hanno City Cool Rest Spots (Cooling Centers) – Summer 2026"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      Hanno City Cool Rest Spots Guide
+
+      From April 22 to October 28, 2026 (Reiwa 8), Hanno City is providing air-conditioned "Cool Rest Spots" (cooling centers) as summer break areas, offered through cooperation between public facilities and private businesses. Anyone may use these facilities during operating hours.
+
+      【Hanno District Cool Rest Spots】
+      • Children's Library (Inari-cho 25-8) – Tue–Sun, holidays, last Friday of each month, 11:00–16:00
+      • Inari-cho Pharmacy (Inari-cho 2-13) – Mon–Sat, 9:00–18:00
+      • Fureai Pharmacy Hanno Branch (Inari-cho 3-17) – Mon–Fri, 9:00–18:00; Sat, 9:00–16:00
+      • Masakaya Pharmacy (Higashi-cho 5-2) – Tue–Sat, 10:00–18:00
+      • Heart Pharmacy Hanno Okawara Branch (Okawara 935-3) – Tue–Sat, 9:00–13:00, 14:30–18:30
+      • Citizen Activity Center, 7th floor Maruhiro Department Store (Sakae-cho 24-4) – Daily, 10:00–19:00 (closed on Maruhiro's regular holidays)
+      • Hanno Central District Administrative Center (Hanno 60-1) – Weekdays, 9:00–16:30
+      • Museum (Hanno 258-1) – Tue–Sun, 9:30–16:30 (closed Mondays if Monday is a holiday, the following day is closed; closed 4th Friday of month except January)
+      • Fureai Pharmacy Honcho Branch (Honcho 18-5) – Mon–Fri, 9:30–18:30; Sun, 9:00–13:00; Sundays when Honcho Clinic is open (primarily 1st Sunday of month)
+      • Hanno City Library (Yamate-cho 19-5) – Tue–Sun, holidays, last Friday of each month, 9:30–18:00
+
+      【Daini-ku District】
+      Daini-ku District Administrative Center (Koseto 19-1) – Weekdays, 9:00–16:30
+
+      【Seimei and Futanayanagi Districts】
+      Seimei District Administrative Center, Harmony Pharmacy, Hanno City Hall, Fujimi District Administrative Center, Futanayanagi District Administrative Center, General Welfare Center, Kabasan Pharmacy, Tsukushi Pharmacy
+
+      【Kaji and Misugi-dai Districts】
+      Hanno City Forestry Center, Kaji East District Administrative Center, Kaji District Administrative Center, Misugi-dai District Administrative Center, Seimusu Tatsumi Pharmacy, Misugi Pharmacy
+
+      【Minami-Koryo, Agano, Higashi-Agano, Haraichiba, and Nago Districts】
+      Each district's administrative center, welfare center, clinic, and other facilities
+
+      For details on which days and times each facility is open, please confirm directly with that facility.
+
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/9927.html
+    translation_hash: "sha256-062abef954b70108"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:35:37.679903Z"
+    format_version: 1

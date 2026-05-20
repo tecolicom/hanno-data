@@ -36,3 +36,31 @@ source:
   fetched_at: "2026-05-20T04:56:14.805626Z"
   content_hash: "sha256-fba4bbb3827033f5"
   summary_method: "llm-haiku-4-5"
+translations:
+  en:
+    summary: "ℹ️ Hohoemi Home Care Nursing Station"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      Hohoemi Home Care Nursing Station provides services to support daily life for people receiving medical care at home. Nurses and other care staff visit based on your doctor's instructions.
+
+      【Location】25-1 Torashide, Hanno City, Saitama Prefecture (inside Higashi-Agano Medical and Long-term Care Center)
+      【Phone】042-978-1922
+
+      【Visit Times】Monday to Friday, 8:30 AM to 5:15 PM
+      【Visit Frequency】Generally up to 3 times per week (varies depending on condition)
+      【Closed】Saturdays, Sundays, public holidays, year-end and New Year period (December 29 – January 3)
+
+      【Services Provided】Health monitoring, pressure ulcer prevention and care, rehabilitation, management of tubes and catheters, assistance with bathing and meals, nursing care for dementia and mental illness patients, and other medical procedures as directed by your doctor
+
+      【Who Can Use】Bedridden individuals, people needing rehabilitation, those requiring medical procedures or management, people with rare diseases or terminal cancer who wish to receive care at home, people with dementia or mental illness requiring nursing care
+
+      【Fees】Differ depending on whether you are covered by long-term care insurance or health insurance. Please call for details.
+
+      Established in 2000. Many of our nursing staff have experience in medical settings, and we have strong partnerships with medical institutions. We strictly maintain confidentiality.
+
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/iryo/2431.html
+    translation_hash: "sha256-74cbfbf5f249b981"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:34:45.366980Z"
+    format_version: 1

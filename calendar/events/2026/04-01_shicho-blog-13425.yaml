@@ -20,3 +20,20 @@ source:
   url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13425.html"
   fetched_at: "2026-05-20T02:17:48.494406Z"
   content_hash: "sha256-7424542953614c7f"
+translations:
+  en:
+    summary: "📝 Mayor: Hanno City Welcomes 15 New Staff Members in Reiwa 8"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      On April 1, 2026 (Reiwa 8), Hanno City held a ceremony to present appointment letters to newly hired staff. Fifteen new employees officially began their roles with the city, full of hope and determination.
+
+      Together with these new staff members, all city employees are committed to working with full effort toward realizing our vision for the future: "A Forest Culture City Where People, Nature, and the Future Connect—Hanno, a place where we nurture good cycles and want to live forever."
+
+      We look forward to serving the community with renewed energy and dedication.
+
+      Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13425.html
+    translation_hash: "sha256-f5c248c714c3b85b"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:34:48.464470Z"
+    format_version: 1

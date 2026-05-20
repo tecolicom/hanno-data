@@ -8,3 +8,12 @@ render:
   gcal:
     mode: single-allday
     time_marker: "12:00–18:00"
+translations:
+  en:
+    summary: "AKAI FACTORY 10th Anniversary"
+    description: |-
+
+    translation_hash: "sha256-63a309fd556208de"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:39:49.697794Z"
+    format_version: 1

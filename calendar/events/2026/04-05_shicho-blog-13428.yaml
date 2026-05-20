@@ -24,3 +24,22 @@ source:
   url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13428.html"
   fetched_at: "2026-05-20T02:17:47.926464Z"
   content_hash: "sha256-4f0cd8a61338a788"
+translations:
+  en:
+    summary: "📝 Mayor: Hanno Fire Department 2026 Induction Ceremony"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      On Sunday, April 5, we held the Hanno Fire Department induction ceremony at the Hanno-Hidaka Fire Station, with many distinguished guests in attendance.
+
+      At the ceremony, 19 new members were welcomed as part of the fire department—13 who joined on April 1, plus 6 who joined partway through fiscal year 2025—and they took their first steps as members of the fire department, which is essential to our community's disaster response.
+
+      We also held a transition in leadership. The 15th Hanno Fire Chief, Yasuhisa Otsuki, retired on March 31 after 31 years of dedicated service as a fire department member. Kazuhiro Kaneko was appointed as the new fire chief, and both received their official letters of appointment.
+
+      We offer our heartfelt thanks to all fire department members for responding to disasters day and night, without pause. We ask for your continued dedication to keeping our citizens safe and secure.
+
+      Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13428.html
+    translation_hash: "sha256-9f6bb902c3377954"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:35:01.754052Z"
+    format_version: 1

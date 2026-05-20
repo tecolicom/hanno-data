@@ -27,3 +27,24 @@ source:
   fetched_at: "2026-05-20T04:56:10.008662Z"
   content_hash: "sha256-6a12b1de0f548721"
   summary_method: "full"
+translations:
+  en:
+    summary: "ℹ️ Environment and Green Water Division moving to new location"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      From April 1, 2026 (Reiwa 8), the Environment and Green Water Division will relocate to the Clean Center.
+
+      When you need to visit, please come to the office on the 3rd floor of the Clean Center.
+
+      New address: 768-1 Shimohata, Hanno City
+
+      Please refer to the map below for the new location.
+
+      Map of new location (PDF file: 292.6KB)
+
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/kankyomidorimizuka/13383.html
+    translation_hash: "sha256-c86d46088f98b231"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:34:53.354399Z"
+    format_version: 1

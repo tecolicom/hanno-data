@@ -44,3 +44,39 @@ source:
   fetched_at: "2026-05-20T04:56:48.851763Z"
   content_hash: "sha256-cfa2ff10e4b77a66"
   summary_method: "llm-haiku-4-5"
+translations:
+  en:
+    summary: "ℹ️ About the Universal Childcare Access Program (Infant and Young Child Childcare Support)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      This program allows children aged 6 months to under 3 years old who live in Hanno and are not enrolled in a childcare facility to use childcare services for up to 10 hours per month, without work requirements.
+
+      【Participating Facilities (as of April 1, 2026)】
+      • Akari Hoikuen Hanno (Yanagimachi 23-6, capacity 9 children, flexible use)
+      • Sayuri Gakuen (Midoricho 2-5, capacity 12 children, regular use)
+
+      【Fees】
+      300 yen per hour (reduced for families in financial hardship). Meals and snacks are charged separately at actual cost.
+
+      【Steps to Use】
+      1. Apply for recognition (through the Universal Childcare Access Program Support System or the Childcare Department window)
+      2. After receiving your recognition certificate, receive an email and register a password
+      3. Register your information in the system, select a facility, and book an initial consultation
+      4. Complete your initial consultation
+      5. After the facility confirms acceptance, make a usage reservation
+      6. Begin using the service
+
+      【Important Notes】
+      • Each facility has limited capacity. If there are many applicants, you may not be able to use the service.
+      • If the initial consultation determines that special support is needed, you may not be able to use the service right away.
+      • Parent-child attendance together may be required at first or until the child is comfortable.
+      • Usage is limited to 10 hours per month. Unused hours cannot be carried over to the next month.
+      • Cancellation fees may apply when you cancel a reservation.
+      • Children cannot use the service from two days before their 3rd birthday onward.
+
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/hoikuka/13015.html
+    translation_hash: "sha256-d91e5dac8662cf90"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:33:33.769289Z"
+    format_version: 1

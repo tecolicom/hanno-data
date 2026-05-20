@@ -18,3 +18,16 @@ source:
   url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202601/12976.html"
   fetched_at: "2026-05-20T02:17:42.813246Z"
   content_hash: "sha256-11a8b9f9e144438b"
+translations:
+  en:
+    summary: "📝 Mayor: New Year Greeting Exchange in Naka Ward, 2026"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      On January 6 (Tuesday), I attended the New Year Greeting Exchange for Naka Ward, held at Royal Hall Yokohama (Yokohama City).
+
+      Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202601/12976.html
+    translation_hash: "sha256-789bab87259ea359"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:31:35.908859Z"
+    format_version: 1

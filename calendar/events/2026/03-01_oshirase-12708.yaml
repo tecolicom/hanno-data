@@ -43,3 +43,38 @@ source:
   fetched_at: "2026-05-20T04:57:03.540715Z"
   content_hash: "sha256-7cf50a5b00ec393d"
   summary_method: "llm-haiku-4-5"
+translations:
+  en:
+    summary: "ℹ️ Explanatory meetings on emergency financial measures"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      Hanno City held explanatory meetings on emergency financial measures at various locations. The city explained the circumstances that led to financial difficulties and reviewed administrative operations and services.
+
+      【January 2026 sessions】(Completed)
+      • Saturday, January 17, 1:30 p.m.–3:30 p.m. / Hanno City Hall Annex Building
+      • Sunday, January 18, 9:30 a.m.–11:30 a.m. / Hanno City Hall Annex Building
+
+      【February 2026 sessions】(Completed)
+      Held at each district administrative center:
+      • Monday, February 9, 7 p.m.–9 p.m. / Kaji District Administrative Center
+      • Tuesday, February 10, 7 p.m.–9 p.m. / Seimei District Administrative Center
+      • Thursday, February 12, 7 p.m.–9 p.m. / Agano District Administrative Center
+      • Sunday, February 15, 9:30 a.m.–11:30 a.m. / Hanno Central District Administrative Center (sign language interpretation available)
+      • Tuesday, February 17, 7 p.m.–9 p.m. / Minamikomaone District Administrative Center
+      • Wednesday, February 18, 7 p.m.–9 p.m. / Haraichiba District Administrative Center
+      • Thursday, February 19, 7 p.m.–9 p.m. / Fujimi District Administrative Center (sign language interpretation available)
+      • Sunday, February 22, 9:30 a.m.–11:30 a.m. / Misugidai District Administrative Center
+      • Sunday, February 22, 2:30 p.m.–4:30 p.m. / Naguribe District Administrative Center
+      • Tuesday, February 24, 7 p.m.–9 p.m. / Futayanagi District Administrative Center
+      • Thursday, February 26, 7 p.m.–9 p.m. / Dainiki Ward District Administrative Center
+      • Friday, February 27, 7 p.m.–9 p.m. / Kajihigashi District Administrative Center
+      • Saturday, February 28, 9:30 a.m.–11:30 a.m. / Higashiagano District Administrative Center (sign language interpretation available)
+
+      Advance registration is not required. Please come directly to the venue. If participation is high, entry may be limited.
+
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kinkyuuzaiseitaisaku/12708.html
+    translation_hash: "sha256-58e00aab5656aa7f"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:32:52.198220Z"
+    format_version: 1

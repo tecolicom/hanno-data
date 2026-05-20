@@ -31,3 +31,26 @@ source:
   fetched_at: "2026-05-20T04:56:09.770056Z"
   content_hash: "sha256-c0e29a95f55f3109"
   summary_method: "llm-haiku-4-5"
+translations:
+  en:
+    summary: "ℹ️ Proper management of storage tanks (receiving tanks) for water supply"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      Facilities with storage tanks (receiving tanks) with an effective capacity exceeding 10 cubic meters are required by the Water Supply Law to be properly maintained as "simple exclusive water supply systems."
+
+      【Maintenance tasks to perform regularly】
+      • Cleaning of storage tanks (receiving tanks): at least once per year
+      • Water quality testing: once per year, conducted at a registered testing facility
+
+      Owners and managers should make efforts to properly manage the hygiene of storage tank water supplies so that safe water produced at the purification plant can be appropriately supplied to each household.
+
+      Even for small-scale storage tank water supplies with an effective capacity of 10 cubic meters or less, please make efforts to perform management similar to that of simple exclusive water supply systems.
+
+      Reporting to the Water Works Division is not required when you have cleaning or water quality testing performed.
+
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/suidokomuka/13444.html
+    translation_hash: "sha256-ebe0ba680495bf38"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:35:20.234736Z"
+    format_version: 1

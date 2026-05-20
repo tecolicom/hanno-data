@@ -23,3 +23,20 @@ source:
   fetched_at: "2026-05-20T04:55:24.177287Z"
   content_hash: "sha256-613200d09ffa500d"
   summary_method: "full"
+translations:
+  en:
+    summary: "ℹ️ Notice: Hanno City Premium Digital Shopping Vouchers"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      Hanno City is selling premium digital shopping vouchers that can be used at local shops. We're doing this to support local businesses and help residents with their spending during the current period of high prices. We're using national funding from the "Price Surge Response Priority Support Local Revitalization Temporary Grant."
+
+      We'll share details about this program in the June issue of Hanno City Public Relations and on this page.
+
+      Please check back soon for more information.
+
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/13410.html
+    translation_hash: "sha256-ea370f0595562a09"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:36:33.219376Z"
+    format_version: 1

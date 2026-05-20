@@ -29,3 +29,26 @@ source:
   fetched_at: "2026-05-20T04:55:26.962226Z"
   content_hash: "sha256-4e7b923592f59c5f"
   summary_method: "llm-haiku-4-5"
+translations:
+  en:
+    summary: "ℹ️ Sugo-Ashi Event: Sugo-Ashi Leisurely Walk – June 16, 2026 (Tuesday)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      June 16 (Tuesday) at 10 a.m., gather at the west parking lot of Hanno City Hall. We will hold a Sugo-Ashi leisurely walk.
+
+      Depending on weather and number of participants, you can choose from two routes:
+
+      • Route (1): City Hall → Benzaiten → Chikan-ji Temple → Nakayama-Nishi Signal → Yatsuita → Ninin-ji Temple → Central Park → Motogo Water Purification Plant → Hanno River Stepping Stone Bridge → Hanno Station → Higashi-Hanno Station → City Hall (approximately 7 kilometers, approximately 2 hours 30 minutes)
+
+      • Route (2): City Hall → Hanno City area (Shimokaji, Futayanagi, Kaji, etc.) → Iruma City area (Shinko, Noda, etc.) → Fushiko Station (return by train)
+
+      Free admission. Please bring: drinking water, rain gear, IC card for public transport, Sugo-Ashi handbook (if you have one). Insurance is your own responsibility.
+
+      Walk-ins welcome (please arrive by the meeting time). To confirm cancellations due to weather or other reasons, check the Hanno Walking Club website or contact Onda (090-2205-8073) after 3 p.m. the day before.
+
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/12785.html
+    translation_hash: "sha256-761d9ba957182b38"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:36:27.418987Z"
+    format_version: 1

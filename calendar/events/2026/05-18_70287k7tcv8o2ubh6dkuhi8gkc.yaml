@@ -23,3 +23,29 @@ description: |-
 render:
   gcal:
     mode: single-allday
+translations:
+  en:
+    summary: "Myはんのう v1.18.2"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      v1.18.0 New Features
+      • "Hanno City Government" calendar added to daily portal — In addition to the existing "Myはんのう" (general events for residents), a new "Hanno City Government" calendar aggregating city council schedules, the mayor's blog, and city announcements now appears combined in the "Today's Events" section. On by default. To turn notifications on or off individually, use the "📅 Calendar Sync" settings in daily portal.
+
+      v1.18.1 Changes
+      • Heat Index (WBGT) color adjusted toward caution tones — Fixed the issue where "Caution" appeared yellow-green and looked "Safe." Now displays a gradient: green (nearly safe) → yellow (caution) → orange (alert) → red (severe alert) → dark red (dangerous).
+
+      v1.18.1 Fixes
+      • Bus page "Shared Wagon (Odekake Mouma)" links were broken — Fixed the issue where links for each district (Seimy/Kaji / Nakafuji·Nakasawa / Minami-Kōrai) did not navigate correctly to city hall pages and displayed blank pages.
+
+      v1.18.2 New Features
+      • URLs in event detail modals are now clickable links — Tap to jump directly to the relevant page.
+      • Event "Information Source URL" now displayed — For events where a source URL is specified on the calendar side, the detail modal shows a clickable "🔗 [URL]".
+      • Opening in Google Calendar now shows "Schedule List (Agenda)" view — More readable than the default month view, making it easier to check events in chronological order from today onward.
+
+      v1.18.2 Fixes
+      • Fixed the issue where the background page would scroll when an event detail modal was open (now only the modal itself scrolls).
+    translation_hash: "sha256-91aa702076cad6c4"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:37:14.361098Z"
+    format_version: 1

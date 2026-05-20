@@ -29,3 +29,24 @@ source:
   fetched_at: "2026-05-20T04:55:32.254440Z"
   content_hash: "sha256-bcdb7f5f91979f6e"
   summary_method: "llm-haiku-4-5"
+translations:
+  en:
+    summary: "ℹ️ Watch out for water meter theft"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      Water meter theft is happening frequently across Japan. Meters are loaned to users by Hanno City Water Service, so please manage them properly.
+
+      Check your meter regularly, including for leaks. If you discover theft or see suspicious activity around your meter box, contact the police or the Water Service Division (phone: 042-973-2111).
+
+      Theft often happens at: apartment buildings, vacant houses, empty lots, and construction sites for new homes.
+
+      Meter reading is done by Daiichi Kanshi Co., Ltd. Their inspectors wear uniforms and carry ID issued by the city—if anything seems suspicious, ask to see their credentials.
+
+      Water meters have a legal lifespan of 8 years. Before the deadline, we replace them. You'll get a postcard about 1 month before your replacement date. The work is done by shops in the Hanno City Water Service Cooperative Association; staff wear armbands. If anything seems suspicious, ask to confirm their credentials.
+
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/suidogyomuka/13515.html
+    translation_hash: "sha256-4e8e7980e139e7da"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:36:09.948931Z"
+    format_version: 1

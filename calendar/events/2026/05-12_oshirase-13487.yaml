@@ -37,3 +37,32 @@ source:
   fetched_at: "2026-05-20T04:55:23.937889Z"
   content_hash: "sha256-9572738f1fc6e12c"
   summary_method: "llm-haiku-4-5"
+translations:
+  en:
+    summary: "ℹ️ Additions to the Hanno City Living Guide 2026"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      The "Hanno City Living Guide 2026" (published in April 2026 / Reiwa 8) contained some omissions. Below are additional medical and health facilities that should have been included.
+
+      【Pharmacies】 Planned for page 67
+      • Heart Pharmacy Hanno Okawara Branch
+        Address: Okawara 935-3
+        Phone: 980-5195
+
+      【Treatment Facilities】 Planned for page 69
+      • Mura Osteopathic Clinic
+        Address: Kawadera 46-3
+        Services: Judo therapy (柔道整復)
+        Phone: 911-9616
+
+      • Mura Acupuncture and Moxibustion Clinic
+        Address: Kawadera 46-3
+        Services: Acupuncture and moxibustion
+        Phone: 911-9616
+
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/13487.html
+    translation_hash: "sha256-e5b79b4cf96198c7"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:36:35.652138Z"
+    format_version: 1

@@ -20,3 +20,18 @@ source:
   url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202601/13079.html"
   fetched_at: "2026-05-20T02:17:42.106413Z"
   content_hash: "sha256-537a4991ef6bb820"
+translations:
+  en:
+    summary: "📝 Mayor: Security light donation ceremony from Seibu Densetsu Kyoryokukai"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      On Monday, January 26 (Reiwa 6), we received a donation of 8 LED security lights from Seibu Densetsu Kyoryokukai (西部電設協力会), offered to help enhance community crime prevention in Hanno City.
+
+      Seibu Densetsu Kyoryokukai has donated security lights every year without fail since 1978 (Showa 53), bringing the total number of lights donated to date to 1,300 units. We will put the LED security lights received this time to good use in promoting community safety and security, and in crime prevention efforts.
+
+      Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202601/13079.html
+    translation_hash: "sha256-d665d64dad876bad"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:31:48.611722Z"
+    format_version: 1

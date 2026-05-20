@@ -21,3 +21,17 @@ source:
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html"
   fetched_at: "2026-05-17T01:38:55.316143Z"
   content_hash: "sha256-e242cd7996270267"
+translations:
+  en:
+    summary: "Safety Convention"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      Hanno Civic Hall: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html
+
+      【Venue】Small Hall
+      【Organizer】Kensho Step Co., Ltd.
+    translation_hash: "sha256-cbc81b4e14200d4c"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-20T05:38:20.730297Z"
+    format_version: 1
