@@ -375,6 +375,43 @@ def extract_marker_from_description(description: str) -> tuple[str, str, str] | 
     return extract_time_marker(description)
 
 
+# event_to_yaml が生成するトップレベルキー (これ以外は --update-manual で温存対象)
+_EVENT_TO_YAML_KEYS = frozenset({
+    "uid", "summary", "location", "url", "dtstart", "dtend", "rrule",
+    "description", "render",
+})
+
+
+def _extract_unknown_toplevel_blocks(yaml_text: str) -> str:
+    """YAML 文字列から event_to_yaml が出力しないトップレベルブロックを抽出.
+
+    例えば translations: ブロック等。event_to_yaml の出力に append して
+    保持するために使う。順序はファイル内出現順を維持。
+    """
+    out_blocks: list[str] = []
+    # トップレベル key: の行を頭出しして、次のトップレベル key or EOF までを 1 ブロック
+    lines = yaml_text.splitlines(keepends=True)
+    i = 0
+    n = len(lines)
+    while i < n:
+        m = re.match(r"^([A-Za-z_][A-Za-z0-9_]*)\s*:", lines[i])
+        if not m:
+            i += 1
+            continue
+        key = m.group(1)
+        # ブロック範囲を確定 (次のトップレベル key の直前まで)
+        j = i + 1
+        while j < n and not re.match(r"^([A-Za-z_][A-Za-z0-9_]*)\s*:", lines[j]):
+            j += 1
+        block_text = "".join(lines[i:j])
+        if key not in _EVENT_TO_YAML_KEYS:
+            # 末尾空行はトリムして単一末尾改行に
+            block_text = block_text.rstrip("\n") + "\n"
+            out_blocks.append(block_text)
+        i = j
+    return "".join(out_blocks)
+
+
 def event_to_yaml(e: dict) -> tuple[str, str]:
     """イベント JSON から YAML 文字列とファイルパス (相対) を生成."""
     start = e.get("start", {})
@@ -522,8 +559,18 @@ def cmd_fetch(args: argparse.Namespace) -> None:
                     skipped += 1
                     print(f"  SKIP (managed)  {rel_path}")
                     continue
+                # 既存 YAML から event_to_yaml が知らないトップレベルブロック
+                # (translations: 等) を抽出して新 content に保持
+                with open(full_path, "r", encoding="utf-8") as f:
+                    old_content = f.read()
+                preserved = _extract_unknown_toplevel_blocks(old_content)
+                new_content = content
+                if preserved:
+                    if not new_content.endswith("\n"):
+                        new_content += "\n"
+                    new_content += preserved
                 with open(full_path, "w", encoding="utf-8") as f:
-                    f.write(content)
+                    f.write(new_content)
                 updated += 1
                 print(f"  UPDATE  {rel_path}")
                 continue

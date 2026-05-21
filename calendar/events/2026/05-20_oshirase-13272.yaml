@@ -16,3 +16,14 @@ source:
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/bunkazaitanto/bunkazai/13272.html"
   fetched_at: "2026-05-20T23:16:41.799306Z"
   content_hash: "sha256-44b1b7773435e9d5"
+translations:
+  en:
+    summary: "ℹ️ Cultural Heritage Tour 2026 (Registration closes May 20)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      Hanno City Official Website News: https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/bunkazaitanto/bunkazai/13272.html
+    translation_hash: "sha256-01725d8bf202a814"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-21T07:06:21.809808Z"
+    format_version: 1

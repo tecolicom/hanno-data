@@ -222,11 +222,26 @@ def write_yaml_with_translations(path: str, en_summary: str, en_description: str
     new_block = render_translations_block(en_summary, en_description,
                                           translation_hash, translated_at)
 
-    # 既存 translations: ブロックを探して置換 (or 末尾追加)
-    # トップレベル "translations:" 行から、次のトップレベル key or EOF まで
-    m = re.search(r"^translations:\n(?:[ \t]+.*\n)*", content, re.MULTILINE)
-    if m:
-        new_content = content[:m.start()] + new_block + content[m.end():]
+    # 既存 translations: ブロックを探して置換 (or 末尾追加).
+    # `translations:` 行から、次のトップレベル key (行頭 [A-Za-z_]+:) or EOF まで。
+    # 注意: ブロック内に空行 (block scalar 内段落区切り等) が含まれることがある
+    # ため、空行で打ち切る単純な regex は使えない (description: |- の本文に
+    # 空行があると壊れる).
+    lines = content.splitlines(keepends=True)
+    start_idx = end_idx = None
+    for i, ln in enumerate(lines):
+        if start_idx is None:
+            if re.match(r"^translations\s*:", ln):
+                start_idx = i
+        else:
+            # 次のトップレベル key で打ち切り (行頭で [A-Za-z_]+: パターン)
+            if re.match(r"^[A-Za-z_][A-Za-z0-9_]*\s*:", ln):
+                end_idx = i
+                break
+    if start_idx is not None:
+        if end_idx is None:
+            end_idx = len(lines)
+        new_content = "".join(lines[:start_idx]) + new_block + "".join(lines[end_idx:])
     else:
         # 末尾改行を保証してから追加
         if not content.endswith("\n"):

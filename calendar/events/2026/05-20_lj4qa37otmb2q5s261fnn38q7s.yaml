@@ -44,3 +44,50 @@ description: |-
 render:
   gcal:
     mode: span-allday
+translations:
+  en:
+    summary: "Myはんのう v1.20.1"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      v1.20.1 Fixes
+      • Fixed "pull-to-refresh" accidentally triggering while scrolling event details — Custom pull-to-refresh no longer activates while a modal is open
+      • Fixed startup error when fetching personal calendar (iCal URL) — A regression that had been broken since the layout change in v1.19.0
+      • Fixed "default OFF calendars" (like English calendar) disappearing on reload when toggled — Settings are now stored locally on your device (localStorage) so they aren't affected by network delays
+
+      v1.20.0 Event Calendar
+      • Added English versions of "Myはんのう" and "Hanno City Government" calendars — Turn on subscriptions in the settings panel to see events in English (off by default)
+      • Redesigned subscription settings model — Now uses asymmetric management: "default ON calendars record only those turned off" and "default OFF calendars record only those turned on." Third-party and language-specific calendars now appear in their correct initial state
+
+      v1.19.2 Bus
+      • Select a different date from the top, then open "Take/Leave bus" to see that day's timetable directly
+      • Bus page now has previous/next day buttons + date tap opens calendar
+      • Bus "X minutes later" countdown now truncates (less than 1 minute shows as "less than 1 minute")
+      • Stop times now align in monospace for easier reading
+      • For dates other than today, bus timetables hide the countdown and show only stop info
+
+      v1.19.2 Garbage Collection
+      • Today (after noon / 12:00) and past garbage entries are collapsed by default (out of the way except for morning trash duty)
+      • Tomorrow and beyond: garbage entries stay open (collapse once and it remembers for that day)
+
+      v1.19.2 Small Improvements
+      • Changed detail link icon (was conflicting with mayor blog icon) to external link arrow
+
+      v1.19.1 Major Changes
+      • Top page now supports any date — Previously only switched to next/previous day; now the entire screen switches to any date you choose
+      • ◀️ ▶️ buttons on either side of the large date for previous/next day
+      • Tap the large date → Calendar to jump to any date
+      • Tap reverse badges like "Tomorrow" or "N days later" → instantly back to today
+      • Past weather also visible (back decades)
+      • Non-today dates can be shared and bookmarked via URL (?date=YYYY-MM-DD)
+
+      v1.19.1 Morning Garbage Duty
+      • Clock displays large above the pictogram only on "days with garbage collection today," so you can check the time even without glasses when bleary-eyed
+
+      v1.19.1 Calendar Readability
+      • Saturdays now shown in blue, Sundays and holidays in red across the whole row for clarity
+      • Holiday names (e.g., Constitution Day / Greenery Day) display in red bold in the calendar strip
+    translation_hash: "sha256-33d6b99ab8c0a98a"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-21T07:06:20.517597Z"
+    format_version: 1
