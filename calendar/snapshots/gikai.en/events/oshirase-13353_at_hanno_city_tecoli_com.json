@@ -1,0 +1,34 @@
+{
+  "created": "2026-05-20T06:34:19.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nYou can view the Fiscal Status Materials based on the Fiscal Year 2024 (Reiwa 6) financial statements.\n\nThe Fiscal Status Materials are a standardized format established by the Ministry of Internal Affairs and Communications for all local public bodies nationwide. They make it easier to understand and publicly report the financial condition of municipalities, including settlement of accounts and the degree of fiscal soundness.\n\nFiscal Year 2024 (Reiwa 6) Fiscal Status Materials (Excel file: 577.4 KB)\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/zaimushohyo/13353.html",
+  "end": {
+    "date": "2026-03-31"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3BqYWNxMGQxZ21zcmpmNXBobWl0M3A1cHE2YW9yZmRoa2lzb3JmZGsgYjZmMzZlMTk3NTFjMDVjY2U5OWZhMDA4MjhlNDI5ZjQwZjZkYjEwMGUyZGJlNDQyYmMyNjIyYTI1ZGE5NzMxNkBn",
+  "iCalUID": "oshirase-13353@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6cpjacq0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市政（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/zaimushohyo/13353.html"
+  },
+  "start": {
+    "date": "2026-03-30"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Fiscal Status Materials for Fiscal Year 2024 (Reiwa 6)",
+  "updated": "2026-05-22T03:34:23.452Z"
+}

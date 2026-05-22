@@ -1,0 +1,34 @@
+{
+  "created": "2026-05-20T06:32:56.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nOn February 20 (Friday), we held a signing ceremony for an agreement with Sayuri Gakuen school corporation regarding the setup and operation of a welfare evacuation shelter during disasters.\n\nIn December of last year, Sayuri Gakuen, which operates Certified Kindergarten Sayuri Yochien, offered to make their facility available as a secondary evacuation site following facility improvements.\n\nDuring a disaster, Certified Kindergarten Sayuri Yochien can serve as a secondary evacuation destination for infants and young children for whom shelter life at a designated evacuation center would be difficult. This allows us to provide evacuees with a safe and secure environment. After coordinating the details, we reached an agreement on the contract.\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202602/13181.html",
+  "end": {
+    "date": "2026-02-21"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2VkazZpb3I4ZHNtbTRyM2Zjc21qMmNwaDcwb2swcTMxZHBuNnViajNkNXE3aWJqa2NsaG11cjM5NXBobXVyOCBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "shicho-blog-13181@hanno.city.tecoli.com",
+  "id": "_edk6ior8dsmm4r3fcsmj2cph70ok0q31dpn6ubj3d5q7ibjkclhmur395phmur8",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市政（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202602/13181.html"
+  },
+  "start": {
+    "date": "2026-02-20"
+  },
+  "status": "confirmed",
+  "summary": "📝 Mayor: Agreement signed for welfare evacuation shelter setup and operation during disasters",
+  "updated": "2026-05-22T03:32:56.040Z"
+}

@@ -1,0 +1,34 @@
+{
+  "created": "2026-05-20T06:34:33.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nOn April 1, 2026 (Reiwa 8), Hanno City held a ceremony to present appointment letters to newly hired staff. Fifteen new employees officially began their roles with the city, full of hope and determination.\n\nTogether with these new staff members, all city employees are committed to working with full effort toward realizing our vision for the future: \"A Forest Culture City Where People, Nature, and the Future Connect—Hanno, a place where we nurture good cycles and want to live forever.\"\n\nWe look forward to serving the community with renewed energy and dedication.\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13425.html",
+  "end": {
+    "date": "2026-04-02"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2VkazZpb3I4ZHNtbTRyM2Zjc21qMmNwazY4cWswcTMxZHBuNnViajNkNXE3aWJqa2NsaG11cjM5NXBobXVyOCBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "shicho-blog-13425@hanno.city.tecoli.com",
+  "id": "_edk6ior8dsmm4r3fcsmj2cpk68qk0q31dpn6ubj3d5q7ibjkclhmur395phmur8",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市政（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13425.html"
+  },
+  "start": {
+    "date": "2026-04-01"
+  },
+  "status": "confirmed",
+  "summary": "📝 Mayor: Hanno City Welcomes 15 New Staff Members in Reiwa 8",
+  "updated": "2026-05-22T03:34:38.560Z"
+}

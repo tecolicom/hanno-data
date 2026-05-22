@@ -1,0 +1,34 @@
+{
+  "created": "2026-05-20T06:35:49.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nJune 16 (Tuesday) at 10 a.m., gather at the west parking lot of Hanno City Hall. We will hold a Sugo-Ashi leisurely walk.\n\nDepending on weather and number of participants, you can choose from two routes:\n\n• Route (1): City Hall → Benzaiten → Chikan-ji Temple → Nakayama-Nishi Signal → Yatsuita → Ninin-ji Temple → Central Park → Motogo Water Purification Plant → Hanno River Stepping Stone Bridge → Hanno Station → Higashi-Hanno Station → City Hall (approximately 7 kilometers, approximately 2 hours 30 minutes)\n\n• Route (2): City Hall → Hanno City area (Shimokaji, Futayanagi, Kaji, etc.) → Iruma City area (Shinko, Noda, etc.) → Fushiko Station (return by train)\n\nFree admission. Please bring: drinking water, rain gear, IC card for public transport, Sugo-Ashi handbook (if you have one). Insurance is your own responsibility.\n\nWalk-ins welcome (please arrive by the meeting time). To confirm cancellations due to weather or other reasons, check the Hanno Walking Club website or contact Onda (090-2205-8073) after 3 p.m. the day before.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/12785.html",
+  "end": {
+    "date": "2026-05-12"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2OHJqZ2RhMGQxZ21zcmpmNXBobWl0M3A1cHE2YW9yZmRoa2lzb3JmZGsgYjZmMzZlMTk3NTFjMDVjY2U5OWZhMDA4MjhlNDI5ZjQwZjZkYjEwMGUyZGJlNDQyYmMyNjIyYTI1ZGE5NzMxNkBn",
+  "iCalUID": "oshirase-12785@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h68rjgda0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市政（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/12785.html"
+  },
+  "start": {
+    "date": "2026-05-11"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Sugo-Ashi Event: Sugo-Ashi Leisurely Walk – June 16, 2026 (Tuesday)",
+  "updated": "2026-05-22T03:35:55.206Z"
+}

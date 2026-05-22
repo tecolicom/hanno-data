@@ -1,0 +1,34 @@
+{
+  "created": "2026-05-20T06:32:41.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nHanno City is working on emergency financial measures to establish sustainable municipal operations. As of February 2026 (Reiwa 8), the Emergency Financial Measures Headquarters meeting chaired by the mayor has been held 9 times, and project team meetings 4 times, with concrete discussions ongoing.\n\n【Goals of the Emergency Financial Measures Plan】\n• By the end of fiscal year 2026 (Reiwa 8), secure a combined balance of financial adjustment funds and debt reduction funds equal to at least 10% of the city's standard financial scale (1.95 billion yen)\n• Determine an appropriate and sustainable budget size in line with revenue scale, and shift toward expenditures that match revenue\n\n【Review of Administrative Operations and Services】\nThe entire city is reviewing all administrative operations and services without exemptions, and is organizing them in stages for continuation (after reviewing user fees), downsizing, suspension/discontinuation, or postponement. The finalized checklist for reviewing administrative operations and services has been published since February 17, 2026 (Reiwa 8).\n\n【Progress to Date】\nSince reporting the implementation of emergency financial measures in February 2025 (Reiwa 7), the city has proceeded with plan formulation (June), multiple publications of revised review checklists, submission of ordinance amendment proposals for reviewing usage fees and service charges, and holding of district briefing meetings. The initial budget proposal for fiscal year 2026 (Reiwa 8) is scheduled to be submitted to the March regular session of the city assembly in March 2026 (Reiwa 8).\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kinkyuuzaiseitaisaku/11840.html",
+  "end": {
+    "date": "2026-02-18"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2NHMzOGMyMGQxZ21zcmpmNXBobWl0M3A1cHE2YW9yZmRoa2lzb3JmZGsgYjZmMzZlMTk3NTFjMDVjY2U5OWZhMDA4MjhlNDI5ZjQwZjZkYjEwMGUyZGJlNDQyYmMyNjIyYTI1ZGE5NzMxNkBn",
+  "iCalUID": "oshirase-11840@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h64s38c20d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市政（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kinkyuuzaiseitaisaku/11840.html"
+  },
+  "start": {
+    "date": "2026-02-17"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Status update on emergency financial measures",
+  "updated": "2026-05-22T03:32:40.371Z"
+}

@@ -1,0 +1,35 @@
+{
+  "created": "2026-05-20T07:03:25.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 10:30–15:30\n\nAutomated translation (refer to source for accuracy)\n\nHanno Eco-tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ohk-hannoalps3/\n\nThis tour has been closed to new registrations due to organizer circumstances.\n\nThis tour traverses the spine of the Hanno Alps—the mountain range running from Izugadake to Tenranzan—over 4 separate outings. Part 3 covers the section from Agano Station, running over the signature peaks of the Hanno Alps: Maeita, Odaka, and Tengaku mountains. Lunch will be a special bento from Taira Kuri-en (local orchard).\n\n【Fee】\n7,800 yen per person (guide fee, lunch, insurance)\n\n【Capacity】\n10 people\n\n【Guide】\nAkira Shimizu – certified mountain guide, Japan Alpine Guides Association, Stage II\n\n【What to bring】\nGloves, drinking water, hat, rain gear, snacks, towel",
+  "end": {
+    "date": "2026-05-14"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFycjhkY21tZ29iZWRwbm0ycjNnZWNwaXFjaGc2OHIzMGQ5aDZkMDZnb2JlZHBuaXNvcjllaHNpc3QzNWNkbm1vcTllY2RubXEgZDkxOTNjZjVmNjQ0YWI0MWEyOGUyMjY4YTk4YWJjNWFhNDI2YmQyZDU3NzE1MjgzNDI0NGFkNjlhMzFmNWE2OEBn",
+  "iCalUID": "tourism-ohk-hannoalps3-20260513@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqrr8dcmmgobedpnm2r3gecpiqchg68r30d9h6d06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "集合 西武池袋線・秩父線「吾野駅」駅前広場",
+  "organizer": {
+    "displayName": "Myはんのう（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ohk-hannoalps3/"
+  },
+  "start": {
+    "date": "2026-05-13"
+  },
+  "status": "confirmed",
+  "summary": "Mountain guide tour: Hanno Alps full traverse part 3 (Agano Station to Maeita, Odaka, and Tengaku mountains to Higashi-Agano Station)",
+  "updated": "2026-05-22T03:36:09.200Z"
+}

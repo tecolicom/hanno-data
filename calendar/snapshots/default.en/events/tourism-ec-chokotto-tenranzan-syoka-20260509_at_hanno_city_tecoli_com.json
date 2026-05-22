@@ -1,0 +1,35 @@
+{
+  "created": "2026-05-20T07:03:08.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 14:00–16:00\n\nAutomated translation (refer to source for accuracy)\n\nHanno Ecotourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-chokotto-tenranzan-syoka/\n\nWalk with a guide and discover the subtle changes in nature you might miss on a regular walk. This tour is designed to be easy and enjoyable in a short time. Please feel free to join us. Depending on the season, homemade pesticide-free vegetables will be given as a gift!\n\n【Fee】¥2,000 per person, ¥1,500 for returning visitors, ¥4,000 per family (includes guide fee and insurance)\n\n【Maximum participants】10 people\n\n【Guide】Tsubasa Kojima (Hanno City Ecotourism Citizen Guides Association – Wildlife Group)\n\n【What to bring】Drinking water, rain gear, backpack or similar (something that keeps your hands free is recommended), towel",
+  "end": {
+    "date": "2026-05-10"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bGhtZ3JyYmR0cTc4cnBkZWhpbXNzajFkcHQ2MnJoZGVkc211cXIxNWtwMzBjaG02MHFqMGVhMGQxZ21zcmpmNXBobWl0M3A1cHE2YW9yZmRoa2lzb3JmZGsgZDkxOTNjZjVmNjQ0YWI0MWEyOGUyMjY4YTk4YWJjNWFhNDI2YmQyZDU3NzE1MjgzNDI0NGFkNjlhMzFmNWE2OEBn",
+  "iCalUID": "tourism-ec-chokotto-tenranzan-syoka-20260509@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqpb35lhmgrrbdtq78rpdehimssj1dpt62rhdedsmuqr15kp30chm60qj0ea0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "location": "集合 飯能市立博物館前（国際興業バス「OH!!!・天覧山下」または「市民会館・博物館」下車徒歩3分）",
+  "organizer": {
+    "displayName": "Myはんのう（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-chokotto-tenranzan-syoka/"
+  },
+  "start": {
+    "date": "2026-05-09"
+  },
+  "status": "confirmed",
+  "summary": "Easy Short Tour – Tenranzan Mountain",
+  "updated": "2026-05-22T03:35:53.178Z"
+}

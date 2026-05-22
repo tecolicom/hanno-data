@@ -1,0 +1,34 @@
+{
+  "created": "2026-05-20T06:34:50.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nOn Tuesday, April 14, I had the opportunity to address students at Surugadai University as we launched this year's endowed lecture program.\n\nHanno City entered into a basic partnership agreement with Surugadai University in 2011 (Heisei 23). Since the 2015 fiscal year (Heisei 27), as part of our work under this agreement, we have been sending our city staff members to serve as instructors.\n\nThis lecture series consists of 15 sessions covering the structure and role of local government, the profile of local civil servants in demand, and Hanno City's key policy initiatives. It represents a distinctive educational opportunity for students aiming to become local civil servants.\n\nI hope you will study \"Regional Administration and Law\" thoroughly, and through this learning experience, I look forward to your growth and success.\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13455.html",
+  "end": {
+    "date": "2026-04-15"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2VkazZpb3I4ZHNtbTRyM2Zjc21qMmNwazZrcWswcTMxZHBuNnViajNkNXE3aWJqa2NsaG11cjM5NXBobXVyOCBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "shicho-blog-13455@hanno.city.tecoli.com",
+  "id": "_edk6ior8dsmm4r3fcsmj2cpk6kqk0q31dpn6ubj3d5q7ibjkclhmur395phmur8",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市政（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13455.html"
+  },
+  "start": {
+    "date": "2026-04-14"
+  },
+  "status": "confirmed",
+  "summary": "📝 Mayor: Surugadai University Endowed Lecture Guidance",
+  "updated": "2026-05-22T03:34:56.246Z"
+}

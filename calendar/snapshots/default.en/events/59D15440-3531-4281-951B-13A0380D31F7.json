@@ -1,0 +1,29 @@
+{
+  "created": "2026-05-20T07:03:40.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "end": {
+    "date": "2026-05-18"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=XzZrc2s4YzlsNmdxMzBiOWo2a3BqMmI5azY4czMyYjlwNmtvazRiOWg2ZDBqMGNwbzYxMjM2Y2E2NnMgZDkxOTNjZjVmNjQ0YWI0MWEyOGUyMjY4YTk4YWJjNWFhNDI2YmQyZDU3NzE1MjgzNDI0NGFkNjlhMzFmNWE2OEBn",
+  "iCalUID": "59D15440-3531-4281-951B-13A0380D31F7",
+  "id": "_6ksk8c9l6gq30b9j6kpj2b9k68s32b9p6kok4b9h6d0j0cpo61236ca66s",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "Myはんのう（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "start": {
+    "date": "2026-05-17"
+  },
+  "status": "confirmed",
+  "summary": "15th Hanno Barefoot Marathon",
+  "updated": "2026-05-22T03:36:21.759Z"
+}

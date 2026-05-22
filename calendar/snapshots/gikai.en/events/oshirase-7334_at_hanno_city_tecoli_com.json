@@ -1,0 +1,34 @@
+{
+  "created": "2026-05-20T06:35:30.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nHanno City will sell six city-owned parcels in Yamate-cho through open competitive bidding.\n\n【Properties for Sale】\n1. Yamate-cho 211-1 Field 36.85㎡\n2. Yamate-cho 211-3 Field 116.93㎡\n3. Yamate-cho 211-4 Field 88.45㎡\n4. Yamate-cho 1406-3 Residential land 87.57㎡\n5. Yamate-cho 1407-4 Residential land 538.21㎡\n6. Yamate-cho 1410-2 Residential land 171.97㎡\n\nMinimum sale price: ¥68,000,000 (total for six parcels)\nBid security: ¥10,200,000\nZoning: First-class residential district\n\n【Schedule】\nBid application period: May 22 – June 5, 2026 (Reiwa 8), 9:00 a.m. to 4:30 p.m.\nBid date and time: June 19, 2026 (Reiwa 8), 2:00 p.m.\nBid venue: Hanno City Hall Main Building, 2nd floor, Bidding Room\n\nApplication documents are available on the Hanno City official website.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/7334.html",
+  "end": {
+    "date": "2026-05-02"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOW42Y3BqOGczOGM1bjZzcnBlY2Rrbjh1OWVlaGltNnJyY2Q0bjY2cnJkIGI2ZjM2ZTE5NzUxYzA1Y2NlOTlmYTAwODI4ZTQyOWY0MGY2ZGIxMDBlMmRiZTQ0MmJjMjYyMmEyNWRhOTczMTZAZw",
+  "iCalUID": "oshirase-7334@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9n6cpj8g38c5n6srpecdkn8u9eehim6rrcd4n66rrd",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市政（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/7334.html"
+  },
+  "start": {
+    "date": "2026-05-01"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ City-owned land sale (open competitive bidding)",
+  "updated": "2026-05-22T03:35:37.361Z"
+}

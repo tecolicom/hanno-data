@@ -1,0 +1,34 @@
+{
+  "created": "2026-05-20T06:33:45.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nThe Japanese Red Cross is accepting donations to support disaster-affected areas. The Hanno branch of the Saitama Prefecture chapter is cooperating, and all donations received are sent in full to the relief fund distribution committees of the affected prefectures.\n\n【Domestic Relief Funds】\n• Noto Peninsula Earthquake Disaster Relief Fund (Ishikawa, Toyama, Fukui prefectures) — Scheduled end date: March 22, 2027 (Reiwa 9)\n• September 2024 Noto Peninsula Heavy Rain Disaster Relief Fund (Ishikawa) — Scheduled end date: March 22, 2027\n\n【International Humanitarian Aid Funds】\n• Middle East Humanitarian Crisis Relief Fund — Scheduled end date: March 23, 2027\n• Bangladesh Southern Refugee Relief Fund — Scheduled end date: March 23, 2027\n• Ukraine Humanitarian Crisis Relief Fund — Scheduled end date: March 23, 2027\n• Iran and Neighboring Countries Humanitarian Crisis Relief Fund — Scheduled end date: May 25, 2026 (Reiwa 8)\n• Undesignated International Relief Fund — Accepted year-round\n\n【Where to donate】\nCity Hall main building front entrance information desk (donation box), or 1st floor window 11, Community Welfare Division\n\n【Hours】Weekdays 8:30 a.m. to 5:15 p.m.\n\nIf you would like a receipt, please contact the Community Welfare Division (1st floor window 11).\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/12265.html",
+  "end": {
+    "date": "2026-03-19"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2OHAzY2RhMGQxZ21zcmpmNXBobWl0M3A1cHE2YW9yZmRoa2lzb3JmZGsgYjZmMzZlMTk3NTFjMDVjY2U5OWZhMDA4MjhlNDI5ZjQwZjZkYjEwMGUyZGJlNDQyYmMyNjIyYTI1ZGE5NzMxNkBn",
+  "iCalUID": "oshirase-12265@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h68p3cda0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市政（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/12265.html"
+  },
+  "start": {
+    "date": "2026-03-18"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Relief and aid fund donations now being accepted",
+  "updated": "2026-05-22T03:33:47.917Z"
+}

@@ -1,0 +1,34 @@
+{
+  "created": "2026-05-20T06:33:07.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nStarting April 1, 2026 (Reiwa 8, Wednesday), the opening hours and closure dates for Hanno City Library and Hanno Children's Library will change. This trial period will run until March 31, 2027.\n\n【Hanno City Library】\nOpening hours: Tuesday–Sunday 9:30 a.m.–6:00 p.m.\nClosure days: Mondays (except national holidays), the day after a national holiday (open if that day is also a national holiday), library maintenance day (last Friday of each month, except national holidays), annual special maintenance period (once per year, 5 days), year-end and New Year break, and others\n\n【Hanno Children's Library】\nOpening hours: Tuesday–Sunday 11:00 a.m.–4:00 p.m.\nClosure days: Mondays (except national holidays), the day after a national holiday (open if that day is also a national holiday), library maintenance day (last Friday of each month, except national holidays), annual special maintenance period (once per year, 5 days), year-end and New Year break, and others\n\nEffective April 1, 2026, the Naguri and Fujimi branch libraries will close, and the bookmobile service will suspend. The Naguri District Administrative Center and Fujimi District Administrative Center will begin offering a new \"library delivery service.\" For details, please check the Hanno City Library website.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/toshokan/13108.html",
+  "end": {
+    "date": "2026-02-27"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y29qMGUyMGQxZ21zcmpmNXBobWl0M3A1cHE2YW9yZmRoa2lzb3JmZGsgYjZmMzZlMTk3NTFjMDVjY2U5OWZhMDA4MjhlNDI5ZjQwZjZkYjEwMGUyZGJlNDQyYmMyNjIyYTI1ZGE5NzMxNkBn",
+  "iCalUID": "oshirase-13108@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6coj0e20d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市政（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/toshokan/13108.html"
+  },
+  "start": {
+    "date": "2026-02-26"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Hanno City Library: Changes to opening hours and closure dates starting April 1, 2026",
+  "updated": "2026-05-22T03:33:06.973Z"
+}

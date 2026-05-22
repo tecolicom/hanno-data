@@ -1,0 +1,34 @@
+{
+  "created": "2026-05-20T06:34:15.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nEvent Details\n\nDate: Saturday, May 23\n\nGathering Time: 10:00 AM\n\nGathering Place: Daini-ku District Administrative Center\n\nCourse: Daini-ku District Administrative Center → Akanegataoge Pass → Misugi-dai Seven-Eleven → Asahi-yama Observation Park → Hanno Central District Administrative Center → Hanno City Hall\n\nDistance: Approximately 14 kilometers\n\nExpected Duration: Approximately 4 hours 30 minutes\n\nFee: 200 yen (materials fee, collected on the day)\n\nWhat to Bring: Lunch box, drinking water, rain gear, transportation IC card, Sugo-Ashi handbook (if you have one)\n\nOther Notes: Please arrange your own insurance.\n\nRegistration: Apply to ASA Hanno by Tuesday, May 19. Phone: 972-4701 / Fax: 974-2190\n\nWeather Cancellation: Check ASA Hanno Central after 3:00 PM on the day before for cancellation due to weather.\n\nInquiries: Onda 090-2205-8073\n\nOrganizer: Hanno Walking Club\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/12385.html",
+  "end": {
+    "date": "2026-03-31"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2OHBqZ2RhMGQxZ21zcmpmNXBobWl0M3A1cHE2YW9yZmRoa2lzb3JmZGsgYjZmMzZlMTk3NTFjMDVjY2U5OWZhMDA4MjhlNDI5ZjQwZjZkYjEwMGUyZGJlNDQyYmMyNjIyYTI1ZGE5NzMxNkBn",
+  "iCalUID": "oshirase-12385@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h68pjgda0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市政（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/12385.html"
+  },
+  "start": {
+    "date": "2026-03-30"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Sugo-Ashi Event: Walk the Hanno Two-Day Nago Course on Saturday, May 23, 2026",
+  "updated": "2026-05-22T03:34:19.042Z"
+}

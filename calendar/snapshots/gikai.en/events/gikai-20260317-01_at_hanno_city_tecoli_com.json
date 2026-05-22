@@ -1,0 +1,35 @@
+{
+  "created": "2026-05-20T06:33:43.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nSession schedule: https://www.city.hanno.lg.jp/material/files/group/45/kaikinittei8-3.pdf\n\nProposal list: https://www.city.hanno.lg.jp/soshikikarasagasu/gikaisomuka/kaigijoho/13089.html\n\nGeneral questions: https://www.city.hanno.lg.jp/material/files/group/45/ippannsitumon8-3.pdf\n\nSource (Japanese): https://www.city.hanno.lg.jp/material/files/group/45/sannpizyoukyou8-3.pdf",
+  "end": {
+    "date": "2026-03-18"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2N0a21tb2I5NWtwMzBjaG02MHBqMmRwZDYwb2swcTMxZHBuNnViajNkNXE3aWJqa2NsaG11cjM5NXBobXVyOCBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "gikai-20260317-01@hanno.city.tecoli.com",
+  "id": "_ctkmmob95kp30chm60pj2dpd60ok0q31dpn6ubj3d5q7ibjkclhmur395phmur8",
+  "kind": "calendar#event",
+  "location": "飯能市役所 議場",
+  "organizer": {
+    "displayName": "飯能市政（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/material/files/group/45/kaikinittei8-3.pdf"
+  },
+  "start": {
+    "date": "2026-03-17"
+  },
+  "status": "confirmed",
+  "summary": "🏛 General Questions to City Government",
+  "updated": "2026-05-22T03:33:45.716Z"
+}

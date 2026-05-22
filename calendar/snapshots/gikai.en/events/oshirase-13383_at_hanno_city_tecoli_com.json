@@ -1,0 +1,34 @@
+{
+  "created": "2026-05-20T06:34:37.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nFrom April 1, 2026 (Reiwa 8), the Environment and Green Water Division will relocate to the Clean Center.\n\nWhen you need to visit, please come to the office on the 3rd floor of the Clean Center.\n\nNew address: 768-1 Shimohata, Hanno City\n\nPlease refer to the map below for the new location.\n\nMap of new location (PDF file: 292.6KB)\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/kankyomidorimizuka/13383.html",
+  "end": {
+    "date": "2026-04-03"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3BqZ2NxMGQxZ21zcmpmNXBobWl0M3A1cHE2YW9yZmRoa2lzb3JmZGsgYjZmMzZlMTk3NTFjMDVjY2U5OWZhMDA4MjhlNDI5ZjQwZjZkYjEwMGUyZGJlNDQyYmMyNjIyYTI1ZGE5NzMxNkBn",
+  "iCalUID": "oshirase-13383@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6cpjgcq0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市政（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/kankyomidorimizuka/13383.html"
+  },
+  "start": {
+    "date": "2026-04-02"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Environment and Green Water Division moving to new location",
+  "updated": "2026-05-22T03:34:42.884Z"
+}

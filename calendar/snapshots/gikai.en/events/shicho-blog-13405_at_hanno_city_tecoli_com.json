@@ -1,0 +1,34 @@
+{
+  "created": "2026-05-20T06:34:39.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nOn April 2, 2026 (Reiwa 8), a Thursday, the Spring National Traffic Safety Campaign kickoff ceremony was held at the Tawayanagi District Administrative Center, and I attended as a guest.\n\nThis ceremony was held to align the commitment of the police, local government, and traffic-related organizations toward traffic safety, build momentum for the campaign, and raise public awareness about preventing traffic accidents.\n\nGoing forward, we will work together with all relevant agencies to prevent traffic accidents.\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13405.html",
+  "end": {
+    "date": "2026-04-03"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2VkazZpb3I4ZHNtbTRyM2Zjc21qMmNwazYwcWswcTMxZHBuNnViajNkNXE3aWJqa2NsaG11cjM5NXBobXVyOCBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "shicho-blog-13405@hanno.city.tecoli.com",
+  "id": "_edk6ior8dsmm4r3fcsmj2cpk60qk0q31dpn6ubj3d5q7ibjkclhmur395phmur8",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市政（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13405.html"
+  },
+  "start": {
+    "date": "2026-04-02"
+  },
+  "status": "confirmed",
+  "summary": "📝 Mayor: Spring National Traffic Safety Campaign Kickoff Ceremony",
+  "updated": "2026-05-22T03:34:45.268Z"
+}

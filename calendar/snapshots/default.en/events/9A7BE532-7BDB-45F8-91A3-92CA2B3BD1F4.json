@@ -1,0 +1,29 @@
+{
+  "created": "2026-05-20T07:03:42.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "end": {
+    "date": "2026-05-18"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=Xzc1MGplZ2k1NmtwajRiOW44OTI0NGI5azZsMzNnYjlwNjUwajZiOXA2OTFrMmNpMjZkMTQ4Y2E2NmcgZDkxOTNjZjVmNjQ0YWI0MWEyOGUyMjY4YTk4YWJjNWFhNDI2YmQyZDU3NzE1MjgzNDI0NGFkNjlhMzFmNWE2OEBn",
+  "iCalUID": "9A7BE532-7BDB-45F8-91A3-92CA2B3BD1F4",
+  "id": "_750jegi56kpj4b9n89244b9k6l33gb9p650j6b9p691k2ci26d148ca66g",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "Myはんのう（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "start": {
+    "date": "2026-05-17"
+  },
+  "status": "confirmed",
+  "summary": "Hanno City Residents' Cleanup Day",
+  "updated": "2026-05-22T03:36:23.501Z"
+}

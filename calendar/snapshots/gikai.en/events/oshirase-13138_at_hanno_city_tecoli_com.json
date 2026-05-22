@@ -1,0 +1,34 @@
+{
+  "created": "2026-05-20T06:32:54.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nHanno City will hold a regular press conference on February 20, 2026 (Reiwa 8).\n\n【Scheduled agenda items】\n• 6th Hanno City Comprehensive Promotion Plan Implementation Plan – Reiwa 8 Priority Measures (3rd Hanno City Comprehensive Strategy for Creating Places, People, and Jobs) (draft)\n• 8th Hanno City Administrative Reform Guidelines (draft)\n• Regarding special compensation provisions for the Mayor and staff\n• Outline of the Reiwa 8 budget proposal\n• Emergency fiscal measures\n• Implementation of trial soundings for food truck and similar vendors at public facilities\n• Regarding the opening of the Asu-Okokubo Line (Iwasawa section)\n• Plans starting in Reiwa 8\n\nDetailed materials (PDF files) for each agenda item are posted on the city's official website.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025/13138.html",
+  "end": {
+    "date": "2026-02-21"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y29qNmUyMGQxZ21zcmpmNXBobWl0M3A1cHE2YW9yZmRoa2lzb3JmZGsgYjZmMzZlMTk3NTFjMDVjY2U5OWZhMDA4MjhlNDI5ZjQwZjZkYjEwMGUyZGJlNDQyYmMyNjIyYTI1ZGE5NzMxNkBn",
+  "iCalUID": "oshirase-13138@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6coj6e20d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市政（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025/13138.html"
+  },
+  "start": {
+    "date": "2026-02-20"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Regular press conference (held February 20, 2026 (Reiwa 8))",
+  "updated": "2026-05-22T03:32:53.895Z"
+}

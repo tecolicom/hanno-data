@@ -1,0 +1,34 @@
+{
+  "created": "2026-05-20T06:32:24.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nOn Saturday, January 10, the Hanno Fire Brigade New Year Ceremony and Awards Presentation was held with great solemnity and celebration at Hanno City Civic Hall, attended by many distinguished guests.\n\nAt the awards presentation ceremony, fire brigade members and their families who have been dedicated to fire brigade activities were honored. Congratulations to all recipients.\n\nTo the 337 fire brigade members: I offer my heartfelt respect and gratitude for your tireless firefighting service day and night.\n\nWith the air becoming dry and forest fires breaking out across the country, Hanno City—home to many mountainous areas—requires heightened vigilance in fire prevention. Going forward, please take care of your health and continue to dedicate yourselves to building a town where our citizens can live safely and with peace of mind.\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202601/12984.html",
+  "end": {
+    "date": "2026-01-11"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2VkazZpb3I4ZHNtbTRyM2Zjc21qMmNocDcwcTQwcTMxZHBuNnViajNkNXE3aWJqa2NsaG11cjM5NXBobXVyOCBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "shicho-blog-12984@hanno.city.tecoli.com",
+  "id": "_edk6ior8dsmm4r3fcsmj2chp70q40q31dpn6ubj3d5q7ibjkclhmur395phmur8",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市政（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202601/12984.html"
+  },
+  "start": {
+    "date": "2026-01-10"
+  },
+  "status": "confirmed",
+  "summary": "📝 Mayor: Hanno Fire Brigade New Year Ceremony and Awards Presentation, Reiwa 8 (2026)",
+  "updated": "2026-05-22T03:32:22.678Z"
+}

@@ -1,0 +1,35 @@
+{
+  "created": "2026-05-21T00:23:11.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 09:30–14:40\n\nAutomated translation (refer to source for accuracy)\n\nHanno Ecotourism Association: https://hanno-tourism.jp/hanno-eco/tour/tanetsuti-1-2/\n\nThe tour originally scheduled for June 21 (Sunday) has been rescheduled to June 28 (Sunday) due to organizer circumstances.\n\nExperience planting summer vegetables and building furrows in a \"kinichyan farm\" that uses fallen leaves and branches. Our advisors will clearly teach you the kinichyan farming method—how to plant seedlings and growing tips. Lunch will be at the restaurant \"La Nora,\" where you can enjoy Italian cuisine made with kinichyan vegetables.\n\n【Admission Fee】\nAdults: ¥8,800 / Middle school students and younger: ¥2,200\n(Includes guide, lunch, materials, and insurance)\n\n【Capacity】15 people\n\n【Guide】Hanno Tanetotochi Farm Staff\n\n【What to bring】Drinking water, hat, towel, gloves, etc.",
+  "end": {
+    "date": "2026-06-29"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXF0MzFkcGluOHNybGVoa2lxYzlkNjhtajRjMWk2b28zY2NobzgxazYycmplZHNuNjZxYmtmNG43OHBiM2R0bTZpYmozZHRtZyBkOTE5M2NmNWY2NDRhYjQxYTI4ZTIyNjhhOThhYmM1YWE0MjZiZDJkNTc3MTUyODM0MjQ0YWQ2OWEzMWY1YTY4QGc",
+  "iCalUID": "tourism-tanetsuti-1-2-20260628@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqt31dpin8srlehkiqc9d68mj4c1i6oo3ccho81k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+  "kind": "calendar#event",
+  "location": "集合 ラ・ノーラ前の畑 （飯能市下加治243-25、イーグルバス「飯能靖和病院」下車徒歩8分）",
+  "organizer": {
+    "displayName": "Myはんのう（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/tanetsuti-1-2/"
+  },
+  "start": {
+    "date": "2026-06-28"
+  },
+  "status": "confirmed",
+  "summary": "Enjoy creating a 'kinichyan farm' and planting summer vegetables in Hanno's forest town",
+  "updated": "2026-05-22T03:37:25.967Z"
+}

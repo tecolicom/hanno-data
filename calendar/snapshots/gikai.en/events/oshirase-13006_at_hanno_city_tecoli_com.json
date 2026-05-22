@@ -1,0 +1,34 @@
+{
+  "created": "2026-05-20T06:34:54.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nSome of the applications and notifications handled at Hanno City Hall windows are now available 24 hours a day, 365 days a year through the internet.\n\n【Main Online Services】\n\n• Hanno City Electronic Application and Notification Service: Search for applications and notifications by category or keyword to complete procedures\n• My Number Portal \"Pittari Service\": Electronic applications available through the national My Number Portal\n• Public Facility Reservation System: Make reservations for public facilities, enter lottery applications, check availability\n• Certificate Convenience Store Delivery: Use your My Number Card to obtain resident certificates and similar documents at convenience stores anytime, including weekends and holidays (except during maintenance)\n• Hanno City GIS: View urban planning information, hazard maps, hiking maps, and more\n• Email Distribution Service: Receive city announcements and event information at your registered email address\n• Procedure Navigator: Get guidance on necessary procedures based on your situation, such as moving or getting married\n• Neko no Me Dot Com: Check waiting times at the Citizen Services window and receive notification when it's your turn\n• Road Emergency Hotline (#9910): Available 24 hours for reporting road damage and similar issues (LINE reports also accepted)\n\nFrom April 1, 2024 to March 31, 2025, there were 291 online procedure uses and a total of 87,168 procedures completed.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/johosystem/13006.html",
+  "end": {
+    "date": "2026-04-16"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y28zMGRpMGQxZ21zcmpmNXBobWl0M3A1cHE2YW9yZmRoa2lzb3JmZGsgYjZmMzZlMTk3NTFjMDVjY2U5OWZhMDA4MjhlNDI5ZjQwZjZkYjEwMGUyZGJlNDQyYmMyNjIyYTI1ZGE5NzMxNkBn",
+  "iCalUID": "oshirase-13006@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6co30di0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市政（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/johosystem/13006.html"
+  },
+  "start": {
+    "date": "2026-04-15"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Online Hanno City Hall",
+  "updated": "2026-05-22T03:35:00.603Z"
+}

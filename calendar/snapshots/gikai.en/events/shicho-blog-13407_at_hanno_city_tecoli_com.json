@@ -1,0 +1,34 @@
+{
+  "created": "2026-05-20T06:34:42.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nOn Friday, April 3, 2026 (Reiwa 8), under clear skies, the Surugadai University entrance ceremony took place. I attended as a guest and offered congratulatory remarks.\n\nTo all of you who have been admitted: my heartfelt congratulations on your enrollment. I sincerely hope that you will enjoy a fulfilling student life—studying, participating in sports and cultural activities—within the university's spacious campus and against the backdrop of this city's abundant natural environment. I also offer my warmest wishes for the health and happiness of all those in attendance, and for the continued development of Surugadai University.\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13407.html",
+  "end": {
+    "date": "2026-04-04"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2VkazZpb3I4ZHNtbTRyM2Zjc21qMmNwazYwcmswcTMxZHBuNnViajNkNXE3aWJqa2NsaG11cjM5NXBobXVyOCBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "shicho-blog-13407@hanno.city.tecoli.com",
+  "id": "_edk6ior8dsmm4r3fcsmj2cpk60rk0q31dpn6ubj3d5q7ibjkclhmur395phmur8",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市政（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13407.html"
+  },
+  "start": {
+    "date": "2026-04-03"
+  },
+  "status": "confirmed",
+  "summary": "📝 Mayor: Surugadai University Entrance Ceremony, Reiwa 8 (2026)",
+  "updated": "2026-05-22T03:34:47.474Z"
+}

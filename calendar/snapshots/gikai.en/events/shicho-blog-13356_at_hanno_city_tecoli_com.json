@@ -1,0 +1,34 @@
+{
+  "created": "2026-05-20T06:34:06.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nOn March 26 (Thursday), Kaneko-gumi Co., Ltd. donated 500 dozen Panda pencils to the city.\n\nThe organization that sells Panda pencils, the Saitama Muscular Dystrophy Association (a general incorporated association), is a welfare organization established to work toward the elimination of muscular dystrophy and to support patients and their families while promoting their welfare. The proceeds from Panda pencil sales are used to support patients and their families.\n\nThe Panda pencils donated this time will be distributed to first-grade students entering Hanno City municipal elementary schools in fiscal year 2026 (Reiwa 8), and will be used in their studies.\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13356.html",
+  "end": {
+    "date": "2026-03-27"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2VkazZpb3I4ZHNtbTRyM2Zjc21qMmNwajZrcjQwcTMxZHBuNnViajNkNXE3aWJqa2NsaG11cjM5NXBobXVyOCBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "shicho-blog-13356@hanno.city.tecoli.com",
+  "id": "_edk6ior8dsmm4r3fcsmj2cpj6kr40q31dpn6ubj3d5q7ibjkclhmur395phmur8",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市政（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13356.html"
+  },
+  "start": {
+    "date": "2026-03-26"
+  },
+  "status": "confirmed",
+  "summary": "📝 Mayor: Donation ceremony for Panda pencils from Kaneko-gumi Co., Ltd.",
+  "updated": "2026-05-22T03:34:10.338Z"
+}

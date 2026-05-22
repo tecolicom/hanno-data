@@ -1,0 +1,34 @@
+{
+  "created": "2026-05-20T06:35:51.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nEvent Details\n\nDate: June 27 (Saturday)\n\nGathering Time: 10:00 a.m.\n\nGathering Place: West parking lot of Hanno City Hall\n\nRoute: City Hall → Nakai → Mountain path beside Musashi Golf Club → Tourist Information Office (currently closed) → Beside Musashidai Water Distribution Station → Yokotedai → Beside Manfukuji Temple → Azuma Gorge → Hanno River Floodplain → City Hall\n\nDistance: Approximately 13 kilometers\n\nEstimated Time: Approximately 4 hours\n\nCost: 200 yen (insurance and other fees, collected on the day)\n\nWhat to Bring: Packed lunch, beverages, rain gear, Sugo-Ashi handbook (if you have one)\n\nRegistration: Register with ASA Hanno by Tuesday, June 23. Phone: 042-972-4701 | Fax: 042-974-2190\n\nCancellation Check: To confirm cancellation due to weather or other reasons, contact ASA Hanno after 9:00 a.m. on the day of the event.\n\nInquiries: Onda 090-2205-8073\n\nOrganized by: Hanno Walking Club\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/9290.html",
+  "end": {
+    "date": "2026-05-12"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOXA2OHNqMGczOGM1bjZzcnBlY2Rrbjh1OWVlaGltNnJyY2Q0bjY2cnJkIGI2ZjM2ZTE5NzUxYzA1Y2NlOTlmYTAwODI4ZTQyOWY0MGY2ZGIxMDBlMmRiZTQ0MmJjMjYyMmEyNWRhOTczMTZAZw",
+  "iCalUID": "oshirase-9290@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9p68sj0g38c5n6srpecdkn8u9eehim6rrcd4n66rrd",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市政（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/9290.html"
+  },
+  "start": {
+    "date": "2026-05-11"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Sugo-Ashi Walking Event – June 27, 2026 (Saturday) – Walk from Musashidai and Yokotedai to Azuma Gorge",
+  "updated": "2026-05-22T03:35:57.236Z"
+}

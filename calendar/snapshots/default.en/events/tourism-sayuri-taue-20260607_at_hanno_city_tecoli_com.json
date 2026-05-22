@@ -1,0 +1,35 @@
+{
+  "created": "2026-05-20T07:04:31.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 12:30–14:30\n\nAutomated translation (refer to source for accuracy)\n\nA learning tour about rice cultivation in the rice paddies. Plant rice while enjoying the breeze and scents of the fields. One appeal is meeting and interacting with local elementary school student guides. The tour also includes planting makomo-dake (Chinese water chestnut), tasting Sayama tea and snacks, and comes with local vegetable souvenirs—a full and rich experience.\n\n【Fee】Adults ¥4,000; Elementary school and younger ¥2,000 (includes guiding, snacks, and insurance)\n\n【Capacity】20 people\n\n【Guide】Jun Nishimura (Sayuri After-School Club)\n\n【What to bring】Drinking water, mat to sit on, hat, clothes you don't mind getting dirty, worn-out long socks, rain gear, towel, change of clothes\n\n【Information】Sayuri Kindergarten website https://www.hannousayuri.com/\n\nMore details: https://hanno-tourism.jp/hanno-eco/tour/sayuri-taue/",
+  "end": {
+    "date": "2026-06-08"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFzcjFmNXFuNHE5ZGVoZ25hcDlkNjhvMzRkaGc2b28zZWczOGM1bjZzcnBlY2Rrbjh1OWVlaGltNnJyY2Q0bjY2cnJkIGQ5MTkzY2Y1ZjY0NGFiNDFhMjhlMjI2OGE5OGFiYzVhYTQyNmJkMmQ1NzcxNTI4MzQyNDRhZDY5YTMxZjVhNjhAZw",
+  "iCalUID": "tourism-sayuri-taue-20260607@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqsr1f5qn4q9dehgnap9d68o34dhg6oo3eg38c5n6srpecdkn8u9eehim6rrcd4n66rrd",
+  "kind": "calendar#event",
+  "location": "集合 西武バス「加治中学校」バス停前",
+  "organizer": {
+    "displayName": "Myはんのう（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/sayuri-taue/"
+  },
+  "start": {
+    "date": "2026-06-07"
+  },
+  "status": "confirmed",
+  "summary": "Kids guide your rice-planting tour — feel the paddy breeze while planting glutinous rice and water vegetable seedlings",
+  "updated": "2026-05-22T03:37:10.997Z"
+}

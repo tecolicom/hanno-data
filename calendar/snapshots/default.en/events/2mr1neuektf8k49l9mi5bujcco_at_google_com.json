@@ -1,0 +1,29 @@
+{
+  "created": "2026-05-20T07:04:19.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "end": {
+    "date": "2026-06-01"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=Mm1yMW5ldWVrdGY4azQ5bDltaTVidWpjY28gZDkxOTNjZjVmNjQ0YWI0MWEyOGUyMjY4YTk4YWJjNWFhNDI2YmQyZDU3NzE1MjgzNDI0NGFkNjlhMzFmNWE2OEBn",
+  "iCalUID": "2mr1neuektf8k49l9mi5bujcco@google.com",
+  "id": "2mr1neuektf8k49l9mi5bujcco",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "Myはんのう（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "start": {
+    "date": "2026-05-30"
+  },
+  "status": "confirmed",
+  "summary": "4th Oku-Musashi Long Trail Race",
+  "updated": "2026-05-22T03:37:00.597Z"
+}

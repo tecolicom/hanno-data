@@ -1,0 +1,34 @@
+{
+  "created": "2026-05-20T06:33:02.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nTove Jansson Akebono Children's Forest Park will trial changes to its opening days and hours starting in fiscal year 2026 (Reiwa 8) as part of a review of park operations.\n\n【Changes to Opening Days】\nBusy season (April–May, mid-September–December, late March): Open Tuesday–Sunday, closed every Monday (or the next weekday if Monday is a holiday)\nQuiet season (June–early September, January–mid-March): Open Thursday–Sunday, closed Mondays, Tuesdays, and Wednesdays (with day-off adjustments if a holiday falls on these days)\nYear-end and New Year period (December 28–January 4): Closed as usual\n\n【Changes to Opening Hours】\nThe evening light-up events held on Saturdays, Sundays, and holidays will end on March 29, 2026. The closing time on all open days will be 17:00.\n\nFor detailed information about opening days and hours, please check the fiscal year 2026 opening calendar on Hanno City's website.\n\nSource (Japanese): https://www.city.hanno.lg.jp/akebono/oshirase/13104.html",
+  "end": {
+    "date": "2026-02-26"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y29qMGQyMGQxZ21zcmpmNXBobWl0M3A1cHE2YW9yZmRoa2lzb3JmZGsgYjZmMzZlMTk3NTFjMDVjY2U5OWZhMDA4MjhlNDI5ZjQwZjZkYjEwMGUyZGJlNDQyYmMyNjIyYTI1ZGE5NzMxNkBn",
+  "iCalUID": "oshirase-13104@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6coj0d20d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市政（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/akebono/oshirase/13104.html"
+  },
+  "start": {
+    "date": "2026-02-25"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Changes to opening days and hours at Tove Jansson Akebono Children's Forest Park (trial from fiscal year 2026)",
+  "updated": "2026-05-22T03:33:02.633Z"
+}

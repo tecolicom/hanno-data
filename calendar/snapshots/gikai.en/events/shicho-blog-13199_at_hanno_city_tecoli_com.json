@@ -1,0 +1,34 @@
+{
+  "created": "2026-05-20T06:33:05.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nOn February 25 (Wednesday), Hanno City and Nippon Life Insurance Mutual Company's Kawagoe Branch signed a comprehensive partnership agreement.\n\nNippon Life Insurance has already established partnership agreements with all 47 prefectures and many municipalities across the country, advancing various collaborative initiatives tailored to the challenges of each region and community.\n\nHanno City has signed this comprehensive partnership agreement to leverage their knowledge and experience and work together with mutual cooperation on community development.\n\nBoth parties will make effective use of the human and material resources they possess and implement joint activities aimed at improving residents' welfare and revitalizing the local community.\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202602/13199.html",
+  "end": {
+    "date": "2026-02-26"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2VkazZpb3I4ZHNtbTRyM2Zjc21qMmNwaDc0c2swcTMxZHBuNnViajNkNXE3aWJqa2NsaG11cjM5NXBobXVyOCBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "shicho-blog-13199@hanno.city.tecoli.com",
+  "id": "_edk6ior8dsmm4r3fcsmj2cph74sk0q31dpn6ubj3d5q7ibjkclhmur395phmur8",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市政（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202602/13199.html"
+  },
+  "start": {
+    "date": "2026-02-25"
+  },
+  "status": "confirmed",
+  "summary": "📝 Mayor: Signing ceremony for comprehensive partnership agreement with Nippon Life Insurance Kawagoe Branch",
+  "updated": "2026-05-22T03:33:04.776Z"
+}

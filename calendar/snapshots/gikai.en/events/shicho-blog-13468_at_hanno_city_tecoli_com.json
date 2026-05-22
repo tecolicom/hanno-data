@@ -1,0 +1,34 @@
+{
+  "created": "2026-05-20T06:34:59.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nOn April 18 (Saturday), I attended the 2026 school year opening ceremony at Wasegaku Yume-Iku High School.\n\nWasegaku Yume-Iku High School is a place where students can gain diverse experiences and learning together with the people of the Higashi-Agano district. At this school, which walks alongside the community and continues to grow, I sincerely hope that all students will discover their \"dreams for the future\" and grow to spread their wings wide as they work toward making those dreams come true. Congratulations on your admission.\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13468.html",
+  "end": {
+    "date": "2026-04-19"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2VkazZpb3I4ZHNtbTRyM2Zjc21qMmNwazZvczQwcTMxZHBuNnViajNkNXE3aWJqa2NsaG11cjM5NXBobXVyOCBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "shicho-blog-13468@hanno.city.tecoli.com",
+  "id": "_edk6ior8dsmm4r3fcsmj2cpk6os40q31dpn6ubj3d5q7ibjkclhmur395phmur8",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市政（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13468.html"
+  },
+  "start": {
+    "date": "2026-04-18"
+  },
+  "status": "confirmed",
+  "summary": "📝 Mayor: Attends Wasegaku Yume-Iku High School Opening Ceremony",
+  "updated": "2026-05-22T03:35:04.952Z"
+}

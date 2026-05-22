@@ -1,0 +1,30 @@
+{
+  "created": "2026-05-20T07:03:31.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nNew Features\n\n• Added \"Customer Favorite Store Registration QR\" to store pages (for store owners) — You can now display a QR code from the store page management menu. When customers scan this QR code, they can register your store as a favorite with one tap. Use it by posting it in your store or showing it at the register.\n\n• Added \"My Spots\" list to store owner home page — When you open Myはんのう, the stores you manage appear below the date. Tap to go to a store page.\n\n• Guidance for people who opened a store page by scanning a QR code — When customers scan a QR code in your store, a prompt appears at the top asking \"Add ○○ to favorites?\"\n\nChanges\n\n• Store page management menu is now collapsed by default. The customer view of the page is shown normally, and the menu only opens when you need to edit.\n\n• System administrator accounts will not see the management menu on store pages they do not manage. To prevent unintended edits, you can now only make changes when you explicitly select \"admin proxy mode\".",
+  "end": {
+    "date": "2026-05-18"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=ODVnNTQ5NXZmNGI2dTk3MjkzMHZiajNkdDQgZDkxOTNjZjVmNjQ0YWI0MWEyOGUyMjY4YTk4YWJjNWFhNDI2YmQyZDU3NzE1MjgzNDI0NGFkNjlhMzFmNWE2OEBn",
+  "iCalUID": "85g5495vf4b6u972930vbj3dt4@google.com",
+  "id": "85g5495vf4b6u972930vbj3dt4",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "Myはんのう（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "start": {
+    "date": "2026-05-15"
+  },
+  "status": "confirmed",
+  "summary": "Myはんのう v1.17.2",
+  "updated": "2026-05-22T03:36:14.346Z"
+}

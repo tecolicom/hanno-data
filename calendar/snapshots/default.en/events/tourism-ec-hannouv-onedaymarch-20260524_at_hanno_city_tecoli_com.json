@@ -1,0 +1,35 @@
+{
+  "created": "2026-05-20T07:04:10.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 09:30–12:30\n\nAutomated translation (refer to source for accuracy)\n\nHanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-hannouv-onedaymarch/\n\nWe'll guide you through about 10 kilometers of the route from last year's \"Hanno New Green Two-Day March,\" sharing the natural attractions Hanno City has to offer. In the pleasant season of fresh greenery, visit Hanno River, Tenranzan, Azuma Gorge, Asahi Mountain, and more.\n\n【Admission Fee】\nAdults: 1,000 yen\nStudents: 500 yen\n\n【Capacity】50 people\n\n【Guide】Saitama Hanno University staff\n\n【What to Bring】Drinking water; rain gear depending on weather conditions\n\n【Notes】For more information, visit the Saitama Hanno University website: https://hanno-univ.net/",
+  "end": {
+    "date": "2026-05-25"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bGs2MnJqZWR0cW5jYmJmZHBpbThvYnBkbGduNG9yODVrcDMwY2htNjBxajRkMjBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIGQ5MTkzY2Y1ZjY0NGFiNDFhMjhlMjI2OGE5OGFiYzVhYTQyNmJkMmQ1NzcxNTI4MzQyNDRhZDY5YTMxZjVhNjhAZw",
+  "iCalUID": "tourism-ec-hannouv-onedaymarch-20260524@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqpb35lk62rjedtqncbbfdpim8obpdlgn4or85kp30chm60qj4d20d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "location": "集合 NPO法人埼玉ハンノウ大学事務局 （飯能市仲町6-1(旧飯能織物協同組合事務所棟) 西武池袋線飯能駅下車徒歩7分",
+  "organizer": {
+    "displayName": "Myはんのう（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-hannouv-onedaymarch/"
+  },
+  "start": {
+    "date": "2026-05-24"
+  },
+  "status": "confirmed",
+  "summary": "🎫 Casual New Green One-Day March—Enjoy Hanno, a Forest Culture City",
+  "updated": "2026-05-22T03:36:53.169Z"
+}

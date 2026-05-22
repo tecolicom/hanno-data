@@ -1,0 +1,34 @@
+{
+  "created": "2026-05-20T06:34:52.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nOn April 14 (Tuesday), Saitama Prefecture's first emergency bear hunting drill was held in Hanno City. At the field training site in Hanno Riverbed, Saitama Prefecture, the Saitama Prefectural Police Headquarters, Hanno Police Station, Hanno Hunters Association, and our city worked together to confirm procedures for emergency bear hunting and other matters.\n\nWith bears emerging from winter hibernation, encounters with bears are becoming more likely, and cases of emergency bear hunting have appeared across the country. We cannot predict when such situations might become necessary.\n\nOur city's emergency bear hunting manual has only recently been created, and through this drill I believe we identified points that will need review.\n\nMoving forward, we will continue to work with all relevant parties and remain committed to the safety and peace of mind of our residents and visitors to Hanno City.\n\nNote: No bears have actually been sighted at Hanno Riverbed, which served as the drill location. The area will become busy this season as a spot for barbecues and river activities. Hanno City is full of beautiful natural scenery and tourist attractions beyond Hanno Riverbed. We hope you will visit us.\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13458.html",
+  "end": {
+    "date": "2026-04-15"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2VkazZpb3I4ZHNtbTRyM2Zjc21qMmNwazZrczQwcTMxZHBuNnViajNkNXE3aWJqa2NsaG11cjM5NXBobXVyOCBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "shicho-blog-13458@hanno.city.tecoli.com",
+  "id": "_edk6ior8dsmm4r3fcsmj2cpk6ks40q31dpn6ubj3d5q7ibjkclhmur395phmur8",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市政（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13458.html"
+  },
+  "start": {
+    "date": "2026-04-14"
+  },
+  "status": "confirmed",
+  "summary": "📝 Mayor: Saitama Prefecture Emergency Bear Hunting Drill",
+  "updated": "2026-05-22T03:34:58.400Z"
+}

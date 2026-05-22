@@ -1,0 +1,34 @@
+{
+  "created": "2026-05-20T06:34:27.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nA certificate issuing machine has been installed in the lobby of the Citizens Division at Hanno City Hall Main Building starting February 3, 2025 (Reiwa 7). Using your My Number Card and a 4-digit PIN, you can obtain various certificates such as copies of resident registers without waiting in line at the counter.\n\nOperating hours are Monday through Friday, 9:00 a.m. to 4:30 p.m.—the same as the city hall's regular hours. The machine may also be available on some holidays, such as year-end and year-beginning special opening days. Please note that the machine may be unavailable on weekdays due to system maintenance.\n\nPayment is cash only; no change is given. Acceptable coins are 5 yen, 10 yen, 50 yen, 100 yen, and 500 yen (including new 500-yen coins), and 1,000-yen bills (including new bills).\n\nImportant notes:\n• Certificates cannot be exchanged or refunded after issuance (printing defects will be corrected).\n• Even if a fee is normally waived by municipal ordinance, certificates obtained from the machine are subject to a charge. If you wish to claim an exemption, please apply at the counter.\n• Multiple certificates are not stapled together; when obtaining multiple copies, be careful not to forget to collect all of them.\n• Seal registration certificates cannot be obtained from this machine.\n• If you enter your PIN incorrectly 3 times, the machine will lock. To unlock it, visit the Citizens Division counter.\n\nFor more details, contact the Citizens Division at Hanno City Hall.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminka/11075.html",
+  "end": {
+    "date": "2026-04-02"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2NG8zZWRhMGQxZ21zcmpmNXBobWl0M3A1cHE2YW9yZmRoa2lzb3JmZGsgYjZmMzZlMTk3NTFjMDVjY2U5OWZhMDA4MjhlNDI5ZjQwZjZkYjEwMGUyZGJlNDQyYmMyNjIyYTI1ZGE5NzMxNkBn",
+  "iCalUID": "oshirase-11075@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h64o3eda0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市政（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminka/11075.html"
+  },
+  "start": {
+    "date": "2026-04-01"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ A certificate issuing machine has been installed at the Citizens Division to obtain copies of resident registers and other documents.",
+  "updated": "2026-05-22T03:34:32.279Z"
+}

@@ -1,0 +1,30 @@
+{
+  "created": "2026-05-20T07:03:50.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nv1.18.0 New Features\n• \"Hanno City Government\" calendar added to daily portal — In addition to the existing \"Myはんのう\" (general events for residents), a new \"Hanno City Government\" calendar aggregating city council schedules, the mayor's blog, and city announcements now appears combined in the \"Today's Events\" section. On by default. To turn notifications on or off individually, use the \"📅 Calendar Sync\" settings in daily portal.\n\nv1.18.1 Changes\n• Heat Index (WBGT) color adjusted toward caution tones — Fixed the issue where \"Caution\" appeared yellow-green and looked \"Safe.\" Now displays a gradient: green (nearly safe) → yellow (caution) → orange (alert) → red (severe alert) → dark red (dangerous).\n\nv1.18.1 Fixes\n• Bus page \"Shared Wagon (Odekake Mouma)\" links were broken — Fixed the issue where links for each district (Seimy/Kaji / Nakafuji·Nakasawa / Minami-Kōrai) did not navigate correctly to city hall pages and displayed blank pages.\n\nv1.18.2 New Features\n• URLs in event detail modals are now clickable links — Tap to jump directly to the relevant page.\n• Event \"Information Source URL\" now displayed — For events where a source URL is specified on the calendar side, the detail modal shows a clickable \"🔗 [URL]\".\n• Opening in Google Calendar now shows \"Schedule List (Agenda)\" view — More readable than the default month view, making it easier to check events in chronological order from today onward.\n\nv1.18.2 Fixes\n• Fixed the issue where the background page would scroll when an event detail modal was open (now only the modal itself scrolls).",
+  "end": {
+    "date": "2026-05-19"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=NzAyODdrN3RjdjhvMnViaDZka3VoaThna2MgZDkxOTNjZjVmNjQ0YWI0MWEyOGUyMjY4YTk4YWJjNWFhNDI2YmQyZDU3NzE1MjgzNDI0NGFkNjlhMzFmNWE2OEBn",
+  "iCalUID": "70287k7tcv8o2ubh6dkuhi8gkc@google.com",
+  "id": "70287k7tcv8o2ubh6dkuhi8gkc",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "Myはんのう（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "start": {
+    "date": "2026-05-18"
+  },
+  "status": "confirmed",
+  "summary": "Myはんのう v1.18.2",
+  "updated": "2026-05-22T03:36:30.265Z"
+}

@@ -1,0 +1,34 @@
+{
+  "created": "2026-05-20T06:32:37.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nOn February 8 (Sunday), I attended the opening ceremony of the \"Hanno Rotary Club Cup 36th Seseragi Cup Middle School Table Tennis Tournament\" held at Hanno Citizens' Sports Hall Main Arena.\n\nThis tournament is held as an opportunity for students to demonstrate the results of their regular practice. Table tennis teams from middle schools throughout Hanno City, as well as from across Saitama Prefecture and the Kanto region, gather to compete.\n\nI would like to thank all the people involved who worked hard to make this tournament possible.\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202602/13119.html",
+  "end": {
+    "date": "2026-02-09"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2VkazZpb3I4ZHNtbTRyM2Zjc21qMmNwaDY0c2swcTMxZHBuNnViajNkNXE3aWJqa2NsaG11cjM5NXBobXVyOCBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "shicho-blog-13119@hanno.city.tecoli.com",
+  "id": "_edk6ior8dsmm4r3fcsmj2cph64sk0q31dpn6ubj3d5q7ibjkclhmur395phmur8",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市政（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202602/13119.html"
+  },
+  "start": {
+    "date": "2026-02-08"
+  },
+  "status": "confirmed",
+  "summary": "📝 Mayor: 36th Hanno Rotary Club Cup Seseragi Cup Middle School Table Tennis Tournament",
+  "updated": "2026-05-22T03:32:36.031Z"
+}

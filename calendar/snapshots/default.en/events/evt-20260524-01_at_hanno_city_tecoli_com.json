@@ -1,0 +1,35 @@
+{
+  "created": "2026-05-20T07:04:06.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 08:20–12:20\n\nAutomated translation (refer to source for accuracy)\n\nAbout 13 km and 4 hours. Participation fee: 100 yen.\n\nRoute: Agano Station → Kaoburi Pass (Green Line) → Adera Suwa Shrine → Yugate → Higashi-Agano Station (finish).\n\nApplication deadline: May 20. Contact: Agano District Administrative Center (042-978-1211).",
+  "end": {
+    "date": "2026-05-25"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Nscjc4YjlpNjBwM2NjMWw2OHEycWMxaDgxazYycmplZHNuNjZxYmtmNG43OHBiM2R0bTZpYmozZHRtZyBkOTE5M2NmNWY2NDRhYjQxYTI4ZTIyNjhhOThhYmM1YWE0MjZiZDJkNTc3MTUyODM0MjQ0YWQ2OWEzMWY1YTY4QGc",
+  "iCalUID": "evt-20260524-01@hanno.city.tecoli.com",
+  "id": "_clr78b9i60p3cc1l68q2qc1h81k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+  "kind": "calendar#event",
+  "location": "集合 西武秩父線「吾野駅」駅前広場",
+  "organizer": {
+    "displayName": "Myはんのう（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/13339.html"
+  },
+  "start": {
+    "date": "2026-05-24"
+  },
+  "status": "confirmed",
+  "summary": "Sugo-ashi Walk: Oku-Musashi Walk",
+  "updated": "2026-05-22T03:36:49.724Z"
+}

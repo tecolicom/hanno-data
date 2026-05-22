@@ -1,0 +1,34 @@
+{
+  "created": "2026-05-20T06:35:11.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nOn April 23, 2026 (Reiwa 8), Hanno City Library held a ceremony to unveil an object featuring Moomin Papa.\n\nThis object, installed as the third in a series following those at Hanno Station and Higashi-Hanno Station, connects three locations across the Hanno area through Moomin characters. This furthers the city's goal of creating a walkable downtown and boosting vitality throughout the community while fostering a sense of civic pride among residents.\n\nAt the ceremony, Moomin Stories Company donated a pop-up Moomin book titled \"A Long Journey to Moomin Valley,\" and Seibu Railway Company donated Plarail model trains featuring Seibu Railway vehicles. These items will be enjoyed by many visitors to the library.\n\nAttendees included the Hanno City Mayor, the President of Moomin Stories Company, a General Manager of Seibu Railway Company, the Director of the Hanno Chamber of Commerce and Industry, the Chair of the Okumusashi Hanno Tourism Association, the Director of Education, the Education Department Director, the Library Director, 32 children from Yamate Childcare Center, and Moomin characters.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/sangakukanrenkei/13477.html",
+  "end": {
+    "date": "2026-04-24"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3EzZWRxMGQxZ21zcmpmNXBobWl0M3A1cHE2YW9yZmRoa2lzb3JmZGsgYjZmMzZlMTk3NTFjMDVjY2U5OWZhMDA4MjhlNDI5ZjQwZjZkYjEwMGUyZGJlNDQyYmMyNjIyYTI1ZGE5NzMxNkBn",
+  "iCalUID": "oshirase-13477@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6cq3edq0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市政（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/sangakukanrenkei/13477.html"
+  },
+  "start": {
+    "date": "2026-04-23"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Hanno City Library unveils new Moomin Papa character object",
+  "updated": "2026-05-22T03:35:18.018Z"
+}

@@ -1,0 +1,30 @@
+{
+  "created": "2026-05-22T03:36:11.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nv1.23.0 Overall Look\n\n• Current location display always visible at the top of the screen — breadcrumb navigation (Hanno City > Bus > ...) stays fixed on every page, so you always know where you are even while scrolling long pages. Also fixes the uncomfortable shifting of content around iPhone's Dynamic Island and notch.\n\n• Myはんのう logo added to the top — displayed in red at all times. When you scroll, a small date (5/22(Fri)) appears next to the logo; tap it to jump back to the top.\n\n• Large date numerals and garbage collection time digits now use digital clock-style font — 7-segment LCD display (DSEG7 Classic), like an alarm clock.\n\n• Body text size and color improved for readability — helper text slightly enlarged, dim text made darker.\n\nv1.23.0 Bus\n\n• Bus schedules now scroll with the full page — previously only the timetable box scrolled separately, making it hard to touch.\n\n• Timetable header (departure station / destination / current time) now fixed at the top — you always see which timetable you're viewing while scrolling.\n\n• \"Beta version\" label changed to \"Alpha version\" with warning banner added — timetable data may contain errors or omissions; please also check the official timetables from each operator.\n\nv1.23.0 Favorite Shops / Events\n\n• \"Schedule\" and \"Map\" links now in clear pill-shaped buttons — previously just calendar and map icons that were hard to recognize as tappable. Now shows as 📅 Schedule 📍 Map 📋 Details with text.\n\n• Long URLs in event details now wrap properly — fixed the horizontal scrolling issue.\n\n• Favorite shop search results use the same pill format — direct Google Maps link from shop name has been removed and separated into a 📍 Map pill.\n\nv1.23.0 Garbage\n\n• Garbage section's course \"Details\" and town \"Change\" buttons now use the same compact pill format as the rest of the app.\n\nv1.23.0 Other\n\n• \"Credits\" section added to footer — lists the fonts used (DSEG / BIZ UDPGothic, both under SIL OFL license) and data sources.",
+  "end": {
+    "date": "2026-05-25"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=bnA5cjA2cTMwOWQxbm85NmgzdDJoZmplNWsgZDkxOTNjZjVmNjQ0YWI0MWEyOGUyMjY4YTk4YWJjNWFhNDI2YmQyZDU3NzE1MjgzNDI0NGFkNjlhMzFmNWE2OEBn",
+  "iCalUID": "np9r06q309d1no96h3t2hfje5k@google.com",
+  "id": "np9r06q309d1no96h3t2hfje5k",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "Myはんのう（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "start": {
+    "date": "2026-05-22"
+  },
+  "status": "confirmed",
+  "summary": "Myはんのう v1.23.0",
+  "updated": "2026-05-22T03:36:44.589Z"
+}

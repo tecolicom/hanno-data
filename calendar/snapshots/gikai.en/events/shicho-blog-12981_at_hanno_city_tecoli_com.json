@@ -1,0 +1,34 @@
+{
+  "created": "2026-05-20T06:32:26.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nOn Sunday, January 11, 2026 (Reiwa 8), we held the Hanno City Coming-of-Age Ceremony ~ Celebration of Turning Twenty ~ at Hanno Civic Hall.\n\nThis year, 742 people in our city are turning twenty, and 467 of them attended the ceremony.\n\nCongratulations to all of you who are reaching this major milestone in life, and to your families.\n\nI sincerely wish that your futures will be filled with wonderful moments and achievements.\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202601/12981.html",
+  "end": {
+    "date": "2026-01-12"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2VkazZpb3I4ZHNtbTRyM2Zjc21qMmNocDcwb2swcTMxZHBuNnViajNkNXE3aWJqa2NsaG11cjM5NXBobXVyOCBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "shicho-blog-12981@hanno.city.tecoli.com",
+  "id": "_edk6ior8dsmm4r3fcsmj2chp70ok0q31dpn6ubj3d5q7ibjkclhmur395phmur8",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市政（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202601/12981.html"
+  },
+  "start": {
+    "date": "2026-01-11"
+  },
+  "status": "confirmed",
+  "summary": "📝 Mayor: Hanno City Coming-of-Age Ceremony 2026 ~ Celebration of Turning Twenty",
+  "updated": "2026-05-22T03:32:24.896Z"
+}

@@ -1,0 +1,34 @@
+{
+  "created": "2026-05-20T06:32:39.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nOn Sunday, February 15, I attended the Hanno City Traditional Arts Festival held at Hanno City Civic Hall for fiscal year 2025.\n\nThis festival aims to promote and pass on traditional local arts, and groups from within and outside the city perform each year. This was the 45th edition.\n\nThis year's performers included the \"Sagamiryu Satogami Kagura—Fifth Generation Hagiwara Yoshiro Group, Hagiwara Ume Society\" (designated as an intangible folk cultural property by Tokyo), \"Musashi Ogose High School Japanese Drum Club, Seiryuu\" from Ogose Town, and the \"Maeda Bayashi Preservation Society\" from our city.\n\nI extend my heartfelt thanks to all those who have worked so dedicatedly to promote and pass on traditional local arts. I also offer my sincere gratitude to the members of the Hanno City Traditional Arts Preservation Society for their efforts in making this performance possible.\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202602/13211.html",
+  "end": {
+    "date": "2026-02-16"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2VkazZpb3I4ZHNtbTRyM2Zjc21qMmNwaTY0b2swcTMxZHBuNnViajNkNXE3aWJqa2NsaG11cjM5NXBobXVyOCBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "shicho-blog-13211@hanno.city.tecoli.com",
+  "id": "_edk6ior8dsmm4r3fcsmj2cpi64ok0q31dpn6ubj3d5q7ibjkclhmur395phmur8",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市政（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202602/13211.html"
+  },
+  "start": {
+    "date": "2026-02-15"
+  },
+  "status": "confirmed",
+  "summary": "📝 Mayor: Hanno City Traditional Arts Festival, Fiscal Year 2025",
+  "updated": "2026-05-22T03:32:38.175Z"
+}

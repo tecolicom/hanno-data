@@ -1,0 +1,34 @@
+{
+  "created": "2026-05-20T06:34:00.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nOn Tuesday, March 24, the city and Fuji Pharmacy Co., Ltd. signed a comprehensive partnership agreement.\n\nFuji Pharmacy Co., Ltd. operates under the slogan \"Deliver wellness. Continue wellness.\" With a mission to support people's healthy lives, the company provides quality services close to the community through mail-order pharmaceutical sales, drugstore and pharmacy operations, and the development and manufacture of pharmaceuticals.\n\nRecently, the company has been advancing partnership agreements with local governments to support their community-building efforts through business activities. Hanno City decided to sign this comprehensive partnership agreement to leverage their knowledge and experience, enabling both parties to cooperate and work together on community development.\n\nMoving forward, both parties will collaborate to strengthen disaster prevention and response measures, promote public health, and work toward revitalizing the region.\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13362.html",
+  "end": {
+    "date": "2026-03-25"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2VkazZpb3I4ZHNtbTRyM2Zjc21qMmNwajZvcDQwcTMxZHBuNnViajNkNXE3aWJqa2NsaG11cjM5NXBobXVyOCBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "shicho-blog-13362@hanno.city.tecoli.com",
+  "id": "_edk6ior8dsmm4r3fcsmj2cpj6op40q31dpn6ubj3d5q7ibjkclhmur395phmur8",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市政（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13362.html"
+  },
+  "start": {
+    "date": "2026-03-24"
+  },
+  "status": "confirmed",
+  "summary": "📝 Mayor: Comprehensive Partnership Agreement Signed with Fuji Pharmacy Co., Ltd.",
+  "updated": "2026-05-22T03:34:03.548Z"
+}

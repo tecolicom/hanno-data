@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/nogyoshinkoka/9873.html",
+  "description": "AI による要約 (正確な情報は元記事をご確認ください)\n\nムギ類赤かび病の発生に注意が必要です。熊谷のアメダス観測データから、4月1日から4月26日までの子のう胞子飛散好適日が11日（平年同期7.9日）と過去10年で3番目に多くなっています。特に4月14日から16日及び23日から25日は3日間連続で飛散好適日が出現し、11月中下旬播種の小麦の開花期とおおむね一致しており、感染リスクが高まっています。向こう1か月は気温が高く晴れの日が少ないと予想されており、本病の感染に好適な気象条件になることが見込まれます。発生が見られる小麦ほ場では追加の防除を実施してください。\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/nogyoshinkoka/9873.html",
   "end": {
     "date": "2026-04-28"
   },
@@ -30,5 +30,5 @@
   },
   "status": "confirmed",
   "summary": "ℹ️ 令和8年度病害虫発生予察注意報第1号「ムギ類赤かび病」（令和8年4月27日）",
-  "updated": "2026-05-21T23:07:55.639Z"
+  "updated": "2026-05-22T03:29:51.746Z"
 }

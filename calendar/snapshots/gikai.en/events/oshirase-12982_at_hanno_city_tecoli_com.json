@@ -1,0 +1,34 @@
+{
+  "created": "2026-05-20T06:32:50.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nOn April 1, 2026 (Reiwa 8), part of National Route 299 within Hanno City will be abolished and transferred to Hanno City roads and prefectural roads.\n\n【Transfer to Hanno City Roads】\nThe section from Hanno Station Front intersection to the Iruma City border will be transferred as Hanno City Road 1st District No. 2,961. Applications for road occupancy permits, road construction authorization, road boundary certificates, and other permits should be submitted to Hanno City Hall.\n\n【Change to Prefectural Roads】\nThe section from Nakayama Overpass (West) intersection to Hanno Station Front intersection will become a prefectural road, managed by the Saitama Hanno Civil Engineering Office. From Nakayama Overpass (West) intersection to Higashimachi intersection, it will be Major Local Road Ome-Hanno Line; from Higashimachi intersection to Hanno Station Front intersection, it will be General Prefectural Road Hanno Station Line.\n\n【Other Sections】\nThe section from Hanno City border to Sasai intersection in Sayama City will be transferred to Iruma City roads and Sayama City roads.\n\nFor details, contact the Hanno Civil Engineering Office (042-973-2281) or the Kawagoe Civil Engineering Office (049-243-2020).\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/ijikanrika/12982.html",
+  "end": {
+    "date": "2026-02-19"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2OHNqZ2NpMGQxZ21zcmpmNXBobWl0M3A1cHE2YW9yZmRoa2lzb3JmZGsgYjZmMzZlMTk3NTFjMDVjY2U5OWZhMDA4MjhlNDI5ZjQwZjZkYjEwMGUyZGJlNDQyYmMyNjIyYTI1ZGE5NzMxNkBn",
+  "iCalUID": "oshirase-12982@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h68sjgci0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市政（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/ijikanrika/12982.html"
+  },
+  "start": {
+    "date": "2026-02-18"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Transfer of part of National Route 299 to Hanno City roads and prefectural roads on April 1, 2026 (Reiwa 8)",
+  "updated": "2026-05-22T03:32:49.334Z"
+}

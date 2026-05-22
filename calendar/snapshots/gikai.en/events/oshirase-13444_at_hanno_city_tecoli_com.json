@@ -1,0 +1,34 @@
+{
+  "created": "2026-05-20T06:34:57.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nFacilities with storage tanks (receiving tanks) with an effective capacity exceeding 10 cubic meters are required by the Water Supply Law to be properly maintained as \"simple exclusive water supply systems.\"\n\n【Maintenance tasks to perform regularly】\n• Cleaning of storage tanks (receiving tanks): at least once per year\n• Water quality testing: once per year, conducted at a registered testing facility\n\nOwners and managers should make efforts to properly manage the hygiene of storage tank water supplies so that safe water produced at the purification plant can be appropriately supplied to each household.\n\nEven for small-scale storage tank water supplies with an effective capacity of 10 cubic meters or less, please make efforts to perform management similar to that of simple exclusive water supply systems.\n\nReporting to the Water Works Division is not required when you have cleaning or water quality testing performed.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/suidokomuka/13444.html",
+  "end": {
+    "date": "2026-04-16"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3EzOGQyMGQxZ21zcmpmNXBobWl0M3A1cHE2YW9yZmRoa2lzb3JmZGsgYjZmMzZlMTk3NTFjMDVjY2U5OWZhMDA4MjhlNDI5ZjQwZjZkYjEwMGUyZGJlNDQyYmMyNjIyYTI1ZGE5NzMxNkBn",
+  "iCalUID": "oshirase-13444@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6cq38d20d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市政（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/suidokomuka/13444.html"
+  },
+  "start": {
+    "date": "2026-04-15"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Proper management of storage tanks (receiving tanks) for water supply",
+  "updated": "2026-05-22T03:35:02.856Z"
+}

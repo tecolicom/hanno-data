@@ -1,0 +1,35 @@
+{
+  "created": "2026-05-20T07:04:36.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 17:30–20:30\n\nAutomated translation (refer to source for accuracy)\n\nHanno Ecotourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-satoyamahotaru/\n\nThis firefly observation takes place at \"Aoji Shitani\" (青ジシ谷), where environmental conservation work protects firefly habitats. This is an evening and night tour where you can deeply learn about Genji fireflies and Heike fireflies—their light secrets, ecology, history, culture, and surprising human connections.\n\n【Fee】Adults ¥6,000, Students ¥5,000 (includes guide, insurance, and materials)\n\n【Capacity】15 people\n\n【Guide】Mori no Field Gakusha (森のフィールド学舎) staff\n\n【What to bring】Drinks, flashlight, light snacks, spare shoes\n\n【Note】Mori no Field Gakusha website: https://morinomanabiya168.wixsite.com/website",
+  "end": {
+    "date": "2026-06-14"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bG1tdXNqOWRsZ21zbzlkZWRnbjhycnBjNW1tMnEzZmVoZ240dDlkNjhvMzRkaGc2b29qNmczOGM1bjZzcnBlY2Rrbjh1OWVlaGltNnJyY2Q0bjY2cnJkIGQ5MTkzY2Y1ZjY0NGFiNDFhMjhlMjI2OGE5OGFiYzVhYTQyNmJkMmQ1NzcxNTI4MzQyNDRhZDY5YTMxZjVhNjhAZw",
+  "iCalUID": "tourism-ec-morimana-satoyamahotaru-20260613@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqpb35lmmusj9dlgmso9dedgn8rrpc5mm2q3fehgn4t9d68o34dhg6ooj6g38c5n6srpecdkn8u9eehim6rrcd4n66rrd",
+  "kind": "calendar#event",
+  "location": "集合 飯能市立博物館前（国際興業バス「OH!!!・天覧山下」または「市民会館・博物館」下車徒歩3分)",
+  "organizer": {
+    "displayName": "Myはんのう（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-satoyamahotaru/"
+  },
+  "start": {
+    "date": "2026-06-13"
+  },
+  "status": "confirmed",
+  "summary": "What's the mystery of light floating in early summer? ~Firefly observation in the night satoyama~",
+  "updated": "2026-05-22T03:37:14.331Z"
+}

@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/shuzeika/13555.html",
+  "description": "## 不審なメール等にご注意ください\n\n市役所の税務担当部局（例「市役所 市民税課」）を装って、市民税・県民税（住民税）の納税を、コード決済サービスを利用して記載されたリンク先から行うよう催促する詐欺メールが確認されています。\n\n飯能市からメールやSMS、LINE等から税金や延滞金の納付を求める案内をすることはありません。\n\n身に覚えのない不審なメールやSMS、LINE等が届いた場合には、速やかに削除してください。\n\n・メール内にURL等のリンクがあった場合、絶対にクリックしないでください。\n\n・万が一クリックした場合でも、リンク先では個人情報等を入力せず、支払手続き等も行わないでください。\n\n・支払いをしてしまった場合は、速やかに最寄りの警察署へご相談ください。\n\n警察に対する相談は警察相談専用電話 「＃9110」番へ（政府広報オンライン）\n\n不審なメールや電話にご注意ください（国税庁）\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/shuzeika/13555.html",
   "end": {
     "date": "2026-05-13"
   },
@@ -30,5 +30,5 @@
   },
   "status": "confirmed",
   "summary": "ℹ️ 【注意喚起】個人住民税の納税を騙った詐欺メールにご注意ください！",
-  "updated": "2026-05-21T23:08:06.508Z"
+  "updated": "2026-05-22T03:30:24.058Z"
 }

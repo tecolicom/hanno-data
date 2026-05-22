@@ -1,0 +1,34 @@
+{
+  "created": "2026-05-20T06:35:07.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nOn Monday, April 20, 2026 (Reiwa 8), the matchups for the Spring Saitama Prefectural High School Baseball Tournament were announced.\n\nSeibu Gakuen High School will face Omiya Kita High School on Friday, April 24 at UD Trucks Utsunomiya Stadium. Hanno High School, which advanced through the district preliminaries for the first time in 10 years, will face Urawa Gakuin on Saturday, April 25 at Omiya Park Baseball Stadium.\n\nWe look forward to the support of all our residents.\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13465.html",
+  "end": {
+    "date": "2026-04-21"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2VkazZpb3I4ZHNtbTRyM2Zjc21qMmNwazZvcWswcTMxZHBuNnViajNkNXE3aWJqa2NsaG11cjM5NXBobXVyOCBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "shicho-blog-13465@hanno.city.tecoli.com",
+  "id": "_edk6ior8dsmm4r3fcsmj2cpk6oqk0q31dpn6ubj3d5q7ibjkclhmur395phmur8",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市政（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13465.html"
+  },
+  "start": {
+    "date": "2026-04-20"
+  },
+  "status": "confirmed",
+  "summary": "📝 Mayor: 2026 Spring Saitama Prefectural High School Baseball Tournament Matchups",
+  "updated": "2026-05-22T03:35:13.334Z"
+}

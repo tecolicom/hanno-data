@@ -1,0 +1,30 @@
+{
+  "created": "2026-05-20T07:03:53.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nv1.18.3 New Features\n• Today's year (Western and Japanese calendar) now displays on the top page — Appears in small text below the date and day of the week, formatted like \"2026/Reiwa 8\".\n\nv1.18.3 Fixes\n• Fixed bug where Tayanagi Loop \"Factory Front direction\" route only showed stops up to City Hall — When boarding from Hanno City Hall, the full route now displays: Factory Front → Sengen → Municipal Housing → ... → Hanno Station.\n• Consolidated Hanno City Hall (Mu-Ma bus) and City Hall Front (5931bus) as a single stop — These two separate stops are now combined into one display.\n\nv1.18.3 Notes\n• Event detail modals for the Tourism Association, Civic Hall, and similar venues will now show \"🔗 Information Source URL\" as a clickable link (display feature added in v1.18.2; data delivery added in this release).\n\nv1.18.4 New Features\n• \"UV\" (ultraviolet strength) added to the weather section — Displays in color, for example \"☀ UV Very Strong\". Colors follow Japan Meteorological Agency standards in five levels: Weak, Moderate, Strong, Very Strong, and Extreme. Check before heading out to decide whether you need a hat or sunscreen.",
+  "end": {
+    "date": "2026-05-20"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=ODdtZTcwODRhMDV0YWEzcGVqMHN0N3NyZTggZDkxOTNjZjVmNjQ0YWI0MWEyOGUyMjY4YTk4YWJjNWFhNDI2YmQyZDU3NzE1MjgzNDI0NGFkNjlhMzFmNWE2OEBn",
+  "iCalUID": "87me7084a05taa3pej0st7sre8@google.com",
+  "id": "87me7084a05taa3pej0st7sre8",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "Myはんのう（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "start": {
+    "date": "2026-05-19"
+  },
+  "status": "confirmed",
+  "summary": "Myはんのう v1.18.4",
+  "updated": "2026-05-22T03:36:32.025Z"
+}

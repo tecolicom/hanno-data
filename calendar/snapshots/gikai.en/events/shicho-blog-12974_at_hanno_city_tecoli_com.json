@@ -1,0 +1,34 @@
+{
+  "created": "2026-05-20T06:32:18.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nHappy New Year.\n\nI offer my warmest congratulations to all our citizens as you celebrate this bright new year.\n\nHanno City has continued to work toward the city's development while addressing diverse citizen needs and rapid changes in society, all amid challenging financial conditions. We take pride in our natural environment—green spaces and clean waterways—and the harmony of history and culture that define Hanno.\n\nUntil now, we have drawn on our \"financial adjustment reserve fund\" (essentially our municipal savings account) to cover shortfalls in general revenue and support policy goals.\n\nHowever, in recent years, we have had to use carryover funds from the previous fiscal year to address growing social welfare costs. This means we can no longer rebuild our reserve fund as we once did.\n\nParticularly challenging for Hanno is our large land area with public facilities scattered across former town and village units. The surge in prices has dramatically increased the cost of maintaining these facilities, placing significant strain on our budget.\n\nGiven these circumstances, I have made the difficult decision to prioritize social welfare expenses, public safety, and services that protect our citizens' lives and property in next year's budget. For optional services and operations that fall outside these priorities, we will suspend or discontinue some programs.\n\n(Continued at the link below)\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202601/12974.html",
+  "end": {
+    "date": "2026-01-06"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2VkazZpb3I4ZHNtbTRyM2Zjc21qMmNocDZzcTQwcTMxZHBuNnViajNkNXE3aWJqa2NsaG11cjM5NXBobXVyOCBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "shicho-blog-12974@hanno.city.tecoli.com",
+  "id": "_edk6ior8dsmm4r3fcsmj2chp6sq40q31dpn6ubj3d5q7ibjkclhmur395phmur8",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市政（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202601/12974.html"
+  },
+  "start": {
+    "date": "2026-01-05"
+  },
+  "status": "confirmed",
+  "summary": "📝 Mayor's New Year address (Reiwa 8)",
+  "updated": "2026-05-22T03:32:16.265Z"
+}

@@ -1,0 +1,35 @@
+{
+  "created": "2026-05-20T07:04:08.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 09:00–14:00\n\nAutomated translation (refer to source for accuracy)\n\nSpecial vehicle displays, disaster prevention experience activities (fire extinguisher, water spray, smoke experience, firefighter gear try-on), stage events, 3rd Hanno Fire Department Firefighting Skills Competition, and multiple food trucks. Free admission, no advance registration required.",
+  "end": {
+    "date": "2026-05-25"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Nscjc4YjlpNjBwM2NjMWw2OHEycWMxaTgxazYycmplZHNuNjZxYmtmNG43OHBiM2R0bTZpYmozZHRtZyBkOTE5M2NmNWY2NDRhYjQxYTI4ZTIyNjhhOThhYmM1YWE0MjZiZDJkNTc3MTUyODM0MjQ0YWQ2OWEzMWY1YTY4QGc",
+  "iCalUID": "evt-20260524-02@hanno.city.tecoli.com",
+  "id": "_clr78b9i60p3cc1l68q2qc1i81k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+  "kind": "calendar#event",
+  "location": "飯能市役所 西側駐車場 (飯能市双柳1-1)",
+  "organizer": {
+    "displayName": "Myはんのう（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/"
+  },
+  "start": {
+    "date": "2026-05-24"
+  },
+  "status": "confirmed",
+  "summary": "Hanno Fire and Disaster Prevention Festival 2026",
+  "updated": "2026-05-22T03:36:51.527Z"
+}

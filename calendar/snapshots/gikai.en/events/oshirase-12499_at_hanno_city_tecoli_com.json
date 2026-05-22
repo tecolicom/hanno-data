@@ -1,0 +1,34 @@
+{
+  "created": "2026-05-20T06:35:24.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nHanno City's core business systems transitioned to a standardized system compliant with the Local Government Information Systems Standardization Act on February 24, 2026 (Reiwa 8), with some functions beginning January 14, 2026.\n\n【Main Changes】\n\nTwenty standardized business areas are affected, including child allowances, resident registers, family records, fixed asset tax, residential tax, light vehicle tax, long-term care insurance, and national health insurance.\n\n• Names and addresses on various certificates and mailed documents will be unified using the \"Administrative Standard Font\" (行政事務標準文字). This means the appearance of characters may change. This change applies to all local governments nationwide to enable efficient administrative services and disaster response.\n\n• Some large-volume mailings, such as residential and prefectural tax and forest environment tax payment notices and national health insurance tax payment notices, will be sent from Kanazawa Post Office (Kanazawa City, Ishikawa Prefecture). Depending on mail conditions, delivery may take longer.\n\nIf you have questions about character differences or other concerns, please contact the relevant department.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/johosystem/12499.html",
+  "end": {
+    "date": "2026-05-02"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2OHEzaWVhMGQxZ21zcmpmNXBobWl0M3A1cHE2YW9yZmRoa2lzb3JmZGsgYjZmMzZlMTk3NTFjMDVjY2U5OWZhMDA4MjhlNDI5ZjQwZjZkYjEwMGUyZGJlNDQyYmMyNjIyYTI1ZGE5NzMxNkBn",
+  "iCalUID": "oshirase-12499@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h68q3iea0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市政（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/johosystem/12499.html"
+  },
+  "start": {
+    "date": "2026-05-01"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Hanno City shifts to standardized municipal information system on February 24, 2026",
+  "updated": "2026-05-22T03:35:30.807Z"
+}

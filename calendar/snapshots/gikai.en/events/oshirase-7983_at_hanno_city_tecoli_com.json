@@ -1,0 +1,34 @@
+{
+  "created": "2026-05-20T06:34:21.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nEveryone Together for Fitness — Moving Body Project\n\nLearn about preventing frailty. Four lectures on exercise, nutrition, oral health, and dementia prevention will be held.\n\n【Higashi-Aono District Administrative Center】(10:00–11:00)\n• June 11, 2026 (Reiwa 8), Thursday: Dementia Prevention Lecture\n• September 10, 2026, Thursday: Oral Health Lecture\n• October 8, 2026, Wednesday: Nutrition Lecture\n• February 25, 2027 (Reiwa 9), Thursday: Exercise Lecture\nRegistration: Community Comprehensive Support Center Hachiman-cho 042-975-3011\n\n【Kaji District Administrative Center】(14:00–15:00)\n• December 9, 2026, Wednesday: Dementia Prevention Lecture\n• December 23, 2026, Wednesday: Exercise Lecture\n• January 13, 2027, Wednesday: Oral Health Lecture\n• January 27, 2027, Wednesday: Nutrition Lecture\nRegistration: Community Comprehensive Support Center Minami-cho 042-978-5777\n\n【Harashiba Welfare Center】(14:00–15:00)\n• May 13, 2026, Wednesday: Dementia Prevention Lecture\n• May 27, 2026, Wednesday: Oral Health Lecture\n• June 10, 2026, Wednesday: Nutrition Lecture\n• June 24, 2026, Wednesday: Exercise Lecture\nRegistration: Community Comprehensive Support Center Inari-cho 042-980-5043\n\n【Futayanagi District Administrative Center】(10:00–11:00)\n• October 9, 2026, Friday: Dementia Prevention Lecture\n• November 6, 2026, Friday: Nutrition Lecture\n• December 11, 2026, Friday: Oral Health Lecture\n• February 12, 2027, Friday: Exercise Lecture\nRegistration: Community Comprehensive Support Center Sakae-cho 042-971-3172\n\n【Registration Opens】One month before each lecture\n【What to Bring】Writing materials, drinking water, eyeglasses (if needed), face towel and comfortable exercise clothes and shoes (for exercise lecture)\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/ninchi-sisaku/ninchi-jigyou/7983.html",
+  "end": {
+    "date": "2026-03-31"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOW43NHMzNmczOGM1bjZzcnBlY2Rrbjh1OWVlaGltNnJyY2Q0bjY2cnJkIGI2ZjM2ZTE5NzUxYzA1Y2NlOTlmYTAwODI4ZTQyOWY0MGY2ZGIxMDBlMmRiZTQ0MmJjMjYyMmEyNWRhOTczMTZAZw",
+  "iCalUID": "oshirase-7983@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9n74s36g38c5n6srpecdkn8u9eehim6rrcd4n66rrd",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市政（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/ninchi-sisaku/ninchi-jigyou/7983.html"
+  },
+  "start": {
+    "date": "2026-03-30"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Everyone Together for Fitness — Moving Body Project",
+  "updated": "2026-05-22T03:34:25.693Z"
+}

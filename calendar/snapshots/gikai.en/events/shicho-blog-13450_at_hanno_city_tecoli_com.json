@@ -1,0 +1,34 @@
+{
+  "created": "2026-05-20T06:34:35.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nHanno City Hall has launched a social experiment in partnership with the Oku-Musashi Tourism Association. Starting today, April 1st, through June 30th (Reiwa 6), food trucks and market stalls will operate on weekday lunch hours at the city hall grounds.\n\nThis initiative aims to make better use of public facilities as a resource, improve convenience for residents, create new business opportunities for local vendors, and support sustainable city management.\n\nFood trucks operate almost daily, and market stalls are held once a week on the main office building's wood deck.\n\nDifferent vendors rotate in each day, and the public is welcome to visit. Please stop by!\n\nFor details about this project and vendor information, see the URL below:\n\nhttp://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/13132.html\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13450.html",
+  "end": {
+    "date": "2026-04-02"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2VkazZpb3I4ZHNtbTRyM2Zjc21qMmNwazZrbzQwcTMxZHBuNnViajNkNXE3aWJqa2NsaG11cjM5NXBobXVyOCBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "shicho-blog-13450@hanno.city.tecoli.com",
+  "id": "_edk6ior8dsmm4r3fcsmj2cpk6ko40q31dpn6ubj3d5q7ibjkclhmur395phmur8",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市政（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13450.html"
+  },
+  "start": {
+    "date": "2026-04-01"
+  },
+  "status": "confirmed",
+  "summary": "📝 Mayor's Report: Starting a Social Experiment with Food Trucks and Market Stalls",
+  "updated": "2026-05-22T03:34:40.656Z"
+}

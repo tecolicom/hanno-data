@@ -1,0 +1,35 @@
+{
+  "created": "2026-05-20T07:04:03.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 09:30–12:30\n\nAutomated translation (refer to source for accuracy)\n\nHanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-hannouv-onedaymarch/\n\nWe'll guide you along the approximately 10 km course from last year's \"Hanno New Green Two-Day March,\" teaching you about Hanno City's rich natural attractions along the way. During the pleasant new green season, visit Hanno Riverside (飯能河原), Tenranzan, Azuma Gorge (吾妻峡), and Asahi Mountain (あさひ山).\n\n【Fee】Adults 1,000 yen, students 500 yen\n\n【Capacity】50 people\n\n【Guide】Saitama Hanno University staff\n\n【What to bring】Drinking water, rain gear depending on weather\n\n【Note】Saitama Hanno University website: https://hanno-univ.net/",
+  "end": {
+    "date": "2026-05-24"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bGs2MnJqZWR0cW5jYmJmZHBpbThvYnBkbGduNG9yODVrcDMwY2htNjBxajRjcTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIGQ5MTkzY2Y1ZjY0NGFiNDFhMjhlMjI2OGE5OGFiYzVhYTQyNmJkMmQ1NzcxNTI4MzQyNDRhZDY5YTMxZjVhNjhAZw",
+  "iCalUID": "tourism-ec-hannouv-onedaymarch-20260523@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqpb35lk62rjedtqncbbfdpim8obpdlgn4or85kp30chm60qj4cq0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "location": "集合 NPO法人埼玉ハンノウ大学事務局 （飯能市仲町6-1(旧飯能織物協同組合事務所棟) 西武池袋線飯能駅下車徒歩7分",
+  "organizer": {
+    "displayName": "Myはんのう（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-hannouv-onedaymarch/"
+  },
+  "start": {
+    "date": "2026-05-23"
+  },
+  "status": "confirmed",
+  "summary": "Casual New Green One-Day March—Enjoy Hanno, a Forest Culture City",
+  "updated": "2026-05-22T03:36:47.959Z"
+}

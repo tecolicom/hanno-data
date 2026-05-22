@@ -1,0 +1,34 @@
+{
+  "created": "2026-05-20T06:35:45.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nSaitama Prefecture will start the \"Hazard Map by Voice\" service on May 1, 2026 (Friday, Reiwa 8). This is a service that provides hazard map information—such as flooding and mudslide risks—by voice for people with visual impairments and others.\n\n【Main features】\n• Voice reading of elevation and disaster risks (flood depth, time until water level drops, etc.) for any location such as your current position or home\n• Voice and vibration guidance to the nearest evacuation shelter\n• Voice reading of weather alerts and warnings from the Japan Meteorological Agency\n\n【How to use】\nInstall and use the free app \"Uni-Voice Blind\". It is a voice code app that reads \"Uni-Voice\" codes and can be installed from each app store.\n\nBy checking disaster risks and evacuation shelters in advance, you can carry out evacuation actions smoothly.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/5/13507.html",
+  "end": {
+    "date": "2026-05-08"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3FqMGRxMGQxZ21zcmpmNXBobWl0M3A1cHE2YW9yZmRoa2lzb3JmZGsgYjZmMzZlMTk3NTFjMDVjY2U5OWZhMDA4MjhlNDI5ZjQwZjZkYjEwMGUyZGJlNDQyYmMyNjIyYTI1ZGE5NzMxNkBn",
+  "iCalUID": "oshirase-13507@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6cqj0dq0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市政（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/5/13507.html"
+  },
+  "start": {
+    "date": "2026-05-07"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ New \"Hazard Map by Voice\" service launches May 1, 2026",
+  "updated": "2026-05-22T03:35:51.244Z"
+}

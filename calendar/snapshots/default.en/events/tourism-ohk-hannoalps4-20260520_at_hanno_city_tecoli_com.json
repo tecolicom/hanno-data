@@ -1,0 +1,35 @@
+{
+  "created": "2026-05-20T07:03:57.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 08:00–15:10\n\nAutomated translation (refer to source for accuracy)\n\nHanno Ecotourism Association: https://hanno-tourism.jp/hanno-eco/tour/ohk-hannoalps4/\n\nWe traverse the ridge of the Hanno Alps—which extends from Izugadake to Tenranzan—over four separate outings. Part 4 starts at Higashi-Agano Station and crosses Tengaku Mountain, Kusumizaka, and Nagadayama on the way to Takuomineyama, Tenranzan, and Hanno Station. Lunch will be a special bento box from Nikoniko House.\n\n【Fee】\n¥7,800 per person (includes guide service, lunch, and insurance)\n\n【Capacity】\n10 people\n\n【Guide】\nAkira Shimizu (certified mountain guide, Japan Alpine Guide Association, Stage II)\n\n【What to bring】\nGloves, drinking water, hat, rain gear, snacks, towel",
+  "end": {
+    "date": "2026-05-21"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFycjhkY21tZ29iZWRwbm0ycjNnZWNxMnFjaGc2OHIzMGQ5aTYxMDZnb2JlZHBuaXNvcjllaHNpc3QzNWNkbm1vcTllY2RubXEgZDkxOTNjZjVmNjQ0YWI0MWEyOGUyMjY4YTk4YWJjNWFhNDI2YmQyZDU3NzE1MjgzNDI0NGFkNjlhMzFmNWE2OEBn",
+  "iCalUID": "tourism-ohk-hannoalps4-20260520@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqrr8dcmmgobedpnm2r3gecq2qchg68r30d9i6106gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "集合 西武池袋線「東吾野駅」駅前広場",
+  "organizer": {
+    "displayName": "Myはんのう（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ohk-hannoalps4/"
+  },
+  "start": {
+    "date": "2026-05-20"
+  },
+  "status": "confirmed",
+  "summary": "Mountain guide tour: Hanno Alps full traverse Part 4 (Higashi-Agano Station to Tengaku Mountain, Takuomineyama, Tenranzan, ending at Hanno Station)",
+  "updated": "2026-05-22T03:36:39.547Z"
+}

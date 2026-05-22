@@ -1,0 +1,35 @@
+{
+  "created": "2026-05-20T07:04:40.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 07:30–20:00\n\nAutomated translation (refer to source for accuracy)\n\nHanno Ecotourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-logcamp-bonomine-earlysummer/\n\nThis tour recruitment has been closed at the organizer's request.\n\nThis tour takes you to the summit of Bonomine through the beautiful Shiratani stream route with gorge terrain, where you can learn the basics of stream hiking and enjoy the streams. Lunch and dinner feature game meat restaurant–prepared box lunches and a dinner course, with a chance to learn about game meat cuisine.\n\n【Fee】23,000 yen per person (includes guide fee, meals, and insurance)\n\n【Capacity】5 people\n\n【Guide】Tsuyoshi Shinohara, Japan Mountain Guides Association member, mountaineering guide stage III\n\n【What to bring】20-liter backpack (with full waterproofing), complete stream hiking gear, change of clothes, helmet, harness, mountaineering equipment, bus fare, bathing fee, train fare",
+  "end": {
+    "date": "2026-06-21"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bG02dXByM2M1bW4wYmIyZHRuNnVyYjlkcGlpcXBiMWU5bTdpc3JsZGxtbWFzaGQ2OG8zNGRoZzZvcDMwZzM4YzVuNnNycGVjZGtuOHU5ZWVoaW02cnJjZDRuNjZycmQgZDkxOTNjZjVmNjQ0YWI0MWEyOGUyMjY4YTk4YWJjNWFhNDI2YmQyZDU3NzE1MjgzNDI0NGFkNjlhMzFmNWE2OEBn",
+  "iCalUID": "tourism-ec-logcamp-bonomine-earlysummer-20260620@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqpb35lm6upr3c5mn0bb2dtn6urb9dpiiqpb1e9m7isrldlmmashd68o34dhg6op30g38c5n6srpecdkn8u9eehim6rrcd4n66rrd",
+  "kind": "calendar#event",
+  "location": "集合 西武池袋線「飯能駅」改札口",
+  "organizer": {
+    "displayName": "Myはんのう（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-logcamp-bonomine-earlysummer/"
+  },
+  "start": {
+    "date": "2026-06-20"
+  },
+  "status": "confirmed",
+  "summary": "Stream hiking at Bonomine and Gorge with Naguri River Shiratani source walk, followed by game meat dinner—RECRUITMENT CLOSED",
+  "updated": "2026-05-22T03:37:17.409Z"
+}

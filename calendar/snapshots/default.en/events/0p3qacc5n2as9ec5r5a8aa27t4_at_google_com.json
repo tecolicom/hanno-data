@@ -1,0 +1,30 @@
+{
+  "created": "2026-05-22T03:36:07.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nv1.22.0 Bus\n• Bus page displays much faster — The old system downloaded and parsed over 3MB of HTML each time you opened \"Take the bus/Return home\". Now by separating data into another file, the initial HTML is reduced to just a few KB. From the second time onward, it opens instantly from your device's cache.\n• URLs reorganized: /@hanno/dekakeru/ → /@hanno/bus/out/, /@hanno/kaeru/ → /@hanno/bus/in/ (nested under bus feature)\n• Smooth transition animation between screens — Subtle fade-in from below when switching between setup → direction selection → timetable → countdown\n• Link prefetch enabled across all screens, reducing network wait time the moment you tap\n\nv1.22.0 Favorite Shops\n• Tapping anywhere on a shop card in the favorite shops list now takes you to shop details — Previously only the small shop name link responded, which was hard to notice\n• Cards now show visual feedback when tapped (a subtle glow around the border)\n\nv1.22.0 Tap Interaction\n• All buttons and links across the screen have \"tap feedback\" — When you tap on mobile, even if your finger covers the button, a glowing border and slight shrink make the \"pressed\" feeling visible. Doesn't activate when scrolling starts (touch is moving), so no false triggers\n• Disabled iOS default highlight (pale color), unified to the above feedback\n\nv1.22.0 Garbage\n• Garbage section open/closed state is saved as you navigate pages — Top → Garbage collection calendar → Back stays closed (resets if you close the tab)\n\nv1.21.0 Garbage\n• Residence management changed from \"Route\" to \"Town name\" — Infrastructure update in preparation for future city cooperation (town-level announcements, etc.). Please select your town name again\n• Route dropdown removed, consolidated into a single town name selection button\n• After selection, displays as \"○○ Town (A-1 Haraichiba/Naguribashi) [Change]\" showing both town name and route\n• Garbage collection calendar (all routes) and item search links consolidated within the garbage section\n\nv1.21.0 Weather\n• Past date weather rows are closed by default — Past weather info you don't usually check is folded away so it's not in the way. Data is fetched the moment you open it, so it also saves bandwidth\n\nv1.21.0 Bus\n• When showing a different date on the \"Take the bus\" direction selection screen, \"X hours later\" is no longer displayed — Behavior now matches \"Return by bus\" (timetable display and remaining buses are kept)\n\nv1.21.0 Top Page Restructured\n• \"Services\" consolidated into one section — Abolished α/β labels, reordered as Bus → Favorite Shops → AED → Restroom\n• New \"Calendar\" section placed just before footer — Event calendar subscription and personal calendar integration (iCal) consolidated here\n• Favorite Shops/Favorite Friends buttons always displayed (visible even when not logged in, Google login prompted at destination)\n• Removed large login prompt panel, condensed to \"Log in with Google\" / logged-in name + logout in one line at bottom of footer\n\nv1.21.0 Other\n• Footer version date format unified to ISO style (2026-05-21 11:45 JST), text made slightly more readable",
+  "end": {
+    "date": "2026-05-22"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=MHAzcWFjYzVuMmFzOWVjNXI1YThhYTI3dDQgZDkxOTNjZjVmNjQ0YWI0MWEyOGUyMjY4YTk4YWJjNWFhNDI2YmQyZDU3NzE1MjgzNDI0NGFkNjlhMzFmNWE2OEBn",
+  "iCalUID": "0p3qacc5n2as9ec5r5a8aa27t4@google.com",
+  "id": "0p3qacc5n2as9ec5r5a8aa27t4",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "Myはんのう（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "start": {
+    "date": "2026-05-21"
+  },
+  "status": "confirmed",
+  "summary": "Myはんのう v1.22.0",
+  "updated": "2026-05-22T03:36:41.234Z"
+}

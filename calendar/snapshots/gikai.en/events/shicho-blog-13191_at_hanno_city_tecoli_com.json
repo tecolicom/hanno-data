@@ -1,0 +1,34 @@
+{
+  "created": "2026-05-20T06:33:11.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nOn February 27 (Friday), the 1st Regular Session of the Hanno City Council for 2026 (Reiwa 8) was opened.\n\nThe session runs from February 27 through March 25. The council will deliberate on a total of 39 agenda items, including requests for approval of emergency measures, proposed ordinances, supplementary budget proposals, and initial budget proposals.\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202602/13191.html",
+  "end": {
+    "date": "2026-02-28"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2VkazZpb3I4ZHNtbTRyM2Zjc21qMmNwaDc0b2swcTMxZHBuNnViajNkNXE3aWJqa2NsaG11cjM5NXBobXVyOCBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "shicho-blog-13191@hanno.city.tecoli.com",
+  "id": "_edk6ior8dsmm4r3fcsmj2cph74ok0q31dpn6ubj3d5q7ibjkclhmur395phmur8",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市政（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202602/13191.html"
+  },
+  "start": {
+    "date": "2026-02-27"
+  },
+  "status": "confirmed",
+  "summary": "📝 Mayor: Hanno City Council Regular Session, 1st Meeting of 2026 (Reiwa 8)",
+  "updated": "2026-05-22T03:33:11.216Z"
+}

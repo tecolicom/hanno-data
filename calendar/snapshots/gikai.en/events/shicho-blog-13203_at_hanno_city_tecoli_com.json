@@ -1,0 +1,34 @@
+{
+  "created": "2026-05-20T06:33:17.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nOn Monday, March 2, Safety Union Co., Ltd., which has contracted to provide Hanno City's traffic safety classes for fiscal year 2025 (Reiwa 7), made an offer to conduct next year's traffic safety classes free of charge.\n\nHanno City is currently working on emergency fiscal measures and reviewing operations across all departments. As part of this review, all programs were examined, and traffic safety class contracting—overseen by the Community Safety Division—was suspended for fiscal year 2026 (Reiwa 8).\n\nIn this context, Safety Union has generously proposed to conduct the traffic safety classes that are currently being held in fiscal year 2025 at no cost in fiscal year 2026, in order to support residents' safety and peace of mind.\n\nBeyond traffic safety alone, the company has also made the wonderful offer to contribute to community crime prevention and disaster preparedness.\n\nMoving forward, Hanno City will continue to aim to be a place where all residents can live with confidence and security, free from traffic accidents.\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13203.html",
+  "end": {
+    "date": "2026-03-03"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2VkazZpb3I4ZHNtbTRyM2Zjc21qMmNwaTYwcGswcTMxZHBuNnViajNkNXE3aWJqa2NsaG11cjM5NXBobXVyOCBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "shicho-blog-13203@hanno.city.tecoli.com",
+  "id": "_edk6ior8dsmm4r3fcsmj2cpi60pk0q31dpn6ubj3d5q7ibjkclhmur395phmur8",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市政（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13203.html"
+  },
+  "start": {
+    "date": "2026-03-02"
+  },
+  "status": "confirmed",
+  "summary": "📝 Mayor: Support for \"Traffic Safety Classes\"",
+  "updated": "2026-05-22T03:33:17.540Z"
+}

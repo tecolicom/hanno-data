@@ -1,0 +1,34 @@
+{
+  "created": "2026-05-20T06:35:22.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nA list of press releases from Hanno City.\n\n【April 30, 2026 (Reiwa 8)】\nNo-necktie dress code year-round at City Hall\nClothing at City Hall will be no-necktie year-round.\n\n【April 24, 2026】\nDonation from Ome Shinkin Bank\nOme Shinkin Bank will make a donation to Hanno City.\n\n【April 22, 2026】\nLaunch of the Arima Area Water Source Forest Conservation Project (nickname: \"Forest Project for Mountain Hawks and Japanese Dormice\")\nA new project focused on conserving water source forests is launching.\n\n【April 20, 2026】\nDonation ceremony from Hanno Rotary Club\nHanno Rotary Club will present a donation to Hanno City.\n\n【April 6, 2026】\nDonation from MX Mobiling Co., Ltd. (Corporate Hometown Tax)\nMX Mobiling Co., Ltd. will make a donation through the Corporate Hometown Tax program.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025_1/13388.html",
+  "end": {
+    "date": "2026-05-01"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3BqZ2UyMGQxZ21zcmpmNXBobWl0M3A1cHE2YW9yZmRoa2lzb3JmZGsgYjZmMzZlMTk3NTFjMDVjY2U5OWZhMDA4MjhlNDI5ZjQwZjZkYjEwMGUyZGJlNDQyYmMyNjIyYTI1ZGE5NzMxNkBn",
+  "iCalUID": "oshirase-13388@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6cpjge20d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市政（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025_1/13388.html"
+  },
+  "start": {
+    "date": "2026-04-30"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Press releases for Fiscal Year 2026 (Reiwa 8)",
+  "updated": "2026-05-22T03:35:28.650Z"
+}

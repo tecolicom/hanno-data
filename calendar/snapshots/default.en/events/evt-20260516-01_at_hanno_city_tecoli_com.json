@@ -1,0 +1,35 @@
+{
+  "created": "2026-05-20T07:03:38.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n10:00–17:00\n\nA handmade market featuring craft exhibitors working in ceramics, woodcraft, metalwork, textiles, dyeing, weaving, leather, glass, bamboo, accessories, and more, plus food vendors.",
+  "end": {
+    "date": "2026-05-17"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Nscjc4YjlpNjBwM2NjMWw2NHIycWMxaDgxazYycmplZHNuNjZxYmtmNG43OHBiM2R0bTZpYmozZHRtZyBkOTE5M2NmNWY2NDRhYjQxYTI4ZTIyNjhhOThhYmM1YWE0MjZiZDJkNTc3MTUyODM0MjQ0YWQ2OWEzMWY1YTY4QGc",
+  "iCalUID": "evt-20260516-01@hanno.city.tecoli.com",
+  "id": "_clr78b9i60p3cc1l64r2qc1h81k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+  "kind": "calendar#event",
+  "location": "飯能中央公園 (飯能市大字飯能226-2)",
+  "organizer": {
+    "displayName": "Myはんのう（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-monodukuri.jimdofree.com",
+    "url": "https://hanno-monodukuri.jimdofree.com/"
+  },
+  "start": {
+    "date": "2026-05-16"
+  },
+  "status": "confirmed",
+  "summary": "14th Hanno Crafts Fair",
+  "updated": "2026-05-22T03:36:19.976Z"
+}

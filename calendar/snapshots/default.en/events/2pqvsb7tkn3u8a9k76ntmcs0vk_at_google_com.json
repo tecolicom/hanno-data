@@ -1,0 +1,30 @@
+{
+  "created": "2026-05-20T07:03:02.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 09:00–16:00\n\nAutomated translation (refer to source for accuracy)\n\nhttps://hanno-tourism.jp/hanno-eco/tour/ec-osanpom-spring/",
+  "end": {
+    "date": "2026-05-04"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=MnBxdnNiN3RrbjN1OGE5azc2bnRtY3MwdmsgZDkxOTNjZjVmNjQ0YWI0MWEyOGUyMjY4YTk4YWJjNWFhNDI2YmQyZDU3NzE1MjgzNDI0NGFkNjlhMzFmNWE2OEBn",
+  "iCalUID": "2pqvsb7tkn3u8a9k76ntmcs0vk@google.com",
+  "id": "2pqvsb7tkn3u8a9k76ntmcs0vk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "Myはんのう（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "start": {
+    "date": "2026-05-03"
+  },
+  "status": "confirmed",
+  "summary": "Osanpo Market",
+  "updated": "2026-05-22T03:35:47.230Z"
+}

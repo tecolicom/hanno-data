@@ -1,0 +1,34 @@
+{
+  "created": "2026-05-20T06:35:28.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nWater meter theft is happening frequently across Japan. Meters are loaned to users by Hanno City Water Service, so please manage them properly.\n\nCheck your meter regularly, including for leaks. If you discover theft or see suspicious activity around your meter box, contact the police or the Water Service Division (phone: 042-973-2111).\n\nTheft often happens at: apartment buildings, vacant houses, empty lots, and construction sites for new homes.\n\nMeter reading is done by Daiichi Kanshi Co., Ltd. Their inspectors wear uniforms and carry ID issued by the city—if anything seems suspicious, ask to see their credentials.\n\nWater meters have a legal lifespan of 8 years. Before the deadline, we replace them. You'll get a postcard about 1 month before your replacement date. The work is done by shops in the Hanno City Water Service Cooperative Association; staff wear armbands. If anything seems suspicious, ask to confirm their credentials.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/suidogyomuka/13515.html",
+  "end": {
+    "date": "2026-05-02"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3FqMmRhMGQxZ21zcmpmNXBobWl0M3A1cHE2YW9yZmRoa2lzb3JmZGsgYjZmMzZlMTk3NTFjMDVjY2U5OWZhMDA4MjhlNDI5ZjQwZjZkYjEwMGUyZGJlNDQyYmMyNjIyYTI1ZGE5NzMxNkBn",
+  "iCalUID": "oshirase-13515@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6cqj2da0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市政（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/suidogyomuka/13515.html"
+  },
+  "start": {
+    "date": "2026-05-01"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Watch out for water meter theft",
+  "updated": "2026-05-22T03:35:35.217Z"
+}

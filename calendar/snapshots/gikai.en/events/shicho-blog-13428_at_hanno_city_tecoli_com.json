@@ -1,0 +1,34 @@
+{
+  "created": "2026-05-20T06:34:44.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nOn Sunday, April 5, we held the Hanno Fire Department induction ceremony at the Hanno-Hidaka Fire Station, with many distinguished guests in attendance.\n\nAt the ceremony, 19 new members were welcomed as part of the fire department—13 who joined on April 1, plus 6 who joined partway through fiscal year 2025—and they took their first steps as members of the fire department, which is essential to our community's disaster response.\n\nWe also held a transition in leadership. The 15th Hanno Fire Chief, Yasuhisa Otsuki, retired on March 31 after 31 years of dedicated service as a fire department member. Kazuhiro Kaneko was appointed as the new fire chief, and both received their official letters of appointment.\n\nWe offer our heartfelt thanks to all fire department members for responding to disasters day and night, without pause. We ask for your continued dedication to keeping our citizens safe and secure.\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13428.html",
+  "end": {
+    "date": "2026-04-06"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2VkazZpb3I4ZHNtbTRyM2Zjc21qMmNwazY4czQwcTMxZHBuNnViajNkNXE3aWJqa2NsaG11cjM5NXBobXVyOCBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "shicho-blog-13428@hanno.city.tecoli.com",
+  "id": "_edk6ior8dsmm4r3fcsmj2cpk68s40q31dpn6ubj3d5q7ibjkclhmur395phmur8",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市政（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13428.html"
+  },
+  "start": {
+    "date": "2026-04-05"
+  },
+  "status": "confirmed",
+  "summary": "📝 Mayor: Hanno Fire Department 2026 Induction Ceremony",
+  "updated": "2026-05-22T03:34:49.739Z"
+}

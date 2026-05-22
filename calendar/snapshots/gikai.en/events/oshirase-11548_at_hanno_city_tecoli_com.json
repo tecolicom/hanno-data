@@ -1,0 +1,34 @@
+{
+  "created": "2026-05-20T06:35:03.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nOn Wednesday, June 3, from 10:00 a.m. to 3:00 p.m., a special human rights consultation desk will open at the Hanno Central District Administrative Center (飯能中央地区行政センター).\n\nThis is held in observance of \"Human Rights Advocates Day\" on June 1, the date when the Human Rights Advocates Law was enacted.\n\nIf you're wondering \"Could my concern be a human rights violation?\", please feel free to consult about issues like sexual harassment, power harassment, domestic violence, corporal punishment, bullying, online harassment or defamation, and discrimination. Human rights advocates will handle your consultation, and there is no fee.\n\nSeven human rights advocates from Hanno City belong to the Tokorozawa Human Rights Advocates Council and carry out activities including human rights awareness and human rights consultations.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/11548.html",
+  "end": {
+    "date": "2026-04-21"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2NHFqOGUyMGQxZ21zcmpmNXBobWl0M3A1cHE2YW9yZmRoa2lzb3JmZGsgYjZmMzZlMTk3NTFjMDVjY2U5OWZhMDA4MjhlNDI5ZjQwZjZkYjEwMGUyZGJlNDQyYmMyNjIyYTI1ZGE5NzMxNkBn",
+  "iCalUID": "oshirase-11548@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h64qj8e20d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市政（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/11548.html"
+  },
+  "start": {
+    "date": "2026-04-20"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Special human rights consultation desk opens for \"Human Rights Advocates Day\"",
+  "updated": "2026-05-22T03:35:09.098Z"
+}

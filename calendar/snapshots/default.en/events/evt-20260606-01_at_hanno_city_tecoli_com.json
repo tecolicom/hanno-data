@@ -1,0 +1,35 @@
+{
+  "created": "2026-05-20T07:04:25.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 10:00–16:30\n\nAutomated translation (refer to source for accuracy)\n\nExperience the first public showing of the 7000 series train, ride the traverser, enjoy a mini train (200 yen), try the driving simulator, see the 52-seat comfort display, visit food trucks, and relax in the open picnic area. Free admission. Rain or shine, but canceled in severe weather. Last entry at 3:00 PM.",
+  "end": {
+    "date": "2026-06-07"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Nscjc4YjlpNjBwM2NjMW02MHIycWMxaDgxazYycmplZHNuNjZxYmtmNG43OHBiM2R0bTZpYmozZHRtZyBkOTE5M2NmNWY2NDRhYjQxYTI4ZTIyNjhhOThhYmM1YWE0MjZiZDJkNTc3MTUyODM0MjQ0YWQ2OWEzMWY1YTY4QGc",
+  "iCalUID": "evt-20260606-01@hanno.city.tecoli.com",
+  "id": "_clr78b9i60p3cc1m60r2qc1h81k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+  "kind": "calendar#event",
+  "location": "武蔵丘車両検修場 (日高市台462-1、西武池袋線「高麗駅」徒歩約15分)",
+  "organizer": {
+    "displayName": "Myはんのう（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.seiburailway.jp",
+    "url": "https://www.seiburailway.jp/sightseeing/eventcampaigninfo/musashigaokafesta/"
+  },
+  "start": {
+    "date": "2026-06-06"
+  },
+  "status": "confirmed",
+  "summary": "Seibu Train Festival 2026 at Musashi-Oka Vehicle Maintenance Yard",
+  "updated": "2026-05-22T03:37:05.854Z"
+}
