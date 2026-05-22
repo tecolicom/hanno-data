@@ -1,7 +1,7 @@
 uid: "0p3qacc5n2as9ec5r5a8aa27t4@google.com"
 summary: "Myはんのう v1.22.0"
 dtstart: "2026-05-21"
-dtend: "2026-05-27"
+dtend: "2026-05-21"
 description: |-
   ### v1.22.0 バス
   - **バスページの表示が大幅に速く** — 旧仕様では「バスに乗る/帰る」を開くたびに HTML を 3MB 以上ダウンロード + 解析していたのを、データを別ファイル化することで初期 HTML を数 KB に削減。2 回目以降は端末のキャッシュから瞬時に開く
@@ -43,7 +43,7 @@ description: |-
 
 render:
   gcal:
-    mode: span-allday
+    mode: single-allday
 translations:
   en:
     summary: "Myはんのう v1.22.0"
