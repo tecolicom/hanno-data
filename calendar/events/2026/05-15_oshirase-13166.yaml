@@ -6,18 +6,15 @@ dtend: "2026-05-15"
 description: |-
   AI による要約 (正確な情報は元記事をご確認ください)
   
-  課税(非課税)・所得証明書のみコンビニ交付サービスを、令和8年5月31日(日曜日)～令和8年6月2日(火曜日)終日停止します。システムメンテナンス(年度更新作業)のためです。
+  課税(非課税)・所得証明書のみコンビニ交付サービスが、システムメンテナンスのため令和8年5月31日(日曜日)～令和8年6月2日(火曜日)終日停止されます。令和8年度の課税(非課税)・所得証明書は6月3日(水曜日)から交付再開となります。
   
-  令和8年度の課税(非課税)・所得証明書は、6月3日(水曜日)から交付となります。
+  停止期間中に証明書の発行が必要な場合は、以下の窓口をご利用ください。
   
-  停止期間中に発行が必要な場合は、以下をご利用ください。
+  【市役所・各地区行政センター】午前9時～午後4時30分(富士見地区行政センターを除く)
   
-  ・飯能市役所、各地区行政センター(富士見地区行政センターを除く)
-  午前9時から午後4時30分まで
+  【飯能駅サービスコーナー】午前9時～午後5時(税証明即日交付受付は午前9時～午後4時30分)
   
-  ・飯能駅サービスコーナー
-  午前9時から午後5時まで
-  (税証明の即日交付受付は午前9時から午後4時30分まで)
+  その他のコンビニ交付サービスは通常通り利用可能です。
   
   飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/johosystem/13166.html
 
@@ -29,30 +26,30 @@ source:
   type: city-hanno-oshirase
   id: "13166"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/johosystem/13166.html"
-  fetched_at: "2026-05-20T04:55:21.830354Z"
-  content_hash: "sha256-420d55314a955b3d"
+  fetched_at: "2026-05-22T04:53:06.784799Z"
+  content_hash: "sha256-d851138830f35e1a"
   summary_method: "llm-haiku-4-5"
 translations:
   en:
-    summary: "ℹ️ Convenience store service for tax/non-taxable and income certificates suspended"
+    summary: "ℹ️ Convenience store service for tax/non-taxable income certificates temporarily suspended"
     description: |-
       Automated translation (refer to source for accuracy)
 
-      The convenience store service for issuing tax (non-taxable) and income certificates will be suspended from May 31 to June 2, 2026 (Reiwa 8) due to system maintenance and annual fiscal year updates.
+      【Service Suspension】Convenience store service for tax (non-taxable) and income certificates will be suspended.
 
-      Tax (non-taxable) and income certificates for fiscal year 2026 will be available starting June 3, 2026 (Wednesday).
+      Suspension period: May 31, 2026 (Reiwa 8) (Sunday) through June 2, 2026 (Tuesday), all day
 
-      If you need a certificate issued during the suspension period, please use one of the following:
+      This suspension is due to system maintenance (fiscal year update work). Only tax (non-taxable) and income certificates are affected.
 
-      • Hanno City Hall and each district administrative center (excluding Fujimi District Administrative Center)
-      9:00 a.m. to 4:30 p.m.
+      FY2026 tax (non-taxable) and income certificates will become available for issue starting June 3, 2026 (Wednesday).
 
-      • Hanno Station Service Counter
-      9:00 a.m. to 5:00 p.m.
-      (Same-day issuance of tax certificates accepted from 9:00 a.m. to 4:30 p.m.)
+      If you need a certificate during the suspension period, please use one of these locations:
+
+      • Hanno City Hall and each District Administrative Center (excluding Fujimi District Administrative Center): 9:00 AM–4:30 PM
+      • Hanno Station Service Counter: 9:00 AM–5:00 PM (same-day tax certificate issuing stops accepting applications at 4:30 PM)
 
       Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/johosystem/13166.html
-    translation_hash: "sha256-cb593280fe8555b1"
+    translation_hash: "sha256-c26f118cfbbd5326"
     model: "claude-haiku-4-5"
-    translated_at: "2026-05-20T05:36:59.919388Z"
-    format_version: 1
+    translated_at: "2026-05-22T04:13:55.614251Z"
+    format_version: 3

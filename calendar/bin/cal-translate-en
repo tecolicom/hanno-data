@@ -44,7 +44,9 @@ LANG = "en"
 
 # format_version: wrapper/disclaimer/プロンプト改変時に bump.
 # v1: 初版 (Plain English, AI disclaimer 冒頭, 元 URL を末尾保持)
-TRANSLATION_FORMAT_VERSION = 1
+# v2: 中止/延期/申込終了等の最新ステータスを訳文冒頭に配置するよう prompt 改訂
+# v3: ステータス変更続報 (申込終了等) では訳文を短く保つよう prompt 追加
+TRANSLATION_FORMAT_VERSION = 3
 
 # AI 翻訳 disclaimer (冒頭). docs/ai-content-policy.md 参照.
 EN_DISCLAIMER = "Automated translation (refer to source for accuracy)"
@@ -58,6 +60,8 @@ Style and format:
 - Translate Japanese era expressions correctly: 令和N年 = year (2018+N). e.g., 令和8年 = 2026.
 - Keep proper nouns recognizable: place names in romaji ("Hanno", "Tenranzan", "Iruma River"), facility names as commonly used ("Hanno City Hall", "Hanno Library"). For very local names without standard English, use romaji + brief gloss in parentheses on first mention.
 - Preserve all facts: dates, times, locations, eligibility, fees, deadlines, application methods, contact info. **Do not invent or omit factual details.**
+- **If the source mentions an event status change (cancelled, postponed, registration closed, capacity reached, suspended, rescheduled, etc.), surface it at the very top of the English description so readers see it immediately.** Don't bury it at the end. The Japanese source typically also puts such notices near the top.
+- **If the source's main purpose is to announce a status change for an event that's no longer actionable (e.g. registration already closed, event cancelled), keep the English description short (100-200 chars / 1-3 short sentences): the status change plus the event name and date. Skip detailed time/place/eligibility/fee/instructor info — readers can no longer act on it.** "Event you can still join" and "event you can no longer join" need different amounts of detail.
 - Match the source's tone (announcement = neutral/informative, mayor's reflection = first-person reflective, event listing = inviting).
 - Use newlines and 【brackets】 for structure if the original is structured. **Do not use any Markdown** (no **bold**, *italic*, # headings, - bullet lists, `code`, or [text](url) links). Calendar displays this as literal text.
 - For bullet-like lists in the source, use "•" (bullet) or just newline-separated lines.
