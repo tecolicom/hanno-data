@@ -1,0 +1,73 @@
+uid: "np9r06q309d1no96h3t2hfje5k@google.com"
+summary: "Myはんのう v1.23.0"
+dtstart: "2026-05-22"
+dtend: "2026-05-24"
+description: |-
+  ### v1.23.0 全体の見た目
+  - **画面上部の現在地表示が常に見える** — どのページでもパンくず (`飯能市 > バス > ...`) が固定で残り、長いページをスクロール中でも「今どこにいるか」が分かる。あわせて iPhone の Dynamic Island / ノッチ周りで本文がスクロールしてしまう不快感も解消
+  - **トップに「Myはんのう」のロゴ** — 朱色で常時表示。スクロールするとロゴ横に小さい日付 (`5/22(金)`) が現れ、タップでトップへ戻れる
+  - **大きな日付の月日と、ゴミ時計の数字を デジタル時計風フォントに** — めざまし時計のような 7-segment LCD 表示 (DSEG7 Classic)
+  - **本文サイズ・色を全体的に読みやすく** — 補助テキストを少し大きく、薄すぎる文字を濃く
+  
+  ### v1.23.0 バス
+  - **時刻表が画面全体スクロールに統一** — 以前は時刻表の枠内だけが別スクロールで触りにくかった
+  - **時刻表ヘッダ「発駅 / 行き先 / 現在時刻」も画面上部に固定** — スクロール中も「何の時刻表か」が常に見える
+  - **「β 版」表記を「α 版」に改め、警告バナーを追加** — 時刻表データに誤り・欠落の可能性があるため、ご利用時は各事業者の公式時刻表もご確認ください
+  
+  ### v1.23.0 推し店 / イベント
+  - **「予定」「地図」リンクが分かりやすいピル形式に** — 以前は 📅 📍 のアイコンだけで「押せる」と気付きにくかった。`📅 予定` `📍 地図` `📋 詳細` のようにテキスト併記
+  - **イベント詳細の長い URL が改行されるように** — 横スクロールが発生していた問題を修正
+  - 推し店検索の結果でも同じピル形式 (店名そのものへの Google Maps 直リンクは廃止し、`📍 地図` ピルに分離)
+  
+  ### v1.23.0 ゴミ
+  - ゴミセクションのコース「詳細」と町「変更」を、他と統一のコンパクトなピル形式に
+  
+  ### v1.23.0 その他
+  - フッターに「クレジット」を追加 — 使用フォント (DSEG / BIZ UDPGothic、両方 SIL OFL) とデータ出典を明示
+
+render:
+  gcal:
+    mode: span-allday
+translations:
+  en:
+    summary: "Myはんのう v1.23.0"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      v1.23.0 Overall Look
+
+      • Current location display always visible at the top of the screen — breadcrumb navigation (Hanno City > Bus > ...) stays fixed on every page, so you always know where you are even while scrolling long pages. Also fixes the uncomfortable shifting of content around iPhone's Dynamic Island and notch.
+
+      • Myはんのう logo added to the top — displayed in red at all times. When you scroll, a small date (5/22(Fri)) appears next to the logo; tap it to jump back to the top.
+
+      • Large date numerals and garbage collection time digits now use digital clock-style font — 7-segment LCD display (DSEG7 Classic), like an alarm clock.
+
+      • Body text size and color improved for readability — helper text slightly enlarged, dim text made darker.
+
+      v1.23.0 Bus
+
+      • Bus schedules now scroll with the full page — previously only the timetable box scrolled separately, making it hard to touch.
+
+      • Timetable header (departure station / destination / current time) now fixed at the top — you always see which timetable you're viewing while scrolling.
+
+      • "Beta version" label changed to "Alpha version" with warning banner added — timetable data may contain errors or omissions; please also check the official timetables from each operator.
+
+      v1.23.0 Favorite Shops / Events
+
+      • "Schedule" and "Map" links now in clear pill-shaped buttons — previously just calendar and map icons that were hard to recognize as tappable. Now shows as 📅 Schedule 📍 Map 📋 Details with text.
+
+      • Long URLs in event details now wrap properly — fixed the horizontal scrolling issue.
+
+      • Favorite shop search results use the same pill format — direct Google Maps link from shop name has been removed and separated into a 📍 Map pill.
+
+      v1.23.0 Garbage
+
+      • Garbage section's course "Details" and town "Change" buttons now use the same compact pill format as the rest of the app.
+
+      v1.23.0 Other
+
+      • "Credits" section added to footer — lists the fonts used (DSEG / BIZ UDPGothic, both under SIL OFL license) and data sources.
+    translation_hash: "sha256-96fcfd3696593f27"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-22T03:27:08.476419Z"
+    format_version: 1

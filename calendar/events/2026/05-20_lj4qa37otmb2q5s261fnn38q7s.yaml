@@ -1,7 +1,7 @@
 uid: "lj4qa37otmb2q5s261fnn38q7s@google.com"
 summary: "Myはんのう v1.20.1"
 dtstart: "2026-05-20"
-dtend: "2026-05-26"
+dtend: "2026-05-21"
 description: |-
   ### v1.20.1 修正
   - **イベント詳細をスクロールしているとき「離して更新」が誤発火していたのを修正** — モーダルを開いている間は自前 pull-to-refresh を発動しないように

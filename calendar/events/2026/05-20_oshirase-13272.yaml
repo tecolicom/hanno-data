@@ -4,6 +4,28 @@ url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/bunka
 dtstart: "2026-05-20"
 dtend: "2026-05-20"
 description: |-
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  令和8年度文化財めぐり「飯能の地形と地質の楽しみ方」
+  
+  【日時】5月23日（土曜日）9時15分～12時30分（9時受付開始、小雨決行・荒天中止）
+  
+  【場所】西武池袋線元加治駅集合・解散
+  
+  【内容】加治丘陵コース（約3キロメートル）を歩きながら、入間川河床のアケボノゾウの足跡化石や加治丘陵をつくる飯能層・仏子層を観察。関東平野西縁丘陵団体研究グループの専門家による解説付き。
+  
+  【対象】高校生以上
+  
+  【定員】20人（事前予約必須・申込順）
+  
+  【費用】500円（保険代金含む）
+  
+  【申込方法】5月1日（金曜日）から、電話またはメール、窓口（飯能中央地区行政センター内）にて受付
+  
+  【注意事項】帽子や歩きやすい靴を着用するなど動きやすい服装でご参加ください。飲料水などの熱中症対策も各自でお願いいたします。
+  
+  ※定員に達したため、5月20日をもちまして申込受付を終了しました。
+  
   飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/bunkazaitanto/bunkazai/13272.html
 
 render:
@@ -14,16 +36,37 @@ source:
   type: city-hanno-oshirase
   id: "13272"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/bunkazaitanto/bunkazai/13272.html"
-  fetched_at: "2026-05-20T23:16:41.799306Z"
-  content_hash: "sha256-44b1b7773435e9d5"
+  fetched_at: "2026-05-22T03:30:33.012743Z"
+  content_hash: "sha256-21dfdfbb11fd3b3e"
+  summary_method: "llm-haiku-4-5"
 translations:
   en:
-    summary: "ℹ️ Cultural Heritage Tour 2026 (Registration closes May 20)"
+    summary: "ℹ️ Cultural Heritage Walk 2026 scheduled for May 23 (Registration closed as of May 20)"
     description: |-
       Automated translation (refer to source for accuracy)
 
-      Hanno City Official Website News: https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/bunkazaitanto/bunkazai/13272.html
-    translation_hash: "sha256-01725d8bf202a814"
+      2026 Cultural Heritage Walk: "Enjoying Hanno's Geography and Geology"
+
+      【Date & Time】Saturday, May 23, 2026 (Reiwa 8), 9:15 a.m.–12:30 p.m. (Registration starts at 9:00 a.m.; event proceeds in light rain, cancelled in severe weather)
+
+      【Meeting Point】Moto-Kaji Station, Seibu Ikebukuro Line (assembly and dispersal)
+
+      【What You'll Do】Walk the Kaji Hills Course (about 3 kilometers) while observing fossil footprints of Deinotherium (Akebono Elephant) in the Iruma River riverbed, and rock formations of the Hanno and Butsuji layers that make up the Kaji Hills. Expert commentary provided by the Kanto Plain Western Rim Hills Research Group.
+
+      【Who Can Join】High school students and older
+
+      【Capacity】20 people (advance reservation required; first-come, first-served)
+
+      【Fee】500 yen (includes insurance)
+
+      【How to Apply】From Friday, May 1, 2026, register by phone, email, or in person at Hanno Central District Administrative Center
+
+      【Important Notes】Please wear comfortable, moveable clothing including a hat and easy-walking shoes. Bring drinking water and other heat-illness prevention supplies on your own.
+
+      Capacity has been reached; registration closed as of May 20, 2026.
+
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/bunkazaitanto/bunkazai/13272.html
+    translation_hash: "sha256-a62c4985f1c69402"
     model: "claude-haiku-4-5"
-    translated_at: "2026-05-21T07:06:21.809808Z"
+    translated_at: "2026-05-22T03:31:04.763208Z"
     format_version: 1

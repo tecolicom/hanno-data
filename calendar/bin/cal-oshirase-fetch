@@ -252,11 +252,18 @@ def summarize_with_llm(title: str, body: str) -> str | None:
 # ---------- description 組立 ----------
 
 
+def _llm_available() -> bool:
+    """この環境で LLM 呼出が可能か (CI 等で httpx 無 / API key 無 を事前検知)."""
+    return httpx is not None and bool(os.environ.get("ANTHROPIC_API_KEY"))
+
+
 def _materialize_description(body: str, method: str, title: str, article_url: str) -> str:
     """method に応じて description を組み立てる (LLM 呼出はこの中で発生).
 
-    LLM 失敗時は full にフォールバック (ただし呼出側 method は llm-haiku-4-5 のまま
-    記録される点に注意 — hash 計算は body ベースなので一貫性は保たれる)。
+    method は事前に環境 (LLM 利用可否) を踏まえて決定される前提のため、
+    ここで再 fallback は起きない. LLM 呼出が想定外に失敗した場合は full
+    にフォールバックするが、その場合 method 表記と description が乖離する
+    点には注意.
     """
     suffix = f"飯能市公式サイト 新着情報: {article_url}"
     if method == "url-only":
@@ -267,8 +274,10 @@ def _materialize_description(body: str, method: str, title: str, article_url: st
         summary = summarize_with_llm(title, body)
         if summary:
             return f"{AI_DISCLAIMER}\n\n{summary}\n\n{suffix}"
-        # LLM 失敗時は full にフォールバック (AI ラベルは付けない、元文そのまま転載)
-        print(f"  fallback to full text for {article_url}", file=sys.stderr)
+        # 例外的失敗 (network/rate limit 等). full にフォールバックして
+        # 当該 yaml は次回再評価される (hash は llm-haiku-4-5 で書かれるため、
+        # 次回 body 不変でも intended_hash 一致 → skip にならず再試行される設計).
+        print(f"  WARN: LLM unexpected failure, fallback to full text: {article_url}", file=sys.stderr)
         return f"{body}\n\n{suffix}"
     return suffix
 
@@ -398,8 +407,13 @@ def main() -> None:
             method = "url-only"
         elif len(body) <= FULL_TEXT_THRESHOLD:
             method = "full"
-        else:
+        elif _llm_available():
             method = "llm-haiku-4-5"
+        else:
+            # CI 等で LLM 環境が無い場合、長文も full text で書く. method を full
+            # にしておけば content_hash も full になり、後でローカルから LLM 付きで
+            # 再実行すると method=llm-haiku-4-5 で hash が変わって再生成が走る.
+            method = "full"
 
         # 入力ベースの content_hash (= body + method + format_version)。
         # LLM 出力は含めない → LLM 非決定性に関わらず idempotent。
