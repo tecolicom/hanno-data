@@ -1,0 +1,26 @@
+uid: "shicho-blog-13573@hanno.city.tecoli.com"
+summary: "📝 市長：ホッケー男子日本代表藤島来葵選手 表敬訪問"
+url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202605/13573.html"
+dtstart: "2026-08-15"
+dtend: "2026-08-15"
+description: |-
+  2026年8月15日から30日までの16日間、オランダ・アムステルダムとベルギー・ワーヴルで共同開催される、第16回FIHワールドカップへの出場決定報告のため、ALDER飯能に所属するホッケー男子日本代表の藤島来葵選手と関係者の皆さまが、5月11日（月曜日）に市役所を訪問されました。
+  
+  ホッケー男子日本代表は、3月に開催されたワールドカップ最終予選で、第3位に入賞され、ワールドカップへの出場権を獲得しました。
+  
+  藤島選手は現在、ホッケー男子日本代表の主将として、日本代表チームをまとめ上げ、活躍をしています。
+  
+  藤島選手の功績に対し、心から栄誉を称えるとともに、更なる活躍による「ホッケーのまち飯能」の推進を期待しております。
+  
+  市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202605/13573.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-shicho-blog
+  id: "13573"
+  url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202605/13573.html"
+  fetched_at: "2026-05-22T03:52:56.069879Z"
+  content_hash: "sha256-608b9485a7a2b0c7"

@@ -30,26 +30,3 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-satoyamahotaru/"
   fetched_at: "2026-05-16T15:10:02.033570Z"
   content_hash: "sha256-30760cd900ea1b14"
-translations:
-  en:
-    summary: "What's the mystery of light floating in early summer? ~Firefly observation in the night satoyama~"
-    description: |-
-      Automated translation (refer to source for accuracy)
-
-      Hanno Ecotourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-satoyamahotaru/
-
-      This firefly observation takes place at "Aoji Shitani" (青ジシ谷), where environmental conservation work protects firefly habitats. This is an evening and night tour where you can deeply learn about Genji fireflies and Heike fireflies—their light secrets, ecology, history, culture, and surprising human connections.
-
-      【Fee】Adults ¥6,000, Students ¥5,000 (includes guide, insurance, and materials)
-
-      【Capacity】15 people
-
-      【Guide】Mori no Field Gakusha (森のフィールド学舎) staff
-
-      【What to bring】Drinks, flashlight, light snacks, spare shoes
-
-      【Note】Mori no Field Gakusha website: https://morinomanabiya168.wixsite.com/website
-    translation_hash: "sha256-d40020295027c18b"
-    model: "claude-haiku-4-5"
-    translated_at: "2026-05-20T05:38:08.364092Z"
-    format_version: 1

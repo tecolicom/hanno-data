@@ -20,20 +20,3 @@ source:
   url: "https://www.city.hanno.lg.jp/material/files/group/45/kaikinittei8-3.pdf"
   fetched_at: "2026-05-17T14:06:13.905570Z"
   content_hash: "sha256-d3ca4b1e0a68c91c"
-translations:
-  en:
-    summary: "🏛 Questions and Debate on Proposed Bills"
-    description: |-
-      Automated translation (refer to source for accuracy)
-
-      Session schedule: https://www.city.hanno.lg.jp/material/files/group/45/kaikinittei8-3.pdf
-
-      List of proposed bills: https://www.city.hanno.lg.jp/soshikikarasagasu/gikaisomuka/kaigijoho/13089.html
-
-      General questions: https://www.city.hanno.lg.jp/material/files/group/45/ippannsitumon8-3.pdf
-
-      Source (Japanese): https://www.city.hanno.lg.jp/material/files/group/45/sannpizyoukyou8-3.pdf
-    translation_hash: "sha256-4d0c8a5eb4bd07c2"
-    model: "claude-haiku-4-5"
-    translated_at: "2026-05-20T05:33:01.009283Z"
-    format_version: 1

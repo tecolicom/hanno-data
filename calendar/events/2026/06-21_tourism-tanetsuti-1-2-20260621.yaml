@@ -28,29 +28,3 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/tanetsuti-1-2/"
   fetched_at: "2026-05-20T23:16:28.812437Z"
   content_hash: "sha256-5df8478ffa9633cc"
-translations:
-  en:
-    summary: "Experience mushroom farming and summer vegetable planting in Hanno's forest town"
-    description: |-
-      Automated translation (refer to source for accuracy)
-
-      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/tanetsuti-1-2/
-
-      Note: The tour originally scheduled for June 21 (Sunday) has been rescheduled to June 28 (Sunday) due to organizer circumstances.
-
-      Join us for a hands-on experience building "mushroom compost beds" (菌ちゃん畑) using fallen leaves and branches, and planting summer vegetables with proper row preparation. Our advisors will teach you the secrets of mushroom farming techniques—how to plant seedlings and care for them the right way. Lunch will be at Restaurant La Nola, where you'll enjoy Italian cuisine made with vegetables grown using mushroom compost methods.
-
-      【Fee】
-      Adults: ¥8,800
-      Middle school students and younger: ¥2,200
-      (Includes guide, lunch, materials, and insurance)
-
-      【Capacity】15 people
-
-      【Guide】Hanno Tane to Tsuchi Farm staff
-
-      【What to bring】Drinking water, hat, towel, work gloves, and similar items
-    translation_hash: "sha256-307b10da8bea142d"
-    model: "claude-haiku-4-5"
-    translated_at: "2026-05-21T07:06:25.330068Z"
-    format_version: 1

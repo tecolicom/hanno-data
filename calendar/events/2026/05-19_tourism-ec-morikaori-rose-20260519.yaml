@@ -28,24 +28,3 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-morikaori-rose/"
   fetched_at: "2026-05-16T15:10:01.534603Z"
   content_hash: "sha256-d9723a55b2936bd4"
-translations:
-  en:
-    summary: "Rose garden body-relaxation and rose lunch eco-tour"
-    description: |-
-      Automated translation (refer to source for accuracy)
-
-      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-morikaori-rose/
-
-      Surrounded by pesticide-free roses and herbs, you and fellow participants will prepare a body-friendly lunch together using rose petals and fresh vegetables. Supported by the gentle sounds of the kantele (a traditional stringed instrument) and rose water, this eco-tour invites you to connect with nature through all five senses and feel tension melt away from within your body.
-
-      【Fee】4,000 yen per person (includes guide, ingredients, insurance, etc.)
-
-      【Capacity】8 people
-
-      【Guide】Kaori Mori
-
-      【What to bring】Mask, apron, head scarf, writing materials
-    translation_hash: "sha256-c63171f9979e4722"
-    model: "claude-haiku-4-5"
-    translated_at: "2026-05-20T05:37:20.435350Z"
-    format_version: 1

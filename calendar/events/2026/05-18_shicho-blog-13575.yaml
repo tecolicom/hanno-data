@@ -1,0 +1,22 @@
+uid: "shicho-blog-13575@hanno.city.tecoli.com"
+summary: "📝 市長：人権擁護委員 感謝状贈呈及び委嘱状授与式"
+url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202605/13575.html"
+dtstart: "2026-05-18"
+dtend: "2026-05-18"
+description: |-
+  5月18日（月曜日）、令和8年3月31日をもって人権擁護委員をご退任された毛利淳子様に対し、法務大臣からの感謝状がさいたま地方法務局所沢支局長 高山広治氏より贈呈されました。
+  
+  また、4月1日付で新たに人権擁護委員に委嘱された大野美智子様への委嘱状の授与を執り行いました。
+  
+  市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202605/13575.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-shicho-blog
+  id: "13575"
+  url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202605/13575.html"
+  fetched_at: "2026-05-22T03:52:55.484393Z"
+  content_hash: "sha256-161fed7604a84408"

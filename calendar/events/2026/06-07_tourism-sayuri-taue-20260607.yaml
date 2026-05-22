@@ -30,26 +30,3 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/sayuri-taue/"
   fetched_at: "2026-05-16T15:10:03.465117Z"
   content_hash: "sha256-68e998ff57fdd048"
-translations:
-  en:
-    summary: "Kids guide your rice-planting tour — feel the paddy breeze while planting glutinous rice and water vegetable seedlings"
-    description: |-
-      Automated translation (refer to source for accuracy)
-
-      A learning tour about rice cultivation in the rice paddies. Plant rice while enjoying the breeze and scents of the fields. One appeal is meeting and interacting with local elementary school student guides. The tour also includes planting makomo-dake (Chinese water chestnut), tasting Sayama tea and snacks, and comes with local vegetable souvenirs—a full and rich experience.
-
-      【Fee】Adults ¥4,000; Elementary school and younger ¥2,000 (includes guiding, snacks, and insurance)
-
-      【Capacity】20 people
-
-      【Guide】Jun Nishimura (Sayuri After-School Club)
-
-      【What to bring】Drinking water, mat to sit on, hat, clothes you don't mind getting dirty, worn-out long socks, rain gear, towel, change of clothes
-
-      【Information】Sayuri Kindergarten website https://www.hannousayuri.com/
-
-      More details: https://hanno-tourism.jp/hanno-eco/tour/sayuri-taue/
-    translation_hash: "sha256-df833fd2eb6af82e"
-    model: "claude-haiku-4-5"
-    translated_at: "2026-05-20T05:38:01.418672Z"
-    format_version: 1

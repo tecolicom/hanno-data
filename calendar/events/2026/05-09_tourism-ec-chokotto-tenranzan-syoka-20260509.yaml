@@ -28,24 +28,3 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-chokotto-tenranzan-syoka/"
   fetched_at: "2026-05-16T15:10:00.463564Z"
   content_hash: "sha256-2d6ccae11e2697c9"
-translations:
-  en:
-    summary: "Easy Short Tour – Tenranzan Mountain"
-    description: |-
-      Automated translation (refer to source for accuracy)
-
-      Hanno Ecotourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-chokotto-tenranzan-syoka/
-
-      Walk with a guide and discover the subtle changes in nature you might miss on a regular walk. This tour is designed to be easy and enjoyable in a short time. Please feel free to join us. Depending on the season, homemade pesticide-free vegetables will be given as a gift!
-
-      【Fee】¥2,000 per person, ¥1,500 for returning visitors, ¥4,000 per family (includes guide fee and insurance)
-
-      【Maximum participants】10 people
-
-      【Guide】Tsubasa Kojima (Hanno City Ecotourism Citizen Guides Association – Wildlife Group)
-
-      【What to bring】Drinking water, rain gear, backpack or similar (something that keeps your hands free is recommended), towel
-    translation_hash: "sha256-43f7c4310df7ce31"
-    model: "claude-haiku-4-5"
-    translated_at: "2026-05-20T05:36:23.176175Z"
-    format_version: 1

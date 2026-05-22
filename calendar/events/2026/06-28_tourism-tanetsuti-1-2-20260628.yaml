@@ -28,28 +28,3 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/tanetsuti-1-2/"
   fetched_at: "2026-05-20T23:16:28.812676Z"
   content_hash: "sha256-5df8478ffa9633cc"
-translations:
-  en:
-    summary: "Enjoy creating a 'kinichyan farm' and planting summer vegetables in Hanno's forest town"
-    description: |-
-      Automated translation (refer to source for accuracy)
-
-      Hanno Ecotourism Association: https://hanno-tourism.jp/hanno-eco/tour/tanetsuti-1-2/
-
-      The tour originally scheduled for June 21 (Sunday) has been rescheduled to June 28 (Sunday) due to organizer circumstances.
-
-      Experience planting summer vegetables and building furrows in a "kinichyan farm" that uses fallen leaves and branches. Our advisors will clearly teach you the kinichyan farming method—how to plant seedlings and growing tips. Lunch will be at the restaurant "La Nora," where you can enjoy Italian cuisine made with kinichyan vegetables.
-
-      【Admission Fee】
-      Adults: ¥8,800 / Middle school students and younger: ¥2,200
-      (Includes guide, lunch, materials, and insurance)
-
-      【Capacity】15 people
-
-      【Guide】Hanno Tanetotochi Farm Staff
-
-      【What to bring】Drinking water, hat, towel, gloves, etc.
-    translation_hash: "sha256-307b10da8bea142d"
-    model: "claude-haiku-4-5"
-    translated_at: "2026-05-21T07:06:28.562402Z"
-    format_version: 1

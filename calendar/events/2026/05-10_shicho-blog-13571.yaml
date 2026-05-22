@@ -1,0 +1,20 @@
+uid: "shicho-blog-13571@hanno.city.tecoli.com"
+summary: "📝 市長：第40回加治親睦ソフトボール大会"
+url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202605/13571.html"
+dtstart: "2026-05-10"
+dtend: "2026-05-10"
+description: |-
+  5月10日（日曜日）、阿須ソフトボール場にて、加治スポーツ協会様主催による第40回加治親睦ソフトボール大会が開催され、お招きいただき開会式に出席してまいりました。
+  
+  市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202605/13571.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-shicho-blog
+  id: "13571"
+  url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202605/13571.html"
+  fetched_at: "2026-05-22T03:52:56.769766Z"
+  content_hash: "sha256-8b2ae2752a7b7849"
