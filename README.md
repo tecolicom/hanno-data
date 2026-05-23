@@ -1,13 +1,13 @@
 # hanno-data
 
-[hanno.tecoli.com](https://hanno.tecoli.com) のデータソース。
+[city.tecoli.com/@hanno](https://city.tecoli.com/@hanno/) (「Myはんのう」) のデータソース。
 
-飯能市および奥武蔵エリアに関する事実情報を YAML / JSON で管理し、`hanno-tecoli` のビルド時に取り込まれる。
+飯能市および奥武蔵エリアに関する事実情報を YAML / JSON で管理し、`city-tecoli` のビルド時に取り込まれる。
 
 ## ライセンス
 
-データは [CC0 1.0](./LICENSE) で提供する(事実情報のため)。
-ただし、各データには出典(source)を必ず明示し、利用者にも明示的な参照を推奨する。
+データは [CC0 1.0](./LICENSE) で提供する (事実情報のため)。
+ただし、各データには出典 (source) を必ず明示し、利用者にも明示的な参照を推奨する。
 
 ## ディレクトリ構成
 
@@ -21,8 +21,7 @@ hanno-data/
 │   │   ├── course-A1.yaml
 │   │   ├── course-A2.yaml
 │   │   └── ...
-│   ├── area-mapping.yaml         # 町名 → コース対応表
-│   └── dictionary.yaml           # 分別事典(Phase 2)
+│   └── area-mapping.yaml         # 町名 → コース対応表
 ├── bus/                          # バス時刻表 (ファイル名 = feed_id、各 YAML の meta.feed_id と一致)
 │   ├── 5931bus.yaml                       # 国際興業バス (NaviTime/5931bus 由来、native shape)
 │   ├── eaglebus.yaml                      # イーグルバス飯能駅・宮沢路線 (KML+PDF 由来、legacy shape)
@@ -42,11 +41,12 @@ hanno-data/
 │   ├── events/<year>/<MM-DD>_<uid>.yaml   # canonical YAML (1 イベント 1 ファイル)
 │   ├── snapshots/<cal-key>/events/        # 各 Calendar 状態のミラー (バックアップ)
 │   └── sources/hanno-tourism/urls.txt     # クローラ対象 URL リスト
-├── aed/                          # AED 設置場所 (リンクのみ、本リポジトリでは未管理)
-└── spots/                        # スポットマスタ(Phase 3、計画中)
-    ├── hiking/
-    ├── cycling/
-    └── ...
+├── aed/                          # AED 設置施設一覧
+│   └── 2026.yaml                          # 飯能市公式サイトから抽出 + 国土地理院で geocode
+└── docs/                         # 設計ドキュメント
+    ├── bus-data-format.md
+    ├── categories.md
+    └── ai-content-policy.md
 ```
 
 ## 出典
@@ -113,15 +113,24 @@ CI 自動化 (GitHub Actions):
 - `cal-daily.yml` (07:00 JST) — 全 fetcher 実行 → events commit → JP Calendar 反映 → snapshot
   - 英訳生成 (`cal-translate-en`) と `apply-all --lang en` は CI 未組込み (現状手動運用)
 
+### AED 設置施設
+
+- 飯能市公式サイト「AED 設置施設一覧」
+  https://www.city.hanno.lg.jp/iryo_kenko_fukushi/iryo_kenko/iryo_iryokyufu/1/3720.html
+- 緯度経度は国土地理院 [Geocoding API](https://msearch.gsi.go.jp/) で住所から付与
+- 抽出日時と元 URL を YAML 先頭の `source:` ブロックに記録
+
 ## ドキュメント
 
 - [docs/bus-data-format.md](./docs/bus-data-format.md) — バス YAML の形式リファレンス
   (native shape / legacy shape / coords-override / 各フィールドの意味)
 - [docs/categories.md](./docs/categories.md) — ゴミ種別 enum の命名規則と調査
   (5374.jp、横浜市・東京 23 区・札幌市・大阪市・京都市の英語版を比較)
+- [docs/ai-content-policy.md](./docs/ai-content-policy.md) — LLM 要約 / 翻訳の表示方針、
+  調査根拠 (AI事業者ガイドライン、著作権法 32 条引用、Yahoo!ニュース実例)
 
 ## 編集方針
 
-- 機械抽出(Claude API)した結果を人間レビュー後に PR でマージ
+- 機械抽出 (Claude API) した結果を人間レビュー後に PR でマージ
 - 直接編集する場合も schema 検証を通すこと
-- 公式情報源の更新を年1回(年度更新時)突合する
+- 公式情報源の更新を年 1 回 (年度更新時) 突合する
