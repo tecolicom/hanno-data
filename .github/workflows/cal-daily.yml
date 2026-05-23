@@ -160,8 +160,10 @@ jobs:
         run: |
           if [ -n "$(git status --porcelain calendar/snapshots)" ]; then
             CHANGED=$(git status --porcelain calendar/snapshots | wc -l | tr -d ' ')
-            if [ "$CHANGED" -gt 200 ]; then
-              echo "::error::Too many snapshot changes ($CHANGED > 200)." >&2
+            # cap = 500 (~150 events × 4 calendar = 約 600 ファイルが理論上限、
+            # ほぼ全件 updated 反映でも許容。EN cal 2 個追加で従来 200 から増量).
+            if [ "$CHANGED" -gt 500 ]; then
+              echo "::error::Too many snapshot changes ($CHANGED > 500)." >&2
               exit 5
             fi
             git add calendar/snapshots
