@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "Automated translation (refer to source for accuracy)\n\nOn Saturday, April 25, I attended a match played by ALDER Hanno at the Asu Sports Park Hockey Field. In the opening game of the Takamado Cup 2026 Hockey Japan League Samurai League Division 2, ALDER Hanno won a decisive 2-0 victory against Tokyo University of Agriculture.\n\nAs we work toward winning the Division 2 championship and securing promotion to Division 1 next season, we ask for your continued support and encouragement.\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13512.html",
+  "description": "Automated translation (refer to source for accuracy)\n\nOn April 25 (Saturday), I attended a match by ALDER Hanno at the Asu Athletic Park Hockey Field. In the opening game of the Takamado Trophy 2026 Hockey Japan League Samurai League Division 2, ALDER Hanno won decisively 2-0 against Tokyo University of Agriculture.\n\nWe are aiming for the Division 2 championship and promotion to Division 1 next season. Thank you for your continued support.\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13512.html",
   "end": {
     "date": "2026-04-26"
   },
@@ -29,6 +29,6 @@
     "date": "2026-04-25"
   },
   "status": "confirmed",
-  "summary": "📝 Mayor: Watched ALDER Hanno Hockey Game",
-  "updated": "2026-05-22T03:35:22.281Z"
+  "summary": "📝 Mayor: Watched ALDER Hanno Hockey Match",
+  "updated": "2026-05-22T05:37:43.413Z"
 }

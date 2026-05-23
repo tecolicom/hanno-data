@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "Automated translation (refer to source for accuracy)\n\nRoad closure and bus route changes due to stormwater drainage work in the Asama area\n\n【Work Overview】\nProject name: Asama area stormwater drainage work, phase 4\nWork location: Yanagiwarai, Hanno City\nWork period: March 30, 2026 (Reiwa 8) to June 30, 2026 (scheduled)\nWork hours: 9:00 AM to 5:00 PM\nWork details: Drainage structure construction and paving\n\n【Road Closure】\nMunicipal Road 1-15-2 will be closed.\n\n【Bus Route Changes】\nDetour period: March 30, 2026 to June 30, 2026 (scheduled)\nAffected buses: Buses serving the Asama stop Monday through Saturday (excluding holidays during the work period) between 9:00 AM and 5:00 PM during the closure\n\nDuring the road closure, passengers using the Asama bus stop should use the Kojoumae (Factory Front) stop or Shiei Jutaku (Municipal Housing) stop instead. Detailed route information will be posted at bus stops. We apologize for any inconvenience and appreciate your understanding and cooperation.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/tosiseibika/13270.html",
+  "description": "Automated translation (refer to source for accuracy)\n\nStormwater drainage improvement work in the Sengen area will close Municipal Road 1-15-2. Kokusai Kogyo bus routes will be changed accordingly.\n\n【Work Overview】\nWork period: March 30, 2026 (Reiwa 8) to June 30, 2026 (Reiwa 8) (planned)\nWork location: Aiou, Tawayanagi, Hanno City\nWork hours: 9:00 AM to 5:00 PM\n\n【Bus Route Changes】\nDetour period: March 30, 2026 to June 30, 2026 (planned)\nAffects: Buses arriving at or departing from Sengen bus stop Monday through Saturday (excluding national holidays during the work period) between 9:00 AM and 5:00 PM\n\nIf you plan to use Sengen bus stop, please use Kojoumae (Factory Front) bus stop or Shiei Jutaku (Municipal Housing) bus stop instead. Detailed bus route information will be posted at Sengen bus stop.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/tosiseibika/13270.html",
   "end": {
     "date": "2026-03-24"
   },
@@ -29,6 +29,6 @@
     "date": "2026-03-23"
   },
   "status": "confirmed",
-  "summary": "ℹ️ Road closure and bus route changes due to stormwater drainage work in the Asama area",
-  "updated": "2026-05-22T03:33:58.869Z"
+  "summary": "ℹ️ Road closure and bus route changes due to stormwater drainage work in Sengen area",
+  "updated": "2026-05-22T05:36:24.288Z"
 }

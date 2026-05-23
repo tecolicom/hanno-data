@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "Automated translation (refer to source for accuracy)\n\nWe will run a trial program for food trucks and vendor stalls at public facilities. Working together with the Okumusashi Hanno Tourism Association, from April 1 to June 30, 2026 (Reiwa 8), we will conduct a trial-and-soundings project (social experiment) using public facilities such as City Hall, the library, and parks.\n\nVendor stalls and food trucks participating in the program will be limited to member businesses of the tourism association. Specific details about which vendors will operate where and when will be shared through the tourism association's social media and other channels.\n\nThis initiative aims to improve convenience for residents, create new business opportunities for local companies, and achieve sustainable city administration. Based on the results and lessons learned from this trial, we will consider building systems for permanent vendor stalls and public-private partnerships to better use public assets. We also plan to survey users' satisfaction through questionnaires. After the trial ends, we will publish the evaluation results and consider full implementation and vendor operations at other public facilities.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/13132.html",
+  "description": "Automated translation (refer to source for accuracy)\n\nHanno City will conduct trial soundings for food trucks and similar vendor operations at public facilities. Working with the Okumushi Hanno Tourism Association, the city will run a roughly 3-month trial from April 1, 2026 (Reiwa 8) through June 30, 2026 (Reiwa 8) at vendor areas in public facilities including City Hall, the library, and parks. Vendor participation is limited to association members, and specific vendor information will be announced by the association through social media and other channels. The trial aims to create new business opportunities for private vendors and improve convenience for residents. The city will also gather user satisfaction feedback through surveys. Based on the results, the city will consider rolling out a full program.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/13132.html",
   "end": {
     "date": "2026-02-21"
   },
@@ -29,6 +29,6 @@
     "date": "2026-02-20"
   },
   "status": "confirmed",
-  "summary": "ℹ️ Trial run for food trucks and vendor stalls at public facilities",
-  "updated": "2026-05-22T03:32:51.315Z"
+  "summary": "ℹ️ Trial soundings for food trucks and similar vendors at public facilities",
+  "updated": "2026-05-22T05:35:19.584Z"
 }

@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "🕒 10:00–16:30\n\nAutomated translation (refer to source for accuracy)\n\nExperience the first public showing of the 7000 series train, ride the traverser, enjoy a mini train (200 yen), try the driving simulator, see the 52-seat comfort display, visit food trucks, and relax in the open picnic area. Free admission. Rain or shine, but canceled in severe weather. Last entry at 3:00 PM.",
+  "description": "🕒 10:00–16:30\n\nAutomated translation (refer to source for accuracy)\n\nCome experience the Seibu Train Festival 2026 at Musashioka Vehicle Maintenance Depot (武蔵丘車両検修場).\n\nHighlights include:\n• First public showing of the 7000 series train\n• Ride the traverser (train turntable)\n• Mini train rides (200 yen)\n• Train driving simulator\n• 52-seat comfort display\n• Food trucks\n• Picnic area open to the public\n\nAdmission is free. The event will proceed rain or shine, but will be cancelled in case of severe weather. Last entry at 3:00 PM.",
   "end": {
     "date": "2026-06-07"
   },
@@ -30,6 +30,6 @@
     "date": "2026-06-06"
   },
   "status": "confirmed",
-  "summary": "Seibu Train Festival 2026 at Musashi-Oka Vehicle Maintenance Yard",
-  "updated": "2026-05-22T03:37:05.854Z"
+  "summary": "Seibu Train Festival 2026 at Musashioka Vehicle Maintenance Depot",
+  "updated": "2026-05-22T05:39:22.664Z"
 }

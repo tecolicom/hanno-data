@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "Automated translation (refer to source for accuracy)\n\nOn March 3 (Tuesday), Iruma野 Agricultural Cooperative donated items to support traffic safety activities and help prevent traffic accidents: 399 crossing flags (339 for children, 60 for parents) and 300 traffic safety umbrellas for children.\n\nThe traffic safety umbrellas have a transparent panel so children can see ahead clearly even while holding the umbrella.\n\nWe plan to use the crossing flags and traffic safety umbrellas donated this time to promote traffic safety and prevent traffic accidents at Hanno City elementary schools.\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13213.html",
+  "description": "Automated translation (refer to source for accuracy)\n\nOn March 3rd (Tuesday), Iruma野 Agricultural Cooperative donated crossing flags and traffic safety umbrellas to support accident prevention efforts. The donation included 399 crossing flags (339 for children, 60 for parents) and 300 children's traffic safety umbrellas.\n\nThe safety umbrellas are designed with a transparent panel so children can see ahead clearly even while holding the umbrella.\n\nHanno City plans to use the donated crossing flags and safety umbrellas to promote traffic safety and prevent accidents at Hanno City elementary schools.\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13213.html",
   "end": {
     "date": "2026-03-04"
   },
@@ -29,6 +29,6 @@
     "date": "2026-03-03"
   },
   "status": "confirmed",
-  "summary": "📝 Mayor: Iruma野 Agricultural Cooperative Donates Crossing Flags and Traffic Safety Umbrellas",
-  "updated": "2026-05-22T03:33:19.706Z"
+  "summary": "📝 Mayor: Iruma野 Agricultural Cooperative Donates Crossing Flags and Safety Umbrellas",
+  "updated": "2026-05-22T05:35:46.706Z"
 }

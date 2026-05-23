@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "Automated translation (refer to source for accuracy)\n\nBeware of suspicious emails and messages\n\nWe have confirmed scam emails posing as Hanno City Hall's tax department (for example, \"City Hall Citizen Tax Division\") that urge residents to pay citizen and prefectural resident taxes using code payment services by following links in the message.\n\nHanno City does not send requests for tax or late payment notices via email, SMS, LINE, or similar channels.\n\nIf you receive any suspicious emails, SMS messages, LINE messages, or similar communications that you do not recognize, please delete them immediately.\n\n• If there are any links or URLs in an email, do not click on them under any circumstances.\n\n• Even if you do click by mistake, do not enter any personal information at the destination link and do not proceed with any payment.\n\n• If you have already made a payment, please contact your nearest police station right away.\n\nFor inquiries with the police, call the Police Consultation Hotline \"#9110\" (Government Online PR)\n\nBe cautious of suspicious emails and phone calls (National Tax Agency)\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/shuzeika/13555.html",
+  "description": "Automated translation (refer to source for accuracy)\n\nWatch Out for Suspicious Emails and Messages\n\nScam emails have been identified that impersonate Hanno City Hall's tax department (for example, claiming to be from \"City Hall Resident Tax Division\") and pressure residents to pay resident income tax using code payment services by clicking on links in the message.\n\nHanno City does not send emails, SMS, LINE messages, or other communications requesting payment of taxes or overdue charges.\n\nIf you receive any suspicious emails, SMS, LINE messages, or similar that you don't recognize, delete them immediately.\n\n• If there is a URL or link in an email, never click on it.\n\n• Even if you do click on it by accident, do not enter any personal information or proceed with payment at the destination site.\n\n• If you have already made a payment, contact your nearest police station right away.\n\nFor police inquiries, call the Police Consultation Hotline \"#9110\" (Government Online)\n\nBe careful of suspicious emails and phone calls (Japan National Tax Agency)\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/shuzeika/13555.html",
   "end": {
     "date": "2026-05-13"
   },
@@ -29,6 +29,6 @@
     "date": "2026-05-12"
   },
   "status": "confirmed",
-  "summary": "ℹ️ 【Alert】Beware of scam emails claiming to be about resident income tax payments!",
-  "updated": "2026-05-22T03:36:03.607Z"
+  "summary": "ℹ️ Warning: Watch out for scam emails claiming to be about resident income tax payments!",
+  "updated": "2026-05-22T05:38:22.449Z"
 }

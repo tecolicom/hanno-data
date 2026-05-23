@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "🕒 09:00–16:00\n\nAutomated translation (refer to source for accuracy)\n\nhttps://hanno-tourism.jp/hanno-eco/tour/ec-osanpom-spring/",
+  "description": "🕒 09:00–16:00\n\nAutomated translation (refer to source for accuracy)\n\nFor details, visit: https://hanno-tourism.jp/hanno-eco/tour/ec-osanpom-spring/",
   "end": {
     "date": "2026-05-04"
   },
@@ -25,6 +25,6 @@
     "date": "2026-05-03"
   },
   "status": "confirmed",
-  "summary": "Osanpo Market",
-  "updated": "2026-05-22T03:35:47.230Z"
+  "summary": "Walking Market",
+  "updated": "2026-05-22T05:38:06.476Z"
 }

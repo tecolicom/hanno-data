@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "Automated translation (refer to source for accuracy)\n\nHanno City is carrying out emergency economic support using the national government's emergency local revitalization grant for price stabilization. As energy and food prices remain high, we are implementing the 12th Hanno City Emergency Economic Support Package to help residents and businesses affected by rising prices and other economic pressures.\n\nFor details on each program, please see the PDF file below.\n\n12th Hanno City Emergency Economic Support Package List (PDF file: 121.4KB)\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/13330.html",
+  "description": "Automated translation (refer to source for accuracy)\n\nHanno City is carrying out emergency economic measures using national government funding for priority support in response to rising prices and regional revitalization.\n\nAs energy and food prices continue to rise, we are implementing the 12th round of Hanno City Emergency Economic Measures to support residents and businesses affected by inflation and other economic challenges. The funding comes from the national Price Surge Response Priority Support Regional Revitalization Temporary Grant.\n\nFor details on each initiative, please see the PDF file below:\n\n12th Hanno City Emergency Economic Measures List (PDF file: 121.4 KB)\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/13330.html",
   "end": {
     "date": "2026-04-02"
   },
@@ -29,6 +29,6 @@
     "date": "2026-04-01"
   },
   "status": "confirmed",
-  "summary": "ℹ️ 12th Hanno City Emergency Economic Support Package",
-  "updated": "2026-05-22T03:34:34.350Z"
+  "summary": "ℹ️ 12th Hanno City Emergency Economic Measures",
+  "updated": "2026-05-22T05:36:57.403Z"
 }

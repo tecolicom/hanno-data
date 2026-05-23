@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "Automated translation (refer to source for accuracy)\n\nOn March 21 (Saturday), I participated in a tree-planting ceremony for the Tenranzan Azalea Flower Park, held at Central Park (below the parking area).\n\nThis tree-planting ceremony was organized by the Hanno District Community Development Promotion Committee and carried out with the support of the Hanno Rotary Club.\n\nI have high hopes that this park will become a beloved new flower destination for residents and many visitors, offering beautiful flowers including azaleas—the flower of Hanno City—to enjoy after the cherry blossom season.\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13342.html",
+  "description": "Automated translation (refer to source for accuracy)\n\nOn March 21 (Saturday), I participated in a tree-planting ceremony for the Tenranzan Azalea Flower Park at Central Park (below the parking area).\n\nThe ceremony was organized by the Hanno District Community Development Promotion Committee and supported by the Hanno Rotary Club.\n\nI have great hopes that this park will become a beloved new flower destination for residents and many visitors, offering beautiful flowers including azaleas—Hanno City's official flower—to enjoy after the cherry blossom season ends.\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13342.html",
   "end": {
     "date": "2026-03-22"
   },
@@ -29,6 +29,6 @@
     "date": "2026-03-21"
   },
   "status": "confirmed",
-  "summary": "📝 Mayor: Tree-Planting Ceremony for Tenranzan Azalea Flower Park",
-  "updated": "2026-05-22T03:33:54.475Z"
+  "summary": "📝 Mayor: Tenranzan Azalea Flower Park Planting Ceremony",
+  "updated": "2026-05-22T05:36:20.241Z"
 }

@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "Automated translation (refer to source for accuracy)\n\nThank you very much for your generous hometown tax donations to Hanno City.\n\nWe are reporting on the donations received and how they are being used.\n\nFiscal Year 2025 (Reiwa 7) Hometown Tax Donation and Usage Report (PDF file: 2.9MB)\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/furusatonozei/9107.html",
+  "description": "Automated translation (refer to source for accuracy)\n\nThank you very much for your generous Hometown Tax donations to Hanno City.\n\nWe are reporting on the donations received and how the funds have been used.\n\nFiscal Year 2025 (Reiwa 7) Hometown Tax Donation and Fund Usage Report (PDF file: 2.9MB)\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/furusatonozei/9107.html",
   "end": {
     "date": "2026-05-13"
   },
@@ -29,6 +29,6 @@
     "date": "2026-05-12"
   },
   "status": "confirmed",
-  "summary": "ℹ️ Report on Hometown Tax Donations and How They're Being Used",
-  "updated": "2026-05-22T03:36:05.769Z"
+  "summary": "ℹ️ Report on Hometown Tax Donations and How Funds Are Used",
+  "updated": "2026-05-22T05:38:24.509Z"
 }

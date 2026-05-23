@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "Automated translation (refer to source for accuracy)\n\nAbout 14 km, approximately 4 hours 30 minutes. Participation fee: 200 yen.\n\nRoute: Agano Station → Taira Chestnut Orchard (たいら栗園) → Higashi-Agano Station → Musashi-Yokote Station → Koma Station.\n\nApplication deadline: May 9. Apply to ASA Hanno.",
+  "description": "Automated translation (refer to source for accuracy)\n\nAbout 14 km, about 4 hours 30 minutes. Participation fee: 200 yen.\n\nRoute: Agano Station → Taira Chestnut Orchard → Higashi-Agano Station → Musashi-Yokote Station → Koma Station.\n\nApplication deadline: May 9. Apply to ASA Hanno.",
   "end": {
     "date": "2026-05-14"
   },
@@ -30,6 +30,6 @@
     "date": "2026-05-13"
   },
   "status": "confirmed",
-  "summary": "Sugo-Ashi Walk: Hanno Two-Day Agano Course",
-  "updated": "2026-05-22T03:36:07.570Z"
+  "summary": "Sugo-ashi Walk: Hanno Two-Day Agano Course",
+  "updated": "2026-05-22T05:38:26.459Z"
 }

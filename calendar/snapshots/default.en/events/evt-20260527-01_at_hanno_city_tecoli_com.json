@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "🕒 08:00–16:00\n\nAutomated translation (refer to source for accuracy)\n\nA guided hiking tour of Mt. Warabi with a professional mountain guide.",
+  "description": "🕒 08:00–16:00\n\nAutomated translation (refer to source for accuracy)\n\nA guided hike up Mt. Warabi with a professional mountain guide.",
   "end": {
     "date": "2026-05-28"
   },
@@ -30,6 +30,6 @@
     "date": "2026-05-27"
   },
   "status": "confirmed",
-  "summary": "Early summer hike up Mt. Warabi with a mountain guide",
-  "updated": "2026-05-22T03:36:58.709Z"
+  "summary": "Early Summer Hike on Mt. Warabi with a Mountain Guide",
+  "updated": "2026-05-22T05:39:16.033Z"
 }

@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "Automated translation (refer to source for accuracy)\n\nv1.18.3 New Features\n• Today's year (Western and Japanese calendar) now displays on the top page — Appears in small text below the date and day of the week, formatted like \"2026/Reiwa 8\".\n\nv1.18.3 Fixes\n• Fixed bug where Tayanagi Loop \"Factory Front direction\" route only showed stops up to City Hall — When boarding from Hanno City Hall, the full route now displays: Factory Front → Sengen → Municipal Housing → ... → Hanno Station.\n• Consolidated Hanno City Hall (Mu-Ma bus) and City Hall Front (5931bus) as a single stop — These two separate stops are now combined into one display.\n\nv1.18.3 Notes\n• Event detail modals for the Tourism Association, Civic Hall, and similar venues will now show \"🔗 Information Source URL\" as a clickable link (display feature added in v1.18.2; data delivery added in this release).\n\nv1.18.4 New Features\n• \"UV\" (ultraviolet strength) added to the weather section — Displays in color, for example \"☀ UV Very Strong\". Colors follow Japan Meteorological Agency standards in five levels: Weak, Moderate, Strong, Very Strong, and Extreme. Check before heading out to decide whether you need a hat or sunscreen.",
+  "description": "Automated translation (refer to source for accuracy)\n\nv1.18.3 New Features\n• Today's year (Western and Japanese calendar) now shows on the home page — Appears in small text below the month/day and day of week, like \"2026/Reiwa 8\".\n\nv1.18.3 Fixes\n• Fixed bug where Soryū Circulation \"Kōjōmae direction\" intermediate stops only showed up to City Hall — When boarding from Hanno City Hall, you can now see the complete route: Kōjōmae → Sengen → Municipal Housing... returning to Hanno Station.\n• Unified Hanno City Hall (Mu-Ma bus) and City Hall Front (5931 bus) as the same stop — Consolidated separate stop displays into one.\n\nv1.18.3 Notes\n• Event details modals for the Tourism Association, Civic Hall, and other venues now display a \"🔗 Information Source URL\" link (display feature added in v1.18.2; data arrives in this release).\n\nv1.18.4 New Features\n• \"UV\" (ultraviolet strength) added to the weather section — Displays with color coding, like \"☀ UV Very Strong\". Five levels match Japan Meteorological Agency standards: Weak, Moderate, Strong, Very Strong, and Extreme. Check before heading out to decide on hats and sunscreen.",
   "end": {
     "date": "2026-05-20"
   },
@@ -26,5 +26,5 @@
   },
   "status": "confirmed",
   "summary": "Myはんのう v1.18.4",
-  "updated": "2026-05-22T03:36:32.025Z"
+  "updated": "2026-05-22T05:38:50.077Z"
 }

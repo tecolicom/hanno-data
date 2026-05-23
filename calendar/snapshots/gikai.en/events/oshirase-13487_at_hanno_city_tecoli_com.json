@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "Automated translation (refer to source for accuracy)\n\nThe \"Hanno City Living Guide 2026\" (published in April 2026 / Reiwa 8) contained some omissions. Below are additional medical and health facilities that should have been included.\n\n【Pharmacies】 Planned for page 67\n• Heart Pharmacy Hanno Okawara Branch\n  Address: Okawara 935-3\n  Phone: 980-5195\n\n【Treatment Facilities】 Planned for page 69\n• Mura Osteopathic Clinic\n  Address: Kawadera 46-3\n  Services: Judo therapy (柔道整復)\n  Phone: 911-9616\n\n• Mura Acupuncture and Moxibustion Clinic\n  Address: Kawadera 46-3\n  Services: Acupuncture and moxibustion\n  Phone: 911-9616\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/13487.html",
+  "description": "Automated translation (refer to source for accuracy)\n\nThis notice announces additional entries for the \"Hanno Living Guide 2026.\"\n\nThe following medical facilities and clinics that were accidentally omitted from the April 2026 (Reiwa 8) edition have been corrected and added as follows:\n\n【Pharmacies (Insurance-covered)】 Page 67 addition\n• Heart Pharmacy Hanno Okawara Branch   935-3 Okawara   Phone: 980-5195\n\n【Treatment facilities, etc. (Insurance-covered)】 Page 69 additions\n• Mura Bone-Setting Clinic   46-3 Kawadera   Judo Therapy (Judotherapy)   Phone: 911-9616\n• Mura Acupuncture & Moxibustion Clinic   46-3 Kawadera   Acupuncture & Moxibustion   Phone: 911-9616\n\nWe apologize for any inconvenience caused by these omissions.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/13487.html",
   "end": {
     "date": "2026-05-13"
   },
@@ -29,6 +29,6 @@
     "date": "2026-05-12"
   },
   "status": "confirmed",
-  "summary": "ℹ️ Additions to the Hanno City Living Guide 2026",
-  "updated": "2026-05-22T03:36:01.459Z"
+  "summary": "ℹ️ Additions to the Hanno Living Guide 2026",
+  "updated": "2026-05-22T05:38:20.353Z"
 }

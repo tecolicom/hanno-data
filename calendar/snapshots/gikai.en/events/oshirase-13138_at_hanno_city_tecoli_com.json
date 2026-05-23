@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "Automated translation (refer to source for accuracy)\n\nHanno City will hold a regular press conference on February 20, 2026 (Reiwa 8).\n\n【Scheduled agenda items】\n• 6th Hanno City Comprehensive Promotion Plan Implementation Plan – Reiwa 8 Priority Measures (3rd Hanno City Comprehensive Strategy for Creating Places, People, and Jobs) (draft)\n• 8th Hanno City Administrative Reform Guidelines (draft)\n• Regarding special compensation provisions for the Mayor and staff\n• Outline of the Reiwa 8 budget proposal\n• Emergency fiscal measures\n• Implementation of trial soundings for food truck and similar vendors at public facilities\n• Regarding the opening of the Asu-Okokubo Line (Iwasawa section)\n• Plans starting in Reiwa 8\n\nDetailed materials (PDF files) for each agenda item are posted on the city's official website.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025/13138.html",
+  "description": "Automated translation (refer to source for accuracy)\n\nA regular press conference of the Hanno City Mayor will be held on February 20, 2026 (Reiwa 8).\n\nPlanned agenda items:\n\n• The 6th Hanno City Comprehensive Promotion Plan Implementation Plan – FY2026 Priority Measures (3rd Hanno City Comprehensive Strategy for Creating Towns, People, and Jobs – draft)\n\n• Draft 8th Hanno City Administrative Reform Outline\n\n• Special provisions regarding compensation for the Mayor and other city staff\n\n• Overview of the FY2026 budget proposal\n\n• Emergency financial measures\n\n• Trial and sounding of food truck and other vendor operations at public facilities\n\n• Opening of the Asu-Okokubo Line (Iwasawa section)\n\n• Plans launching in FY2026\n\nDetailed materials are available as PDFs.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025/13138.html",
   "end": {
     "date": "2026-02-21"
   },
@@ -29,6 +29,6 @@
     "date": "2026-02-20"
   },
   "status": "confirmed",
-  "summary": "ℹ️ Regular press conference (held February 20, 2026 (Reiwa 8))",
-  "updated": "2026-05-22T03:32:53.895Z"
+  "summary": "ℹ️ Regular press conference (February 20, 2026)",
+  "updated": "2026-05-22T05:35:21.638Z"
 }

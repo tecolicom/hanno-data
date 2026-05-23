@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "Automated translation (refer to source for accuracy)\n\nHohoemi Home Care Nursing Station provides services to support daily life for people receiving medical care at home. Nurses and other care staff visit based on your doctor's instructions.\n\n【Location】25-1 Torashide, Hanno City, Saitama Prefecture (inside Higashi-Agano Medical and Long-term Care Center)\n【Phone】042-978-1922\n\n【Visit Times】Monday to Friday, 8:30 AM to 5:15 PM\n【Visit Frequency】Generally up to 3 times per week (varies depending on condition)\n【Closed】Saturdays, Sundays, public holidays, year-end and New Year period (December 29 – January 3)\n\n【Services Provided】Health monitoring, pressure ulcer prevention and care, rehabilitation, management of tubes and catheters, assistance with bathing and meals, nursing care for dementia and mental illness patients, and other medical procedures as directed by your doctor\n\n【Who Can Use】Bedridden individuals, people needing rehabilitation, those requiring medical procedures or management, people with rare diseases or terminal cancer who wish to receive care at home, people with dementia or mental illness requiring nursing care\n\n【Fees】Differ depending on whether you are covered by long-term care insurance or health insurance. Please call for details.\n\nEstablished in 2000. Many of our nursing staff have experience in medical settings, and we have strong partnerships with medical institutions. We strictly maintain confidentiality.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/iryo/2431.html",
+  "description": "Automated translation (refer to source for accuracy)\n\nHohoemis Home Nursing Station is located within the Higashi-Agano Medical and Care Center and staffed by nurses with extensive experience in medical settings. Based on instructions from your primary care physician, we support home care life through health monitoring, pressure ulcer prevention, rehabilitation, personal care, and medical procedures.\n\n【Who we serve】 Bedridden individuals, those needing rehabilitation, those requiring medical procedures, those with intractable diseases, terminal cancer, dementia, or mental illness who wish to receive home care, and others.\n\n【Visiting schedule】 Monday–Friday (closed weekends, holidays, year-end/New Year)\n【Visiting hours】 8:30 a.m. to 5:15 p.m.\n【Frequency】 Up to 3 visits per week in principle (varies by condition)\n\n【Fees】\n• Long-term care insurance users: For nurse visits, under 20 minutes ¥328–¥982 (varies by self-pay rate), 20–30 minutes ¥491–¥1,473, etc.\n• Medical insurance users: Self-pay rate is 20–30% depending on age and insurance status\nFor details, please contact us.\n\n【Location】 25-1 Torahide, Hanno, Saitama Prefecture (within Higashi-Agano Medical and Care Center; dedicated entrance on basement floor)\n【Phone】 042-978-1922\n\nWe use an online eligibility verification system that accepts My Number Cards.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/iryo/2431.html",
   "end": {
     "date": "2026-04-02"
   },
@@ -29,6 +29,6 @@
     "date": "2026-04-01"
   },
   "status": "confirmed",
-  "summary": "ℹ️ Hohoemi Home Care Nursing Station",
-  "updated": "2026-05-22T03:34:36.533Z"
+  "summary": "ℹ️ Hohoemis Home Nursing Station",
+  "updated": "2026-05-22T05:36:59.395Z"
 }

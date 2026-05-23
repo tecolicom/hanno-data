@@ -1,0 +1,34 @@
+{
+  "created": "2026-05-22T03:54:25.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "5月18日（月曜日）、令和8年3月31日をもって人権擁護委員をご退任された毛利淳子様に対し、法務大臣からの感謝状がさいたま地方法務局所沢支局長 高山広治氏より贈呈されました。\n\nまた、4月1日付で新たに人権擁護委員に委嘱された大野美智子様への委嘱状の授与を執り行いました。\n\n市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202605/13575.html",
+  "end": {
+    "date": "2026-05-19"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2VkazZpb3I4ZHNtbTRyM2Zjc21qMmNwbDZzcWswcTMxZHBuNnViajNkNXE3aWJqa2NsaG11cjM5NXBobXVyOCA2NzQ1OTE0YjI0MzIzMTEyYTE1ZjQzZGMyMGIzYTBmNGE0ODE3YWZkODAwYzhkMTY4N2QwYmYwYjdmODkwYzYxQGc",
+  "iCalUID": "shicho-blog-13575@hanno.city.tecoli.com",
+  "id": "_edk6ior8dsmm4r3fcsmj2cpl6sqk0q31dpn6ubj3d5q7ibjkclhmur395phmur8",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市政",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202605/13575.html"
+  },
+  "start": {
+    "date": "2026-05-18"
+  },
+  "status": "confirmed",
+  "summary": "📝 市長：人権擁護委員 感謝状贈呈及び委嘱状授与式",
+  "updated": "2026-05-22T07:21:27.259Z"
+}

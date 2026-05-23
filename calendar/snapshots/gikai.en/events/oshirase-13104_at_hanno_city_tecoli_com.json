@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "Automated translation (refer to source for accuracy)\n\nTove Jansson Akebono Children's Forest Park will trial changes to its opening days and hours starting in fiscal year 2026 (Reiwa 8) as part of a review of park operations.\n\n【Changes to Opening Days】\nBusy season (April–May, mid-September–December, late March): Open Tuesday–Sunday, closed every Monday (or the next weekday if Monday is a holiday)\nQuiet season (June–early September, January–mid-March): Open Thursday–Sunday, closed Mondays, Tuesdays, and Wednesdays (with day-off adjustments if a holiday falls on these days)\nYear-end and New Year period (December 28–January 4): Closed as usual\n\n【Changes to Opening Hours】\nThe evening light-up events held on Saturdays, Sundays, and holidays will end on March 29, 2026. The closing time on all open days will be 17:00.\n\nFor detailed information about opening days and hours, please check the fiscal year 2026 opening calendar on Hanno City's website.\n\nSource (Japanese): https://www.city.hanno.lg.jp/akebono/oshirase/13104.html",
+  "description": "Automated translation (refer to source for accuracy)\n\nStarting in fiscal year 2026 (Reiwa 8), Tove Jansson Akebono Children's Forest Park will change its operating schedule.\n\n【Changes to Opening Days】\nOpening days will be adjusted on a trial basis depending on seasonal usage patterns.\n\nBusy season (April–May, mid-September–December, late March): Open Tuesday–Sunday, closed every Monday (or the following weekday if Monday is a holiday)\n\nQuiet season (June–early September, January–mid-March): Open Thursday–Sunday, closed every Monday, Tuesday, and Wednesday (holidays observed with compensatory opening days)\n\nYear-end and New Year (December 28–January 4): Closed as usual\n\n【Changes to Opening Hours】\nEvening lighting after sunset on Saturdays, Sundays, and holidays will be suspended as of March 29, 2026 (Sunday). All opening days will now close at 5:00 PM.\n\nFor a detailed opening day and hour calendar, please check the Hanno City website opening calendar.\n\nSource (Japanese): https://www.city.hanno.lg.jp/akebono/oshirase/13104.html",
   "end": {
     "date": "2026-02-26"
   },
@@ -29,6 +29,6 @@
     "date": "2026-02-25"
   },
   "status": "confirmed",
-  "summary": "ℹ️ Changes to opening days and hours at Tove Jansson Akebono Children's Forest Park (trial from fiscal year 2026)",
-  "updated": "2026-05-22T03:33:02.633Z"
+  "summary": "ℹ️ Changes to opening days and hours at Tove Jansson Akebono Children's Forest Park (trial program)",
+  "updated": "2026-05-22T05:35:30.132Z"
 }

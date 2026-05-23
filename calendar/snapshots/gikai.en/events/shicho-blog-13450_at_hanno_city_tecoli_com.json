@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "Automated translation (refer to source for accuracy)\n\nHanno City Hall has launched a social experiment in partnership with the Oku-Musashi Tourism Association. Starting today, April 1st, through June 30th (Reiwa 6), food trucks and market stalls will operate on weekday lunch hours at the city hall grounds.\n\nThis initiative aims to make better use of public facilities as a resource, improve convenience for residents, create new business opportunities for local vendors, and support sustainable city management.\n\nFood trucks operate almost daily, and market stalls are held once a week on the main office building's wood deck.\n\nDifferent vendors rotate in each day, and the public is welcome to visit. Please stop by!\n\nFor details about this project and vendor information, see the URL below:\n\nhttp://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/13132.html\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13450.html",
+  "description": "Automated translation (refer to source for accuracy)\n\nStarting today, April 1, through June 30, Hanno City Hall is running a social experiment in partnership with the Oku-Musashi Tourism Association. During weekday lunch hours, food trucks and a market will operate on the city hall grounds.\n\nThis initiative makes use of public facilities to improve convenience for residents, create new business opportunities for local vendors, and support sustainable city operations.\n\nFood trucks operate almost daily, and the market is held once a week on the main building's wood deck. Different vendors rotate in daily, and the public is welcome to visit.\n\nFor details about the program and vendor information, see the link below:\n\nhttp://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/13132.html\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13450.html",
   "end": {
     "date": "2026-04-02"
   },
@@ -29,6 +29,6 @@
     "date": "2026-04-01"
   },
   "status": "confirmed",
-  "summary": "📝 Mayor's Report: Starting a Social Experiment with Food Trucks and Market Stalls",
-  "updated": "2026-05-22T03:34:40.656Z"
+  "summary": "📝 Mayor's Update: Food Truck and Market Social Experiment Launches",
+  "updated": "2026-05-22T05:37:03.463Z"
 }

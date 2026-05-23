@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "Automated translation (refer to source for accuracy)\n\nSaitama Prefecture will start the \"Hazard Map by Voice\" service on May 1, 2026 (Friday, Reiwa 8). This is a service that provides hazard map information—such as flooding and mudslide risks—by voice for people with visual impairments and others.\n\n【Main features】\n• Voice reading of elevation and disaster risks (flood depth, time until water level drops, etc.) for any location such as your current position or home\n• Voice and vibration guidance to the nearest evacuation shelter\n• Voice reading of weather alerts and warnings from the Japan Meteorological Agency\n\n【How to use】\nInstall and use the free app \"Uni-Voice Blind\". It is a voice code app that reads \"Uni-Voice\" codes and can be installed from each app store.\n\nBy checking disaster risks and evacuation shelters in advance, you can carry out evacuation actions smoothly.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/5/13507.html",
+  "description": "Automated translation (refer to source for accuracy)\n\nSaitama Prefecture will start the 'Hazard Map by Ear' service on May 1, 2026 (Reiwa 8). This service is available to people with visual impairments and others, and provides audio information about hazard maps for flooding, landslides, and other disasters.\n\n【Main Features】\n• Audio readout of elevation and disaster risks (flood depth, time until water recedes, etc.) for any location like your current position or home\n• Voice and vibration guidance to the nearest evacuation site\n• Audio readout of weather alerts and warnings from the Japan Meteorological Agency\n\n【How to Use】\nDownload the free \"Uni-Voice Blind\" app. It reads voice codes labeled \"Uni-Voice\" and is available from each app store.\n\nYou can check disaster risks and evacuation sites in advance, which helps enable smooth evacuation.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/5/13507.html",
   "end": {
     "date": "2026-05-08"
   },
@@ -29,6 +29,6 @@
     "date": "2026-05-07"
   },
   "status": "confirmed",
-  "summary": "ℹ️ New \"Hazard Map by Voice\" service launches May 1, 2026",
-  "updated": "2026-05-22T03:35:51.244Z"
+  "summary": "ℹ️ 'Hazard Map by Ear' service launches May 1, 2026",
+  "updated": "2026-05-22T05:38:10.603Z"
 }

@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "🕒 10:00–16:00\n\nAutomated translation (refer to source for accuracy)\n\n14th Hanno Crafts Fair\nMay 15–17, 2026 (Reiwa 8)\nFriday, Saturday, Sunday\n10:00 a.m.–5:00 p.m. (final day until 4:00 p.m.)\n\nA handmade market featuring craft vendors and food booths. Exhibitors showcase pottery, woodworking, metalwork, textiles, dyeing, weaving, leather, glass, bamboo, accessories, and more.",
+  "description": "🕒 10:00–16:00\n\nAutomated translation (refer to source for accuracy)\n\nThe 14th Hanno Craft Fair\nMay 15–17, 2026 (Reiwa 8)\nFriday, Saturday, and Sunday\n10:00–17:00 (Final day closes at 16:00)\n\nA handmade goods market featuring craft vendors working in ceramics, woodworking, metalwork, fabric, dyeing, weaving, leather, glass, bamboo, accessories, and more, plus food stalls.",
   "end": {
     "date": "2026-05-18"
   },
@@ -30,6 +30,6 @@
     "date": "2026-05-17"
   },
   "status": "confirmed",
-  "summary": "14th Hanno Crafts Fair (Final Day)",
-  "updated": "2026-05-22T03:36:25.001Z"
+  "summary": "The 14th Hanno Craft Fair (Final Day)",
+  "updated": "2026-05-22T05:38:43.438Z"
 }

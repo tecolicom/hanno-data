@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "Automated translation (refer to source for accuracy)\n\nWater meter theft is happening frequently across Japan. Meters are loaned to users by Hanno City Water Service, so please manage them properly.\n\nCheck your meter regularly, including for leaks. If you discover theft or see suspicious activity around your meter box, contact the police or the Water Service Division (phone: 042-973-2111).\n\nTheft often happens at: apartment buildings, vacant houses, empty lots, and construction sites for new homes.\n\nMeter reading is done by Daiichi Kanshi Co., Ltd. Their inspectors wear uniforms and carry ID issued by the city—if anything seems suspicious, ask to see their credentials.\n\nWater meters have a legal lifespan of 8 years. Before the deadline, we replace them. You'll get a postcard about 1 month before your replacement date. The work is done by shops in the Hanno City Water Service Cooperative Association; staff wear armbands. If anything seems suspicious, ask to confirm their credentials.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/suidogyomuka/13515.html",
+  "description": "Automated translation (refer to source for accuracy)\n\nWater meters are being stolen across the country. Hanno City asks residents to manage their meters properly.\n\nCheck your meter regularly, including for leaks. If you discover theft or see suspicious activity around a meter box, contact the police or the Water Services Division (phone: 042-973-2111).\n\n【Places where theft is common】\n• Apartment buildings\n• Vacant houses\n• Empty land\n• Construction sites at new homes\n\n【About meter readings】\nReaings are done by Daiichi Kankyo Co., Ltd., contracted by Hanno City. Meter readers wear uniforms and carry photo IDs issued by the city. If you have doubts, ask to see their ID.\n\n【About meter replacement】\nWater meters have an 8-year expiration date set by law, and we replace them before that date expires. If your meter needs replacement, you will receive a postcard titled \"Water Meter Replacement Notice\" about one month before the scheduled replacement date. Replacement is done by water service contractors in the city who belong to the Hanno City Water Works Cooperative, and workers wear armbands. If you have doubts, ask to see their armband.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/suidogyomuka/13515.html",
   "end": {
     "date": "2026-05-02"
   },
@@ -30,5 +30,5 @@
   },
   "status": "confirmed",
   "summary": "ℹ️ Watch out for water meter theft",
-  "updated": "2026-05-22T03:35:35.217Z"
+  "updated": "2026-05-22T05:37:55.712Z"
 }

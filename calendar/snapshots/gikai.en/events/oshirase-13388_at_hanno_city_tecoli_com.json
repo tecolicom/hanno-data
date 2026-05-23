@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "Automated translation (refer to source for accuracy)\n\nA list of press releases from Hanno City.\n\n【April 30, 2026 (Reiwa 8)】\nNo-necktie dress code year-round at City Hall\nClothing at City Hall will be no-necktie year-round.\n\n【April 24, 2026】\nDonation from Ome Shinkin Bank\nOme Shinkin Bank will make a donation to Hanno City.\n\n【April 22, 2026】\nLaunch of the Arima Area Water Source Forest Conservation Project (nickname: \"Forest Project for Mountain Hawks and Japanese Dormice\")\nA new project focused on conserving water source forests is launching.\n\n【April 20, 2026】\nDonation ceremony from Hanno Rotary Club\nHanno Rotary Club will present a donation to Hanno City.\n\n【April 6, 2026】\nDonation from MX Mobiling Co., Ltd. (Corporate Hometown Tax)\nMX Mobiling Co., Ltd. will make a donation through the Corporate Hometown Tax program.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025_1/13388.html",
+  "description": "Automated translation (refer to source for accuracy)\n\nPress release materials list for fiscal 2026. To create calendar summaries, please provide the full text of specific press releases you'd like translated, or let us know which announcements should be featured.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025_1/13388.html",
   "end": {
     "date": "2026-05-01"
   },
@@ -29,6 +29,6 @@
     "date": "2026-04-30"
   },
   "status": "confirmed",
-  "summary": "ℹ️ Press releases for Fiscal Year 2026 (Reiwa 8)",
-  "updated": "2026-05-22T03:35:28.650Z"
+  "summary": "ℹ️ Fiscal 2026 (Reiwa 8) Press Release Materials",
+  "updated": "2026-05-22T05:37:49.500Z"
 }
