@@ -1,7 +1,7 @@
 uid: "np9r06q309d1no96h3t2hfje5k@google.com"
 summary: "Myはんのう v1.23.0"
 dtstart: "2026-05-22"
-dtend: "2026-05-24"
+dtend: "2026-05-22"
 description: |-
   ### v1.23.0 全体の見た目
   - **画面上部の現在地表示が常に見える** — どのページでもパンくず (`飯能市 > バス > ...`) が固定で残り、長いページをスクロール中でも「今どこにいるか」が分かる。あわせて iPhone の Dynamic Island / ノッチ周りで本文がスクロールしてしまう不快感も解消
@@ -27,7 +27,7 @@ description: |-
 
 render:
   gcal:
-    mode: span-allday
+    mode: single-allday
 translations:
   en:
     summary: "Myはんのう v1.23.0"
