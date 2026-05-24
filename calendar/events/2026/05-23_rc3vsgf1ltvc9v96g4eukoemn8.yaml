@@ -1,7 +1,7 @@
 uid: "rc3vsgf1ltvc9v96g4eukoemn8@google.com"
 summary: "Myはんのう v1.24.0"
 dtstart: "2026-05-23"
-dtend: "2026-05-29"
+dtend: "2026-05-23"
 description: |-
   推し店まわりを「探す → 推す → 推し友に見せる」の流れで整理。
   
@@ -18,4 +18,4 @@ description: |-
 
 render:
   gcal:
-    mode: span-allday
+    mode: single-allday
