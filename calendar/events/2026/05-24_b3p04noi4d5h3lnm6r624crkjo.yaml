@@ -1,7 +1,7 @@
 uid: "b3p04noi4d5h3lnm6r624crkjo@google.com"
 summary: "Myはんのう v1.27.3"
 dtstart: "2026-05-24"
-dtend: "2026-05-26"
+dtend: "2026-05-24"
 description: |-
   同日に複数バージョン (v1.25.0 → v1.26.x → v1.27.x) をリリース。
   
@@ -29,4 +29,4 @@ description: |-
 
 render:
   gcal:
-    mode: span-allday
+    mode: single-allday
