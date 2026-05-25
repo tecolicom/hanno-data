@@ -137,6 +137,15 @@ city-tecoli UI はこれをグルーピングキーに使う。
 例: `中沢・中藤方面` / `名栗・湯の沢方面` / `原市場行政センター方面` /
     `飯能駅・東飯能駅方面`。
 
+### Route 分類は運行会社の系統名に拘らない (synthesized routes)
+
+`route_long_name` は運行会社の公式系統名と一致する場合もしれば、利用者目線で
+切り出した「synthesized route」になる場合もある (例: `5931bus:こまニュータウン循環`)。
+NaviTime course の中で複数系統が同居していて、利用者目線で別物として扱う方が
+分かりやすい場合に、`tools/bus-timetable-extractor/routes-hanno-2026.yaml` の
+`code_overrides` で trip code 単位に line を切り出して別 route とする。
+詳細は extract.py の `assign_trip_ids` / `build_routes_from_records` 参照。
+
 ### Cross-feed transfer
 
 `5931bus.yaml` の `transfers` は NaviTime の ●/※ マーカーから合成された
