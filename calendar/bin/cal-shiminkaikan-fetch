@@ -25,50 +25,19 @@ import urllib.request
 from datetime import date as _date, datetime
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from _lib import existing_content_hash_matches
+from _lib import (
+    USER_AGENT, UID_NAMESPACE, fetch, existing_content_hash_matches,
+    yaml_escape_str, yaml_block_scalar, strip_html, collapse_space,
+    normalize_fullwidth_digits, normalize_tilde, infer_year_from_og,
+)
 from typing import Iterable
 
 
-USER_AGENT = "myhanno-calendar-fetcher/0.1 (+https://city.tecoli.com)"
-UID_NAMESPACE = "hanno.city.tecoli.com"
 DEFAULT_UID_PREFIX = "shiminkaikan"
 SOURCE_TYPE = "city-hanno-shiminkaikan"
 SOURCE_URL = "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html"
 URL_ALLOWLIST = re.compile(r"^https://www\.city\.hanno\.lg\.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889\.html$")
 ASSUMED_DURATION_HOURS = 2  # 開演時刻のみ記載 → 終了時刻は +2h と仮定
-
-
-# ---------- HTML fetch / normalize ----------
-
-
-def fetch_html(url: str) -> str:
-    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-    with urllib.request.urlopen(req, timeout=30) as r:
-        return r.read().decode("utf-8", errors="replace")
-
-
-def strip_tags(s: str) -> str:
-    s = re.sub(r"<[^>]+>", "", s)
-    return s.replace("&nbsp;", " ").replace("&amp;", "&").replace("&lt;", "<").replace("&gt;", ">").replace("&quot;", '"')
-
-
-def collapse_space(s: str) -> str:
-    return re.sub(r"\s+", " ", s).strip()
-
-
-def normalize_fullwidth_digits(s: str) -> str:
-    out = []
-    for c in s:
-        co = ord(c)
-        if 0xff10 <= co <= 0xff19:
-            out.append(chr(co - 0xff10 + 0x30))
-        else:
-            out.append(c)
-    return "".join(out)
-
-
-def normalize_tilde(s: str) -> str:
-    return s.replace("～", "〜")
 
 
 # ---------- 構造抽出 ----------
@@ -82,7 +51,7 @@ def extract_tables(html: str) -> list[list[list[str]]]:
         for tr in re.finditer(r"<tr[^>]*>([\s\S]*?)</tr>", tm.group(1)):
             cells = []
             for cm in re.finditer(r"<(?:td|th)[^>]*>([\s\S]*?)</(?:td|th)>", tr.group(1)):
-                cells.append(normalize_tilde(collapse_space(strip_tags(cm.group(1)))))
+                cells.append(normalize_tilde(collapse_space(strip_html(cm.group(1)))))
             if cells:
                 rows.append(cells)
         if rows:
@@ -115,11 +84,6 @@ def parse_date_jp(date_text: str, year: int) -> str | None:
     except ValueError:
         return None
     return f"{year}-{mm:02d}-{dd:02d}"
-
-
-def infer_year(html: str) -> int:
-    m = re.search(r'<meta[^>]+property=["\']og:updated_time["\'][^>]+content=["\'](\d{4})-', html)
-    return int(m.group(1)) if m else _date.today().year
 
 
 def session_year_ok(date_str: str) -> bool:
@@ -180,17 +144,6 @@ def extract_events(html: str, year: int) -> list[dict]:
 
 
 # ---------- YAML 出力 ----------
-
-
-def yaml_escape_str(s: str) -> str:
-    return '"' + s.replace("\\", "\\\\").replace('"', '\\"') + '"'
-
-
-def yaml_block_scalar(s: str, indent: int = 2) -> str:
-    pad = " " * indent
-    lines = s.split("\n")
-    head, body = ("|", lines[:-1] if lines and lines[-1] == "" else lines) if s.endswith("\n") else ("|-", lines)
-    return head + "\n" + "\n".join(pad + ln for ln in body)
 
 
 def build_description(ev: dict) -> str:
@@ -283,8 +236,8 @@ def main() -> None:
     if not URL_ALLOWLIST.match(args.url):
         sys.exit(f"URL outside allowlist: {args.url}")
 
-    html = fetch_html(args.url)
-    year = infer_year(html)
+    html = fetch(args.url)
+    year = infer_year_from_og(html)
 
     events = extract_events(html, year)
     if not events:

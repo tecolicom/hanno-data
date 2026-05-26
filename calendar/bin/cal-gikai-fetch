@@ -25,12 +25,13 @@ import urllib.request
 from datetime import date as _date, datetime
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from _lib import existing_content_hash_matches
+from _lib import (
+    USER_AGENT, UID_NAMESPACE, fetch, fetch_binary, existing_content_hash_matches,
+    yaml_escape_str, yaml_block_scalar, reiwa_to_gregorian,
+)
 from typing import Iterable
 
 
-USER_AGENT = "myhanno-calendar-fetcher/0.1 (+https://city.tecoli.com)"
-UID_NAMESPACE = "hanno.city.tecoli.com"
 DEFAULT_UID_PREFIX = "gikai"
 SOURCE_TYPE = "city-hanno-gikai"
 SUMMARY_PREFIX = "🏛 "
@@ -49,12 +50,6 @@ SKIP_ONLY_CONTENTS = {"休会"}
 
 
 # ---------- index ページから最新 PDF を見つける ----------
-
-
-def fetch_html(url: str) -> str:
-    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-    with urllib.request.urlopen(req, timeout=30) as r:
-        return r.read().decode("utf-8", errors="replace")
 
 
 def find_latest_pdf_url(index_html: str) -> tuple[str, int, int]:
@@ -76,15 +71,10 @@ def find_latest_pdf_url(index_html: str) -> tuple[str, int, int]:
     return url, reiwa_y, mm
 
 
-def reiwa_to_gregorian(reiwa_y: int) -> int:
-    # 令和元年 = 2019
-    return 2018 + reiwa_y
-
-
 def find_agenda_url(reiwa_y: int, month: int) -> str | None:
     """kaigijoho/ index ページから対応する議案一覧表ページの URL を探す。"""
     try:
-        html = fetch_html(AGENDA_INDEX_URL)
+        html = fetch(AGENDA_INDEX_URL)
     except Exception:
         return None
     session_kind = "定例会"
@@ -105,7 +95,7 @@ def _find_pdf_by_label(index_url: str, marker: str, reiwa_y: int, month: int) ->
     ファイル名のブレ吸収のため title だけで照合する。
     """
     try:
-        html = fetch_html(index_url)
+        html = fetch(index_url)
     except Exception:
         return None
     session_kind = "定例会"
@@ -126,13 +116,6 @@ def find_ippan_pdf_url(reiwa_y: int, month: int) -> str | None:
 
 def find_sanpi_pdf_url(reiwa_y: int, month: int) -> str | None:
     return _find_pdf_by_label(SANPI_INDEX_URL, "議員別賛否状況", reiwa_y, month)
-
-
-def download_pdf(url: str, dest: str) -> None:
-    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-    with urllib.request.urlopen(req, timeout=30) as r:
-        with open(dest, "wb") as f:
-            f.write(r.read())
 
 
 # ---------- PDF → words (x, y, text) ----------
@@ -277,17 +260,6 @@ def parse_column(words: list[dict], default_year: int, base_month: int) -> list[
 # ---------- YAML 出力 ----------
 
 
-def yaml_escape_str(s: str) -> str:
-    return '"' + s.replace("\\", "\\\\").replace('"', '\\"') + '"'
-
-
-def yaml_block_scalar(s: str, indent: int = 2) -> str:
-    pad = " " * indent
-    lines = s.split("\n")
-    head, body = ("|", lines[:-1] if lines and lines[-1] == "" else lines) if s.endswith("\n") else ("|-", lines)
-    return head + "\n" + "\n".join(pad + ln for ln in body)
-
-
 def build_yaml_doc(uid: str, date_str: str, content: str, source_url: str,
                    source_id: str, html_hash: str, fetched_at: str | None,
                    agenda_url: str | None, ippan_url: str | None,
@@ -381,7 +353,7 @@ def main() -> None:
             reiwa_y = int(m.group(1)) if m else 0
             base_month = int(m.group(2)) if m else _date.today().month
         else:
-            html = fetch_html(INDEX_URL)
+            html = fetch(INDEX_URL)
             url, reiwa_y, base_month = find_latest_pdf_url(html)
 
         year = args.year or reiwa_to_gregorian(reiwa_y)
@@ -391,7 +363,7 @@ def main() -> None:
 
         pdf_path = "/tmp/cal-gikai-tmp.pdf"
         print(f"Fetching PDF: {url}", file=sys.stderr)
-        download_pdf(url, pdf_path)
+        fetch_binary(url, pdf_path)
 
     # 議案一覧表 / 一般質問 / 議員別賛否状況 の各 URL を取りに行く
     agenda_url = ippan_url = sanpi_url = None

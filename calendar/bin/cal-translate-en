@@ -36,6 +36,9 @@ from datetime import datetime
 import yaml
 import httpx
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from _lib import yaml_escape_str, yaml_block_scalar, strip_markdown, AI_DISCLAIMER_JP
+
 
 # --- 設定 ---
 LLM_MODEL = "claude-haiku-4-5"
@@ -79,21 +82,6 @@ Notes:
 """
 
 
-def strip_markdown(text: str) -> str:
-    """LLM が混入させた Markdown を plain text に変換. cal-oshirase-fetch と同じロジック."""
-    if not text:
-        return text
-    text = re.sub(r"\*\*([^*\n]+?)\*\*", r"\1", text)
-    text = re.sub(r"__([^_\n]+?)__", r"\1", text)
-    text = re.sub(r"(?<!\*)\*(?!\*)([^*\n]+?)(?<!\*)\*(?!\*)", r"\1", text)
-    text = re.sub(r"(?<!_)_(?!_)([^_\n]+?)(?<!_)_(?!_)", r"\1", text)
-    text = re.sub(r"(?m)^#{1,6}\s+", "", text)
-    text = re.sub(r"(?m)^[ \t]*[-*]\s+", "• ", text)
-    text = re.sub(r"`([^`\n]+?)`", r"\1", text)
-    text = re.sub(r"\[([^\]\n]+)\]\((https?://[^)\s]+)\)", r"\1 (\2)", text)
-    return text
-
-
 def translate(jp_summary: str, jp_description: str) -> dict | None:
     """Claude Haiku に翻訳依頼. 失敗時 None."""
     api_key = os.environ.get("ANTHROPIC_API_KEY")
@@ -133,9 +121,6 @@ def translate(jp_summary: str, jp_description: str) -> dict | None:
         return None
 
 
-_AI_DISCLAIMER_JP = "AI による要約 (正確な情報は元記事をご確認ください)"
-
-
 def split_description(description: str) -> tuple[str, str | None]:
     """description を (本文, source_url) に分解.
 
@@ -145,7 +130,7 @@ def split_description(description: str) -> tuple[str, str | None]:
     """
     text = description
     # 冒頭 AI disclaimer 行 (oshirase 用) を除去
-    text = re.sub(r"^" + re.escape(_AI_DISCLAIMER_JP) + r"\s*\n+", "", text)
+    text = re.sub(r"^" + re.escape(AI_DISCLAIMER_JP) + r"\s*\n+", "", text)
 
     # 末尾の URL 行 (例: "市長ブログ「市政一直線」: https://...", "飯能市公式サイト 新着情報: https://...")
     source_url = None
@@ -190,16 +175,6 @@ def load_yaml(path: str) -> dict:
         return yaml.safe_load(f) or {}
 
 
-def yaml_escape_str(s: str) -> str:
-    return '"' + s.replace("\\", "\\\\").replace('"', '\\"') + '"'
-
-
-def yaml_block_scalar(s: str, indent: int = 4) -> str:
-    pad = " " * indent
-    lines = s.split("\n")
-    head = "|-" if not s.endswith("\n") else "|"
-    body = lines[:-1] if s.endswith("\n") else lines
-    return head + "\n" + "\n".join((pad + ln if ln else "") for ln in body)
 
 
 def render_translations_block(en_summary: str, en_description: str,

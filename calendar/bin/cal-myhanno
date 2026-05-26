@@ -23,6 +23,9 @@ import subprocess
 import sys
 from typing import Any
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from _lib import yaml_block_scalar
+
 
 DEFAULT_CAL_ID = (
     "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013"
@@ -340,20 +343,6 @@ def yaml_escape_str(s: str) -> str:
         return "null"
     # ダブルクォート内では \ と " をエスケープ
     return '"' + s.replace("\\", "\\\\").replace('"', '\\"') + '"'
-
-
-def yaml_block_scalar(s: str, indent: int = 2) -> str:
-    """改行を含む文字列を YAML の `|` ブロックスカラとして整形."""
-    pad = " " * indent
-    lines = s.split("\n")
-    # 末尾改行があれば `|` (clip)、無ければ `|-` (strip) で書き分ける
-    if s.endswith("\n"):
-        head = "|"
-        body_lines = lines[:-1] if lines and lines[-1] == "" else lines
-    else:
-        head = "|-"
-        body_lines = lines
-    return head + "\n" + "\n".join(pad + ln for ln in body_lines)
 
 
 SLUG_BAD_RE = re.compile(r"[/\\:*?\"<>|\x00-\x1f]")

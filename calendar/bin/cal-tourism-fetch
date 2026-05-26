@@ -29,56 +29,18 @@ from datetime import date as _date, datetime
 from typing import Iterable
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from _lib import existing_content_hash_matches
+from _lib import (
+    USER_AGENT, UID_NAMESPACE, fetch, existing_content_hash_matches,
+    yaml_escape_str, yaml_block_scalar, strip_html, collapse_space,
+    normalize_fullwidth_digits, normalize_tilde,
+    infer_year_from_og,
+)
 
-
-USER_AGENT = "myhanno-calendar-fetcher/0.1 (+https://city.tecoli.com)"
-UID_NAMESPACE = "hanno.city.tecoli.com"
 DEFAULT_UID_PREFIX = "tourism"
-
-
-# ---------- HTML fetch / normalize ----------
-
-
-def fetch_html(url: str) -> str:
-    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-    with urllib.request.urlopen(req, timeout=30) as r:
-        return r.read().decode("utf-8", errors="replace")
-
-
-_TAG_RE = re.compile(r"<[^>]+>")
-_WS_RE = re.compile(r"\s+")
-
-
-def strip_tags(s: str) -> str:
-    # &nbsp; や HTML エンティティを少し処理
-    s = _TAG_RE.sub("", s)
-    s = s.replace("&nbsp;", " ").replace("&amp;", "&").replace("&lt;", "<").replace("&gt;", ">").replace("&quot;", '"')
-    return s
-
-
-def collapse_space(s: str) -> str:
-    return _WS_RE.sub(" ", s).strip()
-
-
-def normalize_fullwidth_digits(s: str) -> str:
-    out = []
-    for c in s:
-        co = ord(c)
-        if 0xff10 <= co <= 0xff19:
-            out.append(chr(co - 0xff10 + 0x30))
-        else:
-            out.append(c)
-    return "".join(out)
 
 
 def normalize_colon(s: str) -> str:
     return s.replace("：", ":")
-
-
-def normalize_tilde(s: str) -> str:
-    # フルワイドティルダ U+FF5E → 波ダッシュ U+301C
-    return s.replace("～", "〜")
 
 
 # ---------- 構造抽出 ----------
@@ -89,7 +51,7 @@ def extract_raw(html: str) -> tuple[str, str, dict[str, str]]:
     # h1 (空のものをスキップ)
     title = ""
     for m in re.finditer(r"<h1[^>]*>([\s\S]*?)</h1>", html):
-        t = collapse_space(strip_tags(m.group(1)))
+        t = collapse_space(strip_html(m.group(1)))
         if t:
             title = t
             break
@@ -99,7 +61,7 @@ def extract_raw(html: str) -> tuple[str, str, dict[str, str]]:
     art_m = re.search(r'<article[^>]*postSec[^>]*>([\s\S]*?)</article>', html)
     if art_m:
         for pm in re.finditer(r"<p[^>]*>([\s\S]*?)</p>", art_m.group(1)):
-            t = collapse_space(strip_tags(pm.group(1)))
+            t = collapse_space(strip_html(pm.group(1)))
             if len(t) > 30:
                 lead = t
                 break
@@ -109,8 +71,8 @@ def extract_raw(html: str) -> tuple[str, str, dict[str, str]]:
     for dlm in re.finditer(r"<dl[^>]*>([\s\S]*?)</dl>", html):
         dl = dlm.group(1)
         for pm in re.finditer(r"<dt[^>]*>([\s\S]*?)</dt>\s*<dd[^>]*>([\s\S]*?)</dd>", dl):
-            dt = collapse_space(strip_tags(pm.group(1)))
-            dd = collapse_space(strip_tags(pm.group(2)))
+            dt = collapse_space(strip_html(pm.group(1)))
+            dd = collapse_space(strip_html(pm.group(2)))
             if dt:
                 fields[dt] = dd
 
@@ -182,11 +144,6 @@ def session_year_ok(sessions: list[dict]) -> bool:
     return True
 
 
-def infer_year(html: str) -> int:
-    m = re.search(r'<meta[^>]+property=["\']og:updated_time["\'][^>]+content=["\'](\d{4})-', html)
-    return int(m.group(1)) if m else _date.today().year
-
-
 # ---------- YAML 出力 ----------
 
 
@@ -203,20 +160,6 @@ def build_description(lead: str, fields: dict[str, str]) -> str:
         if v and v != "準備中":
             parts.append(f"【{k}】{v}")
     return "\n\n".join(parts)
-
-
-def yaml_escape_str(s: str) -> str:
-    return '"' + s.replace("\\", "\\\\").replace('"', '\\"') + '"'
-
-
-def yaml_block_scalar(s: str, indent: int = 2) -> str:
-    pad = " " * indent
-    lines = s.split("\n")
-    if s.endswith("\n"):
-        head, body = "|", lines[:-1] if lines and lines[-1] == "" else lines
-    else:
-        head, body = "|-", lines
-    return head + "\n" + "\n".join(pad + ln for ln in body)
 
 
 def slug_from_url(url: str) -> str:
@@ -330,7 +273,7 @@ def process_one(url: str, out_dir: str, uid_prefix: str, dry_run: bool) -> int:
         print(f"  WARN: URL outside allowlist, skip: {url}", file=sys.stderr)
         return 0
 
-    html = fetch_html(url)
+    html = fetch(url)
     slug = slug_from_url(url)
 
     if not canonical_url_matches(html, url):
@@ -347,7 +290,7 @@ def process_one(url: str, out_dir: str, uid_prefix: str, dry_run: bool) -> int:
         print(f"  WARN: no '開催日・時間' field, skip {url}", file=sys.stderr)
         return 0
 
-    year = infer_year(html)
+    year = infer_year_from_og(html)
     sessions = parse_sessions(date_field, year)
     if not sessions:
         print(f"  WARN: no sessions parsed from '{date_field}'", file=sys.stderr)

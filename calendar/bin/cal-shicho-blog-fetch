@@ -24,11 +24,14 @@ import urllib.request
 from datetime import date as _date, datetime
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from _lib import read_yaml_scalar
+from _lib import (
+    USER_AGENT, UID_NAMESPACE, fetch, read_yaml_scalar,
+    yaml_escape_str, yaml_block_scalar, strip_html, normalize_body,
+    reiwa_to_gregorian, gregorian_to_reiwa,
+    output_path_for, find_existing_by_uid,
+)
 
 
-USER_AGENT = "myhanno-calendar-fetcher/0.1 (+https://city.tecoli.com)"
-UID_NAMESPACE = "hanno.city.tecoli.com"
 DEFAULT_UID_PREFIX = "shicho-blog"
 SOURCE_TYPE = "city-hanno-shicho-blog"
 SUMMARY_PREFIX = "📝 市長："
@@ -37,10 +40,6 @@ URL_HOST_ALLOWLIST = "www.city.hanno.lg.jp"
 URL_PATH_PREFIX = "/shiseijoho/shichoshitsu/shichoblog/"
 
 
-def fetch_html(url: str) -> str:
-    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-    with urllib.request.urlopen(req, timeout=30) as r:
-        return r.read().decode("utf-8", errors="replace")
 
 
 def safe_url(url: str) -> bool:
@@ -111,35 +110,6 @@ BODY_FULL_THRESHOLD = 800   # この字数以下なら全文掲載
 BODY_EXCERPT_TARGET = 600   # 超過時の目標抜粋字数
 
 
-def _strip_html(s: str) -> str:
-    """HTML タグ + 主要 entity を素のテキストに."""
-    s = re.sub(r"<br\s*/?>", "\n", s, flags=re.I)
-    s = re.sub(r"</p\s*>", "\n\n", s, flags=re.I)
-    s = re.sub(r"<[^>]+>", "", s)
-    s = s.replace("&nbsp;", " ").replace("&amp;", "&")
-    s = s.replace("&lt;", "<").replace("&gt;", ">").replace("&quot;", '"')
-    return s
-
-
-def _normalize_body(text: str) -> str:
-    """段落間 1 空行、行頭空白除去、末尾空白除去."""
-    lines = [ln.rstrip() for ln in text.split("\n")]
-    # 行頭の連続空白は段落字下げの装飾なので除去
-    lines = [re.sub(r"^[ 　]+", "", ln) for ln in lines]
-    # 3 行以上の空行は 2 行に圧縮 (段落区切り = 1 空行)
-    out: list[str] = []
-    blank_run = 0
-    for ln in lines:
-        if ln == "":
-            blank_run += 1
-            if blank_run <= 1:
-                out.append(ln)
-        else:
-            blank_run = 0
-            out.append(ln)
-    return "\n".join(out).strip()
-
-
 def extract_body(html: str) -> str:
     """記事 HTML から本文テキストを抽出.
 
@@ -154,8 +124,8 @@ def extract_body(html: str) -> str:
     block = re.sub(r"<h2[^>]*>[\s\S]*?</h2>", "", block)
     # figure / img は除外
     block = re.sub(r"<figure[^>]*>[\s\S]*?</figure>", "", block)
-    text = _strip_html(block)
-    return _normalize_body(text)
+    text = strip_html(block)
+    return normalize_body(text)
 
 
 def truncate_body(body: str, full_threshold: int = BODY_FULL_THRESHOLD,
@@ -240,17 +210,6 @@ def slug_from_article_url(url: str) -> str:
 # ---------- YAML 出力 ----------
 
 
-def yaml_escape_str(s: str) -> str:
-    return '"' + s.replace("\\", "\\\\").replace('"', '\\"') + '"'
-
-
-def yaml_block_scalar(s: str, indent: int = 2) -> str:
-    pad = " " * indent
-    lines = s.split("\n")
-    head, body = ("|", lines[:-1] if lines and lines[-1] == "" else lines) if s.endswith("\n") else ("|-", lines)
-    return head + "\n" + "\n".join(pad + ln for ln in body)
-
-
 def build_description(article_url: str, body: str, truncated: bool) -> str:
     """description テキストを組み立て.
 
@@ -293,22 +252,7 @@ def build_yaml_doc(uid: str, article_url: str, page_id: str, title: str, date_st
     return "\n".join(lines) + "\n"
 
 
-def output_path_for(out_dir: str, uid: str, date_str: str) -> str:
-    year_part = date_str[:4]
-    md = date_str[5:10]
-    fname = f"{md}_{uid.split('@')[0]}.yaml"
-    return os.path.join(out_dir, year_part, fname)
-
-
 # ---------- main ----------
-
-
-def reiwa_to_gregorian(reiwa_y: int) -> int:
-    return 2018 + reiwa_y
-
-
-def gregorian_to_reiwa(year: int) -> int:
-    return year - 2018
 
 
 def main() -> None:
@@ -331,14 +275,14 @@ def main() -> None:
 
     # 1. top index → 年ページ
     print(f"Fetching top index for 令和{reiwa_y}年 ({year})...", file=sys.stderr)
-    top_html = fetch_html(TOP_URL)
+    top_html = fetch(TOP_URL)
     year_url = find_year_page(top_html, reiwa_y)
     if not year_url:
         print(f"No year page found for 令和{reiwa_y}年", file=sys.stderr)
         sys.exit(0)
 
     # 2. 年ページ → 月ページ list
-    year_html = fetch_html(year_url)
+    year_html = fetch(year_url)
     month_pages = find_month_pages(year_html, reiwa_y)
     print(f"Found {len(month_pages)} month pages", file=sys.stderr)
 
@@ -350,7 +294,7 @@ def main() -> None:
         if not safe_url(month_url):
             print(f"  skip out-of-allowlist month URL: {month_url}", file=sys.stderr)
             continue
-        month_html = fetch_html(month_url)
+        month_html = fetch(month_url)
         articles = find_article_links(month_html)
         print(f"  [令和{reiwa_y}年{mm}月] {len(articles)} articles", file=sys.stderr)
 
@@ -361,14 +305,14 @@ def main() -> None:
             uid = f"{args.uid_prefix}-{page_id}@{UID_NAMESPACE}"
 
             # 既存 YAML 検索 (idempotent + polite)
-            existing_path = _find_existing_by_uid(args.out_dir, uid)
+            existing_path = find_existing_by_uid(args.out_dir, uid)
             if existing_path and not args.refetch_existing:
                 skipped += 1
                 continue
 
             # 記事 fetch
             try:
-                article_html = fetch_html(article_url)
+                article_html = fetch(article_url)
             except Exception as e:
                 print(f"    ERROR fetching {article_url}: {e}", file=sys.stderr)
                 continue
@@ -421,19 +365,6 @@ def main() -> None:
         sys.exit(2)
 
 
-def _find_existing_by_uid(events_dir: str, uid: str) -> str | None:
-    """events_dir 配下に uid を含む YAML が既にあるかチェック."""
-    import glob
-    pattern = os.path.join(events_dir, "**", "*.yaml")
-    for path in glob.glob(pattern, recursive=True):
-        try:
-            with open(path, "r", encoding="utf-8") as f:
-                head = f.read(4096)  # 最初の 4KB だけで十分
-        except Exception:
-            continue
-        if uid in head:
-            return path
-    return None
 
 
 # _read_yaml_scalar は _lib.read_yaml_scalar に移行 (= 重複削除)
