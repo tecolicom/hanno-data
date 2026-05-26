@@ -69,3 +69,44 @@ source:
   fetched_at: "2026-05-25T23:09:15.508350Z"
   content_hash: "sha256-bc0c4a6bb5fa1793"
   summary_method: "full"
+translations:
+  en:
+    summary: "ℹ️ Enrollment now open at unlicensed childcare facilities (as of April 2026, Reiwa 8)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      About Unlicensed Childcare Facilities
+
+      An "unlicensed childcare facility" is any facility that provides childcare for infants and young children but has not received official approval from the prefectural governor (or designated city/core city mayor). If you wish to use an unlicensed facility, please contact the facility directly.
+
+      Service content and fees vary by facility. To prevent problems arising from unclear explanations about fees and other contract matters, or from misunderstandings by families, please carefully review the contract terms before enrolling.
+
+      Current Enrollment Status (April 2026, Reiwa 8)
+
+      Facility Name: Seikatsu Club Taiyo Sukusuku Hoikuen
+      Address/Phone: 34 Shimokawasaki, Hanno / 042-972-1522
+      Who can enroll: Children of employees only (Seikatsu Club Hanno Delivery Center hiring)
+      Age range / Capacity: Ages 57 days and up to elementary school / 19 children
+      Days/Hours: Monday–Saturday, holidays (closed one week for Obon and year-end/New Year) / 8:15 AM–6:45 PM
+
+      Facility Name: Nichinichinohara (Nature Experience Learning & Free School)
+      Address/Phone: 603 Koiwai, Hanno / 090-1434-1453
+      Who can enroll: No restrictions
+      Age range / Capacity: Ages 1–5 / 30 children
+      Days/Hours: Monday–Friday (closed weekends and holidays) / 8:30 AM–4:00 PM (extended hours available by arrangement)
+
+      About Free Childcare and Education
+
+      Children aged 3 and over who use unlicensed facilities (and are not enrolled in recognized childcare or kindergarten) are eligible for the "Free Childcare and Education" benefit. For information on how to apply, contact the Childcare Division.
+
+      Additional Resources
+
+      You can search for nearby education and childcare facilities, including unlicensed ones, using the "Child and Childcare Support Information System" (nickname: Koko de Search). For the latest information on unlicensed facilities, check the link below.
+
+      Child and Childcare Support Information System (operated by the Japan Social Welfare Council on behalf of the Ministry of Health, Labour and Welfare)
+
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/hoikuka/13413.html
+    translation_hash: "sha256-df9ad205132c161b"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-26T00:53:13.739859Z"
+    format_version: 3

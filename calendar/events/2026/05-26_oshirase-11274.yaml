@@ -41,3 +41,36 @@ source:
   fetched_at: "2026-05-25T23:09:16.673195Z"
   content_hash: "sha256-487172713fc14112"
   summary_method: "full"
+translations:
+  en:
+    summary: "ℹ️ Citizen Activity Center event: Tanabata Concert"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      Enjoy music at the Citizen Activity Center!
+
+      Date and time: Sunday, July 5, 2026 (Reiwa 8), 2:00 p.m.–3:00 p.m.
+
+      Location: Hanno City Citizen Activity Center, Multipurpose Hall
+
+      Performers: Bell Époque
+
+      Program: Flute and piano ensemble
+
+      Capacity: 80 people
+
+      Application period: Starting Friday, June 12, 2026 (Reiwa 8)
+
+      Applications close when capacity is reached. If spaces remain available, entry on the day of the event is also possible.
+
+      How to apply: By telephone
+
+      Contact the Citizen Activity Center at 042-973-2626.
+
+      • A Tanabata exhibition will be held from Friday, June 26 to Tuesday, July 7, 2026 (Reiwa 8). Please visit at the same time.
+
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jitishinkoka/shiminkatudou/11274.html
+    translation_hash: "sha256-af1f721f0dcbcc39"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-26T00:53:06.315587Z"
+    format_version: 3
