@@ -2,7 +2,8 @@ name: Calendar daily
 
 on:
   schedule:
-    - cron: '0 22 * * *'   # 07:00 JST (= 22:00 UTC previous day)
+    - cron: '0 18 * * *'   # 03:00 JST (= 18:00 UTC previous day)
+                           # 早朝に走らせて、利用者が朝起きる頃には apply 完了している
   workflow_dispatch:
   push:
     branches: [main]
@@ -148,6 +149,49 @@ jobs:
             echo "applied=false" >> "$GITHUB_OUTPUT"
           else
             echo "::error::diff unexpected exit code $ec"
+            exit "$ec"
+          fi
+
+      # ===== EN 翻訳 + EN apply (JP 反映後に走らせて、追従反映する) =====
+
+      - name: Translate to English (only stale / new YAMLs)
+        # translation_hash 一致なら skip するので、変更が無いときは LLM 呼出 0。
+        # ANTHROPIC_API_KEY が無い環境では skip 扱い (errors を出すが exit 0)。
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -z "${ANTHROPIC_API_KEY:-}" ]; then
+            echo "ANTHROPIC_API_KEY not set, skipping translation"
+            exit 0
+          fi
+          ./calendar/bin/cal-translate-en --events-dir calendar/events
+
+      - name: Commit translation changes
+        run: |
+          if [ -n "$(git status --porcelain calendar/events)" ]; then
+            git add calendar/events
+            git commit -m "calendar: EN translations $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          else
+            echo "no translation changes"
+          fi
+
+      - name: Apply EN events to Calendar (if drift)
+        env:
+          GOOGLE_APPLICATION_CREDENTIALS: /tmp/sa.json
+        run: |
+          set +e
+          ./calendar/bin/cal-myhanno diff -d calendar/events --lang en
+          ec=$?
+          set -e
+          if [ "$ec" -eq 2 ]; then
+            echo "EN drift detected, applying..."
+            ./calendar/bin/cal-myhanno apply-all -d calendar/events --lang en --only-managed
+            ./calendar/bin/cal-myhanno diff -d calendar/events --lang en
+          elif [ "$ec" -eq 0 ]; then
+            echo "EN in sync, no apply needed"
+          else
+            echo "::error::EN diff unexpected exit code $ec"
             exit "$ec"
           fi
 
