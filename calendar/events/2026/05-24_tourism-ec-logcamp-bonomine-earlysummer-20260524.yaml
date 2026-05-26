@@ -28,3 +28,26 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-logcamp-bonomine-earlysummer/"
   fetched_at: "2026-05-16T15:10:01.173032Z"
   content_hash: "sha256-8e71b038ea4ce001"
+translations:
+  en:
+    summary: "🎉 Stream hiking and game meat dinner tour at Bonomine — RECRUITMENT CANCELLED"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-logcamp-bonomine-earlysummer/
+
+      【RECRUITMENT CANCELLED BY ORGANIZER】
+
+      This tour aimed to head for the summit of Bonomine, learning the basics of stream hiking on the scenic Shiratani Stream route through gorge terrain, and enjoying the stream. Lunch and dinner were to feature prepared bentos and a dinner course from a game meat restaurant, with an educational component about wild game (jibier).
+
+      【Fee】23,000 yen per person (includes guide service, lunch and dinner, insurance)
+
+      【Capacity】5 people
+
+      【Guide】Tsuyoshi Shinohara, member of Japan Alpine Guides Association, mountaineering guide stage III
+
+      【What to bring】20-liter backpack (with full waterproofing measures), full stream hiking gear, change of clothes, helmet, harness, mountaineering equipment, bus fare, bathing fee, train fare
+    translation_hash: "sha256-c175956140799cde"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-26T02:47:01.411850Z"
+    format_version: 3

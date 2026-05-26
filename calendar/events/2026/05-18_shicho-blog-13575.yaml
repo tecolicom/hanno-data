@@ -20,3 +20,18 @@ source:
   url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202605/13575.html"
   fetched_at: "2026-05-22T03:52:55.484393Z"
   content_hash: "sha256-161fed7604a84408"
+translations:
+  en:
+    summary: "📝 Mayor: Appreciation ceremony for human rights ombudspersons"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      On May 18 (Monday, Reiwa 8), a certificate of appreciation from the Minister of Justice was presented to Junko Mori, who retired as a human rights ombudsperson on March 31, 2026, by Koji Takayama, Director of the Tokorozawa Branch of the Saitama Regional Legal Affairs Bureau.
+
+      We also held a ceremony to present the appointment certificate to Michiko Ohno, who was newly appointed as a human rights ombudsperson effective April 1, 2026.
+
+      Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202605/13575.html
+    translation_hash: "sha256-8b333674ceae5169"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-26T02:46:26.131493Z"
+    format_version: 3

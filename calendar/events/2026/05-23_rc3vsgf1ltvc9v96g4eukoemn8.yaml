@@ -19,3 +19,25 @@ description: |-
 render:
   gcal:
     mode: single-allday
+translations:
+  en:
+    summary: "Myはんのう v1.24.0"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      Organized your favorite shops through "discover → support → show friends" flow.
+
+      • New "Everyone's Favorite Shops" section — Browse shops that others have registered as favorites without logging in. Filter and sort by open now, distance, or popularity. Find it at /@hanno/ menu under "🏪 Everyone's Favorite Shops"
+      • Unified naming — Your lists are now called My Favorite Shops / My Favorite Shop Friends, community listings are Everyone's Favorite Shops
+      • Standardized shop owner term to "Owner" — Previously mixed terms like "manager" and "shop owner" are now all "Owner". Site staff are distinguished as "Operator"
+      • Shop page QR code now accessible to everyone — Owners see it expanded by default; others tap "📱 Show QR Code" to open. Tap to copy URL, 📤 share, or 📷 scan another QR (friend invite, owner application, etc.)
+      • Owner registration auto-adds shop to your favorites — When you become an owner, that shop automatically joins your favorite shops list
+      • Can choose to become favorite shop friends when applying/approving as owner — Both applicant and approver can check a box to become friends (both on by default)
+      • When a favorite shop friend is an owner, can add their shop too — When accepting a friend invite, select their shops with checkboxes to add all at once
+      • "🏪 Owner" badge on your shop page — Appears next to ✓ Supported so people instantly see you're the owner
+      • Shortcut to "👥 My Favorite Shop Friends" on Myはんのう home — Always shown for logged-in users
+      • "+ Support" button appears on shop pages even for non-logged-in users — Tap to log in, then automatically adds shop to favorites
+    translation_hash: "sha256-07f4bf79209b6b0c"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-26T02:46:44.443151Z"
+    format_version: 3

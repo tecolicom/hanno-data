@@ -30,3 +30,36 @@ description: |-
 render:
   gcal:
     mode: single-allday
+translations:
+  en:
+    summary: "Myはんのう v1.27.3"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      Multiple versions (v1.25.0 → v1.26.x → v1.27.x) released on the same day.
+
+      v1.27.3 (Latest — mostly backend updates)
+
+      • Version number (v1.x.y) now displayed next to "Myはんのう" in header — helps with cache management and bug reporting
+      • Privacy Policy updated — now clarifies collection of service usage records (first access, last access, visit count, sign-in count, etc.). Added note that operators can view service usage stats in admin panel (individual data visible to admin only; no third-party sharing). Check /privacy/ for details
+      • URL restructuring: shop management and shop pages moved to top level (example: /@hanno/shop/<shop ID>/ → /shop/<shop ID>/). If you've bookmarked the old URLs, please update them
+      • AI training bots blocked — GPTBot, ClaudeBot, PerplexityBot, etc. now excluded via robots.txt
+
+      (Behind the scenes: new admin statistics dashboard, visit tracking, automatic snapshots, etc. added. No change to user experience.)
+
+      v1.25.0 (Weather header redesigned)
+
+      Myはんのう homepage date header changed to two-column layout. Weather icon, min/max temperature, and various warning badges now grouped to the right of the date. Previous/next day buttons removed (consolidated into horizontal swipe + keyboard ← →).
+
+      • Weather icon + min/max temperature to the right of date — see today's weather at a glance
+      • Warning badges — using thresholds close to Japan Meteorological Agency alert levels, the following appear as icons to the left of the date (vertically stacked, max 4 by priority): "extreme heat day", "freezing day", "tropical night", "winter day", "heat illness danger/alert", "heavy rain", "severe rain", "lightning", "heavy snow", "strong wind", "violent wind", "UV danger/strong"
+      • Previous/next day buttons (◀️/▶️) removed — use horizontal swipe (anywhere above the service menu, including the date area) or keyboard ← → on PC to navigate to adjacent dates
+      • Push transition animation — when you change dates by swiping or keyboard, old content slides out in opposite direction and new date slides in from the other side (like iOS page transition)
+      • Swipe area preserved even on light-content days — on days with no events or no garbage collection, the top of the screen is always the date/weather area; service menu appears after scrolling down
+      • Today's weather now overridden with JMA data — reduces instability from alternating "mist" and "cloudy" (covers today + 2 days ahead)
+      • Fixed bug where weather from 6+ days ago wouldn't display — changed routing to work around Open-Meteo archive delays and forecast API specs
+      • Fixed bug where past weather open/closed state wasn't retained — now remembers whether weather detail was open or closed for subsequent dates (same behavior as garbage collection section)
+    translation_hash: "sha256-0e09cf7968412d58"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-26T02:46:55.574441Z"
+    format_version: 3

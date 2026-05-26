@@ -30,3 +30,26 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/morimana-kaeru/"
   fetched_at: "2026-05-16T15:10:02.452384Z"
   content_hash: "sha256-f44d5ae4bd14accd"
+translations:
+  en:
+    summary: "Summer frog watching in Hanno Forest! Learn about frogs in Aojishi Valley day and night"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/morimana-kaeru/
+
+      Discover the charm of frogs and turn your understanding upside down! During the season perfect for observing living creatures, we'll watch fascinating tree-dwelling frogs as they lay their eggs. Centered around water areas where many creatures gather, you can enjoy the area's rich nature. As darkness falls, you might discover something you've never seen before!
+
+      【Fee】Adults ¥6,000, Students ¥5,000 (guide fee, insurance, materials)
+
+      【Capacity】20 people
+
+      【Guide】Forest Field School staff
+
+      【What to bring】Light snacks, drinks, observation tools (containers, nets), rain gear, flashlight, boots (you may walk through muddy areas)
+
+      【More information】Forest Field School website: https://morinomanabiya168.wixsite.com/website
+    translation_hash: "sha256-36779e503fc200c7"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-26T02:47:19.928990Z"
+    format_version: 3

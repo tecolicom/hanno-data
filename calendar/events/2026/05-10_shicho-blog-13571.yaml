@@ -18,3 +18,16 @@ source:
   url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202605/13571.html"
   fetched_at: "2026-05-22T03:52:56.769766Z"
   content_hash: "sha256-8b2ae2752a7b7849"
+translations:
+  en:
+    summary: "📝 Mayor's Reflections: 40th Kaji Friendship Softball Tournament"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      On Sunday, May 10, the 40th Kaji Friendship Softball Tournament was held at Azu Softball Field, hosted by the Kaji Sports Association. I was invited to attend and participated in the opening ceremony.
+
+      Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202605/13571.html
+    translation_hash: "sha256-15541f859df1afda"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-26T02:46:15.021314Z"
+    format_version: 3

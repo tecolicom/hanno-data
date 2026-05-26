@@ -21,3 +21,30 @@ description: |-
 render:
   gcal:
     mode: span-allday
+translations:
+  en:
+    summary: "Myはんのう v1.27.4 + v1.28.0 released"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      Two versions released on the same day.
+
+      v1.28.0 (Latest – Bus stop settings improved)
+
+      Bus-related improvements.
+
+      • "My stops" split into "Boarding stops" (where you get on) and "Destination stops" (where you return to) — Previously you shared one home stop across the app. Now each page remembers its own stop separately. This lets you set up asymmetric trips, like "board from home, return to work." Use the "Change" link on each page to set them individually. Your old My stops setting will reset, so please set your stops again on first use.
+
+      • Kokusai Kogyo bus "Koma New Town Loop" now shown separately — Route 飯12-2 (the Koma Station area loop) used to get lost in the "Komagawa Line / Saitama Medical University direction" section. It's now a dedicated route "Koma New Town Loop (Koma Station direction)" with all 22 stops treated as a true loop.
+
+      • Fixed bug: couldn't select "toward Hanno Station" from the deepest stops on loop routes — Loop routes like Soyagi Loop, Koma New Town Loop at Koma Station, Sanno Tsuka Park, and Kiwata had a problem: if you were at one of the "deep" stops in the loop, you couldn't see return trips to Hanno Station. Now fixed.
+
+      v1.27.4 (Weather and bus minor fixes)
+
+      • Fixed today's weather icon not showing — Some Japan Meteorological Agency forecasts that combine multiple conditions (like "sunny then cloudy") weren't displaying icons because the official icon couldn't be found. Mapped all 100+ official weather patterns so icons now appear correctly.
+
+      • Fixed duplicate times and false end stops on Kokusai Kogyo bus route 5931 (Koma Line) — The same bus appeared multiple times, and fake end stops were appearing 1 minute after the real one. Normalized the data.
+    translation_hash: "sha256-a2907ebe203f4619"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-26T02:47:07.029027Z"
+    format_version: 3

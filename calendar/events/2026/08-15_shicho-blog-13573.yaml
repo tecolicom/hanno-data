@@ -24,3 +24,24 @@ source:
   url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202605/13573.html"
   fetched_at: "2026-05-22T03:52:56.069879Z"
   content_hash: "sha256-608b9485a7a2b0c7"
+translations:
+  en:
+    summary: "📝 Mayor: Courtesy visit from Fujishima Raiki, men's hockey Japan national team player"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      On Monday, May 11, Fujishima Raiki, a men's hockey player for Japan's national team based at ALDER Hanno, and related staff visited City Hall to report their qualification for the 16th FIH Men's Hockey World Cup.
+
+      The World Cup will be held jointly in Amsterdam, Netherlands, and Waterloo, Belgium, from August 15 to 30, 2026 (Reiwa 8), for 16 days.
+
+      Japan's men's hockey team finished in third place at the World Cup final qualifying tournament held in March, securing their spot in the World Cup.
+
+      Fujishima is currently serving as captain of Japan's men's hockey national team, leading the team with distinction.
+
+      We heartily honor Fujishima's achievements and look forward to continued success that will further promote Hanno as a "hockey town."
+
+      Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202605/13573.html
+    translation_hash: "sha256-1b53ad74368b20cd"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-26T02:47:49.776132Z"
+    format_version: 3
