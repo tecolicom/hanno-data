@@ -198,7 +198,10 @@ jobs:
           set -e
           if [ "$ec" -eq 2 ]; then
             echo "EN drift detected, applying..."
-            ./calendar/bin/cal-myhanno apply-all -d calendar/events --lang en --only-managed
+            # JP apply と違い --only-managed は付けない: EN 翻訳は LLM が
+            # YAML に書き戻すもので、人が Calendar UI で手編集する想定が無い
+            # → 手動 event (source: 無し) も翻訳更新を Calendar に流す。
+            ./calendar/bin/cal-myhanno apply-all -d calendar/events --lang en
             # post-apply diff は informational のみ (extras=untracked event 等の
             # apply で解消できない drift が残ることがあるため exit code を伝播させない)
             ./calendar/bin/cal-myhanno diff -d calendar/events --lang en || true
