@@ -1,0 +1,56 @@
+uid: "oshirase-11548-3189a9@hanno.city.tecoli.com"
+summary: "ℹ️ 「人権擁護委員の日」特設人権相談所を開設します"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/11548.html"
+dtstart: "2026-05-26"
+dtend: "2026-05-26"
+description: |-
+  ## 「人権擁護委員の日」特設人権相談所
+  
+  人権擁護委員法が施行された6月1日の「人権擁護委員の日」にちなみ、6月3日(水曜日)に特設人権相談所を開設します。
+  
+  セクハラやパワハラ、家庭内暴力、体罰やいじめ、インターネットでの誹謗中傷、差別など、「自分の悩みは人権侵害かも？」と思ったら、一人で悩まず、気軽にご相談ください。
+  
+  相談は無料です。
+  
+  	人権擁護委員の日 特設人権相談所
+  
+  			日  時
+  
+  			   6月3日（水曜日）10時～15時
+  
+  			会  場
+  
+  			   飯能中央地区行政センター
+  
+  			相談員
+  
+  			   人権擁護委員
+  
+  ## 人権擁護委員について
+  
+  人権擁護委員は,国民の基本的人権を守り,また,人権が大切なものであることを国民に知ってもらうため,法務大臣から委嘱され活動しています。
+  
+  現在,約14,000名の人権擁護委員が全国の各市町村に配置されています。
+  
+  飯能市では7名の人権擁護委員が所沢人権擁護委員協議会（所沢市、狭山市、飯能市、入間市、日高市で構成）に所属して人権啓発、人権相談などの活動を行っています。
+  
+  詳しくは,法務省ホームペー ジを御覧ください。
+  
+  外部リンク 別ウインドウで開きます
+  
+  法務省ホームページ「人権擁護委員」
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/11548.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "11548"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/11548.html"
+  fetched_at: "2026-05-26T01:00:09.682996Z"
+  content_hash: "sha256-3189a933618b5401"
+  summary_method: "full"
+  publish_date: "2026-04-20"

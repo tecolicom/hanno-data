@@ -1,0 +1,80 @@
+uid: "oshirase-12265-06f78f@hanno.city.tecoli.com"
+summary: "ℹ️ 義援金・救援金の受付について"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/12265.html"
+dtstart: "2026-05-26"
+dtend: "2026-05-26"
+description: |-
+  日本赤十字社では、現在下記の義援金・救援金を受け付けております。
+  
+  皆さま方からお寄せいただきました義援金は、被災地の方々の生活を支援するため、被災都道府県が設置する義援金配分委員会へ全額をお送りします。
+  
+  日本赤十字社埼玉県支部飯能地区は、日本赤十字社の義援金募集に協力し、義援金を受け付けています。皆さまの温かいご支援をよろしくお願いいたします。
+  
+  ## 【国内義援金】
+  
+  	受付中の国内義援金
+  
+  			義援金名(配分先)
+  
+  			受付終了予定日
+  
+  			令和6年能登半島地震災害義援金
+  
+  			（石川県・富山県・新潟県）
+  
+  			令和9年3月22日
+  
+  			令和6年9月能登半島大雨災害義援金（石川県）
+  			令和9年3月22日
+  
+  ## 【海外救援金】
+  
+  	受付中の海外救援金
+  
+  			救援金名
+  			受付終了予定日
+  
+  			中東人道危機救援金
+  
+  			令和9年3月23日
+  
+  			バングラデシュ南部避難民救援金
+  			令和9年3月23日
+  
+  			ウクライナ人道危機救援金
+  			令和9年3月23日
+  
+  			イラン及び周辺国人道危機救援金
+  			令和8年5月25日
+  
+  			無指定海外救援金
+  			通年
+  
+  ## 【受付場所】
+  
+  市役所本庁舎正面玄関総合案内（募金箱）若しくは、地域福祉課（1階11番窓口）
+  
+  ## 【受付時間】
+  
+  平日8時30分～17時15分
+  
+  領収書を希望される方は、本庁舎1階 地域福祉課（11番窓口）で受け付けします。
+  
+  （注意）日本赤十字社へ直接送金を希望される方は、日本赤十字社ホームページをご覧ください。
+  
+  義援金・救援金募集
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/12265.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "12265"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/12265.html"
+  fetched_at: "2026-05-26T01:00:27.801877Z"
+  content_hash: "sha256-06f78f25b208b6ec"
+  summary_method: "full"
+  publish_date: "2026-03-18"

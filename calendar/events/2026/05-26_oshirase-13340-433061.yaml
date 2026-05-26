@@ -1,0 +1,50 @@
+uid: "oshirase-13340-433061@hanno.city.tecoli.com"
+summary: "ℹ️ スゴ足イベント 2026年5月19日(火曜日)、30日(土曜日)スゴ足のんびりウオーク5月"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/13340.html"
+dtstart: "2026-05-26"
+dtend: "2026-05-26"
+description: |-
+  ## イベント内容
+  
+  	期日 5月19日(火曜日)、5月30日(土曜日)
+  
+  	集合時間 10時
+  
+  	集合場所 飯能市役所西側駐車場
+  
+  	コース 天候や参加人数により（1）または（2）のどちらかを歩きます。
+  
+  	（1）市役所 → 弁財天 → 智観寺 → 中山西信号 → 谷津田 → 能仁寺 → 中央公園 → 本郷浄水場→ 飯能河原飛び石橋 → 飯能駅 → 東飯能駅 → 市役所
+  
+  	（2）市役所 → 飯能市内(下加治、双柳、加治など) → 入間市内（新光、野田など） → 仏子駅 (電車で戻ります)
+  
+  	距離 約7キロメートル
+  
+  	予定時間 約2.5時間
+  
+  	費用 無料（保険は各自でお願いします。）
+  
+  	持ち物 飲み物、雨具、交通系ICカード、スゴ足手帳（お持ちの方）
+  
+  	申し込み 当日参加（時間までにおいで下さい。）
+  
+  	中止の確認 天候等による中止の確認は、前日15時以降に飯能ウオーキング倶楽部ホームページまたは恩田へ。
+  
+  	問い合わせ 恩田 090-2205-8073
+  
+  	主催 飯能ウオーキング倶楽部
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/13340.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13340"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/13340.html"
+  fetched_at: "2026-05-26T01:00:24.003938Z"
+  content_hash: "sha256-4330613a475df894"
+  summary_method: "full"
+  publish_date: "2026-03-27"
