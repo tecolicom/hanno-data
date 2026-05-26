@@ -148,7 +148,9 @@ jobs:
             # 手動 event (source: なし) はスキップ。
             # → Calendar UI の手動編集が CI で上書きされない
             ./calendar/bin/cal-myhanno apply-all -d calendar/events --only-managed
-            ./calendar/bin/cal-myhanno diff -d calendar/events
+            # post-apply diff は informational のみ (extras=untracked event 等の
+            # apply で解消できない drift が残ることがあるため exit code を伝播させない)
+            ./calendar/bin/cal-myhanno diff -d calendar/events || true
             echo "applied=true" >> "$GITHUB_OUTPUT"
           elif [ "$ec" -eq 0 ]; then
             echo "in sync, no apply needed"
@@ -193,7 +195,9 @@ jobs:
           if [ "$ec" -eq 2 ]; then
             echo "EN drift detected, applying..."
             ./calendar/bin/cal-myhanno apply-all -d calendar/events --lang en --only-managed
-            ./calendar/bin/cal-myhanno diff -d calendar/events --lang en
+            # post-apply diff は informational のみ (extras=untracked event 等の
+            # apply で解消できない drift が残ることがあるため exit code を伝播させない)
+            ./calendar/bin/cal-myhanno diff -d calendar/events --lang en || true
           elif [ "$ec" -eq 0 ]; then
             echo "EN in sync, no apply needed"
           else
