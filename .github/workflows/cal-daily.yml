@@ -40,7 +40,10 @@ jobs:
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y -qq poppler-utils
-          pip install --quiet pyyaml
+          # httpx は cal-oshirase-fetch / cal-translate-en の LLM 呼出 (Anthropic API)
+          # に必須。無いと _llm_available() が False を返し、method=full に fallback
+          # して content_hash がローカル (LLM 利用) と一致しなくなる → flood の原因
+          pip install --quiet pyyaml httpx
 
       - name: Configure git identity
         # CI 内で commit するために必要。複数の commit step があるので一箇所に集約。
