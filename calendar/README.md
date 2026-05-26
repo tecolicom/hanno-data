@@ -31,6 +31,7 @@ routing は `source.type` ベース。`source.type` → `default` or `gikai` の
 ```
 calendar/
 ├── bin/
+│   ├── _lib.py                  全 crawler の共通ヘルパ (HTTP fetch / cache / YAML 整形 / etc.)
 │   ├── cal-myhanno              Google Calendar API ラッパ (Python + gws)
 │   ├── cal-tourism-fetch        hanno-tourism.jp 決定論パーサ (LLM 不使用)
 │   ├── cal-shiminkaikan-fetch   飯能市民会館 公演スケジュール取得
@@ -42,9 +43,25 @@ calendar/
 │   └── <year>/<MM-DD>_<uid>.yaml
 ├── snapshots/                   Calendar 状態のミラー (バックアップ + 監査台帳)
 │   └── <calendar-key>/events/<uid>.json
-└── sources/                     クローラ用設定
-    └── hanno-tourism/urls.txt
+├── sources/                     クローラ用設定
+│   └── hanno-tourism/urls.txt
+└── .http-cache.json             HTTP Conditional GET 用 ETag / Last-Modified 永続化
 ```
+
+### bin/_lib.py
+
+各 crawler が共通利用するヘルパモジュール。引数命名規約は `s` (テキスト) / `path` (単一ファイル) / `out_dir` / `url` で統一。
+
+| カテゴリ | 提供 |
+|---|---|
+| 定数 | `USER_AGENT`, `UID_NAMESPACE`, `AI_DISCLAIMER_JP` |
+| HTTP fetch | `fetch(url)`, `fetch_binary(url, dest)`, `fetch_with_cache(url, etag, last_modified)` |
+| HTTP cache | `load_http_cache()`, `save_http_cache(cache)`, `HTTP_CACHE_PATH` |
+| HTML/text | `strip_html`, `collapse_space`, `normalize_fullwidth_digits`, `normalize_tilde`, `normalize_body`, `strip_markdown(s, bullet)` |
+| HTML メタ | `infer_year_from_og(html)` |
+| 暦変換 | `reiwa_to_gregorian(N)`, `gregorian_to_reiwa(year)` |
+| YAML 整形 | `yaml_escape_str`, `yaml_block_scalar` |
+| event YAML 操作 | `read_yaml_scalar`, `existing_content_hash_matches`, `output_path_for`, `find_existing_by_uid` |
 
 ## 認証
 
@@ -151,7 +168,9 @@ cal-tourism-fetch [--url URL | --urls-file PATH]
 - 1 ツアー = 複数開催日のケース (`①5/9 ②5/17 ③5/25`) は **1 セッション 1 YAML** に展開
 - UID: `tourism-<slug>-<YYYYMMDD>@hanno.city.tecoli.com`
 - `source:` ブロックに provenance を記録 (type / id / url / fetched_at / content_hash)
-- 内容に本質的変化がない場合は `fetched_at` を流用 (git diff ゼロを維持)
+- 内容に本質的変化がない場合は write 自体を skip (`existing_content_hash_matches` で `translations:` 等を温存)
+- ツアー全体中止 (本文に「中止しました」等) は WARN ログを出すが Calendar には載せる (= 本文に中止表示が含まれる)
+- **HTTP Conditional GET 非対応** (`hanno-tourism.jp` はサーバが ETag/Last-Modified を返さない)
 
 URL リスト: [`sources/hanno-tourism/urls.txt`](./sources/hanno-tourism/urls.txt)。
 新ツアー追加時はここに 1 行追加。
@@ -173,6 +192,7 @@ cal-shicho-blog-fetch [--out-dir events] [--year YYYY]
   - 800 字超: 冒頭 ~600 字を段落境界優先で抜粋 + 「（続きはリンク先で）」
 - `--refetch-existing` で既存 YAML も再評価 (本文が修正された記事の追従用)
 - content_hash は (title, date, body, body_truncated) ベース → 本文変化を検知
+- **HTTP Conditional GET 対応**: 各 month index の ETag を `.http-cache.json` に保存、304 受けたら article 巡回を skip (= 月途中の記事追加が無ければ article fetch 0 件)
 
 ## bin/cal-oshirase-fetch
 
@@ -198,6 +218,7 @@ cal-oshirase-fetch [--out-dir events] [--refetch-existing] [--dry-run] [--min-it
   - LLM 非決定性に関わらず idempotent
   - body 変化がなければ LLM を呼ばずに既存 YAML を温存
   - `DESCRIPTION_FORMAT_VERSION` 定数を bump すると wrapper 文言改変を全件に伝播
+- **HTTP Conditional GET 非対応** (`feed.php` は動的生成で cache header を返さない)
 
 `source.summary_method` フィールドに上記 method が記録される (後の再生成判定に利用)。
 
@@ -221,34 +242,46 @@ cal-translate-en [--events-dir DIR] [--dry-run] [--limit N] [--only-uid UID]
   - LLM 非決定性に関わらず idempotent
   - `TRANSLATION_FORMAT_VERSION` を bump すると wrapper 文言改変を全件に伝播
 
-注: 現状 CI に未組込み。新規イベントの英訳は手動 (`cal-translate-en` 実行 +
-`cal-myhanno apply-all --lang en`) で反映する運用。
-
 ## CI (GitHub Actions)
 
-`.github/workflows/cal-daily.yml` 1 本に統合 (毎日 07:00 JST 起動):
+`.github/workflows/cal-daily.yml` 1 本に統合 (毎日 03:00 JST 起動 + `calendar/bin/**` 変更時の push trigger):
 
 1. **Pre-sync snapshot** — Calendar 状態を `snapshots/` に backup
 2. **各 source crawler を順次実行** (tourism / shiminkaikan / gikai / shicho-blog / oshirase)
-3. **Fetch manual edits** — Calendar UI で手動編集された event を YAML に取り込み
+3. **Fetch manual edits** — Calendar UI で手動編集された event を YAML に取り込み (`--update-manual`)
 4. **Safety check** — 変更ファイル数上限 / スコープ制限 / 異常検知
-5. **Commit events changes** — `events/` のみ commit
-6. **Apply to Calendar (if drift)** — `--only-managed` で手動 event 温存しつつ反映
-7. **Post-sync snapshot** — 反映後の状態を再度 `snapshots/` に保存
-8. **Discord 通知** — 当日の差分まとめを送信
+5. **Commit events + http-cache changes** — `events/` と `.http-cache.json` を commit + push
+6. **Apply JP to Calendar (if drift)** — `--only-managed` で手動 event 温存しつつ反映
+7. **Translate to English** — stale / 新規 YAML だけ `cal-translate-en` で英訳
+8. **Commit translation changes** — `translations.en.*` 追加分を commit + push
+9. **Apply EN to Calendar (if drift)** — `--only-managed` **無し** で適用 (= 手動 event の英訳も Calendar に届く)
+10. **Post-sync snapshot** — 反映後の状態を再度 `snapshots/` に保存
+11. **Discord 通知** — 当日の差分まとめを送信
+
+### `--only-managed` の非対称性 (JP / EN)
+
+| 言語 | `apply-all` | 理由 |
+|---|---|---|
+| JP (`default`) | `--only-managed` 付き | 手動 event は Calendar UI で人が編集する → CI で上書きさせない |
+| EN (`en`) | filter 無し | EN は LLM 生成、人が Calendar UI で手編集する想定無し → 翻訳更新は手動 event にも届ける |
 
 Safety policy:
 - `timeout-minutes: 10` でフリーズ強制 kill
-- 件数閾値 (min-sessions / 各 fetcher 別) で異常時 apply 拒否
+- 件数閾値 (各 fetcher の `--min-*`) で異常時 apply 拒否
+  - 抽出件数 (= written + 304 skipped) で判定 (write-skip による誤発火回避)
 - 変更ファイル数の上限 (events 50 / snapshots 200) で巨大誤更新を拒否
-- スコープ制限 (`events/` or `snapshots/` 外への変更を拒否)
+- スコープ制限 (`events/` / `snapshots/` / `.http-cache.json` 外への変更を拒否)
 - `concurrency` group で並列実行禁止
 - URL ホワイトリスト + canonical URL 一致でリダイレクト誤データ排除
 
-**現状の限界 (未対応)**:
-- `cal-translate-en` および `apply-all --lang en` は CI に未組込み
-- 新規イベントは JP カレンダーには即時反映されるが、EN カレンダー反映は手動運用が必要
-- 将来的に CI 拡張 (httpx インストール + ANTHROPIC_API_KEY secret 追加 + step 追加) で自動化予定
+### HTTP Conditional GET (efficiency)
+
+city.hanno.lg.jp 配下の静的ページは ETag / Last-Modified 対応のため、`fetch_with_cache()` で 304 を受けて parse / write を全 skip。ETag / Last-Modified は `calendar/.http-cache.json` に永続化 (git で commit して CI runs 間で持続)。
+
+対応状況:
+- ✅ `cal-shiminkaikan`, `cal-gikai`, `cal-shicho-blog` (city.hanno.lg.jp)
+- ❌ `cal-tourism` (`hanno-tourism.jp` がヘッダ非対応)
+- ❌ `cal-oshirase` (`feed.php` は動的生成)
 
 ## YAML スキーマ例
 
