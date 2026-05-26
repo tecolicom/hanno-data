@@ -687,7 +687,17 @@ def cmd_apply(args: argparse.Namespace) -> None:
             if k not in new_body and k in merged:
                 merged.pop(k, None)
 
-        action = "would UPDATE" if args.dry_run else "UPDATE"
+        # 冪等性チェック: cmd_diff と同じ判定方式で existing vs new_body を比較し、
+        # 真の差分が無ければ events.update API を呼ばない (= Calendar の updated
+        # timestamp を bump させない、quota も消費しない)。
+        # cmd_diff が exit 0 を返す状態とこの skip 条件が一致するように、
+        # 判定基準は COMPARE_FIELDS + normalize_for_diff (cmd_diff と同一) を使う。
+        if all(normalize_for_diff(existing.get(k)) == normalize_for_diff(new_body.get(k))
+               for k in COMPARE_FIELDS):
+            if args.dry_run:
+                print(json.dumps({"action": "in-sync (skip)", "uid": uid}, ensure_ascii=False))
+            return
+
         if args.dry_run:
             print(json.dumps({
                 "action": "update",
