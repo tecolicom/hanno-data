@@ -333,7 +333,7 @@ def process_one(url: str, out_dir: str, uid_prefix: str, dry_run: bool) -> int:
         if existing_content_hash_matches(out_path, html_hash):
             continue
 
-        doc = build_yaml_doc(uid, url, slug, title, location, description, s, html_hash, fetched_at=fetched_at)
+        doc = build_yaml_doc(uid, url, slug, title, location, description, s, html_hash)
 
         if dry_run:
             print(f"# === {year_part}/{fname} ===")

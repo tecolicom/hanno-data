@@ -414,7 +414,7 @@ def main() -> None:
         if existing_content_hash_matches(out_path, html_hash):
             continue
 
-        doc = build_yaml_doc(uid, ev["date"], ev["content"], source_url, source_id, html_hash, fetched_at, agenda_url, ippan_url, sanpi_url)
+        doc = build_yaml_doc(uid, ev["date"], ev["content"], source_url, source_id, html_hash, None, agenda_url, ippan_url, sanpi_url)
 
         if args.dry_run:
             print(f"# === {year_part}/{fname} ===")

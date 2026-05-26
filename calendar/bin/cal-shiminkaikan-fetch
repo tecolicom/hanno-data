@@ -256,7 +256,6 @@ def main() -> None:
         uid = f"{args.uid_prefix}-{compact_date}-{seq:02d}@{UID_NAMESPACE}"
         source_id = f"{compact_date}-{seq:02d}"
 
-        # 既存の fetched_at を保持 (差分ゼロ維持)
         year_part = ev["date"][:4]
         md = ev["date"][5:10]
         fname = f"{md}_{uid.split('@')[0]}.yaml"
@@ -266,7 +265,7 @@ def main() -> None:
         if existing_content_hash_matches(out_path, html_hash):
             continue
 
-        doc = build_yaml_doc(uid, ev, source_id, html_hash, fetched_at)
+        doc = build_yaml_doc(uid, ev, source_id, html_hash, None)
 
         if args.dry_run:
             print(f"# === {year_part}/{fname} ===")
