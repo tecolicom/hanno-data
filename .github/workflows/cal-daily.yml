@@ -79,6 +79,12 @@ jobs:
         run: ./calendar/bin/cal-shicho-blog-fetch --out-dir calendar/events --min-articles 0
 
       - name: Crawl city-hanno-oshirase
+        # ANTHROPIC_API_KEY が無いと 400 字超本文の method が 'llm-haiku-4-5' から
+        # 'full' に変わって content_hash が変動し、incremental mode で重複 event が
+        # 大量発生する原因になる (2026-05-26 障害)。ローカル migration と CI で
+        # 同じ method を使うため必須。
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: ./calendar/bin/cal-oshirase-fetch --out-dir calendar/events --min-items 0
 
       - name: Fetch manual Calendar additions + sync manual edits
