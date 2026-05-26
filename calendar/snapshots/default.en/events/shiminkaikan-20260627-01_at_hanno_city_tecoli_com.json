@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "🕒 14:00–16:00\n\nAutomated translation (refer to source for accuracy)\n\nHanno Civic Hall: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html\n\n【Venue】Small Hall\n【Organizer】Kensho Step Co., Ltd.",
+  "description": "🕒 14:00–16:00\n\nAutomated translation (refer to source for accuracy)\n\n【Venue】 Small Hall, Hanno Citizen's Hall\n【Organizer】 Kensho Step Co., Ltd.\n\nFor details, visit: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html",
   "end": {
     "date": "2026-06-28"
   },
@@ -31,5 +31,5 @@
   },
   "status": "confirmed",
   "summary": "Safety Conference",
-  "updated": "2026-05-26T02:49:36.198Z"
+  "updated": "2026-05-26T05:14:07.134Z"
 }

@@ -1,0 +1,34 @@
+{
+  "created": "2026-05-26T05:13:47.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🔄 Content Update (Published: May 26, 2026)\n\nAI Summary (Please check the original article for accurate information)\n\nHanno City has released multiple versions of a review sheet for administrative operations and spending, reflecting the city's severe fiscal situation.\n\nStarting with the August 2025 version (Phase 1), the most recent is the May 2026 version. Reviewed operations are organized in stages by category: reviewing user fees, reducing scale, suspending or eliminating services, and deferring implementation.\n\nIn the October 2025 version (Phase 2) and November 2025 version (Phase 3), the gap between projected and actual revenue and spending exceeded expectations, requiring extremely severe additional cuts. Even by Phase 3, a gap of over 1 billion yen remained.\n\nThe January 2026 version (Phase 4) revised some measures based on council and public input. Through use of temporary grants, personnel cost cuts, and increased tax revenue, budget planning without relying on the fiscal adjustment fund became feasible. However, these were emergency measures.\n\nThe February 2026 version aligned the review with the budget proposal submitted to the March regular assembly session and added the effect amounts of cuts. Minimal fund transfers were made to restore social security-related spending.\n\nThe May 2026 version reflects the council's supplementary resolutions and public input, including phased restoration of suspended and reduced services, in the June supplementary budget.\n\nFor details, please refer to the PDF files for each version.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kinkyuuzaiseitaisaku/12184.html",
+  "end": {
+    "date": "2026-05-27"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2OG9qZ2QxZDY4cDNnbzlqNnAwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-12184-228a36@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h68ojgd1d68p3go9j6p06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市政（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kinkyuuzaiseitaisaku/12184.html"
+  },
+  "start": {
+    "date": "2026-05-26"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Review of Administrative Operations and Spending",
+  "updated": "2026-05-26T05:13:47.686Z"
+}
