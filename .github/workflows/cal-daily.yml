@@ -9,6 +9,7 @@ on:
     branches: [main]
     paths:
       - 'calendar/events/**'
+      - 'calendar/bin/**'                    # crawler / apply / translate のロジック変更も即反映
       - '.github/workflows/cal-daily.yml'
 
 permissions:
