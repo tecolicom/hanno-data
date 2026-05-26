@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "🕒 18:00–20:00\n\nAutomated translation (refer to source for accuracy)\n\nStroll through the historic post town, enjoy wild game curry dinner in a 160-year-old traditional house, then watch Genji fireflies and hear Kajika frogs on the Komagawa River. Held daily from 6:00 PM June 25 – July 5 (Reiwa 8).",
+  "description": "🕒 18:00–20:00\n\nAutomated translation (refer to source for accuracy)\n\nExplore the historic post town, enjoy wild game curry dinner in a 160-year-old traditional house, then watch Genji fireflies and kajika frogs at Komagawa River. Held daily from June 25 to July 5, starting at 6:00 PM each evening.",
   "end": {
     "date": "2026-07-06"
   },
@@ -30,6 +30,6 @@
     "date": "2026-06-25"
   },
   "status": "confirmed",
-  "summary": "Agano Post Town Stroll and Genji Firefly & Kajika Frog Viewing on the Komagawa River",
-  "updated": "2026-05-22T05:39:38.519Z"
+  "summary": "Stroll through Agano post town and view Genji fireflies & kajika frogs at Komagawa River",
+  "updated": "2026-05-26T07:03:55.984Z"
 }

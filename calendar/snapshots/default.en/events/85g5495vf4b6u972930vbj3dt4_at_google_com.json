@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "Automated translation (refer to source for accuracy)\n\n【New Features】\n\n• Store page now includes \"Customer Favorite Store Registration QR\" (for store owners) — Display a QR code from the store page management menu. When customers scan this QR, they can register your store as a favorite with one tap. Use it by posting it in your shop or displaying it at the register.\n\n• \"My Spots\" list added to store owner home page — When you open Myはんのう, the stores you manage appear below the date. Tap to go to a store page.\n\n• Guidance for people who open a store page by scanning QR — When a customer scans an in-store QR, a prompt appears at the top asking \"Add ○○ to favorites?\"\n\n【Changes】\n\n• Store page management menu now collapses by default. You normally see the customer view of the page, and the menu only opens when you need to edit.\n\n• System administrator accounts will not see the management menu on store pages they do not manage. To prevent accidental edits, menu controls are available only when you explicitly select \"admin proxy mode.\"",
+  "description": "Automated translation (refer to source for accuracy)\n\nNew Features\n\n• Added \"Customer Favorite Store Registration QR\" to store pages (for store owners) — You can now display a QR code from the store page management menu. When customers scan this QR code, they can register your store as a favorite with one tap. Use it by posting it in your store or showing it at the register.\n\n• Added \"My Spots\" list to store owner home page — When you open Myはんのう, the stores you manage appear below the date. Tap to go to a store page.\n\n• Guidance for people who opened a store page by scanning a QR code — When customers scan a QR code in your store, a prompt appears at the top asking \"Add ○○ to favorites?\"\n\nChanges\n\n• Store page management menu is now collapsed by default. The customer view of the page is shown normally, and the menu only opens when you need to edit.\n\n• System administrator accounts will not see the management menu on store pages they do not manage. To prevent unintended edits, you can now only make changes when you explicitly select \"admin proxy mode\".",
   "end": {
     "date": "2026-05-18"
   },
@@ -26,5 +26,5 @@
   },
   "status": "confirmed",
   "summary": "Myはんのう v1.17.2",
-  "updated": "2026-05-22T05:38:33.058Z"
+  "updated": "2026-05-26T07:03:15.033Z"
 }

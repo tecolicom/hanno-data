@@ -1,0 +1,30 @@
+{
+  "created": "2026-05-26T07:03:37.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nMultiple versions (v1.25.0 → v1.26.x → v1.27.x) released on the same day.\n\nv1.27.3 (Latest — mostly backend updates)\n\n• Version number (v1.x.y) now displayed next to \"Myはんのう\" in header — helps with cache management and bug reporting\n• Privacy Policy updated — now clarifies collection of service usage records (first access, last access, visit count, sign-in count, etc.). Added note that operators can view service usage stats in admin panel (individual data visible to admin only; no third-party sharing). Check /privacy/ for details\n• URL restructuring: shop management and shop pages moved to top level (example: /@hanno/shop/<shop ID>/ → /shop/<shop ID>/). If you've bookmarked the old URLs, please update them\n• AI training bots blocked — GPTBot, ClaudeBot, PerplexityBot, etc. now excluded via robots.txt\n\n(Behind the scenes: new admin statistics dashboard, visit tracking, automatic snapshots, etc. added. No change to user experience.)\n\nv1.25.0 (Weather header redesigned)\n\nMyはんのう homepage date header changed to two-column layout. Weather icon, min/max temperature, and various warning badges now grouped to the right of the date. Previous/next day buttons removed (consolidated into horizontal swipe + keyboard ← →).\n\n• Weather icon + min/max temperature to the right of date — see today's weather at a glance\n• Warning badges — using thresholds close to Japan Meteorological Agency alert levels, the following appear as icons to the left of the date (vertically stacked, max 4 by priority): \"extreme heat day\", \"freezing day\", \"tropical night\", \"winter day\", \"heat illness danger/alert\", \"heavy rain\", \"severe rain\", \"lightning\", \"heavy snow\", \"strong wind\", \"violent wind\", \"UV danger/strong\"\n• Previous/next day buttons (◀️/▶️) removed — use horizontal swipe (anywhere above the service menu, including the date area) or keyboard ← → on PC to navigate to adjacent dates\n• Push transition animation — when you change dates by swiping or keyboard, old content slides out in opposite direction and new date slides in from the other side (like iOS page transition)\n• Swipe area preserved even on light-content days — on days with no events or no garbage collection, the top of the screen is always the date/weather area; service menu appears after scrolling down\n• Today's weather now overridden with JMA data — reduces instability from alternating \"mist\" and \"cloudy\" (covers today + 2 days ahead)\n• Fixed bug where weather from 6+ days ago wouldn't display — changed routing to work around Open-Meteo archive delays and forecast API specs\n• Fixed bug where past weather open/closed state wasn't retained — now remembers whether weather detail was open or closed for subsequent dates (same behavior as garbage collection section)",
+  "end": {
+    "date": "2026-05-25"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=YjNwMDRub2k0ZDVoM2xubTZyNjI0Y3Jram8gZDkxOTNjZjVmNjQ0YWI0MWEyOGUyMjY4YTk4YWJjNWFhNDI2YmQyZDU3NzE1MjgzNDI0NGFkNjlhMzFmNWE2OEBn",
+  "iCalUID": "b3p04noi4d5h3lnm6r624crkjo@google.com",
+  "id": "b3p04noi4d5h3lnm6r624crkjo",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "Myはんのう（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "start": {
+    "date": "2026-05-24"
+  },
+  "status": "confirmed",
+  "summary": "Myはんのう v1.27.3",
+  "updated": "2026-05-26T07:03:37.738Z"
+}

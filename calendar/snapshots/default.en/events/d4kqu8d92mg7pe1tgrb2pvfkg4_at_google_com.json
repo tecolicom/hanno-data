@@ -1,0 +1,30 @@
+{
+  "created": "2026-05-26T07:03:42.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nTwo versions released on the same day.\n\nv1.28.0 (Latest – Bus stop settings improved)\n\nBus-related improvements.\n\n• \"My stops\" split into \"Boarding stops\" (where you get on) and \"Destination stops\" (where you return to) — Previously you shared one home stop across the app. Now each page remembers its own stop separately. This lets you set up asymmetric trips, like \"board from home, return to work.\" Use the \"Change\" link on each page to set them individually. Your old My stops setting will reset, so please set your stops again on first use.\n\n• Kokusai Kogyo bus \"Koma New Town Loop\" now shown separately — Route 飯12-2 (the Koma Station area loop) used to get lost in the \"Komagawa Line / Saitama Medical University direction\" section. It's now a dedicated route \"Koma New Town Loop (Koma Station direction)\" with all 22 stops treated as a true loop.\n\n• Fixed bug: couldn't select \"toward Hanno Station\" from the deepest stops on loop routes — Loop routes like Soyagi Loop, Koma New Town Loop at Koma Station, Sanno Tsuka Park, and Kiwata had a problem: if you were at one of the \"deep\" stops in the loop, you couldn't see return trips to Hanno Station. Now fixed.\n\nv1.27.4 (Weather and bus minor fixes)\n\n• Fixed today's weather icon not showing — Some Japan Meteorological Agency forecasts that combine multiple conditions (like \"sunny then cloudy\") weren't displaying icons because the official icon couldn't be found. Mapped all 100+ official weather patterns so icons now appear correctly.\n\n• Fixed duplicate times and false end stops on Kokusai Kogyo bus route 5931 (Koma Line) — The same bus appeared multiple times, and fake end stops were appearing 1 minute after the real one. Normalized the data.",
+  "end": {
+    "date": "2026-05-28"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=ZDRrcXU4ZDkybWc3cGUxdGdyYjJwdmZrZzQgZDkxOTNjZjVmNjQ0YWI0MWEyOGUyMjY4YTk4YWJjNWFhNDI2YmQyZDU3NzE1MjgzNDI0NGFkNjlhMzFmNWE2OEBn",
+  "iCalUID": "d4kqu8d92mg7pe1tgrb2pvfkg4@google.com",
+  "id": "d4kqu8d92mg7pe1tgrb2pvfkg4",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "Myはんのう（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "start": {
+    "date": "2026-05-25"
+  },
+  "status": "confirmed",
+  "summary": "Myはんのう v1.27.4 + v1.28.0 released",
+  "updated": "2026-05-26T07:03:43.244Z"
+}

@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "🕒 08:20–12:20\n\nAutomated translation (refer to source for accuracy)\n\nAbout 13 km, about 4 hours. Participation fee: 100 yen.\n\nRoute: Agano Station → Kaohuri Pass (Green Line) → Atera Suwa Shrine → Yugate → Higashi-Agano Station (end).\n\nApplication deadline: May 20. Contact: Agano District Administrative Center, 042-978-1211.",
+  "description": "🕒 08:20–12:20\n\nAutomated translation (refer to source for accuracy)\n\nAbout 13 km and 4 hours. Participation fee: 100 yen.\n\nRoute: Agano Station → Kaoburi Pass (Green Line) → Adera Suwa Shrine → Yugate → Higashi-Agano Station (finish).\n\nApplication deadline: May 20. Contact: Agano District Administrative Center (042-978-1211).",
   "end": {
     "date": "2026-05-25"
   },
@@ -31,5 +31,5 @@
   },
   "status": "confirmed",
   "summary": "Sugo-ashi Walk: Oku-Musashi Walk",
-  "updated": "2026-05-22T05:39:07.315Z"
+  "updated": "2026-05-26T07:03:39.286Z"
 }
