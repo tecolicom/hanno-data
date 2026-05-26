@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "Automated translation (refer to source for accuracy)\n\nSession schedule: https://www.city.hanno.lg.jp/material/files/group/45/kaikinittei8-3.pdf\n\nBill list: https://www.city.hanno.lg.jp/soshikikarasagasu/gikaisomuka/kaigijoho/13089.html\n\nGeneral questions: https://www.city.hanno.lg.jp/material/files/group/45/ippannsitumon8-3.pdf\n\nSource (Japanese): https://www.city.hanno.lg.jp/material/files/group/45/sannpizyoukyou8-3.pdf",
+  "description": "Automated translation (refer to source for accuracy)\n\nSession schedule: https://www.city.hanno.lg.jp/material/files/group/45/kaikinittei8-3.pdf\n\nBills and proposals list: https://www.city.hanno.lg.jp/soshikikarasagasu/gikaisomuka/kaigijoho/13089.html\n\nGeneral questions: https://www.city.hanno.lg.jp/material/files/group/45/ippannsitumon8-3.pdf\n\nSource (Japanese): https://www.city.hanno.lg.jp/material/files/group/45/sannpizyoukyou8-3.pdf",
   "end": {
     "date": "2026-03-10"
   },
@@ -30,6 +30,6 @@
     "date": "2026-03-09"
   },
   "status": "confirmed",
-  "summary": "🏛 Standing Committee",
-  "updated": "2026-05-26T05:12:59.156Z"
+  "summary": "🏛 Standing Committee Session",
+  "updated": "2026-05-26T05:57:11.942Z"
 }
