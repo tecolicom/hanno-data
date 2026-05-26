@@ -28,32 +28,3 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/tanetsuti-1-2/"
   fetched_at: "2026-05-20T23:16:28.812676Z"
   content_hash: "sha256-5df8478ffa9633cc"
-translations:
-  en:
-    summary: "Experience mushroom-friendly garden making and summer vegetable planting in Hanno Forest Town"
-    description: |-
-      Automated translation (refer to source for accuracy)
-
-      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/tanetsuti-1-2/
-
-      ⚠ The tour originally scheduled for June 21 (Sunday) has been rescheduled to June 28 (Sunday) due to organizer circumstances.
-
-      Learn to build garden beds using fallen leaves and branches in a "kinchyan farm" (mushroom-friendly farming method), and plant summer vegetables. Our advisors will teach you simple techniques for planting and caring for seedlings in the kinchyan method. Lunch will be Italian cuisine made with kinchyan vegetables at Restaurant La Nola.
-
-      【Fee】
-      Adults: ¥8,800
-      Junior high school students and younger: ¥2,200
-      (Includes guide, lunch, materials, and insurance)
-
-      【Capacity】
-      15 people
-
-      【Guide】
-      Hanno Tanetotsuachi Farm staff
-
-      【What to bring】
-      Drink, hat, towel, gloves, etc.
-    translation_hash: "sha256-7abff2f73c42f714"
-    model: "claude-haiku-4-5"
-    translated_at: "2026-05-26T02:47:43.186069Z"
-    format_version: 3

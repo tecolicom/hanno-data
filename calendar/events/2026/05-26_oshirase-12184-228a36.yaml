@@ -1,0 +1,37 @@
+uid: "oshirase-12184-228a36@hanno.city.tecoli.com"
+summary: "ℹ️ 事務事業の見直し"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kinkyuuzaiseitaisaku/12184.html"
+dtstart: "2026-05-26"
+dtend: "2026-05-26"
+description: |-
+  🔄 内容更新 (公開日: 2026-05-26)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  飯能市の厳しい財政状況を踏まえた事務事業見直し検討シートを複数回公表しています。
+  
+  令和7年8月版（第1弾）から始まり、現在は令和8年5月版が最新です。見直し対象事業は、受益者負担の見直し、規模縮小、休止・廃止、実施延期などに段階的に整理されています。
+  
+  令和7年10月版（第2弾）、11月版（第3弾）では、想定を上回る収支乖離により、極めて厳しい追加見直しが必要となり、第3弾でも10億円以上の乖離が残る状況でした。
+  
+  令和8年1月版（第4弾）では議会や市民意見を踏まえて一部見直しを改め、臨時交付金活用や人件費削減、税収増などにより、財政調整基金に頼らない予算編成が実現見込みとなりました。ただし応急処置的対応によるものです。
+  
+  令和8年2月版では3月定例会提出予算案と整合させ見直し効果額を加えました。社会保障関連経費復活のため最低限の基金繰入れを実施しています。
+  
+  令和8年5月版は、議会での附帯決議と市民意見を踏まえ、休止・縮小事業の段階的復活などを6月補正予算に反映させたものです。
+  
+  詳細は各版のPDFファイルをご参照ください。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kinkyuuzaiseitaisaku/12184.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "12184"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kinkyuuzaiseitaisaku/12184.html"
+  fetched_at: "2026-05-26T05:09:13.261563Z"
+  content_hash: "sha256-228a3633ba5fed69"
+  summary_method: "llm-haiku-4-5"

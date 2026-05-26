@@ -28,24 +28,3 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ohk-hannoalps4/"
   fetched_at: "2026-05-16T15:10:03.116800Z"
   content_hash: "sha256-fdb5ac60b37ef0e7"
-translations:
-  en:
-    summary: "Guided hike: Hanno Alps Full Traverse Part 4 (Higashi-Asano Station to Tengaku Mountain, Takubu-su Mountain, Tenran Mountain, and Hanno Station)"
-    description: |-
-      Automated translation (refer to source for accuracy)
-
-      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ohk-hannoalps4/
-
-      We traverse the spine of the Hanno Alps—the ridge running from Izu-gatake to Tenran Mountain—over four separate hikes. Part 4 starts at Higashi-Asano Station and crosses Tengaku Mountain, Kusumi Pass, and Nagata Mountain before reaching Takubu-su Mountain, Tenran Mountain, and finishing at Hanno Station. Lunch will be a special boxed meal from Nikoniko House.
-
-      【Fee】 ¥7,800 per person (includes guide, lunch, and insurance)
-
-      【Capacity】 10 people
-
-      【Guide】 Akira Shimizu (certified by the Japan Alpine Guide Association, Mountain Guide Stage II)
-
-      【What to bring】 Gloves, drinking water, hat, rain gear, trail snacks (candy/crackers), towel
-    translation_hash: "sha256-a3c03125c1bb45de"
-    model: "claude-haiku-4-5"
-    translated_at: "2026-05-26T02:46:31.910581Z"
-    format_version: 3
