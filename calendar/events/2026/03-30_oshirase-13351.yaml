@@ -26,7 +26,7 @@ source:
   id: "13351"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/zaimushohyo/13351.html"
   fetched_at: "2026-05-20T04:56:29.737584Z"
-  content_hash: "sha256-3d3673dfac9ec5fd"
+  content_hash: "sha256-760281ff58b8bd69"
   summary_method: "llm-haiku-4-5"
 translations:
   en:
@@ -44,7 +44,8 @@ translations:
       • Fixed assets register
 
       Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/zaimushohyo/13351.html
-    translation_hash: "sha256-f117681c61d6aefa"
+    translation_hash: "sha256-d97673f5407ef971"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:34:15.261720Z"
     format_version: 1

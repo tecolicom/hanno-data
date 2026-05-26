@@ -34,7 +34,8 @@ translations:
       • Store page management menu is now collapsed by default. The customer view of the page is shown normally, and the menu only opens when you need to edit.
 
       • System administrator accounts will not see the management menu on store pages they do not manage. To prevent unintended edits, you can now only make changes when you explicitly select "admin proxy mode".
-    translation_hash: "sha256-ed7fb1b8df72b0d3"
+    translation_hash: "sha256-81db76f885a31498"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:36:55.936946Z"
     format_version: 1

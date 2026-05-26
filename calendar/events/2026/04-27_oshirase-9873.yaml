@@ -19,7 +19,7 @@ source:
   id: "9873"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/nogyoshinkoka/9873.html"
   fetched_at: "2026-05-20T04:55:42.654435Z"
-  content_hash: "sha256-f58173c036316bdc"
+  content_hash: "sha256-6ffa6037c42129d7"
   summary_method: "llm-haiku-4-5"
 translations:
   en:
@@ -34,7 +34,8 @@ translations:
       Weather forecasts for the coming month predict higher temperatures and fewer clear days, creating conditions favorable for the disease to spread. If fusarium head blight appears in your wheat fields, apply additional preventive treatments immediately.
 
       Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/nogyoshinkoka/9873.html
-    translation_hash: "sha256-30df2b99e5774f5e"
+    translation_hash: "sha256-3caf6e35063fb52c"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:35:54.361325Z"
     format_version: 1

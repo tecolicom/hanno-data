@@ -35,7 +35,7 @@ source:
   id: "13270"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/tosiseibika/13270.html"
   fetched_at: "2026-05-20T04:56:43.346793Z"
-  content_hash: "sha256-12ad0533da18d2f0"
+  content_hash: "sha256-4a2fab5770eb3456"
   summary_method: "llm-haiku-4-5"
 translations:
   en:
@@ -62,7 +62,8 @@ translations:
       During the road closure, passengers using the Asama bus stop should use the Kojoumae (Factory Front) stop or Shiei Jutaku (Municipal Housing) stop instead. Detailed route information will be posted at bus stops. We apologize for any inconvenience and appreciate your understanding and cooperation.
 
       Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/tosiseibika/13270.html
-    translation_hash: "sha256-4d267ac4aff6cfd2"
+    translation_hash: "sha256-e53c1e952caa18e0"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:33:44.002524Z"
     format_version: 1

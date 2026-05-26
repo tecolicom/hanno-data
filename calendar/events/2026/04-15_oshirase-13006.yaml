@@ -33,7 +33,7 @@ source:
   id: "13006"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/johosystem/13006.html"
   fetched_at: "2026-05-20T04:56:07.375941Z"
-  content_hash: "sha256-4c1eeaee42af388d"
+  content_hash: "sha256-3b3cf70ddf177284"
   summary_method: "llm-haiku-4-5"
 translations:
   en:
@@ -58,7 +58,8 @@ translations:
       From April 1, 2024 to March 31, 2025, there were 291 online procedure uses and a total of 87,168 procedures completed.
 
       Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/johosystem/13006.html
-    translation_hash: "sha256-35e4aafa3cff4b67"
+    translation_hash: "sha256-0226d44d6e95b7f6"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:35:17.418746Z"
     format_version: 1

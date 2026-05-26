@@ -28,7 +28,7 @@ source:
   id: "13168"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/shinrinzukurika/13168.html"
   fetched_at: "2026-05-20T04:56:56.890527Z"
-  content_hash: "sha256-145a6ec638e501f8"
+  content_hash: "sha256-5d82d7192adb18f1"
   summary_method: "llm-haiku-4-5"
 translations:
   en:
@@ -48,7 +48,8 @@ translations:
       The project has designated two species as symbols: the "Golden Eagle" (a species designated as endangered by Japan's Ministry of the Environment and Saitama Prefecture, confirmed in the target area) and the "Japanese Dormouse" (Saitama Prefecture Near-Threatened Category 1 and nationally designated Natural Monument). Forestry operations will be conducted with care for the habitats and breeding environments of these species. Special attention will be paid to protecting the Golden Eagle's nesting areas and hunting grounds, and conserving seeds, fruits, and moss (which serve as food and nesting materials for the Japanese Dormouse).
 
       Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/shinrinzukurika/13168.html
-    translation_hash: "sha256-6847ff0b4c749b2a"
+    translation_hash: "sha256-76f227e68bb75950"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:33:23.952552Z"
     format_version: 1

@@ -32,7 +32,7 @@ source:
   id: "12708"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kinkyuuzaiseitaisaku/12708.html"
   fetched_at: "2026-05-22T04:53:13.477561Z"
-  content_hash: "sha256-05af374a5c62c21e"
+  content_hash: "sha256-3538dea25f1cae60"
   summary_method: "llm-haiku-4-5"
 translations:
   en:
@@ -47,7 +47,8 @@ translations:
       Distribution materials and records from each session are available on the city website. You can also view the finalized operational reforms review sheet (確定版).
 
       Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kinkyuuzaiseitaisaku/12708.html
-    translation_hash: "sha256-cd7fed571c4733ad"
+    translation_hash: "sha256-e827cb1bcbb51ee0"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-22T04:09:53.378482Z"
     format_version: 3

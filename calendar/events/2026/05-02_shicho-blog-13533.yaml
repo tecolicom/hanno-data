@@ -31,7 +31,8 @@ translations:
       I would like to extend my sincere gratitude to the members of the Hanno City International Exchange Association for serving as the core of international exchange in our city. In order to realize a multicultural coexistence society, I ask for your continued support going forward.
 
       Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202605/13533.html
-    translation_hash: "sha256-e571d1adb4c5b960"
+    translation_hash: "sha256-f17e299c747bda1f"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:36:14.479703Z"
     format_version: 1

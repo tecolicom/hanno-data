@@ -31,7 +31,8 @@ translations:
       The Higashi-Agano police box is the community's closest point of contact and serves as a vital hub for protecting the safety and security of local residents. With this newly rebuilt facility as a foundation, I hope the police will work even more closely with residents, become more deeply woven into community life, and continue to serve as a reassuring and dependable presence that supports our daily lives.
 
       Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13484.html
-    translation_hash: "sha256-3f298332144c7dc8"
+    translation_hash: "sha256-1d07eab07183145e"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:35:49.109706Z"
     format_version: 1

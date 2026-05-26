@@ -27,7 +27,7 @@ source:
   id: "12785"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/12785.html"
   fetched_at: "2026-05-20T04:55:26.962226Z"
-  content_hash: "sha256-0c3c381c5c061870"
+  content_hash: "sha256-071ca18089b942b8"
   summary_method: "llm-haiku-4-5"
 translations:
   en:
@@ -48,7 +48,8 @@ translations:
       Walk-ins welcome (please arrive by the meeting time). To confirm cancellations due to weather or other reasons, check the Hanno Walking Club website or contact Onda (090-2205-8073) after 3 p.m. the day before.
 
       Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/12785.html
-    translation_hash: "sha256-761d9ba957182b38"
+    translation_hash: "sha256-9a8f1ca446cc8359"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:36:27.418987Z"
     format_version: 1

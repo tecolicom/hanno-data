@@ -35,7 +35,8 @@ translations:
       Moving forward, we will continue to work together in cooperation to create livable communities and develop towns and cities that are pleasant places to live.
 
       Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13447.html
-    translation_hash: "sha256-1763ad029af167cd"
+    translation_hash: "sha256-6ec3afecb5cab3f1"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:35:06.625602Z"
     format_version: 1

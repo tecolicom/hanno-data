@@ -29,7 +29,7 @@ source:
   id: "13104"
   url: "https://www.city.hanno.lg.jp/akebono/oshirase/13104.html"
   fetched_at: "2026-05-20T04:57:08.687093Z"
-  content_hash: "sha256-2b6e76f64ec2101f"
+  content_hash: "sha256-e3f89638fab619eb"
   summary_method: "llm-haiku-4-5"
 translations:
   en:
@@ -50,7 +50,8 @@ translations:
       For detailed information about opening days and hours, please check the fiscal year 2026 opening calendar on Hanno City's website.
 
       Source (Japanese): https://www.city.hanno.lg.jp/akebono/oshirase/13104.html
-    translation_hash: "sha256-e70e75c87b9467ff"
+    translation_hash: "sha256-35658b5d98e889ba"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:32:37.060887Z"
     format_version: 1

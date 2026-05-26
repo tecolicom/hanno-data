@@ -11,7 +11,8 @@ translations:
     summary: "Hanno City Residents' Cleanup Day"
     description: |-
 
-    translation_hash: "sha256-222162f126d24493"
+    translation_hash: "sha256-be56cce7e8df3e21"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:39:56.023842Z"
     format_version: 1

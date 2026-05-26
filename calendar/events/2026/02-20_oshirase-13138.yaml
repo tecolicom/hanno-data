@@ -31,7 +31,7 @@ source:
   id: "13138"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025/13138.html"
   fetched_at: "2026-05-20T04:57:19.008320Z"
-  content_hash: "sha256-bf4235b40537eab9"
+  content_hash: "sha256-697e59946f9c1952"
   summary_method: "llm-haiku-4-5"
 translations:
   en:
@@ -54,7 +54,8 @@ translations:
       Detailed materials (PDF files) for each agenda item are posted on the city's official website.
 
       Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025/13138.html
-    translation_hash: "sha256-44c03352b6b6571c"
+    translation_hash: "sha256-6cc93a83748dc40e"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:32:25.900003Z"
     format_version: 1

@@ -31,7 +31,8 @@ translations:
       In the morning, there were friendly matches between elementary and junior high school students, and in the afternoon, matches in the general division (high school students and older) took place.
 
       Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202602/13117.html
-    translation_hash: "sha256-ffd0bc5e88bf50ea"
+    translation_hash: "sha256-20c8e80458831bde"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:31:52.214236Z"
     format_version: 1

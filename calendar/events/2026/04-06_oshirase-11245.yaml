@@ -52,7 +52,8 @@ translations:
       Number of spots: 5 groups. If we receive more applications than spots, we will select participants by lottery.
 
       Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jitishinkoka/shiminkatudou/11245.html
-    translation_hash: "sha256-f975c7c39f76940a"
+    translation_hash: "sha256-b888e9b6b4cba789"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:35:04.159081Z"
     format_version: 1

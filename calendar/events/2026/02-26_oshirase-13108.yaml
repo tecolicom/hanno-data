@@ -29,7 +29,7 @@ source:
   id: "13108"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/toshokan/13108.html"
   fetched_at: "2026-05-20T04:57:06.198530Z"
-  content_hash: "sha256-3c44651d1d6f7b3e"
+  content_hash: "sha256-4e380ee2381f4091"
   summary_method: "llm-haiku-4-5"
 translations:
   en:
@@ -50,7 +50,8 @@ translations:
       Effective April 1, 2026, the Naguri and Fujimi branch libraries will close, and the bookmobile service will suspend. The Naguri District Administrative Center and Fujimi District Administrative Center will begin offering a new "library delivery service." For details, please check the Hanno City Library website.
 
       Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/toshokan/13108.html
-    translation_hash: "sha256-7d484d75deb01d2e"
+    translation_hash: "sha256-ef0bc24803428281"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:32:43.304982Z"
     format_version: 1

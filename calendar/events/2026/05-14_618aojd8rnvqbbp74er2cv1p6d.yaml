@@ -11,7 +11,8 @@ translations:
     summary: "Fukadaya 3rd Anniversary"
     description: |-
 
-    translation_hash: "sha256-4b74b5d31d26efbd"
+    translation_hash: "sha256-c75a38edc5cbf1db"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:39:51.746162Z"
     format_version: 1

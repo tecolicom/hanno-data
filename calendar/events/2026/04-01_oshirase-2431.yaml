@@ -34,7 +34,7 @@ source:
   id: "2431"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/iryo/2431.html"
   fetched_at: "2026-05-20T04:56:14.805626Z"
-  content_hash: "sha256-18728fd42f7b1590"
+  content_hash: "sha256-a29528d710efd91d"
   summary_method: "llm-haiku-4-5"
 translations:
   en:
@@ -60,7 +60,8 @@ translations:
       Established in 2000. Many of our nursing staff have experience in medical settings, and we have strong partnerships with medical institutions. We strictly maintain confidentiality.
 
       Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/iryo/2431.html
-    translation_hash: "sha256-74cbfbf5f249b981"
+    translation_hash: "sha256-16aa4c31a5d39128"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:34:45.366980Z"
     format_version: 1

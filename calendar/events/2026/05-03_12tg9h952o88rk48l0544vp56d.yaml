@@ -13,7 +13,8 @@ translations:
     summary: "AKAI FACTORY 10th Anniversary"
     description: |-
 
-    translation_hash: "sha256-63a309fd556208de"
+    translation_hash: "sha256-a52cdf5d60c17a4d"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:39:49.697794Z"
     format_version: 1

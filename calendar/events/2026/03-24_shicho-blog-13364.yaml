@@ -31,7 +31,8 @@ translations:
       Dear graduating students, congratulations on your graduation.
 
       Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13364.html
-    translation_hash: "sha256-9c5421433bfdf78c"
+    translation_hash: "sha256-395bbbb66dc77cbc"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:33:53.796465Z"
     format_version: 1

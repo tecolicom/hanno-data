@@ -33,7 +33,8 @@ translations:
       Dear graduates, my heartfelt congratulations on this momentous occasion.
 
       Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13321.html
-    translation_hash: "sha256-132de545f3439c92"
+    translation_hash: "sha256-c8c340332f5c7eea"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:33:18.483480Z"
     format_version: 1

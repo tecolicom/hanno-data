@@ -39,7 +39,8 @@ translations:
       Moving forward, both parties will collaborate to strengthen disaster prevention and response measures, promote public health, and work toward revitalizing the region.
 
       Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13362.html
-    translation_hash: "sha256-34c28ddbd161dcd3"
+    translation_hash: "sha256-bfac6808dfad379d"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:33:51.713202Z"
     format_version: 1

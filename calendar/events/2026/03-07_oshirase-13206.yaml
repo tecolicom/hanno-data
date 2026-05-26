@@ -19,7 +19,7 @@ source:
   id: "13206"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/sangakukanrenkei/13206.html"
   fetched_at: "2026-05-20T04:56:59.756454Z"
-  content_hash: "sha256-1b2ce5768200dc1c"
+  content_hash: "sha256-f2161dd021b0b985"
   summary_method: "llm-haiku-4-5"
 translations:
   en:
@@ -30,7 +30,8 @@ translations:
       On March 7, 2026 (Reiwa 8), a Saturday, a reveal ceremony was held at Higashi-Hanno Station's free passage to unveil an object featuring Moominmamma. This is the second installation following Hanno Station, as part of the "Hanno, a town where you can meet Moomin" project carried out by the Hanno City Moomin Project Promotion Council, which brings together Hanno City, Moomin Stories Inc., Seibu Railway Co., Ltd., the Hanno Chamber of Commerce and Industry, and the General Incorporated Association Okumusashi Hanno Tourism Association. By connecting Hanno Station and Higashi-Hanno Station through Moomin, the stations become a new axis for foot traffic throughout the city center, accelerate "town development that makes people want to walk," and drive vitality in the central business district and across the entire city. The ceremony was attended by the Hanno City Mayor, representatives from related companies and organizations, Moomin characters, and ten children from Nicot Hanno.
 
       Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/sangakukanrenkei/13206.html
-    translation_hash: "sha256-26558f18f0505548"
+    translation_hash: "sha256-ec28901d2c52fbd9"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:33:08.256223Z"
     format_version: 1

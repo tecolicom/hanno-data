@@ -52,7 +52,7 @@ source:
   id: "7983"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/ninchi-sisaku/ninchi-jigyou/7983.html"
   fetched_at: "2026-05-20T04:56:33.823118Z"
-  content_hash: "sha256-250f226f9b51d588"
+  content_hash: "sha256-621ecdbc6f2da6f2"
   summary_method: "llm-haiku-4-5"
 translations:
   en:
@@ -96,7 +96,8 @@ translations:
       【What to Bring】Writing materials, drinking water, eyeglasses (if needed), face towel and comfortable exercise clothes and shoes (for exercise lecture)
 
       Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/ninchi-sisaku/ninchi-jigyou/7983.html
-    translation_hash: "sha256-33d1e4bf1710f0cd"
+    translation_hash: "sha256-9e3735811884c326"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:34:21.409925Z"
     format_version: 1

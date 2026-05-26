@@ -35,7 +35,8 @@ translations:
       This donation will be used as funding to provide "Baby Smile Coupons"—vouchers that parents of newborns (age 0) can use to purchase baby care items and supplies.
 
       Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13482.html
-    translation_hash: "sha256-73710fe5ab93d836"
+    translation_hash: "sha256-4719e73fbe97666b"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:35:42.159322Z"
     format_version: 1

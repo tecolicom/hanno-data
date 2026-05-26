@@ -35,7 +35,7 @@ source:
   id: "13487"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/13487.html"
   fetched_at: "2026-05-20T04:55:23.937889Z"
-  content_hash: "sha256-9e1d4be3e84e4443"
+  content_hash: "sha256-b8e693f421494ef4"
   summary_method: "llm-haiku-4-5"
 translations:
   en:
@@ -62,7 +62,8 @@ translations:
         Phone: 911-9616
 
       Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/13487.html
-    translation_hash: "sha256-e5b79b4cf96198c7"
+    translation_hash: "sha256-9c24b83a4280881c"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:36:35.652138Z"
     format_version: 1

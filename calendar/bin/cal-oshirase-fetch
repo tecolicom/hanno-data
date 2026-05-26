@@ -527,12 +527,14 @@ def main() -> None:
             # 再実行すると method=llm-haiku-4-5 で hash が変わって再生成が走る.
             method = "full"
 
-        # 入力ベースの content_hash (= body + method + format_version)。
-        # LLM 出力は含めない → LLM 非決定性に関わらず idempotent。
-        # body / method / format_version のどれかが変わった時だけ description 再生成。
+        # コンテンツ identity の content_hash (= title + date + body のみ)。
+        # method / format_version は意図的に含めない (= rendering の選択であって
+        # content の identity ではない)。これにより:
+        # - LLM 環境変化 (key 失効、httpx 抜け等) で hash が変動して flood しない
+        # - format_version bump で全 YAML が "変化あり" 判定されない
+        # description の再生成が必要な場合は別途明示的に rehash で対応する。
         canonical = json.dumps(
-            {"title": it["title"], "date": it["date"], "body": body, "method": method,
-             "format_version": DESCRIPTION_FORMAT_VERSION},
+            {"title": it["title"], "date": it["date"], "body": body},
             ensure_ascii=False, sort_keys=True,
         )
         content_hash = hashlib.sha256(canonical.encode("utf-8")).hexdigest()[:16]

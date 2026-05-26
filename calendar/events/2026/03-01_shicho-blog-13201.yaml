@@ -27,7 +27,8 @@ translations:
       On March 1st (Sunday), I attended the opening ceremony of the 45th Kaji District Ekiden Relay Race. Under clear skies, many people participated that day. After the opening ceremony, I served as the starter for the race.
 
       Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13201.html
-    translation_hash: "sha256-0cc956f391cc7fbd"
+    translation_hash: "sha256-4d4c4d4a3aa310fe"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:32:53.880255Z"
     format_version: 1

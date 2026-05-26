@@ -29,7 +29,7 @@ source:
   id: "12184"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kinkyuuzaiseitaisaku/12184.html"
   fetched_at: "2026-05-20T04:57:29.033850Z"
-  content_hash: "sha256-538f929575dfad50"
+  content_hash: "sha256-ae2bb9b2f83db2d1"
   summary_method: "llm-haiku-4-5"
 translations:
   en:
@@ -50,7 +50,8 @@ translations:
       The final version aligns with the Reiwa 8 budget proposal submitted to the March regular council session and includes review effects. As a funding source for restoring social security-related expenditures, we will make the minimum necessary withdrawals from the financial adjustment reserve fund and debt reduction fund.
 
       Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kinkyuuzaiseitaisaku/12184.html
-    translation_hash: "sha256-7c04514ee4037eeb"
+    translation_hash: "sha256-57d64a5b36b6f3f9"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:32:09.170779Z"
     format_version: 1

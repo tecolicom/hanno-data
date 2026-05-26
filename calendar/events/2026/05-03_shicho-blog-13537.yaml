@@ -27,7 +27,8 @@ translations:
       On May 3 (Sunday), I attended the 14th Open Tournament Saitama Prefecture Karate Championship held at Hidaka Arena.
 
       Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202605/13537.html
-    translation_hash: "sha256-68ae0ba335405445"
+    translation_hash: "sha256-93ecbf06edea9fa4"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:36:16.915431Z"
     format_version: 1

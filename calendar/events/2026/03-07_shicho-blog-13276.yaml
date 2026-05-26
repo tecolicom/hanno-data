@@ -47,7 +47,8 @@ translations:
       I extend my heartfelt gratitude to the members of the "Hanno—the town where you can meet Moomin" Project Promotion Council and all related parties for their tremendous efforts in advancing this project.
 
       Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13276.html
-    translation_hash: "sha256-b2efcc5353de1863"
+    translation_hash: "sha256-e8f6164805962184"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:33:11.819268Z"
     format_version: 1

@@ -21,7 +21,7 @@ source:
   id: "13410"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/13410.html"
   fetched_at: "2026-05-20T04:55:24.177287Z"
-  content_hash: "sha256-26a46e571857a102"
+  content_hash: "sha256-3058c7db55f9ca67"
   summary_method: "full"
 translations:
   en:
@@ -36,7 +36,8 @@ translations:
       Please check back soon for more information.
 
       Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/13410.html
-    translation_hash: "sha256-ea370f0595562a09"
+    translation_hash: "sha256-0ca28e58e97f0291"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:36:33.219376Z"
     format_version: 1

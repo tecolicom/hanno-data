@@ -31,7 +31,8 @@ translations:
       These gifts will be used to help children commute to school safely. We express our gratitude to all those involved in making this happen.
 
       Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13358.html
-    translation_hash: "sha256-ac2b60d5760cde98"
+    translation_hash: "sha256-5d439803be7dd5c5"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:34:00.840504Z"
     format_version: 1

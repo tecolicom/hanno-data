@@ -172,9 +172,14 @@ def build_en_description(en_body: str, source_url: str | None) -> str:
 
 
 def compute_translation_hash(summary: str, description: str) -> str:
+    """JP summary + description の identity hash。
+
+    format_version は意図的に含めない (= wrapper/prompt の変更で全件再翻訳が
+    走るのを防ぐため)。format 改善で再翻訳したい場合は --rehash-only 系の
+    明示的なコマンドで対応する。
+    """
     canonical = json.dumps(
-        {"summary": summary, "description": description,
-         "format_version": TRANSLATION_FORMAT_VERSION, "lang": LANG},
+        {"summary": summary, "description": description, "lang": LANG},
         ensure_ascii=False, sort_keys=True,
     )
     return "sha256-" + hashlib.sha256(canonical.encode("utf-8")).hexdigest()[:16]
@@ -261,6 +266,35 @@ def write_yaml_with_translations(path: str, en_summary: str, en_description: str
         f.write(new_content)
 
 
+def _rewrite_translation_hash(path: str, new_hash: str) -> bool:
+    """既存 YAML の translations.en.translation_hash フィールドだけ in-place 書換。
+
+    --rehash-only 用。LLM 呼出なし、翻訳本文 (summary/description) は触らない。
+    マッチする最初の `    translation_hash:` 行を置換する素朴な方式。
+    """
+    pat = re.compile(r'^(\s*translation_hash:\s*)"[^"]*"(\s*)$')
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            lines = f.readlines()
+    except Exception:
+        return False
+    updated = False
+    for i, ln in enumerate(lines):
+        m = pat.match(ln)
+        if m:
+            lines[i] = f'{m.group(1)}"{new_hash}"{m.group(2)}\n'
+            updated = True
+            break
+    if not updated:
+        return False
+    try:
+        with open(path, "w", encoding="utf-8") as f:
+            f.writelines(lines)
+        return True
+    except Exception:
+        return False
+
+
 def main() -> None:
     here = os.path.dirname(os.path.abspath(__file__))
     default_events_dir = os.path.join(here, "..", "events")
@@ -270,6 +304,9 @@ def main() -> None:
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--limit", type=int, default=0, help="先頭 N 件だけ処理 (テスト用)")
     ap.add_argument("--only-uid", help="特定 UID のみ処理 (テスト用)")
+    ap.add_argument("--rehash-only", action="store_true",
+                    help="migration 用: 既存 translation_hash フィールドだけ現 formula で "
+                         "再計算して in-place 更新。LLM 呼出なし。en 翻訳が無い YAML は skip。")
     args = ap.parse_args()
 
     pattern = os.path.join(args.events_dir, "**", "*.yaml")
@@ -301,6 +338,21 @@ def main() -> None:
         existing = (doc.get("translations") or {}).get("en") or {}
         if existing.get("translation_hash") == new_hash:
             skipped += 1
+            continue
+
+        # --rehash-only: 既存翻訳の translation_hash フィールドだけ書き換え。
+        # 翻訳本文 (en summary/description) は触らず、LLM も呼ばない。
+        if args.rehash_only:
+            if not existing.get("summary"):
+                skipped += 1
+                continue
+            if args.dry_run:
+                print(f"# REHASH {path}: {existing.get('translation_hash')} → {new_hash}")
+                translated += 1
+                continue
+            _rewrite_translation_hash(path, new_hash)
+            print(f"  REHASH {path}", file=sys.stderr)
+            translated += 1
             continue
 
         # description 無しの manual event は summary だけ翻訳

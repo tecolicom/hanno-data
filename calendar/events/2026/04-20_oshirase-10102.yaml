@@ -47,7 +47,7 @@ source:
   id: "10102"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/10102.html"
   fetched_at: "2026-05-20T04:56:02.950955Z"
-  content_hash: "sha256-8581674cd8f7a0f0"
+  content_hash: "sha256-bb2228d0de3a2fb3"
   summary_method: "llm-haiku-4-5"
 translations:
   en:
@@ -86,7 +86,8 @@ translations:
       Health Center 042-974-3488
 
       Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/10102.html
-    translation_hash: "sha256-53d61b9f1468d6dc"
+    translation_hash: "sha256-e9464583b8a239bc"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:35:27.282990Z"
     format_version: 1

@@ -11,7 +11,8 @@ translations:
     summary: "15th Hanno Barefoot Marathon"
     description: |-
 
-    translation_hash: "sha256-07a7c9232f5f8f3f"
+    translation_hash: "sha256-1758682d712d87d9"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:39:52.572058Z"
     format_version: 1

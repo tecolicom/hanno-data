@@ -34,7 +34,7 @@ source:
   id: "11259"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/syogaigakusyu-sports/shogaigakushu/11259.html"
   fetched_at: "2026-05-20T04:57:11.199616Z"
-  content_hash: "sha256-3564eea629388e63"
+  content_hash: "sha256-3243e270d7ed47ff"
   summary_method: "llm-haiku-4-5"
 translations:
   en:
@@ -60,7 +60,8 @@ translations:
       Food and beverage vendors also operated at the venue.
 
       Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/syogaigakusyu-sports/shogaigakushu/11259.html
-    translation_hash: "sha256-7ad0e5bc1c32fef9"
+    translation_hash: "sha256-367090b0bd6c3574"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:32:33.789091Z"
     format_version: 1

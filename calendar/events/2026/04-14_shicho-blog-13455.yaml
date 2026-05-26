@@ -39,7 +39,8 @@ translations:
       I hope you will study "Regional Administration and Law" thoroughly, and through this learning experience, I look forward to your growth and success.
 
       Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13455.html
-    translation_hash: "sha256-82d4631e1e592937"
+    translation_hash: "sha256-acc999f2924a91dc"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:35:09.740802Z"
     format_version: 1

@@ -43,7 +43,8 @@ translations:
       Moving forward, Hanno City will continue to aim to be a place where all residents can live with confidence and security, free from traffic accidents.
 
       Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13203.html
-    translation_hash: "sha256-dea259c9e156a24a"
+    translation_hash: "sha256-99038c80bd53f729"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:32:57.253454Z"
     format_version: 1

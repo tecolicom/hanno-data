@@ -25,7 +25,7 @@ source:
   id: "11548"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/11548.html"
   fetched_at: "2026-05-20T04:55:48.783335Z"
-  content_hash: "sha256-3e52ab505bf4fa34"
+  content_hash: "sha256-cc471a60803dab58"
   summary_method: "llm-haiku-4-5"
 translations:
   en:
@@ -42,7 +42,8 @@ translations:
       Seven human rights advocates from Hanno City belong to the Tokorozawa Human Rights Advocates Council and carry out activities including human rights awareness and human rights consultations.
 
       Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/11548.html
-    translation_hash: "sha256-407c0afcf1c57a70"
+    translation_hash: "sha256-3d9faac649c751c6"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:35:30.103878Z"
     format_version: 1

@@ -41,7 +41,7 @@ source:
   id: "11274"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jitishinkoka/shiminkatudou/11274.html"
   fetched_at: "2026-05-25T23:09:16.673195Z"
-  content_hash: "sha256-487172713fc14112"
+  content_hash: "sha256-60192a181e631bfc"
   summary_method: "full"
 translations:
   en:
@@ -72,7 +72,8 @@ translations:
       • A Tanabata exhibition will be held from Friday, June 26 to Tuesday, July 7, 2026 (Reiwa 8). Please visit at the same time.
 
       Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jitishinkoka/shiminkatudou/11274.html
-    translation_hash: "sha256-af1f721f0dcbcc39"
+    translation_hash: "sha256-a40f39593ea42806"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-26T00:53:06.315587Z"
     format_version: 3

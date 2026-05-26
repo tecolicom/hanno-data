@@ -18,7 +18,8 @@ translations:
       Automated translation (refer to source for accuracy)
 
       Special vehicle displays, disaster prevention experience activities (fire extinguisher, water spray, smoke experience, firefighter gear try-on), stage events, 3rd Hanno Fire Department Firefighting Skills Competition, and multiple food trucks. Free admission, no advance registration required.
-    translation_hash: "sha256-123ab42f781d97ac"
+    translation_hash: "sha256-1dca8cbe67383ade"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:37:34.019370Z"
     format_version: 1

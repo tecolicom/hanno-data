@@ -21,7 +21,7 @@ source:
   id: "13353"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/zaimushohyo/13353.html"
   fetched_at: "2026-05-20T04:56:27.504045Z"
-  content_hash: "sha256-c36883df500b7454"
+  content_hash: "sha256-7b5725291d3aacdc"
   summary_method: "full"
 translations:
   en:
@@ -36,7 +36,8 @@ translations:
       Fiscal Year 2024 (Reiwa 6) Fiscal Status Materials (Excel file: 577.4 KB)
 
       Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/zaimushohyo/13353.html
-    translation_hash: "sha256-6cdaf4126fe6c28d"
+    translation_hash: "sha256-b62968115a32d2b9"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:34:17.109690Z"
     format_version: 1

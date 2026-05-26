@@ -33,7 +33,8 @@ translations:
       • Corrected display names like "Soryugawa Circulation bound" and "Nakasawa" to show actual destinations — resolved the issue where bus timetables showed route names instead of destinations.
       • Bus return screen countdown: the stop list now cuts off at "boarding → My stop (home)" instead of showing all the way to the final stop. The bus boarding screen continues to show all the way to the terminus.
       • Other improvements: fixed numerous duplicate and misleading bus schedule displays.
-    translation_hash: "sha256-a1a4ea461172cfb5"
+    translation_hash: "sha256-b09bcd61fff83cd2"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:36:52.670454Z"
     format_version: 1

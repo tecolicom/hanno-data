@@ -37,7 +37,8 @@ translations:
 
       v1.18.4 New Features
       • "UV" (ultraviolet strength) added to the weather section — Displays in color, for example "☀ UV Very Strong". Colors follow Japan Meteorological Agency standards in five levels: Weak, Moderate, Strong, Very Strong, and Extreme. Check before heading out to decide whether you need a hat or sunscreen.
-    translation_hash: "sha256-20481299be7cb326"
+    translation_hash: "sha256-7ca207f1dca07394"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-21T00:17:01.960413Z"
     format_version: 1

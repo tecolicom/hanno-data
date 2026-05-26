@@ -67,7 +67,8 @@ translations:
       v1.23.0 Other
 
       • "Credits" section added to footer — lists the fonts used (DSEG / BIZ UDPGothic, both under SIL OFL license) and data sources.
-    translation_hash: "sha256-96fcfd3696593f27"
+    translation_hash: "sha256-934cfe5c6c5306f2"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-22T03:27:08.476419Z"
     format_version: 1

@@ -27,7 +27,7 @@ source:
   id: "13515"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/suidogyomuka/13515.html"
   fetched_at: "2026-05-20T04:55:32.254440Z"
-  content_hash: "sha256-a908e68c388ef55c"
+  content_hash: "sha256-d2ef57e204cc004d"
   summary_method: "llm-haiku-4-5"
 translations:
   en:
@@ -46,7 +46,8 @@ translations:
       Water meters have a legal lifespan of 8 years. Before the deadline, we replace them. You'll get a postcard about 1 month before your replacement date. The work is done by shops in the Hanno City Water Service Cooperative Association; staff wear armbands. If anything seems suspicious, ask to confirm their credentials.
 
       Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/suidogyomuka/13515.html
-    translation_hash: "sha256-4e8e7980e139e7da"
+    translation_hash: "sha256-fb296b5e072331a7"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:36:09.948931Z"
     format_version: 1

@@ -27,7 +27,7 @@ source:
   id: "13166"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/johosystem/13166.html"
   fetched_at: "2026-05-22T04:53:06.784799Z"
-  content_hash: "sha256-925b2ef0dd35b9aa"
+  content_hash: "sha256-dd1d3db5a40cb57a"
   summary_method: "llm-haiku-4-5"
 translations:
   en:
@@ -49,7 +49,8 @@ translations:
       • Hanno Station Service Counter: 9:00 AM–5:00 PM (same-day tax certificate issuing stops accepting applications at 4:30 PM)
 
       Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/johosystem/13166.html
-    translation_hash: "sha256-c26f118cfbbd5326"
+    translation_hash: "sha256-76dcff3e882c772f"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-22T04:13:55.614251Z"
     format_version: 3

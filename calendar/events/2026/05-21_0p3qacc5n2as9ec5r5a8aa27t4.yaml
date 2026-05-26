@@ -87,7 +87,8 @@ translations:
 
       v1.21.0 Other
       • Footer version date format unified to ISO style (2026-05-21 11:45 JST), text made slightly more readable
-    translation_hash: "sha256-83ee14f58ee7a242"
+    translation_hash: "sha256-01c47813aff03655"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-22T03:27:02.578662Z"
     format_version: 1

@@ -23,7 +23,7 @@ source:
   id: "13272"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/bunkazaitanto/bunkazai/13272.html"
   fetched_at: "2026-05-22T04:53:09.382682Z"
-  content_hash: "sha256-e999062854208ad6"
+  content_hash: "sha256-c92b4f158888185e"
   summary_method: "llm-haiku-4-5"
 translations:
   en:
@@ -46,7 +46,8 @@ translations:
       Conditions: Proceeds in light rain; cancelled if weather is severe.
 
       Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/bunkazaitanto/bunkazai/13272.html
-    translation_hash: "sha256-105c55260e9e2440"
+    translation_hash: "sha256-378019a38b12b761"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-22T04:14:33.868036Z"
     format_version: 3

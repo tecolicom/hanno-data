@@ -25,7 +25,7 @@ source:
   id: "8239"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/8239.html"
   fetched_at: "2026-05-20T04:56:40.547599Z"
-  content_hash: "sha256-3ec2e1993969d737"
+  content_hash: "sha256-3e2a910536c70d2e"
   summary_method: "llm-haiku-4-5"
 translations:
   en:
@@ -42,7 +42,8 @@ translations:
       In fiscal year 2026 (Reiwa 8), a new Promotion Volunteer Training Course will be held. Participants will learn correct knowledge about nutrition and health from registered dietitians and health nurses, and upon completion will be registered as Food Life Improvement Promotion volunteers. Details will be announced later. New participants are being recruited to join the cause.
 
       Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/8239.html
-    translation_hash: "sha256-47674e10af4b423b"
+    translation_hash: "sha256-6adf64c781518510"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:33:48.445161Z"
     format_version: 1

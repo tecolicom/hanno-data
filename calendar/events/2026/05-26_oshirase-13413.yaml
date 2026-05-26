@@ -69,7 +69,7 @@ source:
   id: "13413"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/hoikuka/13413.html"
   fetched_at: "2026-05-25T23:09:15.508350Z"
-  content_hash: "sha256-bc0c4a6bb5fa1793"
+  content_hash: "sha256-94e70d169c0a194d"
   summary_method: "full"
 translations:
   en:
@@ -108,7 +108,8 @@ translations:
       Child and Childcare Support Information System (operated by the Japan Social Welfare Council on behalf of the Ministry of Health, Labour and Welfare)
 
       Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/hoikuka/13413.html
-    translation_hash: "sha256-df9ad205132c161b"
+    translation_hash: "sha256-828267abf54d692a"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-26T00:53:13.739859Z"
     format_version: 3

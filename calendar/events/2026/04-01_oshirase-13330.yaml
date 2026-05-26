@@ -21,7 +21,7 @@ source:
   id: "13330"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/13330.html"
   fetched_at: "2026-05-20T04:56:10.141683Z"
-  content_hash: "sha256-9df6b5751feef650"
+  content_hash: "sha256-b03cd4f3143dbdd8"
   summary_method: "full"
 translations:
   en:
@@ -36,7 +36,8 @@ translations:
       12th Hanno City Emergency Economic Support Package List (PDF file: 121.4KB)
 
       Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/13330.html
-    translation_hash: "sha256-53111e7f3416f816"
+    translation_hash: "sha256-9aa2334fb30bb9c9"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:34:41.052895Z"
     format_version: 1

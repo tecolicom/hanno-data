@@ -23,7 +23,8 @@ translations:
       Automated translation (refer to source for accuracy)
 
       Hanno City Official Website News: https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/tenji_moyooshimono/13498.html
-    translation_hash: "sha256-ece606e2995cd100"
+    translation_hash: "sha256-ee8a68cdd729bbbd"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:36:05.822895Z"
     format_version: 1

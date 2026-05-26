@@ -35,7 +35,8 @@ translations:
       During a disaster, Certified Kindergarten Sayuri Yochien can serve as a secondary evacuation destination for infants and young children for whom shelter life at a designated evacuation center would be difficult. This allows us to provide evacuees with a safe and secure environment. After coordinating the details, we reached an agreement on the contract.
 
       Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202602/13181.html
-    translation_hash: "sha256-ac3d4662f8c380a8"
+    translation_hash: "sha256-977968c9080d92f2"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:32:28.590574Z"
     format_version: 1

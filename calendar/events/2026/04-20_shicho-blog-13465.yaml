@@ -35,7 +35,8 @@ translations:
       We look forward to the support of all our residents.
 
       Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13465.html
-    translation_hash: "sha256-5246349d1a8c0fcb"
+    translation_hash: "sha256-deabf4f68ab7d7dc"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:35:39.958432Z"
     format_version: 1

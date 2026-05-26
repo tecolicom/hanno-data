@@ -27,7 +27,8 @@ translations:
       10:00 a.m.–5:00 p.m. (final day until 4:00 p.m.)
 
       A handmade market featuring craft vendors and food booths. Exhibitors showcase pottery, woodworking, metalwork, textiles, dyeing, weaving, leather, glass, bamboo, accessories, and more.
-    translation_hash: "sha256-6259cc50ef80f6d8"
+    translation_hash: "sha256-8470786cc22bede9"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:37:03.511386Z"
     format_version: 1

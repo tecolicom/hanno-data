@@ -37,7 +37,8 @@ translations:
       With this section now open, we expect improved access from the Asu area to National Route 299 and enhanced pedestrian safety to contribute to residents' daily convenience. We also anticipate this will significantly strengthen disaster preparedness and community resilience for emergencies.
 
       Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13338.html
-    translation_hash: "sha256-98ce4caa9dd58083"
+    translation_hash: "sha256-024e0ea74c78fff5"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:33:40.448553Z"
     format_version: 1

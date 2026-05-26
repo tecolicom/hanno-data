@@ -18,7 +18,8 @@ translations:
       Automated translation (refer to source for accuracy)
 
       Experience the first public showing of the 7000 series train, ride the traverser, enjoy a mini train (200 yen), try the driving simulator, see the 52-seat comfort display, visit food trucks, and relax in the open picnic area. Free admission. Rain or shine, but canceled in severe weather. Last entry at 3:00 PM.
-    translation_hash: "sha256-8d85b1b9a3a8a535"
+    translation_hash: "sha256-46e1b08e41baa420"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:37:53.092529Z"
     format_version: 1

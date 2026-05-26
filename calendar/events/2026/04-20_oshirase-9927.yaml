@@ -43,7 +43,7 @@ source:
   id: "9927"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/9927.html"
   fetched_at: "2026-05-20T04:55:57.158499Z"
-  content_hash: "sha256-2e30248379a71cf6"
+  content_hash: "sha256-81e1594725ac43cb"
   summary_method: "llm-haiku-4-5"
 translations:
   en:
@@ -82,7 +82,8 @@ translations:
       For details on which days and times each facility is open, please confirm directly with that facility.
 
       Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/9927.html
-    translation_hash: "sha256-062abef954b70108"
+    translation_hash: "sha256-09acb5bb94d94b9f"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:35:37.679903Z"
     format_version: 1

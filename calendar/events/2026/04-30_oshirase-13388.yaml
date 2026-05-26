@@ -39,7 +39,7 @@ source:
   id: "13388"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025_1/13388.html"
   fetched_at: "2026-05-20T04:55:40.649550Z"
-  content_hash: "sha256-d6031ec4b698ec8a"
+  content_hash: "sha256-26add0a9f88da59a"
   summary_method: "llm-haiku-4-5"
 translations:
   en:
@@ -70,7 +70,8 @@ translations:
       MX Mobiling Co., Ltd. will make a donation through the Corporate Hometown Tax program.
 
       Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025_1/13388.html
-    translation_hash: "sha256-278c46a7c12adfcc"
+    translation_hash: "sha256-534c795eda5c6e7f"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:36:00.346992Z"
     format_version: 1

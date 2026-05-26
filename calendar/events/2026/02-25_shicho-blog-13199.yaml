@@ -39,7 +39,8 @@ translations:
       Both parties will make effective use of the human and material resources they possess and implement joint activities aimed at improving residents' welfare and revitalizing the local community.
 
       Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202602/13199.html
-    translation_hash: "sha256-36d3a78f15b3197a"
+    translation_hash: "sha256-7cd26a7ddf9819a9"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:32:39.425373Z"
     format_version: 1

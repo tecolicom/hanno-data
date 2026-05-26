@@ -43,7 +43,8 @@ translations:
       Note: No bears have actually been sighted at Hanno Riverbed, which served as the drill location. The area will become busy this season as a spot for barbecues and river activities. Hanno City is full of beautiful natural scenery and tourist attractions beyond Hanno Riverbed. We hope you will visit us.
 
       Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13458.html
-    translation_hash: "sha256-9bb0f0c1f254878e"
+    translation_hash: "sha256-7c0d78143315a505"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:35:13.530446Z"
     format_version: 1

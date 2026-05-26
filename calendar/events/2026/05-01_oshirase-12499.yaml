@@ -29,7 +29,7 @@ source:
   id: "12499"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/johosystem/12499.html"
   fetched_at: "2026-05-20T04:55:35.946130Z"
-  content_hash: "sha256-53db41d48682c4e2"
+  content_hash: "sha256-297586ee9b5c8b21"
   summary_method: "llm-haiku-4-5"
 translations:
   en:
@@ -50,7 +50,8 @@ translations:
       If you have questions about character differences or other concerns, please contact the relevant department.
 
       Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/johosystem/12499.html
-    translation_hash: "sha256-63b3c35d8a5aa34b"
+    translation_hash: "sha256-00930c517c0c864a"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:36:04.318679Z"
     format_version: 1

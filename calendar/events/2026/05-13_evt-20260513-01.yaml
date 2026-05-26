@@ -21,7 +21,8 @@ translations:
       Route: Agano Station → Taira Chestnut Orchard (たいら栗園) → Higashi-Agano Station → Musashi-Yokote Station → Koma Station.
 
       Application deadline: May 9. Apply to ASA Hanno.
-    translation_hash: "sha256-eb23f7c69bea485f"
+    translation_hash: "sha256-998f6aa13db20aee"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:36:43.317650Z"
     format_version: 1

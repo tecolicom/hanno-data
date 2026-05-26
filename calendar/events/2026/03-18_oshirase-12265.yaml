@@ -36,7 +36,7 @@ source:
   id: "12265"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/12265.html"
   fetched_at: "2026-05-20T04:56:52.362129Z"
-  content_hash: "sha256-8d000d97af67385b"
+  content_hash: "sha256-544e4b1179d47ed8"
   summary_method: "llm-haiku-4-5"
 translations:
   en:
@@ -65,7 +65,8 @@ translations:
       If you would like a receipt, please contact the Community Welfare Division (1st floor window 11).
 
       Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/12265.html
-    translation_hash: "sha256-842648ea532c07e7"
+    translation_hash: "sha256-7eb011389260095a"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:33:29.139053Z"
     format_version: 1

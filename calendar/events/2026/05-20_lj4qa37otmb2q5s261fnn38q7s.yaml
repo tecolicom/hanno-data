@@ -87,7 +87,8 @@ translations:
       v1.19.1 Calendar Readability
       • Saturdays now shown in blue, Sundays and holidays in red across the whole row for clarity
       • Holiday names (e.g., Constitution Day / Greenery Day) display in red bold in the calendar strip
-    translation_hash: "sha256-33d6b99ab8c0a98a"
+    translation_hash: "sha256-f5646ac6ed5ef77a"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-21T07:06:20.517597Z"
     format_version: 1

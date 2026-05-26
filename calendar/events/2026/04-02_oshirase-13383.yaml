@@ -25,7 +25,7 @@ source:
   id: "13383"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/kankyomidorimizuka/13383.html"
   fetched_at: "2026-05-20T04:56:10.008662Z"
-  content_hash: "sha256-75d2ca64d8f35d9a"
+  content_hash: "sha256-4a8b94a4c5c1dddd"
   summary_method: "full"
 translations:
   en:
@@ -44,7 +44,8 @@ translations:
       Map of new location (PDF file: 292.6KB)
 
       Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/kankyomidorimizuka/13383.html
-    translation_hash: "sha256-c86d46088f98b231"
+    translation_hash: "sha256-c544372c9cdb97d8"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:34:53.354399Z"
     format_version: 1

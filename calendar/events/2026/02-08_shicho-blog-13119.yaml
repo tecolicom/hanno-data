@@ -35,7 +35,8 @@ translations:
       I would like to thank all the people involved who worked hard to make this tournament possible.
 
       Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202602/13119.html
-    translation_hash: "sha256-fef6e34810e00713"
+    translation_hash: "sha256-c7456edec615024d"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:31:56.308539Z"
     format_version: 1

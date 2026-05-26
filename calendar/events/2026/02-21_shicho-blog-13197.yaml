@@ -27,7 +27,8 @@ translations:
       On February 21 (Saturday), I attended the opening ceremony of the Hanno Cup Mini Basketball Tournament (men's division), held at the Hanno Civic Sports Hall Main Arena.
 
       Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202602/13197.html
-    translation_hash: "sha256-ea9464c4fda49a78"
+    translation_hash: "sha256-7df6c78bb9e6c78e"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:32:29.865839Z"
     format_version: 1

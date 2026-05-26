@@ -39,7 +39,8 @@ translations:
       We offer our heartfelt thanks to all fire department members for responding to disasters day and night, without pause. We ask for your continued dedication to keeping our citizens safe and secure.
 
       Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13428.html
-    translation_hash: "sha256-9f6bb902c3377954"
+    translation_hash: "sha256-06aa7fa8fc5894c5"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:35:01.754052Z"
     format_version: 1

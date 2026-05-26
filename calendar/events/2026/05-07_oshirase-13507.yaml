@@ -29,7 +29,7 @@ source:
   id: "13507"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/5/13507.html"
   fetched_at: "2026-05-20T04:55:29.368515Z"
-  content_hash: "sha256-05d836ba6eb0d99c"
+  content_hash: "sha256-bc82cd4be27d9105"
   summary_method: "llm-haiku-4-5"
 translations:
   en:
@@ -50,7 +50,8 @@ translations:
       By checking disaster risks and evacuation shelters in advance, you can carry out evacuation actions smoothly.
 
       Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/5/13507.html
-    translation_hash: "sha256-ed8eb1689c67a9ea"
+    translation_hash: "sha256-cf56f9bf48eb3ada"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:38:58.662738Z"
     format_version: 1

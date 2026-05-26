@@ -18,7 +18,8 @@ translations:
       Automated translation (refer to source for accuracy)
 
       A guided hiking tour of Mt. Warabi with a professional mountain guide.
-    translation_hash: "sha256-820067a87c42183d"
+    translation_hash: "sha256-b7429b25de0ca13c"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:37:44.003271Z"
     format_version: 1

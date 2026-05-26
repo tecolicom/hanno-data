@@ -47,7 +47,8 @@ translations:
       http://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/13132.html
 
       Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13450.html
-    translation_hash: "sha256-fcb3edd7c957f7a7"
+    translation_hash: "sha256-21de170a0505e36e"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:34:51.308649Z"
     format_version: 1

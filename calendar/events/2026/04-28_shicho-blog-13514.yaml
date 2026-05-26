@@ -35,7 +35,8 @@ translations:
       We will use this latest donation effectively, in keeping with the donor's intentions.
 
       Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13514.html
-    translation_hash: "sha256-9dccdd2d5f60637d"
+    translation_hash: "sha256-2299f62da61bdafe"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:35:56.550957Z"
     format_version: 1

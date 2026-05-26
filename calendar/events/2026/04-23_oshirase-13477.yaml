@@ -25,7 +25,7 @@ source:
   id: "13477"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/sangakukanrenkei/13477.html"
   fetched_at: "2026-05-20T04:55:46.649056Z"
-  content_hash: "sha256-77fa9a4b454b2be5"
+  content_hash: "sha256-df3dd79c6890c1f5"
   summary_method: "llm-haiku-4-5"
 translations:
   en:
@@ -42,7 +42,8 @@ translations:
       Attendees included the Hanno City Mayor, the President of Moomin Stories Company, a General Manager of Seibu Railway Company, the Director of the Hanno Chamber of Commerce and Industry, the Chair of the Okumusashi Hanno Tourism Association, the Director of Education, the Education Department Director, the Library Director, 32 children from Yamate Childcare Center, and Moomin characters.
 
       Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/sangakukanrenkei/13477.html
-    translation_hash: "sha256-158c33f2009a10a4"
+    translation_hash: "sha256-d1cab30909b29fcc"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:35:46.384514Z"
     format_version: 1

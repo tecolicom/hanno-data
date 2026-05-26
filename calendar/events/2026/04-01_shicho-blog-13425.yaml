@@ -33,7 +33,8 @@ translations:
       We look forward to serving the community with renewed energy and dedication.
 
       Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13425.html
-    translation_hash: "sha256-f5c248c714c3b85b"
+    translation_hash: "sha256-af11bc679ac13b94"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:34:48.464470Z"
     format_version: 1

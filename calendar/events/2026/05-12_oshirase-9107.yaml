@@ -21,7 +21,7 @@ source:
   id: "9107"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/furusatonozei/9107.html"
   fetched_at: "2026-05-20T04:55:24.068606Z"
-  content_hash: "sha256-ca57e1c4f6280b20"
+  content_hash: "sha256-ac1cbd36c6fe5530"
   summary_method: "full"
 translations:
   en:
@@ -36,7 +36,8 @@ translations:
       Fiscal Year 2025 (Reiwa 7) Hometown Tax Donation and Usage Report (PDF file: 2.9MB)
 
       Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/furusatonozei/9107.html
-    translation_hash: "sha256-51e3b68dae3e1b97"
+    translation_hash: "sha256-260d3bd277420ee1"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:36:41.478380Z"
     format_version: 1

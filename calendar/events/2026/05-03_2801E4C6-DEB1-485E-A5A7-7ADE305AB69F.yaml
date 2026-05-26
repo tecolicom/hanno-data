@@ -11,7 +11,8 @@ translations:
     summary: "Hanno Akebono Market"
     description: |-
 
-    translation_hash: "sha256-4855a2d30a40f0d2"
+    translation_hash: "sha256-23d8e3a60e4f1eb8"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:39:50.706888Z"
     format_version: 1

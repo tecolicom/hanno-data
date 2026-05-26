@@ -29,7 +29,7 @@ source:
   id: "13444"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/suidokomuka/13444.html"
   fetched_at: "2026-05-20T04:56:09.770056Z"
-  content_hash: "sha256-b77b4cd94603993b"
+  content_hash: "sha256-d33e6aaa78a40216"
   summary_method: "llm-haiku-4-5"
 translations:
   en:
@@ -50,7 +50,8 @@ translations:
       Reporting to the Water Works Division is not required when you have cleaning or water quality testing performed.
 
       Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/suidokomuka/13444.html
-    translation_hash: "sha256-ebe0ba680495bf38"
+    translation_hash: "sha256-f88a6ab39f6bbe13"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:35:20.234736Z"
     format_version: 1

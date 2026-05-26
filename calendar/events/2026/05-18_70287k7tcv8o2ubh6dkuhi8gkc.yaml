@@ -45,7 +45,8 @@ translations:
 
       v1.18.2 Fixes
       • Fixed the issue where the background page would scroll when an event detail modal was open (now only the modal itself scrolls).
-    translation_hash: "sha256-91aa702076cad6c4"
+    translation_hash: "sha256-2b7e1a2bbef79a75"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:37:14.361098Z"
     format_version: 1

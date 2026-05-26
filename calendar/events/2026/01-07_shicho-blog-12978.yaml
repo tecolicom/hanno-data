@@ -27,7 +27,8 @@ translations:
       On Wednesday, January 7, the city held a New Year Celebration Ceremony titled "Happy New Year Hanno 2026 (Reiwa 8)" to mark the start of the year. The event was attended by many representatives from various sectors across Hanno City and other guests.
 
       Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202601/12978.html
-    translation_hash: "sha256-0b400ecee48e82e3"
+    translation_hash: "sha256-3cbca98288a40b45"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:31:37.466984Z"
     format_version: 1

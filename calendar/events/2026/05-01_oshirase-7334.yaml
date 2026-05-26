@@ -38,7 +38,7 @@ source:
   id: "7334"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/7334.html"
   fetched_at: "2026-05-20T04:55:38.275260Z"
-  content_hash: "sha256-768346169fd727c4"
+  content_hash: "sha256-20afe127ea8e65a5"
   summary_method: "llm-haiku-4-5"
 translations:
   en:
@@ -68,7 +68,8 @@ translations:
       Application documents are available on the Hanno City official website.
 
       Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/7334.html
-    translation_hash: "sha256-05f1a3774636e67f"
+    translation_hash: "sha256-4c0cfe90bda7331b"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:36:12.926887Z"
     format_version: 1

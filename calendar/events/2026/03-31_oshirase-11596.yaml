@@ -85,7 +85,7 @@ source:
   id: "11596"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025/11596.html"
   fetched_at: "2026-05-20T04:56:27.390284Z"
-  content_hash: "sha256-60f6773545c6e71d"
+  content_hash: "sha256-0835c5e1dd5c63c5"
   summary_method: "llm-haiku-4-5"
 translations:
   en:
@@ -162,7 +162,8 @@ translations:
       Donation presentation ceremony from Hanno Rotary Club to Hanno City was held.
 
       Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025/11596.html
-    translation_hash: "sha256-e0b5702445c68870"
+    translation_hash: "sha256-1a04f47f12bf69c8"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:34:34.227543Z"
     format_version: 1

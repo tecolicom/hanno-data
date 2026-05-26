@@ -42,7 +42,7 @@ source:
   id: "13015"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/hoikuka/13015.html"
   fetched_at: "2026-05-20T04:56:48.851763Z"
-  content_hash: "sha256-7d3fadeca10e337e"
+  content_hash: "sha256-519e3366f8d14222"
   summary_method: "llm-haiku-4-5"
 translations:
   en:
@@ -76,7 +76,8 @@ translations:
       • Children cannot use the service from two days before their 3rd birthday onward.
 
       Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/hoikuka/13015.html
-    translation_hash: "sha256-d91e5dac8662cf90"
+    translation_hash: "sha256-d0964482929ece27"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:33:33.769289Z"
     format_version: 1

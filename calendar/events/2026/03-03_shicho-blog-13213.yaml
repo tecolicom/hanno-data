@@ -35,7 +35,8 @@ translations:
       We plan to use the crossing flags and traffic safety umbrellas donated this time to promote traffic safety and prevent traffic accidents at Hanno City elementary schools.
 
       Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13213.html
-    translation_hash: "sha256-b3cde812d623eb34"
+    translation_hash: "sha256-809b4579425bfe9c"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:32:59.501956Z"
     format_version: 1

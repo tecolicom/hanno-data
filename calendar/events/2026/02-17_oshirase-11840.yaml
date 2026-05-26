@@ -29,7 +29,7 @@ source:
   id: "11840"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kinkyuuzaiseitaisaku/11840.html"
   fetched_at: "2026-05-20T04:57:24.473290Z"
-  content_hash: "sha256-eb4a77306c9fd871"
+  content_hash: "sha256-2c912640de58afb4"
   summary_method: "llm-haiku-4-5"
 translations:
   en:
@@ -50,7 +50,8 @@ translations:
       Since reporting the implementation of emergency financial measures in February 2025 (Reiwa 7), the city has proceeded with plan formulation (June), multiple publications of revised review checklists, submission of ordinance amendment proposals for reviewing usage fees and service charges, and holding of district briefing meetings. The initial budget proposal for fiscal year 2026 (Reiwa 8) is scheduled to be submitted to the March regular session of the city assembly in March 2026 (Reiwa 8).
 
       Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kinkyuuzaiseitaisaku/11840.html
-    translation_hash: "sha256-f9e49d879b698a6a"
+    translation_hash: "sha256-c26fe076ffd6e518"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:32:04.909001Z"
     format_version: 1

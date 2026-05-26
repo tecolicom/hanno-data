@@ -11,7 +11,8 @@ translations:
     summary: "いなしん ONE MAN LIVE"
     description: |-
 
-    translation_hash: "sha256-0c2eb41d4a19611c"
+    translation_hash: "sha256-4ab53f83f4eabbf9"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:39:58.597291Z"
     format_version: 1

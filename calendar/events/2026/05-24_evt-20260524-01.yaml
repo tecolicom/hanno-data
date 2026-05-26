@@ -22,7 +22,8 @@ translations:
       Route: Agano Station → Kaoburi Pass (Green Line) → Adera Suwa Shrine → Yugate → Higashi-Agano Station (finish).
 
       Application deadline: May 20. Contact: Agano District Administrative Center (042-978-1211).
-    translation_hash: "sha256-9feacf00079d5b0e"
+    translation_hash: "sha256-fe467c264a6c2ea6"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:37:32.592872Z"
     format_version: 1

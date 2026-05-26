@@ -30,7 +30,7 @@ source:
   id: "12982"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/ijikanrika/12982.html"
   fetched_at: "2026-05-20T04:57:33.626203Z"
-  content_hash: "sha256-af0fadf8d2d3133a"
+  content_hash: "sha256-793495d344bd0abd"
   summary_method: "llm-haiku-4-5"
 translations:
   en:
@@ -52,7 +52,8 @@ translations:
       For details, contact the Hanno Civil Engineering Office (042-973-2281) or the Kawagoe Civil Engineering Office (049-243-2020).
 
       Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/ijikanrika/12982.html
-    translation_hash: "sha256-a5ee840167904a5d"
+    translation_hash: "sha256-3f0b4ae6123093c2"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:32:18.819456Z"
     format_version: 1

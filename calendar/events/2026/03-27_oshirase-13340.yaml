@@ -39,7 +39,7 @@ source:
   id: "13340"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/13340.html"
   fetched_at: "2026-05-20T04:56:36.748522Z"
-  content_hash: "sha256-cb00a20651b6261a"
+  content_hash: "sha256-d35874c505a8da50"
   summary_method: "llm-haiku-4-5"
 translations:
   en:
@@ -70,7 +70,8 @@ translations:
       Organized by: Hanno Walking Club
 
       Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/13340.html
-    translation_hash: "sha256-59e8addc9ded7322"
+    translation_hash: "sha256-443941a4d3a0a063"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:34:05.583146Z"
     format_version: 1

@@ -39,7 +39,8 @@ translations:
       I extend my heartfelt thanks to all those who have worked so dedicatedly to promote and pass on traditional local arts. I also offer my sincere gratitude to the members of the Hanno City Traditional Arts Preservation Society for their efforts in making this performance possible.
 
       Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202602/13211.html
-    translation_hash: "sha256-859f1a90ff4daa79"
+    translation_hash: "sha256-cef7254ccd63c776"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:31:59.992355Z"
     format_version: 1

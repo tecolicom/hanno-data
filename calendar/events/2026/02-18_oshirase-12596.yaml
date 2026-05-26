@@ -27,7 +27,7 @@ source:
   id: "12596"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/kodomoseisakuka/12596.html"
   fetched_at: "2026-05-20T04:57:30.951681Z"
-  content_hash: "sha256-4fcff90c5107a0d5"
+  content_hash: "sha256-aa94bb0ef174c8ec"
   summary_method: "llm-haiku-4-5"
 translations:
   en:
@@ -46,7 +46,8 @@ translations:
       The results were made public on February 18, 2026 (Reiwa 8).
 
       Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/kodomoseisakuka/12596.html
-    translation_hash: "sha256-3bc76c0ce929177d"
+    translation_hash: "sha256-011306f74666f891"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:32:14.930830Z"
     format_version: 1

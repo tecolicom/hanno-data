@@ -35,7 +35,8 @@ translations:
       Going forward, we will work together with all relevant agencies to prevent traffic accidents.
 
       Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13405.html
-    translation_hash: "sha256-d3cacc1d0f0147df"
+    translation_hash: "sha256-bfa07e201ac03f10"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:34:55.723725Z"
     format_version: 1

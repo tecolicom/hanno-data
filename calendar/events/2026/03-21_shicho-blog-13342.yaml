@@ -35,7 +35,8 @@ translations:
       I have high hopes that this park will become a beloved new flower destination for residents and many visitors, offering beautiful flowers including azaleas—the flower of Hanno City—to enjoy after the cherry blossom season.
 
       Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13342.html
-    translation_hash: "sha256-2a36654bd5720397"
+    translation_hash: "sha256-f12365e8431ebf65"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:33:37.483020Z"
     format_version: 1

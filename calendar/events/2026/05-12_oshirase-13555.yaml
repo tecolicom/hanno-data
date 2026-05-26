@@ -33,7 +33,7 @@ source:
   id: "13555"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/shuzeika/13555.html"
   fetched_at: "2026-05-20T04:55:21.934745Z"
-  content_hash: "sha256-94db2ba9dce48c18"
+  content_hash: "sha256-b535ea582e8e7d3a"
   summary_method: "full"
 translations:
   en:
@@ -60,7 +60,8 @@ translations:
       Be cautious of suspicious emails and phone calls (National Tax Agency)
 
       Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/shuzeika/13555.html
-    translation_hash: "sha256-a6b802b29049d9f6"
+    translation_hash: "sha256-4908635a7c20ceea"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:36:40.030484Z"
     format_version: 1

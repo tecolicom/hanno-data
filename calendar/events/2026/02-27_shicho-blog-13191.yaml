@@ -31,7 +31,8 @@ translations:
       The session runs from February 27 through March 25. The council will deliberate on a total of 39 agenda items, including requests for approval of emergency measures, proposed ordinances, supplementary budget proposals, and initial budget proposals.
 
       Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202602/13191.html
-    translation_hash: "sha256-97f01283710980bb"
+    translation_hash: "sha256-7f3264ac3cc5514f"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:32:47.164595Z"
     format_version: 1
