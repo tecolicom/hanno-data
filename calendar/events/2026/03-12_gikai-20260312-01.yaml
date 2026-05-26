@@ -20,20 +20,3 @@ source:
   url: "https://www.city.hanno.lg.jp/material/files/group/45/kaikinittei8-3.pdf"
   fetched_at: "2026-05-17T14:06:13.906018Z"
   content_hash: "sha256-d3ca4b1e0a68c91c"
-translations:
-  en:
-    summary: "🏛 General Questions to City Government"
-    description: |-
-      Automated translation (refer to source for accuracy)
-
-      Session schedule: https://www.city.hanno.lg.jp/material/files/group/45/kaikinittei8-3.pdf
-
-      Proposal list: https://www.city.hanno.lg.jp/soshikikarasagasu/gikaisomuka/kaigijoho/13089.html
-
-      General questions: https://www.city.hanno.lg.jp/material/files/group/45/ippannsitumon8-3.pdf
-
-      Source (Japanese): https://www.city.hanno.lg.jp/material/files/group/45/sannpizyoukyou8-3.pdf
-    translation_hash: "sha256-6d77c9b265ed1f59"
-    model: "claude-haiku-4-5"
-    translated_at: "2026-05-26T05:10:53.303271Z"
-    format_version: 3
