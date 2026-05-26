@@ -109,9 +109,9 @@ jobs:
             git status --short calendar/events | head -60 >&2
             exit 3
           fi
-          OUT_OF_SCOPE=$(git status --porcelain | grep -v -E '^.. calendar/(events|snapshots)/' || true)
+          OUT_OF_SCOPE=$(git status --porcelain | grep -v -E '^.. calendar/(events/|snapshots/|\.http-cache\.json$)' || true)
           if [ -n "$OUT_OF_SCOPE" ]; then
-            echo "::error::Crawler touched paths outside calendar/events|snapshots/:" >&2
+            echo "::error::Crawler touched paths outside calendar/events|snapshots/|.http-cache.json:" >&2
             echo "$OUT_OF_SCOPE" >&2
             exit 4
           fi
@@ -119,7 +119,8 @@ jobs:
       - name: Capture event changes by source
         id: changes
         run: |
-          if [ -n "$(git status --porcelain calendar/events)" ]; then
+          # event YAML 変化 or http-cache 変化のどちらかで commit が必要
+          if [ -n "$(git status --porcelain calendar/events calendar/.http-cache.json)" ]; then
             CHANGED_LIST=$(git status --porcelain calendar/events | sed 's/^...//')
             {
               echo "changed_list<<EOF"
@@ -134,7 +135,7 @@ jobs:
       - name: Commit events changes
         if: steps.changes.outputs.has_events_changes == 'true'
         run: |
-          git add calendar/events
+          git add calendar/events calendar/.http-cache.json
           git commit -m "calendar: daily fetch $(date -u +%Y-%m-%dT%H:%MZ)"
           git push
 

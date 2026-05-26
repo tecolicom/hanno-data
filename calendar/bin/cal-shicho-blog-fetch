@@ -25,7 +25,8 @@ from datetime import date as _date, datetime
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from _lib import (
-    USER_AGENT, UID_NAMESPACE, fetch, read_yaml_scalar,
+    USER_AGENT, UID_NAMESPACE, fetch, fetch_with_cache, read_yaml_scalar,
+    load_http_cache, save_http_cache,
     yaml_escape_str, yaml_block_scalar, strip_html, normalize_body,
     reiwa_to_gregorian, gregorian_to_reiwa,
     output_path_for, find_existing_by_uid,
@@ -274,6 +275,18 @@ def main() -> None:
     reiwa_y = gregorian_to_reiwa(year)
 
     # 1. top index → 年ページ
+    # HTTP Conditional GET: year / month index は新月 / 新記事追加で変化。
+    # TOP は年リスト固定で cache 効果薄なので素 fetch。
+    http_cache = load_http_cache()
+
+    def fetch_cached(url: str) -> str | None:
+        """body str or None (= 304). Updates http_cache in-place on 200."""
+        entry = http_cache.get(url, {})
+        body, etag, lm = fetch_with_cache(url, entry.get("etag"), entry.get("last_modified"))
+        if body is not None:
+            http_cache[url] = {"etag": etag, "last_modified": lm}
+        return body
+
     print(f"Fetching top index for 令和{reiwa_y}年 ({year})...", file=sys.stderr)
     top_html = fetch(TOP_URL)
     year_url = find_year_page(top_html, reiwa_y)
@@ -282,6 +295,12 @@ def main() -> None:
         sys.exit(0)
 
     # 2. 年ページ → 月ページ list
+    # year は新月リンク追加 (= 月初) で変化するが、月途中の記事追加は
+    # year に反映されない (= month index だけ変わる)。なので year 304 でも
+    # 早期 return せず、各 month の 304 判定に委ねる。
+    # year は year_url 自体は固定 (例: shisei2026/index.html) なので、
+    # 304 時は month list を「既知の月 URL」から再構築する必要がある。
+    # 簡単化: year 304 でも year_url は fetch (= 1 リクエスト無駄)。
     year_html = fetch(year_url)
     month_pages = find_month_pages(year_html, reiwa_y)
     print(f"Found {len(month_pages)} month pages", file=sys.stderr)
@@ -290,11 +309,16 @@ def main() -> None:
     written = 0
     skipped = 0
     unchanged = 0
+    cache_skipped = 0
     for mm, month_url in month_pages:
         if not safe_url(month_url):
             print(f"  skip out-of-allowlist month URL: {month_url}", file=sys.stderr)
             continue
-        month_html = fetch(month_url)
+        # month は新記事追加で変化 → 304 なら articles 巡回不要
+        month_html = fetch_cached(month_url)
+        if month_html is None:
+            cache_skipped += 1
+            continue
         articles = find_article_links(month_html)
         print(f"  [令和{reiwa_y}年{mm}月] {len(articles)} articles", file=sys.stderr)
 
@@ -358,7 +382,10 @@ def main() -> None:
             print(f"    {verb} {out_path}", file=sys.stderr)
             written += 1
 
-    print(f"Done. articles written={written}  unchanged={unchanged}  skipped (existing)={skipped}", file=sys.stderr)
+    save_http_cache(http_cache)
+    print(f"Done. articles written={written}  unchanged={unchanged}  "
+          f"skipped (existing)={skipped}  months (304)={cache_skipped}",
+          file=sys.stderr)
 
     if written < args.min_articles and not args.dry_run:
         print(f"FAIL: articles ({written}) < --min-articles ({args.min_articles}).", file=sys.stderr)

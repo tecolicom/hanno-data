@@ -26,7 +26,8 @@ from datetime import date as _date, datetime
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from _lib import (
-    USER_AGENT, UID_NAMESPACE, fetch, fetch_binary, existing_content_hash_matches,
+    USER_AGENT, UID_NAMESPACE, fetch, fetch_binary, fetch_with_cache,
+    existing_content_hash_matches, load_http_cache, save_http_cache,
     yaml_escape_str, yaml_block_scalar, reiwa_to_gregorian,
 )
 from typing import Iterable
@@ -353,7 +354,17 @@ def main() -> None:
             reiwa_y = int(m.group(1)) if m else 0
             base_month = int(m.group(2)) if m else _date.today().month
         else:
-            html = fetch(INDEX_URL)
+            # HTTP Conditional GET: INDEX が変わってなければ PDF も同じ → 全 skip。
+            http_cache = load_http_cache()
+            entry = http_cache.get(INDEX_URL, {})
+            html, etag, lm = fetch_with_cache(
+                INDEX_URL, entry.get("etag"), entry.get("last_modified")
+            )
+            if html is None:
+                print(f"304 not modified, skip: {INDEX_URL}", file=sys.stderr)
+                return
+            http_cache[INDEX_URL] = {"etag": etag, "last_modified": lm}
+            save_http_cache(http_cache)
             url, reiwa_y, base_month = find_latest_pdf_url(html)
 
         year = args.year or reiwa_to_gregorian(reiwa_y)

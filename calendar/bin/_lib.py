@@ -17,8 +17,10 @@
 from __future__ import annotations
 
 import glob
+import json
 import os
 import re
+import urllib.error
 import urllib.request
 from datetime import date as _date
 
@@ -56,6 +58,70 @@ def fetch_binary(url: str, dest: str, timeout: int = 30) -> None:
     with urllib.request.urlopen(req, timeout=timeout) as r:
         with open(dest, "wb") as f:
             f.write(r.read())
+
+
+# 共有 HTTP cache (ETag / Last-Modified 永続化先). git で commit する。
+HTTP_CACHE_PATH = os.path.join(
+    os.path.dirname(os.path.dirname(os.path.abspath(__file__))),  # calendar/
+    ".http-cache.json",
+)
+
+
+def fetch_with_cache(
+    url: str,
+    etag: str | None = None,
+    last_modified: str | None = None,
+    timeout: int = 30,
+) -> tuple[str | None, str | None, str | None]:
+    """Conditional GET 対応 fetch.
+
+    呼出側が持っている etag / last_modified を `If-None-Match` /
+    `If-Modified-Since` で送り、サーバが 304 を返したら body=None で返す。
+    そうでなければ body + 新しい etag / last_modified を返す。
+
+    戻り値: (body | None, etag, last_modified)
+        body が None = 304 not modified (= 既存 YAML 維持)。
+        body が str  = 新規/変更。呼出側は parse + save。
+    """
+    headers = {"User-Agent": USER_AGENT}
+    if etag:
+        headers["If-None-Match"] = etag
+    if last_modified:
+        headers["If-Modified-Since"] = last_modified
+    req = urllib.request.Request(url, headers=headers)
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as r:
+            body = r.read().decode("utf-8", errors="replace")
+            # 200 OK だがレスポンスに ETag/Last-Modified が無い時は旧値を維持
+            # しない (= 次回も無条件 GET になる、これが望ましい)。
+            new_etag = r.headers.get("ETag")
+            new_lm = r.headers.get("Last-Modified")
+            return body, new_etag, new_lm
+    except urllib.error.HTTPError as e:
+        if e.code == 304:
+            return None, etag, last_modified
+        raise
+
+
+def load_http_cache(path: str = HTTP_CACHE_PATH) -> dict:
+    """HTTP cache (URL → {etag, last_modified}) を読み込む.
+
+    無ければ空 dict。format error 時も空 dict (= 全 URL を再 fetch)。
+    """
+    if not os.path.exists(path):
+        return {}
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {}
+
+
+def save_http_cache(cache: dict, path: str = HTTP_CACHE_PATH) -> None:
+    """HTTP cache を JSON で書き戻す. dir が無ければ作る."""
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(cache, f, ensure_ascii=False, sort_keys=True, indent=2)
 
 
 # ==================== HTML / テキスト正規化 ====================
