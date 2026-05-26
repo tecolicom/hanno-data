@@ -1,0 +1,102 @@
+uid: "oshirase-7334-5ba979@hanno.city.tecoli.com"
+summary: "ℹ️ 市有地の売却（一般競争入札）について"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/7334.html"
+dtstart: "2026-05-26"
+dtend: "2026-05-26"
+description: |-
+  🔄 内容更新 (公開日: 2026-05-01)
+  
+  ## 市有地の売却（一般競争入札）について
+  
+  	売却物件
+  
+  			所在地
+  			登記地目
+  			地積（平方メートル）
+  
+  			1. 山手町211番1
+  
+  			畑
+  			36.85
+  
+  			2. 山手町211番3
+  
+  			畑
+  			116.93
+  
+  			3. 山手町211番4
+  			畑
+  			88.45
+  
+  			4. 山手町1406番3
+  			宅地
+  			87.57
+  
+  			5. 山手町1407番4
+  			宅地
+  			538.21
+  
+  			6. 山手町1410番2
+  			宅地
+  			171.97
+  
+  最低売却価格 6筆合計 68,000,000円
+  
+  入札保証金 10,200,000円
+  
+  用途地域   第一種住居地域
+  
+  入札申込期間   令和8年5月22日（金曜日）～令和8年6月5日（金曜日）
+  
+  ＜受付時間：午前9時～午後4時30分＞
+  
+  入札日時   令和8年6月19日（金曜日） 午後2時
+  
+  入札会場   飯能市役所本庁舎2階 入札室
+  
+  （申込書類等は下記に掲載されています。）
+  
+  一般競争入札案内（申込書類等）
+  
+  一般競争入札案内(PDFファイル:608.3KB)
+  
+  契約書（案）(PDFファイル:74.4KB)
+  
+  入札参加申込書(Wordファイル:10.7KB)
+  
+  入札参加申込書(PDFファイル:24.4KB)
+  
+  委任状(Wordファイル:10.3KB)
+  
+  委任状(PDFファイル:25.3KB)
+  
+  入札書(Wordファイル:9.9KB)
+  
+  入札書(PDFファイル:29KB)
+  
+  入札辞退届(Wordファイル:9.1KB)
+  
+  入札辞退届(PDFファイル:23.9KB)
+  
+  入札保証金返還請求書(Wordファイル:10.3KB)
+  
+  入札保証金返還請求書(PDFファイル:36.3KB)
+  
+  債権者登録（新規・廃止）申請書(Wordファイル:75.5KB)
+  
+  債権者登録（新規・廃止）申請書(PDFファイル:113.3KB)
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/7334.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "7334"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/7334.html"
+  fetched_at: "2026-05-26T02:05:09.983809Z"
+  content_hash: "sha256-5ba9793f8e943181"
+  summary_method: "full"
+  publish_date: "2026-05-01"

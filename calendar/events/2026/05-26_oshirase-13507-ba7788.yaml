@@ -1,0 +1,52 @@
+uid: "oshirase-13507-ba7788@hanno.city.tecoli.com"
+summary: "ℹ️ 「耳で聴くハザードマップ」サービスが始まります"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/5/13507.html"
+dtstart: "2026-05-26"
+dtend: "2026-05-26"
+description: |-
+  🔄 内容更新 (公開日: 2026-05-07)
+  
+  ## 「耳で聴くハザードマップ」サービスが始まります
+  
+  埼玉県では、洪水や土砂災害などのハザードマップを目で確認することが困難な視覚に障がいのある方などに、ハザードマップの情報を音声でお知らせするサービスを開始します。
+  
+  災害リスクや避難場所などを事前に確認できるので、円滑な避難行動につながります。
+  
+  ## 利用開始日
+  
+  令和8年5月1日(金曜日)
+  
+  ## 主な機能
+  
+  （1）現在地や自宅等の任意の地点の標高や災害リスク（洪水ハザードマップの情報である浸水の深さ、水位が下がるまでの時間等）の音声読み上げ
+  
+  （2）最寄りの避難場所まで音声や振動で誘導
+  
+  （3）気象庁の発表する警報や注意報の音声読み上げ
+  
+  ## 利用方法
+  
+  Uni-Voice Blind （ユニボイス ブラインド）アプリをインストール（無料）
+  
+  （注釈）音声コード「Uni-Voice」を読み取るアプリです。「耳で聴くハザードマップ」を利用するためには、このアプリが必要です。
+  
+  （注釈）各アプリストア、又は、以下のリンクからインストールできます。
+  
+  「Uni-Voice Blind」アプリ（iPhone版）
+  
+  「Uni-Voice Blind」アプリ（Android版）
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/5/13507.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13507"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/5/13507.html"
+  fetched_at: "2026-05-26T02:05:07.025499Z"
+  content_hash: "sha256-ba77884bc4d4d35a"
+  summary_method: "full"
+  publish_date: "2026-05-07"

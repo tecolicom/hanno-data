@@ -1,0 +1,60 @@
+uid: "oshirase-13272-206170@hanno.city.tecoli.com"
+summary: "ℹ️ 令和8年度文化財めぐりを開催します（5月20日受付終了）"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/bunkazaitanto/bunkazai/13272.html"
+dtstart: "2026-05-26"
+dtend: "2026-05-26"
+description: |-
+  🔄 内容更新 (公開日: 2026-05-20)
+  
+  ## 文化財めぐり「飯能の地形と地質の楽しみ方」
+  
+  ※定員に達したため、令和8年5月20日をもちまして申込受付を終了しました。
+  
+  昨年10月に飯能市教育委員会より刊行しました、「地形・地質ウォッチング！歩いて楽しむ飯能」に掲載している「コース5」加治丘陵の一部を歩きます。
+  
+  元加治駅に集合、入間川河床でアケボノゾウの足跡化石や加治丘陵をつくる飯能層、仏子層を観察しながらあけぼの子どもの森公園まで歩きます。専門家の解説を聞きながら地形の見学ができる機会です。
+  
+  ―アケボノゾウの足跡化石と加治丘陵をつくる地層の観察―
+  
+  【講師】久津間文隆氏、久保田郁夫氏、関根栄一氏、竹越智氏（関東平野西縁丘陵団体研究グループ）
+  
+  【日時】5月23日（土曜日）9時15分～12時30分 9時受付開始（小雨決行・荒天中止）
+  
+  【場所】西武池袋線元加治駅集合・解散
+  
+  【定員】 20人（事前予約必須・申込順）
+  
+  【対象】高校生以上
+  
+  【費用】500円 （保険代金含む）
+  
+  ※このフィールドワークは約3キロメートルを歩きます。帽子や歩きやすい靴を着用いただくなど、動きやすい服装でご参加ください。また、飲料水などの熱中症対策も各自でお願いいたします。
+  
+  【申込受付開始】 5月1日（金曜日）から、電話またはメール、窓口（飯能中央地区行政センター内）にて受付いたします。
+  
+  ## チラシ
+  
+  文化財めぐりチラシ (PDFファイル: 740.1KB)
+  
+  ## お問い合わせ
+  
+  教育委員会教育部博物館文化財担当
+  
+  電話番号：042-972-2301
+  
+  メールアドレス：museum@city.hanno.lg.jp
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/bunkazaitanto/bunkazai/13272.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13272"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/bunkazaitanto/bunkazai/13272.html"
+  fetched_at: "2026-05-26T02:04:59.014278Z"
+  content_hash: "sha256-2061703142916049"
+  summary_method: "full"
+  publish_date: "2026-05-20"
