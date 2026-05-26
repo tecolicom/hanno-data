@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "Automated translation (refer to source for accuracy)\n\nSession schedule: https://www.city.hanno.lg.jp/material/files/group/45/kaikinittei8-3.pdf\n\nBill list: https://www.city.hanno.lg.jp/soshikikarasagasu/gikaisomuka/kaigijoho/13089.html\n\nGeneral questions: https://www.city.hanno.lg.jp/material/files/group/45/ippannsitumon8-3.pdf\n\nSource (Japanese): https://www.city.hanno.lg.jp/material/files/group/45/sannpizyoukyou8-3.pdf",
+  "description": "Automated translation (refer to source for accuracy)\n\nSession schedule: https://www.city.hanno.lg.jp/material/files/group/45/kaikinittei8-3.pdf\n\nProposal list: https://www.city.hanno.lg.jp/soshikikarasagasu/gikaisomuka/kaigijoho/13089.html\n\nGeneral questions: https://www.city.hanno.lg.jp/material/files/group/45/ippannsitumon8-3.pdf\n\nSource (Japanese): https://www.city.hanno.lg.jp/material/files/group/45/sannpizyoukyou8-3.pdf",
   "end": {
     "date": "2026-03-18"
   },
@@ -31,5 +31,5 @@
   },
   "status": "confirmed",
   "summary": "🏛 General Questions to City Government",
-  "updated": "2026-05-22T05:36:11.672Z"
+  "updated": "2026-05-26T02:48:20.163Z"
 }

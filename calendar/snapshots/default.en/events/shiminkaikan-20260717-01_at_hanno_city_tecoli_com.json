@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "Automated translation (refer to source for accuracy)\n\n【Venue】 Small Hall\n【Organizer】 Hanno Citizens' Hall\n\nHanno Citizens' Hall: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html",
+  "description": "Automated translation (refer to source for accuracy)\n\nHanno Citizen Hall: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html\n\n【Venue】Small Hall\n【Organizer】Citizen Hall",
   "end": {
     "date": "2026-07-18"
   },
@@ -30,6 +30,6 @@
     "date": "2026-07-17"
   },
   "status": "confirmed",
-  "summary": "Try playing a grand piano in the hall",
-  "updated": "2026-05-22T05:39:47.349Z"
+  "summary": "Try playing the grand piano in the hall",
+  "updated": "2026-05-26T02:49:40.483Z"
 }

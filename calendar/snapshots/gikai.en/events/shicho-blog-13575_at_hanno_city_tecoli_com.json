@@ -1,0 +1,34 @@
+{
+  "created": "2026-05-26T02:49:07.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nOn May 18 (Monday, Reiwa 8), a certificate of appreciation from the Minister of Justice was presented to Junko Mori, who retired as a human rights ombudsperson on March 31, 2026, by Koji Takayama, Director of the Tokorozawa Branch of the Saitama Regional Legal Affairs Bureau.\n\nWe also held a ceremony to present the appointment certificate to Michiko Ohno, who was newly appointed as a human rights ombudsperson effective April 1, 2026.\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202605/13575.html",
+  "end": {
+    "date": "2026-05-19"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2VkazZpb3I4ZHNtbTRyM2Zjc21qMmNwbDZzcWswcTMxZHBuNnViajNkNXE3aWJqa2NsaG11cjM5NXBobXVyOCBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "shicho-blog-13575@hanno.city.tecoli.com",
+  "id": "_edk6ior8dsmm4r3fcsmj2cpl6sqk0q31dpn6ubj3d5q7ibjkclhmur395phmur8",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市政（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202605/13575.html"
+  },
+  "start": {
+    "date": "2026-05-18"
+  },
+  "status": "confirmed",
+  "summary": "📝 Mayor: Appreciation ceremony for human rights ombudspersons",
+  "updated": "2026-05-26T02:49:07.205Z"
+}
