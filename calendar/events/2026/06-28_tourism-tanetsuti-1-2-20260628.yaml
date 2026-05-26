@@ -28,3 +28,29 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/tanetsuti-1-2/"
   fetched_at: "2026-05-20T23:16:28.812676Z"
   content_hash: "sha256-5df8478ffa9633cc"
+translations:
+  en:
+    summary: "Experience kinoko-chan farming and summer vegetable planting in Hanno Forest Town"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      Hanno Ecotourism Association: https://hanno-tourism.jp/hanno-eco/tour/tanetsuti-1-2/
+
+      ⚠️ The tour originally scheduled for June 21 (Sunday) has been rescheduled to June 28 (Sunday) due to organizer circumstances.
+
+      Learn to build garden rows using fallen leaves and branches in a "kinoko-chan farm" (nutrient-rich compost farming method), and plant summer vegetables. Advisors will clearly teach you tips on how to plant and care for seedlings using the kinoko-chan farming technique. Lunch will be served at the restaurant "La Nola," featuring Italian dishes made with kinoko-chan vegetables.
+
+      【Admission Fee】
+      Adults: ¥8,800
+      Middle school students and younger: ¥2,200
+      (Includes guide, lunch, materials, and insurance)
+
+      【Capacity】15 people
+
+      【Guide】Hanno Tanetotchi Farm staff
+
+      【What to bring】Drinks, hat, towel, gloves, etc.
+    translation_hash: "sha256-7abff2f73c42f714"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-26T05:12:36.349723Z"
+    format_version: 3

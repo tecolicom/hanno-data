@@ -28,3 +28,26 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-logcamp-bonomine-earlysummer/"
   fetched_at: "2026-05-16T15:10:01.173574Z"
   content_hash: "sha256-8e71b038ea4ce001"
+translations:
+  en:
+    summary: "📌 Tour cancelled by organizer: Stream hiking at Bonomine and Gorge, Naguri River Shiratani source walk with game meat dinner"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      Hanno Ecotourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-logcamp-bonomine-earlysummer/
+
+      This tour has been cancelled due to organizer circumstances.
+
+      The tour was designed to hike toward Bonomine peak, learn the basics of stream walking on the beautiful Shiratani gorge route, and enjoy the natural gorge landscape. Lunch and dinner would have featured game meat (jibier) restaurant bento boxes and a full dinner experience, with educational information about game meat cuisine.
+
+      【Fee】¥23,000 per person (includes guide fee, lunch and dinner, insurance)
+
+      【Capacity】5 people
+
+      【Guide】Takeshi Shinohara, Japan Mountain Guides Association member, mountaineering guide stage III
+
+      【What to bring】20-liter backpack (with waterproof protection), full stream-walking gear, change of clothes, helmet, harness, mountaineering equipment, bus fare, bathing fee, train fare
+    translation_hash: "sha256-c175956140799cde"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-26T05:11:53.107903Z"
+    format_version: 3

@@ -30,3 +30,28 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-hannouv-onedaymarch/"
   fetched_at: "2026-05-16T15:10:00.827363Z"
   content_hash: "sha256-ed3bed5d139fe4bd"
+translations:
+  en:
+    summary: "Easy New Green One-Day March – Enjoy Hanno, a Forest Culture City"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-hannouv-onedaymarch/
+
+      We'll guide you through a roughly 10 km course based on last year's "Hanno New Green Two-Day March," while teaching you about Hanno's rich natural attractions. During the pleasant new green season, you'll visit Hanno River (飯能河原), Tenranzan, Azumakyō, Asahi Mountain, and more.
+
+      【Participation Fee】
+      Adults: ¥1,000
+      Students: ¥500
+
+      【Capacity】 50 people
+
+      【Guide】 Saitama Hanno University staff
+
+      【What to Bring】 Drinking water, and rain gear depending on the weather
+
+      【Notes】 For details, see Saitama Hanno University website: https://hanno-univ.net/
+    translation_hash: "sha256-f429aa42867929da"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-26T05:11:31.270696Z"
+    format_version: 3

@@ -30,3 +30,26 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/sayuri-taue/"
   fetched_at: "2026-05-16T15:10:03.465117Z"
   content_hash: "sha256-68e998ff57fdd048"
+translations:
+  en:
+    summary: "Kids Guides Show You Around! Feel the Rice Field Breeze—Plant Glutinous Rice & Water Bamboo Shoots"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/sayuri-taue/
+
+      A tour where you'll learn about rice farming in the rice paddies. Why not try planting rice while feeling the wind and smelling the earth? One of the attractions is meeting and learning from local elementary school student guides. The tour also includes planting water bamboo shoots (makomodake), tasting Sayama tea and snacks, and takes home local vegetables—a jam-packed experience.
+
+      【Fee】Adults ¥4,000, elementary school and younger ¥2,000 (includes guide fee, snacks, and insurance)
+
+      【Capacity】20 people
+
+      【Guide】Jun Nishimura (Sayuri After-School Club)
+
+      【What to bring】Drinking water, mat or blanket to sit on, hat, clothes you don't mind getting dirty, worn-out long rubber boots, rain gear, towel, change of clothes
+
+      【Note】Sayuri Kindergarten website: https://www.hannousayuri.com/
+    translation_hash: "sha256-cae1ec258c7ebe70"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-26T05:12:04.104995Z"
+    format_version: 3

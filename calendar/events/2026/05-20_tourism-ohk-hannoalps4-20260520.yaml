@@ -28,3 +28,24 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ohk-hannoalps4/"
   fetched_at: "2026-05-16T15:10:03.116800Z"
   content_hash: "sha256-fdb5ac60b37ef0e7"
+translations:
+  en:
+    summary: "Climbing guide tour: Hanno Alps full traverse Part 4 (from Higashi-Ono Station via Tengaku, Takamine, and Tenran Mountains to Hanno Station)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ohk-hannoalps4/
+
+      We traverse the spine of the Hanno Alps—which runs from Izugatake to Tenran Mountain—over four separate outings. This fourth outing departs from Higashi-Ono Station, crosses Tengaku Mountain, Kusumi Pass, and Nagata Mountain, then continues over Takamine Mountain and Tenran Mountain to arrive at Hanno Station. Lunch will be a special bento box from Nikoniko House.
+
+      【Cost】7,800 yen per person (includes guide fee, lunch, and insurance)
+
+      【Capacity】10 people
+
+      【Guide】Akira Shimizu—certified mountaineering guide, Stage II, Japan Mountain Guides Association
+
+      【What to bring】Gloves, drinking water, hat, rain gear, snacks, towel
+    translation_hash: "sha256-a3c03125c1bb45de"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-26T05:11:20.849459Z"
+    format_version: 3

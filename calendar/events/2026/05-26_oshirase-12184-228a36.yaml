@@ -35,3 +35,32 @@ source:
   fetched_at: "2026-05-26T05:09:13.261563Z"
   content_hash: "sha256-228a3633ba5fed69"
   summary_method: "llm-haiku-4-5"
+translations:
+  en:
+    summary: "ℹ️ Review of Administrative Operations and Spending"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      🔄 Content Update (Published: May 26, 2026)
+
+      AI Summary (Please check the original article for accurate information)
+
+      Hanno City has released multiple versions of a review sheet for administrative operations and spending, reflecting the city's severe fiscal situation.
+
+      Starting with the August 2025 version (Phase 1), the most recent is the May 2026 version. Reviewed operations are organized in stages by category: reviewing user fees, reducing scale, suspending or eliminating services, and deferring implementation.
+
+      In the October 2025 version (Phase 2) and November 2025 version (Phase 3), the gap between projected and actual revenue and spending exceeded expectations, requiring extremely severe additional cuts. Even by Phase 3, a gap of over 1 billion yen remained.
+
+      The January 2026 version (Phase 4) revised some measures based on council and public input. Through use of temporary grants, personnel cost cuts, and increased tax revenue, budget planning without relying on the fiscal adjustment fund became feasible. However, these were emergency measures.
+
+      The February 2026 version aligned the review with the budget proposal submitted to the March regular assembly session and added the effect amounts of cuts. Minimal fund transfers were made to restore social security-related spending.
+
+      The May 2026 version reflects the council's supplementary resolutions and public input, including phased restoration of suspended and reduced services, in the June supplementary budget.
+
+      For details, please refer to the PDF files for each version.
+
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kinkyuuzaiseitaisaku/12184.html
+    translation_hash: "sha256-eebf608f009d4c80"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-26T05:11:49.729829Z"
+    format_version: 3

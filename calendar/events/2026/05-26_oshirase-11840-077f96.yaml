@@ -29,3 +29,26 @@ source:
   fetched_at: "2026-05-26T05:09:07.478882Z"
   content_hash: "sha256-077f9689e002d81d"
   summary_method: "llm-haiku-4-5"
+translations:
+  en:
+    summary: "ℹ️ Emergency Financial Reform: Status Update"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      🔄 Content updated (Published: May 26, 2026)
+
+      AI summary (For accurate information, please check the original article)
+
+      As of May 2026 (Reiwa 8), Hanno City is advancing emergency financial reform through meetings of the Emergency Financial Reform Task Force (led by the mayor; 11 meetings held to date) and project team meetings (4 meetings held) to establish sustainable municipal finances and operations.
+
+      The "Hanno City Emergency Financial Reform Plan" adopted in June 2025 (Reiwa 7) sets two goals:
+      【By the end of fiscal year 2026 (Reiwa 8), secure combined reserves in the Financial Adjustment Fund and Debt Reduction Fund at 10% or more of standard financial scale (¥1.95 billion or more)】
+      【Achieve a shift to a sustainable budget size that matches revenue】
+
+      Key actions taken so far include publishing review and examination sheets for all municipal operations multiple times. The fiscal 2026 initial budget proposal was approved at the municipal assembly's regular session in March 2026 (Reiwa 8). Since April 2026, municipal operations are undergoing further review in line with supplementary resolutions. In May 2026, the sixth edition of the Operations Review and Examination Sheet was released. The assembly is now discussing operational re-reviews and events related to subsidies that had previously been suspended.
+
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kinkyuuzaiseitaisaku/11840.html
+    translation_hash: "sha256-2001f4604497b547"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-26T05:11:45.013699Z"
+    format_version: 3

@@ -73,3 +73,53 @@ source:
   fetched_at: "2026-05-24T23:01:11.254815Z"
   content_hash: "sha256-657e9a2605bb18e6"
   summary_method: "full"
+translations:
+  en:
+    summary: "ℹ️ Special Exhibition: Hanno and the Showa Era—The City's Birth and Evolving Life (July 19 – August 30, 2026)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      2026 (Reiwa 8) marks 100 years since the start of the Showa era.
+
+      This exhibition showcases the history of Hanno City's formation through successive mergers and the changing everyday life of its residents alongside furniture and household appliances, drawing mainly on the museum's collection.
+
+      We hope the exhibition offers an opportunity to reflect on the future by tracing the city's history across the Showa, Heisei, and Reiwa eras and understanding how people's lives have transformed.
+
+      【Opening Period and Hours】
+
+      Dates: July 19 (Sunday) – August 30 (Sunday), 2026
+
+      Hours: 9:30 a.m. – 4:30 p.m.
+
+      Closures during the exhibition: Mondays except July 20; July 21 (Tuesday); July 24 (Friday); August 12 (Wednesday); August 28 (Friday)
+
+      【Related Events】
+
+      Exhibition Talk
+      A curator will give guided talks on the exhibition. All talks cover the same content.
+
+      • July 30 (Thursday), 10:00–10:30 a.m.
+      • July 30 (Thursday), 3:00–3:30 p.m.
+      • August 16 (Sunday), 10:00–10:30 a.m.
+      • August 16 (Sunday), 3:00–3:30 p.m.
+      • August 23 (Sunday), 10:00–10:30 a.m.
+      • August 23 (Sunday), 3:00–3:30 p.m.
+
+      Evening Museum
+      On these dates, opening hours extend to 7:00 p.m., with a guided talk from 6:00 p.m. lasting about 30 minutes. Enjoy the museum in the cool of the evening, escaping the summer heat.
+
+      • August 11 (Tuesday, national holiday)
+      • August 29 (Saturday)
+
+      Workshop
+      An interactive quiz workshop using the exhibition and the natural history section.
+
+      • August 22 (Saturday)
+
+      Details will be announced once finalized.
+
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/tenji_moyooshimono/13451.html
+    translation_hash: "sha256-edfd530d8179de06"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-26T05:11:28.486923Z"
+    format_version: 3
