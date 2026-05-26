@@ -3,20 +3,32 @@
 
 Source: https://www.city.hanno.lg.jp/cgi-bin/feed.php?siteNew=1&displayCount=50&displayRange=90&includeShortcut=0
 
-RSS 1.0 (RDF) を取得し、各 <item> を 1 終日イベント (公開日) に変換する。
-- summary: "[告知] {タイトル}"
-- date:    dc:date の YYYY-MM-DD (公開日)
-- url:     item の link
-- UID:     oshirase-<page-id>@hanno.city.tecoli.com  (page-id は URL 末尾の数字)
+RSS 1.0 (RDF) を取得し、各 <item> を 1 終日イベント に変換する。
 
-description は本文長に応じて 3 方式:
+## 2 つの動作モード
+
+### incremental mode (デフォルト、cron 用)
+- UID:     oshirase-<page-id>-<hash6>@hanno.city.tecoli.com
+- dtstart: fetched_at (= 取得日、JST)
+- 「市の RSS フィードに新着掲載 / または内容が変わった」たびに **別の** YAML を生成。
+- 同じ (page_id, content_hash) の YAML が既にあれば skip。
+- 過去の YAML は触らず保持 → カレンダー上に「いつ我々が認識したか」「内容変更の履歴」が残る。
+- app トップの「今日以降 7 日」ウィンドウに自然に現れる (= 今日 fetched の dtstart=今日)。
+- dc:date (市の公開日) は source.publish_date に保持。
+
+### once-per-page mode (legacy、--once-per-page で有効)
+- UID:     oshirase-<page-id>@hanno.city.tecoli.com  (page-id は URL 末尾の数字)
+- dtstart: dc:date (= 市の公開日)
+- 1 page = 1 YAML。既存 UID と同じなら skip、content_hash 差分なら上書き。
+- 新規街の onboarding / 過去分 backfill 用。
+
+## description 生成 (両モード共通)
+
+本文長に応じて 3 方式:
 - 抽出失敗 (<50字):    URL のみ                    (method=url-only)
 - 50-400字:           本文全文 + URL              (method=full)
 - >400字:             LLM (Claude Haiku) 要約 + URL (method=llm-haiku-4-5)
                       ※ ANTHROPIC_API_KEY 必須。API 失敗時は full にフォールバック。
-
-既存 YAML がある UID は再 fetch しない (idempotent + 速い + polite)。
---refetch-existing で全件再評価。
 """
 from __future__ import annotations
 
@@ -27,7 +39,9 @@ import os
 import re
 import sys
 import urllib.request
-from datetime import date as _date, datetime
+from datetime import date as _date, datetime, timezone, timedelta
+
+JST = timezone(timedelta(hours=9))
 
 try:
     import httpx  # LLM 要約用 (>400字 で必要)
@@ -308,7 +322,8 @@ def yaml_block_scalar(s: str, indent: int = 2) -> str:
 
 def build_yaml_doc(uid: str, item_url: str, page_id: str, title: str, date_str: str,
                    description: str, method: str,
-                   content_hash: str, fetched_at: str | None) -> str:
+                   content_hash: str, fetched_at: str | None,
+                   publish_date: str | None = None) -> str:
     lines: list[str] = []
     lines.append(f"uid: {yaml_escape_str(uid)}")
     lines.append(f"summary: {yaml_escape_str(SUMMARY_PREFIX + title)}")
@@ -329,6 +344,10 @@ def build_yaml_doc(uid: str, item_url: str, page_id: str, title: str, date_str: 
     lines.append(f"  fetched_at: {yaml_escape_str(ts)}")
     lines.append(f"  content_hash: {yaml_escape_str('sha256-' + content_hash)}")
     lines.append(f"  summary_method: {yaml_escape_str(method)}")
+    # incremental mode で dtstart を fetched_at に置き換えた場合に、元の公開日 (RSS dc:date)
+    # を後追いできるよう保持。once-per-page mode では dtstart == publish_date なので省略。
+    if publish_date and publish_date != date_str:
+        lines.append(f"  publish_date: {yaml_escape_str(publish_date)}")
     return "\n".join(lines) + "\n"
 
 
@@ -356,6 +375,33 @@ def _find_existing_by_uid(events_dir: str, uid: str) -> str | None:
     return None
 
 
+def _existing_content_hashes(events_dir: str, uid_prefix: str) -> set[tuple[str, str]]:
+    """既存 YAML から (page_id, content_hash) ペアを集める。
+
+    incremental mode の skip 判定に使う。once-per-page と incremental の両形式の
+    UID から page_id を抽出する: `oshirase-<pid>@...` / `oshirase-<pid>-<hash6>@...`。
+    """
+    import glob
+    pattern = os.path.join(events_dir, "**", "*.yaml")
+    result: set[tuple[str, str]] = set()
+    pid_re = re.compile(rf"^{re.escape(uid_prefix)}-(\d+)(?:-[A-Za-z0-9]+)?@")
+    for path in glob.glob(pattern, recursive=True):
+        uid = _read_yaml_scalar(path, "uid")
+        if not uid:
+            continue
+        m = pid_re.match(uid)
+        if not m:
+            continue
+        page_id = m.group(1)
+        ch = _read_yaml_scalar(path, "content_hash")
+        if not ch:
+            continue
+        if ch.startswith("sha256-"):
+            ch = ch[len("sha256-"):]
+        result.add((page_id, ch))
+    return result
+
+
 def _read_yaml_scalar(path: str, key: str) -> str | None:
     try:
         with open(path, "r", encoding="utf-8") as f:
@@ -368,6 +414,35 @@ def _read_yaml_scalar(path: str, key: str) -> str | None:
     return None
 
 
+def _rewrite_yaml_scalar(path: str, key: str, new_value: str) -> bool:
+    """YAML の scalar key (例: content_hash) を in-place 書き換え。
+
+    `--rehash-only` 用の最小限の sed 相当。マッチする最初の行を `\"new_value\"` で
+    置換する。インデントと空白は維持。書き換えに成功したら True。
+    """
+    pat = re.compile(r"^(\s*" + re.escape(key) + r":\s*)\"[^\"]*\"\s*$")
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            lines = f.readlines()
+    except Exception:
+        return False
+    updated = False
+    for i, ln in enumerate(lines):
+        m = pat.match(ln)
+        if m:
+            lines[i] = f"{m.group(1)}{yaml_escape_str(new_value)}\n"
+            updated = True
+            break
+    if not updated:
+        return False
+    try:
+        with open(path, "w", encoding="utf-8") as f:
+            f.writelines(lines)
+        return True
+    except Exception:
+        return False
+
+
 def main() -> None:
     here = os.path.dirname(os.path.abspath(__file__))
     default_out_dir = os.path.join(here, "..", "events")
@@ -377,7 +452,15 @@ def main() -> None:
     ap.add_argument("--uid-prefix", default=DEFAULT_UID_PREFIX)
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--refetch-existing", action="store_true",
-                    help="既存 YAML も記事 fetch して content_hash 不一致なら上書き (backfill 用)")
+                    help="(once-per-page) 既存 YAML も記事 fetch して content_hash 不一致なら上書き")
+    ap.add_argument("--once-per-page", action="store_true",
+                    help="legacy mode: 1 page = 1 YAML、dtstart = dc:date。"
+                         "新規街 onboarding / 過去分 backfill 用。"
+                         "デフォルトは incremental mode (新規・内容変化ごとに別 YAML、dtstart=今日)")
+    ap.add_argument("--rehash-only", action="store_true",
+                    help="migration 用: 既存 YAML の content_hash フィールドだけ現 format_version "
+                         "に再計算して in-place 更新。description は触らない (LLM 呼出なし)。"
+                         "--once-per-page と組み合わせて使う。")
     ap.add_argument("--min-items", type=int, default=0,
                     help="抽出 item 数がこれ未満なら exit 2 (default: 0)")
     args = ap.parse_args()
@@ -387,11 +470,17 @@ def main() -> None:
     items = parse_items(xml)
     print(f"Parsed {len(items)} items", file=sys.stderr)
 
-    # --refetch-existing 時は events_dir 配下の oshirase YAML も拾って items に追加
-    # (RSS は直近 90 日分しか返さないため、過去分の backfill には不足)
-    if args.refetch_existing:
+    # --refetch-existing は once-per-page mode 専用 (incremental mode では意味を持たない)
+    if args.refetch_existing and args.once_per_page:
         items = _augment_with_existing(items, args.out_dir, args.uid_prefix)
         print(f"  with existing YAMLs: {len(items)} items total", file=sys.stderr)
+
+    # incremental mode 用: 既存 YAML の (page_id, content_hash) を pre-scan して set 化
+    existing_hashes: set[tuple[str, str]] = set()
+    if not args.once_per_page:
+        existing_hashes = _existing_content_hashes(args.out_dir, args.uid_prefix)
+
+    today_jst = datetime.now(JST).strftime("%Y-%m-%d")
 
     written = 0
     skipped = 0
@@ -399,12 +488,17 @@ def main() -> None:
     for it in items:
         if not safe_url(it["url"]):
             continue
-        uid = f"{args.uid_prefix}-{it['page_id']}@{UID_NAMESPACE}"
 
-        existing_path = _find_existing_by_uid(args.out_dir, uid)
-        if existing_path and not args.refetch_existing:
-            skipped += 1
-            continue
+        # once-per-page mode: 既存 UID チェックを記事 fetch 前に行う (polite)
+        if args.once_per_page:
+            uid = f"{args.uid_prefix}-{it['page_id']}@{UID_NAMESPACE}"
+            existing_path = _find_existing_by_uid(args.out_dir, uid)
+            if existing_path and not args.refetch_existing:
+                skipped += 1
+                continue
+        else:
+            uid = None  # incremental: hash 計算後に決定
+            existing_path = None
 
         # 記事 fetch → body 抽出 + method 判定 (LLM 呼出はまだ)
         try:
@@ -435,18 +529,42 @@ def main() -> None:
         )
         content_hash = hashlib.sha256(canonical.encode("utf-8")).hexdigest()[:16]
 
-        if existing_path:
-            old_hash = _read_yaml_scalar(existing_path, "content_hash")
-            if old_hash == f"sha256-{content_hash}":
-                # 入力同一 → 既存 YAML をそのまま温存 (LLM 呼出も書込もしない)
+        if args.once_per_page:
+            # legacy: 既存 YAML があり content_hash 一致なら skip
+            if existing_path:
+                old_hash = _read_yaml_scalar(existing_path, "content_hash")
+                if old_hash == f"sha256-{content_hash}":
+                    unchanged += 1
+                    continue
+            # --rehash-only: description は再生成せず、既存 YAML の content_hash
+            # フィールドだけ in-place で書き換える (LLM 呼出なし)
+            if args.rehash_only and existing_path:
+                if args.dry_run:
+                    print(f"# REHASH {existing_path}: {old_hash} → sha256-{content_hash}")
+                    written += 1
+                    continue
+                _rewrite_yaml_scalar(existing_path, "content_hash",
+                                     f"sha256-{content_hash}")
+                print(f"  REHASH {existing_path}", file=sys.stderr)
+                written += 1
+                continue
+            dtstart = it["date"]                 # dc:date
+            publish_date = None                  # dtstart と同じなので省略
+        else:
+            # incremental: (page_id, content_hash) が既知なら skip (新規 / 変更 のみ書く)
+            if (it["page_id"], content_hash) in existing_hashes:
                 unchanged += 1
                 continue
+            uid = f"{args.uid_prefix}-{it['page_id']}-{content_hash[:6]}@{UID_NAMESPACE}"
+            dtstart = today_jst                  # 今日 JST
+            publish_date = it["date"]            # dc:date を保持
 
         # description を実際に組み立てる (LLM 呼出はここで初めて発生)
         description = _materialize_description(body, method, it["title"], it["url"])
-        doc = build_yaml_doc(uid, it["url"], it["page_id"], it["title"], it["date"],
-                             description, method, content_hash, None)
-        out_path = output_path_for(args.out_dir, uid, it["date"])
+        doc = build_yaml_doc(uid, it["url"], it["page_id"], it["title"], dtstart,
+                             description, method, content_hash, None,
+                             publish_date=publish_date)
+        out_path = output_path_for(args.out_dir, uid, dtstart)
 
         if args.dry_run:
             print(f"# === {os.path.relpath(out_path, args.out_dir)} === [method={method}]")
@@ -458,11 +576,15 @@ def main() -> None:
         os.makedirs(os.path.dirname(out_path), exist_ok=True)
         with open(out_path, "w", encoding="utf-8") as f:
             f.write(doc)
+        # incremental では次の loop iter 内でも自身を skip 対象にできるよう set 更新
+        if not args.once_per_page:
+            existing_hashes.add((it["page_id"], content_hash))
         verb = "UPDATED" if existing_path else "WROTE"
         print(f"  {verb} [{method}] {out_path}", file=sys.stderr)
         written += 1
 
-    print(f"Done. items written={written}  unchanged={unchanged}  skipped (existing)={skipped}",
+    mode_label = "once-per-page" if args.once_per_page else "incremental"
+    print(f"Done [{mode_label}]. items written={written}  unchanged={unchanged}  skipped (existing)={skipped}",
           file=sys.stderr)
 
     if (written + skipped) < args.min_items and not args.dry_run:

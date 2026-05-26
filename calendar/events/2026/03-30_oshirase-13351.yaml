@@ -26,7 +26,7 @@ source:
   id: "13351"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/zaimushohyo/13351.html"
   fetched_at: "2026-05-20T04:56:29.737584Z"
-  content_hash: "sha256-0a45996e27c59c09"
+  content_hash: "sha256-3d3673dfac9ec5fd"
   summary_method: "llm-haiku-4-5"
 translations:
   en:

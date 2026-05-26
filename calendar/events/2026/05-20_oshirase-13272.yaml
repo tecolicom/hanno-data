@@ -23,7 +23,7 @@ source:
   id: "13272"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/bunkazaitanto/bunkazai/13272.html"
   fetched_at: "2026-05-22T04:53:09.382682Z"
-  content_hash: "sha256-df71f311de511d94"
+  content_hash: "sha256-e999062854208ad6"
   summary_method: "llm-haiku-4-5"
 translations:
   en:

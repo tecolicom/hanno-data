@@ -85,7 +85,7 @@ source:
   id: "11596"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025/11596.html"
   fetched_at: "2026-05-20T04:56:27.390284Z"
-  content_hash: "sha256-ed5eef0aa6f1a839"
+  content_hash: "sha256-60f6773545c6e71d"
   summary_method: "llm-haiku-4-5"
 translations:
   en:

@@ -29,7 +29,7 @@ source:
   id: "12499"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/johosystem/12499.html"
   fetched_at: "2026-05-20T04:55:35.946130Z"
-  content_hash: "sha256-345e93c4d549b156"
+  content_hash: "sha256-53db41d48682c4e2"
   summary_method: "llm-haiku-4-5"
 translations:
   en:

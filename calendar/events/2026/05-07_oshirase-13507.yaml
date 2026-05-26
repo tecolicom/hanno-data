@@ -29,7 +29,7 @@ source:
   id: "13507"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/5/13507.html"
   fetched_at: "2026-05-20T04:55:29.368515Z"
-  content_hash: "sha256-7604d10c21cd0ace"
+  content_hash: "sha256-05d836ba6eb0d99c"
   summary_method: "llm-haiku-4-5"
 translations:
   en:

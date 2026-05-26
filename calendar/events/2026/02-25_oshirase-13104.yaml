@@ -29,7 +29,7 @@ source:
   id: "13104"
   url: "https://www.city.hanno.lg.jp/akebono/oshirase/13104.html"
   fetched_at: "2026-05-20T04:57:08.687093Z"
-  content_hash: "sha256-77b3f06b6e171d59"
+  content_hash: "sha256-2b6e76f64ec2101f"
   summary_method: "llm-haiku-4-5"
 translations:
   en:

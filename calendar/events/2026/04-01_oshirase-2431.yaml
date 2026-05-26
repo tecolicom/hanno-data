@@ -34,7 +34,7 @@ source:
   id: "2431"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/iryo/2431.html"
   fetched_at: "2026-05-20T04:56:14.805626Z"
-  content_hash: "sha256-fba4bbb3827033f5"
+  content_hash: "sha256-18728fd42f7b1590"
   summary_method: "llm-haiku-4-5"
 translations:
   en:

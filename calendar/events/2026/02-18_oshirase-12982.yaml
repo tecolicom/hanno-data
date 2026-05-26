@@ -30,7 +30,7 @@ source:
   id: "12982"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/ijikanrika/12982.html"
   fetched_at: "2026-05-20T04:57:33.626203Z"
-  content_hash: "sha256-fdf37faa5583a4dc"
+  content_hash: "sha256-af0fadf8d2d3133a"
   summary_method: "llm-haiku-4-5"
 translations:
   en:

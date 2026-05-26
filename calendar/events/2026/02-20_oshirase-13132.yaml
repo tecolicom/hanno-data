@@ -23,7 +23,7 @@ source:
   id: "13132"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/13132.html"
   fetched_at: "2026-05-20T04:57:16.168136Z"
-  content_hash: "sha256-f4c5010e05e079af"
+  content_hash: "sha256-3b9369c8dc5bdf34"
   summary_method: "llm-haiku-4-5"
 translations:
   en:

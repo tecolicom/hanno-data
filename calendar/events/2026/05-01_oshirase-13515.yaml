@@ -27,7 +27,7 @@ source:
   id: "13515"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/suidogyomuka/13515.html"
   fetched_at: "2026-05-20T04:55:32.254440Z"
-  content_hash: "sha256-bcdb7f5f91979f6e"
+  content_hash: "sha256-a908e68c388ef55c"
   summary_method: "llm-haiku-4-5"
 translations:
   en:

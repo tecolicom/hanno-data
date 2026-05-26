@@ -43,7 +43,7 @@ source:
   id: "9927"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/9927.html"
   fetched_at: "2026-05-20T04:55:57.158499Z"
-  content_hash: "sha256-0624e68f21256c52"
+  content_hash: "sha256-2e30248379a71cf6"
   summary_method: "llm-haiku-4-5"
 translations:
   en:

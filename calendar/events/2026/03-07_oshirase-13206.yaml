@@ -19,7 +19,7 @@ source:
   id: "13206"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/sangakukanrenkei/13206.html"
   fetched_at: "2026-05-20T04:56:59.756454Z"
-  content_hash: "sha256-8eb991de71a2483d"
+  content_hash: "sha256-1b2ce5768200dc1c"
   summary_method: "llm-haiku-4-5"
 translations:
   en:

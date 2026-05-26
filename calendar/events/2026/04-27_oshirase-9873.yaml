@@ -19,7 +19,7 @@ source:
   id: "9873"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/nogyoshinkoka/9873.html"
   fetched_at: "2026-05-20T04:55:42.654435Z"
-  content_hash: "sha256-e3e58efe857e4e72"
+  content_hash: "sha256-f58173c036316bdc"
   summary_method: "llm-haiku-4-5"
 translations:
   en:

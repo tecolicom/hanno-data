@@ -34,7 +34,7 @@ source:
   id: "11259"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/syogaigakusyu-sports/shogaigakushu/11259.html"
   fetched_at: "2026-05-20T04:57:11.199616Z"
-  content_hash: "sha256-0da3a6a34b3e82e8"
+  content_hash: "sha256-3564eea629388e63"
   summary_method: "llm-haiku-4-5"
 translations:
   en:

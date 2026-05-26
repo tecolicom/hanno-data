@@ -29,7 +29,7 @@ source:
   id: "13108"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/toshokan/13108.html"
   fetched_at: "2026-05-20T04:57:06.198530Z"
-  content_hash: "sha256-7cab1762b9c5fb19"
+  content_hash: "sha256-3c44651d1d6f7b3e"
   summary_method: "llm-haiku-4-5"
 translations:
   en:

@@ -38,7 +38,7 @@ source:
   id: "7334"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/7334.html"
   fetched_at: "2026-05-20T04:55:38.275260Z"
-  content_hash: "sha256-7db1a4b7a1a5b310"
+  content_hash: "sha256-768346169fd727c4"
   summary_method: "llm-haiku-4-5"
 translations:
   en:

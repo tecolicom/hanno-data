@@ -42,7 +42,7 @@ source:
   id: "13015"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/hoikuka/13015.html"
   fetched_at: "2026-05-20T04:56:48.851763Z"
-  content_hash: "sha256-cfa2ff10e4b77a66"
+  content_hash: "sha256-7d3fadeca10e337e"
   summary_method: "llm-haiku-4-5"
 translations:
   en:

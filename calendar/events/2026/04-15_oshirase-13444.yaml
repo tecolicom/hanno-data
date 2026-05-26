@@ -29,7 +29,7 @@ source:
   id: "13444"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/suidokomuka/13444.html"
   fetched_at: "2026-05-20T04:56:09.770056Z"
-  content_hash: "sha256-c0e29a95f55f3109"
+  content_hash: "sha256-b77b4cd94603993b"
   summary_method: "llm-haiku-4-5"
 translations:
   en:

@@ -28,7 +28,7 @@ source:
   id: "13168"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/shinrinzukurika/13168.html"
   fetched_at: "2026-05-20T04:56:56.890527Z"
-  content_hash: "sha256-71c260ad1d634f4a"
+  content_hash: "sha256-145a6ec638e501f8"
   summary_method: "llm-haiku-4-5"
 translations:
   en:

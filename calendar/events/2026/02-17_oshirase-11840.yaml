@@ -29,7 +29,7 @@ source:
   id: "11840"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kinkyuuzaiseitaisaku/11840.html"
   fetched_at: "2026-05-20T04:57:24.473290Z"
-  content_hash: "sha256-f0605b8d8d351a12"
+  content_hash: "sha256-eb4a77306c9fd871"
   summary_method: "llm-haiku-4-5"
 translations:
   en:

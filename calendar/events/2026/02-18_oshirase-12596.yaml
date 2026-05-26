@@ -27,7 +27,7 @@ source:
   id: "12596"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/kodomoseisakuka/12596.html"
   fetched_at: "2026-05-20T04:57:30.951681Z"
-  content_hash: "sha256-2f936f0631b6022f"
+  content_hash: "sha256-4fcff90c5107a0d5"
   summary_method: "llm-haiku-4-5"
 translations:
   en:

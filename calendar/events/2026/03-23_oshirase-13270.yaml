@@ -35,7 +35,7 @@ source:
   id: "13270"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/tosiseibika/13270.html"
   fetched_at: "2026-05-20T04:56:43.346793Z"
-  content_hash: "sha256-f7561484e7e9f050"
+  content_hash: "sha256-12ad0533da18d2f0"
   summary_method: "llm-haiku-4-5"
 translations:
   en:
