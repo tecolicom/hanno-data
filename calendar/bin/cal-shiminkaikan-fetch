@@ -250,7 +250,7 @@ def main() -> None:
 
     print(f"Extracted {len(events)} events from {args.url}", file=sys.stderr)
 
-    written = 0
+    written = skipped = 0
     for ev, seq in assign_sequence(events):
         compact_date = ev["date"].replace("-", "")
         uid = f"{args.uid_prefix}-{compact_date}-{seq:02d}@{UID_NAMESPACE}"
@@ -263,6 +263,7 @@ def main() -> None:
 
         # content_hash 一致なら write skip = translations: 等を保持 (_lib 参照)
         if existing_content_hash_matches(out_path, html_hash):
+            skipped += 1
             continue
 
         doc = build_yaml_doc(uid, ev, source_id, html_hash, None)
@@ -279,10 +280,13 @@ def main() -> None:
         print(f"  WROTE {out_path}", file=sys.stderr)
         written += 1
 
-    print(f"Done. events written={written}", file=sys.stderr)
+    print(f"Done. events written={written}  unchanged={skipped}", file=sys.stderr)
 
-    if written < args.min_events and not args.dry_run:
-        print(f"FAIL: events ({written}) < --min-events ({args.min_events}). "
+    # 構造変化検知: 抽出件数 (= 書込 + skip) で判定。content_hash 一致による
+    # write-skip を構造変化と誤判定しないため。
+    extracted = written + skipped
+    if extracted < args.min_events and not args.dry_run:
+        print(f"FAIL: extracted events ({extracted}) < --min-events ({args.min_events}). "
               f"Likely source structure change. Refusing to commit.", file=sys.stderr)
         sys.exit(2)
 

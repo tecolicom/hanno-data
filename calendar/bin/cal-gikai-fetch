@@ -399,7 +399,7 @@ def main() -> None:
     canonical = json.dumps(events, ensure_ascii=False, sort_keys=True)
     html_hash = hashlib.sha256(canonical.encode("utf-8")).hexdigest()[:16]
 
-    written = 0
+    written = skipped = 0
     for ev, seq in assign_sequence(events):
         compact = ev["date"].replace("-", "")
         uid = f"{args.uid_prefix}-{compact}-{seq:02d}@{UID_NAMESPACE}"
@@ -412,6 +412,7 @@ def main() -> None:
 
         # content_hash 一致なら write skip = translations: 等を保持 (_lib 参照)
         if existing_content_hash_matches(out_path, html_hash):
+            skipped += 1
             continue
 
         doc = build_yaml_doc(uid, ev["date"], ev["content"], source_url, source_id, html_hash, None, agenda_url, ippan_url, sanpi_url)
@@ -428,10 +429,13 @@ def main() -> None:
         print(f"  WROTE {out_path}", file=sys.stderr)
         written += 1
 
-    print(f"Done. events written={written}", file=sys.stderr)
+    print(f"Done. events written={written}  unchanged={skipped}", file=sys.stderr)
 
-    if written < args.min_events and not args.dry_run:
-        print(f"FAIL: events ({written}) < --min-events ({args.min_events}).", file=sys.stderr)
+    # 構造変化検知: 抽出件数 (= 書込 + skip) で判定。content_hash 一致による
+    # write-skip を構造変化と誤判定しないため。
+    extracted = written + skipped
+    if extracted < args.min_events and not args.dry_run:
+        print(f"FAIL: extracted events ({extracted}) < --min-events ({args.min_events}).", file=sys.stderr)
         sys.exit(2)
 
 
