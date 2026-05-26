@@ -28,3 +28,26 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/tanetsuti-1-2/"
   fetched_at: "2026-05-20T23:16:28.812115Z"
   content_hash: "sha256-5df8478ffa9633cc"
+translations:
+  en:
+    summary: "Learn kinchaku-hatake (fermentation compost bed) gardening and plant summer vegetables in Hanno's forest setting"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/tanetsuti-1-2/
+
+      ⚠️ RESCHEDULED: The tour originally scheduled for June 21 (Sunday) has been moved to June 28 (Sunday) due to organizer circumstances.
+
+      Join this hands-on experience in a "kinchaku-hatake" (fermentation compost garden) that uses fallen leaves and branches. Learn bed-making techniques and how to plant and care for summer vegetable seedlings using the kinchaku farming method—advisors will explain tips in easy-to-understand detail. Lunch at the restaurant "La Nola" features Italian cuisine made with kinchaku vegetables.
+
+      【Fee】Adults ¥8,800 | Middle school students and younger ¥2,200 (includes guide, lunch, materials, insurance)
+
+      【Capacity】15 people
+
+      【Guide】Hanno Tanetotsuci Farm staff
+
+      【What to bring】Drinks, hat, towel, gloves, etc.
+    translation_hash: "sha256-7abff2f73c42f714"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-26T05:55:58.514814Z"
+    format_version: 3

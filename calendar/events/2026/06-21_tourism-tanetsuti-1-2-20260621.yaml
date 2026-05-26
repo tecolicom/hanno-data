@@ -28,3 +28,26 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/tanetsuti-1-2/"
   fetched_at: "2026-05-20T23:16:28.812437Z"
   content_hash: "sha256-5df8478ffa9633cc"
+translations:
+  en:
+    summary: "Learn organic farming and plant summer vegetables in Hanno's forest setting"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/tanetsuti-1-2/
+
+      Rescheduled: The tour originally planned for June 21 (Sunday) has been moved to June 28 (Sunday) due to organizer scheduling.
+
+      Join a hands-on experience building raised beds and planting summer vegetables in a "mushroom garden" (kinchyan hatake)—a method that uses fallen leaves and branches. Expert advisors will teach you the Kinchyan farming technique, showing you how to plant seedlings and care for them properly. Lunch is served at Restaurant La Nola, where you'll enjoy Italian cuisine made with vegetables grown using this method.
+
+      【Fee】Adults ¥8,800 | Middle school and under ¥2,200 (includes guide, lunch, materials, and insurance)
+
+      【Capacity】15 people
+
+      【Guide】Hanno Tane to Tsuchi Farm staff
+
+      【What to bring】Drinking water, hat, towel, gloves, etc.
+    translation_hash: "sha256-7abff2f73c42f714"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-26T05:56:47.819274Z"
+    format_version: 3

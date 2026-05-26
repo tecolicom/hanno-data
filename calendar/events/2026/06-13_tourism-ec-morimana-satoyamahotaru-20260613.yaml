@@ -30,3 +30,31 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-satoyamahotaru/"
   fetched_at: "2026-05-16T15:10:02.033570Z"
   content_hash: "sha256-30760cd900ea1b14"
+translations:
+  en:
+    summary: "What's the light floating in early summer? ~Firefly watching in the evening satoyama~"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      Hanno Ecotourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-satoyamahotaru/
+
+      This firefly observation takes place at "Aojishi Valley" (アオジシ谷), where environmental work has been done to protect fireflies. It's an evening-to-night tour where you can learn thoroughly about Genji fireflies and Heike fireflies—covering the secrets of their glow, their ecology, history and culture, and unexpected human connections.
+
+      【Fee】
+      Adults: ¥6,000 / Students: ¥5,000 (includes guide, insurance, and materials)
+
+      【Capacity】
+      15 people
+
+      【Guide】
+      Mori no Field Gakusha staff
+
+      【What to bring】
+      Drink, light/flashlight, light snack, change of shoes
+
+      【Notes】
+      Mori no Field Gakusha website: https://morinomanabiya168.wixsite.com/website
+    translation_hash: "sha256-3f2a2657f0730b79"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-26T05:56:39.764063Z"
+    format_version: 3

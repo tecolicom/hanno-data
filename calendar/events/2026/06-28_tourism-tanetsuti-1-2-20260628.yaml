@@ -28,3 +28,26 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/tanetsuti-1-2/"
   fetched_at: "2026-05-20T23:16:28.812676Z"
   content_hash: "sha256-5df8478ffa9633cc"
+translations:
+  en:
+    summary: "Experience mushroom farm-building and summer vegetable planting in Hanno's forest town"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/tanetsuti-1-2/
+
+      ⚠️ The tour originally scheduled for June 21 (Sunday) has been rescheduled to June 28 (Sunday) by the organizer.
+
+      Learn to build "mushroom beds" (kinchyan hatake) using fallen leaves and branches, then plant summer vegetables and create rows. Hanno Tanetsutchi Farm staff advisors will teach you planting and care techniques for the mushroom farming method. Lunch at Restaurant La Nola features Italian dishes made with mushroom-farm vegetables.
+
+      【Fee】Adults ¥8,800 / Junior high school and younger ¥2,200 (includes guide, lunch, materials, insurance)
+
+      【Capacity】15 people
+
+      【Guide】Hanno Tanetsutchi Farm staff
+
+      【What to bring】Drinks, hat, towel, gloves, etc.
+    translation_hash: "sha256-7abff2f73c42f714"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-26T05:56:53.821667Z"
+    format_version: 3

@@ -30,3 +30,26 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/sayuri-taue/"
   fetched_at: "2026-05-16T15:10:03.465117Z"
   content_hash: "sha256-68e998ff57fdd048"
+translations:
+  en:
+    summary: "Kids' guides lead the way! In the rice paddies—plant glutinous rice and water plant shoots"
+    description: |-
+      Automated translation (refer to source for accuracy)
+
+      A tour to learn about rice farming in the paddy fields. Why not experience planting rice while feeling the breeze and smelling the earth? One of the highlights is meeting and interacting with local elementary school student guides. This full-packed tour also includes planting makomo dake (water plant shoots), tasting Sayama tea and snacks, plus local vegetable souvenirs to take home.
+
+      【Fee】Adults ¥4,000, elementary school age and under ¥2,000 (includes guide, snacks, and insurance)
+
+      【Capacity】20 people
+
+      【Guide】Jun Nishimura (Sayuri After-School Club)
+
+      【What to bring】Drinking water, ground sheet, hat, clothes you don't mind getting dirty, old long socks, rain gear, towel, change of clothes
+
+      【More info】Sayuri Kindergarten website: https://www.hannousayuri.com/
+
+      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/sayuri-taue/
+    translation_hash: "sha256-cae1ec258c7ebe70"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-26T05:56:33.003318Z"
+    format_version: 3
