@@ -1,0 +1,34 @@
+{
+  "created": "2026-05-26T01:04:05.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nAbout Unlicensed Childcare Facilities\n\nAn \"unlicensed childcare facility\" is any facility that provides childcare for infants and young children but has not received official approval from the prefectural governor (or designated city/core city mayor). If you wish to use an unlicensed facility, please contact the facility directly.\n\nService content and fees vary by facility. To prevent problems arising from unclear explanations about fees and other contract matters, or from misunderstandings by families, please carefully review the contract terms before enrolling.\n\nCurrent Enrollment Status (April 2026, Reiwa 8)\n\nFacility Name: Seikatsu Club Taiyo Sukusuku Hoikuen\nAddress/Phone: 34 Shimokawasaki, Hanno / 042-972-1522\nWho can enroll: Children of employees only (Seikatsu Club Hanno Delivery Center hiring)\nAge range / Capacity: Ages 57 days and up to elementary school / 19 children\nDays/Hours: Monday–Saturday, holidays (closed one week for Obon and year-end/New Year) / 8:15 AM–6:45 PM\n\nFacility Name: Nichinichinohara (Nature Experience Learning & Free School)\nAddress/Phone: 603 Koiwai, Hanno / 090-1434-1453\nWho can enroll: No restrictions\nAge range / Capacity: Ages 1–5 / 30 children\nDays/Hours: Monday–Friday (closed weekends and holidays) / 8:30 AM–4:00 PM (extended hours available by arrangement)\n\nAbout Free Childcare and Education\n\nChildren aged 3 and over who use unlicensed facilities (and are not enrolled in recognized childcare or kindergarten) are eligible for the \"Free Childcare and Education\" benefit. For information on how to apply, contact the Childcare Division.\n\nAdditional Resources\n\nYou can search for nearby education and childcare facilities, including unlicensed ones, using the \"Child and Childcare Support Information System\" (nickname: Koko de Search). For the latest information on unlicensed facilities, check the link below.\n\nChild and Childcare Support Information System (operated by the Japan Social Welfare Council on behalf of the Ministry of Health, Labour and Welfare)\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/hoikuka/13413.html",
+  "end": {
+    "date": "2026-05-27"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3EzMmNxMGQxZ21zcmpmNXBobWl0M3A1cHE2YW9yZmRoa2lzb3JmZGsgYjZmMzZlMTk3NTFjMDVjY2U5OWZhMDA4MjhlNDI5ZjQwZjZkYjEwMGUyZGJlNDQyYmMyNjIyYTI1ZGE5NzMxNkBn",
+  "iCalUID": "oshirase-13413@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6cq32cq0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市政（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/hoikuka/13413.html"
+  },
+  "start": {
+    "date": "2026-05-26"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Enrollment now open at unlicensed childcare facilities (as of April 2026, Reiwa 8)",
+  "updated": "2026-05-26T02:13:50.535Z"
+}

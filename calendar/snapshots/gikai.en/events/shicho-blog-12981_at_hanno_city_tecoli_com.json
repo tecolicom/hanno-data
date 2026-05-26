@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "Automated translation (refer to source for accuracy)\n\nOn Sunday, January 11, 2026 (Reiwa 8), Hanno City held its Coming-of-Age Ceremony—Celebrating Twenty at Hanno City Civic Hall.\n\nThis year, 742 people in our city turned twenty. Of those, 467 attended the ceremony.\n\nTo all of you turning twenty and reaching this major milestone in life, and to your families: my heartfelt congratulations.\n\nI sincerely wish that your futures will be filled with wonderful things to come.\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202601/12981.html",
+  "description": "Automated translation (refer to source for accuracy)\n\nOn Sunday, January 11, 2026 (Reiwa 8), we held the Hanno City Coming-of-Age Ceremony ~ Celebration of Turning Twenty ~ at Hanno Civic Hall.\n\nThis year, 742 people in our city are turning twenty, and 467 of them attended the ceremony.\n\nCongratulations to all of you who are reaching this major milestone in life, and to your families.\n\nI sincerely wish that your futures will be filled with wonderful moments and achievements.\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202601/12981.html",
   "end": {
     "date": "2026-01-12"
   },
@@ -29,6 +29,6 @@
     "date": "2026-01-11"
   },
   "status": "confirmed",
-  "summary": "📝 Mayor: Hanno City Coming-of-Age Ceremony 2026—Celebrating Twenty",
-  "updated": "2026-05-22T05:34:54.390Z"
+  "summary": "📝 Mayor: Hanno City Coming-of-Age Ceremony 2026 ~ Celebration of Turning Twenty",
+  "updated": "2026-05-26T02:12:44.629Z"
 }

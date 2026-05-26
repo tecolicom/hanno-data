@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "Automated translation (refer to source for accuracy)\n\nHanno City held briefing sessions on its emergency financial measures in January and February 2026 (Reiwa 8) at Hanno City Hall and district administrative centers (all sessions have ended). The sessions explained the circumstances leading to the emergency financial measures and reviewed of operations and projects.\n\nDistributed materials are as follows:\n• Materials up to February 15, 2026 session\n• Materials from February 17, 2026 session onward (briefing materials and partial excerpts of the confirmed Operations and Projects Review Sheet)\n• Materials from February 22, 2026 session onward (briefing materials; no changes to partial excerpts of the confirmed Operations and Projects Review Sheet)\n\nThe complete confirmed Operations and Projects Review Sheet is available on a separate page.\n\n【January 2026 Sessions】\nHeld January 17 (Saturday) 1:30 PM–3:30 PM and January 18 (Sunday) 9:30 AM–11:30 AM at the Hanno City Hall Annex. Session records are available.\n\n【February 2026 Sessions】\nHeld at 12 district administrative centers including Kaji, Seimei, and Agano districts from February 9–28, 2026. Sign language interpretation provided at Hanno Central District (February 15), Fujimi District (February 19), and East Agano District (February 28). No advance registration required. Attendance may be limited if demand is high.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kinkyuuzaiseitaisaku/12708.html",
+  "description": "Automated translation (refer to source for accuracy)\n\n【Event Ended】\n\nHanno City held briefing sessions on the emergency financial measures and operational reforms. Sessions were held at Hanno City Hall Annex on January 17–18, 2026 (Reiwa 8), and then at community centers throughout the city from February 9 to February 28, 2026. No advance registration was required, but all sessions have now concluded.\n\nDistribution materials and records from each session are available on the city website. You can also view the finalized operational reforms review sheet (確定版).\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kinkyuuzaiseitaisaku/12708.html",
   "end": {
     "date": "2026-03-02"
   },
@@ -29,6 +29,6 @@
     "date": "2026-03-01"
   },
   "status": "confirmed",
-  "summary": "ℹ️ Emergency Financial Measures Briefing Sessions (all sessions completed)",
-  "updated": "2026-05-22T05:35:40.433Z"
+  "summary": "ℹ️ Emergency Financial Measures Briefing Sessions — Now Concluded",
+  "updated": "2026-05-26T02:12:59.410Z"
 }

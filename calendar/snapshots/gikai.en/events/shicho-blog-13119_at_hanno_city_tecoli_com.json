@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "Automated translation (refer to source for accuracy)\n\nOn February 8 (Sunday), I attended the opening ceremony of the \"Hanno Rotary Club Cup 36th Seseragi Cup Middle School Table Tennis Tournament\" held at Hanno Citizens' Sports Hall Main Arena.\n\nThis tournament brings together middle school table tennis teams from Hanno City, as well as from throughout Saitama Prefecture and the Kanto region, providing an opportunity for students to demonstrate the results of their regular practice.\n\nI would like to express my gratitude to all those involved who worked hard to make this tournament possible.\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202602/13119.html",
+  "description": "Automated translation (refer to source for accuracy)\n\nOn February 8 (Sunday), I attended the opening ceremony of the \"Hanno Rotary Club Cup 36th Seseragi Cup Middle School Table Tennis Tournament\" held at Hanno Citizens' Sports Hall Main Arena.\n\nThis tournament is held as an opportunity for students to demonstrate the results of their regular practice. Table tennis teams from middle schools throughout Hanno City, as well as from across Saitama Prefecture and the Kanto region, gather to compete.\n\nI would like to thank all the people involved who worked hard to make this tournament possible.\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202602/13119.html",
   "end": {
     "date": "2026-02-09"
   },
@@ -29,6 +29,6 @@
     "date": "2026-02-08"
   },
   "status": "confirmed",
-  "summary": "📝 Mayor's remarks: 36th Hanno Rotary Club Cup Seseragi Cup Middle School Table Tennis Tournament",
-  "updated": "2026-05-22T05:35:04.776Z"
+  "summary": "📝 Mayor: 36th Hanno Rotary Club Cup Seseragi Cup Middle School Table Tennis Tournament",
+  "updated": "2026-05-26T02:12:48.003Z"
 }

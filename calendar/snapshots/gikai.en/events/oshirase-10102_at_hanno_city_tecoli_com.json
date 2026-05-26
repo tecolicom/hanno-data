@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "Automated translation (refer to source for accuracy)\n\nThis facility opens when a \"Heatstroke Special Alert\" is issued. During the operation period from April 22, 2026 (Reiwa 8) to October 28, it will be activated when temperatures are exceptionally high and the heat index (WBGT) in Saitama Prefecture is forecast to reach 35 or higher the next day.\n\nMultiple designated facilities are located throughout Hanno City, including the Citizen Activity Center, Library, Post Office, Administrative Center, Maruhiro Department Store, Museum, Welfare Center, and Gymnasium in various districts. Use is available during each facility's regular business hours; opening times vary by facility (weekdays only, Tuesday–Sunday only, etc.). Capacity is approximately 1–20 people depending on the facility.\n\nWhen using a shelter, please follow staff instructions and keep noise to a minimum, as people may be in the middle of administrative procedures. Heatstroke Special Alerts are announced via disaster prevention radio, disaster prevention email, and the Ministry of the Environment website.\n\nInquiries: Health Center (042-974-3488)\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/10102.html",
+  "description": "Automated translation (refer to source for accuracy)\n\nHanno City has designated public and private facilities as cooling shelters (air-conditioned rest areas) that open when heat stroke special warning alerts are issued.\n\n【Operating Period】\nApril 22, 2026 (Reiwa 8) through October 28, 2026 (Wednesday)\n\n【How to Use】\n• Facilities open during their regular hours when an alert is issued\n• Please follow the instructions of each facility\n• Keep noise to a minimum in the lobby areas\n\n【Main Facilities】\n\n【Hanno District】\n• Children's Library (Inari-cho 25-8) Tue–Sun & holidays, last Friday of month 11:00–16:00 Capacity: 3 people\n• Hanno Municipal Library (Yamate-cho 19-5) Tue–Sun & holidays, last Friday of month 9:30–18:00 Capacity: 9 people\n• Hanno Museum (Hanno 258-1) Tue–Sun 9:30–16:30 Capacity: 5 people\n• Hanno Central District Administrative Center (Hanno 60-1) Weekdays 9:00–16:30 Capacity: 15 people\n• Maruhiro Department Store Hanno Branch, 7th Floor Citizen Activities Center (Sakae-cho 24-4) Mon–Sun 10:00–19:00 Capacity: 5 people\n• Maruhiro Department Store, 6th Floor Rest Area (Sakae-cho 24-4) Mon–Sun 10:00–19:00 Capacity: 5 people\n• Other: Post offices, pharmacies\n\n【Other Districts】\nAdministrative centers, welfare centers, post offices, and similar facilities are available in each district.\n\n※Parking at the Citizen Activities Center and Maruhiro Department Store parking lot requires a fee.\n※For detailed opening hours and capacity information, please contact each facility directly.\n\n【Contact】\nHealth Center 042-974-3488\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/10102.html",
   "end": {
     "date": "2026-04-21"
   },
@@ -29,6 +29,6 @@
     "date": "2026-04-20"
   },
   "status": "confirmed",
-  "summary": "ℹ️ Cooling Shelter Information",
-  "updated": "2026-05-22T05:37:28.511Z"
+  "summary": "ℹ️ Cooling shelters open during extreme heat alerts",
+  "updated": "2026-05-26T02:13:30.651Z"
 }

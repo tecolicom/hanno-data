@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "Automated translation (refer to source for accuracy)\n\nHanno City is selling 6 parcels of city-owned land through general competitive bidding.\n\n【Properties for sale】\n6 parcels in Yamate-cho: 3 agricultural plots (total area 242.23 sq m) and 3 residential plots (total area 797.75 sq m)\n\n【Minimum sale price】\n68,000,000 yen for all 6 parcels combined\n\n【Bid security (deposit)】\n10,200,000 yen\n\n【Zoning】\nFirst-class residential district\n\n【Bidding application period】\nMay 22, 2026 (Reiwa 8) – June 5, 2026 (Friday)\n9:00 a.m. – 4:30 p.m.\n\n【Bidding date and time】\nJune 19, 2026 (Friday), 2:00 p.m.\n\n【Bidding venue】\nHanno City Hall Main Building, 2nd Floor, Bidding Room\n\nApplication documents are posted on the Hanno City official website.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/7334.html",
+  "description": "Automated translation (refer to source for accuracy)\n\nHanno City will sell six city-owned parcels in Yamate-cho through open competitive bidding.\n\n【Properties for Sale】\n1. Yamate-cho 211-1 Field 36.85㎡\n2. Yamate-cho 211-3 Field 116.93㎡\n3. Yamate-cho 211-4 Field 88.45㎡\n4. Yamate-cho 1406-3 Residential land 87.57㎡\n5. Yamate-cho 1407-4 Residential land 538.21㎡\n6. Yamate-cho 1410-2 Residential land 171.97㎡\n\nMinimum sale price: ¥68,000,000 (total for six parcels)\nBid security: ¥10,200,000\nZoning: First-class residential district\n\n【Schedule】\nBid application period: May 22 – June 5, 2026 (Reiwa 8), 9:00 a.m. to 4:30 p.m.\nBid date and time: June 19, 2026 (Reiwa 8), 2:00 p.m.\nBid venue: Hanno City Hall Main Building, 2nd floor, Bidding Room\n\nApplication documents are available on the Hanno City official website.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/7334.html",
   "end": {
     "date": "2026-05-02"
   },
@@ -29,6 +29,6 @@
     "date": "2026-05-01"
   },
   "status": "confirmed",
-  "summary": "ℹ️ Sale of city-owned land (general competitive bidding)",
-  "updated": "2026-05-22T05:37:57.742Z"
+  "summary": "ℹ️ City-owned land sale (open competitive bidding)",
+  "updated": "2026-05-26T02:13:41.248Z"
 }

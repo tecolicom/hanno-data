@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "Automated translation (refer to source for accuracy)\n\nOn Wednesday, January 7, the city held a New Year Celebration ceremony titled \"Reiwa 8 (2026) — Happy New Year Hanno\" to mark the start of the new year. Many guests attended, including representatives from various sectors of Hanno City.\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202601/12978.html",
+  "description": "Automated translation (refer to source for accuracy)\n\nOn Wednesday, January 7, the city held a New Year Celebration Ceremony titled \"Happy New Year Hanno 2026 (Reiwa 8)\" to mark the start of the year. The event was attended by many representatives from various sectors across Hanno City and other guests.\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202601/12978.html",
   "end": {
     "date": "2026-01-08"
   },
@@ -29,6 +29,6 @@
     "date": "2026-01-07"
   },
   "status": "confirmed",
-  "summary": "📝 Mayor: New Year Celebration Ceremony, Reiwa 8 — Happy New Year Hanno",
-  "updated": "2026-05-22T05:34:50.069Z"
+  "summary": "📝 Mayor: New Year Celebration Ceremony — Happy New Year Hanno 2026",
+  "updated": "2026-05-26T02:12:43.245Z"
 }

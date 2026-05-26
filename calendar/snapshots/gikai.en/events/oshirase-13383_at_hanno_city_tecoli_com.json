@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "Automated translation (refer to source for accuracy)\n\nStarting April 1, 2026 (Reiwa 8), the Environment and Water Resources Division will relocate to the Clean Center.\n\nPlease visit the office on the 3rd floor of the Clean Center for any inquiries.\n\nNew Address: 768-1 Shimohata, Hanno City\n\nPlease refer to the map below for the new location.\n\nMap of New Location (PDF file: 292.6KB)\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/kankyomidorimizuka/13383.html",
+  "description": "Automated translation (refer to source for accuracy)\n\nFrom April 1, 2026 (Reiwa 8), the Environment and Green Water Division will relocate to the Clean Center.\n\nWhen you need to visit, please come to the office on the 3rd floor of the Clean Center.\n\nNew address: 768-1 Shimohata, Hanno City\n\nPlease refer to the map below for the new location.\n\nMap of new location (PDF file: 292.6KB)\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/kankyomidorimizuka/13383.html",
   "end": {
     "date": "2026-04-03"
   },
@@ -29,6 +29,6 @@
     "date": "2026-04-02"
   },
   "status": "confirmed",
-  "summary": "ℹ️ Environment and Water Resources Division Moving to New Location",
-  "updated": "2026-05-22T05:37:05.478Z"
+  "summary": "ℹ️ Environment and Green Water Division moving to new location",
+  "updated": "2026-05-26T02:13:22.662Z"
 }

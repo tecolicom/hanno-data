@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "Automated translation (refer to source for accuracy)\n\nOn January 10 (Saturday, Reiwa 8), the annual Hanno Fire Department New Year Ceremony and Awards Presentation was held at Hanno City Civic Hall with many distinguished guests in attendance, conducted with solemnity and grandeur.\n\nAt the awards presentation, fire department members and their families who have been dedicated to fire department activities were honored. Congratulations to all the recipients.\n\nTo the 337 fire department members: I offer heartfelt respect and gratitude for your tireless work in fire prevention and response, day and night.\n\nWith dry air conditions and forest fires occurring across the country, Hanno City—with its many mountainous areas—requires heightened vigilance in fire prevention. Going forward, please take care of your health and continue your dedicated efforts toward building a city where residents can live safely and with peace of mind.\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202601/12984.html",
+  "description": "Automated translation (refer to source for accuracy)\n\nOn Saturday, January 10, the Hanno Fire Brigade New Year Ceremony and Awards Presentation was held with great solemnity and celebration at Hanno City Civic Hall, attended by many distinguished guests.\n\nAt the awards presentation ceremony, fire brigade members and their families who have been dedicated to fire brigade activities were honored. Congratulations to all recipients.\n\nTo the 337 fire brigade members: I offer my heartfelt respect and gratitude for your tireless firefighting service day and night.\n\nWith the air becoming dry and forest fires breaking out across the country, Hanno City—home to many mountainous areas—requires heightened vigilance in fire prevention. Going forward, please take care of your health and continue to dedicate yourselves to building a town where our citizens can live safely and with peace of mind.\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202601/12984.html",
   "end": {
     "date": "2026-01-11"
   },
@@ -29,6 +29,6 @@
     "date": "2026-01-10"
   },
   "status": "confirmed",
-  "summary": "📝 Mayor: Hanno Fire Department New Year Ceremony and Awards Presentation, Reiwa 8 (2026)",
-  "updated": "2026-05-22T05:34:52.293Z"
+  "summary": "📝 Mayor: Hanno Fire Brigade New Year Ceremony and Awards Presentation, Reiwa 8 (2026)",
+  "updated": "2026-05-26T02:12:43.989Z"
 }

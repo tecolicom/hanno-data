@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "Automated translation (refer to source for accuracy)\n\nThe convenience store service for issuing tax (non-taxable) and income certificates will be temporarily suspended from May 31 to June 2, 2026 (Reiwa 8) for system maintenance. Service resumes on June 3, 2026 (Reiwa 8).\n\nIf you need a certificate during the suspension period, use one of these locations:\n\n【Hanno City Hall and District Administrative Centers】 9:00 AM – 4:30 PM (except Fujimi District Administrative Center)\n\n【Hanno Station Service Counter】 9:00 AM – 5:00 PM (same-day tax certificate issuance: 9:00 AM – 4:30 PM)\n\nAll other convenience store services remain available as usual.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/johosystem/13166.html",
+  "description": "Automated translation (refer to source for accuracy)\n\n【Service Suspension】Convenience store service for tax (non-taxable) and income certificates will be suspended.\n\nSuspension period: May 31, 2026 (Reiwa 8) (Sunday) through June 2, 2026 (Tuesday), all day\n\nThis suspension is due to system maintenance (fiscal year update work). Only tax (non-taxable) and income certificates are affected.\n\nFY2026 tax (non-taxable) and income certificates will become available for issue starting June 3, 2026 (Wednesday).\n\nIf you need a certificate during the suspension period, please use one of these locations:\n\n• Hanno City Hall and each District Administrative Center (excluding Fujimi District Administrative Center): 9:00 AM–4:30 PM\n• Hanno Station Service Counter: 9:00 AM–5:00 PM (same-day tax certificate issuing stops accepting applications at 4:30 PM)\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/johosystem/13166.html",
   "end": {
     "date": "2026-05-16"
   },
@@ -29,6 +29,6 @@
     "date": "2026-05-15"
   },
   "status": "confirmed",
-  "summary": "ℹ️ Convenience store service for tax and income certificates suspended",
-  "updated": "2026-05-22T05:38:36.697Z"
+  "summary": "ℹ️ Convenience store service for tax/non-taxable income certificates temporarily suspended",
+  "updated": "2026-05-26T02:13:48.305Z"
 }

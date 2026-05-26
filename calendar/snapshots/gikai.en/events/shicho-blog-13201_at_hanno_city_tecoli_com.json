@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "Automated translation (refer to source for accuracy)\n\nOn March 1 (Sunday), I attended the opening ceremony of the 45th Kaji District Loop Relay Race. Under clear blue skies, many participants gathered for the event. After the opening ceremony, I served as the starter.\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13201.html",
+  "description": "Automated translation (refer to source for accuracy)\n\nOn March 1st (Sunday), I attended the opening ceremony of the 45th Kaji District Ekiden Relay Race. Under clear skies, many people participated that day. After the opening ceremony, I served as the starter for the race.\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202603/13201.html",
   "end": {
     "date": "2026-03-02"
   },
@@ -29,6 +29,6 @@
     "date": "2026-03-01"
   },
   "status": "confirmed",
-  "summary": "📝 Mayor: 45th Kaji District Loop Relay Race",
-  "updated": "2026-05-22T05:35:42.355Z"
+  "summary": "📝 Mayor: 45th Kaji District Ekiden Relay Race",
+  "updated": "2026-05-26T02:13:00.124Z"
 }

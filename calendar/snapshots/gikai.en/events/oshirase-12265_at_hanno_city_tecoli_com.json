@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "Automated translation (refer to source for accuracy)\n\nThe Japanese Red Cross Hanno District (Saitama Prefecture) is accepting donations and emergency relief funds.\n\n【Domestic Donations】\n• 2024 Noto Peninsula Earthquake Relief Fund (Ishikawa, Toyama, Nagata prefectures) — Acceptance ends March 22, 2027 (Reiwa 9)\n• September 2024 Noto Peninsula Heavy Rain Disaster Relief Fund (Ishikawa) — Acceptance ends March 22, 2027\n\n【International Emergency Relief Funds】\n• Middle East Humanitarian Crisis Relief Fund — Acceptance ends March 23, 2027\n• Bangladesh Southern Region Refugee Relief Fund — Acceptance ends March 23, 2027\n• Ukraine Humanitarian Crisis Relief Fund — Acceptance ends March 23, 2027\n• Iran and Surrounding Countries Humanitarian Crisis Relief Fund — Acceptance ends May 25, 2026 (Reiwa 8)\n• Unrestricted International Emergency Relief Fund — Ongoing year-round\n\n【Where to Donate】\nHanno City Hall Main Building, Front Entrance Information Desk (donation box), or Community Welfare Division (1st Floor, Window 11)\n\n【Hours】\nWeekdays, 8:30 a.m. to 5:15 p.m.\n\nIf you need a receipt, you can request one at the Community Welfare Division (Window 11, 1st Floor) at City Hall.\n\nAll donations received are sent in full to the Disaster Relief Fund Distribution Committee of the affected prefectures.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/12265.html",
+  "description": "Automated translation (refer to source for accuracy)\n\nThe Japanese Red Cross is accepting donations to support disaster-affected areas. The Hanno branch of the Saitama Prefecture chapter is cooperating, and all donations received are sent in full to the relief fund distribution committees of the affected prefectures.\n\n【Domestic Relief Funds】\n• Noto Peninsula Earthquake Disaster Relief Fund (Ishikawa, Toyama, Fukui prefectures) — Scheduled end date: March 22, 2027 (Reiwa 9)\n• September 2024 Noto Peninsula Heavy Rain Disaster Relief Fund (Ishikawa) — Scheduled end date: March 22, 2027\n\n【International Humanitarian Aid Funds】\n• Middle East Humanitarian Crisis Relief Fund — Scheduled end date: March 23, 2027\n• Bangladesh Southern Refugee Relief Fund — Scheduled end date: March 23, 2027\n• Ukraine Humanitarian Crisis Relief Fund — Scheduled end date: March 23, 2027\n• Iran and Neighboring Countries Humanitarian Crisis Relief Fund — Scheduled end date: May 25, 2026 (Reiwa 8)\n• Undesignated International Relief Fund — Accepted year-round\n\n【Where to donate】\nCity Hall main building front entrance information desk (donation box), or 1st floor window 11, Community Welfare Division\n\n【Hours】Weekdays 8:30 a.m. to 5:15 p.m.\n\nIf you would like a receipt, please contact the Community Welfare Division (1st floor window 11).\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/12265.html",
   "end": {
     "date": "2026-03-19"
   },
@@ -29,6 +29,6 @@
     "date": "2026-03-18"
   },
   "status": "confirmed",
-  "summary": "ℹ️ Donations and Emergency Relief Funds Now Being Accepted",
-  "updated": "2026-05-22T05:36:13.804Z"
+  "summary": "ℹ️ Relief and aid fund donations now being accepted",
+  "updated": "2026-05-26T02:13:05.461Z"
 }

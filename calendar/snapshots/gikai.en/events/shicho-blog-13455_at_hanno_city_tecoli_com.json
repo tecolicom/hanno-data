@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "Automated translation (refer to source for accuracy)\n\nOn Tuesday, April 14, I had the opportunity to address students at Surugadai University as this year's endowed lecture series began.\n\nHanno City has maintained a basic partnership agreement with Surugadai University since 2011 (Heisei 23). Since fiscal 2015 (Heisei 27), as part of this partnership, we have been sending city staff members to serve as instructors.\n\nThis lecture series comprises 15 sessions covering the structure and role of local government, the qualities needed in local civil servants, and Hanno City's priority policies. It is a distinctive offering from Surugadai University for students aspiring to careers in local government.\n\nI hope all of you will study \"Local Administration and Law\" thoroughly, and through this learning, I look forward to your growth and success.\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13455.html",
+  "description": "Automated translation (refer to source for accuracy)\n\nOn Tuesday, April 14, I had the opportunity to address students at Surugadai University as we launched this year's endowed lecture program.\n\nHanno City entered into a basic partnership agreement with Surugadai University in 2011 (Heisei 23). Since the 2015 fiscal year (Heisei 27), as part of our work under this agreement, we have been sending our city staff members to serve as instructors.\n\nThis lecture series consists of 15 sessions covering the structure and role of local government, the profile of local civil servants in demand, and Hanno City's key policy initiatives. It represents a distinctive educational opportunity for students aiming to become local civil servants.\n\nI hope you will study \"Regional Administration and Law\" thoroughly, and through this learning experience, I look forward to your growth and success.\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13455.html",
   "end": {
     "date": "2026-04-15"
   },
@@ -29,6 +29,6 @@
     "date": "2026-04-14"
   },
   "status": "confirmed",
-  "summary": "📝 Mayor's remarks: Surugadai University endowed lecture guidance",
-  "updated": "2026-05-22T05:37:18.075Z"
+  "summary": "📝 Mayor: Surugadai University Endowed Lecture Guidance",
+  "updated": "2026-05-26T02:13:26.986Z"
 }

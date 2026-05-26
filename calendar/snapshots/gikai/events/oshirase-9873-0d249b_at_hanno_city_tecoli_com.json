@@ -1,0 +1,34 @@
+{
+  "created": "2026-05-26T01:02:29.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🔄 内容更新 (公開日: 2026-04-27)\n\n## 令和8年度病害虫発生予察注意報第1号「ムギ類赤かび病」\n\n本年の熊谷のアメダス観測データから推定されるムギ類赤かび病菌子のう胞子飛散好適日は、4月1日から4月26日までの積算日数が11日(平年同期7.9日)と過去10年で3番目に多くなっています。なかでも、4月14日から16日及び23日から25日はそれぞれ3日間連続で子のう胞子飛散好適日が出現しており、11月中下旬に播種した小麦が最も感染しやすい開花期と子のう胞子飛散好適日がおおむね一致しています。\n\n向こう1か月の気温は高く、平年に比べ晴れの日が少ないことが予想されており、今後しばらく本病の感染に好適な気象条件になることが見込まれます。\n\n今後、本病の発生量の増加が懸念されますので、本病の発生が見られる小麦ほ場では、追加の防除を実施しましょう。\n\n詳細は埼玉県ホームページ（外部サイト）をご確認ください。\n\n令和8年度病害虫発生予察注意報第1号「ムギ類赤かび病」（令和8年4月27日）\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/nogyoshinkoka/9873.html",
+  "end": {
+    "date": "2026-05-27"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOXA3MHJqNmI5Z2NncDM4ZWIyODFrNjJyamVkc242NnFia2Y0bjc4cGIzZHRtNmliajNkdG1nIDY3NDU5MTRiMjQzMjMxMTJhMTVmNDNkYzIwYjNhMGY0YTQ4MTdhZmQ4MDBjOGQxNjg3ZDBiZjBiN2Y4OTBjNjFAZw",
+  "iCalUID": "oshirase-9873-0d249b@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9p70rj6b9gcgp38eb281k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市政",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/nogyoshinkoka/9873.html"
+  },
+  "start": {
+    "date": "2026-05-26"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 令和8年度病害虫発生予察注意報第1号「ムギ類赤かび病」（令和8年4月27日）",
+  "updated": "2026-05-26T02:07:29.687Z"
+}

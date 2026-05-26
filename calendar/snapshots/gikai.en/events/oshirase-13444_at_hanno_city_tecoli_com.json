@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "Automated translation (refer to source for accuracy)\n\nFacilities with storage tanks (receiving tanks) larger than 10 cubic meters in capacity are classified as \"simple exclusive water supply systems\" and are required by the Water Supply Law to be properly maintained by the facility owner.\n\nOwners and managers of applicable facilities must regularly perform the following:\n\n• Cleaning of storage tanks (receiving tanks): at least once per year\n• Water quality testing: once per year, conducted by a registered testing organization\n\nProper hygiene management of storage tank water supplies is important to ensure that safe water produced at water treatment plants is delivered appropriately to each household. Even for small-scale storage tank water supplies with a capacity of 10 cubic meters or less, please make efforts to perform similar maintenance.\n\nIf you have your storage tank cleaned or water quality tested, you do not need to report this to the Water Works Division.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/suidokomuka/13444.html",
+  "description": "Automated translation (refer to source for accuracy)\n\nFacilities with storage tanks (receiving tanks) with an effective capacity exceeding 10 cubic meters are required by the Water Supply Law to be properly maintained as \"simple exclusive water supply systems.\"\n\n【Maintenance tasks to perform regularly】\n• Cleaning of storage tanks (receiving tanks): at least once per year\n• Water quality testing: once per year, conducted at a registered testing facility\n\nOwners and managers should make efforts to properly manage the hygiene of storage tank water supplies so that safe water produced at the purification plant can be appropriately supplied to each household.\n\nEven for small-scale storage tank water supplies with an effective capacity of 10 cubic meters or less, please make efforts to perform management similar to that of simple exclusive water supply systems.\n\nReporting to the Water Works Division is not required when you have cleaning or water quality testing performed.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/suidokomuka/13444.html",
   "end": {
     "date": "2026-04-16"
   },
@@ -29,6 +29,6 @@
     "date": "2026-04-15"
   },
   "status": "confirmed",
-  "summary": "ℹ️ Proper maintenance of storage tanks (receiving tanks) for water supply",
-  "updated": "2026-05-22T05:37:24.423Z"
+  "summary": "ℹ️ Proper management of storage tanks (receiving tanks) for water supply",
+  "updated": "2026-05-26T02:13:29.307Z"
 }

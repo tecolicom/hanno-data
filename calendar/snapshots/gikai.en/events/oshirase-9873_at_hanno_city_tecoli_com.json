@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "Automated translation (refer to source for accuracy)\n\nCrop Disease Forecast Alert No. 1 for 2026 (Reiwa 8): Wheat Scab has been issued.\n\n【Situation】\nFrom April 1 to 26, 2026, conditions favorable for the spread of wheat scab spores occurred on 11 days—the third-highest number in the past 10 years. Notably, three consecutive days of favorable spreading conditions appeared April 14–16 and April 23–25. Wheat sown in late November is at its most vulnerable flowering stage, which roughly coincides with these high-risk periods.\n\n【Forecast】\nOver the next month, temperatures are expected to be above normal and clear days fewer than typical. These conditions are favorable for wheat scab infection.\n\n【Action】\nIf wheat scab appears in your wheat fields, apply additional fungicide treatment.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/nogyoshinkoka/9873.html",
+  "description": "Automated translation (refer to source for accuracy)\n\nWatch for Fusarium head blight (red mold disease) in wheat and barley crops.\n\nBased on observation data from the Kumagaya automated weather station, between April 1 and April 26, there were 11 days favorable for ascospore dispersal (compared to an average of 7.9 days for this period). This is the third-highest count in the past 10 years. Notably, April 14–16 and April 23–25 each showed 3 consecutive days of favorable dispersal conditions, coinciding roughly with the flowering period of wheat planted in late October or November. This has significantly increased infection risk.\n\nWeather forecasts for the coming month predict higher temperatures and fewer clear days, creating conditions favorable for the disease to spread. If fusarium head blight appears in your wheat fields, apply additional preventive treatments immediately.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/nogyoshinkoka/9873.html",
   "end": {
     "date": "2026-04-28"
   },
@@ -29,6 +29,6 @@
     "date": "2026-04-27"
   },
   "status": "confirmed",
-  "summary": "ℹ️ Crop Disease Forecast Alert No. 1 for 2026 (Reiwa 8): Wheat Scab (April 27, 2026)",
-  "updated": "2026-05-22T05:37:45.400Z"
+  "summary": "ℹ️ Fiscal 2026 Pest and Disease Forecast Alert No. 1: Fusarium Head Blight in Wheat and Barley (April 27, 2026)",
+  "updated": "2026-05-26T02:13:36.416Z"
 }

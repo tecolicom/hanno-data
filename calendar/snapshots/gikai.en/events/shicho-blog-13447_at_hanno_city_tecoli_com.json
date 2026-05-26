@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "Automated translation (refer to source for accuracy)\n\nOn April 10 (Friday), I attended the Saitama Prefecture Mayors' Association regular general meeting. The Saitama Prefecture Mayors' Association is organized by the mayors of all 40 cities in the prefecture. Its purpose is to strengthen coordination and cooperation among cities throughout the prefecture, support smooth and effective municipal administration, and contribute to the development and prosperity of local self-governance.\n\nAt this general meeting, we adopted resolutions regarding the securing and enhancement of local general-purpose revenue and the correction of imbalances in revenue sources, and decided to submit requests to the national government based on these resolutions.\n\nMoving forward, we will continue to work together in cooperation to build communities and develop towns that are pleasant places to live.\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13447.html",
+  "description": "Automated translation (refer to source for accuracy)\n\nOn April 10 (Friday), I attended the Saitama Prefectural Mayors Council Regular Assembly. The Saitama Prefectural Mayors Council is an organization of mayors from all 40 cities in the prefecture. Its purpose is to strengthen coordination and communication among cities throughout the prefecture, support smooth and progressive municipal administration, and contribute to the prosperity and development of local self-governance.\n\nAt this assembly, we passed resolutions regarding the securing and expansion of local general-purpose tax revenues and the correction of disparities in financial resources, and decided to submit requests to the national government on these matters.\n\nMoving forward, we will continue to work together in cooperation to create livable communities and develop towns and cities that are pleasant places to live.\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202604/13447.html",
   "end": {
     "date": "2026-04-11"
   },
@@ -29,6 +29,6 @@
     "date": "2026-04-10"
   },
   "status": "confirmed",
-  "summary": "📝 Mayor: Attended Saitama Prefecture Mayors' Association regular general meeting",
-  "updated": "2026-05-22T05:37:15.952Z"
+  "summary": "📝 Mayor: Attended Saitama Prefectural Mayors Council Regular Assembly",
+  "updated": "2026-05-26T02:13:26.285Z"
 }
