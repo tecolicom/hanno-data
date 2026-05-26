@@ -281,29 +281,34 @@ def _llm_available() -> bool:
     return httpx is not None and bool(os.environ.get("ANTHROPIC_API_KEY"))
 
 
-def _materialize_description(body: str, method: str, title: str, article_url: str) -> str:
+def _materialize_description(body: str, method: str, title: str, article_url: str,
+                              status_header: str = "") -> str:
     """method に応じて description を組み立てる (LLM 呼出はこの中で発生).
 
     method は事前に環境 (LLM 利用可否) を踏まえて決定される前提のため、
     ここで再 fallback は起きない. LLM 呼出が想定外に失敗した場合は full
     にフォールバックするが、その場合 method 表記と description が乖離する
     点には注意.
+
+    status_header: incremental mode で先頭に置く 1 行 (例: "🆕 新着掲載 (公開日: 2026-04-14)")。
+    content_hash には含まれない (status は fetch-time の状態であって本文ではない)。
     """
+    header_block = f"{status_header}\n\n" if status_header else ""
     suffix = f"飯能市公式サイト 新着情報: {article_url}"
     if method == "url-only":
-        return suffix
+        return f"{header_block}{suffix}"
     if method == "full":
-        return f"{body}\n\n{suffix}"
+        return f"{header_block}{body}\n\n{suffix}"
     if method == "llm-haiku-4-5":
         summary = summarize_with_llm(title, body)
         if summary:
-            return f"{AI_DISCLAIMER}\n\n{summary}\n\n{suffix}"
+            return f"{header_block}{AI_DISCLAIMER}\n\n{summary}\n\n{suffix}"
         # 例外的失敗 (network/rate limit 等). full にフォールバックして
         # 当該 yaml は次回再評価される (hash は llm-haiku-4-5 で書かれるため、
         # 次回 body 不変でも intended_hash 一致 → skip にならず再試行される設計).
         print(f"  WARN: LLM unexpected failure, fallback to full text: {article_url}", file=sys.stderr)
-        return f"{body}\n\n{suffix}"
-    return suffix
+        return f"{header_block}{body}\n\n{suffix}"
+    return f"{header_block}{suffix}"
 
 
 # ---------- YAML 出力 ----------
@@ -476,9 +481,12 @@ def main() -> None:
         print(f"  with existing YAMLs: {len(items)} items total", file=sys.stderr)
 
     # incremental mode 用: 既存 YAML の (page_id, content_hash) を pre-scan して set 化
+    # + 同 page_id に YAML 1 件でもあれば「既知 page」= 内容更新扱い
     existing_hashes: set[tuple[str, str]] = set()
+    existing_page_ids: set[str] = set()
     if not args.once_per_page:
         existing_hashes = _existing_content_hashes(args.out_dir, args.uid_prefix)
+        existing_page_ids = {pid for (pid, _) in existing_hashes}
 
     today_jst = datetime.now(JST).strftime("%Y-%m-%d")
 
@@ -550,6 +558,7 @@ def main() -> None:
                 continue
             dtstart = it["date"]                 # dc:date
             publish_date = None                  # dtstart と同じなので省略
+            status_header = ""                   # legacy mode は header 不要
         else:
             # incremental: (page_id, content_hash) が既知なら skip (新規 / 変更 のみ書く)
             if (it["page_id"], content_hash) in existing_hashes:
@@ -558,9 +567,15 @@ def main() -> None:
             uid = f"{args.uid_prefix}-{it['page_id']}-{content_hash[:6]}@{UID_NAMESPACE}"
             dtstart = today_jst                  # 今日 JST
             publish_date = it["date"]            # dc:date を保持
+            # status: 同 page_id に既存 YAML 無し → 新規 / 既存あり → 内容更新
+            if it["page_id"] in existing_page_ids:
+                status_header = f"🔄 内容更新 (公開日: {publish_date})"
+            else:
+                status_header = f"🆕 新着掲載 (公開日: {publish_date})"
 
         # description を実際に組み立てる (LLM 呼出はここで初めて発生)
-        description = _materialize_description(body, method, it["title"], it["url"])
+        description = _materialize_description(body, method, it["title"], it["url"],
+                                              status_header=status_header)
         doc = build_yaml_doc(uid, it["url"], it["page_id"], it["title"], dtstart,
                              description, method, content_hash, None,
                              publish_date=publish_date)
@@ -579,6 +594,7 @@ def main() -> None:
         # incremental では次の loop iter 内でも自身を skip 対象にできるよう set 更新
         if not args.once_per_page:
             existing_hashes.add((it["page_id"], content_hash))
+            existing_page_ids.add(it["page_id"])
         verb = "UPDATED" if existing_path else "WROTE"
         print(f"  {verb} [{method}] {out_path}", file=sys.stderr)
         written += 1
