@@ -660,7 +660,13 @@ READ_ONLY_FIELDS = {
 }
 
 
-def cmd_apply(args: argparse.Namespace) -> None:
+def cmd_apply(args: argparse.Namespace) -> dict:
+    """1 YAML を Calendar に反映。結果を dict で返す:
+       {action: "updated"|"imported"|"in-sync"|"skipped-no-translation",
+        uid: ..., summary: ..., cal_key: ...}
+    silent=True (cmd_apply_all 経由) なら print せず、cmd_apply_all 側で集計表示。
+    """
+    silent = getattr(args, "silent", False)
     doc = load_yaml(args.yaml_file)
     uid = doc.get("uid")
     if not uid:
@@ -670,8 +676,9 @@ def cmd_apply(args: argparse.Namespace) -> None:
     localized = localize_doc(doc, lang)
     if localized is None:
         # 翻訳未整備 → skip (apply-all 側でカウント、apply 単体ではメッセージ出して exit 0)
-        print(f"SKIPPED  {uid}  (no translation for lang={lang})")
-        return
+        if not silent:
+            print(f"SKIPPED  {uid}  (no translation for lang={lang})")
+        return {"action": "skipped-no-translation", "uid": uid, "summary": "", "cal_key": ""}
     cal_key, target_cal_id = target_calendar_for_lang(doc, lang)
     new_body = render_yaml_to_event(localized)
     existing = find_event_by_uid(uid, target_cal_id)
@@ -694,49 +701,60 @@ def cmd_apply(args: argparse.Namespace) -> None:
         # 判定基準は COMPARE_FIELDS + normalize_for_diff (cmd_diff と同一) を使う。
         if all(normalize_for_diff(existing.get(k)) == normalize_for_diff(new_body.get(k))
                for k in COMPARE_FIELDS):
-            if args.dry_run:
+            if args.dry_run and not silent:
                 print(json.dumps({"action": "in-sync (skip)", "uid": uid}, ensure_ascii=False))
-            return
+            return {"action": "in-sync", "uid": uid,
+                    "summary": new_body.get("summary", ""), "cal_key": cal_key}
 
         if args.dry_run:
-            print(json.dumps({
-                "action": "update",
-                "id": existing["id"],
-                "uid": uid,
-                "summary": new_body.get("summary"),
-                "start": new_body.get("start"),
-                "end": new_body.get("end"),
-            }, ensure_ascii=False, indent=2))
-            return
+            if not silent:
+                print(json.dumps({
+                    "action": "update",
+                    "id": existing["id"],
+                    "uid": uid,
+                    "summary": new_body.get("summary"),
+                    "start": new_body.get("start"),
+                    "end": new_body.get("end"),
+                }, ensure_ascii=False, indent=2))
+            return {"action": "updated", "uid": uid,
+                    "summary": new_body.get("summary", ""), "cal_key": cal_key}
 
         updated = gws(
             "calendar", "events", "update",
             params={"calendarId": target_cal_id, "eventId": existing["id"]},
             body=merged,
         )
-        print(f"UPDATED  {uid}  ({updated.get('summary','')[:50]})  [{cal_key}]")
+        if not silent:
+            print(f"UPDATED  {uid}  ({updated.get('summary','')[:50]})  [{cal_key}]")
+        return {"action": "updated", "uid": uid,
+                "summary": updated.get("summary", ""), "cal_key": cal_key}
     else:
         # import: 新規作成 with iCalUID
         new_body["iCalUID"] = uid
         new_body.setdefault("status", "confirmed")
 
         if args.dry_run:
-            print(json.dumps({
-                "action": "import",
-                "uid": uid,
-                "calendar": cal_key,
-                "summary": new_body.get("summary"),
-                "start": new_body.get("start"),
-                "end": new_body.get("end"),
-            }, ensure_ascii=False, indent=2))
-            return
+            if not silent:
+                print(json.dumps({
+                    "action": "import",
+                    "uid": uid,
+                    "calendar": cal_key,
+                    "summary": new_body.get("summary"),
+                    "start": new_body.get("start"),
+                    "end": new_body.get("end"),
+                }, ensure_ascii=False, indent=2))
+            return {"action": "imported", "uid": uid,
+                    "summary": new_body.get("summary", ""), "cal_key": cal_key}
 
         imported = gws(
             "calendar", "events", "import",
             params={"calendarId": target_cal_id},
             body=new_body,
         )
-        print(f"IMPORTED {uid}  ({imported.get('summary','')[:50]})  [{cal_key}]")
+        if not silent:
+            print(f"IMPORTED {uid}  ({imported.get('summary','')[:50]})  [{cal_key}]")
+        return {"action": "imported", "uid": uid,
+                "summary": imported.get("summary", ""), "cal_key": cal_key}
 
 
 # ---------- diff: Calendar vs YAML ----------
@@ -868,23 +886,60 @@ def cmd_apply_all(args: argparse.Namespace) -> None:
         die(f"no YAML files under {args.events_dir}")
     only_managed = getattr(args, "only_managed", False)
     print(f"applying {len(files)} YAMLs... (only-managed={only_managed})")
-    ok, err, skipped = 0, 0, 0
+
+    DETAIL_THRESHOLD = 5  # 1 種 action がこの件数を超えたら集計のみ表示
+    results: list[dict] = []
+    err = 0
+    skipped_no_source = 0
     for f in files:
         if only_managed:
             doc = load_yaml(f) or {}
             if not doc.get("source"):
-                skipped += 1
+                skipped_no_source += 1
                 continue
         try:
             ns = argparse.Namespace(yaml_file=f, dry_run=args.dry_run,
-                                    lang=getattr(args, "lang", "default"))
-            cmd_apply(ns)
-            ok += 1
+                                    lang=getattr(args, "lang", "default"),
+                                    silent=True)
+            r = cmd_apply(ns)
+            results.append(r)
         except SystemExit as e:
             err += 1
             print(f"  ERR  {f}: {e}")
+
+    # action 別に集計、件数閾値で詳細 / 集計を切替
+    from collections import defaultdict
+    by_action: dict[str, list[dict]] = defaultdict(list)
+    for r in results:
+        by_action[r["action"]].append(r)
+    # 表示順序固定 (= 重要度順): imported > updated > skipped-no-translation > in-sync
+    for action in ("imported", "updated", "skipped-no-translation", "in-sync"):
+        items = by_action.get(action, [])
+        if not items:
+            continue
+        label = {"imported": "IMPORTED", "updated": "UPDATED",
+                 "skipped-no-translation": "SKIPPED (no translation)",
+                 "in-sync": "in-sync"}[action]
+        if len(items) <= DETAIL_THRESHOLD:
+            for r in items:
+                if action == "in-sync":
+                    continue  # in-sync は詳細でも省略 (= ノイズ抑止)
+                print(f"  {label}  {r['uid']}  ({r['summary'][:50]})  [{r['cal_key']}]")
+        # 件数 > THRESHOLD or in-sync は集計のみ
+        # (詳細を出した場合も最後に count を出すと総数把握しやすい)
+
+    # summary 1 行で全カテゴリ count を表示
+    counts = {a: len(by_action.get(a, [])) for a in
+              ("imported", "updated", "in-sync", "skipped-no-translation")}
+    summary_parts = [f"imported={counts['imported']}",
+                     f"updated={counts['updated']}",
+                     f"in-sync={counts['in-sync']}",
+                     f"no-translation={counts['skipped-no-translation']}",
+                     f"err={err}"]
+    if skipped_no_source:
+        summary_parts.append(f"no-source={skipped_no_source}")
     print()
-    print(f"summary: ok={ok} err={err} skipped={skipped} total={len(files)}")
+    print(f"summary: {' '.join(summary_parts)} total={len(files)}")
 
 
 # ---------- snapshot: Calendar -> JSON (backup) ----------
