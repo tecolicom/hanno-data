@@ -34,11 +34,22 @@ from _lib import (
 from typing import Iterable
 
 
+# ==================== Source ====================
+# 「どこから何を取るか」のメタ情報。多都市展開時はこのセクションがそのまま
+# 都市別 config (YAML) になる想定。
 DEFAULT_UID_PREFIX = "shiminkaikan"
 SOURCE_TYPE = "city-hanno-shiminkaikan"
 SOURCE_URL = "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html"
 URL_ALLOWLIST = re.compile(r"^https://www\.city\.hanno\.lg\.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889\.html$")
+LOCATION_PREFIX = "飯能市民会館"
+
+
+# ==================== Tunables ====================
+# 挙動の調節パラメータ。意味を理解せずに変えても挙動が壊れないものを集める。
 ASSUMED_DURATION_HOURS = 2  # 開演時刻のみ記載 → 終了時刻は +2h と仮定
+
+
+# ==================== Logic ====================
 
 
 # ---------- 構造抽出 ----------
@@ -176,7 +187,7 @@ def build_yaml_doc(uid: str, ev: dict, source_id: str, html_hash: str, fetched_a
         time_marker = None
 
     description = build_description(ev)
-    location = f"飯能市民会館 {ev['location']}" if ev.get("location") else "飯能市民会館"
+    location = f"{LOCATION_PREFIX} {ev['location']}" if ev.get("location") else LOCATION_PREFIX
 
     lines: list[str] = []
     lines.append(f"uid: {yaml_escape_str(uid)}")
@@ -185,7 +196,7 @@ def build_yaml_doc(uid: str, ev: dict, source_id: str, html_hash: str, fetched_a
     lines.append(f"url: {yaml_escape_str(SOURCE_URL)}")
     lines.append(f"dtstart: {yaml_escape_str(dtstart)}")
     lines.append(f"dtend: {yaml_escape_str(dtend)}")
-    desc_with_url = f"飯能市民会館: {SOURCE_URL}"
+    desc_with_url = f"{LOCATION_PREFIX}: {SOURCE_URL}"
     if description:
         desc_with_url = f"{desc_with_url}\n\n{description}"
     lines.append("description: " + yaml_block_scalar(desc_with_url, indent=2))

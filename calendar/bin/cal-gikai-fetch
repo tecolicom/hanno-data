@@ -33,6 +33,9 @@ from _lib import (
 from typing import Iterable
 
 
+# ==================== Source ====================
+# 「どこから何を取るか」のメタ情報。多都市展開時はこのセクションがそのまま
+# 都市別 config (YAML) になる想定。
 DEFAULT_UID_PREFIX = "gikai"
 SOURCE_TYPE = "city-hanno-gikai"
 SUMMARY_PREFIX = "🏛 "
@@ -42,12 +45,15 @@ IPPAN_INDEX_URL = "https://www.city.hanno.lg.jp/soshikikarasagasu/gikaisomuka/ka
 SANPI_INDEX_URL = "https://www.city.hanno.lg.jp/soshikikarasagasu/gikaisomuka/kaigijoho/396.html"
 URL_ALLOWLIST = re.compile(r"^https://www\.city\.hanno\.lg\.jp/soshikikarasagasu/gikaisomuka/kaigijoho/395\.html$")
 
-# レイアウト判定の閾値 (経験的)
-COLUMN_SPLIT_X = 200.0  # x < 200 → 左半月、x >= 200 → 右半月
-ROW_GROUPING_TOLERANCE_Y = 4.0  # 同 Y とみなす許容差
 
-# cell の content がこれだけ (= 議会活動なし) なら skip する
-SKIP_ONLY_CONTENTS = {"休会"}
+# ==================== Tunables ====================
+# PDF レイアウト判定の閾値 (経験的)。PDF 構造が変わった時に微調整する。
+COLUMN_SPLIT_X = 200.0           # x < 200 → 左半月、x >= 200 → 右半月
+ROW_GROUPING_TOLERANCE_Y = 4.0   # 同 Y とみなす許容差
+SKIP_ONLY_CONTENTS = {"休会"}     # cell content が これだけ = 議会活動なし → skip
+
+
+# ==================== Logic ====================
 
 
 # ---------- index ページから最新 PDF を見つける ----------

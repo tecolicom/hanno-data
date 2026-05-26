@@ -27,6 +27,9 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from _lib import yaml_block_scalar
 
 
+# ==================== Calendar ====================
+# 管理対象 Google Calendar のメタ情報。多都市展開時はこのセクションがそのまま
+# 都市別 config (YAML) になる想定。
 DEFAULT_CAL_ID = (
     "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013"
     "@group.calendar.google.com"
@@ -52,6 +55,9 @@ SOURCE_TYPE_TO_CALENDAR: dict[str, str] = {
     "city-hanno-shicho-blog": "gikai",
     "city-hanno-oshirase":    "gikai",
 }
+
+
+# ==================== Logic ====================
 
 
 def calendar_key_for_doc(doc: dict) -> str:

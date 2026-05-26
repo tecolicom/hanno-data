@@ -33,6 +33,9 @@ from _lib import (
 )
 
 
+# ==================== Source ====================
+# 「どこから何を取るか」のメタ情報。多都市展開時はこのセクションがそのまま
+# 都市別 config (YAML) になる想定。
 DEFAULT_UID_PREFIX = "shicho-blog"
 SOURCE_TYPE = "city-hanno-shicho-blog"
 SUMMARY_PREFIX = "📝 市長："
@@ -41,6 +44,13 @@ URL_HOST_ALLOWLIST = "www.city.hanno.lg.jp"
 URL_PATH_PREFIX = "/shiseijoho/shichoshitsu/shichoblog/"
 
 
+# ==================== Tunables ====================
+# 本文抽出時の長さ判定 (= 全文 vs 抜粋の境界、目標抜粋字数)。
+BODY_FULL_THRESHOLD = 800   # この字数以下なら全文掲載
+BODY_EXCERPT_TARGET = 600   # 超過時の目標抜粋字数
+
+
+# ==================== Logic ====================
 
 
 def safe_url(url: str) -> bool:
@@ -105,10 +115,6 @@ def find_article_links(month_html: str) -> list[tuple[str, str]]:
 
 
 _DATE_RE = re.compile(r"(\d{4})年(\d{1,2})月(\d{1,2})日")
-
-# 本文抽出のしきい値・パラメータ
-BODY_FULL_THRESHOLD = 800   # この字数以下なら全文掲載
-BODY_EXCERPT_TARGET = 600   # 超過時の目標抜粋字数
 
 
 def extract_body(html: str) -> str:

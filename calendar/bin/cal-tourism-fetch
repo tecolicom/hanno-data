@@ -36,7 +36,21 @@ from _lib import (
     infer_year_from_og,
 )
 
+# ==================== Source ====================
+# 「どこから何を取るか」のメタ情報。多都市展開時はこのセクションがそのまま
+# 都市別 config (YAML) になる想定。
 DEFAULT_UID_PREFIX = "tourism"
+SOURCE_TYPE = "hanno-tourism-jp"
+URL_ALLOWLIST_PATTERN = re.compile(r"^https://hanno-tourism\.jp/hanno-eco/tour/[a-z0-9\-]+/?$")
+
+
+# ==================== Tunables ====================
+# 抽出対象フィールド (dl/dd の見出し) と中止キーワード判定。
+INCLUDE_FIELDS = ["利用料金", "定員", "ガイド", "持ち物", "備考"]
+CANCELED_KEYWORDS = ("中止", "キャンセル", "中止になりました", "開催中止")
+
+
+# ==================== Logic ====================
 
 
 def normalize_colon(s: str) -> str:
@@ -148,14 +162,13 @@ def session_year_ok(sessions: list[dict]) -> bool:
 
 
 _LOCATION_GMAP_RE = re.compile(r"\s*Google Map→.*$")
-_INCLUDE_FIELDS = ["利用料金", "定員", "ガイド", "持ち物", "備考"]
 
 
 def build_description(lead: str, fields: dict[str, str]) -> str:
     parts: list[str] = []
     if lead:
         parts.append(lead)
-    for k in _INCLUDE_FIELDS:
+    for k in INCLUDE_FIELDS:
         v = fields.get(k, "").strip()
         if v and v != "準備中":
             parts.append(f"【{k}】{v}")
@@ -209,7 +222,7 @@ def build_yaml_doc(
         lines.append(f"    time_marker: {yaml_escape_str(time_marker)}")
     lines.append("")
     lines.append("source:")
-    lines.append(f"  type: hanno-tourism-jp")
+    lines.append(f"  type: {SOURCE_TYPE}")
     lines.append(f"  id: {yaml_escape_str(slug)}")
     lines.append(f"  url: {yaml_escape_str(url)}")
     ts = fetched_at or (datetime.utcnow().isoformat() + "Z")
@@ -229,9 +242,6 @@ def read_url_list(path: str) -> list[str]:
             if line:
                 urls.append(line)
     return urls
-
-
-URL_ALLOWLIST_PATTERN = re.compile(r"^https://hanno-tourism\.jp/hanno-eco/tour/[a-z0-9\-]+/?$")
 
 
 def url_ok(url: str) -> bool:
@@ -258,9 +268,6 @@ def canonical_url_matches(html: str, expected_url: str) -> bool:
             return False
     # メタが見つからなければ判定不能 (通す)
     return True
-
-
-CANCELED_KEYWORDS = ("中止", "キャンセル", "中止になりました", "開催中止")
 
 
 def looks_canceled(description: str) -> bool:

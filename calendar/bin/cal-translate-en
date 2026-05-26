@@ -40,18 +40,25 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from _lib import yaml_escape_str, yaml_block_scalar, strip_markdown, AI_DISCLAIMER_JP
 
 
-# --- 設定 ---
-LLM_MODEL = "claude-haiku-4-5"
-LLM_MAX_TOKENS = 2048  # 翻訳なので summarize より長めに
+# ==================== Source ====================
+# 「どの言語へ翻訳するか」のメタ情報。多言語化時はここを増やす想定。
 LANG = "en"
 
+
+# ==================== Tunables ====================
 # format_version: wrapper/disclaimer/プロンプト改変時に bump.
 # v1: 初版 (Plain English, AI disclaimer 冒頭, 元 URL を末尾保持)
 # v2: 中止/延期/申込終了等の最新ステータスを訳文冒頭に配置するよう prompt 改訂
 # v3: ステータス変更続報 (申込終了等) では訳文を短く保つよう prompt 追加
 TRANSLATION_FORMAT_VERSION = 3
 
-# AI 翻訳 disclaimer (冒頭). docs/ai-content-policy.md 参照.
+
+# ==================== LLM ====================
+# Claude Haiku 4.5 で JP → EN 翻訳。disclaimer + system prompt 含む。
+LLM_MODEL = "claude-haiku-4-5"
+LLM_MAX_TOKENS = 2048  # 翻訳なので summarize より長めに
+
+# AI 翻訳 disclaimer (訳文冒頭). docs/ai-content-policy.md 参照.
 EN_DISCLAIMER = "Automated translation (refer to source for accuracy)"
 
 # 翻訳プロンプト. Google Calendar 表示 (plain text) を前提.
@@ -80,6 +87,9 @@ Notes:
 - The Source URL line and the "AI summary disclaimer" line have already been stripped from the input description. Just translate what is given.
 - If the description ends with a Japanese "(continued at the link...)" marker like "（続きはリンク先で）", translate it naturally, e.g. "(Continued at the link below)".
 """
+
+
+# ==================== Logic ====================
 
 
 def translate(jp_summary: str, jp_description: str) -> dict | None:

@@ -57,6 +57,9 @@ except ImportError:
     httpx = None  # type: ignore
 
 
+# ==================== Source ====================
+# 「どこから何を取るか」のメタ情報。多都市展開時はこのセクションがそのまま
+# 都市別 config (YAML) になる想定。
 DEFAULT_UID_PREFIX = "oshirase"
 SOURCE_TYPE = "city-hanno-oshirase"
 SUMMARY_PREFIX = "ℹ️ "
@@ -66,9 +69,11 @@ FEED_URL = (
 )
 URL_HOST_ALLOWLIST = "www.city.hanno.lg.jp"
 
-# 本文長に応じた処理しきい値
-MIN_BODY_CHARS = 50    # これ未満なら抽出失敗扱い → URL のみ
-FULL_TEXT_THRESHOLD = 400  # これ以下は全文掲載、超は LLM 要約
+
+# ==================== Tunables ====================
+# 本文長に応じた処理しきい値と format バージョン。
+MIN_BODY_CHARS = 50         # これ未満なら抽出失敗扱い → URL のみ
+FULL_TEXT_THRESHOLD = 400   # これ以下は全文掲載、超は LLM 要約
 
 # description 整形フォーマットのバージョン. wrapper/disclaimer 変更時にインクリ
 # メントすると content_hash が変わり、既存 YAML が再生成される.
@@ -83,7 +88,9 @@ FULL_TEXT_THRESHOLD = 400  # これ以下は全文掲載、超は LLM 要約
 #     (「停止します」future = full detail / 「受付終了」past = brief)
 DESCRIPTION_FORMAT_VERSION = 7
 
-# LLM (Claude Haiku 4.5) 設定
+
+# ==================== LLM ====================
+# Claude Haiku 4.5 で本文 (>FULL_TEXT_THRESHOLD 字) を要約する設定。
 LLM_MODEL = "claude-haiku-4-5"
 LLM_MAX_TOKENS = 1024
 LLM_SYSTEM_PROMPT = """あなたは飯能市公式サイトのお知らせ記事を、市民向けカレンダーに掲載するために短く要約するアシスタントです。
@@ -103,6 +110,9 @@ LLM_SYSTEM_PROMPT = """あなたは飯能市公式サイトのお知らせ記事
 - 構造化したい場合は改行と全角記号で表現してください: 箇条書きは行頭「・」、見出しは「【見出し】」、強調が必要な場合は「」または 【 】 を使う。
 - 要約だけ返す。前置きや「以下は要約です」等の説明は不要。
 """
+
+
+# ==================== Logic ====================
 
 
 def safe_url(url: str) -> bool:
