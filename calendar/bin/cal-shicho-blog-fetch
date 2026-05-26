@@ -23,6 +23,9 @@ import sys
 import urllib.request
 from datetime import date as _date, datetime
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from _lib import read_yaml_scalar
+
 
 USER_AGENT = "myhanno-calendar-fetcher/0.1 (+https://city.tecoli.com)"
 UID_NAMESPACE = "hanno.city.tecoli.com"
@@ -433,25 +436,13 @@ def _find_existing_by_uid(events_dir: str, uid: str) -> str | None:
     return None
 
 
-def _read_yaml_scalar(path: str, key: str) -> str | None:
-    """素朴な YAML 単一行スカラ取り出し (`  key: "value"` のような行のみ対応)."""
-    try:
-        with open(path, "r", encoding="utf-8") as f:
-            for ln in f:
-                m = re.match(r"^\s*" + re.escape(key) + r":\s*\"([^\"]*)\"\s*$", ln)
-                if m:
-                    return m.group(1)
-    except Exception:
-        return None
-    return None
-
-
+# _read_yaml_scalar は _lib.read_yaml_scalar に移行 (= 重複削除)
 def _read_content_hash(path: str) -> str | None:
-    return _read_yaml_scalar(path, "content_hash")
+    return read_yaml_scalar(path, "content_hash")
 
 
 def _read_fetched_at(path: str) -> str | None:
-    return _read_yaml_scalar(path, "fetched_at")
+    return read_yaml_scalar(path, "fetched_at")
 
 
 if __name__ == "__main__":

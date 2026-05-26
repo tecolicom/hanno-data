@@ -23,6 +23,9 @@ import re
 import sys
 import urllib.request
 from datetime import date as _date, datetime
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from _lib import existing_content_hash_matches
 from typing import Iterable
 
 
@@ -306,19 +309,11 @@ def main() -> None:
         fname = f"{md}_{uid.split('@')[0]}.yaml"
         out_path = os.path.join(args.out_dir, year_part, fname)
 
-        prev_fetched_at: str | None = None
-        if os.path.exists(out_path):
-            try:
-                with open(out_path, "r", encoding="utf-8") as f:
-                    prev = f.read()
-                hm = re.search(r"^\s*content_hash:\s*[\"']?sha256-([0-9a-f]+)", prev, re.MULTILINE)
-                fm = re.search(r"^\s*fetched_at:\s*[\"']?([^\"'\n]+)", prev, re.MULTILINE)
-                if hm and hm.group(1) == html_hash and fm:
-                    prev_fetched_at = fm.group(1).strip()
-            except Exception:
-                pass
+        # content_hash 一致なら write skip = translations: 等を保持 (_lib 参照)
+        if existing_content_hash_matches(out_path, html_hash):
+            continue
 
-        doc = build_yaml_doc(uid, ev, source_id, html_hash, prev_fetched_at)
+        doc = build_yaml_doc(uid, ev, source_id, html_hash, fetched_at)
 
         if args.dry_run:
             print(f"# === {year_part}/{fname} ===")

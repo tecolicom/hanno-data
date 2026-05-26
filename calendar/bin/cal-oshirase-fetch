@@ -41,6 +41,9 @@ import sys
 import urllib.request
 from datetime import date as _date, datetime, timezone, timedelta
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from _lib import read_yaml_scalar
+
 JST = timezone(timedelta(hours=9))
 
 try:
@@ -407,16 +410,8 @@ def _existing_content_hashes(events_dir: str, uid_prefix: str) -> set[tuple[str,
     return result
 
 
-def _read_yaml_scalar(path: str, key: str) -> str | None:
-    try:
-        with open(path, "r", encoding="utf-8") as f:
-            for ln in f:
-                m = re.match(r"^\s*" + re.escape(key) + r":\s*\"([^\"]*)\"\s*$", ln)
-                if m:
-                    return m.group(1)
-    except Exception:
-        return None
-    return None
+# _read_yaml_scalar は _lib.read_yaml_scalar に移行 (= 重複削除)
+_read_yaml_scalar = read_yaml_scalar
 
 
 def _rewrite_yaml_scalar(path: str, key: str, new_value: str) -> bool:

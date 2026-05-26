@@ -569,6 +569,10 @@ def cmd_fetch(args: argparse.Namespace) -> None:
                     if not new_content.endswith("\n"):
                         new_content += "\n"
                     new_content += preserved
+                # 内容無変化なら write 自体を skip (= mtime も git diff も増やさない)
+                if new_content == old_content:
+                    skipped += 1
+                    continue
                 with open(full_path, "w", encoding="utf-8") as f:
                     f.write(new_content)
                 updated += 1
