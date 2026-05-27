@@ -12,3 +12,18 @@ description: |-
 render:
   gcal:
     mode: span-allday
+translations:
+  en:
+    summary: "Myはんのう v1.29.0 released"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      We've improved how bus routes display and made it easier to find town names for garbage collection.
+      
+      • Bus countdown screen now shows the full route — Previously only showed stops in between. Now displays all stops for that bus. Your boarding to exit section is highlighted in bold, and stops before and after can be collapsed.
+      • Garbage collection day town name search is now easier to navigate — Instead of about 70 town names listed all at once, tapping the row header (あ・か・さ…) shows only towns in that row. Everything starts collapsed, so you spend less time searching for your town.
+      • Fixed an issue where iPhone (Safari) sometimes couldn't get your current location — Now checks location permission status and only auto-fetches when permission is granted. If not permitted, use the "Current location" button to fetch it manually.
+    translation_hash: "sha256-1fa4f1fd85963c2b"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-27T20:08:59.384547Z"
+    format_version: 3
