@@ -3,9 +3,9 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "Automated translation (refer to source for accuracy)\n\nOn Monday, May 11, Fujishima Raiki, a men's hockey player for Japan's national team based at ALDER Hanno, and related staff visited City Hall to report their qualification for the 16th FIH Men's Hockey World Cup.\n\nThe World Cup will be held jointly in Amsterdam, Netherlands, and Waterloo, Belgium, from August 15 to 30, 2026 (Reiwa 8), for 16 days.\n\nJapan's men's hockey team finished in third place at the World Cup final qualifying tournament held in March, securing their spot in the World Cup.\n\nFujishima is currently serving as captain of Japan's men's hockey national team, leading the team with distinction.\n\nWe heartily honor Fujishima's achievements and look forward to continued success that will further promote Hanno as a \"hockey town.\"\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202605/13573.html",
+  "description": "Automated translation (refer to source for accuracy)\n\nOn Monday, May 11, hockey player Fujishima Raiki and colleagues from the Japanese men's national hockey team, who are based at ALDER Hanno, visited City Hall to report that they have qualified for the 16th FIH Men's Hockey World Cup. The World Cup will be held jointly in Amsterdam, Netherlands and Wavre, Belgium from August 15–30, 2026.\n\nThe Japanese men's national hockey team earned their World Cup spot by finishing third in the World Cup final qualification tournament held in March.\n\nFujishima currently serves as captain of the Japanese men's national hockey team, leading and representing the team with distinction.\n\nWe heartily celebrate his achievements and look forward to his continued success in advancing Hanno as \"Hockey Town Hanno.\"\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202605/13573.html",
   "end": {
-    "date": "2026-08-16"
+    "date": "2026-05-12"
   },
   "eventType": "default",
   "htmlLink": "https://www.google.com/calendar/event?eid=X2VkazZpb3I4ZHNtbTRyM2Zjc21qMmNwbDZzcGswcTMxZHBuNnViajNkNXE3aWJqa2NsaG11cjM5NXBobXVyOCBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
@@ -20,15 +20,15 @@
   "reminders": {
     "useDefault": false
   },
-  "sequence": 0,
+  "sequence": 1,
   "source": {
     "title": "www.city.hanno.lg.jp",
     "url": "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202605/13573.html"
   },
   "start": {
-    "date": "2026-08-15"
+    "date": "2026-05-11"
   },
   "status": "confirmed",
-  "summary": "📝 Mayor: Courtesy visit from Fujishima Raiki, men's hockey Japan national team player",
-  "updated": "2026-05-26T02:49:42.658Z"
+  "summary": "📝 Mayor: Courtesy visit from hockey player Fujishima Raiki, Japanese men's national team representative",
+  "updated": "2026-05-28T01:45:17.931Z"
 }
