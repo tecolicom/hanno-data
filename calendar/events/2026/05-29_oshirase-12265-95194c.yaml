@@ -42,3 +42,38 @@ source:
   content_hash: "sha256-95194c96a0e950d6"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-04-28"
+translations:
+  en:
+    summary: "ℹ️ Donation and Relief Fund Collection Now Open"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content updated (Published: April 28, 2026)
+      
+      The Japanese Red Cross Society Saitama Prefecture Hanno District is accepting domestic disaster relief donations and international humanitarian aid contributions.
+      
+      【Domestic Disaster Relief Donations (Now Accepting)】
+      • 2024 Noto Peninsula Earthquake Relief (Ishikawa, Toyama, Niigata prefectures) — Acceptance ends March 22, 2027
+      • September 2024 Noto Peninsula Heavy Rain Disaster Relief (Ishikawa) — Acceptance ends March 22, 2027
+      • 2026 Otsuchi Town Forest Fire Relief (Iwate) — Acceptance ends August 24, 2026
+      
+      【International Humanitarian Aid (Now Accepting)】
+      • Middle East Humanitarian Crisis Relief — Acceptance ends March 23, 2027
+      • Bangladesh Southern Refugee Relief — Acceptance ends March 23, 2027
+      • Ukraine Humanitarian Crisis Relief — Acceptance ends March 23, 2027
+      • Iran and Surrounding Countries Humanitarian Crisis Relief — Acceptance ends May 25, 2026
+      • Undesignated International Humanitarian Aid — Accepted year-round
+      
+      【Donation Locations】
+      Hanno City Hall Main Building front entrance information desk (donation box) or Community Welfare Division (1st floor, Window 11). Receipts available at the Community Welfare Division.
+      
+      【Donation Hours】
+      Weekdays 8:30 a.m.–5:15 p.m.
+      
+      All donations received are forwarded in full to the Disaster Relief Fund Distribution Committee of the affected prefecture to support recovery and living assistance in disaster-affected areas.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/12265.html
+    translation_hash: "sha256-2acab4bd1cbdaa9d"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-28T20:14:55.060051Z"
+    format_version: 3

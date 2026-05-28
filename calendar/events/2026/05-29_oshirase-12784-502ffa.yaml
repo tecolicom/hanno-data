@@ -45,3 +45,44 @@ source:
   fetched_at: "2026-05-28T20:13:09.767537Z"
   content_hash: "sha256-502ffa0bb09b0b90"
   summary_method: "full"
+translations:
+  en:
+    summary: "ℹ️ Sugo-ashi Event July 22, 2026 (Wednesday) Oku-Musashi Nature Trail"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New listing (published May 29, 2026)
+      
+      【Event Details】
+      
+      Date: July 22 (Wednesday)
+      
+      Meeting time: 10:00 a.m.
+      
+      Meeting place: West parking lot of Hanno City Hall
+      
+      Route: City Hall → Nakayama Nishi intersection → Kōrai Pass → in front of Tanabe-en Tea Factory → Metsä → Seimei Community Center → Shimokaji → east of Nakayama overpass → City Hall
+      
+      Distance: approximately 10 kilometers
+      
+      Estimated time: approximately 3 hours 30 minutes
+      
+      Fee: 200 yen (insurance, collected on the day)
+      
+      What to bring: packed lunch, drinks, rain gear, Sugo-ashi handbook (if you have one)
+      
+      Registration: by July 18 (Saturday) with ASA Hanno
+      Phone: 042-972-4701
+      Fax: 042-974-2190
+      
+      Weather cancellation check: From 9:00 a.m. on the day of the event, contact ASA Hanno to confirm if it is cancelled due to weather or other reasons.
+      
+      Inquiries: Onda 090-2205-8073
+      
+      Organizer: Hanno Walking Club
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/12784.html
+    translation_hash: "sha256-a186e760c784c408"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-28T20:14:58.683119Z"
+    format_version: 3

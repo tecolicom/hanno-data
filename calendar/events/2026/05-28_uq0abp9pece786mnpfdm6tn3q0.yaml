@@ -15,3 +15,22 @@ description: |-
 render:
   gcal:
     mode: single-allday
+translations:
+  en:
+    summary: "Myはんのう v1.30.0"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      The weather card got smarter and bus interface language is now clearer.
+      
+      • Tap weather icon to see details — Tapping the weather icon or temperature at the top of the screen now scrolls you directly to detailed weather information for that day
+      • Show min/max temps on heat index bar — Displays the day's lowest and highest temperatures positioned at the times when those temperatures actually occur
+      • Darken night hours on weather bar — The precipitation and heat index bars now show pre-sunrise and post-sunset times in a darker shade. The darkness transitions naturally from sunset through twilight, matching the actual brightness of that day and season
+      • Add down arrow button to home screen — When you're at the very top, an arrow appears in the bottom right. Tap it to scroll to the services list
+      • Change bus entry labels to "Get on here" and "Go here" — "Take bus / Return by bus" language now centers on where you are now. Stop names are also displayed larger for easier reading
+      • Move "Time until departure" to the top of bus countdown — When you select a bus, the remaining time timer now appears at the very top of the screen
+      • Rename "Hanno City Government" calendar to "Hanno City Hall" — This name change affects the "Today's Events" display and calendar sync settings (content and subscription settings remain the same)
+    translation_hash: "sha256-235bb5c37924e7cb"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-28T20:14:43.011411Z"
+    format_version: 3

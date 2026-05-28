@@ -8,3 +8,14 @@ description: |-
 render:
   gcal:
     mode: span-allday
+translations:
+  en:
+    summary: "Myはんのう v1.31.0"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      • Bus route numbers now displayed — Route numbers (like Hanno 01, Hanno 03-2) now appear in timetables and countdown displays. Makes it easier to match with the numbers shown on the front of buses and at bus stops.
+    translation_hash: "sha256-13110a61ce5561df"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-28T20:14:44.442821Z"
+    format_version: 3

@@ -42,3 +42,36 @@ source:
   content_hash: "sha256-7fa50c7ae892bc45"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-06-01"
+translations:
+  en:
+    summary: "ℹ️ Free inheritance planning lectures delivered to your group"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      �新 New listing (posted: June 1, 2026)
+      
+      Hanno City dispatches judicial scriveners or administrative scriveners to groups to explain inheritance planning in easy-to-understand terms through the "Inheritance Drop-In Lecture" program.
+      
+      【Who can apply】
+      Groups meeting in Hanno City: senior citizen salons, neighborhood associations, and similar gatherings expecting roughly 10 or more participants.
+      
+      【Topics】
+      Interactive lectures with themes such as "What if there was a will?" and "What if we had prepared for dementia?" Instructors share their own experience.
+      
+      【Cost】
+      Instructor dispatch is free (applicants cover venue rental and similar costs).
+      
+      【When】
+      July 2026 (Reiwa 8) through January 2027 (Reiwa 9), while budget lasts.
+      
+      【How to apply】
+      Fill out the application form with required details and submit to the Architecture Division (Building Division), 2nd floor of Hanno City Hall, no later than one month before your earliest preferred date. We will contact you once the instructor and schedule are confirmed.
+      
+      【What to arrange on the day】
+      Hanno City provides lecture materials (textbook and participant survey). The applicant's organization runs the session. Please provide participants with writing supplies and a microphone if possible. Within two weeks of the lecture, submit a completion report and collected surveys to the Architecture Division.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/kenchikuka/akiya/11866.html
+    translation_hash: "sha256-a3dca056dfcdd11c"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-28T20:14:50.614426Z"
+    format_version: 3
