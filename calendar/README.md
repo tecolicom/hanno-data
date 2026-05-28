@@ -18,9 +18,9 @@ JP/EN の 2 言語 × 用途別 2 系統 = 4 カレンダーを Service Account 
 | logical key | calendar 名 | 内容 | 対応 source.type |
 |---|---|---|---|
 | `default` | Myはんのう | 観光・市民会館・コミュニティ等 | hanno-tourism-jp / city-hanno-shiminkaikan / (手動) |
-| `gikai` | 飯能市政 | 市政情報・市長ブログ・お知らせ | city-hanno-gikai / city-hanno-shicho-blog / city-hanno-oshirase |
+| `gikai` | 飯能市役所 | 市政情報・市長ブログ・お知らせ | city-hanno-gikai / city-hanno-shicho-blog / city-hanno-oshirase |
 | `default.en` | Myはんのう（EN） | `default` の英訳 (同 source.type) | (同上) |
-| `gikai.en` | 飯能市政（EN） | `gikai` の英訳 (同 source.type) | (同上) |
+| `gikai.en` | 飯能市役所（EN） | `gikai` の英訳 (同 source.type) | (同上) |
 
 routing は `source.type` ベース。`source.type` → `default` or `gikai` のマッピングが
 `bin/cal-myhanno` の `SOURCE_TYPE_TO_CALENDAR` に定義。英語カレンダーは

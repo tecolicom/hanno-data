@@ -42,14 +42,14 @@ DEFAULT_SA = os.path.expanduser("~/.config/myhanno/sa.json")
 CALENDARS: dict[str, str] = {
     # 日本語 (lang=default)
     "default":    DEFAULT_CAL_ID,  # Myはんのう (公開イベント・ツーリズム・市民会館 等)
-    "gikai":      "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",  # 飯能市政
+    "gikai":      "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",  # 飯能市役所
     # 英語 (lang=en) — JP と対称構成
     "default.en": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",  # Myはんのう（EN）
-    "gikai.en":   "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",  # 飯能市政（EN）
+    "gikai.en":   "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",  # 飯能市役所（EN）
 }
 
 # source.type → calendar (logical name) ルーティング
-# logical name "gikai" は内部呼称、display は「飯能市政」(議会以外の市政情報も含む)
+# logical name "gikai" は内部呼称、display は「飯能市役所」(議会以外の市政情報も含む)
 SOURCE_TYPE_TO_CALENDAR: dict[str, str] = {
     "city-hanno-gikai":       "gikai",
     "city-hanno-shicho-blog": "gikai",
