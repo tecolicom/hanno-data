@@ -1,0 +1,34 @@
+{
+  "created": "2026-05-28T20:16:02.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 New listing (published May 29, 2026)\n\n【Event Details】\n\nDate: July 22 (Wednesday)\n\nMeeting time: 10:00 a.m.\n\nMeeting place: West parking lot of Hanno City Hall\n\nRoute: City Hall → Nakayama Nishi intersection → Kōrai Pass → in front of Tanabe-en Tea Factory → Metsä → Seimei Community Center → Shimokaji → east of Nakayama overpass → City Hall\n\nDistance: approximately 10 kilometers\n\nEstimated time: approximately 3 hours 30 minutes\n\nFee: 200 yen (insurance, collected on the day)\n\nWhat to bring: packed lunch, drinks, rain gear, Sugo-ashi handbook (if you have one)\n\nRegistration: by July 18 (Saturday) with ASA Hanno\nPhone: 042-972-4701\nFax: 042-974-2190\n\nWeather cancellation check: From 9:00 a.m. on the day of the event, contact ASA Hanno to confirm if it is cancelled due to weather or other reasons.\n\nInquiries: Onda 090-2205-8073\n\nOrganizer: Hanno Walking Club\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/12784.html",
+  "end": {
+    "date": "2026-05-30"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2OHJqZ2QxZDZrbzM0cGo2YzUwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-12784-502ffa@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h68rjgd1d6ko34pj6c506gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/12784.html"
+  },
+  "start": {
+    "date": "2026-05-29"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Sugo-ashi Event July 22, 2026 (Wednesday) Oku-Musashi Nature Trail",
+  "updated": "2026-05-28T20:16:02.208Z"
+}

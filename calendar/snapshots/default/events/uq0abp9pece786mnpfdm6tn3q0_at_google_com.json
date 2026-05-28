@@ -1,0 +1,30 @@
+{
+  "created": "2026-05-28T06:48:03.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "天気カードが少し賢くなり、バスの入口の言葉を分かりやすくしました。\n- **天気マークをタップで天気の詳細へ** — 画面上部の天気アイコン・気温をタップすると、その日の天気の詳しい情報まで一気にスクロールします\n- **暑さ指数バーに最低・最高気温を表示** — その日の最低・最高気温を、実際にその気温になる時刻の位置にのせて表示します\n- **天気バーの夜の時間帯を暗く** — 降水量・暑さ指数のバーで、日の出前・日没後を薄暗く表示。日没から薄明にかけて自然に暗くなり、その日・その季節の実際の明るさに合わせています\n- **トップ画面に「↓」ボタン** — 一番上にいるとき右下に矢印が出て、タップでサービス一覧へスクロールします\n- **バスの入口を「ここで乗る」「ここに行く」に** — 「バスに乗る／バスで帰る」を、今いる場所を起点にした言い方に変更。停留所名も大きく表示して見やすくしました\n- **バスのカウントダウンで「発車まで」が一番上に** — 便を選ぶと、残り時間のタイマーが画面の先頭に来るようにしました\n- **「飯能市政」カレンダーの名前を「飯能市役所」に変更** — 「今日のイベント」やカレンダー連携設定での表示名が変わります（内容・購読設定はそのまま）",
+  "end": {
+    "date": "2026-05-29"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=dXEwYWJwOXBlY2U3ODZtbnBmZG02dG4zcTAgMjA1NDAzYzk3MWRjNWVmMjFlZmQ4MWMxZDUzODQ5Y2FkZmQ5MDFiNzVjNzdkODg5NTVkOTYwMGY0NWYyYTAxM0Bn",
+  "iCalUID": "uq0abp9pece786mnpfdm6tn3q0@google.com",
+  "id": "uq0abp9pece786mnpfdm6tn3q0",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "Myはんのう",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "start": {
+    "date": "2026-05-28"
+  },
+  "status": "confirmed",
+  "summary": "Myはんのう v1.30.0",
+  "updated": "2026-05-28T17:05:39.055Z"
+}

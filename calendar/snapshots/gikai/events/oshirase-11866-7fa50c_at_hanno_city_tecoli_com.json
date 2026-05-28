@@ -1,0 +1,34 @@
+{
+  "created": "2026-05-28T20:14:24.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🆕 新着掲載 (公開日: 2026-06-01)\n\nAI による要約 (正確な情報は元記事をご確認ください)\n\n飯能市では、司法書士又は行政書士を派遣し、相続の必要性や対策方法についてわかりやすく解説する「相続おしかけ講座」を実施しています。\n\n【対象】\n市内で開催される概ね10人以上の参加が見込める高齢者向けサロン、自治会等の会合\n\n【テーマ】\n「もし遺言があったら」「もし認知症の備えをしていたら」といったテーマで、講師の経験談も交えた対話形式の講座\n\n【費用】\n講師派遣費用は無料（会場費等は申込者負担）\n\n【開催期間】\n令和8年7月から令和9年1月まで（予算がなくなり次第終了）\n\n【申込方法】\n申込書に必要事項を記入し、最も早い希望日の1か月前までに建築課（本庁舎2階）へ提出してください。講師及び日程が決定次第、申込者へ連絡します。\n\n【実施時の注意】\n講座資料（テキスト・参加者アンケート）は市が提供します。会の進行は申込者が行い、参加者に筆記用具、マイク（可能な範囲で）をご用意ください。講座終了後2週間以内に実績報告書と回収したアンケートを建築課へ提出してください。\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/kenchikuka/akiya/11866.html",
+  "end": {
+    "date": "2026-05-30"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2NHMzY2RoZDZ0ajYyZDlnY2QwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSA2NzQ1OTE0YjI0MzIzMTEyYTE1ZjQzZGMyMGIzYTBmNGE0ODE3YWZkODAwYzhkMTY4N2QwYmYwYjdmODkwYzYxQGc",
+  "iCalUID": "oshirase-11866-7fa50c@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h64s3cdhd6tj62d9gcd06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/kenchikuka/akiya/11866.html"
+  },
+  "start": {
+    "date": "2026-05-29"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 相続おしかけ講座",
+  "updated": "2026-05-28T20:14:24.339Z"
+}

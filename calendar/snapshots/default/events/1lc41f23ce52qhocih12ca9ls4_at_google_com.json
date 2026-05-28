@@ -1,0 +1,30 @@
+{
+  "created": "2026-05-28T17:05:36.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "- **バスの便に系統番号を表示** — 時刻表やカウントダウンで「名栗線 飯03-2」のように系統番号（飯01・飯03-2 など）が出るようになりました。バス前面や案内の番号と照らし合わせやすくなります",
+  "end": {
+    "date": "2026-06-05"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=MWxjNDFmMjNjZTUycWhvY2loMTJjYTlsczQgMjA1NDAzYzk3MWRjNWVmMjFlZmQ4MWMxZDUzODQ5Y2FkZmQ5MDFiNzVjNzdkODg5NTVkOTYwMGY0NWYyYTAxM0Bn",
+  "iCalUID": "1lc41f23ce52qhocih12ca9ls4@google.com",
+  "id": "1lc41f23ce52qhocih12ca9ls4",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "Myはんのう",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "start": {
+    "date": "2026-05-29"
+  },
+  "status": "confirmed",
+  "summary": "Myはんのう v1.31.0",
+  "updated": "2026-05-28T17:05:37.174Z"
+}

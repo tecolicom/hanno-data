@@ -5,7 +5,7 @@
   },
   "description": "Automated translation (refer to source for accuracy)\n\nWe've improved how bus routes display and made it easier to find town names for garbage collection.\n\n• Bus countdown screen now shows the full route — Previously only showed stops in between. Now displays all stops for that bus. Your boarding to exit section is highlighted in bold, and stops before and after can be collapsed.\n• Garbage collection day town name search is now easier to navigate — Instead of about 70 town names listed all at once, tapping the row header (あ・か・さ…) shows only towns in that row. Everything starts collapsed, so you spend less time searching for your town.\n• Fixed an issue where iPhone (Safari) sometimes couldn't get your current location — Now checks location permission status and only auto-fetches when permission is granted. If not permitted, use the \"Current location\" button to fetch it manually.",
   "end": {
-    "date": "2026-06-03"
+    "date": "2026-05-28"
   },
   "eventType": "default",
   "htmlLink": "https://www.google.com/calendar/event?eid=ZDg1a29odGFsNnBicjg0b3ZhcjYwbzZjdDQgZDkxOTNjZjVmNjQ0YWI0MWEyOGUyMjY4YTk4YWJjNWFhNDI2YmQyZDU3NzE1MjgzNDI0NGFkNjlhMzFmNWE2OEBn",
@@ -26,5 +26,5 @@
   },
   "status": "confirmed",
   "summary": "Myはんのう v1.29.0 released",
-  "updated": "2026-05-27T20:10:03.451Z"
+  "updated": "2026-05-28T20:15:56.057Z"
 }
