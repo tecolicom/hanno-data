@@ -1,0 +1,47 @@
+uid: "oshirase-12784-502ffa@hanno.city.tecoli.com"
+summary: "ℹ️ スゴ足イベント 2026年7月22日（水曜日）奥武蔵自然歩道"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/12784.html"
+dtstart: "2026-05-29"
+dtend: "2026-05-29"
+description: |-
+  🆕 新着掲載 (公開日: 2026-05-29)
+  
+  ## イベント内容
+  
+  	期日 7月22日(水曜日)
+  
+  	集合時間 10時
+  
+  	集合場所 飯能市役所西側駐車場
+  
+  	コース 市役所 → 中山西交差点 → 高麗峠 → 田辺園製茶工場前 → メッツァ → 精明公民館 → 下加治 → 中山陸橋東 → 市役所
+  
+  	距離 約10キロメートル
+  
+  	予定時間 約3時間30分
+  
+  	費用 200円（保険代等、当日集金）
+  
+  	持ち物 弁当、飲み物、雨具、スゴ足手帳（お持ちの方）
+  
+  	申し込み 7月18日（土曜日）までにASA飯能へ 電話 042-972-4701 ファックス 042-974-2190
+  
+  	中止の確認 天候等による中止の確認は、当日9時以降にASA飯能へ
+  
+  	問い合わせ 恩田 090-2205-8073
+  
+  	主催 飯能ウオーキング倶楽部
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/12784.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "12784"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/12784.html"
+  fetched_at: "2026-05-28T20:13:09.767537Z"
+  content_hash: "sha256-502ffa0bb09b0b90"
+  summary_method: "full"

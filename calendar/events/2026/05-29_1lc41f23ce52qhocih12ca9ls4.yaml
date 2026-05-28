@@ -1,0 +1,10 @@
+uid: "1lc41f23ce52qhocih12ca9ls4@google.com"
+summary: "Myはんのう v1.31.0"
+dtstart: "2026-05-29"
+dtend: "2026-06-04"
+description: |-
+  - **バスの便に系統番号を表示** — 時刻表やカウントダウンで「名栗線 飯03-2」のように系統番号（飯01・飯03-2 など）が出るようになりました。バス前面や案内の番号と照らし合わせやすくなります
+
+render:
+  gcal:
+    mode: span-allday

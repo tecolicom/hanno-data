@@ -1,7 +1,7 @@
 uid: "d85kohtal6pbr84ovar60o6ct4@google.com"
 summary: "Myはんのう v1.29.0 リリース"
 dtstart: "2026-05-27"
-dtend: "2026-06-02"
+dtend: "2026-05-27"
 description: |-
   バスの経路表示とゴミの町名選択を見やすくしました。
   
@@ -11,7 +11,7 @@ description: |-
 
 render:
   gcal:
-    mode: span-allday
+    mode: single-allday
 translations:
   en:
     summary: "Myはんのう v1.29.0 released"

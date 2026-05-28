@@ -1,0 +1,44 @@
+uid: "oshirase-11866-7fa50c@hanno.city.tecoli.com"
+summary: "ℹ️ 相続おしかけ講座"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/kenchikuka/akiya/11866.html"
+dtstart: "2026-05-29"
+dtend: "2026-05-29"
+description: |-
+  🆕 新着掲載 (公開日: 2026-06-01)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  飯能市では、司法書士又は行政書士を派遣し、相続の必要性や対策方法についてわかりやすく解説する「相続おしかけ講座」を実施しています。
+  
+  【対象】
+  市内で開催される概ね10人以上の参加が見込める高齢者向けサロン、自治会等の会合
+  
+  【テーマ】
+  「もし遺言があったら」「もし認知症の備えをしていたら」といったテーマで、講師の経験談も交えた対話形式の講座
+  
+  【費用】
+  講師派遣費用は無料（会場費等は申込者負担）
+  
+  【開催期間】
+  令和8年7月から令和9年1月まで（予算がなくなり次第終了）
+  
+  【申込方法】
+  申込書に必要事項を記入し、最も早い希望日の1か月前までに建築課（本庁舎2階）へ提出してください。講師及び日程が決定次第、申込者へ連絡します。
+  
+  【実施時の注意】
+  講座資料（テキスト・参加者アンケート）は市が提供します。会の進行は申込者が行い、参加者に筆記用具、マイク（可能な範囲で）をご用意ください。講座終了後2週間以内に実績報告書と回収したアンケートを建築課へ提出してください。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/kenchikuka/akiya/11866.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "11866"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/kenchikuka/akiya/11866.html"
+  fetched_at: "2026-05-28T20:13:09.238089Z"
+  content_hash: "sha256-7fa50c7ae892bc45"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-06-01"
