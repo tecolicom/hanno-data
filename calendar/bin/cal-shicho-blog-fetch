@@ -114,7 +114,9 @@ def find_article_links(month_html: str) -> list[tuple[str, str]]:
 # ---------- article parse ----------
 
 
-_DATE_RE = re.compile(r"(\d{4})年(\d{1,2})月(\d{1,2})日")
+# 「更新日：YYYY年MM月DD日」を anchor して拾う (= 本文 / og:description に含まれる
+# 別日付に hit させないため、必ず prefix を要求)。
+_DATE_RE = re.compile(r"更新日[：:]\s*(\d{4})年(\d{1,2})月(\d{1,2})日")
 
 
 def extract_body(html: str) -> str:

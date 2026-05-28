@@ -1,8 +1,8 @@
 uid: "shicho-blog-13573@hanno.city.tecoli.com"
 summary: "📝 市長：ホッケー男子日本代表藤島来葵選手 表敬訪問"
 url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202605/13573.html"
-dtstart: "2026-08-15"
-dtend: "2026-08-15"
+dtstart: "2026-05-11"
+dtend: "2026-05-11"
 description: |-
   2026年8月15日から30日までの16日間、オランダ・アムステルダムとベルギー・ワーヴルで共同開催される、第16回FIHワールドカップへの出場決定報告のため、ALDER飯能に所属するホッケー男子日本代表の藤島来葵選手と関係者の皆さまが、5月11日（月曜日）に市役所を訪問されました。
   
@@ -22,26 +22,5 @@ source:
   type: city-hanno-shicho-blog
   id: "13573"
   url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202605/13573.html"
-  fetched_at: "2026-05-22T03:52:56.069879Z"
-  content_hash: "sha256-608b9485a7a2b0c7"
-translations:
-  en:
-    summary: "📝 Mayor: Courtesy visit from Fujishima Raiki, men's hockey Japan national team player"
-    description: |-
-      Automated translation (refer to source for accuracy)
-
-      On Monday, May 11, Fujishima Raiki, a men's hockey player for Japan's national team based at ALDER Hanno, and related staff visited City Hall to report their qualification for the 16th FIH Men's Hockey World Cup.
-
-      The World Cup will be held jointly in Amsterdam, Netherlands, and Waterloo, Belgium, from August 15 to 30, 2026 (Reiwa 8), for 16 days.
-
-      Japan's men's hockey team finished in third place at the World Cup final qualifying tournament held in March, securing their spot in the World Cup.
-
-      Fujishima is currently serving as captain of Japan's men's hockey national team, leading the team with distinction.
-
-      We heartily honor Fujishima's achievements and look forward to continued success that will further promote Hanno as a "hockey town."
-
-      Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202605/13573.html
-    translation_hash: "sha256-1b53ad74368b20cd"
-    model: "claude-haiku-4-5"
-    translated_at: "2026-05-26T02:47:49.776132Z"
-    format_version: 3
+  fetched_at: "2026-05-27T12:24:04.128243Z"
+  content_hash: "sha256-7d929b4fbad0d88b"
