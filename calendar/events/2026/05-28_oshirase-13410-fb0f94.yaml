@@ -50,3 +50,43 @@ source:
   fetched_at: "2026-05-28T01:42:55.079882Z"
   content_hash: "sha256-fb0f94a983341a42"
   summary_method: "llm-haiku-4-5"
+translations:
+  en:
+    summary: "ℹ️ Hanno City Premium Digital Shopping Vouchers Now on Sale"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content Updated (Published: May 28, 2026)
+      
+      Hanno City is selling digital shopping vouchers funded by the national price-hike response subsidy. Use them at PayPay-affiliated stores in the city.
+      
+      【Sales Details】
+      • Get 7,500 yen worth of vouchers for 5,000 yen
+      • Up to 15 vouchers per person (total 72,000 available; lottery if demand exceeds supply)
+      
+      【Eligibility】
+      Age 12 and over, resident of Hanno City, with PayPay identity verification already completed in the app
+      
+      【Schedule】
+      • Purchase application period: July 1–31, 2026 (Reiwa 8)
+      • Sales period: August 3–31, 2026
+      • Usage period: From purchase through December 25, 2026
+      
+      【How to Apply】
+      Apply and purchase via the PayPay app. Identity verification must be completed beforehand.
+      
+      【Free PayPay How-To Sessions (No advance reservation needed)】
+      For those unsure about using the PayPay app. Bring your smartphone and ID (My Number Card, driver's license, or driving history certificate). App download required beforehand.
+      
+      • Identity verification sessions: June 18 (Thu), 24 (Wed), 26 (Fri), 29 (Mon), each 10:00–16:00
+      • Purchase application sessions: July 14 (Tue), 15 (Wed), 16 (Thu), 22 (Wed), each 10:00–16:00
+      
+      Sessions held at multiple locations: Civic Activity Center, Higashi-Agano District Administrative Center, Haraichiba District Administrative Center, Hanno City Hall Annex, and others.
+      
+      Questions? Contact PayPay Customer Support: 0120-990-634.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/13410.html
+    translation_hash: "sha256-ca7019b8d3f0eb0b"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-28T01:44:36.788669Z"
+    format_version: 3
