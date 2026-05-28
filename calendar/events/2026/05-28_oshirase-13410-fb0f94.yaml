@@ -1,0 +1,52 @@
+uid: "oshirase-13410-fb0f94@hanno.city.tecoli.com"
+summary: "ℹ️ 飯能市プレミアム付デジタル商品券を販売します"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/13410.html"
+dtstart: "2026-05-28"
+dtend: "2026-05-28"
+description: |-
+  🔄 内容更新 (公開日: 2026-05-28)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  飯能市プレミアム付デジタル商品券販売のお知らせです。
+  
+  国の物価高騰対応交付金を活用し、市内PayPay加盟店で利用できるデジタル商品券を販売します。
+  
+  【販売内容】
+  ・7,500円分使える商品券を5,000円で販売
+  ・1人15口まで申し込み可能（全72,000口、申込多数時は抽選）
+  
+  【対象】
+  12歳以上の飯能市在住者（PayPayアプリで本人確認完了済）
+  
+  【日程】
+  ・購入申込期間：令和8年7月1日から7月31日
+  ・販売期間：令和8年8月3日から8月31日
+  ・利用期間：購入後から令和8年12月25日まで
+  
+  【申し込み方法】
+  PayPayアプリから申込・購入。事前に本人確認が必要です。
+  
+  【操作説明会（事前予約不要）】
+  PayPayアプリの使い方が不安な方向けに以下で開催。スマートフォンと本人確認書類（マイナンバーカード・運転免許証・運転経歴証明書いずれか）を持参ください。事前にアプリをダウンロード必要。
+  
+  ・本人確認説明：6月18日（木）、24日（水）、26日（金）、29日（月）各10時～16時
+  ・購入申込説明：7月14日（火）、15日（水）、16日（木）、22日（水）各10時～16時
+  
+  会場は市民活動センター、東吾野地区行政センター、原市場地区行政センター、飯能市役所本庁舎別館など複数あります。
+  
+  ご不明な点はPayPayカスタマーサポート窓口 0120-990-634へ。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/13410.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13410"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/13410.html"
+  fetched_at: "2026-05-28T01:42:55.079882Z"
+  content_hash: "sha256-fb0f94a983341a42"
+  summary_method: "llm-haiku-4-5"
