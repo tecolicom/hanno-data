@@ -1,0 +1,34 @@
+{
+  "created": "2026-05-29T20:16:30.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 New listing (Published: May 29, 2026)\n\nHanno City and Moomin Valley Park have partnered to offer the \"Hanno Enjoy! Moomin Valley Park Outing Pass (Digital)\" – a combined ticket now on sale.\n\nThe pass includes:\n• One-day Seibu Railway pass\n• Moomin Valley Park one-day pass\n• Round-trip bus tickets to and from the park\n• 1,000 yen in \"Hanno Enjoy! Coupons\" usable at participating shops in Hanno City\n\nWhen you use the coupons at participating shops, you receive an exclusive Moomin Valley Park sticker. During the campaign period, \"Hanno Summer Solstice Festival\" is also taking place. This package lets you enjoy visits to Moomin Valley Park along with affordable shopping and sightseeing around Hanno City.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/sangakukanrenkei/13563.html",
+  "end": {
+    "date": "2026-05-31"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3FqY2NwZDZwaDYyZHBpYzkwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-13563-6ba72b@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6cqjccpd6ph62dpic906gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/sangakukanrenkei/13563.html"
+  },
+  "start": {
+    "date": "2026-05-30"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 【Reiwa 8】Hanno Enjoy! Moomin Valley Park Outing Pass (Digital)",
+  "updated": "2026-05-29T20:16:30.470Z"
+}

@@ -1,0 +1,34 @@
+{
+  "created": "2026-05-29T20:16:31.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 New (posted May 29, 2026)\n\nAI summary (check the original article for accurate details)\n\nThe \"Hanno: A Town Where You Can Meet Moomin\" Project Promotion Council will hold the Hanno Summer Solstice Festival from May 23 (Saturday) to August 31 (Monday), 2026.\n\nInspired by Northern European summer solstice traditions, the festival will feature solstice-themed events at the Nordic-themed facility Metsä and various locations throughout the city. Flower crowns will be displayed at participating Hanno outing pass shops and Hanno Station as the festival progresses.\n\nThis city promotion initiative is part of a regional revitalization partnership agreement among Hanno City, Moomin Stories Co., Ltd., and Seibu Railway Co., Ltd. The promotion council is made up of five organizations: these three partners plus the Hanno Chamber of Commerce and Industry and the Okumusashi Hanno Tourism Association. This is the festival's first year.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/sangakukanrenkei/13565.html",
+  "end": {
+    "date": "2026-05-31"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3FqY2Q5ZDZoaGo4ZDFnNjEwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-13565-4c4400@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6cqjcd9d6hhj8d1g6106gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/sangakukanrenkei/13565.html"
+  },
+  "start": {
+    "date": "2026-05-30"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Hanno Summer Solstice Festival",
+  "updated": "2026-05-29T20:16:31.330Z"
+}

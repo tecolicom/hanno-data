@@ -1,0 +1,34 @@
+{
+  "created": "2026-05-29T20:14:55.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🆕 新着掲載 (公開日: 2026-05-29)\n\nAI による要約 (正確な情報は元記事をご確認ください)\n\n飯能市とムーミンバレーパークが連携した企画乗車券「はんのう満喫！ムーミンバレーパークおでかけパス（デジタル）」を販売中。西武鉄道一日乗車券、ムーミンバレーパークワンデーパス、同パークまでのバス往復券がセットになっており、市内加盟店で利用できる1,000円分の「はんのう満喫！クーポン」が付加されています。クーポンを取扱加盟店で使用すると、ムーミンバレーパークオリジナルステッカーがもらえます。期間中は「はんのう夏至祭」も開催中。ムーミンバレーパークを訪れる際、飯能市内の周遊と買い物をお得に楽しめる企画となっています。\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/sangakukanrenkei/13563.html",
+  "end": {
+    "date": "2026-05-31"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3FqY2NwZDZwaDYyZHBpYzkwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSA2NzQ1OTE0YjI0MzIzMTEyYTE1ZjQzZGMyMGIzYTBmNGE0ODE3YWZkODAwYzhkMTY4N2QwYmYwYjdmODkwYzYxQGc",
+  "iCalUID": "oshirase-13563-6ba72b@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6cqjccpd6ph62dpic906gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/sangakukanrenkei/13563.html"
+  },
+  "start": {
+    "date": "2026-05-30"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 【令和8年度】はんのう満喫！ムーミンバレーパークおでかけパス（デジタル）",
+  "updated": "2026-05-29T20:14:56.137Z"
+}

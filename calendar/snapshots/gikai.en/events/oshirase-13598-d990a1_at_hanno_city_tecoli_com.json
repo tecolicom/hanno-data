@@ -1,0 +1,34 @@
+{
+  "created": "2026-05-29T20:16:32.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 New post (Published: May 29, 2026)\n\nAI summary (check the original article for accurate details)\n\nScam phone calls have been increasing sharply. The National Police Agency recommends apps as an effective way to prevent fraud.\n\n【About National Police Agency–Recommended Apps】\n• Free to install (data charges are the user's responsibility)\n• Blocks calls from international phone numbers (like +1, +44, etc.) and numbers used by criminals that police have identified\n• Effective apps using the latest technology from private companies to prevent scam fraud\n\nThe most effective protection is to not receive or answer calls from criminals. Install an app and tell your family, relatives, and friends to do the same—together we can stop scam fraud.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/13598.html",
+  "end": {
+    "date": "2026-05-31"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3FqaWUxZGNnc2ppYzMxNjUwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-13598-d990a1@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6cqjie1dcgsjic316506gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/13598.html"
+  },
+  "start": {
+    "date": "2026-05-30"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Free phone protection—use National Police Agency–recommended apps to block scam calls!",
+  "updated": "2026-05-29T20:16:32.882Z"
+}
