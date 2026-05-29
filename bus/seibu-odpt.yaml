@@ -1,8 +1,10 @@
 meta:
-  feed_id: seibu
+  feed_id: seibu-odpt
   source: ''
   source_url: https://api.odpt.org/api/v4/files/SeibuBus/data/SeibuBus-GTFS.zip
-  extracted_at: '2026-05-14'
+  extracted_at: '2026-05-29'
+  extractor_commit: c6ef419
+  extractor_script: extract_gtfs.py
   license: ODPT
   attribution: 公共交通オープンデータセンター
 agencies:
@@ -15,7 +17,7 @@ agencies:
   agency_url: https://www.seibubus.co.jp
   agency_timezone: Asia/Tokyo
 routes:
-- route_id: seibu:555020
+- route_id: seibu-odpt:555020
   agency_id: '6013301006270'
   route_short_name: 飯26
   route_long_name: 飯能駅・東飯能駅東口線
@@ -23,282 +25,282 @@ routes:
   route_color: null
   route_text_color: null
 trips:
-- trip_id: seibu:555020-1_16-土曜_31200
-  route_id: seibu:555020
-  service_id: seibu:16-土曜
+- trip_id: seibu-odpt:555020-1_16-土曜_31200
+  route_id: seibu-odpt:555020
+  service_id: seibu-odpt:16-土曜
   trip_headsign: 飯能駅北口～東飯能駅東口
   direction_id: 1
   direction_name: 飯能駅北口～東飯能駅東口方面
-- trip_id: seibu:555020-1_16-休日_31201
-  route_id: seibu:555020
-  service_id: seibu:16-休日
+- trip_id: seibu-odpt:555020-1_16-休日_31201
+  route_id: seibu-odpt:555020
+  service_id: seibu-odpt:16-休日
   trip_headsign: 飯能駅北口～東飯能駅東口
   direction_id: 1
   direction_name: 飯能駅北口～東飯能駅東口方面
-- trip_id: seibu:555020-2_16-土曜_31202
-  route_id: seibu:555020
-  service_id: seibu:16-土曜
+- trip_id: seibu-odpt:555020-2_16-土曜_31202
+  route_id: seibu-odpt:555020
+  service_id: seibu-odpt:16-土曜
   trip_headsign: 東飯能駅東口～飯能駅北口
   direction_id: 0
   direction_name: 東飯能駅東口～飯能駅北口方面
-- trip_id: seibu:555020-2_16-休日_31203
-  route_id: seibu:555020
-  service_id: seibu:16-休日
+- trip_id: seibu-odpt:555020-2_16-休日_31203
+  route_id: seibu-odpt:555020
+  service_id: seibu-odpt:16-休日
   trip_headsign: 東飯能駅東口～飯能駅北口
   direction_id: 0
   direction_name: 東飯能駅東口～飯能駅北口方面
 stops:
-- stop_id: seibu:160231-03
+- stop_id: seibu-odpt:160231-03
   stop_name: 飯能駅北口
   location_type: 0
   stop_lat: 35.850881
   stop_lon: 139.320385
-- stop_id: seibu:160231-15
+- stop_id: seibu-odpt:160231-15
   stop_name: 飯能駅北口
   location_type: 0
   stop_lat: 35.850838
   stop_lon: 139.32053
-- stop_id: seibu:160232-01
+- stop_id: seibu-odpt:160232-01
   stop_name: 車庫前（飯能市）
   location_type: 0
   stop_lat: 35.851796
   stop_lon: 139.322795
-- stop_id: seibu:160232-02
+- stop_id: seibu-odpt:160232-02
   stop_name: 車庫前（飯能市）
   location_type: 0
   stop_lat: 35.851789
   stop_lon: 139.322648
-- stop_id: seibu:160233-01
+- stop_id: seibu-odpt:160233-01
   stop_name: 笠縫
   location_type: 0
   stop_lat: 35.849994
   stop_lon: 139.327847
-- stop_id: seibu:160233-02
+- stop_id: seibu-odpt:160233-02
   stop_name: 笠縫
   location_type: 0
   stop_lat: 35.849936
   stop_lon: 139.327804
-- stop_id: seibu:160234-01
+- stop_id: seibu-odpt:160234-01
   stop_name: 東飯能駅東口
   location_type: 0
   stop_lat: 35.852567
   stop_lon: 139.326677
-- stop_id: seibu:160234-03-15
+- stop_id: seibu-odpt:160234-03-15
   stop_name: 東飯能駅東口
   location_type: 0
   stop_lat: 35.8522
   stop_lon: 139.326665
-- stop_id: seibu:160235-01
+- stop_id: seibu-odpt:160235-01
   stop_name: 栄町（飯能市）
   location_type: 0
   stop_lat: 35.852375
   stop_lon: 139.329178
-- stop_id: seibu:160235-02
+- stop_id: seibu-odpt:160235-02
   stop_name: 栄町（飯能市）
   location_type: 0
   stop_lat: 35.852433
   stop_lon: 139.329265
-- stop_id: seibu:160236-01
+- stop_id: seibu-odpt:160236-01
   stop_name: 緑町
   location_type: 0
   stop_lat: 35.850177
   stop_lon: 139.330367
-- stop_id: seibu:160236-02
+- stop_id: seibu-odpt:160236-02
   stop_name: 緑町
   location_type: 0
   stop_lat: 35.850135
   stop_lon: 139.330475
 stop_times:
-- trip_id: seibu:555020-1_16-土曜_31200
+- trip_id: seibu-odpt:555020-1_16-土曜_31200
   stop_sequence: 1
-  stop_id: seibu:160231-03
+  stop_id: seibu-odpt:160231-03
   arrival_time: '11:45:00'
   departure_time: '11:45:00'
   stop_headsign: 東飯能駅東口
   pickup_type: 0
   drop_off_type: 1
-- trip_id: seibu:555020-1_16-土曜_31200
+- trip_id: seibu-odpt:555020-1_16-土曜_31200
   stop_sequence: 2
-  stop_id: seibu:160232-01
+  stop_id: seibu-odpt:160232-01
   arrival_time: '11:46:00'
   departure_time: '11:46:00'
   stop_headsign: 東飯能駅東口
   pickup_type: 0
   drop_off_type: 0
-- trip_id: seibu:555020-1_16-土曜_31200
+- trip_id: seibu-odpt:555020-1_16-土曜_31200
   stop_sequence: 3
-  stop_id: seibu:160233-01
+  stop_id: seibu-odpt:160233-01
   arrival_time: '11:48:00'
   departure_time: '11:48:00'
   stop_headsign: 東飯能駅東口
   pickup_type: 0
   drop_off_type: 0
-- trip_id: seibu:555020-1_16-土曜_31200
+- trip_id: seibu-odpt:555020-1_16-土曜_31200
   stop_sequence: 4
-  stop_id: seibu:160236-01
+  stop_id: seibu-odpt:160236-01
   arrival_time: '11:49:00'
   departure_time: '11:49:00'
   stop_headsign: 東飯能駅東口
   pickup_type: 0
   drop_off_type: 0
-- trip_id: seibu:555020-1_16-土曜_31200
+- trip_id: seibu-odpt:555020-1_16-土曜_31200
   stop_sequence: 5
-  stop_id: seibu:160235-01
+  stop_id: seibu-odpt:160235-01
   arrival_time: '11:49:00'
   departure_time: '11:49:00'
   stop_headsign: 東飯能駅東口
   pickup_type: 0
   drop_off_type: 0
-- trip_id: seibu:555020-1_16-土曜_31200
+- trip_id: seibu-odpt:555020-1_16-土曜_31200
   stop_sequence: 6
-  stop_id: seibu:160234-03-15
+  stop_id: seibu-odpt:160234-03-15
   arrival_time: '11:55:00'
   departure_time: '11:55:00'
   pickup_type: 1
   drop_off_type: 0
-- trip_id: seibu:555020-1_16-休日_31201
+- trip_id: seibu-odpt:555020-1_16-休日_31201
   stop_sequence: 1
-  stop_id: seibu:160231-03
+  stop_id: seibu-odpt:160231-03
   arrival_time: '11:45:00'
   departure_time: '11:45:00'
   stop_headsign: 東飯能駅東口
   pickup_type: 0
   drop_off_type: 1
-- trip_id: seibu:555020-1_16-休日_31201
+- trip_id: seibu-odpt:555020-1_16-休日_31201
   stop_sequence: 2
-  stop_id: seibu:160232-01
+  stop_id: seibu-odpt:160232-01
   arrival_time: '11:46:00'
   departure_time: '11:46:00'
   stop_headsign: 東飯能駅東口
   pickup_type: 0
   drop_off_type: 0
-- trip_id: seibu:555020-1_16-休日_31201
+- trip_id: seibu-odpt:555020-1_16-休日_31201
   stop_sequence: 3
-  stop_id: seibu:160233-01
+  stop_id: seibu-odpt:160233-01
   arrival_time: '11:48:00'
   departure_time: '11:48:00'
   stop_headsign: 東飯能駅東口
   pickup_type: 0
   drop_off_type: 0
-- trip_id: seibu:555020-1_16-休日_31201
+- trip_id: seibu-odpt:555020-1_16-休日_31201
   stop_sequence: 4
-  stop_id: seibu:160236-01
+  stop_id: seibu-odpt:160236-01
   arrival_time: '11:49:00'
   departure_time: '11:49:00'
   stop_headsign: 東飯能駅東口
   pickup_type: 0
   drop_off_type: 0
-- trip_id: seibu:555020-1_16-休日_31201
+- trip_id: seibu-odpt:555020-1_16-休日_31201
   stop_sequence: 5
-  stop_id: seibu:160235-01
+  stop_id: seibu-odpt:160235-01
   arrival_time: '11:49:00'
   departure_time: '11:49:00'
   stop_headsign: 東飯能駅東口
   pickup_type: 0
   drop_off_type: 0
-- trip_id: seibu:555020-1_16-休日_31201
+- trip_id: seibu-odpt:555020-1_16-休日_31201
   stop_sequence: 6
-  stop_id: seibu:160234-03-15
+  stop_id: seibu-odpt:160234-03-15
   arrival_time: '11:55:00'
   departure_time: '11:55:00'
   pickup_type: 1
   drop_off_type: 0
-- trip_id: seibu:555020-2_16-土曜_31202
+- trip_id: seibu-odpt:555020-2_16-土曜_31202
   stop_sequence: 1
-  stop_id: seibu:160234-01
+  stop_id: seibu-odpt:160234-01
   arrival_time: '11:30:00'
   departure_time: '11:30:00'
   stop_headsign: 飯能駅北口
   pickup_type: 0
   drop_off_type: 1
-- trip_id: seibu:555020-2_16-土曜_31202
+- trip_id: seibu-odpt:555020-2_16-土曜_31202
   stop_sequence: 2
-  stop_id: seibu:160235-02
+  stop_id: seibu-odpt:160235-02
   arrival_time: '11:30:00'
   departure_time: '11:30:00'
   stop_headsign: 飯能駅北口
   pickup_type: 0
   drop_off_type: 0
-- trip_id: seibu:555020-2_16-土曜_31202
+- trip_id: seibu-odpt:555020-2_16-土曜_31202
   stop_sequence: 3
-  stop_id: seibu:160236-02
+  stop_id: seibu-odpt:160236-02
   arrival_time: '11:31:00'
   departure_time: '11:31:00'
   stop_headsign: 飯能駅北口
   pickup_type: 0
   drop_off_type: 0
-- trip_id: seibu:555020-2_16-土曜_31202
+- trip_id: seibu-odpt:555020-2_16-土曜_31202
   stop_sequence: 4
-  stop_id: seibu:160233-02
+  stop_id: seibu-odpt:160233-02
   arrival_time: '11:32:00'
   departure_time: '11:32:00'
   stop_headsign: 飯能駅北口
   pickup_type: 0
   drop_off_type: 0
-- trip_id: seibu:555020-2_16-土曜_31202
+- trip_id: seibu-odpt:555020-2_16-土曜_31202
   stop_sequence: 5
-  stop_id: seibu:160232-02
+  stop_id: seibu-odpt:160232-02
   arrival_time: '11:33:00'
   departure_time: '11:33:00'
   stop_headsign: 飯能駅北口
   pickup_type: 0
   drop_off_type: 0
-- trip_id: seibu:555020-2_16-土曜_31202
+- trip_id: seibu-odpt:555020-2_16-土曜_31202
   stop_sequence: 6
-  stop_id: seibu:160231-15
+  stop_id: seibu-odpt:160231-15
   arrival_time: '11:40:00'
   departure_time: '11:40:00'
   pickup_type: 1
   drop_off_type: 0
-- trip_id: seibu:555020-2_16-休日_31203
+- trip_id: seibu-odpt:555020-2_16-休日_31203
   stop_sequence: 1
-  stop_id: seibu:160234-01
+  stop_id: seibu-odpt:160234-01
   arrival_time: '11:30:00'
   departure_time: '11:30:00'
   stop_headsign: 飯能駅北口
   pickup_type: 0
   drop_off_type: 1
-- trip_id: seibu:555020-2_16-休日_31203
+- trip_id: seibu-odpt:555020-2_16-休日_31203
   stop_sequence: 2
-  stop_id: seibu:160235-02
+  stop_id: seibu-odpt:160235-02
   arrival_time: '11:30:00'
   departure_time: '11:30:00'
   stop_headsign: 飯能駅北口
   pickup_type: 0
   drop_off_type: 0
-- trip_id: seibu:555020-2_16-休日_31203
+- trip_id: seibu-odpt:555020-2_16-休日_31203
   stop_sequence: 3
-  stop_id: seibu:160236-02
+  stop_id: seibu-odpt:160236-02
   arrival_time: '11:31:00'
   departure_time: '11:31:00'
   stop_headsign: 飯能駅北口
   pickup_type: 0
   drop_off_type: 0
-- trip_id: seibu:555020-2_16-休日_31203
+- trip_id: seibu-odpt:555020-2_16-休日_31203
   stop_sequence: 4
-  stop_id: seibu:160233-02
+  stop_id: seibu-odpt:160233-02
   arrival_time: '11:32:00'
   departure_time: '11:32:00'
   stop_headsign: 飯能駅北口
   pickup_type: 0
   drop_off_type: 0
-- trip_id: seibu:555020-2_16-休日_31203
+- trip_id: seibu-odpt:555020-2_16-休日_31203
   stop_sequence: 5
-  stop_id: seibu:160232-02
+  stop_id: seibu-odpt:160232-02
   arrival_time: '11:33:00'
   departure_time: '11:33:00'
   stop_headsign: 飯能駅北口
   pickup_type: 0
   drop_off_type: 0
-- trip_id: seibu:555020-2_16-休日_31203
+- trip_id: seibu-odpt:555020-2_16-休日_31203
   stop_sequence: 6
-  stop_id: seibu:160231-15
+  stop_id: seibu-odpt:160231-15
   arrival_time: '11:40:00'
   departure_time: '11:40:00'
   pickup_type: 1
   drop_off_type: 0
 services:
-- service_id: seibu:16-土曜
+- service_id: seibu-odpt:16-土曜
   monday: 0
   tuesday: 0
   wednesday: 0
@@ -308,7 +310,7 @@ services:
   sunday: 0
   start_date: '2026-04-01'
   end_date: '2026-06-30'
-- service_id: seibu:16-休日
+- service_id: seibu-odpt:16-休日
   monday: 0
   tuesday: 0
   wednesday: 0
@@ -319,16 +321,16 @@ services:
   start_date: '2026-04-01'
   end_date: '2026-06-30'
 calendar_dates:
-- service_id: seibu:16-休日
+- service_id: seibu-odpt:16-休日
   date: '2026-04-29'
   exception_type: 1
-- service_id: seibu:16-休日
+- service_id: seibu-odpt:16-休日
   date: '2026-05-04'
   exception_type: 1
-- service_id: seibu:16-休日
+- service_id: seibu-odpt:16-休日
   date: '2026-05-05'
   exception_type: 1
-- service_id: seibu:16-休日
+- service_id: seibu-odpt:16-休日
   date: '2026-05-06'
   exception_type: 1
 transfers: []
