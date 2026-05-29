@@ -3,7 +3,7 @@ meta:
   operator: 国際興業バス
   feed_id: 5931bus
   extracted_at: '2026-05-29'
-  extractor_commit: 8fdd96f
+  extractor_commit: 2b27505
   extractor_script: extract.py
 agencies:
 - agency_id: kokusai_kogyo
@@ -73,7 +73,13 @@ routes:
   route_short_name: 飯07
 - route_id: 5931bus:飯15
   agency_id: kokusai_kogyo
-  route_long_name: 双柳循環
+  route_long_name: 双柳循環(工場前先)
+  route_type: 3
+  line: 双柳循環
+  route_short_name: 飯15
+- route_id: 5931bus:飯15-1
+  agency_id: kokusai_kogyo
+  route_long_name: 双柳循環(双柳小先)
   route_type: 3
   line: 双柳循環
   route_short_name: 飯15
@@ -118,12 +124,6 @@ routes:
   route_type: 3
   line: 西武飯能日高線
   route_short_name: 飯30
-- route_id: 5931bus:飯15-1
-  agency_id: kokusai_kogyo
-  route_long_name: 双柳循環
-  route_type: 3
-  line: 双柳循環
-  route_short_name: 飯15
 - route_id: 5931bus:飯15-2
   agency_id: kokusai_kogyo
   route_long_name: 工場前・双柳小〜飯能駅
@@ -4871,231 +4871,231 @@ trips:
   direction_name: 飯能駅方面
   trip_short_name: 飯15
 - trip_id: 5931bus:双柳循環:weekday:飯15:双柳循環:12
-  route_id: 5931bus:飯15
+  route_id: 5931bus:飯15-1
   service_id: 5931bus:weekday
   trip_headsign: 双柳循環
   direction_id: 0
   direction_name: 工場前方面
   trip_short_name: 飯15
 - trip_id: 5931bus:双柳循環:weekday:飯15:双柳循環:13
-  route_id: 5931bus:飯15
+  route_id: 5931bus:飯15-1
   service_id: 5931bus:weekday
   trip_headsign: 双柳循環
   direction_id: 0
   direction_name: 工場前方面
   trip_short_name: 飯15
 - trip_id: 5931bus:双柳循環:weekday:飯15:双柳循環:14
-  route_id: 5931bus:飯15
+  route_id: 5931bus:飯15-1
   service_id: 5931bus:weekday
   trip_headsign: 双柳循環
   direction_id: 0
   direction_name: 工場前方面
   trip_short_name: 飯15
 - trip_id: 5931bus:双柳循環:weekday:飯15:双柳循環:15
-  route_id: 5931bus:飯15
+  route_id: 5931bus:飯15-1
   service_id: 5931bus:weekday
   trip_headsign: 双柳循環
   direction_id: 0
   direction_name: 工場前方面
   trip_short_name: 飯15
 - trip_id: 5931bus:双柳循環:weekday:飯15:双柳循環:16
-  route_id: 5931bus:飯15
+  route_id: 5931bus:飯15-1
   service_id: 5931bus:weekday
   trip_headsign: 双柳循環
   direction_id: 0
   direction_name: 工場前方面
   trip_short_name: 飯15
 - trip_id: 5931bus:双柳循環:weekday:飯15:双柳循環:17
-  route_id: 5931bus:飯15
+  route_id: 5931bus:飯15-1
   service_id: 5931bus:weekday
   trip_headsign: 双柳循環
   direction_id: 0
   direction_name: 工場前方面
   trip_short_name: 飯15
 - trip_id: 5931bus:双柳循環:weekday:飯15:双柳循環:18
-  route_id: 5931bus:飯15
+  route_id: 5931bus:飯15-1
   service_id: 5931bus:weekday
   trip_headsign: 双柳循環
   direction_id: 0
   direction_name: 工場前方面
   trip_short_name: 飯15
 - trip_id: 5931bus:双柳循環:weekday:飯15:双柳循環:19
-  route_id: 5931bus:飯15
+  route_id: 5931bus:飯15-1
   service_id: 5931bus:weekday
   trip_headsign: 双柳循環
   direction_id: 0
   direction_name: 工場前方面
   trip_short_name: 飯15
 - trip_id: 5931bus:双柳循環:weekday:飯15:双柳循環:20
-  route_id: 5931bus:飯15
+  route_id: 5931bus:飯15-1
   service_id: 5931bus:weekday
   trip_headsign: 双柳循環
   direction_id: 0
   direction_name: 工場前方面
   trip_short_name: 飯15
 - trip_id: 5931bus:双柳循環:weekday:飯15:双柳循環:21
-  route_id: 5931bus:飯15
+  route_id: 5931bus:飯15-1
   service_id: 5931bus:weekday
   trip_headsign: 双柳循環
   direction_id: 0
   direction_name: 工場前方面
   trip_short_name: 飯15
 - trip_id: 5931bus:双柳循環:weekday:飯15:双柳循環:22
-  route_id: 5931bus:飯15
+  route_id: 5931bus:飯15-1
   service_id: 5931bus:weekday
   trip_headsign: 双柳循環
   direction_id: 0
   direction_name: 工場前方面
   trip_short_name: 飯15
 - trip_id: 5931bus:双柳循環:weekday:飯15:双柳循環:23
-  route_id: 5931bus:飯15
+  route_id: 5931bus:飯15-1
   service_id: 5931bus:weekday
   trip_headsign: 双柳循環
   direction_id: 0
   direction_name: 工場前方面
   trip_short_name: 飯15
 - trip_id: 5931bus:双柳循環:weekday:飯15:双柳循環:24
-  route_id: 5931bus:飯15
+  route_id: 5931bus:飯15-1
   service_id: 5931bus:weekday
   trip_headsign: 双柳循環
   direction_id: 0
   direction_name: 工場前方面
   trip_short_name: 飯15
 - trip_id: 5931bus:双柳循環:saturday:飯15:双柳循環:9
-  route_id: 5931bus:飯15
+  route_id: 5931bus:飯15-1
   service_id: 5931bus:saturday
   trip_headsign: 双柳循環
   direction_id: 0
   direction_name: 工場前方面
   trip_short_name: 飯15
 - trip_id: 5931bus:双柳循環:saturday:飯15:双柳循環:10
-  route_id: 5931bus:飯15
+  route_id: 5931bus:飯15-1
   service_id: 5931bus:saturday
   trip_headsign: 双柳循環
   direction_id: 0
   direction_name: 工場前方面
   trip_short_name: 飯15
 - trip_id: 5931bus:双柳循環:saturday:飯15:双柳循環:11
-  route_id: 5931bus:飯15
+  route_id: 5931bus:飯15-1
   service_id: 5931bus:saturday
   trip_headsign: 双柳循環
   direction_id: 0
   direction_name: 工場前方面
   trip_short_name: 飯15
 - trip_id: 5931bus:双柳循環:saturday:飯15:双柳循環:12
-  route_id: 5931bus:飯15
+  route_id: 5931bus:飯15-1
   service_id: 5931bus:saturday
   trip_headsign: 双柳循環
   direction_id: 0
   direction_name: 工場前方面
   trip_short_name: 飯15
 - trip_id: 5931bus:双柳循環:saturday:飯15:双柳循環:13
-  route_id: 5931bus:飯15
+  route_id: 5931bus:飯15-1
   service_id: 5931bus:saturday
   trip_headsign: 双柳循環
   direction_id: 0
   direction_name: 工場前方面
   trip_short_name: 飯15
 - trip_id: 5931bus:双柳循環:saturday:飯15:双柳循環:14
-  route_id: 5931bus:飯15
+  route_id: 5931bus:飯15-1
   service_id: 5931bus:saturday
   trip_headsign: 双柳循環
   direction_id: 0
   direction_name: 工場前方面
   trip_short_name: 飯15
 - trip_id: 5931bus:双柳循環:saturday:飯15:双柳循環:15
-  route_id: 5931bus:飯15
+  route_id: 5931bus:飯15-1
   service_id: 5931bus:saturday
   trip_headsign: 双柳循環
   direction_id: 0
   direction_name: 工場前方面
   trip_short_name: 飯15
 - trip_id: 5931bus:双柳循環:saturday:飯15:双柳循環:16
-  route_id: 5931bus:飯15
+  route_id: 5931bus:飯15-1
   service_id: 5931bus:saturday
   trip_headsign: 双柳循環
   direction_id: 0
   direction_name: 工場前方面
   trip_short_name: 飯15
 - trip_id: 5931bus:双柳循環:saturday:飯15:双柳循環:17
-  route_id: 5931bus:飯15
+  route_id: 5931bus:飯15-1
   service_id: 5931bus:saturday
   trip_headsign: 双柳循環
   direction_id: 0
   direction_name: 工場前方面
   trip_short_name: 飯15
 - trip_id: 5931bus:双柳循環:saturday:飯15:双柳循環:18
-  route_id: 5931bus:飯15
+  route_id: 5931bus:飯15-1
   service_id: 5931bus:saturday
   trip_headsign: 双柳循環
   direction_id: 0
   direction_name: 工場前方面
   trip_short_name: 飯15
 - trip_id: 5931bus:双柳循環:holiday:飯15:双柳循環:9
-  route_id: 5931bus:飯15
+  route_id: 5931bus:飯15-1
   service_id: 5931bus:holiday
   trip_headsign: 双柳循環
   direction_id: 0
   direction_name: 工場前方面
   trip_short_name: 飯15
 - trip_id: 5931bus:双柳循環:holiday:飯15:双柳循環:10
-  route_id: 5931bus:飯15
+  route_id: 5931bus:飯15-1
   service_id: 5931bus:holiday
   trip_headsign: 双柳循環
   direction_id: 0
   direction_name: 工場前方面
   trip_short_name: 飯15
 - trip_id: 5931bus:双柳循環:holiday:飯15:双柳循環:11
-  route_id: 5931bus:飯15
+  route_id: 5931bus:飯15-1
   service_id: 5931bus:holiday
   trip_headsign: 双柳循環
   direction_id: 0
   direction_name: 工場前方面
   trip_short_name: 飯15
 - trip_id: 5931bus:双柳循環:holiday:飯15:双柳循環:12
-  route_id: 5931bus:飯15
+  route_id: 5931bus:飯15-1
   service_id: 5931bus:holiday
   trip_headsign: 双柳循環
   direction_id: 0
   direction_name: 工場前方面
   trip_short_name: 飯15
 - trip_id: 5931bus:双柳循環:holiday:飯15:双柳循環:13
-  route_id: 5931bus:飯15
+  route_id: 5931bus:飯15-1
   service_id: 5931bus:holiday
   trip_headsign: 双柳循環
   direction_id: 0
   direction_name: 工場前方面
   trip_short_name: 飯15
 - trip_id: 5931bus:双柳循環:holiday:飯15:双柳循環:14
-  route_id: 5931bus:飯15
+  route_id: 5931bus:飯15-1
   service_id: 5931bus:holiday
   trip_headsign: 双柳循環
   direction_id: 0
   direction_name: 工場前方面
   trip_short_name: 飯15
 - trip_id: 5931bus:双柳循環:holiday:飯15:双柳循環:15
-  route_id: 5931bus:飯15
+  route_id: 5931bus:飯15-1
   service_id: 5931bus:holiday
   trip_headsign: 双柳循環
   direction_id: 0
   direction_name: 工場前方面
   trip_short_name: 飯15
 - trip_id: 5931bus:双柳循環:holiday:飯15:双柳循環:16
-  route_id: 5931bus:飯15
+  route_id: 5931bus:飯15-1
   service_id: 5931bus:holiday
   trip_headsign: 双柳循環
   direction_id: 0
   direction_name: 工場前方面
   trip_short_name: 飯15
 - trip_id: 5931bus:双柳循環:holiday:飯15:双柳循環:17
-  route_id: 5931bus:飯15
+  route_id: 5931bus:飯15-1
   service_id: 5931bus:holiday
   trip_headsign: 双柳循環
   direction_id: 0
   direction_name: 工場前方面
   trip_short_name: 飯15
 - trip_id: 5931bus:双柳循環:holiday:飯15:双柳循環:18
-  route_id: 5931bus:飯15
+  route_id: 5931bus:飯15-1
   service_id: 5931bus:holiday
   trip_headsign: 双柳循環
   direction_id: 0
