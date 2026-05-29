@@ -1,0 +1,30 @@
+uid: "oshirase-13565-4c4400@hanno.city.tecoli.com"
+summary: "ℹ️ はんのう夏至祭"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/sangakukanrenkei/13565.html"
+dtstart: "2026-05-30"
+dtend: "2026-05-30"
+description: |-
+  🆕 新着掲載 (公開日: 2026-05-29)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  「ムーミンに会えるまち、はんのう」プロジェクト推進協議会は、「はんのう夏至祭」を2026年5月23日（土曜日）から8月31日（月曜日）まで開催します。
+  
+  北欧の夏至の伝統にちなんだイベントで、北欧をテーマにした施設「メッツァ」や市内各所で夏至にちなんだイベントを実施します。市内のおでかけパス加盟店や飯能駅にも随時花冠を掲げます。
+  
+  飯能市・株式会社ムーミン物語・西武鉄道株式会社の地域活性化連携協定に基づくシティプロモーションの一環で、本協議会は飯能商工会議所および一般社団法人奥むさし飯能観光協会を加えた5者で構成されています。初の開催となります。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/sangakukanrenkei/13565.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13565"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/sangakukanrenkei/13565.html"
+  fetched_at: "2026-05-29T20:13:32.144761Z"
+  content_hash: "sha256-4c440088bd852046"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-05-29"

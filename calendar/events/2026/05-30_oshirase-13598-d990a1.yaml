@@ -1,0 +1,33 @@
+uid: "oshirase-13598-d990a1@hanno.city.tecoli.com"
+summary: "ℹ️ 無料でできる携帯電話対策～警察庁推奨アプリで詐欺電話をブロック！！～"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/13598.html"
+dtstart: "2026-05-30"
+dtend: "2026-05-30"
+description: |-
+  🆕 新着掲載 (公開日: 2026-05-29)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  特殊詐欺電話による被害が急増しています。被害防止に有効な対策として、警察庁推奨アプリがあります。
+  
+  【警察庁推奨アプリについて】
+  ・無料でインストールできます（通信料は使用者負担）
+  ・国際電話番号（+1や+44など）や警察が収集した犯行利用電話番号からの電話を遮断できます
+  ・民間事業者の最新技術を活用した特殊詐欺被害防止に有効なアプリです
+  
+  犯人からの電話を受けない、取らないことが有効な対策です。アプリをインストールして、ご家族やご親戚、友人・知人にも教え、みんなで特殊詐欺被害をとめましょう。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/13598.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13598"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/13598.html"
+  fetched_at: "2026-05-29T20:13:24.323055Z"
+  content_hash: "sha256-d990a10fca5c2bdd"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-05-29"

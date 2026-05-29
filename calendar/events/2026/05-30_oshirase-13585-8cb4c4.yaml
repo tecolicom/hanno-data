@@ -1,0 +1,38 @@
+uid: "oshirase-13585-8cb4c4@hanno.city.tecoli.com"
+summary: "ℹ️ 【募集中】昭和100年企画展「飯能と昭和ー市の誕生と進化するくらしー」展に使う昭和の写真や資料を募集します！"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/tenji_moyooshimono/13585.html"
+dtstart: "2026-05-30"
+dtend: "2026-05-30"
+description: |-
+  🆕 新着掲載 (公開日: 2026-05-29)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  飯能市立博物館では、令和8年7月19日（日曜日）から8月30日（日曜日）まで開催する昭和100年企画展「飯能と昭和ー市の誕生と進化するくらしー」に使用する資料を募集しています。
+  
+  主に昭和30年代～40年代の以下の資料を探しています。
+  
+  ・写真資料：丸広百貨店飯能店の屋上や食堂で撮影された写真、昭和40年代の自宅の台所や廊下、市内学校の給食風景
+  
+  ・生活資料：ローラー式脱水の電気洗濯機、初期携帯電話（ショルダーフォン）、氷冷蔵庫、ダッコちゃん人形、ブリキのおもちゃ、弁慶号など
+  
+  ・その他：昭和以降の飯能の移り変わりがわかる写真や昭和から平成初期の生活用品
+  
+  募集期間は令和8年6月23日（火曜日）までです。
+  
+  応募方法は、電子申請サービスで資料写真にコメント添付するか、お電話で館に問い合わせてください。提供写真の著作権は撮影者に帰属しますが、画像データは当館収蔵資料として無償利用できます。資料の状態や情報によってはお断りする場合があります。被写体の肖像権については撮影者の責任で適切に処理してください。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/tenji_moyooshimono/13585.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13585"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/tenji_moyooshimono/13585.html"
+  fetched_at: "2026-05-29T20:13:29.231584Z"
+  content_hash: "sha256-8cb4c458acd930ed"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-05-29"
