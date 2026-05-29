@@ -3,7 +3,7 @@ meta:
   operator: 西武バス
   feed_id: seibu-hanno
   extracted_at: '2026-05-29'
-  extractor_commit: c6ef419
+  extractor_commit: 8fdd96f
   extractor_script: extract.py
 agencies:
 - agency_id: seibu_bus
@@ -11,3426 +11,3454 @@ agencies:
   agency_url: https://www.seibubus.co.jp/
   agency_timezone: Asia/Tokyo
 routes:
-- route_id: seibu-hanno:青梅線
+- route_id: seibu-hanno:飯41-1
   agency_id: seibu_bus
-  route_long_name: 青梅線
+  route_long_name: 飯能駅南口〜阿須〜東青梅駅
   route_type: 3
-- route_id: seibu-hanno:美杉台線
+  line: 青梅線
+  route_short_name: 飯41-1
+- route_id: seibu-hanno:飯42
   agency_id: seibu_bus
-  route_long_name: 美杉台線
+  route_long_name: 飯能駅南口〜岩井堂〜東青梅駅
   route_type: 3
+  line: 青梅線
+  route_short_name: 飯42
+- route_id: seibu-hanno:飯21
+  agency_id: seibu_bus
+  route_long_name: ユーエイキャスター前
+  route_type: 3
+  line: 美杉台線
+  route_short_name: 飯21
+- route_id: seibu-hanno:飯20
+  agency_id: seibu_bus
+  route_long_name: 美杉台ニュータウン
+  route_type: 3
+  line: 美杉台線
+  route_short_name: 飯20
+- route_id: seibu-hanno:飯22
+  agency_id: seibu_bus
+  route_long_name: クラウンパッケージ前
+  route_type: 3
+  line: 美杉台線
+  route_short_name: 飯22
+- route_id: seibu-hanno:飯20深夜
+  agency_id: seibu_bus
+  route_long_name: 美杉台ニュータウン
+  route_type: 3
+  line: 美杉台線
+  route_short_name: 飯20深夜
 trips:
 - trip_id: seibu-hanno:青梅線:weekday:飯41-1:東青梅駅北口:1
-  route_id: seibu-hanno:青梅線
+  route_id: seibu-hanno:飯41-1
   service_id: seibu-hanno:weekday
   trip_headsign: 東青梅駅北口
   direction_id: 0
   direction_name: 岩井堂/東青梅駅北口方面
   trip_short_name: 飯41-1
 - trip_id: seibu-hanno:青梅線:weekday:飯41-1:東青梅駅北口:2
-  route_id: seibu-hanno:青梅線
+  route_id: seibu-hanno:飯41-1
   service_id: seibu-hanno:weekday
   trip_headsign: 東青梅駅北口
   direction_id: 0
   direction_name: 岩井堂/東青梅駅北口方面
   trip_short_name: 飯41-1
 - trip_id: seibu-hanno:青梅線:weekday:飯42:岩井堂:1
-  route_id: seibu-hanno:青梅線
+  route_id: seibu-hanno:飯42
   service_id: seibu-hanno:weekday
   trip_headsign: 岩井堂
   direction_id: 0
   direction_name: 岩井堂/東青梅駅北口方面
   trip_short_name: 飯42
 - trip_id: seibu-hanno:青梅線:weekday:飯41-1:東青梅駅北口:3
-  route_id: seibu-hanno:青梅線
+  route_id: seibu-hanno:飯41-1
   service_id: seibu-hanno:weekday
   trip_headsign: 東青梅駅北口
   direction_id: 0
   direction_name: 岩井堂/東青梅駅北口方面
   trip_short_name: 飯41-1
 - trip_id: seibu-hanno:青梅線:weekday:飯41-1:東青梅駅北口:4
-  route_id: seibu-hanno:青梅線
+  route_id: seibu-hanno:飯41-1
   service_id: seibu-hanno:weekday
   trip_headsign: 東青梅駅北口
   direction_id: 0
   direction_name: 岩井堂/東青梅駅北口方面
   trip_short_name: 飯41-1
 - trip_id: seibu-hanno:青梅線:weekday:飯41-1:東青梅駅北口:5
-  route_id: seibu-hanno:青梅線
+  route_id: seibu-hanno:飯41-1
   service_id: seibu-hanno:weekday
   trip_headsign: 東青梅駅北口
   direction_id: 0
   direction_name: 岩井堂/東青梅駅北口方面
   trip_short_name: 飯41-1
 - trip_id: seibu-hanno:青梅線:weekday:飯41-1:東青梅駅北口:6
-  route_id: seibu-hanno:青梅線
+  route_id: seibu-hanno:飯41-1
   service_id: seibu-hanno:weekday
   trip_headsign: 東青梅駅北口
   direction_id: 0
   direction_name: 岩井堂/東青梅駅北口方面
   trip_short_name: 飯41-1
 - trip_id: seibu-hanno:青梅線:weekday:飯41-1:東青梅駅北口:7
-  route_id: seibu-hanno:青梅線
+  route_id: seibu-hanno:飯41-1
   service_id: seibu-hanno:weekday
   trip_headsign: 東青梅駅北口
   direction_id: 0
   direction_name: 岩井堂/東青梅駅北口方面
   trip_short_name: 飯41-1
 - trip_id: seibu-hanno:青梅線:weekday:飯42:岩井堂:2
-  route_id: seibu-hanno:青梅線
+  route_id: seibu-hanno:飯42
   service_id: seibu-hanno:weekday
   trip_headsign: 岩井堂
   direction_id: 0
   direction_name: 岩井堂/東青梅駅北口方面
   trip_short_name: 飯42
 - trip_id: seibu-hanno:青梅線:saturday:飯41-1:東青梅駅北口:1
-  route_id: seibu-hanno:青梅線
+  route_id: seibu-hanno:飯41-1
   service_id: seibu-hanno:saturday
   trip_headsign: 東青梅駅北口
   direction_id: 0
   direction_name: 岩井堂/東青梅駅北口方面
   trip_short_name: 飯41-1
 - trip_id: seibu-hanno:青梅線:saturday:飯41-1:東青梅駅北口:2
-  route_id: seibu-hanno:青梅線
+  route_id: seibu-hanno:飯41-1
   service_id: seibu-hanno:saturday
   trip_headsign: 東青梅駅北口
   direction_id: 0
   direction_name: 岩井堂/東青梅駅北口方面
   trip_short_name: 飯41-1
 - trip_id: seibu-hanno:青梅線:saturday:飯41-1:東青梅駅北口:3
-  route_id: seibu-hanno:青梅線
+  route_id: seibu-hanno:飯41-1
   service_id: seibu-hanno:saturday
   trip_headsign: 東青梅駅北口
   direction_id: 0
   direction_name: 岩井堂/東青梅駅北口方面
   trip_short_name: 飯41-1
 - trip_id: seibu-hanno:青梅線:saturday:飯41-1:東青梅駅北口:4
-  route_id: seibu-hanno:青梅線
+  route_id: seibu-hanno:飯41-1
   service_id: seibu-hanno:saturday
   trip_headsign: 東青梅駅北口
   direction_id: 0
   direction_name: 岩井堂/東青梅駅北口方面
   trip_short_name: 飯41-1
 - trip_id: seibu-hanno:青梅線:saturday:飯41-1:東青梅駅北口:5
-  route_id: seibu-hanno:青梅線
+  route_id: seibu-hanno:飯41-1
   service_id: seibu-hanno:saturday
   trip_headsign: 東青梅駅北口
   direction_id: 0
   direction_name: 岩井堂/東青梅駅北口方面
   trip_short_name: 飯41-1
 - trip_id: seibu-hanno:青梅線:saturday:飯42:岩井堂:1
-  route_id: seibu-hanno:青梅線
+  route_id: seibu-hanno:飯42
   service_id: seibu-hanno:saturday
   trip_headsign: 岩井堂
   direction_id: 0
   direction_name: 岩井堂/東青梅駅北口方面
   trip_short_name: 飯42
 - trip_id: seibu-hanno:青梅線:saturday:飯41-1:東青梅駅北口:6
-  route_id: seibu-hanno:青梅線
+  route_id: seibu-hanno:飯41-1
   service_id: seibu-hanno:saturday
   trip_headsign: 東青梅駅北口
   direction_id: 0
   direction_name: 岩井堂/東青梅駅北口方面
   trip_short_name: 飯41-1
 - trip_id: seibu-hanno:青梅線:saturday:飯42:岩井堂:2
-  route_id: seibu-hanno:青梅線
+  route_id: seibu-hanno:飯42
   service_id: seibu-hanno:saturday
   trip_headsign: 岩井堂
   direction_id: 0
   direction_name: 岩井堂/東青梅駅北口方面
   trip_short_name: 飯42
 - trip_id: seibu-hanno:青梅線:holiday:飯41-1:東青梅駅北口:1
-  route_id: seibu-hanno:青梅線
+  route_id: seibu-hanno:飯41-1
   service_id: seibu-hanno:holiday
   trip_headsign: 東青梅駅北口
   direction_id: 0
   direction_name: 岩井堂/東青梅駅北口方面
   trip_short_name: 飯41-1
 - trip_id: seibu-hanno:青梅線:holiday:飯41-1:東青梅駅北口:2
-  route_id: seibu-hanno:青梅線
+  route_id: seibu-hanno:飯41-1
   service_id: seibu-hanno:holiday
   trip_headsign: 東青梅駅北口
   direction_id: 0
   direction_name: 岩井堂/東青梅駅北口方面
   trip_short_name: 飯41-1
 - trip_id: seibu-hanno:青梅線:holiday:飯41-1:東青梅駅北口:3
-  route_id: seibu-hanno:青梅線
+  route_id: seibu-hanno:飯41-1
   service_id: seibu-hanno:holiday
   trip_headsign: 東青梅駅北口
   direction_id: 0
   direction_name: 岩井堂/東青梅駅北口方面
   trip_short_name: 飯41-1
 - trip_id: seibu-hanno:青梅線:holiday:飯41-1:東青梅駅北口:4
-  route_id: seibu-hanno:青梅線
+  route_id: seibu-hanno:飯41-1
   service_id: seibu-hanno:holiday
   trip_headsign: 東青梅駅北口
   direction_id: 0
   direction_name: 岩井堂/東青梅駅北口方面
   trip_short_name: 飯41-1
 - trip_id: seibu-hanno:青梅線:holiday:飯41-1:東青梅駅北口:5
-  route_id: seibu-hanno:青梅線
+  route_id: seibu-hanno:飯41-1
   service_id: seibu-hanno:holiday
   trip_headsign: 東青梅駅北口
   direction_id: 0
   direction_name: 岩井堂/東青梅駅北口方面
   trip_short_name: 飯41-1
 - trip_id: seibu-hanno:青梅線:holiday:飯42:岩井堂:1
-  route_id: seibu-hanno:青梅線
+  route_id: seibu-hanno:飯42
   service_id: seibu-hanno:holiday
   trip_headsign: 岩井堂
   direction_id: 0
   direction_name: 岩井堂/東青梅駅北口方面
   trip_short_name: 飯42
 - trip_id: seibu-hanno:青梅線:holiday:飯41-1:東青梅駅北口:6
-  route_id: seibu-hanno:青梅線
+  route_id: seibu-hanno:飯41-1
   service_id: seibu-hanno:holiday
   trip_headsign: 東青梅駅北口
   direction_id: 0
   direction_name: 岩井堂/東青梅駅北口方面
   trip_short_name: 飯41-1
 - trip_id: seibu-hanno:青梅線:holiday:飯42:岩井堂:2
-  route_id: seibu-hanno:青梅線
+  route_id: seibu-hanno:飯42
   service_id: seibu-hanno:holiday
   trip_headsign: 岩井堂
   direction_id: 0
   direction_name: 岩井堂/東青梅駅北口方面
   trip_short_name: 飯42
 - trip_id: seibu-hanno:青梅線:weekday:飯42:飯能駅南口:1
-  route_id: seibu-hanno:青梅線
+  route_id: seibu-hanno:飯42
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯42
 - trip_id: seibu-hanno:青梅線:weekday:飯41-1:飯能駅南口:1
-  route_id: seibu-hanno:青梅線
+  route_id: seibu-hanno:飯41-1
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯41-1
 - trip_id: seibu-hanno:青梅線:weekday:飯41-1:飯能駅南口:2
-  route_id: seibu-hanno:青梅線
+  route_id: seibu-hanno:飯41-1
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯41-1
 - trip_id: seibu-hanno:青梅線:weekday:飯42:飯能駅南口:2
-  route_id: seibu-hanno:青梅線
+  route_id: seibu-hanno:飯42
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯42
 - trip_id: seibu-hanno:青梅線:weekday:飯41-1:飯能駅南口:3
-  route_id: seibu-hanno:青梅線
+  route_id: seibu-hanno:飯41-1
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯41-1
 - trip_id: seibu-hanno:青梅線:weekday:飯41-1:飯能駅南口:4
-  route_id: seibu-hanno:青梅線
+  route_id: seibu-hanno:飯41-1
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯41-1
 - trip_id: seibu-hanno:青梅線:weekday:飯41-1:飯能駅南口:5
-  route_id: seibu-hanno:青梅線
+  route_id: seibu-hanno:飯41-1
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯41-1
 - trip_id: seibu-hanno:青梅線:weekday:飯41-1:飯能駅南口:6
-  route_id: seibu-hanno:青梅線
+  route_id: seibu-hanno:飯41-1
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯41-1
 - trip_id: seibu-hanno:青梅線:weekday:飯41-1:飯能駅南口:7
-  route_id: seibu-hanno:青梅線
+  route_id: seibu-hanno:飯41-1
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯41-1
 - trip_id: seibu-hanno:青梅線:saturday:飯42:飯能駅南口:1
-  route_id: seibu-hanno:青梅線
+  route_id: seibu-hanno:飯42
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯42
 - trip_id: seibu-hanno:青梅線:saturday:飯41-1:飯能駅南口:1
-  route_id: seibu-hanno:青梅線
+  route_id: seibu-hanno:飯41-1
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯41-1
 - trip_id: seibu-hanno:青梅線:saturday:飯41-1:飯能駅南口:2
-  route_id: seibu-hanno:青梅線
+  route_id: seibu-hanno:飯41-1
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯41-1
 - trip_id: seibu-hanno:青梅線:saturday:飯41-1:飯能駅南口:3
-  route_id: seibu-hanno:青梅線
+  route_id: seibu-hanno:飯41-1
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯41-1
 - trip_id: seibu-hanno:青梅線:saturday:飯41-1:飯能駅南口:4
-  route_id: seibu-hanno:青梅線
+  route_id: seibu-hanno:飯41-1
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯41-1
 - trip_id: seibu-hanno:青梅線:saturday:飯41-1:飯能駅南口:5
-  route_id: seibu-hanno:青梅線
+  route_id: seibu-hanno:飯41-1
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯41-1
 - trip_id: seibu-hanno:青梅線:saturday:飯41-1:飯能駅南口:6
-  route_id: seibu-hanno:青梅線
+  route_id: seibu-hanno:飯41-1
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯41-1
 - trip_id: seibu-hanno:青梅線:holiday:飯42:飯能駅南口:1
-  route_id: seibu-hanno:青梅線
+  route_id: seibu-hanno:飯42
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯42
 - trip_id: seibu-hanno:青梅線:holiday:飯41-1:飯能駅南口:1
-  route_id: seibu-hanno:青梅線
+  route_id: seibu-hanno:飯41-1
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯41-1
 - trip_id: seibu-hanno:青梅線:holiday:飯41-1:飯能駅南口:2
-  route_id: seibu-hanno:青梅線
+  route_id: seibu-hanno:飯41-1
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯41-1
 - trip_id: seibu-hanno:青梅線:holiday:飯41-1:飯能駅南口:3
-  route_id: seibu-hanno:青梅線
+  route_id: seibu-hanno:飯41-1
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯41-1
 - trip_id: seibu-hanno:青梅線:holiday:飯41-1:飯能駅南口:4
-  route_id: seibu-hanno:青梅線
+  route_id: seibu-hanno:飯41-1
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯41-1
 - trip_id: seibu-hanno:青梅線:holiday:飯41-1:飯能駅南口:5
-  route_id: seibu-hanno:青梅線
+  route_id: seibu-hanno:飯41-1
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯41-1
 - trip_id: seibu-hanno:青梅線:holiday:飯41-1:飯能駅南口:6
-  route_id: seibu-hanno:青梅線
+  route_id: seibu-hanno:飯41-1
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯41-1
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:ユーエイキャスター前:1
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:美杉台ニュータウン:1
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:ユーエイキャスター前:2
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:ユーエイキャスター前:3
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:美杉台ニュータウン:2
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:美杉台ニュータウン:3
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:ユーエイキャスター前:4
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:美杉台ニュータウン:4
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:ユーエイキャスター前:5
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:ユーエイキャスター前:6
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯22:クラウンパッケージ前:1
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯22
   service_id: seibu-hanno:weekday
   trip_headsign: クラウンパッケージ前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯22
 - trip_id: seibu-hanno:美杉台線:weekday:飯22:クラウンパッケージ前:2
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯22
   service_id: seibu-hanno:weekday
   trip_headsign: クラウンパッケージ前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯22
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:ユーエイキャスター前:7
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯22:クラウンパッケージ前:3
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯22
   service_id: seibu-hanno:weekday
   trip_headsign: クラウンパッケージ前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯22
 - trip_id: seibu-hanno:美杉台線:weekday:飯22:クラウンパッケージ前:4
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯22
   service_id: seibu-hanno:weekday
   trip_headsign: クラウンパッケージ前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯22
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:ユーエイキャスター前:8
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯22:クラウンパッケージ前:5
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯22
   service_id: seibu-hanno:weekday
   trip_headsign: クラウンパッケージ前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯22
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:ユーエイキャスター前:9
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:美杉台ニュータウン:5
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:美杉台ニュータウン:6
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:ユーエイキャスター前:10
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:ユーエイキャスター前:11
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:美杉台ニュータウン:7
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:美杉台ニュータウン:8
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:美杉台ニュータウン:9
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:ユーエイキャスター前:12
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:美杉台ニュータウン:10
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:ユーエイキャスター前:13
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:美杉台ニュータウン:11
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:美杉台ニュータウン:12
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:ユーエイキャスター前:14
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:美杉台ニュータウン:13
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:ユーエイキャスター前:15
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:美杉台ニュータウン:14
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:美杉台ニュータウン:15
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯22:クラウンパッケージ前:6
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯22
   service_id: seibu-hanno:weekday
   trip_headsign: クラウンパッケージ前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯22
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:ユーエイキャスター前:16
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:美杉台ニュータウン:16
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:美杉台ニュータウン:17
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:美杉台ニュータウン:18
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:ユーエイキャスター前:17
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:美杉台ニュータウン:19
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:美杉台ニュータウン:20
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:ユーエイキャスター前:18
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:ユーエイキャスター前:19
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:美杉台ニュータウン:21
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:美杉台ニュータウン:22
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:ユーエイキャスター前:20
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:美杉台ニュータウン:23
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:ユーエイキャスター前:21
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:美杉台ニュータウン:24
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:美杉台ニュータウン:25
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:ユーエイキャスター前:22
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:美杉台ニュータウン:26
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:ユーエイキャスター前:23
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:美杉台ニュータウン:27
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:ユーエイキャスター前:24
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:ユーエイキャスター前:25
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:ユーエイキャスター前:26
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:美杉台ニュータウン:28
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:ユーエイキャスター前:27
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:ユーエイキャスター前:28
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:美杉台ニュータウン:29
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:ユーエイキャスター前:29
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:ユーエイキャスター前:30
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:美杉台ニュータウン:30
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:ユーエイキャスター前:31
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:ユーエイキャスター前:32
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:ユーエイキャスター前:33
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:美杉台ニュータウン:31
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:ユーエイキャスター前:34
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:ユーエイキャスター前:35
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:美杉台ニュータウン:32
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:ユーエイキャスター前:36
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:ユーエイキャスター前:37
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:ユーエイキャスター前:38
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:美杉台ニュータウン:33
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:美杉台ニュータウン:34
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:ユーエイキャスター前:39
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:美杉台ニュータウン:35
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:ユーエイキャスター前:40
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:美杉台ニュータウン:36
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:美杉台ニュータウン:37
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:ユーエイキャスター前:41
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:美杉台ニュータウン:38
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:美杉台ニュータウン:39
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:美杉台ニュータウン:40
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:美杉台ニュータウン:41
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:美杉台ニュータウン:42
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:美杉台ニュータウン:43
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯20深夜:美杉台ニュータウン:1
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20深夜
   service_id: seibu-hanno:weekday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20深夜
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:美杉台ニュータウン:1
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯21:ユーエイキャスター前:1
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:saturday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:美杉台ニュータウン:2
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:美杉台ニュータウン:3
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯21:ユーエイキャスター前:2
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:saturday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:美杉台ニュータウン:4
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯21:ユーエイキャスター前:3
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:saturday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:美杉台ニュータウン:5
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯22:クラウンパッケージ前:1
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯22
   service_id: seibu-hanno:saturday
   trip_headsign: クラウンパッケージ前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯22
 - trip_id: seibu-hanno:美杉台線:saturday:飯21:ユーエイキャスター前:4
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:saturday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:saturday:飯22:クラウンパッケージ前:2
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯22
   service_id: seibu-hanno:saturday
   trip_headsign: クラウンパッケージ前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯22
 - trip_id: seibu-hanno:美杉台線:saturday:飯21:ユーエイキャスター前:5
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:saturday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:美杉台ニュータウン:6
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯21:ユーエイキャスター前:6
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:saturday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:美杉台ニュータウン:7
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:美杉台ニュータウン:8
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯21:ユーエイキャスター前:7
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:saturday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:美杉台ニュータウン:9
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:美杉台ニュータウン:10
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:美杉台ニュータウン:11
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯21:ユーエイキャスター前:8
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:saturday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:美杉台ニュータウン:12
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:美杉台ニュータウン:13
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:美杉台ニュータウン:14
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:美杉台ニュータウン:15
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:美杉台ニュータウン:16
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯21:ユーエイキャスター前:9
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:saturday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:美杉台ニュータウン:17
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:美杉台ニュータウン:18
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯22:クラウンパッケージ前:3
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯22
   service_id: seibu-hanno:saturday
   trip_headsign: クラウンパッケージ前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯22
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:美杉台ニュータウン:19
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯21:ユーエイキャスター前:10
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:saturday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:美杉台ニュータウン:20
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:美杉台ニュータウン:21
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:美杉台ニュータウン:22
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:美杉台ニュータウン:23
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:美杉台ニュータウン:24
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯21:ユーエイキャスター前:11
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:saturday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:美杉台ニュータウン:25
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:美杉台ニュータウン:26
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:美杉台ニュータウン:27
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:美杉台ニュータウン:28
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯21:ユーエイキャスター前:12
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:saturday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:美杉台ニュータウン:29
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯21:ユーエイキャスター前:13
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:saturday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:美杉台ニュータウン:30
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:美杉台ニュータウン:31
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:美杉台ニュータウン:32
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:美杉台ニュータウン:33
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:美杉台ニュータウン:34
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯21:ユーエイキャスター前:14
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:saturday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:美杉台ニュータウン:35
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:美杉台ニュータウン:36
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:美杉台ニュータウン:37
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯21:ユーエイキャスター前:15
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:saturday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:美杉台ニュータウン:38
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:美杉台ニュータウン:39
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:美杉台ニュータウン:40
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:美杉台ニュータウン:41
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:美杉台ニュータウン:42
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:美杉台ニュータウン:43
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯21:ユーエイキャスター前:16
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:saturday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:saturday:飯21:ユーエイキャスター前:17
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:saturday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:美杉台ニュータウン:44
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:美杉台ニュータウン:45
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯21:ユーエイキャスター前:18
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:saturday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:美杉台ニュータウン:46
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:美杉台ニュータウン:47
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:美杉台ニュータウン:48
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:美杉台ニュータウン:49
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:美杉台ニュータウン:50
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:美杉台ニュータウン:51
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:美杉台ニュータウン:52
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:美杉台ニュータウン:53
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:美杉台ニュータウン:54
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:美杉台ニュータウン:55
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:美杉台ニュータウン:1
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯21:ユーエイキャスター前:1
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:holiday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:美杉台ニュータウン:2
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯21:ユーエイキャスター前:2
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:holiday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:美杉台ニュータウン:3
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯21:ユーエイキャスター前:3
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:holiday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:美杉台ニュータウン:4
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯22:クラウンパッケージ前:1
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯22
   service_id: seibu-hanno:holiday
   trip_headsign: クラウンパッケージ前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯22
 - trip_id: seibu-hanno:美杉台線:holiday:飯21:ユーエイキャスター前:4
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:holiday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:美杉台ニュータウン:5
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯21:ユーエイキャスター前:5
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:holiday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:美杉台ニュータウン:6
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:美杉台ニュータウン:7
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯21:ユーエイキャスター前:6
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:holiday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:美杉台ニュータウン:8
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:美杉台ニュータウン:9
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯21:ユーエイキャスター前:7
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:holiday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:美杉台ニュータウン:10
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:美杉台ニュータウン:11
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯21:ユーエイキャスター前:8
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:holiday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:美杉台ニュータウン:12
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:美杉台ニュータウン:13
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯21:ユーエイキャスター前:9
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:holiday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:美杉台ニュータウン:14
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:美杉台ニュータウン:15
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯21:ユーエイキャスター前:10
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:holiday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:美杉台ニュータウン:16
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:美杉台ニュータウン:17
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯21:ユーエイキャスター前:11
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:holiday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:美杉台ニュータウン:18
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:美杉台ニュータウン:19
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯21:ユーエイキャスター前:12
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:holiday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:美杉台ニュータウン:20
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:美杉台ニュータウン:21
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯21:ユーエイキャスター前:13
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:holiday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:美杉台ニュータウン:22
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:美杉台ニュータウン:23
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:美杉台ニュータウン:24
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯21:ユーエイキャスター前:14
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:holiday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:美杉台ニュータウン:25
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:美杉台ニュータウン:26
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:美杉台ニュータウン:27
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯21:ユーエイキャスター前:15
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:holiday
   trip_headsign: ユーエイキャスター前
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:美杉台ニュータウン:28
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:美杉台ニュータウン:29
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:美杉台ニュータウン:30
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:美杉台ニュータウン:31
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:美杉台ニュータウン:32
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:美杉台ニュータウン:33
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:美杉台ニュータウン:34
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:美杉台ニュータウン:35
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 美杉台ニュータウン
   direction_id: 0
-  direction_name: 美杉台ニュータウン/ユーエイキャスター前方面
+  direction_name: 美杉台方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:飯能駅南口:1
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:飯能駅南口:1
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:飯能駅南口:2
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:飯能駅南口:2
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:飯能駅南口:3
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:飯能駅南口:3
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:飯能駅南口:4
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:飯能駅南口:4
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:飯能駅南口:5
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:飯能駅南口:6
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:飯能駅南口:7
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:飯能駅南口:5
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:飯能駅南口:8
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:飯能駅南口:6
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:飯能駅南口:7
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:飯能駅南口:8
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:飯能駅南口:9
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:飯能駅南口:10
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:飯能駅南口:11
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:飯能駅南口:12
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:飯能駅南口:13
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:飯能駅南口:14
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:飯能駅南口:9
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:飯能駅南口:15
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:飯能駅南口:16
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:飯能駅南口:17
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:飯能駅南口:10
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:飯能駅南口:18
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:飯能駅南口:11
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:飯能駅南口:19
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:飯能駅南口:12
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:飯能駅南口:20
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:飯能駅南口:13
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:飯能駅南口:14
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:飯能駅南口:15
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:飯能駅南口:16
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:飯能駅南口:21
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:飯能駅南口:17
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:飯能駅南口:18
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:飯能駅南口:19
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:飯能駅南口:22
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:飯能駅南口:20
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:飯能駅南口:21
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:飯能駅南口:23
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:飯能駅南口:22
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:飯能駅南口:23
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:飯能駅南口:24
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:飯能駅南口:24
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:飯能駅南口:25
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:飯能駅南口:25
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:飯能駅南口:26
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:飯能駅南口:26
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:飯能駅南口:27
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:飯能駅南口:28
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:飯能駅南口:27
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:飯能駅南口:29
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:飯能駅南口:30
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:飯能駅南口:28
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:飯能駅南口:31
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:飯能駅南口:29
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:飯能駅南口:32
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:飯能駅南口:30
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:飯能駅南口:31
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:飯能駅南口:33
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯22:飯能駅南口:1
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯22
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯22
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:飯能駅南口:34
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:飯能駅南口:32
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:飯能駅南口:35
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:飯能駅南口:33
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:飯能駅南口:36
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:飯能駅南口:34
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯22:飯能駅南口:2
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯22
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯22
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:飯能駅南口:35
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:飯能駅南口:37
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯22:飯能駅南口:3
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯22
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯22
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:飯能駅南口:36
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:飯能駅南口:38
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:飯能駅南口:37
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:飯能駅南口:38
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯22:飯能駅南口:4
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯22
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯22
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:飯能駅南口:39
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:飯能駅南口:40
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:飯能駅南口:39
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:飯能駅南口:41
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:飯能駅南口:40
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:飯能駅南口:41
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯21:飯能駅南口:42
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:飯能駅南口:42
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:飯能駅南口:43
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:飯能駅南口:44
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:飯能駅南口:45
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:weekday:飯20:飯能駅南口:46
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:weekday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:飯能駅南口:1
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:飯能駅南口:2
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:飯能駅南口:3
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:飯能駅南口:4
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯21:飯能駅南口:1
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:飯能駅南口:5
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:飯能駅南口:6
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:飯能駅南口:7
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯21:飯能駅南口:2
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:飯能駅南口:8
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯21:飯能駅南口:3
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:飯能駅南口:9
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯21:飯能駅南口:4
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:saturday:飯21:飯能駅南口:5
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:saturday:飯21:飯能駅南口:6
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:飯能駅南口:10
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯21:飯能駅南口:7
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:飯能駅南口:11
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:飯能駅南口:12
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯21:飯能駅南口:8
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:飯能駅南口:13
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯21:飯能駅南口:9
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:飯能駅南口:14
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯21:飯能駅南口:10
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:飯能駅南口:15
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:飯能駅南口:16
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:飯能駅南口:17
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:飯能駅南口:18
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:飯能駅南口:19
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯21:飯能駅南口:11
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:飯能駅南口:20
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:飯能駅南口:21
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:飯能駅南口:22
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯21:飯能駅南口:12
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:飯能駅南口:23
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:飯能駅南口:24
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:飯能駅南口:25
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:飯能駅南口:26
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯22:飯能駅南口:1
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯22
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯22
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:飯能駅南口:27
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯21:飯能駅南口:13
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:飯能駅南口:28
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:飯能駅南口:29
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:飯能駅南口:30
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:飯能駅南口:31
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯21:飯能駅南口:14
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:飯能駅南口:32
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:飯能駅南口:33
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯22:飯能駅南口:2
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯22
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯22
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:飯能駅南口:34
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:飯能駅南口:35
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:飯能駅南口:36
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:飯能駅南口:37
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯21:飯能駅南口:15
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:飯能駅南口:38
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:飯能駅南口:39
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:飯能駅南口:40
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯21:飯能駅南口:16
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:飯能駅南口:41
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:飯能駅南口:42
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:飯能駅南口:43
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:飯能駅南口:44
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:飯能駅南口:45
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:飯能駅南口:46
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:飯能駅南口:47
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯21:飯能駅南口:17
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:飯能駅南口:48
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:飯能駅南口:49
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯21:飯能駅南口:18
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:飯能駅南口:50
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:飯能駅南口:51
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:飯能駅南口:52
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:飯能駅南口:53
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:飯能駅南口:54
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:飯能駅南口:55
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:飯能駅南口:56
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:saturday:飯20:飯能駅南口:57
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:saturday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:飯能駅南口:1
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:飯能駅南口:2
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:飯能駅南口:3
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯21:飯能駅南口:1
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:飯能駅南口:4
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:飯能駅南口:5
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯21:飯能駅南口:2
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:飯能駅南口:6
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯21:飯能駅南口:3
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:飯能駅南口:7
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯21:飯能駅南口:4
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:holiday:飯21:飯能駅南口:5
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:飯能駅南口:8
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯21:飯能駅南口:6
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:飯能駅南口:9
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:飯能駅南口:10
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯21:飯能駅南口:7
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:飯能駅南口:11
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:飯能駅南口:12
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯21:飯能駅南口:8
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:飯能駅南口:13
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:飯能駅南口:14
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯21:飯能駅南口:9
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:飯能駅南口:15
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:飯能駅南口:16
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯21:飯能駅南口:10
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:飯能駅南口:17
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:飯能駅南口:18
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯21:飯能駅南口:11
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:飯能駅南口:19
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:飯能駅南口:20
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯21:飯能駅南口:12
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:飯能駅南口:21
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:飯能駅南口:22
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯21:飯能駅南口:13
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:飯能駅南口:23
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:飯能駅南口:24
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:飯能駅南口:25
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯21:飯能駅南口:14
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:飯能駅南口:26
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:飯能駅南口:27
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:飯能駅南口:28
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯21:飯能駅南口:15
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:飯能駅南口:29
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:飯能駅南口:30
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:飯能駅南口:31
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯21:飯能駅南口:16
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯21
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯21
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:飯能駅南口:32
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:飯能駅南口:33
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:飯能駅南口:34
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:飯能駅南口:35
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:飯能駅南口:36
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1
   direction_name: 飯能駅南口方面
   trip_short_name: 飯20
 - trip_id: seibu-hanno:美杉台線:holiday:飯20:飯能駅南口:37
-  route_id: seibu-hanno:美杉台線
+  route_id: seibu-hanno:飯20
   service_id: seibu-hanno:holiday
   trip_headsign: 飯能駅南口
   direction_id: 1

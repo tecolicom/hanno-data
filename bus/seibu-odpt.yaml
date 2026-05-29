@@ -3,7 +3,7 @@ meta:
   source: ''
   source_url: https://api.odpt.org/api/v4/files/SeibuBus/data/SeibuBus-GTFS.zip
   extracted_at: '2026-05-29'
-  extractor_commit: c6ef419
+  extractor_commit: 8fdd96f
   extractor_script: extract_gtfs.py
   license: ODPT
   attribution: 公共交通オープンデータセンター
@@ -20,7 +20,7 @@ routes:
 - route_id: seibu-odpt:555020
   agency_id: '6013301006270'
   route_short_name: 飯26
-  route_long_name: 飯能駅・東飯能駅東口線
+  route_long_name: 飯能駅北口〜緑町〜東飯能駅東口
   route_type: 3
   route_color: null
   route_text_color: null
