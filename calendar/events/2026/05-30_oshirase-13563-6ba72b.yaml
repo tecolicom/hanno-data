@@ -24,3 +24,26 @@ source:
   content_hash: "sha256-6ba72bddf8ea1ef7"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-05-29"
+translations:
+  en:
+    summary: "ℹ️ 【Reiwa 8】Hanno Enjoy! Moomin Valley Park Outing Pass (Digital)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New listing (Published: May 29, 2026)
+      
+      Hanno City and Moomin Valley Park have partnered to offer the "Hanno Enjoy! Moomin Valley Park Outing Pass (Digital)" – a combined ticket now on sale.
+      
+      The pass includes:
+      • One-day Seibu Railway pass
+      • Moomin Valley Park one-day pass
+      • Round-trip bus tickets to and from the park
+      • 1,000 yen in "Hanno Enjoy! Coupons" usable at participating shops in Hanno City
+      
+      When you use the coupons at participating shops, you receive an exclusive Moomin Valley Park sticker. During the campaign period, "Hanno Summer Solstice Festival" is also taking place. This package lets you enjoy visits to Moomin Valley Park along with affordable shopping and sightseeing around Hanno City.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/sangakukanrenkei/13563.html
+    translation_hash: "sha256-1aa7abc296331c32"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-29T20:15:16.575752Z"
+    format_version: 3

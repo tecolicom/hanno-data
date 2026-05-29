@@ -31,3 +31,27 @@ source:
   content_hash: "sha256-d990a10fca5c2bdd"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-05-29"
+translations:
+  en:
+    summary: "ℹ️ Free phone protection—use National Police Agency–recommended apps to block scam calls!"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New post (Published: May 29, 2026)
+      
+      AI summary (check the original article for accurate details)
+      
+      Scam phone calls have been increasing sharply. The National Police Agency recommends apps as an effective way to prevent fraud.
+      
+      【About National Police Agency–Recommended Apps】
+      • Free to install (data charges are the user's responsibility)
+      • Blocks calls from international phone numbers (like +1, +44, etc.) and numbers used by criminals that police have identified
+      • Effective apps using the latest technology from private companies to prevent scam fraud
+      
+      The most effective protection is to not receive or answer calls from criminals. Install an app and tell your family, relatives, and friends to do the same—together we can stop scam fraud.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/13598.html
+    translation_hash: "sha256-860e4f82cb85b348"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-29T20:15:28.221279Z"
+    format_version: 3

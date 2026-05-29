@@ -36,3 +36,30 @@ source:
   content_hash: "sha256-8cb4c458acd930ed"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-05-29"
+translations:
+  en:
+    summary: "ℹ️ 【Now Recruiting】We're looking for photos and materials from the Showa era for our special exhibition 'Hanno and Showa — The City's Birth and Evolving Life'!"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      📝 New Entry (Posted: May 29, 2026)
+      
+      Hanno City Museum is recruiting materials for a special Showa centennial exhibition, "Hanno and Showa — The City's Birth and Evolving Life," running July 19 – August 30, 2026 (Reiwa 8).
+      
+      We are mainly looking for materials from the 1950s–1960s (Showa 30s–40s):
+      
+      • Photographs: shots taken on the rooftop or in the restaurant of the Maruhiro Department Store Hanno branch, images of 1960s home kitchens and hallways, school lunch scenes from local schools
+      
+      • Household items and artifacts: roller-type spin-dry washing machines, early mobile phones (shoulder phones), ice-cooled refrigerators, Dakko-chan dolls, tin toys, the Benkei-go vehicle, and other period goods
+      
+      • Other materials: photographs showing how Hanno changed from the Showa era onward, and household items from Showa through the early Heisei period
+      
+      Application deadline: June 23, 2026 (Reiwa 8).
+      
+      To apply, submit your material photos with comments via the city's electronic application service, or call the museum directly. Copyright of submitted photos remains with the photographer, but image data will become part of the museum's permanent collection and may be used royalty-free. The museum may decline materials based on condition or information. Photographers are responsible for properly handling any portrait rights or privacy concerns of people in the images.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/tenji_moyooshimono/13585.html
+    translation_hash: "sha256-f7cec11ba9454a2d"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-29T20:15:25.150696Z"
+    format_version: 3

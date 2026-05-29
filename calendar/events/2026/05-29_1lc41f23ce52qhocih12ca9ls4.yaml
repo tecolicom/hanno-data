@@ -16,12 +16,22 @@ render:
     mode: span-allday
 translations:
   en:
-    summary: "Myはんのう v1.31.0"
+    summary: "Myはんのう v1.32.0"
     description: |-
       Automated translation (refer to source for accuracy)
       
-      • Bus route numbers now displayed — Route numbers (like Hanno 01, Hanno 03-2) now appear in timetables and countdown displays. Makes it easier to match with the numbers shown on the front of buses and at bus stops.
-    translation_hash: "sha256-13110a61ce5561df"
+      We've updated how bus routes and systems are displayed, including route numbers on each bus service.
+      
+      • Bus services now show route numbers — Timetables and countdowns now display route numbers (like Hanno 01, Hanno 03-2) alongside service names like "Naguri Line." This makes it easier to match the numbers shown on the bus and in guides.
+      
+      • Route names now show destinations and stops — Services are labeled with stops and destinations included, such as "Naguri Line via Arima Dam to Nago." We removed redundant "Hanno Station to..." prefixes.
+      
+      • Odekake Mooma shuttle split by district — "Seimei/Kaji Mooma" is now divided into three services: "Kaji Mooma," "Seimei East Mooma," and "Seimei West Mooma," making it clearer which areas each service covers.
+      
+      • Service selection screen improved — Route name and system appear on the left with departure times on the right. Final stop and arrival time are also shown. After selecting a stop, headers are hidden for a cleaner display.
+      
+      • Seibu Bus Misugi Daisen line reorganized to official system names, and late-night services now shown — Destination names for the Misugi Daiden area now match official names (Misugi Daiten New Town / UA Caster before / Crown Package before), and late-night services previously not shown are now displayed.
+    translation_hash: "sha256-a9e5a46c42cad27d"
     model: "claude-haiku-4-5"
-    translated_at: "2026-05-28T20:14:44.442821Z"
+    translated_at: "2026-05-29T20:15:13.954110Z"
     format_version: 3

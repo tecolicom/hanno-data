@@ -28,3 +28,24 @@ source:
   content_hash: "sha256-4c440088bd852046"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-05-29"
+translations:
+  en:
+    summary: "ℹ️ Hanno Summer Solstice Festival"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New (posted May 29, 2026)
+      
+      AI summary (check the original article for accurate details)
+      
+      The "Hanno: A Town Where You Can Meet Moomin" Project Promotion Council will hold the Hanno Summer Solstice Festival from May 23 (Saturday) to August 31 (Monday), 2026.
+      
+      Inspired by Northern European summer solstice traditions, the festival will feature solstice-themed events at the Nordic-themed facility Metsä and various locations throughout the city. Flower crowns will be displayed at participating Hanno outing pass shops and Hanno Station as the festival progresses.
+      
+      This city promotion initiative is part of a regional revitalization partnership agreement among Hanno City, Moomin Stories Co., Ltd., and Seibu Railway Co., Ltd. The promotion council is made up of five organizations: these three partners plus the Hanno Chamber of Commerce and Industry and the Okumusashi Hanno Tourism Association. This is the festival's first year.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/sangakukanrenkei/13565.html
+    translation_hash: "sha256-5c7b8f431f8b1363"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-05-29T20:15:20.061174Z"
+    format_version: 3
