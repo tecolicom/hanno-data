@@ -3,7 +3,7 @@ meta:
   operator: 国際興業バス
   feed_id: 5931bus
   extracted_at: '2026-05-29'
-  extractor_commit: ef740b8
+  extractor_commit: 42364ba
   extractor_script: extract.py
 agencies:
 - agency_id: kokusai_kogyo
@@ -95784,26 +95784,26 @@ stop_times:
 - trip_id: 5931bus:名栗線:weekday:飯02:名栗車庫:1
   stop_sequence: 58
   stop_id: 5931bus:00124347
-  arrival_time: '17:05:00'
-  departure_time: '17:05:00'
+  arrival_time: '17:06:00'
+  departure_time: '17:06:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:weekday:飯02:名栗車庫:2
   stop_sequence: 58
   stop_id: 5931bus:00124347
-  arrival_time: '17:32:00'
-  departure_time: '17:32:00'
+  arrival_time: '17:33:00'
+  departure_time: '17:33:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:weekday:飯02:名栗車庫:3
   stop_sequence: 58
   stop_id: 5931bus:00124347
-  arrival_time: '17:59:00'
-  departure_time: '17:59:00'
+  arrival_time: '18:00:00'
+  departure_time: '18:00:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:weekday:飯02:名栗車庫:4
   stop_sequence: 58
   stop_id: 5931bus:00124347
-  arrival_time: '18:30:00'
-  departure_time: '18:30:00'
+  arrival_time: '18:31:00'
+  departure_time: '18:31:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:weekday:飯01:湯の沢:3
   stop_sequence: 70
@@ -95820,8 +95820,8 @@ stop_times:
 - trip_id: 5931bus:名栗線:weekday:飯02:名栗車庫:5
   stop_sequence: 58
   stop_id: 5931bus:00124347
-  arrival_time: '20:09:00'
-  departure_time: '20:09:00'
+  arrival_time: '20:10:00'
+  departure_time: '20:10:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:weekday:飯03:名郷:3
   stop_sequence: 68
@@ -95832,8 +95832,8 @@ stop_times:
 - trip_id: 5931bus:名栗線:weekday:飯02:名栗車庫:6
   stop_sequence: 58
   stop_id: 5931bus:00124347
-  arrival_time: '21:21:00'
-  departure_time: '21:21:00'
+  arrival_time: '21:22:00'
+  departure_time: '21:22:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:weekday:飯06:上赤沢:1
   stop_sequence: 39
@@ -95844,14 +95844,14 @@ stop_times:
 - trip_id: 5931bus:名栗線:weekday:飯02:名栗車庫:7
   stop_sequence: 58
   stop_id: 5931bus:00124347
-  arrival_time: '22:33:00'
-  departure_time: '22:33:00'
+  arrival_time: '22:34:00'
+  departure_time: '22:34:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:weekday:飯02:名栗車庫:8
   stop_sequence: 58
   stop_id: 5931bus:00124347
-  arrival_time: '23:10:00'
-  departure_time: '23:10:00'
+  arrival_time: '23:11:00'
+  departure_time: '23:11:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:saturday:飯03-2:名郷:1
   stop_sequence: 69
@@ -95892,14 +95892,14 @@ stop_times:
 - trip_id: 5931bus:名栗線:saturday:飯02-2:名栗車庫:1
   stop_sequence: 59
   stop_id: 5931bus:00124347
-  arrival_time: '11:31:00'
-  departure_time: '11:31:00'
+  arrival_time: '11:32:00'
+  departure_time: '11:32:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:saturday:飯02-2:名栗車庫:2
   stop_sequence: 59
   stop_id: 5931bus:00124347
-  arrival_time: '12:07:00'
-  departure_time: '12:07:00'
+  arrival_time: '12:08:00'
+  departure_time: '12:08:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:saturday:飯03-2:名郷:5
   stop_sequence: 69
@@ -95940,8 +95940,8 @@ stop_times:
 - trip_id: 5931bus:名栗線:saturday:飯02-2:名栗車庫:3
   stop_sequence: 59
   stop_id: 5931bus:00124347
-  arrival_time: '16:38:00'
-  departure_time: '16:38:00'
+  arrival_time: '16:39:00'
+  departure_time: '16:39:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:saturday:飯01-2:湯の沢:3
   stop_sequence: 71
@@ -95958,8 +95958,8 @@ stop_times:
 - trip_id: 5931bus:名栗線:saturday:飯02:名栗車庫:1
   stop_sequence: 58
   stop_id: 5931bus:00124347
-  arrival_time: '18:36:00'
-  departure_time: '18:36:00'
+  arrival_time: '18:37:00'
+  departure_time: '18:37:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:saturday:飯01:湯の沢:1
   stop_sequence: 70
@@ -95976,14 +95976,14 @@ stop_times:
 - trip_id: 5931bus:名栗線:saturday:飯02:名栗車庫:2
   stop_sequence: 58
   stop_id: 5931bus:00124347
-  arrival_time: '20:02:00'
-  departure_time: '20:02:00'
+  arrival_time: '20:03:00'
+  departure_time: '20:03:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:saturday:飯02:名栗車庫:3
   stop_sequence: 58
   stop_id: 5931bus:00124347
-  arrival_time: '20:32:00'
-  departure_time: '20:32:00'
+  arrival_time: '20:33:00'
+  departure_time: '20:33:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:saturday:飯06:上赤沢:1
   stop_sequence: 39
@@ -95994,8 +95994,8 @@ stop_times:
 - trip_id: 5931bus:名栗線:saturday:飯02:名栗車庫:4
   stop_sequence: 58
   stop_id: 5931bus:00124347
-  arrival_time: '21:33:00'
-  departure_time: '21:33:00'
+  arrival_time: '21:34:00'
+  departure_time: '21:34:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:saturday:飯06:上赤沢:2
   stop_sequence: 39
@@ -96006,8 +96006,8 @@ stop_times:
 - trip_id: 5931bus:名栗線:saturday:飯02:名栗車庫:5
   stop_sequence: 58
   stop_id: 5931bus:00124347
-  arrival_time: '22:44:00'
-  departure_time: '22:44:00'
+  arrival_time: '22:45:00'
+  departure_time: '22:45:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:holiday:飯03-2:名郷:1
   stop_sequence: 69
@@ -96048,14 +96048,14 @@ stop_times:
 - trip_id: 5931bus:名栗線:holiday:飯02-2:名栗車庫:1
   stop_sequence: 59
   stop_id: 5931bus:00124347
-  arrival_time: '11:31:00'
-  departure_time: '11:31:00'
+  arrival_time: '11:32:00'
+  departure_time: '11:32:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:holiday:飯02-2:名栗車庫:2
   stop_sequence: 59
   stop_id: 5931bus:00124347
-  arrival_time: '12:07:00'
-  departure_time: '12:07:00'
+  arrival_time: '12:08:00'
+  departure_time: '12:08:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:holiday:飯03-2:名郷:5
   stop_sequence: 69
@@ -96096,8 +96096,8 @@ stop_times:
 - trip_id: 5931bus:名栗線:holiday:飯02-2:名栗車庫:3
   stop_sequence: 59
   stop_id: 5931bus:00124347
-  arrival_time: '16:38:00'
-  departure_time: '16:38:00'
+  arrival_time: '16:39:00'
+  departure_time: '16:39:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:holiday:飯01-2:湯の沢:3
   stop_sequence: 71
@@ -96114,8 +96114,8 @@ stop_times:
 - trip_id: 5931bus:名栗線:holiday:飯02:名栗車庫:1
   stop_sequence: 58
   stop_id: 5931bus:00124347
-  arrival_time: '18:36:00'
-  departure_time: '18:36:00'
+  arrival_time: '18:37:00'
+  departure_time: '18:37:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:holiday:飯01:湯の沢:1
   stop_sequence: 70
@@ -96132,14 +96132,14 @@ stop_times:
 - trip_id: 5931bus:名栗線:holiday:飯02:名栗車庫:2
   stop_sequence: 58
   stop_id: 5931bus:00124347
-  arrival_time: '20:02:00'
-  departure_time: '20:02:00'
+  arrival_time: '20:03:00'
+  departure_time: '20:03:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:holiday:飯02:名栗車庫:3
   stop_sequence: 58
   stop_id: 5931bus:00124347
-  arrival_time: '20:32:00'
-  departure_time: '20:32:00'
+  arrival_time: '20:33:00'
+  departure_time: '20:33:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:holiday:飯06:上赤沢:1
   stop_sequence: 39
@@ -96150,8 +96150,8 @@ stop_times:
 - trip_id: 5931bus:名栗線:holiday:飯02:名栗車庫:4
   stop_sequence: 58
   stop_id: 5931bus:00124347
-  arrival_time: '21:33:00'
-  departure_time: '21:33:00'
+  arrival_time: '21:34:00'
+  departure_time: '21:34:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:holiday:飯06:上赤沢:2
   stop_sequence: 39
@@ -96162,8 +96162,8 @@ stop_times:
 - trip_id: 5931bus:名栗線:holiday:飯02:名栗車庫:5
   stop_sequence: 58
   stop_id: 5931bus:00124347
-  arrival_time: '22:44:00'
-  departure_time: '22:44:00'
+  arrival_time: '22:45:00'
+  departure_time: '22:45:00'
   pickup_type: 1
 - trip_id: 5931bus:中沢線:weekday:飯04:中沢:1
   stop_sequence: 39
@@ -96726,446 +96726,446 @@ stop_times:
 - trip_id: 5931bus:名栗線:weekday:飯02:飯能駅:1
   stop_sequence: 56
   stop_id: 5931bus:00124293
-  arrival_time: 06:21:40
-  departure_time: 06:21:40
+  arrival_time: 06:22:00
+  departure_time: 06:22:00
   pickup_type: 1
 - trip_id: 5931bus:名栗線:weekday:飯01:飯能駅:1
   stop_sequence: 68
   stop_id: 5931bus:00124293
-  arrival_time: 06:49:40
-  departure_time: 06:49:40
+  arrival_time: 06:50:00
+  departure_time: 06:50:00
   pickup_type: 1
 - trip_id: 5931bus:名栗線:weekday:飯02:飯能駅:2
   stop_sequence: 56
   stop_id: 5931bus:00124293
-  arrival_time: 07:18:40
-  departure_time: 07:18:40
+  arrival_time: 07:19:00
+  departure_time: 07:19:00
   pickup_type: 1
 - trip_id: 5931bus:名栗線:weekday:飯03:飯能駅:1
   stop_sequence: 66
   stop_id: 5931bus:00124293
-  arrival_time: 07:39:40
-  departure_time: 07:39:40
+  arrival_time: 07:40:00
+  departure_time: 07:40:00
   pickup_type: 1
 - trip_id: 5931bus:名栗線:weekday:飯02:飯能駅:3
   stop_sequence: 56
   stop_id: 5931bus:00124293
-  arrival_time: 07:54:40
-  departure_time: 07:54:40
+  arrival_time: 07:55:00
+  departure_time: 07:55:00
   pickup_type: 1
 - trip_id: 5931bus:名栗線:weekday:飯01:飯能駅:2
   stop_sequence: 68
   stop_id: 5931bus:00124293
-  arrival_time: 08:19:40
-  departure_time: 08:19:40
+  arrival_time: 08:20:00
+  departure_time: 08:20:00
   pickup_type: 1
 - trip_id: 5931bus:名栗線:weekday:飯01:飯能駅:3
   stop_sequence: 68
   stop_id: 5931bus:00124293
-  arrival_time: 09:00:40
-  departure_time: 09:00:40
+  arrival_time: 09:01:00
+  departure_time: 09:01:00
   pickup_type: 1
 - trip_id: 5931bus:名栗線:weekday:飯03:飯能駅:2
   stop_sequence: 66
   stop_id: 5931bus:00124293
-  arrival_time: 09:41:40
-  departure_time: 09:41:40
+  arrival_time: 09:42:00
+  departure_time: 09:42:00
   pickup_type: 1
 - trip_id: 5931bus:名栗線:weekday:飯03:飯能駅:3
   stop_sequence: 66
   stop_id: 5931bus:00124293
-  arrival_time: '10:35:40'
-  departure_time: '10:35:40'
+  arrival_time: '10:36:00'
+  departure_time: '10:36:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:weekday:飯03-2:飯能駅:1
   stop_sequence: 67
   stop_id: 5931bus:00124293
-  arrival_time: '11:35:40'
-  departure_time: '11:35:40'
+  arrival_time: '11:36:00'
+  departure_time: '11:36:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:weekday:飯03-2:飯能駅:2
   stop_sequence: 67
   stop_id: 5931bus:00124293
-  arrival_time: '12:28:40'
-  departure_time: '12:28:40'
+  arrival_time: '12:29:00'
+  departure_time: '12:29:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:weekday:飯01-2:飯能駅:1
   stop_sequence: 69
   stop_id: 5931bus:00124293
-  arrival_time: '13:28:40'
-  departure_time: '13:28:40'
+  arrival_time: '13:29:00'
+  departure_time: '13:29:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:weekday:飯03-2:飯能駅:3
   stop_sequence: 67
   stop_id: 5931bus:00124293
-  arrival_time: '14:28:40'
-  departure_time: '14:28:40'
+  arrival_time: '14:29:00'
+  departure_time: '14:29:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:weekday:飯03-2:飯能駅:4
   stop_sequence: 67
   stop_id: 5931bus:00124293
-  arrival_time: '15:28:40'
-  departure_time: '15:28:40'
+  arrival_time: '15:29:00'
+  departure_time: '15:29:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:weekday:飯02-2:飯能駅:1
   stop_sequence: 57
   stop_id: 5931bus:00124293
-  arrival_time: '16:25:40'
-  departure_time: '16:25:40'
+  arrival_time: '16:26:00'
+  departure_time: '16:26:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:weekday:飯02-2:飯能駅:2
   stop_sequence: 57
   stop_id: 5931bus:00124293
-  arrival_time: '16:58:40'
-  departure_time: '16:58:40'
+  arrival_time: '16:59:00'
+  departure_time: '16:59:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:weekday:飯01-2:飯能駅:2
   stop_sequence: 69
   stop_id: 5931bus:00124293
-  arrival_time: '17:51:40'
-  departure_time: '17:51:40'
+  arrival_time: '17:52:00'
+  departure_time: '17:52:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:weekday:飯02-2:飯能駅:3
   stop_sequence: 57
   stop_id: 5931bus:00124293
-  arrival_time: '18:51:40'
-  departure_time: '18:51:40'
+  arrival_time: '18:52:00'
+  departure_time: '18:52:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:weekday:飯02-2:飯能駅:4
   stop_sequence: 57
   stop_id: 5931bus:00124293
-  arrival_time: '19:28:40'
-  departure_time: '19:28:40'
+  arrival_time: '19:29:00'
+  departure_time: '19:29:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:weekday:飯01:飯能駅:4
   stop_sequence: 68
   stop_id: 5931bus:00124293
-  arrival_time: '20:09:40'
-  departure_time: '20:09:40'
+  arrival_time: '20:10:00'
+  departure_time: '20:10:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:weekday:飯02:飯能駅:4
   stop_sequence: 56
   stop_id: 5931bus:00124293
-  arrival_time: '21:04:40'
-  departure_time: '21:04:40'
+  arrival_time: '21:05:00'
+  departure_time: '21:05:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:weekday:飯06:飯能駅:1
   stop_sequence: 37
   stop_id: 5931bus:00124293
-  arrival_time: '22:22:40'
-  departure_time: '22:22:40'
+  arrival_time: '22:23:00'
+  departure_time: '22:23:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:saturday:飯02:飯能駅:1
   stop_sequence: 56
   stop_id: 5931bus:00124293
-  arrival_time: 06:29:40
-  departure_time: 06:29:40
+  arrival_time: 06:30:00
+  departure_time: 06:30:00
   pickup_type: 1
 - trip_id: 5931bus:名栗線:saturday:飯02:飯能駅:2
   stop_sequence: 56
   stop_id: 5931bus:00124293
-  arrival_time: 06:46:40
-  departure_time: 06:46:40
+  arrival_time: 06:47:00
+  departure_time: 06:47:00
   pickup_type: 1
 - trip_id: 5931bus:名栗線:saturday:飯01:飯能駅:1
   stop_sequence: 68
   stop_id: 5931bus:00124293
-  arrival_time: 07:21:40
-  departure_time: 07:21:40
+  arrival_time: 07:22:00
+  departure_time: 07:22:00
   pickup_type: 1
 - trip_id: 5931bus:名栗線:saturday:飯03:飯能駅:1
   stop_sequence: 66
   stop_id: 5931bus:00124293
-  arrival_time: 07:58:40
-  departure_time: 07:58:40
+  arrival_time: 07:59:00
+  departure_time: 07:59:00
   pickup_type: 1
 - trip_id: 5931bus:名栗線:saturday:飯03:飯能駅:2
   stop_sequence: 66
   stop_id: 5931bus:00124293
-  arrival_time: 08:53:40
-  departure_time: 08:53:40
+  arrival_time: 08:54:00
+  departure_time: 08:54:00
   pickup_type: 1
 - trip_id: 5931bus:名栗線:saturday:飯02:飯能駅:3
   stop_sequence: 56
   stop_id: 5931bus:00124293
-  arrival_time: 09:14:40
-  departure_time: 09:14:40
+  arrival_time: 09:15:00
+  departure_time: 09:15:00
   pickup_type: 1
 - trip_id: 5931bus:名栗線:saturday:飯01:飯能駅:2
   stop_sequence: 68
   stop_id: 5931bus:00124293
-  arrival_time: 09:38:40
-  departure_time: 09:38:40
+  arrival_time: 09:39:00
+  departure_time: 09:39:00
   pickup_type: 1
 - trip_id: 5931bus:名栗線:saturday:飯03:飯能駅:3
   stop_sequence: 66
   stop_id: 5931bus:00124293
-  arrival_time: '10:03:40'
-  departure_time: '10:03:40'
+  arrival_time: '10:04:00'
+  departure_time: '10:04:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:saturday:飯03:飯能駅:4
   stop_sequence: 66
   stop_id: 5931bus:00124293
-  arrival_time: '10:33:40'
-  departure_time: '10:33:40'
+  arrival_time: '10:34:00'
+  departure_time: '10:34:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:saturday:飯01-2:飯能駅:1
   stop_sequence: 69
   stop_id: 5931bus:00124293
-  arrival_time: '11:05:40'
-  departure_time: '11:05:40'
+  arrival_time: '11:06:00'
+  departure_time: '11:06:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:saturday:飯03-2:飯能駅:1
   stop_sequence: 67
   stop_id: 5931bus:00124293
-  arrival_time: '11:45:40'
-  departure_time: '11:45:40'
+  arrival_time: '11:46:00'
+  departure_time: '11:46:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:saturday:飯02-2:飯能駅:1
   stop_sequence: 57
   stop_id: 5931bus:00124293
-  arrival_time: '12:42:40'
-  departure_time: '12:42:40'
+  arrival_time: '12:43:00'
+  departure_time: '12:43:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:saturday:飯02-2:飯能駅:2
   stop_sequence: 57
   stop_id: 5931bus:00124293
-  arrival_time: '13:14:40'
-  departure_time: '13:14:40'
+  arrival_time: '13:15:00'
+  departure_time: '13:15:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:saturday:飯03-2:飯能駅:2
   stop_sequence: 67
   stop_id: 5931bus:00124293
-  arrival_time: '14:12:40'
-  departure_time: '14:12:40'
+  arrival_time: '14:13:00'
+  departure_time: '14:13:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:saturday:飯03-2:飯能駅:3
   stop_sequence: 67
   stop_id: 5931bus:00124293
-  arrival_time: '14:42:40'
-  departure_time: '14:42:40'
+  arrival_time: '14:43:00'
+  departure_time: '14:43:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:saturday:飯02-2:飯能駅:3
   stop_sequence: 57
   stop_id: 5931bus:00124293
-  arrival_time: '15:12:40'
-  departure_time: '15:12:40'
+  arrival_time: '15:13:00'
+  departure_time: '15:13:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:saturday:飯03-2:飯能駅:4
   stop_sequence: 67
   stop_id: 5931bus:00124293
-  arrival_time: '15:42:40'
-  departure_time: '15:42:40'
+  arrival_time: '15:43:00'
+  departure_time: '15:43:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:saturday:飯03-2:飯能駅:5
   stop_sequence: 67
   stop_id: 5931bus:00124293
-  arrival_time: '16:12:40'
-  departure_time: '16:12:40'
+  arrival_time: '16:13:00'
+  departure_time: '16:13:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:saturday:飯03-2:飯能駅:6
   stop_sequence: 67
   stop_id: 5931bus:00124293
-  arrival_time: '16:43:40'
-  departure_time: '16:43:40'
+  arrival_time: '16:44:00'
+  departure_time: '16:44:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:saturday:飯03-2:飯能駅:7
   stop_sequence: 67
   stop_id: 5931bus:00124293
-  arrival_time: '17:11:40'
-  departure_time: '17:11:40'
+  arrival_time: '17:12:00'
+  departure_time: '17:12:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:saturday:飯02-2:飯能駅:4
   stop_sequence: 57
   stop_id: 5931bus:00124293
-  arrival_time: '17:49:40'
-  departure_time: '17:49:40'
+  arrival_time: '17:50:00'
+  departure_time: '17:50:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:saturday:飯01-2:飯能駅:2
   stop_sequence: 69
   stop_id: 5931bus:00124293
-  arrival_time: '18:39:40'
-  departure_time: '18:39:40'
+  arrival_time: '18:40:00'
+  departure_time: '18:40:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:saturday:飯03-2:飯能駅:8
   stop_sequence: 67
   stop_id: 5931bus:00124293
-  arrival_time: '19:22:40'
-  departure_time: '19:22:40'
+  arrival_time: '19:23:00'
+  departure_time: '19:23:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:saturday:飯01:飯能駅:3
   stop_sequence: 68
   stop_id: 5931bus:00124293
-  arrival_time: '20:23:40'
-  departure_time: '20:23:40'
+  arrival_time: '20:24:00'
+  departure_time: '20:24:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:saturday:飯06:飯能駅:1
   stop_sequence: 37
   stop_id: 5931bus:00124293
-  arrival_time: '21:24:40'
-  departure_time: '21:24:40'
+  arrival_time: '21:25:00'
+  departure_time: '21:25:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:saturday:飯06:飯能駅:2
   stop_sequence: 37
   stop_id: 5931bus:00124293
-  arrival_time: '22:22:40'
-  departure_time: '22:22:40'
+  arrival_time: '22:23:00'
+  departure_time: '22:23:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:holiday:飯02:飯能駅:1
   stop_sequence: 56
   stop_id: 5931bus:00124293
-  arrival_time: 06:29:40
-  departure_time: 06:29:40
+  arrival_time: 06:30:00
+  departure_time: 06:30:00
   pickup_type: 1
 - trip_id: 5931bus:名栗線:holiday:飯02:飯能駅:2
   stop_sequence: 56
   stop_id: 5931bus:00124293
-  arrival_time: 06:46:40
-  departure_time: 06:46:40
+  arrival_time: 06:47:00
+  departure_time: 06:47:00
   pickup_type: 1
 - trip_id: 5931bus:名栗線:holiday:飯01:飯能駅:1
   stop_sequence: 68
   stop_id: 5931bus:00124293
-  arrival_time: 07:21:40
-  departure_time: 07:21:40
+  arrival_time: 07:22:00
+  departure_time: 07:22:00
   pickup_type: 1
 - trip_id: 5931bus:名栗線:holiday:飯03:飯能駅:1
   stop_sequence: 66
   stop_id: 5931bus:00124293
-  arrival_time: 07:58:40
-  departure_time: 07:58:40
+  arrival_time: 07:59:00
+  departure_time: 07:59:00
   pickup_type: 1
 - trip_id: 5931bus:名栗線:holiday:飯03:飯能駅:2
   stop_sequence: 66
   stop_id: 5931bus:00124293
-  arrival_time: 08:53:40
-  departure_time: 08:53:40
+  arrival_time: 08:54:00
+  departure_time: 08:54:00
   pickup_type: 1
 - trip_id: 5931bus:名栗線:holiday:飯02:飯能駅:3
   stop_sequence: 56
   stop_id: 5931bus:00124293
-  arrival_time: 09:14:40
-  departure_time: 09:14:40
+  arrival_time: 09:15:00
+  departure_time: 09:15:00
   pickup_type: 1
 - trip_id: 5931bus:名栗線:holiday:飯01:飯能駅:2
   stop_sequence: 68
   stop_id: 5931bus:00124293
-  arrival_time: 09:38:40
-  departure_time: 09:38:40
+  arrival_time: 09:39:00
+  departure_time: 09:39:00
   pickup_type: 1
 - trip_id: 5931bus:名栗線:holiday:飯03:飯能駅:3
   stop_sequence: 66
   stop_id: 5931bus:00124293
-  arrival_time: '10:03:40'
-  departure_time: '10:03:40'
+  arrival_time: '10:04:00'
+  departure_time: '10:04:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:holiday:飯03:飯能駅:4
   stop_sequence: 66
   stop_id: 5931bus:00124293
-  arrival_time: '10:33:40'
-  departure_time: '10:33:40'
+  arrival_time: '10:34:00'
+  departure_time: '10:34:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:holiday:飯01-2:飯能駅:1
   stop_sequence: 69
   stop_id: 5931bus:00124293
-  arrival_time: '11:05:40'
-  departure_time: '11:05:40'
+  arrival_time: '11:06:00'
+  departure_time: '11:06:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:holiday:飯03-2:飯能駅:1
   stop_sequence: 67
   stop_id: 5931bus:00124293
-  arrival_time: '11:45:40'
-  departure_time: '11:45:40'
+  arrival_time: '11:46:00'
+  departure_time: '11:46:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:holiday:飯02-2:飯能駅:1
   stop_sequence: 57
   stop_id: 5931bus:00124293
-  arrival_time: '12:42:40'
-  departure_time: '12:42:40'
+  arrival_time: '12:43:00'
+  departure_time: '12:43:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:holiday:飯02-2:飯能駅:2
   stop_sequence: 57
   stop_id: 5931bus:00124293
-  arrival_time: '13:14:40'
-  departure_time: '13:14:40'
+  arrival_time: '13:15:00'
+  departure_time: '13:15:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:holiday:飯03-2:飯能駅:2
   stop_sequence: 67
   stop_id: 5931bus:00124293
-  arrival_time: '14:12:40'
-  departure_time: '14:12:40'
+  arrival_time: '14:13:00'
+  departure_time: '14:13:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:holiday:飯03-2:飯能駅:3
   stop_sequence: 67
   stop_id: 5931bus:00124293
-  arrival_time: '14:42:40'
-  departure_time: '14:42:40'
+  arrival_time: '14:43:00'
+  departure_time: '14:43:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:holiday:飯02-2:飯能駅:3
   stop_sequence: 57
   stop_id: 5931bus:00124293
-  arrival_time: '15:12:40'
-  departure_time: '15:12:40'
+  arrival_time: '15:13:00'
+  departure_time: '15:13:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:holiday:飯03-2:飯能駅:4
   stop_sequence: 67
   stop_id: 5931bus:00124293
-  arrival_time: '15:42:40'
-  departure_time: '15:42:40'
+  arrival_time: '15:43:00'
+  departure_time: '15:43:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:holiday:飯03-2:飯能駅:5
   stop_sequence: 67
   stop_id: 5931bus:00124293
-  arrival_time: '16:12:40'
-  departure_time: '16:12:40'
+  arrival_time: '16:13:00'
+  departure_time: '16:13:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:holiday:飯03-2:飯能駅:6
   stop_sequence: 67
   stop_id: 5931bus:00124293
-  arrival_time: '16:43:40'
-  departure_time: '16:43:40'
+  arrival_time: '16:44:00'
+  departure_time: '16:44:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:holiday:飯03-2:飯能駅:7
   stop_sequence: 67
   stop_id: 5931bus:00124293
-  arrival_time: '17:11:40'
-  departure_time: '17:11:40'
+  arrival_time: '17:12:00'
+  departure_time: '17:12:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:holiday:飯02-2:飯能駅:4
   stop_sequence: 57
   stop_id: 5931bus:00124293
-  arrival_time: '17:49:40'
-  departure_time: '17:49:40'
+  arrival_time: '17:50:00'
+  departure_time: '17:50:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:holiday:飯01-2:飯能駅:2
   stop_sequence: 69
   stop_id: 5931bus:00124293
-  arrival_time: '18:39:40'
-  departure_time: '18:39:40'
+  arrival_time: '18:40:00'
+  departure_time: '18:40:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:holiday:飯03-2:飯能駅:8
   stop_sequence: 67
   stop_id: 5931bus:00124293
-  arrival_time: '19:22:40'
-  departure_time: '19:22:40'
+  arrival_time: '19:23:00'
+  departure_time: '19:23:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:holiday:飯01:飯能駅:3
   stop_sequence: 68
   stop_id: 5931bus:00124293
-  arrival_time: '20:23:40'
-  departure_time: '20:23:40'
+  arrival_time: '20:24:00'
+  departure_time: '20:24:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:holiday:飯06:飯能駅:1
   stop_sequence: 37
   stop_id: 5931bus:00124293
-  arrival_time: '21:24:40'
-  departure_time: '21:24:40'
+  arrival_time: '21:25:00'
+  departure_time: '21:25:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:holiday:飯06:飯能駅:2
   stop_sequence: 37
   stop_id: 5931bus:00124293
-  arrival_time: '22:22:40'
-  departure_time: '22:22:40'
+  arrival_time: '22:23:00'
+  departure_time: '22:23:00'
   pickup_type: 1
 - trip_id: 5931bus:名栗線:weekday::湯の沢:1
   stop_sequence: 13
@@ -97212,68 +97212,68 @@ stop_times:
 - trip_id: 5931bus:中沢線:weekday:飯05:中藤〔青石橋〕:1
   stop_sequence: 35
   stop_id: 5931bus:00124371
-  arrival_time: 07:32:20
-  departure_time: 07:32:20
+  arrival_time: 07:33:00
+  departure_time: 07:33:00
   pickup_type: 1
 - trip_id: 5931bus:中沢線:weekday:飯04:飯能駅:1
   stop_sequence: 37
   stop_id: 5931bus:00124293
-  arrival_time: 06:53:40
-  departure_time: 06:53:40
+  arrival_time: 06:54:00
+  departure_time: 06:54:00
   pickup_type: 1
 - trip_id: 5931bus:中沢線:weekday:飯04:飯能駅:2
   stop_sequence: 37
   stop_id: 5931bus:00124293
-  arrival_time: 07:33:40
-  departure_time: 07:33:40
+  arrival_time: 07:34:00
+  departure_time: 07:34:00
   pickup_type: 1
 - trip_id: 5931bus:中沢線:weekday:飯04:飯能駅:3
   stop_sequence: 37
   stop_id: 5931bus:00124293
-  arrival_time: 08:10:40
-  departure_time: 08:10:40
+  arrival_time: 08:11:00
+  departure_time: 08:11:00
   pickup_type: 1
 - trip_id: 5931bus:中沢線:weekday:飯04:飯能駅:4
   stop_sequence: 37
   stop_id: 5931bus:00124293
-  arrival_time: 09:13:40
-  departure_time: 09:13:40
+  arrival_time: 09:14:00
+  departure_time: 09:14:00
   pickup_type: 1
 - trip_id: 5931bus:中沢線:saturday:飯04:飯能駅:1
   stop_sequence: 37
   stop_id: 5931bus:00124293
-  arrival_time: 07:32:40
-  departure_time: 07:32:40
+  arrival_time: 07:33:00
+  departure_time: 07:33:00
   pickup_type: 1
 - trip_id: 5931bus:中沢線:saturday:飯04:飯能駅:2
   stop_sequence: 37
   stop_id: 5931bus:00124293
-  arrival_time: 09:32:40
-  departure_time: 09:32:40
+  arrival_time: 09:33:00
+  departure_time: 09:33:00
   pickup_type: 1
 - trip_id: 5931bus:中沢線:holiday:飯04:飯能駅:1
   stop_sequence: 37
   stop_id: 5931bus:00124293
-  arrival_time: 07:32:40
-  departure_time: 07:32:40
+  arrival_time: 07:33:00
+  departure_time: 07:33:00
   pickup_type: 1
 - trip_id: 5931bus:中沢線:holiday:飯04:飯能駅:2
   stop_sequence: 37
   stop_id: 5931bus:00124293
-  arrival_time: 09:32:40
-  departure_time: 09:32:40
+  arrival_time: 09:33:00
+  departure_time: 09:33:00
   pickup_type: 1
 - trip_id: 5931bus:高麗川線:weekday:医大32:埼玉医大国際医療センター:1
   stop_sequence: 30
   stop_id: 5931bus:00124453
-  arrival_time: 07:00:00
-  departure_time: 07:00:00
+  arrival_time: 07:01:00
+  departure_time: 07:01:00
   pickup_type: 1
 - trip_id: 5931bus:高麗川線:weekday:医大32:埼玉医大国際医療センター:2
   stop_sequence: 30
   stop_id: 5931bus:00124453
-  arrival_time: 07:44:00
-  departure_time: 07:44:00
+  arrival_time: 07:45:00
+  departure_time: 07:45:00
   pickup_type: 1
 - trip_id: 5931bus:高麗川線:weekday:医大31:埼玉医大:1
   stop_sequence: 34
@@ -97368,8 +97368,8 @@ stop_times:
 - trip_id: 5931bus:高麗川線:weekday:医大32:埼玉医大国際医療センター:3
   stop_sequence: 30
   stop_id: 5931bus:00124453
-  arrival_time: '18:50:00'
-  departure_time: '18:50:00'
+  arrival_time: '18:51:00'
+  departure_time: '18:51:00'
   pickup_type: 1
 - trip_id: 5931bus:高麗川線:saturday:医大31:埼玉医大:1
   stop_sequence: 34
@@ -97440,8 +97440,8 @@ stop_times:
 - trip_id: 5931bus:高麗川線:saturday:医大32:埼玉医大国際医療センター:1
   stop_sequence: 30
   stop_id: 5931bus:00124453
-  arrival_time: '18:51:00'
-  departure_time: '18:51:00'
+  arrival_time: '18:52:00'
+  departure_time: '18:52:00'
   pickup_type: 1
 - trip_id: 5931bus:高麗川線:holiday:医大31:埼玉医大:1
   stop_sequence: 34
@@ -97512,248 +97512,248 @@ stop_times:
 - trip_id: 5931bus:高麗川線:holiday:医大32:埼玉医大国際医療センター:1
   stop_sequence: 30
   stop_id: 5931bus:00124453
-  arrival_time: '18:51:00'
-  departure_time: '18:51:00'
+  arrival_time: '18:52:00'
+  departure_time: '18:52:00'
   pickup_type: 1
 - trip_id: 5931bus:高麗川線:weekday:医大32:飯能駅:1
   stop_sequence: 30
   stop_id: 5931bus:00124293
-  arrival_time: 07:46:40
-  departure_time: 07:46:40
+  arrival_time: 07:47:00
+  departure_time: 07:47:00
   pickup_type: 1
 - trip_id: 5931bus:高麗川線:weekday:医大31:飯能駅:1
   stop_sequence: 34
   stop_id: 5931bus:00124293
-  arrival_time: 09:25:40
-  departure_time: 09:25:40
+  arrival_time: 09:26:00
+  departure_time: 09:26:00
   pickup_type: 1
 - trip_id: 5931bus:高麗川線:weekday:医大31:飯能駅:2
   stop_sequence: 34
   stop_id: 5931bus:00124293
-  arrival_time: 09:45:40
-  departure_time: 09:45:40
+  arrival_time: 09:46:00
+  departure_time: 09:46:00
   pickup_type: 1
 - trip_id: 5931bus:高麗川線:weekday:医大31:飯能駅:3
   stop_sequence: 34
   stop_id: 5931bus:00124293
-  arrival_time: '10:11:40'
-  departure_time: '10:11:40'
+  arrival_time: '10:12:00'
+  departure_time: '10:12:00'
   pickup_type: 1
 - trip_id: 5931bus:高麗川線:weekday:医大31:飯能駅:4
   stop_sequence: 34
   stop_id: 5931bus:00124293
-  arrival_time: '10:59:40'
-  departure_time: '10:59:40'
+  arrival_time: '11:00:00'
+  departure_time: '11:00:00'
   pickup_type: 1
 - trip_id: 5931bus:高麗川線:weekday:医大31:飯能駅:5
   stop_sequence: 34
   stop_id: 5931bus:00124293
-  arrival_time: '11:32:40'
-  departure_time: '11:32:40'
+  arrival_time: '11:33:00'
+  departure_time: '11:33:00'
   pickup_type: 1
 - trip_id: 5931bus:高麗川線:weekday:医大31:飯能駅:6
   stop_sequence: 34
   stop_id: 5931bus:00124293
-  arrival_time: '11:54:40'
-  departure_time: '11:54:40'
+  arrival_time: '11:55:00'
+  departure_time: '11:55:00'
   pickup_type: 1
 - trip_id: 5931bus:高麗川線:weekday:医大31:飯能駅:7
   stop_sequence: 34
   stop_id: 5931bus:00124293
-  arrival_time: '12:54:40'
-  departure_time: '12:54:40'
+  arrival_time: '12:55:00'
+  departure_time: '12:55:00'
   pickup_type: 1
 - trip_id: 5931bus:高麗川線:weekday:医大31:飯能駅:8
   stop_sequence: 34
   stop_id: 5931bus:00124293
-  arrival_time: '13:54:40'
-  departure_time: '13:54:40'
+  arrival_time: '13:55:00'
+  departure_time: '13:55:00'
   pickup_type: 1
 - trip_id: 5931bus:高麗川線:weekday:医大31:飯能駅:9
   stop_sequence: 34
   stop_id: 5931bus:00124293
-  arrival_time: '14:54:40'
-  departure_time: '14:54:40'
+  arrival_time: '14:55:00'
+  departure_time: '14:55:00'
   pickup_type: 1
 - trip_id: 5931bus:高麗川線:weekday:医大31:飯能駅:10
   stop_sequence: 34
   stop_id: 5931bus:00124293
-  arrival_time: '15:55:40'
-  departure_time: '15:55:40'
+  arrival_time: '15:56:00'
+  departure_time: '15:56:00'
   pickup_type: 1
 - trip_id: 5931bus:高麗川線:weekday:医大31:飯能駅:11
   stop_sequence: 34
   stop_id: 5931bus:00124293
-  arrival_time: '16:52:40'
-  departure_time: '16:52:40'
+  arrival_time: '16:53:00'
+  departure_time: '16:53:00'
   pickup_type: 1
 - trip_id: 5931bus:高麗川線:weekday:医大31:飯能駅:12
   stop_sequence: 34
   stop_id: 5931bus:00124293
-  arrival_time: '17:52:40'
-  departure_time: '17:52:40'
+  arrival_time: '17:53:00'
+  departure_time: '17:53:00'
   pickup_type: 1
 - trip_id: 5931bus:高麗川線:weekday:医大31:飯能駅:13
   stop_sequence: 34
   stop_id: 5931bus:00124293
-  arrival_time: '18:37:40'
-  departure_time: '18:37:40'
+  arrival_time: '18:38:00'
+  departure_time: '18:38:00'
   pickup_type: 1
 - trip_id: 5931bus:高麗川線:weekday:医大32:飯能駅:2
   stop_sequence: 30
   stop_id: 5931bus:00124293
-  arrival_time: '18:53:40'
-  departure_time: '18:53:40'
+  arrival_time: '18:54:00'
+  departure_time: '18:54:00'
   pickup_type: 1
 - trip_id: 5931bus:高麗川線:weekday:医大31:飯能駅:14
   stop_sequence: 34
   stop_id: 5931bus:00124293
-  arrival_time: '19:19:40'
-  departure_time: '19:19:40'
+  arrival_time: '19:20:00'
+  departure_time: '19:20:00'
   pickup_type: 1
 - trip_id: 5931bus:高麗川線:weekday:医大32:飯能駅:3
   stop_sequence: 30
   stop_id: 5931bus:00124293
-  arrival_time: '19:36:40'
-  departure_time: '19:36:40'
+  arrival_time: '19:37:00'
+  departure_time: '19:37:00'
   pickup_type: 1
 - trip_id: 5931bus:高麗川線:saturday:医大31:飯能駅:1
   stop_sequence: 34
   stop_id: 5931bus:00124293
-  arrival_time: 09:16:40
-  departure_time: 09:16:40
+  arrival_time: 09:17:00
+  departure_time: 09:17:00
   pickup_type: 1
 - trip_id: 5931bus:高麗川線:saturday:医大31:飯能駅:2
   stop_sequence: 34
   stop_id: 5931bus:00124293
-  arrival_time: '10:05:40'
-  departure_time: '10:05:40'
+  arrival_time: '10:06:00'
+  departure_time: '10:06:00'
   pickup_type: 1
 - trip_id: 5931bus:高麗川線:saturday:医大31:飯能駅:3
   stop_sequence: 34
   stop_id: 5931bus:00124293
-  arrival_time: '10:40:40'
-  departure_time: '10:40:40'
+  arrival_time: '10:41:00'
+  departure_time: '10:41:00'
   pickup_type: 1
 - trip_id: 5931bus:高麗川線:saturday:医大31:飯能駅:4
   stop_sequence: 34
   stop_id: 5931bus:00124293
-  arrival_time: '11:24:40'
-  departure_time: '11:24:40'
+  arrival_time: '11:25:00'
+  departure_time: '11:25:00'
   pickup_type: 1
 - trip_id: 5931bus:高麗川線:saturday:医大31:飯能駅:5
   stop_sequence: 34
   stop_id: 5931bus:00124293
-  arrival_time: '12:24:40'
-  departure_time: '12:24:40'
+  arrival_time: '12:25:00'
+  departure_time: '12:25:00'
   pickup_type: 1
 - trip_id: 5931bus:高麗川線:saturday:医大31:飯能駅:6
   stop_sequence: 34
   stop_id: 5931bus:00124293
-  arrival_time: '13:24:40'
-  departure_time: '13:24:40'
+  arrival_time: '13:25:00'
+  departure_time: '13:25:00'
   pickup_type: 1
 - trip_id: 5931bus:高麗川線:saturday:医大31:飯能駅:7
   stop_sequence: 34
   stop_id: 5931bus:00124293
-  arrival_time: '14:24:40'
-  departure_time: '14:24:40'
+  arrival_time: '14:25:00'
+  departure_time: '14:25:00'
   pickup_type: 1
 - trip_id: 5931bus:高麗川線:saturday:医大31:飯能駅:8
   stop_sequence: 34
   stop_id: 5931bus:00124293
-  arrival_time: '15:24:40'
-  departure_time: '15:24:40'
+  arrival_time: '15:25:00'
+  departure_time: '15:25:00'
   pickup_type: 1
 - trip_id: 5931bus:高麗川線:saturday:医大31:飯能駅:9
   stop_sequence: 34
   stop_id: 5931bus:00124293
-  arrival_time: '16:24:40'
-  departure_time: '16:24:40'
+  arrival_time: '16:25:00'
+  departure_time: '16:25:00'
   pickup_type: 1
 - trip_id: 5931bus:高麗川線:saturday:医大31:飯能駅:10
   stop_sequence: 34
   stop_id: 5931bus:00124293
-  arrival_time: '17:24:40'
-  departure_time: '17:24:40'
+  arrival_time: '17:25:00'
+  departure_time: '17:25:00'
   pickup_type: 1
 - trip_id: 5931bus:高麗川線:saturday:医大31:飯能駅:11
   stop_sequence: 34
   stop_id: 5931bus:00124293
-  arrival_time: '18:40:40'
-  departure_time: '18:40:40'
+  arrival_time: '18:41:00'
+  departure_time: '18:41:00'
   pickup_type: 1
 - trip_id: 5931bus:高麗川線:holiday:医大31:飯能駅:1
   stop_sequence: 34
   stop_id: 5931bus:00124293
-  arrival_time: 09:16:40
-  departure_time: 09:16:40
+  arrival_time: 09:17:00
+  departure_time: 09:17:00
   pickup_type: 1
 - trip_id: 5931bus:高麗川線:holiday:医大31:飯能駅:2
   stop_sequence: 34
   stop_id: 5931bus:00124293
-  arrival_time: '10:05:40'
-  departure_time: '10:05:40'
+  arrival_time: '10:06:00'
+  departure_time: '10:06:00'
   pickup_type: 1
 - trip_id: 5931bus:高麗川線:holiday:医大31:飯能駅:3
   stop_sequence: 34
   stop_id: 5931bus:00124293
-  arrival_time: '10:40:40'
-  departure_time: '10:40:40'
+  arrival_time: '10:41:00'
+  departure_time: '10:41:00'
   pickup_type: 1
 - trip_id: 5931bus:高麗川線:holiday:医大31:飯能駅:4
   stop_sequence: 34
   stop_id: 5931bus:00124293
-  arrival_time: '11:24:40'
-  departure_time: '11:24:40'
+  arrival_time: '11:25:00'
+  departure_time: '11:25:00'
   pickup_type: 1
 - trip_id: 5931bus:高麗川線:holiday:医大31:飯能駅:5
   stop_sequence: 34
   stop_id: 5931bus:00124293
-  arrival_time: '12:24:40'
-  departure_time: '12:24:40'
+  arrival_time: '12:25:00'
+  departure_time: '12:25:00'
   pickup_type: 1
 - trip_id: 5931bus:高麗川線:holiday:医大31:飯能駅:6
   stop_sequence: 34
   stop_id: 5931bus:00124293
-  arrival_time: '13:24:40'
-  departure_time: '13:24:40'
+  arrival_time: '13:25:00'
+  departure_time: '13:25:00'
   pickup_type: 1
 - trip_id: 5931bus:高麗川線:holiday:医大31:飯能駅:7
   stop_sequence: 34
   stop_id: 5931bus:00124293
-  arrival_time: '14:24:40'
-  departure_time: '14:24:40'
+  arrival_time: '14:25:00'
+  departure_time: '14:25:00'
   pickup_type: 1
 - trip_id: 5931bus:高麗川線:holiday:医大31:飯能駅:8
   stop_sequence: 34
   stop_id: 5931bus:00124293
-  arrival_time: '15:24:40'
-  departure_time: '15:24:40'
+  arrival_time: '15:25:00'
+  departure_time: '15:25:00'
   pickup_type: 1
 - trip_id: 5931bus:高麗川線:holiday:医大31:飯能駅:9
   stop_sequence: 34
   stop_id: 5931bus:00124293
-  arrival_time: '16:24:40'
-  departure_time: '16:24:40'
+  arrival_time: '16:25:00'
+  departure_time: '16:25:00'
   pickup_type: 1
 - trip_id: 5931bus:高麗川線:holiday:医大31:飯能駅:10
   stop_sequence: 34
   stop_id: 5931bus:00124293
-  arrival_time: '17:24:40'
-  departure_time: '17:24:40'
+  arrival_time: '17:25:00'
+  departure_time: '17:25:00'
   pickup_type: 1
 - trip_id: 5931bus:高麗川線:holiday:医大31:飯能駅:11
   stop_sequence: 34
   stop_id: 5931bus:00124293
-  arrival_time: '18:40:40'
-  departure_time: '18:40:40'
+  arrival_time: '18:41:00'
+  departure_time: '18:41:00'
   pickup_type: 1
 - trip_id: 5931bus:高麗川線:weekday:医大12:埼玉医大国際医療センター:1
   stop_sequence: 8
   stop_id: 5931bus:00124453
-  arrival_time: 08:18:00
-  departure_time: 08:18:00
+  arrival_time: 08:19:00
+  departure_time: 08:19:00
   pickup_type: 1
 - trip_id: 5931bus:高麗川線:weekday:医大11:埼玉医大:1
   stop_sequence: 12
@@ -97812,50 +97812,50 @@ stop_times:
 - trip_id: 5931bus:高麗川線:weekday:医大12:埼玉医大国際医療センター:2
   stop_sequence: 8
   stop_id: 5931bus:00124453
-  arrival_time: '18:04:00'
-  departure_time: '18:04:00'
+  arrival_time: '18:05:00'
+  departure_time: '18:05:00'
   pickup_type: 1
 - trip_id: 5931bus:高麗川線:weekday:医大12:埼玉医大国際医療センター:3
   stop_sequence: 8
   stop_id: 5931bus:00124453
-  arrival_time: '19:07:00'
-  departure_time: '19:07:00'
+  arrival_time: '19:08:00'
+  departure_time: '19:08:00'
   pickup_type: 1
 - trip_id: 5931bus:高麗川線:weekday:医大12:埼玉医大国際医療センター:4
   stop_sequence: 8
   stop_id: 5931bus:00124453
-  arrival_time: '19:46:00'
-  departure_time: '19:46:00'
+  arrival_time: '19:47:00'
+  departure_time: '19:47:00'
   pickup_type: 1
 - trip_id: 5931bus:高麗川線:weekday:医大12:埼玉医大国際医療センター:5
   stop_sequence: 8
   stop_id: 5931bus:00124453
-  arrival_time: '20:25:00'
-  departure_time: '20:25:00'
+  arrival_time: '20:26:00'
+  departure_time: '20:26:00'
   pickup_type: 1
 - trip_id: 5931bus:高麗川線:saturday:医大12:埼玉医大国際医療センター:1
   stop_sequence: 8
   stop_id: 5931bus:00124453
-  arrival_time: 07:50:00
-  departure_time: 07:50:00
+  arrival_time: 07:51:00
+  departure_time: 07:51:00
   pickup_type: 1
 - trip_id: 5931bus:高麗川線:saturday:医大12:埼玉医大国際医療センター:2
   stop_sequence: 8
   stop_id: 5931bus:00124453
-  arrival_time: 08:32:00
-  departure_time: 08:32:00
+  arrival_time: 08:33:00
+  departure_time: 08:33:00
   pickup_type: 1
 - trip_id: 5931bus:高麗川線:saturday:医大12:埼玉医大国際医療センター:3
   stop_sequence: 8
   stop_id: 5931bus:00124453
-  arrival_time: 09:12:00
-  departure_time: 09:12:00
+  arrival_time: 09:13:00
+  departure_time: 09:13:00
   pickup_type: 1
 - trip_id: 5931bus:高麗川線:saturday:医大12:埼玉医大国際医療センター:4
   stop_sequence: 8
   stop_id: 5931bus:00124453
-  arrival_time: 09:52:00
-  departure_time: 09:52:00
+  arrival_time: 09:53:00
+  departure_time: 09:53:00
   pickup_type: 1
 - trip_id: 5931bus:高麗川線:saturday:医大11:埼玉医大:1
   stop_sequence: 12
@@ -97878,20 +97878,20 @@ stop_times:
 - trip_id: 5931bus:高麗川線:saturday:医大12:埼玉医大国際医療センター:5
   stop_sequence: 8
   stop_id: 5931bus:00124453
-  arrival_time: '19:16:00'
-  departure_time: '19:16:00'
+  arrival_time: '19:17:00'
+  departure_time: '19:17:00'
   pickup_type: 1
 - trip_id: 5931bus:高麗川線:saturday:医大12:埼玉医大国際医療センター:6
   stop_sequence: 8
   stop_id: 5931bus:00124453
-  arrival_time: '19:38:00'
-  departure_time: '19:38:00'
+  arrival_time: '19:39:00'
+  departure_time: '19:39:00'
   pickup_type: 1
 - trip_id: 5931bus:高麗川線:holiday:医大12:埼玉医大国際医療センター:1
   stop_sequence: 8
   stop_id: 5931bus:00124453
-  arrival_time: '19:38:00'
-  departure_time: '19:38:00'
+  arrival_time: '19:39:00'
+  departure_time: '19:39:00'
   pickup_type: 1
 - trip_id: 5931bus:高麗川線:weekday:医大12:高麗川駅:1
   stop_sequence: 8
@@ -98046,980 +98046,980 @@ stop_times:
 - trip_id: 5931bus:こまニュータウン循環:weekday:飯12-2:飯能駅:1
   stop_sequence: 13
   stop_id: 5931bus:00124293
-  arrival_time: 06:20:40
-  departure_time: 06:20:40
+  arrival_time: 06:21:00
+  departure_time: 06:21:00
   pickup_type: 1
 - trip_id: 5931bus:こまニュータウン循環:weekday:飯12-2:飯能駅:2
   stop_sequence: 13
   stop_id: 5931bus:00124293
-  arrival_time: 06:49:40
-  departure_time: 06:49:40
+  arrival_time: 06:50:00
+  departure_time: 06:50:00
   pickup_type: 1
 - trip_id: 5931bus:こまニュータウン循環:weekday:飯12-2:飯能駅:3
   stop_sequence: 13
   stop_id: 5931bus:00124293
-  arrival_time: 07:07:40
-  departure_time: 07:07:40
+  arrival_time: 07:08:00
+  departure_time: 07:08:00
   pickup_type: 1
 - trip_id: 5931bus:こまニュータウン循環:weekday:飯12-2:飯能駅:4
   stop_sequence: 13
   stop_id: 5931bus:00124293
-  arrival_time: 08:06:40
-  departure_time: 08:06:40
+  arrival_time: 08:07:00
+  departure_time: 08:07:00
   pickup_type: 1
 - trip_id: 5931bus:こまニュータウン循環:weekday:飯12-2:飯能駅:5
   stop_sequence: 13
   stop_id: 5931bus:00124293
-  arrival_time: 08:39:40
-  departure_time: 08:39:40
+  arrival_time: 08:40:00
+  departure_time: 08:40:00
   pickup_type: 1
 - trip_id: 5931bus:こまニュータウン循環:weekday:飯12-2:飯能駅:6
   stop_sequence: 13
   stop_id: 5931bus:00124293
-  arrival_time: 09:02:40
-  departure_time: 09:02:40
+  arrival_time: 09:03:00
+  departure_time: 09:03:00
   pickup_type: 1
 - trip_id: 5931bus:こまニュータウン循環:weekday:飯12-2:飯能駅:7
   stop_sequence: 13
   stop_id: 5931bus:00124293
-  arrival_time: '16:39:40'
-  departure_time: '16:39:40'
+  arrival_time: '16:40:00'
+  departure_time: '16:40:00'
   pickup_type: 1
 - trip_id: 5931bus:こまニュータウン循環:weekday:飯12-2:飯能駅:8
   stop_sequence: 13
   stop_id: 5931bus:00124293
-  arrival_time: '17:28:40'
-  departure_time: '17:28:40'
+  arrival_time: '17:29:00'
+  departure_time: '17:29:00'
   pickup_type: 1
 - trip_id: 5931bus:こまニュータウン循環:weekday:飯12-2:飯能駅:9
   stop_sequence: 13
   stop_id: 5931bus:00124293
-  arrival_time: '18:09:40'
-  departure_time: '18:09:40'
+  arrival_time: '18:10:00'
+  departure_time: '18:10:00'
   pickup_type: 1
 - trip_id: 5931bus:こまニュータウン循環:weekday:飯12-2:飯能駅:10
   stop_sequence: 13
   stop_id: 5931bus:00124293
-  arrival_time: '18:59:40'
-  departure_time: '18:59:40'
+  arrival_time: '19:00:00'
+  departure_time: '19:00:00'
   pickup_type: 1
 - trip_id: 5931bus:こまニュータウン循環:weekday:飯12-2:飯能駅:11
   stop_sequence: 13
   stop_id: 5931bus:00124293
-  arrival_time: '19:38:40'
-  departure_time: '19:38:40'
+  arrival_time: '19:39:00'
+  departure_time: '19:39:00'
   pickup_type: 1
 - trip_id: 5931bus:こまニュータウン循環:weekday:飯12-2:飯能駅:12
   stop_sequence: 13
   stop_id: 5931bus:00124293
-  arrival_time: '20:18:40'
-  departure_time: '20:18:40'
+  arrival_time: '20:19:00'
+  departure_time: '20:19:00'
   pickup_type: 1
 - trip_id: 5931bus:こまニュータウン循環:weekday:飯12-2:飯能駅:13
   stop_sequence: 13
   stop_id: 5931bus:00124293
-  arrival_time: '20:58:40'
-  departure_time: '20:58:40'
+  arrival_time: '20:59:00'
+  departure_time: '20:59:00'
   pickup_type: 1
 - trip_id: 5931bus:こまニュータウン循環:saturday:飯12-2:飯能駅:1
   stop_sequence: 13
   stop_id: 5931bus:00124293
-  arrival_time: 06:31:40
-  departure_time: 06:31:40
+  arrival_time: 06:32:00
+  departure_time: 06:32:00
   pickup_type: 1
 - trip_id: 5931bus:こまニュータウン循環:saturday:飯12-2:飯能駅:2
   stop_sequence: 13
   stop_id: 5931bus:00124293
-  arrival_time: 07:11:40
-  departure_time: 07:11:40
+  arrival_time: 07:12:00
+  departure_time: 07:12:00
   pickup_type: 1
 - trip_id: 5931bus:こまニュータウン循環:saturday:飯12-2:飯能駅:3
   stop_sequence: 13
   stop_id: 5931bus:00124293
-  arrival_time: 08:07:40
-  departure_time: 08:07:40
+  arrival_time: 08:08:00
+  departure_time: 08:08:00
   pickup_type: 1
 - trip_id: 5931bus:こまニュータウン循環:saturday:飯12-2:飯能駅:4
   stop_sequence: 13
   stop_id: 5931bus:00124293
-  arrival_time: 08:44:40
-  departure_time: 08:44:40
+  arrival_time: 08:45:00
+  departure_time: 08:45:00
   pickup_type: 1
 - trip_id: 5931bus:こまニュータウン循環:saturday:飯12-2:飯能駅:5
   stop_sequence: 13
   stop_id: 5931bus:00124293
-  arrival_time: 09:38:40
-  departure_time: 09:38:40
+  arrival_time: 09:39:00
+  departure_time: 09:39:00
   pickup_type: 1
 - trip_id: 5931bus:こまニュータウン循環:saturday:飯12-2:飯能駅:6
   stop_sequence: 13
   stop_id: 5931bus:00124293
-  arrival_time: '16:19:40'
-  departure_time: '16:19:40'
+  arrival_time: '16:20:00'
+  departure_time: '16:20:00'
   pickup_type: 1
 - trip_id: 5931bus:こまニュータウン循環:saturday:飯12-2:飯能駅:7
   stop_sequence: 13
   stop_id: 5931bus:00124293
-  arrival_time: '16:50:40'
-  departure_time: '16:50:40'
+  arrival_time: '16:51:00'
+  departure_time: '16:51:00'
   pickup_type: 1
 - trip_id: 5931bus:こまニュータウン循環:saturday:飯12-2:飯能駅:8
   stop_sequence: 13
   stop_id: 5931bus:00124293
-  arrival_time: '17:49:40'
-  departure_time: '17:49:40'
+  arrival_time: '17:50:00'
+  departure_time: '17:50:00'
   pickup_type: 1
 - trip_id: 5931bus:こまニュータウン循環:saturday:飯12-2:飯能駅:9
   stop_sequence: 13
   stop_id: 5931bus:00124293
-  arrival_time: '18:09:40'
-  departure_time: '18:09:40'
+  arrival_time: '18:10:00'
+  departure_time: '18:10:00'
   pickup_type: 1
 - trip_id: 5931bus:こまニュータウン循環:saturday:飯12-2:飯能駅:10
   stop_sequence: 13
   stop_id: 5931bus:00124293
-  arrival_time: '18:59:40'
-  departure_time: '18:59:40'
+  arrival_time: '19:00:00'
+  departure_time: '19:00:00'
   pickup_type: 1
 - trip_id: 5931bus:こまニュータウン循環:saturday:飯12-2:飯能駅:11
   stop_sequence: 13
   stop_id: 5931bus:00124293
-  arrival_time: '19:38:40'
-  departure_time: '19:38:40'
+  arrival_time: '19:39:00'
+  departure_time: '19:39:00'
   pickup_type: 1
 - trip_id: 5931bus:こまニュータウン循環:saturday:飯12-2:飯能駅:12
   stop_sequence: 13
   stop_id: 5931bus:00124293
-  arrival_time: '20:18:40'
-  departure_time: '20:18:40'
+  arrival_time: '20:19:00'
+  departure_time: '20:19:00'
   pickup_type: 1
 - trip_id: 5931bus:こまニュータウン循環:saturday:飯12-2:飯能駅:13
   stop_sequence: 13
   stop_id: 5931bus:00124293
-  arrival_time: '20:58:40'
-  departure_time: '20:58:40'
+  arrival_time: '20:59:00'
+  departure_time: '20:59:00'
   pickup_type: 1
 - trip_id: 5931bus:こまニュータウン循環:holiday:飯12-2:飯能駅:1
   stop_sequence: 13
   stop_id: 5931bus:00124293
-  arrival_time: 06:31:40
-  departure_time: 06:31:40
+  arrival_time: 06:32:00
+  departure_time: 06:32:00
   pickup_type: 1
 - trip_id: 5931bus:こまニュータウン循環:holiday:飯12-2:飯能駅:2
   stop_sequence: 13
   stop_id: 5931bus:00124293
-  arrival_time: 07:11:40
-  departure_time: 07:11:40
+  arrival_time: 07:12:00
+  departure_time: 07:12:00
   pickup_type: 1
 - trip_id: 5931bus:こまニュータウン循環:holiday:飯12-2:飯能駅:3
   stop_sequence: 13
   stop_id: 5931bus:00124293
-  arrival_time: 08:07:40
-  departure_time: 08:07:40
+  arrival_time: 08:08:00
+  departure_time: 08:08:00
   pickup_type: 1
 - trip_id: 5931bus:こまニュータウン循環:holiday:飯12-2:飯能駅:4
   stop_sequence: 13
   stop_id: 5931bus:00124293
-  arrival_time: 08:44:40
-  departure_time: 08:44:40
+  arrival_time: 08:45:00
+  departure_time: 08:45:00
   pickup_type: 1
 - trip_id: 5931bus:こまニュータウン循環:holiday:飯12-2:飯能駅:5
   stop_sequence: 13
   stop_id: 5931bus:00124293
-  arrival_time: 09:38:40
-  departure_time: 09:38:40
+  arrival_time: 09:39:00
+  departure_time: 09:39:00
   pickup_type: 1
 - trip_id: 5931bus:こまニュータウン循環:holiday:飯12-2:飯能駅:6
   stop_sequence: 13
   stop_id: 5931bus:00124293
-  arrival_time: '16:19:40'
-  departure_time: '16:19:40'
+  arrival_time: '16:20:00'
+  departure_time: '16:20:00'
   pickup_type: 1
 - trip_id: 5931bus:こまニュータウン循環:holiday:飯12-2:飯能駅:7
   stop_sequence: 13
   stop_id: 5931bus:00124293
-  arrival_time: '16:50:40'
-  departure_time: '16:50:40'
+  arrival_time: '16:51:00'
+  departure_time: '16:51:00'
   pickup_type: 1
 - trip_id: 5931bus:こまニュータウン循環:holiday:飯12-2:飯能駅:8
   stop_sequence: 13
   stop_id: 5931bus:00124293
-  arrival_time: '17:49:40'
-  departure_time: '17:49:40'
+  arrival_time: '17:50:00'
+  departure_time: '17:50:00'
   pickup_type: 1
 - trip_id: 5931bus:こまニュータウン循環:holiday:飯12-2:飯能駅:9
   stop_sequence: 13
   stop_id: 5931bus:00124293
-  arrival_time: '18:09:40'
-  departure_time: '18:09:40'
+  arrival_time: '18:10:00'
+  departure_time: '18:10:00'
   pickup_type: 1
 - trip_id: 5931bus:こまニュータウン循環:holiday:飯12-2:飯能駅:10
   stop_sequence: 13
   stop_id: 5931bus:00124293
-  arrival_time: '18:59:40'
-  departure_time: '18:59:40'
+  arrival_time: '19:00:00'
+  departure_time: '19:00:00'
   pickup_type: 1
 - trip_id: 5931bus:こまニュータウン循環:holiday:飯12-2:飯能駅:11
   stop_sequence: 13
   stop_id: 5931bus:00124293
-  arrival_time: '19:38:40'
-  departure_time: '19:38:40'
+  arrival_time: '19:39:00'
+  departure_time: '19:39:00'
   pickup_type: 1
 - trip_id: 5931bus:こまニュータウン循環:holiday:飯12-2:飯能駅:12
   stop_sequence: 13
   stop_id: 5931bus:00124293
-  arrival_time: '20:18:40'
-  departure_time: '20:18:40'
+  arrival_time: '20:19:00'
+  departure_time: '20:19:00'
   pickup_type: 1
 - trip_id: 5931bus:こまニュータウン循環:holiday:飯12-2:飯能駅:13
   stop_sequence: 13
   stop_id: 5931bus:00124293
-  arrival_time: '20:58:40'
-  departure_time: '20:58:40'
+  arrival_time: '20:59:00'
+  departure_time: '20:59:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:weekday:飯07:飯能駅:1
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: 06:09:20
-  departure_time: 06:09:20
+  arrival_time: 06:10:00
+  departure_time: 06:10:00
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:weekday:飯07:飯能駅:2
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: 06:26:20
-  departure_time: 06:26:20
+  arrival_time: 06:27:00
+  departure_time: 06:27:00
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:weekday:飯07:飯能駅:3
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: 06:41:20
-  departure_time: 06:41:20
+  arrival_time: 06:42:00
+  departure_time: 06:42:00
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:weekday:飯07:飯能駅:4
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: 06:56:20
-  departure_time: 06:56:20
+  arrival_time: 06:57:00
+  departure_time: 06:57:00
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:weekday:飯07:飯能駅:5
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: 07:05:20
-  departure_time: 07:05:20
+  arrival_time: 07:06:00
+  departure_time: 07:06:00
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:weekday:飯07:飯能駅:6
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: 07:18:20
-  departure_time: 07:18:20
+  arrival_time: 07:19:00
+  departure_time: 07:19:00
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:weekday:飯07:飯能駅:7
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: 07:30:20
-  departure_time: 07:30:20
+  arrival_time: 07:31:00
+  departure_time: 07:31:00
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:weekday:飯07:飯能駅:8
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: 07:43:20
-  departure_time: 07:43:20
+  arrival_time: 07:44:00
+  departure_time: 07:44:00
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:weekday:飯07:飯能駅:9
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: 07:52:20
-  departure_time: 07:52:20
+  arrival_time: 07:53:00
+  departure_time: 07:53:00
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:weekday:飯07:飯能駅:10
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: 08:09:20
-  departure_time: 08:09:20
+  arrival_time: 08:10:00
+  departure_time: 08:10:00
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:weekday:飯07:飯能駅:11
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: 08:25:20
-  departure_time: 08:25:20
+  arrival_time: 08:26:00
+  departure_time: 08:26:00
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:weekday:飯07:飯能駅:12
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: 08:45:20
-  departure_time: 08:45:20
+  arrival_time: 08:46:00
+  departure_time: 08:46:00
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:weekday:飯07:飯能駅:13
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: 09:05:20
-  departure_time: 09:05:20
+  arrival_time: 09:06:00
+  departure_time: 09:06:00
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:weekday:飯07:飯能駅:14
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: 09:25:20
-  departure_time: 09:25:20
+  arrival_time: 09:26:00
+  departure_time: 09:26:00
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:weekday:飯07:飯能駅:15
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: 09:45:20
-  departure_time: 09:45:20
+  arrival_time: 09:46:00
+  departure_time: 09:46:00
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:weekday:飯07:飯能駅:16
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '10:05:20'
-  departure_time: '10:05:20'
+  arrival_time: '10:06:00'
+  departure_time: '10:06:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:weekday:飯07:飯能駅:17
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '10:33:20'
-  departure_time: '10:33:20'
+  arrival_time: '10:34:00'
+  departure_time: '10:34:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:weekday:飯07:飯能駅:18
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '11:03:20'
-  departure_time: '11:03:20'
+  arrival_time: '11:04:00'
+  departure_time: '11:04:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:weekday:飯07:飯能駅:19
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '11:33:20'
-  departure_time: '11:33:20'
+  arrival_time: '11:34:00'
+  departure_time: '11:34:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:weekday:飯07:飯能駅:20
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '12:03:20'
-  departure_time: '12:03:20'
+  arrival_time: '12:04:00'
+  departure_time: '12:04:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:weekday:飯07:飯能駅:21
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '12:33:20'
-  departure_time: '12:33:20'
+  arrival_time: '12:34:00'
+  departure_time: '12:34:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:weekday:飯07:飯能駅:22
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '13:03:20'
-  departure_time: '13:03:20'
+  arrival_time: '13:04:00'
+  departure_time: '13:04:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:weekday:飯07:飯能駅:23
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '13:25:20'
-  departure_time: '13:25:20'
+  arrival_time: '13:26:00'
+  departure_time: '13:26:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:weekday:飯07:飯能駅:24
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '13:47:20'
-  departure_time: '13:47:20'
+  arrival_time: '13:48:00'
+  departure_time: '13:48:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:weekday:飯07:飯能駅:25
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '14:17:20'
-  departure_time: '14:17:20'
+  arrival_time: '14:18:00'
+  departure_time: '14:18:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:weekday:飯07:飯能駅:26
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '14:47:20'
-  departure_time: '14:47:20'
+  arrival_time: '14:48:00'
+  departure_time: '14:48:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:weekday:飯07:飯能駅:27
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '15:17:20'
-  departure_time: '15:17:20'
+  arrival_time: '15:18:00'
+  departure_time: '15:18:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:weekday:飯07:飯能駅:28
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '15:47:20'
-  departure_time: '15:47:20'
+  arrival_time: '15:48:00'
+  departure_time: '15:48:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:weekday:飯07:飯能駅:29
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '16:17:20'
-  departure_time: '16:17:20'
+  arrival_time: '16:18:00'
+  departure_time: '16:18:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:weekday:飯07:飯能駅:30
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '16:47:20'
-  departure_time: '16:47:20'
+  arrival_time: '16:48:00'
+  departure_time: '16:48:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:weekday:飯07:飯能駅:31
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '17:18:20'
-  departure_time: '17:18:20'
+  arrival_time: '17:19:00'
+  departure_time: '17:19:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:weekday:飯07:飯能駅:32
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '17:48:20'
-  departure_time: '17:48:20'
+  arrival_time: '17:49:00'
+  departure_time: '17:49:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:weekday:飯07:飯能駅:33
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '18:08:20'
-  departure_time: '18:08:20'
+  arrival_time: '18:09:00'
+  departure_time: '18:09:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:weekday:飯07:飯能駅:34
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '18:27:20'
-  departure_time: '18:27:20'
+  arrival_time: '18:28:00'
+  departure_time: '18:28:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:weekday:飯07:飯能駅:35
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '18:47:20'
-  departure_time: '18:47:20'
+  arrival_time: '18:48:00'
+  departure_time: '18:48:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:weekday:飯07:飯能駅:36
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '19:07:20'
-  departure_time: '19:07:20'
+  arrival_time: '19:08:00'
+  departure_time: '19:08:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:weekday:飯07:飯能駅:37
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '19:27:20'
-  departure_time: '19:27:20'
+  arrival_time: '19:28:00'
+  departure_time: '19:28:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:weekday:飯07:飯能駅:38
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '19:47:20'
-  departure_time: '19:47:20'
+  arrival_time: '19:48:00'
+  departure_time: '19:48:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:weekday:飯07:飯能駅:39
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '20:07:20'
-  departure_time: '20:07:20'
+  arrival_time: '20:08:00'
+  departure_time: '20:08:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:weekday:飯07:飯能駅:40
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '20:40:20'
-  departure_time: '20:40:20'
+  arrival_time: '20:41:00'
+  departure_time: '20:41:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:weekday:飯07:飯能駅:41
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '20:57:20'
-  departure_time: '20:57:20'
+  arrival_time: '20:58:00'
+  departure_time: '20:58:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:weekday:飯07:飯能駅:42
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '21:25:20'
-  departure_time: '21:25:20'
+  arrival_time: '21:26:00'
+  departure_time: '21:26:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:weekday:飯07:飯能駅:43
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '21:48:20'
-  departure_time: '21:48:20'
+  arrival_time: '21:49:00'
+  departure_time: '21:49:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:weekday:飯07:飯能駅:44
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '22:19:20'
-  departure_time: '22:19:20'
+  arrival_time: '22:20:00'
+  departure_time: '22:20:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:weekday:飯07:飯能駅:45
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '22:52:20'
-  departure_time: '22:52:20'
+  arrival_time: '22:53:00'
+  departure_time: '22:53:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:saturday:飯07:飯能駅:1
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: 06:11:20
-  departure_time: 06:11:20
+  arrival_time: 06:12:00
+  departure_time: 06:12:00
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:saturday:飯07:飯能駅:2
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: 06:41:20
-  departure_time: 06:41:20
+  arrival_time: 06:42:00
+  departure_time: 06:42:00
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:saturday:飯07:飯能駅:3
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: 07:03:20
-  departure_time: 07:03:20
+  arrival_time: 07:04:00
+  departure_time: 07:04:00
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:saturday:飯07:飯能駅:4
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: 07:24:20
-  departure_time: 07:24:20
+  arrival_time: 07:25:00
+  departure_time: 07:25:00
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:saturday:飯07:飯能駅:5
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: 07:46:20
-  departure_time: 07:46:20
+  arrival_time: 07:47:00
+  departure_time: 07:47:00
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:saturday:飯07:飯能駅:6
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: 08:12:20
-  departure_time: 08:12:20
+  arrival_time: 08:13:00
+  departure_time: 08:13:00
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:saturday:飯07:飯能駅:7
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: 08:45:20
-  departure_time: 08:45:20
+  arrival_time: 08:46:00
+  departure_time: 08:46:00
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:saturday:飯07:飯能駅:8
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: 09:16:20
-  departure_time: 09:16:20
+  arrival_time: 09:17:00
+  departure_time: 09:17:00
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:saturday:飯07:飯能駅:9
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: 09:45:20
-  departure_time: 09:45:20
+  arrival_time: 09:46:00
+  departure_time: 09:46:00
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:saturday:飯07:飯能駅:10
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '10:15:20'
-  departure_time: '10:15:20'
+  arrival_time: '10:16:00'
+  departure_time: '10:16:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:saturday:飯07:飯能駅:11
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '11:00:20'
-  departure_time: '11:00:20'
+  arrival_time: '11:01:00'
+  departure_time: '11:01:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:saturday:飯07:飯能駅:12
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '11:30:20'
-  departure_time: '11:30:20'
+  arrival_time: '11:31:00'
+  departure_time: '11:31:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:saturday:飯07:飯能駅:13
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '12:00:20'
-  departure_time: '12:00:20'
+  arrival_time: '12:01:00'
+  departure_time: '12:01:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:saturday:飯07:飯能駅:14
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '12:30:20'
-  departure_time: '12:30:20'
+  arrival_time: '12:31:00'
+  departure_time: '12:31:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:saturday:飯07:飯能駅:15
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '13:00:20'
-  departure_time: '13:00:20'
+  arrival_time: '13:01:00'
+  departure_time: '13:01:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:saturday:飯07:飯能駅:16
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '13:33:20'
-  departure_time: '13:33:20'
+  arrival_time: '13:34:00'
+  departure_time: '13:34:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:saturday:飯07:飯能駅:17
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '14:04:20'
-  departure_time: '14:04:20'
+  arrival_time: '14:05:00'
+  departure_time: '14:05:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:saturday:飯07:飯能駅:18
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '14:50:20'
-  departure_time: '14:50:20'
+  arrival_time: '14:51:00'
+  departure_time: '14:51:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:saturday:飯07:飯能駅:19
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '15:19:20'
-  departure_time: '15:19:20'
+  arrival_time: '15:20:00'
+  departure_time: '15:20:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:saturday:飯07:飯能駅:20
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '15:50:20'
-  departure_time: '15:50:20'
+  arrival_time: '15:51:00'
+  departure_time: '15:51:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:saturday:飯07:飯能駅:21
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '16:20:20'
-  departure_time: '16:20:20'
+  arrival_time: '16:21:00'
+  departure_time: '16:21:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:saturday:飯07:飯能駅:22
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '16:51:20'
-  departure_time: '16:51:20'
+  arrival_time: '16:52:00'
+  departure_time: '16:52:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:saturday:飯07:飯能駅:23
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '17:27:20'
-  departure_time: '17:27:20'
+  arrival_time: '17:28:00'
+  departure_time: '17:28:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:saturday:飯07:飯能駅:24
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '17:57:20'
-  departure_time: '17:57:20'
+  arrival_time: '17:58:00'
+  departure_time: '17:58:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:saturday:飯07:飯能駅:25
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '18:26:20'
-  departure_time: '18:26:20'
+  arrival_time: '18:27:00'
+  departure_time: '18:27:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:saturday:飯07:飯能駅:26
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '18:56:20'
-  departure_time: '18:56:20'
+  arrival_time: '18:57:00'
+  departure_time: '18:57:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:saturday:飯07:飯能駅:27
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '19:26:20'
-  departure_time: '19:26:20'
+  arrival_time: '19:27:00'
+  departure_time: '19:27:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:saturday:飯07:飯能駅:28
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '19:56:20'
-  departure_time: '19:56:20'
+  arrival_time: '19:57:00'
+  departure_time: '19:57:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:saturday:飯07:飯能駅:29
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '20:26:20'
-  departure_time: '20:26:20'
+  arrival_time: '20:27:00'
+  departure_time: '20:27:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:saturday:飯07:飯能駅:30
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '20:52:20'
-  departure_time: '20:52:20'
+  arrival_time: '20:53:00'
+  departure_time: '20:53:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:saturday:飯07:飯能駅:31
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '21:25:20'
-  departure_time: '21:25:20'
+  arrival_time: '21:26:00'
+  departure_time: '21:26:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:saturday:飯07:飯能駅:32
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '21:55:20'
-  departure_time: '21:55:20'
+  arrival_time: '21:56:00'
+  departure_time: '21:56:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:holiday:飯07:飯能駅:1
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: 06:11:20
-  departure_time: 06:11:20
+  arrival_time: 06:12:00
+  departure_time: 06:12:00
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:holiday:飯07:飯能駅:2
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: 06:41:20
-  departure_time: 06:41:20
+  arrival_time: 06:42:00
+  departure_time: 06:42:00
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:holiday:飯07:飯能駅:3
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: 07:03:20
-  departure_time: 07:03:20
+  arrival_time: 07:04:00
+  departure_time: 07:04:00
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:holiday:飯07:飯能駅:4
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: 07:24:20
-  departure_time: 07:24:20
+  arrival_time: 07:25:00
+  departure_time: 07:25:00
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:holiday:飯07:飯能駅:5
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: 07:46:20
-  departure_time: 07:46:20
+  arrival_time: 07:47:00
+  departure_time: 07:47:00
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:holiday:飯07:飯能駅:6
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: 08:12:20
-  departure_time: 08:12:20
+  arrival_time: 08:13:00
+  departure_time: 08:13:00
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:holiday:飯07:飯能駅:7
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: 08:45:20
-  departure_time: 08:45:20
+  arrival_time: 08:46:00
+  departure_time: 08:46:00
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:holiday:飯07:飯能駅:8
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: 09:16:20
-  departure_time: 09:16:20
+  arrival_time: 09:17:00
+  departure_time: 09:17:00
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:holiday:飯07:飯能駅:9
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: 09:45:20
-  departure_time: 09:45:20
+  arrival_time: 09:46:00
+  departure_time: 09:46:00
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:holiday:飯07:飯能駅:10
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '10:15:20'
-  departure_time: '10:15:20'
+  arrival_time: '10:16:00'
+  departure_time: '10:16:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:holiday:飯07:飯能駅:11
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '11:00:20'
-  departure_time: '11:00:20'
+  arrival_time: '11:01:00'
+  departure_time: '11:01:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:holiday:飯07:飯能駅:12
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '11:30:20'
-  departure_time: '11:30:20'
+  arrival_time: '11:31:00'
+  departure_time: '11:31:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:holiday:飯07:飯能駅:13
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '12:00:20'
-  departure_time: '12:00:20'
+  arrival_time: '12:01:00'
+  departure_time: '12:01:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:holiday:飯07:飯能駅:14
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '12:30:20'
-  departure_time: '12:30:20'
+  arrival_time: '12:31:00'
+  departure_time: '12:31:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:holiday:飯07:飯能駅:15
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '13:00:20'
-  departure_time: '13:00:20'
+  arrival_time: '13:01:00'
+  departure_time: '13:01:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:holiday:飯07:飯能駅:16
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '13:33:20'
-  departure_time: '13:33:20'
+  arrival_time: '13:34:00'
+  departure_time: '13:34:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:holiday:飯07:飯能駅:17
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '14:04:20'
-  departure_time: '14:04:20'
+  arrival_time: '14:05:00'
+  departure_time: '14:05:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:holiday:飯07:飯能駅:18
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '14:50:20'
-  departure_time: '14:50:20'
+  arrival_time: '14:51:00'
+  departure_time: '14:51:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:holiday:飯07:飯能駅:19
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '15:19:20'
-  departure_time: '15:19:20'
+  arrival_time: '15:20:00'
+  departure_time: '15:20:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:holiday:飯07:飯能駅:20
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '15:50:20'
-  departure_time: '15:50:20'
+  arrival_time: '15:51:00'
+  departure_time: '15:51:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:holiday:飯07:飯能駅:21
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '16:20:20'
-  departure_time: '16:20:20'
+  arrival_time: '16:21:00'
+  departure_time: '16:21:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:holiday:飯07:飯能駅:22
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '16:51:20'
-  departure_time: '16:51:20'
+  arrival_time: '16:52:00'
+  departure_time: '16:52:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:holiday:飯07:飯能駅:23
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '17:27:20'
-  departure_time: '17:27:20'
+  arrival_time: '17:28:00'
+  departure_time: '17:28:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:holiday:飯07:飯能駅:24
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '17:57:20'
-  departure_time: '17:57:20'
+  arrival_time: '17:58:00'
+  departure_time: '17:58:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:holiday:飯07:飯能駅:25
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '18:26:20'
-  departure_time: '18:26:20'
+  arrival_time: '18:27:00'
+  departure_time: '18:27:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:holiday:飯07:飯能駅:26
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '18:56:20'
-  departure_time: '18:56:20'
+  arrival_time: '18:57:00'
+  departure_time: '18:57:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:holiday:飯07:飯能駅:27
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '19:26:20'
-  departure_time: '19:26:20'
+  arrival_time: '19:27:00'
+  departure_time: '19:27:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:holiday:飯07:飯能駅:28
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '19:56:20'
-  departure_time: '19:56:20'
+  arrival_time: '19:57:00'
+  departure_time: '19:57:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:holiday:飯07:飯能駅:29
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '20:26:20'
-  departure_time: '20:26:20'
+  arrival_time: '20:27:00'
+  departure_time: '20:27:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:holiday:飯07:飯能駅:30
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '20:52:20'
-  departure_time: '20:52:20'
+  arrival_time: '20:53:00'
+  departure_time: '20:53:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:holiday:飯07:飯能駅:31
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '21:25:20'
-  departure_time: '21:25:20'
+  arrival_time: '21:26:00'
+  departure_time: '21:26:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:holiday:飯07:飯能駅:32
   stop_sequence: 16
   stop_id: 5931bus:00124293
-  arrival_time: '21:55:20'
-  departure_time: '21:55:20'
+  arrival_time: '21:56:00'
+  departure_time: '21:56:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:weekday:飯30:西武飯能日高:1
   stop_sequence: 3
   stop_id: 5931bus:00124380
-  arrival_time: '20:21:40'
-  departure_time: '20:21:40'
+  arrival_time: '20:22:00'
+  departure_time: '20:22:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:weekday:飯30:西武飯能日高:2
   stop_sequence: 3
   stop_id: 5931bus:00124380
-  arrival_time: '21:04:40'
-  departure_time: '21:04:40'
+  arrival_time: '21:05:00'
+  departure_time: '21:05:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:weekday:飯30:西武飯能日高:3
   stop_sequence: 3
   stop_id: 5931bus:00124380
-  arrival_time: '21:32:40'
-  departure_time: '21:32:40'
+  arrival_time: '21:33:00'
+  departure_time: '21:33:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:weekday:飯30:西武飯能日高:4
   stop_sequence: 3
   stop_id: 5931bus:00124380
-  arrival_time: '22:04:40'
-  departure_time: '22:04:40'
+  arrival_time: '22:05:00'
+  departure_time: '22:05:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:weekday:飯30:西武飯能日高:5
   stop_sequence: 3
   stop_id: 5931bus:00124380
-  arrival_time: '22:37:40'
-  departure_time: '22:37:40'
+  arrival_time: '22:38:00'
+  departure_time: '22:38:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:weekday:飯30:西武飯能日高:6
   stop_sequence: 3
   stop_id: 5931bus:00124380
-  arrival_time: '23:10:40'
-  departure_time: '23:10:40'
+  arrival_time: '23:11:00'
+  departure_time: '23:11:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:saturday:飯30:西武飯能日高:1
   stop_sequence: 3
   stop_id: 5931bus:00124380
-  arrival_time: '21:04:40'
-  departure_time: '21:04:40'
+  arrival_time: '21:05:00'
+  departure_time: '21:05:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:saturday:飯30:西武飯能日高:2
   stop_sequence: 3
   stop_id: 5931bus:00124380
-  arrival_time: '21:31:40'
-  departure_time: '21:31:40'
+  arrival_time: '21:32:00'
+  departure_time: '21:32:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:saturday:飯30:西武飯能日高:3
   stop_sequence: 3
   stop_id: 5931bus:00124380
-  arrival_time: '21:59:40'
-  departure_time: '21:59:40'
+  arrival_time: '22:00:00'
+  departure_time: '22:00:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:saturday:飯30:西武飯能日高:4
   stop_sequence: 3
   stop_id: 5931bus:00124380
-  arrival_time: '22:41:40'
-  departure_time: '22:41:40'
+  arrival_time: '22:42:00'
+  departure_time: '22:42:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:holiday:飯30:西武飯能日高:1
   stop_sequence: 3
   stop_id: 5931bus:00124380
-  arrival_time: '21:04:40'
-  departure_time: '21:04:40'
+  arrival_time: '21:05:00'
+  departure_time: '21:05:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:holiday:飯30:西武飯能日高:2
   stop_sequence: 3
   stop_id: 5931bus:00124380
-  arrival_time: '21:31:40'
-  departure_time: '21:31:40'
+  arrival_time: '21:32:00'
+  departure_time: '21:32:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:holiday:飯30:西武飯能日高:3
   stop_sequence: 3
   stop_id: 5931bus:00124380
-  arrival_time: '21:59:40'
-  departure_time: '21:59:40'
+  arrival_time: '22:00:00'
+  departure_time: '22:00:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:holiday:飯30:西武飯能日高:4
   stop_sequence: 3
   stop_id: 5931bus:00124380
-  arrival_time: '22:41:40'
-  departure_time: '22:41:40'
+  arrival_time: '22:42:00'
+  departure_time: '22:42:00'
   pickup_type: 1
 - trip_id: 5931bus:西武飯能日高線:weekday:飯30:飯能駅:1
   stop_sequence: 3
   stop_id: 5931bus:00124293
-  arrival_time: 05:41:20
-  departure_time: 05:41:20
+  arrival_time: 05:41:00
+  departure_time: 05:41:00
   pickup_type: 1
 - trip_id: 5931bus:双柳循環:weekday:飯15:飯能駅:12
   stop_sequence: 15
