@@ -1,7 +1,7 @@
 uid: "1lc41f23ce52qhocih12ca9ls4@google.com"
 summary: "Myはんのう v1.32.0"
 dtstart: "2026-05-29"
-dtend: "2026-06-04"
+dtend: "2026-05-29"
 description: |-
   バスの便に系統番号を表示し、路線・系統の見せ方を整理しました。
   
@@ -13,7 +13,7 @@ description: |-
 
 render:
   gcal:
-    mode: span-allday
+    mode: single-allday
 translations:
   en:
     summary: "Myはんのう v1.32.0"
