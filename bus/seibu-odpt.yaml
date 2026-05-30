@@ -3,7 +3,7 @@ meta:
   source: ''
   source_url: https://api.odpt.org/api/v4/files/SeibuBus/data/SeibuBus-GTFS.zip
   extracted_at: '2026-05-30'
-  extractor_commit: 23c0734
+  extractor_commit: 20a48b8
   extractor_script: extract_gtfs.py
   license: ODPT
   attribution: 公共交通オープンデータセンター
@@ -87,13 +87,13 @@ stops:
   location_type: 0
   stop_lat: 35.852567
   stop_lon: 139.326677
-  parent_station: station:東飯能駅東口
+  parent_station: station:東飯能駅
 - stop_id: seibu-odpt:160234-03-15
   stop_name: 東飯能駅東口
   location_type: 0
   stop_lat: 35.8522
   stop_lon: 139.326665
-  parent_station: station:東飯能駅東口
+  parent_station: station:東飯能駅
 - stop_id: seibu-odpt:160235-01
   stop_name: 栄町（飯能市）
   location_type: 0
@@ -119,11 +119,11 @@ stops:
   location_type: 1
   stop_lat: 35.850882
   stop_lon: 139.320392
-- stop_id: station:東飯能駅東口
-  stop_name: 東飯能駅東口
+- stop_id: station:東飯能駅
+  stop_name: 東飯能駅
   location_type: 1
-  stop_lat: 35.852578
-  stop_lon: 139.326669
+  stop_lat: 35.852416
+  stop_lon: 139.325483
 stop_times:
 - trip_id: seibu-odpt:555020-1_16-土曜_31200
   stop_sequence: 1

@@ -43,6 +43,7 @@ overrides:
     google_maps: https://maps.app.goo.gl/HWjAEfUjSGysz6aA8
     lat: 35.852416
     lng: 139.325483
+    canonical: 東飯能駅
     aliases:
     # 〔駅前広場〕 は loadBusData の正規化で （駅前広場） になるため別途列挙不要
     - 東飯能駅 (駅前広場)
@@ -51,6 +52,7 @@ overrides:
     google_maps: https://maps.app.goo.gl/P65dEWnytFdvGQsp9
     lat: 35.852578
     lng: 139.326669
+    canonical: 東飯能駅
   # む-ま号 精明・加治 ルートマップ (mu-maroot2.pdf) で「路線バス停留所」(黄色
   # マーカー) として記載されている停留所のうち、5931bus 側の停留所名が異なる
   # ものを統一する。市の認識では同じ物理停留所。

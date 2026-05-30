@@ -3,7 +3,7 @@ meta:
   operator: 西武バス
   feed_id: seibu-hanno
   extracted_at: '2026-05-30'
-  extractor_commit: 23c0734
+  extractor_commit: 20a48b8
   extractor_script: extract.py
 agencies:
 - agency_id: seibu_bus

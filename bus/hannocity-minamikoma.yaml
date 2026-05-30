@@ -3,7 +3,7 @@ meta:
   source: ''
   source_url: https://api.gtfs-data.jp/v2/organizations/hannocity/feeds/odekakemuma-minamikoma/files/feed.zip
   extracted_at: '2026-05-30'
-  extractor_commit: 23c0734
+  extractor_commit: 20a48b8
   extractor_script: extract_gtfs.py
   license: CC0 1.0
   attribution: 飯能市
