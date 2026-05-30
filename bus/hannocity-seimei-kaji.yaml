@@ -2,8 +2,8 @@ meta:
   feed_id: hannocity-seimei-kaji
   source: ''
   source_url: https://api.gtfs-data.jp/v2/organizations/hannocity/feeds/odekakemuma-seimei-kaji/files/feed.zip
-  extracted_at: '2026-05-29'
-  extractor_commit: 8fdd96f
+  extracted_at: '2026-05-30'
+  extractor_commit: f690f08
   extractor_script: extract_gtfs.py
   license: CC0 1.0
   attribution: 飯能市
@@ -97,6 +97,7 @@ stops:
   location_type: 0
   stop_lat: 35.852203
   stop_lon: 139.326665
+  parent_station: station:東飯能駅東口
 - stop_id: hannocity-seimei-kaji:2_1
   stop_name: 栄町
   location_type: 0
@@ -112,6 +113,7 @@ stops:
   location_type: 0
   stop_lat: 35.8554416936393
   stop_lon: 139.327647038038
+  parent_station: station:飯能市役所
 - stop_id: hannocity-seimei-kaji:4_1
   stop_name: 総合福祉センター南
   location_type: 0
@@ -377,6 +379,16 @@ stops:
   location_type: 0
   stop_lat: 35.8406945599654
   stop_lon: 139.34536239381
+- stop_id: station:飯能市役所
+  stop_name: 飯能市役所
+  location_type: 1
+  stop_lat: 35.855442
+  stop_lon: 139.327647
+- stop_id: station:東飯能駅東口
+  stop_name: 東飯能駅東口
+  location_type: 1
+  stop_lat: 35.852578
+  stop_lon: 139.326669
 stop_times:
 - trip_id: hannocity-seimei-kaji:加治系統+1+月水金+1
   stop_sequence: 1
