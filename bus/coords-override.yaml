@@ -10,6 +10,13 @@
 # 統一するためのリスト。NaviTime route_all_stops と 5931bus 等で
 # 同じバス停を異なる name で持つことがあるため。
 #
+# `canonical` は複数のエントリーをさらに上位 station にまとめる場合に指定する。
+# 例: 飯能駅 北口 / 飯能駅 南口 はそれぞれ 200m 離れた物理停留所だが、
+# UI 上は「飯能駅」として集約したい場合、両方に canonical: 飯能駅 を付ける。
+# extract.py がこれを読み、station:飯能駅 (location_type=1) を 1 つ作り、
+# 両エントリーとその aliases 全てを parent_station=station:飯能駅 に紐付ける。
+# 省略時は自己 (= ヘッダー名) を station 名として扱う。
+#
 # 新規追加 / 修正後の手順:
 #   1. google_maps に short URL を貼る (lat/lng は空でも可)
 #   2. `cd tools/bus-timetable-extractor && python3 resolve-coords.py`
@@ -21,6 +28,7 @@ overrides:
     google_maps: https://maps.app.goo.gl/y2t41jPaFwt2SR6C7
     lat: 35.850882
     lng: 139.320392
+    canonical: 飯能駅
     aliases:
     - 飯能駅
     - 飯能駅北口
@@ -28,6 +36,7 @@ overrides:
     google_maps: https://maps.app.goo.gl/xW5ZhT8grDHy2rEA7
     lat: 35.850802
     lng: 139.318337
+    canonical: 飯能駅
     aliases:
     - 飯能駅南口
   東飯能駅:

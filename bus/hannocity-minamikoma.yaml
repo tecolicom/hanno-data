@@ -3,7 +3,7 @@ meta:
   source: ''
   source_url: https://api.gtfs-data.jp/v2/organizations/hannocity/feeds/odekakemuma-minamikoma/files/feed.zip
   extracted_at: '2026-05-30'
-  extractor_commit: f690f08
+  extractor_commit: 23c0734
   extractor_script: extract_gtfs.py
   license: CC0 1.0
   attribution: 飯能市
@@ -341,23 +341,23 @@ stops:
   location_type: 0
   stop_lat: 35.850845851143
   stop_lon: 139.320364524598
-  parent_station: station:飯能駅 北口
+  parent_station: station:飯能駅
 - stop_id: hannocity-minamikoma:22_0
   stop_name: 東飯能駅（駅前広場）
   location_type: 0
   stop_lat: 35.8524007396499
   stop_lon: 139.325478591685
   parent_station: station:東飯能駅
+- stop_id: station:飯能駅
+  stop_name: 飯能駅
+  location_type: 1
+  stop_lat: 35.850882
+  stop_lon: 139.320392
 - stop_id: station:東飯能駅
   stop_name: 東飯能駅
   location_type: 1
   stop_lat: 35.852416
   stop_lon: 139.325483
-- stop_id: station:飯能駅 北口
-  stop_name: 飯能駅 北口
-  location_type: 1
-  stop_lat: 35.850882
-  stop_lon: 139.320392
 stop_times:
 - trip_id: hannocity-minamikoma:3+1+月水金+1
   stop_sequence: 1
