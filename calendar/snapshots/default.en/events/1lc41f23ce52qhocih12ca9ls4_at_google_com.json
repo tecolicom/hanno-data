@@ -5,7 +5,7 @@
   },
   "description": "Automated translation (refer to source for accuracy)\n\nWe've updated how bus routes and systems are displayed, including route numbers on each bus service.\n\n• Bus services now show route numbers — Timetables and countdowns now display route numbers (like Hanno 01, Hanno 03-2) alongside service names like \"Naguri Line.\" This makes it easier to match the numbers shown on the bus and in guides.\n\n• Route names now show destinations and stops — Services are labeled with stops and destinations included, such as \"Naguri Line via Arima Dam to Nago.\" We removed redundant \"Hanno Station to...\" prefixes.\n\n• Odekake Mooma shuttle split by district — \"Seimei/Kaji Mooma\" is now divided into three services: \"Kaji Mooma,\" \"Seimei East Mooma,\" and \"Seimei West Mooma,\" making it clearer which areas each service covers.\n\n• Service selection screen improved — Route name and system appear on the left with departure times on the right. Final stop and arrival time are also shown. After selecting a stop, headers are hidden for a cleaner display.\n\n• Seibu Bus Misugi Daisen line reorganized to official system names, and late-night services now shown — Destination names for the Misugi Daiden area now match official names (Misugi Daiten New Town / UA Caster before / Crown Package before), and late-night services previously not shown are now displayed.",
   "end": {
-    "date": "2026-06-05"
+    "date": "2026-05-30"
   },
   "eventType": "default",
   "htmlLink": "https://www.google.com/calendar/event?eid=MWxjNDFmMjNjZTUycWhvY2loMTJjYTlsczQgZDkxOTNjZjVmNjQ0YWI0MWEyOGUyMjY4YTk4YWJjNWFhNDI2YmQyZDU3NzE1MjgzNDI0NGFkNjlhMzFmNWE2OEBn",
@@ -26,5 +26,5 @@
   },
   "status": "confirmed",
   "summary": "Myはんのう v1.32.0",
-  "updated": "2026-05-29T20:16:28.122Z"
+  "updated": "2026-05-30T19:08:00.455Z"
 }
