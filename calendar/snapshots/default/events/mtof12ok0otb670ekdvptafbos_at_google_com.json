@@ -1,0 +1,30 @@
+{
+  "created": "2026-05-31T15:49:31.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "## v1.36.0\n\n降水量バーを刷新しました。雨が降る「確率」と「量」が同じグラフで一目で読めるようになります。あわせてゴミの町選択も操作しやすくしました。\n\n- **降水バーを「確率 + 量」の 2 軸表示に刷新** — 背景の青/黄グラデーションが「いつ降りそうか」、棒の高さが「どれくらい降るか」を表します\n- **6 時間ブロックの降水確率を上に表示** — 6h ごとの確率 % が並び、ブロックの境界に `·` 印\n- **大雨はチャート上端を突き抜けるスパイク** — 1 時間 30mm を超える警報級の大雨が一目で分かります\n- **降水量バーと暑さ指数バーの高さを統一** — 並べて見比べやすく\n- **降水量バーにも夜間オーバーレイ** — 日の出前 / 日没後を薄暗く表示 (暑さ指数バーと同じ)\n- **降水確率は 1 週間先まで表示** — 気象庁の週間予報も取り込むようにしました (これまでは今日 + 1.5 日まで)\n- **降水なしの日はチャート非表示** — 「🌧 降水なし」テキストだけ出して画面をすっきりに\n- **ゴミの町選択を集中モード化** — 五十音バッジをタップすると他の仮名が隠れて、その仮名の町名だけ横一列に表示。マウスや指を横に動かすだけで町名に届きます。再タップで戻ります\n- **仮名バッジを大きく** — タップしやすく、町名と同じ大きさで一覧性も向上\n- **「選ばない」ボタン** — ゴミ欄を出したくない時の選択肢。旧「表示しない」より「何を選ばないか」が明確\n- **footer の運営者リンクを Office TECOLI の事業ページに修正**",
+  "end": {
+    "date": "2026-06-08"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=bXRvZjEyb2swb3RiNjcwZWtkdnB0YWZib3MgMjA1NDAzYzk3MWRjNWVmMjFlZmQ4MWMxZDUzODQ5Y2FkZmQ5MDFiNzVjNzdkODg5NTVkOTYwMGY0NWYyYTAxM0Bn",
+  "iCalUID": "mtof12ok0otb670ekdvptafbos@google.com",
+  "id": "mtof12ok0otb670ekdvptafbos",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "Myはんのう",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "start": {
+    "date": "2026-06-01"
+  },
+  "status": "confirmed",
+  "summary": "Myはんのう v1.36.0",
+  "updated": "2026-05-31T15:49:31.429Z"
+}

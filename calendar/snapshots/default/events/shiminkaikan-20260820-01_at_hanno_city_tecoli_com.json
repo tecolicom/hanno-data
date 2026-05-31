@@ -1,0 +1,35 @@
+{
+  "created": "2026-05-31T19:11:27.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 09:45–11:45\n\n飯能市民会館: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html\n\n【会場】大ホール\n【主催】飯能地区安全運転管理者協会",
+  "end": {
+    "date": "2026-08-21"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2VkazZpcmI5ZHBsbTJxYmJjNW4ycWNoZzY4cjMwZTFpNjBtajBjYTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIDIwNTQwM2M5NzFkYzVlZjIxZWZkODFjMWQ1Mzg0OWNhZGZkOTAxYjc1Yzc3ZDg4OTU1ZDk2MDBmNDVmMmEwMTNAZw",
+  "iCalUID": "shiminkaikan-20260820-01@hanno.city.tecoli.com",
+  "id": "_edk6irb9dplm2qbbc5n2qchg68r30e1i60mj0ca0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "location": "飯能市民会館 大ホール",
+  "organizer": {
+    "displayName": "Myはんのう",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html"
+  },
+  "start": {
+    "date": "2026-08-20"
+  },
+  "status": "confirmed",
+  "summary": "飯能地区安全運転管理者等法定講習",
+  "updated": "2026-05-31T19:11:27.461Z"
+}
