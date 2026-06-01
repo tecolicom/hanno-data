@@ -1,0 +1,26 @@
+uid: "shicho-blog-13592@hanno.city.tecoli.com"
+summary: "📝 市長：「ちふれASエルフェン埼玉」表敬訪問"
+url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202605/13592.html"
+dtstart: "2026-05-20"
+dtend: "2026-05-20"
+description: |-
+  5月20日（水曜日）、飯能市茜台を練習拠点として活動する女子プロサッカークラブ「ちふれASエルフェン埼玉」の宮内取締役会長、平尾選手、山田選手が市役所を訪問してくださいました。
+  
+  先日終了したWEリーグ2025-26シーズンの報告とともに、来シーズンへの抱負を語っていただきました。
+  
+  選手の皆様には市内のこどもたちに対し、サッカーを通じて体を動かすことの楽しさを知ってもらうことを目的とした地域活動もしていただいております。
+  
+  今後も飯能市全体でしっかりと選手の皆様を応援させていただきます。
+  
+  市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202605/13592.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-shicho-blog
+  id: "13592"
+  url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202605/13592.html"
+  fetched_at: "2026-06-01T21:26:13.930712Z"
+  content_hash: "sha256-7be3bfafe3f54417"

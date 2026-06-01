@@ -1,0 +1,49 @@
+uid: "oshirase-7608-81a17d@hanno.city.tecoli.com"
+summary: "ℹ️ 飯能市営住宅入居者募集（6月募集）"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/kenchikuka/shieijyuuraku/7608.html"
+dtstart: "2026-06-02"
+dtend: "2026-06-02"
+description: |-
+  🆕 新着掲載 (公開日: 2026-06-01)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  飯能市営住宅の入居者を募集します。
+  
+  【募集期間】
+  令和8年6月1日（月曜日）から令和8年6月15日（月曜日）まで（消印有効）
+  
+  【申込方法】
+  募集案内をよくお読みいただき、申込書を同封の返信用封筒にて郵送してください。
+  
+  【入居要件等】
+  ・入居の際には1名の連帯保証人が必要です
+  ・犬、猫等の飼育は禁止です
+  ・入居前の修繕は必要最低限のものになります
+  
+  【注意事項】
+  ・申込書提出後は、原則として記載事項の変更はできません
+  ・申込書及び提出書類はお返ししません
+  ・申込書類が完備していないと受付けません
+  
+  原則として抽選・資格審査により入居者を決定します。
+  
+  【問い合わせ先】
+  埼玉県住宅供給公社 川越支所
+  電話番号 049-227-6418
+  〒350-1101 川越市大字的場2218番地4 ベルアート301号室
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/kenchikuka/shieijyuuraku/7608.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "7608"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/kenchikuka/shieijyuuraku/7608.html"
+  fetched_at: "2026-06-01T21:26:19.166402Z"
+  content_hash: "sha256-81a17d921618c287"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-06-01"

@@ -1,0 +1,26 @@
+uid: "shicho-blog-13609@hanno.city.tecoli.com"
+summary: "📝 市長：飯能消防防災フェスタ2026"
+url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202605/13609.html"
+dtstart: "2026-05-24"
+dtend: "2026-05-24"
+description: |-
+  5月24日（日曜日）、飯能市役所西側駐車場において、飯能消防防災フェスタ2026が盛大に開催されました。今回は消防防災フェスタを実行委員会が消防技術大会を消防団が担う形になり、それぞれの持ち分を活かしたイベントになりました。
+  
+  消防防災フェスタでは防災・防火に関連するブースが設置されるとともに埼玉西部消防局からはしご車や救急車等の消防車両の展示やステージでは消防音楽隊の演奏が行われました。また、昼頃には埼玉県防災航空隊の防災ヘリが上空を旋回し、先日の山林火災でも活躍した防災ヘリの雄姿を多くの来場者が眺めておりました。
+  
+  飯能消防団の主催する第3回消防技術大会では全分団とも日頃の訓練の成果を遺憾なく発揮し、迅速で確実な放水技術の披露がなされておりました。団員による消防技術大会終了後にはこどもたちの放水体験やホース展張体験なども行われ、多くの来場者が楽しむとともに消防団活動に対する理解やイメージアップが図れたと思います。
+  
+  消防団の皆様を始め、関係者の皆様大変お疲れさまでした。
+  
+  市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202605/13609.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-shicho-blog
+  id: "13609"
+  url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202605/13609.html"
+  fetched_at: "2026-06-01T21:26:13.367736Z"
+  content_hash: "sha256-38d7b17f47d1377f"

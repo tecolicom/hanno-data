@@ -1,0 +1,34 @@
+uid: "oshirase-13584-cda33d@hanno.city.tecoli.com"
+summary: "ℹ️ 富士見地区行政センター、名栗地区行政センター図書室の図書貸出しを開始します。"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/gyoseicenterkanrika/fujimichikugyoseicenter_kominkan/13584.html"
+dtstart: "2026-06-02"
+dtend: "2026-06-02"
+description: |-
+  🆕 新着掲載 (公開日: 2026-06-01)
+  
+  富士見・名栗の行政センターで、図書館分室から移管された図書の貸出しを開始します。
+  
+  ぜひご利用ください。
+  
+  貸出日 ：センター開庁日
+  
+  貸出時間：午前9時～午後4時30分
+  
+  また、市立図書館配本サービスもご利用いただけます。
+  
+  詳細は、行政センター窓口にお問い合わせください。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/gyoseicenterkanrika/fujimichikugyoseicenter_kominkan/13584.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13584"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/gyoseicenterkanrika/fujimichikugyoseicenter_kominkan/13584.html"
+  fetched_at: "2026-06-01T21:26:16.179474Z"
+  content_hash: "sha256-cda33dfc78758e6d"
+  summary_method: "full"
+  publish_date: "2026-06-01"
