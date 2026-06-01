@@ -1,0 +1,34 @@
+{
+  "created": "2026-06-01T21:29:31.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 New (Published: June 1, 2026)\n\nBook lending is now starting at the Fujimi and Naguiri district administrative centers, using books transferred from the library branch.\n\nPlease feel free to use this service.\n\nLending dates: On days when the center is open\n\nLending hours: 9:00 AM to 4:30 PM\n\nYou can also use the Hanno City Library book delivery service.\n\nFor details, please contact the administrative center counter.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/gyoseicenterkanrika/fujimichikugyoseicenter_kominkan/13584.html",
+  "end": {
+    "date": "2026-06-03"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3FqZ2QxZGNkaTYyY3BqY2gwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-13584-cda33d@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6cqjgd1dcdi62cpjch06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/gyoseicenterkanrika/fujimichikugyoseicenter_kominkan/13584.html"
+  },
+  "start": {
+    "date": "2026-06-02"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Book lending now available at Fujimi and Naguり district administrative centers",
+  "updated": "2026-06-01T21:29:32.101Z"
+}

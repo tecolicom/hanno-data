@@ -1,0 +1,34 @@
+{
+  "created": "2026-06-01T21:29:19.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nOn May 24 (Sunday, Reiwa 8), the Hanno Fire and Disaster Prevention Festival 2026 was held in grand style at the west parking lot of Hanno City Hall. This year, the executive committee organized the disaster prevention festival while the fire brigade managed the fire service skill competition, with each group leveraging their strengths to create a well-rounded event.\n\nThe festival featured booths related to disaster prevention and fire safety. The Saitama Western Fire Department displayed fire vehicles including ladder trucks and ambulances, and the fire department's music band performed on stage. Around midday, the Saitama Prefecture Disaster Prevention Helicopter circled overhead, and many visitors watched the impressive sight of the helicopter that has also been active in recent mountain fires.\n\nThe third annual Fire Service Skill Competition, hosted by the Hanno Fire Brigade, showcased the results of daily training by all divisions. Members demonstrated quick and reliable water-spraying techniques. After the competition ended, children and many visitors enjoyed water-spraying and hose-laying demonstrations, which helped build understanding and improve the public image of fire brigade activities.\n\nThank you very much to all fire brigade members and everyone involved for your hard work.\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202605/13609.html",
+  "end": {
+    "date": "2026-05-25"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2VkazZpb3I4ZHNtbTRyM2Zjc21qMmNwbTYwc2swcTMxZHBuNnViajNkNXE3aWJqa2NsaG11cjM5NXBobXVyOCBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "shicho-blog-13609@hanno.city.tecoli.com",
+  "id": "_edk6ior8dsmm4r3fcsmj2cpm60sk0q31dpn6ubj3d5q7ibjkclhmur395phmur8",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202605/13609.html"
+  },
+  "start": {
+    "date": "2026-05-24"
+  },
+  "status": "confirmed",
+  "summary": "📝 Mayor's reflection: Hanno Fire and Disaster Prevention Festival 2026",
+  "updated": "2026-06-01T21:29:19.933Z"
+}
