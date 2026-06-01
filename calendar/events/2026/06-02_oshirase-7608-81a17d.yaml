@@ -47,3 +47,41 @@ source:
   content_hash: "sha256-81a17d921618c287"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-06-01"
+translations:
+  en:
+    summary: "ℹ️ Hanno City Public Housing – Tenant Recruitment (June 2026)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      �新 New Listing (Posted: June 1, 2026)
+      
+      Hanno City is recruiting tenants for public housing units.
+      
+      【Application Period】
+      June 1, 2026 (Monday) to June 15, 2026 (Monday) – postmark date counts as submission date
+      
+      【How to Apply】
+      Read the recruitment information carefully. Fill out the application form and mail it in the enclosed reply envelope.
+      
+      【Occupancy Requirements】
+      • You must provide one guarantor at move-in
+      • Dogs, cats, and other pets are prohibited
+      • Repairs before move-in will be kept to the bare minimum
+      
+      【Important Notes】
+      • After you submit your application form, you generally cannot change any information you wrote
+      • Application forms and all submitted documents will not be returned
+      • Applications with missing documents will not be accepted
+      
+      Tenants will be selected by lottery and eligibility screening as a general rule.
+      
+      【Contact】
+      Saitama Prefecture Housing Supply Corporation – Kawagoe Branch
+      Phone: 049-227-6418
+      〒350-1101 Kawagoe, Aza-Matoba 2218-4, Bell Art 301
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/kenchikuka/shieijyuuraku/7608.html
+    translation_hash: "sha256-eaa1578adc3d21f9"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-06-01T21:28:21.660937Z"
+    format_version: 3

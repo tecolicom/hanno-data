@@ -24,3 +24,22 @@ source:
   url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202605/13609.html"
   fetched_at: "2026-06-01T21:26:13.367736Z"
   content_hash: "sha256-38d7b17f47d1377f"
+translations:
+  en:
+    summary: "📝 Mayor's reflection: Hanno Fire and Disaster Prevention Festival 2026"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      On May 24 (Sunday, Reiwa 8), the Hanno Fire and Disaster Prevention Festival 2026 was held in grand style at the west parking lot of Hanno City Hall. This year, the executive committee organized the disaster prevention festival while the fire brigade managed the fire service skill competition, with each group leveraging their strengths to create a well-rounded event.
+      
+      The festival featured booths related to disaster prevention and fire safety. The Saitama Western Fire Department displayed fire vehicles including ladder trucks and ambulances, and the fire department's music band performed on stage. Around midday, the Saitama Prefecture Disaster Prevention Helicopter circled overhead, and many visitors watched the impressive sight of the helicopter that has also been active in recent mountain fires.
+      
+      The third annual Fire Service Skill Competition, hosted by the Hanno Fire Brigade, showcased the results of daily training by all divisions. Members demonstrated quick and reliable water-spraying techniques. After the competition ended, children and many visitors enjoyed water-spraying and hose-laying demonstrations, which helped build understanding and improve the public image of fire brigade activities.
+      
+      Thank you very much to all fire brigade members and everyone involved for your hard work.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202605/13609.html
+    translation_hash: "sha256-60a49e91c1f771cd"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-06-01T21:28:02.522246Z"
+    format_version: 3

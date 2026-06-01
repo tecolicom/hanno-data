@@ -32,3 +32,28 @@ source:
   content_hash: "sha256-cda33dfc78758e6d"
   summary_method: "full"
   publish_date: "2026-06-01"
+translations:
+  en:
+    summary: "ℹ️ Book lending now available at Fujimi and Naguり district administrative centers"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New (Published: June 1, 2026)
+      
+      Book lending is now starting at the Fujimi and Naguiri district administrative centers, using books transferred from the library branch.
+      
+      Please feel free to use this service.
+      
+      Lending dates: On days when the center is open
+      
+      Lending hours: 9:00 AM to 4:30 PM
+      
+      You can also use the Hanno City Library book delivery service.
+      
+      For details, please contact the administrative center counter.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/gyoseicenterkanrika/fujimichikugyoseicenter_kominkan/13584.html
+    translation_hash: "sha256-41938e79e62c4588"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-06-01T21:28:18.021512Z"
+    format_version: 3
