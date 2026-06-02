@@ -26,3 +26,32 @@ description: |-
 render:
   gcal:
     mode: span-allday
+translations:
+  en:
+    summary: "Myはんのう v1.37.2"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      v1.37.2
+      
+      The "Everyone's Favorite Shops" page now lets you pick a bus stop and find nearby shops.
+      
+      • 🚏 Pick a bus stop to find nearby favorite shops — New button on the Everyone's Favorite Shops page. Tap it to open a picker for major stations / name search / route → stop (same feel as the bus stop selection screen). The stop you choose becomes the starting point for distance filtering
+      • Show place names with your current location — Displays place names (at the neighborhood/ōaza level) like "✓ 📍 Current location: Hanno"
+      • Reorder "Place" section to the top of controls — Reorganized UI flow: Place → Display / Distance → Sort order (matches the thought process of deciding your starting point first, then filtering)
+      • Improved auto-location detection on the "Getting home by bus" page — Fetches your current location when navigating to the page, as long as you haven't refused location permission in the past
+      
+      v1.37.1
+      
+      Improved the moon marker area on the weather chart.
+      
+      • Clear for more than half the month, faint only near the new moon — Changed moon marker opacity based on "lunar illumination." Clearly visible moons like first quarter, last quarter, full moon, and waxing gibbous show crisp; only the thin crescent near the new moon appears faint
+      • New moon gets a fun face emoji 🌚 — Other moon phases stay as regular emojis
+      • Half-moon 🌗 now appears on the last quarter day — Fixed a bug where the previous day's 🌖 was showing instead
+      • Keyboard shortcuts d / w / s — On PC, jump directly to Daily / Weather / Service sections (existing PgUp/PgDn still do adjacent navigation)
+      • Scrolling while viewing the weather chart no longer shifts position — The section you're looking at stays in the same spot on screen, even if the information above it changes with the date
+      • Moved /wbgt/ to /weather/chart/ — The content has expanded to cover the whole weather chart explanation, so the URL now matches (old URL will return 404)
+    translation_hash: "sha256-5c3c7f644c155ee1"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-06-02T20:42:59.214156Z"
+    format_version: 3

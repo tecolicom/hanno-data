@@ -28,3 +28,24 @@ source:
   content_hash: "sha256-c19e3d6c13563104"
   summary_method: "full"
   publish_date: "2026-06-02"
+translations:
+  en:
+    summary: "ℹ️ Naguri Clinic temporary closure"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New posting (published June 2, 2026)
+      
+      【June 3 (Wednesday) clinic hours】
+      
+      Naguri Clinic will be temporarily closed on Wednesday, June 3.
+      
+      We apologize for any inconvenience. Thank you for your understanding.
+      
+      Normal clinic hours will resume on Thursday, June 4.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/iryo/13625.html
+    translation_hash: "sha256-394b0622f196e690"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-06-02T20:43:06.367004Z"
+    format_version: 3

@@ -35,3 +35,29 @@ source:
   content_hash: "sha256-80259644eb336a23"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-04-01"
+translations:
+  en:
+    summary: "ℹ️ Hanno Senior College"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      �新 New (Posted: April 1, 2026)
+      
+      Hanno Senior College runs training courses to develop people who can learn and spread fall prevention and care support in the community.
+      
+      【Kagayaki Supporter Training Course】
+      Trains supporters to participate and enjoy activities with participants at Moomai Ikiiki Gymnastics (weighted exercise) sessions. Full 6-session course (attendance at all sessions required in principle). Instructor: physical therapist. Welcomes people who enjoy exercise and movement and those interested in community activities. No special qualifications or teaching experience needed. Recruitment will be announced in Koho Hanno (city newsletter). Free.
+      
+      【Frailty Prevention Supporter Training Course】
+      Learn frailty prevention through four courses covering "exercise," "oral health gymnastics," "recreation," and "hearing and speech disorders." Held at Hanno City Comprehensive Welfare Center.
+      
+      【Communication Partner Training Course】
+      Course teaching basic knowledge and techniques for "language disorders" such as aphasia and methods to help with conversation, including tips for dementia care. May 27, 2026 (Wed) 10:00–11:30 a.m., Comprehensive Welfare Center, instructor: speech-language pathologist. After completion, you can serve as a partner in the monthly "Communication Lecture" program.
+      
+      To apply or inquire: Care and Welfare Division, Community-based Comprehensive Care Section, phone 042-973-3753, email: shien@city.hanno.lg.jp
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/kaigo-yobou/7410.html
+    translation_hash: "sha256-faccf59732731cbe"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-06-02T20:43:11.092969Z"
+    format_version: 3

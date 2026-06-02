@@ -33,3 +33,27 @@ source:
   content_hash: "sha256-8caebf485a542324"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-06-02"
+translations:
+  en:
+    summary: "ℹ️ 【CANCELLED】Special Human Rights Consultation Office for 'Human Rights Advocates Day' will not be held"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content Update (Published: June 2, 2026)
+      
+      【CANCELLED】The special human rights consultation office planned for 'Human Rights Advocates Day' on June 3 has been cancelled due to the approach of Typhoon No. 6.
+      
+      Original schedule was as follows:
+      Date and time: June 3 (Wednesday), 10:00 a.m.–3:00 p.m.
+      Location: Hanno Central District Administrative Center
+      Counsellors: Human rights advocates
+      
+      This free consultation office handles inquiries about human rights issues including sexual harassment, power harassment, domestic violence, corporal punishment, bullying, online defamation, discrimination, and more.
+      
+      We apologize for any inconvenience to those who were planning to use this service, and appreciate your understanding.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/11548.html
+    translation_hash: "sha256-987e44dbe22bed2d"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-06-02T20:43:01.872392Z"
+    format_version: 3

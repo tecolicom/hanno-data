@@ -34,3 +34,40 @@ description: |-
 render:
   gcal:
     mode: single-allday
+translations:
+  en:
+    summary: "Myはんのう v1.37.0"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      v1.37.0
+      
+      We've combined the heat index bar, rainfall bar, temperature graph, and lunar phase tracker into a single "Weather Chart". The moon marker now appears at the top of the chart at the transit time (southernmost point in the sky), so you can see at a glance when it will be visible in the sky.
+      
+      • Integrated Weather Chart — condensed into one 160px-tall image. Background color shows the heat index (green → yellow → orange → red → dark red gradient), blue shading in the lower half shows rainfall probability, a darker blue bar in the center shows hourly rainfall amount, a thin curve shows temperature, and a dark overlay marks nighttime
+      • Moon marker at chart top — moon emoji positioned to match that day's transit time (when the moon reaches its highest point). New moon is centered, full moon is at the edge (= midnight transit), first quarter is toward the right (evening), last quarter is toward the left (early morning)
+      • Daytime moon fades into blue sky — moon marker transparency syncs with the night overlay. Moons that transit during full night (like full moon) appear vivid; moons that transit during day (new moon, or some quarter phases) appear faint
+      • Expanded moon phase names — displays traditional Japanese lunar names including new moon, crescent, first quarter, thirteenth night, small full, full moon, sixteenth night, waiting moon phases, last quarter, twenty-third night, twenty-sixth night, brightness moon, thirtieth night, and more
+      • Moon age now based on transit time — the age shown on the chart (days elapsed since the new moon at the moment the moon transits) may differ by half a day from the standard "noon moon age" (see the explanation page at /wbgt/ for details)
+      • "Astronomical Data" section — now always shown as a collapsible panel at the bottom of the weather card (remembers open/closed state). Includes moon age, moonrise/transit/moonset, brightness, distance, supermoon indicator; sunrise/transit/sunset, three twilight types (astronomical/nautical/civil), and day length
+      • /wbgt/ page expanded to "How to Read the Weather Chart" — explains each element (background color / temperature / rainfall / night / moon marker / moon age) and links to external resources (Ministry of the Environment heat index, Japan Meteorological Agency, National Astronomical Observatory of Japan)
+      
+      v1.36.0
+      
+      We've redesigned the rainfall bar. Now you can see at a glance both the "probability" and "amount" of rain on the same graph. We also made the garbage town selector easier to use.
+      
+      • Rainfall bar redesigned as "probability + amount" dual-axis display — blue/yellow gradient background shows "when rain is likely", bar height shows "how much will fall"
+      • 6-hour rainfall probability shown above — hourly probabilities appear in 6-hour blocks, with · marks at block boundaries
+      • Heavy rain breaks through chart top as spikes — rainfall over 30mm/hour (alert-level) is instantly recognizable
+      • Rainfall bar and heat index bar heights unified — easier to compare side by side
+      • Rainfall bar also has nighttime overlay — areas before sunrise and after sunset shown dimly (same as heat index bar)
+      • Rainfall probability displayed up to one week ahead — now incorporates Japan Meteorological Agency weekly forecasts (previously only today + 1.5 days)
+      • Days with no rain hide the chart — displays only "🌧 No rain" text to keep the screen clean
+      • Garbage town selector now concentrates selection — tapping a kana badge hides other kana and displays only that kana's town names in a single row. Swipe left/right to reach a town name. Tap again to restore full view
+      • Kana badges enlarged — easier to tap, same size as town names for better readability
+      • "Don't select" button — option when you don't want to see the garbage section. Clearer than the old "hide" option
+      • Footer operator link corrected to Office TECOLI business page
+    translation_hash: "sha256-9719ce234933d66d"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-06-02T20:42:53.034279Z"
+    format_version: 3
