@@ -1,0 +1,30 @@
+uid: "oshirase-13616-14c239@hanno.city.tecoli.com"
+summary: "ℹ️ 飯能市インフルエンザ等対策行動計画の改定について（令和8年5月改定）"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/13616.html"
+dtstart: "2026-06-03"
+dtend: "2026-06-03"
+description: |-
+  🆕 新着掲載 (公開日: 2026-06-02)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  飯能市は、令和8年5月に「飯能市新型インフルエンザ等対策行動計画」を改定しました。令和2年から令和5年にかけての新型コロナウイルス感染症の経験を踏まえ、国と埼玉県の計画改定に対応したものです。
+  
+  本計画は、新型インフルエンザや新型コロナウイルス感染症などの新たな感染症がパンデミックとなった場合に、感染拡大を可能な限り抑制し、市民の生命・健康を保護するとともに、市民生活および地域経済への影響を最小限とすることを目的としています。
+  
+  改定版は市公式サイトから PDF 形式で公開されています。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/13616.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13616"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/13616.html"
+  fetched_at: "2026-06-02T20:40:50.650889Z"
+  content_hash: "sha256-14c239f7d4f5b638"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-06-02"

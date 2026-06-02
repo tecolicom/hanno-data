@@ -1,0 +1,30 @@
+uid: "oshirase-13625-c19e3d@hanno.city.tecoli.com"
+summary: "ℹ️ 名栗診療所の臨時休診について"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/iryo/13625.html"
+dtstart: "2026-06-03"
+dtend: "2026-06-03"
+description: |-
+  🆕 新着掲載 (公開日: 2026-06-02)
+  
+  ## 6月3日（水曜日）の診療について
+  
+  6月3日（水曜日）は臨時休診とさせていただきます。
+  
+  皆様にはご迷惑をおかけいたしますが、何卒ご了承くださいますようお願いいたします。
+  
+  なお、明日6月4日（木曜日）からは通常診療になります。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/iryo/13625.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13625"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/iryo/13625.html"
+  fetched_at: "2026-06-02T20:40:47.668601Z"
+  content_hash: "sha256-c19e3d6c13563104"
+  summary_method: "full"
+  publish_date: "2026-06-02"

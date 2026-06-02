@@ -1,7 +1,7 @@
 uid: "mtof12ok0otb670ekdvptafbos@google.com"
 summary: "Myはんのう v1.37.0"
 dtstart: "2026-06-01"
-dtend: "2026-06-07"
+dtend: "2026-06-01"
 description: |-
   ## v1.37.0
   
@@ -33,4 +33,4 @@ description: |-
 
 render:
   gcal:
-    mode: span-allday
+    mode: single-allday
