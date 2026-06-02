@@ -1,0 +1,34 @@
+{
+  "created": "2026-06-02T20:42:28.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🔄 内容更新 (公開日: 2026-06-02)\n\nAI による要約 (正確な情報は元記事をご確認ください)\n\n【中止】「人権擁護委員の日」特設人権相談所（6月3日）について、台風第6号の接近に伴い、6月3日（水曜日）の開催を中止いたします。\n\n当初の開催予定は以下の通りでした：\n日時：6月3日（水曜日）10時～15時\n会場：飯能中央地区行政センター\n相談員：人権擁護委員\n\nセクハラやパワハラ、家庭内暴力、体罰やいじめ、インターネットでの誹謗中傷、差別など、人権に関する相談に応じる特設相談所で、相談は無料です。\n\nご利用を予定されていた皆様にはご不便をおかけしますが、ご理解くださいますようお願いいたします。\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/11548.html",
+  "end": {
+    "date": "2026-06-04"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2NHFqOGUxZDcxaG0ycGIyY3AwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSA2NzQ1OTE0YjI0MzIzMTEyYTE1ZjQzZGMyMGIzYTBmNGE0ODE3YWZkODAwYzhkMTY4N2QwYmYwYjdmODkwYzYxQGc",
+  "iCalUID": "oshirase-11548-8caebf@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h64qj8e1d71hm2pb2cp06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/11548.html"
+  },
+  "start": {
+    "date": "2026-06-03"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 【中止】「人権擁護委員の日」特設人権相談所を開設します",
+  "updated": "2026-06-02T20:42:29.188Z"
+}

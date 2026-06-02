@@ -1,0 +1,30 @@
+{
+  "created": "2026-06-02T20:44:06.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nv1.37.2\n\nThe \"Everyone's Favorite Shops\" page now lets you pick a bus stop and find nearby shops.\n\n• 🚏 Pick a bus stop to find nearby favorite shops — New button on the Everyone's Favorite Shops page. Tap it to open a picker for major stations / name search / route → stop (same feel as the bus stop selection screen). The stop you choose becomes the starting point for distance filtering\n• Show place names with your current location — Displays place names (at the neighborhood/ōaza level) like \"✓ 📍 Current location: Hanno\"\n• Reorder \"Place\" section to the top of controls — Reorganized UI flow: Place → Display / Distance → Sort order (matches the thought process of deciding your starting point first, then filtering)\n• Improved auto-location detection on the \"Getting home by bus\" page — Fetches your current location when navigating to the page, as long as you haven't refused location permission in the past\n\nv1.37.1\n\nImproved the moon marker area on the weather chart.\n\n• Clear for more than half the month, faint only near the new moon — Changed moon marker opacity based on \"lunar illumination.\" Clearly visible moons like first quarter, last quarter, full moon, and waxing gibbous show crisp; only the thin crescent near the new moon appears faint\n• New moon gets a fun face emoji 🌚 — Other moon phases stay as regular emojis\n• Half-moon 🌗 now appears on the last quarter day — Fixed a bug where the previous day's 🌖 was showing instead\n• Keyboard shortcuts d / w / s — On PC, jump directly to Daily / Weather / Service sections (existing PgUp/PgDn still do adjacent navigation)\n• Scrolling while viewing the weather chart no longer shifts position — The section you're looking at stays in the same spot on screen, even if the information above it changes with the date\n• Moved /wbgt/ to /weather/chart/ — The content has expanded to cover the whole weather chart explanation, so the URL now matches (old URL will return 404)",
+  "end": {
+    "date": "2026-06-09"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=ZmlvZWw3bXBxc2xwZGtzamR1dDFoZHNucGcgZDkxOTNjZjVmNjQ0YWI0MWEyOGUyMjY4YTk4YWJjNWFhNDI2YmQyZDU3NzE1MjgzNDI0NGFkNjlhMzFmNWE2OEBn",
+  "iCalUID": "fioel7mpqslpdksjdut1hdsnpg@google.com",
+  "id": "fioel7mpqslpdksjdut1hdsnpg",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "Myはんのう（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "start": {
+    "date": "2026-06-02"
+  },
+  "status": "confirmed",
+  "summary": "Myはんのう v1.37.2",
+  "updated": "2026-06-02T20:44:07.129Z"
+}

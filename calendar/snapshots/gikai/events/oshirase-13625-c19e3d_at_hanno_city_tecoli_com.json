@@ -1,0 +1,34 @@
+{
+  "created": "2026-06-02T20:42:30.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🆕 新着掲載 (公開日: 2026-06-02)\n\n## 6月3日（水曜日）の診療について\n\n6月3日（水曜日）は臨時休診とさせていただきます。\n\n皆様にはご迷惑をおかけいたしますが、何卒ご了承くださいますようお願いいたします。\n\nなお、明日6月4日（木曜日）からは通常診療になります。\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/iryo/13625.html",
+  "end": {
+    "date": "2026-06-04"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3IzNGQ5ZGNjb2ppcDlqY2gwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSA2NzQ1OTE0YjI0MzIzMTEyYTE1ZjQzZGMyMGIzYTBmNGE0ODE3YWZkODAwYzhkMTY4N2QwYmYwYjdmODkwYzYxQGc",
+  "iCalUID": "oshirase-13625-c19e3d@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6cr34d9dccojip9jch06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/iryo/13625.html"
+  },
+  "start": {
+    "date": "2026-06-03"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 名栗診療所の臨時休診について",
+  "updated": "2026-06-02T20:42:30.835Z"
+}

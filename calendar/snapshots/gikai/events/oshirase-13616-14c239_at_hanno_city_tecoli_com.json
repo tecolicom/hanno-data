@@ -1,0 +1,34 @@
+{
+  "created": "2026-06-02T20:42:29.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🆕 新着掲載 (公開日: 2026-06-02)\n\nAI による要約 (正確な情報は元記事をご確認ください)\n\n飯能市は、令和8年5月に「飯能市新型インフルエンザ等対策行動計画」を改定しました。令和2年から令和5年にかけての新型コロナウイルス感染症の経験を踏まえ、国と埼玉県の計画改定に対応したものです。\n\n本計画は、新型インフルエンザや新型コロナウイルス感染症などの新たな感染症がパンデミックとなった場合に、感染拡大を可能な限り抑制し、市民の生命・健康を保護するとともに、市民生活および地域経済への影響を最小限とすることを目的としています。\n\n改定版は市公式サイトから PDF 形式で公開されています。\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/13616.html",
+  "end": {
+    "date": "2026-06-04"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3IzMmRoZDY0cTY2Y2hqNzUwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSA2NzQ1OTE0YjI0MzIzMTEyYTE1ZjQzZGMyMGIzYTBmNGE0ODE3YWZkODAwYzhkMTY4N2QwYmYwYjdmODkwYzYxQGc",
+  "iCalUID": "oshirase-13616-14c239@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6cr32dhd64q66chj7506gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/13616.html"
+  },
+  "start": {
+    "date": "2026-06-03"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 飯能市インフルエンザ等対策行動計画の改定について（令和8年5月改定）",
+  "updated": "2026-06-02T20:42:29.987Z"
+}
