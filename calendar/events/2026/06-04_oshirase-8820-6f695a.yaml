@@ -40,3 +40,34 @@ source:
   content_hash: "sha256-6f695a4025686d85"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-06-03"
+translations:
+  en:
+    summary: "ℹ️ Hanno City Care Facility Support Subsidy"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      �新着掲載 (Published: June 3, 2026)
+      
+      Hanno City is offering support subsidies to operators of care facilities in the city to help offset the impact of rising energy and food prices.
+      
+      【Eligible Services and Subsidy Amounts】
+      • Home-visit services: 70,000 yen per business location
+      • Day-service facilities: 150,000 yen per business location
+      • Residential facilities: 10,000 yen per bed (based on capacity)
+      
+      【Application Period】
+      June 15, 2026 (Monday) – August 31, 2026 (Monday)
+      
+      【Required Documents】
+      • Hanno City Care Facility Support Subsidy Application and Payment Request Form
+      • Oath/Pledge document
+      • Power of Attorney (required only if the person requesting payment differs from the account holder)
+      
+      【How to Apply】
+      Each organization should fill in one application form listing all business locations it operates in Hanno City, then submit it to the Care and Welfare Division (介護福祉課). Mail submissions are accepted. Eligible organizations have already been notified in advance.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/oshirase/8820.html
+    translation_hash: "sha256-e8a1bc3a2bdd5f9f"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-06-03T20:53:32.994748Z"
+    format_version: 3

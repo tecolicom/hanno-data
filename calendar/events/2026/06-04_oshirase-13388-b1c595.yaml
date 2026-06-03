@@ -24,3 +24,20 @@ source:
   content_hash: "sha256-b1c595c4c8961b2f"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-06-03"
+translations:
+  en:
+    summary: "ℹ️ 【Fiscal Year 2026】Press Release"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content updated (Published: June 3, 2026)
+      
+      Summary by AI (Please check the original article for accurate information)
+      
+      We are conducting a market survey (soundings-type) regarding the use of the former Mukohara Housing Complex site. We are inviting proposals and feedback from business operators. Please see the attached implementation guidelines for details.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025_1/13388.html
+    translation_hash: "sha256-5bab0d6571bba3aa"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-06-03T20:53:25.968575Z"
+    format_version: 3
