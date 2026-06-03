@@ -1,0 +1,34 @@
+{
+  "created": "2026-06-03T20:54:31.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 New listing (Published: April 1, 2026)\n\nAI summary (check the original article for accurate details)\n\nHanno City runs 10 Hidamari Cafés and 2 Hidamari Gatherings as places where people with dementia, their families, and community members can come together.\n\n【Hidamari Café】\nYou can spend a relaxed, enjoyable time while having tea or coffee. The venues are: Howatt, Rock Garden, McDonald's, Kinoca, Hinata, Welcia, SOMPO Care Lavière Hanno, Kusunoki, Shikinosato Hanno, and Metsä (10 locations total).\n\n【Hidamari Gathering】\nMeetings for families caring for people with dementia, and places where the person with dementia can socialize. Held at Kusunoki and Chashokoro Tanpopo.\n\n• Fees vary by venue\n• For details (dates, times, access, fees, etc.), see the pamphlet PDF\n• For questions beyond what is listed here, contact the Community Comprehensive Support Center posted at each venue or Hanno City Care and Welfare Division\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/ninchi-sisaku/ninchi-jigyou/7981.html",
+  "end": {
+    "date": "2026-06-05"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOW43NHMzMmI5aTZncDNnZGo2ODFrNjJyamVkc242NnFia2Y0bjc4cGIzZHRtNmliajNkdG1nIGI2ZjM2ZTE5NzUxYzA1Y2NlOTlmYTAwODI4ZTQyOWY0MGY2ZGIxMDBlMmRiZTQ0MmJjMjYyMmEyNWRhOTczMTZAZw",
+  "iCalUID": "oshirase-7981-24286f@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9n74s32b9i6gp3gdj681k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/ninchi-sisaku/ninchi-jigyou/7981.html"
+  },
+  "start": {
+    "date": "2026-06-04"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Hidamari Café (Dementia Café)",
+  "updated": "2026-06-03T20:54:31.236Z"
+}
