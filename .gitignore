@@ -6,3 +6,9 @@
 .vscode/
 node_modules/
 __pycache__/
+
+# claude-code 作業ディレクトリ (ローカル設定)
+.claude/
+
+# ad-hoc 用ローカルファイル
+download.html

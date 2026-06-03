@@ -110,8 +110,7 @@ canonical に管理する仕組み。JP/EN 2 言語 × default/gikai 2 系統 = 
 AI 生成コンテンツの表示方針は [`docs/ai-content-policy.md`](./docs/ai-content-policy.md) 参照。
 
 CI 自動化 (GitHub Actions):
-- `cal-daily.yml` (07:00 JST) — 全 fetcher 実行 → events commit → JP Calendar 反映 → snapshot
-  - 英訳生成 (`cal-translate-en`) と `apply-all --lang en` は CI 未組込み (現状手動運用)
+- `cal-daily.yml` (03:00 JST + `calendar/bin/**` push trigger) — 全 fetcher 実行 → events commit → JP Calendar 反映 → `cal-translate-en` で英訳 → translations commit → EN Calendar 反映 → snapshot
 
 ### AED 設置施設
 
