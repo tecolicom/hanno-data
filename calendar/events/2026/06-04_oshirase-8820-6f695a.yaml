@@ -1,0 +1,42 @@
+uid: "oshirase-8820-6f695a@hanno.city.tecoli.com"
+summary: "ℹ️ 飯能市介護施設等支援金の交付について"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/oshirase/8820.html"
+dtstart: "2026-06-04"
+dtend: "2026-06-04"
+description: |-
+  🆕 新着掲載 (公開日: 2026-06-03)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  飯能市内の介護施設等を運営する法人を対象に、エネルギー・食料品価格等の物価高騰の影響に対する支援金を交付します。
+  
+  【対象サービスと支援金額】
+  ・訪問系サービス：1事業所当たり70,000円
+  ・通所系サービス：1事業所当たり150,000円
+  ・入所系サービス：定員1人当たり10,000円
+  
+  【申請期間】
+  令和8年6月15日（月曜日）～令和8年8月31日（月曜日）
+  
+  【申請に必要な書類】
+  ・飯能市介護施設等支援金交付申請書兼請求書
+  ・誓約書
+  ・委任状（支援金の請求者と振込先の口座名義人が異なる場合のみ）
+  
+  【申請方法】
+  法人ごとに、本市内で運営する事業所を一括して申請書に記入し、介護福祉課に提出してください。郵送可。対象となる法人には事前に通知が発送されています。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/oshirase/8820.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "8820"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/oshirase/8820.html"
+  fetched_at: "2026-06-03T20:51:34.516157Z"
+  content_hash: "sha256-6f695a4025686d85"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-06-03"
