@@ -1,0 +1,34 @@
+{
+  "created": "2026-06-04T20:02:13.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 New (Posted: June 4, 2026)\n\nAI summary (please check the original article for accurate details)\n\nThe city is conducting a market sounding survey to gather proposals from private developers regarding the future use of the former Mukaihara housing complex site (1-1 Kogubo Mukaihara, Hanno City).\n\nThe site is located in an urbanization control zone and faces several legal and location constraints: it does not meet road width standards, residential subdivision through development is prohibited, building is limited to one structure as a pre-line-drawing property, and there are restrictions on permitted uses. Through this survey, the city will gather information about market viability under these constraints, feasible utilization methods, business conditions, and other factors to inform future redevelopment policy and public solicitation terms.\n\n• Implementation guidelines released: June 4, 2026 (Thursday)\n• Proposal submission period: June 4, 2026 (Thursday) 9:00 a.m. – July 8, 2026 (Wednesday) 4:30 p.m.\n• Survey results outline released: Late July 2026\n\nFor details, please review the implementation guidelines, sounding sheet, and reference materials.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/13606.html",
+  "end": {
+    "date": "2026-06-06"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3IzMGRoZDY0bzYycGIzNjUwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-13606-10aec1@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6cr30dhd64o62pb36506gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/13606.html"
+  },
+  "start": {
+    "date": "2026-06-05"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Market sounding survey for the former Mukaihara housing complex site redevelopment",
+  "updated": "2026-06-04T20:02:13.863Z"
+}

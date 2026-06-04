@@ -1,0 +1,34 @@
+{
+  "created": "2026-06-04T20:00:38.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🆕 新着掲載 (公開日: 2026-06-01)\n\nAI による要約 (正確な情報は元記事をご確認ください)\n\nエコライフDAY＆WEEK埼玉2026（夏）の参加者を募集します。\n\n簡単なチェックシートを見ながら1日もしくは1週間継続して、省エネ・省資源など環境に配慮した生活を実施するプログラムです。飯能市でははんのう市民環境会議が中心となり参加しており、市民の皆様の積極的なご参加をお願いいたします。\n\n【実施期間】令和8年6月1日（月曜日）～令和8年9月30日（水曜日）\n\n取組結果を入力して報告すると、皆様の取組による二酸化炭素の削減量がリアルタイムで確認できます。みんなで地球温暖化を防ぎましょう。\n\n【参考：過年度実績】\n2025年冬は参加者総数1,720人、二酸化炭素削減量10,374,099グラム\n2025年夏は参加者総数1,976人、二酸化炭素削減量12,595,225グラム\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/kankyomidorimizuka/10070.html",
+  "end": {
+    "date": "2026-06-06"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2MG8zZWMxZDYwb2owcDluNjUwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSA2NzQ1OTE0YjI0MzIzMTEyYTE1ZjQzZGMyMGIzYTBmNGE0ODE3YWZkODAwYzhkMTY4N2QwYmYwYjdmODkwYzYxQGc",
+  "iCalUID": "oshirase-10070-010e71@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h60o3ec1d60oj0p9n6506gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/kankyomidorimizuka/10070.html"
+  },
+  "start": {
+    "date": "2026-06-05"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ エコライフDAY＆WEEK埼玉2026（夏）にご参加ください",
+  "updated": "2026-06-04T20:00:38.452Z"
+}

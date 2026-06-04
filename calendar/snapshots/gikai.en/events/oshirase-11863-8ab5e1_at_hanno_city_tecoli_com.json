@@ -1,0 +1,34 @@
+{
+  "created": "2026-06-04T20:02:12.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 New (Published: June 2, 2026)\n\nAI summary (please check the original article for accurate information)\n\nDuring Gender Equality Week (June 23–29 each year), the following awareness activities will be held.\n\n【Gender Equality Week Special Exhibition】\n• Dates: June 13 (Saturday) to 25 (Thursday), 2026 (Reiwa 8)\n• Venue: Hanno City Library\n• Content: Display and lending of books and materials related to gender equality, with a focus on work-life balance\n\n【Gender Equality Week Panel Exhibition】\n• Dates: June 20 (Saturday) to 28 (Sunday), 2026\n• Venue: Citizens' Activity Center\n• Theme: \"Work-Life Balance – Our Ways of Working and Living\"\n\n【Gender Equality Week Film Screening】\n• Date and time: June 27 (Saturday), 2026, 1:30 p.m. (doors open at 1:00 p.m.)\n• Venue: Hanno City Library\n• Film: \"The Lost King\" (directed by Stephen Frears)\n• Capacity: 50 people (first-come, first-served)\n\nThe city also publishes a gender equality information magazine called \"Ensemble\". The latest issue and back issues are available on the website.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/11863.html",
+  "end": {
+    "date": "2026-06-06"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2NHMzY2NwZDcxZ200ZGI1NjUwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-11863-8ab5e1@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h64s3ccpd71gm4db56506gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/11863.html"
+  },
+  "start": {
+    "date": "2026-06-05"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Gender Equality Week events and activities",
+  "updated": "2026-06-04T20:02:13.114Z"
+}

@@ -1,0 +1,34 @@
+{
+  "created": "2026-06-04T20:02:14.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n�新 Newly Posted (Published: April 1, 2026)\n\nThis page brings together forms, billing service codes, and application documents for the Comprehensive Project related to long-term care service providers.\n\nThe electronic application and notification system for long-term care facility designation applications has begun operation. You can now enter forms and attached tables directly online, and submit supporting documents through the system, which is expected to reduce the administrative burden on applications. For details, please check the websites of the Ministry of Health, Labour and Welfare and Saitama Prefecture.\n\n【Provided Materials】\n• Hanno City Long-Term Care Prevention Care Management Manual (including forms)\n• Reception Status Confirmation Form, Basic Checklist\n• Long-Term Care Prevention Service Plan Creation / Care Management Request Notification Form\n• Reason Statement for Increased Service Frequency for Comprehensive Project Beneficiaries\n\n【Billing Service Codes】\nCodes for use from April 1, 2025 (Reiwa 7) onward, codes for use from June 1, 2024 (Reiwa 6) onward, codes for use from April 1 – May 31, 2024, codes for use from October 1, 2022 (Reiwa 4) onward, and other variations are posted.\n\n【Facility Designation Application Documents】\nVarious application forms, work schedules (visiting-type and day service-type), floor plans, equipment and facilities list, complaint handling measures, pledge, and personal history\n\n【Notifications Regarding Organization and Structure】\nAttachment 1 Notification Form, organization and structure status list (multiple time periods)\n\n【Change Notification Form】\nHanno City Comprehensive Project Change Notification Form\n\n【Reference Materials】\nStandard table for Hanno City's original relaxed-standard services (visiting-type and day service-type Service A)\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/so-go-jigyou/1967.html",
+  "end": {
+    "date": "2026-06-06"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg3NHIzZWJiNDZrc2ppcDlpODFrNjJyamVkc242NnFia2Y0bjc4cGIzZHRtNmliajNkdG1nIGI2ZjM2ZTE5NzUxYzA1Y2NlOTlmYTAwODI4ZTQyOWY0MGY2ZGIxMDBlMmRiZTQ0MmJjMjYyMmEyNWRhOTczMTZAZw",
+  "iCalUID": "oshirase-1967-d599e2@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h74r3ebb46ksjip9i81k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/so-go-jigyou/1967.html"
+  },
+  "start": {
+    "date": "2026-06-05"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Long-Term Care Prevention and Daily Living Support Comprehensive Project (For Service Providers)",
+  "updated": "2026-06-04T20:02:14.482Z"
+}
