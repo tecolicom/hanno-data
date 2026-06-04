@@ -47,3 +47,41 @@ source:
   content_hash: "sha256-d599e20491514088"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-04-01"
+translations:
+  en:
+    summary: "ℹ️ Long-Term Care Prevention and Daily Living Support Comprehensive Project (For Service Providers)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      �新 Newly Posted (Published: April 1, 2026)
+      
+      This page brings together forms, billing service codes, and application documents for the Comprehensive Project related to long-term care service providers.
+      
+      The electronic application and notification system for long-term care facility designation applications has begun operation. You can now enter forms and attached tables directly online, and submit supporting documents through the system, which is expected to reduce the administrative burden on applications. For details, please check the websites of the Ministry of Health, Labour and Welfare and Saitama Prefecture.
+      
+      【Provided Materials】
+      • Hanno City Long-Term Care Prevention Care Management Manual (including forms)
+      • Reception Status Confirmation Form, Basic Checklist
+      • Long-Term Care Prevention Service Plan Creation / Care Management Request Notification Form
+      • Reason Statement for Increased Service Frequency for Comprehensive Project Beneficiaries
+      
+      【Billing Service Codes】
+      Codes for use from April 1, 2025 (Reiwa 7) onward, codes for use from June 1, 2024 (Reiwa 6) onward, codes for use from April 1 – May 31, 2024, codes for use from October 1, 2022 (Reiwa 4) onward, and other variations are posted.
+      
+      【Facility Designation Application Documents】
+      Various application forms, work schedules (visiting-type and day service-type), floor plans, equipment and facilities list, complaint handling measures, pledge, and personal history
+      
+      【Notifications Regarding Organization and Structure】
+      Attachment 1 Notification Form, organization and structure status list (multiple time periods)
+      
+      【Change Notification Form】
+      Hanno City Comprehensive Project Change Notification Form
+      
+      【Reference Materials】
+      Standard table for Hanno City's original relaxed-standard services (visiting-type and day service-type Service A)
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/so-go-jigyou/1967.html
+    translation_hash: "sha256-257c7d1c2bce5cd7"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-06-04T20:01:08.968222Z"
+    format_version: 3

@@ -42,3 +42,38 @@ source:
   content_hash: "sha256-8ab5e1e662970a76"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-06-02"
+translations:
+  en:
+    summary: "ℹ️ Gender Equality Week events and activities"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New (Published: June 2, 2026)
+      
+      AI summary (please check the original article for accurate information)
+      
+      During Gender Equality Week (June 23–29 each year), the following awareness activities will be held.
+      
+      【Gender Equality Week Special Exhibition】
+      • Dates: June 13 (Saturday) to 25 (Thursday), 2026 (Reiwa 8)
+      • Venue: Hanno City Library
+      • Content: Display and lending of books and materials related to gender equality, with a focus on work-life balance
+      
+      【Gender Equality Week Panel Exhibition】
+      • Dates: June 20 (Saturday) to 28 (Sunday), 2026
+      • Venue: Citizens' Activity Center
+      • Theme: "Work-Life Balance – Our Ways of Working and Living"
+      
+      【Gender Equality Week Film Screening】
+      • Date and time: June 27 (Saturday), 2026, 1:30 p.m. (doors open at 1:00 p.m.)
+      • Venue: Hanno City Library
+      • Film: "The Lost King" (directed by Stephen Frears)
+      • Capacity: 50 people (first-come, first-served)
+      
+      The city also publishes a gender equality information magazine called "Ensemble". The latest issue and back issues are available on the website.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/11863.html
+    translation_hash: "sha256-906b3c69702a7cb3"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-06-04T20:00:59.952209Z"
+    format_version: 3

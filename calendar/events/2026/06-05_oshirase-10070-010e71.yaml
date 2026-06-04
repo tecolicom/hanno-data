@@ -34,3 +34,28 @@ source:
   content_hash: "sha256-010e71d76acfc5c9"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-06-01"
+translations:
+  en:
+    summary: "ℹ️ Join Eco Life DAY & WEEK Saitama 2026 (Summer)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New Entry (Published: June 1, 2026)
+      
+      We are recruiting participants for Eco Life DAY & WEEK Saitama 2026 (Summer).
+      
+      This is a program where you commit to living sustainably—saving energy and resources—for either one day or one week using a simple checklist. In Hanno City, the Hanno Citizen Environmental Conference leads participation, and we warmly invite all residents to take part.
+      
+      【Implementation Period】June 1, 2026 (Monday) – September 30, 2026 (Wednesday)
+      
+      When you enter and report your results, you can see in real time how much carbon dioxide your efforts have reduced. Together, let's help prevent global warming.
+      
+      【Past Results for Reference】
+      • Winter 2025: 1,720 total participants, 10,374,099 grams of CO₂ reduction
+      • Summer 2025: 1,976 total participants, 12,595,225 grams of CO₂ reduction
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/kankyomidorimizuka/10070.html
+    translation_hash: "sha256-528c845261c9bd54"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-06-04T20:00:56.589279Z"
+    format_version: 3

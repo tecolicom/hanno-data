@@ -17,3 +17,23 @@ description: |-
 render:
   gcal:
     mode: span-allday
+translations:
+  en:
+    summary: "Myはんのう v1.39.0"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      v1.39.0
+      
+      You can now collect shops with "likes" and "favorites", and we've improved search and time display.
+      
+      • Like (👍) or favorite (❤️) shops — Rate each shop with a single tap in the community favorites section. You can collect shops you're interested in with 👍 without logging in, and when you log in, they carry over to your ❤️ favorite shops
+      • Filter by "just mine" — In the community favorites section, you can narrow down to only shops you've liked/favorited (your choices are saved on your device)
+      • Cleaner filters — Operating hours, distance, sort order, and other options are now grouped under "🔍 Filter" so you can see the full list at a glance
+      • Correct times for events and operating hours — Fixed UTC offset issues. Operating hours, open/closed status, and event times now display in the local time of each shop's location (supports shops overseas too)
+      • Today's events don't disappear — Fixed a bug where events that had already started today or all-day events were vanishing from the list
+      • Search now works with Google Maps links — Paste a map share link, URL, or place ID and find that shop in search
+    translation_hash: "sha256-2a9b0f2d0cdd1fd0"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-06-04T20:00:53.963834Z"
+    format_version: 3

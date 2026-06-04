@@ -32,3 +32,28 @@ source:
   content_hash: "sha256-10aec17b71efd867"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-06-04"
+translations:
+  en:
+    summary: "ℹ️ Market sounding survey for the former Mukaihara housing complex site redevelopment"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New (Posted: June 4, 2026)
+      
+      AI summary (please check the original article for accurate details)
+      
+      The city is conducting a market sounding survey to gather proposals from private developers regarding the future use of the former Mukaihara housing complex site (1-1 Kogubo Mukaihara, Hanno City).
+      
+      The site is located in an urbanization control zone and faces several legal and location constraints: it does not meet road width standards, residential subdivision through development is prohibited, building is limited to one structure as a pre-line-drawing property, and there are restrictions on permitted uses. Through this survey, the city will gather information about market viability under these constraints, feasible utilization methods, business conditions, and other factors to inform future redevelopment policy and public solicitation terms.
+      
+      • Implementation guidelines released: June 4, 2026 (Thursday)
+      • Proposal submission period: June 4, 2026 (Thursday) 9:00 a.m. – July 8, 2026 (Wednesday) 4:30 p.m.
+      • Survey results outline released: Late July 2026
+      
+      For details, please review the implementation guidelines, sounding sheet, and reference materials.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/13606.html
+    translation_hash: "sha256-d1835dc6a44e9672"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-06-04T20:01:03.504242Z"
+    format_version: 3
