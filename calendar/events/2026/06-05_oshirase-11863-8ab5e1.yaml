@@ -1,0 +1,44 @@
+uid: "oshirase-11863-8ab5e1@hanno.city.tecoli.com"
+summary: "ℹ️ 男女共同参画週間の事業について"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/11863.html"
+dtstart: "2026-06-05"
+dtend: "2026-06-05"
+description: |-
+  🆕 新着掲載 (公開日: 2026-06-02)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  毎年6月23日から29日の男女共同参画週間に、以下の啓発事業を実施します。
+  
+  【男女共同参画週間特別展示】
+  ・期間：令和8年6月13日（土曜日）から25日（木曜日）まで
+  ・会場：市立図書館
+  ・内容：ワーク・ライフ・バランスを中心とした男女共同参画関連図書等の展示・貸出
+  
+  【男女共同参画週間パネル展】
+  ・期間：令和8年6月20日（土曜日）から28日（日曜日）まで
+  ・会場：市民活動センター
+  ・テーマ：「ワーク・ライフ・バランス～わたしたちの働き方と暮らし方～」
+  
+  【男女共同参画週間映画会】
+  ・日時：令和8年6月27日（土曜日）13時30分から（開場13時）
+  ・会場：市立図書館
+  ・映画：『ロスト・キング500年越しの運命』（監督：スティーヴン・フリアーズ）
+  ・定員：50人（当日先着順）
+  
+  また、男女共同参画情報誌「アンサンブル」を発行しており、最新号及びバックナンバーはウェブサイトで閲覧できます。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/11863.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "11863"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/11863.html"
+  fetched_at: "2026-06-04T19:58:59.920024Z"
+  content_hash: "sha256-8ab5e1e662970a76"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-06-02"

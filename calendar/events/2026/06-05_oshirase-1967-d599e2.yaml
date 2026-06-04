@@ -1,0 +1,49 @@
+uid: "oshirase-1967-d599e2@hanno.city.tecoli.com"
+summary: "ℹ️ 介護予防・日常生活支援総合事業(事業者向け)"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/so-go-jigyou/1967.html"
+dtstart: "2026-06-05"
+dtend: "2026-06-05"
+description: |-
+  🆕 新着掲載 (公開日: 2026-04-01)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  介護事業者向けの総合事業に係る様式、請求サービスコード、申請書類をまとめたページです。
+  
+  介護事業所の指定申請等に「電子申請・届出システム」が運用開始されました。ウェブ上で直接様式や付表を入力でき、添付資料もシステム内で提出できるため、申請業務の負担軽減が期待されます。詳細は厚生労働省、埼玉県のホームページをご確認ください。
+  
+  【提供資料】
+  ・飯能市介護予防ケアマネジメントマニュアル（様式集含む）
+  ・受付時状況確認票、基本チェックリスト
+  ・介護予防サービス計画作成・ケアマネジメント依頼届出書
+  ・総合事業対象者サービス回数増加の理由書
+  
+  【請求サービスコード】
+  令和7年4月1日以降使用のコード、令和6年6月1日以降使用のコード、令和6年4月1日～5月31日使用のコード、令和4年10月1日以降使用のコード各種を掲載
+  
+  【事業所指定申請書類】
+  各種申請様式、勤務表（訪問型・通所型）、平面図、設備等一覧表、苦情処理措置、誓約書、経歴書
+  
+  【体制等に関する届出書】
+  別紙1届出書、体制等状況一覧表（複数時期分）
+  
+  【変更届出書】
+  飯能市総合事業変更届出書
+  
+  【参考資料】
+  飯能市独自の緩和基準サービス（訪問型・通所型サービスA）の基準表
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/so-go-jigyou/1967.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "1967"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/so-go-jigyou/1967.html"
+  fetched_at: "2026-06-04T19:59:39.641152Z"
+  content_hash: "sha256-d599e20491514088"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-04-01"

@@ -1,0 +1,36 @@
+uid: "oshirase-10070-010e71@hanno.city.tecoli.com"
+summary: "ℹ️ エコライフDAY＆WEEK埼玉2026（夏）にご参加ください"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/kankyomidorimizuka/10070.html"
+dtstart: "2026-06-05"
+dtend: "2026-06-05"
+description: |-
+  🆕 新着掲載 (公開日: 2026-06-01)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  エコライフDAY＆WEEK埼玉2026（夏）の参加者を募集します。
+  
+  簡単なチェックシートを見ながら1日もしくは1週間継続して、省エネ・省資源など環境に配慮した生活を実施するプログラムです。飯能市でははんのう市民環境会議が中心となり参加しており、市民の皆様の積極的なご参加をお願いいたします。
+  
+  【実施期間】令和8年6月1日（月曜日）～令和8年9月30日（水曜日）
+  
+  取組結果を入力して報告すると、皆様の取組による二酸化炭素の削減量がリアルタイムで確認できます。みんなで地球温暖化を防ぎましょう。
+  
+  【参考：過年度実績】
+  2025年冬は参加者総数1,720人、二酸化炭素削減量10,374,099グラム
+  2025年夏は参加者総数1,976人、二酸化炭素削減量12,595,225グラム
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/kankyomidorimizuka/10070.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "10070"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/kankyomidorimizuka/10070.html"
+  fetched_at: "2026-06-04T19:59:02.930504Z"
+  content_hash: "sha256-010e71d76acfc5c9"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-06-01"

@@ -1,0 +1,34 @@
+uid: "oshirase-13606-10aec1@hanno.city.tecoli.com"
+summary: "ℹ️ 旧向原団地跡地の活用に係るサウンディング型市場調査の実施について"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/13606.html"
+dtstart: "2026-06-05"
+dtend: "2026-06-05"
+description: |-
+  🆕 新着掲載 (公開日: 2026-06-04)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  旧向原団地跡地（飯能市大字小久保字向原1番1）の活用方針決定に向けて、民間事業者から提案を募るサウンディング型市場調査を実施します。
+  
+  対象地は市街化調整区域に位置し、道路幅員基準を満たさない、開発行為による宅地分譲が不可、線引き前宅地として建築は原則1棟限定、用途に制約があるなど、一般的な宅地より不利な条件があります。本調査を通じて、こうした法的・立地的制約下での市場性、実現可能な利活用方策、事業条件等を把握し、今後の活用方針や公募条件の参考にします。
+  
+  ・実施要領公表：令和8年6月4日（木曜日）
+  ・提案書提出期間：令和8年6月4日（木曜日）9時00分～令和8年7月8日（水曜日）16時30分
+  ・調査結果概要公表：令和8年7月下旬
+  
+  詳細は実施要領、サウンディングシート、資料をご確認ください。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/13606.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13606"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/13606.html"
+  fetched_at: "2026-06-04T19:58:54.131117Z"
+  content_hash: "sha256-10aec17b71efd867"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-06-04"
