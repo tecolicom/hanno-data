@@ -2,15 +2,14 @@ uid: "evt-20260606-01@hanno.city.tecoli.com"
 summary: "西武・電車フェスタ2026 in 武蔵丘車両検修場"
 location: "武蔵丘車両検修場 (日高市台462-1、西武池袋線「高麗駅」徒歩約15分)"
 url: "https://www.seiburailway.jp/sightseeing/eventcampaigninfo/musashigaokafesta/"
-dtstart: "2026-06-06T10:00:00+09:00"
-dtend: "2026-06-06T16:30:00+09:00"
-description: |
-  7000系車両初お披露目、トラバーサー乗車、ミニ電車（200円）、運転シミュレータ、52席の至福展示、キッチンカー、ピクニックエリア開放など。入場無料、雨天決行・荒天中止。最終入場15:00。
+dtstart: "2026-06-06"
+dtend: "2026-06-06"
+description: |-
+  🕒 10:00–16:30<br><br>7000系車両初お披露目、トラバーサー乗車、ミニ電車（200円）、運転シミュレータ、52席の至福展示、キッチンカー、ピクニックエリア開放など。入場無料、雨天決行・荒天中止。最終入場15:00。<br><br><a href="https://www.seiburailway.jp/sightseeing/eventcampaigninfo/musashigaokafesta/">https://www.seiburailway.jp/sightseeing/eventcampaigninfo/musashigaokafesta/</a>
 
 render:
   gcal:
     mode: single-allday
-    time_marker: "10:00–16:30"
 translations:
   en:
     summary: "Seibu Train Festival 2026 at Musashi-Oka Vehicle Maintenance Yard"

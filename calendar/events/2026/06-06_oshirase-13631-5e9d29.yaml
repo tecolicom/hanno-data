@@ -1,0 +1,41 @@
+uid: "oshirase-13631-5e9d29@hanno.city.tecoli.com"
+summary: "ℹ️ 【市内事業者の皆様へ】中東情勢等に係る相談窓口等について"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/13631.html"
+dtstart: "2026-06-06"
+dtend: "2026-06-06"
+description: |-
+  🆕 新着掲載 (公開日: 2026-06-05)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  中東情勢や原油価格上昇の影響を受けた市内事業者向けの相談窓口・支援制度案内です。
+  
+  【相談窓口】
+  ・日本政策金融公庫川越支店国民生活事業：0570-017-448
+  ・埼玉県信用保証協会：048-647-4713
+  ・飯能商工会議所：042-974-3111
+  ・埼玉県商工会連合会：048-641-3617
+  ・埼玉県よろず支援拠点：0120-973-248
+  
+  【国の支援制度】
+  経済産業省がセーフティネット貸付制度を実施しており、中東情勢等により一時的に売上減少等の業況悪化を受けた事業者で、中長期的な回復・発展が見込まれる方が対象です。
+  
+  【埼玉県の支援制度】
+  埼玉県でも中東情勢の影響を受ける県内企業向けの事業を案内しています。
+  
+  相談窓口や支援制度の詳細は、各機関のホームページ等でご確認ください。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/13631.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13631"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/13631.html"
+  fetched_at: "2026-06-05T19:47:48.716547Z"
+  content_hash: "sha256-5e9d299548f24393"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-06-05"
