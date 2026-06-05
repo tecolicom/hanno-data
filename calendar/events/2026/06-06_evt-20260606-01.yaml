@@ -12,13 +12,16 @@ render:
     mode: single-allday
 translations:
   en:
-    summary: "Seibu Train Festival 2026 at Musashi-Oka Vehicle Maintenance Yard"
+    summary: "Seibu Train Festa 2026 at Musashioka Vehicle Maintenance Yard"
     description: |-
       Automated translation (refer to source for accuracy)
-
-      Experience the first public showing of the 7000 series train, ride the traverser, enjoy a mini train (200 yen), try the driving simulator, see the 52-seat comfort display, visit food trucks, and relax in the open picnic area. Free admission. Rain or shine, but canceled in severe weather. Last entry at 3:00 PM.
-    translation_hash: "sha256-46e1b08e41baa420"
-
+      
+      🕒 10:00–16:30
+      
+      First public showing of the 7000 series train, traverser rides, mini train (¥200), driving simulator, 52-seat luxury car display, food trucks, and picnic area. Free admission. Rain or shine; cancelled only in severe weather. Last entry 15:00.
+      
+      More details: https://www.seiburailway.jp/sightseeing/eventcampaigninfo/musashigaokafesta/
+    translation_hash: "sha256-4fb1065ff74536a0"
     model: "claude-haiku-4-5"
-    translated_at: "2026-05-20T05:37:53.092529Z"
-    format_version: 1
+    translated_at: "2026-06-05T19:49:29.999918Z"
+    format_version: 3
