@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "🕒 10:00–16:30\n\n7000系車両初お披露目、トラバーサー乗車、ミニ電車（200円）、運転シミュレータ、52席の至福展示、キッチンカー、ピクニックエリア開放など。入場無料、雨天決行・荒天中止。最終入場15:00。\n",
+  "description": "🕒 10:00–16:30<br><br>7000系車両初お披露目、トラバーサー乗車、ミニ電車（200円）、運転シミュレータ、52席の至福展示、キッチンカー、ピクニックエリア開放など。入場無料、雨天決行・荒天中止。最終入場15:00。<br><br><a href=\"https://www.seiburailway.jp/sightseeing/eventcampaigninfo/musashigaokafesta/\">https://www.seiburailway.jp/sightseeing/eventcampaigninfo/musashigaokafesta/</a>",
   "end": {
     "date": "2026-06-07"
   },
@@ -31,5 +31,5 @@
   },
   "status": "confirmed",
   "summary": "西武・電車フェスタ2026 in 武蔵丘車両検修場",
-  "updated": "2026-05-22T05:34:09.917Z"
+  "updated": "2026-06-05T00:38:26.302Z"
 }

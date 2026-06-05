@@ -1,0 +1,34 @@
+{
+  "created": "2026-06-05T19:50:31.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 New (published June 5, 2026)\n\nConsultation services and support program information for city businesses affected by the Middle East situation and rising crude oil prices.\n\n【Consultation Hotlines】\n• Japan Finance Corporation Kawagoe Branch (National Life Business): 0570-017-448\n• Saitama Credit Guarantee Association: 048-647-4713\n• Hanno Chamber of Commerce and Industry: 042-974-3111\n• Saitama Federation of Commerce and Industry Associations: 048-641-3617\n• Saitama Business Support Hub (よろず支援拠点): 0120-973-248\n\n【National Government Support Programs】\nThe Ministry of Economy, Trade and Industry is operating a Safety Net Loan program. It is available to businesses experiencing temporary sales decline or worsening business conditions due to the Middle East situation and similar factors, where medium to long-term recovery and development are expected.\n\n【Saitama Prefecture Support Programs】\nSaitama Prefecture also offers business support programs for prefectural companies affected by the Middle East situation.\n\nFor details on consultation services and support programs, please check the websites of each organization.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/13631.html",
+  "end": {
+    "date": "2026-06-07"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3IzNmM5ZDZsaWppcDFpNzUwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-13631-5e9d29@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6cr36c9d6lijip1i7506gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/13631.html"
+  },
+  "start": {
+    "date": "2026-06-06"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ For local businesses: consultation services and support programs related to Middle East situation",
+  "updated": "2026-06-05T19:50:31.962Z"
+}
