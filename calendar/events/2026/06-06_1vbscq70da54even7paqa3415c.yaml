@@ -18,3 +18,24 @@ description: |-
 render:
   gcal:
     mode: span-allday
+translations:
+  en:
+    summary: "Myはんのう v1.40.0"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      v1.40.0
+      
+      We've reorganized the menu and added features like nearby bus stop search and the ability to recommend "Places & Communities".
+      
+      • Clearer menu organization — Home screen now shows large buttons for "Find Shops / Ride Bus / AED / Restrooms". Bus screen reorganized to "Find Nearby Bus Stops / Boarding Stop / Getting Off Stop"
+      • 🚏 Find nearby bus stops — Shows all bus stops within 300m of your location. For each stop, you can see next bus times by direction (northbound/southbound)
+      • 📍 Recommend "Places & Communities" — Now you can recommend not just shops, but also event venues and community spaces. You can also select Hanno City Hall and other city calendar events from here
+      • Organized shop list hearts — ❤️ One tap to recommend/unrecommend (tap gray heart to turn red). Shop search page button now uses the same heart
+      • "My favorites only" now uses a slide toggle — Made it easier to filter your recommended shops in the shop list
+      • Settings moved to My Friends page, camera now always available — Consolidated settings like display name on My Friends page, and invitation QR code opens instantly. Added QR code reader camera to footer
+      • Faster weather and event display — Caching frequently viewed data to reduce wait time
+    translation_hash: "sha256-3b5467e388c4bb7d"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-06-06T19:14:19.983617Z"
+    format_version: 3
