@@ -14,3 +14,20 @@ description: |-
 render:
   gcal:
     mode: span-allday
+translations:
+  en:
+    summary: "Myはんのう v1.41.0"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      v1.41.0
+      
+      Bus stop selection is now easier—you can quickly pick from recently selected stops.
+      
+      • 🚏 Select boarding and alighting stops from "recently selected stops" in a history menu — both the boarding and alighting screens now let you pick frequently used stops with one tap
+      • Lock frequently used stops with a lock icon to keep them fixed — locked stops stay in history and don't disappear (up to 5 stops)
+      • Destination (direction) selection is now easier and larger — directions are now organized so you can select them directly without going through the route list, and stop names, directions, and times are displayed in larger, clearer text
+    translation_hash: "sha256-413bc588d4178ced"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-06-08T20:08:33.729592Z"
+    format_version: 3
