@@ -1,0 +1,30 @@
+{
+  "created": "2026-06-08T14:51:43.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "## v1.41.0\n\nバスの停留所選択を、最近選んだ停留所からすぐ選べるようにしました。\n\n- 🚏 乗る・降りる停留所を「最近選んだ停留所」からすぐ選べる履歴メニューに — 乗車・降車どちらの画面も、よく使う停留所からワンタップで選べます\n- よく使う停留所を鍵マークでロックして固定 — ロックした停留所は履歴から消えず残ります（最大 5 件）\n- 行き先（方面）を選びやすく・大きく — 路線をはさまず方面を直接選べるよう整理し、停留所名・方面・時刻の文字を大きく見やすくしました",
+  "end": {
+    "date": "2026-06-15"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=N2FpY2lzZ3NoczQxcnEwZGZjbzZpNmg3c2sgMjA1NDAzYzk3MWRjNWVmMjFlZmQ4MWMxZDUzODQ5Y2FkZmQ5MDFiNzVjNzdkODg5NTVkOTYwMGY0NWYyYTAxM0Bn",
+  "iCalUID": "7aicisgshs41rq0dfco6i6h7sk@google.com",
+  "id": "7aicisgshs41rq0dfco6i6h7sk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "Myはんのう",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "start": {
+    "date": "2026-06-08"
+  },
+  "status": "confirmed",
+  "summary": "Myはんのう v1.41.0",
+  "updated": "2026-06-08T14:51:43.562Z"
+}

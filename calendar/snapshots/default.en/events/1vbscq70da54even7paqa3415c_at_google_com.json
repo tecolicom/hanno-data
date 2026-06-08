@@ -5,7 +5,7 @@
   },
   "description": "Automated translation (refer to source for accuracy)\n\nv1.40.0\n\nWe've reorganized the menu and added features like nearby bus stop search and the ability to recommend \"Places & Communities\".\n\n• Clearer menu organization — Home screen now shows large buttons for \"Find Shops / Ride Bus / AED / Restrooms\". Bus screen reorganized to \"Find Nearby Bus Stops / Boarding Stop / Getting Off Stop\"\n• 🚏 Find nearby bus stops — Shows all bus stops within 300m of your location. For each stop, you can see next bus times by direction (northbound/southbound)\n• 📍 Recommend \"Places & Communities\" — Now you can recommend not just shops, but also event venues and community spaces. You can also select Hanno City Hall and other city calendar events from here\n• Organized shop list hearts — ❤️ One tap to recommend/unrecommend (tap gray heart to turn red). Shop search page button now uses the same heart\n• \"My favorites only\" now uses a slide toggle — Made it easier to filter your recommended shops in the shop list\n• Settings moved to My Friends page, camera now always available — Consolidated settings like display name on My Friends page, and invitation QR code opens instantly. Added QR code reader camera to footer\n• Faster weather and event display — Caching frequently viewed data to reduce wait time",
   "end": {
-    "date": "2026-06-13"
+    "date": "2026-06-08"
   },
   "eventType": "default",
   "htmlLink": "https://www.google.com/calendar/event?eid=MXZic2NxNzBkYTU0ZXZlbjdwYXFhMzQxNWMgZDkxOTNjZjVmNjQ0YWI0MWEyOGUyMjY4YTk4YWJjNWFhNDI2YmQyZDU3NzE1MjgzNDI0NGFkNjlhMzFmNWE2OEBn",
@@ -26,5 +26,5 @@
   },
   "status": "confirmed",
   "summary": "Myはんのう v1.40.0",
-  "updated": "2026-06-06T19:15:49.257Z"
+  "updated": "2026-06-08T20:10:06.873Z"
 }
