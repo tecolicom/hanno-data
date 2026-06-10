@@ -25,3 +25,31 @@ description: |
 render:
   gcal:
     mode: span-allday
+translations:
+  en:
+    summary: "Myはんのう v1.43.0"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      v1.43.0
+      
+      Shop pages now display links to official websites and social media. Owners can register them easily with auto-detection.
+      
+      • 🌐 Official website and social media icons on shop pages — One tap to jump to Instagram, Facebook, X, LINE, YouTube and more with large brand icons
+      • Refreshed owner management menu — Organized into three sections: "Official Site & Social Media", "Calendar", and "Co-owners". You can freely add, reorder, and remove links
+      • 🔄 Fetch the latest information — Automatically find and suggest business hours, social media, and calendar data from Google and official shop websites. Just check and apply to register
+      • Improved bus stop history lock — Locked history items no longer disappear when unlocked, and locking/unlocking no longer causes sudden reordering. Locked stops stay grouped at the bottom of the list
+      • Favorites and saves reflect instantly — Refreshing the screen right after favoriting or saving no longer temporarily reverts to the old display
+      
+      v1.42.0
+      
+      Added individual pages for the local calendar, recommended places, and favorite shops, and unified event display across the app.
+      
+      • 📅 Individual pages for local calendar, recommended places, and favorite shops — Tap the name of Hanno City Hall, Myはんのう, a favorite shop, and more to see their individual page with official website, calendar, and upcoming events all in one place
+      • Unified event display throughout the app — Events from the home screen, shops, and locations now use the same easy-to-read format. Tap an event to open details (events with details are underlined; past events appear faded)
+      • Collapsible event sections on home screen — Collapse or expand garbage, local calendar, favorite shops, and schedules sections to see only what you want
+      • Faster favorite shop schedule display — Top screen favorite shop events now load without delay
+    translation_hash: "sha256-3fb0bff5b8290908"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-06-10T20:24:24.650339Z"
+    format_version: 3
