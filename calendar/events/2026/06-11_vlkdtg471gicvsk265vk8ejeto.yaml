@@ -22,3 +22,28 @@ description: |-
 render:
   gcal:
     mode: span-allday
+translations:
+  en:
+    summary: "Myはんのう v1.44.1"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      v1.44.1
+      
+      You can now add friends using only the icons at the bottom of the screen.
+      
+      • Friend-add icon displays invitation QR code on the spot — one person uses the friend-add icon, the other uses the camera icon. Just two side-by-side buttons to become push-friends
+      • When sending an invitation by URL, expiration date and time are now clearly shown — sent in the format "Valid until 2026-06-11 21:45:42"
+      • Fixed popup background that was appearing gray
+      
+      v1.44.0
+      
+      We refreshed the "Share & Connect" section to spread the word about Myはんのう.
+      
+      • 📱 Tap the QR code to display it large — you can also copy the URL directly
+      • Added "🍻 Connect with Friends" to the service menu — direct access to the push-friend feature
+      • Fixed line wrapping on footer links
+    translation_hash: "sha256-2844d3907d205f22"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-06-11T20:17:00.698611Z"
+    format_version: 3

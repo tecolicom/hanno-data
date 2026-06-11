@@ -18,3 +18,16 @@ source:
   url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202606/13661.html"
   fetched_at: "2026-06-11T20:14:39.388971Z"
   content_hash: "sha256-cc39f8fbd6bfe2fa"
+translations:
+  en:
+    summary: "📝 Mayor: Kaji Sports Association Social Pétanque Tournament"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      On Saturday, June 6, a social pétanque tournament hosted by the Kaji Sports Association was held. I was invited to attend and participated in the opening ceremony.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202606/13661.html
+    translation_hash: "sha256-d4ab224fb69e8d8e"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-06-11T20:16:57.774487Z"
+    format_version: 3
