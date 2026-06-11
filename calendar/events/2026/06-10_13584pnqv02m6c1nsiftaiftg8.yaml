@@ -1,7 +1,7 @@
 uid: "13584pnqv02m6c1nsiftaiftg8@google.com"
 summary: "Myはんのう v1.43.0"
 dtstart: "2026-06-10"
-dtend: "2026-06-12"
+dtend: "2026-06-10"
 description: |
   ## v1.43.0
   
@@ -24,7 +24,7 @@ description: |
 
 render:
   gcal:
-    mode: span-allday
+    mode: single-allday
 translations:
   en:
     summary: "Myはんのう v1.43.0"
