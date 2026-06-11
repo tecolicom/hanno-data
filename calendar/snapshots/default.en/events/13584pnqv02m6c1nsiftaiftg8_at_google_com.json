@@ -5,7 +5,7 @@
   },
   "description": "Automated translation (refer to source for accuracy)\n\nv1.43.0\n\nShop pages now display links to official websites and social media. Owners can register them easily with auto-detection.\n\n• 🌐 Official website and social media icons on shop pages — One tap to jump to Instagram, Facebook, X, LINE, YouTube and more with large brand icons\n• Refreshed owner management menu — Organized into three sections: \"Official Site & Social Media\", \"Calendar\", and \"Co-owners\". You can freely add, reorder, and remove links\n• 🔄 Fetch the latest information — Automatically find and suggest business hours, social media, and calendar data from Google and official shop websites. Just check and apply to register\n• Improved bus stop history lock — Locked history items no longer disappear when unlocked, and locking/unlocking no longer causes sudden reordering. Locked stops stay grouped at the bottom of the list\n• Favorites and saves reflect instantly — Refreshing the screen right after favoriting or saving no longer temporarily reverts to the old display\n\nv1.42.0\n\nAdded individual pages for the local calendar, recommended places, and favorite shops, and unified event display across the app.\n\n• 📅 Individual pages for local calendar, recommended places, and favorite shops — Tap the name of Hanno City Hall, Myはんのう, a favorite shop, and more to see their individual page with official website, calendar, and upcoming events all in one place\n• Unified event display throughout the app — Events from the home screen, shops, and locations now use the same easy-to-read format. Tap an event to open details (events with details are underlined; past events appear faded)\n• Collapsible event sections on home screen — Collapse or expand garbage, local calendar, favorite shops, and schedules sections to see only what you want\n• Faster favorite shop schedule display — Top screen favorite shop events now load without delay",
   "end": {
-    "date": "2026-06-13"
+    "date": "2026-06-11"
   },
   "eventType": "default",
   "htmlLink": "https://www.google.com/calendar/event?eid=MTM1ODRwbnF2MDJtNmMxbnNpZnRhaWZ0ZzggZDkxOTNjZjVmNjQ0YWI0MWEyOGUyMjY4YTk4YWJjNWFhNDI2YmQyZDU3NzE1MjgzNDI0NGFkNjlhMzFmNWE2OEBn",
@@ -26,5 +26,5 @@
   },
   "status": "confirmed",
   "summary": "Myはんのう v1.43.0",
-  "updated": "2026-06-10T20:25:56.346Z"
+  "updated": "2026-06-11T20:18:48.529Z"
 }

@@ -1,0 +1,34 @@
+{
+  "created": "2026-06-11T20:16:41.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "6月5日（金曜日）、令和8年第2回飯能市議会定例会が開会されました。\n\n会期は6月5日から6月23日までで、専決処分の承認を求めることについて、条例案、補正予算案など計29件の議案についてご審議いただく予定です。\n\n市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202606/13650.html",
+  "end": {
+    "date": "2026-06-06"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2VkazZpb3I4ZHNtbTRyM2Zjc21qMmNwbTZrbzQwcTMxZHBuNnViajNkNXE3aWJqa2NsaG11cjM5NXBobXVyOCA2NzQ1OTE0YjI0MzIzMTEyYTE1ZjQzZGMyMGIzYTBmNGE0ODE3YWZkODAwYzhkMTY4N2QwYmYwYjdmODkwYzYxQGc",
+  "iCalUID": "shicho-blog-13650@hanno.city.tecoli.com",
+  "id": "_edk6ior8dsmm4r3fcsmj2cpm6ko40q31dpn6ubj3d5q7ibjkclhmur395phmur8",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202606/13650.html"
+  },
+  "start": {
+    "date": "2026-06-05"
+  },
+  "status": "confirmed",
+  "summary": "📝 市長：令和8年第2回飯能市議会定例会",
+  "updated": "2026-06-11T20:16:41.493Z"
+}

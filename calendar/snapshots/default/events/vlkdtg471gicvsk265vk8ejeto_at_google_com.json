@@ -1,0 +1,30 @@
+{
+  "created": "2026-06-11T11:56:08.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "## v1.44.1\n\n画面下のアイコンだけで友だち登録ができるようになりました。\n\n- 友だち追加アイコンで招待 QR をその場に表示 — 片方が友だち追加アイコン、もう片方がカメラアイコン。ふたつ並んだボタンだけで推し友になれます\n- 招待を URL で送るときに有効期限の日時を明記 — 「2026-06-11 21:45:42 まで」の形式で相手に伝わります\n- ポップアップの背景が灰色になっていたのを修正\n\n## v1.44.0\n\nMyはんのうをひろめる「シェア＆コネクト」セクションを刷新しました。\n\n- 📱 QR コードをタップすると大きく表示 — そのまま URL もコピーできます\n- サービスメニューに「🍻 友だちとつながる」を追加 — 推し友機能に直接アクセスできます\n- フッターリンクの折り返しを修正",
+  "end": {
+    "date": "2026-06-14"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=dmxrZHRnNDcxZ2ljdnNrMjY1dms4ZWpldG8gMjA1NDAzYzk3MWRjNWVmMjFlZmQ4MWMxZDUzODQ5Y2FkZmQ5MDFiNzVjNzdkODg5NTVkOTYwMGY0NWYyYTAxM0Bn",
+  "iCalUID": "vlkdtg471gicvsk265vk8ejeto@google.com",
+  "id": "vlkdtg471gicvsk265vk8ejeto",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "Myはんのう",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "start": {
+    "date": "2026-06-11"
+  },
+  "status": "confirmed",
+  "summary": "Myはんのう v1.44.1",
+  "updated": "2026-06-11T14:20:41.600Z"
+}
