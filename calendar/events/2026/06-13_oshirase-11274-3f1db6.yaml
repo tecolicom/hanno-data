@@ -1,0 +1,46 @@
+uid: "oshirase-11274-3f1db6@hanno.city.tecoli.com"
+summary: "ℹ️ 市民活動センターイベント「たなばたコンサート」"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jitishinkoka/shiminkatudou/11274.html"
+dtstart: "2026-06-13"
+dtend: "2026-06-13"
+description: |-
+  🔄 内容更新 (公開日: 2026-04-14)
+  
+  ## 「たなばたコンサート」を開催します♪
+  
+  市民活動センターで音楽を楽しみませんか？
+  
+  日時：令和8年7月5日（日曜日）14時～15時
+  
+  場所：飯能市市民活動センター 多目的ホール
+  
+  出演：ベル・エポック
+  
+  内容：フルートとピアノアンサンブル
+  
+  定員：80名
+  
+  申込期間：令和8年6月12日（金曜日）から
+  
+  定員に達した時点で締め切りとなります。空きがある場合、当日入場も可能です。
+  
+  申込方法：電話での申し込み
+  
+  市民活動センター（042-978-7551）へご連絡お願いします。
+  
+  ・令和8年6月26日（金曜日）から令和8年7月7日（火曜日）まで七夕展を開催しますので、併せてお立ち寄りください。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jitishinkoka/shiminkatudou/11274.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "11274"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jitishinkoka/shiminkatudou/11274.html"
+  fetched_at: "2026-06-12T20:03:49.983600Z"
+  content_hash: "sha256-3f1db6d1c3dfb7c7"
+  summary_method: "full"
+  publish_date: "2026-04-14"

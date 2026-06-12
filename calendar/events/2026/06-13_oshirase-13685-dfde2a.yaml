@@ -1,0 +1,26 @@
+uid: "oshirase-13685-dfde2a@hanno.city.tecoli.com"
+summary: "ℹ️ 野生鳥獣に関する通報への電話受付対応について"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/13685.html"
+dtstart: "2026-06-13"
+dtend: "2026-06-13"
+description: |-
+  🆕 新着掲載 (公開日: 2026-06-12)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  野生鳥獣に関する通報について、市の代表電話受付において内容の緊急性の確認が不十分だった事案が発生しました。熊の出没情報など人身被害につながるおそれのある通報が、窓口受付時間外（8時30分～9時及び16時30分～17時15分）であることを理由に関係部署に伝達されていませんでした。市民の安全確保を最優先に、今後は受付時間外であっても緊急性の高い通報は関係部署へ直ちに取り次ぐよう運用を改めます。ご不安をおかけしたことをお詫びします。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/13685.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13685"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/13685.html"
+  fetched_at: "2026-06-12T20:03:07.285621Z"
+  content_hash: "sha256-dfde2a046b841ca5"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-06-12"

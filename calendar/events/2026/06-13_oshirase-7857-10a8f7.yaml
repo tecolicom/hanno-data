@@ -1,0 +1,68 @@
+uid: "oshirase-7857-10a8f7@hanno.city.tecoli.com"
+summary: "ℹ️ 子育て講演会「愛着形成ってなに？～こどもの安心基地のつくり方～」（予約制）"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/kodomoshienka/kosodatesogocenter/7857.html"
+dtstart: "2026-06-13"
+dtend: "2026-06-13"
+description: |-
+  🆕 新着掲載 (公開日: 2026-06-12)
+  
+  ## 内容
+  
+  子育て講演会を開催します。
+  
+  こどもの育ちを知ることで、お子さんと関わる楽しさがより一層深まります。みんなで学んでみませんか。
+  
+  日時
+  
+  7月18日（土曜日）午前10時00分～12時00分
+  
+  場所
+  
+  子育て総合センター（山手町19-4）
+  
+  大きな地図を見る（GoogleMapページへ）
+  
+  講師
+  
+  小川 晶 氏（植草学園大学発達教育学部・教授）
+  
+  参加対象
+  
+  子育て中の保護者、祖父母の方、こども支援に関心のある方
+  
+  （市内在住・在勤・在学）
+  
+  定員
+  
+  30人（申込順）
+  
+  参加費
+  
+  無料
+  
+  申込み
+  
+  7月13日（月曜日）までに子育て総合センターへ
+  
+  電話 042-978-8415
+  
+  ファックス 042-978-8849
+  
+  メール kosodate@city.hanno.lg.jp
+  
+  就学前のこどもの保育あり。申し込み時にお伝えください。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/kodomoshienka/kosodatesogocenter/7857.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "7857"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/kodomoshienka/kosodatesogocenter/7857.html"
+  fetched_at: "2026-06-12T20:03:10.712061Z"
+  content_hash: "sha256-10a8f7ea4311aa6d"
+  summary_method: "full"
+  publish_date: "2026-06-12"
