@@ -1,0 +1,34 @@
+{
+  "created": "2026-06-12T20:05:24.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🆕 新着掲載 (公開日: 2026-06-12)\n\n## 6月12日の気象情報について\n\n埼玉県では、12日昼過ぎから夜遅くにかけて、雷を伴った激しい雨の降る予報となっております。\n\n低い土地の浸水、河川の増水に注意・警戒し、落雷や竜巻などの激しい突風、土砂災害に注意してください。\n\n降ひょうのおそれもありますので、農作物や農業施設の管理にも注意してください。\n\n降ひょうによる被害については、防災危機管理課にご相談ください。\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/13690.html",
+  "end": {
+    "date": "2026-06-14"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3IzaWMxZGNrcTNhcDluYzkwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSA2NzQ1OTE0YjI0MzIzMTEyYTE1ZjQzZGMyMGIzYTBmNGE0ODE3YWZkODAwYzhkMTY4N2QwYmYwYjdmODkwYzYxQGc",
+  "iCalUID": "oshirase-13690-e45e7b@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6cr3ic1dckq3ap9nc906gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/13690.html"
+  },
+  "start": {
+    "date": "2026-06-13"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 6月12日の気象情報について",
+  "updated": "2026-06-12T20:05:24.674Z"
+}

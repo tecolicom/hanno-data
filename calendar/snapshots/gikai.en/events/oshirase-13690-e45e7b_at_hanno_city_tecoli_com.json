@@ -1,0 +1,34 @@
+{
+  "created": "2026-06-12T20:07:32.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 New post (Published: June 12, 2026)\n\nWeather Alert for June 12\n\nSaitama Prefecture is forecast to experience heavy rain with thunder from early afternoon through late evening on the 12th.\n\nBe alert and cautious of flooding in low-lying areas and rising river levels. Watch out for lightning, tornadoes and other severe wind gusts, and landslides.\n\nThere is also a risk of hail, so be careful with the management of crops and agricultural facilities.\n\nIf you experience damage from hail, please contact the Disaster Prevention and Crisis Management Division.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/13690.html",
+  "end": {
+    "date": "2026-06-14"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3IzaWMxZGNrcTNhcDluYzkwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-13690-e45e7b@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6cr3ic1dckq3ap9nc906gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/13690.html"
+  },
+  "start": {
+    "date": "2026-06-13"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Weather alert for June 12",
+  "updated": "2026-06-12T20:07:32.475Z"
+}
