@@ -24,3 +24,18 @@ source:
   content_hash: "sha256-dfde2a046b841ca5"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-06-12"
+translations:
+  en:
+    summary: "ℹ️ Changes to how the city handles calls reporting wild animals and birds"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New (posted: June 12, 2026)
+      
+      The city's main phone line has had cases where calls about wild animals were not checked properly for urgency. Reports about bear sightings and other wildlife that could cause injury to people were not passed to the relevant departments because the calls came outside regular counter hours (8:30–9:00 a.m. and 4:30–5:15 p.m.). From now on, to put public safety first, urgent reports about wildlife will be sent immediately to the relevant department even if they come outside regular hours. We apologize for any worry this may have caused.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/13685.html
+    translation_hash: "sha256-6448f8b971bd9678"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-06-12T20:05:43.606850Z"
+    format_version: 3

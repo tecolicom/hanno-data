@@ -30,3 +30,26 @@ source:
   content_hash: "sha256-e45e7bc9c2e6a254"
   summary_method: "full"
   publish_date: "2026-06-12"
+translations:
+  en:
+    summary: "ℹ️ Weather alert for June 12"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New post (Published: June 12, 2026)
+      
+      Weather Alert for June 12
+      
+      Saitama Prefecture is forecast to experience heavy rain with thunder from early afternoon through late evening on the 12th.
+      
+      Be alert and cautious of flooding in low-lying areas and rising river levels. Watch out for lightning, tornadoes and other severe wind gusts, and landslides.
+      
+      There is also a risk of hail, so be careful with the management of crops and agricultural facilities.
+      
+      If you experience damage from hail, please contact the Disaster Prevention and Crisis Management Division.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/13690.html
+    translation_hash: "sha256-191b177f7ba09f77"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-06-12T20:05:45.817043Z"
+    format_version: 3

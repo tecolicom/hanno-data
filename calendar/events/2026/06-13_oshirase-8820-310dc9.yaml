@@ -38,3 +38,32 @@ source:
   content_hash: "sha256-310dc993ee41c879"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-06-03"
+translations:
+  en:
+    summary: "ℹ️ Hanno City Care Facility Support Grant"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content updated (published: June 3, 2026)
+      
+      Hanno City will provide support grants to organizations operating care facilities within the city to help them continue operations amid rising costs. Eligible organizations have already been notified.
+      
+      【Grant Amounts】
+      Visit-based services: ¥70,000 per facility
+      Day services: ¥150,000 per facility
+      Residential services: ¥10,000 per bed
+      
+      【Application Period】
+      June 15, 2026 (Monday) through August 31, 2026 (Monday)
+      
+      【Required Documents】
+      Hanno City Care Facility Support Grant Application and Invoice Form, Pledge, Power of Attorney (required only if the grant applicant and the bank account holder are different)
+      
+      【Application Method】
+      Each organization should fill out one application form listing all facilities it operates within Hanno City and submit it to the Care and Welfare Division (mail submission accepted)
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/oshirase/8820.html
+    translation_hash: "sha256-ac9a7add50328bbe"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-06-12T20:05:54.733680Z"
+    format_version: 3

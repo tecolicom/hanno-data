@@ -28,3 +28,24 @@ source:
   content_hash: "sha256-7e5673e22287b95e"
   summary_method: "full"
   publish_date: "2026-06-12"
+translations:
+  en:
+    summary: "ℹ️ Road closure: Hanno municipal road 1st district route 8"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 Newly posted (June 12, 2026)
+      
+      Municipal road 1st district route 8 closure
+      
+      Municipal road 1st district route 8 is closed in the section shown on the map below due to a fallen tree.
+      
+      We apologize for the inconvenience and appreciate your understanding.
+      
+      We will notify you again once repairs are complete.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/emergency/13691.html
+    translation_hash: "sha256-fa1072834a18e867"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-06-12T20:05:47.569684Z"
+    format_version: 3

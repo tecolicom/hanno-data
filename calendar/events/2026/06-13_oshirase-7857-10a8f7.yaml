@@ -66,3 +66,62 @@ source:
   content_hash: "sha256-10a8f7ea4311aa6d"
   summary_method: "full"
   publish_date: "2026-06-12"
+translations:
+  en:
+    summary: "ℹ️ Parenting lecture: \"What is attachment? How to create a safe base for your child\" (reservation required)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      �新 New listing (published June 12, 2026)
+      
+      Content
+      
+      We are holding a parenting lecture.
+      
+      By understanding how children develop, you will deepen your joy in spending time with your child. Why not learn together with others?
+      
+      Date and time
+      
+      July 18 (Saturday), 10:00 a.m. – 12:00 p.m.
+      
+      Location
+      
+      Child Development and Support Center (19-4 Yamate-cho)
+      
+      View larger map (opens Google Maps)
+      
+      Instructor
+      
+      Akira Ogawa (Professor, Faculty of Developmental Education, Uekusa Gakuen University)
+      
+      Who can participate
+      
+      Parents raising children, grandparents, and anyone interested in child support
+      
+      (Must live, work, or study in Hanno City)
+      
+      Capacity
+      
+      30 people (first come, first served)
+      
+      Fee
+      
+      Free
+      
+      How to apply
+      
+      Contact the Child Development and Support Center by Monday, July 13
+      
+      Phone: 042-978-8415
+      
+      Fax: 042-978-8849
+      
+      Email: kosodate@city.hanno.lg.jp
+      
+      Childcare for preschool children is available. Please let us know when you apply.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/kodomoshienka/kosodatesogocenter/7857.html
+    translation_hash: "sha256-e3e949a12fa08834"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-06-12T20:05:51.294966Z"
+    format_version: 3
