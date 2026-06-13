@@ -1,0 +1,30 @@
+{
+  "created": "2026-06-13T04:13:04.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "## v1.45.0\n\nお店の情報をまとめた印刷用「ショップカード」を作れるようになりました。\n\n- **🪪 印刷用ショップカードを生成** — L判 (縦・横)・二つ折りテント・名刺サイズの4種類。お店の名前・住所・営業時間・連絡先・QR コードが入ったカードを画像でダウンロード・共有できます\n- **ロゴを選んでカードに表示** — 公式サイトから見つけたロゴ候補を選ぶか、URL を手入力。ロゴなしのレイアウトも選べます\n- **連絡先に電話・メール・FAX を追加** — 公式サイト・SNS に加えて、電話・メール・FAX も登録して表示できるようになりました\n- **Google 登録の公式サイト・電話を自動表示** — 同じ情報を二重に登録しなくても、Google にある公式サイト・電話番号がお店のページやカードに自動で出ます (オーナーが別の値を登録すればそちらが優先)\n- お店の一覧で、読み込み中に「まだ誰も登録していません」と誤って表示されることがあったのを修正\n",
+  "end": {
+    "date": "2026-06-16"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=cGlkMHFlNDA0NmpoYTJyOXUzMzI5a3Q1am8gMjA1NDAzYzk3MWRjNWVmMjFlZmQ4MWMxZDUzODQ5Y2FkZmQ5MDFiNzVjNzdkODg5NTVkOTYwMGY0NWYyYTAxM0Bn",
+  "iCalUID": "pid0qe4046jha2r9u3329kt5jo@google.com",
+  "id": "pid0qe4046jha2r9u3329kt5jo",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "Myはんのう",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "start": {
+    "date": "2026-06-13"
+  },
+  "status": "confirmed",
+  "summary": "Myはんのう v1.45.0",
+  "updated": "2026-06-13T04:13:04.875Z"
+}

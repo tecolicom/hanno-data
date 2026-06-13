@@ -1,0 +1,29 @@
+{
+  "created": "2026-06-13T10:55:10.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "end": {
+    "date": "2026-07-13"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=Xzc0cDMwZDFnNzBwamFiOWc4aDJrNmI5azZncTM0YmEyOGdyM2liOW02c3MzY2NoaTg4czNlZHBuNjQgZDkxOTNjZjVmNjQ0YWI0MWEyOGUyMjY4YTk4YWJjNWFhNDI2YmQyZDU3NzE1MjgzNDI0NGFkNjlhMzFmNWE2OEBn",
+  "iCalUID": "92040835-0DEC-4442-BD69-678622B87771",
+  "id": "_74p30d1g70pjab9g8h2k6b9k6gq34ba28gr3ib9m6ss3cchi88s3edpn64",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "Myはんのう（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "start": {
+    "date": "2026-07-12"
+  },
+  "status": "confirmed",
+  "summary": "Hanno Noki-shita Marché",
+  "updated": "2026-06-13T10:55:11.266Z"
+}

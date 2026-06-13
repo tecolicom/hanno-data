@@ -5,7 +5,7 @@
   },
   "description": "Automated translation (refer to source for accuracy)\n\nv1.44.1\n\nYou can now add friends using only the icons at the bottom of the screen.\n\n• Friend-add icon displays invitation QR code on the spot — one person uses the friend-add icon, the other uses the camera icon. Just two side-by-side buttons to become push-friends\n• When sending an invitation by URL, expiration date and time are now clearly shown — sent in the format \"Valid until 2026-06-11 21:45:42\"\n• Fixed popup background that was appearing gray\n\nv1.44.0\n\nWe refreshed the \"Share & Connect\" section to spread the word about Myはんのう.\n\n• 📱 Tap the QR code to display it large — you can also copy the URL directly\n• Added \"🍻 Connect with Friends\" to the service menu — direct access to the push-friend feature\n• Fixed line wrapping on footer links",
   "end": {
-    "date": "2026-06-14"
+    "date": "2026-06-13"
   },
   "eventType": "default",
   "htmlLink": "https://www.google.com/calendar/event?eid=dmxrZHRnNDcxZ2ljdnNrMjY1dms4ZWpldG8gZDkxOTNjZjVmNjQ0YWI0MWEyOGUyMjY4YTk4YWJjNWFhNDI2YmQyZDU3NzE1MjgzNDI0NGFkNjlhMzFmNWE2OEBn",
@@ -26,5 +26,5 @@
   },
   "status": "confirmed",
   "summary": "Myはんのう v1.44.1",
-  "updated": "2026-06-11T20:18:49.952Z"
+  "updated": "2026-06-13T10:54:57.975Z"
 }

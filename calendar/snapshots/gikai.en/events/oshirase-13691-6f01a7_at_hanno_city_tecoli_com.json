@@ -1,0 +1,34 @@
+{
+  "created": "2026-06-13T10:55:00.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🔄 Content Update (Published: June 13, 2026)\n\nNotice of Road Closure Lifted on Municipal Road District 1 Line 8\n\nThe closure of Municipal Road District 1 Line 8 due to a fallen tree, which was in effect from 1:00 p.m. on Friday, June 12, 2026 (Reiwa 8), has been lifted as of 9:40 a.m. on Saturday, June 13, 2026 (Reiwa 8).\n\nWe sincerely apologize for the inconvenience and disruption caused to residents and all road users during the closure period due to detours and traffic congestion.\n\nThank you for your understanding and cooperation.\n\nSource (Japanese): https://www.city.hanno.lg.jp/emergency/13691.html",
+  "end": {
+    "date": "2026-06-14"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3IzaWM5ZDZwajMwY2IxNnQwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-13691-6f01a7@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6cr3ic9d6pj30cb16t06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/emergency/13691.html"
+  },
+  "start": {
+    "date": "2026-06-13"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Hanno City Road Closure Lifted (Municipal Road District 1 Line 8)",
+  "updated": "2026-06-13T10:55:00.692Z"
+}

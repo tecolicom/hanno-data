@@ -1,0 +1,30 @@
+{
+  "created": "2026-06-13T08:00:00.000Z",
+  "creator": {
+    "email": "tecolicom@gmail.com"
+  },
+  "end": {
+    "date": "2026-07-13"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=Xzc0cDMwZDFnNzBwamFiOWc4aDJrNmI5azZncTM0YmEyOGdyM2liOW02c3MzY2NoaTg4czNlZHBuNjQgMjA1NDAzYzk3MWRjNWVmMjFlZmQ4MWMxZDUzODQ5Y2FkZmQ5MDFiNzVjNzdkODg5NTVkOTYwMGY0NWYyYTAxM0Bn",
+  "iCalUID": "92040835-0DEC-4442-BD69-678622B87771",
+  "id": "_74p30d1g70pjab9g8h2k6b9k6gq34ba28gr3ib9m6ss3cchi88s3edpn64",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "Myはんのう",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 1,
+  "start": {
+    "date": "2026-07-12"
+  },
+  "status": "confirmed",
+  "summary": "はんのう軒下マルシェ",
+  "transparency": "transparent",
+  "updated": "2026-06-13T08:00:10.510Z"
+}

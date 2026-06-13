@@ -1,0 +1,30 @@
+{
+  "created": "2026-06-13T10:55:03.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nv1.45.0\n\nYou can now create printable \"shop cards\" that summarize your business information.\n\n• 🪪 Generate printable shop cards — Choose from 4 formats: L-size (portrait or landscape), folded tent card, or business card size. Download or share cards as images that include your shop name, address, business hours, contact info, and QR code.\n\n• Choose a logo to display on your card — Select from logo options found on the official website, or enter a URL manually. You can also choose a layout without a logo.\n\n• Add phone, email, and fax to contact info — In addition to official website and SNS links, you can now register and display phone numbers, email addresses, and fax numbers.\n\n• Official website and phone from Google automatically appear — Your business page and cards will automatically show the official website and phone number stored in Google (if you register different information yourself, your entry takes priority).\n\n• Fixed a bug where \"No one has registered yet\" would sometimes appear incorrectly while the shop list was loading.",
+  "end": {
+    "date": "2026-06-16"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=cGlkMHFlNDA0NmpoYTJyOXUzMzI5a3Q1am8gZDkxOTNjZjVmNjQ0YWI0MWEyOGUyMjY4YTk4YWJjNWFhNDI2YmQyZDU3NzE1MjgzNDI0NGFkNjlhMzFmNWE2OEBn",
+  "iCalUID": "pid0qe4046jha2r9u3329kt5jo@google.com",
+  "id": "pid0qe4046jha2r9u3329kt5jo",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "Myはんのう（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "start": {
+    "date": "2026-06-13"
+  },
+  "status": "confirmed",
+  "summary": "Myはんのう v1.45.0",
+  "updated": "2026-06-13T10:55:03.698Z"
+}
