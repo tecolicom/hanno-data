@@ -46,11 +46,11 @@ def capture_oshirase(max_items=3):
         truncated = xml[:first_start] + "".join(items_xml[:max_items]) + xml[last_end:]
     else:
         truncated = xml
-    _save("oshirase", "feed.xml", truncated, manifest, m.FEED_URL)
+    _save("cal-oshirase-fetch", "feed.xml", truncated, manifest, m.FEED_URL)
     for it in m.parse_items(truncated):
         html = m.fetch(it["url"])
-        _save("oshirase", it["page_id"] + ".html", html, manifest, it["url"])
-    _write_manifest("oshirase", manifest)
+        _save("cal-oshirase-fetch", it["page_id"] + ".html", html, manifest, it["url"])
+    _write_manifest("cal-oshirase-fetch", manifest)
     print(f"oshirase: {len(manifest)} fixtures")
 
 
@@ -58,20 +58,20 @@ def capture_shicho_blog():
     m = _load("cal-shicho-blog-fetch")
     manifest = {}
     reiwa = m.gregorian_to_reiwa(date.today().year)
-    top = m.fetch(m.TOP_URL); _save("shicho-blog", "top.html", top, manifest, m.TOP_URL)
+    top = m.fetch(m.TOP_URL); _save("cal-shicho-blog-fetch", "top.html", top, manifest, m.TOP_URL)
     year_url = m.find_year_page(top, reiwa)
     if not year_url:
         sys.exit("no year page; capture aborted")
-    year = m.fetch(year_url); _save("shicho-blog", "year.html", year, manifest, year_url)
+    year = m.fetch(year_url); _save("cal-shicho-blog-fetch", "year.html", year, manifest, year_url)
     months = m.find_month_pages(year, reiwa)
     if not months:
         sys.exit("no months; capture aborted")
     mm, month_url = months[-1]  # 最新月のみ捕捉 (他月は replay で 304 skip)
-    month = m.fetch(month_url); _save("shicho-blog", "month.html", month, manifest, month_url)
+    month = m.fetch(month_url); _save("cal-shicho-blog-fetch", "month.html", month, manifest, month_url)
     for url, _t in m.find_article_links(month):
         html = m.fetch(url)
-        _save("shicho-blog", m.slug_from_article_url(url) + ".html", html, manifest, url)
-    _write_manifest("shicho-blog", manifest)
+        _save("cal-shicho-blog-fetch", m.slug_from_article_url(url) + ".html", html, manifest, url)
+    _write_manifest("cal-shicho-blog-fetch", manifest)
     print(f"shicho-blog: {len(manifest)} fixtures (month=令和{reiwa}年{mm}月)")
 
 
