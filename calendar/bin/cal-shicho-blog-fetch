@@ -9,8 +9,27 @@ Source: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/
   month (令和N年M月)               shichoblog/shisei<YYYY>/shisei<YYYYMM>/index.html
   article (各記事、市長が参加した行事等)  shichoblog/shisei<YYYY>/shisei<YYYYMM>/<page-id>.html
 
-LLM 不使用。当年度の全月を巡回し、新規 article の YAML を生成する。
-既存 YAML がある article は再 fetch しない (polite + 速い)。
+LLM 不使用。当年度の全月を巡回する。
+
+## 2 つの動作モード
+
+### incremental mode (デフォルト、cron 用)
+- UID:     shicho-blog-<page-id>-<hash6>@hanno.city.tecoli.com
+- dtstart: 取得日 (today, JST)
+- 記事の更新日に関係なく「市の site に新規掲載 / 内容が変わった」たびに別 YAML を生成。
+- 同 (page_id, content_hash) の YAML が既にあれば skip。
+- 記事更新日 (本文の「更新日：」) は source.publish_date に保持。
+- バックデート公開 (古い更新日で site に出る) でも、取得日が dtstart になるので
+  app トップの「今日以降」ウィンドウに新着として現れる。
+
+### once-per-page mode (legacy、--once-per-page で有効)
+- UID:     shicho-blog-<page-id>@hanno.city.tecoli.com
+- dtstart: 記事の更新日
+- 1 page = 1 YAML。既存 UID があれば再 fetch しない (polite)。
+- 新規街 onboarding / 過去分 backfill 用。
+
+politeness: 両モードとも月 index の conditional GET (304) で「変化した月」だけを
+巡回する。incremental は非 304 月内の各記事を fetch して hash 判定する。
 """
 from __future__ import annotations
 
@@ -21,7 +40,9 @@ import os
 import re
 import sys
 import urllib.request
-from datetime import date as _date, datetime
+from datetime import date as _date, datetime, timezone, timedelta
+
+JST = timezone(timedelta(hours=9))
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from _lib import (
@@ -219,32 +240,39 @@ def slug_from_article_url(url: str) -> str:
 # ---------- YAML 出力 ----------
 
 
-def build_description(article_url: str, body: str, truncated: bool) -> str:
+def build_description(article_url: str, body: str, truncated: bool,
+                      status_header: str = "") -> str:
     """description テキストを組み立て.
 
     本文があれば 本文 + 区切り + リンク。
     本文無し (抽出失敗) の場合は従来通り URL のみ。
+    status_header: incremental mode で先頭に置く 1 行
+                   (例: "📝 市長ブログ更新 (公開日: 2026-06-05)")。
+                   content_hash には含めない (= fetch 時点の状態であって本文 identity ではない)。
     """
+    header_block = f"{status_header}\n\n" if status_header else ""
     if not body:
-        return f"市長ブログ「市政一直線」: {article_url}"
+        return f"{header_block}市長ブログ「市政一直線」: {article_url}"
     tail = "（続きはリンク先で）" if truncated else ""
     parts = [body]
     if tail:
         parts.append(tail)
     parts.append(f"市長ブログ「市政一直線」: {article_url}")
-    return "\n\n".join(parts)
+    return header_block + "\n\n".join(parts)
 
 
 def build_yaml_doc(uid: str, article_url: str, page_id: str, title: str, date_str: str,
                    body: str, body_truncated: bool,
-                   content_hash: str, fetched_at: str | None) -> str:
+                   content_hash: str, fetched_at: str | None,
+                   status_header: str = "", publish_date: str | None = None) -> str:
     lines: list[str] = []
     lines.append(f"uid: {yaml_escape_str(uid)}")
     lines.append(f"summary: {yaml_escape_str(SUMMARY_PREFIX + title)}")
     lines.append(f"url: {yaml_escape_str(article_url)}")
     lines.append(f"dtstart: {yaml_escape_str(date_str)}")
     lines.append(f"dtend: {yaml_escape_str(date_str)}")
-    description = build_description(article_url, body, body_truncated)
+    description = build_description(article_url, body, body_truncated,
+                                   status_header=status_header)
     lines.append("description: " + yaml_block_scalar(description, indent=2))
     lines.append("")
     lines.append("render:")
@@ -258,10 +286,41 @@ def build_yaml_doc(uid: str, article_url: str, page_id: str, title: str, date_st
     ts = fetched_at or (datetime.utcnow().isoformat() + "Z")
     lines.append(f"  fetched_at: {yaml_escape_str(ts)}")
     lines.append(f"  content_hash: {yaml_escape_str('sha256-' + content_hash)}")
+    # incremental mode で dtstart を取得日に置き換えた場合に、元の記事更新日を
+    # 後追いできるよう保持。once-per-page mode では dtstart == publish_date なので省略。
+    if publish_date and publish_date != date_str:
+        lines.append(f"  publish_date: {yaml_escape_str(publish_date)}")
     return "\n".join(lines) + "\n"
 
 
 # ---------- main ----------
+
+
+def _existing_content_hashes(events_dir: str, uid_prefix: str) -> set[tuple[str, str]]:
+    """既存 YAML から (page_id, content_hash) ペアを集める。
+
+    incremental mode の skip 判定に使う。once-per-page と incremental の両形式の
+    UID から page_id を抽出する: `shicho-blog-<pid>@...` / `shicho-blog-<pid>-<hash6>@...`。
+    """
+    import glob
+    pattern = os.path.join(events_dir, "**", "*.yaml")
+    result: set[tuple[str, str]] = set()
+    pid_re = re.compile(rf"^{re.escape(uid_prefix)}-(\d+)(?:-[A-Za-z0-9]+)?@")
+    for path in glob.glob(pattern, recursive=True):
+        uid = read_yaml_scalar(path, "uid")
+        if not uid:
+            continue
+        m = pid_re.match(uid)
+        if not m:
+            continue
+        page_id = m.group(1)
+        ch = read_yaml_scalar(path, "content_hash")
+        if not ch:
+            continue
+        if ch.startswith("sha256-"):
+            ch = ch[len("sha256-"):]
+        result.add((page_id, ch))
+    return result
 
 
 def main() -> None:
@@ -275,9 +334,23 @@ def main() -> None:
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--refetch-existing", action="store_true",
                     help="既存 YAML も再 fetch し、content_hash 不一致なら上書き (本文取り込みの backfill 用)")
+    ap.add_argument("--once-per-page", action="store_true",
+                    help="legacy mode: 1 page = 1 YAML、dtstart = 記事更新日。"
+                         "新規街 onboarding / 過去分 backfill 用。"
+                         "デフォルトは incremental mode (新規・内容変化ごとに別 YAML、dtstart=今日)")
     ap.add_argument("--min-articles", type=int, default=0,
                     help="抽出 article 数がこれ未満なら exit 2 (default: 0 = 失敗扱いしない)")
     args = ap.parse_args()
+
+    # incremental mode 用: 既存 YAML の (page_id, content_hash) を pre-scan。
+    # + 同 page_id に YAML が 1 件でもあれば「既知 page」= 内容更新扱い。
+    existing_hashes: set[tuple[str, str]] = set()
+    existing_page_ids: set[str] = set()
+    if not args.once_per_page:
+        existing_hashes = _existing_content_hashes(args.out_dir, args.uid_prefix)
+        existing_page_ids = {pid for (pid, _) in existing_hashes}
+
+    today_jst = datetime.now(JST).strftime("%Y-%m-%d")
 
     year = args.year or _date.today().year
     reiwa_y = gregorian_to_reiwa(year)
@@ -334,15 +407,18 @@ def main() -> None:
             if not safe_url(article_url):
                 continue
             page_id = slug_from_article_url(article_url)
-            uid = f"{args.uid_prefix}-{page_id}@{UID_NAMESPACE}"
 
-            # 既存 YAML 検索 (idempotent + polite)
-            existing_path = find_existing_by_uid(args.out_dir, uid)
-            if existing_path and not args.refetch_existing:
-                skipped += 1
-                continue
+            # once-per-page: 記事 fetch 前に既存 UID で skip (polite)
+            if args.once_per_page:
+                uid = f"{args.uid_prefix}-{page_id}@{UID_NAMESPACE}"
+                existing_path = find_existing_by_uid(args.out_dir, uid)
+                if existing_path and not args.refetch_existing:
+                    skipped += 1
+                    continue
+            else:
+                existing_path = None  # incremental: hash 計算後に決定
 
-            # 記事 fetch
+            # 記事 fetch (両モード共通)
             try:
                 article_html = fetch(article_url)
             except Exception as e:
@@ -354,6 +430,7 @@ def main() -> None:
                 continue
 
             # canonical hash (title + date + body 抜粋)。本文変化を検知する。
+            # date は記事更新日 (= content identity)。dtstart が取得日でも不変。
             canonical = json.dumps(
                 {"title": parsed["title"], "date": parsed["date"],
                  "body": parsed["body"], "body_truncated": parsed["body_truncated"]},
@@ -361,19 +438,39 @@ def main() -> None:
             )
             content_hash = hashlib.sha256(canonical.encode("utf-8")).hexdigest()[:16]
 
-            # 既存 YAML と hash 一致なら fetched_at を流用して diff ゼロ維持
-            fetched_at = None
-            if existing_path:
-                old_hash = _read_content_hash(existing_path)
-                old_fetched_at = _read_fetched_at(existing_path)
-                if old_hash == f"sha256-{content_hash}":
-                    fetched_at = old_fetched_at  # 上書きするが内容同一 → ts も同一
+            if args.once_per_page:
+                # legacy: dtstart=記事更新日、UID=prefix-pid、hash 一致なら fetched_at 流用
+                fetched_at = None
+                if existing_path:
+                    old_hash = _read_content_hash(existing_path)
+                    old_fetched_at = _read_fetched_at(existing_path)
+                    if old_hash == f"sha256-{content_hash}":
+                        fetched_at = old_fetched_at  # 上書きするが内容同一 → ts も同一
+                        unchanged += 1
+                uid = f"{args.uid_prefix}-{page_id}@{UID_NAMESPACE}"
+                dtstart = parsed["date"]
+                publish_date = None
+                status_header = ""
+            else:
+                # incremental: (page_id, content_hash) が既知なら skip (新規/変更のみ書く)
+                if (page_id, content_hash) in existing_hashes:
                     unchanged += 1
+                    continue
+                uid = f"{args.uid_prefix}-{page_id}-{content_hash[:6]}@{UID_NAMESPACE}"
+                dtstart = today_jst
+                publish_date = parsed["date"]
+                fetched_at = None
+                # status: 同 page_id に既存 YAML 無し → 新規 / 既存あり → 内容更新
+                if page_id in existing_page_ids:
+                    status_header = f"🔄 内容更新 (公開日: {publish_date})"
+                else:
+                    status_header = f"📝 市長ブログ更新 (公開日: {publish_date})"
 
-            doc = build_yaml_doc(uid, article_url, page_id, parsed["title"], parsed["date"],
+            doc = build_yaml_doc(uid, article_url, page_id, parsed["title"], dtstart,
                                  parsed["body"], parsed["body_truncated"],
-                                 content_hash, fetched_at)
-            out_path = output_path_for(args.out_dir, uid, parsed["date"])
+                                 content_hash, fetched_at,
+                                 status_header=status_header, publish_date=publish_date)
+            out_path = output_path_for(args.out_dir, uid, dtstart)
 
             if args.dry_run:
                 print(f"# === {os.path.relpath(out_path, args.out_dir)} ===")
@@ -386,6 +483,10 @@ def main() -> None:
             os.makedirs(os.path.dirname(out_path), exist_ok=True)
             with open(out_path, "w", encoding="utf-8") as f:
                 f.write(doc)
+            # incremental では次の loop iter 内でも自身を skip 対象にできるよう set 更新
+            if not args.once_per_page:
+                existing_hashes.add((page_id, content_hash))
+                existing_page_ids.add(page_id)
             verb = "UPDATED" if existing_path else "WROTE"
             print(f"    {verb} {out_path}", file=sys.stderr)
             written += 1
