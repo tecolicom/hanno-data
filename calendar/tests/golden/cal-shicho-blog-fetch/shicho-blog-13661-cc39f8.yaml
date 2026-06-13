@@ -1,0 +1,23 @@
+uid: "shicho-blog-13661-cc39f8@hanno.city.tecoli.com"
+summary: "📝 市長：加治スポーツ協会懇親ペタンク大会"
+url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202606/13661.html"
+dtstart: "<DATE>"
+dtend: "<DATE>"
+description: |-
+  📝 市長ブログ更新 (公開日: 2026-06-06)
+  
+  6月6日（土曜日）、加治スポーツ協会主催による、懇親ペタンク大会が開催され、お招きいただき開会式に参加いたしました。
+  
+  市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202606/13661.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-shicho-blog
+  id: "13661"
+  url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202606/13661.html"
+  fetched_at: "<TS>"
+  content_hash: "sha256-cc39f8fbd6bfe2fa"
+  publish_date: "2026-06-06"
