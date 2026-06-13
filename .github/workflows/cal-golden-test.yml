@@ -1,0 +1,33 @@
+name: Calendar golden test
+
+# クローラのコード / config / fixtures 変更時に、出力 YAML がバイト一致で維持
+# されているか (= content_hash 不変 = flood なし) を hermetic に検証する。
+# ネットワーク不使用・数秒で完了。重い apply 系の cal-daily.yml とは分離。
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'calendar/bin/**'
+      - 'calendar/sources.yaml'
+      - 'calendar/tests/**'
+      - '.github/workflows/cal-golden-test.yml'
+  pull_request:
+    paths:
+      - 'calendar/bin/**'
+      - 'calendar/sources.yaml'
+      - 'calendar/tests/**'
+
+jobs:
+  golden:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Python deps
+        run: pip install --quiet pyyaml
+
+      - name: Run golden test
+        run: python3 calendar/tests/run-golden
