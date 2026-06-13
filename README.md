@@ -38,9 +38,11 @@ hanno-data/
 │   ├── bin/cal-shicho-blog-fetch          # 市長ブログ + 本文取り込み (LLM 不使用)
 │   ├── bin/cal-oshirase-fetch             # 飯能市公式お知らせ + LLM 要約 (Claude Haiku)
 │   ├── bin/cal-translate-en               # events/ 全件英訳 → translations.en.*
+│   ├── sources.yaml                       # クローラの source 別 city 固有設定 (多都市化用)
 │   ├── events/<year>/<MM-DD>_<uid>.yaml   # canonical YAML (1 イベント 1 ファイル)
 │   ├── snapshots/<cal-key>/events/        # 各 Calendar 状態のミラー (バックアップ)
-│   └── sources/hanno-tourism/urls.txt     # クローラ対象 URL リスト
+│   ├── sources/hanno-tourism/urls.txt     # クローラ対象 URL リスト
+│   └── tests/                             # golden 回帰テスト (出力 YAML のバイト一致ロック)
 ├── aed/                          # AED 設置施設一覧
 │   └── 2026.yaml                          # 飯能市公式サイトから抽出 + 国土地理院で geocode
 └── docs/                         # 設計ドキュメント
@@ -103,7 +105,7 @@ canonical に管理する仕組み。JP/EN 2 言語 × default/gikai 2 系統 = 
 - **飯能ツーリズム協会** (`cal-tourism-fetch`): 決定論パース、LLM 不使用
 - **飯能市民会館** (`cal-shiminkaikan-fetch`): 公演スケジュール
 - **飯能市議会** (`cal-gikai-fetch`): 議事日程
-- **市長ブログ** (`cal-shicho-blog-fetch`): 本文込み掲載、LLM 不使用
+- **市長ブログ** (`cal-shicho-blog-fetch`): 本文込み掲載、LLM 不使用。incremental mode (dtstart=取得日) で バックデート公開も新着として拾う
 - **飯能市公式お知らせ** (`cal-oshirase-fetch`): 長文は Claude Haiku 4.5 で要約
 - **英訳** (`cal-translate-en`): 全 events の英訳を `translations.en.*` に in-place 格納
 
@@ -111,6 +113,7 @@ AI 生成コンテンツの表示方針は [`docs/ai-content-policy.md`](./docs/
 
 CI 自動化 (GitHub Actions):
 - `cal-daily.yml` (03:00 JST + `calendar/bin/**` push trigger) — 全 fetcher 実行 → events commit → JP Calendar 反映 → `cal-translate-en` で英訳 → translations commit → EN Calendar 反映 → snapshot
+- `cal-golden-test.yml` (`calendar/bin/**` / `sources.yaml` / `tests/**` の push・PR) — `calendar/tests/run-golden` でクローラ出力 YAML がバイト一致で維持されているか hermetic 検証 (カレンダー氾濫の回帰防止)
 
 ### AED 設置施設
 
