@@ -1,0 +1,8 @@
+uid: "92040835-0DEC-4442-BD69-678622B87771"
+summary: "はんのう軒下マルシェ"
+dtstart: "2026-07-12"
+dtend: "2026-07-12"
+
+render:
+  gcal:
+    mode: single-allday

@@ -1,0 +1,29 @@
+uid: "oshirase-13691-6f01a7@hanno.city.tecoli.com"
+summary: "ℹ️ 飯能市道の通行止め解除について（第1地区第8号線）"
+url: "https://www.city.hanno.lg.jp/emergency/13691.html"
+dtstart: "2026-06-13"
+dtend: "2026-06-13"
+description: |-
+  🔄 内容更新 (公開日: 2026-06-13)
+  
+  ## 市道第1地区第8号線の通行止め解除のお知らせについて
+  
+  令和8年6月12日（金曜日）13時より実施していた市道第1地区第8号線の倒木による通行止めを令和8年6月13日（土曜日）9時40分をもちまして解除いたしました。
+  
+  通行止め期間中は、迂回や交通渋滞等により、市民の皆様をはじめ道路利用者の皆様にご不便とご迷惑をおかけしましたことをお詫び申しあげます。
+  
+  ご理解とご協力をいただき、誠にありがとうございます。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/emergency/13691.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13691"
+  url: "https://www.city.hanno.lg.jp/emergency/13691.html"
+  fetched_at: "2026-06-13T10:50:53.252956Z"
+  content_hash: "sha256-6f01a79efed9044c"
+  summary_method: "full"

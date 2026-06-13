@@ -1,0 +1,8 @@
+uid: "442515AA-85BA-4B3D-8689-ED04809516D0"
+summary: "はんのう軒下マルシェ"
+dtstart: "2026-06-14"
+dtend: "2026-06-14"
+
+render:
+  gcal:
+    mode: single-allday
