@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<channel rdf:about="https://www.city.hanno.lg.jp/index.html">
+<title>飯能市-Hanno City-</title>
+<link>https://www.city.hanno.lg.jp/index.html</link>
+<description>水と緑の交流拠点 森林文化都市 はんのう - 埼玉県飯能市の公式ホームページです。</description>
+<items>
+<rdf:Seq>
+<rdf:li resource="https://www.city.hanno.lg.jp/emergency/13691.html"/>
+<rdf:li resource="https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/13685.html"/>
+<rdf:li resource="https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/13690.html"/>
+<rdf:li resource="https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/kodomoshienka/kosodatesogocenter/7857.html"/>
+<rdf:li resource="https://www.city.hanno.lg.jp/sangyo_jigyoshamuke/sangyoshinko/nogyoshinko/13470.html#toboku"/>
+<rdf:li resource="https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/13631.html"/>
+<rdf:li resource="https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/13606.html"/>
+<rdf:li resource="https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025_1/13388.html"/>
+<rdf:li resource="https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/oshirase/8820.html"/>
+<rdf:li resource="https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/13616.html"/>
+<rdf:li resource="https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/kankyomidorimizuka/10070.html"/>
+<rdf:li resource="https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/gyoseicenterkanrika/fujimichikugyoseicenter_kominkan/13584.html"/>
+<rdf:li resource="https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/kenchikuka/shieijyuuraku/7608.html"/>
+<rdf:li resource="https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/kenchikuka/akiya/11866.html"/>
+<rdf:li resource="https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/13598.html"/>
+<rdf:li resource="https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/tenji_moyooshimono/13585.html"/>
+<rdf:li resource="https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/sangakukanrenkei/13565.html"/>
+<rdf:li resource="https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/sangakukanrenkei/13563.html"/>
+<rdf:li resource="https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/12784.html"/>
+<rdf:li resource="https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kinkyuuzaiseitaisaku/11840.html"/>
+<rdf:li resource="https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kinkyuuzaiseitaisaku/12184.html"/>
+<rdf:li resource="https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/tenji_moyooshimono/13451.html"/>
+<rdf:li resource="https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/hoikuka/13413.html"/>
+<rdf:li resource="https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/bunkazaitanto/bunkazai/13272.html"/>
+<rdf:li resource="https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/johosystem/13166.html"/>
+<rdf:li resource="https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/shuzeika/13555.html"/>
+<rdf:li resource="https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/13487.html"/>
+<rdf:li resource="https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/furusatonozei/9107.html"/>
+<rdf:li resource="https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/12785.html"/>
+<rdf:li resource="https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/9290.html"/>
+<rdf:li resource="https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/5/13507.html"/>
+<rdf:li resource="https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/suidogyomuka/13515.html"/>
+<rdf:li resource="https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/johosystem/12499.html"/>
+<rdf:li resource="https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/12265.html"/>
+<rdf:li resource="https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/nogyoshinkoka/9873.html"/>
+<rdf:li resource="https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/sangakukanrenkei/13477.html"/>
+<rdf:li resource="https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/9927.html"/>
+<rdf:li resource="https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/10102.html"/>
+<rdf:li resource="https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/johosystem/13006.html"/>
+<rdf:li resource="https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/suidokomuka/13444.html"/>
+<rdf:li resource="https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jitishinkoka/shiminkatudou/11274.html"/>
+<rdf:li resource="https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/kankyomidorimizuka/13383.html"/>
+<rdf:li resource="https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/so-go-jigyou/1967.html"/>
+<rdf:li resource="https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/ninchi-sisaku/ninchi-jigyou/7981.html"/>
+<rdf:li resource="https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/kaigo-yobou/7410.html"/>
+<rdf:li resource="https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/13330.html"/>
+<rdf:li resource="https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/iryo/2431.html"/>
+<rdf:li resource="https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminka/11075.html"/>
+<rdf:li resource="https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025/11596.html"/>
+<rdf:li resource="https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/zaimushohyo/13353.html"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="https://www.city.hanno.lg.jp/emergency/13691.html">
+<title>飯能市道の通行止め解除について（第1地区第8号線）</title>
+<link>https://www.city.hanno.lg.jp/emergency/13691.html</link>
+<description></description>
+<dc:date>2026-06-13T10:13:08+09:00</dc:date>
+</item><item rdf:about="https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/13685.html">
+<title>野生鳥獣に関する通報への電話受付対応について</title>
+<link>https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/13685.html</link>
+<description></description>
+<dc:date>2026-06-12T15:59:03+09:00</dc:date>
+</item><item rdf:about="https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/13690.html">
+<title>6月12日の気象情報について</title>
+<link>https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/13690.html</link>
+<description></description>
+<dc:date>2026-06-12T15:30:00+09:00</dc:date>
+</item>
+</rdf:RDF>
