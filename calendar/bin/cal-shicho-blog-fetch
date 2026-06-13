@@ -21,7 +21,9 @@ import os
 import re
 import sys
 import urllib.request
-from datetime import date as _date, datetime
+from datetime import date as _date, datetime, timezone, timedelta
+
+JST = timezone(timedelta(hours=9))
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from _lib import (
@@ -219,32 +221,39 @@ def slug_from_article_url(url: str) -> str:
 # ---------- YAML 出力 ----------
 
 
-def build_description(article_url: str, body: str, truncated: bool) -> str:
+def build_description(article_url: str, body: str, truncated: bool,
+                      status_header: str = "") -> str:
     """description テキストを組み立て.
 
     本文があれば 本文 + 区切り + リンク。
     本文無し (抽出失敗) の場合は従来通り URL のみ。
+    status_header: incremental mode で先頭に置く 1 行
+                   (例: "📝 市長ブログ更新 (公開日: 2026-06-05)")。
+                   content_hash には含めない (= fetch 時点の状態であって本文 identity ではない)。
     """
+    header_block = f"{status_header}\n\n" if status_header else ""
     if not body:
-        return f"市長ブログ「市政一直線」: {article_url}"
+        return f"{header_block}市長ブログ「市政一直線」: {article_url}"
     tail = "（続きはリンク先で）" if truncated else ""
     parts = [body]
     if tail:
         parts.append(tail)
     parts.append(f"市長ブログ「市政一直線」: {article_url}")
-    return "\n\n".join(parts)
+    return header_block + "\n\n".join(parts)
 
 
 def build_yaml_doc(uid: str, article_url: str, page_id: str, title: str, date_str: str,
                    body: str, body_truncated: bool,
-                   content_hash: str, fetched_at: str | None) -> str:
+                   content_hash: str, fetched_at: str | None,
+                   status_header: str = "", publish_date: str | None = None) -> str:
     lines: list[str] = []
     lines.append(f"uid: {yaml_escape_str(uid)}")
     lines.append(f"summary: {yaml_escape_str(SUMMARY_PREFIX + title)}")
     lines.append(f"url: {yaml_escape_str(article_url)}")
     lines.append(f"dtstart: {yaml_escape_str(date_str)}")
     lines.append(f"dtend: {yaml_escape_str(date_str)}")
-    description = build_description(article_url, body, body_truncated)
+    description = build_description(article_url, body, body_truncated,
+                                   status_header=status_header)
     lines.append("description: " + yaml_block_scalar(description, indent=2))
     lines.append("")
     lines.append("render:")
@@ -258,10 +267,41 @@ def build_yaml_doc(uid: str, article_url: str, page_id: str, title: str, date_st
     ts = fetched_at or (datetime.utcnow().isoformat() + "Z")
     lines.append(f"  fetched_at: {yaml_escape_str(ts)}")
     lines.append(f"  content_hash: {yaml_escape_str('sha256-' + content_hash)}")
+    # incremental mode で dtstart を取得日に置き換えた場合に、元の記事更新日を
+    # 後追いできるよう保持。once-per-page mode では dtstart == publish_date なので省略。
+    if publish_date and publish_date != date_str:
+        lines.append(f"  publish_date: {yaml_escape_str(publish_date)}")
     return "\n".join(lines) + "\n"
 
 
 # ---------- main ----------
+
+
+def _existing_content_hashes(events_dir: str, uid_prefix: str) -> set[tuple[str, str]]:
+    """既存 YAML から (page_id, content_hash) ペアを集める。
+
+    incremental mode の skip 判定に使う。once-per-page と incremental の両形式の
+    UID から page_id を抽出する: `shicho-blog-<pid>@...` / `shicho-blog-<pid>-<hash6>@...`。
+    """
+    import glob
+    pattern = os.path.join(events_dir, "**", "*.yaml")
+    result: set[tuple[str, str]] = set()
+    pid_re = re.compile(rf"^{re.escape(uid_prefix)}-(\d+)(?:-[A-Za-z0-9]+)?@")
+    for path in glob.glob(pattern, recursive=True):
+        uid = read_yaml_scalar(path, "uid")
+        if not uid:
+            continue
+        m = pid_re.match(uid)
+        if not m:
+            continue
+        page_id = m.group(1)
+        ch = read_yaml_scalar(path, "content_hash")
+        if not ch:
+            continue
+        if ch.startswith("sha256-"):
+            ch = ch[len("sha256-"):]
+        result.add((page_id, ch))
+    return result
 
 
 def main() -> None:
