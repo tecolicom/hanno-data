@@ -27,3 +27,24 @@ source:
   fetched_at: "2026-06-13T10:50:53.252956Z"
   content_hash: "sha256-6f01a79efed9044c"
   summary_method: "full"
+translations:
+  en:
+    summary: "ℹ️ Hanno City Road Closure Lifted (Municipal Road District 1 Line 8)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content Update (Published: June 13, 2026)
+      
+      Notice of Road Closure Lifted on Municipal Road District 1 Line 8
+      
+      The closure of Municipal Road District 1 Line 8 due to a fallen tree, which was in effect from 1:00 p.m. on Friday, June 12, 2026 (Reiwa 8), has been lifted as of 9:40 a.m. on Saturday, June 13, 2026 (Reiwa 8).
+      
+      We sincerely apologize for the inconvenience and disruption caused to residents and all road users during the closure period due to detours and traffic congestion.
+      
+      Thank you for your understanding and cooperation.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/emergency/13691.html
+    translation_hash: "sha256-86ff619923978eff"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-06-13T10:53:08.705983Z"
+    format_version: 3

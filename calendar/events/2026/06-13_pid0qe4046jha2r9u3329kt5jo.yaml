@@ -16,3 +16,26 @@ description: |
 render:
   gcal:
     mode: span-allday
+translations:
+  en:
+    summary: "Myはんのう v1.45.0"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      v1.45.0
+      
+      You can now create printable "shop cards" that summarize your business information.
+      
+      • 🪪 Generate printable shop cards — Choose from 4 formats: L-size (portrait or landscape), folded tent card, or business card size. Download or share cards as images that include your shop name, address, business hours, contact info, and QR code.
+      
+      • Choose a logo to display on your card — Select from logo options found on the official website, or enter a URL manually. You can also choose a layout without a logo.
+      
+      • Add phone, email, and fax to contact info — In addition to official website and SNS links, you can now register and display phone numbers, email addresses, and fax numbers.
+      
+      • Official website and phone from Google automatically appear — Your business page and cards will automatically show the official website and phone number stored in Google (if you register different information yourself, your entry takes priority).
+      
+      • Fixed a bug where "No one has registered yet" would sometimes appear incorrectly while the shop list was loading.
+    translation_hash: "sha256-d55b4ab797c88560"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-06-13T10:53:11.820283Z"
+    format_version: 3

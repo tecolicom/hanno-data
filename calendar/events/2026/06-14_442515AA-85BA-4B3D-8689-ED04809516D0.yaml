@@ -6,3 +6,10 @@ dtend: "2026-06-14"
 render:
   gcal:
     mode: single-allday
+translations:
+  en:
+    summary: "Hanno Noki-shita Marché"
+    translation_hash: "sha256-8078c9663a91f039"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-06-13T10:53:12.954421Z"
+    format_version: 3
