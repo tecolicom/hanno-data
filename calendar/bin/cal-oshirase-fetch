@@ -46,7 +46,7 @@ from _lib import (
     USER_AGENT, UID_NAMESPACE, fetch, read_yaml_scalar,
     yaml_escape_str, yaml_block_scalar, strip_html, normalize_body,
     strip_markdown, AI_DISCLAIMER_JP,
-    output_path_for, find_existing_by_uid,
+    output_path_for, find_existing_by_uid, load_source_config,
 )
 
 JST = timezone(timedelta(hours=9))
@@ -58,16 +58,14 @@ except ImportError:
 
 
 # ==================== Source ====================
-# 「どこから何を取るか」のメタ情報。多都市展開時はこのセクションがそのまま
-# 都市別 config (YAML) になる想定。
-DEFAULT_UID_PREFIX = "oshirase"
-SOURCE_TYPE = "city-hanno-oshirase"
-SUMMARY_PREFIX = "ℹ️ "
-FEED_URL = (
-    "https://www.city.hanno.lg.jp/cgi-bin/feed.php"
-    "?siteNew=1&displayCount=50&displayRange=90&includeShortcut=0"
-)
-URL_HOST_ALLOWLIST = "www.city.hanno.lg.jp"
+# 「どこから何を取るか」の city 固有メタ情報は calendar/sources.yaml に外出し済み。
+# クローラのコードは都市非依存で、起動時 (import 時) にここで読み込む。
+_SRC = load_source_config("oshirase")
+DEFAULT_UID_PREFIX = _SRC["uid_prefix"]
+SOURCE_TYPE = _SRC["source_type"]
+SUMMARY_PREFIX = _SRC["summary_prefix"]
+FEED_URL = _SRC["feed_url"]
+URL_HOST_ALLOWLIST = _SRC["url_host_allowlist"]
 
 
 # ==================== Tunables ====================
