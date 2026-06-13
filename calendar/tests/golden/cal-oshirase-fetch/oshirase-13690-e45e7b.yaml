@@ -1,0 +1,32 @@
+uid: "oshirase-13690-e45e7b@hanno.city.tecoli.com"
+summary: "ℹ️ 6月12日の気象情報について"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/13690.html"
+dtstart: "<DATE>"
+dtend: "<DATE>"
+description: |-
+  🆕 新着掲載 (公開日: 2026-06-12)
+  
+  ## 6月12日の気象情報について
+  
+  埼玉県では、12日昼過ぎから夜遅くにかけて、雷を伴った激しい雨の降る予報となっております。
+  
+  低い土地の浸水、河川の増水に注意・警戒し、落雷や竜巻などの激しい突風、土砂災害に注意してください。
+  
+  降ひょうのおそれもありますので、農作物や農業施設の管理にも注意してください。
+  
+  降ひょうによる被害については、防災危機管理課にご相談ください。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/13690.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13690"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/13690.html"
+  fetched_at: "<TS>"
+  content_hash: "sha256-e45e7bc9c2e6a254"
+  summary_method: "full"
+  publish_date: "2026-06-12"

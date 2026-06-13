@@ -1,0 +1,133 @@
+#!/usr/bin/env python3
+"""calendar/tests/run-golden — クローラ出力をバイト一致でロックする回帰テスト。
+
+各クローラを fixtures (calendar/tests/fixtures/<crawler>/) を入力に hermetic 実行し、
+生成 YAML を日付正規化して golden/<crawler>/ と比較する。ネットワーク不使用。
+
+  python3 calendar/tests/run-golden           # 比較 (一致=exit0, 不一致=exit1)
+  python3 calendar/tests/run-golden --update  # golden 再生成 (初回/意図的変更時)
+
+dtstart/dtend/fetched_at は incremental では実行日に依存するので、比較前に
+プレースホルダへ正規化する。content_hash は日付非依存 (canonical に dtstart を
+含めない設計) なので正規化せず、ハッシュ回帰はそのまま検知される。
+"""
+from __future__ import annotations
+import importlib.machinery, importlib.util, glob, json, os, re, sys, tempfile
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+BIN = os.path.normpath(os.path.join(HERE, "..", "bin"))
+FIX = os.path.join(HERE, "fixtures")
+GOLD = os.path.join(HERE, "golden")
+
+
+def _load(name):
+    loader = importlib.machinery.SourceFileLoader(name.replace("-", "_"),
+                                                  os.path.join(BIN, name))
+    spec = importlib.util.spec_from_loader(loader.name, loader)
+    mod = importlib.util.module_from_spec(spec); loader.exec_module(mod)
+    return mod
+
+
+def _manifest(crawler):
+    with open(os.path.join(FIX, crawler, "manifest.json"), encoding="utf-8") as f:
+        return json.load(f)
+
+
+def _read_fixture(crawler, fname):
+    with open(os.path.join(FIX, crawler, fname), encoding="utf-8") as f:
+        return f.read()
+
+
+def _normalize(text):
+    text = re.sub(r'^(dtstart: ).*$', r'\1"<DATE>"', text, flags=re.M)
+    text = re.sub(r'^(dtend: ).*$', r'\1"<DATE>"', text, flags=re.M)
+    text = re.sub(r'^(  fetched_at: ).*$', r'\1"<TS>"', text, flags=re.M)
+    return text
+
+
+def _golden_key(path):
+    # <out>/<YYYY>/<MM-DD>_<uidlocal>.yaml → <uidlocal>.yaml
+    return re.sub(r'^\d\d-\d\d_', '', os.path.basename(path))
+
+
+def _setup_oshirase(m, crawler, manifest):
+    m._llm_available = lambda: False  # LLM 経路を断つ (deterministic)
+
+
+def _setup_shicho_blog(m, crawler, manifest):
+    m.fetch_with_cache = lambda url, etag, lm: (
+        (_read_fixture(crawler, manifest[url]), None, None) if url in manifest
+        else (None, None, None)  # 未捕捉の月は 304 = skip
+    )
+    m.load_http_cache = lambda: {}
+    m.save_http_cache = lambda c: None
+
+
+CRAWLERS = [
+    ("cal-oshirase-fetch", _setup_oshirase),
+    ("cal-shicho-blog-fetch", _setup_shicho_blog),
+]
+
+
+def _run_crawler(crawler, setup):
+    m = _load(crawler)
+    manifest = _manifest(crawler)
+    m.fetch = lambda url: _read_fixture(crawler, manifest[url])
+    setup(m, crawler, manifest)
+    out = {}
+    saved_argv = sys.argv
+    try:
+        with tempfile.TemporaryDirectory() as d:
+            sys.argv = [crawler, "--out-dir", d]
+            m.main()
+            for p in glob.glob(os.path.join(d, "**", "*.yaml"), recursive=True):
+                with open(p, encoding="utf-8") as f:
+                    out[_golden_key(p)] = _normalize(f.read())
+    finally:
+        sys.argv = saved_argv
+    return out
+
+
+def main():
+    update = "--update" in sys.argv[1:]
+    failures = 0
+    for crawler, setup in CRAWLERS:
+        generated = _run_crawler(crawler, setup)
+        gdir = os.path.join(GOLD, crawler)
+        if update:
+            os.makedirs(gdir, exist_ok=True)
+            for old in glob.glob(os.path.join(gdir, "*.yaml")):
+                os.remove(old)
+            for key, content in generated.items():
+                with open(os.path.join(gdir, key), "w", encoding="utf-8") as f:
+                    f.write(content)
+            print(f"[update] {crawler}: wrote {len(generated)} golden files")
+            continue
+        golden_keys = {os.path.basename(p) for p in glob.glob(os.path.join(gdir, "*.yaml"))}
+        gen_keys = set(generated)
+        crawler_fail = 0
+        if golden_keys != gen_keys:
+            print(f"FAIL {crawler}: key set differs")
+            print(f"  only in golden:    {sorted(golden_keys - gen_keys)}")
+            print(f"  only in generated: {sorted(gen_keys - golden_keys)}")
+            crawler_fail += 1
+        for key in sorted(gen_keys & golden_keys):
+            with open(os.path.join(gdir, key), encoding="utf-8") as f:
+                want = f.read()
+            if generated[key] != want:
+                print(f"FAIL {crawler}/{key}: content differs")
+                crawler_fail += 1
+        if crawler_fail == 0:
+            print(f"OK {crawler}: {len(generated)} files match")
+        failures += crawler_fail
+    if update:
+        return 0
+    if failures:
+        print(f"\n{failures} golden mismatch(es).")
+        return 1
+    print("\nAll golden checks passed.")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

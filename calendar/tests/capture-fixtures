@@ -1,0 +1,80 @@
+#!/usr/bin/env python3
+"""calendar/tests/capture-fixtures — golden テスト用 fixtures を実サイトから取得 (dev tool)。
+
+ネットワーク使用。fixtures を更新したい時に手動実行する。
+  python3 calendar/tests/capture-fixtures
+"""
+from __future__ import annotations
+import importlib.machinery, importlib.util, json, os, re, sys
+from datetime import date
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+BIN = os.path.normpath(os.path.join(HERE, "..", "bin"))
+FIX = os.path.join(HERE, "fixtures")
+
+
+def _load(name):
+    loader = importlib.machinery.SourceFileLoader(name.replace("-", "_"),
+                                                  os.path.join(BIN, name))
+    spec = importlib.util.spec_from_loader(loader.name, loader)
+    mod = importlib.util.module_from_spec(spec); loader.exec_module(mod)
+    return mod
+
+
+def _save(crawler, fname, content, manifest, url):
+    d = os.path.join(FIX, crawler)
+    os.makedirs(d, exist_ok=True)
+    with open(os.path.join(d, fname), "w", encoding="utf-8") as f:
+        f.write(content)
+    manifest[url] = fname
+
+
+def _write_manifest(crawler, manifest):
+    with open(os.path.join(FIX, crawler, "manifest.json"), "w", encoding="utf-8") as f:
+        json.dump(manifest, f, ensure_ascii=False, indent=2, sort_keys=True)
+
+
+def capture_oshirase(max_items=3):
+    m = _load("cal-oshirase-fetch")
+    manifest = {}
+    xml = m.fetch(m.FEED_URL)
+    # 先頭 max_items 件だけ残して feed を truncate (replay 時の fetch 件数を限定)
+    items_xml = re.findall(r"<item\b[\s\S]*?</item>", xml, re.I)
+    if items_xml:
+        first_start = xml.index(items_xml[0])
+        last_end = xml.rindex(items_xml[-1]) + len(items_xml[-1])
+        truncated = xml[:first_start] + "".join(items_xml[:max_items]) + xml[last_end:]
+    else:
+        truncated = xml
+    _save("cal-oshirase-fetch", "feed.xml", truncated, manifest, m.FEED_URL)
+    for it in m.parse_items(truncated):
+        html = m.fetch(it["url"])
+        _save("cal-oshirase-fetch", it["page_id"] + ".html", html, manifest, it["url"])
+    _write_manifest("cal-oshirase-fetch", manifest)
+    print(f"oshirase: {len(manifest)} fixtures")
+
+
+def capture_shicho_blog():
+    m = _load("cal-shicho-blog-fetch")
+    manifest = {}
+    reiwa = m.gregorian_to_reiwa(date.today().year)
+    top = m.fetch(m.TOP_URL); _save("cal-shicho-blog-fetch", "top.html", top, manifest, m.TOP_URL)
+    year_url = m.find_year_page(top, reiwa)
+    if not year_url:
+        sys.exit("no year page; capture aborted")
+    year = m.fetch(year_url); _save("cal-shicho-blog-fetch", "year.html", year, manifest, year_url)
+    months = m.find_month_pages(year, reiwa)
+    if not months:
+        sys.exit("no months; capture aborted")
+    mm, month_url = months[-1]  # 最新月のみ捕捉 (他月は replay で 304 skip)
+    month = m.fetch(month_url); _save("cal-shicho-blog-fetch", "month.html", month, manifest, month_url)
+    for url, _t in m.find_article_links(month):
+        html = m.fetch(url)
+        _save("cal-shicho-blog-fetch", m.slug_from_article_url(url) + ".html", html, manifest, url)
+    _write_manifest("cal-shicho-blog-fetch", manifest)
+    print(f"shicho-blog: {len(manifest)} fixtures (month=令和{reiwa}年{mm}月)")
+
+
+if __name__ == "__main__":
+    capture_oshirase()
+    capture_shicho_blog()

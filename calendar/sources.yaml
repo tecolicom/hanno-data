@@ -1,0 +1,18 @@
+# クローラの source 別設定 (city 固有値)。
+# 多都市展開時は各 data repo がこのファイルを持つ。クローラのコード (calendar/bin/) は
+# 都市非依存で、ここの値を起動時に読み込む。
+# 注: uid_namespace は現状 _lib.UID_NAMESPACE 共有定数のままなので、ここには含めない。
+oshirase:
+  uid_prefix: oshirase
+  source_type: city-hanno-oshirase
+  summary_prefix: "ℹ️ "
+  feed_url: "https://www.city.hanno.lg.jp/cgi-bin/feed.php?siteNew=1&displayCount=50&displayRange=90&includeShortcut=0"
+  url_host_allowlist: www.city.hanno.lg.jp
+
+shicho-blog:
+  uid_prefix: shicho-blog
+  source_type: city-hanno-shicho-blog
+  summary_prefix: "📝 市長："
+  top_url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/index.html"
+  url_host_allowlist: www.city.hanno.lg.jp
+  url_path_prefix: "/shiseijoho/shichoshitsu/shichoblog/"

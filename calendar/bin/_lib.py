@@ -333,3 +333,22 @@ def find_existing_by_uid(events_dir: str, uid: str) -> str | None:
         if uid in head:
             return path
     return None
+
+
+def load_source_config(source_key: str, config_path: str | None = None) -> dict:
+    """calendar/sources.yaml から source 別設定 dict を返す。
+
+    config_path 省略時は _lib.py から ../sources.yaml で解決 (= calendar/sources.yaml)。
+    CI は hanno-data repo を checkout するので、この相対 path で必ず到達できる。
+    source_key 不在 / file 不在 / YAML 不正は明示的に例外を投げて即失敗する
+    (silent default は flood の温床なので避ける)。
+    """
+    import yaml
+    if config_path is None:
+        config_path = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                                   "..", "sources.yaml")
+    with open(config_path, encoding="utf-8") as f:
+        data = yaml.safe_load(f) or {}
+    if source_key not in data:
+        raise KeyError(f"source '{source_key}' not found in {config_path}")
+    return data[source_key]
