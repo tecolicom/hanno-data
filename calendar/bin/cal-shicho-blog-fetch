@@ -50,19 +50,20 @@ from _lib import (
     load_http_cache, save_http_cache,
     yaml_escape_str, yaml_block_scalar, strip_html, normalize_body,
     reiwa_to_gregorian, gregorian_to_reiwa,
-    output_path_for, find_existing_by_uid,
+    output_path_for, find_existing_by_uid, load_source_config,
 )
 
 
 # ==================== Source ====================
-# 「どこから何を取るか」のメタ情報。多都市展開時はこのセクションがそのまま
-# 都市別 config (YAML) になる想定。
-DEFAULT_UID_PREFIX = "shicho-blog"
-SOURCE_TYPE = "city-hanno-shicho-blog"
-SUMMARY_PREFIX = "📝 市長："
-TOP_URL = "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/index.html"
-URL_HOST_ALLOWLIST = "www.city.hanno.lg.jp"
-URL_PATH_PREFIX = "/shiseijoho/shichoshitsu/shichoblog/"
+# 「どこから何を取るか」の city 固有メタ情報は calendar/sources.yaml に外出し済み。
+# クローラのコードは都市非依存で、起動時 (import 時) にここで読み込む。
+_SRC = load_source_config("shicho-blog")
+DEFAULT_UID_PREFIX = _SRC["uid_prefix"]
+SOURCE_TYPE = _SRC["source_type"]
+SUMMARY_PREFIX = _SRC["summary_prefix"]
+TOP_URL = _SRC["top_url"]
+URL_HOST_ALLOWLIST = _SRC["url_host_allowlist"]
+URL_PATH_PREFIX = _SRC["url_path_prefix"]
 
 
 # ==================== Tunables ====================
