@@ -1,0 +1,30 @@
+{
+  "created": "2026-06-15T01:10:48.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "## v1.48.1\n\n内部的な改善のみで、操作や見た目は変わりません。\n\n- **⚙️ お店情報の取得・更新のしくみを効率化しました**\n\n## v1.48.0\n\nよく使うバス停を、ブックマークやホーム画面に保存できるようにしました。\n\n- **🚏 停留所ごとの専用ページができました** — 「◯◯ から乗る／に行く」のページをブックマークやホーム画面に追加すると、次回からアイコンや履歴ですぐにその停留所の発車案内を開けます\n- **📍 地図・メニュー・履歴のどこから選んでも保存できます** — 停留所を選ぶとその停留所専用のページが開くので、そのまま保存できます\n- **📲 ホーム画面アプリの中からでも追加できます** — バスをホーム画面アプリとして開いている間も、「別画面で開いて保存」から別の停留所を増やせます\n\n## v1.47.0\n\nお店と地域のカレンダー発信元を、同じ見た目・操作に統一しました。\n\n- **🗓 「暦体（れきたい）」を新設** — 市役所・コミュニティなど、お店以外で予定を発信する先を「暦体（カレンダーを持つ存在）」としてまとめました。お店と同じ見た目・操作で推せます（旧「推せる場所・コミュニティ」）\n- **📅 お店ページにカレンダーリンクを表示** — 予定を公開しているお店は、来訪者もその場でカレンダーを開いて購読できます\n- **👍 未ログインでも気軽に「推す」** — ログイン画面に飛ばされず、その場で記録。後でログインすると自動で同期されます",
+  "end": {
+    "date": "2026-06-18"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=c2dxZDh0aXE0N3YwamRjb3FxNnRwY2NzZmsgMjA1NDAzYzk3MWRjNWVmMjFlZmQ4MWMxZDUzODQ5Y2FkZmQ5MDFiNzVjNzdkODg5NTVkOTYwMGY0NWYyYTAxM0Bn",
+  "iCalUID": "sgqd8tiq47v0jdcoqq6tpccsfk@google.com",
+  "id": "sgqd8tiq47v0jdcoqq6tpccsfk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "Myはんのう",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "start": {
+    "date": "2026-06-15"
+  },
+  "status": "confirmed",
+  "summary": "Myはんのう v1.48.1",
+  "updated": "2026-06-15T14:48:40.847Z"
+}

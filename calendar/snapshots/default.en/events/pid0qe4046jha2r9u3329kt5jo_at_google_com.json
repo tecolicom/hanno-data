@@ -5,7 +5,7 @@
   },
   "description": "Automated translation (refer to source for accuracy)\n\nv1.46.0\n\nWe've made the shop links, bus information, and home screen easier to use.\n\n• Official website and social media can now be registered multiple times by type — shop pages display them as a row list with icons and IDs. Websites show with favicons so you can spot them at a glance\n• Bus direction cards redesigned in two-row layout — first row shows \"⇒ direction and next departure time\", second row shows the route and remaining time. Service suspensions and end-of-day closures are clearly marked in the departure time column\n• Stop cards can now be opened by swiping right — no need to tap the ▶ button; just slide right to view direction details\n• \"Today's Events\" now shown in shop list — registered calendar shops display today's schedule right on the card\n• Settings gear icon added to header — tap to go to calendar settings. Tapping around the date area takes you back up\n• \"Connect with Friends\" moved to the bottom Connect section — invites to favorite shops and reading codes are now grouped in the bottom icon area\n• Login info (username, logout, my shops) consolidated below the calendar to clean up the screen\n\nv1.45.1\n\nFixed issues with favorite shop calendar display.\n\n• Fixed favorite shop calendars not appearing while logged in — if you're logged in, your favorite shop schedules now appear in the home daily view across different devices\n• Fixed yesterday's shop events disappearing too quickly — even right after the date changes, you can still see yesterday's events in the daily view\n\nv1.45.0\n\nYou can now create printable \"shop cards\" with all your shop information.\n\n• Generate printable shop cards — available in 4 sizes: L-size (portrait and landscape), two-fold tent card, and business card. Download or share cards as images with your shop name, address, business hours, contact info, and QR code\n• Choose a logo to display on your card — select from logo candidates found via the official website or enter a URL manually. You can also choose a layout with no logo\n• Added phone, email, and fax to contact options — now you can register and display phone, email, and fax in addition to official website and social media\n• Google-registered official website and phone number display automatically — you don't have to register the same info twice; official sites and phone numbers from Google appear automatically on your shop page and cards (shop owner-entered values take priority if different)\n• Fixed issue where \"no one has registered yet\" was sometimes shown incorrectly while shop list was loading",
   "end": {
-    "date": "2026-06-16"
+    "date": "2026-06-15"
   },
   "eventType": "default",
   "htmlLink": "https://www.google.com/calendar/event?eid=cGlkMHFlNDA0NmpoYTJyOXUzMzI5a3Q1am8gZDkxOTNjZjVmNjQ0YWI0MWEyOGUyMjY4YTk4YWJjNWFhNDI2YmQyZDU3NzE1MjgzNDI0NGFkNjlhMzFmNWE2OEBn",
@@ -26,5 +26,5 @@
   },
   "status": "confirmed",
   "summary": "Myはんのう v1.46.0",
-  "updated": "2026-06-14T19:20:34.410Z"
+  "updated": "2026-06-15T20:55:23.226Z"
 }

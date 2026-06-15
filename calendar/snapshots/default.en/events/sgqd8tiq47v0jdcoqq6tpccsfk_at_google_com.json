@@ -1,0 +1,30 @@
+{
+  "created": "2026-06-15T20:55:25.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nv1.48.1\n\nInternal improvements only — no changes to how you use the app or how it looks.\n\n• ⚙️ Made the system for getting and updating shop info more efficient\n\nv1.48.0\n\nYou can now save your favorite bus stops to bookmarks or your home screen.\n\n• 🚏 Dedicated pages for each bus stop — When you bookmark or add a page like \"Depart from ○○ / Go to ○○\" to your home screen, next time you can open that stop's departure times right away from the icon or your history\n• 📍 Save from anywhere — map, menu, or history — When you pick a stop, its dedicated page opens, and you can save it right then and there\n• 📲 Add more stops while using the app on your home screen — While you have the bus app open on your home screen, you can add other stops through \"Open in separate window and save\"\n\nv1.47.0\n\nWe unified the look and feel of how shops and local calendars work.\n\n• 🗓 New \"Calendar Sources\" (暦体) feature — Places like City Hall and community centers that share plans (not shops) are now grouped as \"Calendar Sources\" — things that have calendars. You can follow them the same way you follow shops (replacing the old \"Followable Places and Communities\")\n• 📅 Calendar links now show on shop pages — Shops that publish schedules let visitors open and subscribe to their calendar right there\n• 👍 Follow without logging in — No need to jump to a login screen. Your follow is saved right away. When you log in later, it syncs automatically",
+  "end": {
+    "date": "2026-06-18"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=c2dxZDh0aXE0N3YwamRjb3FxNnRwY2NzZmsgZDkxOTNjZjVmNjQ0YWI0MWEyOGUyMjY4YTk4YWJjNWFhNDI2YmQyZDU3NzE1MjgzNDI0NGFkNjlhMzFmNWE2OEBn",
+  "iCalUID": "sgqd8tiq47v0jdcoqq6tpccsfk@google.com",
+  "id": "sgqd8tiq47v0jdcoqq6tpccsfk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "Myはんのう（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "start": {
+    "date": "2026-06-15"
+  },
+  "status": "confirmed",
+  "summary": "Myはんのう v1.48.1",
+  "updated": "2026-06-15T20:55:26.282Z"
+}

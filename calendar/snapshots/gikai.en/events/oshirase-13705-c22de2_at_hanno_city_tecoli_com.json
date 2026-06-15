@@ -1,0 +1,34 @@
+{
+  "created": "2026-06-15T20:55:30.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 New (Published: June 15, 2026)\n\nDisaster certificates are being issued for damage caused by hail on June 12. These documents certify that structures other than homes (shops, warehouses, carports, gates, etc.), vehicles, household contents, and other property were damaged.\n\nWhat you need to apply:\n• Completed disaster certificate application form (standard form, signed and stamped)\n• Printed photos showing the damage (required)\n• ID verification document (driver's license, individual number card, etc.)\n• If someone other than the owner or household member is applying, a power of attorney is also needed.\n\nWhere to submit: Disaster Prevention and Crisis Management Division (Annex Building, 1st floor, City Hall). Office hours: weekdays only, 9:00 a.m.–4:30 p.m. Phone: 042-973-2723.\n\nImportant: Certificates are issued based on conditions within roughly one month after the disaster occurred. If you apply after repairs are completed or the damage cannot be confirmed, a certificate may not be issued. Be sure to photograph the damaged areas.\n\nSource (Japanese): https://www.city.hanno.lg.jp/emergency/13705.html",
+  "end": {
+    "date": "2026-06-17"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3JqMGQ5ZGNjcDM0cDM1NjkwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-13705-c22de2@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6crj0d9dccp34p356906gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/emergency/13705.html"
+  },
+  "start": {
+    "date": "2026-06-16"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Disaster Certificates for Hail Damage from June 12",
+  "updated": "2026-06-15T20:55:30.378Z"
+}

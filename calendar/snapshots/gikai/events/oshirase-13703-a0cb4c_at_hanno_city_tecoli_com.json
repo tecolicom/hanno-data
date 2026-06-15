@@ -1,0 +1,34 @@
+{
+  "created": "2026-06-15T20:53:06.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🆕 新着掲載 (公開日: 2026-06-15)\n\nAI による要約 (正確な情報は元記事をご確認ください)\n\n自然災害後、火災保険や損害保険を悪用した悪質な勧誘が広がっています。訪問業者が「保険を使えば無料で修理できる」「保険申請を代行する」などと勧誘してくることがありますが、実際には保険金が想定額より少なく、差額負担や解約時の返金請求を迫られるケースが報告されています。\n\n突然の訪問や電話による保険関連の勧誘、義援金に関する不審な連絡には応じず、保険会社や消費生活センターに相談してください。埼玉県消費生活支援センターで詳細な事例を紹介しています。\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/13703.html",
+  "end": {
+    "date": "2026-06-17"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3JqMGNwZGM0bzY2b2hrY2QwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSA2NzQ1OTE0YjI0MzIzMTEyYTE1ZjQzZGMyMGIzYTBmNGE0ODE3YWZkODAwYzhkMTY4N2QwYmYwYjdmODkwYzYxQGc",
+  "iCalUID": "oshirase-13703-a0cb4c@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6crj0cpdc4o66ohkcd06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/13703.html"
+  },
+  "start": {
+    "date": "2026-06-16"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 自然災害に便乗した悪徳商法にご注意ください",
+  "updated": "2026-06-15T20:53:07.387Z"
+}

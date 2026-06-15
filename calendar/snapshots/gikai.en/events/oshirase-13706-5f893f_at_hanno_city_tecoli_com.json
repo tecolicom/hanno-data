@@ -1,0 +1,34 @@
+{
+  "created": "2026-06-15T20:55:31.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 New posting (Published: June 15, 2026)\n\nA disaster certificate is issued to residents whose homes or property have been damaged by natural events such as earthquakes, heavy rain, or snow. You need this certificate to claim insurance or access various assistance programs.\n\nHow to apply for a disaster certificate (building damage)\n\nIf you need a disaster certificate, fill out the required form, stamp it, and submit it to the Disaster Prevention and Crisis Management Division along with printed photographs showing the damage to your property.\n\n• The city will issue certificates in order as city staff confirm damage at each location.\n\n• The certificate is issued based on the damage condition assessed within approximately one month after the disaster occurred.\n\nDisaster certificate form (PDF file: 32.6KB)\n\nSource (Japanese): https://www.city.hanno.lg.jp/emergency/13706.html",
+  "end": {
+    "date": "2026-06-17"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3JqMGRoZDZsajNnZTlqY3AwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-13706-5f893f@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6crj0dhd6lj3ge9jcp06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/emergency/13706.html"
+  },
+  "start": {
+    "date": "2026-06-16"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Hail damage on June 12: disaster certificate applications now open",
+  "updated": "2026-06-15T20:55:31.691Z"
+}

@@ -1,0 +1,34 @@
+{
+  "created": "2026-06-15T20:55:28.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 New posting (Published: June 15, 2026)\n\nAI summary (For accurate information, please check the original article)\n\nAfter natural disasters, dishonest sales pitches using fire insurance and property damage insurance have become common. Visiting salespeople may tell you \"you can get repairs for free using insurance\" or \"we'll handle your insurance claim for you.\" However, in real cases, the actual insurance payout ends up being less than expected, and people are pressured to pay the difference out of pocket or face refund demands when canceling.\n\nDo not respond to unsolicited visits or phone calls about insurance offers, or suspicious contacts about disaster relief funds. Instead, contact your insurance company or your local consumer life center for advice. The Saitama Prefecture Consumer Life Support Center provides detailed examples of such scams.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/13703.html",
+  "end": {
+    "date": "2026-06-17"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3JqMGNwZGM0bzY2b2hrY2QwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-13703-a0cb4c@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6crj0cpdc4o66ohkcd06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/13703.html"
+  },
+  "start": {
+    "date": "2026-06-16"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Watch out for scams targeting disaster victims",
+  "updated": "2026-06-15T20:55:29.117Z"
+}
