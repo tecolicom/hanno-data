@@ -1,0 +1,32 @@
+uid: "oshirase-13705-c22de2@hanno.city.tecoli.com"
+summary: "ℹ️ 6月12日の雹(ひょう)の被害等による被災証明書の発行について"
+url: "https://www.city.hanno.lg.jp/emergency/13705.html"
+dtstart: "2026-06-16"
+dtend: "2026-06-16"
+description: |-
+  🆕 新着掲載 (公開日: 2026-06-15)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  6月12日の雹による被災証明書発行。住家以外の構造物（店舗、倉庫、カーポート、門扉など）、車両、家財などが被災した事実を証明する書類です。
+  
+  申請に必要なもの：被災証明書交付申請書（所定様式に記入・捺印）、被災状況が確認できるプリント写真（必須）、本人確認書類（運転免許証、個人番号カードなど）。所有者本人または同居者以外が申請する場合は委任状も必要です。
+  
+  提出先は防災危機管理課（本庁舎別館1階）。受付は平日のみ9:00～16:30。電話042-973-2723。
+  
+  注意：発行は災害発生後おおむね1か月以内の状況をもとに証明。修繕完了後の申請など被災状況が確認できない場合は発行できない場合があります。被災箇所の写真は必ず撮影してください。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/emergency/13705.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13705"
+  url: "https://www.city.hanno.lg.jp/emergency/13705.html"
+  fetched_at: "2026-06-15T20:50:48.392872Z"
+  content_hash: "sha256-c22de28ff86b2110"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-06-15"

@@ -1,0 +1,28 @@
+uid: "oshirase-13703-a0cb4c@hanno.city.tecoli.com"
+summary: "ℹ️ 自然災害に便乗した悪徳商法にご注意ください"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/13703.html"
+dtstart: "2026-06-16"
+dtend: "2026-06-16"
+description: |-
+  🆕 新着掲載 (公開日: 2026-06-15)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  自然災害後、火災保険や損害保険を悪用した悪質な勧誘が広がっています。訪問業者が「保険を使えば無料で修理できる」「保険申請を代行する」などと勧誘してくることがありますが、実際には保険金が想定額より少なく、差額負担や解約時の返金請求を迫られるケースが報告されています。
+  
+  突然の訪問や電話による保険関連の勧誘、義援金に関する不審な連絡には応じず、保険会社や消費生活センターに相談してください。埼玉県消費生活支援センターで詳細な事例を紹介しています。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/13703.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13703"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/13703.html"
+  fetched_at: "2026-06-15T20:50:51.597315Z"
+  content_hash: "sha256-a0cb4cf39c954534"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-06-15"

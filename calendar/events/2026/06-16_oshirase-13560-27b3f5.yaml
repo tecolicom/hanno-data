@@ -1,0 +1,32 @@
+uid: "oshirase-13560-27b3f5@hanno.city.tecoli.com"
+summary: "ℹ️ 水道部の名前を騙ったメールにご注意ください!"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/suidogyomuka/13560.html"
+dtstart: "2026-06-16"
+dtend: "2026-06-16"
+description: |-
+  🆕 新着掲載 (公開日: 2026-05-13)
+  
+  水道部（水道局）を名乗り、「料金の未払いがあるため、水道を止めます。本日中の支払をしてください。」といった内容のメールが届いたという問い合わせが相次いでいます。
+  
+  飯能市上下水道部及び飯能市上下水道料金センターから電子メールによる水道料金の督促・催告、給水停止の連絡をすることは絶対にありません。
+  
+  水道料金に関する不審なメールを受け取っても、開かないようにしましょう。もし開いてしまった場合には、記載されているリンクを開いたり、返信をしないよう注意しましょう。少しでも不審に思われたら、水道業務課または飯能市上下水道料金センターまでご連絡ください。
+  
+  ・水道業務課 042-973-3661（受付時間：平日 9時~16時30分)
+  
+  ・飯能市上下水道料金センター  042-971-2776 (受付時間：平日 8時30分~17時15分）
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/suidogyomuka/13560.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13560"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/suidogyomuka/13560.html"
+  fetched_at: "2026-06-15T20:51:15.657454Z"
+  content_hash: "sha256-27b3f5f0b827c280"
+  summary_method: "full"
+  publish_date: "2026-05-13"
