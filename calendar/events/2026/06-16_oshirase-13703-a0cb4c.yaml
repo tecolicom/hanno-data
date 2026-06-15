@@ -26,3 +26,22 @@ source:
   content_hash: "sha256-a0cb4cf39c954534"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-06-15"
+translations:
+  en:
+    summary: "ℹ️ Watch out for scams targeting disaster victims"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New posting (Published: June 15, 2026)
+      
+      AI summary (For accurate information, please check the original article)
+      
+      After natural disasters, dishonest sales pitches using fire insurance and property damage insurance have become common. Visiting salespeople may tell you "you can get repairs for free using insurance" or "we'll handle your insurance claim for you." However, in real cases, the actual insurance payout ends up being less than expected, and people are pressured to pay the difference out of pocket or face refund demands when canceling.
+      
+      Do not respond to unsolicited visits or phone calls about insurance offers, or suspicious contacts about disaster relief funds. Instead, contact your insurance company or your local consumer life center for advice. The Saitama Prefecture Consumer Life Support Center provides detailed examples of such scams.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/13703.html
+    translation_hash: "sha256-cbffca28b22cee75"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-06-15T20:53:29.633321Z"
+    format_version: 3

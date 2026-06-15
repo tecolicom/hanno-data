@@ -32,3 +32,28 @@ source:
   content_hash: "sha256-5f893f906762f796"
   summary_method: "full"
   publish_date: "2026-06-15"
+translations:
+  en:
+    summary: "ℹ️ Hail damage on June 12: disaster certificate applications now open"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New posting (Published: June 15, 2026)
+      
+      A disaster certificate is issued to residents whose homes or property have been damaged by natural events such as earthquakes, heavy rain, or snow. You need this certificate to claim insurance or access various assistance programs.
+      
+      How to apply for a disaster certificate (building damage)
+      
+      If you need a disaster certificate, fill out the required form, stamp it, and submit it to the Disaster Prevention and Crisis Management Division along with printed photographs showing the damage to your property.
+      
+      • The city will issue certificates in order as city staff confirm damage at each location.
+      
+      • The certificate is issued based on the damage condition assessed within approximately one month after the disaster occurred.
+      
+      Disaster certificate form (PDF file: 32.6KB)
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/emergency/13706.html
+    translation_hash: "sha256-f4e8359e279b15e2"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-06-15T20:53:35.816310Z"
+    format_version: 3

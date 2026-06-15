@@ -30,3 +30,28 @@ source:
   content_hash: "sha256-c22de28ff86b2110"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-06-15"
+translations:
+  en:
+    summary: "ℹ️ Disaster Certificates for Hail Damage from June 12"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New (Published: June 15, 2026)
+      
+      Disaster certificates are being issued for damage caused by hail on June 12. These documents certify that structures other than homes (shops, warehouses, carports, gates, etc.), vehicles, household contents, and other property were damaged.
+      
+      What you need to apply:
+      • Completed disaster certificate application form (standard form, signed and stamped)
+      • Printed photos showing the damage (required)
+      • ID verification document (driver's license, individual number card, etc.)
+      • If someone other than the owner or household member is applying, a power of attorney is also needed.
+      
+      Where to submit: Disaster Prevention and Crisis Management Division (Annex Building, 1st floor, City Hall). Office hours: weekdays only, 9:00 a.m.–4:30 p.m. Phone: 042-973-2723.
+      
+      Important: Certificates are issued based on conditions within roughly one month after the disaster occurred. If you apply after repairs are completed or the damage cannot be confirmed, a certificate may not be issued. Be sure to photograph the damaged areas.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/emergency/13705.html
+    translation_hash: "sha256-6e9f76c1484845df"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-06-15T20:53:32.984466Z"
+    format_version: 3

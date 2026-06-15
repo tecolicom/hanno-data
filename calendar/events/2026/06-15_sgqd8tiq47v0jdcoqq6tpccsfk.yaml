@@ -28,3 +28,34 @@ description: |-
 render:
   gcal:
     mode: span-allday
+translations:
+  en:
+    summary: "Myはんのう v1.48.1"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      v1.48.1
+      
+      Internal improvements only — no changes to how you use the app or how it looks.
+      
+      • ⚙️ Made the system for getting and updating shop info more efficient
+      
+      v1.48.0
+      
+      You can now save your favorite bus stops to bookmarks or your home screen.
+      
+      • 🚏 Dedicated pages for each bus stop — When you bookmark or add a page like "Depart from ○○ / Go to ○○" to your home screen, next time you can open that stop's departure times right away from the icon or your history
+      • 📍 Save from anywhere — map, menu, or history — When you pick a stop, its dedicated page opens, and you can save it right then and there
+      • 📲 Add more stops while using the app on your home screen — While you have the bus app open on your home screen, you can add other stops through "Open in separate window and save"
+      
+      v1.47.0
+      
+      We unified the look and feel of how shops and local calendars work.
+      
+      • 🗓 New "Calendar Sources" (暦体) feature — Places like City Hall and community centers that share plans (not shops) are now grouped as "Calendar Sources" — things that have calendars. You can follow them the same way you follow shops (replacing the old "Followable Places and Communities")
+      • 📅 Calendar links now show on shop pages — Shops that publish schedules let visitors open and subscribe to their calendar right there
+      • 👍 Follow without logging in — No need to jump to a login screen. Your follow is saved right away. When you log in later, it syncs automatically
+    translation_hash: "sha256-8da9d6623012ea2c"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-06-15T20:53:23.410877Z"
+    format_version: 3

@@ -30,3 +30,26 @@ source:
   content_hash: "sha256-27b3f5f0b827c280"
   summary_method: "full"
   publish_date: "2026-05-13"
+translations:
+  en:
+    summary: "ℹ️ Beware of emails impersonating the Water Supply Department!"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New Notice (Posted: May 13, 2026 / Reiwa 8)
+      
+      We are receiving multiple inquiries about fraudulent emails claiming to be from the Water Supply Department (水道局) with messages like "You have unpaid charges. We will cut off your water supply. Please pay today."
+      
+      Hanno City Water Supply and Sewerage Department and Hanno City Water Supply and Sewerage Billing Center will NEVER send emails demanding payment for water charges, making payment demands, or notifying you of water supply suspension.
+      
+      If you receive a suspicious email about water charges, do not open it. If you have already opened it, do not click any links in the message or reply to it. If anything seems suspicious, contact the Water Supply Operations Section or Hanno City Water Supply and Sewerage Billing Center.
+      
+      • Water Supply Operations Section: 042-973-3661 (Hours: Weekdays 9:00 a.m.–4:30 p.m.)
+      
+      • Hanno City Water Supply and Sewerage Billing Center: 042-971-2776 (Hours: Weekdays 8:30 a.m.–5:15 p.m.)
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/suidogyomuka/13560.html
+    translation_hash: "sha256-f0232de4753a9225"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-06-15T20:53:26.892895Z"
+    format_version: 3
