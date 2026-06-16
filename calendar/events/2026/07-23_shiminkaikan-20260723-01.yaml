@@ -1,14 +1,14 @@
-uid: "shiminkaikan-20260717-01@hanno.city.tecoli.com"
-summary: "ホールでグランドピアノを弾いてみませんか"
-location: "飯能市民会館 小ホール"
+uid: "shiminkaikan-20260723-01@hanno.city.tecoli.com"
+summary: "美杉台中学校吹奏楽部練習"
+location: "飯能市民会館 大ホール"
 url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html"
-dtstart: "2026-07-17"
-dtend: "2026-07-17"
+dtstart: "2026-07-23"
+dtend: "2026-07-23"
 description: |-
   飯能市民会館: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html
   
-  【会場】小ホール
-  【主催】市民会館
+  【会場】大ホール
+  【主催】美杉台中学校吹奏楽部
 
 render:
   gcal:
@@ -16,7 +16,7 @@ render:
 
 source:
   type: city-hanno-shiminkaikan
-  id: "20260717-01"
+  id: "20260723-01"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html"
-  fetched_at: "2026-06-16T20:44:35.449665Z"
+  fetched_at: "2026-06-16T20:44:35.450049Z"
   content_hash: "sha256-807453a1a09868b5"

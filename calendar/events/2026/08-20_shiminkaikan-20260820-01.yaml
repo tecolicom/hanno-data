@@ -19,20 +19,5 @@ source:
   type: city-hanno-shiminkaikan
   id: "20260820-01"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html"
-  fetched_at: "2026-05-31T19:08:56.573758Z"
-  content_hash: "sha256-32b557e466630845"
-translations:
-  en:
-    summary: "Hanno District Legal Lecture for Safety Driving Managers"
-    description: |-
-      Automated translation (refer to source for accuracy)
-      
-      【Venue】Grand Hall, Hanno Civic Hall
-      
-      【Organizer】Hanno District Safety Driving Managers Association
-      
-      For more information: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html
-    translation_hash: "sha256-795d1a6282d2b1c6"
-    model: "claude-haiku-4-5"
-    translated_at: "2026-05-31T19:11:40.822375Z"
-    format_version: 3
+  fetched_at: "2026-06-16T20:44:35.450433Z"
+  content_hash: "sha256-807453a1a09868b5"

@@ -8,7 +8,7 @@ description: |-
   飯能市民会館: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html
   
   【会場】大ホール
-  【主催】稲垣 伸一
+  【主催】チームいなしん
 
 render:
   gcal:
@@ -19,19 +19,5 @@ source:
   type: city-hanno-shiminkaikan
   id: "20260823-01"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html"
-  fetched_at: "2026-05-31T19:08:56.573948Z"
-  content_hash: "sha256-32b557e466630845"
-translations:
-  en:
-    summary: "いなしん ONE MAN LIVE"
-    description: |-
-      Automated translation (refer to source for accuracy)
-      
-      【Venue】 Grand Hall (Hanno Civic Hall)
-      【Organizer】 Inagaki Shinichi
-      
-      Hanno Civic Hall: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html
-    translation_hash: "sha256-b73ed9da2bd3adf0"
-    model: "claude-haiku-4-5"
-    translated_at: "2026-05-31T19:11:42.085762Z"
-    format_version: 3
+  fetched_at: "2026-06-16T20:44:35.450606Z"
+  content_hash: "sha256-807453a1a09868b5"
