@@ -20,3 +20,19 @@ source:
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html"
   fetched_at: "2026-06-16T20:44:35.450049Z"
   content_hash: "sha256-807453a1a09868b5"
+translations:
+  en:
+    summary: "Misugi-dai Junior High School Band Club Practice"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Venue: Hanno Civic Hall, Main Hall (大ホール)
+      
+      Organizer: Misugi-dai Junior High School Band Club
+      
+      For more information, visit the Hanno Civic Hall website:
+      https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html
+    translation_hash: "sha256-0d1d324ae95efda9"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-06-16T20:47:25.313087Z"
+    format_version: 3

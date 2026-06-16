@@ -13,3 +13,20 @@ description: |-
 render:
   gcal:
     mode: span-allday
+translations:
+  en:
+    summary: "My Hanno v1.49.0"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      v1.49.0
+      
+      You can now create printable cards for bus stops.
+      
+      • 🖨️ Create printable cards for bus stops — Make cards with QR codes linking to stop timetables in various sizes: L-size, business card, or folded. Save the image and print it at a convenience store photo printer or on your home or office printer.
+      
+      • 🚏 Access from the stop page — Open the card maker from the "Create a printable card" option at the bottom of the "Departing from ○○" page.
+    translation_hash: "sha256-76604f54d3b727af"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-06-16T20:47:11.741888Z"
+    format_version: 3
