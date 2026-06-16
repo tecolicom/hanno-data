@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "🕒 09:45–11:45\n\nAutomated translation (refer to source for accuracy)\n\n【Venue】Grand Hall, Hanno Civic Hall\n\n【Organizer】Hanno District Safety Driving Managers Association\n\nFor more information: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html",
+  "description": "🕒 09:45–11:45\n\nAutomated translation (refer to source for accuracy)\n\nVenue: Hanno Citizens' Hall\nLocation: Large Hall\nOrganizer: Hanno District Safety Driving Manager Association\n\nFor details and registration, visit: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html",
   "end": {
     "date": "2026-08-21"
   },
@@ -30,6 +30,6 @@
     "date": "2026-08-20"
   },
   "status": "confirmed",
-  "summary": "Hanno District Legal Lecture for Safety Driving Managers",
-  "updated": "2026-05-31T19:12:47.020Z"
+  "summary": "Hanno District Authorized Defensive Driving Manager Training",
+  "updated": "2026-06-16T20:49:50.067Z"
 }
