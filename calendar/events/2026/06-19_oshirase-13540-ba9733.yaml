@@ -1,0 +1,34 @@
+uid: "oshirase-13540-ba9733@hanno.city.tecoli.com"
+summary: "ℹ️ 【飯能市立博物館きっとす】夏休みこども歴史教室「お気に入りを見つけて作って飾ろう！きっとす「推し」ポストカード」"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/tenji_moyooshimono/13540.html"
+dtstart: "2026-06-19"
+dtend: "2026-06-19"
+description: |-
+  🆕 新着掲載 (公開日: 2026-06-18)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  飯能市立博物館きっとすで夏休みこども歴史教室を開催します。謎解きゲームをしながら展示室から「推しの一品」を見つけ、オリジナルポストカードを作ります。できたポストカードはお土産、コピーから作った「推しポイントシート」を展示室に飾ります。
+  
+  【日時】令和8年7月23日（木曜日）10時00分から12時00分（9時45分受付開始）
+  【会場】飯能市立博物館（学習研修室、歴史展示室）
+  【対象】小学生（保護者の同伴も可）
+  【定員】10名（抽選）
+  【参加費】無料
+  【持ち物】筆記用具（えんぴつ、色鉛筆あれば）、水筒
+  【申し込み】電子申請で7月13日（月曜日）まで受付。抽選結果は7月15日（水曜日）までに電子申請またはメールで返信。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/tenji_moyooshimono/13540.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13540"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/tenji_moyooshimono/13540.html"
+  fetched_at: "2026-06-18T20:17:33.865076Z"
+  content_hash: "sha256-ba9733104be5c482"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-06-18"
