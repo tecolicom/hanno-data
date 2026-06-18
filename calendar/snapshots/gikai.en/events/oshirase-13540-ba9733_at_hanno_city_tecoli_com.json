@@ -1,0 +1,34 @@
+{
+  "created": "2026-06-18T20:21:56.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n�新 New posting (published: June 18, 2026)\n\nAI summary (check the original article for precise details)\n\nHanno City Museum Kittus is holding a summer history class for children. While solving a mystery game, you'll find \"your favorite item\" from the exhibits and create an original postcard. The postcards you make are yours to take home, and your \"favorite points sheet\" (copied from the postcard) will be displayed in the history exhibition room.\n\n【Date & Time】July 23, 2026 (Thursday) 10:00 a.m.–12:00 p.m. (Reception starts at 9:45 a.m.)\n【Venue】Hanno City Museum (Learning & Training Room, History Exhibition Room)\n【For】Elementary school students (adults/guardians may accompany)\n【Capacity】10 people (lottery selection)\n【Fee】Free\n【What to bring】Writing supplies (pencil, colored pencils if you have them), water bottle\n【How to apply】Online application until Monday, July 13. Lottery results will be sent by July 15 via online application or email.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/tenji_moyooshimono/13540.html",
+  "end": {
+    "date": "2026-06-20"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3FqOGMxZGM5Z2ppZHBqNmQwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-13540-ba9733@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6cqj8c1dc9gjidpj6d06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/tenji_moyooshimono/13540.html"
+  },
+  "start": {
+    "date": "2026-06-19"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Hanno City Museum Kittus Summer Kids' History Class: 「Find Your Favorite, Create & Display It! Kittus 'Favorite' Postcard」",
+  "updated": "2026-06-18T20:21:57.105Z"
+}

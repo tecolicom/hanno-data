@@ -1,0 +1,34 @@
+{
+  "created": "2026-06-18T20:21:55.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 New listing (Posted: June 19, 2026)\n\n【Event Details】\n\nDate: August 4 (Tuesday)\n\nGathering time: 10:00 a.m.\n\nGathering place: West parking lot of Hanno City Hall\n\nRoute: Hanno City Hall → Yamate-cho nature walking trail entrance → Yatsutada regeneration area → Ninin Temple → Central Park → Hanno Riverbed → Hanno Station → Hanno City Hall\n\nDistance: Approximately 8 kilometers\n\nEstimated duration: Approximately 2 hours 30 minutes\n\nFee: 200 yen (insurance, etc.; collected on the day)\n\nWhat to bring: Packed lunch, drinking water, rain gear, Sugo-Ashi handbook (if you have one)\n\nApplication: Apply to ASA Hanno by Friday, July 31. Phone: 042-972-4701, Fax: 042-974-2190\n\nCancellation check: If the event is cancelled due to weather or other reasons, confirm with ASA Hanno after 9:00 a.m. on the day of the event.\n\nInquiries: Onda, 090-2205-8073\n\nOrganizer: Hanno Walking Club\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/10590.html",
+  "end": {
+    "date": "2026-06-20"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2MHFqaWMxZDc0cGo0YzlvY2gwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-10590-93218d@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h60qjic1d74pj4c9och06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/10590.html"
+  },
+  "start": {
+    "date": "2026-06-19"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Sugo-Ashi Walking Event: August 4, 2026 (Tuesday) – Walk Tenranzan's Yatsutada and Hanno Riverbed's Tobi-ishi Bridge",
+  "updated": "2026-06-18T20:21:55.729Z"
+}
