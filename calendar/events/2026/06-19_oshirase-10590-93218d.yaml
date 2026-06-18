@@ -45,3 +45,42 @@ source:
   fetched_at: "2026-06-18T20:17:29.840734Z"
   content_hash: "sha256-93218d186dcb328c"
   summary_method: "full"
+translations:
+  en:
+    summary: "ℹ️ Sugo-Ashi Walking Event: August 4, 2026 (Tuesday) – Walk Tenranzan's Yatsutada and Hanno Riverbed's Tobi-ishi Bridge"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New listing (Posted: June 19, 2026)
+      
+      【Event Details】
+      
+      Date: August 4 (Tuesday)
+      
+      Gathering time: 10:00 a.m.
+      
+      Gathering place: West parking lot of Hanno City Hall
+      
+      Route: Hanno City Hall → Yamate-cho nature walking trail entrance → Yatsutada regeneration area → Ninin Temple → Central Park → Hanno Riverbed → Hanno Station → Hanno City Hall
+      
+      Distance: Approximately 8 kilometers
+      
+      Estimated duration: Approximately 2 hours 30 minutes
+      
+      Fee: 200 yen (insurance, etc.; collected on the day)
+      
+      What to bring: Packed lunch, drinking water, rain gear, Sugo-Ashi handbook (if you have one)
+      
+      Application: Apply to ASA Hanno by Friday, July 31. Phone: 042-972-4701, Fax: 042-974-2190
+      
+      Cancellation check: If the event is cancelled due to weather or other reasons, confirm with ASA Hanno after 9:00 a.m. on the day of the event.
+      
+      Inquiries: Onda, 090-2205-8073
+      
+      Organizer: Hanno Walking Club
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/10590.html
+    translation_hash: "sha256-fafc4c8dc36fd184"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-06-18T20:19:58.386150Z"
+    format_version: 3

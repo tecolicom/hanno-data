@@ -32,3 +32,28 @@ source:
   content_hash: "sha256-ba9733104be5c482"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-06-18"
+translations:
+  en:
+    summary: "ℹ️ Hanno City Museum Kittus Summer Kids' History Class: 「Find Your Favorite, Create & Display It! Kittus 'Favorite' Postcard」"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      �新 New posting (published: June 18, 2026)
+      
+      AI summary (check the original article for precise details)
+      
+      Hanno City Museum Kittus is holding a summer history class for children. While solving a mystery game, you'll find "your favorite item" from the exhibits and create an original postcard. The postcards you make are yours to take home, and your "favorite points sheet" (copied from the postcard) will be displayed in the history exhibition room.
+      
+      【Date & Time】July 23, 2026 (Thursday) 10:00 a.m.–12:00 p.m. (Reception starts at 9:45 a.m.)
+      【Venue】Hanno City Museum (Learning & Training Room, History Exhibition Room)
+      【For】Elementary school students (adults/guardians may accompany)
+      【Capacity】10 people (lottery selection)
+      【Fee】Free
+      【What to bring】Writing supplies (pencil, colored pencils if you have them), water bottle
+      【How to apply】Online application until Monday, July 13. Lottery results will be sent by July 15 via online application or email.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/tenji_moyooshimono/13540.html
+    translation_hash: "sha256-e2f328d695a20765"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-06-18T20:20:01.667373Z"
+    format_version: 3
