@@ -1,0 +1,34 @@
+{
+  "created": "2026-06-19T19:44:42.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🔄 内容更新 (公開日: 2026-06-19)\n\nAI による要約 (正確な情報は元記事をご確認ください)\n\n認知症の人とその家族、地域住民が集える場として、飯能市では10か所のひだまりカフェと2か所のひだまりのつどいを展開しています。\n\n【ひだまりカフェ】\nお茶やコーヒーを飲みながら、ゆっくり楽しい時間を過ごす場です。開催場所：ほわっと、ロックガーデン、マクドナルド、きのか、ひなた、ウエルシア、SOMPOケア ラヴィーレ飯能、くすのき、四季の郷 飯能、メッツァ。\n\n【ひだまりのつどい】\n認知症の方を介護する家族のつどいと、本人の交流の場です。開催場所：くすのき、茶処 たんぽぽ。\n\n会場によって料金が異なります。詳細は、各施設の案内資料か担当の地域包括支援センターまたは飯能市介護福祉課にお問い合わせください。\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/ninchi-sisaku/ninchi-jigyou/7981.html",
+  "end": {
+    "date": "2026-06-21"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOW43NHMzMmI5bTY0cWpjYzFtODFrNjJyamVkc242NnFia2Y0bjc4cGIzZHRtNmliajNkdG1nIDY3NDU5MTRiMjQzMjMxMTJhMTVmNDNkYzIwYjNhMGY0YTQ4MTdhZmQ4MDBjOGQxNjg3ZDBiZjBiN2Y4OTBjNjFAZw",
+  "iCalUID": "oshirase-7981-615606@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9n74s32b9m64qjcc1m81k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/ninchi-sisaku/ninchi-jigyou/7981.html"
+  },
+  "start": {
+    "date": "2026-06-20"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ ひだまりカフェ(認知症カフェ)",
+  "updated": "2026-06-19T19:44:43.341Z"
+}
