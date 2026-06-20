@@ -15,3 +15,24 @@ description: |
 render:
   gcal:
     mode: span-allday
+translations:
+  en:
+    summary: "Myはんのう v1.50.0"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      v1.50.0
+      
+      Not just shops, but also municipalities and communities ("calendars") can now have owners who can add and manage their own calendar entries and information.
+      
+      • 🗓 Calendar owners can now register and manage their calendars — Use the same QR code as shops to apply for owner status. Once approved, you can register, edit, and manage multiple calendars, display names, descriptions, and images from the calendar's page.
+      
+      • 🔄 You can now pull in information from official websites — Enter a URL and click "Get from site" to automatically read the site's information (name, description, image) and fill it into the form.
+      
+      • 🏙 You can now select calendars from municipalities across Japan — Choose by prefecture first, then by city/ward/town, so you can find any municipality in the country.
+      
+      • 🖨 Fixed the QR code on printable cards — Printed cards now always point to the production site (city.tecoli.com).
+    translation_hash: "sha256-af4dcabafee183fe"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-06-20T19:18:02.219417Z"
+    format_version: 3
