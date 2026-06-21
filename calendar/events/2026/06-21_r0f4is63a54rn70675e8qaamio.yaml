@@ -26,3 +26,32 @@ description: |-
 render:
   gcal:
     mode: span-allday
+translations:
+  en:
+    summary: "Myはんのう v1.52.0"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      v1.52.0
+      
+      The weather graph now shows the current time and wind information, making rainfall easier to read.
+      
+      • 🕐 Current time line on weather graph — A blue vertical line on today's graph showing the current time (moves as time passes)
+      • 🌬 Wind direction and speed displayed on graph — Arrows every 3 hours at the top of the graph show wind direction and strength, plus wind speed in m/s. We also corrected the wind speed strength display units
+      • 🌙 Moon marker show/hide — Tap the moon phase icon to toggle the moon display on the graph (initially hidden)
+      • 🌧 Light rain and precipitation probability easier to see — Light rain bars are now visible, and precipitation probability range is clearer
+      • 🚏 Save bus stops to home screen from browser — Use "Add" on the bus stop page to save that stop
+      • 📅 Fixed date picker issue — Fixed the problem where tapping a date on iPhone sometimes wouldn't open the calendar
+      
+      v1.51.0
+      
+      Settings on iPhone's home screen app now carry over.
+      
+      • 📱 Settings no longer disappear when added to home screen — Garbage collection day and favorite shops set in Safari now carry over to the home screen app (previously they would clear)
+      • 🧭 "Add to home screen" instructions are clearer — The setup steps are now shown in an easy-to-understand layout
+      • 🚏 Bus stop "Save to home screen" and "Display card" easier to see — Buttons are now larger in card format
+      • ⭐ Save up to 5 favorite shops without logging in — Log in to save unlimited shops
+    translation_hash: "sha256-789fd159a033754c"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-06-21T19:23:44.594404Z"
+    format_version: 3
