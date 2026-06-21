@@ -1,0 +1,30 @@
+{
+  "created": "2026-06-21T19:25:41.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nv1.52.0\n\nThe weather graph now shows the current time and wind information, making rainfall easier to read.\n\n• 🕐 Current time line on weather graph — A blue vertical line on today's graph showing the current time (moves as time passes)\n• 🌬 Wind direction and speed displayed on graph — Arrows every 3 hours at the top of the graph show wind direction and strength, plus wind speed in m/s. We also corrected the wind speed strength display units\n• 🌙 Moon marker show/hide — Tap the moon phase icon to toggle the moon display on the graph (initially hidden)\n• 🌧 Light rain and precipitation probability easier to see — Light rain bars are now visible, and precipitation probability range is clearer\n• 🚏 Save bus stops to home screen from browser — Use \"Add\" on the bus stop page to save that stop\n• 📅 Fixed date picker issue — Fixed the problem where tapping a date on iPhone sometimes wouldn't open the calendar\n\nv1.51.0\n\nSettings on iPhone's home screen app now carry over.\n\n• 📱 Settings no longer disappear when added to home screen — Garbage collection day and favorite shops set in Safari now carry over to the home screen app (previously they would clear)\n• 🧭 \"Add to home screen\" instructions are clearer — The setup steps are now shown in an easy-to-understand layout\n• 🚏 Bus stop \"Save to home screen\" and \"Display card\" easier to see — Buttons are now larger in card format\n• ⭐ Save up to 5 favorite shops without logging in — Log in to save unlimited shops",
+  "end": {
+    "date": "2026-06-24"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=cjBmNGlzNjNhNTRybjcwNjc1ZThxYWFtaW8gZDkxOTNjZjVmNjQ0YWI0MWEyOGUyMjY4YTk4YWJjNWFhNDI2YmQyZDU3NzE1MjgzNDI0NGFkNjlhMzFmNWE2OEBn",
+  "iCalUID": "r0f4is63a54rn70675e8qaamio@google.com",
+  "id": "r0f4is63a54rn70675e8qaamio",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "Myはんのう（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "start": {
+    "date": "2026-06-21"
+  },
+  "status": "confirmed",
+  "summary": "Myはんのう v1.52.0",
+  "updated": "2026-06-21T19:25:41.429Z"
+}
