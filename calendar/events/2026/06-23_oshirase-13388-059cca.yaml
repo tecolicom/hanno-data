@@ -1,0 +1,47 @@
+uid: "oshirase-13388-059cca@hanno.city.tecoli.com"
+summary: "ℹ️ 【令和8年度】報道発表資料"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025_1/13388.html"
+dtstart: "2026-06-23"
+dtend: "2026-06-23"
+description: |-
+  🔄 内容更新 (公開日: 2026-06-22)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  報道発表資料一覧（令和8年度）
+  
+  【令和8年6月22日公表】
+  いじめ重大事態に関する調査報告書（公表版）を公表しました。
+  
+  【令和8年6月3日】
+  旧向原団地跡地の活用に向けて、サウンディング型市場調査を実施します。民間事業者から跡地活用についての提案・意見を募集しています。
+  
+  【令和8年4月30日】
+  市職員の通年ノーネクタイ等の服装制度を実施します。
+  
+  【令和8年4月24日】
+  青梅信用金庫から飯能市へ寄附がありました。
+  
+  【令和8年4月22日】
+  有間エリア水源林保全プロジェクト（通称「クマタカとヤマネの森プロジェクト」）を始動します。
+  
+  【令和8年4月20日】
+  飯能ロータリークラブから飯能市への寄附金贈呈式が開催されました。
+  
+  【令和8年4月6日】
+  MXモバイリング株式会社から企業版ふるさと納税による寄附がありました。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025_1/13388.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13388"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025_1/13388.html"
+  fetched_at: "2026-06-22T20:38:47.364263Z"
+  content_hash: "sha256-059cca4a272e3664"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-06-22"

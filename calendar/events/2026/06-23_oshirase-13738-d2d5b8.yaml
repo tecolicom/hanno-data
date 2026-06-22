@@ -1,0 +1,26 @@
+uid: "oshirase-13738-d2d5b8@hanno.city.tecoli.com"
+summary: "ℹ️ いじめ重大事態に関する調査報告書について"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/gakkokyoikuka/13738.html"
+dtstart: "2026-06-23"
+dtend: "2026-06-23"
+description: |-
+  🆕 新着掲載 (公開日: 2026-06-22)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  飯能市いじめ問題専門委員会は、飯能市教育委員会の諮問に応じ、いじめの防止対策推進やいじめ重大事態の事実関係を調査・審議する機関です。弁護士、大学教授、スクールソーサルワーカー、教員経験者、警察官経験者、人権擁護委員、保司の7名で構成され、任期は令和7年4月1日から令和9年3月31日です。いじめ重大事態に関する調査報告書（公表版）を公表しました。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/gakkokyoikuka/13738.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13738"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/gakkokyoikuka/13738.html"
+  fetched_at: "2026-06-22T20:38:44.056397Z"
+  content_hash: "sha256-d2d5b85a07ff7a7e"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-06-22"
