@@ -24,3 +24,20 @@ source:
   content_hash: "sha256-d2d5b85a07ff7a7e"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-06-22"
+translations:
+  en:
+    summary: "ℹ️ Report on Investigation of Serious Bullying Incident"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New (Published: June 22, 2026)
+      
+      The Hanno City Bullying Issues Specialist Committee has released a public version of its investigation report on a serious bullying incident.
+      
+      The Committee advises the Hanno City Board of Education on bullying prevention measures and investigates and deliberates on serious bullying incidents. It is made up of 7 members: lawyers, university professors, school social workers, former teachers, former police officers, human rights advocates, and probation officers. The Committee's term runs from April 1, 2025 (Reiwa 7) through March 31, 2027 (Reiwa 9).
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/gakkokyoikuka/13738.html
+    translation_hash: "sha256-6ce49aa24d8621ac"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-06-22T20:41:24.762353Z"
+    format_version: 3

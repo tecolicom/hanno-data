@@ -34,3 +34,30 @@ source:
   content_hash: "sha256-a60991cd49cbd1fe"
   summary_method: "full"
   publish_date: "2026-06-15"
+translations:
+  en:
+    summary: "ℹ️ Disaster Certificates for Hail Damage from June 12"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content Updated (Published: June 15, 2026)
+      
+      A disaster certificate is issued to confirm the degree of damage when a home or other property is damaged by natural events such as earthquakes, heavy rain, or snow. This certificate is needed to file insurance claims and apply for various relief measures.
+      
+      About Issuing Disaster Certificates (Building Damage)
+      
+      If you need a disaster certificate, fill out the required form, affix your seal, and submit it to the Disaster Prevention and Crisis Management Division along with printed photos showing the damage.
+      
+      Certificates will be issued in order, starting from locations where city staff have confirmed the damage.
+      
+      Disaster certificates are issued based on the situation approximately one month after the disaster occurs.
+      
+      Disaster Certificate Form (PDF file: 32.6KB)
+      
+      Disaster Certificate Form (Excel file: 25.5KB)
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/emergency/13706.html
+    translation_hash: "sha256-60d65ce28130cc3e"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-06-22T20:41:22.547525Z"
+    format_version: 3

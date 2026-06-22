@@ -45,3 +45,41 @@ source:
   content_hash: "sha256-059cca4a272e3664"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-06-22"
+translations:
+  en:
+    summary: "ℹ️ Press Release Materials (Fiscal Year 2026 Reiwa 8)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content Updated (Published: June 22, 2026)
+      
+      AI Summary (For accurate information, please check the original articles)
+      
+      Press Release Materials List (Fiscal Year 2026 Reiwa 8)
+      
+      【Published June 22, 2026】
+      Published the public version of the investigation report on serious bullying incidents.
+      
+      【June 3, 2026】
+      Conducting a market sounding survey for future use of the former Mukohara Housing Complex site. Soliciting proposals and feedback from private businesses on how to utilize the site.
+      
+      【April 30, 2026】
+      Implementing year-round dress code flexibility for city staff (no tie required).
+      
+      【April 24, 2026】
+      Received a donation from Ome Shinkin Bank to Hanno City.
+      
+      【April 22, 2026】
+      Launching the Arima Area Water Source Forest Conservation Project (nicknamed "Crested Eagle and Hazel Dormouse Forest Project").
+      
+      【April 20, 2026】
+      Held a donation presentation ceremony from Hanno Rotary Club to Hanno City.
+      
+      【April 6, 2026】
+      Received a donation from MX Mobililing Co., Ltd. through the corporate version of hometown tax donation program.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025_1/13388.html
+    translation_hash: "sha256-84e1120a38444a28"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-06-22T20:41:19.805529Z"
+    format_version: 3
