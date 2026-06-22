@@ -1,0 +1,34 @@
+{
+  "created": "2026-06-22T20:43:22.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 New (Published: June 22, 2026)\n\nThe Hanno City Bullying Issues Specialist Committee has released a public version of its investigation report on a serious bullying incident.\n\nThe Committee advises the Hanno City Board of Education on bullying prevention measures and investigates and deliberates on serious bullying incidents. It is made up of 7 members: lawyers, university professors, school social workers, former teachers, former police officers, human rights advocates, and probation officers. The Committee's term runs from April 1, 2025 (Reiwa 7) through March 31, 2027 (Reiwa 9).\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/gakkokyoikuka/13738.html",
+  "end": {
+    "date": "2026-06-24"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3JqNmUxZGNncDY4ZGIyNzEwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-13738-d2d5b8@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6crj6e1dcgp68db27106gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/gakkokyoikuka/13738.html"
+  },
+  "start": {
+    "date": "2026-06-23"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Report on Investigation of Serious Bullying Incident",
+  "updated": "2026-06-22T20:43:23.383Z"
+}

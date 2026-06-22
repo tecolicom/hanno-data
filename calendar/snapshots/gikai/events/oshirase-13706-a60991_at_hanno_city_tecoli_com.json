@@ -1,0 +1,34 @@
+{
+  "created": "2026-06-22T20:41:02.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🔄 内容更新 (公開日: 2026-06-15)\n\n罹災証明書は、地震、豪雨、降雪などの自然現象により、家屋などに被害を受けた方が、保険金の請求や各種措置を受けるために、その被害程度の証明として発行するものです。\n\n## 罹災証明書の発行について（建物被害の場合）\n\n罹災証明書が必要な場合は、所定の様式へご記入・ご捺印のうえ、被災状況が確認できる写真(プリントしたもの)を防災危機管理課へご提出ください。\n\n\t発行には、市職員による被害箇所の確認が実施された個所から順次発行します。\n\n\t「罹災証明」の発行については、災害発生後おおむね1ケ月以内の状況をもとに判定します。\n\n罹災証明書様式 (PDFファイル: 32.6KB)\n\n罹災証明書様式 (Excelファイル: 25.5KB)\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/emergency/13706.html",
+  "end": {
+    "date": "2026-06-24"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3JqMGRoZGM0cjMwZTlwNjUwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSA2NzQ1OTE0YjI0MzIzMTEyYTE1ZjQzZGMyMGIzYTBmNGE0ODE3YWZkODAwYzhkMTY4N2QwYmYwYjdmODkwYzYxQGc",
+  "iCalUID": "oshirase-13706-a60991@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6crj0dhdc4r30e9p6506gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/emergency/13706.html"
+  },
+  "start": {
+    "date": "2026-06-23"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 6月12日の雹(ひょう)の被害等による罹災証明書の発行について",
+  "updated": "2026-06-22T20:41:03.373Z"
+}
