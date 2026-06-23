@@ -46,3 +46,42 @@ source:
   content_hash: "sha256-2ada745e210b835e"
   summary_method: "full"
   publish_date: "2026-06-21"
+translations:
+  en:
+    summary: "ℹ️ Hanno City Museum Kittus Kids Fair: Make Tanabata Decorations at Kittus and Display Them at Home"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New (Published: June 21, 2026)
+      
+      Why not make this year's Tanabata decorations at Kittus?
+      
+      【Date and Time】
+      
+      Sunday, July 5, 2026 (Reiwa 8)
+      
+      10:00 a.m. to noon
+      
+      1:00 p.m. to 3:00 p.m.
+      
+      【Venue】
+      
+      Hanno City Museum Kittus, Learning and Training Room
+      
+      【Participation Fee and Registration】
+      
+      Free
+      
+      No advance registration required. Please come directly to the venue (Hanno City Museum Kittus).
+      
+      【What You'll Do】
+      
+      Make Tanabata decorations and decorate small bamboo branches.
+      
+      You can take your finished creations home with you.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/tenji_moyooshimono/13715.html
+    translation_hash: "sha256-eccd1537e3aab5c7"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-06-23T19:57:00.511945Z"
+    format_version: 3
