@@ -1,0 +1,48 @@
+uid: "oshirase-13715-2ada74@hanno.city.tecoli.com"
+summary: "ℹ️ 【飯能市立博物館きっとす】きっとすキッズフェア「きっとすで作ってお家でかざろう！七夕かざり」開催のお知らせ"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/tenji_moyooshimono/13715.html"
+dtstart: "2026-06-24"
+dtend: "2026-06-24"
+description: |-
+  🆕 新着掲載 (公開日: 2026-06-21)
+  
+  今年の七夕（たなばた）かざりは、きっとすで作ってみませんか？
+  
+  ## 日時
+  
+  令和8年7月5日（日曜日）
+  
+  午前10時00分から正午まで
+  
+  午後1時00分から午後3時00分まで
+  
+  ## 会場
+  
+  飯能市立博物館きっとす 学習研修室
+  
+  ## 参加費・申し込み
+  
+  無料
+  
+  申し込みは不要です。直接会場（飯能市立博物館）へお越しください。
+  
+  ## 内容
+  
+  七夕かざりの製作、竹の小枝への飾りつけなど
+  
+  作った作品はお持ち帰りいただけます。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/tenji_moyooshimono/13715.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13715"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/tenji_moyooshimono/13715.html"
+  fetched_at: "2026-06-23T19:54:38.040155Z"
+  content_hash: "sha256-2ada745e210b835e"
+  summary_method: "full"
+  publish_date: "2026-06-21"

@@ -1,0 +1,25 @@
+uid: "shicho-blog-13749-f2d62d@hanno.city.tecoli.com"
+summary: "📝 市長：認定こども園さゆり幼稚園様 花の日訪問"
+url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202606/13749.html"
+dtstart: "2026-06-24"
+dtend: "2026-06-24"
+description: |-
+  📝 市長ブログ更新 (公開日: 2026-06-12)
+  
+  6月12日（金曜日）、認定こども園さゆり幼稚園の園児、職員の皆さんがキリスト教の行事「花の日」で訪ねてきてくれました。
+  
+  園児、職員の皆さん、心のこもったメッセージカードときれいなお花をありがとうございました。
+  
+  市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202606/13749.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-shicho-blog
+  id: "13749"
+  url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202606/13749.html"
+  fetched_at: "2026-06-23T19:54:33.571351Z"
+  content_hash: "sha256-f2d62d219c9918f5"
+  publish_date: "2026-06-12"
