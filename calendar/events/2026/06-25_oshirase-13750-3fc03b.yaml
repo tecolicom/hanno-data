@@ -30,3 +30,34 @@ source:
   content_hash: "sha256-3fc03b55924d296d"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-06-23"
+translations:
+  en:
+    summary: "ℹ️ Child Support Guarantee Contract Promotion Subsidy"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      �新 New (Posted: June 23, 2026)
+      
+      AI summary (see the source article for accurate details)
+      
+      This program helps single-parent households in Hanno City by subsidizing the initial guarantee fee when entering into a child support guarantee contract with a guarantee company.
+      
+      Eligibility: You must receive child support allowance (児童扶養手当) or have equivalent income, be supporting children under age 20, have a child support guarantee contract for 1 year or longer, and never have received this subsidy before.
+      
+      Subsidy amount: The lesser of (a) eligible expenses, (b) monthly child support amount, or (c) ¥50,000.
+      
+      Application deadline: Within 6 months from the day after the date the notarized deed (公正証書) or equivalent document was created.
+      
+      Submit to the Children's Support Section (こども支援課) with your application form and copies of:
+      • Child support allowance certificate
+      • Child support agreement document
+      • Receipt
+      • Guarantee contract
+      
+      Receipts must include: payee name/address, date of receipt, amount, details of transaction, recipient's name/address, and official receipt stamp.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/kodomoshienka/13750.html
+    translation_hash: "sha256-f82cf73c54904ff1"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-06-24T19:42:33.832940Z"
+    format_version: 3

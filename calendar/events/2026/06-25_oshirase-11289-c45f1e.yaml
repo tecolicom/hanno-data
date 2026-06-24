@@ -41,3 +41,35 @@ source:
   content_hash: "sha256-c45f1ed7dc10338f"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-06-24"
+translations:
+  en:
+    summary: "ℹ️ Subsidy for cancer patients' wig and breast prosthetic purchases"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      �新 Newly posted (published: June 24, 2026)
+      
+      Hanno City offers subsidies to help cover the cost of wigs and breast prosthetics for people undergoing or who have undergone cancer treatment.
+      
+      【Who can apply】
+      Residents of Hanno City who have been diagnosed with cancer and are receiving (or have received) treatment, and have not previously received the same type of subsidy from Hanno City or another municipality.
+      
+      【Eligible items and subsidy amount】
+      Wigs (including hats, wig protective nets, and care products) or breast prosthetics (including prosthetic undergarments and pads, specialized bathing clothes, and epitheses). Up to ¥10,000 per person, one time only. You can apply separately for wigs and breast prosthetics, and can combine multiple items in a single application.
+      
+      【Required documents】
+      • Application and billing form (available at the Health Center)
+      • Document proving cancer treatment (such as medical statement of costs)
+      • Receipt for the purchased item(s) showing purchase date, amount, product name, and seller name
+      • Bank account information (passbook, cash card, etc.)
+      
+      【How to apply】
+      Apply in person at the Health Center. Applications must be submitted within one year of purchase, and the deadline is March 31, 2027 (Reiwa 9). Payment will be transferred to your designated account approximately two months after application.
+      
+      For minors, the parent or guardian is the applicant.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/11289.html
+    translation_hash: "sha256-896f6c49b8743bf6"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-06-24T19:42:21.960918Z"
+    format_version: 3

@@ -35,3 +35,32 @@ source:
   fetched_at: "2026-06-24T19:39:33.956037Z"
   content_hash: "sha256-20b297501a1f2dce"
   summary_method: "llm-haiku-4-5"
+translations:
+  en:
+    summary: "ℹ️ Summer holiday parent-child facility tour"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      �新 New post (Published: June 25, 2026)
+      
+      AI summary (For accurate information, please check the original article)
+      
+      A special summer holiday parent-child tour of Hanno City's Clean Center. Explore behind the scenes of the facility and learn about areas not usually open to the public. After the tour, there will be a simple craft workshop using cooling agents where you can make your own original creations.
+      
+      【Date and time】 July 23, 2026 (Thursday) 10:00 a.m. – 11:30 a.m.
+      
+      【Location】 Hanno City Clean Center (768-1 Shimohata, Hanno City) – Parking available
+      
+      【Who can attend】 Elementary school students and guardians living in Hanno City (younger siblings who are preschool age may also participate)
+      
+      【Capacity】 About 15 groups (first come, first served)
+      
+      【Application period】 July 9, 2026 (Thursday) through July 22, 2026 (Wednesday) at noon
+      
+      【How to apply】 Apply by phone or email (clean@city.hanno.lg.jp). When applying, please provide the names of your child and guardian, your child's school name and grade, and your contact information.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/cleancenter/13174.html
+    translation_hash: "sha256-7bce7db24007d4d2"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-06-24T19:42:25.086012Z"
+    format_version: 3
