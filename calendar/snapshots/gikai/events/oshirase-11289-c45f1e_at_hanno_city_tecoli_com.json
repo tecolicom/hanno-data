@@ -1,0 +1,34 @@
+{
+  "created": "2026-06-24T19:42:03.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🆕 新着掲載 (公開日: 2026-06-24)\n\nAI による要約 (正確な情報は元記事をご確認ください)\n\nがん治療に伴いウィッグや胸部補整具等の購入が必要な方に、購入費用の助成を行っています。\n\n【対象】\n飯能市内に住所がある方で、がんと診断され治療を受けている、または受けたことがあり、過去に市または他の自治体から同種の助成を受けていない方。\n\n【助成対象・助成額】\nウィッグ（帽子、ウィッグ用保護ネット、ケア用品含む）または胸部補整具等（補整下着・パッド、専用入浴着、エピテーゼ）の購入。1人につき1回限り、上限1万円。ウィッグと胸部補整具それぞれ申請可能で、複数品目の合算申請も可能です。\n\n【必要書類】\n・申請書兼請求書（保健センターで配布）\n・がん治療を受けたことが証明できる書類（診療明細書等）\n・購入品の領収書等（購入日、金額、品目、発行者名が分かるもの）\n・口座情報が分かる通帳やキャッシュカード等\n\n【申請方法】\n保健センター窓口へ。購入日から1年以内、申請期限は令和9年3月31日まで。申請後約2か月で指定口座に振込。\n\n未成年の場合は保護者が申請者です。\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/11289.html",
+  "end": {
+    "date": "2026-06-26"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2NHAzZ2U5ZGNjcTNhcGhoY2wwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSA2NzQ1OTE0YjI0MzIzMTEyYTE1ZjQzZGMyMGIzYTBmNGE0ODE3YWZkODAwYzhkMTY4N2QwYmYwYjdmODkwYzYxQGc",
+  "iCalUID": "oshirase-11289-c45f1e@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h64p3ge9dccq3aphhcl06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/11289.html"
+  },
+  "start": {
+    "date": "2026-06-25"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ がん患者のためのウィッグ・胸部補整具等の購入費用の助成について",
+  "updated": "2026-06-24T19:42:03.813Z"
+}

@@ -1,0 +1,34 @@
+{
+  "created": "2026-06-24T19:42:09.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🆕 新着掲載 (公開日: 2026-06-23)\n\nAI による要約 (正確な情報は元記事をご確認ください)\n\n飯能市内のひとり親家庭を対象に、保証会社と養育費保証契約を締結する際の初回保証料を補助する制度です。\n\n対象者は児童扶養手当受給者または同等所得水準で、20歳未満の児童を扶養し、1年以上の養育費保証契約を結んでいる方。過去に当該補助金の交付を受けていないことが条件です。\n\n補助金額は、補助対象経費・月額養育費・5万円のいずれか最も少ない額です。\n\n申請期限は公正証書等作成日の翌日から起算して6か月以内。申請書に児童扶養手当証書等の写し、養育費の取り決め文書の写し、領収書、保証契約書の写しを添付してこども支援課に提出してください。領収書には宛先・領収年月日・領収金額・取引内容・領収者の住所氏名と領収印の記載が必要です。\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/kodomoshienka/13750.html",
+  "end": {
+    "date": "2026-06-26"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3JqYWMxZDZkajY2YzFqYzkwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSA2NzQ1OTE0YjI0MzIzMTEyYTE1ZjQzZGMyMGIzYTBmNGE0ODE3YWZkODAwYzhkMTY4N2QwYmYwYjdmODkwYzYxQGc",
+  "iCalUID": "oshirase-13750-3fc03b@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6crjac1d6dj66c1jc906gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/kodomoshienka/13750.html"
+  },
+  "start": {
+    "date": "2026-06-25"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 養育費保証契約促進補助金",
+  "updated": "2026-06-24T19:42:09.704Z"
+}
