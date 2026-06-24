@@ -1,0 +1,40 @@
+uid: "oshirase-13654-c57446@hanno.city.tecoli.com"
+summary: "ℹ️ 総合福祉センターの駐車場利用について"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/13654.html"
+dtstart: "2026-06-25"
+dtend: "2026-06-25"
+description: |-
+  🆕 新着掲載 (公開日: 2026-06-24)
+  
+  ## 総合福祉センター受水槽取替え工事に伴い、市役所駐車場の利用をお願いいたします。
+  
+  この度、総合福祉センターの受水槽取替え工事を実施することになりました。
+  
+  そのため、下記のとおり工事に影響する期間については、総合福祉センターの駐車場を利用することができないため、市役所駐車場の利用をお願いいたします。
+  
+  工事期間（予定）
+  
+  【第1期】
+  
+  令和8年6月22日（月曜日）から令和8年7月25日（土曜日）
+  
+  【第2期】
+  
+  令和8年8月31日（月曜日）から令和8年10月17日（土曜日）
+  
+  注意：工事の進捗により期間が前後する場合がありますがご了承ください。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/13654.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13654"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/13654.html"
+  fetched_at: "2026-06-24T19:39:35.168275Z"
+  content_hash: "sha256-c5744606955efce4"
+  summary_method: "full"
+  publish_date: "2026-06-24"

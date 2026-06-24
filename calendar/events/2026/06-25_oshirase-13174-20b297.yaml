@@ -1,0 +1,37 @@
+uid: "oshirase-13174-20b297@hanno.city.tecoli.com"
+summary: "ℹ️ 夏休み親子施設見学会"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/cleancenter/13174.html"
+dtstart: "2026-06-25"
+dtend: "2026-06-25"
+description: |-
+  🆕 新着掲載 (公開日: 2026-06-25)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  夏休み特別企画の親子施設見学会です。飯能市クリーンセンターの裏側を探検し、普段見ることができない施設を学びます。見学後には保冷剤を使った簡単工作教室を開催。自分だけのオリジナル作品作りができます。
+  
+  【開催日時】2026年7月23日（木曜日）午前10時から午前11時30分
+  
+  【場所】飯能市クリーンセンター（飯能市下畑768-1）駐車場有
+  
+  【対象】市内在住の小学生と保護者（未就学児の下のお子様も参加可能）
+  
+  【定員】15組程度（申込順）
+  
+  【申込期間】2026年7月9日（木曜日）から7月22日（水曜日）正午まで
+  
+  【申込方法】電話またはメール(clean@city.hanno.lg.jp)にてお申し込みください。申込時には、お子様と保護者のお名前、お子様の学校名・学年、ご連絡先をお知らせください。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/cleancenter/13174.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13174"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/cleancenter/13174.html"
+  fetched_at: "2026-06-24T19:39:33.956037Z"
+  content_hash: "sha256-20b297501a1f2dce"
+  summary_method: "llm-haiku-4-5"

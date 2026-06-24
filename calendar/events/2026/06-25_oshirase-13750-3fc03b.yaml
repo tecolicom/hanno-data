@@ -1,0 +1,32 @@
+uid: "oshirase-13750-3fc03b@hanno.city.tecoli.com"
+summary: "ℹ️ 養育費保証契約促進補助金"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/kodomoshienka/13750.html"
+dtstart: "2026-06-25"
+dtend: "2026-06-25"
+description: |-
+  🆕 新着掲載 (公開日: 2026-06-23)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  飯能市内のひとり親家庭を対象に、保証会社と養育費保証契約を締結する際の初回保証料を補助する制度です。
+  
+  対象者は児童扶養手当受給者または同等所得水準で、20歳未満の児童を扶養し、1年以上の養育費保証契約を結んでいる方。過去に当該補助金の交付を受けていないことが条件です。
+  
+  補助金額は、補助対象経費・月額養育費・5万円のいずれか最も少ない額です。
+  
+  申請期限は公正証書等作成日の翌日から起算して6か月以内。申請書に児童扶養手当証書等の写し、養育費の取り決め文書の写し、領収書、保証契約書の写しを添付してこども支援課に提出してください。領収書には宛先・領収年月日・領収金額・取引内容・領収者の住所氏名と領収印の記載が必要です。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/kodomoshienka/13750.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13750"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/kodomoshienka/13750.html"
+  fetched_at: "2026-06-24T19:39:46.571872Z"
+  content_hash: "sha256-3fc03b55924d296d"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-06-23"
