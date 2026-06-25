@@ -1,0 +1,44 @@
+uid: "oshirase-13758-976e7f@hanno.city.tecoli.com"
+summary: "ℹ️ 台風が接近しています"
+url: "https://www.city.hanno.lg.jp/emergency/13758.html"
+dtstart: "2026-06-26"
+dtend: "2026-06-26"
+description: |-
+  🆕 新着掲載 (公開日: 2026-06-25)
+  
+  〇台風が接近しています
+  
+  週末にかけて風雨が強まる可能性があります。
+  
+  事前の備えをお願いします。
+  
+  ・懐中電灯、電池、携帯ラジオの準備
+  
+  ・携帯電話の充電
+  
+  ・飲料水等の確保
+  
+  ・家の周りの点検
+  
+  ・飛ばされやすいものを室内へ など
+  
+  〇台風の進路や強さは変化する可能性があります。
+  
+  最新の気象状況を継続的に確認してください。
+  
+  気象庁：飯能市の防災情報（外部サイト）
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/emergency/13758.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13758"
+  url: "https://www.city.hanno.lg.jp/emergency/13758.html"
+  fetched_at: "2026-06-25T19:51:49.602076Z"
+  content_hash: "sha256-976e7fa5759ac6d0"
+  summary_method: "full"
+  publish_date: "2026-06-25"

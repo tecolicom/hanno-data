@@ -1,0 +1,50 @@
+uid: "oshirase-10072-1d919c@hanno.city.tecoli.com"
+summary: "ℹ️ みん活サマー2026"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jitishinkoka/shiminkatudou/10072.html"
+dtstart: "2026-06-26"
+dtend: "2026-06-26"
+description: |-
+  🆕 新着掲載 (公開日: 2026-06-25)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  令和8年8月2日（日）10時30分～16時に市民活動センターで「みん活サマー2026」を開催します。
+  
+  【多目的ホール・予約制・無料】
+  ・「ヤクルト おなか元気教室」11時～11時40分（飲み物付き）
+  ・太極拳体験会 13時30分～14時30分
+  ・椅子に座ってのどトレ＆やさしい筋トレ体験会 14時40分～15時30分
+  
+  申込: 7月10日金曜日から25日土曜日までに市民活動センターへ電話（978-7551）。太極拳・のどトレ参加者は動きやすい服装・靴・フェイスタオル・飲み物を持参してください。
+  
+  【ギャラリー・予約不要・無料】10時30分～15時30分
+  ・健康チェック・栄養相談（体組成計・血圧測定）
+  ・健康チェック（ベジチェック・骨ウエーブ・握力測定）
+  ・食に関する展示・ワークショップ
+  
+  【交流広場・予約不要・材料費要】10時30分～15時30分
+  ・押し花でフレーム・アクリル定規作り（100円～500円、数量限定。過去参加者で指定コース持参者は無料）
+  ・すだれ風コースター・タペストリー作り（100円、30分～1時間）
+  ・エコクラフト小物入れ作り（500円）
+  ・モッタイナイ！ありがとう掘り出し物販売 10時30分～16時（品尽きで終了）
+  ・焼き菓子・手工芸等販売 10時～16時（品尽きで終了）
+  
+  【会議室・予約不要・無料】
+  ・絵本お話し会 午前11時～12時、午後14時～15時
+  
+  関連イベント: 8月8日土曜日に「第13回外国人による日本語スピーチ発表会」多目的ホールで13時30分開始、観覧自由（15時30分まで予定）。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jitishinkoka/shiminkatudou/10072.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "10072"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jitishinkoka/shiminkatudou/10072.html"
+  fetched_at: "2026-06-25T19:51:56.121901Z"
+  content_hash: "sha256-1d919c32009ccbe2"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-06-25"
