@@ -42,3 +42,34 @@ source:
   content_hash: "sha256-976e7fa5759ac6d0"
   summary_method: "full"
   publish_date: "2026-06-25"
+translations:
+  en:
+    summary: "ℹ️ Typhoon approaching"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New (Posted: June 25, 2026)
+      
+      Typhoon approaching
+      
+      Wind and rain may strengthen over the weekend.
+      
+      Please prepare in advance.
+      
+      • Prepare flashlights, batteries, and portable radios
+      • Charge your mobile phone
+      • Secure drinking water and other supplies
+      • Inspect the area around your house
+      • Move items that could blow away indoors, etc.
+      
+      Typhoon track and strength may change.
+      
+      Continuously check the latest weather information.
+      
+      Japan Meteorological Agency: Hanno City disaster prevention information (external site)
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/emergency/13758.html
+    translation_hash: "sha256-0d52be9fa4c22db3"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-06-25T19:54:34.169963Z"
+    format_version: 3

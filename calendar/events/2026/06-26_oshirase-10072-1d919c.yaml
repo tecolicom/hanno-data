@@ -48,3 +48,44 @@ source:
   content_hash: "sha256-1d919c32009ccbe2"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-06-25"
+translations:
+  en:
+    summary: "ℹ️ Minkkatsu Summer 2026"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      �新 Newly posted (Published: June 25, 2026)
+      
+      AI summary (please check the original article for accurate details)
+      
+      Minkkatsu Summer 2026 will be held on August 2, 2026 (Reiwa 8) from 10:30 a.m. to 4:00 p.m. at the Hanno Citizens Activity Center.
+      
+      【Multipurpose Hall · Reservation required · Free】
+      • Yakult Tummy Health Class 11:00–11:40 a.m. (includes drinks)
+      • Tai Chi Experience 1:30–2:30 p.m.
+      • Seated Throat Exercises & Gentle Strength Training Experience 2:40–3:30 p.m.
+      
+      Registration: Call the Citizens Activity Center (978-7551) from Friday, July 10 through Saturday, July 25. Tai Chi and throat exercise participants should bring comfortable clothes, shoes, a face towel, and a drink.
+      
+      【Gallery · No reservation needed · Free】10:30 a.m.–3:30 p.m.
+      • Health checks and nutrition consultation (body composition scale, blood pressure measurement)
+      • Health checks (vegetable intake check, bone wave measurement, grip strength test)
+      • Food-related exhibits and workshops
+      
+      【Exchange Square · No reservation needed · Materials fee required】10:30 a.m.–3:30 p.m.
+      • Pressed flower frames and acrylic ruler making (100–500 yen, limited quantity; free for past participants with designated course supplies)
+      • Blind shade-style coasters and tapestry making (100 yen, 30 minutes–1 hour)
+      • Eco-craft small storage box making (500 yen)
+      • Mottainai! Thank You—treasured secondhand items sale 10:30 a.m.–4:00 p.m. (ends when items sold out)
+      • Baked goods and handcrafts sale 10:00 a.m.–4:00 p.m. (ends when items sold out)
+      
+      【Meeting Room · No reservation needed · Free】
+      • Picture Book Storytelling 11:00 a.m.–12:00 p.m., 2:00–3:00 p.m.
+      
+      Related event: The 13th Foreign Residents' Japanese Speech Presentation will be held on Saturday, August 8 in the Multipurpose Hall starting at 1:30 p.m., open to all (scheduled to end by 3:30 p.m.).
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jitishinkoka/shiminkatudou/10072.html
+    translation_hash: "sha256-9b1b93308032dccd"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-06-25T19:54:32.097543Z"
+    format_version: 3
