@@ -36,3 +36,30 @@ source:
   content_hash: "sha256-3cb6a897e6f0746c"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-06-26"
+translations:
+  en:
+    summary: "ℹ️ Gender Equality Week film screening on June 27 cancelled"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content update (Published: June 26, 2026)
+      
+      Due to the approach of Typhoons No. 7 and No. 8, the Gender Equality Week film screening scheduled for Saturday, June 27, 2026 (Reiwa 8) has been cancelled.
+      
+      【Cancelled event】
+      Date and time: Saturday, June 27, 2026 (Reiwa 8), 1:30 p.m.–
+      Film: "The Lost King: A 500-Year Destiny"
+      Venue: Hanno City Library
+      
+      We apologize for any inconvenience this may cause. Thank you for your understanding.
+      
+      The following related events for Gender Equality Week will proceed as scheduled:
+      
+      • Gender Equality Week Special Display (June 13–25, 2026, Hanno City Library)
+      • Gender Equality Week Panel Exhibition (June 20–28, 2026, Hanno Citizen Activity Center)
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/11863.html
+    translation_hash: "sha256-5d676c18b6ac6c96"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-06-26T19:44:20.241351Z"
+    format_version: 3

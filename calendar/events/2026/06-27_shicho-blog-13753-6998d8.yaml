@@ -27,3 +27,24 @@ source:
   fetched_at: "2026-06-26T19:41:21.476207Z"
   content_hash: "sha256-6998d8d3d7ab4f0c"
   publish_date: "2026-06-23"
+translations:
+  en:
+    summary: "📝 Mayor: Hanno City Council's 2nd regular session (Reiwa 8) closes"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      📝 Mayor's blog update (Published: June 23, 2026)
+      
+      On Tuesday, June 23, 2026 (Reiwa 8), the 2nd regular session of the Hanno City Council closed.
+      
+      During the session, 29 items were deliberated, and all received approval of the original proposals.
+      
+      On the closing day, I and the city council members wore yellow ribbons on our chests—the symbol of the "Campaign to Brighten Society," a national movement aimed at creating a bright society free from crime and delinquency.
+      
+      I hope that many residents will learn about this campaign so we can work together to realize a safe and secure community without crime.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202606/13753.html
+    translation_hash: "sha256-5ee1124bd16097ea"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-06-26T19:44:43.591095Z"
+    format_version: 3

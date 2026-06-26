@@ -42,3 +42,42 @@ source:
   content_hash: "sha256-31ce069a719f5f95"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-06-23"
+translations:
+  en:
+    summary: "ℹ️ Subsidy for child support agreements and court costs (for single parents)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      �新 Newly posted (Published: June 23, 2026 / Reiwa 8)
+      
+      Hanno City offers financial assistance to single parents who have incurred costs related to child support agreements.
+      
+      The city will reimburse you for costs you paid to create a notarized child support agreement or to go through family court mediation or litigation regarding child support.
+      
+      【Who can apply】
+      Single parents living in Hanno City who meet ALL of the following:
+      • You have paid costs related to setting up a child support agreement
+      • You have a legal document (debt certificate) establishing the child support arrangement
+      • You are currently supporting a child under age 20 who is covered by the child support agreement
+      • You have not received this subsidy before
+      
+      【Eligible expenses】
+      Notary public fees for creating the agreement, court filing stamps for mediation or litigation, cost of obtaining official documents (family register copies, etc.), postage stamps, and other related expenses. Maximum subsidy: ¥43,000.
+      
+      【Application deadline】
+      Within 6 months from the day after the child support agreement or court document was created.
+      
+      【How to apply】
+      Submit your application form and required documents to the Child Support Division (こども支援課).
+      
+      Required documents:
+      • Application form
+      • Copy of your Child Allowance Certificate or similar proof
+      • The child support agreement document itself (notarized agreement, mediation records, court judgment, etc.)
+      • Receipts for all expenses you are claiming reimbursement for
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/kodomoshienka/7201.html
+    translation_hash: "sha256-57e5ae43548eee71"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-06-26T19:44:34.536455Z"
+    format_version: 3

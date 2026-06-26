@@ -46,3 +46,38 @@ source:
   content_hash: "sha256-b7c33e954af8cad1"
   summary_method: "full"
   publish_date: "2026-06-25"
+translations:
+  en:
+    summary: "ℹ️ Typhoon approaching"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content updated (Published: June 25, 2026)
+      
+      Typhoons No. 7 and No. 8
+      
+      Saitama Prefecture is expected to be affected by Typhoons No. 7 and No. 8, along with a weather front. On Saturday, June 27, very heavy rain with thunder and heavy rain are expected in some areas, bringing rough weather and rainfall at warning level.
+      
+      Be on high alert for landslides. Watch for flooding in low-lying areas, rising river levels, and potential flooding. Also pay attention to lightning and strong sudden winds.
+      
+      Preparation steps:
+      
+      • Prepare flashlights, batteries, and portable radios
+      • Charge mobile phones
+      • Secure drinking water and supplies
+      • Check the area around your house
+      • Move items that could be blown away indoors, etc.
+      
+      Typhoon track and intensity may change.
+      
+      Continuously check the latest weather information.
+      
+      Japan Meteorological Agency: Hanno City disaster prevention information (external site)
+      
+      Hanno City Landslide Hazard Map
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/emergency/13758.html
+    translation_hash: "sha256-8046018b6ea25864"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-06-26T19:44:26.279275Z"
+    format_version: 3

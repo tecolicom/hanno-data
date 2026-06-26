@@ -37,3 +37,31 @@ source:
   content_hash: "sha256-62e1405ae01df080"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-06-26"
+translations:
+  en:
+    summary: "ℹ️ Textbook Exhibition for 2026 — June 27 (Saturday) Cancelled"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      New: Posted June 26, 2026
+      
+      The 2026 Textbook Exhibition will be held. Due to the approach of Typhoons 7 and 8, the June 27 (Saturday) session is cancelled.
+      
+      【Venue】
+      Hidaka City Koma Community Center (92-2 Kuritsubo, Hidaka City, Saitama 350-1245)
+      
+      【Dates and Times】
+      • June 13 (Saturday): 9:30 a.m. to 12:30 p.m.
+      • June 15–19 (Monday–Friday): 10 a.m. to 5 p.m. (closed 12–1 p.m.)
+      • June 20 (Saturday): 9:30 a.m. to 12:30 p.m.
+      • June 22–26 (Monday–Friday): 10 a.m. to 5 p.m. (closed 12–1 p.m.)
+      • June 27 (Saturday): 【CANCELLED】
+      • June 29 (Monday): 10 a.m. to 3:30 p.m. (closed 12–1 p.m.)
+      
+      The exhibition displays textbooks for elementary, middle, and high schools. School staff, parents, and community members are welcome to visit. Please note that further schedule changes may occur due to typhoons or other weather impacts.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/gakkokyoikuka/9881.html
+    translation_hash: "sha256-8196b90273132bab"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-06-26T19:44:41.271836Z"
+    format_version: 3

@@ -28,3 +28,24 @@ source:
   content_hash: "sha256-df20ccd30bf8f09f"
   summary_method: "full"
   publish_date: "2026-06-26"
+translations:
+  en:
+    summary: "ℹ️ 【CANCELLED】Group cancer screening on Saturday, June 27"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New notice (Published: June 26, 2026)
+      
+      Typhoons 7 and 8 are expected to approach the Kanto region on Saturday, June 27, and Hanno City is forecast to experience locally intense rainfall with significant amounts of rain.
+      
+      Given these conditions, we are putting the safety of our residents who would attend the cancer screening first, and have decided to cancel the screening.
+      
+      We plan to contact all those who had reservations separately regarding rescheduling options for this cancellation.
+      
+      We apologize for the inconvenience and appreciate your understanding.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/13771.html
+    translation_hash: "sha256-52dd39f8adc907b1"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-06-26T19:44:28.506726Z"
+    format_version: 3
