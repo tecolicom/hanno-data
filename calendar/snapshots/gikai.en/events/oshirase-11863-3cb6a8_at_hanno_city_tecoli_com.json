@@ -1,0 +1,34 @@
+{
+  "created": "2026-06-26T19:46:45.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🔄 Content update (Published: June 26, 2026)\n\nDue to the approach of Typhoons No. 7 and No. 8, the Gender Equality Week film screening scheduled for Saturday, June 27, 2026 (Reiwa 8) has been cancelled.\n\n【Cancelled event】\nDate and time: Saturday, June 27, 2026 (Reiwa 8), 1:30 p.m.–\nFilm: \"The Lost King: A 500-Year Destiny\"\nVenue: Hanno City Library\n\nWe apologize for any inconvenience this may cause. Thank you for your understanding.\n\nThe following related events for Gender Equality Week will proceed as scheduled:\n\n• Gender Equality Week Special Display (June 13–25, 2026, Hanno City Library)\n• Gender Equality Week Panel Exhibition (June 20–28, 2026, Hanno Citizen Activity Center)\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/11863.html",
+  "end": {
+    "date": "2026-06-28"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2NHMzY2NwZDZkaG00ZGoxNzEwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-11863-3cb6a8@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h64s3ccpd6dhm4dj17106gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/11863.html"
+  },
+  "start": {
+    "date": "2026-06-27"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Gender Equality Week film screening on June 27 cancelled",
+  "updated": "2026-06-26T19:46:45.871Z"
+}

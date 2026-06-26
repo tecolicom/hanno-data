@@ -1,0 +1,34 @@
+{
+  "created": "2026-06-26T19:46:50.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n�新 Newly posted (Published: June 23, 2026 / Reiwa 8)\n\nHanno City offers financial assistance to single parents who have incurred costs related to child support agreements.\n\nThe city will reimburse you for costs you paid to create a notarized child support agreement or to go through family court mediation or litigation regarding child support.\n\n【Who can apply】\nSingle parents living in Hanno City who meet ALL of the following:\n• You have paid costs related to setting up a child support agreement\n• You have a legal document (debt certificate) establishing the child support arrangement\n• You are currently supporting a child under age 20 who is covered by the child support agreement\n• You have not received this subsidy before\n\n【Eligible expenses】\nNotary public fees for creating the agreement, court filing stamps for mediation or litigation, cost of obtaining official documents (family register copies, etc.), postage stamps, and other related expenses. Maximum subsidy: ¥43,000.\n\n【Application deadline】\nWithin 6 months from the day after the child support agreement or court document was created.\n\n【How to apply】\nSubmit your application form and required documents to the Child Support Division (こども支援課).\n\nRequired documents:\n• Application form\n• Copy of your Child Allowance Certificate or similar proof\n• The child support agreement document itself (notarized agreement, mediation records, court judgment, etc.)\n• Receipts for all expenses you are claiming reimbursement for\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/kodomoshienka/7201.html",
+  "end": {
+    "date": "2026-06-28"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOW42OG8zMmI5ajY1aG1hYzFtODFrNjJyamVkc242NnFia2Y0bjc4cGIzZHRtNmliajNkdG1nIGI2ZjM2ZTE5NzUxYzA1Y2NlOTlmYTAwODI4ZTQyOWY0MGY2ZGIxMDBlMmRiZTQ0MmJjMjYyMmEyNWRhOTczMTZAZw",
+  "iCalUID": "oshirase-7201-31ce06@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9n68o32b9j65hmac1m81k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/kodomoshienka/7201.html"
+  },
+  "start": {
+    "date": "2026-06-27"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Subsidy for child support agreements and court costs (for single parents)",
+  "updated": "2026-06-26T19:46:51.122Z"
+}

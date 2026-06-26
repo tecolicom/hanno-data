@@ -1,0 +1,34 @@
+{
+  "created": "2026-06-26T19:46:48.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🔄 Content updated (Published: June 25, 2026)\n\nTyphoons No. 7 and No. 8\n\nSaitama Prefecture is expected to be affected by Typhoons No. 7 and No. 8, along with a weather front. On Saturday, June 27, very heavy rain with thunder and heavy rain are expected in some areas, bringing rough weather and rainfall at warning level.\n\nBe on high alert for landslides. Watch for flooding in low-lying areas, rising river levels, and potential flooding. Also pay attention to lightning and strong sudden winds.\n\nPreparation steps:\n\n• Prepare flashlights, batteries, and portable radios\n• Charge mobile phones\n• Secure drinking water and supplies\n• Check the area around your house\n• Move items that could be blown away indoors, etc.\n\nTyphoon track and intensity may change.\n\nContinuously check the latest weather information.\n\nJapan Meteorological Agency: Hanno City disaster prevention information (external site)\n\nHanno City Landslide Hazard Map\n\nSource (Japanese): https://www.city.hanno.lg.jp/emergency/13758.html",
+  "end": {
+    "date": "2026-06-28"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3JqYWUxZGM4cm02Y3BqY2wwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-13758-b7c33e@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6crjae1dc8rm6cpjcl06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/emergency/13758.html"
+  },
+  "start": {
+    "date": "2026-06-27"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Typhoon approaching",
+  "updated": "2026-06-26T19:46:48.554Z"
+}

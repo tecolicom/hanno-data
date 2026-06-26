@@ -1,0 +1,34 @@
+{
+  "created": "2026-06-26T19:44:01.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🔄 内容更新 (公開日: 2026-06-25)\n\n台風7号、8号について\n\n埼玉県では、台風7号と台風第8号、前線の影響により、27日（土曜日）は、雷を伴った非常に激しい雨や激しい雨の降るところがあり、荒れた天気、警報級の大雨となることが予想されています。\n\n土砂災害に厳重に警戒し、低い土地の浸水、河川の増水や氾濫に警戒してください。また、落雷や激しい突風などに注意してください。\n\n〇事前の備えをお願いします。\n\n・懐中電灯、電池、携帯ラジオの準備\n\n・携帯電話の充電\n\n・飲料水等の確保\n\n・家の周りの点検\n\n・飛ばされやすいものを室内へ など\n\n〇台風の進路や強さは変化する可能性があります。\n\n最新の気象状況を継続的に確認してください。\n\n気象庁：飯能市の防災情報（外部サイト）\n\n飯能市土砂災害ハザードマップ\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/emergency/13758.html",
+  "end": {
+    "date": "2026-06-28"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3JqYWUxZGM4cm02Y3BqY2wwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSA2NzQ1OTE0YjI0MzIzMTEyYTE1ZjQzZGMyMGIzYTBmNGE0ODE3YWZkODAwYzhkMTY4N2QwYmYwYjdmODkwYzYxQGc",
+  "iCalUID": "oshirase-13758-b7c33e@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6crjae1dc8rm6cpjcl06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/emergency/13758.html"
+  },
+  "start": {
+    "date": "2026-06-27"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 台風が接近しています",
+  "updated": "2026-06-26T19:44:01.946Z"
+}

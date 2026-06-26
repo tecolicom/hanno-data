@@ -1,0 +1,34 @@
+{
+  "created": "2026-06-26T19:46:49.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 New notice (Published: June 26, 2026)\n\nTyphoons 7 and 8 are expected to approach the Kanto region on Saturday, June 27, and Hanno City is forecast to experience locally intense rainfall with significant amounts of rain.\n\nGiven these conditions, we are putting the safety of our residents who would attend the cancer screening first, and have decided to cancel the screening.\n\nWe plan to contact all those who had reservations separately regarding rescheduling options for this cancellation.\n\nWe apologize for the inconvenience and appreciate your understanding.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/13771.html",
+  "end": {
+    "date": "2026-06-28"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3JqZWM5ZGNoajM0YzMzY2QwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-13771-df20cc@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6crjec9dchj34c33cd06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/13771.html"
+  },
+  "start": {
+    "date": "2026-06-27"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 【CANCELLED】Group cancer screening on Saturday, June 27",
+  "updated": "2026-06-26T19:46:49.915Z"
+}

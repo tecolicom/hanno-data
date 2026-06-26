@@ -1,0 +1,34 @@
+{
+  "created": "2026-06-26T19:46:52.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nContent Update (Published: June 25, 2026)\n\nThe Sugo-Ashi Walking Event scheduled for Saturday, June 27, 2026—\"Walk from Musashidai and Yokotedai to Azuma Gorge\"—has been cancelled due to expected poor weather.\n\nOriginal plan:\n• Date: Saturday, June 27\n• Meeting time: 10:00 a.m.\n• Meeting place: West parking lot of Hanno City Hall\n• Course distance: approximately 13 kilometers (City Hall → Nakai → mountain path alongside Musashigaoka Golf Club → Tourist Information Office → beside Musashidai water tank → Yokotedai → beside Manfukuji temple → Azuma Gorge → Hanno Riverbed → City Hall)\n• Planned duration: approximately 4 hours\n• Fee: 200 yen (insurance etc., collected on the day)\n\nWe apologize for any inconvenience.\n\nInquiries: Onda 090-2205-8073 / Hanno Walking Club\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/9290.html",
+  "end": {
+    "date": "2026-06-28"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOXA2OHNqMGI5bDY4czM4ZGhsODFrNjJyamVkc242NnFia2Y0bjc4cGIzZHRtNmliajNkdG1nIGI2ZjM2ZTE5NzUxYzA1Y2NlOTlmYTAwODI4ZTQyOWY0MGY2ZGIxMDBlMmRiZTQ0MmJjMjYyMmEyNWRhOTczMTZAZw",
+  "iCalUID": "oshirase-9290-528465@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9p68sj0b9l68s38dhl81k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/9290.html"
+  },
+  "start": {
+    "date": "2026-06-27"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 【CANCELLED】Sugo-Ashi Walking Event, Saturday, June 27, 2026: Walk from Musashidai and Yokotedai to Azuma Gorge",
+  "updated": "2026-06-26T19:46:52.337Z"
+}

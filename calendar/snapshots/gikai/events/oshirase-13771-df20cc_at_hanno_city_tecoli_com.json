@@ -1,0 +1,34 @@
+{
+  "created": "2026-06-26T19:44:03.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🆕 新着掲載 (公開日: 2026-06-26)\n\n6月27日土曜日に台風7号、8号が関東地方へ接近するおそれがあり、飯能市においても局地的に非常に激しい雨を伴い雨量が多くなると予想されています。\n\nこの状況を鑑み、当日にがん検診へお越しになる市民の皆様の安全を第一に考慮し、やむを得ず、検診を中止させていただくこととしました。\n\n今回の中止の振替対応として、ご予約されていた皆様には別途ご案内を差し上げる予定です。\n\nご不便をおかけして申し訳ありませんが、ご理解の程どうぞよろしくお願いいたします。\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/13771.html",
+  "end": {
+    "date": "2026-06-28"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3JqZWM5ZGNoajM0YzMzY2QwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSA2NzQ1OTE0YjI0MzIzMTEyYTE1ZjQzZGMyMGIzYTBmNGE0ODE3YWZkODAwYzhkMTY4N2QwYmYwYjdmODkwYzYxQGc",
+  "iCalUID": "oshirase-13771-df20cc@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6crjec9dchj34c33cd06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/13771.html"
+  },
+  "start": {
+    "date": "2026-06-27"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 【中止】6月27日土曜日集団がん検診について",
+  "updated": "2026-06-26T19:44:03.535Z"
+}

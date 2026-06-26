@@ -1,0 +1,34 @@
+{
+  "created": "2026-06-26T19:46:54.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n📝 Mayor's blog update (Published: June 23, 2026)\n\nOn Tuesday, June 23, 2026 (Reiwa 8), the 2nd regular session of the Hanno City Council closed.\n\nDuring the session, 29 items were deliberated, and all received approval of the original proposals.\n\nOn the closing day, I and the city council members wore yellow ribbons on our chests—the symbol of the \"Campaign to Brighten Society,\" a national movement aimed at creating a bright society free from crime and delinquency.\n\nI hope that many residents will learn about this campaign so we can work together to realize a safe and secure community without crime.\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202606/13753.html",
+  "end": {
+    "date": "2026-06-28"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2VkazZpb3I4ZHNtbTRyM2Zjc21qMmNwbjZrcGlxZGhwNzRzNjhlMjBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIGI2ZjM2ZTE5NzUxYzA1Y2NlOTlmYTAwODI4ZTQyOWY0MGY2ZGIxMDBlMmRiZTQ0MmJjMjYyMmEyNWRhOTczMTZAZw",
+  "iCalUID": "shicho-blog-13753-6998d8@hanno.city.tecoli.com",
+  "id": "_edk6ior8dsmm4r3fcsmj2cpn6kpiqdhp74s68e20d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202606/13753.html"
+  },
+  "start": {
+    "date": "2026-06-27"
+  },
+  "status": "confirmed",
+  "summary": "📝 Mayor: Hanno City Council's 2nd regular session (Reiwa 8) closes",
+  "updated": "2026-06-26T19:46:54.918Z"
+}
