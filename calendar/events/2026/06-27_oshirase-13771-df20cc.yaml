@@ -1,0 +1,30 @@
+uid: "oshirase-13771-df20cc@hanno.city.tecoli.com"
+summary: "ℹ️ 【中止】6月27日土曜日集団がん検診について"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/13771.html"
+dtstart: "2026-06-27"
+dtend: "2026-06-27"
+description: |-
+  🆕 新着掲載 (公開日: 2026-06-26)
+  
+  6月27日土曜日に台風7号、8号が関東地方へ接近するおそれがあり、飯能市においても局地的に非常に激しい雨を伴い雨量が多くなると予想されています。
+  
+  この状況を鑑み、当日にがん検診へお越しになる市民の皆様の安全を第一に考慮し、やむを得ず、検診を中止させていただくこととしました。
+  
+  今回の中止の振替対応として、ご予約されていた皆様には別途ご案内を差し上げる予定です。
+  
+  ご不便をおかけして申し訳ありませんが、ご理解の程どうぞよろしくお願いいたします。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/13771.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13771"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/13771.html"
+  fetched_at: "2026-06-26T19:41:31.606448Z"
+  content_hash: "sha256-df20ccd30bf8f09f"
+  summary_method: "full"
+  publish_date: "2026-06-26"

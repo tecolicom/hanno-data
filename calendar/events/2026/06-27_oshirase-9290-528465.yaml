@@ -1,0 +1,38 @@
+uid: "oshirase-9290-528465@hanno.city.tecoli.com"
+summary: "ℹ️ 【中止】スゴ足イベント 2026年6月27日（土曜日）武蔵台、横手台から吾妻峡を歩く"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/9290.html"
+dtstart: "2026-06-27"
+dtend: "2026-06-27"
+description: |-
+  🔄 内容更新 (公開日: 2026-06-25)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  スゴ足イベント 2026年6月27日（土曜日）開催予定の「武蔵台、横手台から吾妻峡を歩く」は、天候の悪化が予想されるため開催を中止いたします。
+  
+  元々の予定は以下の通りでした。
+  ・期日：6月27日（土曜日）
+  ・集合時間：10時
+  ・集合場所：飯能市役所西側駐車場
+  ・コース距離：約13キロメートル（市役所→中居→武蔵が丘GC脇山道→観光案内所→武蔵台配水場脇→横手台→万福寺脇→吾妻峡→飯能河原→市役所）
+  ・予定時間：約4時間
+  ・費用：200円（保険代等、当日集金）
+  
+  ご迷惑をおかけいたします。
+  
+  問い合わせ先：恩田 090-2205-8073 / 飯能ウオーキング倶楽部
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/9290.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "9290"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/9290.html"
+  fetched_at: "2026-06-26T19:41:38.576793Z"
+  content_hash: "sha256-5284651337557882"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-06-25"

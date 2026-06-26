@@ -1,0 +1,48 @@
+uid: "oshirase-13758-b7c33e@hanno.city.tecoli.com"
+summary: "ℹ️ 台風が接近しています"
+url: "https://www.city.hanno.lg.jp/emergency/13758.html"
+dtstart: "2026-06-27"
+dtend: "2026-06-27"
+description: |-
+  🔄 内容更新 (公開日: 2026-06-25)
+  
+  台風7号、8号について
+  
+  埼玉県では、台風7号と台風第8号、前線の影響により、27日（土曜日）は、雷を伴った非常に激しい雨や激しい雨の降るところがあり、荒れた天気、警報級の大雨となることが予想されています。
+  
+  土砂災害に厳重に警戒し、低い土地の浸水、河川の増水や氾濫に警戒してください。また、落雷や激しい突風などに注意してください。
+  
+  〇事前の備えをお願いします。
+  
+  ・懐中電灯、電池、携帯ラジオの準備
+  
+  ・携帯電話の充電
+  
+  ・飲料水等の確保
+  
+  ・家の周りの点検
+  
+  ・飛ばされやすいものを室内へ など
+  
+  〇台風の進路や強さは変化する可能性があります。
+  
+  最新の気象状況を継続的に確認してください。
+  
+  気象庁：飯能市の防災情報（外部サイト）
+  
+  飯能市土砂災害ハザードマップ
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/emergency/13758.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13758"
+  url: "https://www.city.hanno.lg.jp/emergency/13758.html"
+  fetched_at: "2026-06-26T19:41:34.925207Z"
+  content_hash: "sha256-b7c33e954af8cad1"
+  summary_method: "full"
+  publish_date: "2026-06-25"

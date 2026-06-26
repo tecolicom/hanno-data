@@ -1,0 +1,38 @@
+uid: "oshirase-11863-3cb6a8@hanno.city.tecoli.com"
+summary: "ℹ️ 6月27日男女共同参画週間映画会の中止について"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/11863.html"
+dtstart: "2026-06-27"
+dtend: "2026-06-27"
+description: |-
+  🔄 内容更新 (公開日: 2026-06-26)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  台風第7号及び第8号の接近に伴い、令和8年6月27日（土曜日）に開催予定の男女共同参画週間映画会を中止いたします。
+  
+  【中止となったイベント】
+  日時：令和8年6月27日（土曜日）13時30分から
+  映画：『ロスト・キング500年越しの運命』
+  会場：市立図書館
+  
+  皆様にはご不便をおかけしますが、ご理解くださいますようお願いいたします。
+  
+  なお、男女共同参画週間に関連して以下の事業は予定どおり実施します。
+  
+  ・男女共同参画週間特別展示（令和8年6月13日から25日まで、市立図書館）
+  ・男女共同参画週間パネル展（令和8年6月20日から28日まで、市民活動センター）
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/11863.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "11863"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/11863.html"
+  fetched_at: "2026-06-26T19:41:28.026010Z"
+  content_hash: "sha256-3cb6a897e6f0746c"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-06-26"

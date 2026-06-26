@@ -1,0 +1,44 @@
+uid: "oshirase-7201-31ce06@hanno.city.tecoli.com"
+summary: "ℹ️ 養育費に関する公正証書等作成促進補助金"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/kodomoshienka/7201.html"
+dtstart: "2026-06-27"
+dtend: "2026-06-27"
+description: |-
+  🆕 新着掲載 (公開日: 2026-06-23)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  飯能市内のひとり親の方を対象に、養育費に関する公正証書作成または家庭裁判所の調停・裁判にかかった本人負担費用を補助します。
+  
+  【対象者】
+  飯能市内にお住まいのひとり親で、以下をすべて満たす方：
+  ・養育費の取決めに係る経費を負担している
+  ・養育費の取決めに係る債務名義を有している
+  ・養育費の取決めの対象となる20歳未満の児童を現に扶養している
+  ・過去に当該補助金を交付されていない
+  
+  【補助対象費用】
+  公正証書作成手数料、調停申立て・裁判に要する収入印紙代、戸籍謄本等の書類取得費、郵便切手代など。合計4万3千円を上限に補助します。
+  
+  【申請期限】
+  公正証書等を作成した日の翌日から起算して6か月以内
+  
+  【申請方法】
+  申請書および必要書類を添付して、こども支援課へ提出してください。
+  
+  必要書類：申請書、児童扶養手当証書の写し等、養育費の取決めを交わした文書（公正証書や調停調書など）、補助対象経費の領収書
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/kodomoshienka/7201.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "7201"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/kodomoshienka/7201.html"
+  fetched_at: "2026-06-26T19:41:44.574258Z"
+  content_hash: "sha256-31ce069a719f5f95"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-06-23"

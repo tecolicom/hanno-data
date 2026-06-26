@@ -1,0 +1,39 @@
+uid: "oshirase-9881-62e140@hanno.city.tecoli.com"
+summary: "ℹ️ 【6月27日（土曜日）中止】令和8年度教科書展示会の開催について"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/gakkokyoikuka/9881.html"
+dtstart: "2026-06-27"
+dtend: "2026-06-27"
+description: |-
+  🆕 新着掲載 (公開日: 2026-06-26)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  令和8年度教科書展示会を開催します。台風7号及び8号の接近に伴い、6月27日（土曜日）は中止となります。
+  
+  【開催場所】
+  日高市立高麗公民館（〒350-1245 日高市大字栗坪92番地2）
+  
+  【開催日時】
+  ・6月13日（土曜日）午前9時30分から午後0時30分まで
+  ・6月15日（月曜日）から19日（金曜日）まで午前10時から午後5時まで（正午から午後1時までは閉館）
+  ・6月20日（土曜日）午前9時30分から午後0時30分まで
+  ・6月22日（月曜日）から26日（金曜日）まで午前10時から午後5時まで（正午から午後1時までは閉館）
+  ・6月27日（土曜日）【中止】
+  ・6月29日（月曜日）午前10時から午後3時30分まで（正午から午後1時までは閉館）
+  
+  展示対象は小学校用・中学校用・高等学校用教科書です。学校関係者をはじめ、保護者や地域の皆さんもご覧いただけます。台風等の影響により、今後の開催に変更が生じる場合があります。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/gakkokyoikuka/9881.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "9881"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/gakkokyoikuka/9881.html"
+  fetched_at: "2026-06-26T19:41:30.914738Z"
+  content_hash: "sha256-62e1405ae01df080"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-06-26"

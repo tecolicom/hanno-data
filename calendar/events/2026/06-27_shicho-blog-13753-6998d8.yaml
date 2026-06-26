@@ -1,0 +1,29 @@
+uid: "shicho-blog-13753-6998d8@hanno.city.tecoli.com"
+summary: "📝 市長：令和8年第2回飯能市議会定例会閉会"
+url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202606/13753.html"
+dtstart: "2026-06-27"
+dtend: "2026-06-27"
+description: |-
+  📝 市長ブログ更新 (公開日: 2026-06-23)
+  
+  6月23日（火曜日）、令和8年第2回飯能市議会定例会が閉会されました。
+  
+  会期中には29件の案件をご審議いただき、いずれも原案をご承認等賜りました。
+  
+  閉会日には犯罪や非行のない明るい社会を目指す国民運動である「社会を明るくする運動」のシンボル「黄色い羽根」を市議会議員の皆様とともに胸に着けさせていただきました。
+  
+  犯罪のない安全で安心して暮らせる社会の実現のため、多くの市民の皆様に本運動を知っていただけますと幸いです。
+  
+  市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202606/13753.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-shicho-blog
+  id: "13753"
+  url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202606/13753.html"
+  fetched_at: "2026-06-26T19:41:21.476207Z"
+  content_hash: "sha256-6998d8d3d7ab4f0c"
+  publish_date: "2026-06-23"
