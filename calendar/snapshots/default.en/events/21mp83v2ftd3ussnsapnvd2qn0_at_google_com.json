@@ -1,0 +1,30 @@
+{
+  "created": "2026-06-28T19:14:09.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nv1.53.0\n\nThe public calendar and app name have been updated.\n\n• 🏷 App name changed to \"Machi Tekori\" — Renamed from \"My Oshi Machi\" (the \"Myはんのう\" name for Hanno remains the same)\n• 📅 \"Choose Calendar\" page redesigned — Shows a list of calendars you're subscribed to. Search by municipality or category, and each calendar now has tags showing its municipality and category\n• 🗺 Browse calendars from municipalities across Japan — Search by prefecture using the 50-sound order, then by city/ward. Municipalities with registered calendars are highlighted with a count, and those without are shown in gray\n• 📅 Subscribe/unsubscribe now marked with calendar icon — Use 📅 to subscribe or unsubscribe. When you tap it, the change doesn't disappear right away—you can confirm before it switches\n• 🔗 Go to a calendar provider's page from the calendar — Tap a calendar name in the list to visit that municipality or community's page\n• 🖼 SNS share banner refreshed — Updated the preview image that appears when you share a link\n• 📇 Shop card L-size portrait layout revised — Simplified to the same clean vertical layout as business cards\n• 📱 Store QR codes set to \"auto-recommend\" by default — When someone scans a store's QR code, they automatically \"recommend\" that store—this setting is now on by default",
+  "end": {
+    "date": "2026-07-01"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=MjFtcDgzdjJmdGQzdXNzbnNhcG52ZDJxbjAgZDkxOTNjZjVmNjQ0YWI0MWEyOGUyMjY4YTk4YWJjNWFhNDI2YmQyZDU3NzE1MjgzNDI0NGFkNjlhMzFmNWE2OEBn",
+  "iCalUID": "21mp83v2ftd3ussnsapnvd2qn0@google.com",
+  "id": "21mp83v2ftd3ussnsapnvd2qn0",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "Myはんのう（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "start": {
+    "date": "2026-06-28"
+  },
+  "status": "confirmed",
+  "summary": "Myはんのう v1.53.0",
+  "updated": "2026-06-28T19:14:10.192Z"
+}
