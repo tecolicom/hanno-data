@@ -19,3 +19,25 @@ description: |-
 render:
   gcal:
     mode: span-allday
+translations:
+  en:
+    summary: "Myはんのう v1.53.0"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      v1.53.0
+      
+      The public calendar and app name have been updated.
+      
+      • 🏷 App name changed to "Machi Tekori" — Renamed from "My Oshi Machi" (the "Myはんのう" name for Hanno remains the same)
+      • 📅 "Choose Calendar" page redesigned — Shows a list of calendars you're subscribed to. Search by municipality or category, and each calendar now has tags showing its municipality and category
+      • 🗺 Browse calendars from municipalities across Japan — Search by prefecture using the 50-sound order, then by city/ward. Municipalities with registered calendars are highlighted with a count, and those without are shown in gray
+      • 📅 Subscribe/unsubscribe now marked with calendar icon — Use 📅 to subscribe or unsubscribe. When you tap it, the change doesn't disappear right away—you can confirm before it switches
+      • 🔗 Go to a calendar provider's page from the calendar — Tap a calendar name in the list to visit that municipality or community's page
+      • 🖼 SNS share banner refreshed — Updated the preview image that appears when you share a link
+      • 📇 Shop card L-size portrait layout revised — Simplified to the same clean vertical layout as business cards
+      • 📱 Store QR codes set to "auto-recommend" by default — When someone scans a store's QR code, they automatically "recommend" that store—this setting is now on by default
+    translation_hash: "sha256-01851826da364dd3"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-06-28T19:12:08.928053Z"
+    format_version: 3
