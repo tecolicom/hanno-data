@@ -28,3 +28,24 @@ source:
   content_hash: "sha256-c8a1324d8cbb31b1"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-06-01"
+translations:
+  en:
+    summary: "ℹ️ What is dementia"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 Newly published (Posted: June 1, 2026)
+      
+      AI summary (please check the original article for accurate information)
+      
+      Dementia is a condition where brain cells' function declines, causing memory loss, disorientation, and other symptoms that persist for 6 months or longer. Unlike normal age-related forgetfulness, it interferes with social and family life. It is a brain disease that can happen to anyone, and early intervention is important.
+      
+      If you suspect dementia symptoms, consult your regular doctor or a specialist (psychiatry, neurology, or psychosomatic medicine) as soon as possible. The community comprehensive support centers in Hanno City operate as dementia consultation centers and accept consultations. Saitama Prefecture also operates a telephone consultation service run by the nonprofit organization "Dementia: People and Families Association" Saitama Branch, available Monday, Tuesday, Wednesday, Friday, and Saturday from 10:00 AM to 3:00 PM (telephone 048-814-1210).
+      
+      We hold peer counseling gatherings called "Young Dementia Gatherings・Hanno" for people with young-onset dementia and their families. The next session is scheduled for August 22, 2026 (Saturday) from 1:30 PM to 3:30 PM at Hanno City Citizen Activity Center (7th floor of Maruhiro Department Store Hanno, 24-4 Sakaecho). Participants can connect with others, share caregiving advice, and exchange information.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/ninchi-sisaku/7986.html
+    translation_hash: "sha256-3f24b2c51e9f8bdf"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-06-29T19:52:46.559705Z"
+    format_version: 3
