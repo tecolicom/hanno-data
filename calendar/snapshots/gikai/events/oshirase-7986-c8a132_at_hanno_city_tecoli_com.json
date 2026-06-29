@@ -1,0 +1,34 @@
+{
+  "created": "2026-06-29T19:52:34.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🆕 新着掲載 (公開日: 2026-06-01)\n\nAI による要約 (正確な情報は元記事をご確認ください)\n\n認知症は脳の細胞の働きが低下して、記憶障害や見当識障害などが生じ、6か月以上継続する状態です。加齢によるもの忘れとは異なり、社会生活や家庭生活に支障をきたします。誰にでも起こりうる脳の病気であり、早い段階からの対応が重要です。\n\n認知症の症状が疑われる場合は、かかりつけ医や専門医療機関(精神科、神経内科、心療内科)に早めに相談してください。飯能市内の地域包括支援センターでは認知症相談センターとして、相談を受け付けています。埼玉県では公益社団法人「認知症の人と家族の会」埼玉県支部に委託した電話相談窓口も開設しており、月曜日・火曜日・水曜日・金曜日・土曜日の午前10時～午後3時に対応しています(電話 048-814-1210)。\n\n若年性認知症の人とその家族のためのピアカウンセリング「若年のつどい・飯能」を開催しています。令和8年8月22日(土)午後1時30分～午後3時30分、飯能市市民活動センター(栄町24-4 丸広百貨店飯能店7階)で開催予定です。本人同士の交流や家族の介護相談、情報交換ができます。\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/ninchi-sisaku/7986.html",
+  "end": {
+    "date": "2026-07-01"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOW43NHMzY2JiMzcxZ2oyY3BpODFrNjJyamVkc242NnFia2Y0bjc4cGIzZHRtNmliajNkdG1nIDY3NDU5MTRiMjQzMjMxMTJhMTVmNDNkYzIwYjNhMGY0YTQ4MTdhZmQ4MDBjOGQxNjg3ZDBiZjBiN2Y4OTBjNjFAZw",
+  "iCalUID": "oshirase-7986-c8a132@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9n74s3cbb371gj2cpi81k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/ninchi-sisaku/7986.html"
+  },
+  "start": {
+    "date": "2026-06-30"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 認知症とは",
+  "updated": "2026-06-29T19:52:34.705Z"
+}
