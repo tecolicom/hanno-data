@@ -1,0 +1,30 @@
+uid: "oshirase-7986-c8a132@hanno.city.tecoli.com"
+summary: "ℹ️ 認知症とは"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/ninchi-sisaku/7986.html"
+dtstart: "2026-06-30"
+dtend: "2026-06-30"
+description: |-
+  🆕 新着掲載 (公開日: 2026-06-01)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  認知症は脳の細胞の働きが低下して、記憶障害や見当識障害などが生じ、6か月以上継続する状態です。加齢によるもの忘れとは異なり、社会生活や家庭生活に支障をきたします。誰にでも起こりうる脳の病気であり、早い段階からの対応が重要です。
+  
+  認知症の症状が疑われる場合は、かかりつけ医や専門医療機関(精神科、神経内科、心療内科)に早めに相談してください。飯能市内の地域包括支援センターでは認知症相談センターとして、相談を受け付けています。埼玉県では公益社団法人「認知症の人と家族の会」埼玉県支部に委託した電話相談窓口も開設しており、月曜日・火曜日・水曜日・金曜日・土曜日の午前10時～午後3時に対応しています(電話 048-814-1210)。
+  
+  若年性認知症の人とその家族のためのピアカウンセリング「若年のつどい・飯能」を開催しています。令和8年8月22日(土)午後1時30分～午後3時30分、飯能市市民活動センター(栄町24-4 丸広百貨店飯能店7階)で開催予定です。本人同士の交流や家族の介護相談、情報交換ができます。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/ninchi-sisaku/7986.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "7986"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/ninchi-sisaku/7986.html"
+  fetched_at: "2026-06-29T19:50:25.596368Z"
+  content_hash: "sha256-c8a1324d8cbb31b1"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-06-01"
