@@ -1,0 +1,22 @@
+# 飯能市 家庭ごみ収集コース定義。
+# 出典: https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/cleancenter/4/893.html
+#
+# 飯能市は PDF URL を予告なく変える運用のため、pdf_url は固定しない
+# (tools/pdf-extractor が index_url から毎回動的に発見する)。
+
+city: hanno
+city_name_ja: 飯能市
+index_url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/cleancenter/4/893.html"
+courses:
+  - id: "A-1"
+    name_ja: "原市場・名栗"
+  - id: "A-2"
+    name_ja: "中央南"
+  - id: "A-3"
+    name_ja: "加治"
+  - id: "B-1"
+    name_ja: "東吾野・吾野"
+  - id: "B-2"
+    name_ja: "中央北"
+  - id: "B-3"
+    name_ja: "精明"
