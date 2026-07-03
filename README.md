@@ -17,11 +17,12 @@ hanno-data/
 │   ├── gomi-schedule.json
 │   └── area-mapping.json
 ├── gomi/                         # 家庭ごみ収集カレンダー
+│   ├── sources.yaml               # コース定義 (ID・日本語名。tools/pdf-extractor が参照、多都市化用)
 │   ├── 2026/                     # 年度別の各コース YAML
 │   │   ├── course-A1.yaml
 │   │   ├── course-A2.yaml
 │   │   └── ...
-│   └── area-mapping.yaml         # 町名 → コース対応表
+│   └── area-mapping.yaml         # 町名 → コース対応表 (draft、未使用。実際の町名検索は各 course-*.yaml の area_names から)
 ├── bus/                          # バス時刻表 (ファイル名 = feed_id、各 YAML の meta.feed_id と一致)
 │   ├── 5931bus.yaml                       # 国際興業バス (NaviTime/5931bus 由来、native shape)
 │   ├── eaglebus.yaml                      # イーグルバス飯能駅・宮沢路線 (KML+PDF 由来、legacy shape)
