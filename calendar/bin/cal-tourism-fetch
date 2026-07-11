@@ -235,7 +235,10 @@ def build_yaml_doc(
 
 
 def read_url_list(path: str) -> list[str]:
+    """urls.txt (シード) を読む。ファイルが無ければ空 (発見のみで動く)."""
     urls: list[str] = []
+    if not os.path.exists(path):
+        return urls
     with open(path, "r", encoding="utf-8") as f:
         for raw in f:
             line = raw.split("#", 1)[0].strip()
@@ -274,6 +277,22 @@ def discover_tour_urls(html: str) -> list[str]:
         seen.add(url)
         out.append(url)
     return out
+
+
+DEFAULT_INDEX_URL = "https://hanno-tourism.jp/hanno-eco/"
+
+
+def fetch_index_urls(index_url: str) -> list[str]:
+    """一覧ページを取得してツアー URL を発見する。失敗時は空リストを返す (WARN)."""
+    try:
+        html = fetch(index_url)
+    except Exception as e:
+        print(f"  WARN: failed to fetch index {index_url}: {e}", file=sys.stderr)
+        return []
+    urls = discover_tour_urls(html)
+    if not urls:
+        print(f"  WARN: no tour URLs discovered from index {index_url}", file=sys.stderr)
+    return urls
 
 
 def canonical_url_matches(html: str, expected_url: str) -> bool:
@@ -395,18 +414,36 @@ def main() -> None:
     ap.add_argument("--dry-run", action="store_true", help="stdout に出すだけ")
     ap.add_argument("--min-sessions", type=int, default=5,
                     help="抽出セッション数がこの数未満なら exit code 2 (CI 暴走防止、default: 5)")
+    ap.add_argument("--index-url", default=DEFAULT_INDEX_URL,
+                    help=f"ツアー一覧ページ (default: {DEFAULT_INDEX_URL})")
+    ap.add_argument("--no-discover", action="store_true",
+                    help="一覧ページからの自動発見を無効化し urls-file のみ使う")
     args = ap.parse_args()
 
     urls: list[str] = []
+    seen: set[str] = set()
+
+    def _add(u: str) -> None:
+        n = normalize_tour_url(u) if url_ok(normalize_tour_url(u)) else u
+        if n not in seen:
+            seen.add(n)
+            urls.append(n)
+
     if args.url:
-        urls.append(args.url)
-    elif args.urls_file:
-        if not os.path.exists(args.urls_file):
-            sys.exit(f"urls-file not found: {args.urls_file}")
-        urls.extend(read_url_list(args.urls_file))
+        # 単一 URL 指定時は発見・シードを使わず、その URL だけ処理
+        _add(args.url)
+    else:
+        if not args.no_discover:
+            for u in fetch_index_urls(args.index_url):
+                _add(u)
+        # urls.txt はシード (手動ピン留め)。発見結果と和集合。
+        if args.urls_file:
+            for u in read_url_list(args.urls_file):
+                _add(u)
 
     if not urls:
-        sys.exit("No URL specified. Pass --url or --urls-file.")
+        sys.exit("No URL to process (discovery empty and no seed URLs). "
+                 "Pass --url, populate urls-file, or check --index-url.")
 
     print(f"Processing {len(urls)} URL(s) deterministically (no LLM)...", file=sys.stderr)
     ok = err = total_sessions = 0
