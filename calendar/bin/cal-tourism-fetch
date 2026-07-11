@@ -249,6 +249,33 @@ def url_ok(url: str) -> bool:
     return bool(URL_ALLOWLIST_PATTERN.match(url))
 
 
+def normalize_tour_url(url: str) -> str:
+    """末尾スラッシュを1つに正規化 (発見 URL と urls.txt シードの表記ゆれを吸収)."""
+    return url.rstrip("/") + "/"
+
+
+# 一覧ページ /hanno-eco/ 内の <a href="…/hanno-eco/tour/<slug>…"> を拾う。
+# slug 直後は "/" か引用符終端のどちらでも許容 (末尾スラッシュ有無の両表記に対応)。
+_TOUR_HREF_RE = re.compile(
+    r'href=["\'](https://hanno-tourism\.jp/hanno-eco/tour/[a-z0-9\-]+/?)["\']'
+)
+
+
+def discover_tour_urls(html: str) -> list[str]:
+    """一覧ページ HTML から現行ツアー URL を抽出する (allowlist 検証・順序保持 dedup)."""
+    seen: set[str] = set()
+    out: list[str] = []
+    for m in _TOUR_HREF_RE.finditer(html):
+        url = normalize_tour_url(m.group(1))
+        if not url_ok(url):
+            continue
+        if url in seen:
+            continue
+        seen.add(url)
+        out.append(url)
+    return out
+
+
 def canonical_url_matches(html: str, expected_url: str) -> bool:
     """ページの og:url や canonical link が要求 URL と一致するか.
 
