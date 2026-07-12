@@ -47,7 +47,7 @@ JST = timezone(timedelta(hours=9))
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from _lib import (
     USER_AGENT, UID_NAMESPACE, fetch, fetch_with_cache, read_yaml_scalar,
-    load_http_cache, save_http_cache,
+    load_http_cache, save_http_cache, dtstart_from_last_modified,
     yaml_escape_str, yaml_block_scalar, strip_html, normalize_body,
     reiwa_to_gregorian, gregorian_to_reiwa,
     output_path_for, find_existing_by_uid, load_source_config,
@@ -419,11 +419,14 @@ def main() -> None:
             else:
                 existing_path = None  # incremental: hash 計算後に決定
 
-            # 記事 fetch (両モード共通)
+            # 記事 fetch (両モード共通)。条件付き GET。304 (= None) は未更新 → skip。
             try:
-                article_html = fetch(article_url)
+                article_html = fetch_cached(article_url)
             except Exception as e:
                 print(f"    ERROR fetching {article_url}: {e}", file=sys.stderr)
+                continue
+            if article_html is None:   # 304 Not Modified
+                unchanged += 1
                 continue
             parsed = parse_article(article_html)
             if not parsed:
@@ -458,7 +461,8 @@ def main() -> None:
                     unchanged += 1
                     continue
                 uid = f"{args.uid_prefix}-{page_id}-{content_hash[:6]}@{UID_NAMESPACE}"
-                dtstart = today_jst
+                dtstart = dtstart_from_last_modified(
+                    http_cache.get(article_url, {}).get("last_modified"), today_jst)
                 publish_date = parsed["date"]
                 fetched_at = None
                 # status: 同 page_id に既存 YAML 無し → 新規 / 既存あり → 内容更新
