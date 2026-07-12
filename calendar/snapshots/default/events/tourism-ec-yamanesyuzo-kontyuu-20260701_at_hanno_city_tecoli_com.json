@@ -1,0 +1,35 @@
+{
+  "created": "2026-07-12T02:14:38.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 19:00–21:45\n\n飯能エコツーリズム協会: https://hanno-tourism.jp/hanno-eco/tour/ec-yamanesyuzo-kontyuu/\n\n飯能市内に生息する昆虫の生息環境に触れることで、飯能の自然の豊かさと生物多様性を感じていただくエコツアーです。飛来する昆虫たちの生態についても参加者の皆様と一緒に考えます。事前リクエストがあった日に開催します。\n\n【利用料金】大人3,000円、小学生以下1,000円 （ガイド料、保険料）\n\n【定員】20名\n\n【ガイド】やまね酒造株式会社スタッフ\n\n【持ち物】水筒、汗拭きタオル、懐中電灯、動きやすく汚れても良い服装\n\n【備考】やまね酒造株式会社 ＨＰ https://yamaneshuzo.jp/",
+  "end": {
+    "date": "2026-07-02"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bHNtMnJiMWRwaW42dWJsZjluaXFxcmZkcHE3aXRibDVrcDMwY2htNjByajBjYTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIDIwNTQwM2M5NzFkYzVlZjIxZWZkODFjMWQ1Mzg0OWNhZGZkOTAxYjc1Yzc3ZDg4OTU1ZDk2MDBmNDVmMmEwMTNAZw",
+  "iCalUID": "tourism-ec-yamanesyuzo-kontyuu-20260701@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqpb35lsm2rb1dpin6ublf9niqqrfdpq7itbl5kp30chm60rj0ca0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "location": "集合 やまね酒造株式会社（飯能市赤沢223 国際興業バス「茶内」下車徒歩１分 ※駐車場あり",
+  "organizer": {
+    "displayName": "Myはんのう",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-yamanesyuzo-kontyuu/"
+  },
+  "start": {
+    "date": "2026-07-01"
+  },
+  "status": "confirmed",
+  "summary": "飯能で昆虫観察会〜昆虫ライトトラップ＆フルーツトラップ",
+  "updated": "2026-07-12T02:14:38.504Z"
+}

@@ -1,0 +1,34 @@
+{
+  "created": "2026-07-12T02:15:05.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🔄 内容更新 (公開日: 2026-06-25)\n\nAI による要約 (正確な情報は元記事をご確認ください)\n\n飯能市緊急財政対策により休止していた観光公衆トイレ7か所を再開いたします。\n\n【再開日程】\n・竹寺観光公衆トイレ（大字南704番地）：7月1日再開\n・竹寺入口観光公衆トイレ（大字南750番地1）：7月1日再開\n・阿寺諏訪神社観光公衆トイレ（大字長沢1843番地）：7月1日再開\n・小沢観光公衆トイレ（大字下名栗1128番地1）：7月1日再開\n・河又観光公衆トイレ（大字下名栗558番地1）：7月1日再開\n・中居観光公衆トイレ（大字中居219番地）：再開準備中\n・飯能観光案内所観光公衆トイレ（大字飯能1051番地8）：再開準備中\n\n再開時期については随時更新いたします。\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/kanko/13714.html",
+  "end": {
+    "date": "2026-07-13"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3JqMmQxZGNnczMwcDltNzUwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSA2NzQ1OTE0YjI0MzIzMTEyYTE1ZjQzZGMyMGIzYTBmNGE0ODE3YWZkODAwYzhkMTY4N2QwYmYwYjdmODkwYzYxQGc",
+  "iCalUID": "oshirase-13714-d80e69@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6crj2d1dcgs30p9m7506gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/kanko/13714.html"
+  },
+  "start": {
+    "date": "2026-07-12"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 観光公衆トイレの再開について",
+  "updated": "2026-07-12T02:15:06.234Z"
+}

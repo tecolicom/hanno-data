@@ -1,0 +1,35 @@
+{
+  "created": "2026-07-12T02:14:29.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 18:00–20:00\n\n飯能エコツーリズム協会: https://hanno-tourism.jp/hanno-eco/tour/ec-agano-hotaru/\n\n高麗川を舞うゲンジボタルと、鹿に似た高い美声で鳴くカジカガエルに会いに来ませんか？宿場町の趣が残るまちなみを散策し、市の景観重要建造物である築160年の古民家内で有機野菜のカレーも味わいます。\n\n【利用料金】大人3,000円、中学生以下1,500円 （ガイド料、保険、夕食代）\n\n【定員】各日10名\n\n【ガイド】大河原義重（吾野宿再生と吾野を語る会）\n\n【持ち物】懐中電灯、雨具、水筒、長袖、長ズボン、歩きやすい服装\n\n【備考】COMステーション HP https://aganojuku.jimdofree.com/",
+  "end": {
+    "date": "2026-06-26"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bGdtZW9iZWRzbW1ncnJrYzVwN2FiOWk2MHAzY2MxbTY4cWswcTMxZHBuNnViajNkNXE3aWJqa2NsaG11cjM5NXBobXVyOCAyMDU0MDNjOTcxZGM1ZWYyMWVmZDgxYzFkNTM4NDljYWRmZDkwMWI3NWM3N2Q4ODk1NWQ5NjAwZjQ1ZjJhMDEzQGc",
+  "iCalUID": "tourism-ec-agano-hotaru-20260625@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqpb35lgmeobedsmmgrrkc5p7ab9i60p3cc1m68qk0q31dpn6ubj3d5q7ibjkclhmur395phmur8",
+  "kind": "calendar#event",
+  "location": "集合 古民家ゲストハウス吾野宿（西武池袋線・秩父線「吾野駅」下車徒歩7分）",
+  "organizer": {
+    "displayName": "Myはんのう",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-agano-hotaru/"
+  },
+  "start": {
+    "date": "2026-06-25"
+  },
+  "status": "confirmed",
+  "summary": "吾野宿散策と高麗川でゲンジボタルとカジカガエルの鑑賞",
+  "updated": "2026-07-12T02:14:29.905Z"
+}

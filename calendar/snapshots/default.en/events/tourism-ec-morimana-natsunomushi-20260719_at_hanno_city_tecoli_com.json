@@ -1,0 +1,35 @@
+{
+  "created": "2026-07-12T02:32:24.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 17:00–20:00\n\nAutomated translation (refer to source for accuracy)\n\nHanno Ecotourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-natsunomushi/\n\nThere's an old saying about summer insects drawn to flames, and night lights really do attract a surprising variety of insects — from popular species to kinds hardly anyone knows about. We'll set up light traps in Hanno's rich satoyama (semi-natural grassland) and take a leisurely look at the insects that gather. You might even spot other wildlife besides insects! Come learn about the fascinating ecology of creatures active at night.\n\n【Fee】\nAdults: ¥6,000 | Students: ¥5,000 | Preschool children: ¥3,000\n(includes guide, insurance, and materials)\n\n【Capacity】15 people\n\n【Guide】Mori no Field Gakusha (Forest Field School) staff\n\n【What to bring】Drinks, flashlight, rain gear, gloves, insect repellent spray, notebook, writing materials\n\n【More info】Mori no Field Gakusha website: https://morinomanabiya168.wixsite.com/website",
+  "end": {
+    "date": "2026-07-20"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bG1tdXNqOWRsZ21zbzlkZHBnbjhzcmxkcG5tcXRiamQxa2lxY2hnNjhyMzBkcGg3NTA2Z29iZWRwbmlzb3I5ZWhzaXN0MzVjZG5tb3E5ZWNkbm1xIGQ5MTkzY2Y1ZjY0NGFiNDFhMjhlMjI2OGE5OGFiYzVhYTQyNmJkMmQ1NzcxNTI4MzQyNDRhZDY5YTMxZjVhNjhAZw",
+  "iCalUID": "tourism-ec-morimana-natsunomushi-20260719@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqpb35lmmusj9dlgmso9ddpgn8srldpnmqtbjd1kiqchg68r30dph7506gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "集合 飯能市立博物館前（国際興業バス「OH!!!・天覧山下」または「市民会館・博物館」下車徒歩3分",
+  "organizer": {
+    "displayName": "Myはんのう（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-natsunomushi/"
+  },
+  "start": {
+    "date": "2026-07-19"
+  },
+  "status": "confirmed",
+  "summary": "Summer insects drawn to light — observe insects with a light trap",
+  "updated": "2026-07-12T02:32:24.666Z"
+}

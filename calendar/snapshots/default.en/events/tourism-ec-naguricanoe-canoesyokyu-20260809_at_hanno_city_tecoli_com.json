@@ -1,0 +1,35 @@
+{
+  "created": "2026-07-12T02:32:43.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 10:00–12:00\n\nAutomated translation (refer to source for accuracy)\n\nHanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-naguricanoe-canoesyokyu/\n\nCanadian canoeing uses a single-blade paddle to glide smoothly across the water — it's an active and dynamic way to paddle. Learn steering techniques and hands-on control while enjoying the experience.\n\n【Fee】¥3,000 per person (includes guide, insurance, and canoe rental)\n\n【Capacity】5 people\n\n【Guide】Staff from Certified NPO Naguri Canoe Workshop\n\n【What to bring】Drinking water (vending machine available at the workshop), sun protection such as hats and sunglasses\n\n【More information】Certified NPO Naguri Canoe Workshop: https://naguri-canoe.co.jp/",
+  "end": {
+    "date": "2026-08-10"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bG42MnBybGU5a202b2JlZHRpaXFvcjFkcG5tYXNycGR0bG5pdDlkNjhvMzRkaGc3MG8zaWczOGM1bjZzcnBlY2Rrbjh1OWVlaGltNnJyY2Q0bjY2cnJkIGQ5MTkzY2Y1ZjY0NGFiNDFhMjhlMjI2OGE5OGFiYzVhYTQyNmJkMmQ1NzcxNTI4MzQyNDRhZDY5YTMxZjVhNjhAZw",
+  "iCalUID": "tourism-ec-naguricanoe-canoesyokyu-20260809@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqpb35ln62prle9km6obedtiiqor1dpnmasrpdtlnit9d68o34dhg70o3ig38c5n6srpecdkn8u9eehim6rrcd4n66rrd",
+  "kind": "calendar#event",
+  "location": "集合 名栗カヌー工房（国際興業バス「ノーラ名栗・さわらびの湯」下車徒歩20分、または「河又名栗湖入口」下車25分）",
+  "organizer": {
+    "displayName": "Myはんのう（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-naguricanoe-canoesyokyu/"
+  },
+  "start": {
+    "date": "2026-08-09"
+  },
+  "status": "confirmed",
+  "summary": "🎉 Canadian Canoe Beginner Lesson at Lake Naguri — Enjoy the Lake at Your Own Pace",
+  "updated": "2026-07-12T02:32:43.810Z"
+}

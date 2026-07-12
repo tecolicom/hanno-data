@@ -1,0 +1,35 @@
+{
+  "created": "2026-07-12T02:32:22.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 08:00–15:20\n\nAutomated translation (refer to source for accuracy)\n\nHanno Eco-tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-logcamp-gibier/\n\nThis is an experience tour from butchering locally-caught deer to eating gibier (wild game) cuisine. In the mountain regions, wildlife damage control is an important issue—this tour lets you appreciate and enjoy the mountain's bounty while learning about these efforts. You'll tour the butchering facility Musica, learn about the current state of wildlife damage prevention, and then enjoy delicious gibier at Gibier Restaurant Log Camp.\n\n【Participation fee】¥7,500 per person (includes guide, meals, and insurance)\n\n【Capacity】8 people\n\n【Guide】Yoshinori Sato (Nonprofit Organization crew-L)\n\n【What to bring】Train fare, work gloves, clothes you don't mind getting dirty, comfortable walking shoes",
+  "end": {
+    "date": "2026-07-20"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bG02dXByM2M1bW4wYmI3ZDVoNmlwYmk1a3AzMGNobTYwcmoyZWEwZDFnbXNyamY1cGhtaXQzcDVwcTZhb3JmZGhraXNvcmZkayBkOTE5M2NmNWY2NDRhYjQxYTI4ZTIyNjhhOThhYmM1YWE0MjZiZDJkNTc3MTUyODM0MjQ0YWQ2OWEzMWY1YTY4QGc",
+  "iCalUID": "tourism-ec-logcamp-gibier-20260719@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqpb35lm6upr3c5mn0bb7d5h6ipbi5kp30chm60rj2ea0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "location": "集合 西武池袋線「飯能駅」改札口",
+  "organizer": {
+    "displayName": "Myはんのう（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-logcamp-gibier/"
+  },
+  "start": {
+    "date": "2026-07-19"
+  },
+  "status": "confirmed",
+  "summary": "Learn about Hanno's wild game (gibier)! A tour expressing gratitude for the animals we eat",
+  "updated": "2026-07-12T02:32:23.276Z"
+}

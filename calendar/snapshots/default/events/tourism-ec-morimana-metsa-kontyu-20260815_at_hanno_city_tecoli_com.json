@@ -1,0 +1,35 @@
+{
+  "created": "2026-07-12T02:15:56.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 10:00–14:30\n\n飯能エコツーリズム協会: https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-metsa-kontyu/\n\n昆虫の生態を観察したり、外来種や危険性物などの標本を作る体験をしながら、昆虫の体のしくみや動植物の生態など楽しく学ぶことができるツアーです。ツアーに参加して虫博士になれば夏休みがもっと楽しくなるかも!?\n\n【利用料金】大人5,000円、学生4,000円、未就学児2,500円 （ガイド料、保険、材料費等）\n\n【定員】15名\n\n【ガイド】森のフィールド学舎スタッフ\n\n【持ち物】飲み物、昼食、軍手、筆記用具、雨具、虫よけスプレー\n\n【備考】森のフィールド学舎HP https://morinomanabiya168.wixsite.com/website",
+  "end": {
+    "date": "2026-08-16"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bG1tdXNqOWRsZ21zbzlkZGxpbjhzcjE1bGxtdXJqa2Y1cWlxY2hnNjhyMzBlMWg2bDA2Z29iZWRwbmlzb3I5ZWhzaXN0MzVjZG5tb3E5ZWNkbm1xIDIwNTQwM2M5NzFkYzVlZjIxZWZkODFjMWQ1Mzg0OWNhZGZkOTAxYjc1Yzc3ZDg4OTU1ZDk2MDBmNDVmMmEwMTNAZw",
+  "iCalUID": "tourism-ec-morimana-metsa-kontyu-20260815@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqpb35lmmusj9dlgmso9ddlin8sr15llmurjkf5qiqchg68r30e1h6l06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "集合 メッツァビレッジ インフォメーション前（イーグルバス他「メッツァ」下車徒歩3分）",
+  "organizer": {
+    "displayName": "Myはんのう",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-metsa-kontyu/"
+  },
+  "start": {
+    "date": "2026-08-15"
+  },
+  "status": "confirmed",
+  "summary": "夏休み自由研究企画 メッツァビレッジで昆虫の標本づくり",
+  "updated": "2026-07-12T02:15:56.958Z"
+}

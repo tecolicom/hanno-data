@@ -1,0 +1,35 @@
+{
+  "created": "2026-07-12T02:14:44.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 10:00–12:00\n\n飯能エコツーリズム協会: https://hanno-tourism.jp/hanno-eco/tour/ec-naguricanoe-canoesyokyu/\n\nカナディアンカヌーは、シングルブレードパドルを使って水面を軽やかに進む、アクティブでダイナミックなカヌーです。パドルで舵を取る感覚や、思い通りに操作するテクニックを楽しみながら身につけましょう。\n\n【利用料金】一人3,000円 （ガイド、保険、カヌーレンタル代）\n\n【定員】5名\n\n【ガイド】認定NPO法人名栗カヌー工房スタッフ\n\n【持ち物】飲み物（工房内に自動販売機あり）、帽子やサングラスなどの日差し対策用品\n\n【備考】認定NPO法人名栗カヌー工房 HP https://naguri-canoe.co.jp/",
+  "end": {
+    "date": "2026-07-06"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bG42MnBybGU5a202b2JlZHRpaXFvcjFkcG5tYXNycGR0bG5pdDlkNjhvMzRkaGc2c28zYWczOGM1bjZzcnBlY2Rrbjh1OWVlaGltNnJyY2Q0bjY2cnJkIDIwNTQwM2M5NzFkYzVlZjIxZWZkODFjMWQ1Mzg0OWNhZGZkOTAxYjc1Yzc3ZDg4OTU1ZDk2MDBmNDVmMmEwMTNAZw",
+  "iCalUID": "tourism-ec-naguricanoe-canoesyokyu-20260705@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqpb35ln62prle9km6obedtiiqor1dpnmasrpdtlnit9d68o34dhg6so3ag38c5n6srpecdkn8u9eehim6rrcd4n66rrd",
+  "kind": "calendar#event",
+  "location": "集合 名栗カヌー工房（国際興業バス「ノーラ名栗・さわらびの湯」下車徒歩20分、または「河又名栗湖入口」下車25分）",
+  "organizer": {
+    "displayName": "Myはんのう",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-naguricanoe-canoesyokyu/"
+  },
+  "start": {
+    "date": "2026-07-05"
+  },
+  "status": "confirmed",
+  "summary": "カナディアンカヌー初級講習＠名栗湖〜ゆったり湖を楽しもう〜",
+  "updated": "2026-07-12T02:14:45.203Z"
+}

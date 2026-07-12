@@ -1,0 +1,35 @@
+{
+  "created": "2026-07-12T02:14:50.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 16:00–19:30\n\n飯能エコツーリズム協会: https://hanno-tourism.jp/hanno-eco/tour/morimana-yamabiru/\n\nヒルには血を吸うイメージがありますが、人の血を吸う種類のヒルはごくわずかです。今回は、身近にいる吸血性のヤマビルの生態から他の生きものとの繋がりまで学び、観察を通して隠れた魅力を発見し、不思議なくらしに迫ります！\n\n【利用料金】大人6,000円、学生5,000円、未就学児3,000円 （ガイド料、保険、資料代等）\n\n【定員】10名\n\n【ガイド】森のフィールド学舎スタッフ\n\n【持ち物】飲み物、ライト、虫メガネ、手袋（軍手など）、雨具、軽食（必要な方）\n\n【備考】森のフィールド学舎HP https://morinomanabiya168.wixsite.com/website",
+  "end": {
+    "date": "2026-07-12"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFyYmZlOWttcW9iZWM0bW5pb2JkYzVoNmlzamw1a3AzMGNobTYwcmoyY2EwZDFnbXNyamY1cGhtaXQzcDVwcTZhb3JmZGhraXNvcmZkayAyMDU0MDNjOTcxZGM1ZWYyMWVmZDgxYzFkNTM4NDljYWRmZDkwMWI3NWM3N2Q4ODk1NWQ5NjAwZjQ1ZjJhMDEzQGc",
+  "iCalUID": "tourism-morimana-yamabiru-20260711@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqrbfe9kmqobec4mniobdc5h6isjl5kp30chm60rj2ca0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "location": "集合 国際興業バス「茶内」バス停前",
+  "organizer": {
+    "displayName": "Myはんのう",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/morimana-yamabiru/"
+  },
+  "start": {
+    "date": "2026-07-11"
+  },
+  "status": "confirmed",
+  "summary": "へんてこ吸血生物「ヤマビル」の不思議な生きかた",
+  "updated": "2026-07-12T02:14:51.202Z"
+}

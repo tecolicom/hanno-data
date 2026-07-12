@@ -1,0 +1,35 @@
+{
+  "created": "2026-07-12T02:33:02.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 10:30–14:30\n\nAutomated translation (refer to source for accuracy)\n\nHanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-shogakuji-spring/\n\nExperience Zen training centered on seated meditation (zazen) at Shogakuji, an authorized Soto Zen meditation hall, set in Hanno's natural surroundings. Listen to the sounds of the river, wind, and birdsong as you practice. Lunch features shojin ryori (vegetarian Buddhist cuisine prepared without any animal products), served in the traditional oryoki bowls used by training monks at the head temple. You will also experience sutra copying (shaky), carefully writing the Heart Sutra character by character with mindfulness.\n\n【Fee】 ¥7,000 per person (includes guide, lunch, sutra copying, insurance)\n\n【Capacity】 20 people\n\n【Guide】 Sanae Ishii (Shogakuji)\n\n【What to bring】 Towel, long pants suitable for seated meditation (or bring a change of clothes)",
+  "end": {
+    "date": "2026-08-23"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bHBtZ3JyN2M1bG5hcWo5NWxwbjBzajlkcGppcWNoZzY4cjMwZTFpNjkwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBkOTE5M2NmNWY2NDRhYjQxYTI4ZTIyNjhhOThhYmM1YWE0MjZiZDJkNTc3MTUyODM0MjQ0YWQ2OWEzMWY1YTY4QGc",
+  "iCalUID": "tourism-ec-shogakuji-spring-20260822@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqpb35lpmgrr7c5lnaqj95lpn0sj9dpjiqchg68r30e1i6906gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "集合 正覚寺 飯能市上名栗2326（国際興業バス「名郷」下車徒歩1分）",
+  "organizer": {
+    "displayName": "Myはんのう（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-shogakuji-spring/"
+  },
+  "start": {
+    "date": "2026-08-22"
+  },
+  "status": "confirmed",
+  "summary": "Zen monastery training experience (seated meditation, dharma talk, sutra copying, vegetarian meal, practice)",
+  "updated": "2026-07-12T02:33:03.106Z"
+}

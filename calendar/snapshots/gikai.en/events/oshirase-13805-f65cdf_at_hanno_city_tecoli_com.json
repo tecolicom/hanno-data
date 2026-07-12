@@ -1,0 +1,34 @@
+{
+  "created": "2026-07-12T02:32:05.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 New (posted July 3, 2026)\n\nHanno City Comprehensive Facility Management Private Proposal System – Call for Proposals\n\nHanno City is seeking private-sector proposals for comprehensive facility management services covering Hanno City Hall (main building) and 80 other municipal facilities.\n\n【What We're Looking For】\nType A Proposal: Suggestions for maintenance inspections, legally required inspections and tests, upkeep, repairs, facility information management, and related services for the target facilities\nType B Proposal: Optional value-added proposals for comprehensive facility management (paid parking, advertising, naming rights, energy service contracts, LED upgrades, bulk electricity purchasing, digital transformation, strengthened disaster-response capabilities, etc.)\n\n【Schedule】\nJuly 2026: Call for proposals opens\nJuly–August 2026: Participation declarations and questions accepted; business partner matching support provided\nAugust–September 2026: Proposal submissions accepted\nLate September 2026: Review and evaluation\nEarly October 2026: Evaluation results announced\nOctober 2026–March 2027: Detailed negotiations\nApril 1, 2027: Operations begin\n\nThrough these proposals, the City aims to improve facility management efficiency, reduce financial burden, secure new revenue streams, and enhance municipal services. Implementation guidelines, facility location lists, budget summaries, and other reference materials are posted on the City website, along with proposal consideration support materials.\n\n【Contact】\nHanno City Strategic Planning Division, Asset Management Section\nPhone: 042-973-2111 (ext. 282)\nEmail: kanzai@city.hanno.lg.jp\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/13805.html",
+  "end": {
+    "date": "2026-07-13"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3MzMGQ5ZGNvcjNhb3I0Y3AwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-13805-f65cdf@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6cs30d9dcor3aor4cp06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/13805.html"
+  },
+  "start": {
+    "date": "2026-07-12"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Hanno City calls for private proposals on comprehensive facility management services",
+  "updated": "2026-07-12T02:32:05.657Z"
+}

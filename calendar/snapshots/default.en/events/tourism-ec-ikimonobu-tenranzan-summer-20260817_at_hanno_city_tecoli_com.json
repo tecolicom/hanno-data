@@ -1,0 +1,35 @@
+{
+  "created": "2026-07-12T02:32:54.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 16:00–18:00\n\nAutomated translation (refer to source for accuracy)\n\nHanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-ikimonobu-tenranzan-summer/\n\nWalk with a guide and discover the natural changes you might miss on an ordinary stroll. This is a short, easy-to-enjoy tour. Please join us! Depending on the season, you may receive homegrown pesticide-free vegetables as a gift.\n\n【Fee】¥2,000 per person; ¥1,500 for repeat visitors; ¥4,000 per family (includes guide and insurance)\n\n【Capacity】Up to 10 people per date\n\n【Guide】Tsubasa Kojima (Hanno City Eco-Tourism Citizen Guide Association, Wildlife Group)\n\n【What to bring】Drinks, rain gear, backpack or similar (something that leaves both hands free is recommended), towel, insect repellent spray",
+  "end": {
+    "date": "2026-08-18"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bGttbXFiZGR0bjZ1b2psNWxxNmFyamljNW43a29iZTVscG5hcmJkY2xwMnFjaGc2OHIzMGUxaDZ0MDZnb2JlZHBuaXNvcjllaHNpc3QzNWNkbm1vcTllY2RubXEgZDkxOTNjZjVmNjQ0YWI0MWEyOGUyMjY4YTk4YWJjNWFhNDI2YmQyZDU3NzE1MjgzNDI0NGFkNjlhMzFmNWE2OEBn",
+  "iCalUID": "tourism-ec-ikimonobu-tenranzan-summer-20260817@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqpb35lkmmqbddtn6uojl5lq6arjic5n7kobe5lpnarbdclp2qchg68r30e1h6t06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "集合 飯能市立博物館前（国際興業バス「OH!!!・天覧山下」または「市民会館・博物館」下車徒歩3分）",
+  "organizer": {
+    "displayName": "Myはんのう（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-ikimonobu-tenranzan-summer/"
+  },
+  "start": {
+    "date": "2026-08-17"
+  },
+  "status": "confirmed",
+  "summary": "Easy Evening Tour of Tenranzan Mountain",
+  "updated": "2026-07-12T02:32:55.339Z"
+}

@@ -1,0 +1,34 @@
+{
+  "created": "2026-07-12T02:32:09.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n�新 New (Posted: July 10, 2026)\n\nSummer 2026 Community Center Study Spaces Open\n\nCommunity centers throughout Hanno are opening meeting rooms as study spaces for elementary and middle school students. Please use these facilities for summer homework and independent study.\n\nFor an overview, see \"2026 Community Center Study Space Openings.\"\n\nFor details on times and dates, please contact each community center directly.\n\nSummer 2026 Community Center Study Spaces / Community Study Rooms—Schedule (PDF file: 53.1KB)\n\nTo view PDF files, you will need \"Adobe Reader (Acrobat Reader).\" If you do not have it, click the \"Adobe Reader (Acrobat Reader)\" download button on the left, download the software, and install it.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/gyoseicenterkanrika/fujimichikugyoseicenter_kominkan/13898.html",
+  "end": {
+    "date": "2026-07-13"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3MzaWUxZGNnc2o4ZTFwNmgwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-13898-d94894@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6cs3ie1dcgsj8e1p6h06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/gyoseicenterkanrika/fujimichikugyoseicenter_kominkan/13898.html"
+  },
+  "start": {
+    "date": "2026-07-12"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Summer 2026: Community Centers Open Study Spaces for Elementary and Middle School Students",
+  "updated": "2026-07-12T02:32:09.924Z"
+}

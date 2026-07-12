@@ -1,0 +1,35 @@
+{
+  "created": "2026-07-12T02:33:09.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 16:30–20:00\n\nAutomated translation (refer to source for accuracy)\n\nHanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/cockroach/\n\nCockroaches get a bad rap, but did you know they play an important role in nature? Join cockroach-loving guides to discover the surprising side of these everyday creatures. Once you understand their role and how they live, you might see them differently when you encounter one at home.\n\n【Fee】\nAdults: ¥6,000 | Students: ¥5,000 | Preschool: ¥3,000\n(Includes guide, insurance, materials)\n\n【Capacity】\n15 people\n\n【Guide】\nMori no Field Gakusha staff\n\n【What to bring】\nDrink, flashlight, rain gear, gloves\n\n【More information】\nMori no Field Gakusha website: https://morinomanabiya168.wixsite.com/website",
+  "end": {
+    "date": "2026-08-30"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFvcmZjZGxuNHJyMWNkazJxY2hnNjhyMzBlMWk3NTA2Z29iZWRwbmlzb3I5ZWhzaXN0MzVjZG5tb3E5ZWNkbm1xIGQ5MTkzY2Y1ZjY0NGFiNDFhMjhlMjI2OGE5OGFiYzVhYTQyNmJkMmQ1NzcxNTI4MzQyNDRhZDY5YTMxZjVhNjhAZw",
+  "iCalUID": "tourism-cockroach-20260829@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqorfcdln4rr1cdk2qchg68r30e1i7506gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "集合 飯能市立博物館前（国際興業バス「OH!!!・天覧山下」または「市民会館・博物館」下車徒歩3分",
+  "organizer": {
+    "displayName": "Myはんのう（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/cockroach/"
+  },
+  "start": {
+    "date": "2026-08-29"
+  },
+  "status": "confirmed",
+  "summary": "🦟 Cockroaches are hot this summer!",
+  "updated": "2026-07-12T02:33:09.665Z"
+}

@@ -1,0 +1,35 @@
+{
+  "created": "2026-07-12T02:14:48.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 10:00–12:00\n\n飯能エコツーリズム協会: https://hanno-tourism.jp/hanno-eco/tour/ec-naguricanoe-sup/\n\n名栗湖でのSUP体験は、四季折々の自然と湖の静けさを全身で感じながら楽しめる、心と体にやさしいエコツアーです。水面をゆったりと進みながら、環境に配慮したスタイルで、名栗の生態系や自然の魅力をご紹介します。\n\n【利用料金】一人4,000円 （ガイド、保険、SUPボードレンタル代など）\n\n【定員】5名\n\n【ガイド】認定NPO法人名栗カヌー工房スタッフ\n\n【持ち物】ラッシュガード、水着、ボードショーツ、サーフトランクス、トレンカ、レギンスなど水に濡れても動ける服装 ※ライフジャケットはこちらで用意いたします。\n\n【備考】認定NPO法人名栗カヌー工房 HP https://naguri-canoe.co.jp/",
+  "end": {
+    "date": "2026-07-12"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bG42MnBybGU5a202b2JlZHRpaXFzcmxlMG1qNGMxaTZvbzNlYzloODFrNjJyamVkc242NnFia2Y0bjc4cGIzZHRtNmliajNkdG1nIDIwNTQwM2M5NzFkYzVlZjIxZWZkODFjMWQ1Mzg0OWNhZGZkOTAxYjc1Yzc3ZDg4OTU1ZDk2MDBmNDVmMmEwMTNAZw",
+  "iCalUID": "tourism-ec-naguricanoe-sup-20260711@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqpb35ln62prle9km6obedtiiqsrle0mj4c1i6oo3ec9h81k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+  "kind": "calendar#event",
+  "location": "集合 名栗カヌー工房（国際興業バス「ノーラ名栗・さわらびの湯」下車徒歩20分、または「河又名栗湖入口」下車25分）",
+  "organizer": {
+    "displayName": "Myはんのう",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-naguricanoe-sup/"
+  },
+  "start": {
+    "date": "2026-07-11"
+  },
+  "status": "confirmed",
+  "summary": "初心者OK！手ぶらで気軽にSUP体験！名栗湖で癒しのひととき",
+  "updated": "2026-07-12T02:14:48.525Z"
+}

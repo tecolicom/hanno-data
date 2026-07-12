@@ -1,0 +1,35 @@
+{
+  "created": "2026-07-12T02:32:21.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 15:00–17:30\n\nAutomated translation (refer to source for accuracy)\n\nHanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-kankokyoukai/\n\nThe bottom-open floats (したぬけ屋台) featured on a TV information show are a signature of Hanno's summer festival. Hanno's \"Bottom-Open Float Tradition\" is designated as an intangible folk cultural property of the city. Join locals in the procession and see all eight towns' bottom-open floats gather at the float-meeting (引き合わせ) event. Enjoy the festival with fun commentary from a festival expert and a special Yumema (飯能のイメージキャラクター) keychain—a tour the whole family can enjoy!\n\n【Fee】¥3,000 per person; ¥2,000 for elementary school children and under (includes guide fee, insurance, light refreshments, and gratuities)\n\n【Capacity】10 people\n\n【Guide】Shigekazu Otsuki (Tsuguni Shinwaka-kai), staff of Oku-Musashi Hanno Tourism Association; Cooperation: Ni-chome Town Association\n\n【What to bring】Drinking water, sweat towel",
+  "end": {
+    "date": "2026-07-20"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bGxtMnJqYmR0bG5pcnJsZGRnbWliOWk2MHAzY2MxbjY0c2swcTMxZHBuNnViajNkNXE3aWJqa2NsaG11cjM5NXBobXVyOCBkOTE5M2NmNWY2NDRhYjQxYTI4ZTIyNjhhOThhYmM1YWE0MjZiZDJkNTc3MTUyODM0MjQ0YWQ2OWEzMWY1YTY4QGc",
+  "iCalUID": "tourism-ec-kankokyoukai-20260719@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqpb35llm2rjbdtlnirrlddgmib9i60p3cc1n64sk0q31dpn6ubj3d5q7ibjkclhmur395phmur8",
+  "kind": "calendar#event",
+  "location": "集合 飯能小町公園（西武池袋線「飯能駅」下車徒歩10分）",
+  "organizer": {
+    "displayName": "Myはんのう（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-kankokyoukai/"
+  },
+  "start": {
+    "date": "2026-07-19"
+  },
+  "status": "confirmed",
+  "summary": "🎉 Hanno Summer Festival Tour: Join the Bottom-Open Float Procession and Float-Gathering! (Includes Yumema Souvenir)",
+  "updated": "2026-07-12T02:32:21.867Z"
+}

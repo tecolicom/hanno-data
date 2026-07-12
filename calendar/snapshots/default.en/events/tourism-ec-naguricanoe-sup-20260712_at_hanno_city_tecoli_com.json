@@ -1,0 +1,35 @@
+{
+  "created": "2026-07-12T02:32:18.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 10:00–12:00\n\nAutomated translation (refer to source for accuracy)\n\nLake Naguri SUP experience is a gentle eco-tour that lets you feel the seasonal nature and quiet of the lake throughout your whole body and spirit. Glide slowly across the water while learning about Naguri's ecosystems and natural beauty in an environmentally conscious way.\n\n【Fee】4,000 yen per person (includes guide, insurance, SUP board rental, etc.)\n\n【Capacity】5 people\n\n【Guide】Staff of certified NPO Naguri Canoe Workshop\n\n【What to bring】Rash guard, swimsuit, board shorts, surf trunks, trenka leggings, or other clothing that moves freely when wet. *Life jackets are provided.\n\n【More information】Certified NPO Naguri Canoe Workshop: https://naguri-canoe.co.jp/\n\nHanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-naguricanoe-sup/",
+  "end": {
+    "date": "2026-07-13"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bG42MnBybGU5a202b2JlZHRpaXFzcmxlMG1qNGMxaTZvbzNlYzlpODFrNjJyamVkc242NnFia2Y0bjc4cGIzZHRtNmliajNkdG1nIGQ5MTkzY2Y1ZjY0NGFiNDFhMjhlMjI2OGE5OGFiYzVhYTQyNmJkMmQ1NzcxNTI4MzQyNDRhZDY5YTMxZjVhNjhAZw",
+  "iCalUID": "tourism-ec-naguricanoe-sup-20260712@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqpb35ln62prle9km6obedtiiqsrle0mj4c1i6oo3ec9i81k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+  "kind": "calendar#event",
+  "location": "集合 名栗カヌー工房（国際興業バス「ノーラ名栗・さわらびの湯」下車徒歩20分、または「河又名栗湖入口」下車25分）",
+  "organizer": {
+    "displayName": "Myはんのう（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-naguricanoe-sup/"
+  },
+  "start": {
+    "date": "2026-07-12"
+  },
+  "status": "confirmed",
+  "summary": "Beginner-friendly SUP experience at Lake Naguri — come as you are for a relaxing eco-tour!",
+  "updated": "2026-07-12T02:32:18.448Z"
+}

@@ -1,0 +1,35 @@
+{
+  "created": "2026-07-12T02:33:10.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 19:00–21:45\n\nAutomated translation (refer to source for accuracy)\n\nHanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-yamanesyuzo-kontyuu/\n\nThis is an eco-tour where you experience the habitats of insects living in Hanno City, helping you feel the richness of nature and biodiversity in the area. We'll also discuss the ecology of the insects that come to the traps together with all participants. The tour is held on dates requested in advance.\n\n【Fee】Adults ¥3,000, elementary school and younger ¥1,000 (includes guide fee and insurance)\n\n【Capacity】20 people\n\n【Guide】Yamane Sake Brewery Co., Ltd. staff\n\n【What to bring】Water bottle, sweat towel, flashlight, comfortable clothes you don't mind getting dirty\n\n【Notes】Yamane Sake Brewery Co., Ltd. website: https://yamaneshuzo.jp/",
+  "end": {
+    "date": "2026-09-01"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bHNtMnJiMWRwaW42dWJsZjluaXFxcmZkcHE3aXRibDVrcDMwY2htNjBzMzZjYTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIGQ5MTkzY2Y1ZjY0NGFiNDFhMjhlMjI2OGE5OGFiYzVhYTQyNmJkMmQ1NzcxNTI4MzQyNDRhZDY5YTMxZjVhNjhAZw",
+  "iCalUID": "tourism-ec-yamanesyuzo-kontyuu-20260831@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqpb35lsm2rb1dpin6ublf9niqqrfdpq7itbl5kp30chm60s36ca0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "location": "集合 やまね酒造株式会社（飯能市赤沢223 国際興業バス「茶内」下車徒歩１分 ※駐車場あり",
+  "organizer": {
+    "displayName": "Myはんのう（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-yamanesyuzo-kontyuu/"
+  },
+  "start": {
+    "date": "2026-08-31"
+  },
+  "status": "confirmed",
+  "summary": "Insect observation in Hanno: light trap & fruit trap",
+  "updated": "2026-07-12T02:33:11.208Z"
+}

@@ -1,0 +1,35 @@
+{
+  "created": "2026-07-12T02:32:49.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 10:00–14:30\n\nAutomated translation (refer to source for accuracy)\n\nHanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-metsa-kontyu/\n\nObserve insects in their natural setting and learn about insect anatomy, ecology, and plant-animal interactions while making specimens — including invasive species and specimens showing adaptations to danger. Join this tour and become a bug expert to make your summer break even more fun!\n\n【Fee】\nAdults ¥5,000 / Students ¥4,000 / Preschool children ¥2,500\n(includes guide, insurance, materials)\n\n【Capacity】15 people\n\n【Guide】Mori no Field Gakusha (Forest Field Learning Institute) staff\n\n【What to bring】Drinks, lunch, work gloves, writing materials, rain gear, insect repellent spray\n\n【More info】Forest Field Learning Institute website: https://morinomanabiya168.wixsite.com/website",
+  "end": {
+    "date": "2026-08-16"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bG1tdXNqOWRsZ21zbzlkZGxpbjhzcjE1bGxtdXJqa2Y1cWlxY2hnNjhyMzBlMWg2bDA2Z29iZWRwbmlzb3I5ZWhzaXN0MzVjZG5tb3E5ZWNkbm1xIGQ5MTkzY2Y1ZjY0NGFiNDFhMjhlMjI2OGE5OGFiYzVhYTQyNmJkMmQ1NzcxNTI4MzQyNDRhZDY5YTMxZjVhNjhAZw",
+  "iCalUID": "tourism-ec-morimana-metsa-kontyu-20260815@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqpb35lmmusj9dlgmso9ddlin8sr15llmurjkf5qiqchg68r30e1h6l06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "集合 メッツァビレッジ インフォメーション前（イーグルバス他「メッツァ」下車徒歩3分）",
+  "organizer": {
+    "displayName": "Myはんのう（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-metsa-kontyu/"
+  },
+  "start": {
+    "date": "2026-08-15"
+  },
+  "status": "confirmed",
+  "summary": "Summer break project: insect specimen-making at Metsä Village",
+  "updated": "2026-07-12T02:32:49.560Z"
+}

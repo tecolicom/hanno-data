@@ -1,0 +1,35 @@
+{
+  "created": "2026-07-12T02:33:18.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 13:30–15:30\n\nAutomated translation (refer to source for accuracy)\n\n【Venue】Small Hall, Hanno Citizens' Hall\n【Organizer】Wasegaku Yumeiiku High School\n\nHanno Citizens' Hall: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html",
+  "end": {
+    "date": "2026-09-20"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2VkazZpcmI5ZHBsbTJxYmJjNW4ycWNoZzY4cjMwZTloNzRtajBjYTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIGQ5MTkzY2Y1ZjY0NGFiNDFhMjhlMjI2OGE5OGFiYzVhYTQyNmJkMmQ1NzcxNTI4MzQyNDRhZDY5YTMxZjVhNjhAZw",
+  "iCalUID": "shiminkaikan-20260919-01@hanno.city.tecoli.com",
+  "id": "_edk6irb9dplm2qbbc5n2qchg68r30e9h74mj0ca0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "location": "飯能市民会館 小ホール",
+  "organizer": {
+    "displayName": "Myはんのう（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html"
+  },
+  "start": {
+    "date": "2026-09-19"
+  },
+  "status": "confirmed",
+  "summary": "Wasegaku Yumeiiku High School 5th Anniversary Ceremony",
+  "updated": "2026-07-12T02:33:18.363Z"
+}

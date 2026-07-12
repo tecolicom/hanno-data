@@ -1,0 +1,30 @@
+{
+  "created": "2026-07-12T02:31:43.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nv1.57.0\n\n• 🏙 Top page is now everyone's entry point — In addition to \"Supported Cities\", you can now search for and add any city in Japan from \"🔍 Find a City\" (remove with ✕). Tap a city in your list to go to its page\n\n• 🏠 Set a home city — Tap the \"🏠 Home\" button in your list, or turn on \"Make this my home city\" in each city page's settings. Next time you open \"Machi Tekori\", that city will appear first. You can also switch cities between weekends and weekdays\n\n• ⬆ Improved navigation back to top — Added a \"Machi Tekori\" link to the city page header. Breadcrumb navigation for update history, store finder, calendar, and more are now organized from the top\n\n• 🏪 \"Find a Store\" now available for all cities — Use the \"🏙 [City Name]\" button to search near the city center (near City Hall) in order of distance (bus stop basis is Hanno only)\n\n• 📱 Add any city to your home screen — Any city page, including Hidaka, can now be added to your smartphone's home screen and used like an app\n\n• 🔗 City page SNS sharing now supported — Title and preview image now appear when sharing\n\n• City picker now clearly shows when a prefecture is selected, making it easier to see you've moved on to choosing a city\n\n• 404 error page now lets you jump to each city's top page",
+  "end": {
+    "date": "2026-07-13"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=bWs4aTVmdnRiOGhxNWVtNGhsZGV1OHFnMWcgZDkxOTNjZjVmNjQ0YWI0MWEyOGUyMjY4YTk4YWJjNWFhNDI2YmQyZDU3NzE1MjgzNDI0NGFkNjlhMzFmNWE2OEBn",
+  "iCalUID": "mk8i5fvtb8hq5em4hldeu8qg1g@google.com",
+  "id": "mk8i5fvtb8hq5em4hldeu8qg1g",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "Myはんのう（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "start": {
+    "date": "2026-07-10"
+  },
+  "status": "confirmed",
+  "summary": "Myはんのう v1.57.0",
+  "updated": "2026-07-12T02:31:43.442Z"
+}

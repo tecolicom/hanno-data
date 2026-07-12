@@ -1,0 +1,34 @@
+{
+  "created": "2026-07-12T02:32:06.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 New listing (Published: July 2, 2026)\n\nHanno City is offering matching support to help businesses connect for participation in the private proposal system for comprehensive facility management operations.\n\nThe goal is to create higher-value proposals by connecting facility management expertise with businesses in various fields such as energy, advertising, revenue-generating services, and utilization of city-owned assets.\n\n【Who can apply】\n• Businesses considering submitting proposals as lead contractors for comprehensive facility management operations\n• Businesses with expertise in Type B proposals (revenue-generating services, energy operations, city-owned asset utilization, etc.) seeking to partner with a lead contractor\n\n【Application deadline】\nAugust 4, 2026 (Reiwa 8)\n\n【How to apply】\nSubmit the application form by email to: kanzai@city.hanno.lg.jp\n\n【Information to be shared】\nWith the consent of participating businesses, Hanno City will share: business name, location, contact person name and contact information, main business activities, proposed service areas, main achievements, and desired partnership details.\n\n【Important note】\nHanno City does not guarantee that business partnerships will be established, that proposals will be selected, or that contracts will be concluded. The city assumes no responsibility for negotiation content or proposal details between businesses.\n\n【Contact】\nHanno City General Policy Department Asset Management Section\nPhone: 042-973-2111 (extension 282)\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/13809.html",
+  "end": {
+    "date": "2026-07-13"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3MzMGU5ZDZsaDY2Y3BtNmQwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-13809-5bc363@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6cs30e9d6lh66cpm6d06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/13809.html"
+  },
+  "start": {
+    "date": "2026-07-12"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Business-to-business matching support for comprehensive facility management proposals",
+  "updated": "2026-07-12T02:32:06.965Z"
+}

@@ -1,0 +1,35 @@
+{
+  "created": "2026-07-12T02:32:50.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 17:00–20:45\n\nAutomated translation (refer to source for accuracy)\n\nHanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-metsa-semi/\n\nA cicada-filled day at Metsä Village! During daylight hours, you'll do fieldwork to observe the holes where cicadas emerge and collect shed shells to make specimens. Once it gets dark, you'll watch cicadas emerge from their shells in real time. Learn all about cicadas—how many species there are, how they live, and more—in a fun, hands-on tour. Perfect for a summer free-research project!\n\n【Fee】\nAdults: ¥6,000\nStudents: ¥5,000\nPreschool children: ¥3,000\n(Includes guide fee, insurance, materials, etc.)\n\n【Capacity】\n15 people\n\n【Guide】\nMori no Field Gakusha (Forest Field Learning Center) staff\n\n【What to bring】\nDrink, light snacks, work gloves, writing materials, rain gear, insect repellent spray\n\n【More information】\nMori no Field Gakusha: https://morinomanabiya168.wixsite.com/website",
+  "end": {
+    "date": "2026-08-16"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bG1tdXNqOWRsZ21zbzlkZGxpbjhzcjE1bHBtYXJiOTVrcDMwY2htNjBzMzJkYTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIGQ5MTkzY2Y1ZjY0NGFiNDFhMjhlMjI2OGE5OGFiYzVhYTQyNmJkMmQ1NzcxNTI4MzQyNDRhZDY5YTMxZjVhNjhAZw",
+  "iCalUID": "tourism-ec-morimana-metsa-semi-20260815@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqpb35lmmusj9dlgmso9ddlin8sr15lpmarb95kp30chm60s32da0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "location": "集合 メッツァビレッジ インフォメーション前（イーグルバス他「メッツァ」下車徒歩3分）",
+  "organizer": {
+    "displayName": "Myはんのう（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-metsa-semi/"
+  },
+  "start": {
+    "date": "2026-08-15"
+  },
+  "status": "confirmed",
+  "summary": "Summer free-research project: Evening cicada observation at Metsä Village",
+  "updated": "2026-07-12T02:32:51.029Z"
+}

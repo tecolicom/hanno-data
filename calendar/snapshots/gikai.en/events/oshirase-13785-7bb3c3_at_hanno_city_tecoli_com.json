@@ -1,0 +1,34 @@
+{
+  "created": "2026-07-12T02:32:02.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 New Post (Published: July 1, 2026)\n\nPublic Wi-Fi (Hanno Free Wi-Fi) Service Resumed\n\nThe public Wi-Fi service (Hanno Free Wi-Fi) at Hanno Civic Activity Center, which ended on March 31, 2026 (Reiwa 8), has resumed operation.\n\nService Resumption Date: July 1, 2026 (Reiwa 8)\n\nFor connection instructions and usage notes, please check the link below.\n\nPublic Wi-Fi (Hanno Free Wi-Fi) Details\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jitishinkoka/shiminkatudou/13785.html",
+  "end": {
+    "date": "2026-07-13"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3JqZ2Q5ZDZ0aDY0Y3IzNmQwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-13785-7bb3c3@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6crjgd9d6th64cr36d06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jitishinkoka/shiminkatudou/13785.html"
+  },
+  "start": {
+    "date": "2026-07-12"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Hanno Civic Activity Center Public Wi-Fi (Hanno Free Wi-Fi) Service Resumed",
+  "updated": "2026-07-12T02:32:02.918Z"
+}

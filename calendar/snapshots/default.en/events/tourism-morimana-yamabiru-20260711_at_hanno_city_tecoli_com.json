@@ -1,0 +1,35 @@
+{
+  "created": "2026-07-12T02:31:47.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 16:00–19:30\n\nAutomated translation (refer to source for accuracy)\n\nHanno Ecotourism Association: https://hanno-tourism.jp/hanno-eco/tour/morimana-yamabiru/\n\nWhile leeches have a reputation for sucking blood, only a handful of leech species actually feed on human blood. This time, learn about the ecology of the mountain leech (yamabiru), a bloodsucking creature found nearby, and discover the connections it has with other living things. Through observation, uncover hidden charm and get close to its mysterious way of life!\n\n【Admission Fee】\nAdults: ¥6,000\nStudents: ¥5,000\nPreschool children: ¥3,000\n(Includes guide fee, insurance, materials, etc.)\n\n【Capacity】10 people\n\n【Guide】Mori no Field Gakusha (森のフィールド学舎) staff\n\n【What to Bring】Drinking water, flashlight, magnifying glass, gloves (work gloves, etc.), rain gear, light snacks (if needed)\n\n【Notes】Mori no Field Gakusha website: https://morinomanabiya168.wixsite.com/website",
+  "end": {
+    "date": "2026-07-12"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFyYmZlOWttcW9iZWM0bW5pb2JkYzVoNmlzamw1a3AzMGNobTYwcmoyY2EwZDFnbXNyamY1cGhtaXQzcDVwcTZhb3JmZGhraXNvcmZkayBkOTE5M2NmNWY2NDRhYjQxYTI4ZTIyNjhhOThhYmM1YWE0MjZiZDJkNTc3MTUyODM0MjQ0YWQ2OWEzMWY1YTY4QGc",
+  "iCalUID": "tourism-morimana-yamabiru-20260711@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqrbfe9kmqobec4mniobdc5h6isjl5kp30chm60rj2ca0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "location": "集合 国際興業バス「茶内」バス停前",
+  "organizer": {
+    "displayName": "Myはんのう（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/morimana-yamabiru/"
+  },
+  "start": {
+    "date": "2026-07-11"
+  },
+  "status": "confirmed",
+  "summary": "The Strange Life of the Peculiar Bloodsucking Creature: the Mountain Leech",
+  "updated": "2026-07-12T02:31:47.786Z"
+}

@@ -1,0 +1,34 @@
+{
+  "created": "2026-07-12T02:31:51.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n�新 New (Published: July 1, 2026)\n\nPedestrians and drivers alike—follow traffic rules and help prevent traffic accidents.\n\nSummer Traffic Safety Campaign (Reiwa 8)\n\nCampaign Period: July 15–24, 2026 (10 days)\n\nUnified Action Day: Friday, July 17, 2026 — \"Zero Traffic Fatalities Day\"\n\nSlogan: People, cars, bicycles—safe and secure, Saitama\n\nCampaign Focus\n\n• Prevention of traffic accidents involving children and seniors\n\n• Promoting compliance with bicycle traffic rules and helmet use\n\n• Promoting speed reduction measures on residential roads\n\nFor details, see the Saitama Prefecture website below.\n\nSummer Traffic Safety Campaign (Reiwa 8) (Opens in new window)\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/10881.html",
+  "end": {
+    "date": "2026-07-13"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2MHMzZ2M5ZDZrcDNpY2I1Y2QwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-10881-5291ec@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h60s3gc9d6kp3icb5cd06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/10881.html"
+  },
+  "start": {
+    "date": "2026-07-12"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Summer Traffic Safety Campaign (Reiwa 8)",
+  "updated": "2026-07-12T02:31:51.827Z"
+}

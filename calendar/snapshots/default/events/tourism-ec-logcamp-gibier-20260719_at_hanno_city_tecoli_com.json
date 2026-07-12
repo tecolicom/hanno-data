@@ -1,0 +1,35 @@
+{
+  "created": "2026-07-12T02:15:31.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 08:00–15:20\n\n飯能エコツーリズム協会: https://hanno-tourism.jp/hanno-eco/tour/ec-logcamp-gibier/\n\n飯能産の捕獲した鹿の解体から、ジビエ料理を食べるところまでの体験ツアーです。山間地域の課題である獣害対策の中でいただく山の恵みを感謝しながらいただきます。解体施設ムジカを見学し、鳥獣被害対策の現状を学び、ジビエレストラン・ログキャンプで、美味しいジビエを味わいます。\n\n【利用料金】一人7,500円 （ガイド料、食事代、保険代）\n\n【定員】8名\n\n【ガイド】佐藤 好則（特定非営利活動法人 crew-L）\n\n【持ち物】電車代、軍手、汚れてもいい服、歩きやすい靴",
+  "end": {
+    "date": "2026-07-20"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bG02dXByM2M1bW4wYmI3ZDVoNmlwYmk1a3AzMGNobTYwcmoyZWEwZDFnbXNyamY1cGhtaXQzcDVwcTZhb3JmZGhraXNvcmZkayAyMDU0MDNjOTcxZGM1ZWYyMWVmZDgxYzFkNTM4NDljYWRmZDkwMWI3NWM3N2Q4ODk1NWQ5NjAwZjQ1ZjJhMDEzQGc",
+  "iCalUID": "tourism-ec-logcamp-gibier-20260719@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqpb35lm6upr3c5mn0bb7d5h6ipbi5kp30chm60rj2ea0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "location": "集合 西武池袋線「飯能駅」改札口",
+  "organizer": {
+    "displayName": "Myはんのう",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-logcamp-gibier/"
+  },
+  "start": {
+    "date": "2026-07-19"
+  },
+  "status": "confirmed",
+  "summary": "飯能のジビエを学ぶ！いただく命に感謝するツアー",
+  "updated": "2026-07-12T02:15:31.674Z"
+}

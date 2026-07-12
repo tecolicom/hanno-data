@@ -1,0 +1,35 @@
+{
+  "created": "2026-07-12T02:31:45.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 18:30–20:30\n\nAutomated translation (refer to source for accuracy)\n\nHanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ikimionobu-hotaru/\n\nExplore the valley forests of Tenranzan, where beautiful rural and semi-natural landscapes remain. A professional guide will lead you safely through the nighttime forest—a path you rarely get to walk—explaining what you see along the way. Experience the presence of fireflies and other nocturnal creatures. This is a short, easy tour perfect for a casual outing. Everyone is welcome to join.\n\n【Fee】\n¥2,500 per person; ¥2,000 for returning visitors; ¥5,000 per family (includes guide and insurance)\n\n【Capacity】\n12 people\n\n【Guide】\nTsubasa Kojima (Hanno City Eco-Tourism Citizen Guides Association, Wildlife Section)\n\n【What to bring】\nFlashlight (headlamp if possible), drinking water, rain gear, backpack or similar (something that keeps both hands free is best), towel, insect repellent spray",
+  "end": {
+    "date": "2026-07-12"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFxYmJkNW1taXJyZWR0aDdhYmI4ZHRxNjJzamw1a3AzMGNobTYwcmoyY2EwZDFnbXNyamY1cGhtaXQzcDVwcTZhb3JmZGhraXNvcmZkayBkOTE5M2NmNWY2NDRhYjQxYTI4ZTIyNjhhOThhYmM1YWE0MjZiZDJkNTc3MTUyODM0MjQ0YWQ2OWEzMWY1YTY4QGc",
+  "iCalUID": "tourism-ikimionobu-hotaru-20260711@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqqbbd5mmirredth7abb8dtq62sjl5kp30chm60rj2ca0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "location": "集合 飯能市中央公園トイレ前（国際興業バス「OH!!!・天覧山下」下車徒歩1分）",
+  "organizer": {
+    "displayName": "Myはんのう（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ikimionobu-hotaru/"
+  },
+  "start": {
+    "date": "2026-07-11"
+  },
+  "status": "confirmed",
+  "summary": "Easy Firefly Watching Tour",
+  "updated": "2026-07-12T02:31:46.297Z"
+}

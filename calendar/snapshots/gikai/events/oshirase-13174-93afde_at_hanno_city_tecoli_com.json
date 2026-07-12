@@ -1,0 +1,34 @@
+{
+  "created": "2026-07-12T02:14:59.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🔄 内容更新 (公開日: 2026-07-10)\n\nAI による要約 (正確な情報は元記事をご確認ください)\n\n飯能市クリーンセンターの夏休み親子施設見学会を開催します。\n\n対象：市内在住の小学生と保護者（未就学児の同伴可）\n\n日時：\n・7月23日（木曜日）午前10時～11時30分 受付終了\n・7月29日（水曜日）午前10時～11時30分 受付中【追加開催】\n\n場所：飯能市クリーンセンター（下畑768-1）駐車場有\n\n内容：施設裏側の探検と保冷剤を使った工作教室\n\n定員：15組程度（申込順）\n\n申込：7月9日（木曜日）～7月22日（水曜日）正午まで、電話またはメール(clean@city.hanno.lg.jp)で受付。以下をお知らせください。・お子様と保護者のお名前・お子様の学校名・学年・ご連絡先\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/cleancenter/13174.html",
+  "end": {
+    "date": "2026-07-13"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y29qZWQxZDc0cG0ycGo0Y2wwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSA2NzQ1OTE0YjI0MzIzMTEyYTE1ZjQzZGMyMGIzYTBmNGE0ODE3YWZkODAwYzhkMTY4N2QwYmYwYjdmODkwYzYxQGc",
+  "iCalUID": "oshirase-13174-93afde@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6cojed1d74pm2pj4cl06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/cleancenter/13174.html"
+  },
+  "start": {
+    "date": "2026-07-12"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 夏休み親子施設見学会",
+  "updated": "2026-07-12T02:14:59.989Z"
+}

@@ -1,0 +1,34 @@
+{
+  "created": "2026-07-12T02:32:08.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nNew posting (published July 2, 2026)\n\nSummary by AI (please check the original article for accurate details)\n\nSpecial measures are being implemented for how Reiwa 8 long-term care insurance premiums are calculated, to match the tax reform from Reiwa 7 that raised the salary income deduction (from 550,000 yen to 650,000 yen).\n\nEligible people are those who have resident registration in Hanno City on both January 1 and April 1 of Reiwa 8, earned salary income of 551,000 yen or more but under 1,900,000 yen in Reiwa 7, and are Category 1 insured persons (age 65 and older) or members of their household.\n\nUnder the special measures, the salary income deduction amount is adjusted to the pre-reform level, and based on this, the total income and municipal tax taxable/non-taxable status are determined. As a result, even if you are non-taxable for resident tax, you may be treated as taxable for long-term care insurance premium calculation.\n\nIf you were non-taxable for municipal tax in both Reiwa 7 and Reiwa 8, and the special measures cause you to be treated as taxable, an automatic special exemption will be applied so your insurance premium tier becomes the same as if you did not receive the special measure. No application is needed—the amount shown on your payment notice is already the reduced amount after the exemption is applied.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/hokenryou/13810.html",
+  "end": {
+    "date": "2026-07-13"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3MzMmMxZGNncWppZGoxNnQwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-13810-d596a7@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6cs32c1dcgqjidj16t06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/hokenryou/13810.html"
+  },
+  "start": {
+    "date": "2026-07-12"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Special measures for Reiwa 8 (2026) long-term care insurance premiums",
+  "updated": "2026-07-12T02:32:08.522Z"
+}
