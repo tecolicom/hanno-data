@@ -1,0 +1,23 @@
+uid: "shicho-blog-13872-68b310@hanno.city.tecoli.com"
+summary: "📝 市長：特定非営利活動法人ぬくもり福祉会たんぽぽ 令和8年度通常総会"
+url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202606/13872.html"
+dtstart: "2026-07-12"
+dtend: "2026-07-12"
+description: |-
+  📝 市長ブログ更新 (公開日: 2026-06-21)
+  
+  6月21日（日曜日）、マロウドイン飯能にて開催された、「特定非営利活動法人ぬくもり福祉会たんぽぽ 令和8年度通常総会」にお招きいただき、ご挨拶させていただきました。
+  
+  市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202606/13872.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-shicho-blog
+  id: "13872"
+  url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202606/13872.html"
+  fetched_at: "2026-07-12T02:11:19.945710Z"
+  content_hash: "sha256-68b310e328a7759f"
+  publish_date: "2026-06-21"

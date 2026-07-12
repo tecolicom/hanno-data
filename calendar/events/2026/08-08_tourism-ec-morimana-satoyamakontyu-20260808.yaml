@@ -1,0 +1,32 @@
+uid: "tourism-ec-morimana-satoyamakontyu-20260808@hanno.city.tecoli.com"
+summary: "自由研究in里山！トラップを使って昆虫の生息場所を知ろう！"
+location: "集合 飯能市立博物館前（国際興業バス「OH!!!・天覧山下」または「市民会館・博物館」下車徒歩3分"
+url: "https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-satoyamakontyu/"
+dtstart: "2026-08-08T17:00:00+09:00"
+dtend: "2026-08-08T20:00:00+09:00"
+description: |-
+  飯能エコツーリズム協会: https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-satoyamakontyu/
+  
+  夏休み！自然！自由研究！ でも、研究ってどうやるの？ そんな夏休みの宿題、自由研究をモリマナスタッフといっしょに進めましょう！ 生きものや研究に興味がある方大歓迎です。さまざまなトラップでの捕獲や昆虫の標本作り、協力して調査マップ作りを行います。里山の豊かな環境で、未知の探求へ一歩踏み出しましょう！
+  
+  【利用料金】大人8,000円、学生6,000円、未就学児4,000円 （ガイド料、保険、資料代）
+  
+  【定員】15名
+  
+  【ガイド】森のフィールド学舎スタッフ
+  
+  【持ち物】飲み物、ライト、雨具、手袋、虫よけスプレー、虫捕り網、昼食（2日目）
+  
+  【備考】森のフィールド学舎HP https://morinomanabiya168.wixsite.com/website
+
+render:
+  gcal:
+    mode: single-allday
+    time_marker: "17:00–20:00"
+
+source:
+  type: hanno-tourism-jp
+  id: "ec-morimana-satoyamakontyu"
+  url: "https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-satoyamakontyu/"
+  fetched_at: "2026-07-12T02:10:33.924744Z"
+  content_hash: "sha256-22af58f9f24c2dc8"

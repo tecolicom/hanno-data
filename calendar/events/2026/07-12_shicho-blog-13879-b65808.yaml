@@ -1,0 +1,23 @@
+uid: "shicho-blog-13879-b65808@hanno.city.tecoli.com"
+summary: "📝 市長：令和8年度飯能市赤十字奉仕団総会"
+url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202606/13879.html"
+dtstart: "2026-07-12"
+dtend: "2026-07-12"
+description: |-
+  📝 市長ブログ更新 (公開日: 2026-06-30)
+  
+  6月30日（火曜日）、総合福祉センターにて開催された令和8年度飯能市赤十字奉仕団総会にお招きいただき、ご挨拶させていただきました。
+  
+  市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202606/13879.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-shicho-blog
+  id: "13879"
+  url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202606/13879.html"
+  fetched_at: "2026-07-12T02:11:18.970520Z"
+  content_hash: "sha256-b65808266f7f8766"
+  publish_date: "2026-06-30"

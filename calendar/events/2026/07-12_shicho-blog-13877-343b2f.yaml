@@ -1,0 +1,23 @@
+uid: "shicho-blog-13877-343b2f@hanno.city.tecoli.com"
+summary: "📝 市長：シルバー人材センター令和8年度定時総会"
+url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202606/13877.html"
+dtstart: "2026-07-12"
+dtend: "2026-07-12"
+description: |-
+  📝 市長ブログ更新 (公開日: 2026-06-25)
+  
+  6月25日（木曜日）、総合福祉センターにて開催された公益社団法人飯能市シルバー人材センターの令和8年度定時総会にお招きいただき、出席してまいりました。
+  
+  市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202606/13877.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-shicho-blog
+  id: "13877"
+  url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202606/13877.html"
+  fetched_at: "2026-07-12T02:11:20.475633Z"
+  content_hash: "sha256-343b2f3d34f279cf"
+  publish_date: "2026-06-25"

@@ -1,0 +1,32 @@
+uid: "tourism-ec-morimana-pukapuka-20260801@hanno.city.tecoli.com"
+summary: "入間川ぷかぷか大作戦！〜リバーフロートで川の生きもの観察〜"
+location: "集合 リバランタハンノウ（飯能市飯能275 国際興業バス「市民会館・博物館」下車徒歩3分）"
+url: "https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-pukapuka/"
+dtstart: "2026-08-01T10:00:00+09:00"
+dtend: "2026-08-01T14:00:00+09:00"
+description: |-
+  飯能エコツーリズム協会: https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-pukapuka/
+  
+  入間川でリバーフロート体験！ このツアーではリバーフロートに乗ってのんびりと川を下りながら、生きものたちを観察していきます。さらに、川の中の生きものたちを捕まえたり、魚釣りをしたりと川遊び盛りだくさんな内容です。楽しさあり、学びありのモリマナ×リバーフロートで特別な季節を過ごしませんか？
+  
+  【利用料金】大人6,000円、学生5,000円、未就学児3,000円 （ガイド料、保険、資料代等）
+  
+  【定員】各日15名
+  
+  【ガイド】森のフィールド学舎スタッフ
+  
+  【持ち物】飲み物、着替え、帽子、昼食（あれば水網、観察ケース）
+  
+  【備考】森のフィールド学舎HP https://morinomanabiya168.wixsite.com/website
+
+render:
+  gcal:
+    mode: single-allday
+    time_marker: "10:00–14:00"
+
+source:
+  type: hanno-tourism-jp
+  id: "ec-morimana-pukapuka"
+  url: "https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-pukapuka/"
+  fetched_at: "2026-07-12T02:10:31.467218Z"
+  content_hash: "sha256-c3ebfee392596562"

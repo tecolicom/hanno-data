@@ -1,0 +1,40 @@
+uid: "oshirase-13809-5bc363@hanno.city.tecoli.com"
+summary: "ℹ️ 事業者間マッチング支援について"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/13809.html"
+dtstart: "2026-07-12"
+dtend: "2026-07-12"
+description: |-
+  🆕 新着掲載 (公開日: 2026-07-02)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  飯能市包括施設管理業務に係る民間提案制度への参加を希望する事業者間のマッチング支援を実施します。
+  
+  施設管理のノウハウを有する事業者と、エネルギー・広告・収益事業・市有資産活用など様々な分野の事業者との連携により、より付加価値の高い提案の創出を目指しています。
+  
+  対象：包括施設管理業務の代表事業者として提案参加を検討している事業者、またはB提案（収益事業、エネルギー事業、市有資産活用等）に関するノウハウを有し代表事業者との連携を希望する事業者
+  
+  申込期限：令和8年8月4日
+  
+  申込方法：所定の申込書を電子メール（kanzai@city.hanno.lg.jp）で提出してください
+  
+  共有する情報：事業者の同意を得た場合に限り、事業者名、所在地、担当者名及び連絡先、主な事業内容、提案希望分野、主な実績、連携希望内容などを共有します
+  
+  市は事業者間の連携成立、提案採択または契約成立を保証するものではなく、事業者間の交渉内容や提案内容に関して一切責任を負いません
+  
+  問い合わせ先：飯能市総合政策部資産経営課 電話042-973-2111（内線282）
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/13809.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13809"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/13809.html"
+  fetched_at: "2026-07-12T02:12:00.138031Z"
+  content_hash: "sha256-5bc3631d7c1e7110"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-07-02"

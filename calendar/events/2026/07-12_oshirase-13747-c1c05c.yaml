@@ -1,0 +1,52 @@
+uid: "oshirase-13747-c1c05c@hanno.city.tecoli.com"
+summary: "ℹ️ 飯能市使用済みマンホールふたの販売のご案内"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/gesuidoka/hanbai/13747.html"
+dtstart: "2026-07-12"
+dtend: "2026-07-12"
+description: |-
+  🆕 新着掲載 (公開日: 2026-07-09)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  飯能市では、下水道への理解促進を目的として、使用済みマンホールふたを販売します。
+  
+  【販売内容】
+  販売枚数：2枚
+  販売価格：3,300円/枚（税込）
+  仕様：直径約65センチメートル、重さ約50キログラム。実際に使用していたもので、キズ・サビ・汚れがあり、平らな場所に置いても安定しません。
+  
+  【申込方法】
+  「飯能市使用済みマンホールふた購入申込書兼誓約書」に必要事項を記入し、メール又は持参でお申込みください。個人・法人問わず申込可能ですが、申込者1人につき申込書1枚（第2希望まで記入可能）です。
+  
+  【申込期間】
+  令和8年7月1日（水曜日）から令和8年7月29日（水曜日）まで
+  ・メール必着：7月29日（水曜日）
+  ・持参受付：月～金午前9時～午後4時30分（祝日除く）
+  
+  【申込先】
+  飯能市役所2階下水道課
+  〒357-8501 埼玉県飯能市大字双柳1番地の1
+  メール：gesui@city.hanno.lg.jp
+  
+  複数申込みがあった場合は抽選にて購入者を決定します。購入決定者には令和8年8月5日（水曜日）頃に販売決定通知書を発送予定です。
+  
+  【引渡し】
+  令和8年8月10日（月曜日）～8月31日（月曜日）
+  午前9時30分～午後4時00分（土日祝日除く）
+  飯能市浄化センター（埼玉県飯能市征矢町31－17）
+  購入者が搬出・積み込みを行い、引渡し時に現金で代金を支払います。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/gesuidoka/hanbai/13747.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13747"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/gesuidoka/hanbai/13747.html"
+  fetched_at: "2026-07-12T02:11:39.309364Z"
+  content_hash: "sha256-c1c05c155b29457f"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-07-09"

@@ -1,0 +1,30 @@
+uid: "tourism-ec-shogakuji-spring-20260822@hanno.city.tecoli.com"
+summary: "禅寺で修行体験（坐禅・法話・写経・精進料理・修行体験）"
+location: "集合 正覚寺 飯能市上名栗2326（国際興業バス「名郷」下車徒歩1分）"
+url: "https://hanno-tourism.jp/hanno-eco/tour/ec-shogakuji-spring/"
+dtstart: "2026-08-22T10:30:00+09:00"
+dtend: "2026-08-22T14:30:00+09:00"
+description: |-
+  飯能エコツーリズム協会: https://hanno-tourism.jp/hanno-eco/tour/ec-shogakuji-spring/
+  
+  飯能の自然の中、川の音、風の音、鳥たちのさえずりを聞きながらの曹洞宗認可参禅道場の正覚寺での坐禅を中心とした修行体験です。昼食は修行僧が本山で使用する応量器で動物性の食材を一切使用しない精進料理を召し上がっていただきます。また、一文字一文字心を込めて般若心経を写していただく写経も体験していただきます。
+  
+  【利用料金】一人7,000円 （ガイド、昼食、写経、保険）
+  
+  【定員】20名
+  
+  【ガイド】石井早苗（正覚寺）
+  
+  【持ち物】タオル、坐禅がしやすい長ズボンを着用、もしくは持参
+
+render:
+  gcal:
+    mode: single-allday
+    time_marker: "10:30–14:30"
+
+source:
+  type: hanno-tourism-jp
+  id: "ec-shogakuji-spring"
+  url: "https://hanno-tourism.jp/hanno-eco/tour/ec-shogakuji-spring/"
+  fetched_at: "2026-07-12T02:10:22.394978Z"
+  content_hash: "sha256-4cb437c10189bb9f"

@@ -1,0 +1,52 @@
+uid: "oshirase-7837-c6a9ef@hanno.city.tecoli.com"
+summary: "ℹ️ 交通死亡事故多発警報の発令について"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/7837.html"
+dtstart: "2026-07-12"
+dtend: "2026-07-12"
+description: |-
+  🆕 新着掲載 (公開日: 2026-07-10)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  埼玉県内で令和8年6月29日から7月3日までの5日間に5件の交通死亡事故が発生したため、交通死亡事故多発警報を発令します。
+  
+  【発令期間】
+  令和8年7月5日から7月14日までの10日間
+  
+  【事故の特徴】
+  ・二輪車の方の死亡事故が2件
+  ・午前中の発生が3件
+  
+  【歩行者への呼びかけ】
+  ・横断歩道や歩道橋を利用
+  ・道路を渡る際は左右確認、手を上げるハンドサインで横断意思を伝える
+  ・夕暮れ・夜間・早朝は反射材やライト、明るい服を着用
+  
+  【ドライバーへの呼びかけ】
+  ・法定速度遵守、十分な車間距離
+  ・横断歩道は歩行者優先、思いやりのある運転
+  ・特に右側からの横断に注意（死亡事故の約7割が車両右側からの横断）
+  ・歩行者・自転車の近くは安全な間隔・速度で走行
+  ・高齢者に対しては思いやりの気持ちで運転
+  ・夕暮れ時は早めに前照灯点灯
+  ・夜間はハイビームを適正に使用
+  ・右折時は対向車・横断歩道・自転車に注意
+  ・左折時は巻き込み防止を確認
+  
+  【二輪車利用者へ】
+  プロテクター着用を心掛け、安全運転に努めてください。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/7837.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "7837"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/7837.html"
+  fetched_at: "2026-07-12T02:11:29.593195Z"
+  content_hash: "sha256-c6a9ef784e8a4070"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-07-10"

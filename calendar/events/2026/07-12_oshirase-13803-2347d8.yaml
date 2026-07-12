@@ -1,0 +1,34 @@
+uid: "oshirase-13803-2347d8@hanno.city.tecoli.com"
+summary: "ℹ️ 合併特例債について"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kinkyuuzaiseitaisaku/13803.html"
+dtstart: "2026-07-12"
+dtend: "2026-07-12"
+description: |-
+  🆕 新着掲載 (公開日: 2026-07-03)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  平成17年1月1日の旧飯能市と旧名栗村の合併に伴い、合併特例債（事業費の最大95％まで借入可能で、元利償還金の70％を国が交付税で負担する地方債）を活用しました。
+  
+  区画整理事業、道路・橋りょう整備、図書館建設、市役所・学校耐震補強工事など、市内各所の重要事業に充当しています。
+  
+  ・起債総額：114億8,720万円
+  ・元利償還金総額：124億5,090万9,560円（元金114億8,720万円、利子9億6,370万9,560円）
+  ・完済予定：令和13年度
+  
+  現在、借入時の計画通りに返済を進めています。詳細な事業一覧および償還計画表は添付ファイルをご覧ください。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kinkyuuzaiseitaisaku/13803.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13803"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kinkyuuzaiseitaisaku/13803.html"
+  fetched_at: "2026-07-12T02:11:52.394119Z"
+  content_hash: "sha256-2347d8a8ad85fa92"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-07-03"

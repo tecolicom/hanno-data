@@ -1,23 +1,22 @@
-uid: "shiminkaikan-20260820-01@hanno.city.tecoli.com"
-summary: "飯能地区安全運転管理者等法定講習"
-location: "飯能市民会館 大ホール"
+uid: "shiminkaikan-20260819-01@hanno.city.tecoli.com"
+summary: "ホールでグランドピアノを弾いてみませんか"
+location: "飯能市民会館 小ホール"
 url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html"
-dtstart: "2026-08-20T09:45:00+09:00"
-dtend: "2026-08-20T11:45:00+09:00"
+dtstart: "2026-08-19"
+dtend: "2026-08-19"
 description: |-
   飯能市民会館: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html
   
-  【会場】大ホール
-  【主催】飯能地区安全運転管理者協会
+  【会場】小ホール
+  【主催】市民会館
 
 render:
   gcal:
     mode: single-allday
-    time_marker: "09:45–11:45"
 
 source:
   type: city-hanno-shiminkaikan
-  id: "20260820-01"
+  id: "20260819-01"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html"
-  fetched_at: "2026-07-12T02:10:38.929316Z"
+  fetched_at: "2026-07-12T02:10:38.928972Z"
   content_hash: "sha256-8b9150ff13e45040"

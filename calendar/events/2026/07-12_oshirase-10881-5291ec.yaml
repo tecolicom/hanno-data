@@ -1,0 +1,44 @@
+uid: "oshirase-10881-5291ec@hanno.city.tecoli.com"
+summary: "ℹ️ 令和8年夏の交通事故防止運動を実施します"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/10881.html"
+dtstart: "2026-07-12"
+dtend: "2026-07-12"
+description: |-
+  🆕 新着掲載 (公開日: 2026-07-01)
+  
+  歩行者も運転者も、交通ルールを守って交通事故をなくしましょう。
+  
+  ## 令和8年夏の交通事故防止運動
+  
+  実施期間       令和8年7月15日(水曜日)から7月24日(金曜日)までの10日間
+  
+  統一行動日    7月17日（金曜日）交通事故死ゼロを目指す日
+  
+  スローガン    人も車も自転車も 安心・安全 埼玉県
+  
+  運動重点
+  
+  	こどもと高齢者の交通事故防止
+  
+  	自転車の交通ルール遵守とヘルメット着用促進
+  
+  	生活道路における速度抑制対策の推進
+  
+  詳細につきましては、下記の埼玉県ホームページをご覧ください。
+  
+  令和8年夏の交通事故防止運動を実施します（別ウインドウで開きます）
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/10881.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "10881"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/10881.html"
+  fetched_at: "2026-07-12T02:12:04.469718Z"
+  content_hash: "sha256-5291eca2c60abc9c"
+  summary_method: "full"
+  publish_date: "2026-07-01"

@@ -1,0 +1,47 @@
+uid: "oshirase-11951-074e7c@hanno.city.tecoli.com"
+summary: "ℹ️ 第19回ベートーヴェン交響曲第九番演奏会≪合唱付≫合唱団員募集"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/11951.html"
+dtstart: "2026-07-12"
+dtend: "2026-07-12"
+description: |-
+  🆕 新着掲載 (公開日: 2026-06-30)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  12月20日（日曜日）開催の第19回ベートーヴェン交響曲第九番演奏会（合唱付）の合唱団員を募集します。合唱経験がなくても参加できます。
+  
+  【練習日程】
+  10月14日から12月16日までの毎週水曜日19時から21時、飯能市市民会館
+  
+  【講師】
+  合唱指導：石塚幹信氏、練習ピアニスト：高田真生氏
+  
+  【料金】
+  一般20,000円（演奏会・練習参加費、S席チケット3枚含む）
+  中学生・高校生3,000円（演奏会・練習参加費）
+  練習参加費は10月14日以降の初参加時に受付で支払い
+  
+  【申し込み】
+  10月2日（金曜日）までに、住所・氏名（ふりがな）・性別・電話番号・メールアドレス・パート名・第九の合唱経験の有無・身長（靴の高さ含む）・高校生以下は学校名・楽譜購入希望の有無を記入し、ファクスまたはメールで申し込み
+  
+  飯能市ベートーヴェン交響曲第九番演奏会実行委員会（細田）
+  電話：042-974-8574 ファクス：042-974-8574
+  メール：mieko-k@xpost.plala.or.jp
+  
+  【合唱経験者向け事前練習】
+  9月9日（水曜日）ソプラノ・アルト対象、9月16日（水曜日）テナー・バス対象、9月23日・30日・10月7日（水曜日）全パート対象、いずれも19時から21時、市民会館。申し込みは9月1日（火曜日）までに電話で（申込書に「参加」と記入した方は不要）。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/11951.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "11951"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/11951.html"
+  fetched_at: "2026-07-12T02:12:13.026912Z"
+  content_hash: "sha256-074e7c2086eb8172"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-06-30"

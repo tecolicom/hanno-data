@@ -1,0 +1,32 @@
+uid: "tourism-ec-morimana-natsunomushi-20260719@hanno.city.tecoli.com"
+summary: "飛んで灯に入る夏の虫〜ライトトラップで昆虫を観察しよう〜"
+location: "集合 飯能市立博物館前（国際興業バス「OH!!!・天覧山下」または「市民会館・博物館」下車徒歩3分"
+url: "https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-natsunomushi/"
+dtstart: "2026-07-19T17:00:00+09:00"
+dtend: "2026-07-19T20:00:00+09:00"
+description: |-
+  飯能エコツーリズム協会: https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-natsunomushi/
+  
+  「飛んで火にいる夏の虫」ということわざがありますが、夜の灯りには人気者から全く知られていない種類まで、多種多様な昆虫が集まります。飯能市の豊かな里山の中でライトトラップを行い、のんびりと昆虫たちを観察していきます。飯能にいる昆虫以外の野生動物と出会えるかも！？ 夜の生きものの不思議な生態を学んでいきましょう！
+  
+  【利用料金】大人6,000円、学生5,000円、未就学児3,000円 （ガイド料、保険、資料代）
+  
+  【定員】15名
+  
+  【ガイド】森のフィールド学舎スタッフ
+  
+  【持ち物】飲み物、ライト、雨具、手袋、虫よけスプレー、ノート、筆記用具
+  
+  【備考】森のフィールド学舎HP https://morinomanabiya168.wixsite.com/website
+
+render:
+  gcal:
+    mode: single-allday
+    time_marker: "17:00–20:00"
+
+source:
+  type: hanno-tourism-jp
+  id: "ec-morimana-natsunomushi"
+  url: "https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-natsunomushi/"
+  fetched_at: "2026-07-12T02:10:28.420973Z"
+  content_hash: "sha256-03801988868b7cc0"

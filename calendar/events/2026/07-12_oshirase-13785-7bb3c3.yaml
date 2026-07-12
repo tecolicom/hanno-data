@@ -1,0 +1,32 @@
+uid: "oshirase-13785-7bb3c3@hanno.city.tecoli.com"
+summary: "ℹ️ 飯能市市民活動センター 公衆無線LAN（Hanno Free Wi-Fi）について"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jitishinkoka/shiminkatudou/13785.html"
+dtstart: "2026-07-12"
+dtend: "2026-07-12"
+description: |-
+  🆕 新着掲載 (公開日: 2026-07-01)
+  
+  ## 公衆無線LAN（Hanno Free Wi-Fi）の利用を再開します
+  
+  令和8年3月31日で利用終了しておりました飯能市市民活動センター内の公衆無線LAN（Hanno Free Wi-Fi）の利用を再開しました。
+  
+  利用再開日  令和8年7月1日
+  
+  接続方法や利用上の注意事項については、下記リンクよりご確認ください。
+  
+  公衆無線LAN(HannoFreeWi-Fi)について
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jitishinkoka/shiminkatudou/13785.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13785"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jitishinkoka/shiminkatudou/13785.html"
+  fetched_at: "2026-07-12T02:12:03.832742Z"
+  content_hash: "sha256-7bb3c3fb8f36ea76"
+  summary_method: "full"
+  publish_date: "2026-07-01"

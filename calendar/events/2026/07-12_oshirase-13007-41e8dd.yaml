@@ -1,0 +1,43 @@
+uid: "oshirase-13007-41e8dd@hanno.city.tecoli.com"
+summary: "ℹ️ 飯能市役所職員採用説明会（対面・WEB）を開催します！"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/shokuinka/13007.html"
+dtstart: "2026-07-12"
+dtend: "2026-07-12"
+description: |-
+  🆕 新着掲載 (公開日: 2026-07-08)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  飯能市役所職員採用説明会を対面とWEBの2形式で開催します。
+  
+  【対面形式】
+  日時：令和8年8月7日（金曜日）14時30分から16時30分まで
+  場所：飯能市役所本庁舎別館2階 会議室
+  内容：市役所の仕事内容・勤務条件・待遇・採用試験について、先輩社員との座談会あり
+  定員：30人程度（先着順、受験資格のある方を優先）
+  申込受付：令和8年7月6日（月曜日）8時30分から令和8年8月3日（月曜日）17時00分まで
+  申込方法：「対面形式採用説明会」からお申し込み。申込完了後、当日は直接会場へ
+  
+  【WEB形式（Zoom）】
+  日時：令和8年7月31日（金曜日）15時30分から16時45分まで
+  内容：自宅や学校から参加可能
+  定員：30人程度（先着順、受験資格のある方を優先）
+  申込受付：令和8年7月6日（月曜日）8時30分から令和8年7月27日（月曜日）17時00分まで
+  申込方法：「WEB形式採用説明会」からお申し込み。申込期間終了後にメールアドレスへミーティングID等をお知らせ
+  
+  対象者は飯能市役所応募希望の学生、転職希望者。服装自由。どちらの形式選択による選考への有利・不利なし。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/shokuinka/13007.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13007"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/shokuinka/13007.html"
+  fetched_at: "2026-07-12T02:11:43.446824Z"
+  content_hash: "sha256-41e8ddbe60ce6d80"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-07-08"

@@ -1,0 +1,32 @@
+uid: "tourism-cockroach-20260829@hanno.city.tecoli.com"
+summary: "ゴキブリあついぜ！"
+location: "集合 飯能市立博物館前（国際興業バス「OH!!!・天覧山下」または「市民会館・博物館」下車徒歩3分"
+url: "https://hanno-tourism.jp/hanno-eco/tour/cockroach/"
+dtstart: "2026-08-29T16:30:00+09:00"
+dtend: "2026-08-29T20:00:00+09:00"
+description: |-
+  飯能エコツーリズム協会: https://hanno-tourism.jp/hanno-eco/tour/cockroach/
+  
+  暑い夏はゴキブリもアツい！ 身近な嫌われ者のゴキブリ。しかし、そんな彼らが自然では重要な存在であることを知っていますか？ ゴキブリの役割や生態を知ってみると、家で出会ったときの見方がちょっぴり変わるかもしれません。ゴキブリ好きのお兄さんたちと一緒にゴキブリの意外な一面を探しに行きましょう。
+  
+  【利用料金】大人6,000円、学生5,000円、未就学児3,000円 （ガイド料、保険、資料代）
+  
+  【定員】15名
+  
+  【ガイド】森のフィールド学舎スタッフ
+  
+  【持ち物】飲み物、ライト、雨具、手袋
+  
+  【備考】森のフィールド学舎HP https://morinomanabiya168.wixsite.com/website
+
+render:
+  gcal:
+    mode: single-allday
+    time_marker: "16:30–20:00"
+
+source:
+  type: hanno-tourism-jp
+  id: "cockroach"
+  url: "https://hanno-tourism.jp/hanno-eco/tour/cockroach/"
+  fetched_at: "2026-07-12T02:10:37.484696Z"
+  content_hash: "sha256-cc301abf987c2fb7"
