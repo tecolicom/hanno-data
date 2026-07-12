@@ -32,3 +32,28 @@ source:
   content_hash: "sha256-2347d8a8ad85fa92"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-07-03"
+translations:
+  en:
+    summary: "ℹ️ About Merger Special Bonds"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      �新 New (Posted: July 3, 2026)
+      
+      AI Summary (please check the original article for accurate details)
+      
+      Following the January 1, 2006 merger of the former Hanno City and former Nago Village, we used merger special bonds (local bonds that allow borrowing up to 95% of project costs, with the national government covering 70% of principal and interest repayment through local allocation tax) to fund important projects throughout the city.
+      
+      These bonds were used for land readjustment projects, road and bridge construction, library building, city hall and school earthquake-proofing work, and other key infrastructure.
+      
+      • Total bonds issued: ¥11.487 billion
+      • Total principal and interest repayment: ¥12.450909 billion (Principal: ¥11.487 billion, Interest: ¥963.709 million)
+      • Scheduled repayment completion: Fiscal Year 2031 (Reiwa 13)
+      
+      We are currently making repayments according to the original plan. See the attached files for a detailed list of projects and the repayment schedule.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kinkyuuzaiseitaisaku/13803.html
+    translation_hash: "sha256-908ee184a8fb2da2"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-12T02:27:01.294103Z"
+    format_version: 3

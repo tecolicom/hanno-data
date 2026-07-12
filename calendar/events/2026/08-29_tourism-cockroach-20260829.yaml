@@ -30,3 +30,32 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/cockroach/"
   fetched_at: "2026-07-12T02:10:37.484696Z"
   content_hash: "sha256-cc301abf987c2fb7"
+translations:
+  en:
+    summary: "🦟 Cockroaches are hot this summer!"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/cockroach/
+      
+      Cockroaches get a bad rap, but did you know they play an important role in nature? Join cockroach-loving guides to discover the surprising side of these everyday creatures. Once you understand their role and how they live, you might see them differently when you encounter one at home.
+      
+      【Fee】
+      Adults: ¥6,000 | Students: ¥5,000 | Preschool: ¥3,000
+      (Includes guide, insurance, materials)
+      
+      【Capacity】
+      15 people
+      
+      【Guide】
+      Mori no Field Gakusha staff
+      
+      【What to bring】
+      Drink, flashlight, rain gear, gloves
+      
+      【More information】
+      Mori no Field Gakusha website: https://morinomanabiya168.wixsite.com/website
+    translation_hash: "sha256-3c1946026d99317c"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-12T02:29:02.010903Z"
+    format_version: 3

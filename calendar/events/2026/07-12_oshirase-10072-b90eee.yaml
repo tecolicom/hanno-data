@@ -41,3 +41,35 @@ source:
   content_hash: "sha256-b90eeea50c4ff11d"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-06-25"
+translations:
+  en:
+    summary: "ℹ️ Minka-tsu Summer 2026"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Content updated (June 25, 2026)
+      
+      On Sunday, August 2, 2026 (Reiwa 8), 10:30 a.m.–4:00 p.m., "Minka-tsu Summer 2026" will be held at Hanno City Civic Activity Center.
+      
+      【Multipurpose Hall • Reservation required • Free】
+      • Yakult Healthy Stomach Class: 11:00–11:40 a.m.
+      • Tai Chi Experience: 1:30–2:30 p.m.
+      • Chair Exercises & Gentle Strength Training Experience: 2:40–3:30 p.m.
+      For workshop participants: wear comfortable clothing and shoes, bring a face towel and a drink. Sign up by phone (978-7551) with the Civic Activity Center between July 10 (Friday) and July 25 (Saturday).
+      
+      【Gallery • No reservation needed • Free】10:30 a.m.–3:30 p.m.
+      Health checks (body composition, blood pressure, bone density, grip strength), nutrition consultation, food-related exhibits and workshops.
+      
+      【Community Square • No reservation needed • Material fee required】10:30 a.m.–3:30 p.m.
+      Pressed flower artwork (100–500 yen), reed blind coasters and tapestry making (100 yen), eco-craft small storage boxes (500 yen), bargain sales, baked goods and handcraft sales.
+      
+      【Meeting Room • No reservation needed • Free】
+      Picture book storytelling sessions: morning 11:00 a.m.–12:00 p.m., afternoon 2:00–3:00 p.m.
+      
+      Separately, on Saturday, August 8, 2026, at 1:30 p.m. in the Multipurpose Hall, the "13th Foreign Residents Japanese Speech Presentation" will be held. Attendance is open to all.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jitishinkoka/shiminkatudou/10072.html
+    translation_hash: "sha256-9653263142ad6753"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-12T02:26:14.509321Z"
+    format_version: 3

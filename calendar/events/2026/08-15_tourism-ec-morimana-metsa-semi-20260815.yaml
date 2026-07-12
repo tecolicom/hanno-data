@@ -30,3 +30,34 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-metsa-semi/"
   fetched_at: "2026-07-12T02:10:36.417069Z"
   content_hash: "sha256-76f83c5461495b06"
+translations:
+  en:
+    summary: "Summer free-research project: Evening cicada observation at Metsä Village"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-metsa-semi/
+      
+      A cicada-filled day at Metsä Village! During daylight hours, you'll do fieldwork to observe the holes where cicadas emerge and collect shed shells to make specimens. Once it gets dark, you'll watch cicadas emerge from their shells in real time. Learn all about cicadas—how many species there are, how they live, and more—in a fun, hands-on tour. Perfect for a summer free-research project!
+      
+      【Fee】
+      Adults: ¥6,000
+      Students: ¥5,000
+      Preschool children: ¥3,000
+      (Includes guide fee, insurance, materials, etc.)
+      
+      【Capacity】
+      15 people
+      
+      【Guide】
+      Mori no Field Gakusha (Forest Field Learning Center) staff
+      
+      【What to bring】
+      Drink, light snacks, work gloves, writing materials, rain gear, insect repellent spray
+      
+      【More information】
+      Mori no Field Gakusha: https://morinomanabiya168.wixsite.com/website
+    translation_hash: "sha256-ab9740d59798f901"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-12T02:28:34.097393Z"
+    format_version: 3

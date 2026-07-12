@@ -18,3 +18,26 @@ description: |-
 render:
   gcal:
     mode: span-allday
+translations:
+  en:
+    summary: "Myはんのう v1.55.1"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      v1.55.1
+      
+      ⛅ Weather display now more resilient to external outages — If the weather data source experiences problems, the app continues to display the most recently retrieved data. (This addresses the issue where weather could not be displayed temporarily on July 3.)
+      
+      v1.55.0
+      
+      Shop QR code workflow has been improved.
+      
+      📱 After scanning a shop QR code, you are guided to the home page — Scan a shop card's QR code to automatically "support" the shop. You'll see a "Added to supported shops" confirmation, and tapping OK takes you to the home page. The supported shop's events appear on your calendar right away.
+      
+      ⭐ Fixed issue where supported shops would disappear when logged out — Previously, shops you supported while logged out would disappear after logging back in on the same browser. This bug has been fixed.
+      
+      🗑 Hidaka City trash collection calendar in preparation — Some implementation work is in progress. Please wait a little longer for the official release.
+    translation_hash: "sha256-74cd8ab86c0fcc76"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-12T02:25:34.378345Z"
+    format_version: 3

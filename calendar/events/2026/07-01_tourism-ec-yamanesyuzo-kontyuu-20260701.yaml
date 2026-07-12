@@ -30,3 +30,26 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-yamanesyuzo-kontyuu/"
   fetched_at: "2026-07-12T02:10:20.229840Z"
   content_hash: "sha256-11feeb7e53e7342f"
+translations:
+  en:
+    summary: "Insect observation in Hanno: light trap & fruit trap methods"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Ecotourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-yamanesyuzo-kontyuu/
+      
+      This is an eco-tour where you can experience the natural habitats of insects living in Hanno City and discover the richness of nature and biodiversity here. Participants will also explore the ecology of visiting insects together with the guide. Tours run on dates requested in advance.
+      
+      【Fee】Adults ¥3,000, elementary school children and younger ¥1,000 (includes guide and insurance)
+      
+      【Capacity】20 people
+      
+      【Guide】Yamane Brewery Co., Ltd. staff
+      
+      【What to bring】Water bottle, sweat towel, flashlight, comfortable clothes suitable for outdoor work
+      
+      【Notes】Yamane Brewery Co., Ltd. website: https://yamaneshuzo.jp/
+    translation_hash: "sha256-a84f75f9af6850ab"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-12T02:25:31.052569Z"
+    format_version: 3

@@ -30,3 +30,26 @@ source:
   content_hash: "sha256-d596a75963a49525"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-07-02"
+translations:
+  en:
+    summary: "ℹ️ Special measures for Reiwa 8 (2026) long-term care insurance premiums"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      New posting (published July 2, 2026)
+      
+      Summary by AI (please check the original article for accurate details)
+      
+      Special measures are being implemented for how Reiwa 8 long-term care insurance premiums are calculated, to match the tax reform from Reiwa 7 that raised the salary income deduction (from 550,000 yen to 650,000 yen).
+      
+      Eligible people are those who have resident registration in Hanno City on both January 1 and April 1 of Reiwa 8, earned salary income of 551,000 yen or more but under 1,900,000 yen in Reiwa 7, and are Category 1 insured persons (age 65 and older) or members of their household.
+      
+      Under the special measures, the salary income deduction amount is adjusted to the pre-reform level, and based on this, the total income and municipal tax taxable/non-taxable status are determined. As a result, even if you are non-taxable for resident tax, you may be treated as taxable for long-term care insurance premium calculation.
+      
+      If you were non-taxable for municipal tax in both Reiwa 7 and Reiwa 8, and the special measures cause you to be treated as taxable, an automatic special exemption will be applied so your insurance premium tier becomes the same as if you did not receive the special measure. No application is needed—the amount shown on your payment notice is already the reduced amount after the exemption is applied.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/hokenryou/13810.html
+    translation_hash: "sha256-8a016960548206cb"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-12T02:27:14.225704Z"
+    format_version: 3

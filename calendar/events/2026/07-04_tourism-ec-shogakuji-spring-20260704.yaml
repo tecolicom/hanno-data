@@ -28,3 +28,28 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-shogakuji-spring/"
   fetched_at: "2026-07-12T02:10:22.394777Z"
   content_hash: "sha256-4cb437c10189bb9f"
+translations:
+  en:
+    summary: "Zen temple training experience (zazen meditation, dharma talk, sutra copying, vegetarian meal, practice)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Ecotourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-shogakuji-spring/
+      
+      Experience Zen training centered on zazen (sitting meditation) at Shogakuji, a Soto Zen-authorized meditation hall, surrounded by Hanno's nature—listening to the sound of the river, wind, and bird song. Lunch is a vegetarian meal prepared with no animal products, served in the bowls monks use at the main temple. You will also experience sutra copying (shakyo), carefully writing the Heart Sutra character by character with mindfulness.
+      
+      【Fee】
+      ¥7,000 per person (includes guide, lunch, sutra copying, insurance)
+      
+      【Capacity】
+      20 people
+      
+      【Guide】
+      Shii Sanae (Shogakuji)
+      
+      【What to bring】
+      Towel, long pants comfortable for sitting meditation (or bring a pair to change into)
+    translation_hash: "sha256-d70ffb7402598192"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-12T02:25:43.111088Z"
+    format_version: 3

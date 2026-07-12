@@ -28,3 +28,24 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-logcamp-gibier/"
   fetched_at: "2026-07-12T02:10:25.840150Z"
   content_hash: "sha256-50fc6c6a1e66e576"
+translations:
+  en:
+    summary: "Learn about Hanno's wild game (gibier)! A tour expressing gratitude for the lives we take"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-logcamp-gibier/
+      
+      This is an experience tour from butchering locally caught deer to enjoying gibier cuisine. In the context of wildlife damage control—a challenge in mountain communities—we learn to be grateful for the mountain's bounty. You will tour the Musica butchering facility, learn about the current state of wildlife damage prevention, and enjoy delicious game dishes at Gibier Restaurant Log Camp.
+      
+      【Fee】7,500 yen per person (includes guide, meal, and insurance)
+      
+      【Capacity】8 people
+      
+      【Guide】Yoshinori Sato (Specified Nonprofit Organization crew-L)
+      
+      【What to bring】Train fare, work gloves, clothes you don't mind getting dirty, comfortable walking shoes
+    translation_hash: "sha256-a26a22d8b8093e1d"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-12T02:28:59.272748Z"
+    format_version: 3

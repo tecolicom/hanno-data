@@ -30,3 +30,28 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-natsunomushi/"
   fetched_at: "2026-07-12T02:10:28.420973Z"
   content_hash: "sha256-03801988868b7cc0"
+translations:
+  en:
+    summary: "Summer insects drawn to light — observe insects with a light trap"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Ecotourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-natsunomushi/
+      
+      There's an old saying about summer insects drawn to flames, and night lights really do attract a surprising variety of insects — from popular species to kinds hardly anyone knows about. We'll set up light traps in Hanno's rich satoyama (semi-natural grassland) and take a leisurely look at the insects that gather. You might even spot other wildlife besides insects! Come learn about the fascinating ecology of creatures active at night.
+      
+      【Fee】
+      Adults: ¥6,000 | Students: ¥5,000 | Preschool children: ¥3,000
+      (includes guide, insurance, and materials)
+      
+      【Capacity】15 people
+      
+      【Guide】Mori no Field Gakusha (Forest Field School) staff
+      
+      【What to bring】Drinks, flashlight, rain gear, gloves, insect repellent spray, notebook, writing materials
+      
+      【More info】Mori no Field Gakusha website: https://morinomanabiya168.wixsite.com/website
+    translation_hash: "sha256-c4c9a8e5ee056feb"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-12T02:27:44.834214Z"
+    format_version: 3

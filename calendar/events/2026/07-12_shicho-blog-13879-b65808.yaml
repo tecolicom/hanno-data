@@ -21,3 +21,18 @@ source:
   fetched_at: "2026-07-12T02:11:18.970520Z"
   content_hash: "sha256-b65808266f7f8766"
   publish_date: "2026-06-30"
+translations:
+  en:
+    summary: "📝 Mayor's remarks: Hanno City Red Cross Volunteer Corps general meeting, fiscal year 2026"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      📝 Mayor's blog update (published: June 30, 2026)
+      
+      On Tuesday, June 30, I was invited to the fiscal year 2026 Hanno City Red Cross Volunteer Corps general meeting held at the Comprehensive Welfare Center, where I offered remarks.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202606/13879.html
+    translation_hash: "sha256-4bd7822e2fb39355"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-12T02:27:28.398262Z"
+    format_version: 3

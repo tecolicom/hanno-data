@@ -30,3 +30,30 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-metsa-hotaru/"
   fetched_at: "2026-07-12T02:10:30.418168Z"
   content_hash: "sha256-f6b90f871f8067f1"
+translations:
+  en:
+    summary: "🌟 Firefly watching at Metsä! Learn about these glowing insects and their habitats."
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-metsa-hotaru/
+      
+      Fireflies (hotaru) are beloved insects in Japan, and watching them light up as they fly through the night is truly magical. This tour goes beyond simple observation—you'll learn about firefly habitats, their life cycles, and how they produce light through both classroom lessons and hands-on field study.
+      
+      【Fee】
+      • Adults: ¥6,000
+      • Students: ¥5,000
+      • Preschool children: ¥3,000
+      (Includes guide, insurance, and materials)
+      
+      【Capacity】15 people
+      
+      【Guide】Mori no Field Manabiya (森のフィールド学舎) staff
+      
+      【What to bring】Writing materials, drinking water, light snacks, handheld flashlight, insect repellent, heat illness prevention supplies
+      
+      【Note】Mori no Field Manabiya website: https://morinomanabiya168.wixsite.com/website
+    translation_hash: "sha256-4b326af5f638ab4e"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-12T02:25:37.483304Z"
+    format_version: 3

@@ -16,3 +16,28 @@ description: |-
 render:
   gcal:
     mode: span-allday
+translations:
+  en:
+    summary: "Myはんのう v1.56.0"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      v1.56.0
+      
+      • 🏙 Now supports Hidaka City — You can now open Hidaka City from the top page. View your daily trash collection schedule (by town name), weather, and services all on one screen
+      
+      • 🗑 Garbage collection dates shown by rule — Hanno and Hidaka city garbage collection calendars now display collection dates in the format "Every month, ◯th ◯day" (irregular items shown as date lists only). Course lists now include the relevant town names
+      
+      • 🚻 Toilet search in Hidaka City — Find public restrooms, convenience stores, and train stations on a map, sorted by distance from your current location
+      
+      • 📍 AED links to national AED map — Replaced the city's own AED page with a direct link to the nationwide AED map (aedm.jp). You can now access it from the services section in all city pages
+      
+      • 🌡 Reference point for weather now shown — Temperature and heat index reference points (near ◯◯ City Hall) are now displayed, with added links to the nearest Ministry of the Environment heat index observation points (Hanno = Ōme, Hidaka = Hatoyama)
+      
+      • Changed Hanno City page header from "Myはんのう" to "Hanno City"
+      
+      • Fixed issue where clock was not updating on general city pages
+    translation_hash: "sha256-94cb4ecab6e6bc26"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-12T02:25:55.858175Z"
+    format_version: 3

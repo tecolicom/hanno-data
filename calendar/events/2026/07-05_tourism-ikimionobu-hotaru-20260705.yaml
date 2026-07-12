@@ -28,3 +28,24 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ikimionobu-hotaru/"
   fetched_at: "2026-07-12T02:10:23.533792Z"
   content_hash: "sha256-e38d7c7d7b6f2d33"
+translations:
+  en:
+    summary: "Easy Firefly Watching Tour in the Evening Forest"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ikimionobu-hotaru/
+      
+      The valley environment of Tenranzan mountain retains beautiful rural landscape and woodland. A professional guide will safely lead you through the forest at night—a path you don't usually get to walk—explaining what you see along the way. Experience the presence of fireflies and other nocturnal creatures. This is a short, easy-to-enjoy tour. Please feel welcome to join.
+      
+      【Fee】¥2,500 per person; ¥2,000 for returning visitors; ¥5,000 per family (includes guide and insurance)
+      
+      【Capacity】12 people
+      
+      【Guide】Tsubasa Kojima (Hanno City Eco-Tourism Citizen Guides Association, Creatures Section)
+      
+      【What to bring】Flashlight (headlamp preferred), drinking water, rain gear, backpack or similar (something that keeps both hands free is best), towel, insect repellent spray
+    translation_hash: "sha256-0e20f93020005588"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-12T02:25:52.275567Z"
+    format_version: 3

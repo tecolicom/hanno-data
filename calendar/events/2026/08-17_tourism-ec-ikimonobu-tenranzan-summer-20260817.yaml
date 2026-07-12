@@ -28,3 +28,24 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-ikimonobu-tenranzan-summer/"
   fetched_at: "2026-07-12T02:10:32.536284Z"
   content_hash: "sha256-846679cfe2b1dab2"
+translations:
+  en:
+    summary: "Easy Evening Tour of Tenranzan Mountain"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-ikimonobu-tenranzan-summer/
+      
+      Walk with a guide and discover the natural changes you might miss on an ordinary stroll. This is a short, easy-to-enjoy tour. Please join us! Depending on the season, you may receive homegrown pesticide-free vegetables as a gift.
+      
+      【Fee】¥2,000 per person; ¥1,500 for repeat visitors; ¥4,000 per family (includes guide and insurance)
+      
+      【Capacity】Up to 10 people per date
+      
+      【Guide】Tsubasa Kojima (Hanno City Eco-Tourism Citizen Guide Association, Wildlife Group)
+      
+      【What to bring】Drinks, rain gear, backpack or similar (something that leaves both hands free is recommended), towel, insect repellent spray
+    translation_hash: "sha256-1bb183b7a813609d"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-12T02:28:43.193793Z"
+    format_version: 3

@@ -41,3 +41,35 @@ source:
   content_hash: "sha256-41e8ddbe60ce6d80"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-07-08"
+translations:
+  en:
+    summary: "ℹ️ Hanno City Hall is holding two staff recruitment information sessions — in-person and online (Zoom)!"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New (Published: July 8, 2026)
+      
+      Hanno City Hall will hold staff recruitment information sessions in two formats: in-person and online.
+      
+      【In-Person Format】
+      Date and time: Friday, August 7, 2026, 2:30 p.m. to 4:30 p.m.
+      Location: Hanno City Hall Main Building Annex, 2F Conference Room
+      Content: Information about city hall work, working conditions, benefits, and the recruitment exam. Includes a roundtable discussion with current employees.
+      Capacity: About 30 people (first come, first served; applicants with eligible qualifications prioritized)
+      Registration period: Monday, July 6, 2026, 8:30 a.m. to Monday, August 3, 2026, 5:00 p.m.
+      How to apply: Apply through the "In-person recruitment information session" link. After completing registration, come directly to the venue on the day.
+      
+      【Online Format (Zoom)】
+      Date and time: Friday, July 31, 2026, 3:30 p.m. to 4:45 p.m.
+      Content: You can join from home or school.
+      Capacity: About 30 people (first come, first served; applicants with eligible qualifications prioritized)
+      Registration period: Monday, July 6, 2026, 8:30 a.m. to Saturday, July 27, 2026, 5:00 p.m.
+      How to apply: Apply through the "Online recruitment information session" link. After the registration period closes, the meeting ID and other details will be sent to your email address.
+      
+      Target audience: Students and career changers interested in applying to Hanno City Hall. Dress code is casual. Choosing either format will not affect your chances in the selection process.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/shokuinka/13007.html
+    translation_hash: "sha256-c42759f23d6e7d7f"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-12T02:26:31.323624Z"
+    format_version: 3

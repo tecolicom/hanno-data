@@ -30,3 +30,26 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-naguricanoe-sup/"
   fetched_at: "2026-07-12T02:10:24.693147Z"
   content_hash: "sha256-1ab8a6fada0bbccf"
+translations:
+  en:
+    summary: "Beginner-friendly SUP experience at Lake Naguri — come as you are for a relaxing eco-tour!"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Lake Naguri SUP experience is a gentle eco-tour that lets you feel the seasonal nature and quiet of the lake throughout your whole body and spirit. Glide slowly across the water while learning about Naguri's ecosystems and natural beauty in an environmentally conscious way.
+      
+      【Fee】4,000 yen per person (includes guide, insurance, SUP board rental, etc.)
+      
+      【Capacity】5 people
+      
+      【Guide】Staff of certified NPO Naguri Canoe Workshop
+      
+      【What to bring】Rash guard, swimsuit, board shorts, surf trunks, trenka leggings, or other clothing that moves freely when wet. *Life jackets are provided.
+      
+      【More information】Certified NPO Naguri Canoe Workshop: https://naguri-canoe.co.jp/
+      
+      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-naguricanoe-sup/
+    translation_hash: "sha256-f2a300bc25c84c7f"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-12T02:27:31.122165Z"
+    format_version: 3

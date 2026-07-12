@@ -14,3 +14,20 @@ description: |-
 render:
   gcal:
     mode: span-allday
+translations:
+  en:
+    summary: "Myはんのう v1.54.0"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      v1.54.0
+      
+      Weather is now available even in cities without a dedicated page.
+      
+      • 🏙 Weather display for any city nationwide — city.tecoli.com/@<municipality>/ now shows weather, heat index, wind, sunrise/sunset times, and moon information for municipalities without a dedicated page
+      • 🕐 Fixed time offset for sunrise, sunset, and moon times — corrected a bug where times were displayed about 9 hours off on certain dates
+      • ⛈ Thunderstorm weather icon now appears — fixed an issue where the icon wasn't displayed on thunderstorm days
+    translation_hash: "sha256-4d6172bc3943b311"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-12T02:25:28.577532Z"
+    format_version: 3

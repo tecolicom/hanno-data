@@ -30,3 +30,26 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-naguricanoe-canoesyokyu/"
   fetched_at: "2026-07-12T02:10:21.380119Z"
   content_hash: "sha256-8f088553fd1b3a83"
+translations:
+  en:
+    summary: "🎉 Canadian Canoe Beginner Lesson at Lake Naguri — Enjoy the Lake at Your Own Pace"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-naguricanoe-canoesyokyu/
+      
+      Canadian canoeing uses a single-blade paddle to glide smoothly across the water — it's an active and dynamic way to paddle. Learn steering techniques and hands-on control while enjoying the experience.
+      
+      【Fee】¥3,000 per person (includes guide, insurance, and canoe rental)
+      
+      【Capacity】5 people
+      
+      【Guide】Staff from Certified NPO Naguri Canoe Workshop
+      
+      【What to bring】Drinking water (vending machine available at the workshop), sun protection such as hats and sunglasses
+      
+      【More information】Certified NPO Naguri Canoe Workshop: https://naguri-canoe.co.jp/
+    translation_hash: "sha256-b20d32c283c8afe8"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-12T02:28:18.121808Z"
+    format_version: 3

@@ -21,3 +21,17 @@ source:
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html"
   fetched_at: "2026-07-12T02:10:38.929536Z"
   content_hash: "sha256-8b9150ff13e45040"
+translations:
+  en:
+    summary: "いなしん ONE MAN LIVE"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Venue: Hanno Civic Hall (大ホール / Main Hall)
+      Organizer: Team Inashin
+      
+      Hanno Civic Hall: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html
+    translation_hash: "sha256-422f44740c543c33"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-12T02:28:55.848196Z"
+    format_version: 3

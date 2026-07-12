@@ -30,3 +30,26 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-satoyamakontyu/"
   fetched_at: "2026-07-12T02:10:33.924744Z"
   content_hash: "sha256-22af58f9f24c2dc8"
+translations:
+  en:
+    summary: "Summer Free Research in the Satoyama: Learn Where Insects Live Using Traps!"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Ecotourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-satoyamakontyu/
+      
+      Summer break! Nature! Free research project! But how do you actually do research? Work through your summer homework and free research project together with Morimana staff! Everyone interested in living things and research is welcome. You'll set various traps to catch insects, make insect specimens, and work together to create survey maps. Take a step into unknown exploration in the rich environment of the satoyama (foothill farmland)!
+      
+      【Fee】Adults ¥8,000 | Students ¥6,000 | Preschoolers ¥4,000 (includes guide, insurance, materials)
+      
+      【Capacity】15 people
+      
+      【Guide】Mori no Field Gakusha (Forest Field Study House) staff
+      
+      【What to bring】Drinks, flashlight, rain gear, gloves, insect repellent spray, insect net, lunch (Day 2)
+      
+      【Note】Forest Field Study House website: https://morinomanabiya168.wixsite.com/website
+    translation_hash: "sha256-6bb12c543bd235e4"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-12T02:28:09.084498Z"
+    format_version: 3

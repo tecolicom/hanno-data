@@ -50,3 +50,44 @@ source:
   content_hash: "sha256-c1c05c155b29457f"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-07-09"
+translations:
+  en:
+    summary: "ℹ️ Hanno City used manhole cover sale notice"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New (Posted: July 9, 2026)
+      
+      Hanno City is selling used manhole covers to promote understanding of sewage systems.
+      
+      【Sale Details】
+      Quantity: 2 covers
+      Price: ¥3,300 per cover (tax included)
+      Specifications: Diameter approx. 65 cm, weight approx. 50 kg. These are actual used covers with scratches, rust, and dirt. They will not sit level on flat ground.
+      
+      【How to Apply】
+      Fill in the "Hanno City Used Manhole Cover Purchase Application and Pledge" form and submit by email or in person. Both individuals and organizations may apply, but each applicant may submit one form (with space for a second choice).
+      
+      【Application Period】
+      July 1, 2026 (Wednesday) – July 29, 2026 (Wednesday)
+      • Email must arrive by: July 29 (Wednesday)
+      • In-person submission: Monday–Friday, 9:00 a.m.–4:30 p.m. (closed holidays)
+      
+      【Where to Apply】
+      Hanno City Hall, 2nd Floor, Sewerage Division
+      〒357-8501 Saitama Prefecture, Hanno City, Oaza Futanayanagi 1-1
+      Email: gesui@city.hanno.lg.jp
+      
+      If multiple applications are received, buyers will be selected by lottery. Those selected to purchase will receive a purchase approval notice around August 5, 2026.
+      
+      【Pickup】
+      August 10, 2026 (Monday) – August 31, 2026 (Monday)
+      9:30 a.m.–4:00 p.m. (closed weekends and holidays)
+      Hanno City Purification Center (31-17 Soya-cho, Hanno City, Saitama)
+      Buyers are responsible for loading and transport. Payment in cash is due at pickup.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/gesuidoka/hanbai/13747.html
+    translation_hash: "sha256-c1c99af37d5141f8"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-12T02:26:54.244654Z"
+    format_version: 3

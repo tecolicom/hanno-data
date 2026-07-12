@@ -30,3 +30,26 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-agano-hotaru/"
   fetched_at: "2026-07-12T02:10:19.087999Z"
   content_hash: "sha256-987ecca704250c9f"
+translations:
+  en:
+    summary: "Walk through Agano post town and view Genji fireflies and kajika frogs in the Koma River"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-agano-hotaru/
+      
+      Come see Genji fireflies dancing over the Koma River and kajika frogs calling with their distinctive high voices (named for their deer-like cry). You'll stroll through the historic streetscape of the old post town and enjoy organic vegetable curry inside a 160-year-old traditional house—a designated Important Architectural Heritage site of Hanno.
+      
+      【Fee】Adults ¥3,000 | Junior high school and under ¥1,500 (includes guide, insurance, dinner)
+      
+      【Capacity】10 people per date
+      
+      【Guide】Yoshishige Okawara (Agano Post Town Revitalization and Agano Story Group)
+      
+      【What to bring】Flashlight, rain gear, water bottle, long sleeves, long pants, comfortable walking shoes
+      
+      【More information】COM Station website: https://aganojuku.jimdofree.com/
+    translation_hash: "sha256-2810fe64e9611be5"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-12T02:25:26.741161Z"
+    format_version: 3

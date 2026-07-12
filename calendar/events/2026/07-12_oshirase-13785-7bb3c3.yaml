@@ -30,3 +30,26 @@ source:
   content_hash: "sha256-7bb3c3fb8f36ea76"
   summary_method: "full"
   publish_date: "2026-07-01"
+translations:
+  en:
+    summary: "ℹ️ Hanno Civic Activity Center Public Wi-Fi (Hanno Free Wi-Fi) Service Resumed"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New Post (Published: July 1, 2026)
+      
+      Public Wi-Fi (Hanno Free Wi-Fi) Service Resumed
+      
+      The public Wi-Fi service (Hanno Free Wi-Fi) at Hanno Civic Activity Center, which ended on March 31, 2026 (Reiwa 8), has resumed operation.
+      
+      Service Resumption Date: July 1, 2026 (Reiwa 8)
+      
+      For connection instructions and usage notes, please check the link below.
+      
+      Public Wi-Fi (Hanno Free Wi-Fi) Details
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jitishinkoka/shiminkatudou/13785.html
+    translation_hash: "sha256-2e4ebe1fc1ac1d97"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-12T02:26:58.069676Z"
+    format_version: 3

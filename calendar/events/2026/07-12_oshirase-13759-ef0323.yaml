@@ -28,3 +28,22 @@ source:
   content_hash: "sha256-ef0323a4c448af98"
   summary_method: "full"
   publish_date: "2026-07-09"
+translations:
+  en:
+    summary: "ℹ️ Kanto Heartland Trail (4) 'Road Remembering Mountain Pass History'—Detour Information"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New (Published: July 9, 2026)
+      
+      Due to trail maintenance work on the Kanto Heartland Trail (4) 'Road Remembering Mountain Pass History', part of the course will be closed to traffic from July 8, 2026 (Wednesday) through August 31, 2026 (Monday) (scheduled).
+      
+      For details on detour routes and other information, please check the Saitama Prefecture Green and Nature Division website.
+      
+      Saitama Prefecture Green and Nature Division
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/kanko/13759.html
+    translation_hash: "sha256-46d13456d20558e0"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-12T02:26:56.173180Z"
+    format_version: 3

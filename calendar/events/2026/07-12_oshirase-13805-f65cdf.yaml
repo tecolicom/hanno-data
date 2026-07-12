@@ -46,3 +46,40 @@ source:
   content_hash: "sha256-f65cdf4a938d5ac1"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-07-03"
+translations:
+  en:
+    summary: "ℹ️ Hanno City calls for private proposals on comprehensive facility management services"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New (posted July 3, 2026)
+      
+      Hanno City Comprehensive Facility Management Private Proposal System – Call for Proposals
+      
+      Hanno City is seeking private-sector proposals for comprehensive facility management services covering Hanno City Hall (main building) and 80 other municipal facilities.
+      
+      【What We're Looking For】
+      Type A Proposal: Suggestions for maintenance inspections, legally required inspections and tests, upkeep, repairs, facility information management, and related services for the target facilities
+      Type B Proposal: Optional value-added proposals for comprehensive facility management (paid parking, advertising, naming rights, energy service contracts, LED upgrades, bulk electricity purchasing, digital transformation, strengthened disaster-response capabilities, etc.)
+      
+      【Schedule】
+      July 2026: Call for proposals opens
+      July–August 2026: Participation declarations and questions accepted; business partner matching support provided
+      August–September 2026: Proposal submissions accepted
+      Late September 2026: Review and evaluation
+      Early October 2026: Evaluation results announced
+      October 2026–March 2027: Detailed negotiations
+      April 1, 2027: Operations begin
+      
+      Through these proposals, the City aims to improve facility management efficiency, reduce financial burden, secure new revenue streams, and enhance municipal services. Implementation guidelines, facility location lists, budget summaries, and other reference materials are posted on the City website, along with proposal consideration support materials.
+      
+      【Contact】
+      Hanno City Strategic Planning Division, Asset Management Section
+      Phone: 042-973-2111 (ext. 282)
+      Email: kanzai@city.hanno.lg.jp
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/13805.html
+    translation_hash: "sha256-a6515541b7250b0b"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-12T02:27:06.177873Z"
+    format_version: 3

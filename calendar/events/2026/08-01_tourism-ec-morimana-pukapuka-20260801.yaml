@@ -30,3 +30,26 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-pukapuka/"
   fetched_at: "2026-07-12T02:10:31.467218Z"
   content_hash: "sha256-c3ebfee392596562"
+translations:
+  en:
+    summary: "Iruma River Pukupuka Operation! 〜 Observe river creatures by river float"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-pukapuka/
+      
+      Experience river floating on the Iruma River! On this tour, you'll ride a river float and drift peacefully downstream while observing the creatures that live there. You'll also have the chance to catch creatures in the river and go fishing — a full day of river activities. Why not spend a special season with Morimana × River Float, packed with fun and learning?
+      
+      【Fee】Adults ¥6,000 / Students ¥5,000 / Preschool children ¥3,000 (includes guide, insurance, materials)
+      
+      【Capacity】15 people per date
+      
+      【Guide】Mori no Field Gakusha (Forest Field Learning House) staff
+      
+      【What to bring】Drinks, change of clothes, hat, lunch (and if available, water net and observation case)
+      
+      【Notes】Mori no Field Gakusha website: https://morinomanabiya168.wixsite.com/website
+    translation_hash: "sha256-f045ba42e71ef695"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-12T02:27:59.568129Z"
+    format_version: 3

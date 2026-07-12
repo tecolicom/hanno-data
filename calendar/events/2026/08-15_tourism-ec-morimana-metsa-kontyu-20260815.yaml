@@ -30,3 +30,28 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-metsa-kontyu/"
   fetched_at: "2026-07-12T02:10:35.246762Z"
   content_hash: "sha256-b2ec5385cd07d650"
+translations:
+  en:
+    summary: "Summer break project: insect specimen-making at Metsä Village"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-metsa-kontyu/
+      
+      Observe insects in their natural setting and learn about insect anatomy, ecology, and plant-animal interactions while making specimens — including invasive species and specimens showing adaptations to danger. Join this tour and become a bug expert to make your summer break even more fun!
+      
+      【Fee】
+      Adults ¥5,000 / Students ¥4,000 / Preschool children ¥2,500
+      (includes guide, insurance, materials)
+      
+      【Capacity】15 people
+      
+      【Guide】Mori no Field Gakusha (Forest Field Learning Institute) staff
+      
+      【What to bring】Drinks, lunch, work gloves, writing materials, rain gear, insect repellent spray
+      
+      【More info】Forest Field Learning Institute website: https://morinomanabiya168.wixsite.com/website
+    translation_hash: "sha256-17468a26312e24d8"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-12T02:28:30.918686Z"
+    format_version: 3

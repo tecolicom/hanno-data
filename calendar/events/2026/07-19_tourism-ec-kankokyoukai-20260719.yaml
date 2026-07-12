@@ -28,3 +28,24 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-kankokyoukai/"
   fetched_at: "2026-07-12T02:10:26.996542Z"
   content_hash: "sha256-87a682427849bd59"
+translations:
+  en:
+    summary: "🎉 Hanno Summer Festival Tour: Join the Bottom-Open Float Procession and Float-Gathering! (Includes Yumema Souvenir)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-kankokyoukai/
+      
+      The bottom-open floats (したぬけ屋台) featured on a TV information show are a signature of Hanno's summer festival. Hanno's "Bottom-Open Float Tradition" is designated as an intangible folk cultural property of the city. Join locals in the procession and see all eight towns' bottom-open floats gather at the float-meeting (引き合わせ) event. Enjoy the festival with fun commentary from a festival expert and a special Yumema (飯能のイメージキャラクター) keychain—a tour the whole family can enjoy!
+      
+      【Fee】¥3,000 per person; ¥2,000 for elementary school children and under (includes guide fee, insurance, light refreshments, and gratuities)
+      
+      【Capacity】10 people
+      
+      【Guide】Shigekazu Otsuki (Tsuguni Shinwaka-kai), staff of Oku-Musashi Hanno Tourism Association; Cooperation: Ni-chome Town Association
+      
+      【What to bring】Drinking water, sweat towel
+    translation_hash: "sha256-0cd7c8469e84bc51"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-12T02:27:38.426722Z"
+    format_version: 3

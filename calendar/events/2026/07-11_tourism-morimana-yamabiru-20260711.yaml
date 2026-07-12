@@ -30,3 +30,30 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/morimana-yamabiru/"
   fetched_at: "2026-07-12T02:10:29.484871Z"
   content_hash: "sha256-2657e04ab0affcd0"
+translations:
+  en:
+    summary: "The Strange Life of the Peculiar Bloodsucking Creature: the Mountain Leech"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Ecotourism Association: https://hanno-tourism.jp/hanno-eco/tour/morimana-yamabiru/
+      
+      While leeches have a reputation for sucking blood, only a handful of leech species actually feed on human blood. This time, learn about the ecology of the mountain leech (yamabiru), a bloodsucking creature found nearby, and discover the connections it has with other living things. Through observation, uncover hidden charm and get close to its mysterious way of life!
+      
+      【Admission Fee】
+      Adults: ¥6,000
+      Students: ¥5,000
+      Preschool children: ¥3,000
+      (Includes guide fee, insurance, materials, etc.)
+      
+      【Capacity】10 people
+      
+      【Guide】Mori no Field Gakusha (森のフィールド学舎) staff
+      
+      【What to Bring】Drinking water, flashlight, magnifying glass, gloves (work gloves, etc.), rain gear, light snacks (if needed)
+      
+      【Notes】Mori no Field Gakusha website: https://morinomanabiya168.wixsite.com/website
+    translation_hash: "sha256-340806335c846362"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-12T02:26:09.705483Z"
+    format_version: 3

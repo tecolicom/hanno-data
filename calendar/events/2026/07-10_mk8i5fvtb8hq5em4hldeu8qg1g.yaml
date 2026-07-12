@@ -17,3 +17,30 @@ description: |-
 render:
   gcal:
     mode: span-allday
+translations:
+  en:
+    summary: "Myはんのう v1.57.0"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      v1.57.0
+      
+      • 🏙 Top page is now everyone's entry point — In addition to "Supported Cities", you can now search for and add any city in Japan from "🔍 Find a City" (remove with ✕). Tap a city in your list to go to its page
+      
+      • 🏠 Set a home city — Tap the "🏠 Home" button in your list, or turn on "Make this my home city" in each city page's settings. Next time you open "Machi Tekori", that city will appear first. You can also switch cities between weekends and weekdays
+      
+      • ⬆ Improved navigation back to top — Added a "Machi Tekori" link to the city page header. Breadcrumb navigation for update history, store finder, calendar, and more are now organized from the top
+      
+      • 🏪 "Find a Store" now available for all cities — Use the "🏙 [City Name]" button to search near the city center (near City Hall) in order of distance (bus stop basis is Hanno only)
+      
+      • 📱 Add any city to your home screen — Any city page, including Hidaka, can now be added to your smartphone's home screen and used like an app
+      
+      • 🔗 City page SNS sharing now supported — Title and preview image now appear when sharing
+      
+      • City picker now clearly shows when a prefecture is selected, making it easier to see you've moved on to choosing a city
+      
+      • 404 error page now lets you jump to each city's top page
+    translation_hash: "sha256-952ed996b9f71ccc"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-12T02:26:00.294674Z"
+    format_version: 3

@@ -38,3 +38,40 @@ source:
   content_hash: "sha256-5bc3631d7c1e7110"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-07-02"
+translations:
+  en:
+    summary: "ℹ️ Business-to-business matching support for comprehensive facility management proposals"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New listing (Published: July 2, 2026)
+      
+      Hanno City is offering matching support to help businesses connect for participation in the private proposal system for comprehensive facility management operations.
+      
+      The goal is to create higher-value proposals by connecting facility management expertise with businesses in various fields such as energy, advertising, revenue-generating services, and utilization of city-owned assets.
+      
+      【Who can apply】
+      • Businesses considering submitting proposals as lead contractors for comprehensive facility management operations
+      • Businesses with expertise in Type B proposals (revenue-generating services, energy operations, city-owned asset utilization, etc.) seeking to partner with a lead contractor
+      
+      【Application deadline】
+      August 4, 2026 (Reiwa 8)
+      
+      【How to apply】
+      Submit the application form by email to: kanzai@city.hanno.lg.jp
+      
+      【Information to be shared】
+      With the consent of participating businesses, Hanno City will share: business name, location, contact person name and contact information, main business activities, proposed service areas, main achievements, and desired partnership details.
+      
+      【Important note】
+      Hanno City does not guarantee that business partnerships will be established, that proposals will be selected, or that contracts will be concluded. The city assumes no responsibility for negotiation content or proposal details between businesses.
+      
+      【Contact】
+      Hanno City General Policy Department Asset Management Section
+      Phone: 042-973-2111 (extension 282)
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/13809.html
+    translation_hash: "sha256-05853e007296de14"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-12T02:27:09.981777Z"
+    format_version: 3

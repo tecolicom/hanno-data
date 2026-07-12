@@ -42,3 +42,38 @@ source:
   content_hash: "sha256-5291eca2c60abc9c"
   summary_method: "full"
   publish_date: "2026-07-01"
+translations:
+  en:
+    summary: "ℹ️ Summer Traffic Safety Campaign (Reiwa 8)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      �新 New (Published: July 1, 2026)
+      
+      Pedestrians and drivers alike—follow traffic rules and help prevent traffic accidents.
+      
+      Summer Traffic Safety Campaign (Reiwa 8)
+      
+      Campaign Period: July 15–24, 2026 (10 days)
+      
+      Unified Action Day: Friday, July 17, 2026 — "Zero Traffic Fatalities Day"
+      
+      Slogan: People, cars, bicycles—safe and secure, Saitama
+      
+      Campaign Focus
+      
+      • Prevention of traffic accidents involving children and seniors
+      
+      • Promoting compliance with bicycle traffic rules and helmet use
+      
+      • Promoting speed reduction measures on residential roads
+      
+      For details, see the Saitama Prefecture website below.
+      
+      Summer Traffic Safety Campaign (Reiwa 8) (Opens in new window)
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/10881.html
+    translation_hash: "sha256-9656c28e91c32ff2"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-12T02:26:17.665440Z"
+    format_version: 3

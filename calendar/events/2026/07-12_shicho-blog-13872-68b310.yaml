@@ -21,3 +21,18 @@ source:
   fetched_at: "2026-07-12T02:11:19.945710Z"
   content_hash: "sha256-68b310e328a7759f"
   publish_date: "2026-06-21"
+translations:
+  en:
+    summary: "📝 Mayor's Blog: NPO Nukumori Welfare Association Tanpopo 2026 Annual General Meeting"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      📝 Mayor's Blog Update (Published: June 21, 2026)
+      
+      On Sunday, June 21 (Reiwa 8), I was invited to and gave remarks at the 2026 Annual General Meeting of NPO Nukumori Welfare Association Tanpopo (特定非営利活動法人ぬくもり福祉会たんぽぽ), held at Marroad Inn Hanno.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202606/13872.html
+    translation_hash: "sha256-3032d78ff228856c"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-12T02:27:24.739443Z"
+    format_version: 3

@@ -50,3 +50,46 @@ source:
   content_hash: "sha256-c6a9ef784e8a4070"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-07-10"
+translations:
+  en:
+    summary: "ℹ️ Traffic fatality alert issued for Saitama Prefecture (July 5–14, 2026, Reiwa 8)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      �새 New (published July 10, 2026, Reiwa 8)
+      
+      AI summary (please check the original article for precise information)
+      
+      Saitama Prefecture has issued a traffic fatality alert after 5 fatal accidents occurred over 5 days (June 29–July 3, 2026, Reiwa 8).
+      
+      【Alert Period】
+      July 5–14, 2026 (Reiwa 8) — 10 days
+      
+      【Characteristics of the accidents】
+      • 2 deaths involved motorcycle riders
+      • 3 accidents occurred in the morning
+      
+      【Message to pedestrians】
+      • Use crosswalks and pedestrian overpasses
+      • Look both ways before crossing; signal your intent with a hand gesture
+      • During dusk, night, and early morning, wear reflective materials, use lights, and wear bright clothing
+      
+      【Message to drivers】
+      • Obey the speed limit and maintain safe following distance
+      • Pedestrians have priority at crosswalks; drive with consideration
+      • Pay special attention to pedestrians crossing from the right side of your vehicle (about 70% of fatal accidents involve crossing from the vehicle's right side)
+      • When near pedestrians or cyclists, maintain safe distance and speed
+      • Drive with care and consideration toward elderly people
+      • Turn on headlights early at dusk
+      • Use high beams appropriately at night
+      • When turning right, watch for oncoming traffic, crosswalks, and cyclists
+      • When turning left, check for vehicles that might be swept into the turn
+      
+      【Message to motorcycle riders】
+      Wear protective gear and practice safe riding.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/7837.html
+    translation_hash: "sha256-4d6054b96f1f5291"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-12T02:27:21.374830Z"
+    format_version: 3
