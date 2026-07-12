@@ -23,6 +23,8 @@ import re
 import urllib.error
 import urllib.request
 from datetime import date as _date
+from datetime import datetime, timedelta, timezone
+from email.utils import parsedate_to_datetime
 
 
 # ==================== 定数 ====================
@@ -122,6 +124,33 @@ def save_http_cache(cache: dict, path: str = HTTP_CACHE_PATH) -> None:
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
         json.dump(cache, f, ensure_ascii=False, sort_keys=True, indent=2)
+
+
+_JST = timezone(timedelta(hours=9))
+
+
+def last_modified_to_jst_date(header: str | None) -> str | None:
+    """HTTP Last-Modified (RFC 1123, GMT) を JST の 'YYYY-MM-DD' に。解釈不能なら None."""
+    if not header:
+        return None
+    try:
+        dt = parsedate_to_datetime(header)
+    except (TypeError, ValueError):
+        return None
+    if dt is None:
+        return None
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    return dt.astimezone(_JST).strftime("%Y-%m-%d")
+
+
+def dtstart_from_last_modified(header: str | None, fallback_date: str) -> str:
+    """掲載日 = Last-Modified(JST) + 1 日。取れなければ fallback_date をそのまま返す."""
+    jst = last_modified_to_jst_date(header)
+    if jst is None:
+        return fallback_date
+    d = datetime.strptime(jst, "%Y-%m-%d").date() + timedelta(days=1)
+    return d.strftime("%Y-%m-%d")
 
 
 # ==================== HTML / テキスト正規化 ====================
