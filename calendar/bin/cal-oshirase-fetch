@@ -47,6 +47,7 @@ from _lib import (
     yaml_escape_str, yaml_block_scalar, strip_html, normalize_body,
     strip_markdown, AI_DISCLAIMER_JP,
     output_path_for, find_existing_by_uid, load_source_config,
+    load_http_cache, save_http_cache, fetch_with_cache, dtstart_from_last_modified,
 )
 
 JST = timezone(timedelta(hours=9))
@@ -402,6 +403,7 @@ def main() -> None:
         existing_page_ids = {pid for (pid, _) in existing_hashes}
 
     today_jst = datetime.now(JST).strftime("%Y-%m-%d")
+    http_cache = load_http_cache()
 
     written = 0
     skipped = 0
@@ -421,12 +423,18 @@ def main() -> None:
             uid = None  # incremental: hash 計算後に決定
             existing_path = None
 
-        # 記事 fetch → body 抽出 + method 判定 (LLM 呼出はまだ)
+        # 記事取得: 記録済み Last-Modified/ETag で条件付き GET。304 は未更新 → skip。
+        entry = http_cache.get(it["url"], {})
         try:
-            article_html = fetch(it["url"])
+            article_html, etag, lm = fetch_with_cache(
+                it["url"], entry.get("etag"), entry.get("last_modified"))
         except Exception as e:
             print(f"  ERROR fetching {it['url']}: {e}", file=sys.stderr)
             continue
+        if article_html is None:   # 304 Not Modified
+            unchanged += 1
+            continue
+        http_cache[it["url"]] = {"etag": etag, "last_modified": lm}
         body = extract_body(article_html)
         if not body or len(body) < MIN_BODY_CHARS:
             method = "url-only"
@@ -480,7 +488,8 @@ def main() -> None:
                 unchanged += 1
                 continue
             uid = f"{args.uid_prefix}-{it['page_id']}-{content_hash[:6]}@{UID_NAMESPACE}"
-            dtstart = today_jst                  # 今日 JST
+            dtstart = dtstart_from_last_modified(
+                http_cache.get(it["url"], {}).get("last_modified"), today_jst)
             publish_date = it["date"]            # dc:date を保持
             # status: 同 page_id に既存 YAML 無し → 新規 / 既存あり → 内容更新
             if it["page_id"] in existing_page_ids:
@@ -513,6 +522,8 @@ def main() -> None:
         verb = "UPDATED" if existing_path else "WROTE"
         print(f"  {verb} [{method}] {out_path}", file=sys.stderr)
         written += 1
+
+    save_http_cache(http_cache)
 
     mode_label = "once-per-page" if args.once_per_page else "incremental"
     print(f"Done [{mode_label}]. items written={written}  unchanged={unchanged}  skipped (existing)={skipped}",
