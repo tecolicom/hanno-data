@@ -40,3 +40,34 @@ source:
   content_hash: "sha256-5fbb5ee7a42f4dd9"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-06-18"
+translations:
+  en:
+    summary: "ℹ️ Hanno City Museum Summer Kids History Class: \"Find Your Favorite and Make It! Museum 'Favorite' Postcard\""
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content Update (Published: June 18, 2026)
+      
+      At Hanno City Museum's Summer Kids History Class, children will solve mystery games to find their "favorite" exhibit piece and create an original postcard.
+      
+      【Date and Time】July 23, 2026 (Thursday, Reiwa 8) 10:00 a.m.–12:00 p.m. (Reception starts at 9:45 a.m.)
+      
+      【Venue】Hanno City Museum (Learning & Training Room, History Exhibition Room)
+      
+      【Who Can Attend】Elementary school students (parent/guardian accompaniment welcome)
+      
+      【Capacity】10 participants (selected by lottery)
+      
+      【Fee】Free
+      
+      【What to Bring】Writing supplies (pencil, colored pencils if you have them), water bottle
+      
+      【How to Apply】Apply online by Monday, July 13, 2026. Lottery results will be sent by Wednesday, July 15 via online application or email.
+      
+      You can take your finished postcard home as a souvenir. A "favorite introduction sheet" created from a copy of your postcard will be displayed in the exhibition room.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/tenji_moyooshimono/13540.html
+    translation_hash: "sha256-398b8e08006f076d"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-12T02:58:51.548921Z"
+    format_version: 3
