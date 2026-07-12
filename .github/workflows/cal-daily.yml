@@ -75,17 +75,19 @@ jobs:
 
       # ===== ソース別 crawler を順番に実行 (それぞれ events/ に書き込み) =====
 
+      # 各クローラは独立。1 つ失敗しても他は走らせる (失敗ソース名を記録し、
+      # ジョブ末尾の "Report crawler failures" でまとめて赤にする)。
       - name: Crawl hanno-tourism
-        run: ./calendar/bin/cal-tourism-fetch --out-dir calendar/events --min-sessions 5
+        run: ./calendar/bin/cal-tourism-fetch --out-dir calendar/events --min-sessions 5 || echo "hanno-tourism" >> "$RUNNER_TEMP/crawl-failures.txt"
 
       - name: Crawl city-hanno-shiminkaikan
-        run: ./calendar/bin/cal-shiminkaikan-fetch --out-dir calendar/events --min-events 3
+        run: ./calendar/bin/cal-shiminkaikan-fetch --out-dir calendar/events --min-events 3 || echo "city-hanno-shiminkaikan" >> "$RUNNER_TEMP/crawl-failures.txt"
 
       - name: Crawl city-hanno-gikai
-        run: ./calendar/bin/cal-gikai-fetch --out-dir calendar/events --min-events 0
+        run: ./calendar/bin/cal-gikai-fetch --out-dir calendar/events --min-events 0 || echo "city-hanno-gikai" >> "$RUNNER_TEMP/crawl-failures.txt"
 
       - name: Crawl city-hanno-shicho-blog
-        run: ./calendar/bin/cal-shicho-blog-fetch --out-dir calendar/events --min-articles 0
+        run: ./calendar/bin/cal-shicho-blog-fetch --out-dir calendar/events --min-articles 0 || echo "city-hanno-shicho-blog" >> "$RUNNER_TEMP/crawl-failures.txt"
 
       - name: Crawl city-hanno-oshirase
         # ANTHROPIC_API_KEY が無いと 400 字超本文の method が 'llm-haiku-4-5' から
@@ -94,7 +96,7 @@ jobs:
         # 同じ method を使うため必須。
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: ./calendar/bin/cal-oshirase-fetch --out-dir calendar/events --min-items 0
+        run: ./calendar/bin/cal-oshirase-fetch --out-dir calendar/events --min-items 0 || echo "city-hanno-oshirase" >> "$RUNNER_TEMP/crawl-failures.txt"
 
       - name: Fetch manual Calendar additions + sync manual edits
         # 手動 event は Calendar UI が canonical。新規追加と既存編集の両方を YAML に取り込む。
@@ -305,14 +307,31 @@ jobs:
             | curl -fsS -X POST -H "Content-Type: application/json" -d @- "$DISCORD_WEBHOOK" \
             || echo "Discord notification failed (non-fatal)"
 
+      # クローラの失敗をここで集約してジョブを赤にする。成功ソースの
+      # commit / Calendar 反映は既に済んでいるので、それらは失われない。
+      - name: Report crawler failures
+        if: always()
+        run: |
+          if [ -f "$RUNNER_TEMP/crawl-failures.txt" ]; then
+            FAILED=$(paste -sd', ' "$RUNNER_TEMP/crawl-failures.txt")
+            echo "::error::失敗したクローラ: $FAILED (他ソースは反映済み)"
+            exit 1
+          fi
+          echo "全クローラ正常"
+
       - name: Notify Discord on failure
         if: failure() && env.DISCORD_WEBHOOK != ''
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_CALENDAR_WEBHOOK }}
         run: |
           URL="https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
-          CONTENT=$(jq -nr --arg u "$URL" \
-            '"⚠️ **Calendar daily 失敗** (要確認)\n\n\($u)"')
+          FAILED=""
+          if [ -f "$RUNNER_TEMP/crawl-failures.txt" ]; then
+            FAILED=$(paste -sd', ' "$RUNNER_TEMP/crawl-failures.txt")
+          fi
+          CONTENT=$(jq -nr --arg u "$URL" --arg f "$FAILED" \
+            'if $f == "" then "⚠️ **Calendar daily 失敗** (要確認)\n\n\($u)"
+             else "⚠️ **Calendar daily 失敗** (要確認)\n失敗クローラ: \($f) (他ソースは反映済み)\n\n\($u)" end')
           jq -n --arg c "$CONTENT" '{content: $c}' \
             | curl -fsS -X POST -H "Content-Type: application/json" -d @- "$DISCORD_WEBHOOK" \
             || true
