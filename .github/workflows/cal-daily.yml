@@ -5,6 +5,11 @@ on:
     - cron: '0 18 * * *'   # 03:00 JST (= 18:00 UTC previous day)
                            # 早朝に走らせて、利用者が朝起きる頃には apply 完了している
   workflow_dispatch:
+    inputs:
+      max_changes:
+        description: 'events 変更の許容上限 (catch-up 時のみ引き上げ。空=既定50)'
+        required: false
+        default: ''
   push:
     branches: [main]
     paths:
@@ -101,11 +106,13 @@ jobs:
       # ===== Safety + commit + Calendar 反映 =====
 
       - name: Safety check (blast radius cap)
+        env:
+          MAX_CHANGES: ${{ github.event.inputs.max_changes || '50' }}
         run: |
           CHANGED=$(git status --porcelain calendar/events | wc -l | tr -d ' ')
-          echo "events/ changed: $CHANGED files"
-          if [ "$CHANGED" -gt 50 ]; then
-            echo "::error::Too many event changes ($CHANGED > 50). Refusing to commit." >&2
+          echo "events/ changed: $CHANGED files (cap: $MAX_CHANGES)"
+          if [ "$CHANGED" -gt "$MAX_CHANGES" ]; then
+            echo "::error::Too many event changes ($CHANGED > $MAX_CHANGES). Refusing to commit." >&2
             git status --short calendar/events | head -60 >&2
             exit 3
           fi
