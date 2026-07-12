@@ -5,7 +5,7 @@
   },
   "description": "Automated translation (refer to source for accuracy)\n\n📝 Mayor's Blog Update (Published: June 19, 2026)\n\nOn Friday, June 19, I was invited to attend and offer remarks at the 20th Annual General Meeting of NPO Aōra, held at the Citizen Activities Center. The organization is marking its 20th anniversary this year.\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202606/13864.html",
   "end": {
-    "date": "2026-07-13"
+    "date": "2026-07-10"
   },
   "eventType": "default",
   "htmlLink": "https://www.google.com/calendar/event?eid=X2VkazZpb3I4ZHNtbTRyM2Zjc21qMmNwbzZvcTJxb3I0YzVqNjJwYTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIGI2ZjM2ZTE5NzUxYzA1Y2NlOTlmYTAwODI4ZTQyOWY0MGY2ZGIxMDBlMmRiZTQ0MmJjMjYyMmEyNWRhOTczMTZAZw",
@@ -20,15 +20,15 @@
   "reminders": {
     "useDefault": false
   },
-  "sequence": 0,
+  "sequence": 1,
   "source": {
     "title": "www.city.hanno.lg.jp",
     "url": "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202606/13864.html"
   },
   "start": {
-    "date": "2026-07-12"
+    "date": "2026-07-09"
   },
   "status": "confirmed",
   "summary": "📝 Mayor: NPO Aōra's 20th Annual General Meeting",
-  "updated": "2026-07-12T02:32:12.731Z"
+  "updated": "2026-07-12T13:59:51.003Z"
 }

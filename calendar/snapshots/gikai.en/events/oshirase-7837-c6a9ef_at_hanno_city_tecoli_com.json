@@ -5,7 +5,7 @@
   },
   "description": "Automated translation (refer to source for accuracy)\n\n�새 New (published July 10, 2026, Reiwa 8)\n\nAI summary (please check the original article for precise information)\n\nSaitama Prefecture has issued a traffic fatality alert after 5 fatal accidents occurred over 5 days (June 29–July 3, 2026, Reiwa 8).\n\n【Alert Period】\nJuly 5–14, 2026 (Reiwa 8) — 10 days\n\n【Characteristics of the accidents】\n• 2 deaths involved motorcycle riders\n• 3 accidents occurred in the morning\n\n【Message to pedestrians】\n• Use crosswalks and pedestrian overpasses\n• Look both ways before crossing; signal your intent with a hand gesture\n• During dusk, night, and early morning, wear reflective materials, use lights, and wear bright clothing\n\n【Message to drivers】\n• Obey the speed limit and maintain safe following distance\n• Pedestrians have priority at crosswalks; drive with consideration\n• Pay special attention to pedestrians crossing from the right side of your vehicle (about 70% of fatal accidents involve crossing from the vehicle's right side)\n• When near pedestrians or cyclists, maintain safe distance and speed\n• Drive with care and consideration toward elderly people\n• Turn on headlights early at dusk\n• Use high beams appropriately at night\n• When turning right, watch for oncoming traffic, crosswalks, and cyclists\n• When turning left, check for vehicles that might be swept into the turn\n\n【Message to motorcycle riders】\nWear protective gear and practice safe riding.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/7837.html",
   "end": {
-    "date": "2026-07-13"
+    "date": "2026-07-12"
   },
   "eventType": "default",
   "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOW43MHBqZWJiMzZwZ2ppcGI2ODFrNjJyamVkc242NnFia2Y0bjc4cGIzZHRtNmliajNkdG1nIGI2ZjM2ZTE5NzUxYzA1Y2NlOTlmYTAwODI4ZTQyOWY0MGY2ZGIxMDBlMmRiZTQ0MmJjMjYyMmEyNWRhOTczMTZAZw",
@@ -20,15 +20,15 @@
   "reminders": {
     "useDefault": false
   },
-  "sequence": 0,
+  "sequence": 1,
   "source": {
     "title": "www.city.hanno.lg.jp",
     "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/7837.html"
   },
   "start": {
-    "date": "2026-07-12"
+    "date": "2026-07-11"
   },
   "status": "confirmed",
   "summary": "ℹ️ Traffic fatality alert issued for Saitama Prefecture (July 5–14, 2026, Reiwa 8)",
-  "updated": "2026-07-12T02:32:11.365Z"
+  "updated": "2026-07-12T14:00:02.715Z"
 }

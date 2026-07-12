@@ -5,7 +5,7 @@
   },
   "description": "Automated translation (refer to source for accuracy)\n\n📝 Mayor's Blog Update (Published: June 25, 2026)\n\nOn Thursday, June 25, I was invited to and attended the FY2026 Regular General Meeting of the Public Interest Incorporated Association Hanno City Silver Human Resources Center, held at the Comprehensive Welfare Center.\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202606/13877.html",
   "end": {
-    "date": "2026-07-13"
+    "date": "2026-07-10"
   },
   "eventType": "default",
   "htmlLink": "https://www.google.com/calendar/event?eid=X2VkazZpb3I4ZHNtbTRyM2Zjc21qMmNwbzZzcmlxY3BrNmRoMzRwaTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIGI2ZjM2ZTE5NzUxYzA1Y2NlOTlmYTAwODI4ZTQyOWY0MGY2ZGIxMDBlMmRiZTQ0MmJjMjYyMmEyNWRhOTczMTZAZw",
@@ -20,15 +20,15 @@
   "reminders": {
     "useDefault": false
   },
-  "sequence": 0,
+  "sequence": 1,
   "source": {
     "title": "www.city.hanno.lg.jp",
     "url": "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202606/13877.html"
   },
   "start": {
-    "date": "2026-07-12"
+    "date": "2026-07-09"
   },
   "status": "confirmed",
   "summary": "📝 Mayor: Hanno Silver Human Resources Center FY2026 Regular General Meeting",
-  "updated": "2026-07-12T02:32:15.546Z"
+  "updated": "2026-07-12T13:59:54.087Z"
 }

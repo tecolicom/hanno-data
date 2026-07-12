@@ -5,7 +5,7 @@
   },
   "description": "Automated translation (refer to source for accuracy)\n\n📝 Mayor's blog update (published: June 30, 2026)\n\nOn Tuesday, June 30, I was invited to the fiscal year 2026 Hanno City Red Cross Volunteer Corps general meeting held at the Comprehensive Welfare Center, where I offered remarks.\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202606/13879.html",
   "end": {
-    "date": "2026-07-13"
+    "date": "2026-07-10"
   },
   "eventType": "default",
   "htmlLink": "https://www.google.com/calendar/event?eid=X2VkazZpb3I4ZHNtbTRyM2Zjc21qMmNwbzZzc2lxb2htNmtzMzBlMjBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIGI2ZjM2ZTE5NzUxYzA1Y2NlOTlmYTAwODI4ZTQyOWY0MGY2ZGIxMDBlMmRiZTQ0MmJjMjYyMmEyNWRhOTczMTZAZw",
@@ -20,15 +20,15 @@
   "reminders": {
     "useDefault": false
   },
-  "sequence": 0,
+  "sequence": 1,
   "source": {
     "title": "www.city.hanno.lg.jp",
     "url": "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202606/13879.html"
   },
   "start": {
-    "date": "2026-07-12"
+    "date": "2026-07-09"
   },
   "status": "confirmed",
   "summary": "📝 Mayor's remarks: Hanno City Red Cross Volunteer Corps general meeting, fiscal year 2026",
-  "updated": "2026-07-12T02:32:16.935Z"
+  "updated": "2026-07-12T13:59:55.576Z"
 }

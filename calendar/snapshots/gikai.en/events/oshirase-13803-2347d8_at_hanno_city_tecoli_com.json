@@ -5,7 +5,7 @@
   },
   "description": "Automated translation (refer to source for accuracy)\n\n�新 New (Posted: July 3, 2026)\n\nAI Summary (please check the original article for accurate details)\n\nFollowing the January 1, 2006 merger of the former Hanno City and former Nago Village, we used merger special bonds (local bonds that allow borrowing up to 95% of project costs, with the national government covering 70% of principal and interest repayment through local allocation tax) to fund important projects throughout the city.\n\nThese bonds were used for land readjustment projects, road and bridge construction, library building, city hall and school earthquake-proofing work, and other key infrastructure.\n\n• Total bonds issued: ¥11.487 billion\n• Total principal and interest repayment: ¥12.450909 billion (Principal: ¥11.487 billion, Interest: ¥963.709 million)\n• Scheduled repayment completion: Fiscal Year 2031 (Reiwa 13)\n\nWe are currently making repayments according to the original plan. See the attached files for a detailed list of projects and the repayment schedule.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kinkyuuzaiseitaisaku/13803.html",
   "end": {
-    "date": "2026-07-13"
+    "date": "2026-07-09"
   },
   "eventType": "default",
   "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3MzMGNwZDY4cGo4ZHI0NzEwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
@@ -20,15 +20,15 @@
   "reminders": {
     "useDefault": false
   },
-  "sequence": 0,
+  "sequence": 1,
   "source": {
     "title": "www.city.hanno.lg.jp",
     "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kinkyuuzaiseitaisaku/13803.html"
   },
   "start": {
-    "date": "2026-07-12"
+    "date": "2026-07-08"
   },
   "status": "confirmed",
   "summary": "ℹ️ About Merger Special Bonds",
-  "updated": "2026-07-12T02:32:04.340Z"
+  "updated": "2026-07-12T13:59:42.169Z"
 }

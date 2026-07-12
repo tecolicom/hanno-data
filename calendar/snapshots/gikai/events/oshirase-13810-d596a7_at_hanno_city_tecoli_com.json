@@ -5,7 +5,7 @@
   },
   "description": "🆕 新着掲載 (公開日: 2026-07-02)\n\nAI による要約 (正確な情報は元記事をご確認ください)\n\n令和8年度介護保険料の算定方法を、令和7年度税制改正による給与所得控除の引き上げ（55万円から65万円）に対応させるため、特例措置を実施します。\n\n対象者は、令和8年1月1日および4月1日時点で飯能市に住民登録があり、令和7年中の給与収入が55万1000円以上190万円未満の第1号被保険者（65歳以上）およびその世帯の方です。\n\n特例措置では、給与所得控除額を税制改正前の額で調整し、これに基づいて合計所得金額と市町村民税の課税・非課税を判定します。結果として、住民税が非課税でも、介護保険料算定では課税とみなされる場合があります。\n\n令和7年度・令和8年度の両年で市町村民税非課税だった方で、特例措置の適用により課税とみなされる場合は、特例減免を自動適用し、特例措置を受けない場合と同じ保険料段階になるよう調整します。申請は不要で、納入通知書に記載された金額は減免適用後の額です。\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/hokenryou/13810.html",
   "end": {
-    "date": "2026-07-13"
+    "date": "2026-07-09"
   },
   "eventType": "default",
   "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3MzMmMxZGNncWppZGoxNnQwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSA2NzQ1OTE0YjI0MzIzMTEyYTE1ZjQzZGMyMGIzYTBmNGE0ODE3YWZkODAwYzhkMTY4N2QwYmYwYjdmODkwYzYxQGc",
@@ -20,15 +20,15 @@
   "reminders": {
     "useDefault": false
   },
-  "sequence": 0,
+  "sequence": 1,
   "source": {
     "title": "www.city.hanno.lg.jp",
     "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/hokenryou/13810.html"
   },
   "start": {
-    "date": "2026-07-12"
+    "date": "2026-07-08"
   },
   "status": "confirmed",
   "summary": "ℹ️ 令和8年度介護保険料の特例措置について",
-  "updated": "2026-07-12T02:15:16.743Z"
+  "updated": "2026-07-12T13:56:38.034Z"
 }

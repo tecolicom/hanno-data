@@ -5,7 +5,7 @@
   },
   "description": "🆕 新着掲載 (公開日: 2026-07-01)\n\n## 公衆無線LAN（Hanno Free Wi-Fi）の利用を再開します\n\n令和8年3月31日で利用終了しておりました飯能市市民活動センター内の公衆無線LAN（Hanno Free Wi-Fi）の利用を再開しました。\n\n利用再開日  令和8年7月1日\n\n接続方法や利用上の注意事項については、下記リンクよりご確認ください。\n\n公衆無線LAN(HannoFreeWi-Fi)について\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jitishinkoka/shiminkatudou/13785.html",
   "end": {
-    "date": "2026-07-13"
+    "date": "2026-07-09"
   },
   "eventType": "default",
   "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3JqZ2Q5ZDZ0aDY0Y3IzNmQwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSA2NzQ1OTE0YjI0MzIzMTEyYTE1ZjQzZGMyMGIzYTBmNGE0ODE3YWZkODAwYzhkMTY4N2QwYmYwYjdmODkwYzYxQGc",
@@ -20,15 +20,15 @@
   "reminders": {
     "useDefault": false
   },
-  "sequence": 0,
+  "sequence": 1,
   "source": {
     "title": "www.city.hanno.lg.jp",
     "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jitishinkoka/shiminkatudou/13785.html"
   },
   "start": {
-    "date": "2026-07-12"
+    "date": "2026-07-08"
   },
   "status": "confirmed",
   "summary": "ℹ️ 飯能市市民活動センター 公衆無線LAN（Hanno Free Wi-Fi）について",
-  "updated": "2026-07-12T02:15:10.824Z"
+  "updated": "2026-07-12T13:56:32.143Z"
 }
