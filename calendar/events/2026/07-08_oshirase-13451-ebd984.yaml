@@ -34,3 +34,41 @@ source:
   content_hash: "sha256-ebd984cd5c5a7449"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-06-30"
+translations:
+  en:
+    summary: "ℹ️ Special Exhibition: \"Hanno and the Showa Era—The City's Birth and Evolving Life\" (July 19 – August 30, 2026)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content Updated (Published: June 30, 2026)
+      
+      Hanno City Museum will hold a special exhibition "Hanno and the Showa Era—The City's Birth and Evolving Life" from July 19 (Sunday) to August 30 (Sunday), 2026 (Reiwa 8). Museum hours: 9:30 a.m. to 4:30 p.m. Closed Mondays (except July 20), July 21 (Tuesday), July 24 (Friday), August 12 (Wednesday), and August 28 (Friday).
+      
+      The exhibition showcases the history of Hanno's area through successive mergers and the changes in people's daily life through household items and appliances, using materials from the museum's collection.
+      
+      【Exhibition Explanations by Curators】
+      (Same content all dates)
+      • July 30 (Thursday): 10:00–10:30 a.m. and 3:00–3:30 p.m.
+      • August 16 (Sunday): 10:00–10:30 a.m. and 3:00–3:30 p.m.
+      • August 23 (Sunday): 10:00–10:30 a.m. and 3:00–3:30 p.m.
+      
+      【Twilight Museum】
+      (Extended hours until 7:00 p.m., exhibition explanation from 6:00 p.m. for about 30 minutes)
+      • August 11 (Tuesday, national holiday)
+      • August 29 (Saturday)
+      
+      【Related Lecture】
+      "Postcards Tell Hanno's 100 Years of Showa"
+      Date: August 1 (Saturday), 2026, 1:00–4:00 p.m.
+      Location: Hanno City Museum Learning and Training Room
+      Instructor: Hiroyuki Kato (regional researcher)
+      Registration: Apply online or by phone to the museum. Limited capacity, first come, first served.
+      
+      【Workshop】
+      Scheduled for August 22 (Saturday), 2026. Details will be announced as they are confirmed.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/tenji_moyooshimono/13451.html
+    translation_hash: "sha256-8d8f337c78879beb"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-12T13:57:26.524009Z"
+    format_version: 3
