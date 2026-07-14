@@ -53,3 +53,48 @@ source:
   content_hash: "sha256-628198a006d0b122"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-07-13"
+translations:
+  en:
+    summary: "ℹ️ Hanno City is selling premium digital gift vouchers"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content updated (published: July 13, 2026)
+      
+      Hanno City is selling premium digital gift vouchers. Using national subsidy funds, these are digital vouchers that can be used at PayPay-affiliated shops in the city.
+      
+      【Sale Details】
+      Vouchers worth ¥7,500 are sold for ¥5,000. You can apply for up to 15 vouchers per person. 72,000 vouchers are planned for sale. If there are many applicants, the number allocated may be reduced by lottery.
+      
+      【Eligibility】
+      Residents of Hanno City aged 12 and older. You must complete identity verification in the PayPay app.
+      
+      【Application Period】
+      July 1–31, 2026 (Reiwa 8). Apply through the PayPay app.
+      
+      【Sale Period】
+      August 3–31, 2026 (Reiwa 8).
+      
+      【Usage Period】
+      From purchase date through December 25, 2026.
+      
+      【Eligible Stores】
+      PayPay-affiliated shops in the city that are designated by Hanno City. The list of eligible stores will be available in the PayPay app as of July 1, 2026.
+      
+      【How to Use PayPay – Operation Workshops (no advance reservation required)】
+      For people who are unsure about using the PayPay app, identity verification, or the application process.
+      
+      Before applications open: June 18, 24, 26, 29 — each day 10:00 a.m.–4:00 p.m.
+      After applications open: July 14, 15, 16, 22 — each day 10:00 a.m.–4:00 p.m.
+      
+      Venues include the Citizen Activities Center, Higashigoyano/Haraichiba District Government Center, and the City Hall Annex. Bring your smartphone and one form of ID (My Number Card, driver's license, etc.).
+      
+      【Contact】
+      PayPay Customer Support
+      Phone: 0120-990-634 (24 hours, 365 days)
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/13410.html
+    translation_hash: "sha256-bd75b29de0f93880"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-14T19:14:24.290067Z"
+    format_version: 3

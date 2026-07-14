@@ -32,3 +32,28 @@ source:
   content_hash: "sha256-5ab86316abbf7ff9"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-07-07"
+translations:
+  en:
+    summary: "ℹ️ Saitama Bus Company Group Job Fair"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New listing (Published: July 7, 2026)
+      
+      AI summary (for accurate details, please check the original source)
+      
+      A job fair hosted by the Saitama Bus Association. Twenty-three bus companies from Saitama Prefecture will exhibit and offer direct consultations about each company's characteristics and job duties. Many participating companies have training programs and welcome people with no experience. You can attend with just a standard driver's license.
+      
+      【Date and Time】Saturday, July 25, 2026 (Reiwa 8) • 11:30 AM–4:30 PM (Reception 11:15 AM–4:00 PM)
+      
+      【Location】Urawa Corso 7th Floor, Corso Hall (1 minute walk west of JR Urawa Station)
+      
+      【Admission】Free
+      
+      【Inquiries】Ritz MC Co., Ltd., Event Operations Secretariat • Phone: 03-5449-7216 • Email: contact@ritzmc.co.jp
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/toshikeikakuka/kotsuseisaku/13855.html
+    translation_hash: "sha256-b34c0a4366c7a160"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-14T19:14:31.212442Z"
+    format_version: 3
