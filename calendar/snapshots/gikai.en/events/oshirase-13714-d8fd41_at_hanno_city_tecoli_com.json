@@ -1,0 +1,34 @@
+{
+  "created": "2026-07-14T19:17:05.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🔄 Content update (Published: July 13, 2026)\n\nSummary by AI (For accurate information, please check the original article)\n\nHanno City is reopening 7 tourism public restrooms that were closed due to emergency fiscal measures.\n\n【Scheduled reopenings】\n• Takedera Tourism Public Restroom (704 Minami, Hanno): Reopens July 1\n• Takedera Entrance Tourism Public Restroom (750-1 Minami, Hanno): Reopens July 1\n• Aji Suwa Shrine Tourism Public Restroom (1843 Nagasawa, Hanno): Reopens July 1\n• Ozawa Tourism Public Restroom (1128-1 Shimomena, Hanno): Reopens July 1\n• Kawamata Tourism Public Restroom (558-1 Shimomena, Hanno): Reopens July 1\n• Nakai Tourism Public Restroom (219 Nakai, Hanno): Reopens July 13\n• Hanno Tourist Information Center Tourism Public Restroom (1051-8 Hanno, Hanno): Preparations underway for reopening\n\nReopening dates will be updated as needed.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/kanko/13714.html",
+  "end": {
+    "date": "2026-07-16"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3JqMmQxZGNnczZjcDFrNjUwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-13714-d8fd41@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6crj2d1dcgs6cp1k6506gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/kanko/13714.html"
+  },
+  "start": {
+    "date": "2026-07-15"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Tourism public restrooms reopening",
+  "updated": "2026-07-14T19:17:05.979Z"
+}

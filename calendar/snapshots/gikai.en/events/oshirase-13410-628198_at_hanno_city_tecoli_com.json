@@ -1,0 +1,34 @@
+{
+  "created": "2026-07-14T19:17:04.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🔄 Content updated (published: July 13, 2026)\n\nHanno City is selling premium digital gift vouchers. Using national subsidy funds, these are digital vouchers that can be used at PayPay-affiliated shops in the city.\n\n【Sale Details】\nVouchers worth ¥7,500 are sold for ¥5,000. You can apply for up to 15 vouchers per person. 72,000 vouchers are planned for sale. If there are many applicants, the number allocated may be reduced by lottery.\n\n【Eligibility】\nResidents of Hanno City aged 12 and older. You must complete identity verification in the PayPay app.\n\n【Application Period】\nJuly 1–31, 2026 (Reiwa 8). Apply through the PayPay app.\n\n【Sale Period】\nAugust 3–31, 2026 (Reiwa 8).\n\n【Usage Period】\nFrom purchase date through December 25, 2026.\n\n【Eligible Stores】\nPayPay-affiliated shops in the city that are designated by Hanno City. The list of eligible stores will be available in the PayPay app as of July 1, 2026.\n\n【How to Use PayPay – Operation Workshops (no advance reservation required)】\nFor people who are unsure about using the PayPay app, identity verification, or the application process.\n\nBefore applications open: June 18, 24, 26, 29 — each day 10:00 a.m.–4:00 p.m.\nAfter applications open: July 14, 15, 16, 22 — each day 10:00 a.m.–4:00 p.m.\n\nVenues include the Citizen Activities Center, Higashigoyano/Haraichiba District Government Center, and the City Hall Annex. Bring your smartphone and one form of ID (My Number Card, driver's license, etc.).\n\n【Contact】\nPayPay Customer Support\nPhone: 0120-990-634 (24 hours, 365 days)\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/13410.html",
+  "end": {
+    "date": "2026-07-16"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3EzMmMxZDZvcDNnYzlwNzEwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-13410-628198@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6cq32c1d6op3gc9p7106gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/13410.html"
+  },
+  "start": {
+    "date": "2026-07-15"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Hanno City is selling premium digital gift vouchers",
+  "updated": "2026-07-14T19:17:04.679Z"
+}
