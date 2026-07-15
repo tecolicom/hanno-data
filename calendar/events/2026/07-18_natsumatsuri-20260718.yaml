@@ -17,3 +17,22 @@ description: |-
 render:
   gcal:
     mode: single-allday
+translations:
+  en:
+    summary: "Hanno Summer Festival Eve Festival"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      【Eve Festival】Around Hanno Station North Exit and Hanno Yasaka Shrine
+      
+      • Around 9:00 a.m. to 9:00 p.m.: Processional floats (bottomless yatai) carried through the neighborhood
+      • 11:45 a.m.: Prayer ceremony at Hanno Yasaka Shrine
+      • Food and local product stalls both days
+      
+      No dedicated parking available. Please use public transportation (traffic restrictions in effect during the event at certain times and locations).
+      
+      Inquiries: Oku-Musashi Hanno Tourism Association, 042-980-5051
+    translation_hash: "sha256-c23b1ebaf05b12bd"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-15T06:26:25.960215Z"
+    format_version: 3

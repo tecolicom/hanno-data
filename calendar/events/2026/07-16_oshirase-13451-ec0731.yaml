@@ -36,3 +36,30 @@ source:
   content_hash: "sha256-ec0731c87b44c52b"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-06-30"
+translations:
+  en:
+    summary: "ℹ️ Special Exhibition: \"Hanno and the Showa Era—The City's Birth and Evolving Life\" (Showa Centennial)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content updated (published: June 30, 2026)
+      
+      The Hanno City Museum will hold a special exhibition "Hanno and the Showa Era—The City's Birth and Evolving Life" from July 19 (Sunday, Reiwa 8) to August 30 (Sunday). To mark the 100th anniversary of the Showa era in Reiwa 8, the exhibition uses museum collections to showcase the history of Hanno's municipal territory as it formed through mergers, and how daily life changed alongside furniture and home appliances.
+      
+      Opening hours: 9:30 a.m. to 4:30 p.m. Closed Mondays (except July 20), July 21 (Tuesday), July 24 (Friday), August 12 (Wednesday), and August 28 (Friday).
+      
+      Related Events:
+      
+      【Exhibition Talk】 Curator-led 30-minute explanation. July 30 (Thursday) 10:00 a.m. & 3:00 p.m., August 16 (Sunday) 10:00 a.m. & 3:00 p.m., August 23 (Sunday) 10:00 a.m. & 3:00 p.m.
+      
+      【Evening Museum】 Extended hours until 7:00 p.m. Exhibition talk from 6:00 p.m. for 30 minutes. August 11 (Tuesday, national holiday) and August 29 (Saturday).
+      
+      【Related Lecture】 "Picture Postcards Tell Hanno's 100 Years of Showa" Lecturer: Hiroyuki Kato. August 1 (Saturday, Reiwa 8), 1:00 p.m.–4:00 p.m., Hanno City Museum Learning & Training Room. Register by electronic application or phone. Limited capacity, first-come-first-served.
+      
+      【Workshop】 Scheduled for August 22 (Saturday, Reiwa 8). Details will be announced later.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/tenji_moyooshimono/13451.html
+    translation_hash: "sha256-65efaddd8f7c0387"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-15T06:26:23.889954Z"
+    format_version: 3

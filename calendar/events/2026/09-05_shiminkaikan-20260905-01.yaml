@@ -21,3 +21,17 @@ source:
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html"
   fetched_at: "2026-07-15T06:22:59.201456Z"
   content_hash: "sha256-5bffedda2212ad5e"
+translations:
+  en:
+    summary: "Hanno Citizen Choir 10th Regular Concert"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Venue: Hanno Civic Hall, Grand Hall
+      Organizer: Hanno Citizen Choir
+      
+      For more information, visit the Hanno Civic Hall website: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html
+    translation_hash: "sha256-b6caba63754337b9"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-15T06:26:43.176687Z"
+    format_version: 3

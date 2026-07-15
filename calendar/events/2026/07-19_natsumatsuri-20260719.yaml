@@ -18,3 +18,23 @@ description: |-
 render:
   gcal:
     mode: single-allday
+translations:
+  en:
+    summary: "Hanno Summer Festival – Main Festival"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      【Main Festival】Near Hanno Station North Exit・around Hanno Yasaka Shrine
+      
+      • 15:00 – Five town floats (sukiぬき yatai) gather and line up in front of Hanno Yasaka Shrine; ceremonial music offered and shrine visit
+      • Evening – Floats parade and compete throughout the city streets
+      • 19:40 – Ten town floats compete on the main street (near festival headquarters)
+      • Both days feature food stalls and local product vendors
+      
+      No dedicated parking available. Please use public transportation (traffic restrictions in effect at certain times and locations).
+      
+      Inquiries: Okumushi Hanno Tourism Association, 042-980-5051
+    translation_hash: "sha256-d7ab38cd260c5da1"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-15T06:26:28.649184Z"
+    format_version: 3

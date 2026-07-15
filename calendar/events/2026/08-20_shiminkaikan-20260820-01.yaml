@@ -21,3 +21,17 @@ source:
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html"
   fetched_at: "2026-07-15T06:22:59.200402Z"
   content_hash: "sha256-5bffedda2212ad5e"
+translations:
+  en:
+    summary: "Hanno District Safety Driving Manager Legal Training"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      【Venue】 Hanno Civic Hall, Main Hall
+      【Organizer】 Hanno District Safety Driving Manager Association
+      
+      For more details, visit: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html
+    translation_hash: "sha256-795d1a6282d2b1c6"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-15T06:26:33.753576Z"
+    format_version: 3
