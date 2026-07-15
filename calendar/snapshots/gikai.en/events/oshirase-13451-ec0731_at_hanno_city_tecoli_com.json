@@ -1,0 +1,34 @@
+{
+  "created": "2026-07-15T06:29:24.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🔄 Content updated (published: June 30, 2026)\n\nThe Hanno City Museum will hold a special exhibition \"Hanno and the Showa Era—The City's Birth and Evolving Life\" from July 19 (Sunday, Reiwa 8) to August 30 (Sunday). To mark the 100th anniversary of the Showa era in Reiwa 8, the exhibition uses museum collections to showcase the history of Hanno's municipal territory as it formed through mergers, and how daily life changed alongside furniture and home appliances.\n\nOpening hours: 9:30 a.m. to 4:30 p.m. Closed Mondays (except July 20), July 21 (Tuesday), July 24 (Friday), August 12 (Wednesday), and August 28 (Friday).\n\nRelated Events:\n\n【Exhibition Talk】 Curator-led 30-minute explanation. July 30 (Thursday) 10:00 a.m. & 3:00 p.m., August 16 (Sunday) 10:00 a.m. & 3:00 p.m., August 23 (Sunday) 10:00 a.m. & 3:00 p.m.\n\n【Evening Museum】 Extended hours until 7:00 p.m. Exhibition talk from 6:00 p.m. for 30 minutes. August 11 (Tuesday, national holiday) and August 29 (Saturday).\n\n【Related Lecture】 \"Picture Postcards Tell Hanno's 100 Years of Showa\" Lecturer: Hiroyuki Kato. August 1 (Saturday, Reiwa 8), 1:00 p.m.–4:00 p.m., Hanno City Museum Learning & Training Room. Register by electronic application or phone. Limited capacity, first-come-first-served.\n\n【Workshop】 Scheduled for August 22 (Saturday, Reiwa 8). Details will be announced later.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/tenji_moyooshimono/13451.html",
+  "end": {
+    "date": "2026-07-17"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3EzYWM5ZGNsaGowZHBqNjUwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-13451-ec0731@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6cq3ac9dclhj0dpj6506gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/tenji_moyooshimono/13451.html"
+  },
+  "start": {
+    "date": "2026-07-16"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Special Exhibition: \"Hanno and the Showa Era—The City's Birth and Evolving Life\" (Showa Centennial)",
+  "updated": "2026-07-15T06:29:24.649Z"
+}

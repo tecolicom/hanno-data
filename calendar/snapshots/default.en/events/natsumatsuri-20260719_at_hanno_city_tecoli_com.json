@@ -1,0 +1,35 @@
+{
+  "created": "2026-07-15T06:29:28.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n【Main Festival】Near Hanno Station North Exit・around Hanno Yasaka Shrine\n\n• 15:00 – Five town floats (sukiぬき yatai) gather and line up in front of Hanno Yasaka Shrine; ceremonial music offered and shrine visit\n• Evening – Floats parade and compete throughout the city streets\n• 19:40 – Ten town floats compete on the main street (near festival headquarters)\n• Both days feature food stalls and local product vendors\n\nNo dedicated parking available. Please use public transportation (traffic restrictions in effect at certain times and locations).\n\nInquiries: Okumushi Hanno Tourism Association, 042-980-5051",
+  "end": {
+    "date": "2026-07-20"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2RwZ244c3JsZGxnbjhzcmxlOWtpcWNoZzY4cjMwZHBoNzUwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBkOTE5M2NmNWY2NDRhYjQxYTI4ZTIyNjhhOThhYmM1YWE0MjZiZDJkNTc3MTUyODM0MjQ0YWQ2OWEzMWY1YTY4QGc",
+  "iCalUID": "natsumatsuri-20260719@hanno.city.tecoli.com",
+  "id": "_dpgn8srldlgn8srle9kiqchg68r30dph7506gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能八坂神社周辺（飯能駅北口すぐ）",
+  "organizer": {
+    "displayName": "Myはんのう（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/news/%E4%BB%A4%E5%92%8C%EF%BC%98%E5%B9%B4%E9%A3%AF%E8%83%BD%E5%A4%8F%E7%A5%AD%E3%82%8A%E3%80%807%E6%9C%8818%E6%97%A5%E5%9C%9F%E3%83%BB19%E6%97%A5%E6%97%A5%E9%96%8B%E5%82%AC/"
+  },
+  "start": {
+    "date": "2026-07-19"
+  },
+  "status": "confirmed",
+  "summary": "Hanno Summer Festival – Main Festival",
+  "updated": "2026-07-15T06:29:28.785Z"
+}

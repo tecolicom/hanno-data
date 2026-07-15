@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "🕒 14:00–16:00\n\nAutomated translation (refer to source for accuracy)\n\n【Venue】Main Hall, Hanno Citizen Hall\n【Organizer】Hanno Citizen Choir\n\nHanno Citizen Hall: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html",
+  "description": "🕒 14:00–16:00\n\nAutomated translation (refer to source for accuracy)\n\nVenue: Hanno Civic Hall, Grand Hall\nOrganizer: Hanno Citizen Choir\n\nFor more information, visit the Hanno Civic Hall website: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html",
   "end": {
     "date": "2026-09-06"
   },
@@ -31,5 +31,5 @@
   },
   "status": "confirmed",
   "summary": "Hanno Citizen Choir 10th Regular Concert",
-  "updated": "2026-07-12T02:33:13.992Z"
+  "updated": "2026-07-15T06:29:57.383Z"
 }

@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "🕒 13:30–15:30\n\nAutomated translation (refer to source for accuracy)\n\nVenue: Hanno Civic Hall (大ホール / Main Hall)\nOrganizer: Team Inashin\n\nHanno Civic Hall: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html",
+  "description": "🕒 13:30–15:30\n\nAutomated translation (refer to source for accuracy)\n\nVenue: Hanno Civic Hall, Large Hall\nOrganizer: Team Inashin\n\nFor details, visit: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html",
   "end": {
     "date": "2026-08-24"
   },
@@ -31,5 +31,5 @@
   },
   "status": "confirmed",
   "summary": "いなしん ONE MAN LIVE",
-  "updated": "2026-07-12T02:33:05.237Z"
+  "updated": "2026-07-15T06:29:51.712Z"
 }

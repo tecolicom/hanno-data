@@ -1,0 +1,35 @@
+{
+  "created": "2026-07-15T06:16:49.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "【宵宮】飯能駅北口すぐ・飯能八坂神社周辺\n\n・9:00頃〜21:00 底抜け屋台の町内廻り／引き回し\n・11:45 飯能八坂神社にて祈願祭\n・2日間ともグルメ・物産の出店あり\n\n専用駐車場はありません。公共交通機関をご利用ください（該当時間・箇所で交通規制あり）。\n問い合わせ: 奥むさし飯能観光協会 042-980-5051",
+  "end": {
+    "date": "2026-07-19"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2RwZ244c3JsZGxnbjhzcmxlOWtpcWNoZzY4cjMwZHBoNzEwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSAyMDU0MDNjOTcxZGM1ZWYyMWVmZDgxYzFkNTM4NDljYWRmZDkwMWI3NWM3N2Q4ODk1NWQ5NjAwZjQ1ZjJhMDEzQGc",
+  "iCalUID": "natsumatsuri-20260718@hanno.city.tecoli.com",
+  "id": "_dpgn8srldlgn8srle9kiqchg68r30dph7106gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能八坂神社周辺（飯能駅北口すぐ）",
+  "organizer": {
+    "displayName": "Myはんのう",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/news/%E4%BB%A4%E5%92%8C%EF%BC%98%E5%B9%B4%E9%A3%AF%E8%83%BD%E5%A4%8F%E7%A5%AD%E3%82%8A%E3%80%807%E6%9C%8818%E6%97%A5%E5%9C%9F%E3%83%BB19%E6%97%A5%E6%97%A5%E9%96%8B%E5%82%AC/"
+  },
+  "start": {
+    "date": "2026-07-18"
+  },
+  "status": "confirmed",
+  "summary": "飯能夏祭り 宵宮",
+  "updated": "2026-07-15T06:16:49.521Z"
+}
