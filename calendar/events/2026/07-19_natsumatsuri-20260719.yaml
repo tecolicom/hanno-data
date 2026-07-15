@@ -18,6 +18,13 @@ description: |-
 render:
   gcal:
     mode: single-allday
+
+source:
+  type: hanno-tourism-jp
+  id: "news-r8-natsumatsuri"
+  url: "https://hanno-tourism.jp/news/%E4%BB%A4%E5%92%8C%EF%BC%98%E5%B9%B4%E9%A3%AF%E8%83%BD%E5%A4%8F%E7%A5%AD%E3%82%8A%E3%80%807%E6%9C%8818%E6%97%A5%E5%9C%9F%E3%83%BB19%E6%97%A5%E6%97%A5%E9%96%8B%E5%82%AC/"
+  fetched_at: "2026-07-15T06:41:43Z"
+  note: "手動追加 (奥むさし飯能観光協会 告知ページより。クローラ自動発見対象外の /news/ ページ)"
 translations:
   en:
     summary: "Hanno Summer Festival – Main Festival"
