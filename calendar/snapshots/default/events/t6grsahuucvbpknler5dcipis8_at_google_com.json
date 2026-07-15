@@ -1,0 +1,30 @@
+{
+  "created": "2026-07-15T12:23:48.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "## v2.0.1\n\n- 📅 「カレンダーを探す」を地域から絞り込めるように — 都道府県・市区町村を選んで公開カレンダーを探せるようになりました。街に紐づくカレンダーも一覧に出ます\n\n## v2.0.0\n\n- 🎉 「Myはんのう」が「街てこり」になりました — 飯能市専用アプリから、全国どの街でも使える街の情報アプリへ。旧「Myはんのう」アプリには引っ越し案内を表示し、登録済みの街・ホーム・ごみの設定を引き継げます\n- 📱 ひとつのアプリに一本化 — どの街のページもスマホのホーム画面に「街てこり」として追加でき、アプリのように使えます\n- 🏙 トップページがみんなの入口に — 登録した街のリスト・ホームの街・ログインをトップに集約。街ページのヘッダの街名をタップすると、登録した街の切り替え・リストへの追加・ホーム設定ができます\n- 🗑 ごみ収集が5都市に対応 — 飯能市・日高市に加え、上富良野町・鯖江市・練馬区を追加。町名を選ぶと毎朝の収集カードが出ます\n- 📅 カレンダーを3種類に整理 — 「街のカレンダー」「公開カレンダー(推しチーム・映画など)」「自分のカレンダー(URL購読)」に分け、トップから探して購読できます\n- 🚻 サービス欄を整理 — 公衆トイレ検索を対応する全都市に、AED は全国AEDマップ(aedm.jp)へのリンクに統一。街ごとのサービスは歯車をやめてヘッダのメニューにまとめました\n- 🏙 街ページをすっきり — ごみ・天気を一続きで表示し、街のカレンダーは当日の予定と購読メニューをひとつの枠に集約しました",
+  "end": {
+    "date": "2026-07-18"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=dDZncnNhaHV1Y3ZicGtubGVyNWRjaXBpczggMjA1NDAzYzk3MWRjNWVmMjFlZmQ4MWMxZDUzODQ5Y2FkZmQ5MDFiNzVjNzdkODg5NTVkOTYwMGY0NWYyYTAxM0Bn",
+  "iCalUID": "t6grsahuucvbpknler5dcipis8@google.com",
+  "id": "t6grsahuucvbpknler5dcipis8",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "Myはんのう",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "start": {
+    "date": "2026-07-15"
+  },
+  "status": "confirmed",
+  "summary": "街てこり v2.0.1",
+  "updated": "2026-07-15T14:54:14.149Z"
+}
