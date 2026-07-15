@@ -1,0 +1,19 @@
+uid: "natsumatsuri-20260718@hanno.city.tecoli.com"
+summary: "飯能夏祭り 宵宮"
+location: "飯能八坂神社周辺（飯能駅北口すぐ）"
+url: "https://hanno-tourism.jp/news/%E4%BB%A4%E5%92%8C%EF%BC%98%E5%B9%B4%E9%A3%AF%E8%83%BD%E5%A4%8F%E7%A5%AD%E3%82%8A%E3%80%807%E6%9C%8818%E6%97%A5%E5%9C%9F%E3%83%BB19%E6%97%A5%E6%97%A5%E9%96%8B%E5%82%AC/"
+dtstart: "2026-07-18"
+dtend: "2026-07-18"
+description: |-
+  【宵宮】飯能駅北口すぐ・飯能八坂神社周辺
+
+  ・9:00頃〜21:00 底抜け屋台の町内廻り／引き回し
+  ・11:45 飯能八坂神社にて祈願祭
+  ・2日間ともグルメ・物産の出店あり
+
+  専用駐車場はありません。公共交通機関をご利用ください（該当時間・箇所で交通規制あり）。
+  問い合わせ: 奥むさし飯能観光協会 042-980-5051
+
+render:
+  gcal:
+    mode: single-allday
