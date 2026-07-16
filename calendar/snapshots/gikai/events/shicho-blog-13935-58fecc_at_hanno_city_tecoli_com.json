@@ -1,0 +1,34 @@
+{
+  "created": "2026-07-16T19:05:11.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "📝 市長ブログ更新 (公開日: 2026-07-16)\n\n消費喚起による地域事業者支援、物価高騰下における市民の消費下支えを目的に、国の「物価高騰対応重点支援地方創生臨時交付金」を活用する「飯能市プレミアム付デジタル商品券」の購入申込が7月31日（金曜日）まで行われています。\n\nアプリの使い方が分からない方や本人確認、申込みの手続きが不安な方を対象に、アプリの操作説明会を開催しており、多くの方に参加いただいています。7月22日（水曜日）には市役所本庁舎別館2階会議室1にて10時から16時まで開催されますので、是非ご参加いただければと思います。\n\n市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202607/13935.html",
+  "end": {
+    "date": "2026-07-18"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2VkazZpb3I4ZHNtbTRyM2Zjc21qMmNwcDZjcWlxZDlvY3BpbTZvcTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIDY3NDU5MTRiMjQzMjMxMTJhMTVmNDNkYzIwYjNhMGY0YTQ4MTdhZmQ4MDBjOGQxNjg3ZDBiZjBiN2Y4OTBjNjFAZw",
+  "iCalUID": "shicho-blog-13935-58fecc@hanno.city.tecoli.com",
+  "id": "_edk6ior8dsmm4r3fcsmj2cpp6cqiqd9ocpim6oq0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202607/13935.html"
+  },
+  "start": {
+    "date": "2026-07-17"
+  },
+  "status": "confirmed",
+  "summary": "📝 市長：PayPayアプリの操作説明会を開催しています",
+  "updated": "2026-07-16T19:05:12.205Z"
+}

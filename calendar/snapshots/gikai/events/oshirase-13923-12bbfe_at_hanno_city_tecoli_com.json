@@ -1,0 +1,34 @@
+{
+  "created": "2026-07-16T19:05:10.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🆕 新着掲載 (公開日: 2026-07-15)\n\nAI による要約 (正確な情報は元記事をご確認ください)\n\neLTAX（地方税ポータルサイト）のシステム更改に伴い、令和8年9月19日（土曜日）0時00分から令和8年9月24日（木曜日）8時30分まで、サービスが停止します。この期間中、eLTAXやeL-QRを利用した地方税の電子申告、電子納付等の手続きはご利用いただけません。ご不便をおかけいたしますが、ご理解ご協力をお願いいたします。\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/shuzeika/13923.html",
+  "end": {
+    "date": "2026-07-18"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3NqNGNwZDY0cDY0b2o2Y2wwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSA2NzQ1OTE0YjI0MzIzMTEyYTE1ZjQzZGMyMGIzYTBmNGE0ODE3YWZkODAwYzhkMTY4N2QwYmYwYjdmODkwYzYxQGc",
+  "iCalUID": "oshirase-13923-12bbfe@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6csj4cpd64p64oj6cl06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/shuzeika/13923.html"
+  },
+  "start": {
+    "date": "2026-07-17"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 令和8年9月のeLTAX更改に伴うサービス停止について",
+  "updated": "2026-07-16T19:05:10.529Z"
+}

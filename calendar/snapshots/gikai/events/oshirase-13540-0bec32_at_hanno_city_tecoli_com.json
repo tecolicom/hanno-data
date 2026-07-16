@@ -1,0 +1,34 @@
+{
+  "created": "2026-07-16T19:05:08.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🔄 内容更新 (公開日: 2026-07-16)\n\nAI による要約 (正確な情報は元記事をご確認ください)\n\n夏休みこども歴史教室「推しポストカード」は定員に達したため、募集を締め切らせていただきました。\n\n令和8年7月23日（木曜日）10時00分から12時00分、飯能市立博物館で開催予定でした。謎解きゲームをしながら博物館の「推しの一品」を見つけてオリジナルポストカードを作り、推しポイントの紹介とともに展示室に飾るプログラムです。作ったポストカードはお土産としてお持ち帰りいただけます。\n\n対象は小学生（保護者の同伴可）、参加費無料。\n\n申し込みの受付は既に終了いたしました。\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/tenji_moyooshimono/13540.html",
+  "end": {
+    "date": "2026-07-18"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3FqOGMxZDYxaDZhb3BqNjkwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSA2NzQ1OTE0YjI0MzIzMTEyYTE1ZjQzZGMyMGIzYTBmNGE0ODE3YWZkODAwYzhkMTY4N2QwYmYwYjdmODkwYzYxQGc",
+  "iCalUID": "oshirase-13540-0bec32@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6cqj8c1d61h6aopj6906gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/tenji_moyooshimono/13540.html"
+  },
+  "start": {
+    "date": "2026-07-17"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 夏休みこども歴史教室「お気に入りを見つけて作って飾ろう！きっとす「推し」ポストカード」（募集は締め切りました）",
+  "updated": "2026-07-16T19:05:08.772Z"
+}

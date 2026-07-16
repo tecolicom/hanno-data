@@ -1,0 +1,34 @@
+{
+  "created": "2026-07-16T19:08:18.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🔄 Content update (published: July 16, 2026)\n\nRegistration for the Summer Kids' History Class \"Must-Have Postcard\" program has closed because we've reached capacity.\n\nThe program was scheduled for July 23, 2026 (Thursday) from 10:00 a.m. to 12:00 p.m. at Hanno City Museum. Children solve a mystery game while exploring the museum to find their favorite exhibit, create an original postcard about it, and display it in the exhibition room with a description of why it's their favorite. Each child takes their completed postcard home as a souvenir.\n\nTarget: Elementary school students (parents may attend). Free admission.\n\nApplications are no longer being accepted.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/tenji_moyooshimono/13540.html",
+  "end": {
+    "date": "2026-07-18"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3FqOGMxZDYxaDZhb3BqNjkwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-13540-0bec32@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6cqj8c1d61h6aopj6906gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/tenji_moyooshimono/13540.html"
+  },
+  "start": {
+    "date": "2026-07-17"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Summer Kids' History Class: \"Find Your Favorite and Make It! Your 'Must-Have' Postcard\" (Registration closed)",
+  "updated": "2026-07-16T19:08:18.554Z"
+}
