@@ -1,0 +1,25 @@
+uid: "shicho-blog-13935-58fecc@hanno.city.tecoli.com"
+summary: "📝 市長：PayPayアプリの操作説明会を開催しています"
+url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202607/13935.html"
+dtstart: "2026-07-17"
+dtend: "2026-07-17"
+description: |-
+  📝 市長ブログ更新 (公開日: 2026-07-16)
+  
+  消費喚起による地域事業者支援、物価高騰下における市民の消費下支えを目的に、国の「物価高騰対応重点支援地方創生臨時交付金」を活用する「飯能市プレミアム付デジタル商品券」の購入申込が7月31日（金曜日）まで行われています。
+  
+  アプリの使い方が分からない方や本人確認、申込みの手続きが不安な方を対象に、アプリの操作説明会を開催しており、多くの方に参加いただいています。7月22日（水曜日）には市役所本庁舎別館2階会議室1にて10時から16時まで開催されますので、是非ご参加いただければと思います。
+  
+  市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202607/13935.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-shicho-blog
+  id: "13935"
+  url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202607/13935.html"
+  fetched_at: "2026-07-16T19:02:18.366814Z"
+  content_hash: "sha256-58fecc9a4318d61d"
+  publish_date: "2026-07-16"

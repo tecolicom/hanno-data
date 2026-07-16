@@ -1,0 +1,26 @@
+uid: "oshirase-13923-12bbfe@hanno.city.tecoli.com"
+summary: "ℹ️ 令和8年9月のeLTAX更改に伴うサービス停止について"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/shuzeika/13923.html"
+dtstart: "2026-07-17"
+dtend: "2026-07-17"
+description: |-
+  🆕 新着掲載 (公開日: 2026-07-15)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  eLTAX（地方税ポータルサイト）のシステム更改に伴い、令和8年9月19日（土曜日）0時00分から令和8年9月24日（木曜日）8時30分まで、サービスが停止します。この期間中、eLTAXやeL-QRを利用した地方税の電子申告、電子納付等の手続きはご利用いただけません。ご不便をおかけいたしますが、ご理解ご協力をお願いいたします。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/shuzeika/13923.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13923"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/shuzeika/13923.html"
+  fetched_at: "2026-07-16T19:02:25.601195Z"
+  content_hash: "sha256-12bbfef58327633f"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-07-15"
