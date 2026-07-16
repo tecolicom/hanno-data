@@ -24,3 +24,20 @@ source:
   content_hash: "sha256-12bbfef58327633f"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-07-15"
+translations:
+  en:
+    summary: "ℹ️ eLTAX service suspension due to system upgrade in September 2026 (Reiwa 8)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      �新 New post (Published: July 15, 2026)
+      
+      AI summary (Please check the original article for accurate information)
+      
+      eLTAX (Local Tax Portal Site) will be undergoing a system upgrade. Service will be suspended from September 19, 2026 (Saturday) 0:00 to September 24, 2026 (Thursday) 8:30. During this period, you will not be able to use eLTAX or eL-QR for electronic filing, electronic payment, or other local tax procedures. We apologize for the inconvenience and appreciate your understanding and cooperation.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/shuzeika/13923.html
+    translation_hash: "sha256-1334bde26f940e8d"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-16T19:05:47.329132Z"
+    format_version: 3

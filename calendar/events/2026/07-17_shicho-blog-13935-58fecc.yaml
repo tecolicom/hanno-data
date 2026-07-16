@@ -23,3 +23,22 @@ source:
   fetched_at: "2026-07-16T19:02:18.366814Z"
   content_hash: "sha256-58fecc9a4318d61d"
   publish_date: "2026-07-16"
+translations:
+  en:
+    summary: "📝 Mayor: PayPay app operation guidance sessions are being held"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      📝 Mayor's Blog Update (Published: July 16, 2026 / Reiwa 8)
+      
+      To support local businesses through increased consumer spending and help residents manage expenses during rising prices, Hanno City is offering a "Hanno City Premium Digital Gift Certificate" using the national "Price Hike Response Priority Support Local Revitalization Temporary Grant."
+      
+      Applications to purchase the digital gift certificates are being accepted until July 31, 2026 (Friday).
+      
+      For those unfamiliar with the app, needing identity verification, or uncertain about the application process, we are holding app operation guidance sessions. Many people have already attended. On Wednesday, July 22, 2026, a session will be held from 10:00 a.m. to 4:00 p.m. in Meeting Room 1, 2nd Floor, Annex Building, Hanno City Hall. We welcome your participation.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202607/13935.html
+    translation_hash: "sha256-c1635d5ed99edc94"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-16T19:05:50.292087Z"
+    format_version: 3

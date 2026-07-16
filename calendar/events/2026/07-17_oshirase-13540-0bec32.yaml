@@ -30,3 +30,24 @@ source:
   content_hash: "sha256-0bec32d4c9f6fb75"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-07-16"
+translations:
+  en:
+    summary: "ℹ️ Summer Kids' History Class: \"Find Your Favorite and Make It! Your 'Must-Have' Postcard\" (Registration closed)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content update (published: July 16, 2026)
+      
+      Registration for the Summer Kids' History Class "Must-Have Postcard" program has closed because we've reached capacity.
+      
+      The program was scheduled for July 23, 2026 (Thursday) from 10:00 a.m. to 12:00 p.m. at Hanno City Museum. Children solve a mystery game while exploring the museum to find their favorite exhibit, create an original postcard about it, and display it in the exhibition room with a description of why it's their favorite. Each child takes their completed postcard home as a souvenir.
+      
+      Target: Elementary school students (parents may attend). Free admission.
+      
+      Applications are no longer being accepted.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/tenji_moyooshimono/13540.html
+    translation_hash: "sha256-de32fd0ef70c5c93"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-16T19:05:44.896020Z"
+    format_version: 3
