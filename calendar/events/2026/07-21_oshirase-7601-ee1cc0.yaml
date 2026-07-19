@@ -46,3 +46,44 @@ source:
   content_hash: "sha256-ee1cc0fc5378e8b1"
   summary_method: "full"
   publish_date: "2026-07-20"
+translations:
+  en:
+    summary: "ℹ️ Sugo-Ashi Event: Walk around Tenranzan's Waterside and Misugi Plateau on Thursday, September 24, 2026"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New Entry (Published: July 20, 2026)
+      
+      Event Details
+      
+      Date: September 24 (Thursday)
+      
+      Gathering Time: 10:00 a.m.
+      
+      Gathering Place: West parking lot of Hanno City Hall
+      
+      Route: City Hall → Nakayama-Nishi Intersection → Yatsuta Regeneration Area → Chuo Park → Hanno Riverbed → Misugi Plateau Park → Hikari Bridge → Yaoroshi → City Hall
+      
+      Distance: Approximately 10 kilometers
+      
+      Estimated Duration: Approximately 3 hours 30 minutes
+      
+      Fee: 200 yen (insurance and other costs, collected on the day)
+      
+      What to Bring: Lunch box, drinks, rain gear, Sugo-Ashi Handbook (if you have one)
+      
+      Registration: Apply to ASA Hanno by Sunday, September 20
+      Phone: 042-972-4701
+      Fax: 042-974-2190
+      
+      Weather Cancellation: To confirm cancellation due to weather or other reasons, contact ASA Hanno after 9:00 a.m. on the day of the event.
+      
+      Inquiries: Onda 090-2205-8073
+      
+      Organizer: Hanno Walking Club
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/7601.html
+    translation_hash: "sha256-5f931ae700c0a626"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-19T19:01:34.372277Z"
+    format_version: 3
