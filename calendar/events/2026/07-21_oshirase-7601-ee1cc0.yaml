@@ -1,0 +1,48 @@
+uid: "oshirase-7601-ee1cc0@hanno.city.tecoli.com"
+summary: "ℹ️ スゴ足イベント 2026年9月24日（木曜日）天覧山の水辺と美杉台を歩く"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/7601.html"
+dtstart: "2026-07-21"
+dtend: "2026-07-21"
+description: |-
+  🆕 新着掲載 (公開日: 2026-07-20)
+  
+  ## イベント内容
+  
+  	期日 9月24日(木曜日)
+  
+  	集合時間 10時
+  
+  	集合場所 飯能市役所西側駐車場
+  
+  	コース 市役所 → 中山西交差点 → 谷津田再生地 → 中央公園 → 飯能河原 → 美杉台公園 → ひかり橋 → 矢颪 → 市役所
+  
+  	距離 約10キロメートル
+  
+  	予定時間 約3時間30分
+  
+  	費用 200円（保険代等、当日集金）
+  
+  	持ち物 弁当、飲み物、雨具、スゴ足手帳(お持ちの方)
+  
+  	申し込み 9月20日（日曜日）までにASA飯能へ 電話 042-972-4701 ファックス 042-974-2190
+  
+  	中止の確認 天候等による中止の確認は、当日9時以降にASA飯能へ。
+  
+  	問い合わせ 恩田 090-2205-8073
+  
+  	主催 飯能ウオーキング倶楽部
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/7601.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "7601"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/7601.html"
+  fetched_at: "2026-07-19T18:58:25.750281Z"
+  content_hash: "sha256-ee1cc0fc5378e8b1"
+  summary_method: "full"
+  publish_date: "2026-07-20"
