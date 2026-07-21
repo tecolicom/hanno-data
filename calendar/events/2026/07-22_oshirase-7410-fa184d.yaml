@@ -30,3 +30,26 @@ source:
   content_hash: "sha256-fa184dd76da9addc"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-07-21"
+translations:
+  en:
+    summary: "ℹ️ Hanno Senior College"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content updated (published July 21, 2026)
+      
+      AI summary (please check the original article for accurate details)
+      
+      Hanno Senior College is a training program that teaches care prevention and prepares participants to share this knowledge in the community. There is no fee to participate. All courses are administered by the Kaigo Fukushi-ka (Care and Welfare Division), Chiiki Houkatsu Care Section at Hanno City Hall. Contact: phone 042-973-3753, email shien@city.hanno.lg.jp.
+      
+      • Kagayaki Supporter Training Course: Trains supporters to work alongside participants at Moo-mai Ikiki Gymnastics (weighted exercise) sessions. Taught by a physical therapist. The course consists of 6 sessions as one set; participants are expected to complete all 6 sessions. Recruitment will be announced in the Hanno municipal newsletter.
+      
+      • Frailty Prevention Supporter Training Course: Four-part course covering "exercise," "oral health gymnastics," "recreation," and "hearing and speech disorders." Held at Hanno Comprehensive Welfare Center.
+      
+      • Communication Partner Training Course: Learn basic knowledge about "speech disorders" such as aphasia and techniques for assisting conversation. Held May 27, 2027 (Wednesday) from 10:00 to 11:30 a.m. Taught by a speech-language pathologist. Venue: Comprehensive Welfare Center. After completing the course, participants can serve as partners in the monthly "Communication Lecture" program.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/kaigo-yobou/7410.html
+    translation_hash: "sha256-8242eb9a11886346"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-21T19:15:05.615016Z"
+    format_version: 3

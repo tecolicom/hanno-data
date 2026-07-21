@@ -45,3 +45,41 @@ source:
   content_hash: "sha256-5b12db8d9aecf9ba"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-07-21"
+translations:
+  en:
+    summary: "ℹ️ Public Call for Private Proposals: Hanno City Comprehensive Facility Management Business"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content Updated (Published: July 21, 2026)
+      
+      Hanno City is launching a "Private Proposal System for Comprehensive Facility Management" covering City Hall and 79 other facilities (80 total).
+      
+      Two types of proposals are being sought:
+      
+      【Type A Proposal】Comprehensive facility management covering maintenance inspections, legally mandated inspections and tests, upkeep, repair response, facility information management, and management structure for the target facilities.
+      
+      【Type B Proposal】Optional proposals that add value to comprehensive facility management. Examples include revenue-generating activities (parking, advertising, naming rights, etc.), energy management, power procurement, DX (digital transformation) applications, and disaster prevention strengthening.
+      
+      The system supports partnerships between firms with comprehensive facility management experience and specialized service providers.
+      
+      Schedule (tentative):
+      • July 2026 (Reiwa 8) — Public call opens
+      • July–August 2026 — Participation notification and question acceptance; matching support
+      • August–September 2026 — Proposal submission period
+      • Late September 2026 — Review period
+      • Early October 2026 — Review results announced
+      • October 2026–March 2027 — Detailed discussions
+      • April 1, 2027 (Reiwa 9) — Operations begin
+      
+      Implementation guidelines, facility list, budget figures, and other materials are now available. Questions are accepted.
+      
+      Inquiries: Hanno City Department of Comprehensive Policy, Asset Management Division
+      Phone: 042-973-2111 (ext. 282)
+      Email: kanzai@city.hanno.lg.jp
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/13805.html
+    translation_hash: "sha256-4256e5624f4573c4"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-21T19:15:00.953816Z"
+    format_version: 3

@@ -43,3 +43,37 @@ source:
   content_hash: "sha256-5d1ac143e9a531ca"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-07-21"
+translations:
+  en:
+    summary: "ℹ️ Application period now open for Reiwa 8 (2026) Safe Driver Awards"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New listing (Published: July 21, 2026)
+      
+      The Hanno District Traffic Safety Association is now accepting applications for the Reiwa 8 (2026) Safe Driver Awards.
+      
+      【Award Categories】
+      Six types based on accident-free and violation-free driving records: 10, 15, 20, 25, 30, and 35 years. Periods under 5 years are rounded down. Example: a 19-year 11-month record qualifies for the 15-year award.
+      
+      【Eligibility Requirements】
+      • Must be a member of the Hanno District Traffic Safety Association (membership card required)
+      • Have not previously received an award in the same category
+      • Have not been sentenced to imprisonment or heavier penalty in the past 10 years, or to a fine or lighter penalty in the past 5 years
+      • Must be able to attend the awards ceremony on Saturday, October 31 at the Hidaka City Comprehensive Welfare Center Koryo no Sato (日高市総合福祉センター高麗の郷)
+      
+      【Application Period and Location】
+      Dates and hours: August 17 – September 17, 2026, 9:00 a.m. – 5:00 p.m. (closed Saturdays, Sundays, and holidays)
+      Location: Hanno District Traffic Safety Association Office (inside Hanno Police Station)
+      Documents to bring: accident-free/violation-free certificate, Safe Driver Award application form, driver's license, membership card
+      
+      【How to Obtain the Accident-Free/Violation-Free Certificate】
+      Apply through a post office using the application form available at any prefectural police station or police box (processing fee: 800 yen), or apply in person at the Center for Automotive Safety and Driver Training office (inside the Saitama Prefectural Police Driving License Center, Konosu City) with a photo ID and seal. Processing takes approximately 2 weeks.
+      
+      Inquiries: 042-973-7047
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/11743.html
+    translation_hash: "sha256-797f61e369ca77e1"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-21T19:14:56.033303Z"
+    format_version: 3
