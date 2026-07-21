@@ -1,0 +1,34 @@
+{
+  "created": "2026-07-21T19:17:41.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nContent Updated (Published: July 21, 2026)\n\nAI Summary (Please check the original article for accurate details)\n\nA traffic death alert has been issued for Saitama Prefecture due to 5 fatal traffic accidents occurring between July 10–16, 2026 (Reiwa 8). The alert period runs from July 21–30, 2026 (10 days). Four of these accidents involved cargo vehicles.\n\nFor Pedestrians:\nUse crosswalks and footbridges. When crossing the road, check both directions and use clear hand signals to indicate your intention to cross. During dusk, night, and early morning, wear reflective materials, use lights, or wear bright-colored clothing.\n\nFor Drivers:\nObey the speed limit and maintain safe following distance. Pedestrians have priority at crosswalks; pay special attention to people crossing from the right. When passing near pedestrians or cyclists, maintain safe distance and speed. Turn on headlights early during dusk. At night, use high beams appropriately to spot pedestrians early. When turning right or left, watch carefully for oncoming traffic, pedestrians, and cyclists.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/7837.html",
+  "end": {
+    "date": "2026-07-23"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOW43MHBqZWJiNmM4b2plZDFtODFrNjJyamVkc242NnFia2Y0bjc4cGIzZHRtNmliajNkdG1nIGI2ZjM2ZTE5NzUxYzA1Y2NlOTlmYTAwODI4ZTQyOWY0MGY2ZGIxMDBlMmRiZTQ0MmJjMjYyMmEyNWRhOTczMTZAZw",
+  "iCalUID": "oshirase-7837-fb1746@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9n70pjebb6c8ojed1m81k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/7837.html"
+  },
+  "start": {
+    "date": "2026-07-22"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Traffic Death Alert Issued for Saitama Prefecture",
+  "updated": "2026-07-21T19:17:41.745Z"
+}

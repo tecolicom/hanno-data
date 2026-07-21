@@ -1,0 +1,34 @@
+{
+  "created": "2026-07-21T19:17:37.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 New listing (Published: July 21, 2026)\n\nThe Hanno District Traffic Safety Association is now accepting applications for the Reiwa 8 (2026) Safe Driver Awards.\n\n【Award Categories】\nSix types based on accident-free and violation-free driving records: 10, 15, 20, 25, 30, and 35 years. Periods under 5 years are rounded down. Example: a 19-year 11-month record qualifies for the 15-year award.\n\n【Eligibility Requirements】\n• Must be a member of the Hanno District Traffic Safety Association (membership card required)\n• Have not previously received an award in the same category\n• Have not been sentenced to imprisonment or heavier penalty in the past 10 years, or to a fine or lighter penalty in the past 5 years\n• Must be able to attend the awards ceremony on Saturday, October 31 at the Hidaka City Comprehensive Welfare Center Koryo no Sato (日高市総合福祉センター高麗の郷)\n\n【Application Period and Location】\nDates and hours: August 17 – September 17, 2026, 9:00 a.m. – 5:00 p.m. (closed Saturdays, Sundays, and holidays)\nLocation: Hanno District Traffic Safety Association Office (inside Hanno Police Station)\nDocuments to bring: accident-free/violation-free certificate, Safe Driver Award application form, driver's license, membership card\n\n【How to Obtain the Accident-Free/Violation-Free Certificate】\nApply through a post office using the application form available at any prefectural police station or police box (processing fee: 800 yen), or apply in person at the Center for Automotive Safety and Driver Training office (inside the Saitama Prefectural Police Driving License Center, Konosu City) with a photo ID and seal. Processing takes approximately 2 weeks.\n\nInquiries: 042-973-7047\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/11743.html",
+  "end": {
+    "date": "2026-07-23"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2NHJqOGNwZDZsaTMyb2IzNjUwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-11743-5d1ac1@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h64rj8cpd6li32ob36506gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/11743.html"
+  },
+  "start": {
+    "date": "2026-07-22"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Application period now open for Reiwa 8 (2026) Safe Driver Awards",
+  "updated": "2026-07-21T19:17:38.198Z"
+}

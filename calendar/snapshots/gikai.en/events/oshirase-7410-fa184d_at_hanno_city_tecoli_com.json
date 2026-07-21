@@ -1,0 +1,34 @@
+{
+  "created": "2026-07-21T19:17:40.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🔄 Content updated (published July 21, 2026)\n\nAI summary (please check the original article for accurate details)\n\nHanno Senior College is a training program that teaches care prevention and prepares participants to share this knowledge in the community. There is no fee to participate. All courses are administered by the Kaigo Fukushi-ka (Care and Welfare Division), Chiiki Houkatsu Care Section at Hanno City Hall. Contact: phone 042-973-3753, email shien@city.hanno.lg.jp.\n\n• Kagayaki Supporter Training Course: Trains supporters to work alongside participants at Moo-mai Ikiki Gymnastics (weighted exercise) sessions. Taught by a physical therapist. The course consists of 6 sessions as one set; participants are expected to complete all 6 sessions. Recruitment will be announced in the Hanno municipal newsletter.\n\n• Frailty Prevention Supporter Training Course: Four-part course covering \"exercise,\" \"oral health gymnastics,\" \"recreation,\" and \"hearing and speech disorders.\" Held at Hanno Comprehensive Welfare Center.\n\n• Communication Partner Training Course: Learn basic knowledge about \"speech disorders\" such as aphasia and techniques for assisting conversation. Held May 27, 2027 (Wednesday) from 10:00 to 11:30 a.m. Taught by a speech-language pathologist. Venue: Comprehensive Welfare Center. After completing the course, participants can serve as partners in the monthly \"Communication Lecture\" program.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/kaigo-yobou/7410.html",
+  "end": {
+    "date": "2026-07-23"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOW42Z29qMGJiNmM0b2pnZDM0ODFrNjJyamVkc242NnFia2Y0bjc4cGIzZHRtNmliajNkdG1nIGI2ZjM2ZTE5NzUxYzA1Y2NlOTlmYTAwODI4ZTQyOWY0MGY2ZGIxMDBlMmRiZTQ0MmJjMjYyMmEyNWRhOTczMTZAZw",
+  "iCalUID": "oshirase-7410-fa184d@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9n6goj0bb6c4ojgd3481k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/kaigo-yobou/7410.html"
+  },
+  "start": {
+    "date": "2026-07-22"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Hanno Senior College",
+  "updated": "2026-07-21T19:17:40.515Z"
+}

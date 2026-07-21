@@ -1,0 +1,34 @@
+{
+  "created": "2026-07-21T19:14:28.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🔄 内容更新 (公開日: 2026-07-21)\n\nAI による要約 (正確な情報は元記事をご確認ください)\n\n埼玉県内で令和8年7月10日から7月16日までの7日間に交通死亡事故5件が発生したため、交通死亡事故多発警報が発令されました。\n\n発令期間は令和8年7月21日から7月30日までの10日間です。このうち4件が貨物車両の関係する事故となっています。\n\n歩行者の皆さんへ：横断歩道や歩道橋を利用し、道路を渡るときは左右の安全を確認してハンドサインで横断の意思を明確に伝えてください。夕暮れ・夜間・早朝は反射材やライト、明るい色の服を身につけましょう。\n\nドライバーの皆さんへ：法定速度を遵守し、車間を開けて運転してください。横断歩道は歩行者優先です。特に右側からの横断に注意してください。歩行者や自転車のそばを通るときは安全な間隔と速度で走行し、夕暮れ時は早めに前照灯を点灯してください。夜間はハイビームを適正に使用して歩行者を早期に発見してください。右折・左折時は対向車、歩行者、自転車への注意を徹底してください。\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/7837.html",
+  "end": {
+    "date": "2026-07-23"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOW43MHBqZWJiNmM4b2plZDFtODFrNjJyamVkc242NnFia2Y0bjc4cGIzZHRtNmliajNkdG1nIDY3NDU5MTRiMjQzMjMxMTJhMTVmNDNkYzIwYjNhMGY0YTQ4MTdhZmQ4MDBjOGQxNjg3ZDBiZjBiN2Y4OTBjNjFAZw",
+  "iCalUID": "oshirase-7837-fb1746@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9n70pjebb6c8ojed1m81k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/7837.html"
+  },
+  "start": {
+    "date": "2026-07-22"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 交通死亡事故多発警報の発令について",
+  "updated": "2026-07-21T19:14:28.911Z"
+}
