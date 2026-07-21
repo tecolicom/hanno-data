@@ -1,0 +1,45 @@
+uid: "oshirase-11743-5d1ac1@hanno.city.tecoli.com"
+summary: "ℹ️ 令和8年度優良運転者表彰の申請受付について"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/11743.html"
+dtstart: "2026-07-22"
+dtend: "2026-07-22"
+description: |-
+  🆕 新着掲載 (公開日: 2026-07-21)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  令和8年度優良運転者表彰の申請受付について、飯能地方交通安全協会が受け付けます。
+  
+  【表彰の種類】
+  10年・15年・20年・25年・30年・35年の6種類。無事故・無違反期間の5年未満は切り捨て。例：19年11か月の方は15年表彰対象。
+  
+  【申請要件】
+  ・飯能地方交通安全協会加入（会員証提示が必要）
+  ・過去に同種類の表彰を受けていないこと
+  ・過去10年以内に禁固以上の刑、または5年以内に罰金以下の刑に処せられていないこと
+  ・10月31日（土曜日）の表彰式（日高市総合福祉センター高麗の郷）に出席できること
+  
+  【申請受付】
+  期間：令和8年8月17日～9月17日 午前9時～午後5時（土日祝を除く）
+  場所：飯能地方交通安全協会事務局（飯能警察署内）
+  持参物：無事故・無違反証明書、優良運転者表彰申請書、運転免許証、会員証
+  
+  【無事故・無違反証明書取得方法】
+  県内警察署・交番の申し込み用紙で郵便局から申し込み（手数料800円）、または自動車安全運転センター事務局（埼玉県警察運転免許センター内・鴻巣市）に身分証明書と印鑑持参で直接申し込み。取得に約2週間要します。
+  
+  問い合わせ：042－973－7047
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/11743.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "11743"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/11743.html"
+  fetched_at: "2026-07-21T19:11:40.487366Z"
+  content_hash: "sha256-5d1ac143e9a531ca"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-07-21"

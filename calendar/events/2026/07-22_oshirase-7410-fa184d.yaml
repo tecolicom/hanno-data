@@ -1,0 +1,32 @@
+uid: "oshirase-7410-fa184d@hanno.city.tecoli.com"
+summary: "ℹ️ はんのうシニアカレッジ"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/kaigo-yobou/7410.html"
+dtstart: "2026-07-22"
+dtend: "2026-07-22"
+description: |-
+  🔄 内容更新 (公開日: 2026-07-21)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  はんのうシニアカレッジは、介護予防を学び地域に伝えていく方を養成する講座です。参加費は無料。全講座とも飯能市役所介護福祉課 地域包括ケア担当が申込・問合せ窓口です（電話：042-973-3753、E-mail：shien@city.hanno.lg.jp）。
+  
+  ・かがやきサポーター養成講座：むーまいきいき体操（おもりの体操）の会場で参加者と一緒に活動するサポーターを養成。理学療法士が講師。全6回が1セットで、原則6講座全てを受講する必要があります。募集は広報はんのうに掲載予定。
+  
+  ・フレイル予防サポーター養成講座：「運動」「健口体操」「レクリエーション」「耳と言葉の障害について」の4つの講座でフレイル予防を学習。会場は飯能市総合福祉センター。
+  
+  ・コミュニケーションパートナー養成講座：失語症など「言葉の障害」に関する基礎知識と会話の手助け方法を学ぶ。令和8年5月27日（水曜日）10時から11時30分、講師は言語聴覚士。会場は総合福祉センター。受講後は毎月開催の「コミュニケーション講座」のパートナーとして活躍できます。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/kaigo-yobou/7410.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "7410"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/kaigo-yobou/7410.html"
+  fetched_at: "2026-07-21T19:11:29.717606Z"
+  content_hash: "sha256-fa184dd76da9addc"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-07-21"
