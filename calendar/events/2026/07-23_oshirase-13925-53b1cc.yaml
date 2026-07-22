@@ -1,0 +1,28 @@
+uid: "oshirase-13925-53b1cc@hanno.city.tecoli.com"
+summary: "ℹ️ 各部署の内線番号の変更について"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/13925.html"
+dtstart: "2026-07-23"
+dtend: "2026-07-23"
+description: |-
+  🆕 新着掲載 (公開日: 2026-07-22)
+  
+  令和8年8月31日（月曜日）から市役所内の各部署の内線番号が変更となります。
+  
+  このことに伴い、各部署の内線番号表を掲載いたします。
+  
+  内線番号表 (PDFファイル: 114.9KB)
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/13925.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13925"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/13925.html"
+  fetched_at: "2026-07-22T19:05:33.596356Z"
+  content_hash: "sha256-53b1ccf6852f5fbb"
+  summary_method: "full"
+  publish_date: "2026-07-22"

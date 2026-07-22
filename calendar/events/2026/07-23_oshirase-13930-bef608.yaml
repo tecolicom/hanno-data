@@ -1,0 +1,34 @@
+uid: "oshirase-13930-bef608@hanno.city.tecoli.com"
+summary: "ℹ️ 安全な速度で運転しましょう"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/13930.html"
+dtstart: "2026-07-23"
+dtend: "2026-07-23"
+description: |-
+  🆕 新着掲載 (公開日: 2026-07-21)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  安全な速度で運転することの重要性についての啓発記事です。
+  
+  規制速度を守ることの大切さを説明しています。速度超過による危険性として、以下の点が挙げられています：停止距離が速度に応じて急速に伸びること、衝突時の衝撃力は速度の2乗に比例して大きくなること、歩行者との衝突時の致死率が大幅に上昇することなどです。
+  
+  具体例として、時速30キロメートルから時速60キロメートルに2倍に加速すると、停止距離は約3倍になります。衝突時の衝撃についても、時速40キロメートルで6メートルの高さから落ちるのと同じ衝撃になり、時速60キロメートルでは14メートル、時速80キロメートルでは25メートル、時速100キロメートルでは39メートルの高さから落ちるのと同等の衝撃になります。
+  
+  歩行者との衝突における致死率は、時速30キロメートルで約10％ですが、時速50キロメートルでは80％を超えるとされています。
+  
+  規制速度は道路構造や沿道状況を踏まえて決められており、これを遵守することで交通事故の回避と被害軽減につながります。学校や保育園、スーパー付近、夜間などは特に速度を落とした運転を心がけることが重要です。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/13930.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13930"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/13930.html"
+  fetched_at: "2026-07-22T19:05:48.566968Z"
+  content_hash: "sha256-bef608406a3b13a2"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-07-21"

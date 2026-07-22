@@ -1,0 +1,28 @@
+uid: "oshirase-13880-7be6a2@hanno.city.tecoli.com"
+summary: "ℹ️ 電話自動音声案内および通話録音の運用開始について"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/13880.html"
+dtstart: "2026-07-23"
+dtend: "2026-07-23"
+description: |-
+  🆕 新着掲載 (公開日: 2026-07-22)
+  
+  令和8年8月31日（月曜日）から市役所の代表電話番号（電話番号 973-2111）の電話対応において、自動音声による案内を開始し、このことに伴い各所管課の内線番号も変わります。
+  
+  また、対応品質の向上のため、電話の通話録音を開始します。
+  
+  各部署の内線番号の変更について
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/13880.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13880"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/13880.html"
+  fetched_at: "2026-07-22T19:05:40.368523Z"
+  content_hash: "sha256-7be6a299aade12ec"
+  summary_method: "full"
+  publish_date: "2026-07-22"

@@ -1,0 +1,52 @@
+uid: "oshirase-11587-36d09b@hanno.city.tecoli.com"
+summary: "ℹ️ アライグマ捕獲従事者養成研修会"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/nogyoshinkoka/choju/11587.html"
+dtstart: "2026-07-24"
+dtend: "2026-07-24"
+description: |-
+  🆕 新着掲載 (公開日: 2026-07-23)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  アライグマ捕獲従事者養成研修会を開催します。
+  
+  アライグマは特定外来生物で、繁殖力が強く、農作物や在来の希少生物への食害が問題となっています。本研修会を受講すると、狩猟免許がなくても捕獲従事者証が交付されます。
+  
+  【日時】
+  令和6年8月28日（金曜日）13時30分から16時まで
+  
+  【会場】
+  富士見地区行政センター
+  
+  【参加条件】
+  飯能市内在住、在勤の18歳以上の方
+  
+  【申込方法】
+  住所、氏名、生年月日、連絡先電話番号を農業振興課までご連絡ください
+  
+  【申込期限】
+  8月24日（月曜日）
+  
+  【受講日の持ち物】
+  運転免許証など本人確認ができるもの（研修終了後に従事者証を交付）
+  
+  【その他】
+  ・すでに従事者証をお持ちの方による再講習も可
+  ・市から捕獲用わな1個を貸出
+  ・捕獲したアライグマは市で処分
+  ・1頭当たり2千円の報奨金を予算の範囲内で支給
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/nogyoshinkoka/choju/11587.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "11587"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/nogyoshinkoka/choju/11587.html"
+  fetched_at: "2026-07-22T19:05:32.924628Z"
+  content_hash: "sha256-36d09bf508b7a0d5"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-07-23"

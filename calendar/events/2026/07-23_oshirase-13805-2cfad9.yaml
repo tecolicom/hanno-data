@@ -1,0 +1,43 @@
+uid: "oshirase-13805-2cfad9@hanno.city.tecoli.com"
+summary: "ℹ️ 飯能市包括施設管理業務に係る民間提案制度の公募について (7月21日 追記)"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/13805.html"
+dtstart: "2026-07-23"
+dtend: "2026-07-23"
+description: |-
+  🔄 内容更新 (公開日: 2026-07-22)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  飯能市では、公共施設の維持管理の効率化と民間の創意工夫を活かすため「飯能市包括施設管理業務に係る民間提案制度」を公募しています。
+  
+  【対象施設】市役所本庁舎ほか80施設
+  
+  【募集内容】
+  ・A提案：対象施設の保守点検、法定点検・検査、維持管理、修繕対応等に関する包括施設管理業務の提案
+  ・B提案：包括施設管理業務に付加価値をもたらす任意提案（有料駐車場、広告事業、ネーミングライツ、自動販売機、未利用地活用、ESCO、LED化、省エネ運用、電力調達、DX活用、防災機能強化等）
+  
+  【スケジュール（予定）】
+  令和8年7月：公募開始
+  令和8年7月～8月：参加表明・質問受付、マッチング支援
+  令和8年8月～9月：提案書受付
+  令和8年9月下旬：審査
+  令和8年10月上旬：審査結果公表
+  令和8年10月～令和9年3月：詳細協議
+  令和9年4月1日：業務開始
+  
+  本制度では、複数の事業者間のマッチング支援を行い、専門性を有する事業者等との連携を促進します。実施要領に対する質問への回答（7月21日掲載）も公表しています。詳細は問い合わせまたは実施要領資料をご確認ください。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/13805.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13805"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/13805.html"
+  fetched_at: "2026-07-22T19:05:39.549742Z"
+  content_hash: "sha256-2cfad9a90f0c55fe"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-07-22"
