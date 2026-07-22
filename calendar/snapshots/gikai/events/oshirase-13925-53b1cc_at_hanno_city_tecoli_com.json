@@ -1,0 +1,34 @@
+{
+  "created": "2026-07-22T19:08:55.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🆕 新着掲載 (公開日: 2026-07-22)\n\n令和8年8月31日（月曜日）から市役所内の各部署の内線番号が変更となります。\n\nこのことに伴い、各部署の内線番号表を掲載いたします。\n\n内線番号表 (PDFファイル: 114.9KB)\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/13925.html",
+  "end": {
+    "date": "2026-07-24"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3NqNGQ5ZDZrcG00Y2IzY2QwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSA2NzQ1OTE0YjI0MzIzMTEyYTE1ZjQzZGMyMGIzYTBmNGE0ODE3YWZkODAwYzhkMTY4N2QwYmYwYjdmODkwYzYxQGc",
+  "iCalUID": "oshirase-13925-53b1cc@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6csj4d9d6kpm4cb3cd06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/13925.html"
+  },
+  "start": {
+    "date": "2026-07-23"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 各部署の内線番号の変更について",
+  "updated": "2026-07-22T19:08:55.835Z"
+}

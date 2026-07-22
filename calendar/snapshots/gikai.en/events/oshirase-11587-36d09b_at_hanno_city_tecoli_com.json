@@ -1,0 +1,34 @@
+{
+  "created": "2026-07-22T19:12:44.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n�新 New posting (Published: July 23, 2026)\n\nWe are holding a Raccoon Capture Worker Training Course.\n\nRaccoons are designated invasive species with strong breeding capacity, causing damage to crops and native rare wildlife. After completing this training, you will receive a capture worker certificate without needing a hunting license.\n\n【Date and Time】\nAugust 28, 2024 (Friday) 1:30 p.m. to 4:00 p.m.\n\n【Venue】\nFujimi District Administrative Center\n\n【Eligibility】\nResidents or employees aged 18 and over living or working in Hanno City\n\n【How to Apply】\nContact the Agricultural Promotion Division with your address, name, date of birth, and phone number\n\n【Application Deadline】\nMonday, August 24\n\n【What to Bring on Training Day】\nPhoto ID such as a driver's license (your capture worker certificate will be issued after training)\n\n【Other Information】\n• People who already hold a capture worker certificate may also retake the training\n• The city will loan one capture trap\n• Raccoons that are captured will be disposed of by the city\n• A reward of 2,000 yen per animal will be paid within budget limits\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/nogyoshinkoka/choju/11587.html",
+  "end": {
+    "date": "2026-07-25"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2NHFqZ2RwZDZjcjY4YzFwYzkwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-11587-36d09b@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h64qjgdpd6cr68c1pc906gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/nogyoshinkoka/choju/11587.html"
+  },
+  "start": {
+    "date": "2026-07-24"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Raccoon Capture Worker Training Course",
+  "updated": "2026-07-22T19:12:44.850Z"
+}

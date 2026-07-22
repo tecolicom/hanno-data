@@ -1,0 +1,34 @@
+{
+  "created": "2026-07-22T19:12:41.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 New announcement (published July 22, 2026)\n\nStarting Monday, August 31, 2026 (Reiwa 8), internal extension numbers for departments at Hanno City Hall will change.\n\nWe have posted an updated extension number directory for each department.\n\nExtension number directory (PDF file: 114.9KB)\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/13925.html",
+  "end": {
+    "date": "2026-07-24"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3NqNGQ5ZDZrcG00Y2IzY2QwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-13925-53b1cc@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6csj4d9d6kpm4cb3cd06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/13925.html"
+  },
+  "start": {
+    "date": "2026-07-23"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Changes to internal extension numbers for city hall departments",
+  "updated": "2026-07-22T19:12:41.532Z"
+}

@@ -1,0 +1,34 @@
+{
+  "created": "2026-07-22T19:12:36.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🔄 Content updated (published: July 22, 2026)\n\nAI summary (please check the original article for accurate information)\n\nThe Clean Center is holding a summer holiday parent-child facility tour.\n\n【Date and time】\n• July 23 (Thursday), 10:00 a.m.–11:30 a.m. (registration closed)\n• July 29 (Wednesday), 10:00 a.m.–11:30 a.m. (registration open / additional session)\n\n【Location】Hanno City Clean Center (768-1 Shimohata, Hanno City) / parking available\n\n【Who can attend】Elementary school students and guardians living in Hanno City (preschool children may accompany)\n\n【Capacity】About 15 groups (first come, first served)\n\n【What to do】Facility tour and simple craft workshop using cooling packs\n\n【Application period】July 9 (Thursday)–July 28 (Tuesday), noon\n\n【How to apply】Contact by phone or email (clean@city.hanno.lg.jp) and provide:\n• Names of child and guardian\n• Child's school name and grade\n• Contact information\n\n※ July 23 registration is closed. The additional session on July 29 is currently accepting applications.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/cleancenter/13174.html",
+  "end": {
+    "date": "2026-07-24"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y29qZWQxZDZnb2phZHI2YzkwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-13174-4157fb@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6cojed1d6gojadr6c906gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/cleancenter/13174.html"
+  },
+  "start": {
+    "date": "2026-07-23"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 【Deadline approaching】Clean Center summer holiday parent-child facility tour",
+  "updated": "2026-07-22T19:12:37.181Z"
+}

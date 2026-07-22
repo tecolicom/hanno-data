@@ -1,0 +1,34 @@
+{
+  "created": "2026-07-22T19:12:42.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nNew post (published: July 21, 2026)\n\nAI summary (check the original article for accurate details)\n\nThis is an awareness article about the importance of driving at a safe speed.\n\nIt explains why obeying speed limits matters. The dangers of speeding include: stopping distance increases rapidly with speed, impact force during a crash is proportional to the square of speed, and the fatality rate in pedestrian collisions rises sharply.\n\nAs a concrete example, if you double your speed from 30 km/h to 60 km/h, your stopping distance increases by roughly three times. For impact force: at 40 km/h, the collision impact equals falling from a 6-meter height. At 60 km/h it equals a 14-meter fall, at 80 km/h it equals a 25-meter fall, and at 100 km/h it equals a 39-meter fall.\n\nIn pedestrian collisions, the fatality rate is about 10% at 30 km/h, but exceeds 80% at 50 km/h.\n\nSpeed limits are set based on road structure and surrounding conditions. Following them prevents traffic accidents and reduces injury. Pay special attention to slowing down near schools, childcare facilities, supermarkets, and when driving at night.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/13930.html",
+  "end": {
+    "date": "2026-07-24"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3NqNmMxZGM5aW1jZGhnNzEwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-13930-bef608@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6csj6c1dc9imcdhg7106gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/13930.html"
+  },
+  "start": {
+    "date": "2026-07-23"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Drive at a safe speed",
+  "updated": "2026-07-22T19:12:42.988Z"
+}

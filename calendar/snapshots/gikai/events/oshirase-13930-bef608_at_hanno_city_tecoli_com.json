@@ -1,0 +1,34 @@
+{
+  "created": "2026-07-22T19:08:57.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🆕 新着掲載 (公開日: 2026-07-21)\n\nAI による要約 (正確な情報は元記事をご確認ください)\n\n安全な速度で運転することの重要性についての啓発記事です。\n\n規制速度を守ることの大切さを説明しています。速度超過による危険性として、以下の点が挙げられています：停止距離が速度に応じて急速に伸びること、衝突時の衝撃力は速度の2乗に比例して大きくなること、歩行者との衝突時の致死率が大幅に上昇することなどです。\n\n具体例として、時速30キロメートルから時速60キロメートルに2倍に加速すると、停止距離は約3倍になります。衝突時の衝撃についても、時速40キロメートルで6メートルの高さから落ちるのと同じ衝撃になり、時速60キロメートルでは14メートル、時速80キロメートルでは25メートル、時速100キロメートルでは39メートルの高さから落ちるのと同等の衝撃になります。\n\n歩行者との衝突における致死率は、時速30キロメートルで約10％ですが、時速50キロメートルでは80％を超えるとされています。\n\n規制速度は道路構造や沿道状況を踏まえて決められており、これを遵守することで交通事故の回避と被害軽減につながります。学校や保育園、スーパー付近、夜間などは特に速度を落とした運転を心がけることが重要です。\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/13930.html",
+  "end": {
+    "date": "2026-07-24"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3NqNmMxZGM5aW1jZGhnNzEwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSA2NzQ1OTE0YjI0MzIzMTEyYTE1ZjQzZGMyMGIzYTBmNGE0ODE3YWZkODAwYzhkMTY4N2QwYmYwYjdmODkwYzYxQGc",
+  "iCalUID": "oshirase-13930-bef608@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6csj6c1dc9imcdhg7106gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/13930.html"
+  },
+  "start": {
+    "date": "2026-07-23"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 安全な速度で運転しましょう",
+  "updated": "2026-07-22T19:08:57.499Z"
+}
