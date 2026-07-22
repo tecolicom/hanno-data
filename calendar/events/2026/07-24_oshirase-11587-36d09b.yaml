@@ -50,3 +50,44 @@ source:
   content_hash: "sha256-36d09bf508b7a0d5"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-07-23"
+translations:
+  en:
+    summary: "ℹ️ Raccoon Capture Worker Training Course"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      �新 New posting (Published: July 23, 2026)
+      
+      We are holding a Raccoon Capture Worker Training Course.
+      
+      Raccoons are designated invasive species with strong breeding capacity, causing damage to crops and native rare wildlife. After completing this training, you will receive a capture worker certificate without needing a hunting license.
+      
+      【Date and Time】
+      August 28, 2024 (Friday) 1:30 p.m. to 4:00 p.m.
+      
+      【Venue】
+      Fujimi District Administrative Center
+      
+      【Eligibility】
+      Residents or employees aged 18 and over living or working in Hanno City
+      
+      【How to Apply】
+      Contact the Agricultural Promotion Division with your address, name, date of birth, and phone number
+      
+      【Application Deadline】
+      Monday, August 24
+      
+      【What to Bring on Training Day】
+      Photo ID such as a driver's license (your capture worker certificate will be issued after training)
+      
+      【Other Information】
+      • People who already hold a capture worker certificate may also retake the training
+      • The city will loan one capture trap
+      • Raccoons that are captured will be disposed of by the city
+      • A reward of 2,000 yen per animal will be paid within budget limits
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/nogyoshinkoka/choju/11587.html
+    translation_hash: "sha256-4dc49e4895b69941"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-22T19:09:40.140327Z"
+    format_version: 3

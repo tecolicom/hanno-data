@@ -32,3 +32,28 @@ source:
   content_hash: "sha256-bef608406a3b13a2"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-07-21"
+translations:
+  en:
+    summary: "ℹ️ Drive at a safe speed"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      New post (published: July 21, 2026)
+      
+      AI summary (check the original article for accurate details)
+      
+      This is an awareness article about the importance of driving at a safe speed.
+      
+      It explains why obeying speed limits matters. The dangers of speeding include: stopping distance increases rapidly with speed, impact force during a crash is proportional to the square of speed, and the fatality rate in pedestrian collisions rises sharply.
+      
+      As a concrete example, if you double your speed from 30 km/h to 60 km/h, your stopping distance increases by roughly three times. For impact force: at 40 km/h, the collision impact equals falling from a 6-meter height. At 60 km/h it equals a 14-meter fall, at 80 km/h it equals a 25-meter fall, and at 100 km/h it equals a 39-meter fall.
+      
+      In pedestrian collisions, the fatality rate is about 10% at 30 km/h, but exceeds 80% at 50 km/h.
+      
+      Speed limits are set based on road structure and surrounding conditions. Following them prevents traffic accidents and reduces injury. Pay special attention to slowing down near schools, childcare facilities, supermarkets, and when driving at night.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/13930.html
+    translation_hash: "sha256-62f135f4d7e04552"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-22T19:09:36.297712Z"
+    format_version: 3

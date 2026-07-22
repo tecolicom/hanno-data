@@ -41,3 +41,36 @@ source:
   content_hash: "sha256-2cfad9a90f0c55fe"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-07-22"
+translations:
+  en:
+    summary: "ℹ️ Hanno City is recruiting private-sector proposals for comprehensive facility management services (Updated July 21)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content Update (Published: July 22, 2026)
+      
+      Hanno City is seeking private-sector proposals for its "Comprehensive Facility Management Business Private Proposal System" to improve efficiency in maintaining public facilities and leverage private-sector innovation and ideas.
+      
+      【Target Facilities】
+      City Hall main building and 80 other facilities
+      
+      【Proposals Sought】
+      • Type A: Comprehensive facility management proposals covering maintenance and inspections, legally required inspections and tests, upkeep, repairs, and related services for target facilities
+      • Type B: Optional value-added proposals for comprehensive facility management (paid parking, advertising, naming rights, vending machines, unused land development, energy service contracts, LED conversion, energy-efficient operations, power procurement, digital transformation, disaster prevention enhancements, etc.)
+      
+      【Schedule (Tentative)】
+      July 2026 (Reiwa 8): Recruitment begins
+      July–August 2026: Participation declaration and question intake; matching support
+      August–September 2026: Proposal submission period
+      Late September 2026: Review process
+      Early October 2026: Review results announced
+      October 2026–March 2027: Detailed negotiations
+      April 1, 2027: Operations begin
+      
+      The system provides matching support between multiple businesses to promote partnerships with specialized contractors. Answers to questions about the implementation guidelines (posted July 21) are now available. For details, contact the city or review the implementation guidelines document.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/13805.html
+    translation_hash: "sha256-9af5ddb5cb8565f8"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-22T19:09:28.966740Z"
+    format_version: 3

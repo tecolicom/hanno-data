@@ -26,3 +26,22 @@ source:
   content_hash: "sha256-53b1ccf6852f5fbb"
   summary_method: "full"
   publish_date: "2026-07-22"
+translations:
+  en:
+    summary: "ℹ️ Changes to internal extension numbers for city hall departments"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New announcement (published July 22, 2026)
+      
+      Starting Monday, August 31, 2026 (Reiwa 8), internal extension numbers for departments at Hanno City Hall will change.
+      
+      We have posted an updated extension number directory for each department.
+      
+      Extension number directory (PDF file: 114.9KB)
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/13925.html
+    translation_hash: "sha256-9de2d7b43e66247c"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-22T19:09:32.994820Z"
+    format_version: 3
