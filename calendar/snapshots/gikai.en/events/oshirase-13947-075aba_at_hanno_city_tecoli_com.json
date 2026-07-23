@@ -1,0 +1,34 @@
+{
+  "created": "2026-07-23T19:13:20.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n�新 New listing (published: July 23, 2026)\n\nAI summary (please check the original article for accurate details)\n\nOn Saturday, August 1, 2026 (Reiwa 8), from 4:30 p.m. to 9 p.m., the Hanno Summer Solstice Festival – Forest, Water & Sun Beer Garden will take place at Hanno Riverbed Stage Plaza (飯能河原ステージ広場). This event celebrates the Nordic summer solstice and features food and drink vendors (including alcohol) in food trucks, bonfires, and live violin and guitar performances by the TSUMUZI band. The event aims to bring together residents and visitors from outside the city to promote community vitality.\n\nThe event will proceed in light rain, but will be cancelled if conditions make safety difficult—such as typhoons, heavy rain, lightning, or river flooding. If cancelled, the announcement will be posted on the Oku Musashi Hanno Tourism Association website. We look forward to welcoming you, your family, and friends!\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/sangakukanrenkei/13947.html",
+  "end": {
+    "date": "2026-07-25"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3NqOGRwZDYwcmphb2IyYzUwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-13947-075aba@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6csj8dpd60rjaob2c506gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/sangakukanrenkei/13947.html"
+  },
+  "start": {
+    "date": "2026-07-24"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Hanno Summer Solstice Festival – Forest, Water & Sun Beer Garden will be held!",
+  "updated": "2026-07-23T19:13:20.411Z"
+}

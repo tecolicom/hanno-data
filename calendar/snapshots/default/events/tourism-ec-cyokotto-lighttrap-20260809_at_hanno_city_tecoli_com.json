@@ -1,0 +1,35 @@
+{
+  "created": "2026-07-23T19:09:47.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 18:30–20:30\n\n飯能エコツーリズム協会: https://hanno-tourism.jp/hanno-eco/tour/ec-cyokotto-lighttrap/\n\n普段なかなか歩くことのできない夜の森を、専門のガイドが夜活動する生きものを探しながらご案内します。今回はライトトラップも使って、灯りに集まる夏の昆虫をご紹介したいと思います。夜の森ならではのワクワク、ドキドキを体験しながら、自然や生きものの面白さ・大切さをお伝えします。\n\n【利用料金】一人2,500円、リピーター2,000円、一家族5,000円 （保険、ガイド料）\n\n【定員】20名\n\n【ガイド】児嶋翼（飯能市エコツーリズム市民ガイドの会 いきもの部）\n\n【持ち物】ライト（あればヘッドライト）、飲み物、雨具、リュックサックなど（両手が空くものがおすすめ）、タオル、虫よけスプレー、長袖・長ズボン、履きなれた滑りにくい運動靴、帽子",
+  "end": {
+    "date": "2026-08-10"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bGhuaXJyYmR0cTc4cnBkZGhrbWVxM2tlaHA2MnMxZDY4bzM0ZGhnNzBvM2lnMzhjNW42c3JwZWNka244dTllZWhpbTZycmNkNG42NnJyZCAyMDU0MDNjOTcxZGM1ZWYyMWVmZDgxYzFkNTM4NDljYWRmZDkwMWI3NWM3N2Q4ODk1NWQ5NjAwZjQ1ZjJhMDEzQGc",
+  "iCalUID": "tourism-ec-cyokotto-lighttrap-20260809@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqpb35lhnirrbdtq78rpddhkmeq3kehp62s1d68o34dhg70o3ig38c5n6srpecdkn8u9eehim6rrcd4n66rrd",
+  "kind": "calendar#event",
+  "location": "集合 飯能市中央公園トイレ前（国際興業バス「OH!!!・天覧山下」下車徒歩1分）",
+  "organizer": {
+    "displayName": "飯能カレンダー",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-cyokotto-lighttrap/"
+  },
+  "start": {
+    "date": "2026-08-09"
+  },
+  "status": "confirmed",
+  "summary": "ちょこっとお手軽ツアー〜夜の生きもの探しとライトトラップ〜",
+  "updated": "2026-07-23T19:09:48.014Z"
+}

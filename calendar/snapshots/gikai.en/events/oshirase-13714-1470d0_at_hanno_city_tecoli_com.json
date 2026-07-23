@@ -1,0 +1,34 @@
+{
+  "created": "2026-07-23T19:13:18.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🔄 Content updated (published July 13, 2026)\n\nSummary by AI (please verify details at the original source)\n\nSeven tourist public restrooms that were closed as part of Hanno City's emergency fiscal measures will reopen.\n\n【Reopening Schedule】\n• Takedera Tourist Public Restroom (704 Minami): reopens July 1\n• Takedera Entrance Tourist Public Restroom (1 750 Minami): reopens July 1\n• Adera Suwa Shrine Tourist Public Restroom (1843 Nagasawa): reopens July 1\n• Ozawa Tourist Public Restroom (1128-1 Shimo-Naguri): reopens July 1\n• Kawamata Tourist Public Restroom (558-1 Shimo-Naguri): reopens July 1\n• Nakai Tourist Public Restroom (219 Nakai): reopens July 13\n• Hanno Tourism Information Center Tourist Public Restroom (1051-8 Hanno): reopens July 24\n\nReopening dates will be updated as needed.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/kanko/13714.html",
+  "end": {
+    "date": "2026-07-25"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3JqMmQxZDY0cTNlYzM0NjEwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-13714-1470d0@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6crj2d1d64q3ec346106gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/kanko/13714.html"
+  },
+  "start": {
+    "date": "2026-07-24"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Seven tourist public restrooms reopen",
+  "updated": "2026-07-23T19:13:19.137Z"
+}
