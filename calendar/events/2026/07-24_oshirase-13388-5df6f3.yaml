@@ -1,0 +1,42 @@
+uid: "oshirase-13388-5df6f3@hanno.city.tecoli.com"
+summary: "ℹ️ 【令和8年度】報道発表資料"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025_1/13388.html"
+dtstart: "2026-07-24"
+dtend: "2026-07-24"
+description: |-
+  🔄 内容更新 (公開日: 2026-06-03)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  はんのう夏至祭森と水と太陽のビアガーデンを開催します。詳細は報道発表資料（PDF）をご確認ください。
+  
+  飯能市自由テーマ型民間提案制度のガイドラインを策定し、飯能市包括施設管理業務に係る民間提案制度による公募を実施します。詳細は報道発表資料（PDF）をご確認ください。
+  
+  いじめ重大事態に関する調査報告書（公表版）を公表しました。詳細は報道発表資料（PDF）をご確認ください。
+  
+  旧向原団地跡地の活用に係るサウンディング型市場調査を実施します。詳細は報道発表資料およびサウンディング実施要領（PDF）をご確認ください。
+  
+  飯能市では通年でノーネクタイ等の実施を行っています。詳細は報道発表資料（PDF）をご確認ください。
+  
+  青梅信用金庫から飯能市へ寄附をいただきました。詳細は報道発表資料（PDF）をご確認ください。
+  
+  有間エリア水源林保全プロジェクト（通称「クマタカとヤマネの森プロジェクト」）を始動します。詳細は報道発表資料（PDF）をご確認ください。
+  
+  飯能ロータリークラブ様から飯能市への寄附金贈呈式を行いました。詳細は報道発表資料（PDF）をご確認ください。
+  
+  MXモバイリング株式会社から企業版ふるさと納税による寄附をいただきました。詳細は報道発表資料（PDF）をご確認ください。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025_1/13388.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13388"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025_1/13388.html"
+  fetched_at: "2026-07-23T19:06:54.124623Z"
+  content_hash: "sha256-5df6f3fa8d24e384"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-06-03"

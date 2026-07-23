@@ -1,0 +1,43 @@
+uid: "oshirase-9371-4a2811@hanno.city.tecoli.com"
+summary: "ℹ️ 日本語学習支援者（ボランティア）養成講座"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jitishinkoka/9371.html"
+dtstart: "2026-07-24"
+dtend: "2026-07-24"
+description: |-
+  🆕 新着掲載 (公開日: 2026-07-23)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  飯能市国際交流協会と連携した日本語学習支援者（ボランティア）養成講座を開催します。在住外国人の日本語学習をサポートするボランティアの養成・スキルアップが目的で、未経験者も参加できます。
+  
+  【日時・内容】
+  ・8月20日（木曜日）19時30分～21時：初心者・浅い経験者向け
+  ・8月27日（木曜日）19時30分～21時：経験者向け
+  
+  【場所】富士見地区行政センター
+  
+  【定員】各日程15名
+  
+  【持ち物】「みんなの日本語初級1・2」（スリーエーネットワーク出版）。お持ちでない場合は貸出し可能（数に限りあり）
+  
+  【申込方法】開催日までにメール・電話・ファクスのいずれかで、氏名・電話番号・希望日程・教科書貸出し要否をご連絡ください。
+  
+  【申込先】自治振興課
+  メール：jiti2@city.hanno.lg.jp
+  電話：042-973-2626
+  ファクス：042-972-8455
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jitishinkoka/9371.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "9371"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jitishinkoka/9371.html"
+  fetched_at: "2026-07-23T19:06:23.003567Z"
+  content_hash: "sha256-4a2811324d7950af"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-07-23"

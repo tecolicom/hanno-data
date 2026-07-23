@@ -1,0 +1,30 @@
+uid: "tourism-ec-cyokotto-lighttrap-20260809@hanno.city.tecoli.com"
+summary: "ちょこっとお手軽ツアー〜夜の生きもの探しとライトトラップ〜"
+location: "集合 飯能市中央公園トイレ前（国際興業バス「OH!!!・天覧山下」下車徒歩1分）"
+url: "https://hanno-tourism.jp/hanno-eco/tour/ec-cyokotto-lighttrap/"
+dtstart: "2026-08-09T18:30:00+09:00"
+dtend: "2026-08-09T20:30:00+09:00"
+description: |-
+  飯能エコツーリズム協会: https://hanno-tourism.jp/hanno-eco/tour/ec-cyokotto-lighttrap/
+  
+  普段なかなか歩くことのできない夜の森を、専門のガイドが夜活動する生きものを探しながらご案内します。今回はライトトラップも使って、灯りに集まる夏の昆虫をご紹介したいと思います。夜の森ならではのワクワク、ドキドキを体験しながら、自然や生きものの面白さ・大切さをお伝えします。
+  
+  【利用料金】一人2,500円、リピーター2,000円、一家族5,000円 （保険、ガイド料）
+  
+  【定員】20名
+  
+  【ガイド】児嶋翼（飯能市エコツーリズム市民ガイドの会 いきもの部）
+  
+  【持ち物】ライト（あればヘッドライト）、飲み物、雨具、リュックサックなど（両手が空くものがおすすめ）、タオル、虫よけスプレー、長袖・長ズボン、履きなれた滑りにくい運動靴、帽子
+
+render:
+  gcal:
+    mode: single-allday
+    time_marker: "18:30–20:30"
+
+source:
+  type: hanno-tourism-jp
+  id: "ec-cyokotto-lighttrap"
+  url: "https://hanno-tourism.jp/hanno-eco/tour/ec-cyokotto-lighttrap/"
+  fetched_at: "2026-07-23T19:05:56.627500Z"
+  content_hash: "sha256-4d4cb5cecf7e1c9a"
