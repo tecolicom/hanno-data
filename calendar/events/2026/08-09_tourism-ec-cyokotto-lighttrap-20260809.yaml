@@ -28,3 +28,24 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-cyokotto-lighttrap/"
   fetched_at: "2026-07-23T19:05:56.627500Z"
   content_hash: "sha256-4d4cb5cecf7e1c9a"
+translations:
+  en:
+    summary: "Easy Night Nature Tour: Nocturnal Wildlife Search & Light Trap"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Ecotourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-cyokotto-lighttrap/
+      
+      A specialist guide will lead you through the forest at night—a place most people rarely visit after dark—to search for nocturnal wildlife. This tour will also use a light trap to introduce summer insects attracted to light. Experience the wonder and excitement of the night forest while learning about the fascination and importance of nature and its creatures.
+      
+      【Fee】¥2,500 per person, ¥2,000 for repeat visitors, ¥5,000 per family (includes insurance and guide)
+      
+      【Capacity】20 people
+      
+      【Guide】Tsubasa Kojima (Wildlife Section, Hanno Ecotourism Citizen Guides Association)
+      
+      【What to bring】Flashlight (headlamp recommended), drinking water, rain gear, backpack or similar (something that keeps both hands free is best), towel, insect repellent spray, long sleeves and long pants, well-fitting non-slip athletic shoes, hat
+    translation_hash: "sha256-083373f556d274d0"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-23T19:10:23.811954Z"
+    format_version: 3

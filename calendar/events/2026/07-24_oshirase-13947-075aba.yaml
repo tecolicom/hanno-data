@@ -24,3 +24,22 @@ source:
   content_hash: "sha256-075aba2be9d27b85"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-07-23"
+translations:
+  en:
+    summary: "ℹ️ Hanno Summer Solstice Festival – Forest, Water & Sun Beer Garden will be held!"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      �新 New listing (published: July 23, 2026)
+      
+      AI summary (please check the original article for accurate details)
+      
+      On Saturday, August 1, 2026 (Reiwa 8), from 4:30 p.m. to 9 p.m., the Hanno Summer Solstice Festival – Forest, Water & Sun Beer Garden will take place at Hanno Riverbed Stage Plaza (飯能河原ステージ広場). This event celebrates the Nordic summer solstice and features food and drink vendors (including alcohol) in food trucks, bonfires, and live violin and guitar performances by the TSUMUZI band. The event aims to bring together residents and visitors from outside the city to promote community vitality.
+      
+      The event will proceed in light rain, but will be cancelled if conditions make safety difficult—such as typhoons, heavy rain, lightning, or river flooding. If cancelled, the announcement will be posted on the Oku Musashi Hanno Tourism Association website. We look forward to welcoming you, your family, and friends!
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/sangakukanrenkei/13947.html
+    translation_hash: "sha256-7ae45de34dc491a0"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-23T19:10:17.044720Z"
+    format_version: 3

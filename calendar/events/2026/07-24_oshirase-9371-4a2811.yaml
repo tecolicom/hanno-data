@@ -41,3 +41,37 @@ source:
   content_hash: "sha256-4a2811324d7950af"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-07-23"
+translations:
+  en:
+    summary: "ℹ️ Japanese Language Volunteer Training Course"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      �新 New listing (Posted: July 23, 2026)
+      
+      AI summary (check the original article for complete details)
+      
+      Hanno City is hosting a Japanese language volunteer training course in partnership with the Hanno International Exchange Association. The course aims to train and upgrade skills for volunteers supporting Japanese language learning among foreign residents. No prior experience required.
+      
+      【Date and content】
+      • August 20 (Thursday) 7:30 PM–9:00 PM: For beginners and those with minimal experience
+      • August 27 (Thursday) 7:30 PM–9:00 PM: For experienced volunteers
+      
+      【Location】Fujimi District Administrative Center
+      
+      【Capacity】Up to 15 people per session
+      
+      【What to bring】"Minna no Nihongo Shokyu 1・2" (published by 3A Network). If you don't have a copy, lending is available (limited quantity).
+      
+      【How to apply】Contact us by email, phone, or fax before the event date with your name, phone number, preferred date, and whether you need to borrow a textbook.
+      
+      【Contact】Community Promotion Division
+      Email: jiti2@city.hanno.lg.jp
+      Phone: 042-973-2626
+      Fax: 042-972-8455
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jitishinkoka/9371.html
+    translation_hash: "sha256-7984de40559ae48b"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-23T19:10:20.697518Z"
+    format_version: 3

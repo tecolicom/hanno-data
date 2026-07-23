@@ -35,3 +35,31 @@ source:
   content_hash: "sha256-1470d0e09d1545d0"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-07-13"
+translations:
+  en:
+    summary: "ℹ️ Seven tourist public restrooms reopen"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content updated (published July 13, 2026)
+      
+      Summary by AI (please verify details at the original source)
+      
+      Seven tourist public restrooms that were closed as part of Hanno City's emergency fiscal measures will reopen.
+      
+      【Reopening Schedule】
+      • Takedera Tourist Public Restroom (704 Minami): reopens July 1
+      • Takedera Entrance Tourist Public Restroom (1 750 Minami): reopens July 1
+      • Adera Suwa Shrine Tourist Public Restroom (1843 Nagasawa): reopens July 1
+      • Ozawa Tourist Public Restroom (1128-1 Shimo-Naguri): reopens July 1
+      • Kawamata Tourist Public Restroom (558-1 Shimo-Naguri): reopens July 1
+      • Nakai Tourist Public Restroom (219 Nakai): reopens July 13
+      • Hanno Tourism Information Center Tourist Public Restroom (1051-8 Hanno): reopens July 24
+      
+      Reopening dates will be updated as needed.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/kanko/13714.html
+    translation_hash: "sha256-f45a8cfa42bd4a9a"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-23T19:10:13.516780Z"
+    format_version: 3
