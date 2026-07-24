@@ -1,0 +1,34 @@
+{
+  "created": "2026-07-24T19:21:00.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🆕 新着掲載 (公開日: 2026-07-22)\n\nAI による要約 (正確な情報は元記事をご確認ください)\n\nスポーツ活動における熱中症予防についての注意喚起です。室内外を問わず、スポーツ活動時は休息と水分補給を十分に取り、体調管理を厳しく行い、熱中症に注意してください。特に夏季は気温や時間帯を考慮した予約をお願いします。\n\n予防のため、環境省が発表する熱中症警戒アラート・熱中症特別警戒アラート、および暑さ指数（WBGT）の情報を活用してください。メール配信サービスやLINEアプリで暑さ指数の予測値・実況値を把握できます。\n\n熱中症予防のため市内有料体育施設の利用を取りやめた場合は、使用料を還付します。\n【都市公園運動施設】市民体育館 042-972-6506\n【飯能第一中学校屋外照明施設】生涯学習スポーツ課 042-973-2111（代表）\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/syogaigakusyu-sports/sports/13949.html",
+  "end": {
+    "date": "2026-07-26"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3NqOGU5ZGNvb2owb2htNmgwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSA2NzQ1OTE0YjI0MzIzMTEyYTE1ZjQzZGMyMGIzYTBmNGE0ODE3YWZkODAwYzhkMTY4N2QwYmYwYjdmODkwYzYxQGc",
+  "iCalUID": "oshirase-13949-f10b64@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6csj8e9dcooj0ohm6h06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/syogaigakusyu-sports/sports/13949.html"
+  },
+  "start": {
+    "date": "2026-07-25"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ スポーツ活動における熱中症予防について",
+  "updated": "2026-07-24T19:21:00.952Z"
+}

@@ -1,0 +1,34 @@
+{
+  "created": "2026-07-24T19:24:36.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 New post (published July 22, 2026 / Reiwa 8)\n\nSummary by AI (please check the original article for accurate information)\n\nAlert about heat stroke prevention during sports activities. Whether indoors or outdoors, take sufficient breaks and drink water during sports, manage your health carefully, and watch out for heat stroke. In summer especially, please book activities with attention to temperature and time of day.\n\nFor prevention, use information from the Ministry of the Environment's Heat Stroke Alert and Special Heat Stroke Alert, as well as the Wet Bulb Globe Temperature (WBGT) index. You can check predicted and actual WBGT values through email distribution services or the LINE app.\n\nIf you cancel your use of a paid public sports facility in Hanno City due to heat stroke prevention concerns, your usage fee will be refunded.\n\n【Urban Park Sports Facilities】Hanno Citizens' Gymnasium: 042-972-6506\n【Hanno First Junior High School Outdoor Lighting Facility】Lifelong Learning and Sports Division: 042-973-2111 (Main number)\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/syogaigakusyu-sports/sports/13949.html",
+  "end": {
+    "date": "2026-07-26"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3NqOGU5ZGNvb2owb2htNmgwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-13949-f10b64@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6csj8e9dcooj0ohm6h06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/syogaigakusyu-sports/sports/13949.html"
+  },
+  "start": {
+    "date": "2026-07-25"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Heat stroke prevention during sports activities",
+  "updated": "2026-07-24T19:24:37.207Z"
+}
