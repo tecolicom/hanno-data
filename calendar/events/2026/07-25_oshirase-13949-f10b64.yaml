@@ -30,3 +30,27 @@ source:
   content_hash: "sha256-f10b646970594ef9"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-07-22"
+translations:
+  en:
+    summary: "ℹ️ Heat stroke prevention during sports activities"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New post (published July 22, 2026 / Reiwa 8)
+      
+      Summary by AI (please check the original article for accurate information)
+      
+      Alert about heat stroke prevention during sports activities. Whether indoors or outdoors, take sufficient breaks and drink water during sports, manage your health carefully, and watch out for heat stroke. In summer especially, please book activities with attention to temperature and time of day.
+      
+      For prevention, use information from the Ministry of the Environment's Heat Stroke Alert and Special Heat Stroke Alert, as well as the Wet Bulb Globe Temperature (WBGT) index. You can check predicted and actual WBGT values through email distribution services or the LINE app.
+      
+      If you cancel your use of a paid public sports facility in Hanno City due to heat stroke prevention concerns, your usage fee will be refunded.
+      
+      【Urban Park Sports Facilities】Hanno Citizens' Gymnasium: 042-972-6506
+      【Hanno First Junior High School Outdoor Lighting Facility】Lifelong Learning and Sports Division: 042-973-2111 (Main number)
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/syogaigakusyu-sports/sports/13949.html
+    translation_hash: "sha256-921fea107207a5ed"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-24T19:21:35.510926Z"
+    format_version: 3
