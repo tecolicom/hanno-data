@@ -40,3 +40,36 @@ source:
   content_hash: "sha256-5df6f3fa8d24e384"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-06-03"
+translations:
+  en:
+    summary: "ℹ️ Press Release Materials (Fiscal Year 2026)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content updated (Published: June 3, 2026)
+      
+      AI summary (please check the original press releases for accurate information)
+      
+      Hanno Summer Solstice Festival Beer Garden (Forest, Water, and Sun) will be held. See the press release (PDF) for details.
+      
+      Hanno City has established guidelines for its free-theme private proposal system and will accept public applications for private proposals related to comprehensive facility management operations. See the press release (PDF) for details.
+      
+      The investigation report (public version) on a serious bullying incident has been published. See the press release (PDF) for details.
+      
+      A market sounding survey will be conducted regarding the use of the former Mukaihara housing complex site. See the press release and sounding implementation guidelines (PDF) for details.
+      
+      Hanno City implements no-necktie practices year-round. See the press release (PDF) for details.
+      
+      Hanno City received a donation from Ome Shinkin Bank. See the press release (PDF) for details.
+      
+      The Arima area water source forest conservation project (nicknamed the "Hawk Eagle and Japanese Dormouse Forest Project") has launched. See the press release (PDF) for details.
+      
+      A donation presentation ceremony was held from Hanno Rotary Club to Hanno City. See the press release (PDF) for details.
+      
+      Hanno City received a donation from MX Mobiling Co., Ltd. through the Corporate Hometown Tax program. See the press release (PDF) for details.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025_1/13388.html
+    translation_hash: "sha256-89bb4c545d8f35b8"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-25T19:03:05.871293Z"
+    format_version: 3
