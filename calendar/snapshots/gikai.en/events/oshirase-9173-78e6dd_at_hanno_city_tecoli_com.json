@@ -1,0 +1,34 @@
+{
+  "created": "2026-07-27T19:26:35.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 New listing (Published: July 23, 2026)\n\nAI summary (please verify details in the original article)\n\nOn September 5, 2026 (Saturday), 1:30 p.m. to 3:30 p.m., at Seimei District Administrative Center, licensed architects will hold a free earthquake-resistance consultation for wooden homes.\n\nEligibility: Owners of wooden houses in Hanno City that are 2 stories or fewer and where construction began on or before May 31, 2000 (Heisei 12). However, homes built between June 1981 (Showa 56) and May 2000 must have received a result of \"professional verification needed\" from the Japan Building Disaster Prevention Association's \"Wooden House Earthquake-Resistance Performance Check.\"\n\nHow to apply: By Friday, August 21, 2026 (Reiwa 8), bring any architectural drawings or documents attached to your building confirmation application and visit the Building Division counter on the 2nd floor of the main Hanno City Hall building. You will fill out a checklist when you register.\n\nThe diagnosis does not include an on-site survey. The architects will provide a general indication of earthquake-resistance based on drawings and other available information.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/kenchikuka/oshirase/9173.html",
+  "end": {
+    "date": "2026-07-29"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOXA2NHJqNmI5bjcxaWpjcDM0ODFrNjJyamVkc242NnFia2Y0bjc4cGIzZHRtNmliajNkdG1nIGI2ZjM2ZTE5NzUxYzA1Y2NlOTlmYTAwODI4ZTQyOWY0MGY2ZGIxMDBlMmRiZTQ0MmJjMjYyMmEyNWRhOTczMTZAZw",
+  "iCalUID": "oshirase-9173-78e6dd@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9p64rj6b9n71ijcp3481k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/kenchikuka/oshirase/9173.html"
+  },
+  "start": {
+    "date": "2026-07-28"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Free earthquake-resistance consultation with licensed architects",
+  "updated": "2026-07-27T19:26:35.980Z"
+}

@@ -1,0 +1,34 @@
+{
+  "created": "2026-07-27T19:22:59.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "📝 市長ブログ更新 (公開日: 2026-07-19)\n\n7月18日（土曜日）・19日（日曜日）の2日間、飯能の夏の風物詩「飯能夏祭り」が盛大に開催され、多くの人出で賑わいました。\n\n19日（日曜日）本祭り当日は、飯能ケーブルテレビ様の「飯能夏祭り2026」に出演させていただきました。\n\n市内10か町の底抜け屋台の華やかな囃子の音色や市街地各所で行われた引き合わせでの迫力ある掛け合いに多くの方が魅了されておりました。\n\n市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202607/13955.html",
+  "end": {
+    "date": "2026-07-29"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2VkazZpb3I4ZHNtbTRyM2Zjc21qMmNwcDZrcWlxcDlwY2tvMzBjaTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIDY3NDU5MTRiMjQzMjMxMTJhMTVmNDNkYzIwYjNhMGY0YTQ4MTdhZmQ4MDBjOGQxNjg3ZDBiZjBiN2Y4OTBjNjFAZw",
+  "iCalUID": "shicho-blog-13955-e9e002@hanno.city.tecoli.com",
+  "id": "_edk6ior8dsmm4r3fcsmj2cpp6kqiqp9pcko30ci0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202607/13955.html"
+  },
+  "start": {
+    "date": "2026-07-28"
+  },
+  "status": "confirmed",
+  "summary": "📝 市長：飯能夏祭り",
+  "updated": "2026-07-27T19:22:59.705Z"
+}

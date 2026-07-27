@@ -1,0 +1,34 @@
+{
+  "created": "2026-07-27T19:26:38.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n📝 Mayor's Blog Update (Published: July 18, 2026)\n\nOn Saturday, July 18, I attended the 76th Campaign to Brighten Our Community street event held around Hanno Station.\n\nAt the street campaign, probation officers from the Hanno District Probation Officers Association Hanno Branch, members of the Rehabilitation Support Women's Association, and students from Surugadai University who are part of the BBS society all came together. They distributed awareness materials to help prevent crime and delinquency, deepen understanding about the rehabilitation of people who have committed crimes, and build a brighter local community by working together from our different positions.\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202607/13957.html",
+  "end": {
+    "date": "2026-07-29"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2VkazZpb3I4ZHNtbTRyM2Zjc21qMmNwcDZrcmlxZTFoY2txNjRlYTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIGI2ZjM2ZTE5NzUxYzA1Y2NlOTlmYTAwODI4ZTQyOWY0MGY2ZGIxMDBlMmRiZTQ0MmJjMjYyMmEyNWRhOTczMTZAZw",
+  "iCalUID": "shicho-blog-13957-81e4b9@hanno.city.tecoli.com",
+  "id": "_edk6ior8dsmm4r3fcsmj2cpp6kriqe1hckq64ea0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202607/13957.html"
+  },
+  "start": {
+    "date": "2026-07-28"
+  },
+  "status": "confirmed",
+  "summary": "📝 Mayor's Blog: 76th Campaign to Brighten Our Community – Street Event",
+  "updated": "2026-07-27T19:26:39.414Z"
+}

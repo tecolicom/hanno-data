@@ -1,0 +1,34 @@
+{
+  "created": "2026-07-27T19:26:34.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🔄 Content updated (Published: July 22, 2026 / Reiwa 8)\n\nAI summary (please check the original article for accurate information)\n\nNotice from Hanno City about preventing heat illness during sports activities.\n\nWhether indoors or outdoors, when engaging in sports activities, be mindful of rest and hydration, and pay attention to managing your health. In particular, during summer, please make reservations taking into account temperature and time of day.\n\nFor heat illness prevention, refer to the Ministry of the Environment's \"Heat Index (WBGT)\" and \"Heat Illness Alert\" or \"Special Heat Illness Alert\". You can receive this information via email service or LINE.\n\n【Refund System】\nIf you cancel use of a paid city sports facility to prevent heat illness, the usage fee will be refunded.\n\n• City parks sports facilities: Contact Hanno Citizen Sports Hall (042-972-6506)\n• Hanno First Junior High School outdoor lighting facility: Contact the Lifelong Learning and Sports Division (042-973-2111, main number)\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/syogaigakusyu-sports/sports/13949.html",
+  "end": {
+    "date": "2026-07-29"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3NqOGU5ZDc0czMwcDFuNnQwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-13949-980d77@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6csj8e9d74s30p1n6t06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/syogaigakusyu-sports/sports/13949.html"
+  },
+  "start": {
+    "date": "2026-07-28"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Heat illness prevention during sports activities",
+  "updated": "2026-07-27T19:26:34.608Z"
+}

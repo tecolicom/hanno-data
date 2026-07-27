@@ -1,0 +1,34 @@
+{
+  "created": "2026-07-27T19:23:00.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "📝 市長ブログ更新 (公開日: 2026-07-18)\n\n7月18日（土曜日）、飯能駅周辺にて、第76回社会を明るくする運動街頭キャンペーンが開催され、出席してまいりました。\n\n街頭キャンペーンでは飯能地区保護司会飯能支部の保護司や更生保護女性会、駿河台大学の学生も加入するBBS会の皆様で、犯罪や非行の防止だけでなく、罪を犯した人たちの更生について理解を深め、それぞれの立場において力を合わせ、明るい地域社会を築くためのきっかけとなるよう啓発グッズの配布を行いました。\n\n市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202607/13957.html",
+  "end": {
+    "date": "2026-07-29"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2VkazZpb3I4ZHNtbTRyM2Zjc21qMmNwcDZrcmlxZTFoY2txNjRlYTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIDY3NDU5MTRiMjQzMjMxMTJhMTVmNDNkYzIwYjNhMGY0YTQ4MTdhZmQ4MDBjOGQxNjg3ZDBiZjBiN2Y4OTBjNjFAZw",
+  "iCalUID": "shicho-blog-13957-81e4b9@hanno.city.tecoli.com",
+  "id": "_edk6ior8dsmm4r3fcsmj2cpp6kriqe1hckq64ea0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202607/13957.html"
+  },
+  "start": {
+    "date": "2026-07-28"
+  },
+  "status": "confirmed",
+  "summary": "📝 市長：第76回社会を明るくする運動街頭キャンペーン",
+  "updated": "2026-07-27T19:23:01.267Z"
+}
