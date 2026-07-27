@@ -30,3 +30,26 @@ source:
   content_hash: "sha256-78e6ddb58fe2f446"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-07-23"
+translations:
+  en:
+    summary: "ℹ️ Free earthquake-resistance consultation with licensed architects"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New listing (Published: July 23, 2026)
+      
+      AI summary (please verify details in the original article)
+      
+      On September 5, 2026 (Saturday), 1:30 p.m. to 3:30 p.m., at Seimei District Administrative Center, licensed architects will hold a free earthquake-resistance consultation for wooden homes.
+      
+      Eligibility: Owners of wooden houses in Hanno City that are 2 stories or fewer and where construction began on or before May 31, 2000 (Heisei 12). However, homes built between June 1981 (Showa 56) and May 2000 must have received a result of "professional verification needed" from the Japan Building Disaster Prevention Association's "Wooden House Earthquake-Resistance Performance Check."
+      
+      How to apply: By Friday, August 21, 2026 (Reiwa 8), bring any architectural drawings or documents attached to your building confirmation application and visit the Building Division counter on the 2nd floor of the main Hanno City Hall building. You will fill out a checklist when you register.
+      
+      The diagnosis does not include an on-site survey. The architects will provide a general indication of earthquake-resistance based on drawings and other available information.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/kenchikuka/oshirase/9173.html
+    translation_hash: "sha256-7fe9aa351788ad5a"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-27T19:23:30.038462Z"
+    format_version: 3

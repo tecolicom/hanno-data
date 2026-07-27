@@ -34,3 +34,30 @@ source:
   content_hash: "sha256-980d777d9cd58808"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-07-22"
+translations:
+  en:
+    summary: "ℹ️ Heat illness prevention during sports activities"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content updated (Published: July 22, 2026 / Reiwa 8)
+      
+      AI summary (please check the original article for accurate information)
+      
+      Notice from Hanno City about preventing heat illness during sports activities.
+      
+      Whether indoors or outdoors, when engaging in sports activities, be mindful of rest and hydration, and pay attention to managing your health. In particular, during summer, please make reservations taking into account temperature and time of day.
+      
+      For heat illness prevention, refer to the Ministry of the Environment's "Heat Index (WBGT)" and "Heat Illness Alert" or "Special Heat Illness Alert". You can receive this information via email service or LINE.
+      
+      【Refund System】
+      If you cancel use of a paid city sports facility to prevent heat illness, the usage fee will be refunded.
+      
+      • City parks sports facilities: Contact Hanno Citizen Sports Hall (042-972-6506)
+      • Hanno First Junior High School outdoor lighting facility: Contact the Lifelong Learning and Sports Division (042-973-2111, main number)
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/syogaigakusyu-sports/sports/13949.html
+    translation_hash: "sha256-0646c00259caa419"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-27T19:23:25.555033Z"
+    format_version: 3

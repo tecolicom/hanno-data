@@ -23,3 +23,20 @@ source:
   fetched_at: "2026-07-27T19:19:45.119220Z"
   content_hash: "sha256-81e4b93cdc1abf79"
   publish_date: "2026-07-18"
+translations:
+  en:
+    summary: "📝 Mayor's Blog: 76th Campaign to Brighten Our Community – Street Event"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      📝 Mayor's Blog Update (Published: July 18, 2026)
+      
+      On Saturday, July 18, I attended the 76th Campaign to Brighten Our Community street event held around Hanno Station.
+      
+      At the street campaign, probation officers from the Hanno District Probation Officers Association Hanno Branch, members of the Rehabilitation Support Women's Association, and students from Surugadai University who are part of the BBS society all came together. They distributed awareness materials to help prevent crime and delinquency, deepen understanding about the rehabilitation of people who have committed crimes, and build a brighter local community by working together from our different positions.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202607/13957.html
+    translation_hash: "sha256-d1da01d15c16a969"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-27T19:23:38.619149Z"
+    format_version: 3

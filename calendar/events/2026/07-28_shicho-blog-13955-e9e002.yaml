@@ -25,3 +25,22 @@ source:
   fetched_at: "2026-07-27T19:19:44.487463Z"
   content_hash: "sha256-e9e0027f9fb2d2f9"
   publish_date: "2026-07-19"
+translations:
+  en:
+    summary: "📝 Mayor's Reflection: Hanno Summer Festival"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      📝 Mayor's Blog Update (Published: July 19, 2026)
+      
+      The Hanno Summer Festival, a cherished summer tradition, took place over two days—Saturday, July 18 and Sunday, July 19, 2026 (Reiwa 8)—drawing large crowds and much excitement.
+      
+      On Sunday, July 19, the day of the main festival, I had the honor of appearing on Hanno Cable Television's broadcast of "Hanno Summer Festival 2026."
+      
+      Throughout the city, ten neighborhoods showcased their vibrant festival floats with spirited musical performances. The powerful call-and-response chants that echoed through various parts of the city center captivated many visitors.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202607/13955.html
+    translation_hash: "sha256-bfa963118c8fe6a6"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-27T19:23:32.471803Z"
+    format_version: 3
