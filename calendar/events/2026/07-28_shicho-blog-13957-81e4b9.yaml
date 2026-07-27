@@ -1,0 +1,25 @@
+uid: "shicho-blog-13957-81e4b9@hanno.city.tecoli.com"
+summary: "📝 市長：第76回社会を明るくする運動街頭キャンペーン"
+url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202607/13957.html"
+dtstart: "2026-07-28"
+dtend: "2026-07-28"
+description: |-
+  📝 市長ブログ更新 (公開日: 2026-07-18)
+  
+  7月18日（土曜日）、飯能駅周辺にて、第76回社会を明るくする運動街頭キャンペーンが開催され、出席してまいりました。
+  
+  街頭キャンペーンでは飯能地区保護司会飯能支部の保護司や更生保護女性会、駿河台大学の学生も加入するBBS会の皆様で、犯罪や非行の防止だけでなく、罪を犯した人たちの更生について理解を深め、それぞれの立場において力を合わせ、明るい地域社会を築くためのきっかけとなるよう啓発グッズの配布を行いました。
+  
+  市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202607/13957.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-shicho-blog
+  id: "13957"
+  url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202607/13957.html"
+  fetched_at: "2026-07-27T19:19:45.119220Z"
+  content_hash: "sha256-81e4b93cdc1abf79"
+  publish_date: "2026-07-18"

@@ -1,0 +1,32 @@
+uid: "oshirase-9173-78e6dd@hanno.city.tecoli.com"
+summary: "ℹ️ 建築士による無料耐震診断相談会"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/kenchikuka/oshirase/9173.html"
+dtstart: "2026-07-28"
+dtend: "2026-07-28"
+description: |-
+  🆕 新着掲載 (公開日: 2026-07-23)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  令和8年9月5日（土曜日）13時30分～15時30分、精明地区行政センターで、建築士による木造住宅の無料耐震診断相談会を実施します。
+  
+  対象：平成12年（2000年）5月31日以前に工事に着手した、2階建て以下の飯能市内の木造住宅の所有者。ただし昭和56年6月から平成12年5月の間に建築された住宅は、日本建築防災協会の「木造住宅の耐震性能チェック」で「専門家による検証が必要」との結果になったものに限ります。
+  
+  申込：令和8年8月21日（金曜日）までに、建築確認申請等に添付された図面等を持参し、市役所本庁舎2階の建築課窓口へお越しください。申込時にチェック表の記入があります。
+  
+  診断は現地調査を行わず、図面等の情報から耐震性の目安を示します。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/kenchikuka/oshirase/9173.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "9173"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/kenchikuka/oshirase/9173.html"
+  fetched_at: "2026-07-27T19:19:51.388872Z"
+  content_hash: "sha256-78e6ddb58fe2f446"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-07-23"
