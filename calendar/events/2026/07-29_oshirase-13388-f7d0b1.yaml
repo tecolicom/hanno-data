@@ -43,3 +43,18 @@ source:
   content_hash: "sha256-f7d0b1c17bf02f24"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-07-28"
+translations:
+  en:
+    summary: "ℹ️ Reiwa 8 (2026) Press Release Materials – Updated July 28, 2026"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      This is an index page of press releases from Hanno City for Reiwa 8 (2026). To create accurate calendar summaries of individual announcements (such as event dates, registration deadlines, eligibility, fees, and locations), the full text of each press release is needed.
+      
+      If you have the complete text of specific announcements you'd like translated for the calendar, please provide them and we can create detailed summaries.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025_1/13388.html
+    translation_hash: "sha256-2a368ed9edf7043f"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-28T19:17:24.571919Z"
+    format_version: 3
