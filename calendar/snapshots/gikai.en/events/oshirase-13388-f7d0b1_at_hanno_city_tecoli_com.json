@@ -1,0 +1,34 @@
+{
+  "created": "2026-07-28T19:18:37.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nThis is an index page of press releases from Hanno City for Reiwa 8 (2026). To create accurate calendar summaries of individual announcements (such as event dates, registration deadlines, eligibility, fees, and locations), the full text of each press release is needed.\n\nIf you have the complete text of specific announcements you'd like translated for the calendar, please provide them and we can create detailed summaries.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025_1/13388.html",
+  "end": {
+    "date": "2026-07-30"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3BqZ2UxZGNvcm04YzMyNjUwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-13388-f7d0b1@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6cpjge1dcorm8c326506gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025_1/13388.html"
+  },
+  "start": {
+    "date": "2026-07-29"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Reiwa 8 (2026) Press Release Materials – Updated July 28, 2026",
+  "updated": "2026-07-28T19:18:38.064Z"
+}

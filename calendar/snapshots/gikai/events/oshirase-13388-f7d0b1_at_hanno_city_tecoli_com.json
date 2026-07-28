@@ -1,0 +1,34 @@
+{
+  "created": "2026-07-28T19:17:11.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🔄 内容更新 (公開日: 2026-07-28)\n\nAI による要約 (正確な情報は元記事をご確認ください)\n\nご質問ありがとうございます。ただし、ご提示いただいた内容は「報道発表資料の一覧ページ」であり、各記事本文がありません。\n\nカレンダー要約を作成するには、以下の情報が必要です：\n\n・各記事のタイトル（既に提示いただいています）\n・各記事の本文内容\n・特に「イベント開催」「募集」「中止・変更」などの告知については、日時・場所・対象者・料金・申込締切など、市民が行動するために必要な詳細\n\n現在の一覧から、おおよそ以下のような項目が要約候補に見えますが、詳細がないため正確な要約ができません：\n\n・『はんのう夏至祭森と水と太陽のビアガーデン』の開催（7月23日発表）\n→ 日時・場所・料金・申込方法などの詳細が必要\n\n・飯能市PR大使の委嘱（7月28日発表）\n→ 市民向けの行動が伴わない告知の可能性が高い\n\n・その他の案内・調査・寄附報告など\n→ 市民向けカレンダー掲載の優先度判定に、本文内容が必要\n\n各記事の本文をご提供いただければ、要約を作成できます。 ご面倒ですが、よろしくお願いします。\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025_1/13388.html",
+  "end": {
+    "date": "2026-07-30"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3BqZ2UxZGNvcm04YzMyNjUwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSA2NzQ1OTE0YjI0MzIzMTEyYTE1ZjQzZGMyMGIzYTBmNGE0ODE3YWZkODAwYzhkMTY4N2QwYmYwYjdmODkwYzYxQGc",
+  "iCalUID": "oshirase-13388-f7d0b1@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6cpjge1dcorm8c326506gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025_1/13388.html"
+  },
+  "start": {
+    "date": "2026-07-29"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 【令和8年度】報道発表資料",
+  "updated": "2026-07-28T19:17:11.708Z"
+}
