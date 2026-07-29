@@ -28,3 +28,24 @@ source:
   content_hash: "sha256-d546399fe44c2240"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-07-29"
+translations:
+  en:
+    summary: "ℹ️ Arima Area Water Source Forest Conservation Project (\"Forest for Mountain Hawks and Dormice Project\")"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content update (published July 29, 2026)
+      
+      AI summary (check the original article for accurate details)
+      
+      The "Forest for Mountain Hawks and Dormice Project" began in fiscal year 2025 (Reiwa 7). It restores neglected cedar and cypress plantations across roughly 1,300 hectares of city-owned forest upstream of Arima Dam into mixed conifer-broadleaf forest.
+      
+      The project aims to enhance water retention, prevent disaster, and improve biodiversity through forest management (thinning), monitoring, public awareness events, and adaptive management. Completion is expected around 2030, roughly five years after the start.
+      
+      The two symbol species—the mountain hawk-eagle (Crested Serpent Eagle; listed as Endangered IB / designated national wildlife)—and the Japanese dormouse (Endangered in Saitama Prefecture / designated national monument)—represent a healthy forest ecosystem. All forestry work is designed with care for their nesting sites, feeding environments, and food resources (seeds, fruit, moss, etc.).
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/shinrinzukurika/13168.html
+    translation_hash: "sha256-ffcb45ea5d06e1f5"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-29T13:12:23.190782Z"
+    format_version: 3

@@ -26,3 +26,22 @@ source:
   content_hash: "sha256-2db404c80e523e27"
   summary_method: "full"
   publish_date: "2026-07-29"
+translations:
+  en:
+    summary: "ℹ️ Haraichiba Welfare Center temporarily closed due to air conditioning failure"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New notice (Published: July 29, 2026)
+      
+      Haraichiba Welfare Center is temporarily closed due to air conditioning equipment malfunction.
+      
+      As of July 29, 2026 (Wednesday, Reiwa 8), the air conditioning equipment at Hanno City's Haraichiba Welfare Center is not functioning properly. With temperatures remaining high, we have determined that it is unsafe for the public to use the facility without working air conditioning. The center will remain temporarily closed while maintenance and repairs to the air conditioning equipment are carried out.
+      
+      We sincerely apologize for the inconvenience this causes to residents and groups using Haraichiba Welfare Center, and we appreciate your understanding and cooperation.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/14108.html
+    translation_hash: "sha256-53371ee371124e69"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-29T13:12:33.899595Z"
+    format_version: 3

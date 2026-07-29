@@ -36,3 +36,28 @@ source:
   content_hash: "sha256-f2c40b3b6ab936a4"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-07-23"
+translations:
+  en:
+    summary: "ℹ️ Did you know about administrative consultation services?"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Do you have questions or concerns about government procedures? Administrative consultation staff, including certified advisors and human rights advocates, offer free consultation.
+      
+      【Regular Consultation (Citizens' General Advice)】
+      Lawyers, judicial scriveners, administrative advisors, and human rights advocates provide guidance on life problems and problem-solving. For details, see the Hanno City Social Welfare Council website.
+      
+      【Temporary Administrative Consultation Offices】
+      During "Administrative Consultation Month" (September 1 – October 31, 2026), temporary consultation offices will be open. Consultations are free and strictly confidential.
+      
+      • Seimei District Administrative Center: Monday, September 7, 2026, 10:00 a.m.–12:00 p.m., 1:00 p.m.–3:00 p.m.
+      • Minami-Kōgane District Administrative Center: Thursday, October 15, 2026, 10:00 a.m.–12:00 p.m., 1:00 p.m.–3:00 p.m.
+      
+      【Other Consultation Services】
+      The Kanto Regional Administrative Evaluation Bureau (Ministry of Internal Affairs and Communications) also accepts consultations by phone (0570-090-110) or fax (048-600-2336).
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/11813.html
+    translation_hash: "sha256-b348e4a9b754a5aa"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-29T13:12:14.455202Z"
+    format_version: 3

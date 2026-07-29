@@ -28,3 +28,24 @@ source:
   content_hash: "sha256-12d4c1ae38a51483"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-07-05"
+translations:
+  en:
+    summary: "ℹ️ 29th Hanno City Elementary and Junior High School Social Studies Research Exhibition"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      �新 New (Posted: July 5, 2026)
+      
+      AI Summary (Please check the original article for accurate details)
+      
+      The 29th Hanno City Elementary and Junior High School Social Studies Research Exhibition will be held at Hanno City Museum Special Exhibition Room and Exhibition Hall from September 12 (Saturday) to September 27 (Sunday), 2026 (Reiwa 8). Hours are 9:30 a.m. to 4:30 p.m. daily. (Closed September 14 (Monday), 24 (Thursday), and 25 (Friday). September 18 (Friday) and 26 (Saturday) open until 7:00 p.m.)
+      
+      Submit artwork through your school. Direct delivery of works is not accepted. See materials distributed by your school for submission details.
+      
+      As a related event, a research presentation session will be held on September 27 (Sunday), 2:00 p.m. to approximately 4:30 p.m. in Conference Room 202 at Hanno City Civic Hall. Presentations will be given by recipients of special awards from the exhibited works. You can attend by coming directly to the venue on the day.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/tenji_moyooshimono/13839.html
+    translation_hash: "sha256-fb89a9cda3bf8c04"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-29T13:12:30.649074Z"
+    format_version: 3
