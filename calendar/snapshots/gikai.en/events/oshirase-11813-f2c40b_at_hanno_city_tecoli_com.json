@@ -1,0 +1,34 @@
+{
+  "created": "2026-07-29T13:13:35.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nDo you have questions or concerns about government procedures? Administrative consultation staff, including certified advisors and human rights advocates, offer free consultation.\n\n【Regular Consultation (Citizens' General Advice)】\nLawyers, judicial scriveners, administrative advisors, and human rights advocates provide guidance on life problems and problem-solving. For details, see the Hanno City Social Welfare Council website.\n\n【Temporary Administrative Consultation Offices】\nDuring \"Administrative Consultation Month\" (September 1 – October 31, 2026), temporary consultation offices will be open. Consultations are free and strictly confidential.\n\n• Seimei District Administrative Center: Monday, September 7, 2026, 10:00 a.m.–12:00 p.m., 1:00 p.m.–3:00 p.m.\n• Minami-Kōgane District Administrative Center: Thursday, October 15, 2026, 10:00 a.m.–12:00 p.m., 1:00 p.m.–3:00 p.m.\n\n【Other Consultation Services】\nThe Kanto Regional Administrative Evaluation Bureau (Ministry of Internal Affairs and Communications) also accepts consultations by phone (0570-090-110) or fax (048-600-2336).\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/11813.html",
+  "end": {
+    "date": "2026-07-31"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2NHMzMmNwZGNvcDY2ZDFnYzkwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-11813-f2c40b@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h64s32cpdcop66d1gc906gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/11813.html"
+  },
+  "start": {
+    "date": "2026-07-30"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Did you know about administrative consultation services?",
+  "updated": "2026-07-29T13:13:36.161Z"
+}

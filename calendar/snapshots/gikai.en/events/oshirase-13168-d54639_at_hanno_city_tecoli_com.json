@@ -1,0 +1,34 @@
+{
+  "created": "2026-07-29T13:13:36.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🔄 Content update (published July 29, 2026)\n\nAI summary (check the original article for accurate details)\n\nThe \"Forest for Mountain Hawks and Dormice Project\" began in fiscal year 2025 (Reiwa 7). It restores neglected cedar and cypress plantations across roughly 1,300 hectares of city-owned forest upstream of Arima Dam into mixed conifer-broadleaf forest.\n\nThe project aims to enhance water retention, prevent disaster, and improve biodiversity through forest management (thinning), monitoring, public awareness events, and adaptive management. Completion is expected around 2030, roughly five years after the start.\n\nThe two symbol species—the mountain hawk-eagle (Crested Serpent Eagle; listed as Endangered IB / designated national wildlife)—and the Japanese dormouse (Endangered in Saitama Prefecture / designated national monument)—represent a healthy forest ecosystem. All forestry work is designed with care for their nesting sites, feeding environments, and food resources (seeds, fruit, moss, etc.).\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/shinrinzukurika/13168.html",
+  "end": {
+    "date": "2026-07-31"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y29qY2UxZGNncWo4ZGhqNzUwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-13168-d54639@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6cojce1dcgqj8dhj7506gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/shinrinzukurika/13168.html"
+  },
+  "start": {
+    "date": "2026-07-30"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Arima Area Water Source Forest Conservation Project (\"Forest for Mountain Hawks and Dormice Project\")",
+  "updated": "2026-07-29T13:13:36.848Z"
+}

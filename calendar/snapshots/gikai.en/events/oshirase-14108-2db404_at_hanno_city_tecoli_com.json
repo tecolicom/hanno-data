@@ -1,0 +1,34 @@
+{
+  "created": "2026-07-29T13:13:38.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 New notice (Published: July 29, 2026)\n\nHaraichiba Welfare Center is temporarily closed due to air conditioning equipment malfunction.\n\nAs of July 29, 2026 (Wednesday, Reiwa 8), the air conditioning equipment at Hanno City's Haraichiba Welfare Center is not functioning properly. With temperatures remaining high, we have determined that it is unsafe for the public to use the facility without working air conditioning. The center will remain temporarily closed while maintenance and repairs to the air conditioning equipment are carried out.\n\nWe sincerely apologize for the inconvenience this causes to residents and groups using Haraichiba Welfare Center, and we appreciate your understanding and cooperation.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/14108.html",
+  "end": {
+    "date": "2026-07-31"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Z29qMGUxZDY5aTY0ZDFnNmgwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-14108-2db404@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6goj0e1d69i64d1g6h06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/14108.html"
+  },
+  "start": {
+    "date": "2026-07-30"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Haraichiba Welfare Center temporarily closed due to air conditioning failure",
+  "updated": "2026-07-29T13:13:38.842Z"
+}

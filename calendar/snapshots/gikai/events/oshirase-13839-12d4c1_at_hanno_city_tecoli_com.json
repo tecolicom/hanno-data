@@ -1,0 +1,34 @@
+{
+  "created": "2026-07-29T13:12:01.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🆕 新着掲載 (公開日: 2026-07-05)\n\nAI による要約 (正確な情報は元記事をご確認ください)\n\n第29回飯能市小・中学校社会科研究展を令和8年9月12日(土曜日)から9月27日(日曜日)まで飯能市立博物館 特別展示室・展示ホールで開催します。開催時間は午前9時30分から午後4時30分までです。(9月14日(月曜日)・24日(木曜日)・25日(金曜日)は休館。9月18日(金曜日)・26日(土曜日)は午後7時まで延長)\n\n作品の応募は学校を通じて行ってください。作品の直接持込みはできません。応募方法の詳細は学校からの配布物をご覧ください。\n\n関連事業として令和8年9月27日(日曜日)午後2時00分から4時30分頃まで飯能市市民会館 会議室202で研究発表会を開催します。出展作品のうち特別賞受章者による発表となり、当日直接会場にお越しになれば聴講できます。\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/tenji_moyooshimono/13839.html",
+  "end": {
+    "date": "2026-07-31"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3MzNmU5ZDY0cDY4ZDMzNjUwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSA2NzQ1OTE0YjI0MzIzMTEyYTE1ZjQzZGMyMGIzYTBmNGE0ODE3YWZkODAwYzhkMTY4N2QwYmYwYjdmODkwYzYxQGc",
+  "iCalUID": "oshirase-13839-12d4c1@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6cs36e9d64p68d336506gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/tenji_moyooshimono/13839.html"
+  },
+  "start": {
+    "date": "2026-07-30"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 第29回 飯能市小・中学校社会科研究展",
+  "updated": "2026-07-29T13:12:02.020Z"
+}

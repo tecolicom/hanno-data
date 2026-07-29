@@ -1,0 +1,34 @@
+{
+  "created": "2026-07-29T13:12:00.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🆕 新着掲載 (公開日: 2026-07-23)\n\nAI による要約 (正確な情報は元記事をご確認ください)\n\n行政に関する分からないことや困りごとについて、行政相談委員などの専門相談員が無料で相談を受け付けています。\n\n【定例相談（市民よろず相談）】\n弁護士、司法書士、行政相談委員、人権擁護委員などが生活上の悩みや問題解決について助言します。詳細は飯能市社会福祉協議会ホームページをご覧ください。\n\n【特設行政相談所】\n令和8年9月1日から10月31日の「行政相談月間」に特設相談所を開設します。相談は無料・秘密厳守です。\n\n・精明地区行政センター：令和8年9月7日（月曜日）10時～12時、13時～15時\n・南高麗地区行政センター：令和8年10月15日（木曜日）10時～12時、13時～15時\n\n【その他の相談】\n総務省関東管区行政評価局でも行政相談ダイヤル（電話0570-090-110、ファクス048-600-2336）で相談を受け付けています。\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/11813.html",
+  "end": {
+    "date": "2026-07-31"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2NHMzMmNwZGNvcDY2ZDFnYzkwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSA2NzQ1OTE0YjI0MzIzMTEyYTE1ZjQzZGMyMGIzYTBmNGE0ODE3YWZkODAwYzhkMTY4N2QwYmYwYjdmODkwYzYxQGc",
+  "iCalUID": "oshirase-11813-f2c40b@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h64s32cpdcop66d1gc906gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/11813.html"
+  },
+  "start": {
+    "date": "2026-07-30"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ ご存知ですか「行政相談」",
+  "updated": "2026-07-29T13:12:00.280Z"
+}
