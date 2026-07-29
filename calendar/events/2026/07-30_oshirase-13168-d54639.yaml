@@ -1,0 +1,30 @@
+uid: "oshirase-13168-d54639@hanno.city.tecoli.com"
+summary: "ℹ️ 有間エリア水源林保全プロジェクト （通称「クマタカとヤマネの森プロジェクト」）"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/shinrinzukurika/13168.html"
+dtstart: "2026-07-30"
+dtend: "2026-07-30"
+description: |-
+  🔄 内容更新 (公開日: 2026-07-29)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  有間ダム上流の市有林約1,300haのうち、手入れ不足のスギ・ヒノキ人工林を針広混交林へ復元する「クマタカとヤマネの森プロジェクト」が令和7(2025)年度から開始されました。
+  
+  プロジェクトは、水源涵養・災害防止・生物多様性向上を目指し、間伐などの森林整備、モニタリング、普及啓発イベント、順応的管理に取り組みます。約5年後(2030年頃)の完成を想定しています。
+  
+  シンボル種に設定されたクマタカ(絶滅危惧IB類・国内希少野生動植物種)とヤマネ(埼玉県準絶滅危惧・国指定天然記念物)は、豊かな森林生態系の指標とされています。施業時には両種の営巣地・採食環境・食物資源(種子・果実・コケ類など)に配慮する設計で進めます。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/shinrinzukurika/13168.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13168"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/shinrinzukurika/13168.html"
+  fetched_at: "2026-07-29T13:06:04.919805Z"
+  content_hash: "sha256-d546399fe44c2240"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-07-29"

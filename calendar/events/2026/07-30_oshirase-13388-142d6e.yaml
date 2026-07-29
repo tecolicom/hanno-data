@@ -1,0 +1,38 @@
+uid: "oshirase-13388-142d6e@hanno.city.tecoli.com"
+summary: "ℹ️ 【令和8年度】報道発表資料"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025_1/13388.html"
+dtstart: "2026-07-30"
+dtend: "2026-07-30"
+description: |-
+  🔄 内容更新 (公開日: 2026-07-29)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  飯能市報道発表資料一覧が更新されました。令和8年度の主な発表は以下の通りです。
+  
+  ・日本コカ・コーラ株式会社及びコカ・コーラボトラーズジャパン株式会社との森林保全に関する協定の締結について（7月29日発表）
+  
+  ・『はんのう夏至祭森と水と太陽のビアガーデン』の開催について（7月23日発表）
+  
+  ・飯能市自由テーマ型民間提案制度【ガイドライン】の策定及び飯能市包括施設管理業務に係る民間提案制度による公募の実施について（7月1日発表）
+  
+  ・いじめ重大事態に関する調査報告書（公表版）の公表について（6月22日発表）
+  
+  ・旧向原団地跡地の活用に係るサウンディング型市場調査の実施について（6月3日発表）
+  
+  これより前の発表は元記事をご覧ください。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025_1/13388.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13388"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025_1/13388.html"
+  fetched_at: "2026-07-29T13:07:20.327718Z"
+  content_hash: "sha256-142d6e8a77c2ca13"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-07-29"

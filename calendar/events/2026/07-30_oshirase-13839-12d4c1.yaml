@@ -1,0 +1,30 @@
+uid: "oshirase-13839-12d4c1@hanno.city.tecoli.com"
+summary: "ℹ️ 第29回 飯能市小・中学校社会科研究展"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/tenji_moyooshimono/13839.html"
+dtstart: "2026-07-30"
+dtend: "2026-07-30"
+description: |-
+  🆕 新着掲載 (公開日: 2026-07-05)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  第29回飯能市小・中学校社会科研究展を令和8年9月12日(土曜日)から9月27日(日曜日)まで飯能市立博物館 特別展示室・展示ホールで開催します。開催時間は午前9時30分から午後4時30分までです。(9月14日(月曜日)・24日(木曜日)・25日(金曜日)は休館。9月18日(金曜日)・26日(土曜日)は午後7時まで延長)
+  
+  作品の応募は学校を通じて行ってください。作品の直接持込みはできません。応募方法の詳細は学校からの配布物をご覧ください。
+  
+  関連事業として令和8年9月27日(日曜日)午後2時00分から4時30分頃まで飯能市市民会館 会議室202で研究発表会を開催します。出展作品のうち特別賞受章者による発表となり、当日直接会場にお越しになれば聴講できます。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/tenji_moyooshimono/13839.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13839"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/tenji_moyooshimono/13839.html"
+  fetched_at: "2026-07-29T13:06:14.129084Z"
+  content_hash: "sha256-12d4c1ae38a51483"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-07-05"

@@ -1,0 +1,28 @@
+uid: "oshirase-14108-2db404@hanno.city.tecoli.com"
+summary: "ℹ️ 飯能市原市場福祉センターの臨時休館について"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/14108.html"
+dtstart: "2026-07-30"
+dtend: "2026-07-30"
+description: |-
+  🆕 新着掲載 (公開日: 2026-07-29)
+  
+  ## 原市場福祉センターの空調設備が不調のため臨時休館いたします。
+  
+  令和8年7月29日（水曜日）現在、飯能市原市場福祉センターの空調設備が不調のため稼働しない状況となっております。気温の高い日が続いていることもあり、空調設備が正常に稼働しない状況では安全に原市場福祉センターをご利用していただくことができないと判断し、空調設備のメンテナンス等を行う間、臨時休館とさせていただきます。
+  
+  原市場福祉センターをご利用いただいている市民、団体の皆様には大変ご迷惑をお掛けいたしますが、ご理解とご協力をお願いいたします。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/14108.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "14108"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/14108.html"
+  fetched_at: "2026-07-29T13:05:57.516992Z"
+  content_hash: "sha256-2db404c80e523e27"
+  summary_method: "full"
+  publish_date: "2026-07-29"
