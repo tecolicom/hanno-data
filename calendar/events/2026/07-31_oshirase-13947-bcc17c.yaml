@@ -1,0 +1,35 @@
+uid: "oshirase-13947-bcc17c@hanno.city.tecoli.com"
+summary: "ℹ️ 「はんのう夏至祭 森と水と太陽のビアガーデン」を開催します！"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/sangakukanrenkei/13947.html"
+dtstart: "2026-07-31"
+dtend: "2026-07-31"
+description: |-
+  🔄 内容更新 (公開日: 2026-07-23)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  飯能河原ステージ広場で、北欧の夏至をテーマにしたビアガーデンを開催します。
+  
+  【日時】令和8年8月1日（土）16時30分～21時
+  【場所】飯能河原ステージ広場（埼玉県飯能市久下472）
+  
+  キッチンカーによる飲食販売（アルコール提供あり）、TSUMUZIバンドによるヴァイオリン・ギター演奏、北欧の夏至祭の象徴であるかがり火による幻想的な雰囲気が特徴です。
+  
+  小雨決行。荒天（台風、大雨、雷、河川増水等により安全確保が困難と判断した場合）は中止します。中止の場合は（一社）奥むさし飯能観光協会のホームページにてお知らせします。
+  
+  飯能市・西武鉄道株式会社・株式会社ムーミン物語・（一社）奥むさし飯能観光協会・飯能商工会議所の5者で構成される「ムーミンに会えるまち、はんのう」プロジェクト推進協議会が実施します。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/sangakukanrenkei/13947.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13947"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/sangakukanrenkei/13947.html"
+  fetched_at: "2026-07-30T19:17:13.663745Z"
+  content_hash: "sha256-bcc17c70e5fe2dff"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-07-23"
