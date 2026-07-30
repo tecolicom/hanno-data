@@ -33,3 +33,27 @@ source:
   content_hash: "sha256-bcc17c70e5fe2dff"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-07-23"
+translations:
+  en:
+    summary: "ℹ️ Hanno Summer Solstice Festival – Forest, Water & Sun Beer Garden held at Hanno Riverbed Stage Plaza on August 1, 2026 (Reiwa 8), 4:30–9:00 PM"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content updated (published July 23, 2026)
+      
+      A Nordic summer solstice-themed beer garden at Hanno Riverbed Stage Plaza.
+      
+      【Date & Time】August 1, 2026 (Reiwa 8), Saturday, 4:30 PM–9:00 PM
+      【Location】Hanno Riverbed Stage Plaza (472 Kushita, Hanno, Saitama Prefecture)
+      
+      Features food and beverage vendors (alcohol served), violin and guitar performances by TSUMUSI Band, and bonfire lighting symbolizing the Nordic midsummer celebration, creating a magical atmosphere.
+      
+      Runs in light rain. Will be cancelled in severe weather (typhoon, heavy rain, lightning, river flooding, or other conditions judged unsafe). Cancellation will be announced on the Okumusashi Hanno Tourism Association website.
+      
+      Hosted by the "Town Where You Can Meet Moomin, Hanno" Project Promotion Council, comprising Hanno City, Seibu Railway Co., Ltd., Moomin Stories Co., Ltd., Okumusashi Hanno Tourism Association, and Hanno Chamber of Commerce and Industry.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/sangakukanrenkei/13947.html
+    translation_hash: "sha256-0b4a6d669e8e9a01"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-30T19:18:55.881036Z"
+    format_version: 3
