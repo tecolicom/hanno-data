@@ -1,0 +1,34 @@
+{
+  "created": "2026-07-31T19:18:18.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🆕 新着掲載 (公開日: 2026-07-30)\n\n市では、令和8年熊本地震災害義援金の募金箱を、市役所本庁舎1階の総合案内所カウンターに設置しております。\n\n皆様からお寄せいただいた義援金は日本赤十字社を通じて被災都道府県が設置する義援金配分委員会へ送金し、被災された方々の当面の生活を支援するため、寄付の全額を被災者の方々へお送りいたします。\n\n市民の皆様のご協力をよろしくお願いいたします。\n\n## 義援金の受付\n\n市役所本庁舎1階の総合案内所カウンターに募金箱を設置しております。なお、領収書を希望される方は、市役所本庁舎1階の地域福祉課（11番窓口）で受け付けております。\n\n（注意）日本赤十字社へ直接送金を希望される方は、日本赤十字社ホームページをご覧ください。\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/14121.html",
+  "end": {
+    "date": "2026-08-02"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Z29qNGM5ZDZvb2o4cDFsYzUwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSA2NzQ1OTE0YjI0MzIzMTEyYTE1ZjQzZGMyMGIzYTBmNGE0ODE3YWZkODAwYzhkMTY4N2QwYmYwYjdmODkwYzYxQGc",
+  "iCalUID": "oshirase-14121-614d5a@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6goj4c9d6ooj8p1lc506gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/14121.html"
+  },
+  "start": {
+    "date": "2026-08-01"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 令和8年熊本地震災害義援金の受付について",
+  "updated": "2026-07-31T19:18:18.538Z"
+}

@@ -1,0 +1,34 @@
+{
+  "created": "2026-07-31T19:19:47.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 New listing (published August 1, 2026)\n\nAI summary (please check the original article for precise details)\n\nThe Naguri Furusato Festival will be held on Sunday, October 4, 2026 (Reiwa 8) from 10:00 a.m. to 2:00 p.m. at Nora Naguri (rain or shine for light rain).\n\nThe festival includes food and craft vendors (Otowa Ren-kai, Lakeside Terrace Naguri-ko, Sekine Meat Shop, Kominka Restaurant Pore Pore, PHASE5 J with Takashi, Nazar Kebab, Shanti, Naguri Genki Plaza, Taishokaku, Nijiro Pan Biyori, Nakayama Tea House, Asron Coffee Roastery, Comprehensive Care Center Taikouro, Workshop Yu, Naguri Beekeeping, Sawarabi-no-yu, Okumusashi Hanno Tourism Association, Ki-no-Eki Woodworking, Acupuncture/Moxibustion Slowly Mushi-do), stage performances (Naguri Elementary School Taiko Drum, Kids Dance, Daigoro Hara, Hanami Yosakai Dance, Yama × 2, Hula Naguri Lilia, Theater Lovers Japanese Dance, Four Piece Band), and working vehicle displays.\n\nPlease use public transportation (Kokusai Kogyo Bus: get off at \"Nora Naguri / Sawarabi-no-yu\" or \"Kawamata (Naguri Lake entrance)\").\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/gyoseicenterkanrika/nagurichikugyoseicenter_kominkan/10582.html",
+  "end": {
+    "date": "2026-08-03"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2MHFqZ2NoZDY5aW1jYzlwY2QwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-10582-2ef19c@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h60qjgchd69imcc9pcd06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/gyoseicenterkanrika/nagurichikugyoseicenter_kominkan/10582.html"
+  },
+  "start": {
+    "date": "2026-08-02"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 【Naguri District】Notice: Naguri Furusato Festival",
+  "updated": "2026-07-31T19:19:48.128Z"
+}

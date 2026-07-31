@@ -1,0 +1,34 @@
+{
+  "created": "2026-07-31T19:19:46.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 Newly posted (Published: July 31, 2026)\n\nResults of the used manhole cover sales conducted in July 2026 (Reiwa 8) are as follows.\n\nResults List\n\nSales Number | Number of Applicants | Purchaser Receipt Number\n1 | 0 people | —\n2 | 1 person | 1\n\n[Note] The sales number refers to the manhole cover number listed in the \"List of Manhole Covers for Sale\" posted in the Hanno City Used Manhole Cover Sales Guide.\n\n[Note] Those whose purchase has been approved will receive separate notice regarding purchase procedures.\n\nReference Materials\n\nList of Manhole Covers for Sale (PDF file: 2.4 MB)\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/gesuidoka/hanbai/13986.html",
+  "end": {
+    "date": "2026-08-02"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3NqZ2RoZGM1aTNlY2hsY2QwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-13986-ad725c@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6csjgdhdc5i3echlcd06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/gesuidoka/hanbai/13986.html"
+  },
+  "start": {
+    "date": "2026-08-01"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 【Results】Hanno City Used Manhole Cover Sales",
+  "updated": "2026-07-31T19:19:46.715Z"
+}
