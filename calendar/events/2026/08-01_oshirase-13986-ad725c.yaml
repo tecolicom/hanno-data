@@ -1,0 +1,45 @@
+uid: "oshirase-13986-ad725c@hanno.city.tecoli.com"
+summary: "ℹ️ 【結果】飯能市使用済みマンホールふたの販売"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/gesuidoka/hanbai/13986.html"
+dtstart: "2026-08-01"
+dtend: "2026-08-01"
+description: |-
+  🆕 新着掲載 (公開日: 2026-07-31)
+  
+  令和8年7月に実施した使用済みマンホールふたの販売について、申込者数及び購入者は次のとおりになります。
+  
+  	結果一覧
+  
+  			販売番号
+  			申込者数
+  			購入者受付番号
+  
+  			1
+  			0人
+  
+  			2
+  			1人
+  			1
+  
+  【注釈】販売番号は、飯能市使用済みマンホールふたの販売のご案内で掲載した「販売マンホールふた一覧」のマンホールふたの番号です。
+  
+  【注釈】購入が決定した方には別途、購入手続についてご案内します。
+  
+  ## 参考資料
+  
+  販売マンホールふた一覧 (PDFファイル: 2.4MB)
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/gesuidoka/hanbai/13986.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13986"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/gesuidoka/hanbai/13986.html"
+  fetched_at: "2026-07-31T19:16:36.326648Z"
+  content_hash: "sha256-ad725c8ea21be8a7"
+  summary_method: "full"
+  publish_date: "2026-07-31"

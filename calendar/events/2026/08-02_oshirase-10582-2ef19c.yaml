@@ -1,0 +1,30 @@
+uid: "oshirase-10582-2ef19c@hanno.city.tecoli.com"
+summary: "ℹ️ 【名栗地区】「名栗ふるさとまつり」のお知らせ"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/gyoseicenterkanrika/nagurichikugyoseicenter_kominkan/10582.html"
+dtstart: "2026-08-02"
+dtend: "2026-08-02"
+description: |-
+  🆕 新着掲載 (公開日: 2026-08-01)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  令和8年10月4日（日曜日）午前10時から午後2時、ノーラ名栗で「名栗ふるさとまつり」を開催します（小雨決行）。
+  
+  飲食・雑貨販売（乙羽恋会、レイクサイドテラス名栗湖、関根肉店、古民家レストラン ぽれぽれ、PHASE5 J with高、ナザルケバブ、シャンティ、名栗げんきプラザ、大松閣、にじ色ぱん日和、中山茶屋、アスロンコーヒー焙煎所、総合ケアセンター太行路、ワークショップ由、名栗養蜂、さわらびの湯、奥むさし飯能観光協会、木の駅・ものづくり、鍼灸・ゆっくりむし堂）、ステージ出演（名栗小学校太鼓、キッズダンス、原大五郎、華舞よさこい踊り、Yama×2、フラナグリリア、演劇愛好会日本舞踊、Four Piece Bandバンド演奏）、はたらく車展示など。
+  
+  公共交通機関をご利用ください（国際興業バス「ノーラ名栗・さわらびの湯」または「河又（名栗湖入口）」下車）。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/gyoseicenterkanrika/nagurichikugyoseicenter_kominkan/10582.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "10582"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/gyoseicenterkanrika/nagurichikugyoseicenter_kominkan/10582.html"
+  fetched_at: "2026-07-31T19:16:35.351209Z"
+  content_hash: "sha256-2ef19c4aa1ad5a79"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-08-01"
