@@ -43,3 +43,32 @@ source:
   content_hash: "sha256-ad725c8ea21be8a7"
   summary_method: "full"
   publish_date: "2026-07-31"
+translations:
+  en:
+    summary: "ℹ️ 【Results】Hanno City Used Manhole Cover Sales"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 Newly posted (Published: July 31, 2026)
+      
+      Results of the used manhole cover sales conducted in July 2026 (Reiwa 8) are as follows.
+      
+      Results List
+      
+      Sales Number | Number of Applicants | Purchaser Receipt Number
+      1 | 0 people | —
+      2 | 1 person | 1
+      
+      [Note] The sales number refers to the manhole cover number listed in the "List of Manhole Covers for Sale" posted in the Hanno City Used Manhole Cover Sales Guide.
+      
+      [Note] Those whose purchase has been approved will receive separate notice regarding purchase procedures.
+      
+      Reference Materials
+      
+      List of Manhole Covers for Sale (PDF file: 2.4 MB)
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/gesuidoka/hanbai/13986.html
+    translation_hash: "sha256-31b44de1b89bef01"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-31T19:18:34.179782Z"
+    format_version: 3

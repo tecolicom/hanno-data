@@ -28,3 +28,24 @@ source:
   content_hash: "sha256-2ef19c4aa1ad5a79"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-08-01"
+translations:
+  en:
+    summary: "ℹ️ 【Naguri District】Notice: Naguri Furusato Festival"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New listing (published August 1, 2026)
+      
+      AI summary (please check the original article for precise details)
+      
+      The Naguri Furusato Festival will be held on Sunday, October 4, 2026 (Reiwa 8) from 10:00 a.m. to 2:00 p.m. at Nora Naguri (rain or shine for light rain).
+      
+      The festival includes food and craft vendors (Otowa Ren-kai, Lakeside Terrace Naguri-ko, Sekine Meat Shop, Kominka Restaurant Pore Pore, PHASE5 J with Takashi, Nazar Kebab, Shanti, Naguri Genki Plaza, Taishokaku, Nijiro Pan Biyori, Nakayama Tea House, Asron Coffee Roastery, Comprehensive Care Center Taikouro, Workshop Yu, Naguri Beekeeping, Sawarabi-no-yu, Okumusashi Hanno Tourism Association, Ki-no-Eki Woodworking, Acupuncture/Moxibustion Slowly Mushi-do), stage performances (Naguri Elementary School Taiko Drum, Kids Dance, Daigoro Hara, Hanami Yosakai Dance, Yama × 2, Hula Naguri Lilia, Theater Lovers Japanese Dance, Four Piece Band), and working vehicle displays.
+      
+      Please use public transportation (Kokusai Kogyo Bus: get off at "Nora Naguri / Sawarabi-no-yu" or "Kawamata (Naguri Lake entrance)").
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/gyoseicenterkanrika/nagurichikugyoseicenter_kominkan/10582.html
+    translation_hash: "sha256-829bc594987fd39b"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-31T19:18:42.364847Z"
+    format_version: 3

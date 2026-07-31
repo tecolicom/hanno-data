@@ -43,3 +43,41 @@ source:
   content_hash: "sha256-4335ff440683d5c7"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-07-30"
+translations:
+  en:
+    summary: "ℹ️ Donation and relief fund donations now being accepted"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content updated (published: July 30, 2026)
+      
+      AI summary (please check the original article for accurate information)
+      
+      The Japanese Red Cross Society Saitama Prefecture Hanno District is accepting domestic disaster relief donations and international humanitarian aid donations.
+      
+      【Domestic Disaster Relief Donations】
+      • 2024 Noto Peninsula Earthquake Relief (Ishikawa, Toyama, Niigata prefectures) / Acceptance ends March 22, 2027
+      • 2024 September Noto Peninsula Heavy Rain Relief (Ishikawa) / Acceptance ends March 22, 2027
+      • 2026 Otsuchi Town Forest Fire Relief (Iwate) / Acceptance ends August 24, 2026
+      • 2026 Kumamoto Earthquake Relief (Kumamoto) / Acceptance ends October 23, 2026
+      
+      【International Humanitarian Aid Donations】
+      • Middle East Humanitarian Crisis Relief / Acceptance ends March 23, 2027
+      • Bangladesh Southern Region Refugee Relief / Acceptance ends March 23, 2027
+      • Ukraine Humanitarian Crisis Relief / Acceptance ends March 23, 2027
+      • 2026 Venezuela Earthquake Relief / Acceptance ends September 21, 2026
+      • Undesignated International Relief / Accepted year-round
+      
+      【Donation Locations】
+      Hanno City Hall main building front entrance information desk (donation box) or Community Welfare Division (1st floor, Window 11)
+      
+      【Acceptance Hours】
+      Weekdays 9:00 AM – 4:30 PM
+      
+      All donations collected are sent in full to the disaster relief fund distribution committees of the affected prefectures. If you need a receipt, the Community Welfare Division can provide one.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/12265.html
+    translation_hash: "sha256-fbac8da3c6c53611"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-07-31T19:18:31.387631Z"
+    format_version: 3
