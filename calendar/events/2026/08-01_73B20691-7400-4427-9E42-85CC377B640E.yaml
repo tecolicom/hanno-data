@@ -15,3 +15,21 @@ description: |-
 render:
   gcal:
     mode: single-allday
+translations:
+  en:
+    summary: "Hanno Summer Solstice Festival: Beer Garden of Forest, Water, and Sun"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      【Date and time】Saturday, August 1, 2026 (Reiwa 8), 4:30 p.m.–9:00 p.m.
+      【Location】Hanno River Stage Plaza (472 Kushimo, Hanno City, Saitama Prefecture)
+      
+      Food and drink sales from food trucks (alcoholic beverages available), violin and guitar performances by TSUMUZI Band, and atmospheric bonfire lighting—a symbol of the Nordic summer solstice festival.
+      
+      Event proceeds rain or shine. It will be cancelled in severe weather (typhoon, heavy rain, lightning, river flooding, or other conditions making safety difficult). If cancelled, notice will be posted on the Oku-Musashi Hanno Tourism Association website.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/sangakukanrenkei/13947.html
+    translation_hash: "sha256-201d1cc16a748b58"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-01T19:02:29.027335Z"
+    format_version: 3
