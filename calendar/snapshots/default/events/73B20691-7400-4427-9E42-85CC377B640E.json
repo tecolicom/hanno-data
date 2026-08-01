@@ -1,0 +1,30 @@
+{
+  "created": "2026-08-01T00:04:28.000Z",
+  "creator": {
+    "email": "tecolicom@gmail.com"
+  },
+  "description": "【日時】令和8年8月1日（土）16時30分～21時\n【場所】飯能河原ステージ広場（埼玉県飯能市久下472）\n\nキッチンカーによる飲食販売（アルコール提供あり）、TSUMUZIバンドによるヴァイオリン・ギター演奏、北欧の夏至祭の象徴であるかがり火による幻想的な雰囲気が特徴です。\n\n小雨決行。荒天（台風、大雨、雷、河川増水等により安全確保が困難と判断した場合）は中止します。中止の場合は（一社）奥むさし飯能観光協会のホームページにてお知らせします。\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/sangakukanrenkei/13947.html",
+  "end": {
+    "date": "2026-08-02"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=XzZzcGs0Y2hnNm9zajJiOW42Z28zMGI5azZncDNlYjlwOGtxMzRiOW82bDFrNmNwbjZ0MTNjZDFnOGsgMjA1NDAzYzk3MWRjNWVmMjFlZmQ4MWMxZDUzODQ5Y2FkZmQ5MDFiNzVjNzdkODg5NTVkOTYwMGY0NWYyYTAxM0Bn",
+  "iCalUID": "73B20691-7400-4427-9E42-85CC377B640E",
+  "id": "_6spk4chg6osj2b9n6go30b9k6gp3eb9p8kq34b9o6l1k6cpn6t13cd1g8k",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能カレンダー",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 4,
+  "start": {
+    "date": "2026-08-01"
+  },
+  "status": "confirmed",
+  "summary": "はんのう夏至祭 森と水と太陽のビアガーデン",
+  "updated": "2026-08-01T00:33:21.388Z"
+}
