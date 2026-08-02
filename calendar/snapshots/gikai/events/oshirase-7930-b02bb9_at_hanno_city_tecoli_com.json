@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-02T19:02:57.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🆕 新着掲載 (公開日: 2026-08-03)\n\nAI による要約 (正確な情報は元記事をご確認ください)\n\n骨そしょう症検診のご案内（令和8年度）\n\n対象：40、45、50、55、60歳の女性（令和9年3月31日までに達する年齢）\n費用：300円\n検診内容：超音波による骨密度測定、測定結果の説明、骨そしょう症予防の食事の話\n服装：かかとに超音波をあてるため、裸足になりやすい服装でご来場ください\n\n検診日程\n・10月2日（金曜日）午後 保健センター 定員165名（先着順）\n・10月3日（土曜日）午前 保健センター 定員165名（先着順）\n\n申込方法\n\n第1次申込：8月3日（月曜日）～8月17日（月曜日）必着\n申込：電子申請、はがき、ファクス（042-974-6558）\n受診票：8月下旬頃送付\n\n第2次申込（1次申込で定員に達しなかった場合のみ実施）：9月3日（木曜日）～各検診日の10日前必着\n申込：予約専用電話（042-974-3471）平日9時～16時30分、電子申請、はがき、ファクス（042-974-6558）\n受診票：検診日の9日前頃送付\n\n申込は先着順です。早めのお申し込みをお願いします。対象者には7月下旬に個別勧奨通知を送付しています。\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/7930.html",
+  "end": {
+    "date": "2026-08-05"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOW43NHBqMGJiMjYwcDY0b2hwODFrNjJyamVkc242NnFia2Y0bjc4cGIzZHRtNmliajNkdG1nIDY3NDU5MTRiMjQzMjMxMTJhMTVmNDNkYzIwYjNhMGY0YTQ4MTdhZmQ4MDBjOGQxNjg3ZDBiZjBiN2Y4OTBjNjFAZw",
+  "iCalUID": "oshirase-7930-b02bb9@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9n74pj0bb260p64ohp81k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/7930.html"
+  },
+  "start": {
+    "date": "2026-08-04"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 骨そしょう症検診のご案内",
+  "updated": "2026-08-02T19:02:57.662Z"
+}

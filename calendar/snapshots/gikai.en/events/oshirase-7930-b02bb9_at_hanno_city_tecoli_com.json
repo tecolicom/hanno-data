@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-02T19:04:06.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n�新 New (Posted: August 3, 2026)\n\nBone Density Screening Information (Fiscal Year 2026)\n\n【Who can attend】\nWomen aged 40, 45, 50, 55, or 60 (turning that age by March 31, 2027)\n\n【Cost】\n300 yen\n\n【What's included】\n• Ultrasound bone density measurement\n• Explanation of your results\n• Talk on nutrition for bone health\n\n【What to wear】\nPlease wear clothing that makes it easy to go barefoot, since we'll use ultrasound on your heels.\n\n【Screening dates and times】\n• Friday, October 2 — afternoon — Hanno Health Center — capacity 165 people (first come, first served)\n• Saturday, October 3 — morning — Hanno Health Center — capacity 165 people (first come, first served)\n\n【How to apply】\n\nFirst round of applications: August 3 (Monday) – August 17 (Monday), must arrive by deadline\n• Apply by: electronic application, postcard, or fax (042-974-6558)\n• Screening voucher will be sent around late August\n\nSecond round of applications: Only held if first round doesn't fill capacity. September 3 (Thursday) – must arrive 10 days before your screening date\n• Apply by: reservation phone (042-974-3471, weekdays 9:00 a.m. – 4:30 p.m.), electronic application, postcard, or fax (042-974-6558)\n• Screening voucher will be sent around 9 days before your screening date\n\nApplications are processed first come, first served. We encourage you to apply early. Eligible residents received an invitation letter in late July.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/7930.html",
+  "end": {
+    "date": "2026-08-05"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOW43NHBqMGJiMjYwcDY0b2hwODFrNjJyamVkc242NnFia2Y0bjc4cGIzZHRtNmliajNkdG1nIGI2ZjM2ZTE5NzUxYzA1Y2NlOTlmYTAwODI4ZTQyOWY0MGY2ZGIxMDBlMmRiZTQ0MmJjMjYyMmEyNWRhOTczMTZAZw",
+  "iCalUID": "oshirase-7930-b02bb9@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9n74pj0bb260p64ohp81k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/7930.html"
+  },
+  "start": {
+    "date": "2026-08-04"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Bone Density Screening Information",
+  "updated": "2026-08-02T19:04:06.413Z"
+}
