@@ -45,3 +45,48 @@ source:
   content_hash: "sha256-b02bb9bd4be03a7b"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-08-03"
+translations:
+  en:
+    summary: "ℹ️ Bone Density Screening Information"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      �新 New (Posted: August 3, 2026)
+      
+      Bone Density Screening Information (Fiscal Year 2026)
+      
+      【Who can attend】
+      Women aged 40, 45, 50, 55, or 60 (turning that age by March 31, 2027)
+      
+      【Cost】
+      300 yen
+      
+      【What's included】
+      • Ultrasound bone density measurement
+      • Explanation of your results
+      • Talk on nutrition for bone health
+      
+      【What to wear】
+      Please wear clothing that makes it easy to go barefoot, since we'll use ultrasound on your heels.
+      
+      【Screening dates and times】
+      • Friday, October 2 — afternoon — Hanno Health Center — capacity 165 people (first come, first served)
+      • Saturday, October 3 — morning — Hanno Health Center — capacity 165 people (first come, first served)
+      
+      【How to apply】
+      
+      First round of applications: August 3 (Monday) – August 17 (Monday), must arrive by deadline
+      • Apply by: electronic application, postcard, or fax (042-974-6558)
+      • Screening voucher will be sent around late August
+      
+      Second round of applications: Only held if first round doesn't fill capacity. September 3 (Thursday) – must arrive 10 days before your screening date
+      • Apply by: reservation phone (042-974-3471, weekdays 9:00 a.m. – 4:30 p.m.), electronic application, postcard, or fax (042-974-6558)
+      • Screening voucher will be sent around 9 days before your screening date
+      
+      Applications are processed first come, first served. We encourage you to apply early. Eligible residents received an invitation letter in late July.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/7930.html
+    translation_hash: "sha256-333e22ec2270336e"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-02T19:03:10.931528Z"
+    format_version: 3
