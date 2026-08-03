@@ -1,0 +1,27 @@
+uid: "shicho-blog-14137-9327c4@hanno.city.tecoli.com"
+summary: "📝 市長：ライオンズフレンドリーシティの取組として 『ライオンズアオフェスユニフォーム』を着用して執務を行っています"
+url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202607/14137.html"
+dtstart: "2026-08-04"
+dtend: "2026-08-04"
+description: |-
+  📝 市長ブログ更新 (公開日: 2026-07-31)
+  
+  本市では、株式会社西武ライオンズと平成27年3月に「連携協力に関する基本協定」（フレンドリーシティ）を県内で初めて締結いたしました。これに基づき、埼玉県内をライオンズカラーの「青」一色に染め上げ、地域全体で一体感を創出するという同社が掲げる今年の夏のテーマに賛同し、市役所庁内の各課において『ライオンズアオフェスユニフォーム』を着用して執務を行っています。
+  
+  この爽やかな「青」の統一感で、今年の夏の暑さをライオンズの投手のように完封していきましょう！
+  
+  着用期間：8月26日（水曜日）まで
+  
+  市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202607/14137.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-shicho-blog
+  id: "14137"
+  url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202607/14137.html"
+  fetched_at: "2026-08-03T19:24:28.652488Z"
+  content_hash: "sha256-9327c4be8ee26d2d"
+  publish_date: "2026-07-31"

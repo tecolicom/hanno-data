@@ -1,0 +1,25 @@
+uid: "shicho-blog-14127-16c763@hanno.city.tecoli.com"
+summary: "📝 市長：水資源保全を目的とした森林保全等に関する協定締結について"
+url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202607/14127.html"
+dtstart: "2026-08-04"
+dtend: "2026-08-04"
+description: |-
+  📝 市長ブログ更新 (公開日: 2026-07-28)
+  
+  7月28日（火曜日）、本市は日本コカ・コーラ株式会社、コカ・コーラ ボトラーズジャパン株式会社と「多摩工場周辺流域の水資源保全を目的とした白岩及び山中エリア市有林の森林保全等に関する協定」を締結いたしました。
+  
+  今後は9年間にわたり、両社と協力しながら約300ヘクタールの森林保全活動を進め、次の世代への豊かな水と森林を引き継いでいけるよう努力してまいります。
+  
+  市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202607/14127.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-shicho-blog
+  id: "14127"
+  url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202607/14127.html"
+  fetched_at: "2026-08-03T19:24:29.172233Z"
+  content_hash: "sha256-16c763bf228fb49e"
+  publish_date: "2026-07-28"
