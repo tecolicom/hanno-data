@@ -25,3 +25,22 @@ source:
   fetched_at: "2026-08-03T19:24:28.652488Z"
   content_hash: "sha256-9327c4be8ee26d2d"
   publish_date: "2026-07-31"
+translations:
+  en:
+    summary: "📝 Mayor: City staff wearing Lions Ao Fest uniforms as part of Lions Friendly City initiative"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      📝 Mayor's Blog Update (Published: July 31, 2026)
+      
+      Hanno City signed a Basic Agreement on Cooperation and Partnership (Friendly City) with Seibu Lions Co., Ltd. in March 2015—the first such agreement in Saitama Prefecture. Following this partnership, we are supporting the Lions' summer theme this year: painting all of Saitama Prefecture in Lions colors—specifically the color "blue"—to create unity across the region. In line with this, staff members throughout Hanno City Hall are wearing Lions Ao Fest uniforms while working.
+      
+      Let's beat the summer heat this year like a Lions pitcher throwing a shutout, united by this refreshing shade of blue!
+      
+      Uniform wear period: Through Wednesday, August 26, 2026
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202607/14137.html
+    translation_hash: "sha256-b8075b92b6d95629"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-03T19:26:25.900431Z"
+    format_version: 3

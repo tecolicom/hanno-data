@@ -23,3 +23,20 @@ source:
   fetched_at: "2026-08-03T19:24:29.172233Z"
   content_hash: "sha256-16c763bf228fb49e"
   publish_date: "2026-07-28"
+translations:
+  en:
+    summary: "📝 Mayor: Forest conservation agreement signed for water resource protection"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      📝 Mayor's blog update (published July 28, 2026)
+      
+      On Tuesday, July 28, Hanno City signed an agreement with The Coca-Cola Company Japan and Coca-Cola Bottlers Japan regarding forest conservation and related activities in the Shiroi and Yamanaka municipal forest areas around the Tama Factory, with the goal of protecting water resources in the surrounding watershed.
+      
+      Over the next nine years, we will work together with both companies to carry out forest conservation activities across approximately 300 hectares, with the commitment to pass on abundant water and forests to the next generation.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202607/14127.html
+    translation_hash: "sha256-401bcf53928a123b"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-03T19:26:21.550368Z"
+    format_version: 3
