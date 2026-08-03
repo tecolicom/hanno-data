@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-03T19:27:43.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n📝 Mayor's Blog Update (Published: July 31, 2026)\n\nHanno City signed a Basic Agreement on Cooperation and Partnership (Friendly City) with Seibu Lions Co., Ltd. in March 2015—the first such agreement in Saitama Prefecture. Following this partnership, we are supporting the Lions' summer theme this year: painting all of Saitama Prefecture in Lions colors—specifically the color \"blue\"—to create unity across the region. In line with this, staff members throughout Hanno City Hall are wearing Lions Ao Fest uniforms while working.\n\nLet's beat the summer heat this year like a Lions pitcher throwing a shutout, united by this refreshing shade of blue!\n\nUniform wear period: Through Wednesday, August 26, 2026\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202607/14137.html",
+  "end": {
+    "date": "2026-08-05"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2VkazZpb3I4ZHNtbTRyM2Zjc21qMmQxaDZjcmlxZTlqNjhybTZkMjBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIGI2ZjM2ZTE5NzUxYzA1Y2NlOTlmYTAwODI4ZTQyOWY0MGY2ZGIxMDBlMmRiZTQ0MmJjMjYyMmEyNWRhOTczMTZAZw",
+  "iCalUID": "shicho-blog-14137-9327c4@hanno.city.tecoli.com",
+  "id": "_edk6ior8dsmm4r3fcsmj2d1h6criqe9j68rm6d20d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202607/14137.html"
+  },
+  "start": {
+    "date": "2026-08-04"
+  },
+  "status": "confirmed",
+  "summary": "📝 Mayor: City staff wearing Lions Ao Fest uniforms as part of Lions Friendly City initiative",
+  "updated": "2026-08-03T19:27:43.845Z"
+}

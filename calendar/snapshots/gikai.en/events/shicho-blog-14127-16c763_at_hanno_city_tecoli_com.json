@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-03T19:27:42.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n📝 Mayor's blog update (published July 28, 2026)\n\nOn Tuesday, July 28, Hanno City signed an agreement with The Coca-Cola Company Japan and Coca-Cola Bottlers Japan regarding forest conservation and related activities in the Shiroi and Yamanaka municipal forest areas around the Tama Factory, with the goal of protecting water resources in the surrounding watershed.\n\nOver the next nine years, we will work together with both companies to carry out forest conservation activities across approximately 300 hectares, with the commitment to pass on abundant water and forests to the next generation.\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202607/14127.html",
+  "end": {
+    "date": "2026-08-05"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2VkazZpb3I4ZHNtbTRyM2Zjc21qMmQxaDY4cmlxYzltY2NyamNjcTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIGI2ZjM2ZTE5NzUxYzA1Y2NlOTlmYTAwODI4ZTQyOWY0MGY2ZGIxMDBlMmRiZTQ0MmJjMjYyMmEyNWRhOTczMTZAZw",
+  "iCalUID": "shicho-blog-14127-16c763@hanno.city.tecoli.com",
+  "id": "_edk6ior8dsmm4r3fcsmj2d1h68riqc9mccrjccq0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202607/14127.html"
+  },
+  "start": {
+    "date": "2026-08-04"
+  },
+  "status": "confirmed",
+  "summary": "📝 Mayor: Forest conservation agreement signed for water resource protection",
+  "updated": "2026-08-03T19:27:43.041Z"
+}

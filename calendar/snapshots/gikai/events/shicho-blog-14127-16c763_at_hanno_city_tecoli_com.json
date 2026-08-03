@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-03T19:26:08.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "📝 市長ブログ更新 (公開日: 2026-07-28)\n\n7月28日（火曜日）、本市は日本コカ・コーラ株式会社、コカ・コーラ ボトラーズジャパン株式会社と「多摩工場周辺流域の水資源保全を目的とした白岩及び山中エリア市有林の森林保全等に関する協定」を締結いたしました。\n\n今後は9年間にわたり、両社と協力しながら約300ヘクタールの森林保全活動を進め、次の世代への豊かな水と森林を引き継いでいけるよう努力してまいります。\n\n市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202607/14127.html",
+  "end": {
+    "date": "2026-08-05"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2VkazZpb3I4ZHNtbTRyM2Zjc21qMmQxaDY4cmlxYzltY2NyamNjcTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIDY3NDU5MTRiMjQzMjMxMTJhMTVmNDNkYzIwYjNhMGY0YTQ4MTdhZmQ4MDBjOGQxNjg3ZDBiZjBiN2Y4OTBjNjFAZw",
+  "iCalUID": "shicho-blog-14127-16c763@hanno.city.tecoli.com",
+  "id": "_edk6ior8dsmm4r3fcsmj2d1h68riqc9mccrjccq0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202607/14127.html"
+  },
+  "start": {
+    "date": "2026-08-04"
+  },
+  "status": "confirmed",
+  "summary": "📝 市長：水資源保全を目的とした森林保全等に関する協定締結について",
+  "updated": "2026-08-03T19:26:08.732Z"
+}
