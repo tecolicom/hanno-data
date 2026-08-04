@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-04T19:26:14.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 13:30–16:30\n\n飯能エコツーリズム協会: https://hanno-tourism.jp/hanno-eco/tour/ec-cyokotto-wakoucha/\n\n原市場地域の水辺で生きもの探しと、コラボ企画として飯能のお茶で手もみ和紅茶も作ります。\n\n【利用料金】1人2,500円、一家族5,000円 （ガイド料、講師代、保険代）\n\n【定員】12名\n\n【ガイド】児嶋翼（飯能市エコツーリズム市民ガイドの会 いきもの部）\n\n【持ち物】飲み物、タオル、手袋（軍手など）、虫除け対策グッズ、雨具、あれば子ども用ライフジャケット（貸し出し用もございます）、あれば水網やケースなど（貸し出し用もございます） 濡れてもよい服装（あまり肌を露出しないもの）、膝ぐらいまで水に入るため濡れてもよい滑りにくい靴（長靴、サンダル不可）、帽子",
+  "end": {
+    "date": "2026-09-27"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bGhuaXJyYmR0cTc4cnBkZXRnbW1ycmxjZGs2MmI5aTYwcDNjYzFwNjhyNDBxMzFkcG42dWJqM2Q1cTdpYmprY2xobXVyMzk1cGhtdXI4IDIwNTQwM2M5NzFkYzVlZjIxZWZkODFjMWQ1Mzg0OWNhZGZkOTAxYjc1Yzc3ZDg4OTU1ZDk2MDBmNDVmMmEwMTNAZw",
+  "iCalUID": "tourism-ec-cyokotto-wakoucha-20260926@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqpb35lhnirrbdtq78rpdetgmmrrlcdk62b9i60p3cc1p68r40q31dpn6ubj3d5q7ibjkclhmur395phmur8",
+  "kind": "calendar#event",
+  "location": "集合 原市場福祉センター（国際興業バス「原市場」下車徒歩3分）",
+  "organizer": {
+    "displayName": "飯能カレンダー",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-cyokotto-wakoucha/"
+  },
+  "start": {
+    "date": "2026-09-26"
+  },
+  "status": "confirmed",
+  "summary": "ちょこっとお手軽ツアー〜原市場の生きもの探しと和紅茶づくり〜",
+  "updated": "2026-08-04T19:26:14.480Z"
+}

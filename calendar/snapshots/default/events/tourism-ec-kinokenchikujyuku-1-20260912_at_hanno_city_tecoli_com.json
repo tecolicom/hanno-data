@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-04T19:26:06.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 10:30–15:00\n\n飯能エコツーリズム協会: https://hanno-tourism.jp/hanno-eco/tour/ec-kinokenchikujyuku-1/\n\n森が木を育み、木と職人技が際だつ伝統工法で家をつくり、木の魅力を最大限に表現します。\n\n【利用料金】大人4,000円、小学生以下1,000円 （ガイド料、昼食代、保険）\n\n【定員】20名\n\n【ガイド】小峰 康夫（小峰材木店）\n\n【持ち物】水筒、タオル、軍手、山歩きが可能な服装と靴",
+  "end": {
+    "date": "2026-09-13"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bGxtaXJqZmRkaW1zb3I4ZDVsbmFxanBlbGxuYWI5aDVrcDMwY2htNjBzajJjaTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIDIwNTQwM2M5NzFkYzVlZjIxZWZkODFjMWQ1Mzg0OWNhZGZkOTAxYjc1Yzc3ZDg4OTU1ZDk2MDBmNDVmMmEwMTNAZw",
+  "iCalUID": "tourism-ec-kinokenchikujyuku-1-20260912@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqpb35llmirjfddimsor8d5lnaqjpellnab9h5kp30chm60sj2ci0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "location": "集合 西武池袋線「東吾野駅」駅前広場",
+  "organizer": {
+    "displayName": "飯能カレンダー",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-kinokenchikujyuku-1/"
+  },
+  "start": {
+    "date": "2026-09-12"
+  },
+  "status": "confirmed",
+  "summary": "木の家探訪〜森から家へ〜第１回「森林と林業」",
+  "updated": "2026-08-04T19:26:06.711Z"
+}

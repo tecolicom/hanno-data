@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-04T19:26:07.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 13:00–16:00\n\n飯能エコツーリズム協会: https://hanno-tourism.jp/hanno-eco/tour/ec-kitagawa-kawanina/\n\n吾野源流ホタル再生プロジェクトの一環として、ゲンジボタルの餌となるカワニナの生息調査と環境整備を行うプログラムです。\n\n【利用料金】一人：1,500円、小学生以下1,000円 （講師料、保険料、利用料等）\n\n【定員】30名\n\n【ガイド】児嶋 翼（飯能市エコツーリズム市民ガイドの会 いきもの部）\n\n【持ち物】軍手、帽子、着替え、水筒、濡れても良い服装、マリンシューズ（サンダル、長靴は禁止） ※あれば箱めがね、水アミ、ケースなど\n\n【備考】喜多川キャンピングベースＨＰ http://www.kitagawa-cb.jp/",
+  "end": {
+    "date": "2026-09-14"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bGxtaXQzMWN0Z25lbzlkZGRnbmVvYmVkNW42MmI5aTYwcDNjYzFwNjRwazBxMzFkcG42dWJqM2Q1cTdpYmprY2xobXVyMzk1cGhtdXI4IDIwNTQwM2M5NzFkYzVlZjIxZWZkODFjMWQ1Mzg0OWNhZGZkOTAxYjc1Yzc3ZDg4OTU1ZDk2MDBmNDVmMmEwMTNAZw",
+  "iCalUID": "tourism-ec-kitagawa-kawanina-20260913@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqpb35llmit31ctgneo9dddgneobed5n62b9i60p3cc1p64pk0q31dpn6ubj3d5q7ibjkclhmur395phmur8",
+  "kind": "calendar#event",
+  "location": "集合 休暇村奥武蔵駐車場（飯能市吾野72） ※西武池袋線・秩父線「吾野駅」から送迎あり",
+  "organizer": {
+    "displayName": "飯能カレンダー",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-kitagawa-kawanina/"
+  },
+  "start": {
+    "date": "2026-09-13"
+  },
+  "status": "confirmed",
+  "summary": "吾野源流ホタル再生プロジェクト「高麗川のカワニナの生息調査と放流」in休暇村奥武蔵",
+  "updated": "2026-08-04T19:26:07.656Z"
+}

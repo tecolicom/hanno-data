@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-04T19:26:02.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 10:30–14:30\n\n飯能エコツーリズム協会: https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-konchu/\n\n飯能市にある里山で、地元で食されてきた山菜を採集し、その材料を使ったピザと天ぷらを食すツアーです。\n\n【利用料金】大人：4,500円、学生：3,000円、小学生以下2,000円 （ガイド、保険、資料、食材費など）\n\n【定員】10名\n\n【ガイド】森のフィールド学舎スタッフ\n\n【持ち物】飲み物、軽食、着替え、帽子、汚れてもいい服、履き慣れた靴（長靴があると便利）\n\n【備考】森のフィールド学舎HP https://morinomanabiya168.wixsite.com/website",
+  "end": {
+    "date": "2026-09-06"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bG1tdXNqOWRsZ21zbzlkZGRubXNvcjhla21qNGMxaTZvbzNpYzFsODFrNjJyamVkc242NnFia2Y0bjc4cGIzZHRtNmliajNkdG1nIDIwNTQwM2M5NzFkYzVlZjIxZWZkODFjMWQ1Mzg0OWNhZGZkOTAxYjc1Yzc3ZDg4OTU1ZDk2MDBmNDVmMmEwMTNAZw",
+  "iCalUID": "tourism-ec-morimana-konchu-20260905@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqpb35lmmusj9dlgmso9dddnmsor8ekmj4c1i6oo3ic1l81k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+  "kind": "calendar#event",
+  "location": "集合 飯能市中央公園トイレ前（国際興業バス「ＯＨ!!!・天覧山下」下車徒歩1分）",
+  "organizer": {
+    "displayName": "飯能カレンダー",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-konchu/"
+  },
+  "start": {
+    "date": "2026-09-05"
+  },
+  "status": "confirmed",
+  "summary": "里山の恵み「山菜」を使ってピザ＆天ぷら作り！with昆虫食",
+  "updated": "2026-08-04T19:26:02.274Z"
+}

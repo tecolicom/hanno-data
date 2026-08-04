@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-04T19:30:05.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 10:30–13:00\n\nAutomated translation (refer to source for accuracy)\n\nHanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-tairakuri-konnyaku/\n\nA tour of the Agano region countryside where you'll see, hear, and taste the seasons. Konjac plants take about 3 years to grow.\n\n【Fee】Adults ¥4,000 | Elementary school children ¥3,000 | Preschoolers ¥1,500 (includes guide, insurance, lunch, etc.)\n\n【Capacity】3 groups (2–4 people per group)\n\n【Guide】Taira Chestnut Garden staff\n\n【What to bring】Drinks, apron, head covering, towel, mask\n\n【More info】Taira Chestnut Garden website https://tairakurien.com/",
+  "end": {
+    "date": "2026-10-03"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bHE2MnFiaWM1bG5hc2o5NWxsbXVyamVmNWdtbXQ5ZDY4bzM0ZGhoNjBvMzRnMzhjNW42c3JwZWNka244dTllZWhpbTZycmNkNG42NnJyZCBkOTE5M2NmNWY2NDRhYjQxYTI4ZTIyNjhhOThhYmM1YWE0MjZiZDJkNTc3MTUyODM0MjQ0YWQ2OWEzMWY1YTY4QGc",
+  "iCalUID": "tourism-ec-tairakuri-konnyaku-20261002@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqpb35lq62qbic5lnasj95llmurjef5gmmt9d68o34dhh60o34g38c5n6srpecdkn8u9eehim6rrcd4n66rrd",
+  "kind": "calendar#event",
+  "location": "集合 たいら栗園（西武池袋線「東吾野駅」下車徒歩15分）",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-tairakuri-konnyaku/"
+  },
+  "start": {
+    "date": "2026-10-02"
+  },
+  "status": "confirmed",
+  "summary": "Experience the countryside with all five senses—try making homemade konjac!!!",
+  "updated": "2026-08-04T19:30:05.859Z"
+}

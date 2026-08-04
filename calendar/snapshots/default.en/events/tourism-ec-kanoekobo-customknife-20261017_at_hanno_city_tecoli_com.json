@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-04T19:30:14.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 10:00–16:30\n\nAutomated translation (refer to source for accuracy)\n\nHanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-kanoekobo-customknife/\n\nA workshop where you'll make an outdoor knife using recycled steel from light truck leaf springs as your material.\n\n【Fee】\n¥8,000 per person (includes guide, insurance, materials, etc.)\n\n【Capacity】\n10 people\n\n【Guide】\nCertified NPO Naguri Canoe Workshop staff\n\n【What to bring】\nDust-protection goggles, rubber gloves or leather gloves (standard ones from a home center are fine), lunch\n\n【More information】\nCertified NPO Naguri Canoe Workshop website: https://naguri-canoe.co.jp/",
+  "end": {
+    "date": "2026-10-18"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bGxtMnJqZmNsbG11b2pmNWxobmFzcmtkdG1tbXJqOWNwaWlxY2hnNjhyMzJjMWg2dDA2Z29iZWRwbmlzb3I5ZWhzaXN0MzVjZG5tb3E5ZWNkbm1xIGQ5MTkzY2Y1ZjY0NGFiNDFhMjhlMjI2OGE5OGFiYzVhYTQyNmJkMmQ1NzcxNTI4MzQyNDRhZDY5YTMxZjVhNjhAZw",
+  "iCalUID": "tourism-ec-kanoekobo-customknife-20261017@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqpb35llm2rjfcllmuojf5lhnasrkdtmmmrj9cpiiqchg68r32c1h6t06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "集合 名栗カヌー工房（国際興業バス「ノーラ名栗・さわらびの湯」下車徒歩20分、または「河又名栗湖入口」下車25分）",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-kanoekobo-customknife/"
+  },
+  "start": {
+    "date": "2026-10-17"
+  },
+  "status": "confirmed",
+  "summary": "Custom knife-making from recycled steel",
+  "updated": "2026-08-04T19:30:14.321Z"
+}

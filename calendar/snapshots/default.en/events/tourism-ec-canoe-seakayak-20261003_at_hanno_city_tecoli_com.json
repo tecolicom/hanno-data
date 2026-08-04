@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-04T19:30:06.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 10:00–14:00\n\nAutomated translation (refer to source for accuracy)\n\nHanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-canoe-seakayak/\n\nPaddle a wooden sea kayak made from locally sourced timber and explore the rich natural surroundings of Naguri Lake on this eco-tour.\n\n【Fee】\n6,000 yen per person (includes guide, insurance, kayak rental, food, etc.)\n\n【Capacity】\n2 two-person kayaks\n\n【Guide】\nStaff from Certified NPO Naguri Canoe Workshop\n\n【What to bring】\nDrink, towel, change of clothes (you may get wet), clothes that are okay to get wet, and sun protection items such as hat or sunglasses as needed.\n\n【More information】\nCertified NPO Naguri Canoe Workshop: https://naguri-canoe.co.jp/",
+  "end": {
+    "date": "2026-10-04"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bGhtMnJqZmNrbW42cGIxZGRnbmlvYmI1a3AzMGNobTY0bzMwY3EwZDFnbXNyamY1cGhtaXQzcDVwcTZhb3JmZGhraXNvcmZkayBkOTE5M2NmNWY2NDRhYjQxYTI4ZTIyNjhhOThhYmM1YWE0MjZiZDJkNTc3MTUyODM0MjQ0YWQ2OWEzMWY1YTY4QGc",
+  "iCalUID": "tourism-ec-canoe-seakayak-20261003@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqpb35lhm2rjfckmn6pb1ddgniobb5kp30chm64o30cq0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "location": "集合 名栗カヌー工房（国際興業バス「ノーラ名栗・さわらびの湯」下車徒歩20分、または「河又名栗湖入口」下車25分）",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-canoe-seakayak/"
+  },
+  "start": {
+    "date": "2026-10-03"
+  },
+  "status": "confirmed",
+  "summary": "Forest & Lake Connection: Wooden Sea Kayak Eco-Tour at Naguri Lake with Homemade Pizza Lunch",
+  "updated": "2026-08-04T19:30:06.480Z"
+}

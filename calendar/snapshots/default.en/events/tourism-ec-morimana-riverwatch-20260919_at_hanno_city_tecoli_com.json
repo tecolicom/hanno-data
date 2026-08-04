@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-04T19:29:56.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 10:00–15:00\n\nAutomated translation (refer to source for accuracy)\n\nHanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-riverwatch/\n\nObserve the creatures living in the Naguri River (Iruma River) in early autumn while the heat lingers. Enjoy fishing, learn about the connections between riverside creatures, and observe water quality indicator organisms.\n\n【Fee】Adults ¥5,000 / Students ¥4,000 / Preschool children ¥2,500 (includes guide, insurance, materials)\n\n【Capacity】15 people per session\n\n【Guide】Forest Field School staff\n\n【What to bring】Drinks, change of clothes, hat, lunch\n\n【More information】Forest Field School website: https://morinomanabiya168.wixsite.com/website",
+  "end": {
+    "date": "2026-09-20"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bG1tdXNqOWRsZ21zbzlkZTlrbmNwYmlldGduOG9yODVrcDMwY2htNjBzajJlYTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIGQ5MTkzY2Y1ZjY0NGFiNDFhMjhlMjI2OGE5OGFiYzVhYTQyNmJkMmQ1NzcxNTI4MzQyNDRhZDY5YTMxZjVhNjhAZw",
+  "iCalUID": "tourism-ec-morimana-riverwatch-20260919@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqpb35lmmusj9dlgmso9de9kncpbietgn8or85kp30chm60sj2ea0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "location": "集合 やまね酒造駐車場（国際興業バス「茶内」下車徒歩1分）",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-riverwatch/"
+  },
+  "start": {
+    "date": "2026-09-19"
+  },
+  "status": "confirmed",
+  "summary": "Rivers as playgrounds and learning spaces — Naguri River watching",
+  "updated": "2026-08-04T19:29:56.966Z"
+}

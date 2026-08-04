@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-04T19:26:28.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 09:30–14:00\n\n飯能エコツーリズム協会: https://hanno-tourism.jp/hanno-eco/tour/ec-tenta-kaibori/\n\n天覧山麓の一画にある市民がナショナル・トラスト運動によって取得した里山で、ビオトープとして保全している溜池を“かい掘”します。\n\n【利用料金】大人・こども3,000円、未就学児1,000円※お子様2人目から家族割引あり （ガイド料、派遣、ピザ材料費ほか）\n\n【定員】15名\n\n【ガイド】NPO法人天覧山・多峯主山の自然を守る会スタッフ\n\n【持ち物】飲み物、マイカップ、お箸、タオル、着替え、マスク、帽子、長靴",
+  "end": {
+    "date": "2026-10-26"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bHE2YXJqa2M0bW1tb2I5YzlubjRxOWQ2OG8zNGRoaDYwcDNhZzM4YzVuNnNycGVjZGtuOHU5ZWVoaW02cnJjZDRuNjZycmQgMjA1NDAzYzk3MWRjNWVmMjFlZmQ4MWMxZDUzODQ5Y2FkZmQ5MDFiNzVjNzdkODg5NTVkOTYwMGY0NWYyYTAxM0Bn",
+  "iCalUID": "tourism-ec-tenta-kaibori-20261025@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqpb35lq6arjkc4mmmob9c9nn4q9d68o34dhh60p3ag38c5n6srpecdkn8u9eehim6rrcd4n66rrd",
+  "kind": "calendar#event",
+  "location": "集合 飯能市立博物館ロビー（国際興業バス「OH!!!・天覧山下」または「市民会館・博物館」バス停下車徒歩3分）",
+  "organizer": {
+    "displayName": "飯能カレンダー",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-tenta-kaibori/"
+  },
+  "start": {
+    "date": "2026-10-25"
+  },
+  "status": "confirmed",
+  "summary": "天覧山麓で“かい掘りするぞー”ツアー",
+  "updated": "2026-08-04T19:26:28.200Z"
+}

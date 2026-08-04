@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-04T19:26:23.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 10:00–16:30\n\n飯能エコツーリズム協会: https://hanno-tourism.jp/hanno-eco/tour/ec-kanoekobo-customknife/\n\n軽トラックの板バネに使われていたリサイクル鋼を素材に、アウトドア用ナイフを作るワークショップです。\n\n【利用料金】一人8,000円 （ガイド代、保険料、材料費など）\n\n【定員】10名\n\n【ガイド】認定NPO法人名栗カヌー工房スタッフ\n\n【持ち物】防塵用ゴーグル、ラバー手袋もしくは革手袋（ホームセンターで販売しているもので大丈夫です）、昼食\n\n【備考】認定NPO法人名栗カヌー工房 HP https://naguri-canoe.co.jp/",
+  "end": {
+    "date": "2026-10-18"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bGxtMnJqZmNsbG11b2pmNWxobmFzcmtkdG1tbXJqOWNwaWlxY2hnNjhyMzJjMWg2dDA2Z29iZWRwbmlzb3I5ZWhzaXN0MzVjZG5tb3E5ZWNkbm1xIDIwNTQwM2M5NzFkYzVlZjIxZWZkODFjMWQ1Mzg0OWNhZGZkOTAxYjc1Yzc3ZDg4OTU1ZDk2MDBmNDVmMmEwMTNAZw",
+  "iCalUID": "tourism-ec-kanoekobo-customknife-20261017@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqpb35llm2rjfcllmuojf5lhnasrkdtmmmrj9cpiiqchg68r32c1h6t06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "集合 名栗カヌー工房（国際興業バス「ノーラ名栗・さわらびの湯」下車徒歩20分、または「河又名栗湖入口」下車25分）",
+  "organizer": {
+    "displayName": "飯能カレンダー",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-kanoekobo-customknife/"
+  },
+  "start": {
+    "date": "2026-10-17"
+  },
+  "status": "confirmed",
+  "summary": "リサイクル鋼から削るカスタムナイフ作り",
+  "updated": "2026-08-04T19:26:23.648Z"
+}

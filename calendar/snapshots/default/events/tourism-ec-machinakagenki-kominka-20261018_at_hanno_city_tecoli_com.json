@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-04T19:26:26.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 10:00–13:00\n\n飯能エコツーリズム協会: https://hanno-tourism.jp/hanno-eco/tour/ec-machinakagenki-kominka/\n\n地元生まれの建築士ガイドが、飯能のまちなかの歴史的建築物や路地の魅力を紹介します。\n\n【利用料金】一人6,000円 （ガイド料、資料代、昼食代、建物内部見学利用料、保険代ほか）\n\n【定員】7名\n\n【ガイド】浅野正敏（飯能まちなかを元気にする会アドバイザー 一級建築士）\n\n【持ち物】飲み物、雨具、筆記用具",
+  "end": {
+    "date": "2026-10-19"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bG1tMm9yOGQ1bjYycXIxY3RpbXNxcjk1bGxtdXJiOWRwbG0yYjlpNjBwM2NjOWc2NHM0MHEzMWRwbjZ1YmozZDVxN2liamtjbGhtdXIzOTVwaG11cjggMjA1NDAzYzk3MWRjNWVmMjFlZmQ4MWMxZDUzODQ5Y2FkZmQ5MDFiNzVjNzdkODg5NTVkOTYwMGY0NWYyYTAxM0Bn",
+  "iCalUID": "tourism-ec-machinakagenki-kominka-20261018@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqpb35lmm2or8d5n62qr1ctimsqr95llmurb9dplm2b9i60p3cc9g64s40q31dpn6ubj3d5q7ibjkclhmur395phmur8",
+  "kind": "calendar#event",
+  "location": "集合 西武池袋線「飯能駅」改札前",
+  "organizer": {
+    "displayName": "飯能カレンダー",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-machinakagenki-kominka/"
+  },
+  "start": {
+    "date": "2026-10-18"
+  },
+  "status": "confirmed",
+  "summary": "古民家や路地の魅力を満喫！飯能まちなか散策ツアー",
+  "updated": "2026-08-04T19:26:26.263Z"
+}

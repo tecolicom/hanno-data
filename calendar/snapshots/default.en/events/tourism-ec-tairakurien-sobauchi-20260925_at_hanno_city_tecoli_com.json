@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-04T19:30:02.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 10:30–13:00\n\nAutomated translation (refer to source for accuracy)\n\nHanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-tairakurien-sobauchi/\n\nYou'll experience almost the entire soba-making process—from preparing the dough to kneading, stretching, and cutting it. Then you'll eat the \"28% buckwheat noodles\" (niwachi soba) you made yourself for lunch, served with tempura made from local vegetables.\n\n【Fee】\nAdults: ¥4,000 | Elementary school children: ¥3,000 | Preschool children: ¥1,500\n(Includes guide, insurance, and lunch)\n\n【Capacity】2 groups (up to 4 people per group)\n\n【Guide】Taira Kuri-en staff\n\n【What to bring】Drinks, apron, headscarf, towel, face mask\n\n【More information】Taira Kuri-en website: https://tairakurien.com/",
+  "end": {
+    "date": "2026-09-26"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bHE2MnFiaWM1bG5hc2o5Y2xuMnFzcmZjOWduYW9yOGQ0bWo0YzFpNm9vM2ljaGw4MWs2MnJqZWRzbjY2cWJrZjRuNzhwYjNkdG02aWJqM2R0bWcgZDkxOTNjZjVmNjQ0YWI0MWEyOGUyMjY4YTk4YWJjNWFhNDI2YmQyZDU3NzE1MjgzNDI0NGFkNjlhMzFmNWE2OEBn",
+  "iCalUID": "tourism-ec-tairakurien-sobauchi-20260925@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqpb35lq62qbic5lnasj9cln2qsrfc9gnaor8d4mj4c1i6oo3ichl81k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+  "kind": "calendar#event",
+  "location": "集合 たいら栗園（西武池袋線「東吾野駅」下車徒歩15分）",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-tairakurien-sobauchi/"
+  },
+  "start": {
+    "date": "2026-09-25"
+  },
+  "status": "confirmed",
+  "summary": "Experience soba-making in the countryside — try your hand at making 28% buckwheat noodles!",
+  "updated": "2026-08-04T19:30:02.468Z"
+}

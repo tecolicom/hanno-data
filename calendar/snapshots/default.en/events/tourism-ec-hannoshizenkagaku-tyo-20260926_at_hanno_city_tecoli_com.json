@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-04T19:30:03.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 09:45–12:30\n\nAutomated translation (refer to source for accuracy)\n\nHanno Ecotourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-hannoshizenkagaku-tyo/\n\nWould you like to experience the \"Butterfly Survey\" that is part of the Ministry of Environment's Monitoring Sites 1000 Satochi Survey?\n\n【Fee】\nAdults: 2,000 yen\nElementary school students and younger: 500 yen\n(Includes guide and insurance)\n\n【Capacity】\n10 people\n\n【Guide】\nOisishi Akira, Hanno Natural Science Research Institute\n\n【What to bring】\nButterfly net, binoculars (if available), writing materials, drinking water",
+  "end": {
+    "date": "2026-09-27"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bGs2MnJqZWR0cG1ncWJxY2xuNm1vYjdjNWxuYWJia2Y1bmlxY2hnNjhyMzBlOWk2cDA2Z29iZWRwbmlzb3I5ZWhzaXN0MzVjZG5tb3E5ZWNkbm1xIGQ5MTkzY2Y1ZjY0NGFiNDFhMjhlMjI2OGE5OGFiYzVhYTQyNmJkMmQ1NzcxNTI4MzQyNDRhZDY5YTMxZjVhNjhAZw",
+  "iCalUID": "tourism-ec-hannoshizenkagaku-tyo-20260926@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqpb35lk62rjedtpmgqbqcln6mob7c5lnabbkf5niqchg68r30e9i6p06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "集合 飯能市立博物館内（国際興業バス「OH!!!・天覧山下」または「市民会館・博物館」下車徒歩3分）",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-hannoshizenkagaku-tyo/"
+  },
+  "start": {
+    "date": "2026-09-26"
+  },
+  "status": "confirmed",
+  "summary": "Experience the Ministry of Environment's butterfly survey!",
+  "updated": "2026-08-04T19:30:03.815Z"
+}

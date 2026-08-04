@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-04T19:30:20.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 09:30–14:00\n\nAutomated translation (refer to source for accuracy)\n\nHanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-tenta-kaibori/\n\nAt a countryside hillside managed as a nature preserve through a National Trust movement in the foothills of Tenranzan Mountain, we will dig for shellfish (かい掘) in a pond maintained as a biotope.\n\n【Fee】\nAdults and children: ¥3,000\nPreschool children: ¥1,000\n※Family discount available from second child onwards\n(Includes guide, dispatch, pizza ingredients, etc.)\n\n【Capacity】\n15 people\n\n【Guide】\nStaff from the NPO \"Tenranzan and Takuho-shuzan Nature Conservation Society\"\n\n【What to bring】\nDrink, personal cup, chopsticks, towel, change of clothes, mask, hat, boots",
+  "end": {
+    "date": "2026-10-26"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bHE2YXJqa2M0bW1tb2I5YzlubjRxOWQ2OG8zNGRoaDYwcDNhZzM4YzVuNnNycGVjZGtuOHU5ZWVoaW02cnJjZDRuNjZycmQgZDkxOTNjZjVmNjQ0YWI0MWEyOGUyMjY4YTk4YWJjNWFhNDI2YmQyZDU3NzE1MjgzNDI0NGFkNjlhMzFmNWE2OEBn",
+  "iCalUID": "tourism-ec-tenta-kaibori-20261025@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqpb35lq6arjkc4mmmob9c9nn4q9d68o34dhh60p3ag38c5n6srpecdkn8u9eehim6rrcd4n66rrd",
+  "kind": "calendar#event",
+  "location": "集合 飯能市立博物館ロビー（国際興業バス「OH!!!・天覧山下」または「市民会館・博物館」バス停下車徒歩3分）",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-tenta-kaibori/"
+  },
+  "start": {
+    "date": "2026-10-25"
+  },
+  "status": "confirmed",
+  "summary": "かい掘りするぞー! Digging for shellfish at the base of Tenranzan Mountain",
+  "updated": "2026-08-04T19:30:20.558Z"
+}

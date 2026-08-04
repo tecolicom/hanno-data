@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-04T19:26:27.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 10:00–16:40\n\n飯能エコツーリズム協会: https://hanno-tourism.jp/hanno-eco/tour/canoe-kukusa/\n\n飯能産の木材で製作した北欧伝統の木製カップ「ククサ」を磨いて仕上げる体験と、窯焼きピザランチが楽しめるツアーです。\n\n【利用料金】一人7,000円 （ガイド、保険、ククサキット代、昼食代など）\n\n【定員】5名\n\n【ガイド】認定NPO法人名栗カヌー工房スタッフ\n\n【持ち物】エプロン、飲み物\n\n【備考】認定NPO法人名栗カヌー工房 HP https://naguri-canoe.co.jp/",
+  "end": {
+    "date": "2026-10-25"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFvcjFkcG5tYWJiYmVsbG5hc3IxNWtwMzBjaG02NG8zNGQyMGQxZ21zcmpmNXBobWl0M3A1cHE2YW9yZmRoa2lzb3JmZGsgMjA1NDAzYzk3MWRjNWVmMjFlZmQ4MWMxZDUzODQ5Y2FkZmQ5MDFiNzVjNzdkODg5NTVkOTYwMGY0NWYyYTAxM0Bn",
+  "iCalUID": "tourism-canoe-kukusa-20261024@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqor1dpnmabbbellnasr15kp30chm64o34d20d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "location": "集合 名栗カヌー工房（国際興業バス「ノーラ名栗・さわらびの湯」下車徒歩20分、または「河又名栗湖入口」下車25分）",
+  "organizer": {
+    "displayName": "飯能カレンダー",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/canoe-kukusa/"
+  },
+  "start": {
+    "date": "2026-10-24"
+  },
+  "status": "confirmed",
+  "summary": "自分だけのククサを磨く体験＆窯焼きピザランチ",
+  "updated": "2026-08-04T19:26:27.147Z"
+}

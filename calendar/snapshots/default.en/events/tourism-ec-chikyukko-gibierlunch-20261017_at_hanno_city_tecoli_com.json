@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-04T19:30:13.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 11:00–14:00\n\nAutomated translation (refer to source for accuracy)\n\nHanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-chikyukko-gibierlunch/\n\nA wild Jomon-style experience. In a vast field under open sky, you'll start by gathering firewood, then prepare lunch using vegetables grown in natural cultivation fields.\n\n【Fee】¥7,000 per person (includes meal ingredients, guide, insurance, etc.)\n\n【Capacity】6 people\n\n【Guide】Chikyukko Farm staff\n\n【What to bring】Long boots, work gloves, hat, towel, clothes suitable for farm work, long boots (if you have them), change of clothes (recommended), drinks",
+  "end": {
+    "date": "2026-10-18"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bGhtZ3FiYmY1cW1tcXJmNWxqbWlvajljbHA2b3RiZWNkazJxY2hnNjhyMzJjMWg2dDA2Z29iZWRwbmlzb3I5ZWhzaXN0MzVjZG5tb3E5ZWNkbm1xIGQ5MTkzY2Y1ZjY0NGFiNDFhMjhlMjI2OGE5OGFiYzVhYTQyNmJkMmQ1NzcxNTI4MzQyNDRhZDY5YTMxZjVhNjhAZw",
+  "iCalUID": "tourism-ec-chikyukko-gibierlunch-20261017@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqpb35lhmgqbbf5qmmqrf5ljmioj9clp6otbecdk2qchg68r32c1h6t06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "集合 飯能市下川崎の八坂神社付近の畑（黄色い旗が目印）",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-chikyukko-gibierlunch/"
+  },
+  "start": {
+    "date": "2026-10-17"
+  },
+  "status": "confirmed",
+  "summary": "🎉 Autumn feast with earth and fire—stone-grilled game meat lunch and vegetable harvest",
+  "updated": "2026-08-04T19:30:13.598Z"
+}

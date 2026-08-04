@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-04T19:30:07.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 10:00–14:00\n\nAutomated translation (refer to source for accuracy)\n\nHanno Ecotourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-canoe-seakayak/\n\nExplore the rich natural beauty of Naguri Lake from wooden sea kayaks crafted from locally sourced timber. This eco-tour offers an intimate experience of the forest and water ecosystem.\n\n【Fee】¥6,000 per person (includes guide, insurance, kayak rental, food ingredients, and more)\n\n【Capacity】Two 2-person kayaks (4 people total)\n\n【Guide】Staff from Certified NPO Naguri Canoe Workshop (認定NPO法人名栗カヌー工房)\n\n【What to bring】Drinks, towel, change of clothes (you may get wet), clothes suitable for getting wet, and sun protection items such as hat or sunglasses as needed.\n\n【More information】Certified NPO Naguri Canoe Workshop website: https://naguri-canoe.co.jp/",
+  "end": {
+    "date": "2026-10-11"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bGhtMnJqZmNrbW42cGIxZGRnbmlvYmI1a3AzMGNobTY0bzMyYzIwZDFnbXNyamY1cGhtaXQzcDVwcTZhb3JmZGhraXNvcmZkayBkOTE5M2NmNWY2NDRhYjQxYTI4ZTIyNjhhOThhYmM1YWE0MjZiZDJkNTc3MTUyODM0MjQ0YWQ2OWEzMWY1YTY4QGc",
+  "iCalUID": "tourism-ec-canoe-seakayak-20261010@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqpb35lhm2rjfckmn6pb1ddgniobb5kp30chm64o32c20d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "location": "集合 名栗カヌー工房（国際興業バス「ノーラ名栗・さわらびの湯」下車徒歩20分、または「河又名栗湖入口」下車25分）",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-canoe-seakayak/"
+  },
+  "start": {
+    "date": "2026-10-10"
+  },
+  "status": "confirmed",
+  "summary": "Wood and Lake Connected: Wooden Sea Kayak Eco-Tour at Naguri Lake with Homemade Pizza Lunch",
+  "updated": "2026-08-04T19:30:07.959Z"
+}

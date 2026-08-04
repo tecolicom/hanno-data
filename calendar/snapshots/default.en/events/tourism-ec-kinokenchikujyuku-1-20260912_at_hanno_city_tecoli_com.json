@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-04T19:29:52.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 10:30–15:00\n\nAutomated translation (refer to source for accuracy)\n\nHanno Eco-Tourism Association\n\nExplore how forests nurture wood, and how wood and traditional craftsmanship come together to build homes that showcase the beauty of wood to its fullest.\n\n【Fee】Adults ¥4,000 | Elementary school children and under ¥1,000 (includes guide, lunch, and insurance)\n\n【Capacity】20 people\n\n【Guide】Yasuo Komine (Komine Lumber)\n\n【What to bring】Water bottle, towel, work gloves, clothes and shoes suitable for hiking",
+  "end": {
+    "date": "2026-09-13"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bGxtaXJqZmRkaW1zb3I4ZDVsbmFxanBlbGxuYWI5aDVrcDMwY2htNjBzajJjaTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIGQ5MTkzY2Y1ZjY0NGFiNDFhMjhlMjI2OGE5OGFiYzVhYTQyNmJkMmQ1NzcxNTI4MzQyNDRhZDY5YTMxZjVhNjhAZw",
+  "iCalUID": "tourism-ec-kinokenchikujyuku-1-20260912@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqpb35llmirjfddimsor8d5lnaqjpellnab9h5kp30chm60sj2ci0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "location": "集合 西武池袋線「東吾野駅」駅前広場",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-kinokenchikujyuku-1/"
+  },
+  "start": {
+    "date": "2026-09-12"
+  },
+  "status": "confirmed",
+  "summary": "木の家探訪〜森から家へ〜第１回「森林と林業」",
+  "updated": "2026-08-04T19:29:53.045Z"
+}

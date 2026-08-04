@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-04T19:26:04.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 10:30–13:00\n\n飯能エコツーリズム協会: https://hanno-tourism.jp/hanno-eco/tour/ec-tairakurien-sobauchi/\n\nそば打ちは、生地作りから捏ね、のばし、切りまでのほぼ全工程を体験し、地元野菜の天ぷらと一緒に自分で打った“二八そば”を昼食として食べていただきます。\n\n【利用料金】大人4,000円、小学生3,000円、未就学児1,500円 （ガイド、保険、昼食など）\n\n【定員】2組（１組4名まで）\n\n【ガイド】たいら栗園スタッフ\n\n【持ち物】飲み物、エプロン、三角巾、タオル、マスク\n\n【備考】たいら栗園 HP https://tairakurien.com/",
+  "end": {
+    "date": "2026-09-12"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bHE2MnFiaWM1bG5hc2o5Y2xuMnFzcmZjOWduYW9yOGQ0bWo0YzFpNm9vM2ljOWg4MWs2MnJqZWRzbjY2cWJrZjRuNzhwYjNkdG02aWJqM2R0bWcgMjA1NDAzYzk3MWRjNWVmMjFlZmQ4MWMxZDUzODQ5Y2FkZmQ5MDFiNzVjNzdkODg5NTVkOTYwMGY0NWYyYTAxM0Bn",
+  "iCalUID": "tourism-ec-tairakurien-sobauchi-20260911@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqpb35lq62qbic5lnasj9cln2qsrfc9gnaor8d4mj4c1i6oo3ic9h81k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+  "kind": "calendar#event",
+  "location": "集合 たいら栗園（西武池袋線「東吾野駅」下車徒歩15分）",
+  "organizer": {
+    "displayName": "飯能カレンダー",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-tairakurien-sobauchi/"
+  },
+  "start": {
+    "date": "2026-09-11"
+  },
+  "status": "confirmed",
+  "summary": "里山を五感で味わう〜二八そば打ち体験をしよう!!〜",
+  "updated": "2026-08-04T19:26:04.336Z"
+}

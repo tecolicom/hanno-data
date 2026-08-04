@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-04T19:26:12.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 09:30–14:40\n\n飯能エコツーリズム協会: https://hanno-tourism.jp/hanno-eco/tour/ec-tanetsuchi-autumn/\n\n落ち葉や枝を活かした菌ちゃんウネづくりや、秋野菜の種まき・植え付け、畑のお手入れを体験するツアー。\n\n【利用料金】大人8,800円、中学生以下2,200円 （ガイド料、昼食代、材料費、保険料）\n\n【定員】15名\n\n【ガイド】飯能たねとつち農園スタッフ\n\n【持ち物】飲み物、帽子、タオル、手袋など",
+  "end": {
+    "date": "2026-09-24"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bHE2MnJqNWVocG5hb3I4ZDRtbTJ0YmtlbG1tc2I5aTYwcDNjYzFwNjhwazBxMzFkcG42dWJqM2Q1cTdpYmprY2xobXVyMzk1cGhtdXI4IDIwNTQwM2M5NzFkYzVlZjIxZWZkODFjMWQ1Mzg0OWNhZGZkOTAxYjc1Yzc3ZDg4OTU1ZDk2MDBmNDVmMmEwMTNAZw",
+  "iCalUID": "tourism-ec-tanetsuchi-autumn-20260923@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqpb35lq62rj5ehpnaor8d4mm2tbkelmmsb9i60p3cc1p68pk0q31dpn6ubj3d5q7ibjkclhmur395phmur8",
+  "kind": "calendar#event",
+  "location": "集合 ラ・ノーラ前の畑 （飯能市下加治243-25、イーグルバス「飯能靖和病院」下車徒歩8分）",
+  "organizer": {
+    "displayName": "飯能カレンダー",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-tanetsuchi-autumn/"
+  },
+  "start": {
+    "date": "2026-09-23"
+  },
+  "status": "confirmed",
+  "summary": "森のまち飯能で楽しむ菌ちゃん畑づくりと夏野菜植えつけ体験",
+  "updated": "2026-08-04T19:26:12.726Z"
+}

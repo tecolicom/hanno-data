@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-04T19:26:17.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 10:00–14:00\n\n飯能エコツーリズム協会: https://hanno-tourism.jp/hanno-eco/tour/ec-canoe-seakayak/\n\n地元の木材で製作した木製シーカヤックに乗り、名栗湖の豊かな自然を巡るエコツアーです。\n\n【利用料金】一人6,000円 （ガイド、保険、カヤックレンタル代、食材代など）\n\n【定員】2人乗り艇×2艇\n\n【ガイド】認定NPO法人名栗カヌー工房スタッフ\n\n【持ち物】飲み物、タオル、着替え（濡れる場合があります）濡れてもよい服、必要に応じて帽子やサングラスなどの日差し対策用品をご用意ください。\n\n【備考】認定NPO法人名栗カヌー工房 HP https://naguri-canoe.co.jp/",
+  "end": {
+    "date": "2026-10-04"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bGhtMnJqZmNrbW42cGIxZGRnbmlvYmI1a3AzMGNobTY0bzMwY3EwZDFnbXNyamY1cGhtaXQzcDVwcTZhb3JmZGhraXNvcmZkayAyMDU0MDNjOTcxZGM1ZWYyMWVmZDgxYzFkNTM4NDljYWRmZDkwMWI3NWM3N2Q4ODk1NWQ5NjAwZjQ1ZjJhMDEzQGc",
+  "iCalUID": "tourism-ec-canoe-seakayak-20261003@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqpb35lhm2rjfckmn6pb1ddgniobb5kp30chm64o30cq0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "location": "集合 名栗カヌー工房（国際興業バス「ノーラ名栗・さわらびの湯」下車徒歩20分、または「河又名栗湖入口」下車25分）",
+  "organizer": {
+    "displayName": "飯能カレンダー",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-canoe-seakayak/"
+  },
+  "start": {
+    "date": "2026-10-03"
+  },
+  "status": "confirmed",
+  "summary": "森と湖をつなぐ 木製シーカヤック・エコツアー＠名栗湖＜手作りピザランチ付き＞",
+  "updated": "2026-08-04T19:26:17.273Z"
+}

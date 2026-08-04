@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-04T19:26:08.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 11:00–14:00\n\n飯能エコツーリズム協会: https://hanno-tourism.jp/hanno-eco/tour/ec-chikyukko-kakashi/\n\n大きな青空の下で静かな日本文化体験を！刈り取った稲わらでオリジナルかかしをつくり田んぼに並べます。\n\n【利用料金】一人5,000円 （工作材料費、食事材料費、ガイド代、保険代）\n\n【定員】6名\n\n【ガイド】ちきゅうっ子ファームスタッフ\n\n【持ち物】長靴、軍手、帽子、タオル、着替え(推奨)、飲み物、かかしに着せる古着",
+  "end": {
+    "date": "2026-09-20"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bGhtZ3FiYmY1cW1tcXJmNWxsbTJxcjFlZGs2aWI5aTYwcDNjYzFwNjRzazBxMzFkcG42dWJqM2Q1cTdpYmprY2xobXVyMzk1cGhtdXI4IDIwNTQwM2M5NzFkYzVlZjIxZWZkODFjMWQ1Mzg0OWNhZGZkOTAxYjc1Yzc3ZDg4OTU1ZDk2MDBmNDVmMmEwMTNAZw",
+  "iCalUID": "tourism-ec-chikyukko-kakashi-20260919@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqpb35lhmgqbbf5qmmqrf5llm2qr1edk6ib9i60p3cc1p64sk0q31dpn6ubj3d5q7ibjkclhmur395phmur8",
+  "kind": "calendar#event",
+  "location": "集合 飯能市下加治の田んぼ（イーグルバス「飯能靖和病院」下車徒歩8分）",
+  "organizer": {
+    "displayName": "飯能カレンダー",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-chikyukko-kakashi/"
+  },
+  "start": {
+    "date": "2026-09-19"
+  },
+  "status": "confirmed",
+  "summary": "田んぼを彩る【かかし作り】とあおぞら畑ランチ",
+  "updated": "2026-08-04T19:26:09.043Z"
+}

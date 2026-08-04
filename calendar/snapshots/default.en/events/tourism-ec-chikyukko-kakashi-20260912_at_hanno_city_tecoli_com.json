@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-04T19:29:51.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 11:00–14:00\n\nAutomated translation (refer to source for accuracy)\n\nHanno Ecotourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-chikyukko-kakashi/\n\nExperience quiet Japanese culture under the open sky! Make your own scarecrow from harvested rice straw and line them up in the rice paddies.\n\n【Fee】5,000 yen per person (includes craft materials, meal ingredients, guide service, and insurance)\n\n【Capacity】6 people\n\n【Guide】Chikyukko Farm Staff\n\n【What to bring】Boots, work gloves, hat, towel, change of clothes (recommended), drinking water, old clothes to dress the scarecrow in",
+  "end": {
+    "date": "2026-09-13"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bGhtZ3FiYmY1cW1tcXJmNWxsbTJxcjFlZGs2aWI5aTYwcDNjYzFwNjRwNDBxMzFkcG42dWJqM2Q1cTdpYmprY2xobXVyMzk1cGhtdXI4IGQ5MTkzY2Y1ZjY0NGFiNDFhMjhlMjI2OGE5OGFiYzVhYTQyNmJkMmQ1NzcxNTI4MzQyNDRhZDY5YTMxZjVhNjhAZw",
+  "iCalUID": "tourism-ec-chikyukko-kakashi-20260912@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqpb35lhmgqbbf5qmmqrf5llm2qr1edk6ib9i60p3cc1p64p40q31dpn6ubj3d5q7ibjkclhmur395phmur8",
+  "kind": "calendar#event",
+  "location": "集合 飯能市下加治の田んぼ（イーグルバス「飯能靖和病院」下車徒歩8分）",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-chikyukko-kakashi/"
+  },
+  "start": {
+    "date": "2026-09-12"
+  },
+  "status": "confirmed",
+  "summary": "Scarecrow-Making in the Rice Fields and Blue Sky Farm Lunch",
+  "updated": "2026-08-04T19:29:51.830Z"
+}
