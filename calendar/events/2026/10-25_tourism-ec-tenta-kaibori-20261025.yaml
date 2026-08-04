@@ -1,0 +1,30 @@
+uid: "tourism-ec-tenta-kaibori-20261025@hanno.city.tecoli.com"
+summary: "天覧山麓で“かい掘りするぞー”ツアー"
+location: "集合 飯能市立博物館ロビー（国際興業バス「OH!!!・天覧山下」または「市民会館・博物館」バス停下車徒歩3分）"
+url: "https://hanno-tourism.jp/hanno-eco/tour/ec-tenta-kaibori/"
+dtstart: "2026-10-25T09:30:00+09:00"
+dtend: "2026-10-25T14:00:00+09:00"
+description: |-
+  飯能エコツーリズム協会: https://hanno-tourism.jp/hanno-eco/tour/ec-tenta-kaibori/
+  
+  天覧山麓の一画にある市民がナショナル・トラスト運動によって取得した里山で、ビオトープとして保全している溜池を“かい掘”します。
+  
+  【利用料金】大人・こども3,000円、未就学児1,000円※お子様2人目から家族割引あり （ガイド料、派遣、ピザ材料費ほか）
+  
+  【定員】15名
+  
+  【ガイド】NPO法人天覧山・多峯主山の自然を守る会スタッフ
+  
+  【持ち物】飲み物、マイカップ、お箸、タオル、着替え、マスク、帽子、長靴
+
+render:
+  gcal:
+    mode: single-allday
+    time_marker: "09:30–14:00"
+
+source:
+  type: hanno-tourism-jp
+  id: "ec-tenta-kaibori"
+  url: "https://hanno-tourism.jp/hanno-eco/tour/ec-tenta-kaibori/"
+  fetched_at: "2026-08-04T19:24:00.355713Z"
+  content_hash: "sha256-dd96911288fa4df0"

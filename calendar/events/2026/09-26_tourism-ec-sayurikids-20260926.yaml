@@ -1,0 +1,32 @@
+uid: "tourism-ec-sayurikids-20260926@hanno.city.tecoli.com"
+summary: "キッズガイドがご案内！田んぼの風に吹かれて〜稲刈り＆マコモダケ狩り〜"
+location: "集合 西武バス「加治中学校」バス停前"
+url: "https://hanno-tourism.jp/hanno-eco/tour/ec-sayurikids/"
+dtstart: "2026-09-26T11:10:00+09:00"
+dtend: "2026-09-26T13:30:00+09:00"
+description: |-
+  飯能エコツーリズム協会: https://hanno-tourism.jp/hanno-eco/tour/ec-sayurikids/
+  
+  また、稲刈り後には中国で高級食材とされるマコモダケを実際に収穫し、お持ち帰りいただけます。
+  
+  【利用料金】大人4,000円、小学生以下2,000円 （ガイド料、おやつ、保険）
+  
+  【定員】20名
+  
+  【ガイド】さゆり学童クラブスタッフ
+  
+  【持ち物】飲み物、敷物、軍手、帽子、汚れても良い服装、長靴、ボロ長靴下、雨具、タオル、着替え
+  
+  【備考】さゆり幼稚園HP https://www.hannousayuri.com/
+
+render:
+  gcal:
+    mode: single-allday
+    time_marker: "11:10–13:30"
+
+source:
+  type: hanno-tourism-jp
+  id: "ec-sayurikids"
+  url: "https://hanno-tourism.jp/hanno-eco/tour/ec-sayurikids/"
+  fetched_at: "2026-08-04T19:23:45.424733Z"
+  content_hash: "sha256-c1bb8f39269ea65e"

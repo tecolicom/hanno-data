@@ -1,0 +1,30 @@
+uid: "tourism-ec-chikyukko-gibierlunch-20261010@hanno.city.tecoli.com"
+summary: "土と火で喰らう秋〜縄文石焼ジビエランチと野菜収穫〜"
+location: "集合 飯能市下川崎の八坂神社付近の畑（黄色い旗が目印）"
+url: "https://hanno-tourism.jp/hanno-eco/tour/ec-chikyukko-gibierlunch/"
+dtstart: "2026-10-10T11:00:00+09:00"
+dtend: "2026-10-10T14:00:00+09:00"
+description: |-
+  飯能エコツーリズム協会: https://hanno-tourism.jp/hanno-eco/tour/ec-chikyukko-gibierlunch/
+  
+  ワイルドな縄文体験。広大な畑と青空の下で焚き木集めから始め、自然栽培の畑で育った野菜を使いランチを作ります。
+  
+  【利用料金】一人7,000円 （食事材料費、ガイド代、保険代など）
+  
+  【定員】6名
+  
+  【ガイド】ちきゅうっ子ファームスタッフ
+  
+  【持ち物】長靴、軍手、帽子、タオル、農作業に適した服、長靴（あれば）、着替え(推奨)、飲み物
+
+render:
+  gcal:
+    mode: single-allday
+    time_marker: "11:00–14:00"
+
+source:
+  type: hanno-tourism-jp
+  id: "ec-chikyukko-gibierlunch"
+  url: "https://hanno-tourism.jp/hanno-eco/tour/ec-chikyukko-gibierlunch/"
+  fetched_at: "2026-08-04T19:23:52.573530Z"
+  content_hash: "sha256-8530fa53634e0e65"

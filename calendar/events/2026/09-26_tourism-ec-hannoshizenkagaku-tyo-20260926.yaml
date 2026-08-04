@@ -1,0 +1,30 @@
+uid: "tourism-ec-hannoshizenkagaku-tyo-20260926@hanno.city.tecoli.com"
+summary: "環境省のチョウ類調査を体験しよう！"
+location: "集合 飯能市立博物館内（国際興業バス「OH!!!・天覧山下」または「市民会館・博物館」下車徒歩3分）"
+url: "https://hanno-tourism.jp/hanno-eco/tour/ec-hannoshizenkagaku-tyo/"
+dtstart: "2026-09-26T09:45:00+09:00"
+dtend: "2026-09-26T12:30:00+09:00"
+description: |-
+  飯能エコツーリズム協会: https://hanno-tourism.jp/hanno-eco/tour/ec-hannoshizenkagaku-tyo/
+  
+  環境省が実施するモニタリングサイト1000里地調査の「チョウ類調査」を体験しませんか。
+  
+  【利用料金】大人2,000円、小学生以下500円 （ガイド、保険）
+  
+  【定員】10名
+  
+  【ガイド】飯能自然科学研究所 大石章
+  
+  【持ち物】捕虫網、双眼鏡（あれば）、筆記用具、飲み物
+
+render:
+  gcal:
+    mode: single-allday
+    time_marker: "09:45–12:30"
+
+source:
+  type: hanno-tourism-jp
+  id: "ec-hannoshizenkagaku-tyo"
+  url: "https://hanno-tourism.jp/hanno-eco/tour/ec-hannoshizenkagaku-tyo/"
+  fetched_at: "2026-08-04T19:23:44.003031Z"
+  content_hash: "sha256-859d79f335c3857f"

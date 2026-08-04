@@ -1,0 +1,29 @@
+uid: "tourism-ec-chokotto-tenranzan-20260920@hanno.city.tecoli.com"
+summary: "ちょこっとお手軽ツアー〜天覧山〜"
+location: "集合 飯能市立博物館前（国際興業バス「OH!!!・天覧山下」または「市民会館・博物館」バス停下車徒歩3分）"
+url: "https://hanno-tourism.jp/hanno-eco/tour/ec-chokotto-tenranzan/"
+dtstart: "2026-09-20"
+dtend: "2026-09-20"
+description: |-
+  飯能エコツーリズム協会: https://hanno-tourism.jp/hanno-eco/tour/ec-chokotto-tenranzan/
+  
+  普段の散歩ではなかなか気づかない自然の変化を、ガイドと一緒に歩きながら探してみませんか？ このツアーは短い時間で楽しむことのできる、お手軽ツアーになります。ぜひお気軽に参加してみてください。
+  
+  【利用料金】1人2,000円、リピーター1,500円、一家族4,000円 （ガイド料、保険）
+  
+  【定員】10名
+  
+  【ガイド】児嶋翼（飯能市エコツーリズム市民ガイドの会 いきもの部）
+  
+  【持ち物】飲み物、雨具、リュックサックなど（両手が空くものがおすすめ）、タオル、虫よけスプレー
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-tourism-jp
+  id: "ec-chokotto-tenranzan"
+  url: "https://hanno-tourism.jp/hanno-eco/tour/ec-chokotto-tenranzan/"
+  fetched_at: "2026-08-04T19:23:29.909172Z"
+  content_hash: "sha256-b09b8fab393774c4"

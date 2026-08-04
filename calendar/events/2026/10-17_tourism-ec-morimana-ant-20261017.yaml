@@ -1,0 +1,32 @@
+uid: "tourism-ec-morimana-ant-20261017@hanno.city.tecoli.com"
+summary: "あつまれ！アリ調査隊〜秋の里山で吸虫管づくり〜"
+location: "集合 飯能市立博物館前（国際興業バス「OH!!!・天覧山下」または「市民会館・博物館」下車徒歩3分"
+url: "https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-ant/"
+dtstart: "2026-10-17T10:30:00+09:00"
+dtend: "2026-10-17T15:00:00+09:00"
+description: |-
+  飯能エコツーリズム協会: https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-ant/
+  
+  秋の里山でアリ大調査!? 身近な生きもののアリですが、実はさまざまな種類がいて、とても複雑な生活をしています。
+  
+  【利用料金】大人5,000円、学生4,000円、未就学児2,500円 （ガイド料、保険、資料代）
+  
+  【定員】15名
+  
+  【ガイド】森のフィールド学舎スタッフ
+  
+  【持ち物】飲み物、雨具、手袋、軽食、昼食、山歩きできる格好（長袖、長ズボン、歩きやすい靴）
+  
+  【備考】森のフィールド学舎HP https://morinomanabiya168.wixsite.com/website
+
+render:
+  gcal:
+    mode: single-allday
+    time_marker: "10:30–15:00"
+
+source:
+  type: hanno-tourism-jp
+  id: "ec-morimana-ant"
+  url: "https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-ant/"
+  fetched_at: "2026-08-04T19:23:48.093297Z"
+  content_hash: "sha256-578bf0b4edb71e16"

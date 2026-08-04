@@ -1,0 +1,30 @@
+uid: "tourism-ec-chikyukko-kakashi-20260919@hanno.city.tecoli.com"
+summary: "田んぼを彩る【かかし作り】とあおぞら畑ランチ"
+location: "集合 飯能市下加治の田んぼ（イーグルバス「飯能靖和病院」下車徒歩8分）"
+url: "https://hanno-tourism.jp/hanno-eco/tour/ec-chikyukko-kakashi/"
+dtstart: "2026-09-19T11:00:00+09:00"
+dtend: "2026-09-19T14:00:00+09:00"
+description: |-
+  飯能エコツーリズム協会: https://hanno-tourism.jp/hanno-eco/tour/ec-chikyukko-kakashi/
+  
+  大きな青空の下で静かな日本文化体験を！刈り取った稲わらでオリジナルかかしをつくり田んぼに並べます。
+  
+  【利用料金】一人5,000円 （工作材料費、食事材料費、ガイド代、保険代）
+  
+  【定員】6名
+  
+  【ガイド】ちきゅうっ子ファームスタッフ
+  
+  【持ち物】長靴、軍手、帽子、タオル、着替え(推奨)、飲み物、かかしに着せる古着
+
+render:
+  gcal:
+    mode: single-allday
+    time_marker: "11:00–14:00"
+
+source:
+  type: hanno-tourism-jp
+  id: "ec-chikyukko-kakashi"
+  url: "https://hanno-tourism.jp/hanno-eco/tour/ec-chikyukko-kakashi/"
+  fetched_at: "2026-08-04T19:23:31.526100Z"
+  content_hash: "sha256-9f46b1723e209ae5"

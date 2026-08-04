@@ -1,0 +1,32 @@
+uid: "tourism-ec-tairakuri-konnyaku-20261002@hanno.city.tecoli.com"
+summary: "里山を五感で味わう〜こんにゃく手作り体験をしよう!!!〜"
+location: "集合 たいら栗園（西武池袋線「東吾野駅」下車徒歩15分）"
+url: "https://hanno-tourism.jp/hanno-eco/tour/ec-tairakuri-konnyaku/"
+dtstart: "2026-10-02T10:30:00+09:00"
+dtend: "2026-10-02T13:00:00+09:00"
+description: |-
+  飯能エコツーリズム協会: https://hanno-tourism.jp/hanno-eco/tour/ec-tairakuri-konnyaku/
+  
+  吾野地域の里山の季節を見て、聞いて、味わうツアーです。こんにゃく芋は成長するまでに約3年かかります。
+  
+  【利用料金】大人4,000円、小学生3,000円、未就学児1,500円 （ガイド、保険、昼食など）
+  
+  【定員】3組（1組2〜4名まで）
+  
+  【ガイド】たいら栗園スタッフ
+  
+  【持ち物】飲み物、エプロン、三角巾、タオル、マスク
+  
+  【備考】たいら栗園 HP https://tairakurien.com/
+
+render:
+  gcal:
+    mode: single-allday
+    time_marker: "10:30–13:00"
+
+source:
+  type: hanno-tourism-jp
+  id: "ec-tairakuri-konnyaku"
+  url: "https://hanno-tourism.jp/hanno-eco/tour/ec-tairakuri-konnyaku/"
+  fetched_at: "2026-08-04T19:23:36.148420Z"
+  content_hash: "sha256-f35b96c7f516259f"
