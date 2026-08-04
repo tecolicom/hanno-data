@@ -28,3 +28,24 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-chikyukko-gibierlunch/"
   fetched_at: "2026-08-04T19:23:52.573734Z"
   content_hash: "sha256-8530fa53634e0e65"
+translations:
+  en:
+    summary: "🎉 Autumn feast with earth and fire—stone-grilled game meat lunch and vegetable harvest"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-chikyukko-gibierlunch/
+      
+      A wild Jomon-style experience. In a vast field under open sky, you'll start by gathering firewood, then prepare lunch using vegetables grown in natural cultivation fields.
+      
+      【Fee】¥7,000 per person (includes meal ingredients, guide, insurance, etc.)
+      
+      【Capacity】6 people
+      
+      【Guide】Chikyukko Farm staff
+      
+      【What to bring】Long boots, work gloves, hat, towel, clothes suitable for farm work, long boots (if you have them), change of clothes (recommended), drinks
+    translation_hash: "sha256-43398f46d97b5cdb"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-04T19:28:10.097499Z"
+    format_version: 3

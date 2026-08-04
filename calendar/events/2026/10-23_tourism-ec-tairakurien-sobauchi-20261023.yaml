@@ -30,3 +30,26 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-tairakurien-sobauchi/"
   fetched_at: "2026-08-04T19:23:28.258997Z"
   content_hash: "sha256-bdb0b6782ed03323"
+translations:
+  en:
+    summary: "Experience soba-making in the countryside — try your hand at making traditional 28% buckwheat noodles!"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-tairakurien-sobauchi/
+      
+      Learn soba-making from start to finish — mixing the dough, kneading, stretching, and cutting — then enjoy the noodles you've made for lunch with local vegetable tempura.
+      
+      【Fee】Adults ¥4,000 | Elementary school children ¥3,000 | Preschool children ¥1,500 (includes guide, insurance, lunch)
+      
+      【Capacity】2 groups (up to 4 people per group)
+      
+      【Guide】Tairakurien staff
+      
+      【What to bring】Drinks, apron, headscarf, towel, mask
+      
+      【Notes】Tairakurien website: https://tairakurien.com/
+    translation_hash: "sha256-413ff8e8c6ebaf98"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-04T19:28:29.859071Z"
+    format_version: 3

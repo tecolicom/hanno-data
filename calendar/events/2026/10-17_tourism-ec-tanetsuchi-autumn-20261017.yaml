@@ -28,3 +28,24 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-tanetsuchi-autumn/"
   fetched_at: "2026-08-04T19:23:37.872831Z"
   content_hash: "sha256-6d5a6fd236a2d665"
+translations:
+  en:
+    summary: "Learn to build mushroom beds and plant autumn vegetables in Hanno's forests"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-tanetsuki-autumn/
+      
+      Join a tour to experience making mushroom beds (菌ちゃんウネ) using fallen leaves and branches, sowing and planting autumn vegetables, and maintaining the garden.
+      
+      【Cost】Adults ¥8,800 / Junior high school and under ¥2,200 (includes guide, lunch, materials, and insurance)
+      
+      【Capacity】15 people
+      
+      【Guide】Hanno Tane to Tsuchi Farm staff
+      
+      【What to bring】Drinking water, hat, towel, work gloves, etc.
+    translation_hash: "sha256-3594fd7339cc8d17"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-04T19:28:19.729010Z"
+    format_version: 3

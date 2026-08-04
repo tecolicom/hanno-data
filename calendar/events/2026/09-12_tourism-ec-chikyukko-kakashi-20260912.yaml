@@ -28,3 +28,24 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-chikyukko-kakashi/"
   fetched_at: "2026-08-04T19:23:31.525887Z"
   content_hash: "sha256-9f46b1723e209ae5"
+translations:
+  en:
+    summary: "Scarecrow-Making in the Rice Fields and Blue Sky Farm Lunch"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Ecotourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-chikyukko-kakashi/
+      
+      Experience quiet Japanese culture under the open sky! Make your own scarecrow from harvested rice straw and line them up in the rice paddies.
+      
+      【Fee】5,000 yen per person (includes craft materials, meal ingredients, guide service, and insurance)
+      
+      【Capacity】6 people
+      
+      【Guide】Chikyukko Farm Staff
+      
+      【What to bring】Boots, work gloves, hat, towel, change of clothes (recommended), drinking water, old clothes to dress the scarecrow in
+    translation_hash: "sha256-d0e2d77fd027afa2"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-04T19:26:52.393139Z"
+    format_version: 3

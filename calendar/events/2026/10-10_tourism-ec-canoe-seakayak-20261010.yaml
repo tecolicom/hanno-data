@@ -30,3 +30,26 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-canoe-seakayak/"
   fetched_at: "2026-08-04T19:23:49.720744Z"
   content_hash: "sha256-37e9305a668cfc32"
+translations:
+  en:
+    summary: "Wood and Lake Connected: Wooden Sea Kayak Eco-Tour at Naguri Lake with Homemade Pizza Lunch"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Ecotourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-canoe-seakayak/
+      
+      Explore the rich natural beauty of Naguri Lake from wooden sea kayaks crafted from locally sourced timber. This eco-tour offers an intimate experience of the forest and water ecosystem.
+      
+      【Fee】¥6,000 per person (includes guide, insurance, kayak rental, food ingredients, and more)
+      
+      【Capacity】Two 2-person kayaks (4 people total)
+      
+      【Guide】Staff from Certified NPO Naguri Canoe Workshop (認定NPO法人名栗カヌー工房)
+      
+      【What to bring】Drinks, towel, change of clothes (you may get wet), clothes suitable for getting wet, and sun protection items such as hat or sunglasses as needed.
+      
+      【More information】Certified NPO Naguri Canoe Workshop website: https://naguri-canoe.co.jp/
+    translation_hash: "sha256-3d39693ed4a96a31"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-04T19:27:50.780677Z"
+    format_version: 3

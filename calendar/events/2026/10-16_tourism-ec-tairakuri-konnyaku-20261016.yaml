@@ -30,3 +30,31 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-tairakuri-konnyaku/"
   fetched_at: "2026-08-04T19:23:36.148541Z"
   content_hash: "sha256-f35b96c7f516259f"
+translations:
+  en:
+    summary: "Experience the countryside with all five senses — make homemade konnyaku (konjac) during this tour!"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-tairakuri-konnyaku/
+      
+      This is a tour of the Agano area's countryside, where you'll see, hear, and taste the seasons. Konnyaku yams take about 3 years to grow.
+      
+      【Fee】
+      Adults ¥4,000 / Elementary school children ¥3,000 / Preschoolers ¥1,500 (includes guide, insurance, lunch, etc.)
+      
+      【Capacity】
+      3 groups (2–4 people per group)
+      
+      【Guide】
+      Taira Kuri-en staff
+      
+      【What to bring】
+      Drink, apron, headscarf, towel, mask
+      
+      【More information】
+      Taira Kuri-en website: https://tairakurien.com/
+    translation_hash: "sha256-455a14b6ee44fb5a"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-04T19:28:07.045709Z"
+    format_version: 3

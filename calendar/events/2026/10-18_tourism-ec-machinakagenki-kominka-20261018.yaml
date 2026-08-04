@@ -28,3 +28,24 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-machinakagenki-kominka/"
   fetched_at: "2026-08-04T19:23:55.585602Z"
   content_hash: "sha256-d5430a5e6258245c"
+translations:
+  en:
+    summary: "Discover old houses and alleyways! Hanno town stroll tour"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-machinakagenki-kominka/
+      
+      A local architect guide will show you the historic buildings and charming alleyways of central Hanno.
+      
+      【Fee】6,000 yen per person (includes guide fee, materials, lunch, building entry, insurance, and more)
+      
+      【Capacity】7 people
+      
+      【Guide】Masatoshi Asano (Advisor, Hanno Town Vitalization Association; Licensed Architect)
+      
+      【What to bring】Drink, rain gear, writing materials
+    translation_hash: "sha256-e374c28dfdd3c816"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-04T19:28:25.088822Z"
+    format_version: 3

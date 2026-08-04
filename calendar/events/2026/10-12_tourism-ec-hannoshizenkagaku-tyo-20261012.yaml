@@ -28,3 +28,24 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-hannoshizenkagaku-tyo/"
   fetched_at: "2026-08-04T19:23:44.003241Z"
   content_hash: "sha256-859d79f335c3857f"
+translations:
+  en:
+    summary: "Experience the Environment Ministry's butterfly survey!"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-hannoshizenkagaku-tyo/
+      
+      Try your hand at the "Butterfly Survey," part of the Environment Ministry's Monitoring Sites 1000 (里地調査) program.
+      
+      【Fee】Adults ¥2,000 / Elementary school children and younger ¥500 (includes guide and insurance)
+      
+      【Capacity】10 people
+      
+      【Guide】Osamu Oishi, Hanno Natural Science Research Institute
+      
+      【What to bring】Insect net, binoculars (if you have them), writing materials, drinking water
+    translation_hash: "sha256-df5bd4556b657c4b"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-04T19:28:04.530034Z"
+    format_version: 3

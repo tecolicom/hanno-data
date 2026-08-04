@@ -28,3 +28,24 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-logcamp-gibier-autumn/"
   fetched_at: "2026-08-04T19:23:40.930569Z"
   content_hash: "sha256-d10359ecced156c4"
+translations:
+  en:
+    summary: "Learn about Hanno's game meat! A tour giving thanks for the life we eat"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-logcamp-gibier-autumn/
+      
+      An experience tour that takes you from butchering a deer caught in Hanno all the way through to eating game meat dishes.
+      
+      【Fee】¥7,500 per person (includes guide, meals, and insurance)
+      
+      【Capacity】8 people
+      
+      【Guide】Yoshinori Sato (NPO crew-L)
+      
+      【What to bring】Train fare, work gloves, clothes you don't mind getting dirty, comfortable walking shoes
+    translation_hash: "sha256-f727c5d01eab1ef0"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-04T19:28:13.980711Z"
+    format_version: 3

@@ -30,3 +30,26 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-tairakurien-sobauchi/"
   fetched_at: "2026-08-04T19:23:28.258427Z"
   content_hash: "sha256-bdb0b6782ed03323"
+translations:
+  en:
+    summary: "Experience making soba noodles — savor the satoyama (rural village landscape) with all five senses"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-tairakurien-sobauchi/
+      
+      You'll experience almost the entire soba-making process — from preparing the dough, kneading, stretching, to cutting — and enjoy the soba noodles you've made yourself for lunch, served with local vegetable tempura.
+      
+      【Fee】Adults ¥4,000 | Elementary school children ¥3,000 | Preschoolers ¥1,500 (includes guide, insurance, lunch)
+      
+      【Capacity】2 groups (up to 4 people per group)
+      
+      【Guide】Taira Kurien staff
+      
+      【What to bring】Drinks, apron, head scarf, towel, mask
+      
+      【More info】Taira Kurien website: https://tairakurien.com/
+    translation_hash: "sha256-413ff8e8c6ebaf98"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-04T19:26:47.168466Z"
+    format_version: 3

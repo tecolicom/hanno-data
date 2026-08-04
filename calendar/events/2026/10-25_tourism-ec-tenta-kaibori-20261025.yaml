@@ -28,3 +28,31 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-tenta-kaibori/"
   fetched_at: "2026-08-04T19:24:00.355713Z"
   content_hash: "sha256-dd96911288fa4df0"
+translations:
+  en:
+    summary: "かい掘りするぞー! Digging for shellfish at the base of Tenranzan Mountain"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-tenta-kaibori/
+      
+      At a countryside hillside managed as a nature preserve through a National Trust movement in the foothills of Tenranzan Mountain, we will dig for shellfish (かい掘) in a pond maintained as a biotope.
+      
+      【Fee】
+      Adults and children: ¥3,000
+      Preschool children: ¥1,000
+      ※Family discount available from second child onwards
+      (Includes guide, dispatch, pizza ingredients, etc.)
+      
+      【Capacity】
+      15 people
+      
+      【Guide】
+      Staff from the NPO "Tenranzan and Takuho-shuzan Nature Conservation Society"
+      
+      【What to bring】
+      Drink, personal cup, chopsticks, towel, change of clothes, mask, hat, boots
+    translation_hash: "sha256-678792d4f9fd4721"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-04T19:28:38.667245Z"
+    format_version: 3

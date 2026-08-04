@@ -28,3 +28,24 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-tanetsuchi-autumn/"
   fetched_at: "2026-08-04T19:23:37.872628Z"
   content_hash: "sha256-6d5a6fd236a2d665"
+translations:
+  en:
+    summary: "Experience making 'Kinichan' garden beds and planting summer vegetables in Hanno's forest town"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-tanetsuchi-autumn/
+      
+      Join a tour where you'll experience creating 'Kinichan' garden beds using fallen leaves and branches, sowing and planting autumn vegetables, and tending to the garden.
+      
+      【Fee】Adults ¥8,800 / Junior high school and younger ¥2,200 (includes guide, lunch, materials, and insurance)
+      
+      【Capacity】15 people
+      
+      【Guide】Hanno Tane to Tsuchi Farm Staff
+      
+      【What to bring】Drinking water, hat, towel, gloves, etc.
+    translation_hash: "sha256-3594fd7339cc8d17"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-04T19:27:22.574412Z"
+    format_version: 3

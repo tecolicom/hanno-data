@@ -28,3 +28,30 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-hannoshizenkagaku-tyo/"
   fetched_at: "2026-08-04T19:23:44.003031Z"
   content_hash: "sha256-859d79f335c3857f"
+translations:
+  en:
+    summary: "Experience the Ministry of Environment's butterfly survey!"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Ecotourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-hannoshizenkagaku-tyo/
+      
+      Would you like to experience the "Butterfly Survey" that is part of the Ministry of Environment's Monitoring Sites 1000 Satochi Survey?
+      
+      【Fee】
+      Adults: 2,000 yen
+      Elementary school students and younger: 500 yen
+      (Includes guide and insurance)
+      
+      【Capacity】
+      10 people
+      
+      【Guide】
+      Oisishi Akira, Hanno Natural Science Research Institute
+      
+      【What to bring】
+      Butterfly net, binoculars (if available), writing materials, drinking water
+    translation_hash: "sha256-df5bd4556b657c4b"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-04T19:27:33.824709Z"
+    format_version: 3

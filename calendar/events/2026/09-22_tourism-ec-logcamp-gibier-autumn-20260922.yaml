@@ -28,3 +28,24 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-logcamp-gibier-autumn/"
   fetched_at: "2026-08-04T19:23:40.930355Z"
   content_hash: "sha256-d10359ecced156c4"
+translations:
+  en:
+    summary: "Learn about Hanno's wild game! A tour celebrating the gift of life"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-logcamp-gibier-autumn/
+      
+      An experiential tour from field dressing a deer caught in Hanno to enjoying game cuisine.
+      
+      【Fee】¥7,500 per person (includes guide, meals, insurance)
+      
+      【Capacity】8 people
+      
+      【Guide】Sato Yoshinori (Nonprofit Organization crew-L)
+      
+      【What to bring】Train fare, work gloves, clothes you don't mind getting dirty, comfortable walking shoes
+    translation_hash: "sha256-f727c5d01eab1ef0"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-04T19:27:18.241748Z"
+    format_version: 3

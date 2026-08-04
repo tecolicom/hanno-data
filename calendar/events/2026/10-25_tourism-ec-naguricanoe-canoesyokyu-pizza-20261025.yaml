@@ -30,3 +30,30 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-naguricanoe-canoesyokyu-pizza/"
   fetched_at: "2026-08-04T19:23:58.934330Z"
   content_hash: "sha256-9a18248051f30b85"
+translations:
+  en:
+    summary: "Canadian Canoe Beginner Lesson at Lake Naguri — Enjoy the Lake at a Relaxed Pace (with Homemade Pizza Lunch)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Ecotourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-naguricanoe-canoesyokyu-pizza/
+      
+      Canadian canoes are active and dynamic — you propel them across the water with a single-bladed paddle, moving swiftly and smoothly.
+      
+      【Fee】
+      Adults ¥5,000 / Elementary school age and under ¥4,000
+      (Includes guide, insurance, canoe rental, and lunch)
+      
+      【Capacity】 5 people
+      
+      【Guide】 Certified NPO Naguri Canoe Studio staff
+      
+      【What to bring】
+      Towel, drinking water (vending machines available at the facility), and if you have them: hat, sunglasses, etc.
+      
+      【More information】
+      Certified NPO Naguri Canoe Studio: https://naguri-canoe.co.jp/
+    translation_hash: "sha256-e28b0fe79def9f2c"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-04T19:28:35.301134Z"
+    format_version: 3

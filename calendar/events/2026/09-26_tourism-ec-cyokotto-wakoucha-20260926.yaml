@@ -28,3 +28,28 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-cyokotto-wakoucha/"
   fetched_at: "2026-08-04T19:23:46.665657Z"
   content_hash: "sha256-f035934467e26a7a"
+translations:
+  en:
+    summary: "Easy Short Tour: Wildlife Spotting & Hand-Rolled Japanese Tea Making at Haraichiba"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Ecotourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-cyokotto-wakoucha/
+      
+      Explore the waterside of the Haraichiba area to spot wildlife, and as a special collaboration project, make hand-rolled Japanese red tea using Hanno tea.
+      
+      【Fee】
+      ¥2,500 per person, ¥5,000 per family (includes guide fee, instructor fee, insurance)
+      
+      【Capacity】
+      12 people
+      
+      【Guide】
+      Tsubasa Kojima (Hanno Ecotourism Citizen Guides Association – Wildlife Section)
+      
+      【What to bring】
+      Drinking water, towel, work gloves (cotton gloves, etc.), insect repellent, rain gear, child's life jacket if available (loaner available), water net or collection case if available (loaner available), clothes suitable for getting wet (avoid excessive skin exposure), slip-resistant shoes that can get wet up to knee-deep water (no long boots or sandals), hat
+    translation_hash: "sha256-8127c0bde14926ee"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-04T19:27:30.965771Z"
+    format_version: 3

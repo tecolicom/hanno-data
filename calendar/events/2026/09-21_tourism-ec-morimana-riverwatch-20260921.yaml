@@ -30,3 +30,31 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-riverwatch/"
   fetched_at: "2026-08-04T19:23:39.505586Z"
   content_hash: "sha256-bdfaa57d4fc6a5ac"
+translations:
+  en:
+    summary: "Rivers as playgrounds and learning spaces—Naguri River watching"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Ecotourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-riverwatch/
+      
+      Observe creatures living in the Naguri River (Iruma River) in early autumn, enjoy fishing, and learn about the connections between riverside wildlife and water quality indicator species.
+      
+      【Participation fee】
+      Adults ¥5,000 / Students ¥4,000 / Preschoolers ¥2,500 (includes guide, insurance, materials, etc.)
+      
+      【Capacity】
+      15 people per date
+      
+      【Guide】
+      Mori no Field Gakusha (Forest Field School) staff
+      
+      【What to bring】
+      Drinks, change of clothes, hat, lunch
+      
+      【More information】
+      Mori no Field Gakusha website: https://morinomanabiya168.wixsite.com/website
+    translation_hash: "sha256-1066338a282a045e"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-04T19:27:16.385501Z"
+    format_version: 3

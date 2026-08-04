@@ -30,3 +30,26 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-tairakuri-konnyaku/"
   fetched_at: "2026-08-04T19:23:36.148420Z"
   content_hash: "sha256-f35b96c7f516259f"
+translations:
+  en:
+    summary: "Experience the countryside with all five senses—try making homemade konjac!!!"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-tairakuri-konnyaku/
+      
+      A tour of the Agano region countryside where you'll see, hear, and taste the seasons. Konjac plants take about 3 years to grow.
+      
+      【Fee】Adults ¥4,000 | Elementary school children ¥3,000 | Preschoolers ¥1,500 (includes guide, insurance, lunch, etc.)
+      
+      【Capacity】3 groups (2–4 people per group)
+      
+      【Guide】Taira Chestnut Garden staff
+      
+      【What to bring】Drinks, apron, head covering, towel, mask
+      
+      【More info】Taira Chestnut Garden website https://tairakurien.com/
+    translation_hash: "sha256-455a14b6ee44fb5a"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-04T19:27:42.428544Z"
+    format_version: 3

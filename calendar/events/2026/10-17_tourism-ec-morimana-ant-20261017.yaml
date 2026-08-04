@@ -30,3 +30,30 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-ant/"
   fetched_at: "2026-08-04T19:23:48.093297Z"
   content_hash: "sha256-578bf0b4edb71e16"
+translations:
+  en:
+    summary: "🐜 Come Together! Ant Research Squad — Making Insect Traps in the Autumn Satoyama"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Ecotourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-ant/
+      
+      Join a big ant investigation in the autumn satoyama (semi-wild grassland)! Ants are common creatures we see every day, but did you know there are many different species with surprisingly complex lives?
+      
+      【Participation fee】
+      Adults: ¥5,000
+      Students: ¥4,000
+      Preschool children: ¥2,500
+      (Includes guide, insurance, and materials)
+      
+      【Capacity】15 people
+      
+      【Guide】Mori no Field Gakusha (Forest Field Learning Center) staff
+      
+      【What to bring】Drinking water, rain gear, gloves, snacks, lunch, appropriate clothing for hiking (long sleeves, long pants, comfortable walking shoes)
+      
+      【Notes】For more information, visit the Mori no Field Gakusha website: https://morinomanabiya168.wixsite.com/website
+    translation_hash: "sha256-17dd9036d12ba7e2"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-04T19:28:17.080518Z"
+    format_version: 3

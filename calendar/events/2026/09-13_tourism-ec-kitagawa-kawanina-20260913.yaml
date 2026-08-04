@@ -30,3 +30,29 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-kitagawa-kawanina/"
   fetched_at: "2026-08-04T19:23:34.445555Z"
   content_hash: "sha256-6df7d9e6c4dce11b"
+translations:
+  en:
+    summary: "Agano Headwater Firefly Revival Project: Survey and Release of Freshwater Snails at Vacation Village Okuminemusashi"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Ecotourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-kitagawa-kawanina/
+      
+      As part of the Agano Headwater Firefly Revival Project, this program conducts a habitat survey of freshwater snails (kawanina), which are food for Genji fireflies, and environmental improvement work.
+      
+      【Participation Fee】
+      Adult: ¥1,500 per person
+      Elementary school age and under: ¥1,000 per person
+      (Includes instructor fee, insurance, facility use, etc.)
+      
+      【Capacity】30 people
+      
+      【Guide】Tsubasa Kojima (Hanno City Ecotourism Citizens Guide Association, Wildlife Group)
+      
+      【What to Bring】Work gloves, hat, change of clothes, water bottle, clothes that are okay to get wet, marine shoes (sandals and rubber boots prohibited). *If you have them: box magnifying glass, water net, collection case, etc.
+      
+      【Notes】For more information, see Kitagawa Camping Base website: http://www.kitagawa-cb.jp/
+    translation_hash: "sha256-57c5d5b1394a0528"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-04T19:27:04.820662Z"
+    format_version: 3

@@ -30,3 +30,32 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-tairakuri-konnyaku/"
   fetched_at: "2026-08-04T19:23:36.148221Z"
   content_hash: "sha256-f35b96c7f516259f"
+translations:
+  en:
+    summary: "Experience the rural landscape with all five senses—try making konnyaku (konjac) by hand!!!"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Ecotourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-tairakuri-konnyaku/
+      
+      A tour of the Agano district's rural landscape where you can see, hear, and taste the seasons. Did you know? Konnyaku plants take about 3 years to grow.
+      
+      【Fees】
+      Adults ¥4,000 | Elementary school children ¥3,000 | Preschool children ¥1,500
+      (Includes guide, insurance, lunch, etc.)
+      
+      【Capacity】
+      3 groups (2–4 people per group)
+      
+      【Guide】
+      Taira Kurien staff
+      
+      【What to bring】
+      Drink, apron, triangle headscarf, towel, mask
+      
+      【More information】
+      Taira Kurien website: https://tairakurien.com/
+    translation_hash: "sha256-455a14b6ee44fb5a"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-04T19:27:07.438808Z"
+    format_version: 3

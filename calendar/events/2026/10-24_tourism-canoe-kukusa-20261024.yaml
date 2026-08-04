@@ -30,3 +30,22 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/canoe-kukusa/"
   fetched_at: "2026-08-04T19:23:57.505545Z"
   content_hash: "sha256-46ca2f4652017493"
+translations:
+  en:
+    summary: "Polish your own kuksa wooden cup & enjoy wood-fired pizza lunch"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Ecotourism Association: https://hanno-tourism.jp/hanno-eco/tour/canoe-kukusa/
+      
+      This tour lets you polish and finish a kuksa — a traditional Nordic wooden cup made from Hanno timber — and enjoy a wood-fired pizza lunch.
+      
+      【Fee】 ¥7,000 per person (includes guide, insurance, kuksa kit, and lunch)
+      【Capacity】 5 people
+      【Guide】 Staff from Certified NPO Naguri Canoe Workshop
+      【What to bring】 Apron, drinks
+      【More information】 Certified NPO Naguri Canoe Workshop: https://naguri-canoe.co.jp/
+    translation_hash: "sha256-40be95b48ccfc376"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-04T19:28:31.835328Z"
+    format_version: 3

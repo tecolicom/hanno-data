@@ -30,3 +30,26 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-tairakurien-sobauchi/"
   fetched_at: "2026-08-04T19:23:28.258762Z"
   content_hash: "sha256-bdb0b6782ed03323"
+translations:
+  en:
+    summary: "Experience soba noodle making in the satoyama — try your hand at making 28% buckwheat soba!!"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-tairakurien-sobauchi/
+      
+      Learn soba noodle making from start to finish — mixing the dough, kneading, stretching, and cutting. You'll make your own "28% buckwheat soba" (a traditional blend) and eat it for lunch with fresh local vegetable tempura.
+      
+      【Fee】Adults ¥4,000 • Elementary school children ¥3,000 • Preschoolers ¥1,500 (includes guide, insurance, lunch, etc.)
+      
+      【Capacity】2 groups (up to 4 people per group)
+      
+      【Guide】Taira Chestnut Orchard (たいら栗園) staff
+      
+      【What to bring】Drinking water, apron, headscarf, towel, mask
+      
+      【Notes】Taira Chestnut Orchard website: https://tairakurien.com/
+    translation_hash: "sha256-413ff8e8c6ebaf98"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-04T19:27:47.803121Z"
+    format_version: 3

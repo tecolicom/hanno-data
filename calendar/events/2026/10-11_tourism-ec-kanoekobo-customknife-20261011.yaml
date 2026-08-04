@@ -30,3 +30,33 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-kanoekobo-customknife/"
   fetched_at: "2026-08-04T19:23:54.191933Z"
   content_hash: "sha256-b1e876ab6c34e3fe"
+translations:
+  en:
+    summary: "Custom knife-making workshop using recycled steel"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-kanoekobo-customknife/
+      
+      Learn to craft an outdoor knife from recycled steel salvaged from light truck leaf springs. This hands-on workshop teaches traditional metalworking techniques.
+      
+      【Fee】
+      ¥8,000 per person (includes guide, insurance, materials)
+      
+      【Capacity】
+      10 people
+      
+      【Guide】
+      Staff of Certified NPO Naguri Canoe Workshop (認定NPO法人名栗カヌー工房)
+      
+      【What to bring】
+      • Safety goggles (dust protection)
+      • Rubber gloves or leather work gloves (hardware store brands are fine)
+      • Lunch
+      
+      【More information】
+      Naguri Canoe Workshop: https://naguri-canoe.co.jp/
+    translation_hash: "sha256-0b8f4d4bf933b8ea"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-04T19:28:02.630538Z"
+    format_version: 3
