@@ -44,3 +44,44 @@ source:
   content_hash: "sha256-500e0968411f770c"
   summary_method: "full"
   publish_date: "2026-08-05"
+translations:
+  en:
+    summary: "ℹ️ Hanno City support for victims of the 2026 Kumamoto earthquake"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New post (published: August 5, 2026)
+      
+      Support for disaster-affected areas
+      
+      We ask for your cooperation in street fundraising activities to support victims of the July 28 Kumamoto earthquake.
+      
+      Emergency donation campaign
+      
+      We deeply mourn those who lost their lives in the earthquake that struck the Kumamoto region of Kumamoto Prefecture on July 28, and sincerely offer our condolences to all those affected by the disaster.
+      
+      Hanno City will conduct a street fundraising campaign for the 2026 Kumamoto earthquake to support those affected, as follows:
+      
+      We ask for your warm support and cooperation.
+      
+      Date and time
+      
+      August 6, 2026 (Thursday)  6:00 p.m.–7:00 p.m.
+      
+      August 7, 2026 (Friday)  6:00 p.m.–7:00 p.m.
+      
+      Locations
+      
+      East and West exits of Higashi-Hanno Station
+      
+      South exit of Hanno Station
+      
+      Donation boxes are also set up at the information desk in the main lobby of Hanno City Hall.
+      
+      We will continue to place donation boxes at other facilities as well.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/14139.html
+    translation_hash: "sha256-ce77a5a053f663df"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-05T19:24:47.514008Z"
+    format_version: 3

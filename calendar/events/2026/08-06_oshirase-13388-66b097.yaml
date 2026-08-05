@@ -32,3 +32,28 @@ source:
   content_hash: "sha256-66b0975980a4f611"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-08-05"
+translations:
+  en:
+    summary: "ℹ️ Hanno City Fiscal Year 2026 Press Release Materials"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content Updated (Published: August 5, 2026)
+      
+      AI Summary (Please check the original article for accurate information)
+      
+      The list page of Hanno City's fiscal year 2026 press release materials has been updated. The posted items (newest first) are as follows:
+      
+      • Call for operators for the private-sector rebuilding and privatization of Sengen Childcare Center (announced August 5, 2026 / Reiwa 8)
+      • Appointment of Hanno City PR Ambassadors (announced August 3, 2026)
+      • Conclusion of forest conservation agreement with The Coca-Cola Company Japan and Coca-Cola Bottlers Japan (announced July 29, 2026)
+      • Hosting of 'Hanno Summer Solstice Festival Beer Garden: Forest, Water, and Sun' (announced July 23, 2026)
+      • Establishment of Hanno City Free-Theme Private Proposal System Guidelines and public recruitment for private proposals related to Hanno City comprehensive facility management operations (announced July 1, 2026)
+      
+      For earlier announcements, please see the original article.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025_1/13388.html
+    translation_hash: "sha256-99ab6848ff644b2e"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-05T19:24:39.032982Z"
+    format_version: 3

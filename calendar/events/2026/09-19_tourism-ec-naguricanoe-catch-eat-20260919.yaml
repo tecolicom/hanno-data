@@ -30,3 +30,32 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-naguricanoe-catch-eat/"
   fetched_at: "2026-08-05T19:21:53.430538Z"
   content_hash: "sha256-efb047dbc0d0fa35"
+translations:
+  en:
+    summary: "Catch & Eat! Forest Fishing Experience Tour – Black Bass Edition"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-naguricanoe-catch-eat/
+      
+      A fishing experience tour where you catch invasive black bass using cast nets, then cook and eat them.
+      
+      【Fee】
+      ¥6,000 per adult, ¥4,000 for elementary school children and younger
+      (Includes guide, insurance, boat fare, dock use, and meals)
+      
+      【Capacity】
+      10 people
+      
+      【Guide】
+      Certified NPO Naguri Canoe Workshop staff
+      
+      【What to bring】
+      Hat, sunglasses or other sun protection, rain gear (for light rain), comfortable clothing for movement
+      
+      【More information】
+      Certified NPO Naguri Canoe Workshop: https://naguri-canoe.co.jp/
+    translation_hash: "sha256-1227ffb0a206563c"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-05T19:24:50.099070Z"
+    format_version: 3

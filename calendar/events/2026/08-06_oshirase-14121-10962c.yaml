@@ -36,3 +36,39 @@ source:
   content_hash: "sha256-10962c40c7f1c042"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-07-30"
+translations:
+  en:
+    summary: "ℹ️ Accepting donations for the 2026 Kumamoto Earthquake Disaster Relief"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content updated (published: July 30, 2026)
+      
+      We are accepting donations for the 2026 Kumamoto Earthquake Disaster Relief Fund.
+      
+      Donation boxes are set up at the information counter on the 1st floor of Hanno City Hall Main Building. We accept donations on weekdays from 9:00 AM to 4:30 PM, from July 31, 2026 (Friday) to October 23, 2026 (Friday). If you need a receipt, visit the Community Welfare Division (Window 11) on the 1st floor of City Hall.
+      
+      All donations are forwarded through the Japanese Red Cross to the disaster relief fund distribution committees of affected prefectures, and 100% of donations go to disaster victims.
+      
+      【Direct Bank Transfer (if you prefer not to donate at City Hall)】
+      
+      Japan Post Bank / Post Office
+      Account number: 00190-3-605956
+      Account holder name: Japanese Red Cross 2026 Kumamoto Earthquake Disaster Relief Fund
+      Transfer fee is waived at post office windows. If you want a receipt, write "Receipt requested" (受領証希望) in the communication section of the transfer slip and include your name, address, and phone number in the sender field. Receipts take about 3 months to issue.
+      
+      Acceptance period: July 31, 2026 (Friday) – October 30, 2026 (Friday)
+      
+      Bank Transfer
+      Sumitomo Mitsui Bank Suzuran Branch, Regular Account 2787553
+      Mitsubishi UFJ Bank Yamabiko Branch, Regular Account 2105551
+      Mizuho Bank Kunugi Branch, Regular Account 0620820
+      Account holder: Japanese Red Cross Society
+      
+      Always verify the bank name and account number before transferring.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/14121.html
+    translation_hash: "sha256-a5e29ca9a34d879c"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-05T19:24:43.912180Z"
+    format_version: 3
