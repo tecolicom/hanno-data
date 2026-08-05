@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-05T19:26:06.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 New post (published: August 5, 2026)\n\nSupport for disaster-affected areas\n\nWe ask for your cooperation in street fundraising activities to support victims of the July 28 Kumamoto earthquake.\n\nEmergency donation campaign\n\nWe deeply mourn those who lost their lives in the earthquake that struck the Kumamoto region of Kumamoto Prefecture on July 28, and sincerely offer our condolences to all those affected by the disaster.\n\nHanno City will conduct a street fundraising campaign for the 2026 Kumamoto earthquake to support those affected, as follows:\n\nWe ask for your warm support and cooperation.\n\nDate and time\n\nAugust 6, 2026 (Thursday)  6:00 p.m.–7:00 p.m.\n\nAugust 7, 2026 (Friday)  6:00 p.m.–7:00 p.m.\n\nLocations\n\nEast and West exits of Higashi-Hanno Station\n\nSouth exit of Hanno Station\n\nDonation boxes are also set up at the information desk in the main lobby of Hanno City Hall.\n\nWe will continue to place donation boxes at other facilities as well.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/14139.html",
+  "end": {
+    "date": "2026-08-07"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Z29qNmU5ZDZrbzMwcDlnNzUwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-14139-500e09@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6goj6e9d6ko30p9g7506gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/14139.html"
+  },
+  "start": {
+    "date": "2026-08-06"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Hanno City support for victims of the 2026 Kumamoto earthquake",
+  "updated": "2026-08-05T19:26:06.708Z"
+}

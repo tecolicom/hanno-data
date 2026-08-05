@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-05T19:24:14.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🔄 内容更新 (公開日: 2026-07-30)\n\nAI による要約 (正確な情報は元記事をご確認ください)\n\n令和8年熊本地震災害義援金を受け付けています。飯能市役所本庁舎1階の総合案内所カウンターに募金箱を設置しており、令和8年7月31日（金曜日）～令和8年10月23日（金曜日）の平日午前9時00分～午後4時30分に受け付けます。領収書を希望される方は、市役所本庁舎1階の地域福祉課（11番窓口）で対応します。寄付金は日本赤十字社を通じて被災都道府県の義援金配分委員会へ送金され、寄付の全額が被災者の方々へ送られます。\n\n市役所窓口を介さず直接振込を希望される方は、日本赤十字社の専用口座へお振込みください。受付期間は令和8年7月31日（金曜日）～令和8年10月30日（金曜日）です。\n\n【ゆうちょ銀行・郵便局】\n口座記号番号：00190-3-605956\n口座加入者名：日赤令和8年熊本地震災害義援金\n窓口でのお振込みは振込手数料が免除されます。受領証をご希望の場合は、振替用紙の通信欄に「受領証希望」と明記し、ご依頼人欄に「お名前・ご住所・お電話番号」を記載してください。受領証発行には3ヶ月程お時間がかかります。\n\n【銀行振込】\n三井住友銀行すずらん支店普通2787553、三菱UFJ銀行やまびこ支店普通2105551、みずほ銀行クヌギ支店普通0620820\n口座名義：日本赤十字社（ニホンセキジュウジシャ）\n銀行振込前に必ず銀行名や口座番号をご確認ください。\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/14121.html",
+  "end": {
+    "date": "2026-08-07"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Z29qNGM5ZDY0bzNpZGhpY2QwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSA2NzQ1OTE0YjI0MzIzMTEyYTE1ZjQzZGMyMGIzYTBmNGE0ODE3YWZkODAwYzhkMTY4N2QwYmYwYjdmODkwYzYxQGc",
+  "iCalUID": "oshirase-14121-10962c@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6goj4c9d64o3idhicd06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/14121.html"
+  },
+  "start": {
+    "date": "2026-08-06"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 令和8年熊本地震災害義援金の受付について",
+  "updated": "2026-08-05T19:24:14.599Z"
+}

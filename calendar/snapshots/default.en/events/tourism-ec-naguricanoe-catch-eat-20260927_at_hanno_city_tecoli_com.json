@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-05T19:26:18.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 10:00–16:00\n\nAutomated translation (refer to source for accuracy)\n\nHanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-naguricanoe-catch-eat/\n\nA fishing experience tour where you catch invasive largemouth bass using cast nets, cook them, and enjoy the meal.\n\n【Fee】\n¥6,000 per adult, ¥4,000 for elementary school children and under\n(Includes guide, insurance, boat ride, dock use, and meal)\n\n【Capacity】\n10 people\n\n【Guide】\nCertified NPO Naguri Canoe Workshop staff\n\n【What to bring】\nHat, sunglasses or other sun protection, rain gear (for light rain), comfortable clothing for active movement\n\n【More information】\nCertified NPO Naguri Canoe Workshop: https://naguri-canoe.co.jp/",
+  "end": {
+    "date": "2026-09-28"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bG42MnBybGU5a202b2JlZHRpaXFvcjFlaGhtZ2JiNWM1cTJxY2hnNjhyMzBlOWk2dDA2Z29iZWRwbmlzb3I5ZWhzaXN0MzVjZG5tb3E5ZWNkbm1xIGQ5MTkzY2Y1ZjY0NGFiNDFhMjhlMjI2OGE5OGFiYzVhYTQyNmJkMmQ1NzcxNTI4MzQyNDRhZDY5YTMxZjVhNjhAZw",
+  "iCalUID": "tourism-ec-naguricanoe-catch-eat-20260927@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqpb35ln62prle9km6obedtiiqor1ehhmgbb5c5q2qchg68r30e9i6t06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "集合 名栗カヌー工房（国際興業バス「ノーラ名栗・さわらびの湯」下車徒歩20分、または「河又名栗湖入口」下車徒歩25分）",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-naguricanoe-catch-eat/"
+  },
+  "start": {
+    "date": "2026-09-27"
+  },
+  "status": "confirmed",
+  "summary": "Catch & Eat! Forest Fishing Experience Tour – Largemouth Bass Edition",
+  "updated": "2026-08-05T19:26:19.071Z"
+}

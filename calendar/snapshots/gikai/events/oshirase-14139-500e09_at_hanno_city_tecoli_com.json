@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-05T19:24:15.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🆕 新着掲載 (公開日: 2026-08-05)\n\n## 被災地支援について\n\n令和8年熊本地震被災者支援のための街頭募金活動にご協力をお願いいたします\n\n義援金募集\n\n7月28日に熊本県熊本地方で発生した地震により、お亡くなりになられた方々のご冥福を心よりお祈り申し上げますとともに、被災された皆様に心よりお見舞い申し上げます。\n\n飯能市では被災された方々を支援するため、令和8年熊本地震街頭募金活動を下記のとおり実施します。\n\n皆様の温かいお気持ちとご協力をお願いいたします。\n\n日時       令和8年8月6日（木曜日） 18時00分～19時00分\n\n令和8年8月7日（金曜日） 18時00分～19時00分\n\n実施場所      東飯能駅東口及び西口\n\n飯能駅南口\n\n募金箱は市役所本庁舎正面玄関総合案内所にも設置しています。\n\n他の施設にも順次設置してまいります。\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/14139.html",
+  "end": {
+    "date": "2026-08-07"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Z29qNmU5ZDZrbzMwcDlnNzUwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSA2NzQ1OTE0YjI0MzIzMTEyYTE1ZjQzZGMyMGIzYTBmNGE0ODE3YWZkODAwYzhkMTY4N2QwYmYwYjdmODkwYzYxQGc",
+  "iCalUID": "oshirase-14139-500e09@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6goj6e9d6ko30p9g7506gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/14139.html"
+  },
+  "start": {
+    "date": "2026-08-06"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 本市の令和8年熊本地震に伴う被災地支援について",
+  "updated": "2026-08-05T19:24:15.215Z"
+}
