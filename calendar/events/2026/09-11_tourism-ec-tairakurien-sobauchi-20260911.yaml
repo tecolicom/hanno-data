@@ -30,3 +30,26 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-tairakurien-sobauchi/"
   fetched_at: "2026-08-06T23:53:34.315487Z"
   content_hash: "sha256-8e6e7cc67024d890"
+translations:
+  en:
+    summary: "Experience the countryside with all five senses — try making 28% buckwheat noodles!"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Ecotourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-tairakurien-sobauchi/
+      
+      You'll experience almost every step of soba noodle-making, from preparing the dough through kneading, stretching, and cutting. Then you'll eat the noodles you made for lunch, served with tempura vegetables and wild mountain vegetables.
+      
+      【Fee】Adults 4,000 yen, elementary school children 3,000 yen, preschoolers 1,500 yen (includes guide, insurance, lunch, etc.)
+      
+      【Capacity】2 groups (2–4 people per group)
+      
+      【Guide】Taira Chestnut Orchard staff
+      
+      【What to bring】Drinking water, apron, head scarf, towel, mask
+      
+      【Note】Taira Chestnut Orchard website: https://tairakurien.com/
+    translation_hash: "sha256-0c35c9ccd9b42c06"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-06T23:56:37.662265Z"
+    format_version: 3

@@ -30,3 +30,34 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-tairakurien-sobauchi/"
   fetched_at: "2026-08-06T23:53:34.316204Z"
   content_hash: "sha256-8e6e7cc67024d890"
+translations:
+  en:
+    summary: "Experience soba noodle-making in the countryside — try your hand at making niwahachi soba!"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-tairakurien-sobauchi/
+      
+      You'll experience the whole soba-making process — from preparing and kneading the dough to rolling and cutting it. Then you'll eat the niwahachi soba (soba noodles made with eight parts wheat to two parts buckwheat) that you made yourself for lunch, served with tempura made from local vegetables and mountain vegetables.
+      
+      【Fee】
+      Adult: ¥4,000
+      Elementary school child: ¥3,000
+      Preschool child: ¥1,500
+      (Includes guide, insurance, lunch, etc.)
+      
+      【Capacity】
+      2 groups (2–4 people per group)
+      
+      【Guide】
+      Tairakurien staff
+      
+      【What to bring】
+      Drink, apron, headscarf, towel, mask
+      
+      【More information】
+      Tairakurien website: https://tairakurien.com/
+    translation_hash: "sha256-0c35c9ccd9b42c06"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-06T23:57:30.815413Z"
+    format_version: 3

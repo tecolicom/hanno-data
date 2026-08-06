@@ -28,3 +28,28 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-chokotto-tenranzan/"
   fetched_at: "2026-08-06T23:53:35.547998Z"
   content_hash: "sha256-3a2d59192672e74a"
+translations:
+  en:
+    summary: "ちょこっとお手軽ツアー〜天覧山〜"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Ecotourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-chokotto-tenranzan/
+      
+      Walk with a guide and discover the subtle changes in nature that you might miss on an ordinary walk. This is a short, easy-to-enjoy tour. Please join us!
+      
+      【Fee】
+      ¥2,000 per person, ¥1,500 for repeat visitors, ¥4,000 per family (includes guide and insurance)
+      
+      【Capacity】
+      10 people
+      
+      【Guide】
+      Kojima Tsubasa (Hanno City Ecotourism Citizen Guides Association, Creatures Division)
+      
+      【What to bring】
+      Drink, rain gear, backpack or similar (something that leaves both hands free is recommended), towel, insect repellent spray
+    translation_hash: "sha256-0d1a387be461951f"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-06T23:57:34.935311Z"
+    format_version: 3

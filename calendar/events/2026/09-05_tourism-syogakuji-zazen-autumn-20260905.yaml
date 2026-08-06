@@ -28,3 +28,24 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/syogakuji-zazen-autumn/"
   fetched_at: "2026-08-06T23:53:31.691846Z"
   content_hash: "sha256-408afa30ddc61b36"
+translations:
+  en:
+    summary: "Zen temple training experience (seated meditation, dharma talk, sutra copying, vegetarian meal, practice)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/syogakuji-zazen-autumn/
+      
+      At Shogakuji temple—a Soto Zen authorized meditation hall nestled in Hanno's nature—experience zen training centered on seated meditation while listening to the sounds of the river, wind, and birdsong.
+      
+      【Fee】¥7,000 per person (includes guide, lunch, sutra copying, insurance)
+      
+      【Capacity】20 people
+      
+      【Guide】Sanae Ishii (head priest, Shogakuji)
+      
+      【What to bring】Wear long pants suitable for seated meditation, or bring a pair to change into
+    translation_hash: "sha256-0041b53af720af69"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-06T23:56:34.894753Z"
+    format_version: 3

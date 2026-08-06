@@ -28,3 +28,24 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-kinoietanbou-2/"
   fetched_at: "2026-08-06T23:53:53.893775Z"
   content_hash: "sha256-e0c447f7265ce09a"
+translations:
+  en:
+    summary: "木の家探訪〜森から家へ〜第2回「製材と木材」"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-kinoietanbou-2/
+      
+      Forests nurture trees, and skilled craftspeople build homes using traditional methods that showcase wood's natural beauty and potential.
+      
+      【Fee】Adults 4,000 yen, elementary school children and younger 1,000 yen (includes guide, lunch, and insurance)
+      
+      【Capacity】20 people
+      
+      【Guides】Takayuki Okabe, Seiichi Koyama (Okabe Lumber Shop)
+      
+      【What to bring】Water bottle, towel, work gloves
+    translation_hash: "sha256-950f1c0b01dc3ad3"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-06T23:57:20.148339Z"
+    format_version: 3

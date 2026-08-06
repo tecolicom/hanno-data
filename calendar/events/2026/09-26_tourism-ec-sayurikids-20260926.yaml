@@ -30,3 +30,26 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-sayurikids/"
   fetched_at: "2026-08-06T23:53:49.116369Z"
   content_hash: "sha256-5caa7ac79c413a38"
+translations:
+  en:
+    summary: "Kids Guide Tour: Rice Harvest & Water Plant Picking in the Field Breeze"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-sayurikids/
+      
+      After harvesting rice, you'll also pick makomo dake (a water plant considered a luxury ingredient in China) and take it home with you.
+      
+      【Fee】Adults ¥4,000, elementary school age and under ¥2,000 (includes guide, snacks, and insurance)
+      
+      【Capacity】20 people
+      
+      【Guide】Sayuri Gakudou Club, Nishimura Jun
+      
+      【What to bring】Drinks, ground sheet, work gloves, hat, clothes you don't mind getting dirty, rubber boots, old socks, rain gear, towel, change of clothes
+      
+      【More info】Sayuri Kindergarten website: https://www.hannousayuri.com/
+    translation_hash: "sha256-ccbff6ca10733a2e"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-06T23:57:05.447431Z"
+    format_version: 3

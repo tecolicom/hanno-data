@@ -30,3 +30,26 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-konchu/"
   fetched_at: "2026-08-06T23:53:33.097402Z"
   content_hash: "sha256-da6717c64618a1bd"
+translations:
+  en:
+    summary: "Mountain vegetables 'wild edibles' pizza & tempura cooking! with insect cuisine"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Ecotourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-konchu/
+      
+      A tour where you forage for wild mountain vegetables traditionally eaten locally in Hanno's satoyama (foothill forest), then use them to make and eat pizza and tempura.
+      
+      【Fee】Adults: ¥4,500 | Students: ¥3,000 | Preschool: ¥2,000 (includes guide, insurance, materials, food)
+      
+      【Capacity】10 people
+      
+      【Guide】Mori no Field Gakusha (Forest Field Study Hall) staff
+      
+      【What to bring】Drinks, light snacks, change of clothes, hat, clothes you don't mind getting dirty, comfortable broken-in shoes (boots recommended)
+      
+      【More info】Mori no Field Gakusha: https://morinomanabiya168.wixsite.com/website
+    translation_hash: "sha256-3bbe733e7bff2be6"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-06T23:56:32.363260Z"
+    format_version: 3

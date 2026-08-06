@@ -30,3 +30,28 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-ant/"
   fetched_at: "2026-08-06T23:53:51.583001Z"
   content_hash: "sha256-d0868eb4c4b9d6d5"
+translations:
+  en:
+    summary: "あつまれ！アリ調査隊〜秋の里山で吸虫管づくり〜"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Come join the Ant Investigation Squad — build a bug-catching tube and explore ants in an autumn forest!
+      
+      Ants are all around us, but did you know there are many different kinds, each with fascinating lives? This autumn, we'll conduct a major ant survey in Hanno's countryside forests.
+      
+      【Fee】Adults ¥5,000 | Students ¥4,000 | Preschool children ¥2,500 (includes guide, insurance, materials)
+      
+      【Capacity】15 people
+      
+      【Guide】Mori no Field Manabiya (Forest Field Learning Lodge) staff
+      
+      【What to bring】Drinks, rain gear, gloves, light snack, lunch, forest-hiking clothes (long sleeves, long pants, comfortable walking shoes)
+      
+      【More information】
+      Hanno Ecotourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-ant/
+      Mori no Field Manabiya: https://morinomanabiya168.wixsite.com/website
+    translation_hash: "sha256-588b2a83fa4e70c6"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-06T23:57:25.638295Z"
+    format_version: 3
