@@ -1,6 +1,6 @@
 uid: "tourism-ec-kinoietanbou-2-20261010@hanno.city.tecoli.com"
 summary: "木の家探訪〜森から家へ〜第2回「製材と木材」"
-location: "集合 岡部材木店本社前（飯能市赤沢238 国際興業バス「茶内」下車徒歩3分）"
+location: "集合 岡部材木店本社（飯能市赤沢238 国際興業バス「茶内」下車徒歩3分）"
 url: "https://hanno-tourism.jp/hanno-eco/tour/ec-kinoietanbou-2/"
 dtstart: "2026-10-10T10:30:00+09:00"
 dtend: "2026-10-10T15:00:00+09:00"
@@ -26,26 +26,5 @@ source:
   type: hanno-tourism-jp
   id: "ec-kinoietanbou-2"
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-kinoietanbou-2/"
-  fetched_at: "2026-08-04T19:23:51.134395Z"
-  content_hash: "sha256-1b65703a06d8d5cb"
-translations:
-  en:
-    summary: "木の家探訪〜森から家へ〜第2回「製材と木材」"
-    description: |-
-      Automated translation (refer to source for accuracy)
-      
-      Hanno Eco-Tourism Association
-      
-      Forests nurture trees, and skilled craftspeople use traditional methods to build homes that showcase the beauty of wood to the fullest.
-      
-      【Fee】Adults ¥4,000 | Elementary school and younger ¥1,000 (includes guide, lunch, and insurance)
-      
-      【Capacity】20 people
-      
-      【Guides】Takayuki Okabe and Seiichi Oyama (Okabe Lumber)
-      
-      【What to bring】Water bottle, towel, work gloves
-    translation_hash: "sha256-950f1c0b01dc3ad3"
-    model: "claude-haiku-4-5"
-    translated_at: "2026-08-04T19:27:57.347144Z"
-    format_version: 3
+  fetched_at: "2026-08-06T23:53:53.893775Z"
+  content_hash: "sha256-e0c447f7265ce09a"

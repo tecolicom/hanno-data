@@ -1,6 +1,6 @@
 uid: "tourism-ec-cyokotto-wakoucha-20260926@hanno.city.tecoli.com"
 summary: "ちょこっとお手軽ツアー〜原市場の生きもの探しと和紅茶づくり〜"
-location: "集合 原市場福祉センター（国際興業バス「原市場」下車徒歩3分）"
+location: "集合 原市場福祉センター玄関前（国際興業バス「原市場」下車徒歩2分）"
 url: "https://hanno-tourism.jp/hanno-eco/tour/ec-cyokotto-wakoucha/"
 dtstart: "2026-09-26T13:30:00+09:00"
 dtend: "2026-09-26T16:30:00+09:00"
@@ -26,30 +26,5 @@ source:
   type: hanno-tourism-jp
   id: "ec-cyokotto-wakoucha"
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-cyokotto-wakoucha/"
-  fetched_at: "2026-08-04T19:23:46.665657Z"
-  content_hash: "sha256-f035934467e26a7a"
-translations:
-  en:
-    summary: "Easy Short Tour: Wildlife Spotting & Hand-Rolled Japanese Tea Making at Haraichiba"
-    description: |-
-      Automated translation (refer to source for accuracy)
-      
-      Hanno Ecotourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-cyokotto-wakoucha/
-      
-      Explore the waterside of the Haraichiba area to spot wildlife, and as a special collaboration project, make hand-rolled Japanese red tea using Hanno tea.
-      
-      【Fee】
-      ¥2,500 per person, ¥5,000 per family (includes guide fee, instructor fee, insurance)
-      
-      【Capacity】
-      12 people
-      
-      【Guide】
-      Tsubasa Kojima (Hanno Ecotourism Citizen Guides Association – Wildlife Section)
-      
-      【What to bring】
-      Drinking water, towel, work gloves (cotton gloves, etc.), insect repellent, rain gear, child's life jacket if available (loaner available), water net or collection case if available (loaner available), clothes suitable for getting wet (avoid excessive skin exposure), slip-resistant shoes that can get wet up to knee-deep water (no long boots or sandals), hat
-    translation_hash: "sha256-8127c0bde14926ee"
-    model: "claude-haiku-4-5"
-    translated_at: "2026-08-04T19:27:30.965771Z"
-    format_version: 3
+  fetched_at: "2026-08-06T23:53:50.337287Z"
+  content_hash: "sha256-de49071744e3c853"

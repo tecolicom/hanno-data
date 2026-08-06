@@ -7,7 +7,7 @@ dtend: "2026-09-27T16:00:00+09:00"
 description: |-
   飯能エコツーリズム協会: https://hanno-tourism.jp/hanno-eco/tour/ec-naguricanoe-catch-eat/
   
-  外来生物であるブラックバスを刺し網で捕獲し、調理して味わう漁師体験ツアーです。
+  外来生物のブラックバスを刺し網で捕獲し、調理して味わう漁師体験ツアーです。
   
   【利用料金】一人6,000円、小学生以下4,000円 （ガイド代、保険代、乗船料金、桟橋利用料金、食費）
   
@@ -28,34 +28,5 @@ source:
   type: hanno-tourism-jp
   id: "ec-naguricanoe-catch-eat"
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-naguricanoe-catch-eat/"
-  fetched_at: "2026-08-05T19:21:53.430766Z"
-  content_hash: "sha256-efb047dbc0d0fa35"
-translations:
-  en:
-    summary: "Catch & Eat! Forest Fishing Experience Tour – Largemouth Bass Edition"
-    description: |-
-      Automated translation (refer to source for accuracy)
-      
-      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-naguricanoe-catch-eat/
-      
-      A fishing experience tour where you catch invasive largemouth bass using cast nets, cook them, and enjoy the meal.
-      
-      【Fee】
-      ¥6,000 per adult, ¥4,000 for elementary school children and under
-      (Includes guide, insurance, boat ride, dock use, and meal)
-      
-      【Capacity】
-      10 people
-      
-      【Guide】
-      Certified NPO Naguri Canoe Workshop staff
-      
-      【What to bring】
-      Hat, sunglasses or other sun protection, rain gear (for light rain), comfortable clothing for active movement
-      
-      【More information】
-      Certified NPO Naguri Canoe Workshop: https://naguri-canoe.co.jp/
-    translation_hash: "sha256-1227ffb0a206563c"
-    model: "claude-haiku-4-5"
-    translated_at: "2026-08-05T19:24:52.711649Z"
-    format_version: 3
+  fetched_at: "2026-08-06T23:53:42.967985Z"
+  content_hash: "sha256-3109c022d399df13"

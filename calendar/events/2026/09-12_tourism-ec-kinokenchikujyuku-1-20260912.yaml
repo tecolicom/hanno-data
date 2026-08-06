@@ -13,7 +13,7 @@ description: |-
   
   【定員】20名
   
-  【ガイド】小峰 康夫（小峰材木店）
+  【ガイド】小峯 康夫（小峰材木店）
   
   【持ち物】水筒、タオル、軍手、山歩きが可能な服装と靴
 
@@ -26,26 +26,5 @@ source:
   type: hanno-tourism-jp
   id: "ec-kinokenchikujyuku-1"
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-kinokenchikujyuku-1/"
-  fetched_at: "2026-08-04T19:23:32.913092Z"
-  content_hash: "sha256-41879bbfb8160ba2"
-translations:
-  en:
-    summary: "木の家探訪〜森から家へ〜第１回「森林と林業」"
-    description: |-
-      Automated translation (refer to source for accuracy)
-      
-      Hanno Eco-Tourism Association
-      
-      Explore how forests nurture wood, and how wood and traditional craftsmanship come together to build homes that showcase the beauty of wood to its fullest.
-      
-      【Fee】Adults ¥4,000 | Elementary school children and under ¥1,000 (includes guide, lunch, and insurance)
-      
-      【Capacity】20 people
-      
-      【Guide】Yasuo Komine (Komine Lumber)
-      
-      【What to bring】Water bottle, towel, work gloves, clothes and shoes suitable for hiking
-    translation_hash: "sha256-90aedd08a03d4a45"
-    model: "claude-haiku-4-5"
-    translated_at: "2026-08-04T19:26:58.316378Z"
-    format_version: 3
+  fetched_at: "2026-08-06T23:53:37.840134Z"
+  content_hash: "sha256-56dc93ff75896413"

@@ -1,5 +1,5 @@
 uid: "tourism-ec-tanetsuchi-autumn-20260923@hanno.city.tecoli.com"
-summary: "森のまち飯能で楽しむ菌ちゃん畑づくりと夏野菜植えつけ体験"
+summary: "森のまち飯能で楽しむ菌ちゃん畑づくり体験"
 location: "集合 ラ・ノーラ前の畑 （飯能市下加治243-25、イーグルバス「飯能靖和病院」下車徒歩8分）"
 url: "https://hanno-tourism.jp/hanno-eco/tour/ec-tanetsuchi-autumn/"
 dtstart: "2026-09-23T09:30:00+09:00"
@@ -26,26 +26,5 @@ source:
   type: hanno-tourism-jp
   id: "ec-tanetsuchi-autumn"
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-tanetsuchi-autumn/"
-  fetched_at: "2026-08-04T19:23:37.872628Z"
-  content_hash: "sha256-6d5a6fd236a2d665"
-translations:
-  en:
-    summary: "Experience making 'Kinichan' garden beds and planting summer vegetables in Hanno's forest town"
-    description: |-
-      Automated translation (refer to source for accuracy)
-      
-      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-tanetsuchi-autumn/
-      
-      Join a tour where you'll experience creating 'Kinichan' garden beds using fallen leaves and branches, sowing and planting autumn vegetables, and tending to the garden.
-      
-      【Fee】Adults ¥8,800 / Junior high school and younger ¥2,200 (includes guide, lunch, materials, and insurance)
-      
-      【Capacity】15 people
-      
-      【Guide】Hanno Tane to Tsuchi Farm Staff
-      
-      【What to bring】Drinking water, hat, towel, gloves, etc.
-    translation_hash: "sha256-3594fd7339cc8d17"
-    model: "claude-haiku-4-5"
-    translated_at: "2026-08-04T19:27:22.574412Z"
-    format_version: 3
+  fetched_at: "2026-08-06T23:53:41.538880Z"
+  content_hash: "sha256-78f6eeefa0edffa8"

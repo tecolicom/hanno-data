@@ -7,11 +7,11 @@ dtend: "2026-09-25T13:00:00+09:00"
 description: |-
   飯能エコツーリズム協会: https://hanno-tourism.jp/hanno-eco/tour/ec-tairakurien-sobauchi/
   
-  そば打ちは、生地作りから捏ね、のばし、切りまでのほぼ全工程を体験し、地元野菜の天ぷらと一緒に自分で打った“二八そば”を昼食として食べていただきます。
+  そば打ちは、生地作りから捏ね、のばし、切りまでのほぼ全工程を体験し、地元野菜と山菜の天ぷらと一緒に自分で打った“二八そば”を昼食として食べていただきます。
   
   【利用料金】大人4,000円、小学生3,000円、未就学児1,500円 （ガイド、保険、昼食など）
   
-  【定員】2組（１組4名まで）
+  【定員】2組（１組2〜4名まで）
   
   【ガイド】たいら栗園スタッフ
   
@@ -28,30 +28,5 @@ source:
   type: hanno-tourism-jp
   id: "ec-tairakurien-sobauchi"
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-tairakurien-sobauchi/"
-  fetched_at: "2026-08-04T19:23:28.258631Z"
-  content_hash: "sha256-bdb0b6782ed03323"
-translations:
-  en:
-    summary: "Experience soba-making in the countryside — try your hand at making 28% buckwheat noodles!"
-    description: |-
-      Automated translation (refer to source for accuracy)
-      
-      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-tairakurien-sobauchi/
-      
-      You'll experience almost the entire soba-making process—from preparing the dough to kneading, stretching, and cutting it. Then you'll eat the "28% buckwheat noodles" (niwachi soba) you made yourself for lunch, served with tempura made from local vegetables.
-      
-      【Fee】
-      Adults: ¥4,000 | Elementary school children: ¥3,000 | Preschool children: ¥1,500
-      (Includes guide, insurance, and lunch)
-      
-      【Capacity】2 groups (up to 4 people per group)
-      
-      【Guide】Taira Kuri-en staff
-      
-      【What to bring】Drinks, apron, headscarf, towel, face mask
-      
-      【More information】Taira Kuri-en website: https://tairakurien.com/
-    translation_hash: "sha256-413ff8e8c6ebaf98"
-    model: "claude-haiku-4-5"
-    translated_at: "2026-08-04T19:27:27.765935Z"
-    format_version: 3
+  fetched_at: "2026-08-06T23:53:34.315750Z"
+  content_hash: "sha256-8e6e7cc67024d890"

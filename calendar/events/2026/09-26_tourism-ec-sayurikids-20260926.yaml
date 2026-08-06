@@ -13,7 +13,7 @@ description: |-
   
   【定員】20名
   
-  【ガイド】さゆり学童クラブスタッフ
+  【ガイド】さゆり学童クラブ 西村 純
   
   【持ち物】飲み物、敷物、軍手、帽子、汚れても良い服装、長靴、ボロ長靴下、雨具、タオル、着替え
   
@@ -28,28 +28,5 @@ source:
   type: hanno-tourism-jp
   id: "ec-sayurikids"
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-sayurikids/"
-  fetched_at: "2026-08-04T19:23:45.424733Z"
-  content_hash: "sha256-c1bb8f39269ea65e"
-translations:
-  en:
-    summary: "Kids' Guide Tour: Feel the Breeze in the Rice Fields – Rice Harvesting & Water Plant Picking"
-    description: |-
-      Automated translation (refer to source for accuracy)
-      
-      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-sayurikids/
-      
-      After harvesting rice, you'll also pick and take home makomo dake (water caltrop shoots), prized as a luxury ingredient in China.
-      
-      【Fee】Adults ¥4,000, elementary school age and under ¥2,000 (includes guide, snack, insurance)
-      
-      【Capacity】20 people
-      
-      【Guide】Sayuri After-School Club staff
-      
-      【What to bring】Drinking water, ground cloth/mat, work gloves, hat, clothes you don't mind getting dirty, rubber boots, old socks for boots, rain gear, towel, change of clothes
-      
-      【Note】Sayuri Kindergarten website: https://www.hannousayuri.com/
-    translation_hash: "sha256-58b791a5380a0a40"
-    model: "claude-haiku-4-5"
-    translated_at: "2026-08-04T19:27:36.561958Z"
-    format_version: 3
+  fetched_at: "2026-08-06T23:53:49.116369Z"
+  content_hash: "sha256-5caa7ac79c413a38"
