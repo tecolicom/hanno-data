@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "🕒 10:30–15:00\n\nAutomated translation (refer to source for accuracy)\n\nHanno Eco-Tourism Association\n\nForests nurture trees, and skilled craftspeople use traditional methods to build homes that showcase the beauty of wood to the fullest.\n\n【Fee】Adults ¥4,000 | Elementary school and younger ¥1,000 (includes guide, lunch, and insurance)\n\n【Capacity】20 people\n\n【Guides】Takayuki Okabe and Seiichi Oyama (Okabe Lumber)\n\n【What to bring】Water bottle, towel, work gloves",
+  "description": "🕒 10:30–15:00\n\nAutomated translation (refer to source for accuracy)\n\nHanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-kinoietanbou-2/\n\nForests nurture trees, and skilled craftspeople build homes using traditional methods that showcase wood's natural beauty and potential.\n\n【Fee】Adults 4,000 yen, elementary school children and younger 1,000 yen (includes guide, lunch, and insurance)\n\n【Capacity】20 people\n\n【Guides】Takayuki Okabe, Seiichi Koyama (Okabe Lumber Shop)\n\n【What to bring】Water bottle, towel, work gloves",
   "end": {
     "date": "2026-10-11"
   },
@@ -12,7 +12,7 @@
   "iCalUID": "tourism-ec-kinoietanbou-2-20261010@hanno.city.tecoli.com",
   "id": "_ehnnasj9edmiqpb35llmirjfd5in8obec9nnab9i5kp30chm64o32c20d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
   "kind": "calendar#event",
-  "location": "集合 岡部材木店本社前（飯能市赤沢238 国際興業バス「茶内」下車徒歩3分）",
+  "location": "集合 岡部材木店本社（飯能市赤沢238 国際興業バス「茶内」下車徒歩3分）",
   "organizer": {
     "displayName": "飯能カレンダー（EN）",
     "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
@@ -31,5 +31,5 @@
   },
   "status": "confirmed",
   "summary": "木の家探訪〜森から家へ〜第2回「製材と木材」",
-  "updated": "2026-08-04T19:30:10.372Z"
+  "updated": "2026-08-06T23:59:08.007Z"
 }

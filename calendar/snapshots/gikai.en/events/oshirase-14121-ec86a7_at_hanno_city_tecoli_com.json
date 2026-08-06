@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-06T23:58:46.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🔄 Content updated (published: July 30, 2026)\n\nHanno City is accepting donations for disaster relief following the 2026 Kumamoto earthquake.\n\nDonation boxes are set up at the Information Counter on the first floor of Hanno City Hall (Main Building). Donations are accepted from Friday, July 31, 2026 (Reiwa 8) through Friday, October 23, 2026, during weekday business hours (9:00 a.m.–4:30 p.m.). If you need a receipt, visit the Community Welfare Division (Window 11) on the first floor of City Hall.\n\nA donation box is also available at Minami-Kōrai Welfare Center during regular business hours.\n\nIf you prefer to donate directly to the Japanese Red Cross Society, the acceptance period is from Friday, July 31, 2026 through Friday, October 30, 2026.\n\n• Japan Post Bank / Postal Service: Account symbol and number 00190-3-605956 (Japanese Red Cross 2026 Kumamoto Earthquake Relief Fund). Transfers at postal windows are fee-free.\n\n• Bank transfers:\n  – Sumitomo Mitsui Banking Corporation, Suzuran Branch, Ordinary Account 2787553\n  – MUFG Bank, Yamabiko Branch, Ordinary Account 2105551\n  – Mizuho Bank, Knugi Branch, Ordinary Account 0620820\n  Account holder name: Japanese Red Cross Society\n\nAll donations go directly to those affected by the disaster.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/14121.html",
+  "end": {
+    "date": "2026-08-08"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Z29qNGM5ZGNsaGpnZGoxNnQwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-14121-ec86a7@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6goj4c9dclhjgdj16t06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/14121.html"
+  },
+  "start": {
+    "date": "2026-08-07"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Donations being accepted for 2026 Kumamoto earthquake disaster relief",
+  "updated": "2026-08-06T23:58:47.300Z"
+}

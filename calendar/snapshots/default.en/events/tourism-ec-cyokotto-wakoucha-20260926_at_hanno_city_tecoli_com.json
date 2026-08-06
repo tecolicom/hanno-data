@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "🕒 13:30–16:30\n\nAutomated translation (refer to source for accuracy)\n\nHanno Ecotourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-cyokotto-wakoucha/\n\nExplore the waterside of the Haraichiba area to spot wildlife, and as a special collaboration project, make hand-rolled Japanese red tea using Hanno tea.\n\n【Fee】\n¥2,500 per person, ¥5,000 per family (includes guide fee, instructor fee, insurance)\n\n【Capacity】\n12 people\n\n【Guide】\nTsubasa Kojima (Hanno Ecotourism Citizen Guides Association – Wildlife Section)\n\n【What to bring】\nDrinking water, towel, work gloves (cotton gloves, etc.), insect repellent, rain gear, child's life jacket if available (loaner available), water net or collection case if available (loaner available), clothes suitable for getting wet (avoid excessive skin exposure), slip-resistant shoes that can get wet up to knee-deep water (no long boots or sandals), hat",
+  "description": "🕒 13:30–16:30\n\nAutomated translation (refer to source for accuracy)\n\nHanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-cyokotto-wakoucha/\n\nExplore the wetlands of Haraichiba area to search for wildlife, and make handmade Japanese black tea using Hanno tea as a collaborative activity.\n\n【Participation fee】\n¥2,500 per person, ¥5,000 per family (includes guide fee, instructor fee, insurance)\n\n【Capacity】\n12 people\n\n【Guide】\nKojima Tsubasa (Hanno City Eco-Tourism Citizen Guides Association – Wildlife Division)\n\n【What to bring】\n• Drinking water, towel, work gloves (like cotton gloves)\n• Insect repellent, rain gear\n• Child life jacket if you have one (rentals available)\n• Aquatic net or collection case if you have one (rentals available)\n• Clothes suitable for getting wet (avoid exposing too much skin)\n• Non-slip shoes suitable for getting wet that work in water up to knee depth (no rubber boots or sandals)\n• Hat",
   "end": {
     "date": "2026-09-27"
   },
@@ -12,7 +12,7 @@
   "iCalUID": "tourism-ec-cyokotto-wakoucha-20260926@hanno.city.tecoli.com",
   "id": "_ehnnasj9edmiqpb35lhnirrbdtq78rpdetgmmrrlcdk62b9i60p3cc1p68r40q31dpn6ubj3d5q7ibjkclhmur395phmur8",
   "kind": "calendar#event",
-  "location": "集合 原市場福祉センター（国際興業バス「原市場」下車徒歩3分）",
+  "location": "集合 原市場福祉センター玄関前（国際興業バス「原市場」下車徒歩2分）",
   "organizer": {
     "displayName": "飯能カレンダー（EN）",
     "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
@@ -30,6 +30,6 @@
     "date": "2026-09-26"
   },
   "status": "confirmed",
-  "summary": "Easy Short Tour: Wildlife Spotting & Hand-Rolled Japanese Tea Making at Haraichiba",
-  "updated": "2026-08-04T19:30:03.117Z"
+  "summary": "Easy Eco-Tour: Wildlife Spotting at Haraichiba & Handmade Japanese Black Tea",
+  "updated": "2026-08-06T23:59:03.410Z"
 }

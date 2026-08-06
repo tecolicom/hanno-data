@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "🕒 10:30–14:30\n\nAutomated translation (refer to source for accuracy)\n\nHanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/syogakuji-zazen-autumn/\n\nAt Shogakuji, an officially recognized Soto Zen meditation hall, you'll experience Zen training centered on sitting meditation (zazen) surrounded by Hanno's nature—listening to the sounds of the river, wind, and birdsong.\n\n【Fee】¥7,000 per person (includes guide, lunch, sutra copying, insurance)\n\n【Capacity】20 people\n\n【Guide】Sanae Ishii (Shogakuji)\n\n【What to bring】Wear or bring long pants suitable for sitting meditation",
+  "description": "🕒 10:30–14:30\n\nAutomated translation (refer to source for accuracy)\n\nHanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/syogakuji-zazen-autumn/\n\nAt Shogakuji temple—a Soto Zen authorized meditation hall nestled in Hanno's nature—experience zen training centered on seated meditation while listening to the sounds of the river, wind, and birdsong.\n\n【Fee】¥7,000 per person (includes guide, lunch, sutra copying, insurance)\n\n【Capacity】20 people\n\n【Guide】Sanae Ishii (head priest, Shogakuji)\n\n【What to bring】Wear long pants suitable for seated meditation, or bring a pair to change into",
   "end": {
     "date": "2026-09-06"
   },
@@ -30,6 +30,6 @@
     "date": "2026-09-05"
   },
   "status": "confirmed",
-  "summary": "Zen temple training experience (sitting meditation, dharma talk, sutra copying, vegetarian meal, practice)",
-  "updated": "2026-08-04T19:29:49.234Z"
+  "summary": "Zen temple training experience (seated meditation, dharma talk, sutra copying, vegetarian meal, practice)",
+  "updated": "2026-08-06T23:58:54.306Z"
 }
