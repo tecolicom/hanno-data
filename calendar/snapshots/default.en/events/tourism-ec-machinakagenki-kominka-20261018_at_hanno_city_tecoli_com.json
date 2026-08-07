@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "🕒 10:00–13:00\n\nAutomated translation (refer to source for accuracy)\n\nHanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-machinakagenki-kominka/\n\nA local architect guide will show you the historic buildings and charming alleyways of central Hanno.\n\n【Fee】6,000 yen per person (includes guide fee, materials, lunch, building entry, insurance, and more)\n\n【Capacity】7 people\n\n【Guide】Masatoshi Asano (Advisor, Hanno Town Vitalization Association; Licensed Architect)\n\n【What to bring】Drink, rain gear, writing materials",
+  "description": "🕒 10:00–13:00\n\nAutomated translation (refer to source for accuracy)\n\nDiscover the charm of historic buildings and alleyways in central Hanno on this guided walking tour.\n\nA local architect will introduce you to Hanno's historical architecture and the character of its streets and laneways.\n\n【Fee】6,000 yen per person (includes guide, materials, lunch, building access, insurance, and other costs)\n\n【Capacity】7 people\n\n【Guide】Asano Masatoshi (Advisor, Hanno Machinakagenki Association; Licensed Architect, First Class)\n\n【What to bring】Drinking water, rain gear, writing materials\n\nFor more information and to register, visit the Hanno Eco-Tourism Association website: https://hanno-tourism.jp/hanno-eco/tour/ec-machinakagenki-kominka/",
   "end": {
     "date": "2026-10-19"
   },
@@ -12,7 +12,7 @@
   "iCalUID": "tourism-ec-machinakagenki-kominka-20261018@hanno.city.tecoli.com",
   "id": "_ehnnasj9edmiqpb35lmm2or8d5n62qr1ctimsqr95llmurb9dplm2b9i60p3cc9g64s40q31dpn6ubj3d5q7ibjkclhmur395phmur8",
   "kind": "calendar#event",
-  "location": "集合 西武池袋線「飯能駅」改札前",
+  "location": "集合 西武池袋線「飯能駅」改札口",
   "organizer": {
     "displayName": "飯能カレンダー（EN）",
     "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
@@ -30,6 +30,6 @@
     "date": "2026-10-18"
   },
   "status": "confirmed",
-  "summary": "Discover old houses and alleyways! Hanno town stroll tour",
-  "updated": "2026-08-04T19:30:17.935Z"
+  "summary": "古民家や路地の魅力を満喫！飯能まちなか散策ツアー",
+  "updated": "2026-08-07T18:51:43.877Z"
 }

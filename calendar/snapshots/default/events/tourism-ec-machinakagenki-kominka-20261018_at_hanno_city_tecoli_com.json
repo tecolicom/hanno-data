@@ -12,7 +12,7 @@
   "iCalUID": "tourism-ec-machinakagenki-kominka-20261018@hanno.city.tecoli.com",
   "id": "_ehnnasj9edmiqpb35lmm2or8d5n62qr1ctimsqr95llmurb9dplm2b9i60p3cc9g64s40q31dpn6ubj3d5q7ibjkclhmur395phmur8",
   "kind": "calendar#event",
-  "location": "集合 西武池袋線「飯能駅」改札前",
+  "location": "集合 西武池袋線「飯能駅」改札口",
   "organizer": {
     "displayName": "飯能カレンダー",
     "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
@@ -31,5 +31,5 @@
   },
   "status": "confirmed",
   "summary": "古民家や路地の魅力を満喫！飯能まちなか散策ツアー",
-  "updated": "2026-08-04T19:26:26.263Z"
+  "updated": "2026-08-07T18:49:30.174Z"
 }

@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-07T18:51:24.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 New (posted August 6, 2026)\n\nAI summary (check the original article for complete information)\n\nTo support areas affected by the 2026 Kumamoto earthquake, donation boxes have been set up at public facilities throughout the city.\n\nCollection period: August 10, 2026 (Monday) to October 27, 2026 (Tuesday)\n\nDonation boxes are located at: Hanno Station Service Counter, district administrative centers (Hanno Central, Second District, Fujimi, Seimei, Sohyagi, Kaji, Kaji East, Misugi Dai, Minami-Kōma, Agano, Higashi-Agano, Haraichiba, Naguri), Civic Activities Center, clinics (Minami-Kōma, Naguri, Higashi-Agano Medical & Long-term Care Center), Health Center, Sawarabi Hot Spring, Citizens' Gymnasium, Library, Children's Library, and Museum—24 facilities total.\n\nDonations are accepted during regular window service hours at each facility. All donations are forwarded through the Japanese Red Cross to the disaster relief distribution committees of affected prefectures to support disaster victims.\n\nIf you need a receipt, please visit the Community Welfare Division (Window 11, 1st floor, Hanno City Hall main building).\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/14152.html",
+  "end": {
+    "date": "2026-08-09"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Z29qYWNoZDYxaGppb2hwNjkwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-14152-0c9b92@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6gojachd61hjiohp6906gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/14152.html"
+  },
+  "start": {
+    "date": "2026-08-08"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Donation collection for 2026 Kumamoto earthquake relief at public facilities",
+  "updated": "2026-08-07T18:51:24.588Z"
+}
