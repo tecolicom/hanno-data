@@ -1,0 +1,29 @@
+uid: "shicho-blog-14154-ccd357@hanno.city.tecoli.com"
+summary: "📝 市長：昭和100年企画展「飯能と昭和ー市の誕生と進化するくらしー」"
+url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202608/14154.html"
+dtstart: "2026-08-08"
+dtend: "2026-08-08"
+description: |-
+  📝 市長ブログ更新 (公開日: 2026-08-01)
+  
+  8月1日（土曜日）、飯能市立博物館で昭和100年企画展「飯能と昭和‐市の誕生と進化するくらし‐」の展示を見てまいりました。
+  
+  令和8（2026）年は昭和元年から起算して満100年となります。
+  
+  本展では合併を重ねながら現在の飯能市域が出来上がっていく歩みと、さまざまな家具や家電とともに変化してきた人々の暮らしが、館蔵資料を中心に紹介されています。
+  
+  8月30日（日曜日）まで開催していますので、関心のある方は、ぜひ足をお運びください。展示を通じて昭和、平成、令和の現在へと紡がれてきた市域の歴史と、人びとの営みの変化の過程から、未来を考える機会となれば幸いです。
+  
+  市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202608/14154.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-shicho-blog
+  id: "14154"
+  url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202608/14154.html"
+  fetched_at: "2026-08-07T18:47:24.034977Z"
+  content_hash: "sha256-ccd3572d24515305"
+  publish_date: "2026-08-01"

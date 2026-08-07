@@ -1,0 +1,27 @@
+uid: "shicho-blog-14164-907944@hanno.city.tecoli.com"
+summary: "📝 市長：令和8年熊本地震災害義援金街頭募金"
+url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202608/14164.html"
+dtstart: "2026-08-08"
+dtend: "2026-08-08"
+description: |-
+  📝 市長ブログ更新 (公開日: 2026-08-06)
+  
+  8月6日（木曜日）、東飯能駅及び飯能駅において、市職員による災害義援金街頭募金活動を実施いたしました。
+  
+  皆様からお寄せいただいた義援金は日本赤十字社を通じて被災都道府県が設置する義援金配分委員会へ送金し、被災された方々の当面の生活を支援いたします。
+  
+  募金活動は8月7日（金曜日）にも東飯能駅及び飯能駅において実施する予定です。被災地の一日も早い復旧・復興を心よりお祈り申し上げます。
+  
+  市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202608/14164.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-shicho-blog
+  id: "14164"
+  url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202608/14164.html"
+  fetched_at: "2026-08-07T18:47:22.845654Z"
+  content_hash: "sha256-90794428982dc1ef"
+  publish_date: "2026-08-06"

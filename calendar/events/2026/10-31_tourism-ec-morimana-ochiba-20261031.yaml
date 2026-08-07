@@ -7,7 +7,7 @@ dtend: "2026-10-31T14:30:00+09:00"
 description: |-
   飯能エコツーリズム協会: https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-ochiba/
   
-  土の中に暮らす彼らは、その環境で暮らすために様々な進化を遂げ、不思議な生き方をしています。
+  土の中に暮らす彼らは、その環境でくらすために様々な進化を遂げ、ふしぎな生き方をしています。
   
   【利用料金】大人：5,000円、学生：4,000円、小学生以下2,500円 （ガイド、保険、資料、食材費など）
   
@@ -28,34 +28,5 @@ source:
   type: hanno-tourism-jp
   id: "ec-morimana-ochiba"
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-ochiba/"
-  fetched_at: "2026-08-04T19:24:01.810718Z"
-  content_hash: "sha256-119a6f2d79b9bb73"
-translations:
-  en:
-    summary: "Where do fallen leaves go? Observe tiny decomposers in the forest"
-    description: |-
-      Automated translation (refer to source for accuracy)
-      
-      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-ochiba/
-      
-      The creatures living in the soil have evolved in remarkable ways to survive in their environment, and they have fascinating lifestyles.
-      
-      【Fee】
-      Adults: ¥5,000 | Students: ¥4,000 | Elementary school and under: ¥2,500
-      (Includes guide, insurance, materials, food costs, etc.)
-      
-      【Capacity】
-      15 people
-      
-      【Guide】
-      Mori no Field Gakusha (Forest Field Learning House) staff
-      
-      【What to bring】
-      Drink, light snack, lunch, gloves, forest-appropriate clothing (long sleeves, long pants, comfortable walking shoes)
-      
-      【Note】
-      Mori no Field Gakusha website: https://morinomanabiya168.wixsite.com/website
-    translation_hash: "sha256-ffb547ae80e20bce"
-    model: "claude-haiku-4-5"
-    translated_at: "2026-08-04T19:28:43.787374Z"
-    format_version: 3
+  fetched_at: "2026-08-07T18:46:30.589362Z"
+  content_hash: "sha256-167485372bc39106"

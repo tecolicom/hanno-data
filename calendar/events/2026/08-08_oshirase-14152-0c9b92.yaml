@@ -1,0 +1,34 @@
+uid: "oshirase-14152-0c9b92@hanno.city.tecoli.com"
+summary: "ℹ️ 公共施設での令和8年熊本地震災害義援金受付について"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/14152.html"
+dtstart: "2026-08-08"
+dtend: "2026-08-08"
+description: |-
+  🆕 新着掲載 (公開日: 2026-08-06)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  令和8年熊本地震の被災地支援のため、市内の公共施設に義援金箱を設置しています。
+  
+  受付期間：令和8年8月10日（月）から令和8年10月27日（火）まで
+  
+  設置場所は、飯能駅サービスコーナー、各地区行政センター（飯能中央、第二区、富士見、精明、双柳、加治、加治東、美杉台、南高麗、吾野、東吾野、原市場、名栗）、市民活動センター、各診療所（南高麗、名栗、東吾野医療介護センター）、保健センター、さわらびの湯、市民体育館、図書館、こども図書館、博物館の計24施設です。
+  
+  受け付け時間は各施設の窓口受付時間内となります。寄せられた義援金は全額を日本赤十字社を通じて被災都道府県の義援金配分委員会へ送金し、被災者への支援に充てられます。
+  
+  領収書を希望する場合は、市役所本庁舎1階の地域福祉課（11番窓口）で受け付けています。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/14152.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "14152"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/14152.html"
+  fetched_at: "2026-08-07T18:47:32.578016Z"
+  content_hash: "sha256-0c9b92ab532a7278"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-08-06"

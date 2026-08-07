@@ -7,7 +7,7 @@ dtend: "2026-10-24T16:40:00+09:00"
 description: |-
   飯能エコツーリズム協会: https://hanno-tourism.jp/hanno-eco/tour/canoe-kukusa/
   
-  飯能産の木材で製作した北欧伝統の木製カップ「ククサ」を磨いて仕上げる体験と、窯焼きピザランチが楽しめるツアーです。
+  飯能産の木材を使用して北欧伝統の木製カップ「ククサ」を磨いて仕上げる体験と、窯焼きピザランチが楽しめるツアーです。
   
   【利用料金】一人7,000円 （ガイド、保険、ククサキット代、昼食代など）
   
@@ -28,24 +28,5 @@ source:
   type: hanno-tourism-jp
   id: "canoe-kukusa"
   url: "https://hanno-tourism.jp/hanno-eco/tour/canoe-kukusa/"
-  fetched_at: "2026-08-04T19:23:57.505545Z"
-  content_hash: "sha256-46ca2f4652017493"
-translations:
-  en:
-    summary: "Polish your own kuksa wooden cup & enjoy wood-fired pizza lunch"
-    description: |-
-      Automated translation (refer to source for accuracy)
-      
-      Hanno Ecotourism Association: https://hanno-tourism.jp/hanno-eco/tour/canoe-kukusa/
-      
-      This tour lets you polish and finish a kuksa — a traditional Nordic wooden cup made from Hanno timber — and enjoy a wood-fired pizza lunch.
-      
-      【Fee】 ¥7,000 per person (includes guide, insurance, kuksa kit, and lunch)
-      【Capacity】 5 people
-      【Guide】 Staff from Certified NPO Naguri Canoe Workshop
-      【What to bring】 Apron, drinks
-      【More information】 Certified NPO Naguri Canoe Workshop: https://naguri-canoe.co.jp/
-    translation_hash: "sha256-40be95b48ccfc376"
-    model: "claude-haiku-4-5"
-    translated_at: "2026-08-04T19:28:31.835328Z"
-    format_version: 3
+  fetched_at: "2026-08-07T18:46:27.770578Z"
+  content_hash: "sha256-7722e573207d7df1"

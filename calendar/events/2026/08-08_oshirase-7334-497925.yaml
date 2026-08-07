@@ -1,0 +1,41 @@
+uid: "oshirase-7334-497925@hanno.city.tecoli.com"
+summary: "ℹ️ 市有地の売却（一般競争入札）について"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/7334.html"
+dtstart: "2026-08-08"
+dtend: "2026-08-08"
+description: |-
+  🔄 内容更新 (公開日: 2026-08-07)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  市有地の一般競争入札を実施します。
+  
+  【売却物件】
+  物件A（山手町、畑3筆、計242.24m²）最低売却価格1,970万円、入札保証金295.5万円
+  物件B（山手町、宅地2筆、計625.78m²）最低売却価格4,690万円、入札保証金703.5万円
+  物件C（山手町、宅地1筆、171.97m²）最低売却価格1,840万円、入札保証金276万円
+  一括売却（A・B・C計1,039.99m²）最低売却価格6,800万円、入札保証金1,020万円
+  
+  用途地域は第一種住居地域です。一括入札の申し込みがあり、かつ個別入札の申し込みがなかった場合は一括入札を優先とします。
+  
+  【入札日程】
+  申込期間：令和8年8月21日（金）～9月3日（木）午前9時～午後4時30分
+  入札日時：令和8年9月11日（金）午後2時
+  入札会場：飯能市役所本庁舎2階入札室
+  
+  申込書類は一般競争入札案内に掲載されています。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/7334.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "7334"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/7334.html"
+  fetched_at: "2026-08-07T18:47:29.141815Z"
+  content_hash: "sha256-497925995081bafc"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-08-07"
