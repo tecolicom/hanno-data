@@ -30,3 +30,32 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-ochiba/"
   fetched_at: "2026-08-07T18:46:30.589362Z"
   content_hash: "sha256-167485372bc39106"
+translations:
+  en:
+    summary: "Where do fallen leaves go? Let's observe the tiny decomposers!"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-ochiba/
+      
+      The creatures living in the soil have evolved in remarkable ways to survive in their environment, leading fascinating lives.
+      
+      【Fee】
+      Adults: ¥5,000 | Students: ¥4,000 | Elementary school and under: ¥2,500
+      (includes guide, insurance, materials, food costs, etc.)
+      
+      【Capacity】
+      15 people
+      
+      【Guide】
+      Mori no Field Study Hall staff
+      
+      【What to bring】
+      Drink, light snack, lunch, gloves, mountain-hiking clothes (long sleeves, long pants, comfortable walking shoes)
+      
+      【Note】
+      Mori no Field Study Hall website: https://morinomanabiya168.wixsite.com/website
+    translation_hash: "sha256-f0b32c3b3b200f19"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-07T18:50:06.388309Z"
+    format_version: 3

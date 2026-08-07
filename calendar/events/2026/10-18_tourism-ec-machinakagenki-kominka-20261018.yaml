@@ -28,3 +28,26 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-machinakagenki-kominka/"
   fetched_at: "2026-08-07T18:46:26.899624Z"
   content_hash: "sha256-332d41e25787af9f"
+translations:
+  en:
+    summary: "古民家や路地の魅力を満喫！飯能まちなか散策ツアー"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Discover the charm of historic buildings and alleyways in central Hanno on this guided walking tour.
+      
+      A local architect will introduce you to Hanno's historical architecture and the character of its streets and laneways.
+      
+      【Fee】6,000 yen per person (includes guide, materials, lunch, building access, insurance, and other costs)
+      
+      【Capacity】7 people
+      
+      【Guide】Asano Masatoshi (Advisor, Hanno Machinakagenki Association; Licensed Architect, First Class)
+      
+      【What to bring】Drinking water, rain gear, writing materials
+      
+      For more information and to register, visit the Hanno Eco-Tourism Association website: https://hanno-tourism.jp/hanno-eco/tour/ec-machinakagenki-kominka/
+    translation_hash: "sha256-e374c28dfdd3c816"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-07T18:49:59.053235Z"
+    format_version: 3

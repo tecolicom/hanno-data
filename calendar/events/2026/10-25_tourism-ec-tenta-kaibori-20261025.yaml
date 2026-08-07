@@ -28,3 +28,24 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-tenta-kaibori/"
   fetched_at: "2026-08-07T18:46:29.595708Z"
   content_hash: "sha256-ca07c5fb7ae4ead8"
+translations:
+  en:
+    summary: "Tenranzan Foothills 'Shell Digging' Tour"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-tenta-kaibori/
+      
+      Join us for shell digging at a restored pond in the foothills of Tenranzan. This satoyama (rural mountain woodland) was acquired by local citizens through a National Trust movement and is now protected as a biotope.
+      
+      【Fee】Adults and children ¥3,000, preschoolers ¥1,000 (family discounts available from the second child onwards; includes guide, dispatch, pizza ingredients, etc.)
+      
+      【Capacity】15 people
+      
+      【Guide】Staff from NPO Tenranzan & Takomineyama Nature Conservation Association
+      
+      【What to bring】Drinking water, personal cup, chopsticks, towel, change of clothes, mask, hat, rubber boots
+    translation_hash: "sha256-678792d4f9fd4721"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-07T18:50:04.030943Z"
+    format_version: 3

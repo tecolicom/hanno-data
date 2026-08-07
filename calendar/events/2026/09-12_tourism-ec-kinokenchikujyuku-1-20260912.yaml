@@ -28,3 +28,24 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-kinokenchikujyuku-1/"
   fetched_at: "2026-08-06T23:53:37.840134Z"
   content_hash: "sha256-56dc93ff75896413"
+translations:
+  en:
+    summary: "🌳 Wooden House Exploration Tour — From Forest to Home, Part 1: Forests and Forestry"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-kinokenchikujyuku-1/
+      
+      Forests nurture trees, and skilled craftspeople use traditional building methods to create homes that showcase the beauty of wood to its fullest.
+      
+      【Fee】Adults ¥4,000 / Children (elementary school and under) ¥1,000 (includes guide, lunch, and insurance)
+      
+      【Capacity】20 people
+      
+      【Guide】Yasuo Komine (Komine Lumber Shop)
+      
+      【What to bring】Water bottle, towel, work gloves, forest-hiking appropriate clothing and shoes
+    translation_hash: "sha256-fbce0e9efac6133e"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-07T18:49:54.563178Z"
+    format_version: 3

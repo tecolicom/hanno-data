@@ -32,3 +32,28 @@ source:
   content_hash: "sha256-0c9b92ab532a7278"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-08-06"
+translations:
+  en:
+    summary: "ℹ️ Donation collection for 2026 Kumamoto earthquake relief at public facilities"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New (posted August 6, 2026)
+      
+      AI summary (check the original article for complete information)
+      
+      To support areas affected by the 2026 Kumamoto earthquake, donation boxes have been set up at public facilities throughout the city.
+      
+      Collection period: August 10, 2026 (Monday) to October 27, 2026 (Tuesday)
+      
+      Donation boxes are located at: Hanno Station Service Counter, district administrative centers (Hanno Central, Second District, Fujimi, Seimei, Sohyagi, Kaji, Kaji East, Misugi Dai, Minami-Kōma, Agano, Higashi-Agano, Haraichiba, Naguri), Civic Activities Center, clinics (Minami-Kōma, Naguri, Higashi-Agano Medical & Long-term Care Center), Health Center, Sawarabi Hot Spring, Citizens' Gymnasium, Library, Children's Library, and Museum—24 facilities total.
+      
+      Donations are accepted during regular window service hours at each facility. All donations are forwarded through the Japanese Red Cross to the disaster relief distribution committees of affected prefectures to support disaster victims.
+      
+      If you need a receipt, please visit the Community Welfare Division (Window 11, 1st floor, Hanno City Hall main building).
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/14152.html
+    translation_hash: "sha256-91a2811a6f0f2f3b"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-07T18:49:40.792897Z"
+    format_version: 3

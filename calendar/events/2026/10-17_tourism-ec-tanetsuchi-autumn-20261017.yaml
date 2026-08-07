@@ -28,3 +28,24 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-tanetsuchi-autumn/"
   fetched_at: "2026-08-06T23:53:41.539179Z"
   content_hash: "sha256-78f6eeefa0edffa8"
+translations:
+  en:
+    summary: "Forest town Hanno: Experience creating a \"kinchann\" garden bed"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-tanetsuchi-autumn/
+      
+      A tour where you'll experience building "kinchann" garden beds using fallen leaves and branches, sowing and planting autumn vegetables, and maintaining the garden.
+      
+      【Fee】Adults ¥8,800 | Middle school and under ¥2,200 (includes guide, lunch, materials, insurance)
+      
+      【Capacity】15 people
+      
+      【Guide】Hanno Tanetotsuchinouen Farm staff
+      
+      【What to bring】Drinking water, hat, towel, gloves, etc.
+    translation_hash: "sha256-bbe13e3f4bf8c9db"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-07T18:49:56.770459Z"
+    format_version: 3
