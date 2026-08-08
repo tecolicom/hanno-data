@@ -462,6 +462,119 @@ def _rewrite_yaml_scalar(path: str, key: str, new_value: str) -> bool:
         return False
 
 
+def _rewrite_status_header(path: str, new_header: str) -> bool:
+    """description ブロック冒頭の status ブロックを new_header で差し替える。
+
+    status ブロックは 🆕/🔄/📝 で始まり最初の空行まで。--backfill-diff 用の
+    最小限の in-place 編集で、要約本体・末尾 URL・translations ブロックには
+    一切触れない。差し替えたら True。
+    """
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            lines = f.read().split("\n")
+    except Exception:
+        return False
+    head = re.compile(r"^description:\s*\|[-+]?\s*$")
+    start = next((i for i, ln in enumerate(lines) if head.match(ln)), None)
+    if start is None:
+        return False
+    i = start + 1
+    if i >= len(lines) or not lines[i].startswith("  ") or not lines[i][2:].startswith(STATUS_MARKERS):
+        return False
+    end = i
+    while end < len(lines) and lines[end].strip() != "":
+        end += 1
+    lines[i:end] = ["  " + ln for ln in new_header.split("\n")]
+    try:
+        with open(path, "w", encoding="utf-8") as f:
+            f.write("\n".join(lines))
+        return True
+    except Exception:
+        return False
+
+
+def _insert_source_field(path: str, after_key: str, key: str, value: str) -> bool:
+    """source: ブロックの after_key 行の直後に `key: "value"` を挿入する。
+
+    既に key がある / after_key が無い / 書込失敗 なら False。
+    """
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            lines = f.read().split("\n")
+    except Exception:
+        return False
+    key_re = re.compile(r"^\s*" + re.escape(key) + r":\s")
+    if any(key_re.match(ln) for ln in lines):
+        return False
+    anchor = re.compile(r"^(\s*)" + re.escape(after_key) + r":\s")
+    for i, ln in enumerate(lines):
+        m = anchor.match(ln)
+        if not m:
+            continue
+        lines.insert(i + 1, f"{m.group(1)}{key}: {yaml_escape_str(value)}")
+        try:
+            with open(path, "w", encoding="utf-8") as f:
+                f.write("\n".join(lines))
+            return True
+        except Exception:
+            return False
+    return False
+
+
+def run_backfill_diff(args) -> int:
+    """既存の「🔄 内容更新」イベントに、差分行と source.supersedes を後付けする。
+
+    対象は dtstart >= args.since (既定 = 前日 = アプリの表示窓の下限) かつ
+    直前世代が存在するもの。記事を再 fetch して旧要約と比較する。
+    content_hash / uid / dtstart / ファイル名は変更しない。
+    """
+    since = args.since or (datetime.now(JST).date() - timedelta(days=1)).isoformat()
+    gens = _existing_generations(args.out_dir, args.uid_prefix)
+    n = 0
+    for page_id in sorted(gens):
+        chain = gens[page_id]
+        for pos, (dtstart, uid, path, _ch) in enumerate(chain):
+            if dtstart < since:
+                continue
+            if pos + 1 >= len(chain):
+                continue                      # 前世代なし = 新着掲載
+            desc = read_yaml_block(path, "description") or ""
+            if not desc.startswith("🔄"):
+                continue                      # 更新イベントではない
+            prev_dtstart, prev_uid, prev_path, _ = chain[pos + 1]
+            url = _read_yaml_scalar(path, "url")
+            if not url or not safe_url(url):
+                continue
+            try:
+                article_html, _etag, _lm = fetch_with_cache(url, None, None)
+            except Exception as e:
+                print(f"  ERROR fetching {url}: {e}", file=sys.stderr)
+                continue
+            body = extract_body(article_html or "")
+            publish_date = _read_yaml_scalar(path, "publish_date") or dtstart
+            title = (_read_yaml_scalar(path, "summary") or "")
+            if title.startswith(SUMMARY_PREFIX):
+                title = title[len(SUMMARY_PREFIX):]
+            header = f"🔄 内容更新 (公開日: {publish_date} / 前回掲載: {prev_dtstart})"
+            diff_line = _diff_line(title, prev_path, body)
+            if diff_line:
+                header = f"{header}\n主な変更: {diff_line}"
+            if args.dry_run:
+                print(f"# === {path} ===")
+                print(header)
+                n += 1
+                continue
+            if not _rewrite_status_header(path, header):
+                print(f"  WARN: status header not rewritten: {path}", file=sys.stderr)
+                continue
+            if not _insert_source_field(path, "publish_date", "supersedes", prev_uid):
+                _insert_source_field(path, "summary_method", "supersedes", prev_uid)
+            print(f"  BACKFILL {path}", file=sys.stderr)
+            n += 1
+    print(f"Done [backfill-diff]. files={n}  since={since}", file=sys.stderr)
+    return 0
+
+
 def main() -> None:
     here = os.path.dirname(os.path.abspath(__file__))
     default_out_dir = os.path.join(here, "..", "events")
@@ -480,9 +593,18 @@ def main() -> None:
                     help="migration 用: 既存 YAML の content_hash フィールドだけ現 format_version "
                          "に再計算して in-place 更新。description は触らない (LLM 呼出なし)。"
                          "--once-per-page と組み合わせて使う。")
+    ap.add_argument("--backfill-diff", action="store_true",
+                    help="既存の『🔄 内容更新』イベントに差分行と source.supersedes を"
+                         "後付けする。記事を再 fetch するが content_hash / uid / dtstart は"
+                         "変更しない。RSS フィードは見ない。")
+    ap.add_argument("--since", default=None,
+                    help="--backfill-diff の対象下限 dtstart (YYYY-MM-DD、既定: 前日)")
     ap.add_argument("--min-items", type=int, default=0,
                     help="抽出 item 数がこれ未満なら exit 2 (default: 0)")
     args = ap.parse_args()
+
+    if args.backfill_diff:
+        sys.exit(run_backfill_diff(args))
 
     print(f"Fetching {FEED_URL}", file=sys.stderr)
     xml = fetch(FEED_URL)
