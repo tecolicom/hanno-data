@@ -307,15 +307,21 @@ def build_yaml_doc(uid: str, item_url: str, page_id: str, title: str, date_str: 
 
 
 
-def _existing_content_hashes(events_dir: str, uid_prefix: str) -> set[tuple[str, str]]:
-    """既存 YAML から (page_id, content_hash) ペアを集める。
+def _existing_generations(events_dir: str, uid_prefix: str) -> dict[str, list[tuple[str, str, str, str]]]:
+    """既存 YAML を page_id 別に集めた世代索引を返す。
 
-    incremental mode の skip 判定に使う。once-per-page と incremental の両形式の
-    UID から page_id を抽出する: `oshirase-<pid>@...` / `oshirase-<pid>-<hash6>@...`。
+    値は (dtstart, uid, path, content_hash) の list で、dtstart 降順・同 dtstart は
+    path 降順に安定ソート済み (先頭 = 直前世代)。content_hash は "sha256-" prefix を
+    外した 16 桁。
+
+    incremental mode の skip 判定 (page_id, content_hash) と、更新イベントから
+    直前世代を引く supersedes 解決の両方に使う。once-per-page と incremental の
+    両形式の UID から page_id を抽出する:
+    `oshirase-<pid>@...` / `oshirase-<pid>-<hash6>@...`。
     """
     import glob
     pattern = os.path.join(events_dir, "**", "*.yaml")
-    result: set[tuple[str, str]] = set()
+    idx: dict[str, list[tuple[str, str, str, str]]] = {}
     pid_re = re.compile(rf"^{re.escape(uid_prefix)}-(\d+)(?:-[A-Za-z0-9]+)?@")
     for path in glob.glob(pattern, recursive=True):
         uid = _read_yaml_scalar(path, "uid")
@@ -324,14 +330,16 @@ def _existing_content_hashes(events_dir: str, uid_prefix: str) -> set[tuple[str,
         m = pid_re.match(uid)
         if not m:
             continue
-        page_id = m.group(1)
         ch = _read_yaml_scalar(path, "content_hash")
         if not ch:
             continue
         if ch.startswith("sha256-"):
             ch = ch[len("sha256-"):]
-        result.add((page_id, ch))
-    return result
+        dtstart = _read_yaml_scalar(path, "dtstart") or ""
+        idx.setdefault(m.group(1), []).append((dtstart, uid, path, ch))
+    for gens in idx.values():
+        gens.sort(key=lambda g: (g[0], g[2]), reverse=True)
+    return idx
 
 
 # _read_yaml_scalar は _lib.read_yaml_scalar に移行 (= 重複削除)
@@ -399,13 +407,16 @@ def main() -> None:
         items = _augment_with_existing(items, args.out_dir, args.uid_prefix)
         print(f"  with existing YAMLs: {len(items)} items total", file=sys.stderr)
 
-    # incremental mode 用: 既存 YAML の (page_id, content_hash) を pre-scan して set 化
-    # + 同 page_id に YAML 1 件でもあれば「既知 page」= 内容更新扱い
+    # incremental mode 用: 既存 YAML を page_id 別の世代索引に pre-scan する。
+    # skip 判定用の (page_id, content_hash) と、直前世代 (supersedes / 前回掲載日)
+    # の解決を同じ索引から導く。
+    existing_gens: dict[str, list[tuple[str, str, str, str]]] = {}
     existing_hashes: set[tuple[str, str]] = set()
     existing_page_ids: set[str] = set()
     if not args.once_per_page:
-        existing_hashes = _existing_content_hashes(args.out_dir, args.uid_prefix)
-        existing_page_ids = {pid for (pid, _) in existing_hashes}
+        existing_gens = _existing_generations(args.out_dir, args.uid_prefix)
+        existing_hashes = {(pid, g[3]) for pid, gens in existing_gens.items() for g in gens}
+        existing_page_ids = set(existing_gens)
 
     today_jst = datetime.now(JST).strftime("%Y-%m-%d")
     http_cache = load_http_cache()
@@ -520,10 +531,12 @@ def main() -> None:
         os.makedirs(os.path.dirname(out_path), exist_ok=True)
         with open(out_path, "w", encoding="utf-8") as f:
             f.write(doc)
-        # incremental では次の loop iter 内でも自身を skip 対象にできるよう set 更新
+        # incremental では次の loop iter 内でも自身を skip 対象にできるよう索引を更新
         if not args.once_per_page:
             existing_hashes.add((it["page_id"], content_hash))
             existing_page_ids.add(it["page_id"])
+            existing_gens.setdefault(it["page_id"], []).insert(
+                0, (dtstart, uid, out_path, content_hash))
         verb = "UPDATED" if existing_path else "WROTE"
         print(f"  {verb} [{method}] {out_path}", file=sys.stderr)
         written += 1
