@@ -50,7 +50,8 @@ calendar/
 │   ├── run-golden               比較 runner (hermetic、CI 実行)
 │   ├── capture-fixtures         fixtures を実サイトから取得する dev tool
 │   ├── fixtures/<crawler>/      入力 HTML/RSS + manifest.json
-│   └── golden/<crawler>/        期待出力 YAML (日付正規化済み)
+│   ├── seed/<scenario>/         out-dir に事前展開する既存 YAML (更新検知シナリオ用)
+│   └── golden/<scenario>/       期待出力 YAML (日付正規化済み)
 └── .http-cache.json             HTTP Conditional GET 用 ETag / Last-Modified 永続化
 ```
 
@@ -226,13 +227,54 @@ dtstart にする**ので、市長がバックデート公開 (古い更新日�
 
 ```
 cal-oshirase-fetch [--out-dir events] [--once-per-page] [--refetch-existing]
-                   [--rehash-only] [--dry-run] [--min-items 0]
+                   [--rehash-only] [--backfill-diff] [--since YYYY-MM-DD]
+                   [--dry-run] [--min-items 0]
 ```
 
 動作モードは shicho-blog と対称: **incremental (デフォルト)** は dtstart=取得日・
 `source.publish_date` に RSS 公開日 (dc:date) を保持・description 冒頭に
 `🆕 新着掲載 (公開日: …)` / `🔄 内容更新 (公開日: …)`。`--once-per-page` (legacy) は
 dtstart=公開日で 1 page = 1 YAML。
+
+### 世代リンクと差分要約 (incremental mode)
+
+同じ `page_id` の記事が更新されると別 YAML が生成されるが、その YAML は
+`source.supersedes` に**直前 1 世代の uid** を持つ。チェーンを辿れば全世代に到達する。
+
+```yaml
+source:
+  id: "7334"
+  publish_date: "2026-08-07"
+  supersedes: "oshirase-7334@hanno.city.tecoli.com"
+```
+
+同一記事の全世代は `grep -rn 'id: "7334"' calendar/events/` で引ける。
+
+`description` 冒頭の status header は更新時に 2 行になる:
+
+```
+🔄 内容更新 (公開日: 2026-08-07 / 前回掲載: 2026-05-01)
+主な変更: 物件 A・B・C の個別入札を新設。入札日を 6/19 から 9/11 に再設定。
+```
+
+「主な変更」は**前世代の description (= 前回の LLM 要約) と今回の本文**を Claude Haiku に
+比較させて生成する (`diff_with_llm`)。元記事の本文は保存していないため、旧要約 × 新本文の
+非対称な比較になり、要約から漏れていた項目が「新規」に見える誤検出がありうる。
+prompt 側で「言い回しの違いを変更として報告しない」「要約に無い項目を新設と断定しない」を
+明示して抑えている。LLM 不可 / 前世代が `url-only` / 出力が空 のときは差分行を省く。
+
+`supersedes` も status header も **`content_hash` には含めない**ので、既存 YAML の
+hash は動かず、カレンダーが氾濫することはない。
+
+既存イベントへの後付けは `--backfill-diff` (既定の `--since` は前日 = アプリ表示窓の下限):
+
+```
+cal-oshirase-fetch --backfill-diff [--since YYYY-MM-DD] [--dry-run]
+```
+
+RSS フィードは見ず、`events/` を走査して対象記事だけ再 fetch する。
+`content_hash` / `uid` / `dtstart` / ファイル名・要約本体・`translations` ブロックには
+触れないので、`cal-daily.yml` には組み込まない一回性の操作。
 
 3 方式で description を生成 (本文長で自動分岐):
 
@@ -364,13 +406,24 @@ python3 calendar/tests/run-golden --update   # golden 再生成 (初回 / 意図
 python3 calendar/tests/capture-fixtures      # fixtures を実サイトから再取得 (dev tool、ネットワーク使用)
 ```
 
-- `fetch` 系を monkeypatch して `fixtures/<crawler>/` (+ `manifest.json` で url→file) を返す。
-  oshirase は `_llm_available()` を False に固定し決定論化。shicho-blog は未捕捉の月を 304 skip。
+golden シナリオは 3 本:
+
+| golden dir | crawler | seed | 何を固定するか |
+|---|---|---|---|
+| `cal-oshirase-fetch` | oshirase | 無し | 新着掲載 (🆕) の出力 |
+| `cal-oshirase-update` | oshirase | `seed/cal-oshirase-update/` | 既存 YAML がある状態での更新検知 (🔄 + `supersedes`) |
+| `cal-shicho-blog-fetch` | shicho-blog | 無し | 市長ブログの出力 |
+
+- `fetch` / `fetch_with_cache` を monkeypatch して `fixtures/<crawler>/`
+  (+ `manifest.json` で url→file) を返す。oshirase は `_llm_available()` を False に固定して
+  決定論化 (= 要約も差分行も LLM を通らない)。shicho-blog は未捕捉の月を 304 skip。
+- `seed/<name>/` を置くと、その中身が `--out-dir` に事前展開されてから crawler が走る
+  (= 既存 YAML がある状態の再現)。seed 自身も出力として golden に含まれる。
 - dtstart/dtend/fetched_at は incremental では実行日依存なので、比較前にプレースホルダへ
   **正規化**する。content_hash は日付非依存なのでそのまま比較 → ハッシュ回帰は確実に検知。
 - **クローラ・`sources.yaml`・fixtures を変更したら必ず `run-golden` を緑にすること。**
   出力を意図的に変えた場合のみ `--update` で golden を更新し、差分を PR で確認する。
-- 現状 oshirase / shicho-blog の 2 本のみ対象 (Phase 1)。
+- 現状 oshirase / shicho-blog の 2 クローラのみ対象 (Phase 1)。
 
 ## YAML スキーマ例
 
