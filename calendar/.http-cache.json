@@ -1,4 +1,121 @@
 {
+  "https://hanno-tourism.jp/hanno-eco/tour/canoe-kukusa/": {
+    "modified_gmt": "2026-08-07T01:13:07"
+  },
+  "https://hanno-tourism.jp/hanno-eco/tour/cockroach/": {
+    "modified_gmt": "2026-06-01T04:18:28"
+  },
+  "https://hanno-tourism.jp/hanno-eco/tour/ec-canoe-seakayak/": {
+    "modified_gmt": "2026-08-06T06:26:40"
+  },
+  "https://hanno-tourism.jp/hanno-eco/tour/ec-canoe-sup/": {
+    "modified_gmt": "2026-08-04T00:47:51"
+  },
+  "https://hanno-tourism.jp/hanno-eco/tour/ec-chikyukko-gibierlunch/": {
+    "modified_gmt": "2026-08-04T00:32:31"
+  },
+  "https://hanno-tourism.jp/hanno-eco/tour/ec-chikyukko-kakashi/": {
+    "modified_gmt": "2026-08-04T00:45:36"
+  },
+  "https://hanno-tourism.jp/hanno-eco/tour/ec-chokotto-tenranzan/": {
+    "modified_gmt": "2026-08-06T06:07:26"
+  },
+  "https://hanno-tourism.jp/hanno-eco/tour/ec-cyokotto-lighttrap/": {
+    "modified_gmt": "2026-07-24T02:44:03"
+  },
+  "https://hanno-tourism.jp/hanno-eco/tour/ec-cyokotto-wakoucha/": {
+    "modified_gmt": "2026-08-06T06:09:30"
+  },
+  "https://hanno-tourism.jp/hanno-eco/tour/ec-hannoshizenkagaku-tyo/": {
+    "modified_gmt": "2026-08-06T06:05:18"
+  },
+  "https://hanno-tourism.jp/hanno-eco/tour/ec-ikimonobu-tenranzan-summer/": {
+    "modified_gmt": "2026-07-03T00:58:38"
+  },
+  "https://hanno-tourism.jp/hanno-eco/tour/ec-kanoekobo-customknife/": {
+    "modified_gmt": "2026-08-07T01:02:53"
+  },
+  "https://hanno-tourism.jp/hanno-eco/tour/ec-kinoietanbou-2/": {
+    "modified_gmt": "2026-08-06T07:34:13"
+  },
+  "https://hanno-tourism.jp/hanno-eco/tour/ec-kinokenchikujyuku-1/": {
+    "modified_gmt": "2026-08-06T05:23:49"
+  },
+  "https://hanno-tourism.jp/hanno-eco/tour/ec-kitagawa-kawanina/": {
+    "modified_gmt": "2026-08-04T00:44:41"
+  },
+  "https://hanno-tourism.jp/hanno-eco/tour/ec-logcamp-gibier-autumn/": {
+    "modified_gmt": "2026-08-06T05:43:39"
+  },
+  "https://hanno-tourism.jp/hanno-eco/tour/ec-logcamp-gibier/": {
+    "modified_gmt": "2026-08-04T01:01:55"
+  },
+  "https://hanno-tourism.jp/hanno-eco/tour/ec-machinakagenki-kominka/": {
+    "modified_gmt": "2026-08-07T00:59:09"
+  },
+  "https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-ant/": {
+    "modified_gmt": "2026-08-06T06:21:37"
+  },
+  "https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-konchu/": {
+    "modified_gmt": "2026-08-06T05:17:38"
+  },
+  "https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-metsa-kontyu/": {
+    "modified_gmt": "2026-06-01T04:18:02"
+  },
+  "https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-metsa-semi/": {
+    "modified_gmt": "2026-06-01T04:18:16"
+  },
+  "https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-ochiba/": {
+    "modified_gmt": "2026-08-07T00:56:03"
+  },
+  "https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-pukapuka/": {
+    "modified_gmt": "2026-06-01T04:17:25"
+  },
+  "https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-riverwatch/": {
+    "modified_gmt": "2026-08-06T05:36:30"
+  },
+  "https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-satoyamakontyu/": {
+    "modified_gmt": "2026-06-01T04:17:49"
+  },
+  "https://hanno-tourism.jp/hanno-eco/tour/ec-naguricanoe-canoesyokyu-pizza/": {
+    "modified_gmt": "2026-08-07T01:04:16"
+  },
+  "https://hanno-tourism.jp/hanno-eco/tour/ec-naguricanoe-canoesyokyu/": {
+    "modified_gmt": "2026-08-04T00:22:37"
+  },
+  "https://hanno-tourism.jp/hanno-eco/tour/ec-naguricanoe-catch-eat/": {
+    "modified_gmt": "2026-08-06T05:34:02"
+  },
+  "https://hanno-tourism.jp/hanno-eco/tour/ec-naguricanoe-sup/": {
+    "modified_gmt": "2026-08-04T00:20:36"
+  },
+  "https://hanno-tourism.jp/hanno-eco/tour/ec-sayurikids/": {
+    "modified_gmt": "2026-08-06T06:19:30"
+  },
+  "https://hanno-tourism.jp/hanno-eco/tour/ec-shogakuji-spring/": {
+    "modified_gmt": "2026-08-04T00:22:08"
+  },
+  "https://hanno-tourism.jp/hanno-eco/tour/ec-tairakuri-konnyaku/": {
+    "modified_gmt": "2026-08-04T00:43:40"
+  },
+  "https://hanno-tourism.jp/hanno-eco/tour/ec-tairakurien-sobauchi/": {
+    "modified_gmt": "2026-08-06T06:12:50"
+  },
+  "https://hanno-tourism.jp/hanno-eco/tour/ec-tanetsuchi-autumn/": {
+    "modified_gmt": "2026-08-06T05:44:36"
+  },
+  "https://hanno-tourism.jp/hanno-eco/tour/ec-tenta-kaibori/": {
+    "modified_gmt": "2026-08-07T01:00:51"
+  },
+  "https://hanno-tourism.jp/hanno-eco/tour/ec-yamanesyuzo-kontyuu/": {
+    "modified_gmt": "2026-08-04T00:23:04"
+  },
+  "https://hanno-tourism.jp/hanno-eco/tour/naguricanoe-syokyu/": {
+    "modified_gmt": "2026-08-04T00:36:08"
+  },
+  "https://hanno-tourism.jp/hanno-eco/tour/syogakuji-zazen-autumn/": {
+    "modified_gmt": "2026-08-06T06:11:28"
+  },
   "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/index.html": {
     "etag": "\"6a1541cf-b9ed\"",
     "last_modified": "Tue, 26 May 2026 06:46:39 GMT"

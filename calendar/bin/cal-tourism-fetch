@@ -34,7 +34,7 @@ from _lib import (
     USER_AGENT, UID_NAMESPACE, fetch, existing_content_hash_matches,
     yaml_escape_str, yaml_block_scalar, strip_html, collapse_space,
     normalize_fullwidth_digits, normalize_tilde,
-    infer_year_from_og,
+    infer_year_from_og, load_http_cache, save_http_cache,
 )
 
 # ==================== Source ====================
@@ -448,6 +448,56 @@ def check_tour_count(n_tours: int, min_tours: int) -> None:
         sys.exit(2)
 
 
+def select_tours_to_fetch(tours: list[dict], cache: dict) -> tuple[list[dict], int]:
+    """API の modified_gmt と保存値を突き合わせ、(取得対象, unchanged 件数) を返す.
+
+    hanno-tourism.jp は ETag / Last-Modified を返さないので条件付き GET が使えない。
+    代わりに WordPress REST API の modified_gmt を .http-cache.json に保存し、
+    一致すれば HTML を取得しない。
+
+    modified_gmt が空 (API が返さなかった) 場合は判定材料が無いので必ず取得する。
+    """
+    todo: list[dict] = []
+    unchanged = 0
+    for t in tours:
+        mg = t.get("modified_gmt") or ""
+        prev = (cache.get(t["url"]) or {}).get("modified_gmt") or ""
+        if mg and prev and mg == prev:
+            unchanged += 1
+            continue
+        todo.append(t)
+    return todo, unchanged
+
+
+def process_tours(tours: list[dict], out_dir: str, uid_prefix: str,
+                  dry_run: bool, cache: dict) -> dict:
+    """取得対象を順に処理し、成功したものだけ cache に modified_gmt を記録する.
+
+    例外が出たツアーは記録しない → 次回リトライされる。
+    0 セッション (パース失敗の疑い) は記録するが zero_session に計上する
+    (同じ内容を毎日取り直しても結果は変わらないため)。
+
+    戻り値: {"ok": int, "err": int, "sessions": int, "zero_session": int}
+    """
+    ok = err = sessions = zero_session = 0
+    for i, t in enumerate(tours, 1):
+        print(f"[{i}/{len(tours)}] {t['url']}", file=sys.stderr)
+        try:
+            n = process_one(t["url"], out_dir, uid_prefix, dry_run)
+        except Exception as e:
+            err += 1
+            print(f"  ERROR: {e}", file=sys.stderr)
+            continue
+        if n > 0:
+            ok += 1
+            sessions += n
+        else:
+            zero_session += 1
+        if t.get("modified_gmt"):
+            cache.setdefault(t["url"], {})["modified_gmt"] = t["modified_gmt"]
+    return {"ok": ok, "err": err, "sessions": sessions, "zero_session": zero_session}
+
+
 def main() -> None:
     here = os.path.dirname(os.path.abspath(__file__))
     default_urls_file = os.path.join(here, "..", "sources", "hanno-tourism", "urls.txt")
@@ -505,29 +555,31 @@ def main() -> None:
         sys.exit("No tour to process (API returned nothing and no seed URLs). "
                  "Pass --url, populate urls-file, or check the REST API.")
 
-    print(f"Processing {len(tours)} tour(s) deterministically (no LLM)...", file=sys.stderr)
-    ok = err = total_sessions = zero_session = 0
-    for i, t in enumerate(tours, 1):
-        print(f"[{i}/{len(tours)}] {t['url']}", file=sys.stderr)
-        try:
-            n = process_one(t["url"], args.out_dir, args.uid_prefix, args.dry_run)
-            if n > 0:
-                ok += 1
-                total_sessions += n
-            else:
-                zero_session += 1
-        except Exception as e:
-            err += 1
-            print(f"  ERROR: {e}", file=sys.stderr)
-    print(f"Done. tours={len(tours)}  ok={ok} err={err} zero-session={zero_session}  "
-          f"sessions={total_sessions}", file=sys.stderr)
+    # --url 指定時は手動デバッグ用途なので判定せず常に取得する。
+    # --no-discover 時は urls.txt 由来で modified_gmt が空になり、
+    # select_tours_to_fetch が「判定材料なし = 取得」と扱うので特別扱いは不要。
+    use_cache = not args.url
+    cache = load_http_cache() if use_cache else {}
+    if use_cache:
+        todo, unchanged = select_tours_to_fetch(tours, cache)
+    else:
+        todo, unchanged = tours, 0
+
+    print(f"Processing {len(todo)} of {len(tours)} tour(s) "
+          f"({unchanged} unchanged, no LLM)...", file=sys.stderr)
+    r = process_tours(todo, args.out_dir, args.uid_prefix, args.dry_run, cache)
+    if use_cache and not args.dry_run:
+        save_http_cache(cache)
+
+    print(f"Done. tours={len(tours)}  fetched={len(todo)}  unchanged={unchanged}  "
+          f"ok={r['ok']} err={r['err']} zero-session={r['zero_session']}  "
+          f"sessions={r['sessions']}", file=sys.stderr)
 
     # パース失敗の検知: 取得したページが 1 件以上あり、その全件でセッションが
     # 取れなかった → HTML 構造が変わった疑い。取得 0 件の日はこの判定をしない。
-    fetched = ok + zero_session
-    if fetched > 0 and ok == 0 and not args.dry_run:
+    if len(todo) > 0 and r["ok"] == 0 and not args.dry_run:
         print(
-            f"FAIL: fetched {fetched} page(s) but extracted 0 sessions. "
+            f"FAIL: fetched {len(todo)} page(s) but extracted 0 sessions. "
             f"Likely source HTML structure change. Refusing to commit a possibly-corrupt result.",
             file=sys.stderr,
         )

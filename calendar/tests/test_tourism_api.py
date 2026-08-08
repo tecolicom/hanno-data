@@ -176,6 +176,98 @@ def test_min_sessions_flag_is_gone():
     assert "min_sessions" not in src
 
 
+def _tour(slug, modified_gmt="2026-08-07T01:00:51"):
+    return {"url": f"https://hanno-tourism.jp/hanno-eco/tour/{slug}/",
+            "slug": slug, "modified_gmt": modified_gmt}
+
+
+def test_select_skips_when_modified_matches():
+    tours = [_tour("ec-a", "2026-08-07T01:00:51"), _tour("ec-b", "2026-08-07T02:00:00")]
+    cache = {tours[0]["url"]: {"modified_gmt": "2026-08-07T01:00:51"}}
+    todo, unchanged = mod.select_tours_to_fetch(tours, cache)
+    assert [t["slug"] for t in todo] == ["ec-b"], todo
+    assert unchanged == 1
+
+
+def test_select_fetches_when_modified_differs():
+    tours = [_tour("ec-a", "2026-08-08T09:00:00")]
+    cache = {tours[0]["url"]: {"modified_gmt": "2026-08-07T01:00:51"}}
+    todo, unchanged = mod.select_tours_to_fetch(tours, cache)
+    assert [t["slug"] for t in todo] == ["ec-a"]
+    assert unchanged == 0
+
+
+def test_select_fetches_when_not_in_cache():
+    tours = [_tour("ec-new")]
+    todo, unchanged = mod.select_tours_to_fetch(tours, {})
+    assert [t["slug"] for t in todo] == ["ec-new"]
+    assert unchanged == 0
+
+
+def test_select_fetches_when_api_modified_is_empty():
+    """API が modified_gmt を返さなかった場合は判定材料が無いので必ず取得する。"""
+    tours = [_tour("ec-a", "")]
+    cache = {tours[0]["url"]: {"modified_gmt": ""}}
+    todo, unchanged = mod.select_tours_to_fetch(tours, cache)
+    assert [t["slug"] for t in todo] == ["ec-a"]
+    assert unchanged == 0
+
+
+def test_select_preserves_other_cache_fields():
+    """etag / last_modified を持つ既存エントリを壊さない。"""
+    tours = [_tour("ec-a", "2026-08-07T01:00:51")]
+    cache = {tours[0]["url"]: {"etag": 'W/"abc"', "last_modified": "Wed, 01 Jan 2026 00:00:00 GMT"}}
+    todo, unchanged = mod.select_tours_to_fetch(tours, cache)
+    assert [t["slug"] for t in todo] == ["ec-a"]      # modified_gmt が無いので取得
+    assert cache[tours[0]["url"]]["etag"] == 'W/"abc"'
+
+
+def test_process_tours_records_modified_on_success():
+    tours = [_tour("ec-a", "2026-08-08T09:00:00")]
+    cache = {}
+    mod.process_one = lambda url, out_dir, uid_prefix, dry_run: 3
+    got = mod.process_tours(tours, "/tmp/x", "tourism", True, cache)
+    assert got["ok"] == 1 and got["sessions"] == 3 and got["err"] == 0, got
+    assert cache[tours[0]["url"]]["modified_gmt"] == "2026-08-08T09:00:00"
+
+
+def test_process_tours_does_not_record_on_exception():
+    """失敗したツアーは記録しない → 次回リトライされる。"""
+    tours = [_tour("ec-bad", "2026-08-08T09:00:00")]
+    cache = {}
+
+    def boom(url, out_dir, uid_prefix, dry_run):
+        raise RuntimeError("fetch failed")
+
+    mod.process_one = boom
+    got = mod.process_tours(tours, "/tmp/x", "tourism", True, cache)
+    assert got["err"] == 1 and got["ok"] == 0, got
+    assert tours[0]["url"] not in cache, cache
+
+
+def test_process_tours_records_zero_session_but_counts_it():
+    """0 セッション (パース失敗の疑い) は記録するが zero_session に計上する。
+
+    記録するのは、同じ内容を毎日取り直しても結果が変わらないため。構造変化の
+    検知は zero_session のカウントで行う。
+    """
+    tours = [_tour("ec-zero", "2026-08-08T09:00:00")]
+    cache = {}
+    mod.process_one = lambda url, out_dir, uid_prefix, dry_run: 0
+    got = mod.process_tours(tours, "/tmp/x", "tourism", True, cache)
+    assert got["zero_session"] == 1 and got["ok"] == 0, got
+    assert cache[tours[0]["url"]]["modified_gmt"] == "2026-08-08T09:00:00"
+
+
+def test_process_tours_keeps_existing_cache_fields():
+    tours = [_tour("ec-a", "2026-08-08T09:00:00")]
+    cache = {tours[0]["url"]: {"etag": 'W/"abc"'}}
+    mod.process_one = lambda url, out_dir, uid_prefix, dry_run: 1
+    mod.process_tours(tours, "/tmp/x", "tourism", True, cache)
+    assert cache[tours[0]["url"]]["etag"] == 'W/"abc"'
+    assert cache[tours[0]["url"]]["modified_gmt"] == "2026-08-08T09:00:00"
+
+
 if __name__ == "__main__":
     for name, fn in sorted(globals().items()):
         if name.startswith("test_") and callable(fn):
