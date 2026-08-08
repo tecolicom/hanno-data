@@ -24,6 +24,7 @@ import json
 import os
 import re
 import sys
+import urllib.error
 import urllib.request
 from datetime import date as _date, datetime
 from typing import Iterable
@@ -42,6 +43,13 @@ from _lib import (
 DEFAULT_UID_PREFIX = "tourism"
 SOURCE_TYPE = "hanno-tourism-jp"
 URL_ALLOWLIST_PATTERN = re.compile(r"^https://hanno-tourism\.jp/hanno-eco/tour/[a-z0-9\-]+/?$")
+
+# WordPress REST API。掲載制御は tour-month タクソノミー (空 = 一覧ページに載らない
+# = 現在提供していない、という編集意図)。一覧ページのスクレイピングと違い HTML 構造に
+# 依存せず、更新日時 (modified_gmt) も同時に取れる。
+TOUR_API_URL = "https://hanno-tourism.jp/wp-json/wp/v2/tour"
+TOUR_API_PER_PAGE = 100
+TOUR_API_FIELDS = "id,link,slug,modified_gmt,tour-month"
 
 
 # ==================== Tunables ====================
@@ -255,6 +263,67 @@ def url_ok(url: str) -> bool:
 def normalize_tour_url(url: str) -> str:
     """末尾スラッシュを1つに正規化 (発見 URL と urls.txt シードの表記ゆれを吸収)."""
     return url.rstrip("/") + "/"
+
+
+def fetch_json(url: str) -> object:
+    """URL を GET して JSON をパースして返す (_lib.fetch の薄いラッパ).
+
+    HTTP エラー / パース失敗は呼出側に伝播する。
+    """
+    return json.loads(fetch(url))
+
+
+def _is_invalid_page_error(e: urllib.error.HTTPError) -> bool:
+    """WordPress REST の「ページ範囲外」エラーか判定する.
+
+    per_page の倍数ちょうどの件数だと 1 ページ余分に要求してしまうため、これを
+    終端として扱う。実測: page 範囲外は HTTP 400 で
+    {"code":"rest_post_invalid_page_number"} を返す。
+    """
+    if e.code != 400:
+        return False
+    try:
+        body = e.read().decode("utf-8", errors="replace")
+    except Exception:
+        return False
+    return "rest_post_invalid_page_number" in body
+
+
+def fetch_tour_index() -> list[dict]:
+    """REST API から tour 一覧を取得する.
+
+    tour-month が空でない (= 一覧ページに載る = 現在提供中) ものだけ返す。
+    要素は {"url": <末尾スラッシュ正規化済み>, "slug": ..., "modified_gmt": ...}。
+
+    ページングは page=1 から順に辿り、取得件数が per_page 未満なら終了する。
+    x-wp-totalpages はヘッダなので _lib.fetch() では読めない (ボディのみ返す)。
+    """
+    out: list[dict] = []
+    page = 1
+    while True:
+        url = (f"{TOUR_API_URL}?_fields={TOUR_API_FIELDS}"
+               f"&per_page={TOUR_API_PER_PAGE}&page={page}")
+        try:
+            items = fetch_json(url)
+        except urllib.error.HTTPError as e:
+            if page > 1 and _is_invalid_page_error(e):
+                break          # 前ページで打ち切り済み = 正常終了
+            raise
+        if not isinstance(items, list):
+            raise ValueError(f"unexpected API response (not a list): {items!r:.200}")
+        for it in items:
+            if not it.get("tour-month"):
+                continue       # 現在提供していない (編集意図)
+            u = normalize_tour_url(it.get("link", ""))
+            if not url_ok(u):
+                print(f"  WARN: URL outside allowlist, skip: {u}", file=sys.stderr)
+                continue
+            out.append({"url": u, "slug": it.get("slug", ""),
+                        "modified_gmt": it.get("modified_gmt", "")})
+        if len(items) < TOUR_API_PER_PAGE:
+            break
+        page += 1
+    return out
 
 
 # 一覧ページ /hanno-eco/ 内の <a href="…/hanno-eco/tour/<slug>…"> を拾う。
