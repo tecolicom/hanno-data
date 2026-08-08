@@ -90,6 +90,25 @@ secrets.GWS_SA_JSON
 
 `cal-myhanno` は env 未設定時に `~/.config/myhanno/sa.json` を自動 fallback する。
 
+### 落とし穴: 古いトークンキャッシュで `source` が欠ける
+
+`gws` は取得済みトークンを `~/.config/gws/sa_token_cache.json` にキャッシュする。
+このキャッシュが古いと、**イベントの `source` フィールドが API から返ってこなくなる**
+(2026-08-08 に遭遇。同じ SA・同じ `gws` バージョンでも、キャッシュを消して
+トークンを再発行させると `source` が返るようになった)。
+
+`source` は `COMPARE_FIELDS` に含まれるため、この状態でローカル実行すると:
+
+- `snapshot` が 785 ファイルから `source` を落とした差分を作る (コミットするとデータ後退)
+- `apply-all` / `diff` が CI と食い違う判定を出す
+
+CI は毎回トークンを新規発行するので影響しない。ローカルで snapshot / apply / diff の
+結果が CI とずれたら、まずキャッシュを消して再実行する:
+
+```
+rm ~/.config/gws/sa_token_cache.json
+```
+
 LLM 利用スクリプト (`cal-oshirase-fetch`, `cal-translate-en`) は
 `ANTHROPIC_API_KEY` 環境変数が必要。
 
@@ -146,6 +165,30 @@ YAML を読んで `render.gcal.mode` (`single-allday` / `span-allday` / `timed`)
 - 存在すれば `events.update` で上書き
 
 **削除は行わない** (YAML 側で削除しても Calendar event は残る、安全策)。
+
+### apply-all の読み取り (EventIndex)
+
+`apply-all` は起動時に**カレンダー単位で全イベントを一括取得**し、
+`iCalUID → event` の索引 (`EventIndex`) を作って反映要否を判定する。
+以前は YAML 1 件ごとに `events.list` を呼んでいたため、438 件 × JP/EN で
+約 876 回の API 往復が発生し、日次 CI の所要時間の約半分 (135 秒) を占めていた。
+現在は同じ `apply-all --only-managed --dry-run` が **3 分 11.7 秒 → 2.8 秒**で完了する
+(件数の内訳は前後で完全一致)。
+
+索引は実行開始時のスナップショットなので、apply 中 (数秒) に人が Calendar を
+手編集すると見落としうる。そのため**実際に書き込むイベントだけ、`events.update` /
+`events.import` の直前に 1 件取り直して**判定し直す:
+
+- 取り直した結果が in-sync なら書かない
+- 差分が残るなら**取り直した方**をマージ元にする (古い索引の値で手編集を潰さない)
+- 索引にあったが消えていれば import、索引に無いが存在すれば update に回す
+
+書き込みは通常 1 日 0〜数件なので追加コストはほぼゼロ。`--dry-run` では再確認しない。
+単体の `apply <file>` は索引を使わず、従来どおり `find_event_by_uid()` で 1 件引く。
+
+`events.list` は `list_all_events()` に集約され、`nextPageToken` を辿って全件取得する
+(`maxResults` は API 上限の 2500)。`gws --page-all` は使わない — 出力が NDJSON になり
+`gws()` で扱えず、`--page-limit` 既定 10 で静かに切り捨てるため。
 
 ### snapshot
 
@@ -424,6 +467,24 @@ golden シナリオは 3 本:
 - **クローラ・`sources.yaml`・fixtures を変更したら必ず `run-golden` を緑にすること。**
   出力を意図的に変えた場合のみ `--update` で golden を更新し、差分を PR で確認する。
 - 現状 oshirase / shicho-blog の 2 クローラのみ対象 (Phase 1)。
+
+### ユニットテスト
+
+golden 網とは別に、純粋関数・API ラッパのユニットテストがある。すべて
+ネットワーク非依存で、`python3 calendar/tests/<file>` で個別に走る。
+
+| ファイル | 対象 |
+|---|---|
+| `test_last_modified_dating.py` | `_lib` の Last-Modified → dtstart 変換 |
+| `test_tourism_discovery.py` | tourism の一覧ページ自動発見 |
+| `test_description_parts.py` | `_lib` の description 分解 (block 読み出し / status 行 / disclaimer) |
+| `test_generation_index.py` | oshirase の page_id 別世代索引 |
+| `test_diff_line.py` | oshirase の差分要約行 (LLM は差し替え) |
+| `test_backfill_rewrite.py` | oshirase の in-place 書き換えヘルパ |
+| `test_calendar_paging.py` | `cal-myhanno` の `events.list` ページング |
+| `test_apply_helpers.py` | `cal-myhanno` の同期判定 / マージ |
+| `test_event_index.py` | `cal-myhanno` の `EventIndex` |
+| `test_apply_recheck.py` | `cal-myhanno` の書き込み前再確認 |
 
 ## YAML スキーマ例
 
