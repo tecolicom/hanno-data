@@ -1,0 +1,135 @@
+#!/usr/bin/env python3
+"""_lib の description 分解ヘルパのユニットテスト。ネットワーク非依存。
+実行: python3 calendar/tests/test_description_parts.py
+"""
+import importlib.machinery
+import importlib.util
+import os
+import tempfile
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+LIB = os.path.join(HERE, "..", "bin", "_lib.py")
+loader = importlib.machinery.SourceFileLoader("cal_lib", LIB)
+spec = importlib.util.spec_from_loader("cal_lib", loader)
+mod = importlib.util.module_from_spec(spec)
+loader.exec_module(mod)
+
+
+# 注: 実際の events/ では description ブロック内の「空行」は半角スペース 2 個の行
+# (yaml_block_scalar が全行を indent でパディングするため)。ここでは素の空行で書いて
+# おり、read_yaml_block は両方を扱える必要がある (test_read_yaml_block_nested_indent
+# 側はパディングありのケース)。
+SAMPLE_YAML = '''uid: "oshirase-7334-497925@hanno.city.tecoli.com"
+summary: "ℹ️ 市有地の売却"
+description: |-
+  \U0001f504 内容更新 (公開日: 2026-08-07)
+
+  AI による要約 (正確な情報は元記事をご確認ください)
+
+  市有地の一般競争入札を実施します。
+
+  飯能市公式サイト 新着情報: https://example.com/7334.html
+
+render:
+  gcal:
+    mode: single-allday
+'''
+
+
+def _write(text):
+    fd, path = tempfile.mkstemp(suffix=".yaml")
+    with os.fdopen(fd, "w", encoding="utf-8") as f:
+        f.write(text)
+    return path
+
+
+def test_read_yaml_block_top_level():
+    path = _write(SAMPLE_YAML)
+    got = mod.read_yaml_block(path, "description")
+    os.remove(path)
+    assert got is not None
+    assert got.startswith("🔄 内容更新 (公開日: 2026-08-07)")
+    assert got.endswith("飯能市公式サイト 新着情報: https://example.com/7334.html")
+    # ブロック外 (render:) を巻き込んでいない
+    assert "render:" not in got
+
+
+def test_read_yaml_block_nested_indent():
+    path = _write(
+        'translations:\n'
+        '  en:\n'
+        '    description: |-\n'
+        '      Automated translation\n'
+        '      \n'
+        '      Second line\n'
+        '    model: "claude-haiku-4-5"\n'
+    )
+    got = mod.read_yaml_block(path, "description")
+    os.remove(path)
+    assert got == "Automated translation\n\nSecond line"
+
+
+def test_read_yaml_block_missing_key():
+    path = _write(SAMPLE_YAML)
+    got = mod.read_yaml_block(path, "nosuchkey")
+    os.remove(path)
+    assert got is None
+
+
+def test_strip_status_header_removes_single_line():
+    text = "🔄 内容更新 (公開日: 2026-08-07)\n\nAI による要約\n\n本文"
+    assert mod.strip_status_header(text) == "AI による要約\n\n本文"
+
+
+def test_strip_status_header_removes_two_lines():
+    text = "🔄 内容更新 (公開日: 2026-08-07)\n主な変更: 入札日を変更。\n\nAI による要約\n\n本文"
+    assert mod.strip_status_header(text) == "AI による要約\n\n本文"
+
+
+def test_strip_status_header_keeps_text_without_header():
+    text = "AI による要約\n\n本文"
+    assert mod.strip_status_header(text) == text
+
+
+def test_strip_status_header_handles_header_only():
+    assert mod.strip_status_header("🆕 新着掲載 (公開日: 2026-08-07)") == ""
+
+
+def test_split_description_strips_disclaimer_after_status_header():
+    # 従来 ^ 固定だったため status 行があると disclaimer が剥がれなかった回帰テスト
+    text = (
+        "🔄 内容更新 (公開日: 2026-08-07)\n\n"
+        + mod.AI_DISCLAIMER_JP
+        + "\n\n本文です。\n\n飯能市公式サイト 新着情報: https://example.com/7334.html"
+    )
+    body, url = mod.split_description(text)
+    assert mod.AI_DISCLAIMER_JP not in body
+    assert body.startswith("🔄 内容更新")   # status 行は残す (EN 側で訳すため)
+    assert body.endswith("本文です。")
+    assert url == "https://example.com/7334.html"
+
+
+def test_split_description_without_status_header():
+    text = mod.AI_DISCLAIMER_JP + "\n\n本文です。\n\nラベル: https://example.com/x.html"
+    body, url = mod.split_description(text)
+    assert body == "本文です。"
+    assert url == "https://example.com/x.html"
+
+
+def test_split_description_bare_url_line():
+    body, url = mod.split_description("本文です。\n\nhttps://example.com/x.html")
+    assert body == "本文です。"
+    assert url == "https://example.com/x.html"
+
+
+def test_split_description_no_url():
+    body, url = mod.split_description("本文です。")
+    assert body == "本文です。"
+    assert url is None
+
+
+if __name__ == "__main__":
+    for name, fn in sorted(globals().items()):
+        if name.startswith("test_") and callable(fn):
+            fn()
+    print("OK: all description-parts tests passed")

@@ -37,7 +37,8 @@ import yaml
 import httpx
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from _lib import yaml_escape_str, yaml_block_scalar, strip_markdown, AI_DISCLAIMER_JP
+from _lib import (yaml_escape_str, yaml_block_scalar, strip_markdown,
+                  split_description)
 
 
 # ==================== Source ====================
@@ -129,33 +130,6 @@ def translate(jp_summary: str, jp_description: str) -> dict | None:
     except Exception as e:
         print(f"  ERROR LLM translate: {e}", file=sys.stderr)
         return None
-
-
-def split_description(description: str) -> tuple[str, str | None]:
-    """description を (本文, source_url) に分解.
-
-    LLM に翻訳させたくない要素を事前に除去:
-      - 冒頭の AI 要約 disclaimer 行 (oshirase)
-      - 末尾の "ラベル: URL" 行 (source URL)
-    """
-    text = description
-    # 冒頭 AI disclaimer 行 (oshirase 用) を除去
-    text = re.sub(r"^" + re.escape(AI_DISCLAIMER_JP) + r"\s*\n+", "", text)
-
-    # 末尾の URL 行 (例: "市長ブログ「市政一直線」: https://...", "飯能市公式サイト 新着情報: https://...")
-    source_url = None
-    m = re.search(r"\n+([^\n]*?:[ \t]*(https?://\S+))\s*$", text)
-    if m:
-        source_url = m.group(2)
-        text = text[:m.start()]
-    else:
-        # URL 単独行 (ラベル無し) も検出
-        m2 = re.search(r"\n+(https?://\S+)\s*$", text)
-        if m2:
-            source_url = m2.group(1)
-            text = text[:m2.start()]
-
-    return text.strip(), source_url
 
 
 def build_en_description(en_body: str, source_url: str | None) -> str:

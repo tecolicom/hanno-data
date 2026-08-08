@@ -310,6 +310,90 @@ def read_yaml_scalar(path: str, key: str) -> str | None:
     return None
 
 
+# description 冒頭の status 行を識別する先頭文字 (各 crawler が付与する絵文字)
+STATUS_MARKERS = ("🆕", "🔄", "📝")
+
+
+def read_yaml_block(path: str, key: str) -> str | None:
+    """YAML の block scalar (`KEY: |` / `KEY: |-`) の中身を返す.
+
+    インデントを除去して元のテキストを復元する。ネストしたキー
+    (`translations.en.description` 等) も、その行のインデント + 2 を本文の
+    インデントとみなして扱う。1 行スカラ (`KEY: "..."`) は対象外
+    (それは read_yaml_scalar の担当)。見つからなければ None。
+    """
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            lines = f.read().split("\n")
+    except Exception:
+        return None
+    head = re.compile(r"^(\s*)" + re.escape(key) + r":\s*\|[-+]?\s*$")
+    for i, ln in enumerate(lines):
+        m = head.match(ln)
+        if not m:
+            continue
+        base = len(m.group(1))
+        body: list[str] = []
+        for cur in lines[i + 1:]:
+            if cur.strip() == "":
+                body.append("")
+                continue
+            indent = len(cur) - len(cur.lstrip(" "))
+            if indent <= base:
+                break          # ブロック終了 (同階層以上のキーに戻った)
+            body.append(cur[base + 2:])
+        while body and body[-1] == "":
+            body.pop()
+        return "\n".join(body)
+    return None
+
+
+def strip_status_header(text: str) -> str:
+    """description 冒頭の status ブロックを除去する.
+
+    status ブロックは STATUS_MARKERS のいずれかで始まり、最初の空行まで
+    (複数行可)。該当しなければ text をそのまま返す。
+
+    注: split_description() 側では status 行を残す。cal-translate-en が
+    status 行を英訳して EN イベントにも出しているため。旧要約を LLM に
+    渡すときだけ、この関数で明示的に落とす。
+    """
+    if not text.startswith(STATUS_MARKERS):
+        return text
+    parts = text.split("\n\n", 1)
+    return parts[1] if len(parts) == 2 else ""
+
+
+def split_description(text: str) -> tuple[str, str | None]:
+    """description を (本文, source_url) に分解.
+
+    LLM に渡したくない要素を事前に除去:
+      - AI 要約 disclaimer 行 (oshirase)
+      - 末尾の "ラベル: URL" 行 (source URL)
+
+    status 行 (🆕/🔄/📝) は**残す**。cal-translate-en がこれを英訳して
+    EN 側にも出すため。落としたい場合は strip_status_header() を先に通す。
+    """
+    # AI disclaimer 行を除去。re.M が必須: status 行がある YAML では
+    # disclaimer が先頭に来ないため、^ 固定だと剥がれず英訳側で二重化する。
+    text = re.sub(r"^" + re.escape(AI_DISCLAIMER_JP) + r"\s*\n+", "", text, flags=re.M)
+
+    # 末尾の URL 行 (例: "市長ブログ「市政一直線」: https://...", "飯能市公式サイト 新着情報: https://...")
+    source_url = None
+    m = re.search(r"\n+([^\n]*?:[ \t]*(https?://\S+))\s*$", text)
+    if m:
+        source_url = m.group(2)
+        text = text[:m.start()]
+    else:
+        # URL 単独行 (ラベル無し) も検出
+        m2 = re.search(r"\n+(https?://\S+)\s*$", text)
+        if m2:
+            source_url = m2.group(1)
+            text = text[:m2.start()]
+
+    return text.strip(), source_url
+
+
 def existing_content_hash_matches(path: str, html_hash: str) -> bool:
     """既存 YAML の content_hash フィールドが指定の html_hash と一致するか判定.
 
