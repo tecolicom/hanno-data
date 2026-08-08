@@ -47,3 +47,42 @@ source:
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-08-07"
   supersedes: "oshirase-13451-ec0731@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ Showa 100 Special Exhibition: \"Hanno and the Showa Era—The City's Birth and Evolving Lives\""
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content update (Updated: August 7, 2026 / Previous: July 16, 2026)
+      Main changes: The July 30 exhibition talk ended. Workshops no longer require advance registration and are now drop-in on the day. Related lectures have ended.
+      
+      Showa 100 Special Exhibition: "Hanno and the Showa Era—The City's Birth and Evolving Lives"
+      
+      A special exhibition introducing the city's history from the Showa to Reiwa eras and how people's lives have changed, using materials from the museum collection.
+      
+      【Exhibition Dates】
+      July 19 – August 30, 2026 (Reiwa 8)
+      9:30 AM – 4:30 PM
+      Closed Mondays (except July 20), July 21 (Tue), July 24 (Fri), August 12 (Wed), August 28 (Fri)
+      
+      【Related Events】
+      
+      Exhibition Talks (explanations by curator)
+      • August 16 (Sun) 10:00–10:30 AM / 3:00–3:30 PM
+      • August 23 (Sun) 10:00–10:30 AM / 3:00–3:30 PM
+      ※The July 30 talk has ended
+      
+      Evening Museum (extended hours until 7 PM, with ~30-minute explanation 6:00–6:30 PM)
+      • August 11 (Tue, national holiday)
+      • August 29 (Sat)
+      
+      Workshop—Interactive quiz (no advance registration needed, drop-in welcome)
+      • August 22 (Sat) 10:00 AM – 3:00 PM (closed noon–1:00 PM)
+      
+      Related Lecture "Postcards Tell Hanno's 100 Years of Showa" was scheduled for August 1, 2026, but has ended.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/tenji_moyooshimono/13451.html
+    translation_hash: "sha256-936b71ec31739967"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-08T03:59:41.336808Z"
+    format_version: 3

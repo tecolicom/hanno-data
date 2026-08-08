@@ -27,3 +27,22 @@ source:
   fetched_at: "2026-08-07T18:47:24.034977Z"
   content_hash: "sha256-ccd3572d24515305"
   publish_date: "2026-08-01"
+translations:
+  en:
+    summary: "📝 Mayor: Showa 100 Years Special Exhibition 'Hanno and the Showa Era — The City's Birth and Evolving Life'"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      📝 Mayor's Blog Update (Published: August 1, 2026)
+      
+      On Saturday, August 1, I visited the Hanno City Museum to see the special exhibition 'Hanno and the Showa Era — The City's Birth and Evolving Life' marking 100 years since the start of the Showa era.
+      
+      Reiwa 8 (2026) marks 100 years since Showa 1. The exhibition, on view through Sunday, August 30, features the city's history as the current Hanno city area took shape through successive mergers, and how people's daily lives changed alongside various furniture and household appliances. The displays draw mainly from the museum's collection.
+      
+      If you are interested, I encourage you to visit. I hope the exhibition offers a chance to reflect on the future by tracing the city's history and the changes in people's lives as they have unfolded through the Showa, Heisei, and into the present Reiwa era.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202608/14154.html
+    translation_hash: "sha256-d68555dc2dc4d74b"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-08T03:59:37.037747Z"
+    format_version: 3
