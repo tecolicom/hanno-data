@@ -50,8 +50,20 @@ def _golden_key(path):
     return re.sub(r'^\d\d-\d\d_', '', os.path.basename(path))
 
 
+# fixture 記事の Last-Modified 固定値。JST 2026-06-12 → dtstart = +1 日 = 2026-06-13。
+# golden 捕捉時の実サーバ値と一致するので、golden はそのまま維持される。
+OSHIRASE_FIXED_LM = "Fri, 12 Jun 2026 09:00:00 GMT"
+
+
 def _setup_oshirase(m, crawler, manifest):
     m._llm_available = lambda: False  # LLM 経路を断つ (deterministic)
+    # 記事本文は fetch_with_cache 経由なので、こちらもモックしないと実ネットワークに出る
+    m.fetch_with_cache = lambda url, etag, lm: (
+        (_read_fixture(crawler, manifest[url]), None, OSHIRASE_FIXED_LM) if url in manifest
+        else (None, None, None)  # manifest 外の URL は 304 = skip
+    )
+    m.load_http_cache = lambda: {}
+    m.save_http_cache = lambda c: None
 
 
 def _setup_shicho_blog(m, crawler, manifest):
