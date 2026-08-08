@@ -432,6 +432,22 @@ def process_one(url: str, out_dir: str, uid_prefix: str, dry_run: bool) -> int:
     return len(sessions)
 
 
+def check_tour_count(n_tours: int, min_tours: int) -> None:
+    """API が返したツアー件数の下限チェック。未満なら exit 2.
+
+    API の崩壊・大量非公開・仕様変更を検知する。以前は「抽出セッション総数」で
+    判定していたが、変更のないページの取得を skip するようになるとセッションが
+    0 件の日が普通にあるため、件数の根拠を API 側に移した。
+    """
+    if n_tours < min_tours:
+        print(
+            f"FAIL: tours from API ({n_tours}) < --min-tours ({min_tours}). "
+            f"Likely API change or mass unpublish. Refusing to continue.",
+            file=sys.stderr,
+        )
+        sys.exit(2)
+
+
 def main() -> None:
     here = os.path.dirname(os.path.abspath(__file__))
     default_urls_file = os.path.join(here, "..", "sources", "hanno-tourism", "urls.txt")
@@ -443,8 +459,9 @@ def main() -> None:
     ap.add_argument("--out-dir", default=default_out_dir, help=f"events 出力先 (default: {default_out_dir})")
     ap.add_argument("--uid-prefix", default=DEFAULT_UID_PREFIX, help=f"UID prefix (default: {DEFAULT_UID_PREFIX})")
     ap.add_argument("--dry-run", action="store_true", help="stdout に出すだけ")
-    ap.add_argument("--min-sessions", type=int, default=5,
-                    help="抽出セッション数がこの数未満なら exit code 2 (CI 暴走防止、default: 5)")
+    ap.add_argument("--min-tours", type=int, default=20,
+                    help="API が返すツアー件数がこれ未満なら exit 2 "
+                         "(API 崩壊/大量非公開の検知、default: 20)")
     ap.add_argument("--no-discover", action="store_true",
                     help="REST API を引かず urls-file のみ使う (API 障害時の手動退避用)")
     args = ap.parse_args()
@@ -470,7 +487,15 @@ def main() -> None:
         _add(args.url)
     else:
         if not args.no_discover:
-            for t in fetch_tour_index():
+            # API 障害 / JSON パース失敗も exit 2 (スクレイピングへの fallback は持たない)
+            try:
+                api_tours = fetch_tour_index()
+            except Exception as e:
+                print(f"FAIL: tour API unavailable: {e}", file=sys.stderr)
+                sys.exit(2)
+            # --no-discover 時は API を引かないので件数の根拠が無く、チェックしない
+            check_tour_count(len(api_tours), args.min_tours)
+            for t in api_tours:
                 _add(t["url"], t["modified_gmt"], t["slug"])
         if args.urls_file:
             for u in read_url_list(args.urls_file):
@@ -481,7 +506,7 @@ def main() -> None:
                  "Pass --url, populate urls-file, or check the REST API.")
 
     print(f"Processing {len(tours)} tour(s) deterministically (no LLM)...", file=sys.stderr)
-    ok = err = total_sessions = 0
+    ok = err = total_sessions = zero_session = 0
     for i, t in enumerate(tours, 1):
         print(f"[{i}/{len(tours)}] {t['url']}", file=sys.stderr)
         try:
@@ -489,17 +514,21 @@ def main() -> None:
             if n > 0:
                 ok += 1
                 total_sessions += n
+            else:
+                zero_session += 1
         except Exception as e:
             err += 1
             print(f"  ERROR: {e}", file=sys.stderr)
-    print(f"Done. urls ok={ok} err={err}  total sessions extracted={total_sessions}", file=sys.stderr)
+    print(f"Done. tours={len(tours)}  ok={ok} err={err} zero-session={zero_session}  "
+          f"sessions={total_sessions}", file=sys.stderr)
 
-    # サニティチェック: 抽出セッションが想定より極端に少ないと
-    # (ソース構造変化等で) パース失敗の可能性が高い → exit code 2
-    if total_sessions < args.min_sessions and not args.dry_run:
+    # パース失敗の検知: 取得したページが 1 件以上あり、その全件でセッションが
+    # 取れなかった → HTML 構造が変わった疑い。取得 0 件の日はこの判定をしない。
+    fetched = ok + zero_session
+    if fetched > 0 and ok == 0 and not args.dry_run:
         print(
-            f"FAIL: extracted sessions ({total_sessions}) < --min-sessions ({args.min_sessions}). "
-            f"Likely source structure change. Refusing to commit a possibly-corrupt result.",
+            f"FAIL: fetched {fetched} page(s) but extracted 0 sessions. "
+            f"Likely source HTML structure change. Refusing to commit a possibly-corrupt result.",
             file=sys.stderr,
         )
         sys.exit(2)

@@ -78,7 +78,7 @@ jobs:
       # 各クローラは独立。1 つ失敗しても他は走らせる (失敗ソース名を記録し、
       # ジョブ末尾の "Report crawler failures" でまとめて赤にする)。
       - name: Crawl hanno-tourism
-        run: ./calendar/bin/cal-tourism-fetch --out-dir calendar/events --min-sessions 5 || echo "hanno-tourism" >> "$RUNNER_TEMP/crawl-failures.txt"
+        run: ./calendar/bin/cal-tourism-fetch --out-dir calendar/events --min-tours 20 || echo "hanno-tourism" >> "$RUNNER_TEMP/crawl-failures.txt"
 
       - name: Crawl city-hanno-shiminkaikan
         run: ./calendar/bin/cal-shiminkaikan-fetch --out-dir calendar/events --min-events 3 || echo "city-hanno-shiminkaikan" >> "$RUNNER_TEMP/crawl-failures.txt"

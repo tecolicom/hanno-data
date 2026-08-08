@@ -153,6 +153,29 @@ def test_empty_result():
     assert mod.fetch_tour_index() == []
 
 
+def test_check_tour_count_passes_when_enough():
+    # 例外が出ないこと自体が検証
+    mod.check_tour_count(39, 20)
+    mod.check_tour_count(20, 20)
+
+
+def test_check_tour_count_exits_2_when_too_few():
+    for n in (19, 1, 0):
+        try:
+            mod.check_tour_count(n, 20)
+        except SystemExit as e:
+            assert e.code == 2, f"n={n}: exit code should be 2, got {e.code}"
+        else:
+            raise AssertionError(f"n={n}: should have exited")
+
+
+def test_min_sessions_flag_is_gone():
+    """--min-sessions は意味が変わったので廃止した (同名で残すと誤解を招く)。"""
+    src = open(SCRIPT, encoding="utf-8").read()
+    assert "--min-sessions" not in src
+    assert "min_sessions" not in src
+
+
 if __name__ == "__main__":
     for name, fn in sorted(globals().items()):
         if name.startswith("test_") and callable(fn):
