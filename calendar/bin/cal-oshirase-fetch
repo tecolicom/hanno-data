@@ -274,7 +274,8 @@ def _materialize_description(body: str, method: str, title: str, article_url: st
 def build_yaml_doc(uid: str, item_url: str, page_id: str, title: str, date_str: str,
                    description: str, method: str,
                    content_hash: str, fetched_at: str | None,
-                   publish_date: str | None = None) -> str:
+                   publish_date: str | None = None,
+                   supersedes: str | None = None) -> str:
     lines: list[str] = []
     lines.append(f"uid: {yaml_escape_str(uid)}")
     lines.append(f"summary: {yaml_escape_str(SUMMARY_PREFIX + title)}")
@@ -299,6 +300,11 @@ def build_yaml_doc(uid: str, item_url: str, page_id: str, title: str, date_str: 
     # を後追いできるよう保持。once-per-page mode では dtstart == publish_date なので省略。
     if publish_date and publish_date != date_str:
         lines.append(f"  publish_date: {yaml_escape_str(publish_date)}")
+    # 同じ page の直前世代 (= この YAML が置き換える内容) の uid。
+    # 世代チェーンを辿るための唯一のリンクなので、content_hash には含めない
+    # (含めると既存 YAML の hash が動いてカレンダーが氾濫する)。
+    if supersedes:
+        lines.append(f"  supersedes: {yaml_escape_str(supersedes)}")
     return "\n".join(lines) + "\n"
 
 
@@ -498,6 +504,7 @@ def main() -> None:
             dtstart = it["date"]                 # dc:date
             publish_date = None                  # dtstart と同じなので省略
             status_header = ""                   # legacy mode は header 不要
+            supersedes = None                    # legacy mode では世代リンクを作らない
         else:
             # incremental: (page_id, content_hash) が既知なら skip (新規 / 変更 のみ書く)
             if (it["page_id"], content_hash) in existing_hashes:
@@ -507,10 +514,15 @@ def main() -> None:
             dtstart = dtstart_from_last_modified(
                 http_cache.get(it["url"], {}).get("last_modified"), today_jst)
             publish_date = it["date"]            # dc:date を保持
-            # status: 同 page_id に既存 YAML 無し → 新規 / 既存あり → 内容更新
-            if it["page_id"] in existing_page_ids:
-                status_header = f"🔄 内容更新 (公開日: {publish_date})"
+            # status: 同 page_id に既存 YAML 無し → 新規 / 既存あり → 内容更新。
+            # 更新の場合は直前世代の uid を supersedes に記録し、前回掲載日を header に出す。
+            prev = existing_gens.get(it["page_id"], [])
+            if prev:
+                prev_dtstart, prev_uid, prev_path, _prev_hash = prev[0]
+                supersedes = prev_uid
+                status_header = f"🔄 内容更新 (公開日: {publish_date} / 前回掲載: {prev_dtstart})"
             else:
+                supersedes = None
                 status_header = f"🆕 新着掲載 (公開日: {publish_date})"
 
         # description を実際に組み立てる (LLM 呼出はここで初めて発生)
@@ -518,7 +530,7 @@ def main() -> None:
                                               status_header=status_header)
         doc = build_yaml_doc(uid, it["url"], it["page_id"], it["title"], dtstart,
                              description, method, content_hash, None,
-                             publish_date=publish_date)
+                             publish_date=publish_date, supersedes=supersedes)
         out_path = output_path_for(args.out_dir, uid, dtstart)
 
         if args.dry_run:

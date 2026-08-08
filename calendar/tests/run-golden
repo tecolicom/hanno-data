@@ -12,12 +12,13 @@ dtstart/dtend/fetched_at は incremental では実行日に依存するので、
 含めない設計) なので正規化せず、ハッシュ回帰はそのまま検知される。
 """
 from __future__ import annotations
-import importlib.machinery, importlib.util, glob, json, os, re, sys, tempfile
+import importlib.machinery, importlib.util, glob, json, os, re, shutil, sys, tempfile
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 BIN = os.path.normpath(os.path.join(HERE, "..", "bin"))
 FIX = os.path.join(HERE, "fixtures")
 GOLD = os.path.join(HERE, "golden")
+SEED = os.path.join(HERE, "seed")
 
 
 def _load(name):
@@ -75,13 +76,17 @@ def _setup_shicho_blog(m, crawler, manifest):
     m.save_http_cache = lambda c: None
 
 
+# (golden 名, crawler スクリプト名, setup, seed dir 名 | None)
+# seed を渡すと、その中身を out-dir に事前展開してから crawler を走らせる
+# (= 既存 YAML がある状態の再現。更新検知 / supersedes の経路を通す)。
 CRAWLERS = [
-    ("cal-oshirase-fetch", _setup_oshirase),
-    ("cal-shicho-blog-fetch", _setup_shicho_blog),
+    ("cal-oshirase-fetch", "cal-oshirase-fetch", _setup_oshirase, None),
+    ("cal-oshirase-update", "cal-oshirase-fetch", _setup_oshirase, "cal-oshirase-update"),
+    ("cal-shicho-blog-fetch", "cal-shicho-blog-fetch", _setup_shicho_blog, None),
 ]
 
 
-def _run_crawler(crawler, setup):
+def _run_crawler(crawler, setup, seed):
     m = _load(crawler)
     manifest = _manifest(crawler)
     m.fetch = lambda url: _read_fixture(crawler, manifest[url])
@@ -90,6 +95,8 @@ def _run_crawler(crawler, setup):
     saved_argv = sys.argv
     try:
         with tempfile.TemporaryDirectory() as d:
+            if seed:
+                shutil.copytree(os.path.join(SEED, seed), d, dirs_exist_ok=True)
             sys.argv = [crawler, "--out-dir", d]
             m.main()
             for p in glob.glob(os.path.join(d, "**", "*.yaml"), recursive=True):
@@ -103,9 +110,9 @@ def _run_crawler(crawler, setup):
 def main():
     update = "--update" in sys.argv[1:]
     failures = 0
-    for crawler, setup in CRAWLERS:
-        generated = _run_crawler(crawler, setup)
-        gdir = os.path.join(GOLD, crawler)
+    for name, crawler, setup, seed in CRAWLERS:
+        generated = _run_crawler(crawler, setup, seed)
+        gdir = os.path.join(GOLD, name)
         if update:
             os.makedirs(gdir, exist_ok=True)
             for old in glob.glob(os.path.join(gdir, "*.yaml")):
@@ -113,13 +120,13 @@ def main():
             for key, content in generated.items():
                 with open(os.path.join(gdir, key), "w", encoding="utf-8") as f:
                     f.write(content)
-            print(f"[update] {crawler}: wrote {len(generated)} golden files")
+            print(f"[update] {name}: wrote {len(generated)} golden files")
             continue
         golden_keys = {os.path.basename(p) for p in glob.glob(os.path.join(gdir, "*.yaml"))}
         gen_keys = set(generated)
         crawler_fail = 0
         if golden_keys != gen_keys:
-            print(f"FAIL {crawler}: key set differs")
+            print(f"FAIL {name}: key set differs")
             print(f"  only in golden:    {sorted(golden_keys - gen_keys)}")
             print(f"  only in generated: {sorted(gen_keys - golden_keys)}")
             crawler_fail += 1
@@ -127,10 +134,10 @@ def main():
             with open(os.path.join(gdir, key), encoding="utf-8") as f:
                 want = f.read()
             if generated[key] != want:
-                print(f"FAIL {crawler}/{key}: content differs")
+                print(f"FAIL {name}/{key}: content differs")
                 crawler_fail += 1
         if crawler_fail == 0:
-            print(f"OK {crawler}: {len(generated)} files match")
+            print(f"OK {name}: {len(generated)} files match")
         failures += crawler_fail
     if update:
         return 0

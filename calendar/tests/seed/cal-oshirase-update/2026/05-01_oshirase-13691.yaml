@@ -1,0 +1,25 @@
+uid: "oshirase-13691@hanno.city.tecoli.com"
+summary: "ℹ️ 飯能市道の通行止めについて（第1地区第8号線）"
+url: "https://www.city.hanno.lg.jp/emergency/13691.html"
+dtstart: "2026-05-01"
+dtend: "2026-05-01"
+description: |-
+  🆕 新着掲載 (公開日: 2026-05-01)
+  
+  ## 市道第1地区第8号線の通行止めのお知らせ
+  
+  倒木のため、市道第1地区第8号線を全面通行止めとしています。解除の見込みは立っていません。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/emergency/13691.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13691"
+  url: "https://www.city.hanno.lg.jp/emergency/13691.html"
+  fetched_at: "2026-05-01T00:00:00Z"
+  content_hash: "sha256-00000000deadbeef"
+  summary_method: "full"
