@@ -213,9 +213,9 @@ cal-myhanno diff              # 整合確認 (0 件差分)
 `hanno-tourism.jp/hanno-eco/tour/<slug>/` の決定論的パーサ。LLM 不使用。
 
 ```
-cal-tourism-fetch [--url URL | --urls-file PATH]
+cal-tourism-fetch [--url URL | --urls-file PATH] [--no-discover]
                   [--out-dir events] [--uid-prefix tourism] [--dry-run]
-                  [--min-sessions 5]
+                  [--min-tours 20]
 ```
 
 - ページの `<dl><dt>開催日・時間</dt><dd>…</dd></dl>` を正規表現で解析
@@ -224,10 +224,59 @@ cal-tourism-fetch [--url URL | --urls-file PATH]
 - `source:` ブロックに provenance を記録 (type / id / url / fetched_at / content_hash)
 - 内容に本質的変化がない場合は write 自体を skip (`existing_content_hash_matches` で `translations:` 等を温存)
 - ツアー全体中止 (本文に「中止しました」等) は WARN ログを出すが Calendar には載せる (= 本文に中止表示が含まれる)
-- **HTTP Conditional GET 非対応** (`hanno-tourism.jp` はサーバが ETag/Last-Modified を返さない)
 
-URL リスト: [`sources/hanno-tourism/urls.txt`](./sources/hanno-tourism/urls.txt)。
-新ツアー追加時はここに 1 行追加。
+### ツアー一覧の取得 (REST API)
+
+hanno-tourism.jp は WordPress で、REST API が公開されている (ページの `link:` ヘッダが
+`/wp-json/` を自己申告している)。ツアーはカスタム投稿タイプ `tour`。
+
+```
+GET /wp-json/wp/v2/tour?_fields=id,link,slug,modified_gmt,tour-month&per_page=100&page=N
+```
+
+**掲載制御は `tour-month` タクソノミー。** 開催月が 1 つ以上割り当てられているものだけが
+一覧ページに載る = 現在提供中。空のものは「提供していない」という編集意図なので除外する。
+実測 (2026-08-08) で、`tour-month` あり 39 件が一覧ページのスクレイピング結果と
+**差分ゼロで一致**した。
+
+ページングは `page=1` から辿り、取得件数が `per_page` 未満なら終了。加えて範囲外ページが
+返す HTTP 400 (`rest_post_invalid_page_number`) を終端として許容する (総件数が `per_page` の
+倍数のとき 1 ページ余分に要求するため)。`x-wp-totalpages` はヘッダなので `_lib.fetch()`
+では読めない。
+
+### 更新検知 (modified_gmt)
+
+hanno-tourism.jp は `ETag` / `Last-Modified` を返さないので条件付き GET が使えない。
+代わりに API の `modified_gmt` を `calendar/.http-cache.json` に相乗りさせ、一致すれば
+HTML を取得しない。
+
+```json
+"https://hanno-tourism.jp/hanno-eco/tour/ec-tenta-kaibori/": {
+  "modified_gmt": "2026-08-07T01:00:51"
+}
+```
+
+**処理が成功したツアーだけ記録する**ので、失敗したものは次回リトライされる。
+日程は ACF 由来で API に露出していないため (`content.rendered` は紹介文のみ)、
+変更分の HTML 取得は避けられない二段構えになる。
+
+実測した日次の変更件数は 40 件中 0〜6 件。ローカル実測で全件取得 15.3 秒に対し、
+変更 0 件なら 0.5 秒 (`fetched=0 unchanged=39`)。CI では 55 秒かかっていたステップ。
+
+### サニティチェック
+
+| フラグ / 判定 | 内容 |
+|---|---|
+| `--min-tours` (既定 20) | API が返すツアー件数がこれ未満なら exit 2。API 崩壊・大量非公開・仕様変更を検知 |
+| パース失敗検知 | 取得したページが 1 件以上あり、その全件で 0 セッションなら exit 2 |
+
+`--min-sessions` (抽出セッション総数) は廃止した。取得を skip するようになると、変更 0 件の
+日に必ず誤発火するため。API 失敗・JSON パース失敗も exit 2 で止め、スクレイピングへの
+フォールバックは持たない。`--no-discover` は「REST API を引かず `urls.txt` のみ使う」
+(API 障害時の手動退避用) で、この場合は件数の根拠が無いので `--min-tours` を判定しない。
+
+URL リスト: [`sources/hanno-tourism/urls.txt`](./sources/hanno-tourism/urls.txt) は
+**シード (手動ピン留め)**。通常は REST API の結果だけで足りる。
 
 LLM 版 (ad-hoc 用、ページ構造変化時の代替) は別リポにある: `city-tecoli/tools/hanno-tourism-extractor/`。
 
@@ -405,8 +454,11 @@ city.hanno.lg.jp 配下の静的ページは ETag / Last-Modified 対応のた�
 
 対応状況:
 - ✅ `cal-shiminkaikan`, `cal-gikai`, `cal-shicho-blog` (city.hanno.lg.jp)
-- ❌ `cal-tourism` (`hanno-tourism.jp` がヘッダ非対応)
-- ❌ `cal-oshirase` (`feed.php` は動的生成)
+- ✅ `cal-oshirase` の**記事ページ** (city.hanno.lg.jp。実測で 50 件すべて 304)
+- ❌ `cal-oshirase` の**フィード** (`feed.php` は動的生成で cache header を返さない)
+- ⚠️ `cal-tourism` — `hanno-tourism.jp` が `ETag` / `Last-Modified` を返さないので条件付き
+  GET は使えない。代わりに REST API の `modified_gmt` を `.http-cache.json` に相乗りさせて
+  同等の効果を得ている (上記「更新検知 (modified_gmt)」参照)
 
 ## クローラ設定 (sources.yaml)
 
@@ -476,7 +528,8 @@ golden 網とは別に、純粋関数・API ラッパのユニットテストが
 | ファイル | 対象 |
 |---|---|
 | `test_last_modified_dating.py` | `_lib` の Last-Modified → dtstart 変換 |
-| `test_tourism_discovery.py` | tourism の一覧ページ自動発見 |
+| `test_tourism_discovery.py` | tourism の URL 正規化 |
+| `test_tourism_api.py` | tourism の REST API 取得 / modified_gmt 判定 / サニティチェック |
 | `test_description_parts.py` | `_lib` の description 分解 (block 読み出し / status 行 / disclaimer) |
 | `test_generation_index.py` | oshirase の page_id 別世代索引 |
 | `test_diff_line.py` | oshirase の差分要約行 (LLM は差し替え) |
