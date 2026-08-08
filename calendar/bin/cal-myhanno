@@ -663,6 +663,35 @@ def list_all_events(calendar_id: str) -> list[dict]:
         params["pageToken"] = token
 
 
+class EventIndex:
+    """calendar_id ごとに全イベントを 1 回だけ取得し、iCalUID で引ける索引.
+
+    apply-all が YAML 1 件ごとに events.list を呼ぶのを避けるための読み取り
+    キャッシュ (437 件 × 2 言語 = 約 874 回 → カレンダー数回)。カレンダー単位の
+    遅延取得なので、触らないカレンダーは fetch しない。
+
+    書き込み後に索引を更新しない: 1 回の apply-all で同じ uid は 1 度しか処理
+    されず、言語ごとに別プロセスで走るため。実行中の手編集との競合は cmd_apply が
+    書き込み直前に 1 件取り直して防ぐ。
+    """
+
+    def __init__(self) -> None:
+        self._by_cal: dict[str, dict[str, dict]] = {}
+
+    def _load(self, calendar_id: str) -> dict[str, dict]:
+        if calendar_id not in self._by_cal:
+            self._by_cal[calendar_id] = {
+                e["iCalUID"]: e
+                for e in list_all_events(calendar_id)
+                if e.get("iCalUID")
+            }
+        return self._by_cal[calendar_id]
+
+    def get(self, calendar_id: str, uid: str) -> dict | None:
+        """索引から uid のイベントを引く. 無ければ None."""
+        return self._load(calendar_id).get(uid)
+
+
 def find_event_by_uid(uid: str, calendar_id: str | None = None) -> dict | None:
     """iCalUID で既存イベントを引く. 見つからなければ None."""
     res = gws("calendar", "events", "list", params={
@@ -705,23 +734,8 @@ def cmd_apply(args: argparse.Namespace) -> dict:
     existing = find_event_by_uid(uid, target_cal_id)
 
     if existing:
-        # update: 既存 body を新 body で上書き (YAML が真)
-        merged = {k: v for k, v in existing.items() if k not in READ_ONLY_FIELDS}
-        merged.update(new_body)
-        # YAML に無いフィールドは消す対象なので明示クリア
-        # location 等はもし YAML に無くて Calendar に有ったら、削除すべき
-        # (今は location/description のみ対象とする)
-        for k in ("location", "description", "recurrence", "source"):
-            if k not in new_body and k in merged:
-                merged.pop(k, None)
-
-        # 冪等性チェック: cmd_diff と同じ判定方式で existing vs new_body を比較し、
-        # 真の差分が無ければ events.update API を呼ばない (= Calendar の updated
-        # timestamp を bump させない、quota も消費しない)。
-        # cmd_diff が exit 0 を返す状態とこの skip 条件が一致するように、
-        # 判定基準は COMPARE_FIELDS + normalize_for_diff (cmd_diff と同一) を使う。
-        if all(normalize_for_diff(existing.get(k)) == normalize_for_diff(new_body.get(k))
-               for k in COMPARE_FIELDS):
+        merged = merge_for_update(existing, new_body)
+        if events_in_sync(existing, new_body):
             if args.dry_run and not silent:
                 print(json.dumps({"action": "in-sync (skip)", "uid": uid}, ensure_ascii=False))
             return {"action": "in-sync", "uid": uid,
@@ -793,6 +807,31 @@ def normalize_for_diff(v):
     if isinstance(v, list):
         return [normalize_for_diff(x) for x in v]
     return v
+
+
+def events_in_sync(existing: dict, new_body: dict) -> bool:
+    """既存イベントと新 body が実質同じか判定する.
+
+    判定基準は COMPARE_FIELDS + normalize_for_diff で、cmd_diff が exit 0 を返す
+    状態と一致させる (= 真の差分が無ければ events.update を呼ばず、Calendar の
+    updated timestamp を bump させない / quota も使わない)。
+    """
+    return all(normalize_for_diff(existing.get(k)) == normalize_for_diff(new_body.get(k))
+               for k in COMPARE_FIELDS)
+
+
+def merge_for_update(existing: dict, new_body: dict) -> dict:
+    """既存イベントに新 body を上書きした events.update 用の body を作る.
+
+    YAML が真なので、YAML に無いフィールドは明示的に消す (Calendar 側にだけ
+    location が残る等を防ぐ)。READ_ONLY_FIELDS は API が受け付けないので落とす。
+    """
+    merged = {k: v for k, v in existing.items() if k not in READ_ONLY_FIELDS}
+    merged.update(new_body)
+    for k in ("location", "description", "recurrence", "source"):
+        if k not in new_body and k in merged:
+            merged.pop(k, None)
+    return merged
 
 
 def cmd_diff(args: argparse.Namespace) -> None:
