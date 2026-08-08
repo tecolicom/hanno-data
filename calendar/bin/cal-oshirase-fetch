@@ -43,7 +43,8 @@ from datetime import date as _date, datetime, timezone, timedelta
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from _lib import (
-    USER_AGENT, UID_NAMESPACE, fetch, read_yaml_scalar,
+    USER_AGENT, UID_NAMESPACE, STATUS_MARKERS, fetch, read_yaml_scalar, read_yaml_block,
+    strip_status_header, split_description,
     yaml_escape_str, yaml_block_scalar, strip_html, normalize_body,
     strip_markdown, AI_DISCLAIMER_JP,
     output_path_for, find_existing_by_uid, load_source_config,
@@ -113,6 +114,26 @@ LLM_SYSTEM_PROMPT = """あなたは飯能市公式サイトのお知らせ記事
 - **Markdown 記法 (**太字**、*斜体*、# 見出し、- リスト、`code`、リンク [text](url) 等) は一切使わないでください**。出力先は Google カレンダーの予定欄で、Markdown は literal なテキストとして表示されてしまいます。
 - 構造化したい場合は改行と全角記号で表現してください: 箇条書きは行頭「・」、見出しは「【見出し】」、強調が必要な場合は「」または 【 】 を使う。
 - 要約だけ返す。前置きや「以下は要約です」等の説明は不要。
+"""
+
+# 更新記事の「主な変更」1 行を作る設定。要約より短く、トークンも小さい。
+DIFF_LLM_MAX_TOKENS = 256
+DIFF_SYSTEM_PROMPT = """あなたは飯能市公式サイトのお知らせ記事が更新されたとき、市民向けカレンダーに「何が変わったか」を 1 行で示すアシスタントです。
+
+これは自動パイプラインの一部で、あなたの出力はそのままカレンダーの予定欄に掲載されます。人間との対話ではありません。読者に質問する・追加情報を求める・作れない理由を説明する等の対話的応答は絶対にしないでください。
+
+入力は 2 つです:
+- 「前回の要約」: 前に掲載したときの**要約文**。元記事の全文ではなく、情報が落ちています。
+- 「今回の本文」: 今の元記事の本文（全文）。
+
+出力方針:
+- 日本語で 1〜2 文、**全体で 120 字以内**。
+- 「主な変更:」等のラベルは付けない。変更内容だけを書く。
+- **前回の要約は要約であって全文ではありません。** 言い回しの違い、詳しさの違い、書き方の順序の違いは変更として報告しないでください。前回の要約に無い項目を「新設」「追加」と断定してはいけません（単に要約から漏れていただけの可能性があります）。
+- 拾うべきは、市民の行動が変わる実質的な変更です: 日付・期間・時刻の変更、金額の変更、件数や区分の変更、申込方法や会場の変更、中止/延期/終了などのステータス変更。
+- 確信を持って言える変更が無い場合は、**何も出力せず空文字を返してください**（推測で書かない）。
+- Markdown 記法 (**太字**、# 見出し、- リスト等) は一切使わない。出力先は Google カレンダーの予定欄で literal 表示されます。
+- 変更内容だけを返す。前置きや「以下が変更点です」等の説明は不要。
 """
 
 
@@ -230,12 +251,72 @@ def summarize_with_llm(title: str, body: str) -> str | None:
         return None
 
 
+def diff_with_llm(title: str, prev_summary: str, new_body: str) -> str | None:
+    """前回の要約と今回の本文を比較し「主な変更」の本文を返す。失敗/変更なしは None。"""
+    if httpx is None:
+        return None
+    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    if not api_key:
+        return None
+    if not prev_summary.strip() or not new_body or len(new_body) < MIN_BODY_CHARS:
+        # 安全装置: 材料が薄い状態で LLM を呼ばない (ハルシネーション防止)
+        return None
+    user = (f"# {title}\n\n"
+            f"## 前回の要約\n\n{prev_summary}\n\n"
+            f"## 今回の本文\n\n{new_body}")
+    try:
+        r = httpx.post(
+            "https://api.anthropic.com/v1/messages",
+            headers={
+                "x-api-key": api_key,
+                "anthropic-version": "2023-06-01",
+                "content-type": "application/json",
+            },
+            json={
+                "model": LLM_MODEL,
+                "max_tokens": DIFF_LLM_MAX_TOKENS,
+                "system": DIFF_SYSTEM_PROMPT,
+                "messages": [{"role": "user", "content": user}],
+            },
+            timeout=60,
+        )
+        r.raise_for_status()
+        data = r.json()
+        text = strip_markdown(data["content"][0]["text"].strip(), bullet="・")
+        # 改行は status header を壊すので 1 行に畳む
+        text = " ".join(text.split())
+        return text or None
+    except Exception as e:
+        print(f"  WARN: LLM diff failed: {e}", file=sys.stderr)
+        return None
+
+
 # ---------- description 組立 ----------
 
 
 def _llm_available() -> bool:
     """この環境で LLM 呼出が可能か (CI 等で httpx 無 / API key 無 を事前検知)."""
     return httpx is not None and bool(os.environ.get("ANTHROPIC_API_KEY"))
+
+
+def _diff_line(title: str, prev_path: str, new_body: str) -> str | None:
+    """直前世代の YAML と今回の本文から「主な変更」1 行を作る。作れなければ None。
+
+    比較材料は前世代の description (= 前回の LLM 要約)。元記事の本文は保存して
+    いないため、旧要約 × 新本文の非対称な比較になる。誤検出の抑制は
+    DIFF_SYSTEM_PROMPT 側で行う。
+    """
+    if not _llm_available():
+        return None
+    if _read_yaml_scalar(prev_path, "summary_method") == "url-only":
+        return None          # 前世代は URL のみ = 比較材料が無い
+    raw = read_yaml_block(prev_path, "description")
+    if not raw:
+        return None
+    prev_summary, _url = split_description(strip_status_header(raw))
+    if not prev_summary.strip():
+        return None
+    return diff_with_llm(title, prev_summary, new_body) or None
 
 
 def _materialize_description(body: str, method: str, title: str, article_url: str,
@@ -521,6 +602,9 @@ def main() -> None:
                 prev_dtstart, prev_uid, prev_path, _prev_hash = prev[0]
                 supersedes = prev_uid
                 status_header = f"🔄 内容更新 (公開日: {publish_date} / 前回掲載: {prev_dtstart})"
+                diff_line = _diff_line(it["title"], prev_path, body)
+                if diff_line:
+                    status_header = f"{status_header}\n主な変更: {diff_line}"
             else:
                 supersedes = None
                 status_header = f"🆕 新着掲載 (公開日: {publish_date})"
