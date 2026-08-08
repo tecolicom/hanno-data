@@ -171,10 +171,28 @@ class EventIndex:
 実装前後で `apply-all --dry-run` を実測して比較し、結果を記録する。
 API 往復が 874 → 2 になるので apply は数秒台に落ちる見込みだが、数字は実測で確認する。
 
-**前提: ローカルの `gws` 認証が切れている** (2026-08-08 時点、`invalid_grant:
-reauth related error (invalid_rapt)`)。CI はサービスアカウントを使うので影響しないが、
-ローカルでの実測と実 API に対する検証には再認証が要る。実測の前に再認証しておくこと。
-再認証ができない場合、実測は CI の run ログ (ステップ別所要時間) で代替する。
+**ローカル実行にはサービスアカウントの指定が要る。** 環境変数なしで `gws` を叩くと
+ユーザー OAuth にフォールバックして `invalid_grant: reauth related error (invalid_rapt)`
+で失敗する。CI と同じく `GOOGLE_APPLICATION_CREDENTIALS` を渡すこと:
+
+```bash
+export GOOGLE_APPLICATION_CREDENTIALS=/Users/utashiro/Git/tecolicom/city-tecoli/city-tecoli-f79904a70941.json
+```
+
+なお `gws` は起動時に `Using keyring backend: keyring` を **stderr** に出す。
+`gws()` は `capture_output=True` で stdout/stderr を分離しているため実害はないが、
+手で叩いて JSON をパースするときに `2>&1` すると壊れる。
+
+## 実機で検証済みの前提 (2026-08-08)
+
+`gikai` カレンダー (248 件) に対して実際に確認した:
+
+| 前提 | 結果 |
+|---|---|
+| `gws` のレスポンスに `nextPageToken` が含まれる | ✅ トップレベルキーに存在 |
+| `pageToken` を渡すと次ページが取れる | ✅ 2 ページ目に別イベント、`nextPageToken` も継続 |
+| `maxResults: 2500` なら現状 1 ページで収まる | ✅ 248 件を 1 ページ、`nextPageToken` なし |
+| `maxResults` の上限は 2500 / 既定 250 | ✅ 公式ドキュメントで確認 |
 
 ## やらないこと (YAGNI)
 
