@@ -4,7 +4,8 @@ url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushi
 dtstart: "2026-08-07"
 dtend: "2026-08-07"
 description: |-
-  🔄 内容更新 (公開日: 2026-07-30)
+  🔄 内容更新 (公開日: 2026-07-30 / 前回掲載: 2026-08-06)
+  主な変更: 南高麗福祉センターでの募金箱設置が新たに追加されました。
   
   AI による要約 (正確な情報は元記事をご確認ください)
   
@@ -28,34 +29,28 @@ source:
   content_hash: "sha256-ec86a7c9830ce57d"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-07-30"
+  supersedes: "oshirase-14121-10962c@hanno.city.tecoli.com"
 translations:
   en:
-    summary: "ℹ️ Donations being accepted for 2026 Kumamoto earthquake disaster relief"
+    summary: "ℹ️ Accepting donations for the 2026 Kumamoto earthquake disaster relief"
     description: |-
       Automated translation (refer to source for accuracy)
       
-      🔄 Content updated (published: July 30, 2026)
+      🔄 Content update (Published: July 30, 2026 / Previous: August 6, 2026)
+      Main change: A donation box has been newly added at Minami-Komane Welfare Center.
       
-      Hanno City is accepting donations for disaster relief following the 2026 Kumamoto earthquake.
+      We are accepting donations for the 2026 Kumamoto earthquake disaster relief. A donation box is set up at the counter of the General Information Desk on the 1st floor of Hanno City Hall main building. Collection period: Friday, July 31, 2026 through Friday, October 23, 2026, weekdays 9:00 AM–4:30 PM. If you need a receipt, please contact the Community Welfare Division (Window 11) on the 1st floor of City Hall.
       
-      Donation boxes are set up at the Information Counter on the first floor of Hanno City Hall (Main Building). Donations are accepted from Friday, July 31, 2026 (Reiwa 8) through Friday, October 23, 2026, during weekday business hours (9:00 a.m.–4:30 p.m.). If you need a receipt, visit the Community Welfare Division (Window 11) on the first floor of City Hall.
+      A donation box is also set up at Minami-Komane Welfare Center, which follows the center's regular opening days and hours.
       
-      A donation box is also available at Minami-Kōrai Welfare Center during regular business hours.
-      
-      If you prefer to donate directly to the Japanese Red Cross Society, the acceptance period is from Friday, July 31, 2026 through Friday, October 30, 2026.
-      
-      • Japan Post Bank / Postal Service: Account symbol and number 00190-3-605956 (Japanese Red Cross 2026 Kumamoto Earthquake Relief Fund). Transfers at postal windows are fee-free.
-      
-      • Bank transfers:
-        – Sumitomo Mitsui Banking Corporation, Suzuran Branch, Ordinary Account 2787553
-        – MUFG Bank, Yamabiko Branch, Ordinary Account 2105551
-        – Mizuho Bank, Knugi Branch, Ordinary Account 0620820
-        Account holder name: Japanese Red Cross Society
-      
-      All donations go directly to those affected by the disaster.
+      If you prefer to transfer directly to the Japanese Red Cross Society, the collection period is Friday, July 31, 2026 through Friday, October 30, 2026. For Japan Post Bank / post offices: account symbol and number 00190-3-605956 (Japanese Red Cross 2026 Kumamoto Earthquake Relief). Transfers at post office counters are free of charge. For bank transfers:
+      • Sumitomo Mitsui Bank Suzuran Branch, Regular Savings 2787553
+      • Mitsubishi UFJ Bank Yamabiko Branch, Regular Savings 2105551
+      • Mizuho Bank Kunugi Branch, Regular Savings 0620820
+      Account name: Japanese Red Cross Society. 100% of donations go to disaster victims.
       
       Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/14121.html
-    translation_hash: "sha256-1d9044ed003a54ed"
+    translation_hash: "sha256-5c5f44d183c9ecfa"
     model: "claude-haiku-4-5"
-    translated_at: "2026-08-06T23:56:29.491396Z"
+    translated_at: "2026-08-08T03:48:12.069878Z"
     format_version: 3

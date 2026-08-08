@@ -4,7 +4,8 @@ url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika
 dtstart: "2026-08-08"
 dtend: "2026-08-08"
 description: |-
-  🔄 内容更新 (公開日: 2026-08-07)
+  🔄 内容更新 (公開日: 2026-08-07 / 前回掲載: 2026-05-01)
+  主な変更: 入札申込期間が令和8年5月22日～6月5日から8月21日～9月3日に延期され、入札日時が6月19日から9月11日に変更されました。また、物件をA・B・Cの3グループに分割し、各グループごとの個別入札または一括入札を選択できる方式に変更されました。
   
   AI による要約 (正確な情報は元記事をご確認ください)
   
@@ -39,35 +40,35 @@ source:
   content_hash: "sha256-497925995081bafc"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-08-07"
+  supersedes: "oshirase-7334@hanno.city.tecoli.com"
 translations:
   en:
-    summary: "ℹ️ City-owned land sale (general competitive bidding)"
+    summary: "ℹ️ City land sale (general competitive bidding)"
     description: |-
       Automated translation (refer to source for accuracy)
       
-      🔄 Content updated (published: August 7, 2026)
+      🔄 Content updated (Published: August 7, 2026 / Previously posted: May 1, 2026)
+      Main changes: Bidding application period postponed from May 22 – June 5, 2026 to August 21 – September 3, 2026. Bidding date moved from June 19 to September 11. Properties divided into 3 groups (A, B, C) allowing separate bidding for each group or combined bidding for all three.
       
-      AI summary (please check the original article for accurate information)
+      General competitive bidding for city-owned land will be held.
       
-      Hanno City will hold a general competitive bidding for the sale of city-owned land.
+      【Properties for Sale】
+      Property A (Yamate-machi, 3 plots of farmland, total 242.24 m²) Minimum sale price ¥19.7 million, Bid security deposit ¥2.955 million
+      Property B (Yamate-machi, 2 residential plots, total 625.78 m²) Minimum sale price ¥46.9 million, Bid security deposit ¥7.035 million
+      Property C (Yamate-machi, 1 residential plot, 171.97 m²) Minimum sale price ¥18.4 million, Bid security deposit ¥2.76 million
+      Combined sale (A + B + C, total 1,039.99 m²) Minimum sale price ¥68 million, Bid security deposit ¥10.2 million
       
-      【Properties for sale】
-      Property A (Yamate-cho, farmland 3 parcels, total 242.24 m²) — Minimum sale price ¥19.7 million, bid deposit ¥2.955 million
-      Property B (Yamate-cho, residential land 2 parcels, total 625.78 m²) — Minimum sale price ¥46.9 million, bid deposit ¥7.035 million
-      Property C (Yamate-cho, residential land 1 parcel, 171.97 m²) — Minimum sale price ¥18.4 million, bid deposit ¥2.76 million
-      Bundle sale (A, B, C combined 1,039.99 m²) — Minimum sale price ¥68 million, bid deposit ¥10.2 million
+      Zoning: First-class residential area. If combined bidding applications are received and no separate bidding applications are received, combined bidding will take priority.
       
-      Zoning: Residential Zone (1st Type). If bundle bids are submitted but no individual bids are received, the bundle bid takes priority.
-      
-      【Bidding schedule】
-      Application period: August 21 – September 3, 2026 (Reiwa 8), 9:00 AM – 4:30 PM
-      Bidding date and time: September 11, 2026, 2:00 PM
-      Bidding venue: Hanno City Hall Main Building, 2nd Floor, Bid Room
+      【Bidding Schedule】
+      Application period: August 21 (Friday) – September 3 (Thursday), 2026, 9:00 a.m. – 4:30 p.m.
+      Bidding date and time: September 11 (Friday), 2026, 2:00 p.m.
+      Bidding venue: Bidding Room, 2nd Floor, Hanno City Hall Main Building
       
       Application documents are listed in the general competitive bidding notice.
       
       Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/7334.html
-    translation_hash: "sha256-4b7888d4d544d1ef"
+    translation_hash: "sha256-a8b138441b7d7979"
     model: "claude-haiku-4-5"
-    translated_at: "2026-08-07T18:49:44.599329Z"
+    translated_at: "2026-08-08T03:48:17.066834Z"
     format_version: 3
