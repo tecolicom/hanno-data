@@ -279,6 +279,10 @@ def diff_with_llm(title: str, prev_summary: str, new_body: str) -> str | None:
             json={
                 "model": LLM_MODEL,
                 "max_tokens": DIFF_LLM_MAX_TOKENS,
+                # 差分判定は創造性が不要で、ブレると「変わっていない値を変更と
+                # 断定する」誤りが混入する (実測: 同一入力で 2 回中 1 回発生)。
+                # 要約と違い temperature を 0 に固定して抑える。
+                "temperature": 0,
                 "system": DIFF_SYSTEM_PROMPT,
                 "messages": [{"role": "user", "content": user}],
             },
