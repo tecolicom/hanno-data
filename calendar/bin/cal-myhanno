@@ -515,12 +515,7 @@ def event_to_yaml(e: dict) -> tuple[str, str]:
 
 def cmd_fetch(args: argparse.Namespace) -> None:
     output_root = os.path.abspath(args.output)
-    items = gws("calendar", "events", "list", params={
-        "calendarId": cal_id(),
-        "singleEvents": False,
-        "maxResults": 500,
-        "showDeleted": False,
-    }).get("items", [])
+    items = list_all_events(cal_id())
 
     # 過去はオプションで除外
     if args.future_only:
@@ -639,6 +634,33 @@ def render_yaml_to_event(doc: dict) -> dict:
         body["recurrence"] = [f"RRULE:{doc['rrule']}"]
 
     return body
+
+
+def list_all_events(calendar_id: str) -> list[dict]:
+    """指定カレンダーの全イベントを nextPageToken を辿って取得する.
+
+    maxResults は Calendar API の上限 2500 (既定 250)。現在の最大カレンダーは
+    248 件なので通常 1 ページで収まるが、増えても取りこぼさないようページングする。
+    従来は各所が maxResults:500 固定で nextPageToken を見ておらず、501 件目以降を
+    静かに切り捨てていた。
+
+    gws --page-all は使わない: 出力が NDJSON になり gws() で扱えず、--page-limit
+    既定 10 に達すると同じく静かに切り捨てるため。
+    """
+    params: dict[str, Any] = {
+        "calendarId": calendar_id,
+        "singleEvents": False,
+        "maxResults": 2500,
+        "showDeleted": False,
+    }
+    items: list[dict] = []
+    while True:
+        res = gws("calendar", "events", "list", params=params)
+        items.extend(res.get("items", []))
+        token = res.get("nextPageToken")
+        if not token:
+            return items
+        params["pageToken"] = token
 
 
 def find_event_by_uid(uid: str, calendar_id: str | None = None) -> dict | None:
@@ -806,10 +828,7 @@ def cmd_diff(args: argparse.Namespace) -> None:
     for cal_key in target_keys:
         cal_id_val = CALENDARS[cal_key]
         yaml_by_uid = yaml_by_cal[cal_key]
-        res = gws("calendar", "events", "list", params={
-            "calendarId": cal_id_val, "singleEvents": False, "maxResults": 500, "showDeleted": False,
-        })
-        cal_events = res.get("items", [])
+        cal_events = list_all_events(cal_id_val)
         cal_by_uid = {e.get("iCalUID"): e for e in cal_events if e.get("iCalUID")}
 
         yaml_uids = set(yaml_by_uid.keys())
@@ -972,13 +991,7 @@ def cmd_snapshot(args: argparse.Namespace) -> None:
     output_root = os.path.abspath(args.output)
 
     for cal_key, cal_id_val in CALENDARS.items():
-        res = gws("calendar", "events", "list", params={
-            "calendarId": cal_id_val,
-            "singleEvents": False,
-            "maxResults": 500,
-            "showDeleted": False,
-        })
-        items = res.get("items", [])
+        items = list_all_events(cal_id_val)
 
         events_dir = os.path.join(output_root, cal_key, "events")
         os.makedirs(events_dir, exist_ok=True)
@@ -1018,13 +1031,7 @@ def cmd_wipe(args: argparse.Namespace) -> None:
     if not args.confirm:
         die("wipe requires --confirm to proceed")
 
-    res = gws("calendar", "events", "list", params={
-        "calendarId": cal_id(),
-        "singleEvents": False,
-        "maxResults": 500,
-        "showDeleted": False,
-    })
-    items = res.get("items", [])
+    items = list_all_events(cal_id())
 
     if not items:
         print("no events to wipe")
