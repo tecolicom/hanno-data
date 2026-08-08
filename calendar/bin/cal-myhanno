@@ -731,17 +731,22 @@ def cmd_apply(args: argparse.Namespace) -> dict:
         return {"action": "skipped-no-translation", "uid": uid, "summary": "", "cal_key": ""}
     cal_key, target_cal_id = target_calendar_for_lang(doc, lang)
     new_body = render_yaml_to_event(localized)
-    existing = find_event_by_uid(uid, target_cal_id)
+    # 索引 (apply-all が渡す) があれば読み取りはそこから。無ければ従来どおり 1 件引く。
+    index = getattr(args, "index", None)
+    if index is not None:
+        existing = index.get(target_cal_id, uid)
+    else:
+        existing = find_event_by_uid(uid, target_cal_id)
 
-    if existing:
-        merged = merge_for_update(existing, new_body)
-        if events_in_sync(existing, new_body):
-            if args.dry_run and not silent:
-                print(json.dumps({"action": "in-sync (skip)", "uid": uid}, ensure_ascii=False))
-            return {"action": "in-sync", "uid": uid,
-                    "summary": new_body.get("summary", ""), "cal_key": cal_key}
+    if existing and events_in_sync(existing, new_body):
+        if args.dry_run and not silent:
+            print(json.dumps({"action": "in-sync (skip)", "uid": uid}, ensure_ascii=False))
+        return {"action": "in-sync", "uid": uid,
+                "summary": new_body.get("summary", ""), "cal_key": cal_key}
 
-        if args.dry_run:
+    if args.dry_run:
+        # dry-run は書かないので再確認しない (計測もぶれない)
+        if existing:
             if not silent:
                 print(json.dumps({
                     "action": "update",
@@ -753,43 +758,51 @@ def cmd_apply(args: argparse.Namespace) -> dict:
                 }, ensure_ascii=False, indent=2))
             return {"action": "updated", "uid": uid,
                     "summary": new_body.get("summary", ""), "cal_key": cal_key}
+        if not silent:
+            print(json.dumps({
+                "action": "import",
+                "uid": uid,
+                "calendar": cal_key,
+                "summary": new_body.get("summary"),
+                "start": new_body.get("start"),
+                "end": new_body.get("end"),
+            }, ensure_ascii=False, indent=2))
+        return {"action": "imported", "uid": uid,
+                "summary": new_body.get("summary", ""), "cal_key": cal_key}
 
+    # ここから書き込み経路。索引は実行開始時のスナップショットなので、apply 中に
+    # 人が Calendar を手編集していると見落とす。書くイベントだけ 1 件取り直して
+    # 最新状態で判定し直す (書き込みは通常 1 日数件なのでコストはほぼゼロ)。
+    if index is not None:
+        existing = find_event_by_uid(uid, target_cal_id)
+        if existing and events_in_sync(existing, new_body):
+            return {"action": "in-sync", "uid": uid,
+                    "summary": new_body.get("summary", ""), "cal_key": cal_key}
+
+    if existing:
+        # update: 既存 body を新 body で上書き (YAML が真)
         updated = gws(
             "calendar", "events", "update",
             params={"calendarId": target_cal_id, "eventId": existing["id"]},
-            body=merged,
+            body=merge_for_update(existing, new_body),
         )
         if not silent:
             print(f"UPDATED  {uid}  ({updated.get('summary','')[:50]})  [{cal_key}]")
         return {"action": "updated", "uid": uid,
                 "summary": updated.get("summary", ""), "cal_key": cal_key}
-    else:
-        # import: 新規作成 with iCalUID
-        new_body["iCalUID"] = uid
-        new_body.setdefault("status", "confirmed")
 
-        if args.dry_run:
-            if not silent:
-                print(json.dumps({
-                    "action": "import",
-                    "uid": uid,
-                    "calendar": cal_key,
-                    "summary": new_body.get("summary"),
-                    "start": new_body.get("start"),
-                    "end": new_body.get("end"),
-                }, ensure_ascii=False, indent=2))
-            return {"action": "imported", "uid": uid,
-                    "summary": new_body.get("summary", ""), "cal_key": cal_key}
-
-        imported = gws(
-            "calendar", "events", "import",
-            params={"calendarId": target_cal_id},
-            body=new_body,
-        )
-        if not silent:
-            print(f"IMPORTED {uid}  ({imported.get('summary','')[:50]})  [{cal_key}]")
-        return {"action": "imported", "uid": uid,
-                "summary": imported.get("summary", ""), "cal_key": cal_key}
+    # import: 新規作成 with iCalUID
+    new_body["iCalUID"] = uid
+    new_body.setdefault("status", "confirmed")
+    imported = gws(
+        "calendar", "events", "import",
+        params={"calendarId": target_cal_id},
+        body=new_body,
+    )
+    if not silent:
+        print(f"IMPORTED {uid}  ({imported.get('summary','')[:50]})  [{cal_key}]")
+    return {"action": "imported", "uid": uid,
+            "summary": imported.get("summary", ""), "cal_key": cal_key}
 
 
 # ---------- diff: Calendar vs YAML ----------
@@ -945,6 +958,8 @@ def cmd_apply_all(args: argparse.Namespace) -> None:
     print(f"applying {len(files)} YAMLs... (only-managed={only_managed})")
 
     DETAIL_THRESHOLD = 5  # 1 種 action がこの件数を超えたら集計のみ表示
+    # 読み取りをカレンダー単位の一括取得にまとめる (1 件ごとの events.list を廃止)
+    index = EventIndex()
     results: list[dict] = []
     err = 0
     skipped_no_source = 0
@@ -957,7 +972,7 @@ def cmd_apply_all(args: argparse.Namespace) -> None:
         try:
             ns = argparse.Namespace(yaml_file=f, dry_run=args.dry_run,
                                     lang=getattr(args, "lang", "default"),
-                                    silent=True)
+                                    silent=True, index=index)
             r = cmd_apply(ns)
             results.append(r)
         except SystemExit as e:
