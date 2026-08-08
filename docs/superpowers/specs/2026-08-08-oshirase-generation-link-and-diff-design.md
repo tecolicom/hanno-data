@@ -81,18 +81,24 @@ source:
 
 ### 3. 旧要約の取り出し
 
-`_lib` に 2 つ追加する。
+`_lib` に 2 つ追加し、1 つを移設する。
 
-- `read_yaml_block(path, key) -> str | None`
+- **新規** `read_yaml_block(path, key) -> str | None`
   block scalar (`key: |-` 形式) の中身をインデント除去して返す。既存の
   `read_yaml_scalar()` は 1 行スカラ専用で `description` を読めないため。
-- `strip_description_wrapper(text) -> tuple[str, str | None]`
-  `description` から以下を剥がし、`(要約本体, 元記事URL)` を返す:
-  - 冒頭の status 行 (`🆕` / `🔄` / `📝` で始まる行とその直後の空行)
-  - `AI_DISCLAIMER_JP` (`AI による要約 (正確な情報は元記事をご確認ください)`) の行
-  - 末尾の `飯能市公式サイト 新着情報: <URL>` 行
+- **新規** `strip_status_header(text) -> str`
+  `description` 冒頭の status ブロック (`🆕` / `🔄` / `📝` で始まる行から、
+  最初の空行まで) を除去する。
+- **移設** `split_description(text) -> tuple[str, str | None]`
+  `cal-translate-en:134` から `_lib` へ移す。`AI_DISCLAIMER_JP` 行と末尾の
+  `ラベル: <URL>` 行を剥がし `(本文, source_url)` を返す既存関数。
+  `cal-oshirase-fetch` と `cal-translate-en` の双方から使う。
 
-`cal-translate-en` の `_strip_wrapper()` 相当処理をこの共通関数に寄せ、重複実装を消す。
+旧要約の取り出し手順は `read_yaml_block` → `strip_status_header` → `split_description`。
+
+**status 行の除去を `split_description` に含めない**のは重要。`cal-translate-en` は
+status 行を英訳して EN イベントにも出しており (`🔄 Content updated (published: …)`)、
+共通化のついでにこれを消すと EN 側の情報が落ちるため。
 
 ### 4. 差分要約の生成
 
@@ -148,12 +154,15 @@ AI による要約 (正確な情報は元記事をご確認ください)
 ### 6. 英訳 (既存不具合の修正を含む)
 
 `cal-translate-en` は `description` 全体を訳すので、差分行は自動的に英語になる。
-`translation_hash` は (元 summary, 元 description, format_version, lang) ベースなので、
-差分行が付いた YAML は再翻訳対象になる。
+`translation_hash` は `compute_translation_hash()` が
+**(summary, description, lang) のみ**から計算する (`format_version` は意図的に除外
+— コメントに「wrapper/prompt の変更で全件再翻訳が走るのを防ぐため」とある)。
+したがって差分行が付いて `description` が変わった YAML は再翻訳対象になる。
 
-**既存不具合**: `AI による要約` 行を剥がす正規表現が `^` 固定 (`cal-translate-en:143`) のため、
-status 行がある YAML では剥がれず、英訳側で disclaimer が二重化している。
-現に `08-08_oshirase-7334-497925.yaml` の `translations.en.description` は:
+**既存不具合**: `AI による要約` 行を剥がす正規表現が `^` 固定 (`cal-translate-en:143`) で
+`re.M` を付けていないため、status 行がある YAML では剥がれず、英訳側で disclaimer が
+二重化している。現に `08-08_oshirase-7334-497925.yaml` の
+`translations.en.description` は:
 
 ```
 Automated translation (refer to source for accuracy)
@@ -163,14 +172,13 @@ Automated translation (refer to source for accuracy)
 AI summary (please check the original article for accurate information)   ← 二重
 ```
 
-差分行を足すとこれが常態化するため、`strip_description_wrapper()` への統合と合わせて
-「先頭数行の中から該当行を除去」に直す。
+修正は `re.sub(..., flags=re.M)` を付けるだけ (disclaimer 文字列は十分に固有なので
+行頭マッチで誤爆しない)。`split_description` の `_lib` 移設と同時に行う。
 
-**`TRANSLATION_FORMAT_VERSION` は bump しない。** bump すると全 YAML (150 件超) が
-再翻訳対象になりコストが大きい割に、直るのは disclaimer の重複という軽微な表示だけ。
-修正は以後 `description` が変わって再翻訳される YAML から順に効く。
-遡及対象の 2 件は `description` が変わるので `translation_hash` も変わり、その場で直る。
-既存の翻訳済み YAML に残る重複 disclaimer はそのまま放置する。
+**`TRANSLATION_FORMAT_VERSION` は bump しない。** そもそも `translation_hash` に
+含まれないので bump しても再翻訳は起きない。修正は以後 `description` が変わって
+再翻訳される YAML から順に効く。遡及対象の 2 件は `description` が変わるので
+その場で直る。既存の翻訳済み YAML に残る重複 disclaimer は放置する。
 
 ### 7. 遡及適用
 
@@ -198,6 +206,26 @@ AI summary (please check the original article for accurate information)   ← �
 drift として検出され Calendar に反映される。追加の変更は不要。
 
 ## テスト
+
+### 前提: oshirase golden が main 上で壊れている
+
+実装に先立って直す必要がある既存不具合。コミット `9b9567e` で記事取得を
+`fetch_with_cache()` に切り替えたとき、`run-golden` の `_setup_oshirase` が `fetch` しか
+モックしていないため、**記事本文の取得が実ネットワークに出ている**。対象記事は既に
+削除されて 404 になり、golden テストは現在 FAIL する:
+
+```
+  ERROR fetching https://www.city.hanno.lg.jp/emergency/13691.html: HTTP Error 404: Not Found
+FAIL cal-oshirase-fetch: key set differs
+  only in generated: []
+```
+
+`_setup_oshirase` に `fetch_with_cache` / `load_http_cache` / `save_http_cache` の
+モックを足して hermetic に戻す。`Last-Modified` は固定値
+`"Fri, 12 Jun 2026 09:00:00 GMT"` (JST 2026-06-12 → dtstart = +1 日 = 2026-06-13) を
+返させると、golden 捕捉時の実サーバ値と一致するので既存 golden はそのまま維持される。
+
+### 本設計のテスト
 
 - **既存 golden はバイト一致のまま維持**される。`calendar/tests/` は `_llm_available()` を
   False 固定にしているので差分行は生成されない。
