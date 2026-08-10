@@ -288,6 +288,28 @@ HTML を取得しない。
 URL リスト: [`sources/hanno-tourism/urls.txt`](./sources/hanno-tourism/urls.txt) は
 **シード (手動ピン留め)**。通常は REST API の結果だけで足りる。
 
+### 既知のギャップ: `news` 投稿タイプは未対応 (2026-08-10)
+
+このクローラが見ているのは投稿タイプ **`tour`** (`/hanno-eco/tour/<slug>/`) だけ。
+hanno-tourism.jp には別に **`news`** 投稿タイプ (`/news/<slug>/`、実測 137 件) があり、
+**祭り・花火・盆踊りなどの単発イベント告知はこちらに載る**。現状これは巡回対象外で、
+気づいた人が手で YAML を書いている (例: `events/2026/07-18_natsumatsuri-20260718.yaml` は
+UID にクローラ prefix が無く、`url` は `hanno-tourism.jp/news/…` を指す)。
+
+**実害あり**: 2026-08-08 の「はんのう昭和盆踊り」を取りこぼした。告知は
+`news` に 2026-08-07 15:18 公開 (開催前日) されていた。
+
+`news` も同じ REST API で引ける (`/wp-json/wp/v2/news`、`modified_gmt` あり) ので
+更新検知の仕組みは流用できるが、`tour` の焼き直しでは済まない:
+
+- `tour-month` に相当する掲載制御が無く、「現在有効な告知」を選ぶ基準を別に決める必要がある
+- **日程が本文の自由記述**。`tour` は `<dl><dt>開催日・時間</dt>` の定型フィールドだったが、
+  `news` は「8月8日(土)」がタイトルや本文に散在する。決定論パーサが効くとは限らず、
+  LLM 要約 (`cal-oshirase-fetch` 方式) か「日程を取らず掲載日ベースで載せる」割り切りが要る
+- 中止告知 (「灯篭流し・花火大会中止のお知らせ」等) や過去記事も混在する
+
+着手するなら、まず `news` 137 件の中身を見て日程がどの程度機械的に取れるか調べること。
+
 LLM 版 (ad-hoc 用、ページ構造変化時の代替) は別リポにある: `city-tecoli/tools/hanno-tourism-extractor/`。
 
 ## bin/cal-shicho-blog-fetch
