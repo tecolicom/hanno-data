@@ -33,3 +33,30 @@ source:
   fetched_at: "2026-08-10T06:33:32.907543Z"
   modified_gmt: "2026-04-10T01:03:29"
   content_hash: "sha256-9c25465c50ea1db6"
+translations:
+  en:
+    summary: "📢 【Notice to Members】Publication of Newsletter Suspended"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Oku-Musashi Hanno Tourism Association
+      
+      🆕 New Post (Published: April 10, 2026 / Reiwa 8)
+      
+      Notice to Members
+      
+      The Oku-Musashi Hanno Tourism Association has been publishing the member newsletter "Hanno Ii-Shiume" four times a year (January, April, July, October) since October 2023 (Reiwa 5) to keep member businesses informed of the association's activities.
+      
+      The association is currently reviewing its overall operations. For public relations, we are focusing on external promotional activities and will shift communication to member businesses back to the approach we used before publishing "Hanno Ii-Shiume."
+      
+      Accordingly, we are temporarily suspending publication of "Hanno Ii-Shiume." We apologize for this interruption. We will continue to share updates on our programs and event announcements through the website section "Hanno. Ii-Shiume." (Hanno. Just Right.), so please visit us there.
+      
+      We regret the loss of regular printed information and appreciate your understanding given the circumstances.
+      
+      Oku-Musashi Hanno Tourism Association
+      
+      ▽ Member notification document (PDF)…
+    translation_hash: "sha256-b8ab6f302c110ba5"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-10T07:25:21.667925Z"
+    format_version: 3

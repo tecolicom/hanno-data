@@ -23,3 +23,20 @@ source:
   fetched_at: "2026-08-10T06:33:48.509145Z"
   modified_gmt: "2026-03-10T08:10:03"
   content_hash: "sha256-e55a148a39e52cae"
+translations:
+  en:
+    summary: "📢 Hanno Tourism Information Center & Omiyage Shop Yumema Closing"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Tourism Information Center & Omiyage Shop Yumema will close from April 1, 2026 (Reiwa 8).
+      
+      Product sales end March 13, 2026 (Friday). Tourism information services and the adjacent public restroom will remain open until March 31, 2026 (Tuesday).
+      
+      Souvenir sales will continue at Hanno Station Tourism Information Center Platto Hanno.
+      
+      The facility will be closed April 1–10, 2026 for renovation. Starting in April, hours will change to 9:00 a.m.–5:00 p.m. daily (weekdays and weekends/holidays).
+    translation_hash: "sha256-4d2aef235be90815"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-10T07:24:49.361049Z"
+    format_version: 3

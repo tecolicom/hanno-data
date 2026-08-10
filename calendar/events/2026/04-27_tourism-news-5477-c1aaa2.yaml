@@ -23,3 +23,16 @@ source:
   fetched_at: "2026-08-10T06:33:29.521392Z"
   modified_gmt: "2026-04-28T07:35:55"
   content_hash: "sha256-c1aaa229f92e5a2a"
+translations:
+  en:
+    summary: "📢 Oku-Musashi Hanno Tourism Association Golden Week closure notice"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Oku-Musashi Hanno Tourism Association (inside Hanno Chamber of Commerce and Industry) will be open April 29 (Wed, holiday) through May 5 (Tue, holiday), Reiwa 8. Since it will also be open on May 3 (Sun, holiday), it will be closed on May 6 (Wed) as a compensatory holiday. During this period, services such as manhole card distribution and Eagle Bus pass purchases will not be available.
+      
+      Hanno Station Tourist Information Center "Pratt Hanno" (TEL 042-978-9111) will operate as usual, 9:00–17:00.
+    translation_hash: "sha256-8c118214e0a5f211"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-10T07:25:41.504454Z"
+    format_version: 3

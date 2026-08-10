@@ -23,3 +23,40 @@ source:
   fetched_at: "2026-08-10T06:32:47.322624Z"
   modified_gmt: "2026-07-27T07:34:10"
   content_hash: "sha256-16c371092895d893"
+translations:
+  en:
+    summary: "📢 August 12 (Wed) Hanno Stargazing Event – Perseid Meteor Shower Observation!"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Perseid meteor shower and summer stargazing event. Hosted at Nora Naguri, a glamping facility.
+      
+      A Star Sommelier® will guide you through observing shooting stars, the Summer Triangle, the Milky Way, and more using binoculars and telescopes.
+      
+      【Date & Time】
+      August 12, 2026 (Reiwa 8), 7:00 p.m. – 8:30 p.m.
+      Registration opens: 6:30 p.m.; gathering: 6:50 p.m.
+      Rain date: August 13, 2026 (Thursday)
+      
+      【Venue】
+      Nora Naguri, 607-1 Shimo-Naguri, Hanno, Saitama Prefecture
+      
+      【Fees】
+      Adults: ¥1,000
+      Elementary school and younger: ¥500
+      Preschoolers: Free
+      
+      【Capacity】
+      First-come, first-served; 20 people maximum. Pre-registration required.
+      
+      【What to Bring】
+      Beverages, picnic blanket, or folding chair
+      
+      【Cancellation Notice】
+      Decisions about postponement or cancellation due to weather will be announced by email by 3:00 p.m. on the day of the event.
+      
+      For more information, visit the Oku-Musashi Hanno Tourism Association website.
+    translation_hash: "sha256-18cb5b76e4b0b0ee"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-10T07:26:56.546046Z"
+    format_version: 3

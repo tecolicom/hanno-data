@@ -21,3 +21,16 @@ source:
   fetched_at: "2026-08-10T06:33:01.152888Z"
   modified_gmt: "2026-06-27T01:22:33"
   content_hash: "sha256-7cdae5c7fa2c7cfb"
+translations:
+  en:
+    summary: "ℹ️ Hanno Riverbed closed June 27–28 due to flooding"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Riverbed will be closed on Saturday, June 27 and Sunday, June 28 (both paid and free areas) due to flooding from typhoon conditions. The riverbed may remain closed beyond June 29 (Monday) depending on conditions. For your safety, please do not approach the riverbed.
+      
+      Okumusashi Hanno Tourism Association: https://hanno-tourism.jp/news/%e9%a3%af%e8%83%bd%e6%b2%b3%e5%8e%9f%e3%80%80%e4%bc%91%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b
+    translation_hash: "sha256-8634f72cdc70486a"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-10T07:26:30.219257Z"
+    format_version: 3

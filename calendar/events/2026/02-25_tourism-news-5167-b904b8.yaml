@@ -23,3 +23,18 @@ source:
   fetched_at: "2026-08-10T06:33:55.644326Z"
   modified_gmt: "2026-04-10T01:34:30"
   content_hash: "sha256-b904b8de9ae014ed"
+translations:
+  en:
+    summary: "📢 Hanno Cherry Blossom Week (Hanno Sakura Week) begins 🌸"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Oku-Musashi Hanno Tourism Association: https://hanno-tourism.jp/news/%e9%a3%af%e8%83%bd%e3%81%95%e3%81%8f%e3%82%89%e3%82%a6%e3%82%a3%e3%83%bc%e3%82%af
+      
+      🆕 New (Published: February 25, 2026)
+      
+      We are holding "Hanno Cherry Blossom Week" (renamed from Hanno Spring Festival) at Chuo Park from March 28 to April 5, 2026 (Reiwa 8), for 9 days. During this period, food vendors and mobile kitchen trucks will offer food and drinks. Please note that lantern lighting (illumination) will not take place this year. Parking spaces are limited, so we recommend using public transportation. There are no trash bins at the venue, so please take your garbage with you. The entire venue is non-smoking.
+    translation_hash: "sha256-3a6b0dbcdc4febbd"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-10T07:24:34.948957Z"
+    format_version: 3

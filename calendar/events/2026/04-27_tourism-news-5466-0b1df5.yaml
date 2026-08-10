@@ -23,3 +23,20 @@ source:
   fetched_at: "2026-08-10T06:33:27.478515Z"
   modified_gmt: "2026-05-01T01:22:38"
   content_hash: "sha256-0b1df57dd3088b52"
+translations:
+  en:
+    summary: "📢 May too! Kitchen cars and markets starting at Hanno City Hall!"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      From April through June, Hanno City Hall grounds will host a trial run of food trucks (kitchen cars) and a market during lunch hours. Food trucks will operate almost daily, and the market will set up once a week on the main building's wood deck.
+      
+      May vendors include: Nakayama Tea Shop, Assombrosso! Saitama 1st, Yakitori Dining Taka, Blue Tarp, Nazar Kebab, Hanno Samosa and Curry Jutti, Smoke Lodge Hanno no Mori, and others. Market vendors scheduled include: Community House Saiya, Lakeside Terrace Naguri Lake, Ishidaya Cake Shop, and Takedera.
+      
+      Reservations are requested by contacting each vendor by the day before. Purchases are also possible without a reservation. "Hashira benches" (wooden seating) are available on the main building's first-floor wood deck.
+      
+      Please note that vendors and menu offerings may change.
+    translation_hash: "sha256-baa90ad8de3acfb0"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-10T07:25:38.632203Z"
+    format_version: 3

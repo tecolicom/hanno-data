@@ -53,3 +53,34 @@ source:
   fetched_at: "2026-08-10T06:33:35.833140Z"
   modified_gmt: "2026-06-24T02:56:35"
   content_hash: "sha256-987bed5db6ab2f89"
+translations:
+  en:
+    summary: "📢 Oku-Musashi Hanno Tourism Association: 2026 (Reiwa 8) Closure Days Announced"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Oku-Musashi Hanno Tourism Association closure days for 2026 (Reiwa 8):
+      
+      Starting April 12 (Sunday), the association will be closed every Sunday. If Sunday falls on a national holiday, the closure will shift to the following Monday.
+      
+      There are also other temporary closures, so please check ahead if you plan to visit.
+      
+      【Facility Maintenance Closures】
+      June 6 (Saturday), September 5 (Saturday), December 5 (Saturday), March 20, 2027 (Saturday)
+      
+      【Hanno Summer Festival Closures】
+      July 18 (Saturday), July 19 (Sunday)
+      
+      【Hanno Festival Closures】
+      November 7 (Saturday), November 8 (Sunday)
+      
+      【Year-End and New Year Closures】
+      December 28 (Monday) – January 4, 2027 (Monday) — 8 days total
+      
+      We apologize for any inconvenience. Thank you for your understanding and cooperation.
+      
+      A printable operating calendar for 2026 is available at the link above (April, May, June, July, August, September, October, November, December).
+    translation_hash: "sha256-4ef014bed33584a3"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-10T07:25:25.491824Z"
+    format_version: 3

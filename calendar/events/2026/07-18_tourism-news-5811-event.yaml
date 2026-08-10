@@ -21,3 +21,16 @@ source:
   fetched_at: "2026-08-10T06:32:56.786482Z"
   modified_gmt: "2026-07-14T07:11:44"
   content_hash: "sha256-fef45d18696a3cef"
+translations:
+  en:
+    summary: "ℹ️ July 18–19 (Sat–Sun) closure notice"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Oku-Musashi Hanno Tourism Association: https://hanno-tourism.jp/news/7%e6%9c%8818%e6%97%a5%e5%9c%9f%e3%83%bb19%e6%97%a5%e6%97%a5%e4%bc%91%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b
+      
+      Due to the Hanno Summer Festival, the Oku-Musashi Hanno Tourism Association will be closed for information services, including phone inquiries, on July 18–19, 2026 (Reiwa 8). On these dates, we will not be able to handle Eagle Bus regular ticket purchases or distribute manhole cards. Pratto Hanno (Hanno Station Tourist Information Office) will operate as usual.
+    translation_hash: "sha256-47f672502db24f40"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-10T07:26:46.223725Z"
+    format_version: 3

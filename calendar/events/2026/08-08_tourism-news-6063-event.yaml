@@ -26,3 +26,21 @@ source:
   fetched_at: "2026-08-10T06:32:44.758511Z"
   modified_gmt: "2026-08-08T05:32:32"
   content_hash: "sha256-a0ece5f94e63575f"
+translations:
+  en:
+    summary: "🎪 Aug 8 (Sat): Hanno Showa Bon Odori dance festival ♪"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Showa Bon Odori festival will be held. This is the third year for this popular, well-attended event.
+      
+      Date & Time: Saturday, August 8, 2026, 3:30 PM – 8:30 PM
+      Location: Hanno Shin'yo Bank Hanno Central Branch parking lot
+      
+      In case of severe weather, the event will be postponed to Sunday, August 9.
+      
+      More information: Oku-Musashi Hanno Tourism Association (hanno-tourism.jp)
+    translation_hash: "sha256-d5f5ce1d80e9944f"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-10T07:27:04.889087Z"
+    format_version: 3

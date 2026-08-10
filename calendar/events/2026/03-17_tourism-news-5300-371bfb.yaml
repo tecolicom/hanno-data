@@ -23,3 +23,18 @@ source:
   fetched_at: "2026-08-10T06:33:43.315607Z"
   modified_gmt: "2026-03-19T07:17:22"
   content_hash: "sha256-371bfb9c92a9d354"
+translations:
+  en:
+    summary: "📢 【Updated 3/17】Miyazawa Lake Walkway Partial Closure Lifted"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Oku-Musashi Hanno Tourism Association: https://hanno-tourism.jp/news/%e3%80%903-17%e6%9b%b4%e6%96%b0%e3%80%91%e5%ae%ae%e6%b2%a2%e6%b9%96%e9%81%8a%e6%ad%a9%e9%81%93%e4%b8%80%e9%83%a8%e9%80%9a%e8%a1%8c%e6%ad%a2%e3%82%81%e8%a7%a3%e9%99%a4%e3%81%ae%e3%81%8a%e7%9f%a5
+      
+      🆕 Newly posted (Published: March 17, 2026)
+      
+      The partial closure of the Miyazawa Lake walkway has been lifted. The lakeside walkway in the Miyazawa area (Miyazawa, Hanno City) had been closed since November 25, 2025 (Reiwa 7) due to danger from fallen trees. After tree-cutting work was completed and safety confirmed, the closure has been removed. For details on which sections of the walkway have been reopened, please check the guidance map on Hanno City Hall's website.
+    translation_hash: "sha256-c98c9e527d28e411"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-10T07:24:55.621635Z"
+    format_version: 3

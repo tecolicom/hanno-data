@@ -21,3 +21,18 @@ source:
   fetched_at: "2026-08-10T06:33:46.201651Z"
   modified_gmt: "2026-03-17T07:25:38"
   content_hash: "sha256-53f43758954599c0"
+translations:
+  en:
+    summary: "ℹ️ Guidance services closed March 21 (Sat) for facility maintenance"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Okumussashi Hanno Tourism Association: https://hanno-tourism.jp/news/3%e6%9c%8821%e6%97%a5%e5%9c%9f%e6%a1%88%e5%86%85%e6%a5%ad%e5%8b%99%e3%81%8a%e4%bc%91%e3%81%bf%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b
+      
+      The Okumussashi Hanno Tourism Association's guidance services will be closed on Saturday, March 21, 2026 (Reiwa 8) for regular facility maintenance at Hanno Chamber of Commerce and Industry. All information services, including phone support, will be unavailable. The following services will not be available: Eagle Bus pass purchases, manhole card distribution, and prize redemptions for the mystery-solving campaign and Yellow Week digital stamp rally.
+      
+      However, Platto Hanno (Hanno Station Tourist Information Center) will be open and available on March 21 only. Regular hours resume March 20 (Fri, national holiday) and March 22 (Sun). Platto Hanno and Yumeba will operate as normal throughout.
+    translation_hash: "sha256-d1cb4a695d95a207"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-10T07:24:59.802401Z"
+    format_version: 3

@@ -23,3 +23,14 @@ source:
   fetched_at: "2026-08-10T06:33:13.233571Z"
   modified_gmt: "2026-06-02T08:24:38"
   content_hash: "sha256-36dfdac3cb85134f"
+translations:
+  en:
+    summary: "📢 Hanno Station Tourist Information Center \"Puratto Hanno\" temporarily closed June 3 (Wed) due to approaching typhoon"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Station Tourist Information Center "Puratto Hanno" will be temporarily closed on June 3 (Wed) due to the approach of Typhoon No. 6. Normal operations are scheduled to resume on June 4 (Thu). The Okimusashi Hanno Tourism Association (located inside Hanno Chamber of Commerce and Industry) is scheduled to operate normally on June 3 (Wed).
+    translation_hash: "sha256-ccd9f3a76a38d320"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-10T07:25:57.440451Z"
+    format_version: 3

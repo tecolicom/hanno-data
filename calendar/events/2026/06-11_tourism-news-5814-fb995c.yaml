@@ -23,3 +23,18 @@ source:
   fetched_at: "2026-08-10T06:33:07.062934Z"
   modified_gmt: "2026-06-26T07:52:50"
   content_hash: "sha256-fb995cd46ab35032"
+translations:
+  en:
+    summary: "📢 【CANCELLED】Naguri Firefly Festival"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Oku-Musashi Hanno Tourism Association: https://hanno-tourism.jp/news/%e5%90%8d%e6%a0%97%e3%81%bb%e3%81%9f%e3%82%8b%e7%a5%ad%e3%82%8a
+      
+      🆕 New listing (Posted: June 11, 2026)
+      
+      【CANCELLED】The event has been cancelled due to approaching typhoon conditions. Food stalls (yakisoba, shaved ice, food trucks) and outlet sales of souvenirs had been planned. Fireflies are typically visible around 8 PM, about an hour after sunset. The venue was to be Nora Naguri (ノーラ名栗).
+    translation_hash: "sha256-1403bb8ce8d397bb"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-10T07:26:18.027134Z"
+    format_version: 3

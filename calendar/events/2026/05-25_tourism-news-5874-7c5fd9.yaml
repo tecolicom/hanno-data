@@ -23,3 +23,14 @@ source:
   fetched_at: "2026-08-10T06:33:19.481423Z"
   modified_gmt: "2026-06-30T06:29:50"
   content_hash: "sha256-7c5fd9d51c5b3493"
+translations:
+  en:
+    summary: "📢 June too! / Hanno City Hall food truck and market pilot wraps up"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      【ENDED】The market and food truck pop-ups at Hanno City Hall closed on June 30, 2026 (Reiwa 8). They ran as a lunch-time trial from April through June. Food trucks appeared almost daily; markets set up weekly on the main building's wood deck. Vendors offered a range of items: grilled chicken, curry, samosas, tea, jam, chimaki (bamboo-wrapped rice dumplings), dango (sweet rice balls), roasted corn snacks, and more. Seating with "hashira benches" (wooden benches) was available on the first-floor wood deck of the main building. Advance reservations could be made by contacting individual vendors the day before, though purchases without reservation were also possible.
+    translation_hash: "sha256-8dac84b2d78e0ee2"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-10T07:25:51.662533Z"
+    format_version: 3

@@ -28,3 +28,21 @@ source:
   fetched_at: "2026-08-10T06:32:44.743182Z"
   modified_gmt: "2026-08-08T05:32:32"
   content_hash: "sha256-a0ece5f94e63575f"
+translations:
+  en:
+    summary: "📢 August 8 (Sat): Hanno Showa Bon Odori dancing ♪"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Showa Bon Odori will be held. This is the third year of this popular event.
+      
+      Date and time: August 8, 2026 (Reiwa 8) 3:30 pm – 8:30 pm
+      Location: Hanno Shinkin Bank Hanno Central Branch parking lot
+      
+      If weather is bad, the event will be postponed to August 9 (Sunday).
+      
+      More information: https://hanno-tourism.jp/news/%e3%81%af%e3%82%93%e3%81%ae%e3%81%86%e6%98%ad%e5%92%8c%e7%9b%86%e8%b8%8a%e3%82%8a%e2%99%aa
+    translation_hash: "sha256-1486e871ddf148d2"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-10T07:27:02.870752Z"
+    format_version: 3

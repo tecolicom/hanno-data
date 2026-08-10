@@ -23,3 +23,14 @@ source:
   fetched_at: "2026-08-10T06:33:16.232675Z"
   modified_gmt: "2026-06-16T04:04:59"
   content_hash: "sha256-fbb1e3a9f9aa85e7"
+translations:
+  en:
+    summary: "📢 June too! Kitchen cars and market starting at Hanno City Hall!"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Kitchen cars and a market are running as a pilot program from April through June during lunch hours on the grounds of Hanno City Hall. Kitchen cars operate almost daily, and the market sets up once a week on the main building's wood deck. A June vendor calendar is now available, featuring kitchen cars including Yakitori Dining Taka, Blue Tarp, Hanno Samosa and Curry Jutti, Nakayama Tea House, Assomblosso! Saitama 1st, and Smoke Lodge Hanno no Mori, along with market vendors such as Community House Saiko, Lakeside Terrace Naguri-ko, Ishidaya Confectionery, and Takedera Temple. "Hashira benches" (simple wooden seating) are available on the first-floor wood deck of the main building. Reservations can be made by contacting each vendor by the day before. Purchases are also possible without reservations. Vendors and offerings may change.
+    translation_hash: "sha256-6c3a2492b98cdc39"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-10T07:25:55.534322Z"
+    format_version: 3

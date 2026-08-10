@@ -21,3 +21,18 @@ source:
   fetched_at: "2026-08-10T06:33:31.837246Z"
   modified_gmt: "2026-04-20T07:01:14"
   content_hash: "sha256-e15a635e343e3a11"
+translations:
+  en:
+    summary: "ℹ️ Hanno Riverside opens for the 2026 season."
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Riverside opens for the 2026 season starting Saturday, April 25, 2026 (Reiwa 8).
+      
+      The riverside has two areas: a free water-play zone where you can enjoy swimming and other activities, and a paid barbecue area where fires are allowed. It's about a 15-minute walk from Hanno Station. Barbecue equipment rental is available on-site.
+      
+      Please note: The Stage Plaza (wooden deck) will be under renovation until around the end of June 2026. Large vehicles may pass through nearby roads during this time. On days when staff are on duty, garbage collection service is provided.
+    translation_hash: "sha256-b6d1a4189feabfbf"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-10T07:25:34.936704Z"
+    format_version: 3

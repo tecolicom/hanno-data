@@ -23,3 +23,16 @@ source:
   fetched_at: "2026-08-10T06:32:56.755019Z"
   modified_gmt: "2026-07-14T07:11:44"
   content_hash: "sha256-fef45d18696a3cef"
+translations:
+  en:
+    summary: "📢 Closure Notice: July 18–19 (Saturday–Sunday)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Oku-Musashi Hanno Tourism Association
+      
+      Due to the Hanno Summer Festival, the Oku-Musashi Hanno Tourism Association will be closed for inquiries and guidance (including phone service) on Saturday, July 18 and Sunday, July 19, 2026 (Reiwa 8). During these dates, we cannot process Eagle Bus pass purchases or distribute manhole cards. Platto Hanno (Hanno Station Tourist Information Center) will be open as usual.
+    translation_hash: "sha256-6528490b53c6800b"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-10T07:26:36.741231Z"
+    format_version: 3

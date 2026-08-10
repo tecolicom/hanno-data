@@ -23,3 +23,20 @@ source:
   fetched_at: "2026-08-10T06:33:07.089213Z"
   modified_gmt: "2026-06-05T01:46:16"
   content_hash: "sha256-f531792c2540de10"
+translations:
+  en:
+    summary: "📢 Hanno Eco-Tour Flyer 2026 Summer Edition"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno & Musashi Tourism Association: https://hanno-tourism.jp/news/ecotour2026summer
+      
+      🆕 New (Posted: June 5, 2026)
+      
+      Hanno Eco-Tour Flyer 2026 Summer Edition
+      
+      Click the image to view the PDF file.
+    translation_hash: "sha256-1c2ff47656817d04"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-10T07:26:06.772104Z"
+    format_version: 3

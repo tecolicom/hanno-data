@@ -21,3 +21,20 @@ source:
   fetched_at: "2026-08-10T06:33:53.189223Z"
   modified_gmt: "2026-03-06T07:30:29"
   content_hash: "sha256-a9b9bfd54da4c4e7"
+translations:
+  en:
+    summary: "🎪 Hina Doll Festival Marketplace @ Komachi Park"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Tourism Association (Oku-Musashi): https://hanno-tourism.jp/news/%e3%81%b2%e3%81%aa%e9%a3%be%e3%82%8a%e3%83%9e%e3%83%ab%e3%82%b7%e3%82%a7%e5%b0%8f%e7%94%ba%e5%85%ac%e5%9c%92
+      
+      A marketplace will be held at Hanno Komachi Park to coincide with the Hanno Hina Doll Festival. Food trucks will be on site selling a variety of items including shaved ice, crepes, kebabs, and spare ribs.
+      
+      Dates: Saturday, February 28; Sunday, March 1; Saturday, March 7; Sunday, March 8
+      
+      Parking: There is no parking at the venue. Please use nearby paid parking lots or coin parking facilities. Vendor offerings may change depending on weather conditions.
+    translation_hash: "sha256-b423c6733bf8d704"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-10T07:24:39.867635Z"
+    format_version: 3

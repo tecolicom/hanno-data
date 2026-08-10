@@ -23,3 +23,18 @@ source:
   fetched_at: "2026-08-10T06:33:57.322439Z"
   modified_gmt: "2026-02-22T05:37:00"
   content_hash: "sha256-3e6f290f85031158"
+translations:
+  en:
+    summary: "📢 Eco-tour: Laughing Komainu Statue and Sutra-Copying Experience at Hokkoji Temple"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Oku-Musashi Hanno Tourism Association: https://hanno-tourism.jp/news/%e7%ac%91%e3%81%86%e7%8b%9b%e7%8a%ac%e3%81%a8%e6%b3%95%e5%85%89%e5%af%ba%e5%86%99%e7%b5%8c%e4%bd%93%e9%a8%93%e3%81%ae%e6%97%85%e3%80%80%e3%82%a8%e3%82%b3%e3%83%84%e3%82%a2%e3%83%bc%e3%81%ae%e3%81%94
+      
+      🆕 Newly posted (Published: February 22, 2026)
+      
+      Eco-tour in the Agano district of Hanno City. A day trip featuring a visit to the laughing komainu guardian lion statues at Karyado Shrine, sutra-copying experience at Hokkoji Temple, a tour of the Iwatono Kannon Cave stone carvings, and a lunch box from a local French restaurant included.
+    translation_hash: "sha256-e5484db8d22040bb"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-10T07:24:31.205475Z"
+    format_version: 3

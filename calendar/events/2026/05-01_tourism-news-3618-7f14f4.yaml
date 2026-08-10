@@ -35,3 +35,30 @@ source:
   fetched_at: "2026-08-10T06:33:24.753536Z"
   modified_gmt: "2026-05-22T08:21:52"
   content_hash: "sha256-7f14f447a952c0a2"
+translations:
+  en:
+    summary: "📢 【POSTPONED】Hanno City Eco-Tour Guide Training Course"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Okumusashi Hanno Tourism Association: https://hanno-tourism.jp/news/ecotourguide-seminar
+      
+      🆕 New Listing (Posted: May 1, 2026)
+      
+      【POSTPONED】The Hanno City Eco-Tour Guide Training Course has been postponed. A new schedule will be announced.
+      
+      This course is for people who want to become eco-tour guides active in the community. You will learn eco-tour experiences, guiding techniques, and operational methods through hands-on practice.
+      
+      【Originally Scheduled Dates】
+      May 30 (Sat) 9:00 a.m.–2:10 p.m. Hanno Chamber of Commerce and Industry Conference Room
+      June 7 (Sun) 9:00 a.m.–3:30 p.m. Hanno City Museum Kittus
+      
+      Eligibility: People who live, work, or study in Hanno City, or who belong to an eco-tour implementation organization, and can attend both sessions in principle
+      Capacity: 10 people (first come, first served)
+      Fee: ¥1,000 per person (covers materials, insurance, etc.). Payment due at check-in on the first day
+      Application Deadline: May 23 (Fri)
+      How to Apply: Email hannokanko@gmail.com or phone 042-980-5051 to contact the Hanno Eco-Tourism Promotion Council Secretariat (Okumusashi Hanno Tourism Association)
+    translation_hash: "sha256-b6edda1d541d4f10"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-10T07:25:45.505250Z"
+    format_version: 3

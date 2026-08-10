@@ -23,3 +23,25 @@ source:
   fetched_at: "2026-08-10T06:32:54.866131Z"
   modified_gmt: "2026-07-22T02:28:11"
   content_hash: "sha256-e4e9e6cdc2e132a8"
+translations:
+  en:
+    summary: "📢 Hanno Summer Festival 2026 (Reiwa 8): July 18–19"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Summer Festival 2026 (Reiwa 8) takes place July 18 (Saturday) and 19 (Sunday).
+      
+      【July 18 (Eve Festival / Yoimiya)】
+      Prayer ceremony at Hanno Yasaka Shrine from 11:45 a.m. Festival floats (yatai) begin touring the neighborhoods around 9 a.m. and continue throughout the day until 9 p.m.
+      
+      【July 19 (Main Festival)】
+      At 3 p.m., floats from five neighborhoods gather and line up in front of Hanno Yasaka Shrine. Celebratory music (shōbayashi) is offered and worshippers pay respects. Afterward, floats are paraded through various parts of the city. At 7:40 p.m., floats from ten neighborhoods gather on the main avenue for a final parade.
+      
+      【General Information】
+      Both days feature food stalls and local product vendors. The venue is a short walk from the north exit of Hanno Station. Public transportation is recommended (no dedicated parking). Traffic restrictions will be in effect on both days in the relevant areas and times.
+      
+      For details, visit the Oku-Musashi Hanno Tourism Association website.
+    translation_hash: "sha256-21419b609a3ceb83"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-10T07:26:41.015411Z"
+    format_version: 3

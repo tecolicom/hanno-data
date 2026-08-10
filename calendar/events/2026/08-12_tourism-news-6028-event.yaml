@@ -21,3 +21,36 @@ source:
   fetched_at: "2026-08-10T06:32:47.340102Z"
   modified_gmt: "2026-07-27T07:34:10"
   content_hash: "sha256-16c371092895d893"
+translations:
+  en:
+    summary: "🎪 Aug 12 (Wed) Hanno Naguri Stargazing Event"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Perseids meteor shower and summer starry sky observation event. Held at Nora Naguri, a glamping facility.
+      
+      With guidance from a Star Sommelier®, you'll observe shooting stars, the Summer Triangle, the Milky Way, and more using binoculars and telescopes.
+      
+      Date & Time: August 12, 2026 (Reiwa 8), 7:00 PM–8:30 PM
+      • Reception: 6:30 PM–
+      • Assembly: 6:50 PM
+      • Rain date: August 13 (Thursday)
+      
+      Location: Nora Naguri, 607-1 Shita-Naguri, Hanno, Saitama
+      
+      Fee:
+      • Adults: ¥1,000
+      • Elementary school children and under: ¥500
+      • Preschoolers: Free
+      
+      Capacity: First come, first served; max 20 people. Advance registration required.
+      
+      What to bring: Drinks, leisure sheet or folding chair.
+      
+      Weather: If the event is postponed or cancelled due to poor weather, you will be notified by email by 3:00 PM on the day of the event.
+      
+      For more information, visit Okumushi Hanno Tourism Association (奥むさし飯能観光協会): https://hanno-tourism.jp/
+    translation_hash: "sha256-ab67a3e647f0eac1"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-10T07:27:08.959532Z"
+    format_version: 3

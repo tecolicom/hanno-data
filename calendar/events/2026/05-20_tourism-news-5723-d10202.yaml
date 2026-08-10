@@ -23,3 +23,20 @@ source:
   fetched_at: "2026-08-10T06:33:21.744790Z"
   modified_gmt: "2026-05-20T05:29:54"
   content_hash: "sha256-d102024b39879ab2"
+translations:
+  en:
+    summary: "📢 Notice of closure on Saturday, June 6 and Sunday, June 7"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Okumushi Hanno Tourism Association: https://hanno-tourism.jp/news/6%e6%9c%886%e6%97%a5%e5%9c%9f%e3%83%bb7%e6%97%a5%e6%97%a5%e4%bc%91%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b
+      
+      New listing (Published: May 20, 2026)
+      
+      The Okumushi Hanno Tourism Association will close its information desk (including phone inquiries) on Saturday, June 6 and Sunday, June 7, 2026 (Reiwa 8) due to regular facility maintenance at the Hanno Chamber of Commerce and Industry.
+      
+      On these dates, we will not be able to sell Eagle Bus passes or distribute manhole cards. However, Puratto Hanno (Hanno Station Tourist Information Desk, Tel. 042-978-9111, open 9:00–17:00) will operate as usual.
+    translation_hash: "sha256-a44d3b97c78cb3d6"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-10T07:25:48.497714Z"
+    format_version: 3

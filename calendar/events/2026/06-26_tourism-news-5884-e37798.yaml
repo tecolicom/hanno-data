@@ -23,3 +23,20 @@ source:
   fetched_at: "2026-08-10T06:33:03.051388Z"
   modified_gmt: "2026-06-26T06:37:02"
   content_hash: "sha256-e377989f9aa730e8"
+translations:
+  en:
+    summary: "📢 Hanno Riverbed: Business status for June 27–28"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Oku-Musashi Hanno Tourism Association
+      
+      Due to approaching typhoon conditions, Hanno Riverbed business status is as follows:
+      • June 27 (Saturday): Closed
+      • June 28 (Sunday): Will be decided based on river water levels
+      
+      Business updates will be posted on the official X account "Hanno Riverbed. Just right." (飯能河原。いい塩梅。). Please do not go to the riverbed to check water levels directly—it is dangerous.
+    translation_hash: "sha256-3637c95fab7ca437"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-10T07:26:22.279808Z"
+    format_version: 3

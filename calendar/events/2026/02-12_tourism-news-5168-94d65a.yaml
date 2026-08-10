@@ -23,3 +23,20 @@ source:
   fetched_at: "2026-08-10T06:33:59.822742Z"
   modified_gmt: "2026-02-12T07:55:41"
   content_hash: "sha256-94d65ac88e059a7d"
+translations:
+  en:
+    summary: "📢 Moomin story world expressed in ice sculptures—Feb 15 (Sun) and 23 (Mon, holiday) only!"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Oku Musashi Hanno Tourism Association
+      
+      New listing (Published: February 12, 2026)
+      
+      Ice sculpture displays and live ice carving performances featuring the world of Moomin stories will be held. The ice carving team from Grand Prince Hotel Takanawa has created character ice sculptures about 180 cm tall, expressing the faces and world of Moomin Valley friends in transparent ice. The display location is in front of the Sea Orchestra (「入り江のテラス」Cove Terrace / Tulip Terrace). Display hours are 10:00 AM to 7:00 PM, with special lighting effects after evening. Live ice carving performances will run from 12:30 PM each day for about 45 minutes, and admission is free.
+      
+      (Continued at the link above)
+    translation_hash: "sha256-79a1fd151d88a862"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-10T07:24:25.378283Z"
+    format_version: 3

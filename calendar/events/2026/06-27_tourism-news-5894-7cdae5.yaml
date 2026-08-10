@@ -23,3 +23,16 @@ source:
   fetched_at: "2026-08-10T06:33:01.125870Z"
   modified_gmt: "2026-06-27T01:22:33"
   content_hash: "sha256-7cdae5c7fa2c7cfb"
+translations:
+  en:
+    summary: "📢 Hanno Riverbed closed June 27–28 due to flooding"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Riverbed will be closed on Saturday, June 27 and Sunday, June 28, 2026 (Reiwa 8) due to swollen water from typhoon impacts. Both paid and free areas are affected. Depending on river conditions, closure may extend beyond June 29. For safety, please do not approach the riverbed.
+      
+      Source: Oku-Musashi Hanno Tourism Association
+    translation_hash: "sha256-f202bbc4a8c7ffc5"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-10T07:26:27.342309Z"
+    format_version: 3

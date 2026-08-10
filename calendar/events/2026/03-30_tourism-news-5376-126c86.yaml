@@ -23,3 +23,18 @@ source:
   fetched_at: "2026-08-10T06:33:38.699688Z"
   modified_gmt: "2026-04-15T02:58:25"
   content_hash: "sha256-126c8679ad6d6ea1"
+translations:
+  en:
+    summary: "📢 Kitchen cars and market stalls coming to Hanno City Hall starting in April!"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Starting in April through June, Hanno City Hall will run a pilot program with food trucks and a market during lunch hours. Food trucks will operate almost daily, and the market will set up once a week on the main building's wood deck. Both are open to the public.
+      
+      Participating food trucks include: Nazar Kebab, Assombrosso! Saitama 1st, Nakayama Tea House, Blue Tarp, Smoke Lodge Hanno no Mori, Hanno Samosa, and Curry Jutti. Market vendors include: Community House Rakusai, Lakeside Terrace Naguri Lake, Ishidaya Confectionery, and Takedera.
+      
+      Reservations are requested by contacting each vendor the day before. Walk-in purchases are also welcome. Seating benches called "hashira benches" will be available on the wood deck of the main building's first floor.
+    translation_hash: "sha256-c8af278d816ca6b3"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-10T07:25:09.890948Z"
+    format_version: 3

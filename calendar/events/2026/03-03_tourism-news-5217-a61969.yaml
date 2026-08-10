@@ -29,3 +29,24 @@ source:
   fetched_at: "2026-08-10T06:33:50.884635Z"
   modified_gmt: "2026-03-22T05:39:36"
   content_hash: "sha256-a619693190a8d535"
+translations:
+  en:
+    summary: "📢 【3/22 Update】'Yamanano Susume Next Summit' Masking Tape Distribution Ended"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Oku-Musashi Hanno Tourism Association: https://hanno-tourism.jp/news/%e3%82%b9%e3%82%bf%e3%83%b3%e3%83%97%e3%83%a9%e3%83%aa%e3%83%bc%e3%81%ab%e5%8f%82%e5%8a%a0%e3%81%97%e3%81%a6%e3%80%8e%e3%83%a4%e3%83%9e%e3%83%8e%e3%82%b9%e3%82%b9%e3%83%a1-next-summit%e3%80%8f
+      
+      New Post (Published: March 3, 2026)
+      
+      【ENDED】The masking tape giveaway for the 'Yamanano Susume Next Summit' stamp rally has ended. The stamp rally itself is still ongoing.
+      
+      Stamp Rally Period: March 7–22, 2026 (Reiwa 8)
+      Prize Distribution Location: Oku-Musashi Hanno Tourism Association (1-7 Honcho, Hanno City), 9:00 a.m.–5:00 p.m.
+      ※On Saturday, March 21, prizes will be distributed at the tourism information desk "Puratto Hanno" next to the Hanno Station ticket gate.
+      
+      Participation requires a smartphone and the app downloaded/installed.
+    translation_hash: "sha256-c4971f3c065d8a83"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-10T07:24:43.256997Z"
+    format_version: 3

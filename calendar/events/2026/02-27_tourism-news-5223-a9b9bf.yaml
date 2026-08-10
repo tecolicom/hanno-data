@@ -23,3 +23,18 @@ source:
   fetched_at: "2026-08-10T06:33:53.163265Z"
   modified_gmt: "2026-03-06T07:30:29"
   content_hash: "sha256-a9b9bfd54da4c4e7"
+translations:
+  en:
+    summary: "📢 Hinamatsuri Doll Display Market @ Komachi Park"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Oku-Musashi Hanno Tourism Association: https://hanno-tourism.jp/news/%e3%81%b2%e3%81%aa%e9%a3%be%e3%82%8a%e3%83%9e%e3%83%ab%e3%82%b7%e3%82%a7%e5%b0%8f%e7%94%ba%e5%85%ac%e5%9c%92
+      
+      New listing (Published: February 27, 2026)
+      
+      A market will be held at Hanno Komachi Park to coincide with the Hanno Hinamatsuri Doll Display exhibition. Food trucks will be on site selling a variety of items including shaved ice, crepes, kebab, spare ribs, and more. The market runs on February 28 (Saturday), March 1 (Sunday), March 7 (Saturday), and March 8 (Sunday). There is no parking at the venue, so please use nearby paid parking lots or coin-operated parking. Vendor offerings may change due to weather or other conditions.
+    translation_hash: "sha256-732a61d36b2a7b88"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-10T07:24:37.456177Z"
+    format_version: 3

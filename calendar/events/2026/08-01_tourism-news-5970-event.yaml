@@ -21,3 +21,16 @@ source:
   fetched_at: "2026-08-10T06:32:52.067450Z"
   modified_gmt: "2026-07-30T01:10:31"
   content_hash: "sha256-60dd72d890a99946"
+translations:
+  en:
+    summary: "🎪 Hanno Summer Solstice Festival: Beer Garden with Forest, Water & Sun"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Oku-Musashi Hanno Tourism Association: https://hanno-tourism.jp/news/%e3%80%8e%e3%81%af%e3%82%93%e3%81%ae%e3%81%86%e5%a4%8f%e8%87%b3%e7%a5%ad-%e6%a3%ae%e3%81%a8%e6%b0%b4%e3%81%a8%e5%a4%aa%e9%99%bd%e3%81%ae%e3%83%93%e3%82%a2%e3%82%ac%e3%83%bc%e3%83%87%e3%83%b3%e3%80%8f
+      
+      On Saturday, August 1, 2026 (Reiwa 8), the newly renovated Hanno Riverside Stage Plaza will host the Hanno Summer Solstice Festival: Beer Garden with Forest, Water & Sun. Bonfire lighting—symbolic of Northern European summer solstice celebrations—will illuminate the venue while the TUMUZI band performs with violin, guitar, and percussion. Food vendors scheduled to appear include COTORIDO (crepes), RUBBER SOUL (caramel apples and chocolate bananas), Ranmaru (grilled chicken skewers), Jutti (curry), and CARVAAN (craft beer and Mediterranean cuisine).
+    translation_hash: "sha256-52c2221f0dbbf0b0"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-10T07:26:59.461443Z"
+    format_version: 3
