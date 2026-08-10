@@ -39,16 +39,25 @@ def _read_fixture(crawler, fname):
         return f.read()
 
 
-def _normalize(text):
-    text = re.sub(r'^(dtstart: ).*$', r'\1"<DATE>"', text, flags=re.M)
-    text = re.sub(r'^(dtend: ).*$', r'\1"<DATE>"', text, flags=re.M)
+# dtstart が実行日に依存しないクローラ。ここに載るものは日付を正規化せず
+# そのまま比較する。news は「本文から抽出した開催日」が dtstart なので、
+# 潰すと本設計の要である日付抽出の回帰を golden が見逃す。
+DETERMINISTIC_DATE_CRAWLERS = {"cal-tourism-news-fetch"}
+
+
+def _normalize(text, keep_dates=False):
+    if not keep_dates:
+        text = re.sub(r'^(dtstart: ).*$', r'\1"<DATE>"', text, flags=re.M)
+        text = re.sub(r'^(dtend: ).*$', r'\1"<DATE>"', text, flags=re.M)
     text = re.sub(r'^(  fetched_at: ).*$', r'\1"<TS>"', text, flags=re.M)
     return text
 
 
-def _golden_key(path):
+def _golden_key(path, keep_date=False):
     # <out>/<YYYY>/<MM-DD>_<uidlocal>.yaml → <uidlocal>.yaml
-    return re.sub(r'^\d\d-\d\d_', '', os.path.basename(path))
+    # keep_date=True では MM-DD を残す (どの日に置かれたかも回帰対象にする)。
+    base = os.path.basename(path)
+    return base if keep_date else re.sub(r'^\d\d-\d\d_', '', base)
 
 
 # fixture 記事の Last-Modified 固定値。JST 2026-06-12 → dtstart = +1 日 = 2026-06-13。
@@ -76,6 +85,42 @@ def _setup_shicho_blog(m, crawler, manifest):
     m.save_http_cache = lambda c: None
 
 
+def _setup_tourism_news(m, crawler, manifest):
+    """API レスポンスと LLM 応答を fixtures から再生する。
+
+    LLM は非決定的なので実呼び出しはしない (記録済み応答の再生)。
+    """
+    with open(os.path.join(FIX, crawler, "api-page1.json"), encoding="utf-8") as f:
+        posts = json.load(f)
+    with open(os.path.join(FIX, crawler, "llm.json"), encoding="utf-8") as f:
+        replies = json.load(f)
+
+    def _fetch_json(url):
+        # 1 ページ目だけ返し、2 ページ目以降は空 (= 打ち切り)
+        return posts if "&page=1&" in url or "&page=1" in url else []
+    m.fetch_json = _fetch_json
+
+    # user プロンプト中の "# タイトル" 行から記事を引き当てて応答を返す。
+    # 先頭行ではなく該当行を探す (冒頭に "記事公開日: …" が付くため)。
+    by_title = {(p.get("title") or {}).get("rendered", ""): str(p["id"])
+                for p in posts}
+
+    def _call_llm(system, user, **kw):
+        for line in user.split("\n"):
+            if line.startswith("# "):
+                return replies.get(by_title.get(line[2:].strip(), ""))
+        return None
+    m.call_llm = _call_llm
+
+    m.load_http_cache = lambda: {}
+    m.save_http_cache = lambda c: None
+    # backfill フィルタが「今日」に依存すると golden が日々壊れるので実質無効化する
+    m.DEFAULT_BACKFILL_MONTHS = 12000
+    # fixtures は数件しか無いので --min-news の下限チェックを無効化する
+    # (run-golden は sys.argv を組み立てるため CLI 引数を足せない)
+    m.check_news_count = lambda n, min_news: None
+
+
 # (golden 名, crawler スクリプト名, setup, seed dir 名 | None)
 # seed を渡すと、その中身を out-dir に事前展開してから crawler を走らせる
 # (= 既存 YAML がある状態の再現。更新検知 / supersedes の経路を通す)。
@@ -83,6 +128,12 @@ CRAWLERS = [
     ("cal-oshirase-fetch", "cal-oshirase-fetch", _setup_oshirase, None),
     ("cal-oshirase-update", "cal-oshirase-fetch", _setup_oshirase, "cal-oshirase-update"),
     ("cal-shicho-blog-fetch", "cal-shicho-blog-fetch", _setup_shicho_blog, None),
+    ("cal-tourism-news-fetch", "cal-tourism-news-fetch", _setup_tourism_news, None),
+    # 既に本番エントリがある状態で再実行しても重複・移動が起きないことを見る
+    # (= has_existing_event の経路)。中止時の【中止】書き換えは非決定的な LLM
+    # 応答が要るので golden ではなく test_news_cancel.py が実データで見ている。
+    ("cal-tourism-news-existing", "cal-tourism-news-fetch", _setup_tourism_news,
+     "cal-tourism-news-existing"),
 ]
 
 
@@ -99,9 +150,11 @@ def _run_crawler(crawler, setup, seed):
                 shutil.copytree(os.path.join(SEED, seed), d, dirs_exist_ok=True)
             sys.argv = [crawler, "--out-dir", d]
             m.main()
+            keep = crawler in DETERMINISTIC_DATE_CRAWLERS
             for p in glob.glob(os.path.join(d, "**", "*.yaml"), recursive=True):
                 with open(p, encoding="utf-8") as f:
-                    out[_golden_key(p)] = _normalize(f.read())
+                    out[_golden_key(p, keep_date=keep)] = _normalize(
+                        f.read(), keep_dates=keep)
     finally:
         sys.argv = saved_argv
     return out

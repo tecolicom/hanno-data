@@ -1,0 +1,25 @@
+uid: "tourism-news-5896-e4e9e6@hanno.city.tecoli.com"
+summary: "📢 令和８年飯能夏祭り 7月18日(土)・19日(日)開催"
+url: "https://hanno-tourism.jp/news/%e4%bb%a4%e5%92%8c%ef%bc%98%e5%b9%b4%e9%a3%af%e8%83%bd%e5%a4%8f%e7%a5%ad%e3%82%8a%e3%80%807%e6%9c%8818%e6%97%a5%e5%9c%9f%e3%83%bb19%e6%97%a5%e6%97%a5%e9%96%8b%e5%82%ac"
+dtstart: "2026-07-14"
+dtend: "2026-07-14"
+description: |-
+  奥むさし飯能観光協会: https://hanno-tourism.jp/news/%e4%bb%a4%e5%92%8c%ef%bc%98%e5%b9%b4%e9%a3%af%e8%83%bd%e5%a4%8f%e7%a5%ad%e3%82%8a%e3%80%807%e6%9c%8818%e6%97%a5%e5%9c%9f%e3%83%bb19%e6%97%a5%e6%97%a5%e9%96%8b%e5%82%ac
+  
+  🆕 新着掲載 (公開日: 2026-07-14)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  令和8年飯能夏祭りが7月18日(土)・19日(日)に開催されます。18日の宵宮では11時45分より飯能八坂神社で祈願祭が執り行われ、底抜け屋台は朝9時ごろから町内廻りが始まり終日引き回されます(21時まで)。19日の本祭りでは15時に飯能八坂神社前に5ヵ町の屋台が集合整列し、祝囃子の奉納と参拝が行われた後、夜まで市街地各所で引き合わせが行われ、19時40分には大通りで10ヵ町による引き合わせが行われます。2日間ともグルメや物産の出店があります。会場は飯能駅北口から徒歩すぐで、公共交通機関のご利用をお願いします。専用駐車場はございません。2日間とも該当時間・箇所に交通規制がかかります。
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-tourism-jp-news
+  id: "5896"
+  url: "https://hanno-tourism.jp/news/%e4%bb%a4%e5%92%8c%ef%bc%98%e5%b9%b4%e9%a3%af%e8%83%bd%e5%a4%8f%e7%a5%ad%e3%82%8a%e3%80%807%e6%9c%8818%e6%97%a5%e5%9c%9f%e3%83%bb19%e6%97%a5%e6%97%a5%e9%96%8b%e5%82%ac"
+  fetched_at: "<TS>"
+  modified_gmt: "2026-07-22T02:28:11"
+  content_hash: "sha256-e4e9e6cdc2e132a8"

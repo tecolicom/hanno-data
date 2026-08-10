@@ -80,6 +80,15 @@ jobs:
       - name: Crawl hanno-tourism
         run: ./calendar/bin/cal-tourism-fetch --out-dir calendar/events --min-tours 20 || echo "hanno-tourism" >> "$RUNNER_TEMP/crawl-failures.txt"
 
+      - name: Crawl hanno-tourism-news
+        # tour とは別の投稿タイプ (news)。祭り・盆踊り等の単発イベント告知が載る。
+        # ANTHROPIC_API_KEY が無いと description の組み立てが LLM 要約から本文
+        # そのままに変わり content_hash が変動する (2026-05-26 の oshirase 障害と
+        # 同じ罠)。必須。
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: ./calendar/bin/cal-tourism-news-fetch --out-dir calendar/events --min-news 100 || echo "hanno-tourism-news" >> "$RUNNER_TEMP/crawl-failures.txt"
+
       - name: Crawl city-hanno-shiminkaikan
         run: ./calendar/bin/cal-shiminkaikan-fetch --out-dir calendar/events --min-events 3 || echo "city-hanno-shiminkaikan" >> "$RUNNER_TEMP/crawl-failures.txt"
 

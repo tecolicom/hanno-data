@@ -49,14 +49,10 @@ from _lib import (
     strip_markdown, AI_DISCLAIMER_JP,
     output_path_for, find_existing_by_uid, load_source_config,
     load_http_cache, save_http_cache, fetch_with_cache, dtstart_from_last_modified,
+    call_llm, llm_available,
 )
 
 JST = timezone(timedelta(hours=9))
-
-try:
-    import httpx  # LLM 要約用 (>400字 で必要)
-except ImportError:
-    httpx = None  # type: ignore
 
 
 # ==================== Source ====================
@@ -221,90 +217,46 @@ def extract_body(html: str) -> str:
 
 def summarize_with_llm(title: str, body: str) -> str | None:
     """Claude Haiku 4.5 で要約。失敗時 None を返す (呼出側で fallback)."""
-    if httpx is None:
-        print("  WARN: httpx not installed, skipping LLM summary", file=sys.stderr)
-        return None
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
-    if not api_key:
-        print("  WARN: ANTHROPIC_API_KEY not set, skipping LLM summary", file=sys.stderr)
-        return None
     if not body or len(body) < MIN_BODY_CHARS:
         # 安全装置: 空 body で LLM を呼ばない (ハルシネーション防止)
         return None
-    try:
-        r = httpx.post(
-            "https://api.anthropic.com/v1/messages",
-            headers={
-                "x-api-key": api_key,
-                "anthropic-version": "2023-06-01",
-                "content-type": "application/json",
-            },
-            json={
-                "model": LLM_MODEL,
-                "max_tokens": LLM_MAX_TOKENS,
-                "system": LLM_SYSTEM_PROMPT,
-                "messages": [{"role": "user", "content": f"# {title}\n\n{body}"}],
-            },
-            timeout=60,
-        )
-        r.raise_for_status()
-        data = r.json()
-        return strip_markdown(data["content"][0]["text"].strip(), bullet="・")
-    except Exception as e:
-        print(f"  WARN: LLM summary failed: {e}", file=sys.stderr)
+    text = call_llm(LLM_SYSTEM_PROMPT, f"# {title}\n\n{body}",
+                    model=LLM_MODEL, max_tokens=LLM_MAX_TOKENS)
+    if text is None:
         return None
+    return strip_markdown(text, bullet="・")
 
 
 def diff_with_llm(title: str, prev_summary: str, new_body: str) -> str | None:
     """前回の要約と今回の本文を比較し「主な変更」の本文を返す。失敗/変更なしは None。"""
-    if httpx is None:
-        return None
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
-    if not api_key:
-        return None
     if not prev_summary.strip() or not new_body or len(new_body) < MIN_BODY_CHARS:
         # 安全装置: 材料が薄い状態で LLM を呼ばない (ハルシネーション防止)
         return None
     user = (f"# {title}\n\n"
             f"## 前回の要約\n\n{prev_summary}\n\n"
             f"## 今回の本文\n\n{new_body}")
-    try:
-        r = httpx.post(
-            "https://api.anthropic.com/v1/messages",
-            headers={
-                "x-api-key": api_key,
-                "anthropic-version": "2023-06-01",
-                "content-type": "application/json",
-            },
-            json={
-                "model": LLM_MODEL,
-                "max_tokens": DIFF_LLM_MAX_TOKENS,
-                # 差分判定は創造性が不要で、ブレると「変わっていない値を変更と
-                # 断定する」誤りが混入する (実測: 同一入力で 2 回中 1 回発生)。
-                # 要約と違い temperature を 0 に固定して抑える。
-                "temperature": 0,
-                "system": DIFF_SYSTEM_PROMPT,
-                "messages": [{"role": "user", "content": user}],
-            },
-            timeout=60,
-        )
-        r.raise_for_status()
-        data = r.json()
-        text = strip_markdown(data["content"][0]["text"].strip(), bullet="・")
-        # 改行は status header を壊すので 1 行に畳む
-        text = " ".join(text.split())
-        return text or None
-    except Exception as e:
-        print(f"  WARN: LLM diff failed: {e}", file=sys.stderr)
+    # 差分判定は創造性が不要で、ブレると「変わっていない値を変更と断定する」誤りが
+    # 混入する (実測: 同一入力で 2 回中 1 回発生)。要約と違い temperature を 0 に
+    # 固定して抑える。
+    text = call_llm(DIFF_SYSTEM_PROMPT, user, model=LLM_MODEL,
+                    max_tokens=DIFF_LLM_MAX_TOKENS, temperature=0)
+    if text is None:
         return None
+    text = strip_markdown(text, bullet="・")
+    # 改行は status header を壊すので 1 行に畳む
+    return " ".join(text.split()) or None
 
 
 # ---------- description 組立 ----------
 
 
 def _llm_available() -> bool:
-    """この環境で LLM 呼出が可能か (CI 等で httpx 無 / API key 無 を事前検知)."""
-    return httpx is not None and bool(os.environ.get("ANTHROPIC_API_KEY"))
+    """この環境で LLM 呼出が可能か (CI 等で httpx 無 / API key 無 を事前検知)。
+
+    実体は _lib.llm_available。run-golden がこの名前を差し替えて LLM 経路を
+    断つので、薄いラッパのまま残す。
+    """
+    return llm_available()
 
 
 def _diff_line(title: str, prev_path: str, new_body: str) -> str | None:

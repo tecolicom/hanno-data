@@ -1,0 +1,767 @@
+#!/usr/bin/env python3
+"""cal-tourism-news-fetch — hanno-tourism.jp の news 投稿タイプからイベント YAML を生成する。
+
+告知 (掲載日) と本番 (開催日) の 2 系統を出す。開催日は LLM 抽出 + 機械検証の
+二重チェックを通過した場合のみ採用する。
+
+対象: https://hanno-tourism.jp/news/<slug>/
+設計: docs/superpowers/specs/2026-08-10-tourism-news-design.md
+
+  cal-tourism-news-fetch --out-dir calendar/events
+
+`tour` と違い日程が ACF に隠れていないので (content.rendered が API に露出)、
+HTML の追加取得は不要。全件が REST API 2 リクエストで完結する。
+"""
+from __future__ import annotations
+
+import argparse
+import glob
+import hashlib
+import json
+import os
+import re
+import sys
+import urllib.error
+import urllib.parse
+import urllib.request
+from datetime import date, datetime, timedelta, timezone
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from _lib import (  # noqa: E402
+    USER_AGENT, UID_NAMESPACE, AI_DISCLAIMER_JP,
+    load_source_config, load_http_cache, save_http_cache,
+    call_llm, llm_available, strip_html, normalize_body, strip_markdown,
+    normalize_circled_weekday, normalize_fullwidth_digits, normalize_tilde,
+    yaml_escape_str, yaml_block_scalar, read_yaml_scalar,
+    output_path_for, find_existing_by_uid, reiwa_to_gregorian,
+)
+
+JST = timezone(timedelta(hours=9))
+
+_SRC = load_source_config("tourism-news")
+DEFAULT_UID_PREFIX = _SRC["uid_prefix"]
+SOURCE_TYPE = _SRC["source_type"]
+SUMMARY_PREFIX_NOTICE = _SRC["summary_prefix_notice"]
+SUMMARY_PREFIX_EVENT = _SRC["summary_prefix_event"]
+SUMMARY_PREFIX_OTHER = _SRC["summary_prefix_other"]
+API_URL = _SRC["api_url"]
+URL_HOST_ALLOWLIST = _SRC["url_host_allowlist"]
+URL_PATH_PREFIX = _SRC["url_path_prefix"]
+DEFAULT_BACKFILL_MONTHS = int(_SRC["backfill_months"])
+
+PER_PAGE = 100
+API_FIELDS = "id,link,slug,date_gmt,modified_gmt,title,content,tag-news"
+
+# tag-news のうちイベント系。掲載可否の判定には使わず、表示用 prefix の選択のみ。
+# 6=イベント, 7=飯能まつり, 8=エコツアー
+EVENT_TAG_IDS = {6, 7, 8}
+
+MIN_BODY_CHARS = 50          # これ未満なら LLM を呼ばない (ハルシネーション防止)
+FULL_TEXT_THRESHOLD = 400    # LLM 不在時、これ以下は全文掲載
+
+LLM_MODEL = "claude-haiku-4-5"
+LLM_MAX_TOKENS = 1024
+
+# v1: 初版。調査で確認した 6 つの失敗モードに一対一で対応させている
+# (docs/superpowers/specs/2026-08-10-tourism-news-design.md の「確認された失敗モード」)。
+EXTRACT_SYSTEM_PROMPT = """あなたは奥むさし飯能観光協会サイトのお知らせ記事から、市民向けカレンダーに載せる情報を取り出すアシスタントです。
+
+これは自動パイプラインの一部で、あなたの出力はプログラムがそのまま解釈します。人間との対話ではありません。読者に質問する・追加情報を求める・処理できない理由を説明する等の対話的応答は絶対にしないでください。
+
+出力は次の形の JSON オブジェクト 1 個だけです。前置き・説明・コードフェンスを付けないでください。
+
+{
+  "summary": "…",
+  "event_date": "YYYY-MM-DD" または null,
+  "event_end_date": "YYYY-MM-DD" または null,
+  "date_evidence": "本文からの引用" または null,
+  "status": "normal" | "canceled" | "postponed" | "ended"
+}
+
+## event_date の決め方
+
+記事の主題となるイベントの開催日 (初日) を返します。次の区別を必ず守ってください。
+
+- **更新スタンプは開催日ではありません**。「【6/26更新】」「6/16更新」「※4/4AM更新」のような表記は、記事やチラシ画像が更新された日付です。これを event_date にしてはいけません。
+- **終了日は event_date ではありません**。「9月6日(日)まで」のように終了日しか書かれていない開催中の企画では、event_date は null、event_end_date に終了日を入れてください。開始日が本文に明記されている場合だけ event_date を埋めます。
+- **副イベント・協賛イベントの日付ではなく、記事の主題の日付**を返してください。例えば「ひな飾り展」の記事に協賛イベント「丸太雛めぐり」の日程が併記されている場合、返すのはひな飾り展の日程です。
+- **記事の主目的が募集・協賛のお願いであっても、本文に開催日が明記されていれば返してください**。
+- 期間のあるイベントは event_date に初日、event_end_date に最終日を入れます。単日なら event_end_date は null です。
+- 年が本文に書かれていない場合、**入力の冒頭に与えられる「記事公開日」を基準に**最も自然な年を推定してください。多くの記事は公開日と同じ年か、年をまたぐ場合は翌年です。ただし推定に自信が持てない場合は event_date を null にしてください。**推測で埋めるより null のほうが良い結果になります。**
+- 月日に曜日が併記されている場合 (「6月27日(土)」等)、**推定した年でその曜日が実際に合うかを確認してください**。合わない年を選ぶとプログラム側の検算で弾かれます。
+- **和暦は「令和N年 = 西暦(2018+N)年」で換算してください。** 令和8年は 2026 年、令和7年は 2025 年です。ここを 1 年ずらす誤りが多いので必ず計算してください。
+- 開催日が読み取れない記事 (会報誌の発行案内、アンケート依頼など) では event_date を null にしてください。
+
+## date_evidence
+
+event_date の根拠にした記述を、**入力からそのまま一字一句コピー**してください。要約・言い換え・整形をしてはいけません。引用符や記号も原文のまま写してください。プログラムがこの文字列を入力から検索して照合します。タイトルから採っても構いません。event_date が null なら date_evidence も null です。
+
+**根拠は「その日付そのもの」を含む記述にしてください。** 「4月から6月まで」のように具体的な日が書かれていない記述を根拠に、勝手に「4月1日」と決めてはいけません。その場合は event_date を null にします。
+
+## status
+
+- `canceled`: 中止が決定したと本文が述べている
+- `postponed`: 延期されたと本文が述べている
+- `ended`: 既に終了した・受付を締め切ったと本文が述べている
+- `normal`: 上記以外
+
+**「雨天決行・荒天中止」「天候により中止する場合があります」のような条件付きの注意書きは `canceled` ではありません。** これらは開催予定の記事です。実際に中止・延期が決定したと書かれている場合だけ `canceled` / `postponed` にしてください。
+
+中止・延期の場合も、**event_date には元々の開催予定日をそのまま入れてください** (null にしない)。カレンダー側で「【中止】」を付けて表示します。
+
+## summary
+
+- 全体で 200〜400 字程度の日本語。
+- 日時・場所・対象者・料金・申込締切・申込方法など、市民の行動に関わる事実は省略しない。本文に書かれていないことは書かない (推測禁止)。
+- 中止・延期・終了のステータスがある場合は、要約の冒頭に置いてください。市民が誤って参加しようとしないためです。
+- 日付や金額は本文表記のまま (令和8年8月8日 等)。
+- 出だしに「お知らせ:」「概要:」のような冗語は不要。本題から始める。
+- 末尾に URL や「詳細は〜」を付けない。呼出側で付与する。
+- **Markdown 記法 (**太字**、# 見出し、- リスト、リンク等) は一切使わないでください**。出力先は Google カレンダーの予定欄で、Markdown は literal なテキストとして表示されます。構造化したい場合は改行と全角記号で: 箇条書きは行頭「・」、見出しは「【見出し】」。
+"""
+
+_VALID_STATUS = {"normal", "canceled", "postponed", "ended"}
+
+
+# ==================== REST API 取得 ====================
+
+
+def fetch_json(url: str) -> object:
+    """REST API を叩いて JSON を返す。テストで差し替える対象。"""
+    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        return json.loads(r.read().decode("utf-8"))
+
+
+def _months_ago(today: date, months: int) -> date:
+    """today から months ヶ月前の日付。月内の日は 1 日に丸める。"""
+    y, m = today.year, today.month - months
+    while m <= 0:
+        m += 12
+        y -= 1
+    return date(y, m, 1)
+
+
+def fetch_news_index(months: int, today: date) -> list[dict]:
+    """REST API から news 一覧を取得し、months ヶ月以内の記事だけ返す。
+
+    per_page=100 で全ページを辿る (実測 137 件 = 2 リクエスト)。
+    content.rendered が API に露出しているので HTML の追加取得は不要。
+    """
+    cutoff = _months_ago(today, months).isoformat()
+    out: list[dict] = []
+    page = 1
+    while True:
+        url = (f"{API_URL}?per_page={PER_PAGE}&page={page}"
+               f"&_fields={API_FIELDS}")
+        batch = fetch_json(url)
+        if not isinstance(batch, list) or not batch:
+            break
+        for it in batch:
+            date_gmt = it.get("date_gmt", "")
+            if date_gmt[:10] < cutoff:
+                continue
+            out.append({
+                "id": it.get("id"),
+                "url": it.get("link", ""),
+                "title": (it.get("title") or {}).get("rendered", ""),
+                "body_html": (it.get("content") or {}).get("rendered", ""),
+                "date_gmt": date_gmt,
+                "modified_gmt": it.get("modified_gmt", ""),
+                "tags": list(it.get("tag-news") or []),
+            })
+        if len(batch) < PER_PAGE:
+            break
+        page += 1
+    return out
+
+
+def select_news_to_fetch(items: list[dict], cache: dict) -> tuple[list[dict], int]:
+    """modified_gmt が前回と一致する記事をスキップする。
+
+    hanno-tourism.jp は ETag / Last-Modified を返さないので条件付き GET が
+    使えない。判定材料が無い記事は「処理対象」に倒す。
+    """
+    todo: list[dict] = []
+    unchanged = 0
+    for it in items:
+        prev = (cache.get(it["url"]) or {}).get("modified_gmt")
+        if prev and prev == it.get("modified_gmt"):
+            unchanged += 1
+            continue
+        todo.append(it)
+    return todo, unchanged
+
+
+# ==================== LLM 抽出 ====================
+
+
+def html_to_text(html: str) -> str:
+    """記事本文 HTML を、日付照合に使える正規化済みテキストにする。"""
+    text = normalize_body(strip_html(html))
+    text = normalize_circled_weekday(text)
+    text = normalize_fullwidth_digits(text)
+    return normalize_tilde(text)
+
+
+def _strip_code_fence(s: str) -> str:
+    """LLM が ```json ... ``` で包んで返した場合に中身を取り出す。"""
+    t = s.strip()
+    if not t.startswith("```"):
+        return t
+    lines = t.split("\n")
+    if lines[-1].strip().startswith("```"):
+        lines = lines[:-1]
+    return "\n".join(lines[1:]).strip()
+
+
+def llm_user_message(title: str, body_text: str, pub_date: str | None) -> str:
+    """LLM に渡す本文。verify はこれと同じ文字列に対して照合する。
+
+    公開日を明示するのが重要。プロンプトは「年が書かれていなければ公開日から
+    推定せよ」と指示しており、これが無いと LLM が年を当てずっぽうで埋めて
+    曜日検算に落ちる (実測: 40 件中 5 件が過去年に滑って失格した)。
+    """
+    head = f"記事公開日: {pub_date}\n\n" if pub_date else ""
+    return f"{head}# {title}\n\n{body_text}"
+
+
+def extract_with_llm(title: str, body_text: str,
+                     pub_date: str | None = None) -> dict | None:
+    """本文から要約・開催日・ステータスを抽出する。失敗時 None。
+
+    抽出は創造性が不要で、ブレると日付が揺れて content_hash が変動する。
+    temperature を 0 に固定する。
+    """
+    if not body_text or len(body_text) < MIN_BODY_CHARS:
+        # 安全装置: 薄い本文で LLM を呼ばない (ハルシネーション防止)
+        return None
+    raw = call_llm(EXTRACT_SYSTEM_PROMPT,
+                   llm_user_message(title, body_text, pub_date),
+                   model=LLM_MODEL, max_tokens=LLM_MAX_TOKENS, temperature=0)
+    if raw is None:
+        return None
+    try:
+        data = json.loads(_strip_code_fence(raw))
+    except Exception as e:
+        print(f"  WARN: LLM returned non-JSON: {e}", file=sys.stderr)
+        return None
+    if not isinstance(data, dict):
+        print("  WARN: LLM returned non-object JSON", file=sys.stderr)
+        return None
+    status = data.get("status")
+    if status not in _VALID_STATUS:
+        status = "normal"
+    summary = data.get("summary") or ""
+    return {
+        "summary": strip_markdown(str(summary).strip(), bullet="・"),
+        "event_date": data.get("event_date") or None,
+        "event_end_date": data.get("event_end_date") or None,
+        "date_evidence": data.get("date_evidence") or None,
+        "status": status,
+    }
+
+
+# ==================== 機械検証 ====================
+#
+# LLM は「その日付が開催日か更新スタンプか終了日か」の意味判断が得意で、
+# 正規表現は「その日付が本文に実在し曜日が整合するか」の機械判定が得意。
+# 役割を分けて二重にする。
+
+# 「【6/26更新】」「6/16更新」「※4/4AM更新」等。実データのキッチンカー記事では
+# これしか日付が無く、正規表現による抽出が 4 件中 3 件で誤取得した。
+UPDATE_STAMP_RE = re.compile(r"\d{1,2}\s*/\s*\d{1,2}\s*(?:AM|PM)?\s*更新")
+
+_WEEKDAY_CHARS = "月火水木金土日"
+_WEEKDAY_IN_EVIDENCE_RE = re.compile(r"[(（]\s*([月火水木金土日])\s*[)）]")
+
+# 「令和8年」。元年は数字ではないので拾わない (換算が曖昧なため検査を諦める)。
+_REIWA_YEAR_RE = re.compile(r"令和\s*(\d{1,2})\s*年")
+
+# 開催日が記事公開日からこの範囲を外れたら失格。過去年への滑落 (実測: 養成講座が
+# 2025 年に確定した) と、遠すぎる未来の誤抽出を止める。
+MIN_DAYS_BEFORE_PUBLISH = -31
+MAX_DAYS_AFTER_PUBLISH = 400
+
+
+# LLM は「そのままコピー」と指示しても引用符を打ち直すことがある。実測: 本文の
+# 「7月18日(土)“宵宮”」に対し `7月18日(土)"宵宮"` を返し、照合が空振りして
+# 実在する開催日を取りこぼした。照合時だけ ASCII に畳んで吸収する
+# (保存する値は畳まない)。幻覚検出の強度は落ちない — 存在しない日付は依然一致しない。
+_QUOTE_FOLD = str.maketrans({
+    "“": '"', "”": '"', "„": '"', "‟": '"',
+    "〝": '"', "〞": '"', "〟": '"', "〃": '"',
+    "‘": "'", "’": "'", "‚": "'", "‛": "'",
+    "′": "'", "″": '"',
+})
+
+
+def _normalize_for_match(s: str) -> str:
+    """照合用の正規化。本文と evidence の両方に同じものを掛ける。"""
+    s = normalize_circled_weekday(s)
+    s = normalize_fullwidth_digits(s)
+    s = normalize_tilde(s)
+    s = s.translate(_QUOTE_FOLD)
+    return re.sub(r"\s+", "", s)
+
+
+def _evidence_contains_month_day(ev_norm: str, ev_date: date) -> bool:
+    """正規化済み evidence に ev_date の月日が現れるか。
+
+    「8月8日」「8/8」の両表記を許す。ゼロ埋めの有無も許す。
+    """
+    m, d = ev_date.month, ev_date.day
+    forms = [
+        f"{m}月{d}日", f"{m:02d}月{d:02d}日",
+        f"{m}/{d}", f"{m:02d}/{d:02d}",
+        f"{ev_date.year}年{m}月{d}日",
+    ]
+    return any(f in ev_norm for f in forms)
+
+
+def verify_event_date(extracted: dict, body_text: str,
+                      pub_date: date) -> str | None:
+    """LLM が返した開催日を検算する。通れば None、落ちれば失格理由を返す。"""
+    raw_date = extracted.get("event_date")
+    evidence = extracted.get("date_evidence")
+
+    try:
+        ev_date = date.fromisoformat(str(raw_date))
+    except Exception:
+        return f"invalid-date: {raw_date!r}"
+
+    if not evidence:
+        return "no-evidence"
+
+    ev_norm = _normalize_for_match(evidence)
+    body_norm = _normalize_for_match(body_text)
+
+    # 検証 1: 根拠が本文に実在するか (幻覚検出)
+    if ev_norm not in body_norm:
+        return f"evidence-not-found: {evidence!r}"
+
+    # 検証 5: 更新スタンプを根拠にしていないか。
+    # 月日チェック (検証 2) より先に置く。「6/16更新」は月日そのものは一致して
+    # しまうので、検証 2 では止められない。
+    if UPDATE_STAMP_RE.search(ev_norm):
+        return f"update-stamp: {evidence!r}"
+
+    # 検証 2: 根拠と結論の月日が一致するか
+    if not _evidence_contains_month_day(ev_norm, ev_date):
+        return f"mismatch: {evidence!r} vs {ev_date.isoformat()}"
+
+    # 検証 3: 根拠に曜日があれば一致するか
+    m = _WEEKDAY_IN_EVIDENCE_RE.search(normalize_circled_weekday(evidence))
+    if m and _WEEKDAY_CHARS[ev_date.weekday()] != m.group(1):
+        return (f"weekday-mismatch: {evidence!r} vs "
+                f"{ev_date.isoformat()} ({_WEEKDAY_CHARS[ev_date.weekday()]})")
+
+    # 検証 4: 記事公開日から妥当な範囲か
+    delta = (ev_date - pub_date).days
+    if not (MIN_DAYS_BEFORE_PUBLISH <= delta <= MAX_DAYS_AFTER_PUBLISH):
+        return f"out-of-range: {ev_date.isoformat()} is {delta}d from {pub_date}"
+
+    # 検証 6: 根拠が和暦なら西暦への換算が合っているか。
+    # LLM は令和の換算を落とす (実測: 「令和8年4月1日」→ 2027-04-01、
+    # 「令和8年1月25日(日)」→ 2027-01-25)。曜日が無いと検証 3 では拾えず、
+    # 範囲チェックもすり抜けるので、機械換算で潰す。
+    rm = _REIWA_YEAR_RE.search(ev_norm)
+    if rm:
+        want = reiwa_to_gregorian(int(rm.group(1)))
+        if ev_date.year != want:
+            return (f"reiwa-mismatch: 令和{rm.group(1)}年 = {want} だが "
+                    f"{ev_date.isoformat()}")
+
+    return None
+
+
+# ==================== 本番エントリの作成条件 ====================
+
+
+def normalize_news_url(url: str) -> str:
+    """news 記事 URL を比較可能な形に正規化する。
+
+    手動 YAML は日本語 slug がパーセントエンコードされた形で入っている。
+    エンコード表記の揺れで衝突を見逃すと重複イベントが出るのでデコードして揃える。
+    """
+    u = urllib.parse.unquote(url.strip())
+    if not u.endswith("/"):
+        u += "/"
+    return u
+
+
+def find_manual_conflict(events_dir: str, news_url: str) -> str | None:
+    """同じ news 記事を指すクローラ管理外の YAML を探す。
+
+    このクローラ自身が作った YAML (source.type が SOURCE_TYPE) は対象外。
+    見つかれば path、無ければ None。
+    """
+    target = normalize_news_url(news_url)
+    for path in glob.glob(os.path.join(events_dir, "**", "*.yaml"),
+                          recursive=True):
+        try:
+            with open(path, "r", encoding="utf-8") as f:
+                head = f.read(8192)
+        except Exception:
+            continue
+        if f"type: {SOURCE_TYPE}" in head:
+            continue          # 自分が作った YAML
+        if "hanno-tourism.jp/news/" not in head:
+            continue
+        for line in head.split("\n"):
+            line = line.strip()
+            if not (line.startswith("url:") or line.startswith("- url:")):
+                continue
+            val = line.split(":", 1)[1].strip().strip('"')
+            if val and normalize_news_url(val) == target:
+                return path
+    return None
+
+
+def should_create_event(extracted: dict, body_text: str, pub_date: date,
+                        has_existing_event: bool,
+                        manual_conflict: str | None) -> tuple[bool, str]:
+    """本番エントリを作る (または既存を更新する) かを決める。
+
+    機械検証は「取れた日付が信用できるか」の検査で、ここはそれと直交する条件。
+    """
+    if not extracted.get("event_date"):
+        return False, "no-date"
+    if manual_conflict:
+        return False, f"manual-conflict: {manual_conflict}"
+    reason = verify_event_date(extracted, body_text, pub_date)
+    if reason:
+        return False, reason
+    if extracted["status"] in ("canceled", "postponed") and not has_existing_event:
+        # 中止として生まれた記事。新規に中止済みの予定を作っても役に立たない。
+        return False, f"born-{extracted['status']}"
+    return True, "ok"
+
+
+# ==================== YAML 生成 ====================
+
+
+CANCELED_MARK = "【中止】"
+POSTPONED_MARK = "【延期】"
+
+
+def jst_date_of(gmt_iso: str) -> str:
+    """API の date_gmt / modified_gmt (UTC naive ISO) を JST の日付にする。"""
+    dt = datetime.fromisoformat(gmt_iso.replace("Z", "")).replace(tzinfo=timezone.utc)
+    return dt.astimezone(JST).date().isoformat()
+
+
+def content_hash_of(item: dict) -> str:
+    """記事の内容 (タイトル + 本文) から 16 桁の短縮 sha256 を作る。
+
+    modified_gmt は「内容」ではないので含めない。含めると、実質同じ内容で
+    modified_gmt だけ動いたときに別世代が生まれて flood する。
+    """
+    canonical = f"{item['title']}\n{html_to_text(item['body_html'])}"
+    return hashlib.sha256(canonical.encode("utf-8")).hexdigest()[:16]
+
+
+def notice_uid(prefix: str, post_id: int, content_hash: str) -> str:
+    """告知エントリの UID。内容が変わると変わる (= 世代を作る)。
+
+    cal-oshirase-fetch の incremental mode と同じ規約。
+    """
+    return f"{prefix}-{post_id}-{content_hash[:6]}@{UID_NAMESPACE}"
+
+
+def event_uid(prefix: str, post_id: int) -> str:
+    """本番エントリの UID。世代を作らず、中止時は同じ UID のまま書き換える。"""
+    return f"{prefix}-{post_id}-event@{UID_NAMESPACE}"
+
+
+def summary_prefix_for(tags: list[int]) -> str:
+    """本番エントリの prefix をタグから決める (LLM の判断を挟まない)。"""
+    return SUMMARY_PREFIX_EVENT if set(tags) & EVENT_TAG_IDS else SUMMARY_PREFIX_OTHER
+
+
+def _one_line(s: str) -> str:
+    """YAML の scalar に入れるため改行を空白に畳む。"""
+    return " ".join(s.split())
+
+
+def _status_mark(status: str) -> str:
+    if status == "canceled":
+        return CANCELED_MARK
+    if status == "postponed":
+        return POSTPONED_MARK
+    return ""
+
+
+def _build_yaml(uid: str, summary: str, item: dict, dtstart: str, dtend: str,
+                description: str, fetched_at: str | None,
+                supersedes: str | None = None) -> str:
+    lines: list[str] = []
+    lines.append(f"uid: {yaml_escape_str(uid)}")
+    lines.append(f"summary: {yaml_escape_str(_one_line(summary))}")
+    lines.append(f"url: {yaml_escape_str(item['url'])}")
+    lines.append(f"dtstart: {yaml_escape_str(dtstart)}")
+    lines.append(f"dtend: {yaml_escape_str(dtend)}")
+    desc = f"奥むさし飯能観光協会: {item['url']}"
+    if description:
+        desc = f"{desc}\n\n{description}"
+    lines.append("description: " + yaml_block_scalar(desc, indent=2))
+    lines.append("")
+    lines.append("render:")
+    lines.append("  gcal:")
+    lines.append("    mode: single-allday")
+    lines.append("")
+    lines.append("source:")
+    lines.append(f"  type: {SOURCE_TYPE}")
+    lines.append(f"  id: {yaml_escape_str(str(item['id']))}")
+    lines.append(f"  url: {yaml_escape_str(item['url'])}")
+    ts = fetched_at or (datetime.utcnow().isoformat() + "Z")
+    lines.append(f"  fetched_at: {yaml_escape_str(ts)}")
+    lines.append(f"  modified_gmt: {yaml_escape_str(item.get('modified_gmt', ''))}")
+    lines.append(f"  content_hash: {yaml_escape_str('sha256-' + content_hash_of(item))}")
+    if supersedes:
+        lines.append(f"  supersedes: {yaml_escape_str(supersedes)}")
+    return "\n".join(lines) + "\n"
+
+
+def build_notice_yaml(item: dict, extracted: dict, description: str,
+                      fetched_at: str | None = None,
+                      supersedes: str | None = None) -> str:
+    """告知エントリ: 記事が公開された事実。dtstart は公開日 (JST)。"""
+    d = jst_date_of(item["date_gmt"])
+    summary = SUMMARY_PREFIX_NOTICE + _status_mark(extracted["status"]) + item["title"]
+    return _build_yaml(notice_uid(DEFAULT_UID_PREFIX, item["id"],
+                                  content_hash_of(item)),
+                       summary, item, d, d, description, fetched_at,
+                       supersedes=supersedes)
+
+
+def build_event_yaml(item: dict, extracted: dict, description: str,
+                     fetched_at: str | None = None) -> str:
+    """本番エントリ: 開催日。verify を通った event_date のみ到達する。"""
+    start = extracted["event_date"]
+    end = extracted.get("event_end_date") or start
+    summary = (summary_prefix_for(item["tags"])
+               + _status_mark(extracted["status"]) + item["title"])
+    return _build_yaml(event_uid(DEFAULT_UID_PREFIX, item["id"]), summary,
+                       item, start, end, description, fetched_at)
+
+
+# ==================== 告知の世代管理 ====================
+
+
+def notice_status_header(publish_date: str, prev_dtstart: str | None) -> str:
+    """告知 description の冒頭に置く 1 行。
+
+    絵文字は cal-oshirase-fetch と同じ規約 (_lib.STATUS_MARKERS)。
+    """
+    if prev_dtstart:
+        return f"🔄 内容更新 (公開日: {publish_date} / 前回掲載: {prev_dtstart})"
+    return f"🆕 新着掲載 (公開日: {publish_date})"
+
+
+# `<prefix>-<id>-<hash>@`。本番エントリ (`-event@`) は世代ではないので除く。
+_NOTICE_UID_RE_TMPL = r"^{prefix}-(\d+)-(?!event@)([A-Za-z0-9]+)@"
+
+
+def existing_notice_generations(
+        events_dir: str, prefix: str) -> dict[str, list[tuple[str, str, str, str]]]:
+    """既存の告知 YAML を post_id 別に集めた世代索引を返す。
+
+    値は (dtstart, uid, path, content_hash) の list で dtstart 降順・同 dtstart は
+    path 降順に安定ソート済み (先頭 = 直前世代)。
+    """
+    pat = re.compile(_NOTICE_UID_RE_TMPL.format(prefix=re.escape(prefix)))
+    idx: dict[str, list[tuple[str, str, str, str]]] = {}
+    for path in glob.glob(os.path.join(events_dir, "**", "*.yaml"),
+                          recursive=True):
+        uid = read_yaml_scalar(path, "uid")
+        if not uid:
+            continue
+        m = pat.match(uid)
+        if not m:
+            continue
+        ch = read_yaml_scalar(path, "content_hash") or ""
+        if ch.startswith("sha256-"):
+            ch = ch[len("sha256-"):]
+        dtstart = read_yaml_scalar(path, "dtstart") or ""
+        idx.setdefault(m.group(1), []).append((dtstart, uid, path, ch))
+    for gens in idx.values():
+        gens.sort(key=lambda g: (g[0], g[2]), reverse=True)
+    return idx
+
+
+# ==================== 処理本体 ====================
+
+
+def build_description(extracted: dict, body_text: str) -> str:
+    """description 本体を組み立てる。
+
+    LLM 要約があればそれを使い AI 由来であることを明示する。無い場合 (API キー
+    不在・LLM 失敗) は本文を使う。この分岐で content_hash が変わるので、CI では
+    必ず ANTHROPIC_API_KEY を渡すこと (2026-05-26 の oshirase 障害と同じ罠)。
+    """
+    summary = (extracted or {}).get("summary") or ""
+    if summary:
+        return f"{AI_DISCLAIMER_JP}\n\n{summary}"
+    text = body_text.strip()
+    if len(text) > FULL_TEXT_THRESHOLD:
+        text = text[:FULL_TEXT_THRESHOLD].rstrip() + "…"
+    return text
+
+
+def check_news_count(n: int, min_news: int) -> None:
+    """API が返す件数の下限チェック。API 仕様変更・大量非公開を検知する。
+
+    news は蓄積型で 2017 年の記事も残っている (実測 137 件) ので下限を高く置ける。
+    """
+    if n < min_news:
+        print(f"FAIL: news from API ({n}) < --min-news ({min_news}). "
+              "API 仕様変更か大量非公開の可能性がある。", file=sys.stderr)
+        sys.exit(2)
+
+
+def _write(path: str, doc: str) -> None:
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(doc)
+
+
+def process_news(items: list[dict], out_dir: str, dry_run: bool,
+                 cache: dict) -> dict:
+    """記事ごとに告知 (常に) と本番 (条件付き) を書き出す。"""
+    stats = {"notice": 0, "notice_unchanged": 0, "event": 0,
+             "skipped_event": 0, "llm_fail": 0}
+    # 索引は 1 回だけ作る。記事ごとに走査すると O(n^2) になる。
+    generations = existing_notice_generations(out_dir, DEFAULT_UID_PREFIX)
+    for i, item in enumerate(items, 1):
+        print(f"[{i}/{len(items)}] {item['url']}", file=sys.stderr)
+        body_text = html_to_text(item["body_html"])
+        pub_str = jst_date_of(item["date_gmt"])
+        # 照合対象は LLM に見せたのと同じ文字列。タイトルだけに日付がある記事
+        # (「6月3日(水)…臨時休業のお知らせ」等) を取りこぼさないため。
+        match_text = llm_user_message(item["title"], body_text, pub_str)
+        extracted = extract_with_llm(item["title"], body_text, pub_str)
+        if extracted is None:
+            stats["llm_fail"] += 1
+            # 要約なしでも告知は出す。ただし cache には記録せず次回リトライさせる。
+            extracted = {"summary": "", "event_date": None,
+                         "event_end_date": None, "date_evidence": None,
+                         "status": "normal"}
+            recordable = False
+        else:
+            recordable = True
+
+        description = build_description(extracted, body_text)
+        pub_date = date.fromisoformat(pub_str)
+
+        n_hash = content_hash_of(item)
+        n_uid = notice_uid(DEFAULT_UID_PREFIX, item["id"], n_hash)
+        gens = generations.get(str(item["id"]), [])
+        if any(g[3] == n_hash for g in gens):
+            # 同じ内容の世代が既にある。新しい世代を作らない (flood 防止)。
+            stats["notice_unchanged"] += 1
+        else:
+            prev = gens[0] if gens else None
+            header = notice_status_header(pub_str, prev[0] if prev else None)
+            notice_desc = f"{header}\n\n{description}"
+            notice_path = output_path_for(out_dir, n_uid, pub_str)
+            if not dry_run:
+                _write(notice_path, build_notice_yaml(
+                    item, extracted, notice_desc,
+                    supersedes=prev[1] if prev else None))
+            stats["notice"] += 1
+            # 同一実行内で同じ記事が二度来ても重複世代を作らないよう索引を更新する
+            gens.insert(0, (pub_str, n_uid, notice_path, n_hash))
+            generations[str(item["id"])] = gens
+
+        ev_uid = event_uid(DEFAULT_UID_PREFIX, item["id"])
+        existing_event = find_existing_by_uid(out_dir, ev_uid)
+        conflict = find_manual_conflict(out_dir, item["url"])
+        ok, why = should_create_event(extracted, match_text, pub_date,
+                                      existing_event is not None, conflict)
+        if ok:
+            ev_path = output_path_for(out_dir, ev_uid, extracted["event_date"])
+            if not dry_run:
+                if existing_event and existing_event != ev_path:
+                    # 開催日が変わった場合は旧ファイルを消してから書く
+                    os.remove(existing_event)
+                _write(ev_path, build_event_yaml(item, extracted, description))
+            stats["event"] += 1
+        else:
+            stats["skipped_event"] += 1
+            print(f"  no event entry: {why}", file=sys.stderr)
+
+        if recordable:
+            entry = cache.setdefault(item["url"], {})
+            entry["modified_gmt"] = item.get("modified_gmt", "")
+    return stats
+
+
+def _total_count() -> int:
+    """API の総件数を数える。fetch_news_index は backfill で削るので別途数える。
+
+    X-WP-Total ヘッダを読めれば 1 リクエストで済むが、fetch_json が本文しか
+    返さないので `_fields=id` で全ページを辿る。転送量は小さい。
+    """
+    total = 0
+    page = 1
+    while True:
+        batch = fetch_json(f"{API_URL}?per_page={PER_PAGE}&page={page}&_fields=id")
+        if not isinstance(batch, list) or not batch:
+            break
+        total += len(batch)
+        if len(batch) < PER_PAGE:
+            break
+        page += 1
+    return total
+
+
+def main() -> None:
+    ap = argparse.ArgumentParser(
+        description="hanno-tourism.jp news イベント YAML 生成")
+    ap.add_argument("--out-dir", default="calendar/events")
+    ap.add_argument("--min-news", type=int, default=100,
+                    help="API が返す件数がこれ未満なら exit 2")
+    ap.add_argument("--backfill-months", type=int,
+                    default=DEFAULT_BACKFILL_MONTHS,
+                    help="この月数より古い記事は処理しない (毎回適用)")
+    ap.add_argument("--no-cache", action="store_true",
+                    help="modified_gmt によるスキップを行わない")
+    ap.add_argument("--dry-run", action="store_true")
+    args = ap.parse_args()
+
+    try:
+        items = fetch_news_index(args.backfill_months, datetime.now(JST).date())
+        total = _total_count()
+    except Exception as e:
+        print(f"FAIL: news API unavailable: {e}", file=sys.stderr)
+        sys.exit(2)
+
+    # 下限チェックは backfill フィルタ前の総数で見る。
+    check_news_count(total, args.min_news)
+
+    cache = {} if args.no_cache else load_http_cache()
+    if args.no_cache:
+        todo, unchanged = items, 0
+    else:
+        todo, unchanged = select_news_to_fetch(items, cache)
+
+    print(f"Processing {len(todo)} of {len(items)} news "
+          f"(unchanged={unchanged})", file=sys.stderr)
+
+    r = process_news(todo, args.out_dir, args.dry_run, cache)
+
+    if todo and r["llm_fail"] == len(todo):
+        print("FAIL: LLM extraction failed for every article.", file=sys.stderr)
+        sys.exit(2)
+
+    if not args.dry_run and not args.no_cache:
+        save_http_cache(cache)
+
+    print(f"notice={r['notice']} notice_unchanged={r['notice_unchanged']} "
+          f"event={r['event']} skipped_event={r['skipped_event']} "
+          f"llm_fail={r['llm_fail']} unchanged={unchanged}", file=sys.stderr)
+
+
+if __name__ == "__main__":
+    main()

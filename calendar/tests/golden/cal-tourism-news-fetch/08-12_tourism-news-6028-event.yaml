@@ -1,0 +1,23 @@
+uid: "tourism-news-6028-event@hanno.city.tecoli.com"
+summary: "🎪 ８月12日（水） 飯能なぐりの星空観察会 開催！"
+url: "https://hanno-tourism.jp/news/%ef%bc%98%e6%9c%8812%e6%97%a5%ef%bc%88%e6%b0%b4%ef%bc%89%e3%80%80%e9%a3%af%e8%83%bd%e3%81%aa%e3%81%90%e3%82%8a%e3%81%ae%e6%98%9f%e7%a9%ba%e8%a6%b3%e5%af%9f%e4%bc%9a%e3%80%80%e9%96%8b%e5%82%ac%ef%bc%81"
+dtstart: "2026-08-12"
+dtend: "2026-08-12"
+description: |-
+  奥むさし飯能観光協会: https://hanno-tourism.jp/news/%ef%bc%98%e6%9c%8812%e6%97%a5%ef%bc%88%e6%b0%b4%ef%bc%89%e3%80%80%e9%a3%af%e8%83%bd%e3%81%aa%e3%81%90%e3%82%8a%e3%81%ae%e6%98%9f%e7%a9%ba%e8%a6%b3%e5%af%9f%e4%bc%9a%e3%80%80%e9%96%8b%e5%82%ac%ef%bc%81
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  ペルセウス座流星群と夏の星空観察会を、グランピング施設ノーラ名栗で開催します。星のソムリエ®のナビゲートで、双眼鏡や天体望遠鏡を使い、流れ星や夏の大三角、二重星など夏の夜空の天体を観察します。日時は2026年8月12日（水）19:00～20:30（受付18:30～、集合18:50）。会場はノーラ名栗（埼玉県飯能市下名栗607-1）。参加費は大人1,000円、小学生以下500円、未就学児無料。定員は先着20名で事前申込制。持ち物は飲み物、レジャーシートや折りたたみイス。天候不順による延期・中止の判断は当日15:00までにメールで連絡され、予備日は8月13日（木）です。
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-tourism-jp-news
+  id: "6028"
+  url: "https://hanno-tourism.jp/news/%ef%bc%98%e6%9c%8812%e6%97%a5%ef%bc%88%e6%b0%b4%ef%bc%89%e3%80%80%e9%a3%af%e8%83%bd%e3%81%aa%e3%81%90%e3%82%8a%e3%81%ae%e6%98%9f%e7%a9%ba%e8%a6%b3%e5%af%9f%e4%bc%9a%e3%80%80%e9%96%8b%e5%82%ac%ef%bc%81"
+  fetched_at: "<TS>"
+  modified_gmt: "2026-07-27T07:34:10"
+  content_hash: "sha256-16c371092895d893"

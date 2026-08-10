@@ -16,3 +16,18 @@ shicho-blog:
   top_url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/index.html"
   url_host_allowlist: www.city.hanno.lg.jp
   url_path_prefix: "/shiseijoho/shichoshitsu/shichoblog/"
+
+# hanno-tourism.jp の news 投稿タイプ。tour (cal-tourism-fetch) とは別クローラ。
+# 1 記事から告知 (掲載日) と本番 (開催日) の最大 2 イベントを作る。
+tourism-news:
+  uid_prefix: tourism-news
+  source_type: hanno-tourism-jp-news
+  # 告知と本番で prefix を変える。本番側はイベント系タグの有無で決定論的に
+  # 選ぶ (LLM の判断を挟まない)。
+  summary_prefix_notice: "📢 "
+  summary_prefix_event: "🎪 "
+  summary_prefix_other: "ℹ️ "
+  api_url: "https://hanno-tourism.jp/wp-json/wp/v2/news"
+  url_host_allowlist: hanno-tourism.jp
+  url_path_prefix: "/news/"
+  backfill_months: 6

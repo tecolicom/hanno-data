@@ -20,11 +20,17 @@ import glob
 import json
 import os
 import re
+import sys
 import urllib.error
 import urllib.request
 from datetime import date as _date
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
+
+try:
+    import httpx
+except ImportError:  # CI / 最小環境では未インストールのことがある
+    httpx = None
 
 
 # ==================== 定数 ====================
@@ -192,6 +198,24 @@ def normalize_fullwidth_digits(s: str) -> str:
 def normalize_tilde(s: str) -> str:
     """全角ティルダ U+FF5E → 波ダッシュ U+301C."""
     return s.replace("～", "〜")
+
+
+# 丸括弧囲み (U+3289 系) と丸囲み漢字 (U+328A-U+3290) の両形式が実データに出る。
+# 例: 「飯能河原6/27㈯・28㈰」「3月21日㊏案内業務お休み」
+_CIRCLED_WEEKDAY = {
+    "㈪": "(月)", "㈫": "(火)", "㈬": "(水)", "㈭": "(木)",
+    "㈮": "(金)", "㈯": "(土)", "㈰": "(日)",
+    "㊊": "(月)", "㊋": "(火)", "㊌": "(水)", "㊍": "(木)",
+    "㊎": "(金)", "㊏": "(土)", "㊐": "(日)",
+}
+
+
+def normalize_circled_weekday(s: str) -> str:
+    """囲み曜日文字 (㈯ / ㊏ 等) を `(土)` 形式に開く.
+
+    日付の曜日整合チェックが読めるようにするための前処理。
+    """
+    return "".join(_CIRCLED_WEEKDAY.get(c, c) for c in s)
 
 
 def normalize_body(s: str) -> str:
@@ -465,3 +489,56 @@ def load_source_config(source_key: str, config_path: str | None = None) -> dict:
     if source_key not in data:
         raise KeyError(f"source '{source_key}' not found in {config_path}")
     return data[source_key]
+
+
+# ==================== LLM 呼び出し ====================
+
+
+ANTHROPIC_API_URL = "https://api.anthropic.com/v1/messages"
+ANTHROPIC_VERSION = "2023-06-01"
+
+
+def llm_available() -> bool:
+    """この環境で LLM 呼出が可能か (CI 等で httpx 無 / API key 無 を事前検知)."""
+    return httpx is not None and bool(os.environ.get("ANTHROPIC_API_KEY"))
+
+
+def call_llm(system: str, user: str, *, model: str, max_tokens: int,
+             temperature: float | None = None, timeout: int = 60) -> str | None:
+    """Anthropic Messages API を 1 回叩き、応答テキストを返す。失敗時 None。
+
+    Markdown 除去や後処理は行わない (呼出側が strip_markdown 等を掛ける)。
+    temperature は省略時リクエストに含めない (API 既定に委ねる)。
+    """
+    if httpx is None:
+        print("  WARN: httpx not installed, skipping LLM call", file=sys.stderr)
+        return None
+    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    if not api_key:
+        print("  WARN: ANTHROPIC_API_KEY not set, skipping LLM call", file=sys.stderr)
+        return None
+    payload = {
+        "model": model,
+        "max_tokens": max_tokens,
+        "system": system,
+        "messages": [{"role": "user", "content": user}],
+    }
+    if temperature is not None:
+        payload["temperature"] = temperature
+    try:
+        r = httpx.post(
+            ANTHROPIC_API_URL,
+            headers={
+                "x-api-key": api_key,
+                "anthropic-version": ANTHROPIC_VERSION,
+                "content-type": "application/json",
+            },
+            json=payload,
+            timeout=timeout,
+        )
+        r.raise_for_status()
+        data = r.json()
+        return data["content"][0]["text"].strip()
+    except Exception as e:
+        print(f"  WARN: LLM call failed: {e}", file=sys.stderr)
+        return None
