@@ -25,6 +25,8 @@ from datetime import date, datetime, timedelta, timezone
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from _lib import (  # noqa: E402
     USER_AGENT, load_source_config, load_http_cache, save_http_cache,
+    call_llm, llm_available, strip_html, normalize_body, strip_markdown,
+    normalize_circled_weekday, normalize_fullwidth_digits, normalize_tilde,
 )
 
 JST = timezone(timedelta(hours=9))
@@ -46,6 +48,68 @@ API_FIELDS = "id,link,slug,date_gmt,modified_gmt,title,content,tag-news"
 # tag-news のうちイベント系。掲載可否の判定には使わず、表示用 prefix の選択のみ。
 # 6=イベント, 7=飯能まつり, 8=エコツアー
 EVENT_TAG_IDS = {6, 7, 8}
+
+MIN_BODY_CHARS = 50          # これ未満なら LLM を呼ばない (ハルシネーション防止)
+FULL_TEXT_THRESHOLD = 400    # LLM 不在時、これ以下は全文掲載
+
+LLM_MODEL = "claude-haiku-4-5"
+LLM_MAX_TOKENS = 1024
+
+# v1: 初版。調査で確認した 6 つの失敗モードに一対一で対応させている
+# (docs/superpowers/specs/2026-08-10-tourism-news-design.md の「確認された失敗モード」)。
+EXTRACT_SYSTEM_PROMPT = """あなたは奥むさし飯能観光協会サイトのお知らせ記事から、市民向けカレンダーに載せる情報を取り出すアシスタントです。
+
+これは自動パイプラインの一部で、あなたの出力はプログラムがそのまま解釈します。人間との対話ではありません。読者に質問する・追加情報を求める・処理できない理由を説明する等の対話的応答は絶対にしないでください。
+
+出力は次の形の JSON オブジェクト 1 個だけです。前置き・説明・コードフェンスを付けないでください。
+
+{
+  "summary": "…",
+  "event_date": "YYYY-MM-DD" または null,
+  "event_end_date": "YYYY-MM-DD" または null,
+  "date_evidence": "本文からの引用" または null,
+  "status": "normal" | "canceled" | "postponed" | "ended"
+}
+
+## event_date の決め方
+
+記事の主題となるイベントの開催日 (初日) を返します。次の区別を必ず守ってください。
+
+- **更新スタンプは開催日ではありません**。「【6/26更新】」「6/16更新」「※4/4AM更新」のような表記は、記事やチラシ画像が更新された日付です。これを event_date にしてはいけません。
+- **終了日は event_date ではありません**。「9月6日(日)まで」のように終了日しか書かれていない開催中の企画では、event_date は null、event_end_date に終了日を入れてください。開始日が本文に明記されている場合だけ event_date を埋めます。
+- **副イベント・協賛イベントの日付ではなく、記事の主題の日付**を返してください。例えば「ひな飾り展」の記事に協賛イベント「丸太雛めぐり」の日程が併記されている場合、返すのはひな飾り展の日程です。
+- **記事の主目的が募集・協賛のお願いであっても、本文に開催日が明記されていれば返してください**。
+- 期間のあるイベントは event_date に初日、event_end_date に最終日を入れます。単日なら event_end_date は null です。
+- 年が本文に書かれていない場合、記事の公開日から最も自然な年を推定してください。ただし推定に自信が持てない場合は event_date を null にしてください。**推測で埋めるより null のほうが良い結果になります。**
+- 開催日が読み取れない記事 (会報誌の発行案内、アンケート依頼など) では event_date を null にしてください。
+
+## date_evidence
+
+event_date の根拠にした本文中の記述を、**本文からそのまま一字一句コピー**してください。要約・言い換え・整形をしてはいけません。プログラムがこの文字列を本文から検索して照合します。event_date が null なら date_evidence も null です。
+
+## status
+
+- `canceled`: 中止が決定したと本文が述べている
+- `postponed`: 延期されたと本文が述べている
+- `ended`: 既に終了した・受付を締め切ったと本文が述べている
+- `normal`: 上記以外
+
+**「雨天決行・荒天中止」「天候により中止する場合があります」のような条件付きの注意書きは `canceled` ではありません。** これらは開催予定の記事です。実際に中止・延期が決定したと書かれている場合だけ `canceled` / `postponed` にしてください。
+
+中止・延期の場合も、**event_date には元々の開催予定日をそのまま入れてください** (null にしない)。カレンダー側で「【中止】」を付けて表示します。
+
+## summary
+
+- 全体で 200〜400 字程度の日本語。
+- 日時・場所・対象者・料金・申込締切・申込方法など、市民の行動に関わる事実は省略しない。本文に書かれていないことは書かない (推測禁止)。
+- 中止・延期・終了のステータスがある場合は、要約の冒頭に置いてください。市民が誤って参加しようとしないためです。
+- 日付や金額は本文表記のまま (令和8年8月8日 等)。
+- 出だしに「お知らせ:」「概要:」のような冗語は不要。本題から始める。
+- 末尾に URL や「詳細は〜」を付けない。呼出側で付与する。
+- **Markdown 記法 (**太字**、# 見出し、- リスト、リンク等) は一切使わないでください**。出力先は Google カレンダーの予定欄で、Markdown は literal なテキストとして表示されます。構造化したい場合は改行と全角記号で: 箇条書きは行頭「・」、見出しは「【見出し】」。
+"""
+
+_VALID_STATUS = {"normal", "canceled", "postponed", "ended"}
 
 
 # ==================== REST API 取得 ====================
@@ -116,3 +180,59 @@ def select_news_to_fetch(items: list[dict], cache: dict) -> tuple[list[dict], in
             continue
         todo.append(it)
     return todo, unchanged
+
+
+# ==================== LLM 抽出 ====================
+
+
+def html_to_text(html: str) -> str:
+    """記事本文 HTML を、日付照合に使える正規化済みテキストにする。"""
+    text = normalize_body(strip_html(html))
+    text = normalize_circled_weekday(text)
+    text = normalize_fullwidth_digits(text)
+    return normalize_tilde(text)
+
+
+def _strip_code_fence(s: str) -> str:
+    """LLM が ```json ... ``` で包んで返した場合に中身を取り出す。"""
+    t = s.strip()
+    if not t.startswith("```"):
+        return t
+    lines = t.split("\n")
+    if lines[-1].strip().startswith("```"):
+        lines = lines[:-1]
+    return "\n".join(lines[1:]).strip()
+
+
+def extract_with_llm(title: str, body_text: str) -> dict | None:
+    """本文から要約・開催日・ステータスを抽出する。失敗時 None。
+
+    抽出は創造性が不要で、ブレると日付が揺れて content_hash が変動する。
+    temperature を 0 に固定する。
+    """
+    if not body_text or len(body_text) < MIN_BODY_CHARS:
+        # 安全装置: 薄い本文で LLM を呼ばない (ハルシネーション防止)
+        return None
+    raw = call_llm(EXTRACT_SYSTEM_PROMPT, f"# {title}\n\n{body_text}",
+                   model=LLM_MODEL, max_tokens=LLM_MAX_TOKENS, temperature=0)
+    if raw is None:
+        return None
+    try:
+        data = json.loads(_strip_code_fence(raw))
+    except Exception as e:
+        print(f"  WARN: LLM returned non-JSON: {e}", file=sys.stderr)
+        return None
+    if not isinstance(data, dict):
+        print("  WARN: LLM returned non-object JSON", file=sys.stderr)
+        return None
+    status = data.get("status")
+    if status not in _VALID_STATUS:
+        status = "normal"
+    summary = data.get("summary") or ""
+    return {
+        "summary": strip_markdown(str(summary).strip(), bullet="・"),
+        "event_date": data.get("event_date") or None,
+        "event_end_date": data.get("event_end_date") or None,
+        "date_evidence": data.get("date_evidence") or None,
+        "status": status,
+    }
