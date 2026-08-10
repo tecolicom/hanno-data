@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-10T08:05:54.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nHanno Station Tourist Information Center \"Puratto Hanno\" will close temporarily on June 3, 2025 (Wednesday) due to Typhoon No. 6 approaching the area. Normal hours will resume on June 4 (Thursday). Oku-Musashi Hanno Tourism Association (located inside Hanno Chamber of Commerce and Industry) will remain open as usual on June 3.\n\nFor more information: https://hanno-tourism.jp/news/%e9%a3%af%e8%83%bd%e9%a7%85%e8%a6%b3%e5%85%89%e6%a1%88%e5%86%85%e6%89%80%e3%80%8c%e3%81%b7%e3%82%89%e3%81%a3%e3%81%a8%e9%a3%af%e8%83%bd%e3%80%8d6%e6%9c%883%e6%97%a5%e6%b0%b4%e5%8f%b0%e9%a2%a8",
+  "end": {
+    "date": "2026-06-04"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFyajVldHBpcWQ5bjc0cjJxcGJtY2xuNzhnMzhjNW42c3JwZWNka244dTllZWhpbTZycmNkNG42NnJyZCBkOTE5M2NmNWY2NDRhYjQxYTI4ZTIyNjhhOThhYmM1YWE0MjZiZDJkNTc3MTUyODM0MjQ0YWQ2OWEzMWY1YTY4QGc",
+  "iCalUID": "tourism-news-5796-event@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqrj5etpiqd9n74r2qpbmcln78g38c5n6srpecdkn8u9eehim6rrcd4n66rrd",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/news/%e9%a3%af%e8%83%bd%e9%a7%85%e8%a6%b3%e5%85%89%e6%a1%88%e5%86%85%e6%89%80%e3%80%8c%e3%81%b7%e3%82%89%e3%81%a3%e3%81%a8%e9%a3%af%e8%83%bd%e3%80%8d6%e6%9c%883%e6%97%a5%e6%b0%b4%e5%8f%b0%e9%a2%a8"
+  },
+  "start": {
+    "date": "2026-06-03"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Hanno Station Tourist Information Center \"Puratto Hanno\" — Temporary Closure on June 3 (Wed) Due to Typhoon",
+  "updated": "2026-08-10T08:05:55.015Z"
+}
