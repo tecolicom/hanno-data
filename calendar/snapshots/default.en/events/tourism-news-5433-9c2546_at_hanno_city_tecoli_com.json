@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-10T07:27:28.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nOku-Musashi Hanno Tourism Association\n\n🆕 New Post (Published: April 10, 2026 / Reiwa 8)\n\nNotice to Members\n\nThe Oku-Musashi Hanno Tourism Association has been publishing the member newsletter \"Hanno Ii-Shiume\" four times a year (January, April, July, October) since October 2023 (Reiwa 5) to keep member businesses informed of the association's activities.\n\nThe association is currently reviewing its overall operations. For public relations, we are focusing on external promotional activities and will shift communication to member businesses back to the approach we used before publishing \"Hanno Ii-Shiume.\"\n\nAccordingly, we are temporarily suspending publication of \"Hanno Ii-Shiume.\" We apologize for this interruption. We will continue to share updates on our programs and event announcements through the website section \"Hanno. Ii-Shiume.\" (Hanno. Just Right.), so please visit us there.\n\nWe regret the loss of regular printed information and appreciate your understanding given the circumstances.\n\nOku-Musashi Hanno Tourism Association\n\n▽ Member notification document (PDF)…",
+  "end": {
+    "date": "2026-04-11"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFyajVldHBpcWQ5azZjcGlxZWIzNjhxajhkaTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIGQ5MTkzY2Y1ZjY0NGFiNDFhMjhlMjI2OGE5OGFiYzVhYTQyNmJkMmQ1NzcxNTI4MzQyNDRhZDY5YTMxZjVhNjhAZw",
+  "iCalUID": "tourism-news-5433-9c2546@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqrj5etpiqd9k6cpiqeb368qj8di0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/news/%e3%80%90%e4%bc%9a%e5%93%a1%e3%81%ae%e7%9a%86%e6%a7%98%e3%81%b8%e3%80%91%e4%bc%9a%e5%a0%b1%e8%aa%8c%e4%bc%91%e5%88%8a%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b"
+  },
+  "start": {
+    "date": "2026-04-10"
+  },
+  "status": "confirmed",
+  "summary": "📢 【Notice to Members】Publication of Newsletter Suspended",
+  "updated": "2026-08-10T07:27:29.145Z"
+}

@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-10T07:27:40.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nOku-Musashi Hanno Tourism Association\n\nDue to approaching typhoon conditions, Hanno Riverbed business status is as follows:\n• June 27 (Saturday): Closed\n• June 28 (Sunday): Will be decided based on river water levels\n\nBusiness updates will be posted on the official X account \"Hanno Riverbed. Just right.\" (飯能河原。いい塩梅。). Please do not go to the riverbed to check water levels directly—it is dangerous.",
+  "end": {
+    "date": "2026-06-27"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFyajVldHBpcWQ5bzcwcTJxcDlqNnNyamllMjBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIGQ5MTkzY2Y1ZjY0NGFiNDFhMjhlMjI2OGE5OGFiYzVhYTQyNmJkMmQ1NzcxNTI4MzQyNDRhZDY5YTMxZjVhNjhAZw",
+  "iCalUID": "tourism-news-5884-e37798@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqrj5etpiqd9o70q2qp9j6srjie20d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/news/%e9%a3%af%e8%83%bd%e6%b2%b3%e5%8e%9f6-27%e3%88%af%e3%83%bb28%e3%88%b0%e3%81%ae%e5%96%b6%e6%a5%ad%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6"
+  },
+  "start": {
+    "date": "2026-06-26"
+  },
+  "status": "confirmed",
+  "summary": "📢 Hanno Riverbed: Business status for June 27–28",
+  "updated": "2026-08-10T07:27:41.244Z"
+}

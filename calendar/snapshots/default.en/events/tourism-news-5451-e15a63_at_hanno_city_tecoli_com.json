@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-10T07:27:30.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nHanno Riverbed opens for the season on Saturday, April 25, 2026 (Reiwa 8).\n\nThe site has two areas: a free water-play zone where you can enjoy swimming and water activities, and a paid barbecue area where fires are permitted. It's about a 15-minute walk from Hanno Station. Barbecue equipment rental is available on-site.\n\nNote: The Stage Plaza (wooden deck area) will be under renovation until around the end of June 2026. Large vehicles may use nearby roads during this period. On days when staff are present, garbage collection service is provided.\n\nMore information: https://hanno-tourism.jp/news/%e4%bb%a4%e5%92%8c8%e5%b9%b4%e5%ba%a6-%e9%a3%af%e8%83%bd%e6%b2%b3%e5%8e%9f%e3%81%ae%e5%96%b6%e6%a5%ad%e3%81%8c%e5%a7%8b%e3%81%be%e3%82%8a%e3%81%be%e3%81%99%e3%80%82",
+  "end": {
+    "date": "2026-04-21"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFyajVldHBpcWQ5azZrb2lxcDloNmxnamNjcTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIGQ5MTkzY2Y1ZjY0NGFiNDFhMjhlMjI2OGE5OGFiYzVhYTQyNmJkMmQ1NzcxNTI4MzQyNDRhZDY5YTMxZjVhNjhAZw",
+  "iCalUID": "tourism-news-5451-e15a63@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqrj5etpiqd9k6koiqp9h6lgjccq0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/news/%e4%bb%a4%e5%92%8c8%e5%b9%b4%e5%ba%a6-%e9%a3%af%e8%83%bd%e6%b2%b3%e5%8e%9f%e3%81%ae%e5%96%b6%e6%a5%ad%e3%81%8c%e5%a7%8b%e3%81%be%e3%82%8a%e3%81%be%e3%81%99%e3%80%82"
+  },
+  "start": {
+    "date": "2026-04-20"
+  },
+  "status": "confirmed",
+  "summary": "📢 Hanno Riverbed (Hanno Kawara) opens for the 2026 season starting April 25.",
+  "updated": "2026-08-10T07:27:30.631Z"
+}

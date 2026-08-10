@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-10T07:27:46.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nPerseid meteor shower and summer stargazing event. Hosted at Nora Naguri, a glamping facility.\n\nA Star Sommelier® will guide you through observing shooting stars, the Summer Triangle, the Milky Way, and more using binoculars and telescopes.\n\n【Date & Time】\nAugust 12, 2026 (Reiwa 8), 7:00 p.m. – 8:30 p.m.\nRegistration opens: 6:30 p.m.; gathering: 6:50 p.m.\nRain date: August 13, 2026 (Thursday)\n\n【Venue】\nNora Naguri, 607-1 Shimo-Naguri, Hanno, Saitama Prefecture\n\n【Fees】\nAdults: ¥1,000\nElementary school and younger: ¥500\nPreschoolers: Free\n\n【Capacity】\nFirst-come, first-served; 20 people maximum. Pre-registration required.\n\n【What to Bring】\nBeverages, picnic blanket, or folding chair\n\n【Cancellation Notice】\nDecisions about postponement or cancellation due to weather will be announced by email by 3:00 p.m. on the day of the event.\n\nFor more information, visit the Oku-Musashi Hanno Tourism Association website.",
+  "end": {
+    "date": "2026-07-28"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFyajVldHBpcWRoZzY4czJxYzltY2NwamVjYTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIGQ5MTkzY2Y1ZjY0NGFiNDFhMjhlMjI2OGE5OGFiYzVhYTQyNmJkMmQ1NzcxNTI4MzQyNDRhZDY5YTMxZjVhNjhAZw",
+  "iCalUID": "tourism-news-6028-16c371@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqrj5etpiqdhg68s2qc9mccpjeca0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/news/%ef%bc%98%e6%9c%8812%e6%97%a5%ef%bc%88%e6%b0%b4%ef%bc%89%e3%80%80%e9%a3%af%e8%83%bd%e3%81%aa%e3%81%90%e3%82%8a%e3%81%ae%e6%98%9f%e7%a9%ba%e8%a6%b3%e5%af%9f%e4%bc%9a%e3%80%80%e9%96%8b%e5%82%ac%ef%bc%81"
+  },
+  "start": {
+    "date": "2026-07-27"
+  },
+  "status": "confirmed",
+  "summary": "📢 August 12 (Wed) Hanno Stargazing Event – Perseid Meteor Shower Observation!",
+  "updated": "2026-08-10T07:27:47.130Z"
+}

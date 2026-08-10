@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-10T07:27:20.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nOku-Musashi Hanno Tourism Association: https://hanno-tourism.jp/news/%e3%82%b9%e3%82%bf%e3%83%b3%e3%83%97%e3%83%a9%e3%83%aa%e3%83%bc%e3%81%ab%e5%8f%82%e5%8a%a0%e3%81%97%e3%81%a6%e3%80%8e%e3%83%a4%e3%83%9e%e3%83%8e%e3%82%b9%e3%82%b9%e3%83%a1-next-summit%e3%80%8f\n\nNew Post (Published: March 3, 2026)\n\n【ENDED】The masking tape giveaway for the 'Yamanano Susume Next Summit' stamp rally has ended. The stamp rally itself is still ongoing.\n\nStamp Rally Period: March 7–22, 2026 (Reiwa 8)\nPrize Distribution Location: Oku-Musashi Hanno Tourism Association (1-7 Honcho, Hanno City), 9:00 a.m.–5:00 p.m.\n※On Saturday, March 21, prizes will be distributed at the tourism information desk \"Puratto Hanno\" next to the Hanno Station ticket gate.\n\nParticipation requires a smartphone and the app downloaded/installed.",
+  "end": {
+    "date": "2026-03-04"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFyajVldHBpcWQ5aTY0cmlxbzltNjRzamNlYTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIGQ5MTkzY2Y1ZjY0NGFiNDFhMjhlMjI2OGE5OGFiYzVhYTQyNmJkMmQ1NzcxNTI4MzQyNDRhZDY5YTMxZjVhNjhAZw",
+  "iCalUID": "tourism-news-5217-a61969@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqrj5etpiqd9i64riqo9m64sjcea0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/news/%e3%82%b9%e3%82%bf%e3%83%b3%e3%83%97%e3%83%a9%e3%83%aa%e3%83%bc%e3%81%ab%e5%8f%82%e5%8a%a0%e3%81%97%e3%81%a6%e3%80%8e%e3%83%a4%e3%83%9e%e3%83%8e%e3%82%b9%e3%82%b9%e3%83%a1-next-summit%e3%80%8f"
+  },
+  "start": {
+    "date": "2026-03-03"
+  },
+  "status": "confirmed",
+  "summary": "📢 【3/22 Update】'Yamanano Susume Next Summit' Masking Tape Distribution Ended",
+  "updated": "2026-08-10T07:27:21.211Z"
+}

@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-10T07:27:36.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nOkumushi Hanno Tourism Association: https://hanno-tourism.jp/news/%e9%a3%af%e8%83%bd%e6%b2%b3%e5%8e%9f6-6%e3%88%af%e3%83%bb7%e3%88%b0%e3%81%ae%e5%96%b6%e6%a5%ad%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6\n\nNew (Published: June 4, 2026)\n\nHanno Riverbed is currently swollen due to Typhoon No. 6. Following the typhoon's approach on June 2–3, the sandbars are underwater. However, if there is no rain on Saturday, June 6, and Sunday, June 7, the fire-use areas will operate normally. If it rains, staffed operation will not take place. BBQ and other activities are still possible, but the fast current from the high water is dangerous — please do not enter the river for swimming or water play. Parents with children should exercise extra caution. Those planning to visit are asked to check the official website \"Hanno Riverbed. Ii-Shiokume.\" in advance to confirm rules and details.",
+  "end": {
+    "date": "2026-06-05"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFyajVldHBpcWQ5bzYwbzJxcDFnY2hoNjZwYTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIGQ5MTkzY2Y1ZjY0NGFiNDFhMjhlMjI2OGE5OGFiYzVhYTQyNmJkMmQ1NzcxNTI4MzQyNDRhZDY5YTMxZjVhNjhAZw",
+  "iCalUID": "tourism-news-5800-d0dbce@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqrj5etpiqd9o60o2qp1gchh66pa0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/news/%e9%a3%af%e8%83%bd%e6%b2%b3%e5%8e%9f6-6%e3%88%af%e3%83%bb7%e3%88%b0%e3%81%ae%e5%96%b6%e6%a5%ad%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6"
+  },
+  "start": {
+    "date": "2026-06-04"
+  },
+  "status": "confirmed",
+  "summary": "📢 Hanno Riverbed operating status for June 6–7, 2026",
+  "updated": "2026-08-10T07:27:37.151Z"
+}

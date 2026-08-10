@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-10T07:27:34.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n【ENDED】The market and food truck pop-ups at Hanno City Hall closed on June 30, 2026 (Reiwa 8). They ran as a lunch-time trial from April through June. Food trucks appeared almost daily; markets set up weekly on the main building's wood deck. Vendors offered a range of items: grilled chicken, curry, samosas, tea, jam, chimaki (bamboo-wrapped rice dumplings), dango (sweet rice balls), roasted corn snacks, and more. Seating with \"hashira benches\" (wooden benches) was available on the first-floor wood deck of the main building. Advance reservations could be made by contacting individual vendors the day before, though purchases without reservation were also possible.",
+  "end": {
+    "date": "2026-05-26"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFyajVldHBpcWQ5bzZzcTJxZHIzNmxqNjhlYTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIGQ5MTkzY2Y1ZjY0NGFiNDFhMjhlMjI2OGE5OGFiYzVhYTQyNmJkMmQ1NzcxNTI4MzQyNDRhZDY5YTMxZjVhNjhAZw",
+  "iCalUID": "tourism-news-5874-7c5fd9@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqrj5etpiqd9o6sq2qdr36lj68ea0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/news/6%e6%9c%88%e3%82%82-%e9%a3%af%e8%83%bd%e5%b8%82%e5%bd%b9%e6%89%80%e3%81%a7%e3%82%ad%e3%83%83%e3%83%81%e3%83%b3%e3%82%ab%e2%80%95%e3%81%a8%e3%83%9e%e3%83%ab%e3%82%b7%e3%82%a7%e5%a7%8b%e3%82%81-2"
+  },
+  "start": {
+    "date": "2026-05-25"
+  },
+  "status": "confirmed",
+  "summary": "📢 June too! / Hanno City Hall food truck and market pilot wraps up",
+  "updated": "2026-08-10T07:27:35.124Z"
+}

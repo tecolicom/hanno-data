@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-10T07:24:16.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "奥むさし飯能観光協会: https://hanno-tourism.jp/news/%e3%81%af%e3%82%93%e3%81%ae%e3%81%86%e6%98%ad%e5%92%8c%e7%9b%86%e8%b8%8a%e3%82%8a%e2%99%aa\n\nAI による要約 (正確な情報は元記事をご確認ください)\n\nはんのう昭和盆踊りが開催されます。今年で3回目の開催となる毎回大盛況のイベントです。\n\n日時：2026年8月8日(土)　15:30〜20:30\n場所：飯能信用金庫　飯能中央支店 駐車場\n\n荒天の場合は9日(日)に順延となります。",
+  "end": {
+    "date": "2026-08-09"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFyajVldHBpcWRoZzZvcGlxcGJtY2xuNzhnMzhjNW42c3JwZWNka244dTllZWhpbTZycmNkNG42NnJyZCAyMDU0MDNjOTcxZGM1ZWYyMWVmZDgxYzFkNTM4NDljYWRmZDkwMWI3NWM3N2Q4ODk1NWQ5NjAwZjQ1ZjJhMDEzQGc",
+  "iCalUID": "tourism-news-6063-event@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqrj5etpiqdhg6opiqpbmcln78g38c5n6srpecdkn8u9eehim6rrcd4n66rrd",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能カレンダー",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/news/%e3%81%af%e3%82%93%e3%81%ae%e3%81%86%e6%98%ad%e5%92%8c%e7%9b%86%e8%b8%8a%e3%82%8a%e2%99%aa"
+  },
+  "start": {
+    "date": "2026-08-08"
+  },
+  "status": "confirmed",
+  "summary": "🎪 8月8日(土) はんのう昭和盆踊りへ♪",
+  "updated": "2026-08-10T07:24:16.449Z"
+}

@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-10T07:24:06.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "奥むさし飯能観光協会: https://hanno-tourism.jp/news/%e9%a3%af%e8%83%bd%e6%b2%b3%e5%8e%9f6-6%e3%88%af%e3%83%bb7%e3%88%b0%e3%81%ae%e5%96%b6%e6%a5%ad%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6\n\nAI による要約 (正確な情報は元記事をご確認ください)\n\n飯能河原は台風6号の影響により増水しています。6月2～3日の台風接近により中洲が水浸しの状態ですが、6月6日(土)・7日(日)は雨が降らなければ通常通り火気使用エリアの営業を行います。雨の場合はスタッフ配備の営業はしません。BBQ等の利用は可能ですが、増水で流れが早く危険なため、水遊びなど川の中には入らないようお願いします。お子様連れの方は十分注意してください。利用予定の方は事前に公式サイト「飯能河原。いい塩梅。」でルール等を確認してください。",
+  "end": {
+    "date": "2026-06-08"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFyajVldHBpcWQ5bzYwbzJxcGJtY2xuNzhnMzhjNW42c3JwZWNka244dTllZWhpbTZycmNkNG42NnJyZCAyMDU0MDNjOTcxZGM1ZWYyMWVmZDgxYzFkNTM4NDljYWRmZDkwMWI3NWM3N2Q4ODk1NWQ5NjAwZjQ1ZjJhMDEzQGc",
+  "iCalUID": "tourism-news-5800-event@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqrj5etpiqd9o60o2qpbmcln78g38c5n6srpecdkn8u9eehim6rrcd4n66rrd",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能カレンダー",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/news/%e9%a3%af%e8%83%bd%e6%b2%b3%e5%8e%9f6-6%e3%88%af%e3%83%bb7%e3%88%b0%e3%81%ae%e5%96%b6%e6%a5%ad%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6"
+  },
+  "start": {
+    "date": "2026-06-06"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 飯能河原6/6㈯・7㈰の営業について",
+  "updated": "2026-08-10T07:24:06.427Z"
+}

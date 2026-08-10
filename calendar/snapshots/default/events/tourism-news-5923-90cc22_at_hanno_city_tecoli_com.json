@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-10T07:24:10.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "奥むさし飯能観光協会: https://hanno-tourism.jp/news/%e3%80%8c%e3%83%a0%e3%83%bc%e3%83%9f%e3%83%b3%e8%b0%b7%e3%81%a7%e3%81%bf%e3%81%9a%e3%81%82%e3%81%9d%e3%81%b3%e3%80%8d%e9%96%8b%e5%82%ac%e4%b8%ad\n\n🆕 新着掲載 (公開日: 2026-07-10)\n\nAI による要約 (正確な情報は元記事をご確認ください)\n\nムーミンバレーパークで夏のイベント「ムーミン谷でみずあそび」を開催中。モランと水しぶきを浴びる「夏のモランとスノー＆スプラッシュ！」、エンマの劇場でのサマーアイテムをまとったキャラクター登場「サンサン サニー プレイタイム」、湖上テラスでのどしゃ降りを楽しむ「ニョロニョロのどしゃ降りスコール」などが実施されます。隣接するメッツアビレッジでは「エルフの森　－メッツァの雲海2026－」を同時開催。イベント限定スペシャルフードとして、ムーミン谷のカップソフト　なつのひんやりソーダ　やブルーなごろっとパイナップルのかき氷などが提供されます。",
+  "end": {
+    "date": "2026-07-11"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFyajVldHBpcWQ5cDY4cGlxZTlnY2RoajRjaTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIDIwNTQwM2M5NzFkYzVlZjIxZWZkODFjMWQ1Mzg0OWNhZGZkOTAxYjc1Yzc3ZDg4OTU1ZDk2MDBmNDVmMmEwMTNAZw",
+  "iCalUID": "tourism-news-5923-90cc22@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqrj5etpiqd9p68piqe9gcdhj4ci0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能カレンダー",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/news/%e3%80%8c%e3%83%a0%e3%83%bc%e3%83%9f%e3%83%b3%e8%b0%b7%e3%81%a7%e3%81%bf%e3%81%9a%e3%81%82%e3%81%9d%e3%81%b3%e3%80%8d%e9%96%8b%e5%82%ac%e4%b8%ad"
+  },
+  "start": {
+    "date": "2026-07-10"
+  },
+  "status": "confirmed",
+  "summary": "📢 「ムーミン谷でみずあそび」開催中",
+  "updated": "2026-08-10T07:24:10.522Z"
+}

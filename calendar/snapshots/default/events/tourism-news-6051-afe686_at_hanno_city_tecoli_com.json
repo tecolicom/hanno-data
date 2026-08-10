@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-10T07:24:15.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "奥むさし飯能観光協会: https://hanno-tourism.jp/news/eco-flier-autumn2026\n\n🆕 新着掲載 (公開日: 2026-08-04)\n\n飯能エコツアーチラシ2026.秋号\n\n※画像クリックでPDFファイルをご覧いただけます。",
+  "end": {
+    "date": "2026-08-05"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFyajVldHBpcWRoZzZrb2lxb2I2Y2tyM2dkaTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIDIwNTQwM2M5NzFkYzVlZjIxZWZkODFjMWQ1Mzg0OWNhZGZkOTAxYjc1Yzc3ZDg4OTU1ZDk2MDBmNDVmMmEwMTNAZw",
+  "iCalUID": "tourism-news-6051-afe686@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqrj5etpiqdhg6koiqob6ckr3gdi0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能カレンダー",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/news/eco-flier-autumn2026"
+  },
+  "start": {
+    "date": "2026-08-04"
+  },
+  "status": "confirmed",
+  "summary": "📢 飯能エコツアーチラシ2026.秋号",
+  "updated": "2026-08-10T07:24:15.373Z"
+}

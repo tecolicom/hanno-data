@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-10T07:27:19.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nOku-Musashi Hanno Tourism Association: https://hanno-tourism.jp/news/%e3%81%b2%e3%81%aa%e9%a3%be%e3%82%8a%e3%83%9e%e3%83%ab%e3%82%b7%e3%82%a7%e5%b0%8f%e7%94%ba%e5%85%ac%e5%9c%92\n\nNew listing (Published: February 27, 2026)\n\nA market will be held at Hanno Komachi Park to coincide with the Hanno Hinamatsuri Doll Display exhibition. Food trucks will be on site selling a variety of items including shaved ice, crepes, kebab, spare ribs, and more. The market runs on February 28 (Saturday), March 1 (Sunday), March 7 (Saturday), and March 8 (Sunday). There is no parking at the venue, so please use nearby paid parking lots or coin-operated parking. Vendor offerings may change due to weather or other conditions.",
+  "end": {
+    "date": "2026-02-28"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFyajVldHBpcWQ5aTY4cGlxbzlwYzhzbTRwaTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIGQ5MTkzY2Y1ZjY0NGFiNDFhMjhlMjI2OGE5OGFiYzVhYTQyNmJkMmQ1NzcxNTI4MzQyNDRhZDY5YTMxZjVhNjhAZw",
+  "iCalUID": "tourism-news-5223-a9b9bf@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqrj5etpiqd9i68piqo9pc8sm4pi0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/news/%e3%81%b2%e3%81%aa%e9%a3%be%e3%82%8a%e3%83%9e%e3%83%ab%e3%82%b7%e3%82%a7%e5%b0%8f%e7%94%ba%e5%85%ac%e5%9c%92"
+  },
+  "start": {
+    "date": "2026-02-27"
+  },
+  "status": "confirmed",
+  "summary": "📢 Hinamatsuri Doll Display Market @ Komachi Park",
+  "updated": "2026-08-10T07:27:19.738Z"
+}

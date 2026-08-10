@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-10T07:27:44.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nHanno Summer Festival 2026 (Reiwa 8) takes place July 18 (Saturday) and 19 (Sunday).\n\n【July 18 (Eve Festival / Yoimiya)】\nPrayer ceremony at Hanno Yasaka Shrine from 11:45 a.m. Festival floats (yatai) begin touring the neighborhoods around 9 a.m. and continue throughout the day until 9 p.m.\n\n【July 19 (Main Festival)】\nAt 3 p.m., floats from five neighborhoods gather and line up in front of Hanno Yasaka Shrine. Celebratory music (shōbayashi) is offered and worshippers pay respects. Afterward, floats are paraded through various parts of the city. At 7:40 p.m., floats from ten neighborhoods gather on the main avenue for a final parade.\n\n【General Information】\nBoth days feature food stalls and local product vendors. The venue is a short walk from the north exit of Hanno Station. Public transportation is recommended (no dedicated parking). Traffic restrictions will be in effect on both days in the relevant areas and times.\n\nFor details, visit the Oku-Musashi Hanno Tourism Association website.",
+  "end": {
+    "date": "2026-07-15"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFyajVldHBpcWQ5bzc0cjJxcDlrY2tzbWFkaTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIGQ5MTkzY2Y1ZjY0NGFiNDFhMjhlMjI2OGE5OGFiYzVhYTQyNmJkMmQ1NzcxNTI4MzQyNDRhZDY5YTMxZjVhNjhAZw",
+  "iCalUID": "tourism-news-5896-e4e9e6@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqrj5etpiqd9o74r2qp9kcksmadi0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/news/%e4%bb%a4%e5%92%8c%ef%bc%98%e5%b9%b4%e9%a3%af%e8%83%bd%e5%a4%8f%e7%a5%ad%e3%82%8a%e3%80%807%e6%9c%8818%e6%97%a5%e5%9c%9f%e3%83%bb19%e6%97%a5%e6%97%a5%e9%96%8b%e5%82%ac"
+  },
+  "start": {
+    "date": "2026-07-14"
+  },
+  "status": "confirmed",
+  "summary": "📢 Hanno Summer Festival 2026 (Reiwa 8): July 18–19",
+  "updated": "2026-08-10T07:27:44.539Z"
+}

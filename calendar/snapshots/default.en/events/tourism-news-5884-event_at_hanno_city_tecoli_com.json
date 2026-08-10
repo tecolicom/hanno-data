@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-10T07:27:41.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nHanno Riverbed Operations Notice Due to Typhoon\n\nDue to an approaching typhoon, operations at Hanno Riverbed will be as follows:\n\n• June 27 (Saturday) – CLOSED\n• June 28 (Sunday) – Decision will be made based on river water level conditions\n\nOperations updates will be posted on the official X (Twitter) account \"Hanno Riverbed. Ii-Shiome.\" (飯能河原。いい塩梅。)\n\nPlease do not go to the riverbed to check water conditions yourself – this is dangerous.\n\nFor more information: Oku-Musashi Hanno Tourism Association (奥むさし飯能観光協会)\nhttps://hanno-tourism.jp/news/%e9%a3%af%e8%83%bd%e6%b2%b3%e5%8e%9f6-27%e3%88%af%e3%83%bb28%e3%88%b0%e3%81%ae%e5%96%b6%e6%a5%ad%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6",
+  "end": {
+    "date": "2026-06-29"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFyajVldHBpcWQ5bzcwcTJxcGJtY2xuNzhnMzhjNW42c3JwZWNka244dTllZWhpbTZycmNkNG42NnJyZCBkOTE5M2NmNWY2NDRhYjQxYTI4ZTIyNjhhOThhYmM1YWE0MjZiZDJkNTc3MTUyODM0MjQ0YWQ2OWEzMWY1YTY4QGc",
+  "iCalUID": "tourism-news-5884-event@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqrj5etpiqd9o70q2qpbmcln78g38c5n6srpecdkn8u9eehim6rrcd4n66rrd",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/news/%e9%a3%af%e8%83%bd%e6%b2%b3%e5%8e%9f6-27%e3%88%af%e3%83%bb28%e3%88%b0%e3%81%ae%e5%96%b6%e6%a5%ad%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6"
+  },
+  "start": {
+    "date": "2026-06-27"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Hanno Riverbed (飯能河原) – June 27–28 operations notice",
+  "updated": "2026-08-10T07:27:41.990Z"
+}

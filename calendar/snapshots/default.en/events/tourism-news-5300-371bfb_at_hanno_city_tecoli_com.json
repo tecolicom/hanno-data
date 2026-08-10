@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-10T07:27:23.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nOku-Musashi Hanno Tourism Association: https://hanno-tourism.jp/news/%e3%80%903-17%e6%9b%b4%e6%96%b0%e3%80%91%e5%ae%ae%e6%b2%a2%e6%b9%96%e9%81%8a%e6%ad%a9%e9%81%93%e4%b8%80%e9%83%a8%e9%80%9a%e8%a1%8c%e6%ad%a2%e3%82%81%e8%a7%a3%e9%99%a4%e3%81%ae%e3%81%8a%e7%9f%a5\n\n🆕 Newly posted (Published: March 17, 2026)\n\nThe partial closure of the Miyazawa Lake walkway has been lifted. The lakeside walkway in the Miyazawa area (Miyazawa, Hanno City) had been closed since November 25, 2025 (Reiwa 7) due to danger from fallen trees. After tree-cutting work was completed and safety confirmed, the closure has been removed. For details on which sections of the walkway have been reopened, please check the guidance map on Hanno City Hall's website.",
+  "end": {
+    "date": "2026-03-18"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFyajVldHBpcWQ5ajYwbzJxY3BuNjVoNmNvaTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIGQ5MTkzY2Y1ZjY0NGFiNDFhMjhlMjI2OGE5OGFiYzVhYTQyNmJkMmQ1NzcxNTI4MzQyNDRhZDY5YTMxZjVhNjhAZw",
+  "iCalUID": "tourism-news-5300-371bfb@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqrj5etpiqd9j60o2qcpn65h6coi0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/news/%e3%80%903-17%e6%9b%b4%e6%96%b0%e3%80%91%e5%ae%ae%e6%b2%a2%e6%b9%96%e9%81%8a%e6%ad%a9%e9%81%93%e4%b8%80%e9%83%a8%e9%80%9a%e8%a1%8c%e6%ad%a2%e3%82%81%e8%a7%a3%e9%99%a4%e3%81%ae%e3%81%8a%e7%9f%a5"
+  },
+  "start": {
+    "date": "2026-03-17"
+  },
+  "status": "confirmed",
+  "summary": "📢 【Updated 3/17】Miyazawa Lake Walkway Partial Closure Lifted",
+  "updated": "2026-08-10T07:27:24.074Z"
+}

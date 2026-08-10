@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-10T07:27:18.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nOku-Musashi Hanno Tourism Association: https://hanno-tourism.jp/news/%e7%ac%91%e3%81%86%e7%8b%9b%e7%8a%ac%e3%81%a8%e6%b3%95%e5%85%89%e5%af%ba%e5%86%99%e7%b5%8c%e4%bd%93%e9%a8%93%e3%81%ae%e6%97%85%e3%80%80%e3%82%a8%e3%82%b3%e3%83%84%e3%82%a2%e3%83%bc%e3%81%ae%e3%81%94\n\n🆕 Newly posted (Published: February 22, 2026)\n\nEco-tour in the Agano district of Hanno City. A day trip featuring a visit to the laughing komainu guardian lion statues at Karyado Shrine, sutra-copying experience at Hokkoji Temple, a tour of the Iwatono Kannon Cave stone carvings, and a lunch box from a local French restaurant included.",
+  "end": {
+    "date": "2026-02-23"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFyajVldHBpcWQ5aTY0bzJxY3I1NnBqMzRlYTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIGQ5MTkzY2Y1ZjY0NGFiNDFhMjhlMjI2OGE5OGFiYzVhYTQyNmJkMmQ1NzcxNTI4MzQyNDRhZDY5YTMxZjVhNjhAZw",
+  "iCalUID": "tourism-news-5210-3e6f29@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqrj5etpiqd9i64o2qcr56pj34ea0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/news/%e7%ac%91%e3%81%86%e7%8b%9b%e7%8a%ac%e3%81%a8%e6%b3%95%e5%85%89%e5%af%ba%e5%86%99%e7%b5%8c%e4%bd%93%e9%a8%93%e3%81%ae%e6%97%85%e3%80%80%e3%82%a8%e3%82%b3%e3%83%84%e3%82%a2%e3%83%bc%e3%81%ae%e3%81%94"
+  },
+  "start": {
+    "date": "2026-02-22"
+  },
+  "status": "confirmed",
+  "summary": "📢 Eco-tour: Laughing Komainu Statue and Sutra-Copying Experience at Hokkoji Temple",
+  "updated": "2026-08-10T07:27:18.328Z"
+}

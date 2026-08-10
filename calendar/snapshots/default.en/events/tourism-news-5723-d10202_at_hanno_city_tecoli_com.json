@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-10T07:27:33.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nOkumushi Hanno Tourism Association: https://hanno-tourism.jp/news/6%e6%9c%886%e6%97%a5%e5%9c%9f%e3%83%bb7%e6%97%a5%e6%97%a5%e4%bc%91%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b\n\nNew listing (Published: May 20, 2026)\n\nThe Okumushi Hanno Tourism Association will close its information desk (including phone inquiries) on Saturday, June 6 and Sunday, June 7, 2026 (Reiwa 8) due to regular facility maintenance at the Hanno Chamber of Commerce and Industry.\n\nOn these dates, we will not be able to sell Eagle Bus passes or distribute manhole cards. However, Puratto Hanno (Hanno Station Tourist Information Desk, Tel. 042-978-9111, open 9:00–17:00) will operate as usual.",
+  "end": {
+    "date": "2026-05-21"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFyajVldHBpcWQ5bjY4cGlxcDFoNjBwMzBjaTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIGQ5MTkzY2Y1ZjY0NGFiNDFhMjhlMjI2OGE5OGFiYzVhYTQyNmJkMmQ1NzcxNTI4MzQyNDRhZDY5YTMxZjVhNjhAZw",
+  "iCalUID": "tourism-news-5723-d10202@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqrj5etpiqd9n68piqp1h60p30ci0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/news/6%e6%9c%886%e6%97%a5%e5%9c%9f%e3%83%bb7%e6%97%a5%e6%97%a5%e4%bc%91%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b"
+  },
+  "start": {
+    "date": "2026-05-20"
+  },
+  "status": "confirmed",
+  "summary": "📢 Notice of closure on Saturday, June 6 and Sunday, June 7",
+  "updated": "2026-08-10T07:27:34.252Z"
+}

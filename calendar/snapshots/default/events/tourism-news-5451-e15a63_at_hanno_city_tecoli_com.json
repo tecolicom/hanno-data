@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-10T07:23:58.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "奥むさし飯能観光協会: https://hanno-tourism.jp/news/%e4%bb%a4%e5%92%8c8%e5%b9%b4%e5%ba%a6-%e9%a3%af%e8%83%bd%e6%b2%b3%e5%8e%9f%e3%81%ae%e5%96%b6%e6%a5%ad%e3%81%8c%e5%a7%8b%e3%81%be%e3%82%8a%e3%81%be%e3%81%99%e3%80%82\n\n🆕 新着掲載 (公開日: 2026-04-20)\n\nAI による要約 (正確な情報は元記事をご確認ください)\n\n令和8年4月25日(土)から飯能河原の営業が始まります。水遊びなどが楽しめる無料の親水エリアと、バーベキューができる有料の火気使用エリアがあります。飯能駅から徒歩約15分。河原ではバーベキュー用品のレンタルも可能です。令和8年6月末頃までステージ広場（ウッドデッキ）が改築工事中のため、近隣道路を大型車両が通ることがあります。スタッフが配置されている営業日はゴミの回収も行っています。",
+  "end": {
+    "date": "2026-04-21"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFyajVldHBpcWQ5azZrb2lxcDloNmxnamNjcTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIDIwNTQwM2M5NzFkYzVlZjIxZWZkODFjMWQ1Mzg0OWNhZGZkOTAxYjc1Yzc3ZDg4OTU1ZDk2MDBmNDVmMmEwMTNAZw",
+  "iCalUID": "tourism-news-5451-e15a63@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqrj5etpiqd9k6koiqp9h6lgjccq0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能カレンダー",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/news/%e4%bb%a4%e5%92%8c8%e5%b9%b4%e5%ba%a6-%e9%a3%af%e8%83%bd%e6%b2%b3%e5%8e%9f%e3%81%ae%e5%96%b6%e6%a5%ad%e3%81%8c%e5%a7%8b%e3%81%be%e3%82%8a%e3%81%be%e3%81%99%e3%80%82"
+  },
+  "start": {
+    "date": "2026-04-20"
+  },
+  "status": "confirmed",
+  "summary": "📢 令和8年度 飯能河原の営業が始まります。",
+  "updated": "2026-08-10T07:23:58.645Z"
+}

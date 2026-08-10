@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-10T07:24:06.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "奥むさし飯能観光協会: https://hanno-tourism.jp/news/%e5%90%8d%e6%a0%97%e3%81%bb%e3%81%9f%e3%82%8b%e7%a5%ad%e3%82%8a\n\n🆕 新着掲載 (公開日: 2026-06-11)\n\nAI による要約 (正確な情報は元記事をご確認ください)\n\n【中止】台風接近に伴い中止が決定しました。飲食ブース（焼きそば、かき氷、キッチンカー）やお土産品のアウトレット販売が予定されていました。ホタルが見られるのは日没から1時間後くらいの午後8時頃。会場はノーラ名栗。",
+  "end": {
+    "date": "2026-06-12"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFyajVldHBpcWQ5bzY0cTJxcGoyNzRzamFvcTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIDIwNTQwM2M5NzFkYzVlZjIxZWZkODFjMWQ1Mzg0OWNhZGZkOTAxYjc1Yzc3ZDg4OTU1ZDk2MDBmNDVmMmEwMTNAZw",
+  "iCalUID": "tourism-news-5814-fb995c@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqrj5etpiqd9o64q2qpj274sjaoq0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能カレンダー",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/news/%e5%90%8d%e6%a0%97%e3%81%bb%e3%81%9f%e3%82%8b%e7%a5%ad%e3%82%8a"
+  },
+  "start": {
+    "date": "2026-06-11"
+  },
+  "status": "confirmed",
+  "summary": "📢 【中止】名栗ほたる祭り",
+  "updated": "2026-08-10T07:24:06.956Z"
+}

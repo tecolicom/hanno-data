@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-10T07:27:35.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nKitchen cars and a market are running as a pilot program from April through June during lunch hours on the grounds of Hanno City Hall. Kitchen cars operate almost daily, and the market sets up once a week on the main building's wood deck. A June vendor calendar is now available, featuring kitchen cars including Yakitori Dining Taka, Blue Tarp, Hanno Samosa and Curry Jutti, Nakayama Tea House, Assomblosso! Saitama 1st, and Smoke Lodge Hanno no Mori, along with market vendors such as Community House Saiko, Lakeside Terrace Naguri-ko, Ishidaya Confectionery, and Takedera Temple. \"Hashira benches\" (simple wooden seating) are available on the first-floor wood deck of the main building. Reservations can be made by contacting each vendor by the day before. Purchases are also possible without reservations. Vendors and offerings may change.",
+  "end": {
+    "date": "2026-06-02"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFyajVldHBpcWQ5bjcwczJxcGoyYzhvbWFjcTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIGQ5MTkzY2Y1ZjY0NGFiNDFhMjhlMjI2OGE5OGFiYzVhYTQyNmJkMmQ1NzcxNTI4MzQyNDRhZDY5YTMxZjVhNjhAZw",
+  "iCalUID": "tourism-news-5788-fbb1e3@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqrj5etpiqd9n70s2qpj2c8omacq0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/news/6%e6%9c%88%e3%82%82-%e9%a3%af%e8%83%bd%e5%b8%82%e5%bd%b9%e6%89%80%e3%81%a7%e3%82%ad%e3%83%83%e3%83%81%e3%83%b3%e3%82%ab%e2%80%95%e3%81%a8%e3%83%9e%e3%83%ab%e3%82%b7%e3%82%a7%e5%a7%8b%e3%82%81"
+  },
+  "start": {
+    "date": "2026-06-01"
+  },
+  "status": "confirmed",
+  "summary": "📢 June too! Kitchen cars and market starting at Hanno City Hall!",
+  "updated": "2026-08-10T07:27:35.783Z"
+}

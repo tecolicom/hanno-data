@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-10T07:27:17.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nIce sculpture displays and live ice carving performances featuring the world of Moomin stories will be held.\n\nThe ice carving team from Grand Prince Hotel Takanawa has created character ice sculptures about 180 cm tall, expressing the expressions and world of Moomin Valley friends in transparent ice. The display location is at the terrace in front of the Sea Orchestra ship — called \"Inlet Terrace\" (Tulipa's Terrace). Display hours are 10:00 to 19:00, with special lighting effects from late afternoon onward.\n\nLive ice carving performances will be held each day from 12:30 for about 45 minutes. Viewing is free and open to all.\n\n(Continued at the link below)",
+  "end": {
+    "date": "2026-02-24"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFyajVldHBpcWQ5aDZvczJxcGJtY2xuNzhnMzhjNW42c3JwZWNka244dTllZWhpbTZycmNkNG42NnJyZCBkOTE5M2NmNWY2NDRhYjQxYTI4ZTIyNjhhOThhYmM1YWE0MjZiZDJkNTc3MTUyODM0MjQ0YWQ2OWEzMWY1YTY4QGc",
+  "iCalUID": "tourism-news-5168-event@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqrj5etpiqd9h6os2qpbmcln78g38c5n6srpecdkn8u9eehim6rrcd4n66rrd",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/news/%e3%80%8c%e6%b0%b7%e5%bd%ab%e5%88%bb%e3%80%8d%e3%81%a7%e8%a1%a8%e7%8f%be%e3%81%95%e3%82%8c%e3%81%9f%e3%83%a0%e3%83%bc%e3%83%9f%e3%83%b3%e3%81%ae%e7%89%a9%e8%aa%9e%e3%81%ae%e4%b8%96%e7%95%8c%e3%80%80"
+  },
+  "start": {
+    "date": "2026-02-15"
+  },
+  "status": "confirmed",
+  "summary": "🎪 Moomin story world expressed in ice sculpture — Feb 15 (Sun) and 23 (Mon, national holiday) only!",
+  "updated": "2026-08-10T07:27:17.575Z"
+}

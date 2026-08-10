@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-10T07:27:23.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nOku-Musashi Hanno Tourism Association: https://hanno-tourism.jp/news/3%e6%9c%8821%e6%97%a5%e5%9c%9f%e6%a1%88%e5%86%85%e6%a5%ad%e5%8b%99%e3%81%8a%e4%bc%91%e3%81%bf%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b\n\n【New listing】(Published: March 16, 2026)\n\nThe Oku-Musashi Hanno Tourism Association information desk will be closed on Saturday, March 21, 2026 (Reiwa 8) for scheduled facility maintenance at the Hanno Chamber of Commerce and Industry. All information services, including phone inquiries, will be unavailable. This means we cannot process Eagle Bus pass purchases, distribute manhole cards, or provide prizes for the puzzle campaign and yellow week digital stamp rally. However, on March 21 only, Purat Hanno (Hanno Station Tourist Information Center) will remain open to assist you. The main desk will resume normal operations on Friday, March 20 (national holiday) and Sunday, March 22. Purat Hanno and Yumeba will operate as usual.",
+  "end": {
+    "date": "2026-03-17"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFyajVldHBpcWQ5aTZvcWlxZDlqY29xMzZkcTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIGQ5MTkzY2Y1ZjY0NGFiNDFhMjhlMjI2OGE5OGFiYzVhYTQyNmJkMmQ1NzcxNTI4MzQyNDRhZDY5YTMxZjVhNjhAZw",
+  "iCalUID": "tourism-news-5265-53f437@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqrj5etpiqd9i6oqiqd9jcoq36dq0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/news/3%e6%9c%8821%e6%97%a5%e5%9c%9f%e6%a1%88%e5%86%85%e6%a5%ad%e5%8b%99%e3%81%8a%e4%bc%91%e3%81%bf%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b"
+  },
+  "start": {
+    "date": "2026-03-16"
+  },
+  "status": "confirmed",
+  "summary": "📢 Notice: Information desk closed March 21 (Sat)",
+  "updated": "2026-08-10T07:27:23.391Z"
+}

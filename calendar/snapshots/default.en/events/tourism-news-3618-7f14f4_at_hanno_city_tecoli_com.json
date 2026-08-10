@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-10T07:27:33.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nOkumusashi Hanno Tourism Association: https://hanno-tourism.jp/news/ecotourguide-seminar\n\n🆕 New Listing (Posted: May 1, 2026)\n\n【POSTPONED】The Hanno City Eco-Tour Guide Training Course has been postponed. A new schedule will be announced.\n\nThis course is for people who want to become eco-tour guides active in the community. You will learn eco-tour experiences, guiding techniques, and operational methods through hands-on practice.\n\n【Originally Scheduled Dates】\nMay 30 (Sat) 9:00 a.m.–2:10 p.m. Hanno Chamber of Commerce and Industry Conference Room\nJune 7 (Sun) 9:00 a.m.–3:30 p.m. Hanno City Museum Kittus\n\nEligibility: People who live, work, or study in Hanno City, or who belong to an eco-tour implementation organization, and can attend both sessions in principle\nCapacity: 10 people (first come, first served)\nFee: ¥1,000 per person (covers materials, insurance, etc.). Payment due at check-in on the first day\nApplication Deadline: May 23 (Fri)\nHow to Apply: Email hannokanko@gmail.com or phone 042-980-5051 to contact the Hanno Eco-Tourism Promotion Council Secretariat (Okumusashi Hanno Tourism Association)",
+  "end": {
+    "date": "2026-05-02"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFyajVldHBpcWNwbTY0czJxZHI2NjRxNmNkMjBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIGQ5MTkzY2Y1ZjY0NGFiNDFhMjhlMjI2OGE5OGFiYzVhYTQyNmJkMmQ1NzcxNTI4MzQyNDRhZDY5YTMxZjVhNjhAZw",
+  "iCalUID": "tourism-news-3618-7f14f4@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqrj5etpiqcpm64s2qdr664q6cd20d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/news/ecotourguide-seminar"
+  },
+  "start": {
+    "date": "2026-05-01"
+  },
+  "status": "confirmed",
+  "summary": "📢 【POSTPONED】Hanno City Eco-Tour Guide Training Course",
+  "updated": "2026-08-10T07:27:33.450Z"
+}

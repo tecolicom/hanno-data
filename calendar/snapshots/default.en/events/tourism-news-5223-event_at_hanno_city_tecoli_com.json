@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-10T07:27:20.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nHanno Tourism Association (Oku-Musashi): https://hanno-tourism.jp/news/%e3%81%b2%e3%81%aa%e9%a3%be%e3%82%8a%e3%83%9e%e3%83%ab%e3%82%b7%e3%82%a7%e5%b0%8f%e7%94%ba%e5%85%ac%e5%9c%92\n\nA marketplace will be held at Hanno Komachi Park to coincide with the Hanno Hina Doll Festival. Food trucks will be on site selling a variety of items including shaved ice, crepes, kebabs, and spare ribs.\n\nDates: Saturday, February 28; Sunday, March 1; Saturday, March 7; Sunday, March 8\n\nParking: There is no parking at the venue. Please use nearby paid parking lots or coin parking facilities. Vendor offerings may change depending on weather conditions.",
+  "end": {
+    "date": "2026-03-09"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFyajVldHBpcWQ5aTY4cGlxcGJtY2xuNzhnMzhjNW42c3JwZWNka244dTllZWhpbTZycmNkNG42NnJyZCBkOTE5M2NmNWY2NDRhYjQxYTI4ZTIyNjhhOThhYmM1YWE0MjZiZDJkNTc3MTUyODM0MjQ0YWQ2OWEzMWY1YTY4QGc",
+  "iCalUID": "tourism-news-5223-event@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqrj5etpiqd9i68piqpbmcln78g38c5n6srpecdkn8u9eehim6rrcd4n66rrd",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/news/%e3%81%b2%e3%81%aa%e9%a3%be%e3%82%8a%e3%83%9e%e3%83%ab%e3%82%b7%e3%82%a7%e5%b0%8f%e7%94%ba%e5%85%ac%e5%9c%92"
+  },
+  "start": {
+    "date": "2026-02-28"
+  },
+  "status": "confirmed",
+  "summary": "🎪 Hina Doll Festival Marketplace @ Komachi Park",
+  "updated": "2026-08-10T07:27:20.430Z"
+}
