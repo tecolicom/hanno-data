@@ -74,6 +74,52 @@ def test_born_canceled_creates_notice_only():
         assert names == [f"06-11_tourism-news-202-{h6}.yaml"], names
 
 
+def _seed_event(d, post_id, dtstart, url):
+    os.makedirs(os.path.join(d, dtstart[:4]), exist_ok=True)
+    p = os.path.join(d, dtstart[:4],
+                     f"{dtstart[5:]}_tourism-news-{post_id}-event.yaml")
+    with open(p, "w", encoding="utf-8") as f:
+        f.write(f'uid: "tourism-news-{post_id}-event@hanno.city.tecoli.com"\n'
+                f'summary: "🎪 前世代"\n'
+                f'url: "{url}"\n'
+                f'dtstart: "{dtstart}"\n'
+                f'dtend: "{dtstart}"\n'
+                "source:\n"
+                f"  type: {mod.SOURCE_TYPE}\n")
+    return p
+
+
+def test_stale_event_removed_when_judged_not_announcement():
+    """判定が false に変わったら、既に作った本番を取り下げる。
+
+    消さないと「協賛のお願い」等が当日欄に残り続ける (実測: 11/7 の
+    飯能まつり協賛エントリが判定導入後も残った)。
+    """
+    _stub_llm({"summary": "協賛金を募集しています。", "event_date": "2026-06-27",
+               "event_end_date": None, "date_evidence": "日時:2026年6月27日(土)",
+               "status": "normal", "announces_event_itself": False})
+    with tempfile.TemporaryDirectory() as d:
+        prev = _seed_event(d, 202, "2026-06-27", HOTARU["url"])
+        r = mod.process_news([HOTARU], d, False, {})
+        assert not os.path.exists(prev), "本番が残っている"
+        assert r["removed_event"] == 1, r
+
+
+def test_stale_event_kept_when_extraction_merely_failed():
+    """日付が取れなかっただけでは消さない。
+
+    LLM の揺れで一時的に no-date になることがあり、それで消すと正しい
+    イベントが失われる。
+    """
+    _stub_llm({"summary": "s", "event_date": None, "event_end_date": None,
+               "date_evidence": None, "status": "normal"})
+    with tempfile.TemporaryDirectory() as d:
+        prev = _seed_event(d, 202, "2026-06-27", HOTARU["url"])
+        r = mod.process_news([HOTARU], d, False, {})
+        assert os.path.exists(prev), "消してはいけない"
+        assert r["removed_event"] == 0, r
+
+
 if __name__ == "__main__":
     for name, fn in sorted(globals().items()):
         if name.startswith("test_") and callable(fn):

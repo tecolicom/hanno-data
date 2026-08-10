@@ -21,9 +21,34 @@ PUB = date(2026, 8, 7)
 
 
 def _ex(event_date="2026-08-08", evidence="日時:2026年8月8日(土)",
-        status="normal", end=None):
+        status="normal", end=None, announces=True):
     return {"summary": "s", "event_date": event_date, "event_end_date": end,
-            "date_evidence": evidence, "status": status}
+            "date_evidence": evidence, "status": status,
+            "announces_event_itself": announces}
+
+
+def test_skips_when_article_only_mentions_the_date():
+    """実データ: 「令和8年飯能まつり 協賛のお願い」。
+
+    主題は協賛金の募集で、11/7 は背景として言及されているだけ。本番を作ると
+    当日のカレンダーに「協賛のお願い」と出てしまう。さらに 10 月に本体の告知が
+    出れば同じ日に 2 件並ぶ。
+    """
+    ok, why = mod.should_create_event(_ex(announces=False), BODY, PUB,
+                                      False, None)
+    assert ok is False and "not-announcement" in why, why
+
+
+def test_missing_announces_field_defaults_to_creating():
+    """フィールドが欠けたときは従来どおり作る。
+
+    欠落は LLM 応答の不整合であって「迷った末の false」ではない。黙って
+    落とすと気づけないので、可視な側 (作る) に倒す。
+    """
+    ex = _ex()
+    del ex["announces_event_itself"]
+    ok, why = mod.should_create_event(ex, BODY, PUB, False, None)
+    assert ok is True, why
 
 
 def test_creates_for_valid_normal_event():

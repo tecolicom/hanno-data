@@ -92,6 +92,30 @@ def test_extract_sends_title_and_body():
     assert seen["kw"]["temperature"] == 0
 
 
+def test_extract_passes_through_announces_field():
+    _stub(json.dumps({"summary": "x", "event_date": "2026-11-07",
+                      "event_end_date": None, "date_evidence": "11月7日(土)",
+                      "status": "normal", "announces_event_itself": False}))
+    got = mod.extract_with_llm("協賛のお願い", "本文" * 40)
+    assert got["announces_event_itself"] is False, got
+
+
+def test_extract_omits_announces_when_absent_or_malformed():
+    """欠落・非 bool は「判定なし」として扱い、キー自体を入れない。
+
+    呼出側は「キーが無ければ作る」なので、応答の不整合で本番が黙って
+    落ちることを防ぐ。
+    """
+    _stub(json.dumps({"summary": "x", "event_date": None,
+                      "event_end_date": None, "date_evidence": None,
+                      "status": "normal"}))
+    assert "announces_event_itself" not in mod.extract_with_llm("t", "本文" * 40)
+    _stub(json.dumps({"summary": "x", "event_date": None,
+                      "event_end_date": None, "date_evidence": None,
+                      "status": "normal", "announces_event_itself": "maybe"}))
+    assert "announces_event_itself" not in mod.extract_with_llm("t", "本文" * 40)
+
+
 def test_extract_sends_publish_date():
     """プロンプトは「年が無ければ公開日から推定せよ」と指示している。
 

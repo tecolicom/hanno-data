@@ -75,7 +75,8 @@ EXTRACT_SYSTEM_PROMPT = """あなたは奥むさし飯能観光協会サイト�
   "event_date": "YYYY-MM-DD" または null,
   "event_end_date": "YYYY-MM-DD" または null,
   "date_evidence": "本文からの引用" または null,
-  "status": "normal" | "canceled" | "postponed" | "ended"
+  "status": "normal" | "canceled" | "postponed" | "ended",
+  "announces_event_itself": true | false
 }
 
 ## event_date の決め方
@@ -108,6 +109,19 @@ event_date の根拠にした記述を、**入力からそのまま一字一句�
 **「雨天決行・荒天中止」「天候により中止する場合があります」のような条件付きの注意書きは `canceled` ではありません。** これらは開催予定の記事です。実際に中止・延期が決定したと書かれている場合だけ `canceled` / `postponed` にしてください。
 
 中止・延期の場合も、**event_date には元々の開催予定日をそのまま入れてください** (null にしない)。カレンダー側で「【中止】」を付けて表示します。
+
+## announces_event_itself
+
+その記事が **event_date に起きる出来事そのものを案内しているか** を true / false で返してください。カレンダーの当日欄にこの記事のタイトルが出て意味が通るか、と考えると判断しやすいです。
+
+- true: 記事の主題が、その日に起きること自体の案内である。
+  例: 「8月8日 盆踊りへ」(祭りの案内)、「7月18日・19日 休業のお知らせ」(その日休むことの案内)、
+      「さくらウィーク開催」(開催の案内)
+- false: 記事の主目的が別にあり、日付は説明のために言及されているだけ。
+  例: 「飯能まつり 協賛のお願い」(主題は協賛金の募集。開催日は背景説明)、
+      「アンケート調査結果」「会報誌発行のお知らせ」
+
+**判断に迷ったら false にしてください。** その日に何が起きるのかを記事が明確に案内していると言い切れない場合は false です。
 
 ## summary
 
@@ -253,13 +267,18 @@ def extract_with_llm(title: str, body_text: str,
     if status not in _VALID_STATUS:
         status = "normal"
     summary = data.get("summary") or ""
-    return {
+    out = {
         "summary": strip_markdown(str(summary).strip(), bullet="・"),
         "event_date": data.get("event_date") or None,
         "event_end_date": data.get("event_end_date") or None,
         "date_evidence": data.get("date_evidence") or None,
         "status": status,
     }
+    # 欠落は「迷った末の false」ではなく応答の不整合。黙って本番を落とすと
+    # 気づけないので、キーが無ければ入れない (= 呼出側で作る側に倒れる)。
+    if isinstance(data.get("announces_event_itself"), bool):
+        out["announces_event_itself"] = data["announces_event_itself"]
+    return out
 
 
 # ==================== 機械検証 ====================
@@ -378,6 +397,12 @@ def verify_event_date(extracted: dict, body_text: str,
 # ==================== 本番エントリの作成条件 ====================
 
 
+# 既にある本番を取り下げてよい不採用理由。安定した判断だけを載せる。
+# no-date や検算失敗 (evidence-not-found 等) は LLM の揺れで一時的に起きうるので
+# 入れない。入れると正しいイベントが消えたり復活したりを繰り返す。
+RETRACT_REASONS = {"not-announcement", "manual-conflict"}
+
+
 def normalize_news_url(url: str) -> str:
     """news 記事 URL を比較可能な形に正規化する。
 
@@ -427,6 +452,11 @@ def should_create_event(extracted: dict, body_text: str, pub_date: date,
     """
     if not extracted.get("event_date"):
         return False, "no-date"
+    if extracted.get("announces_event_itself") is False:
+        # 記事の主題が別にあり、日付は説明として言及されているだけ。本番を作ると
+        # 当日欄に「協賛のお願い」等が並び、本体の告知が出たとき重複もする。
+        # これはコード側で裏取りできない唯一の判定なので、理由をログに残す。
+        return False, "not-announcement"
     if manual_conflict:
         return False, f"manual-conflict: {manual_conflict}"
     reason = verify_event_date(extracted, body_text, pub_date)
@@ -642,7 +672,8 @@ def process_news(items: list[dict], out_dir: str, dry_run: bool,
                  cache: dict) -> dict:
     """記事ごとに告知 (常に) と本番 (条件付き) を書き出す。"""
     stats = {"notice": 0, "notice_unchanged": 0, "event": 0,
-             "skipped_event": 0, "llm_fail": 0, "short_body": 0}
+             "skipped_event": 0, "removed_event": 0,
+             "llm_fail": 0, "short_body": 0}
     # 索引は 1 回だけ作る。記事ごとに走査すると O(n^2) になる。
     generations = existing_notice_generations(out_dir, DEFAULT_UID_PREFIX)
     for i, item in enumerate(items, 1):
@@ -710,6 +741,15 @@ def process_news(items: list[dict], out_dir: str, dry_run: bool,
         else:
             stats["skipped_event"] += 1
             print(f"  no event entry: {why}", file=sys.stderr)
+            # 既にある本番を取り下げるのは、安定した判断のときだけ。
+            # no-date や検算失敗は LLM の揺れで一時的に起きうるので、それで
+            # 消すと正しいイベントが失われる。
+            if existing_event and why.split(":")[0] in RETRACT_REASONS:
+                if not dry_run:
+                    os.remove(existing_event)
+                stats["removed_event"] += 1
+                print(f"  retracted existing event: {existing_event}",
+                      file=sys.stderr)
 
         if recordable:
             entry = cache.setdefault(item["url"], {})
@@ -781,8 +821,8 @@ def main() -> None:
 
     print(f"notice={r['notice']} notice_unchanged={r['notice_unchanged']} "
           f"event={r['event']} skipped_event={r['skipped_event']} "
-          f"short_body={r['short_body']} llm_fail={r['llm_fail']} "
-          f"unchanged={unchanged}", file=sys.stderr)
+          f"removed_event={r['removed_event']} short_body={r['short_body']} "
+          f"llm_fail={r['llm_fail']} unchanged={unchanged}", file=sys.stderr)
 
 
 if __name__ == "__main__":
