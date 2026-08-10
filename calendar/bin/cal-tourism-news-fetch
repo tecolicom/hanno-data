@@ -264,11 +264,24 @@ MIN_DAYS_BEFORE_PUBLISH = -31
 MAX_DAYS_AFTER_PUBLISH = 400
 
 
+# LLM は「そのままコピー」と指示しても引用符を打ち直すことがある。実測: 本文の
+# 「7月18日(土)“宵宮”」に対し `7月18日(土)"宵宮"` を返し、照合が空振りして
+# 実在する開催日を取りこぼした。照合時だけ ASCII に畳んで吸収する
+# (保存する値は畳まない)。幻覚検出の強度は落ちない — 存在しない日付は依然一致しない。
+_QUOTE_FOLD = str.maketrans({
+    "“": '"', "”": '"', "„": '"', "‟": '"',
+    "〝": '"', "〞": '"', "〟": '"', "〃": '"',
+    "‘": "'", "’": "'", "‚": "'", "‛": "'",
+    "′": "'", "″": '"',
+})
+
+
 def _normalize_for_match(s: str) -> str:
     """照合用の正規化。本文と evidence の両方に同じものを掛ける。"""
     s = normalize_circled_weekday(s)
     s = normalize_fullwidth_digits(s)
     s = normalize_tilde(s)
+    s = s.translate(_QUOTE_FOLD)
     return re.sub(r"\s+", "", s)
 
 

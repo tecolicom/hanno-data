@@ -1,0 +1,25 @@
+uid: "tourism-news-6063-a0ece5@hanno.city.tecoli.com"
+summary: "📢 8月8日(土) はんのう昭和盆踊りへ♪"
+url: "https://hanno-tourism.jp/news/%e3%81%af%e3%82%93%e3%81%ae%e3%81%86%e6%98%ad%e5%92%8c%e7%9b%86%e8%b8%8a%e3%82%8a%e2%99%aa"
+dtstart: "2026-08-07"
+dtend: "2026-08-07"
+description: |-
+  奥むさし飯能観光協会: https://hanno-tourism.jp/news/%e3%81%af%e3%82%93%e3%81%ae%e3%81%86%e6%98%ad%e5%92%8c%e7%9b%86%e8%b8%8a%e3%82%8a%e2%99%aa
+  
+  🆕 新着掲載 (公開日: 2026-08-07)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  はんのう昭和盆踊りが開催されます。今年で3回目の開催となる毎回大盛況のイベントです。日時は2026年8月8日(土)15:30～20:30、場所は飯能信用金庫飯能中央支店駐車場。荒天の場合は9日(日)に順延となります。
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-tourism-jp-news
+  id: "6063"
+  url: "https://hanno-tourism.jp/news/%e3%81%af%e3%82%93%e3%81%ae%e3%81%86%e6%98%ad%e5%92%8c%e7%9b%86%e8%b8%8a%e3%82%8a%e2%99%aa"
+  fetched_at: "<TS>"
+  modified_gmt: "2026-08-08T05:32:32"
+  content_hash: "sha256-a0ece5f94e63575f"

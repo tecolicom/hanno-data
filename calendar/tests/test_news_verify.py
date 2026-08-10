@@ -99,6 +99,27 @@ def test_accepts_far_future_date_within_range():
     assert got is None, got
 
 
+def test_accepts_evidence_with_retyped_quotes():
+    """実データ: 令和8年飯能夏祭り。
+
+    本文は「7月18日(土)“宵宮”」(U+201C/U+201D) だが LLM は `"宵宮"` と
+    打ち直して返した。照合時に引用符を畳まないと実在する開催日を取りこぼす。
+    2026-07-18 は土曜。
+    """
+    body = "今年の飯能夏祭りは、7月18日(土)“宵宮”、19日(日)“本祭り”です。"
+    got = mod.verify_event_date(_ex("2026-07-18", '7月18日(土)"宵宮"'),
+                                body, date(2026, 7, 14))
+    assert got is None, got
+
+
+def test_quote_folding_does_not_weaken_hallucination_check():
+    """引用符を畳んでも、本文に無い日付は依然として弾く。"""
+    body = "今年の飯能夏祭りは、7月18日(土)“宵宮”です。"
+    got = mod.verify_event_date(_ex("2026-09-05", '9月5日(土)"別の祭り"'),
+                                body, date(2026, 7, 14))
+    assert got is not None and "evidence-not-found" in got, got
+
+
 def test_rejects_malformed_date():
     got = mod.verify_event_date(_ex("2026-13-45", "でたらめ"),
                                 "でたらめ", date(2026, 8, 7))

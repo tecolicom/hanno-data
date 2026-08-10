@@ -1,0 +1,76 @@
+#!/usr/bin/env python3
+"""calendar/tests/capture-news-fixtures — news の golden 用 fixtures を実サイトから取得。
+
+ネットワークと LLM を使う dev tool。fixtures を更新したい時に手動実行する。
+  ANTHROPIC_API_KEY=... python3 calendar/tests/capture-news-fixtures
+
+出力:
+  fixtures/cal-tourism-news-fetch/api-page1.json   API レスポンス (対象記事のみ)
+  fixtures/cal-tourism-news-fetch/llm.json         記事 id → LLM 応答 (JSON 文字列)
+"""
+from __future__ import annotations
+import importlib.machinery
+import importlib.util
+import json
+import os
+import sys
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+BIN = os.path.normpath(os.path.join(HERE, "..", "bin"))
+FIX = os.path.join(HERE, "fixtures", "cal-tourism-news-fetch")
+
+loader = importlib.machinery.SourceFileLoader(
+    "m", os.path.join(BIN, "cal-tourism-news-fetch"))
+spec = importlib.util.spec_from_loader("m", loader)
+m = importlib.util.module_from_spec(spec)
+loader.exec_module(m)
+
+# golden に含める記事数。直近から順に採る。
+#
+# golden の役目は「パイプライン全体がバイト単位で安定しているか」であって、
+# 失敗モードの網羅ではない。失敗モードは test_news_verify.py 等が実データを
+# インラインに持って個別に検証している。だから採取対象は「直近 N 件」で足りるし、
+# 特定 slug への依存を持たないぶん記事が消えても壊れない。
+CAPTURE_COUNT = 6
+
+
+def main():
+    if not m.llm_available():
+        sys.exit("ANTHROPIC_API_KEY が必要です")
+    os.makedirs(FIX, exist_ok=True)
+    raw = []
+    page = 1
+    while True:
+        batch = m.fetch_json(f"{m.API_URL}?per_page={m.PER_PAGE}&page={page}"
+                             f"&_fields={m.API_FIELDS}")
+        if not batch:
+            break
+        raw.extend(batch)
+        if len(batch) < m.PER_PAGE:
+            break
+        page += 1
+
+    if not raw:
+        sys.exit("API が記事を返しませんでした")
+    picked = sorted(raw, key=lambda it: it.get("date_gmt", ""),
+                    reverse=True)[:CAPTURE_COUNT]
+
+    with open(os.path.join(FIX, "api-page1.json"), "w", encoding="utf-8") as f:
+        json.dump(picked, f, ensure_ascii=False, indent=2)
+
+    replies = {}
+    for it in picked:
+        body = m.html_to_text((it.get("content") or {}).get("rendered", ""))
+        title = (it.get("title") or {}).get("rendered", "")
+        text = m.call_llm(m.EXTRACT_SYSTEM_PROMPT, f"# {title}\n\n{body}",
+                          model=m.LLM_MODEL, max_tokens=m.LLM_MAX_TOKENS,
+                          temperature=0)
+        replies[str(it["id"])] = text
+        print(f"captured {it['id']}: {text[:80] if text else None}")
+    with open(os.path.join(FIX, "llm.json"), "w", encoding="utf-8") as f:
+        json.dump(replies, f, ensure_ascii=False, indent=2)
+    print(f"OK: {len(picked)} articles -> {FIX}")
+
+
+if __name__ == "__main__":
+    main()
