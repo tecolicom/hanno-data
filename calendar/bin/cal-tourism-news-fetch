@@ -500,3 +500,160 @@ def build_event_yaml(item: dict, extracted: dict, description: str,
                + _status_mark(extracted["status"]) + item["title"])
     return _build_yaml(event_uid(DEFAULT_UID_PREFIX, item["id"]), summary,
                        item, start, end, description, fetched_at)
+
+
+# ==================== 処理本体 ====================
+
+
+def build_description(extracted: dict, body_text: str) -> str:
+    """description 本体を組み立てる。
+
+    LLM 要約があればそれを使い AI 由来であることを明示する。無い場合 (API キー
+    不在・LLM 失敗) は本文を使う。この分岐で content_hash が変わるので、CI では
+    必ず ANTHROPIC_API_KEY を渡すこと (2026-05-26 の oshirase 障害と同じ罠)。
+    """
+    summary = (extracted or {}).get("summary") or ""
+    if summary:
+        return f"{AI_DISCLAIMER_JP}\n\n{summary}"
+    text = body_text.strip()
+    if len(text) > FULL_TEXT_THRESHOLD:
+        text = text[:FULL_TEXT_THRESHOLD].rstrip() + "…"
+    return text
+
+
+def check_news_count(n: int, min_news: int) -> None:
+    """API が返す件数の下限チェック。API 仕様変更・大量非公開を検知する。
+
+    news は蓄積型で 2017 年の記事も残っている (実測 137 件) ので下限を高く置ける。
+    """
+    if n < min_news:
+        print(f"FAIL: news from API ({n}) < --min-news ({min_news}). "
+              "API 仕様変更か大量非公開の可能性がある。", file=sys.stderr)
+        sys.exit(2)
+
+
+def _write(path: str, doc: str) -> None:
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(doc)
+
+
+def process_news(items: list[dict], out_dir: str, dry_run: bool,
+                 cache: dict) -> dict:
+    """記事ごとに告知 (常に) と本番 (条件付き) を書き出す。"""
+    stats = {"notice": 0, "event": 0, "skipped_event": 0, "llm_fail": 0}
+    for i, item in enumerate(items, 1):
+        print(f"[{i}/{len(items)}] {item['url']}", file=sys.stderr)
+        body_text = html_to_text(item["body_html"])
+        extracted = extract_with_llm(item["title"], body_text)
+        if extracted is None:
+            stats["llm_fail"] += 1
+            # 要約なしでも告知は出す。ただし cache には記録せず次回リトライさせる。
+            extracted = {"summary": "", "event_date": None,
+                         "event_end_date": None, "date_evidence": None,
+                         "status": "normal"}
+            recordable = False
+        else:
+            recordable = True
+
+        description = build_description(extracted, body_text)
+        pub_str = jst_date_of(item["date_gmt"])
+        pub_date = date.fromisoformat(pub_str)
+
+        n_uid = notice_uid(DEFAULT_UID_PREFIX, item["id"], content_hash_of(item))
+        notice_path = output_path_for(out_dir, n_uid, pub_str)
+        if not dry_run:
+            _write(notice_path, build_notice_yaml(item, extracted, description))
+        stats["notice"] += 1
+
+        ev_uid = event_uid(DEFAULT_UID_PREFIX, item["id"])
+        existing_event = find_existing_by_uid(out_dir, ev_uid)
+        conflict = find_manual_conflict(out_dir, item["url"])
+        ok, why = should_create_event(extracted, body_text, pub_date,
+                                      existing_event is not None, conflict)
+        if ok:
+            ev_path = output_path_for(out_dir, ev_uid, extracted["event_date"])
+            if not dry_run:
+                if existing_event and existing_event != ev_path:
+                    # 開催日が変わった場合は旧ファイルを消してから書く
+                    os.remove(existing_event)
+                _write(ev_path, build_event_yaml(item, extracted, description))
+            stats["event"] += 1
+        else:
+            stats["skipped_event"] += 1
+            print(f"  no event entry: {why}", file=sys.stderr)
+
+        if recordable:
+            entry = cache.setdefault(item["url"], {})
+            entry["modified_gmt"] = item.get("modified_gmt", "")
+    return stats
+
+
+def _total_count() -> int:
+    """API の総件数を数える。fetch_news_index は backfill で削るので別途数える。
+
+    X-WP-Total ヘッダを読めれば 1 リクエストで済むが、fetch_json が本文しか
+    返さないので `_fields=id` で全ページを辿る。転送量は小さい。
+    """
+    total = 0
+    page = 1
+    while True:
+        batch = fetch_json(f"{API_URL}?per_page={PER_PAGE}&page={page}&_fields=id")
+        if not isinstance(batch, list) or not batch:
+            break
+        total += len(batch)
+        if len(batch) < PER_PAGE:
+            break
+        page += 1
+    return total
+
+
+def main() -> None:
+    ap = argparse.ArgumentParser(
+        description="hanno-tourism.jp news イベント YAML 生成")
+    ap.add_argument("--out-dir", default="calendar/events")
+    ap.add_argument("--min-news", type=int, default=100,
+                    help="API が返す件数がこれ未満なら exit 2")
+    ap.add_argument("--backfill-months", type=int,
+                    default=DEFAULT_BACKFILL_MONTHS,
+                    help="この月数より古い記事は処理しない (毎回適用)")
+    ap.add_argument("--no-cache", action="store_true",
+                    help="modified_gmt によるスキップを行わない")
+    ap.add_argument("--dry-run", action="store_true")
+    args = ap.parse_args()
+
+    try:
+        items = fetch_news_index(args.backfill_months, datetime.now(JST).date())
+        total = _total_count()
+    except Exception as e:
+        print(f"FAIL: news API unavailable: {e}", file=sys.stderr)
+        sys.exit(2)
+
+    # 下限チェックは backfill フィルタ前の総数で見る。
+    check_news_count(total, args.min_news)
+
+    cache = {} if args.no_cache else load_http_cache()
+    if args.no_cache:
+        todo, unchanged = items, 0
+    else:
+        todo, unchanged = select_news_to_fetch(items, cache)
+
+    print(f"Processing {len(todo)} of {len(items)} news "
+          f"(unchanged={unchanged})", file=sys.stderr)
+
+    r = process_news(todo, args.out_dir, args.dry_run, cache)
+
+    if todo and r["llm_fail"] == len(todo):
+        print("FAIL: LLM extraction failed for every article.", file=sys.stderr)
+        sys.exit(2)
+
+    if not args.dry_run and not args.no_cache:
+        save_http_cache(cache)
+
+    print(f"notice={r['notice']} event={r['event']} "
+          f"skipped_event={r['skipped_event']} llm_fail={r['llm_fail']} "
+          f"unchanged={unchanged}", file=sys.stderr)
+
+
+if __name__ == "__main__":
+    main()
