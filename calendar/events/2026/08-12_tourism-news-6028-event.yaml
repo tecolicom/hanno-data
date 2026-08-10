@@ -23,34 +23,38 @@ source:
   content_hash: "sha256-16c371092895d893"
 translations:
   en:
-    summary: "🎪 Aug 12 (Wed) Hanno Naguri Stargazing Event"
+    summary: "🎪 Hanno Naguri stargazing event! Watch the Perseid meteor shower and summer constellations."
     description: |-
       Automated translation (refer to source for accuracy)
       
-      Perseids meteor shower and summer starry sky observation event. Held at Nora Naguri, a glamping facility.
+      Perseid meteor shower and summer stargazing event. Held at Nora Naguri, a glamping facility. A certified Star Sommelier® will guide you using binoculars and telescopes to observe meteors, the Summer Triangle, the Milky Way, and more.
       
-      With guidance from a Star Sommelier®, you'll observe shooting stars, the Summer Triangle, the Milky Way, and more using binoculars and telescopes.
+      【Date and Time】
+      Wednesday, August 12, 2026 (Reiwa 8), 7:00 p.m.–8:30 p.m.
+      Reception: 6:30 p.m. onwards
+      Assembly: 6:50 p.m.
+      Rain date: Thursday, August 13, 2026
       
-      Date & Time: August 12, 2026 (Reiwa 8), 7:00 PM–8:30 PM
-      • Reception: 6:30 PM–
-      • Assembly: 6:50 PM
-      • Rain date: August 13 (Thursday)
+      【Venue】
+      Nora Naguri
+      607-1 Shimo-Naguri, Hanno, Saitama Prefecture
       
-      Location: Nora Naguri, 607-1 Shita-Naguri, Hanno, Saitama
+      【Fees】
+      Adults: ¥1,000
+      Elementary school children and under: ¥500
+      Preschoolers: Free
       
-      Fee:
-      • Adults: ¥1,000
-      • Elementary school children and under: ¥500
-      • Preschoolers: Free
+      【Capacity and Registration】
+      First come, first served. Maximum 20 participants. Advance registration required.
       
-      Capacity: First come, first served; max 20 people. Advance registration required.
+      【What to Bring】
+      Drink, leisure sheet or folding chair
       
-      What to bring: Drinks, leisure sheet or folding chair.
+      【Weather and Postponements】
+      If the weather is poor, cancellation or postponement will be decided by 3:00 p.m. on the day of the event and communicated by email.
       
-      Weather: If the event is postponed or cancelled due to poor weather, you will be notified by email by 3:00 PM on the day of the event.
-      
-      For more information, visit Okumushi Hanno Tourism Association (奥むさし飯能観光協会): https://hanno-tourism.jp/
-    translation_hash: "sha256-ab67a3e647f0eac1"
+      For more information and to register, visit the Okumushi Hanno Tourism Association website (link in source).
+    translation_hash: "sha256-fa2767ecc69f2b66"
     model: "claude-haiku-4-5"
-    translated_at: "2026-08-10T07:27:08.959532Z"
+    translated_at: "2026-08-10T10:29:11.694877Z"
     format_version: 3

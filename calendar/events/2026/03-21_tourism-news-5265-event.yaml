@@ -23,16 +23,18 @@ source:
   content_hash: "sha256-53f43758954599c0"
 translations:
   en:
-    summary: "ℹ️ Guidance services closed March 21 (Sat) for facility maintenance"
+    summary: "ℹ️ Tourist Information Desk Closure Notice"
     description: |-
       Automated translation (refer to source for accuracy)
       
-      Okumussashi Hanno Tourism Association: https://hanno-tourism.jp/news/3%e6%9c%8821%e6%97%a5%e5%9c%9f%e6%a1%88%e5%86%85%e6%a5%ad%e5%8b%99%e3%81%8a%e4%bc%91%e3%81%bf%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b
+      Oku-Musashi Hanno Tourism Association: https://hanno-tourism.jp/news/3%e6%9c%8821%e6%97%a5%e5%9c%9f%e6%a1%88%e5%86%85%e6%a5%ad%e5%8b%99%e3%81%8a%e4%bc%91%e3%81%bf%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b
       
-      The Okumussashi Hanno Tourism Association's guidance services will be closed on Saturday, March 21, 2026 (Reiwa 8) for regular facility maintenance at Hanno Chamber of Commerce and Industry. All information services, including phone support, will be unavailable. The following services will not be available: Eagle Bus pass purchases, manhole card distribution, and prize redemptions for the mystery-solving campaign and Yellow Week digital stamp rally.
+      The Oku-Musashi Hanno Tourism Association's information desk will be closed on Saturday, March 21, 2026 (Reiwa 8) due to scheduled facility maintenance at Hanno Chamber of Commerce and Industry. All information services, including phone support, will be unavailable. We will not be able to sell Eagle Bus passes, distribute manhole cards, or hand out prizes for the mystery-solving campaign and yellow week digital stamp rally.
       
-      However, Platto Hanno (Hanno Station Tourist Information Center) will be open and available on March 21 only. Regular hours resume March 20 (Fri, national holiday) and March 22 (Sun). Platto Hanno and Yumeba will operate as normal throughout.
-    translation_hash: "sha256-d1cb4a695d95a207"
+      However, on Saturday, March 21 only, Plat Hanno (Hanno Station Tourist Information Center) will remain open to assist you.
+      
+      The main office will resume normal operations on Friday, March 20 (national holiday) and Sunday, March 22. Plat Hanno and Yumeba will operate normally throughout.
+    translation_hash: "sha256-3142f3eebee7061f"
     model: "claude-haiku-4-5"
-    translated_at: "2026-08-10T07:24:59.802401Z"
+    translated_at: "2026-08-10T10:28:58.487943Z"
     format_version: 3
