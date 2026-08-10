@@ -1,0 +1,112 @@
+#!/usr/bin/env python3
+"""cal-tourism-news-fetch の機械検証 5 項目のユニットテスト。
+実データで確認した失敗モードを回帰ケースとして持つ。
+実行: python3 calendar/tests/test_news_verify.py
+"""
+from __future__ import annotations
+import importlib.machinery
+import importlib.util
+import os
+from datetime import date
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+SCRIPT = os.path.join(HERE, "..", "bin", "cal-tourism-news-fetch")
+loader = importlib.machinery.SourceFileLoader("cal_tourism_news_fetch", SCRIPT)
+spec = importlib.util.spec_from_loader("cal_tourism_news_fetch", loader)
+mod = importlib.util.module_from_spec(spec)
+loader.exec_module(mod)
+
+
+def _ex(event_date, date_evidence, status="normal", end=None):
+    return {"summary": "s", "event_date": event_date, "event_end_date": end,
+            "date_evidence": date_evidence, "status": status}
+
+
+def test_accepts_valid_case():
+    """実データ: はんのう昭和盆踊り。2026-08-08 は土曜。"""
+    body = "8月8日(土) はんのう昭和盆踊りへ♪ 日時:2026年8月8日(土) 午後6時〜"
+    got = mod.verify_event_date(_ex("2026-08-08", "日時:2026年8月8日(土)"),
+                                body, date(2026, 8, 7))
+    assert got is None, got
+
+
+def test_rejects_hallucinated_evidence():
+    """検証 1: date_evidence が本文に無い。"""
+    body = "夏祭りを開催します。"
+    got = mod.verify_event_date(_ex("2026-08-08", "日時:2026年8月8日(土)"),
+                                body, date(2026, 8, 7))
+    assert got is not None and "evidence" in got, got
+
+
+def test_rejects_evidence_not_matching_date():
+    """検証 2: 根拠と結論の月日が食い違う。"""
+    body = "日時:2026年8月8日(土) 午後6時〜"
+    got = mod.verify_event_date(_ex("2026-09-15", "日時:2026年8月8日(土)"),
+                                body, date(2026, 8, 7))
+    assert got is not None and "mismatch" in got, got
+
+
+def test_rejects_weekday_mismatch():
+    """検証 3: 2025-08-08 は金曜なので (土) と食い違う。"""
+    body = "日時:8月8日(土) 午後6時〜"
+    got = mod.verify_event_date(_ex("2025-08-08", "日時:8月8日(土)"),
+                                body, date(2025, 8, 7))
+    assert got is not None and "weekday" in got, got
+
+
+def test_rejects_date_far_from_publish():
+    """検証 4: 実データの養成講座が 2025 年へ滑落した事故の回帰。
+
+    2025-05-31 は土曜なので検証 3 (曜日) は通ってしまう。範囲チェックが
+    無いと「検証済み」として過去年が確定する。これが調査時に起きた事故。
+    """
+    body = "スケジュール ◆ 5月31日(土) 9:00〜14:10"
+    got = mod.verify_event_date(_ex("2025-05-31", "5月31日(土)"),
+                                body, date(2026, 5, 1))
+    assert got is not None and "out-of-range" in got, got
+
+
+def test_rejects_update_stamp():
+    """検証 5: 実データのキッチンカー記事。「6/16更新」は開催日ではない。"""
+    body = "▽6月の出店カレンダー 6/16更新 ※クリックで大きく見られます。"
+    got = mod.verify_event_date(_ex("2026-06-16", "6/16更新"),
+                                body, date(2026, 6, 1))
+    assert got is not None and "update-stamp" in got, got
+
+
+def test_accepts_evidence_without_weekday():
+    """曜日表記が無ければ検証 3 はスキップする。"""
+    body = "期間:2026年3月28日から4月5日まで"
+    got = mod.verify_event_date(_ex("2026-03-28", "2026年3月28日"),
+                                body, date(2026, 2, 25))
+    assert got is None, got
+
+
+def test_accepts_circled_weekday_evidence():
+    """実データ: 「6/27㈯」。正規化後に曜日一致を見る。2026-06-27 は土曜。"""
+    body = mod.html_to_text("<p>飯能河原6/27㈯・28㈰の営業について</p>")
+    got = mod.verify_event_date(_ex("2026-06-27", "6/27(土)"),
+                                body, date(2026, 6, 26))
+    assert got is None, got
+
+
+def test_accepts_far_future_date_within_range():
+    """実データ: 7/23 公開の「飯能まつり協賛のお願い」に 11/7 の開催日がある。
+    記事の主目的が募集でも開催日は採る。2026-11-07 は土曜。"""
+    body = "令和8年の飯能まつりは、11月7日(土)、8日(日)に開催を予定しています。"
+    got = mod.verify_event_date(_ex("2026-11-07", "11月7日(土)"),
+                                body, date(2026, 7, 23))
+    assert got is None, got
+
+
+def test_rejects_malformed_date():
+    got = mod.verify_event_date(_ex("2026-13-45", "でたらめ"),
+                                "でたらめ", date(2026, 8, 7))
+    assert got is not None, got
+
+
+if __name__ == "__main__":
+    for name, fn in sorted(globals().items()):
+        if name.startswith("test_") and callable(fn):
+            fn()
+    print("OK: all news-verify tests passed")

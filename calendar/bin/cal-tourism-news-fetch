@@ -17,6 +17,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
 import sys
 import urllib.error
 import urllib.request
@@ -236,3 +237,89 @@ def extract_with_llm(title: str, body_text: str) -> dict | None:
         "date_evidence": data.get("date_evidence") or None,
         "status": status,
     }
+
+
+# ==================== 機械検証 ====================
+#
+# LLM は「その日付が開催日か更新スタンプか終了日か」の意味判断が得意で、
+# 正規表現は「その日付が本文に実在し曜日が整合するか」の機械判定が得意。
+# 役割を分けて二重にする。
+
+# 「【6/26更新】」「6/16更新」「※4/4AM更新」等。実データのキッチンカー記事では
+# これしか日付が無く、正規表現による抽出が 4 件中 3 件で誤取得した。
+UPDATE_STAMP_RE = re.compile(r"\d{1,2}\s*/\s*\d{1,2}\s*(?:AM|PM)?\s*更新")
+
+_WEEKDAY_CHARS = "月火水木金土日"
+_WEEKDAY_IN_EVIDENCE_RE = re.compile(r"[(（]\s*([月火水木金土日])\s*[)）]")
+
+# 開催日が記事公開日からこの範囲を外れたら失格。過去年への滑落 (実測: 養成講座が
+# 2025 年に確定した) と、遠すぎる未来の誤抽出を止める。
+MIN_DAYS_BEFORE_PUBLISH = -31
+MAX_DAYS_AFTER_PUBLISH = 400
+
+
+def _normalize_for_match(s: str) -> str:
+    """照合用の正規化。本文と evidence の両方に同じものを掛ける。"""
+    s = normalize_circled_weekday(s)
+    s = normalize_fullwidth_digits(s)
+    s = normalize_tilde(s)
+    return re.sub(r"\s+", "", s)
+
+
+def _evidence_contains_month_day(ev_norm: str, ev_date: date) -> bool:
+    """正規化済み evidence に ev_date の月日が現れるか。
+
+    「8月8日」「8/8」の両表記を許す。ゼロ埋めの有無も許す。
+    """
+    m, d = ev_date.month, ev_date.day
+    forms = [
+        f"{m}月{d}日", f"{m:02d}月{d:02d}日",
+        f"{m}/{d}", f"{m:02d}/{d:02d}",
+        f"{ev_date.year}年{m}月{d}日",
+    ]
+    return any(f in ev_norm for f in forms)
+
+
+def verify_event_date(extracted: dict, body_text: str,
+                      pub_date: date) -> str | None:
+    """LLM が返した開催日を検算する。通れば None、落ちれば失格理由を返す。"""
+    raw_date = extracted.get("event_date")
+    evidence = extracted.get("date_evidence")
+
+    try:
+        ev_date = date.fromisoformat(str(raw_date))
+    except Exception:
+        return f"invalid-date: {raw_date!r}"
+
+    if not evidence:
+        return "no-evidence"
+
+    ev_norm = _normalize_for_match(evidence)
+    body_norm = _normalize_for_match(body_text)
+
+    # 検証 1: 根拠が本文に実在するか (幻覚検出)
+    if ev_norm not in body_norm:
+        return f"evidence-not-found: {evidence!r}"
+
+    # 検証 5: 更新スタンプを根拠にしていないか。
+    # 月日チェック (検証 2) より先に置く。「6/16更新」は月日そのものは一致して
+    # しまうので、検証 2 では止められない。
+    if UPDATE_STAMP_RE.search(ev_norm):
+        return f"update-stamp: {evidence!r}"
+
+    # 検証 2: 根拠と結論の月日が一致するか
+    if not _evidence_contains_month_day(ev_norm, ev_date):
+        return f"mismatch: {evidence!r} vs {ev_date.isoformat()}"
+
+    # 検証 3: 根拠に曜日があれば一致するか
+    m = _WEEKDAY_IN_EVIDENCE_RE.search(normalize_circled_weekday(evidence))
+    if m and _WEEKDAY_CHARS[ev_date.weekday()] != m.group(1):
+        return (f"weekday-mismatch: {evidence!r} vs "
+                f"{ev_date.isoformat()} ({_WEEKDAY_CHARS[ev_date.weekday()]})")
+
+    # 検証 4: 記事公開日から妥当な範囲か
+    delta = (ev_date - pub_date).days
+    if not (MIN_DAYS_BEFORE_PUBLISH <= delta <= MAX_DAYS_AFTER_PUBLISH):
+        return f"out-of-range: {ev_date.isoformat()} is {delta}d from {pub_date}"
+
+    return None
