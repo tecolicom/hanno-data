@@ -1,0 +1,25 @@
+uid: "tourism-news-5840-b9b82f@hanno.city.tecoli.com"
+summary: "📢 【会員の皆様へ】飯能市観光アンケート2025年版調査結果"
+url: "https://hanno-tourism.jp/news/%e3%80%90%e4%bc%9a%e5%93%a1%e3%81%ae%e7%9a%86%e6%a7%98%e3%81%b8%e3%80%91%e9%a3%af%e8%83%bd%e5%b8%82%e8%a6%b3%e5%85%89%e3%82%a2%e3%83%b3%e3%82%b1%e3%83%bc%e3%83%882025%e5%b9%b4%e7%89%88%e8%aa%bf"
+dtstart: "2026-06-17"
+dtend: "2026-06-17"
+description: |-
+  奥むさし飯能観光協会: https://hanno-tourism.jp/news/%e3%80%90%e4%bc%9a%e5%93%a1%e3%81%ae%e7%9a%86%e6%a7%98%e3%81%b8%e3%80%91%e9%a3%af%e8%83%bd%e5%b8%82%e8%a6%b3%e5%85%89%e3%82%a2%e3%83%b3%e3%82%b1%e3%83%bc%e3%83%882025%e5%b9%b4%e7%89%88%e8%aa%bf
+  
+  🆕 新着掲載 (公開日: 2026-06-17)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  飯能市観光アンケート2025年版の調査結果を公表しました。2025年1月～12月を期間として、飯能市内在住の方および市外からの来訪者にご回答いただいた結果です。会員向けの資料で、PDFファイルのダウンロードが可能です。閲覧にはパスワードが必要です。
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-tourism-jp-news
+  id: "5840"
+  url: "https://hanno-tourism.jp/news/%e3%80%90%e4%bc%9a%e5%93%a1%e3%81%ae%e7%9a%86%e6%a7%98%e3%81%b8%e3%80%91%e9%a3%af%e8%83%bd%e5%b8%82%e8%a6%b3%e5%85%89%e3%82%a2%e3%83%b3%e3%82%b1%e3%83%bc%e3%83%882025%e5%b9%b4%e7%89%88%e8%aa%bf"
+  fetched_at: "2026-08-10T06:33:04.926428Z"
+  modified_gmt: "2026-07-01T01:35:59"
+  content_hash: "sha256-b9b82fe7899fd1fb"

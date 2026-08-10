@@ -1,0 +1,25 @@
+uid: "tourism-news-5167-b904b8@hanno.city.tecoli.com"
+summary: "📢 飯能さくらウィーク開催🌸"
+url: "https://hanno-tourism.jp/news/%e9%a3%af%e8%83%bd%e3%81%95%e3%81%8f%e3%82%89%e3%82%a6%e3%82%a3%e3%83%bc%e3%82%af"
+dtstart: "2026-02-25"
+dtend: "2026-02-25"
+description: |-
+  奥むさし飯能観光協会: https://hanno-tourism.jp/news/%e9%a3%af%e8%83%bd%e3%81%95%e3%81%8f%e3%82%89%e3%82%a6%e3%82%a3%e3%83%bc%e3%82%af
+  
+  🆕 新着掲載 (公開日: 2026-02-25)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  飯能春まつりから名称を変更した「飯能さくらウィーク」を中央公園で開催します。期間は令和8年3月28日（土）～4月5日（日）の9日間。期間中はキッチンカーなどが出店し飲食を提供します。今年はボンボリの点灯（ライトアップ）はありません。駐車場は台数に限りがあるため公共交通機関の利用をお勧めします。会場はゴミ箱を設置していないため各自持ち帰りをお願いします。会場は全面禁煙です。
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-tourism-jp-news
+  id: "5167"
+  url: "https://hanno-tourism.jp/news/%e9%a3%af%e8%83%bd%e3%81%95%e3%81%8f%e3%82%89%e3%82%a6%e3%82%a3%e3%83%bc%e3%82%af"
+  fetched_at: "2026-08-10T06:33:55.644326Z"
+  modified_gmt: "2026-04-10T01:34:30"
+  content_hash: "sha256-b904b8de9ae014ed"

@@ -1,0 +1,25 @@
+uid: "tourism-news-5451-e15a63@hanno.city.tecoli.com"
+summary: "📢 令和8年度 飯能河原の営業が始まります。"
+url: "https://hanno-tourism.jp/news/%e4%bb%a4%e5%92%8c8%e5%b9%b4%e5%ba%a6-%e9%a3%af%e8%83%bd%e6%b2%b3%e5%8e%9f%e3%81%ae%e5%96%b6%e6%a5%ad%e3%81%8c%e5%a7%8b%e3%81%be%e3%82%8a%e3%81%be%e3%81%99%e3%80%82"
+dtstart: "2026-04-20"
+dtend: "2026-04-20"
+description: |-
+  奥むさし飯能観光協会: https://hanno-tourism.jp/news/%e4%bb%a4%e5%92%8c8%e5%b9%b4%e5%ba%a6-%e9%a3%af%e8%83%bd%e6%b2%b3%e5%8e%9f%e3%81%ae%e5%96%b6%e6%a5%ad%e3%81%8c%e5%a7%8b%e3%81%be%e3%82%8a%e3%81%be%e3%81%99%e3%80%82
+  
+  🆕 新着掲載 (公開日: 2026-04-20)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  令和8年4月25日(土)から飯能河原の営業が始まります。水遊びなどが楽しめる無料の親水エリアと、バーベキューができる有料の火気使用エリアがあります。飯能駅から徒歩約15分。河原ではバーベキュー用品のレンタルも可能です。令和8年6月末頃までステージ広場（ウッドデッキ）が改築工事中のため、近隣道路を大型車両が通ることがあります。スタッフが配置されている営業日はゴミの回収も行っています。
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-tourism-jp-news
+  id: "5451"
+  url: "https://hanno-tourism.jp/news/%e4%bb%a4%e5%92%8c8%e5%b9%b4%e5%ba%a6-%e9%a3%af%e8%83%bd%e6%b2%b3%e5%8e%9f%e3%81%ae%e5%96%b6%e6%a5%ad%e3%81%8c%e5%a7%8b%e3%81%be%e3%82%8a%e3%81%be%e3%81%99%e3%80%82"
+  fetched_at: "2026-08-10T06:33:31.815414Z"
+  modified_gmt: "2026-04-20T07:01:14"
+  content_hash: "sha256-e15a635e343e3a11"

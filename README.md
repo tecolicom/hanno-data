@@ -13,9 +13,6 @@
 
 ```
 hanno-data/
-├── schema/                       # JSON Schema (zod から参照)
-│   ├── gomi-schedule.json
-│   └── area-mapping.json
 ├── gomi/                         # 分別辞典のみ (収集日程は japan-gomi-data へ移管済み)
 │   └── 2026/bunbetsu-jiten.yaml  # ごみ品目の分別事典。/@hanno/gomi/search/ が読む
 ├── bus/                          # バス時刻表 (ファイル名 = feed_id、各 YAML の meta.feed_id と一致)
@@ -50,11 +47,15 @@ hanno-data/
 
 ## 出典
 
-### ゴミ収集カレンダー
+### ごみ分別事典
 
-- 飯能市公式サイト「家庭ごみ収集カレンダー」
-  https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/cleancenter/4/893.html
-- 各 YAML の `metadata.source` に PDF URL と取得日時を記録する
+- 飯能市公式サイト「ごみの分け方・出し方」の分別事典 PDF
+- `gomi/2026/bunbetsu-jiten.yaml` の `source` に PDF URL と取得日時・ページ範囲を記録する
+
+収集日程 (コース別カレンダー) は
+[tecolicom/japan-gomi-data](https://github.com/tecolicom/japan-gomi-data) の
+`municipalities/saitama/hanno/` に移管済み。分別事典は同リポジトリの scope
+(収集日程 + 種別定義) の外なので、こちらに残している。
 
 ### バス時刻表
 
@@ -135,5 +136,4 @@ golden 網とは別に、純粋関数・API ラッパのユニットテストが
 ## 編集方針
 
 - 機械抽出 (Claude API) した結果を人間レビュー後に PR でマージ
-- 直接編集する場合も schema 検証を通すこと
 - 公式情報源の更新を年 1 回 (年度更新時) 突合する

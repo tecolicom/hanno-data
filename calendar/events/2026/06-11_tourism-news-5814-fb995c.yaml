@@ -1,0 +1,25 @@
+uid: "tourism-news-5814-fb995c@hanno.city.tecoli.com"
+summary: "📢 【中止】名栗ほたる祭り"
+url: "https://hanno-tourism.jp/news/%e5%90%8d%e6%a0%97%e3%81%bb%e3%81%9f%e3%82%8b%e7%a5%ad%e3%82%8a"
+dtstart: "2026-06-11"
+dtend: "2026-06-11"
+description: |-
+  奥むさし飯能観光協会: https://hanno-tourism.jp/news/%e5%90%8d%e6%a0%97%e3%81%bb%e3%81%9f%e3%82%8b%e7%a5%ad%e3%82%8a
+  
+  🆕 新着掲載 (公開日: 2026-06-11)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  【中止】台風接近に伴い中止が決定しました。飲食ブース（焼きそば、かき氷、キッチンカー）やお土産品のアウトレット販売が予定されていました。ホタルが見られるのは日没から1時間後くらいの午後8時頃。会場はノーラ名栗。
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-tourism-jp-news
+  id: "5814"
+  url: "https://hanno-tourism.jp/news/%e5%90%8d%e6%a0%97%e3%81%bb%e3%81%9f%e3%82%8b%e7%a5%ad%e3%82%8a"
+  fetched_at: "2026-08-10T06:33:07.062934Z"
+  modified_gmt: "2026-06-26T07:52:50"
+  content_hash: "sha256-fb995cd46ab35032"

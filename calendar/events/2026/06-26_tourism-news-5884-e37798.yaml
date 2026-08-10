@@ -1,0 +1,25 @@
+uid: "tourism-news-5884-e37798@hanno.city.tecoli.com"
+summary: "📢 飯能河原6/27㈯・28㈰の営業について"
+url: "https://hanno-tourism.jp/news/%e9%a3%af%e8%83%bd%e6%b2%b3%e5%8e%9f6-27%e3%88%af%e3%83%bb28%e3%88%b0%e3%81%ae%e5%96%b6%e6%a5%ad%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6"
+dtstart: "2026-06-26"
+dtend: "2026-06-26"
+description: |-
+  奥むさし飯能観光協会: https://hanno-tourism.jp/news/%e9%a3%af%e8%83%bd%e6%b2%b3%e5%8e%9f6-27%e3%88%af%e3%83%bb28%e3%88%b0%e3%81%ae%e5%96%b6%e6%a5%ad%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6
+  
+  🆕 新着掲載 (公開日: 2026-06-26)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  台風接近に伴い、飯能河原の営業について以下の通りお知らせします。6月27日(土)は営業中止。6月28日(日)は川の増水状況により判断します。営業情報は公式X「飯能河原。いい塩梅。」にて更新予定。現地での河原増水確認は危険のため控えてください。
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-tourism-jp-news
+  id: "5884"
+  url: "https://hanno-tourism.jp/news/%e9%a3%af%e8%83%bd%e6%b2%b3%e5%8e%9f6-27%e3%88%af%e3%83%bb28%e3%88%b0%e3%81%ae%e5%96%b6%e6%a5%ad%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6"
+  fetched_at: "2026-08-10T06:33:03.051388Z"
+  modified_gmt: "2026-06-26T06:37:02"
+  content_hash: "sha256-e377989f9aa730e8"

@@ -1,0 +1,23 @@
+uid: "tourism-news-5723-event@hanno.city.tecoli.com"
+summary: "ℹ️ 6月6日(土)・7日(日)休業のお知らせ"
+url: "https://hanno-tourism.jp/news/6%e6%9c%886%e6%97%a5%e5%9c%9f%e3%83%bb7%e6%97%a5%e6%97%a5%e4%bc%91%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b"
+dtstart: "2026-06-06"
+dtend: "2026-06-07"
+description: |-
+  奥むさし飯能観光協会: https://hanno-tourism.jp/news/6%e6%9c%886%e6%97%a5%e5%9c%9f%e3%83%bb7%e6%97%a5%e6%97%a5%e4%bc%91%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  奥むさし飯能観光協会は飯能商工会議所の定期施設メンテナンスのため、令和8年6月6日(土)・6月7日(日)に電話対応を含む案内業務を休業いたします。対象日はイーグルバス定期券ご購入とマンホールカードの配布ができかねます。なお、ぷらっと飯能（飯能駅観光案内所 TEL 042-978-9111 9時～17時）は通常通り営業しております。
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-tourism-jp-news
+  id: "5723"
+  url: "https://hanno-tourism.jp/news/6%e6%9c%886%e6%97%a5%e5%9c%9f%e3%83%bb7%e6%97%a5%e6%97%a5%e4%bc%91%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b"
+  fetched_at: "2026-08-10T06:33:21.764197Z"
+  modified_gmt: "2026-05-20T05:29:54"
+  content_hash: "sha256-d102024b39879ab2"

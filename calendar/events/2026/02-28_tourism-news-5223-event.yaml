@@ -1,0 +1,23 @@
+uid: "tourism-news-5223-event@hanno.city.tecoli.com"
+summary: "🎪 ひな飾りマルシェ@小町公園"
+url: "https://hanno-tourism.jp/news/%e3%81%b2%e3%81%aa%e9%a3%be%e3%82%8a%e3%83%9e%e3%83%ab%e3%82%b7%e3%82%a7%e5%b0%8f%e7%94%ba%e5%85%ac%e5%9c%92"
+dtstart: "2026-02-28"
+dtend: "2026-03-08"
+description: |-
+  奥むさし飯能観光協会: https://hanno-tourism.jp/news/%e3%81%b2%e3%81%aa%e9%a3%be%e3%82%8a%e3%83%9e%e3%83%ab%e3%82%b7%e3%82%a7%e5%b0%8f%e7%94%ba%e5%85%ac%e5%9c%92
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  飯能ひな飾り展の開催に合わせて、飯能小町公園でマルシェを開催します。キッチンカーが出店し、かき氷、クレープ、ケバブ、スペアリブなど様々な飲食物を販売予定。2月28日（土）、3月1日（日）、3月7日（土）、3月8日（日）に開催。駐車場はないため、近隣の有料駐車場・コインパーキングをご利用ください。天候等により出店内容が変更になることがあります。
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-tourism-jp-news
+  id: "5223"
+  url: "https://hanno-tourism.jp/news/%e3%81%b2%e3%81%aa%e9%a3%be%e3%82%8a%e3%83%9e%e3%83%ab%e3%82%b7%e3%82%a7%e5%b0%8f%e7%94%ba%e5%85%ac%e5%9c%92"
+  fetched_at: "2026-08-10T06:33:53.189223Z"
+  modified_gmt: "2026-03-06T07:30:29"
+  content_hash: "sha256-a9b9bfd54da4c4e7"

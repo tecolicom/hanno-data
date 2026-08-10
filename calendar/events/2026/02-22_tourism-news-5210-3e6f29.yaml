@@ -1,0 +1,25 @@
+uid: "tourism-news-5210-3e6f29@hanno.city.tecoli.com"
+summary: "📢 笑う狛犬と法光寺写経体験の旅 エコツアーのご案内"
+url: "https://hanno-tourism.jp/news/%e7%ac%91%e3%81%86%e7%8b%9b%e7%8a%ac%e3%81%a8%e6%b3%95%e5%85%89%e5%af%ba%e5%86%99%e7%b5%8c%e4%bd%93%e9%a8%93%e3%81%ae%e6%97%85%e3%80%80%e3%82%a8%e3%82%b3%e3%83%84%e3%82%a2%e3%83%bc%e3%81%ae%e3%81%94"
+dtstart: "2026-02-22"
+dtend: "2026-02-22"
+description: |-
+  奥むさし飯能観光協会: https://hanno-tourism.jp/news/%e7%ac%91%e3%81%86%e7%8b%9b%e7%8a%ac%e3%81%a8%e6%b3%95%e5%85%89%e5%af%ba%e5%86%99%e7%b5%8c%e4%bd%93%e9%a8%93%e3%81%ae%e6%97%85%e3%80%80%e3%82%a8%e3%82%b3%e3%83%84%e3%82%a2%e3%83%bc%e3%81%ae%e3%81%94
+  
+  🆕 新着掲載 (公開日: 2026-02-22)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  飯能市吾野地域のエコツアー。借宿神社の笑う狛犬見学と法光寺での写経体験、岩殿観音窟石龕の案内、地元フレンチレストランのお弁当付きの日帰り旅。
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-tourism-jp-news
+  id: "5210"
+  url: "https://hanno-tourism.jp/news/%e7%ac%91%e3%81%86%e7%8b%9b%e7%8a%ac%e3%81%a8%e6%b3%95%e5%85%89%e5%af%ba%e5%86%99%e7%b5%8c%e4%bd%93%e9%a8%93%e3%81%ae%e6%97%85%e3%80%80%e3%82%a8%e3%82%b3%e3%83%84%e3%82%a2%e3%83%bc%e3%81%ae%e3%81%94"
+  fetched_at: "2026-08-10T06:33:57.322439Z"
+  modified_gmt: "2026-02-22T05:37:00"
+  content_hash: "sha256-3e6f290f85031158"

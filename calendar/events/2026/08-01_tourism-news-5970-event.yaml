@@ -1,0 +1,23 @@
+uid: "tourism-news-5970-event@hanno.city.tecoli.com"
+summary: "🎪 『はんのう夏至祭 森と水と太陽のビアガーデン』を開催します！"
+url: "https://hanno-tourism.jp/news/%e3%80%8e%e3%81%af%e3%82%93%e3%81%ae%e3%81%86%e5%a4%8f%e8%87%b3%e7%a5%ad-%e6%a3%ae%e3%81%a8%e6%b0%b4%e3%81%a8%e5%a4%aa%e9%99%bd%e3%81%ae%e3%83%93%e3%82%a2%e3%82%ac%e3%83%bc%e3%83%87%e3%83%b3%e3%80%8f"
+dtstart: "2026-08-01"
+dtend: "2026-08-01"
+description: |-
+  奥むさし飯能観光協会: https://hanno-tourism.jp/news/%e3%80%8e%e3%81%af%e3%82%93%e3%81%ae%e3%81%86%e5%a4%8f%e8%87%b3%e7%a5%ad-%e6%a3%ae%e3%81%a8%e6%b0%b4%e3%81%a8%e5%a4%aa%e9%99%bd%e3%81%ae%e3%83%93%e3%82%a2%e3%82%ac%e3%83%bc%e3%83%87%e3%83%b3%e3%80%8f
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  令和8年8月1日（土）、リニューアルした飯能河原ステージ広場で『はんのう夏至祭 森と水と太陽のビアガーデン』を開催します。北欧の夏至祭の象徴であるかがり火が会場を照らす中、TUMUZIバンドによるヴァイオリン・ギター・パーカッションの演奏を楽しめます。キッチンカーはCOTORIDO（クレープ）、RUBBER SOUL（りんご飴・チョコバナナ）、らんまる販売（焼き鳥）、ジュッティー（カレー）、CARVAAN（クラフトビール・地中海料理）が出店予定です。
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-tourism-jp-news
+  id: "5970"
+  url: "https://hanno-tourism.jp/news/%e3%80%8e%e3%81%af%e3%82%93%e3%81%ae%e3%81%86%e5%a4%8f%e8%87%b3%e7%a5%ad-%e6%a3%ae%e3%81%a8%e6%b0%b4%e3%81%a8%e5%a4%aa%e9%99%bd%e3%81%ae%e3%83%93%e3%82%a2%e3%82%ac%e3%83%bc%e3%83%87%e3%83%b3%e3%80%8f"
+  fetched_at: "2026-08-10T06:32:52.067450Z"
+  modified_gmt: "2026-07-30T01:10:31"
+  content_hash: "sha256-60dd72d890a99946"

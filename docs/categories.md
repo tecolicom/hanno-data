@@ -26,7 +26,10 @@ oversized       粗大ごみ          Oversized garbage
 > 内容は意味的に hazardous(発火性・刃物・電池等の物理的危険物)に該当するため、
 > 英語 enum は `hazardous` を採用。日本語ラベルは PDF 表記に合わせて「有害ごみ」を使う。
 
-JSON Schema 上の正規定義は [`schema/gomi-schedule.json`](../schema/gomi-schedule.json) を参照。
+JSON Schema 上の正規定義は japan-gomi-data の
+[`schema/schedule.schema.json`](https://github.com/tecolicom/japan-gomi-data/blob/main/schema/schedule.schema.json)
+を参照 (種別語彙の正典は同 `schema/categories.yaml`)。収集日程データの移管に伴い、
+このリポジトリの `schema/` は 2026-08-10 に削除した。
 
 ---
 

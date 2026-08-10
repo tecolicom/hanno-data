@@ -1,0 +1,23 @@
+uid: "tourism-news-5796-event@hanno.city.tecoli.com"
+summary: "ℹ️ 飯能駅観光案内所「ぷらっと飯能」6月3日(水)台風接近に伴う臨時休業のお知らせ"
+url: "https://hanno-tourism.jp/news/%e9%a3%af%e8%83%bd%e9%a7%85%e8%a6%b3%e5%85%89%e6%a1%88%e5%86%85%e6%89%80%e3%80%8c%e3%81%b7%e3%82%89%e3%81%a3%e3%81%a8%e9%a3%af%e8%83%bd%e3%80%8d6%e6%9c%883%e6%97%a5%e6%b0%b4%e5%8f%b0%e9%a2%a8"
+dtstart: "2026-06-03"
+dtend: "2026-06-03"
+description: |-
+  奥むさし飯能観光協会: https://hanno-tourism.jp/news/%e9%a3%af%e8%83%bd%e9%a7%85%e8%a6%b3%e5%85%89%e6%a1%88%e5%86%85%e6%89%80%e3%80%8c%e3%81%b7%e3%82%89%e3%81%a3%e3%81%a8%e9%a3%af%e8%83%bd%e3%80%8d6%e6%9c%883%e6%97%a5%e6%b0%b4%e5%8f%b0%e9%a2%a8
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  飯能駅観光案内所「ぷらっと飯能」は、台風6号接近に伴い6月3日(水)に臨時休業します。6月4日(木)は通常営業の予定です。奥むさし飯能観光協会（飯能商工会議所内）は6月3日(水)も通常通り営業予定です。
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-tourism-jp-news
+  id: "5796"
+  url: "https://hanno-tourism.jp/news/%e9%a3%af%e8%83%bd%e9%a7%85%e8%a6%b3%e5%85%89%e6%a1%88%e5%86%85%e6%89%80%e3%80%8c%e3%81%b7%e3%82%89%e3%81%a3%e3%81%a8%e9%a3%af%e8%83%bd%e3%80%8d6%e6%9c%883%e6%97%a5%e6%b0%b4%e5%8f%b0%e9%a2%a8"
+  fetched_at: "2026-08-10T06:33:13.261120Z"
+  modified_gmt: "2026-06-02T08:24:38"
+  content_hash: "sha256-36dfdac3cb85134f"

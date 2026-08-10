@@ -1,0 +1,25 @@
+uid: "tourism-news-5477-c1aaa2@hanno.city.tecoli.com"
+summary: "📢 奥むさし飯能観光協会 GW休業日のお知らせ"
+url: "https://hanno-tourism.jp/news/gw%e4%bc%91%e6%a5%ad%e6%97%a5%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b"
+dtstart: "2026-04-27"
+dtend: "2026-04-27"
+description: |-
+  奥むさし飯能観光協会: https://hanno-tourism.jp/news/gw%e4%bc%91%e6%a5%ad%e6%97%a5%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b
+  
+  🆕 新着掲載 (公開日: 2026-04-27)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  奥むさし飯能観光協会（飯能商工会議所内）は4月29日(水・祝)～5月5日(火・祝)営業いたします。5月3日(日・祝)も営業するため、振替休日として5月6日(水)を休業いたします。この期間、マンホールカードの配布やイーグルバス定期券の購入等の対応ができかねます。飯能駅観光案内所「ぷらっと飯能」（TEL 042-978-9111）は通常通り9:00-17:00で営業しています。
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-tourism-jp-news
+  id: "5477"
+  url: "https://hanno-tourism.jp/news/gw%e4%bc%91%e6%a5%ad%e6%97%a5%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b"
+  fetched_at: "2026-08-10T06:33:29.521392Z"
+  modified_gmt: "2026-04-28T07:35:55"
+  content_hash: "sha256-c1aaa229f92e5a2a"

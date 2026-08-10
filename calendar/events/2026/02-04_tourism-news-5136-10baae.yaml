@@ -1,0 +1,25 @@
+uid: "tourism-news-5136-10baae@hanno.city.tecoli.com"
+summary: "📢 飯能エコツアーチラシ2026.春号"
+url: "https://hanno-tourism.jp/news/ec-flier-spring2026"
+dtstart: "2026-02-04"
+dtend: "2026-02-04"
+description: |-
+  奥むさし飯能観光協会: https://hanno-tourism.jp/news/ec-flier-spring2026
+  
+  🆕 新着掲載 (公開日: 2026-02-04)
+  
+  飯能エコツアーチラシ2026.春号
+  
+  ※画像クリックでPDFファイルをご覧いただけます。
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-tourism-jp-news
+  id: "5136"
+  url: "https://hanno-tourism.jp/news/ec-flier-spring2026"
+  fetched_at: "2026-08-10T06:33:59.847230Z"
+  modified_gmt: "2026-02-22T05:08:58"
+  content_hash: "sha256-10baae67d7f911db"

@@ -1,0 +1,25 @@
+uid: "tourism-news-5427-7f1cd0@hanno.city.tecoli.com"
+summary: "📢 飯能エコツアーチラシ2026.初夏号"
+url: "https://hanno-tourism.jp/news/%e9%a3%af%e8%83%bd%e3%82%a8%e3%82%b3%e3%83%84%e3%82%a2%e3%83%bc%e3%83%81%e3%83%a9%e3%82%b72026-%e5%88%9d%e5%a4%8f%e5%8f%b7"
+dtstart: "2026-04-07"
+dtend: "2026-04-07"
+description: |-
+  奥むさし飯能観光協会: https://hanno-tourism.jp/news/%e9%a3%af%e8%83%bd%e3%82%a8%e3%82%b3%e3%83%84%e3%82%a2%e3%83%bc%e3%83%81%e3%83%a9%e3%82%b72026-%e5%88%9d%e5%a4%8f%e5%8f%b7
+  
+  🆕 新着掲載 (公開日: 2026-04-07)
+  
+  飯能エコツアーチラシ2026.初夏号
+  
+  ※画像クリックでPDFファイルをご覧いただけます。
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-tourism-jp-news
+  id: "5427"
+  url: "https://hanno-tourism.jp/news/%e9%a3%af%e8%83%bd%e3%82%a8%e3%82%b3%e3%83%84%e3%82%a2%e3%83%bc%e3%83%81%e3%83%a9%e3%82%b72026-%e5%88%9d%e5%a4%8f%e5%8f%b7"
+  fetched_at: "2026-08-10T06:33:35.858809Z"
+  modified_gmt: "2026-04-07T01:38:04"
+  content_hash: "sha256-7f1cd0222637f1b4"

@@ -1,0 +1,23 @@
+uid: "tourism-news-5265-event@hanno.city.tecoli.com"
+summary: "ℹ️ 3月21日(土)案内業務お休みのお知らせ"
+url: "https://hanno-tourism.jp/news/3%e6%9c%8821%e6%97%a5%e5%9c%9f%e6%a1%88%e5%86%85%e6%a5%ad%e5%8b%99%e3%81%8a%e4%bc%91%e3%81%bf%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b"
+dtstart: "2026-03-21"
+dtend: "2026-03-21"
+description: |-
+  奥むさし飯能観光協会: https://hanno-tourism.jp/news/3%e6%9c%8821%e6%97%a5%e5%9c%9f%e6%a1%88%e5%86%85%e6%a5%ad%e5%8b%99%e3%81%8a%e4%bc%91%e3%81%bf%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  奥むさし飯能観光協会の案内業務が令和8年3月21日(土)に飯能商工会議所の定期施設メンテナンスのため休業します。電話対応を含む案内業務全般が対象です。イーグルバス定期券購入、マンホールカード配布、謎解きキャンペーンと黄色い週デジタルスタンプラリーの景品お渡しができません。ただし3月21日(土)のみ、ぷらっと飯能(飯能駅観光案内所)では対応します。前日3月20日(金・祝)と翌日3月22日(日)は営業。ぷらっと飯能と夢馬は通常通り営業。
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-tourism-jp-news
+  id: "5265"
+  url: "https://hanno-tourism.jp/news/3%e6%9c%8821%e6%97%a5%e5%9c%9f%e6%a1%88%e5%86%85%e6%a5%ad%e5%8b%99%e3%81%8a%e4%bc%91%e3%81%bf%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b"
+  fetched_at: "2026-08-10T06:33:46.201651Z"
+  modified_gmt: "2026-03-17T07:25:38"
+  content_hash: "sha256-53f43758954599c0"

@@ -1,0 +1,31 @@
+uid: "tourism-news-5217-a61969@hanno.city.tecoli.com"
+summary: "📢 【3/22更新】『ヤマノススメ Next Summit』マスキングテープ終了のお知らせ"
+url: "https://hanno-tourism.jp/news/%e3%82%b9%e3%82%bf%e3%83%b3%e3%83%97%e3%83%a9%e3%83%aa%e3%83%bc%e3%81%ab%e5%8f%82%e5%8a%a0%e3%81%97%e3%81%a6%e3%80%8e%e3%83%a4%e3%83%9e%e3%83%8e%e3%82%b9%e3%82%b9%e3%83%a1-next-summit%e3%80%8f"
+dtstart: "2026-03-03"
+dtend: "2026-03-03"
+description: |-
+  奥むさし飯能観光協会: https://hanno-tourism.jp/news/%e3%82%b9%e3%82%bf%e3%83%b3%e3%83%97%e3%83%a9%e3%83%aa%e3%83%bc%e3%81%ab%e5%8f%82%e5%8a%a0%e3%81%97%e3%81%a6%e3%80%8e%e3%83%a4%e3%83%9e%e3%83%8e%e3%82%b9%e3%82%b9%e3%83%a1-next-summit%e3%80%8f
+  
+  🆕 新着掲載 (公開日: 2026-03-03)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  【終了】『ヤマノススメ Next Summit』スタンプラリーのマスキングテープ配布は終了しました。スタンプラリー自体は引き続き開催中です。
+  
+  スタンプラリー期間：令和8年3月7日(土)〜3月22日(日)
+  景品お渡し場所：奥むさし飯能観光協会（飯能市本町1－7）9時〜17時
+  ※3月21日(土)は飯能駅改札横観光案内所「ぷらっと飯能」にて景品をお渡しします。
+  
+  参加にはスマートフォンとアプリのダウンロード/インストールが必要です。
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-tourism-jp-news
+  id: "5217"
+  url: "https://hanno-tourism.jp/news/%e3%82%b9%e3%82%bf%e3%83%b3%e3%83%97%e3%83%a9%e3%83%aa%e3%83%bc%e3%81%ab%e5%8f%82%e5%8a%a0%e3%81%97%e3%81%a6%e3%80%8e%e3%83%a4%e3%83%9e%e3%83%8e%e3%82%b9%e3%82%b9%e3%83%a1-next-summit%e3%80%8f"
+  fetched_at: "2026-08-10T06:33:50.884635Z"
+  modified_gmt: "2026-03-22T05:39:36"
+  content_hash: "sha256-a619693190a8d535"

@@ -1,0 +1,37 @@
+uid: "tourism-news-3618-7f14f4@hanno.city.tecoli.com"
+summary: "📢 【延期】飯能市エコツアーガイド養成講座のご案内"
+url: "https://hanno-tourism.jp/news/ecotourguide-seminar"
+dtstart: "2026-05-01"
+dtend: "2026-05-01"
+description: |-
+  奥むさし飯能観光協会: https://hanno-tourism.jp/news/ecotourguide-seminar
+  
+  🆕 新着掲載 (公開日: 2026-05-01)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  【延期】飯能市エコツアーガイド養成講座は延期となりました。日程は改めて発表いたします。
+  
+  地域で活躍できるエコツアーガイドを目指す方向けの講座です。エコツアー体験、ガイディングや運営方法を実践的に学べます。
+  
+  【当初予定日】
+  5月30日（土）9:00〜14:10 飯能商工会議所会議室
+  6月7日（日）9:00〜15:30 飯能市立博物館きっとす
+  
+  対象：飯能市内在住・在勤・在学及びエコツアー実施団体に所属している方で原則両日程参加できる方
+  定員：10名（申込順）
+  料金：お一人様1,000円（資料代・保険代など）初日受付時にお支払い
+  申込締切：5月23日（金）
+  申込方法：メール（hannokanko@gmail.comeco2@）または電話（042-980-5051）で飯能市エコツーリズム推進協議会事務局（奥むさし飯能観光協会）へ
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-tourism-jp-news
+  id: "3618"
+  url: "https://hanno-tourism.jp/news/ecotourguide-seminar"
+  fetched_at: "2026-08-10T06:33:24.753536Z"
+  modified_gmt: "2026-05-22T08:21:52"
+  content_hash: "sha256-7f14f447a952c0a2"
