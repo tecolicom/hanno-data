@@ -53,6 +53,48 @@ def test_content_hash_is_stable_and_changes_with_body():
     assert a == c, "modified_gmt はハッシュに含めない"
 
 
+def test_strip_leading_date_removes_redundant_prefix():
+    """本番は日付の位置そのものが情報なので、タイトル先頭の日付は二重になる。"""
+    f = mod.strip_leading_date
+    assert f("8月8日(土) はんのう昭和盆踊りへ♪") == "はんのう昭和盆踊りへ♪"
+    assert f("3月21日(土)案内業務お休みのお知らせ") == "案内業務お休みのお知らせ"
+
+
+def test_strip_leading_date_handles_fullwidth_and_ranges():
+    f = mod.strip_leading_date
+    # 全角数字 + 全角括弧 + 全角空白
+    assert f("８月12日（水）　飯能なぐりの星空観察会　開催！") == "飯能なぐりの星空観察会　開催！"
+    # 「・19日(日)」のように月を省いた連結も食う
+    assert f("7月18日(土)・19日(日)休業のお知らせ") == "休業のお知らせ"
+
+
+def test_strip_leading_date_leaves_non_leading_dates():
+    """先頭以外の日付は文の一部なので触らない。"""
+    f = mod.strip_leading_date
+    src = "飯能河原6/27㈯・28㈰の営業について"
+    assert f(src) == src
+    src2 = "「氷彫刻」で表現されたムーミンの物語の世界2/15(日)、23(祝)限定で！"
+    assert f(src2) == src2
+
+
+def test_strip_leading_date_keeps_title_when_nothing_would_remain():
+    """タイトルが日付だけなら落とさない (空 summary を作らないための退避)。"""
+    f = mod.strip_leading_date
+    assert f("8月8日(土)") == "8月8日(土)"
+
+
+def test_event_summary_drops_leading_date_but_notice_keeps_it():
+    item = dict(ITEM, title="8月8日(土) はんのう昭和盆踊りへ♪")
+    ev = mod.build_event_yaml(item, EX, "本文", fetched_at=FIXED_TS)
+    nt = mod.build_notice_yaml(item, EX, "本文", fetched_at=FIXED_TS)
+    ev_sum = [l for l in ev.split("\n") if l.startswith("summary:")][0]
+    nt_sum = [l for l in nt.split("\n") if l.startswith("summary:")][0]
+    assert "8月8日" not in ev_sum, ev_sum
+    assert "はんのう昭和盆踊りへ♪" in ev_sum, ev_sum
+    # 告知は掲載日に置くので、タイトル内の日付は「いつの話か」を示す情報
+    assert "8月8日" in nt_sum, nt_sum
+
+
 def test_summary_prefix_for():
     assert mod.summary_prefix_for([6]) == mod.SUMMARY_PREFIX_EVENT
     assert mod.summary_prefix_for([7, 4]) == mod.SUMMARY_PREFIX_EVENT

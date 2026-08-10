@@ -514,6 +514,35 @@ def _one_line(s: str) -> str:
     return " ".join(s.split())
 
 
+# 「8月8日(土) 」「８月12日（水）　」「7月18日(土)・19日(日)」等、タイトル先頭の
+# 日付表記。2 つ目以降は月を省く書き方 (・19日(日)) があるので繰り返しで食う。
+_D = r"[0-9０-９]{1,2}"
+_WD = r"(?:[(（][^)）]{0,4}[)）])?"
+_LEADING_DATE_RE = re.compile(
+    r"^[\s　]*"
+    rf"{_D}[\s　]*[月/／][\s　]*{_D}[\s　]*日?[\s　]*{_WD}"
+    rf"(?:[\s　]*[・、,][\s　]*(?:{_D}[\s　]*[月/／][\s　]*)?"
+    rf"{_D}[\s　]*日?[\s　]*{_WD})*"
+    r"[\s　]*"
+)
+
+
+def strip_leading_date(title: str) -> str:
+    """タイトル先頭の日付表記を落とす。本番エントリ専用。
+
+    本番は dtstart そのものが日付を表すので、タイトル頭の日付は二重になる。
+    告知は掲載日に置くため「いつの予定の話か」を示す情報として残す。
+
+    先頭以外の日付には触らない (文の一部なので)。落とすと何も残らない場合は
+    元のまま返す (空 summary を作らないための退避)。
+    """
+    m = _LEADING_DATE_RE.match(title)
+    if not m:
+        return title
+    rest = title[m.end():].strip()
+    return rest if rest else title
+
+
 def _status_mark(status: str) -> str:
     if status == "canceled":
         return CANCELED_MARK
@@ -571,7 +600,8 @@ def build_event_yaml(item: dict, extracted: dict, description: str,
     start = extracted["event_date"]
     end = extracted.get("event_end_date") or start
     summary = (summary_prefix_for(item["tags"])
-               + _status_mark(extracted["status"]) + item["title"])
+               + _status_mark(extracted["status"])
+               + strip_leading_date(item["title"]))
     return _build_yaml(event_uid(DEFAULT_UID_PREFIX, item["id"]), summary,
                        item, start, end, description, fetched_at)
 
