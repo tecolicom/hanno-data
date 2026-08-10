@@ -626,11 +626,23 @@ def _write(path: str, doc: str) -> None:
         f.write(doc)
 
 
+def llm_all_failed(stats: dict, n_todo: int) -> bool:
+    """実際に LLM を呼んだ記事が 1 件以上あり、その全部が失敗したか。
+
+    本文が薄くて意図的にスキップした記事 (short_body) は「呼んでいない」ので
+    分母から除く。エコツアーチラシのように本文が PDF リンクだけの記事は正常に
+    存在し、変更分がたまたま全部それだった日に誤発火する (実測: 2026-08-10 の
+    CI が 4 件のチラシ記事で exit 2 した)。
+    """
+    attempted = n_todo - stats["short_body"]
+    return attempted > 0 and stats["llm_fail"] == attempted
+
+
 def process_news(items: list[dict], out_dir: str, dry_run: bool,
                  cache: dict) -> dict:
     """記事ごとに告知 (常に) と本番 (条件付き) を書き出す。"""
     stats = {"notice": 0, "notice_unchanged": 0, "event": 0,
-             "skipped_event": 0, "llm_fail": 0}
+             "skipped_event": 0, "llm_fail": 0, "short_body": 0}
     # 索引は 1 回だけ作る。記事ごとに走査すると O(n^2) になる。
     generations = existing_notice_generations(out_dir, DEFAULT_UID_PREFIX)
     for i, item in enumerate(items, 1):
@@ -640,16 +652,24 @@ def process_news(items: list[dict], out_dir: str, dry_run: bool,
         # 照合対象は LLM に見せたのと同じ文字列。タイトルだけに日付がある記事
         # (「6月3日(水)…臨時休業のお知らせ」等) を取りこぼさないため。
         match_text = llm_user_message(item["title"], body_text, pub_str)
-        extracted = extract_with_llm(item["title"], body_text, pub_str)
-        if extracted is None:
-            stats["llm_fail"] += 1
-            # 要約なしでも告知は出す。ただし cache には記録せず次回リトライさせる。
-            extracted = {"summary": "", "event_date": None,
-                         "event_end_date": None, "date_evidence": None,
-                         "status": "normal"}
-            recordable = False
+
+        _EMPTY = {"summary": "", "event_date": None, "event_end_date": None,
+                  "date_evidence": None, "status": "normal"}
+        if len(body_text) < MIN_BODY_CHARS:
+            # 安全装置で LLM を呼ばない (ハルシネーション防止)。これは正常動作で
+            # あって失敗ではないので llm_fail に混ぜない。再実行しても結果は
+            # 変わらないため cache に記録する (記録しないと毎回リトライに残る)。
+            stats["short_body"] += 1
+            extracted, recordable = dict(_EMPTY), True
         else:
-            recordable = True
+            extracted = extract_with_llm(item["title"], body_text, pub_str)
+            if extracted is None:
+                # 本当の失敗 (API 障害・JSON パース不能)。要約なしでも告知は
+                # 出すが、cache には記録せず次回リトライさせる。
+                stats["llm_fail"] += 1
+                extracted, recordable = dict(_EMPTY), False
+            else:
+                recordable = True
 
         description = build_description(extracted, body_text)
         pub_date = date.fromisoformat(pub_str)
@@ -751,8 +771,9 @@ def main() -> None:
 
     r = process_news(todo, args.out_dir, args.dry_run, cache)
 
-    if todo and r["llm_fail"] == len(todo):
-        print("FAIL: LLM extraction failed for every article.", file=sys.stderr)
+    if llm_all_failed(r, len(todo)):
+        print("FAIL: LLM extraction failed for every article it was called on.",
+              file=sys.stderr)
         sys.exit(2)
 
     if not args.dry_run and not args.no_cache:
@@ -760,7 +781,8 @@ def main() -> None:
 
     print(f"notice={r['notice']} notice_unchanged={r['notice_unchanged']} "
           f"event={r['event']} skipped_event={r['skipped_event']} "
-          f"llm_fail={r['llm_fail']} unchanged={unchanged}", file=sys.stderr)
+          f"short_body={r['short_body']} llm_fail={r['llm_fail']} "
+          f"unchanged={unchanged}", file=sys.stderr)
 
 
 if __name__ == "__main__":

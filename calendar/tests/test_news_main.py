@@ -104,6 +104,59 @@ def test_dry_run_writes_nothing():
         assert _files(d) == [], _files(d)
 
 
+THIN = dict(BON, id=777,
+            url="https://hanno-tourism.jp/news/eco-flier-autumn2026",
+            title="飯能エコツアーチラシ2026.秋号",
+            body_html="<p>PDF</p>")
+
+
+def test_thin_body_counts_as_skip_not_failure():
+    """実データ: エコツアーチラシは本文が PDF リンクだけ。
+
+    MIN_BODY_CHARS の安全装置で LLM を呼ばないのは正常動作であって失敗ではない。
+    これを llm_fail に数えると「全件失敗 = API 障害」と誤判定する。
+    """
+    called = {"n": 0}
+
+    def _f(system, user, **kw):
+        called["n"] += 1
+        return "{}"
+    mod.call_llm = _f
+    with tempfile.TemporaryDirectory() as d:
+        r = mod.process_news([THIN], d, False, {})
+    assert called["n"] == 0, "薄い本文で LLM を呼んではいけない"
+    assert r["short_body"] == 1, r
+    assert r["llm_fail"] == 0, r
+
+
+def test_thin_body_is_cached():
+    """再実行しても結果が変わらないのでキャッシュに記録する。
+
+    記録しないと毎回リトライ対象に残り続ける (実測: CI が毎回 4 件を再処理した)。
+    """
+    mod.call_llm = lambda system, user, **kw: None
+    cache = {}
+    with tempfile.TemporaryDirectory() as d:
+        mod.process_news([THIN], d, False, cache)
+    assert THIN["url"] in cache, cache
+
+
+def test_llm_all_failed_ignores_thin_bodies():
+    """変更分がたまたま全部チラシだった日に exit 2 で誤発火しないこと。"""
+    stats = {"short_body": 4, "llm_fail": 0}
+    assert mod.llm_all_failed(stats, n_todo=4) is False
+
+
+def test_llm_all_failed_detects_real_outage():
+    stats = {"short_body": 0, "llm_fail": 3}
+    assert mod.llm_all_failed(stats, n_todo=3) is True
+
+
+def test_llm_all_failed_false_on_partial_failure():
+    stats = {"short_body": 1, "llm_fail": 1}
+    assert mod.llm_all_failed(stats, n_todo=3) is False
+
+
 def test_check_news_count_exits_when_too_few():
     try:
         mod.check_news_count(50, 100)
