@@ -33,7 +33,7 @@ from _lib import (  # noqa: E402
     call_llm, llm_available, strip_html, normalize_body, strip_markdown,
     normalize_circled_weekday, normalize_fullwidth_digits, normalize_tilde,
     yaml_escape_str, yaml_block_scalar, read_yaml_scalar,
-    output_path_for, find_existing_by_uid,
+    output_path_for, find_existing_by_uid, reiwa_to_gregorian,
 )
 
 JST = timezone(timedelta(hours=9))
@@ -87,12 +87,16 @@ EXTRACT_SYSTEM_PROMPT = """あなたは奥むさし飯能観光協会サイト�
 - **副イベント・協賛イベントの日付ではなく、記事の主題の日付**を返してください。例えば「ひな飾り展」の記事に協賛イベント「丸太雛めぐり」の日程が併記されている場合、返すのはひな飾り展の日程です。
 - **記事の主目的が募集・協賛のお願いであっても、本文に開催日が明記されていれば返してください**。
 - 期間のあるイベントは event_date に初日、event_end_date に最終日を入れます。単日なら event_end_date は null です。
-- 年が本文に書かれていない場合、記事の公開日から最も自然な年を推定してください。ただし推定に自信が持てない場合は event_date を null にしてください。**推測で埋めるより null のほうが良い結果になります。**
+- 年が本文に書かれていない場合、**入力の冒頭に与えられる「記事公開日」を基準に**最も自然な年を推定してください。多くの記事は公開日と同じ年か、年をまたぐ場合は翌年です。ただし推定に自信が持てない場合は event_date を null にしてください。**推測で埋めるより null のほうが良い結果になります。**
+- 月日に曜日が併記されている場合 (「6月27日(土)」等)、**推定した年でその曜日が実際に合うかを確認してください**。合わない年を選ぶとプログラム側の検算で弾かれます。
+- **和暦は「令和N年 = 西暦(2018+N)年」で換算してください。** 令和8年は 2026 年、令和7年は 2025 年です。ここを 1 年ずらす誤りが多いので必ず計算してください。
 - 開催日が読み取れない記事 (会報誌の発行案内、アンケート依頼など) では event_date を null にしてください。
 
 ## date_evidence
 
-event_date の根拠にした本文中の記述を、**本文からそのまま一字一句コピー**してください。要約・言い換え・整形をしてはいけません。プログラムがこの文字列を本文から検索して照合します。event_date が null なら date_evidence も null です。
+event_date の根拠にした記述を、**入力からそのまま一字一句コピー**してください。要約・言い換え・整形をしてはいけません。引用符や記号も原文のまま写してください。プログラムがこの文字列を入力から検索して照合します。タイトルから採っても構いません。event_date が null なら date_evidence も null です。
+
+**根拠は「その日付そのもの」を含む記述にしてください。** 「4月から6月まで」のように具体的な日が書かれていない記述を根拠に、勝手に「4月1日」と決めてはいけません。その場合は event_date を null にします。
 
 ## status
 
@@ -211,7 +215,19 @@ def _strip_code_fence(s: str) -> str:
     return "\n".join(lines[1:]).strip()
 
 
-def extract_with_llm(title: str, body_text: str) -> dict | None:
+def llm_user_message(title: str, body_text: str, pub_date: str | None) -> str:
+    """LLM に渡す本文。verify はこれと同じ文字列に対して照合する。
+
+    公開日を明示するのが重要。プロンプトは「年が書かれていなければ公開日から
+    推定せよ」と指示しており、これが無いと LLM が年を当てずっぽうで埋めて
+    曜日検算に落ちる (実測: 40 件中 5 件が過去年に滑って失格した)。
+    """
+    head = f"記事公開日: {pub_date}\n\n" if pub_date else ""
+    return f"{head}# {title}\n\n{body_text}"
+
+
+def extract_with_llm(title: str, body_text: str,
+                     pub_date: str | None = None) -> dict | None:
     """本文から要約・開催日・ステータスを抽出する。失敗時 None。
 
     抽出は創造性が不要で、ブレると日付が揺れて content_hash が変動する。
@@ -220,7 +236,8 @@ def extract_with_llm(title: str, body_text: str) -> dict | None:
     if not body_text or len(body_text) < MIN_BODY_CHARS:
         # 安全装置: 薄い本文で LLM を呼ばない (ハルシネーション防止)
         return None
-    raw = call_llm(EXTRACT_SYSTEM_PROMPT, f"# {title}\n\n{body_text}",
+    raw = call_llm(EXTRACT_SYSTEM_PROMPT,
+                   llm_user_message(title, body_text, pub_date),
                    model=LLM_MODEL, max_tokens=LLM_MAX_TOKENS, temperature=0)
     if raw is None:
         return None
@@ -257,6 +274,9 @@ UPDATE_STAMP_RE = re.compile(r"\d{1,2}\s*/\s*\d{1,2}\s*(?:AM|PM)?\s*更新")
 
 _WEEKDAY_CHARS = "月火水木金土日"
 _WEEKDAY_IN_EVIDENCE_RE = re.compile(r"[(（]\s*([月火水木金土日])\s*[)）]")
+
+# 「令和8年」。元年は数字ではないので拾わない (換算が曖昧なため検査を諦める)。
+_REIWA_YEAR_RE = re.compile(r"令和\s*(\d{1,2})\s*年")
 
 # 開催日が記事公開日からこの範囲を外れたら失格。過去年への滑落 (実測: 養成講座が
 # 2025 年に確定した) と、遠すぎる未来の誤抽出を止める。
@@ -340,6 +360,17 @@ def verify_event_date(extracted: dict, body_text: str,
     delta = (ev_date - pub_date).days
     if not (MIN_DAYS_BEFORE_PUBLISH <= delta <= MAX_DAYS_AFTER_PUBLISH):
         return f"out-of-range: {ev_date.isoformat()} is {delta}d from {pub_date}"
+
+    # 検証 6: 根拠が和暦なら西暦への換算が合っているか。
+    # LLM は令和の換算を落とす (実測: 「令和8年4月1日」→ 2027-04-01、
+    # 「令和8年1月25日(日)」→ 2027-01-25)。曜日が無いと検証 3 では拾えず、
+    # 範囲チェックもすり抜けるので、機械換算で潰す。
+    rm = _REIWA_YEAR_RE.search(ev_norm)
+    if rm:
+        want = reiwa_to_gregorian(int(rm.group(1)))
+        if ev_date.year != want:
+            return (f"reiwa-mismatch: 令和{rm.group(1)}年 = {want} だが "
+                    f"{ev_date.isoformat()}")
 
     return None
 
@@ -605,7 +636,11 @@ def process_news(items: list[dict], out_dir: str, dry_run: bool,
     for i, item in enumerate(items, 1):
         print(f"[{i}/{len(items)}] {item['url']}", file=sys.stderr)
         body_text = html_to_text(item["body_html"])
-        extracted = extract_with_llm(item["title"], body_text)
+        pub_str = jst_date_of(item["date_gmt"])
+        # 照合対象は LLM に見せたのと同じ文字列。タイトルだけに日付がある記事
+        # (「6月3日(水)…臨時休業のお知らせ」等) を取りこぼさないため。
+        match_text = llm_user_message(item["title"], body_text, pub_str)
+        extracted = extract_with_llm(item["title"], body_text, pub_str)
         if extracted is None:
             stats["llm_fail"] += 1
             # 要約なしでも告知は出す。ただし cache には記録せず次回リトライさせる。
@@ -617,7 +652,6 @@ def process_news(items: list[dict], out_dir: str, dry_run: bool,
             recordable = True
 
         description = build_description(extracted, body_text)
-        pub_str = jst_date_of(item["date_gmt"])
         pub_date = date.fromisoformat(pub_str)
 
         n_hash = content_hash_of(item)
@@ -643,7 +677,7 @@ def process_news(items: list[dict], out_dir: str, dry_run: bool,
         ev_uid = event_uid(DEFAULT_UID_PREFIX, item["id"])
         existing_event = find_existing_by_uid(out_dir, ev_uid)
         conflict = find_manual_conflict(out_dir, item["url"])
-        ok, why = should_create_event(extracted, body_text, pub_date,
+        ok, why = should_create_event(extracted, match_text, pub_date,
                                       existing_event is not None, conflict)
         if ok:
             ev_path = output_path_for(out_dir, ev_uid, extracted["event_date"])

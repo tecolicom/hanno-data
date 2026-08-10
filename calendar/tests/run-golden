@@ -100,14 +100,16 @@ def _setup_tourism_news(m, crawler, manifest):
         return posts if "&page=1&" in url or "&page=1" in url else []
     m.fetch_json = _fetch_json
 
-    # user プロンプトの先頭行 (= "# タイトル") から記事を引き当てて応答を返す
+    # user プロンプト中の "# タイトル" 行から記事を引き当てて応答を返す。
+    # 先頭行ではなく該当行を探す (冒頭に "記事公開日: …" が付くため)。
     by_title = {(p.get("title") or {}).get("rendered", ""): str(p["id"])
                 for p in posts}
 
     def _call_llm(system, user, **kw):
-        head = user.split("\n", 1)[0]
-        head = head[2:].strip() if head.startswith("# ") else head.strip()
-        return replies.get(by_title.get(head, ""))
+        for line in user.split("\n"):
+            if line.startswith("# "):
+                return replies.get(by_title.get(line[2:].strip(), ""))
+        return None
     m.call_llm = _call_llm
 
     m.load_http_cache = lambda: {}

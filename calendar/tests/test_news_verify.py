@@ -120,6 +120,41 @@ def test_quote_folding_does_not_weaken_hallucination_check():
     assert got is not None and "evidence-not-found" in got, got
 
 
+def test_accepts_evidence_taken_from_title():
+    """実データ: 「飯能駅観光案内所…6月3日(水)台風接近に伴う臨時休業のお知らせ」。
+
+    日付がタイトルにしか無い記事がある。LLM にはタイトル込みで見せているので、
+    照合側も同じ文字列を対象にしないと実在する日付を取りこぼす。
+    2026-06-03 は水曜。
+    """
+    match_text = mod.llm_user_message(
+        "飯能駅観光案内所「ぷらっと飯能」6月3日(水)台風接近に伴う臨時休業のお知らせ",
+        "本日は臨時休業いたします。ご迷惑をおかけします。", "2026-06-02")
+    got = mod.verify_event_date(_ex("2026-06-03", "6月3日(水)"),
+                                match_text, date(2026, 6, 2))
+    assert got is None, got
+
+
+def test_rejects_reiwa_conversion_error():
+    """実データ: 「【休館のお知らせ】おみやげショップ夢馬」。
+
+    本文は「令和8年4月1日より休館」(= 2026-04-01) だが LLM は 2027-04-01 を
+    返した。曜日表記が無いので検証 3 では拾えず、公開日 2026-03-10 からの
+    範囲チェックもすり抜けて誤った日付が通っていた。機械換算で潰す。
+    """
+    body = "諸般の事情により令和8年4月1日より休館といたします。"
+    got = mod.verify_event_date(_ex("2027-04-01", "令和8年4月1日"),
+                                body, date(2026, 3, 10))
+    assert got is not None and "reiwa-mismatch" in got, got
+
+
+def test_accepts_correct_reiwa_conversion():
+    body = "諸般の事情により令和8年4月1日より休館といたします。"
+    got = mod.verify_event_date(_ex("2026-04-01", "令和8年4月1日"),
+                                body, date(2026, 3, 10))
+    assert got is None, got
+
+
 def test_rejects_malformed_date():
     got = mod.verify_event_date(_ex("2026-13-45", "でたらめ"),
                                 "でたらめ", date(2026, 8, 7))

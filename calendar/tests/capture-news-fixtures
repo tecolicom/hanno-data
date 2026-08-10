@@ -62,7 +62,11 @@ def main():
     for it in picked:
         body = m.html_to_text((it.get("content") or {}).get("rendered", ""))
         title = (it.get("title") or {}).get("rendered", "")
-        text = m.call_llm(m.EXTRACT_SYSTEM_PROMPT, f"# {title}\n\n{body}",
+        pub = m.jst_date_of(it["date_gmt"])
+        # 本番と同じ組み立てを通す。ここで直接 f"# {title}..." を作ると、
+        # 実際に送られるプロンプトと fixtures がずれる。
+        text = m.call_llm(m.EXTRACT_SYSTEM_PROMPT,
+                          m.llm_user_message(title, body, pub),
                           model=m.LLM_MODEL, max_tokens=m.LLM_MAX_TOKENS,
                           temperature=0)
         replies[str(it["id"])] = text

@@ -1,0 +1,77 @@
+#!/usr/bin/env python3
+"""calendar/tests/eval-news-prompt — news 抽出プロンプトの手動評価ツール。
+
+LLM を実呼び出しするので CI には載せない。EXTRACT_SYSTEM_PROMPT を改訂したとき、
+corpus 全件に対して抽出と機械検証を回し、通過率と失格理由の内訳を出す。
+
+  ANTHROPIC_API_KEY=... python3 calendar/tests/eval-news-prompt
+  ANTHROPIC_API_KEY=... python3 calendar/tests/eval-news-prompt --limit 20
+"""
+from __future__ import annotations
+import argparse
+import collections
+import importlib.machinery
+import importlib.util
+import json
+import os
+import sys
+from datetime import date
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+BIN = os.path.normpath(os.path.join(HERE, "..", "bin"))
+CORPUS = os.path.join(HERE, "corpus", "news-all.json")
+
+loader = importlib.machinery.SourceFileLoader(
+    "m", os.path.join(BIN, "cal-tourism-news-fetch"))
+spec = importlib.util.spec_from_loader("m", loader)
+m = importlib.util.module_from_spec(spec)
+loader.exec_module(m)
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--limit", type=int, default=0, help="新しい順に N 件だけ評価")
+    args = ap.parse_args()
+
+    if not m.llm_available():
+        sys.exit("ANTHROPIC_API_KEY が必要です")
+    with open(CORPUS, encoding="utf-8") as f:
+        posts = json.load(f)
+    posts.sort(key=lambda p: p.get("date_gmt", ""), reverse=True)
+    if args.limit:
+        posts = posts[:args.limit]
+
+    reasons = collections.Counter()
+    passed = 0
+    for i, p in enumerate(posts, 1):
+        title = (p.get("title") or {}).get("rendered", "")
+        body = m.html_to_text((p.get("content") or {}).get("rendered", ""))
+        pub_str = m.jst_date_of(p["date_gmt"])
+        pub = date.fromisoformat(pub_str)
+        # 照合対象は LLM に見せたのと同じ文字列 (process_news と同じ扱い)
+        match_text = m.llm_user_message(title, body, pub_str)
+        ex = m.extract_with_llm(title, body, pub_str)
+        if ex is None:
+            reasons["llm-failed"] += 1
+            continue
+        if not ex.get("event_date"):
+            reasons["no-date"] += 1
+            continue
+        why = m.verify_event_date(ex, match_text, pub)
+        if why:
+            reasons[why.split(":")[0]] += 1
+            print(f"  [{i}] REJECT {why}  <- {title[:40]}")
+            continue
+        passed += 1
+        print(f"  [{i}] OK {ex['event_date']} ({ex['status']})  <- {title[:40]}")
+
+    n = len(posts)
+    print(f"\n通過 {passed}/{n} ({100 * passed / n:.0f}%)")
+    for k, v in reasons.most_common():
+        print(f"  {k}: {v}")
+    print("\n注意: 通過率は適合率ではない。"
+          "通過した日付が本当に開催日かは目視で確認すること。")
+
+
+if __name__ == "__main__":
+    main()

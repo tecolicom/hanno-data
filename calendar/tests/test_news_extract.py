@@ -92,6 +92,25 @@ def test_extract_sends_title_and_body():
     assert seen["kw"]["temperature"] == 0
 
 
+def test_extract_sends_publish_date():
+    """プロンプトは「年が無ければ公開日から推定せよ」と指示している。
+
+    公開日を渡さないと LLM が年を当てずっぽうで埋め、曜日検算で落ちる
+    (実測: corpus 40 件中 5 件が過去年に滑って失格した)。
+    """
+    seen = _stub(json.dumps({"summary": "x", "event_date": None,
+                             "event_end_date": None, "date_evidence": None,
+                             "status": "normal"}))
+    mod.extract_with_llm("t", "本文" * 40, "2026-06-27")
+    assert "2026-06-27" in seen["user"], seen["user"]
+
+
+def test_llm_user_message_includes_title_and_publish_date():
+    got = mod.llm_user_message("タイトル", "本文", "2026-06-27")
+    assert "記事公開日: 2026-06-27" in got, got
+    assert "タイトル" in got and "本文" in got, got
+
+
 def test_html_to_text_opens_circled_weekday():
     got = mod.html_to_text("<p>飯能河原6/27㈯・28㈰の営業について</p>")
     assert "(土)" in got and "(日)" in got, got
