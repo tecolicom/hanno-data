@@ -42,8 +42,9 @@ hanno-data/
 │   ├── sources.yaml                       # クローラの source 別 city 固有設定 (多都市化用)
 │   ├── events/<year>/<MM-DD>_<uid>.yaml   # canonical YAML (1 イベント 1 ファイル)
 │   ├── snapshots/<cal-key>/events/        # 各 Calendar 状態のミラー (バックアップ)
-│   ├── sources/hanno-tourism/urls.txt     # クローラ対象 URL リスト
-│   └── tests/                             # golden 回帰テスト (出力 YAML のバイト一致ロック)
+│   ├── sources/hanno-tourism/urls.txt     # 手動ピン留めのシード (通常は REST API で足りる)
+│   ├── .http-cache.json                   # URL ごとの ETag / Last-Modified / modified_gmt
+│   └── tests/                             # golden 回帰テスト + ユニットテスト (ネットワーク非依存)
 ├── aed/                          # AED 設置施設一覧
 │   └── 2026.yaml                          # 飯能市公式サイトから抽出 + 国土地理院で geocode
 └── docs/                         # 設計ドキュメント
@@ -103,11 +104,11 @@ canonical に管理する仕組み。JP/EN 2 言語 × default/gikai 2 系統 = 
 
 主なソース:
 - **手動キュレーション**: YAML を直接編集 (UID 形式 `evt-YYYYMMDD-NN@hanno.city.tecoli.com`)
-- **飯能ツーリズム協会** (`cal-tourism-fetch`): 決定論パース、LLM 不使用
+- **飯能ツーリズム協会** (`cal-tourism-fetch`): 決定論パース、LLM 不使用。WordPress REST API で一覧と更新日時を取得し、変更のあったページだけ HTML を取る
 - **飯能市民会館** (`cal-shiminkaikan-fetch`): 公演スケジュール
 - **飯能市議会** (`cal-gikai-fetch`): 議事日程
 - **市長ブログ** (`cal-shicho-blog-fetch`): 本文込み掲載、LLM 不使用。incremental mode (dtstart=取得日) で バックデート公開も新着として拾う
-- **飯能市公式お知らせ** (`cal-oshirase-fetch`): 長文は Claude Haiku 4.5 で要約
+- **飯能市公式お知らせ** (`cal-oshirase-fetch`): 長文は Claude Haiku 4.5 で要約。同じ記事が更新されたら `source.supersedes` で前世代を辿れ、`description` 冒頭に「前回掲載日」と LLM 生成の「主な変更」が付く
 - **英訳** (`cal-translate-en`): 全 events の英訳を `translations.en.*` に in-place 格納
 
 AI 生成コンテンツの表示方針は [`docs/ai-content-policy.md`](./docs/ai-content-policy.md) 参照。
@@ -115,6 +116,10 @@ AI 生成コンテンツの表示方針は [`docs/ai-content-policy.md`](./docs/
 CI 自動化 (GitHub Actions):
 - `cal-daily.yml` (03:00 JST + `calendar/bin/**` push trigger) — 全 fetcher 実行 → events commit → JP Calendar 反映 → `cal-translate-en` で英訳 → translations commit → EN Calendar 反映 → snapshot
 - `cal-golden-test.yml` (`calendar/bin/**` / `sources.yaml` / `tests/**` の push・PR) — `calendar/tests/run-golden` でクローラ出力 YAML がバイト一致で維持されているか hermetic 検証 (カレンダー氾濫の回帰防止)
+
+golden 網とは別に、純粋関数・API ラッパのユニットテストが `calendar/tests/test_*.py` にある
+(すべてネットワーク非依存)。一覧は [`calendar/README.md`](./calendar/README.md) の
+「テスト (golden 網)」参照。
 
 ### AED 設置施設
 

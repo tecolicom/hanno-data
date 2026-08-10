@@ -64,14 +64,15 @@ calendar/
 
 | カテゴリ | 提供 |
 |---|---|
-| 定数 | `USER_AGENT`, `UID_NAMESPACE`, `AI_DISCLAIMER_JP` |
+| 定数 | `USER_AGENT`, `UID_NAMESPACE`, `AI_DISCLAIMER_JP`, `STATUS_MARKERS` |
 | HTTP fetch | `fetch(url)`, `fetch_binary(url, dest)`, `fetch_with_cache(url, etag, last_modified)` |
 | HTTP cache | `load_http_cache()`, `save_http_cache(cache)`, `HTTP_CACHE_PATH` |
 | HTML/text | `strip_html`, `collapse_space`, `normalize_fullwidth_digits`, `normalize_tilde`, `normalize_body`, `strip_markdown(s, bullet)` |
 | HTML メタ | `infer_year_from_og(html)` |
-| 暦変換 | `reiwa_to_gregorian(N)`, `gregorian_to_reiwa(year)` |
+| 暦変換 | `reiwa_to_gregorian(N)`, `gregorian_to_reiwa(year)`, `last_modified_to_jst_date`, `dtstart_from_last_modified` |
 | YAML 整形 | `yaml_escape_str`, `yaml_block_scalar` |
-| event YAML 操作 | `read_yaml_scalar`, `existing_content_hash_matches`, `output_path_for`, `find_existing_by_uid` |
+| event YAML 操作 | `read_yaml_scalar`, `read_yaml_block(path, key)`, `existing_content_hash_matches`, `output_path_for`, `find_existing_by_uid` |
+| description 分解 | `strip_status_header(text)` — 冒頭の 🆕/🔄/📝 ブロックを除去 / `split_description(text)` — AI disclaimer 行と末尾 URL 行を剥がし `(本文, source_url)` を返す (status 行は残す。EN 側で訳すため) |
 | クローラ設定 | `load_source_config(source_key)` — `../sources.yaml` から source 別の city 固有設定 dict を読む (不在 key は KeyError) |
 
 ## 認証
@@ -135,6 +136,15 @@ cal-myhanno diff       [-d events] [--lang LANG]                    # YAML と C
 cal-myhanno snapshot   [-o snapshots]                               # Calendar → JSON でバックアップ
 cal-myhanno wipe       --confirm [--dry-run]                        # Calendar 全削除 (内部で先に snapshot)
 ```
+
+内部の主なヘルパ:
+
+| 名前 | 役割 |
+|---|---|
+| `list_all_events(calendar_id)` | `nextPageToken` を辿って全イベント取得。`events.list` はすべてこれ経由 |
+| `EventIndex` | calendar_id ごとに 1 回だけ取得する `iCalUID → event` の索引 (`apply-all` の読み取り用) |
+| `events_in_sync(existing, new_body)` | `COMPARE_FIELDS` + `normalize_for_diff` で実質同一か判定。`diff` が exit 0 を返す状態と一致 |
+| `merge_for_update(existing, new_body)` | `events.update` 用 body。`READ_ONLY_FIELDS` を落とし、YAML に無いフィールドは明示的に消す |
 
 ### `--lang` (apply / apply-all / diff)
 
