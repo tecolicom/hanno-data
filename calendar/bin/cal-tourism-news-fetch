@@ -16,6 +16,7 @@ from __future__ import annotations
 
 import argparse
 import glob
+import hashlib
 import json
 import os
 import re
@@ -27,9 +28,12 @@ from datetime import date, datetime, timedelta, timezone
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from _lib import (  # noqa: E402
-    USER_AGENT, load_source_config, load_http_cache, save_http_cache,
+    USER_AGENT, UID_NAMESPACE, AI_DISCLAIMER_JP,
+    load_source_config, load_http_cache, save_http_cache,
     call_llm, llm_available, strip_html, normalize_body, strip_markdown,
     normalize_circled_weekday, normalize_fullwidth_digits, normalize_tilde,
+    yaml_escape_str, yaml_block_scalar, read_yaml_scalar,
+    output_path_for, find_existing_by_uid,
 )
 
 JST = timezone(timedelta(hours=9))
@@ -388,3 +392,111 @@ def should_create_event(extracted: dict, body_text: str, pub_date: date,
         # 中止として生まれた記事。新規に中止済みの予定を作っても役に立たない。
         return False, f"born-{extracted['status']}"
     return True, "ok"
+
+
+# ==================== YAML 生成 ====================
+
+
+CANCELED_MARK = "【中止】"
+POSTPONED_MARK = "【延期】"
+
+
+def jst_date_of(gmt_iso: str) -> str:
+    """API の date_gmt / modified_gmt (UTC naive ISO) を JST の日付にする。"""
+    dt = datetime.fromisoformat(gmt_iso.replace("Z", "")).replace(tzinfo=timezone.utc)
+    return dt.astimezone(JST).date().isoformat()
+
+
+def content_hash_of(item: dict) -> str:
+    """記事の内容 (タイトル + 本文) から 16 桁の短縮 sha256 を作る。
+
+    modified_gmt は「内容」ではないので含めない。含めると、実質同じ内容で
+    modified_gmt だけ動いたときに別世代が生まれて flood する。
+    """
+    canonical = f"{item['title']}\n{html_to_text(item['body_html'])}"
+    return hashlib.sha256(canonical.encode("utf-8")).hexdigest()[:16]
+
+
+def notice_uid(prefix: str, post_id: int, content_hash: str) -> str:
+    """告知エントリの UID。内容が変わると変わる (= 世代を作る)。
+
+    cal-oshirase-fetch の incremental mode と同じ規約。
+    """
+    return f"{prefix}-{post_id}-{content_hash[:6]}@{UID_NAMESPACE}"
+
+
+def event_uid(prefix: str, post_id: int) -> str:
+    """本番エントリの UID。世代を作らず、中止時は同じ UID のまま書き換える。"""
+    return f"{prefix}-{post_id}-event@{UID_NAMESPACE}"
+
+
+def summary_prefix_for(tags: list[int]) -> str:
+    """本番エントリの prefix をタグから決める (LLM の判断を挟まない)。"""
+    return SUMMARY_PREFIX_EVENT if set(tags) & EVENT_TAG_IDS else SUMMARY_PREFIX_OTHER
+
+
+def _one_line(s: str) -> str:
+    """YAML の scalar に入れるため改行を空白に畳む。"""
+    return " ".join(s.split())
+
+
+def _status_mark(status: str) -> str:
+    if status == "canceled":
+        return CANCELED_MARK
+    if status == "postponed":
+        return POSTPONED_MARK
+    return ""
+
+
+def _build_yaml(uid: str, summary: str, item: dict, dtstart: str, dtend: str,
+                description: str, fetched_at: str | None,
+                supersedes: str | None = None) -> str:
+    lines: list[str] = []
+    lines.append(f"uid: {yaml_escape_str(uid)}")
+    lines.append(f"summary: {yaml_escape_str(_one_line(summary))}")
+    lines.append(f"url: {yaml_escape_str(item['url'])}")
+    lines.append(f"dtstart: {yaml_escape_str(dtstart)}")
+    lines.append(f"dtend: {yaml_escape_str(dtend)}")
+    desc = f"奥むさし飯能観光協会: {item['url']}"
+    if description:
+        desc = f"{desc}\n\n{description}"
+    lines.append("description: " + yaml_block_scalar(desc, indent=2))
+    lines.append("")
+    lines.append("render:")
+    lines.append("  gcal:")
+    lines.append("    mode: single-allday")
+    lines.append("")
+    lines.append("source:")
+    lines.append(f"  type: {SOURCE_TYPE}")
+    lines.append(f"  id: {yaml_escape_str(str(item['id']))}")
+    lines.append(f"  url: {yaml_escape_str(item['url'])}")
+    ts = fetched_at or (datetime.utcnow().isoformat() + "Z")
+    lines.append(f"  fetched_at: {yaml_escape_str(ts)}")
+    lines.append(f"  modified_gmt: {yaml_escape_str(item.get('modified_gmt', ''))}")
+    lines.append(f"  content_hash: {yaml_escape_str('sha256-' + content_hash_of(item))}")
+    if supersedes:
+        lines.append(f"  supersedes: {yaml_escape_str(supersedes)}")
+    return "\n".join(lines) + "\n"
+
+
+def build_notice_yaml(item: dict, extracted: dict, description: str,
+                      fetched_at: str | None = None,
+                      supersedes: str | None = None) -> str:
+    """告知エントリ: 記事が公開された事実。dtstart は公開日 (JST)。"""
+    d = jst_date_of(item["date_gmt"])
+    summary = SUMMARY_PREFIX_NOTICE + _status_mark(extracted["status"]) + item["title"]
+    return _build_yaml(notice_uid(DEFAULT_UID_PREFIX, item["id"],
+                                  content_hash_of(item)),
+                       summary, item, d, d, description, fetched_at,
+                       supersedes=supersedes)
+
+
+def build_event_yaml(item: dict, extracted: dict, description: str,
+                     fetched_at: str | None = None) -> str:
+    """本番エントリ: 開催日。verify を通った event_date のみ到達する。"""
+    start = extracted["event_date"]
+    end = extracted.get("event_end_date") or start
+    summary = (summary_prefix_for(item["tags"])
+               + _status_mark(extracted["status"]) + item["title"])
+    return _build_yaml(event_uid(DEFAULT_UID_PREFIX, item["id"]), summary,
+                       item, start, end, description, fetched_at)
