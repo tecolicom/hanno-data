@@ -1,0 +1,23 @@
+uid: "shicho-blog-14167-535fc2@hanno.city.tecoli.com"
+summary: "📝 市長：りそなグループ キッズマネーアカデミー2026"
+url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202608/14167.html"
+dtstart: "2026-08-11"
+dtend: "2026-08-11"
+description: |-
+  📝 市長ブログ更新 (公開日: 2026-08-05)
+  
+  8月5日（水曜日）、埼玉りそな銀行飯能支店主催による、小学生向け金融経済教育「りそなグループキッズマネーアカデミー2026」が、市内企業や飯能市役所を会場に開催されました。市役所見学では市長室や議長室、議場を児童が見学しました。
+  
+  市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202608/14167.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-shicho-blog
+  id: "14167"
+  url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202608/14167.html"
+  fetched_at: "2026-08-10T08:04:40.274987Z"
+  content_hash: "sha256-535fc2c12673c0fd"
+  publish_date: "2026-08-05"
