@@ -15,11 +15,13 @@ HTML の追加取得は不要。全件が REST API 2 リクエストで完結す
 from __future__ import annotations
 
 import argparse
+import glob
 import json
 import os
 import re
 import sys
 import urllib.error
+import urllib.parse
 import urllib.request
 from datetime import date, datetime, timedelta, timezone
 
@@ -323,3 +325,66 @@ def verify_event_date(extracted: dict, body_text: str,
         return f"out-of-range: {ev_date.isoformat()} is {delta}d from {pub_date}"
 
     return None
+
+
+# ==================== 本番エントリの作成条件 ====================
+
+
+def normalize_news_url(url: str) -> str:
+    """news 記事 URL を比較可能な形に正規化する。
+
+    手動 YAML は日本語 slug がパーセントエンコードされた形で入っている。
+    エンコード表記の揺れで衝突を見逃すと重複イベントが出るのでデコードして揃える。
+    """
+    u = urllib.parse.unquote(url.strip())
+    if not u.endswith("/"):
+        u += "/"
+    return u
+
+
+def find_manual_conflict(events_dir: str, news_url: str) -> str | None:
+    """同じ news 記事を指すクローラ管理外の YAML を探す。
+
+    このクローラ自身が作った YAML (source.type が SOURCE_TYPE) は対象外。
+    見つかれば path、無ければ None。
+    """
+    target = normalize_news_url(news_url)
+    for path in glob.glob(os.path.join(events_dir, "**", "*.yaml"),
+                          recursive=True):
+        try:
+            with open(path, "r", encoding="utf-8") as f:
+                head = f.read(8192)
+        except Exception:
+            continue
+        if f"type: {SOURCE_TYPE}" in head:
+            continue          # 自分が作った YAML
+        if "hanno-tourism.jp/news/" not in head:
+            continue
+        for line in head.split("\n"):
+            line = line.strip()
+            if not (line.startswith("url:") or line.startswith("- url:")):
+                continue
+            val = line.split(":", 1)[1].strip().strip('"')
+            if val and normalize_news_url(val) == target:
+                return path
+    return None
+
+
+def should_create_event(extracted: dict, body_text: str, pub_date: date,
+                        has_existing_event: bool,
+                        manual_conflict: str | None) -> tuple[bool, str]:
+    """本番エントリを作る (または既存を更新する) かを決める。
+
+    機械検証は「取れた日付が信用できるか」の検査で、ここはそれと直交する条件。
+    """
+    if not extracted.get("event_date"):
+        return False, "no-date"
+    if manual_conflict:
+        return False, f"manual-conflict: {manual_conflict}"
+    reason = verify_event_date(extracted, body_text, pub_date)
+    if reason:
+        return False, reason
+    if extracted["status"] in ("canceled", "postponed") and not has_existing_event:
+        # 中止として生まれた記事。新規に中止済みの予定を作っても役に立たない。
+        return False, f"born-{extracted['status']}"
+    return True, "ok"
