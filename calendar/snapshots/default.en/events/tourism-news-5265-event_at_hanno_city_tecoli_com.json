@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "Automated translation (refer to source for accuracy)\n\nOkumussashi Hanno Tourism Association: https://hanno-tourism.jp/news/3%e6%9c%8821%e6%97%a5%e5%9c%9f%e6%a1%88%e5%86%85%e6%a5%ad%e5%8b%99%e3%81%8a%e4%bc%91%e3%81%bf%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b\n\nThe Okumussashi Hanno Tourism Association's guidance services will be closed on Saturday, March 21, 2026 (Reiwa 8) for regular facility maintenance at Hanno Chamber of Commerce and Industry. All information services, including phone support, will be unavailable. The following services will not be available: Eagle Bus pass purchases, manhole card distribution, and prize redemptions for the mystery-solving campaign and Yellow Week digital stamp rally.\n\nHowever, Platto Hanno (Hanno Station Tourist Information Center) will be open and available on March 21 only. Regular hours resume March 20 (Fri, national holiday) and March 22 (Sun). Platto Hanno and Yumeba will operate as normal throughout.",
+  "description": "Automated translation (refer to source for accuracy)\n\nOku-Musashi Hanno Tourism Association: https://hanno-tourism.jp/news/3%e6%9c%8821%e6%97%a5%e5%9c%9f%e6%a1%88%e5%86%85%e6%a5%ad%e5%8b%99%e3%81%8a%e4%bc%91%e3%81%bf%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b\n\nThe Oku-Musashi Hanno Tourism Association's information desk will be closed on Saturday, March 21, 2026 (Reiwa 8) due to scheduled facility maintenance at Hanno Chamber of Commerce and Industry. All information services, including phone support, will be unavailable. We will not be able to sell Eagle Bus passes, distribute manhole cards, or hand out prizes for the mystery-solving campaign and yellow week digital stamp rally.\n\nHowever, on Saturday, March 21 only, Plat Hanno (Hanno Station Tourist Information Center) will remain open to assist you.\n\nThe main office will resume normal operations on Friday, March 20 (national holiday) and Sunday, March 22. Plat Hanno and Yumeba will operate normally throughout.",
   "end": {
     "date": "2026-03-22"
   },
@@ -29,6 +29,6 @@
     "date": "2026-03-21"
   },
   "status": "confirmed",
-  "summary": "ℹ️ Guidance services closed March 21 (Sat) for facility maintenance",
-  "updated": "2026-08-10T07:27:24.771Z"
+  "summary": "ℹ️ Tourist Information Desk Closure Notice",
+  "updated": "2026-08-10T10:29:17.157Z"
 }

@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "Automated translation (refer to source for accuracy)\n\nHanno Tourism Association (Oku Musashi Hanno Tourism Association) will be closed June 6–7, 2026 (Reiwa 8) for regular facility maintenance of Hanno Chamber of Commerce. During this closure, information services and phone support will not be available. Eagle Bus pass purchases and manhole card distribution will not be possible on those dates.\n\nPlat Hanno (Hanno Station Tourist Information Centre, tel. 042-978-9111, 9:00–17:00) will remain open as usual.",
+  "description": "Automated translation (refer to source for accuracy)\n\nOkumushi Hanno Tourism Association: https://hanno-tourism.jp/news/6%e6%9c%886%e6%97%a5%e5%9c%9f%e3%83%bb7%e6%97%a5%e6%97%a5%e4%bc%91%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b\n\nThe Okumushi Hanno Tourism Association will be closed for regular facility maintenance at Hanno Chamber of Commerce and Industry on Saturday, June 6 and Sunday, June 7, 2026 (Reiwa 8). Information services, including phone support, will not be available on these dates. Eagle Bus regular ticket purchases and manhole card distribution will not be available. The Pratto Hanno information desk at Hanno Station (TEL 042-978-9111, 9:00–17:00) will remain open as usual.",
   "end": {
     "date": "2026-06-08"
   },
@@ -29,6 +29,6 @@
     "date": "2026-06-06"
   },
   "status": "confirmed",
-  "summary": "ℹ️ Hanno Tourism Association closed June 6–7 (Reiwa 8) for facility maintenance",
-  "updated": "2026-08-10T07:27:38.516Z"
+  "summary": "ℹ️ Closure Notice",
+  "updated": "2026-08-10T10:29:18.183Z"
 }
