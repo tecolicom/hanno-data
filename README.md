@@ -25,7 +25,8 @@ hanno-data/
 │   └── coords-override.yaml               # 停留所座標オーバーライド + 表記揺れ alias
 ├── calendar/                     # Myはんのう Google カレンダー群管理 (JP/EN × default/gikai)
 │   ├── bin/cal-myhanno                    # Google Calendar API ラッパ (--lang en 対応)
-│   ├── bin/cal-tourism-fetch              # hanno-tourism.jp 決定論パーサ (LLM 不使用)
+│   ├── bin/cal-tourism-fetch              # hanno-tourism.jp の tour、決定論パーサ (LLM 不使用)
+│   ├── bin/cal-tourism-news-fetch         # hanno-tourism.jp の news、LLM 抽出 + 機械検算
 │   ├── bin/cal-shiminkaikan-fetch         # 飯能市民会館 公演スケジュール
 │   ├── bin/cal-gikai-fetch                # 飯能市議会 議事日程
 │   ├── bin/cal-shicho-blog-fetch          # 市長ブログ + 本文取り込み (LLM 不使用)
@@ -100,7 +101,8 @@ canonical に管理する仕組み。JP/EN 2 言語 × default/gikai 2 系統 = 
 
 主なソース:
 - **手動キュレーション**: YAML を直接編集 (UID 形式 `evt-YYYYMMDD-NN@hanno.city.tecoli.com`)
-- **飯能ツーリズム協会** (`cal-tourism-fetch`): 決定論パース、LLM 不使用。WordPress REST API で一覧と更新日時を取得し、変更のあったページだけ HTML を取る
+- **飯能ツーリズム協会 / ツアー** (`cal-tourism-fetch`): 決定論パース、LLM 不使用。WordPress REST API で一覧と更新日時を取得し、変更のあったページだけ HTML を取る
+- **飯能ツーリズム協会 / お知らせ** (`cal-tourism-news-fetch`): 祭り・盆踊り等の単発イベント告知が載る `news` 投稿タイプ。1 記事から「告知」(掲載日) と「本番」(開催日) の最大 2 イベントを作る。開催日は Claude Haiku 4.5 の抽出をコード側で検算し、根拠文字列の実在・曜日・和暦換算などが全て通ったものだけ採用する
 - **飯能市民会館** (`cal-shiminkaikan-fetch`): 公演スケジュール
 - **飯能市議会** (`cal-gikai-fetch`): 議事日程
 - **市長ブログ** (`cal-shicho-blog-fetch`): 本文込み掲載、LLM 不使用。incremental mode (dtstart=取得日) で バックデート公開も新着として拾う

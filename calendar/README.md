@@ -33,7 +33,8 @@ calendar/
 ├── bin/
 │   ├── _lib.py                  全 crawler の共通ヘルパ (HTTP fetch / cache / YAML 整形 / config 読込 / etc.)
 │   ├── cal-myhanno              Google Calendar API ラッパ (Python + gws)
-│   ├── cal-tourism-fetch        hanno-tourism.jp 決定論パーサ (LLM 不使用)
+│   ├── cal-tourism-fetch        hanno-tourism.jp の tour 投稿タイプ、決定論パーサ (LLM 不使用)
+│   ├── cal-tourism-news-fetch   hanno-tourism.jp の news 投稿タイプ、LLM 抽出 + 機械検算
 │   ├── cal-shiminkaikan-fetch   飯能市民会館 公演スケジュール取得
 │   ├── cal-gikai-fetch          飯能市議会 議事日程取得
 │   ├── cal-shicho-blog-fetch    市長ブログ取得 + 本文掲載 (LLM 不使用)
@@ -49,8 +50,11 @@ calendar/
 ├── tests/                       golden 回帰テスト (出力 YAML をバイト一致でロック)
 │   ├── run-golden               比較 runner (hermetic、CI 実行)
 │   ├── capture-fixtures         fixtures を実サイトから取得する dev tool
+│   ├── capture-news-fixtures    news の fixtures + LLM 応答を採取する dev tool (要 API キー)
+│   ├── eval-news-prompt         news の抽出プロンプト評価 (LLM 実呼出、CI 非実行)
 │   ├── fixtures/<crawler>/      入力 HTML/RSS + manifest.json
 │   ├── seed/<scenario>/         out-dir に事前展開する既存 YAML (更新検知シナリオ用)
+│   ├── corpus/                  プロンプト評価用の生 API レスポンス (seed とは別物)
 │   └── golden/<scenario>/       期待出力 YAML (日付正規化済み)
 └── .http-cache.json             HTTP Conditional GET 用 ETag / Last-Modified 永続化
 ```
@@ -110,8 +114,12 @@ CI は毎回トークンを新規発行するので影響しない。ローカ�
 rm ~/.config/gws/sa_token_cache.json
 ```
 
-LLM 利用スクリプト (`cal-oshirase-fetch`, `cal-translate-en`) は
-`ANTHROPIC_API_KEY` 環境変数が必要。
+LLM 利用スクリプト (`cal-oshirase-fetch`, `cal-tourism-news-fetch`,
+`cal-translate-en`) は `ANTHROPIC_API_KEY` 環境変数が必要。呼び出し自体は
+`_lib.call_llm()` に集約してある。
+
+**鍵が無いと description の組み立て方が変わり `content_hash` が動くので、CI では
+必ず渡すこと** (2026-05-26 に oshirase で重複イベントが大量発生した原因)。
 
 ## 依存
 
@@ -708,8 +716,18 @@ golden 網とは別に、純粋関数・API ラッパのユニットテストが
 | ファイル | 対象 |
 |---|---|
 | `test_last_modified_dating.py` | `_lib` の Last-Modified → dtstart 変換 |
+| `test_call_llm.py` | `_lib.call_llm` (httpx 差し替え、temperature / 失敗時 None) |
+| `test_normalize_weekday.py` | `_lib` の囲み曜日文字 (㈯/㊏) 正規化 |
 | `test_tourism_discovery.py` | tourism の URL 正規化 |
 | `test_tourism_api.py` | tourism の REST API 取得 / modified_gmt 判定 / サニティチェック |
+| `test_news_api.py` | news の REST API 取得 / ページング / backfill フィルタ |
+| `test_news_extract.py` | news の LLM 抽出 (JSON パース / コードフェンス / 公開日送信) |
+| `test_news_verify.py` | news の開催日 機械検算 6 項目 (実データの失敗モードを回帰) |
+| `test_news_gating.py` | news の本番作成条件 / 手動 YAML 衝突検出 |
+| `test_news_yaml.py` | news の YAML 生成 / UID / 先頭日付の除去 |
+| `test_news_main.py` | news の process_news / short_body と llm_fail の分離 |
+| `test_news_generations.py` | news の告知 世代リンク (supersedes / 状態ヘッダ) |
+| `test_news_cancel.py` | news の中止書き換え / 本番の取り下げ |
 | `test_description_parts.py` | `_lib` の description 分解 (block 読み出し / status 行 / disclaimer) |
 | `test_generation_index.py` | oshirase の page_id 別世代索引 |
 | `test_diff_line.py` | oshirase の差分要約行 (LLM は差し替え) |
