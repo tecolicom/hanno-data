@@ -13,3 +13,14 @@ description: |-
 render:
   gcal:
     mode: span-allday
+translations:
+  en:
+    summary: "🎪 Sponsorship sought for Hanno Festival 2026 (Reiwa 8)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      The Hanno Festival is scheduled for November 7–8, 2026 (Reiwa 8). Sponsorship contributions are being sought. New sponsorship tiers have been set to allow individuals to participate. You can apply by bank transfer to the account listed in the guide document, or by submitting an application form (PDF or Google Form). For details, see the full guide document.
+    translation_hash: "sha256-b84f315b663075cd"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-10T09:31:56.891417Z"
+    format_version: 3

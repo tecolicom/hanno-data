@@ -23,3 +23,18 @@ source:
   fetched_at: "2026-08-10T06:32:59.314617Z"
   modified_gmt: "2026-07-10T02:53:41"
   content_hash: "sha256-90cc227178c9cc1a"
+translations:
+  en:
+    summary: "📢 \"Water Play in Moominvalley\" Now Underway"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Okimusashi Hanno Tourism Association: https://hanno-tourism.jp/news/%e3%80%8c%e3%83%a0%e3%83%bc%e3%83%9f%e3%83%b3%e8%b0%b7%e3%81%a7%e3%81%bf%e3%81%9a%e3%81%82%e3%81%9d%e3%81%b3%e3%80%8d%e9%96%8b%e5%82%ac%e4%b8%ad
+      
+      🆕 New Listing (Published: July 10, 2026)
+      
+      Moomin Valley Park is hosting a summer event called "Water Play in Moominvalley." Featured attractions include "Summer with Moomin and Snow & Splash!" where guests can splash around with Moomin, "Sun Sun Sunny Playtime" in Emma's Theater with character appearances in summer outfits, and "Nothomb's Heavy Downpour Squall" on the lakeside terrace where you can enjoy pouring water. At the neighboring Metsä Village, "Elf's Forest — Metsä Cloud Sea 2026" runs at the same time. Special event-limited foods are being served, including Moominvalley cup soft ice cream with chilled summer soda and shaved ice with large blue pineapple pieces.
+    translation_hash: "sha256-5bf45f0f86104b8a"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-10T09:31:54.941378Z"
+    format_version: 3
