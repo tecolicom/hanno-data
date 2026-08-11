@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-11T11:50:11.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "奥むさし飯能観光協会: https://hanno-tourism.jp/news/%e7%ac%ac33%e5%9b%9e-%e5%90%be%e9%87%8e%e5%ae%bf%e3%81%be%e3%81%a4%e3%82%8a\n\nAI による要約 (正確な情報は元記事をご確認ください)\n\n第33回吾野宿まつり。8月22日(土)午後4時～9時、吾野宿(飯能市坂石町分周辺)で開催。西武鉄道池袋線吾野駅より徒歩3分。午後8時半から打ち上げ花火あり。雨天決行、荒天の場合中止。臨時駐車場は飯能市立奥武蔵小学校。周辺の混雑が予想されるため公共交通機関の利用を推奨。",
+  "end": {
+    "date": "2026-08-23"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFyajVldHBpcWRoZzZzcDJxcGJtY2xuNzhnMzhjNW42c3JwZWNka244dTllZWhpbTZycmNkNG42NnJyZCAyMDU0MDNjOTcxZGM1ZWYyMWVmZDgxYzFkNTM4NDljYWRmZDkwMWI3NWM3N2Q4ODk1NWQ5NjAwZjQ1ZjJhMDEzQGc",
+  "iCalUID": "tourism-news-6072-event@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqrj5etpiqdhg6sp2qpbmcln78g38c5n6srpecdkn8u9eehim6rrcd4n66rrd",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能カレンダー",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/news/%e7%ac%ac33%e5%9b%9e-%e5%90%be%e9%87%8e%e5%ae%bf%e3%81%be%e3%81%a4%e3%82%8a"
+  },
+  "start": {
+    "date": "2026-08-22"
+  },
+  "status": "confirmed",
+  "summary": "🎪 第33回 吾野宿まつり",
+  "updated": "2026-08-11T11:50:11.488Z"
+}

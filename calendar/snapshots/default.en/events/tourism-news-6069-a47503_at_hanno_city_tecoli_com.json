@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-11T11:50:47.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nFrom Oku-Musashi Hanno Tourism Association: https://hanno-tourism.jp/news/%e4%bb%a4%e5%92%8c%ef%bc%98%e5%b9%b4%e7%86%8a%e6%9c%ac%e5%9c%b0%e9%9c%87%e3%81%ab%e3%82%88%e3%82%8a%e8%a2%ab%e7%81%bd%e3%81%95%e3%82%8c%e3%81%9f%e7%9a%86%e6%a7%98%e3%81%b8\n\n【New Post】 (Published: August 11, 2026)\n\nThis is a message of sympathy to those affected by the 2026 Kumamoto Earthquake, along with information about the status of tourist destinations and accommodations in Kumamoto Prefecture and the Kyushu region. Many facilities have confirmed their safety and are operating normally. Please check official information and transportation schedules before traveling.",
+  "end": {
+    "date": "2026-08-12"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFyajVldHBpcWRoZzZvc2lxbzlrNnNxajBjcTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIGQ5MTkzY2Y1ZjY0NGFiNDFhMjhlMjI2OGE5OGFiYzVhYTQyNmJkMmQ1NzcxNTI4MzQyNDRhZDY5YTMxZjVhNjhAZw",
+  "iCalUID": "tourism-news-6069-a47503@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqrj5etpiqdhg6osiqo9k6sqj0cq0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/news/%e4%bb%a4%e5%92%8c%ef%bc%98%e5%b9%b4%e7%86%8a%e6%9c%ac%e5%9c%b0%e9%9c%87%e3%81%ab%e3%82%88%e3%82%8a%e8%a2%ab%e7%81%bd%e3%81%95%e3%82%8c%e3%81%9f%e7%9a%86%e6%a7%98%e3%81%b8"
+  },
+  "start": {
+    "date": "2026-08-11"
+  },
+  "status": "confirmed",
+  "summary": "📢 Message to Those Affected by the 2026 Kumamoto Earthquake",
+  "updated": "2026-08-11T11:50:48.110Z"
+}

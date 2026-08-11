@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "Automated translation (refer to source for accuracy)\n\n📝 Mayor's Blog Update (Published: August 1, 2026)\n\nOn Saturday, August 1, I visited the Hanno City Museum to see the special exhibition 'Hanno and the Showa Era — The City's Birth and Evolving Life' marking 100 years since the start of the Showa era.\n\nReiwa 8 (2026) marks 100 years since Showa 1. The exhibition, on view through Sunday, August 30, features the city's history as the current Hanno city area took shape through successive mergers, and how people's daily lives changed alongside various furniture and household appliances. The displays draw mainly from the museum's collection.\n\nIf you are interested, I encourage you to visit. I hope the exhibition offers a chance to reflect on the future by tracing the city's history and the changes in people's lives as they have unfolded through the Showa, Heisei, and into the present Reiwa era.\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202608/14154.html",
+  "description": "Automated translation (refer to source for accuracy)\n\n📝 Mayor's Blog Update (Published: August 1, 2026)\n\nOn Saturday, August 1, I visited the Hanno City Museum to see the Showa Centennial Exhibition \"Hanno and the Showa Era – The City's Birth and Evolving Life.\"\n\nReiwa 8 (2026) marks 100 years since the beginning of the Showa era.\n\nThis exhibition introduces the history of how the current Hanno city area took shape through successive municipal mergers, and how people's daily lives have changed alongside various furniture and home appliances. The displays center on materials from the museum's collection.\n\nThe exhibition runs through Sunday, August 30, so if you're interested, please visit. I hope the exhibition offers an opportunity to reflect on the future by tracing the city's history woven from the Showa, Heisei, and Reiwa eras, and observing how people's lives and activities have evolved during this time.\n\nPhoto: https://www.city.hanno.lg.jp/material/images/group/79/080801syowa100nenkikakuten.jpg\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202608/14154.html",
   "end": {
     "date": "2026-08-09"
   },
@@ -29,6 +29,6 @@
     "date": "2026-08-08"
   },
   "status": "confirmed",
-  "summary": "📝 Mayor: Showa 100 Years Special Exhibition 'Hanno and the Showa Era — The City's Birth and Evolving Life'",
-  "updated": "2026-08-08T04:00:39.182Z"
+  "summary": "📝 Mayor's Blog: Showa Centennial Exhibition \"Hanno and the Showa Era – The City's Birth and Evolving Life\"",
+  "updated": "2026-08-11T11:50:45.207Z"
 }

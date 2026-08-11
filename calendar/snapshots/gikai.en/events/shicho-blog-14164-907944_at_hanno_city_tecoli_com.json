@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "Automated translation (refer to source for accuracy)\n\nMayor's Blog Update (Published: August 6, 2026)\n\nOn Thursday, August 6, city staff conducted a street collection for disaster relief funds at Higashi-Hanno Station and Hanno Station.\n\nAll donations received will be forwarded through the Japanese Red Cross Society to the disaster relief distribution committees established by the affected prefectures, to support the immediate living needs of those affected.\n\nCollection activities are also planned for Friday, August 7 at Higashi-Hanno Station and Hanno Station. We sincerely pray for the swift recovery and reconstruction of the disaster-affected areas.\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202608/14164.html",
+  "description": "Automated translation (refer to source for accuracy)\n\n📝 Mayor's blog update (published August 6, 2026)\n\nOn Thursday, August 6, city staff conducted street fundraising activities for disaster relief at Higashi-Hanno Station and Hanno Station.\n\nAll donations received will be forwarded through the Japanese Red Cross Society to the Disaster Relief Fund Distribution Committees established by the affected prefectures, to support the immediate living needs of those impacted by the disaster.\n\nFundraising activities are also scheduled for Friday, August 7 at Higashi-Hanno Station and Hanno Station. We sincerely pray for the swift recovery and reconstruction of the affected areas.\n\nPhoto: https://www.city.hanno.lg.jp/material/images/group/79/080806reiwa8nenkumaotojishinsaigaigieningaitoubokin.jpg\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202608/14164.html",
   "end": {
     "date": "2026-08-09"
   },
@@ -29,6 +29,6 @@
     "date": "2026-08-08"
   },
   "status": "confirmed",
-  "summary": "📝 Mayor's Update: Street Collection for 2026 Kumamoto Earthquake Disaster Relief",
-  "updated": "2026-08-07T18:51:26.947Z"
+  "summary": "📝 Mayor: Street fundraising for 2026 Kumamoto earthquake disaster relief",
+  "updated": "2026-08-11T11:50:46.508Z"
 }
