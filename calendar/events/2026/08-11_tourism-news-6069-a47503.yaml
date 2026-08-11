@@ -1,0 +1,25 @@
+uid: "tourism-news-6069-a47503@hanno.city.tecoli.com"
+summary: "📢 令和８年熊本地震により被災された皆様へ"
+url: "https://hanno-tourism.jp/news/%e4%bb%a4%e5%92%8c%ef%bc%98%e5%b9%b4%e7%86%8a%e6%9c%ac%e5%9c%b0%e9%9c%87%e3%81%ab%e3%82%88%e3%82%8a%e8%a2%ab%e7%81%bd%e3%81%95%e3%82%8c%e3%81%9f%e7%9a%86%e6%a7%98%e3%81%b8"
+dtstart: "2026-08-11"
+dtend: "2026-08-11"
+description: |-
+  奥むさし飯能観光協会: https://hanno-tourism.jp/news/%e4%bb%a4%e5%92%8c%ef%bc%98%e5%b9%b4%e7%86%8a%e6%9c%ac%e5%9c%b0%e9%9c%87%e3%81%ab%e3%82%88%e3%82%8a%e8%a2%ab%e7%81%bd%e3%81%95%e3%82%8c%e3%81%9f%e7%9a%86%e6%a7%98%e3%81%b8
+  
+  🆕 新着掲載 (公開日: 2026-08-11)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  令和8年熊本地震により被災された皆様へのお見舞いと、熊本県内および九州地方の観光地・宿泊施設の状況についてのお知らせです。多くの施設が安全を確認し通常営業を行っているとのこと。最新情報や交通機関の運行状況については、公式情報をご確認の上、お出かけください。
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-tourism-jp-news
+  id: "6069"
+  url: "https://hanno-tourism.jp/news/%e4%bb%a4%e5%92%8c%ef%bc%98%e5%b9%b4%e7%86%8a%e6%9c%ac%e5%9c%b0%e9%9c%87%e3%81%ab%e3%82%88%e3%82%8a%e8%a2%ab%e7%81%bd%e3%81%95%e3%82%8c%e3%81%9f%e7%9a%86%e6%a7%98%e3%81%b8"
+  fetched_at: "2026-08-11T11:49:03.485334Z"
+  modified_gmt: "2026-08-11T02:19:07"
+  content_hash: "sha256-a47503c38ee57cea"
