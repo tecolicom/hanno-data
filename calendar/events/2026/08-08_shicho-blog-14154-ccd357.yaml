@@ -31,20 +31,24 @@ source:
   publish_date: "2026-08-01"
 translations:
   en:
-    summary: "📝 Mayor: Showa 100 Years Special Exhibition 'Hanno and the Showa Era — The City's Birth and Evolving Life'"
+    summary: "📝 Mayor's Blog: Showa Centennial Exhibition \"Hanno and the Showa Era – The City's Birth and Evolving Life\""
     description: |-
       Automated translation (refer to source for accuracy)
       
       📝 Mayor's Blog Update (Published: August 1, 2026)
       
-      On Saturday, August 1, I visited the Hanno City Museum to see the special exhibition 'Hanno and the Showa Era — The City's Birth and Evolving Life' marking 100 years since the start of the Showa era.
+      On Saturday, August 1, I visited the Hanno City Museum to see the Showa Centennial Exhibition "Hanno and the Showa Era – The City's Birth and Evolving Life."
       
-      Reiwa 8 (2026) marks 100 years since Showa 1. The exhibition, on view through Sunday, August 30, features the city's history as the current Hanno city area took shape through successive mergers, and how people's daily lives changed alongside various furniture and household appliances. The displays draw mainly from the museum's collection.
+      Reiwa 8 (2026) marks 100 years since the beginning of the Showa era.
       
-      If you are interested, I encourage you to visit. I hope the exhibition offers a chance to reflect on the future by tracing the city's history and the changes in people's lives as they have unfolded through the Showa, Heisei, and into the present Reiwa era.
+      This exhibition introduces the history of how the current Hanno city area took shape through successive municipal mergers, and how people's daily lives have changed alongside various furniture and home appliances. The displays center on materials from the museum's collection.
+      
+      The exhibition runs through Sunday, August 30, so if you're interested, please visit. I hope the exhibition offers an opportunity to reflect on the future by tracing the city's history woven from the Showa, Heisei, and Reiwa eras, and observing how people's lives and activities have evolved during this time.
+      
+      Photo: https://www.city.hanno.lg.jp/material/images/group/79/080801syowa100nenkikakuten.jpg
       
       Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202608/14154.html
-    translation_hash: "sha256-d68555dc2dc4d74b"
+    translation_hash: "sha256-8cb99447a7948472"
     model: "claude-haiku-4-5"
-    translated_at: "2026-08-08T03:59:37.037747Z"
+    translated_at: "2026-08-11T11:50:21.791960Z"
     format_version: 3

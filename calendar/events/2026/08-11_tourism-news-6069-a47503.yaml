@@ -23,3 +23,18 @@ source:
   fetched_at: "2026-08-11T11:49:03.485334Z"
   modified_gmt: "2026-08-11T02:19:07"
   content_hash: "sha256-a47503c38ee57cea"
+translations:
+  en:
+    summary: "📢 Message to Those Affected by the 2026 Kumamoto Earthquake"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      From Oku-Musashi Hanno Tourism Association: https://hanno-tourism.jp/news/%e4%bb%a4%e5%92%8c%ef%bc%98%e5%b9%b4%e7%86%8a%e6%9c%ac%e5%9c%b0%e9%9c%87%e3%81%ab%e3%82%88%e3%82%8a%e8%a2%ab%e7%81%bd%e3%81%95%e3%82%8c%e3%81%9f%e7%9a%86%e6%a7%98%e3%81%b8
+      
+      【New Post】 (Published: August 11, 2026)
+      
+      This is a message of sympathy to those affected by the 2026 Kumamoto Earthquake, along with information about the status of tourist destinations and accommodations in Kumamoto Prefecture and the Kyushu region. Many facilities have confirmed their safety and are operating normally. Please check official information and transportation schedules before traveling.
+    translation_hash: "sha256-07384c01251dbcd6"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-11T11:50:33.084040Z"
+    format_version: 3

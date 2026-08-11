@@ -21,3 +21,14 @@ source:
   fetched_at: "2026-08-11T11:49:01.409084Z"
   modified_gmt: "2026-08-11T04:37:18"
   content_hash: "sha256-aa684e5b3e396b55"
+translations:
+  en:
+    summary: "🎪 33rd Agano Shuku Festival"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      33rd Agano Shuku Festival. August 22 (Saturday), 4 pm to 9 pm, at Agano Shuku (around Sakaishi-cho, Hanno City). 3-minute walk from Agano Station on the Seibu Railway Ikebukuro Line. Fireworks display at 8:30 pm. Event proceeds rain or shine; cancelled only in case of severe weather. Temporary parking at Hanno City Okumuzashi Elementary School. Due to expected congestion in the area, public transportation is recommended.
+    translation_hash: "sha256-3b5a18742263475c"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-11T11:50:38.834914Z"
+    format_version: 3

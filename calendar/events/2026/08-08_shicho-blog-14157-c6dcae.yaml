@@ -27,18 +27,20 @@ source:
   publish_date: "2026-08-01"
 translations:
   en:
-    summary: "📝 Mayor: Hanno Kawara Stage Plaza Renovation Ceremony"
+    summary: "📝 Mayor: Hanno Kawara Stage Square Renovation Ceremony"
     description: |-
       Automated translation (refer to source for accuracy)
       
       📝 Mayor's Blog Update (Published: August 1, 2026)
       
-      On Saturday, August 1st, I attended the renovation ceremony for Hanno Kawara Stage Plaza.
+      On Saturday, August 1, I attended the renovation ceremony for Hanno Kawara Stage Square.
       
-      I hope that this newly renovated stage will be used even more going forward—as a place where people can enjoy nature and clear streams, and as a space where business operators can pursue various new ventures.
+      I look forward to seeing this newly renovated stage used even more fully—as a place where people can enjoy time with nature and the clear river, and where businesses can pursue various new ideas and ventures.
+      
+      Photo: https://www.city.hanno.lg.jp/material/images/group/79/080801hannogawarastagehirobakaisouceremony.jpg
       
       Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202608/14157.html
-    translation_hash: "sha256-b68baa9c96ddd553"
+    translation_hash: "sha256-688911114c2565c0"
     model: "claude-haiku-4-5"
-    translated_at: "2026-08-07T18:49:49.515147Z"
+    translated_at: "2026-08-11T11:50:23.900493Z"
     format_version: 3
