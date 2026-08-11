@@ -51,6 +51,7 @@ from _lib import (
     yaml_escape_str, yaml_block_scalar, strip_html, normalize_body,
     reiwa_to_gregorian, gregorian_to_reiwa,
     output_path_for, find_existing_by_uid, load_source_config,
+    format_photo_lines,
 )
 
 
@@ -70,6 +71,7 @@ URL_PATH_PREFIX = _SRC["url_path_prefix"]
 # 本文抽出時の長さ判定 (= 全文 vs 抜粋の境界、目標抜粋字数)。
 BODY_FULL_THRESHOLD = 800   # この字数以下なら全文掲載
 BODY_EXCERPT_TARGET = 600   # 超過時の目標抜粋字数
+MAX_PHOTOS = 5              # description に載せる写真 URL の上限 (実際はほぼ 1 枚)
 
 
 # ==================== Logic ====================
@@ -141,16 +143,52 @@ def find_article_links(month_html: str) -> list[tuple[str, str]]:
 _DATE_RE = re.compile(r"更新日[：:]\s*(\d{4})年(\d{1,2})月(\d{1,2})日")
 
 
+def free_layout_block(html: str) -> str:
+    """記事 HTML の本文ブロックを切り出す.
+
+    `<div class="free-layout-area">` 配下、`<div class="toiawase">` (お問い合わせ先)
+    手前まで。ヘッダ/フッタの装飾要素はこの範囲外なので混入しない。
+    """
+    m = re.search(r'<div class="free-layout-area">([\s\S]*?)(?=<div class="toiawase">|</article>)', html)
+    return m.group(1) if m else ""
+
+
+def extract_images(html: str) -> list[str]:
+    """本文ブロック内の `<figure>` から写真 URL を抽出.
+
+    src はプロトコル相対 (`//www.city.hanno.lg.jp/material/images/...`) なので
+    `https:` を補完する。画像は記事とは別 path (/material/) に置かれるため、
+    safe_url() の path prefix ではなく host allowlist だけで絞る。
+    alt は記事タイトルとほぼ同一で冗長なので使わない。
+    """
+    block = free_layout_block(html)
+    urls: list[str] = []
+    seen: set[str] = set()
+    for fig in re.finditer(r"<figure[^>]*>([\s\S]*?)</figure>", block):
+        for im in re.finditer(r'<img[^>]*\bsrc="([^"]+)"', fig.group(1)):
+            src = im.group(1).strip()
+            if src.startswith("//"):
+                src = "https:" + src
+            if not src.startswith(f"https://{URL_HOST_ALLOWLIST}/"):
+                continue
+            if src in seen:
+                continue
+            seen.add(src)
+            urls.append(src)
+            if len(urls) >= MAX_PHOTOS:
+                return urls
+    return urls
+
+
 def extract_body(html: str) -> str:
     """記事 HTML から本文テキストを抽出.
 
-    `<div class="free-layout-area">` 配下、`<div class="toiawase">` (お問い合わせ先)
-    手前まで。h2 の日付見出しは除外 (title 由来情報なので冗長)。
+    h2 の日付見出しは除外 (title 由来情報なので冗長)。写真は extract_images()
+    が別途拾って description の末尾にリンクとして置くので、本文からは落とす。
     """
-    m = re.search(r'<div class="free-layout-area">([\s\S]*?)(?=<div class="toiawase">|</article>)', html)
-    if not m:
+    block = free_layout_block(html)
+    if not block:
         return ""
-    block = m.group(1)
     # h2 (日付見出し) は除外
     block = re.sub(r"<h2[^>]*>[\s\S]*?</h2>", "", block)
     # figure / img は除外
@@ -197,8 +235,8 @@ def truncate_body(body: str, full_threshold: int = BODY_FULL_THRESHOLD,
 def parse_article(html: str) -> dict | None:
     """h1 + 更新日 + 本文を抽出して dict 返す.
 
-    戻り値: {"title": str, "date": "YYYY-MM-DD", "body": str, "body_truncated": bool},
-            失敗時 (title/date 取れない時) None
+    戻り値: {"title": str, "date": "YYYY-MM-DD", "body": str, "body_truncated": bool,
+             "images": [url, ...]}、失敗時 (title/date 取れない時) None
     """
     # h1 (空のものをスキップ、最初の意味あるものを採用)
     title: str | None = None
@@ -229,6 +267,7 @@ def parse_article(html: str) -> dict | None:
         "date": f"{yyyy:04d}-{mm:02d}-{dd:02d}",
         "body": body,
         "body_truncated": truncated,
+        "images": extract_images(html),
     }
 
 
@@ -242,22 +281,27 @@ def slug_from_article_url(url: str) -> str:
 
 
 def build_description(article_url: str, body: str, truncated: bool,
-                      status_header: str = "") -> str:
+                      status_header: str = "", images: list[str] | None = None) -> str:
     """description テキストを組み立て.
 
-    本文があれば 本文 + 区切り + リンク。
-    本文無し (抽出失敗) の場合は従来通り URL のみ。
+    本文があれば 本文 + 写真リンク + 区切り + リンク。
+    本文無し (抽出失敗) の場合は 写真リンク + URL。
     status_header: incremental mode で先頭に置く 1 行
                    (例: "📝 市長ブログ更新 (公開日: 2026-06-05)")。
                    content_hash には含めない (= fetch 時点の状態であって本文 identity ではない)。
+    images: 本文中の写真 URL。平文で置けば app / Google Calendar 双方が anchor 化する。
+            source URL 行の 1 つ上に置く (cal-translate-en が split_photo_lines で
+            この位置から剥がして LLM に渡さない)。
     """
     header_block = f"{status_header}\n\n" if status_header else ""
-    if not body:
-        return f"{header_block}市長ブログ「市政一直線」: {article_url}"
-    tail = "（続きはリンク先で）" if truncated else ""
-    parts = [body]
-    if tail:
-        parts.append(tail)
+    photo_block = "\n".join(format_photo_lines(images or []))
+    parts: list[str] = []
+    if body:
+        parts.append(body)
+        if truncated:
+            parts.append("（続きはリンク先で）")
+    if photo_block:
+        parts.append(photo_block)
     parts.append(f"市長ブログ「市政一直線」: {article_url}")
     return header_block + "\n\n".join(parts)
 
@@ -265,7 +309,8 @@ def build_description(article_url: str, body: str, truncated: bool,
 def build_yaml_doc(uid: str, article_url: str, page_id: str, title: str, date_str: str,
                    body: str, body_truncated: bool,
                    content_hash: str, fetched_at: str | None,
-                   status_header: str = "", publish_date: str | None = None) -> str:
+                   status_header: str = "", publish_date: str | None = None,
+                   images: list[str] | None = None) -> str:
     lines: list[str] = []
     lines.append(f"uid: {yaml_escape_str(uid)}")
     lines.append(f"summary: {yaml_escape_str(SUMMARY_PREFIX + title)}")
@@ -273,7 +318,7 @@ def build_yaml_doc(uid: str, article_url: str, page_id: str, title: str, date_st
     lines.append(f"dtstart: {yaml_escape_str(date_str)}")
     lines.append(f"dtend: {yaml_escape_str(date_str)}")
     description = build_description(article_url, body, body_truncated,
-                                   status_header=status_header)
+                                   status_header=status_header, images=images)
     lines.append("description: " + yaml_block_scalar(description, indent=2))
     lines.append("")
     lines.append("render:")
@@ -435,6 +480,10 @@ def main() -> None:
 
             # canonical hash (title + date + body 抜粋)。本文変化を検知する。
             # date は記事更新日 (= content identity)。dtstart が取得日でも不変。
+            # 写真 URL は**含めない**。含めると既存記事に写真行を足した時点で hash が
+            # 変わり、incremental mode が別 uid の重複エントリを作ってしまう。写真の
+            # 差し替えは URL 据え置きでファイル実体を置換する運用が普通なので、
+            # 含めたところでどのみち検知できない。
             canonical = json.dumps(
                 {"title": parsed["title"], "date": parsed["date"],
                  "body": parsed["body"], "body_truncated": parsed["body_truncated"]},
@@ -474,7 +523,8 @@ def main() -> None:
             doc = build_yaml_doc(uid, article_url, page_id, parsed["title"], dtstart,
                                  parsed["body"], parsed["body_truncated"],
                                  content_hash, fetched_at,
-                                 status_header=status_header, publish_date=publish_date)
+                                 status_header=status_header, publish_date=publish_date,
+                                 images=parsed["images"])
             out_path = output_path_for(args.out_dir, uid, dtstart)
 
             if args.dry_run:

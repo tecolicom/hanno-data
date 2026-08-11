@@ -38,7 +38,7 @@ import httpx
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from _lib import (yaml_escape_str, yaml_block_scalar, strip_markdown,
-                  split_description)
+                  split_description, split_photo_lines, format_photo_lines)
 
 
 # ==================== Source ====================
@@ -132,9 +132,14 @@ def translate(jp_summary: str, jp_description: str) -> dict | None:
         return None
 
 
-def build_en_description(en_body: str, source_url: str | None) -> str:
-    """英語 description を組み立て: disclaimer + 本文 + Source URL."""
+def build_en_description(en_body: str, source_url: str | None,
+                         photo_urls: list[str] | None = None) -> str:
+    """英語 description を組み立て: disclaimer + 本文 + 写真 URL + Source URL.
+
+    写真 URL は LLM を通さず機械的に復元する (URL の改変・脱落を防ぐ)。
+    """
     parts = [EN_DISCLAIMER, en_body.strip()]
+    parts.extend(format_photo_lines(photo_urls or [], label="Photo", number_sep=" "))
     if source_url:
         parts.append(f"Source (Japanese): {source_url}")
     return "\n\n".join(parts)
@@ -322,8 +327,10 @@ def main() -> None:
                 continue
             en_description = ""
         else:
-            # 前処理: AI disclaimer 行と末尾 URL 行を取り除いてから LLM へ
+            # 前処理: AI disclaimer 行・末尾 URL 行・写真 URL 行を取り除いてから LLM へ
+            # (写真 URL は build_en_description で機械的に復元する)
             body_for_llm, source_url = split_description(description)
+            body_for_llm, photo_urls = split_photo_lines(body_for_llm)
             if not body_for_llm:
                 # description はあるが strip 後に空 → summary のみ翻訳
                 result = translate(summary, "(no body)")
@@ -336,7 +343,8 @@ def main() -> None:
                 if not result:
                     errors += 1
                     continue
-                en_description = build_en_description(result["description"], source_url)
+                en_description = build_en_description(result["description"], source_url,
+                                                     photo_urls)
         translated_at = datetime.utcnow().isoformat() + "Z"
         write_yaml_with_translations(path, result["summary"], en_description,
                                      new_hash, translated_at, args.dry_run)

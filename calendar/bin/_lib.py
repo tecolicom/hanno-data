@@ -418,6 +418,48 @@ def split_description(text: str) -> tuple[str, str | None]:
     return text.strip(), source_url
 
 
+# 写真 URL 行。description 内に平文で置くと、app (event-modal) と Google Calendar
+# の双方が自動で anchor 化するので、クリックで写真を開ける。
+_PHOTO_LINE_RE = re.compile(r"^\s*(?:写真|Photo)\s*\d*\s*[：:][ \t]*(https?://\S+)\s*$")
+
+
+def format_photo_lines(urls: list[str], label: str = "写真",
+                       number_sep: str = "") -> list[str]:
+    """写真 URL 群を description 用の行 list にする.
+
+    1 枚なら "写真: <url>"、複数枚なら "写真1: <url>" … と番号を振る。
+    number_sep は label と番号の間 (英語なら " " を渡して "Photo 1:")。
+    """
+    if not urls:
+        return []
+    if len(urls) == 1:
+        return [f"{label}: {urls[0]}"]
+    return [f"{label}{number_sep}{i}: {u}" for i, u in enumerate(urls, 1)]
+
+
+def split_photo_lines(text: str) -> tuple[str, list[str]]:
+    """description 末尾の「写真: URL」行群を剥がす.
+
+    戻り値: (本文, [url, ...])
+
+    LLM に URL を渡さないための前処理。split_description() で source URL 行を
+    落とした**後**に適用する (写真行は source URL 行の 1 つ上に置くため)。
+    """
+    lines = text.rstrip().split("\n")
+    urls: list[str] = []
+    while lines:
+        last = lines[-1].strip()
+        if not last:            # 行間の空行はまたぐ
+            lines.pop()
+            continue
+        m = _PHOTO_LINE_RE.match(last)
+        if not m:
+            break
+        urls.insert(0, m.group(1))
+        lines.pop()
+    return "\n".join(lines).strip(), urls
+
+
 def existing_content_hash_matches(path: str, html_hash: str) -> bool:
     """既存 YAML の content_hash フィールドが指定の html_hash と一致するか判定.
 

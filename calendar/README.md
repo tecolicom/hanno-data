@@ -76,7 +76,7 @@ calendar/
 | 暦変換 | `reiwa_to_gregorian(N)`, `gregorian_to_reiwa(year)`, `last_modified_to_jst_date`, `dtstart_from_last_modified` |
 | YAML 整形 | `yaml_escape_str`, `yaml_block_scalar` |
 | event YAML 操作 | `read_yaml_scalar`, `read_yaml_block(path, key)`, `existing_content_hash_matches`, `output_path_for`, `find_existing_by_uid` |
-| description 分解 | `strip_status_header(text)` — 冒頭の 🆕/🔄/📝 ブロックを除去 / `split_description(text)` — AI disclaimer 行と末尾 URL 行を剥がし `(本文, source_url)` を返す (status 行は残す。EN 側で訳すため) |
+| description 分解 | `strip_status_header(text)` — 冒頭の 🆕/🔄/📝 ブロックを除去 / `split_description(text)` — AI disclaimer 行と末尾 URL 行を剥がし `(本文, source_url)` を返す (status 行は残す。EN 側で訳すため) / `split_photo_lines(text)` — 末尾の `写真: <url>` 行群を剥がし `(本文, [url,…])` を返す / `format_photo_lines(urls, label, number_sep)` — その逆 (1 枚なら `写真:`、複数なら `写真1:` …) |
 | クローラ設定 | `load_source_config(source_key)` — `../sources.yaml` から source 別の city 固有設定 dict を読む (不在 key は KeyError) |
 
 ## 認証
@@ -442,7 +442,8 @@ cal-shicho-blog-fetch [--out-dir events] [--year YYYY]
 - description に本文を取り込む:
   - 800 字以下: 全文掲載
   - 800 字超: 冒頭 ~600 字を段落境界優先で抜粋 + 「（続きはリンク先で）」
-- content_hash は (title, date, body, body_truncated) ベース → 本文変化を検知 (dtstart は含めない = 日付非依存)
+- 本文中の写真 (`<figure>` 内の `<img>`) は URL を `写真: <url>` 行として description に置く (最大 5 枚、実際はほぼ 1 枚)。app の event-modal と Google Calendar が平文 URL を自動で anchor 化するので、そのままクリックで開ける
+- content_hash は (title, date, body, body_truncated) ベース → 本文変化を検知 (dtstart は含めない = 日付非依存)。**写真 URL は含めない**: 含めると既存記事に写真行を足した時点で hash が変わり別 uid の重複エントリが湧く。写真差し替えは URL 据え置きでファイル実体を置換する運用が普通なので、含めても検知はできない
 - **HTTP Conditional GET 対応**: 各 month index の ETag を `.http-cache.json` に保存、304 受けたら article 巡回を skip (= 月途中の記事追加が無ければ article fetch 0 件)
 
 ### 2 つの動作モード (oshirase と対称)
@@ -551,6 +552,7 @@ cal-translate-en [--events-dir DIR] [--dry-run] [--limit N] [--only-uid UID]
 - 元記事 URL を「Source (Japanese): URL」として末尾保持
 - Markdown 記法は除去 (出力先が plain text Google Calendar 想定)
 - 入力前処理: 元 description の冒頭「AI による要約…」行と末尾 URL 行は LLM に渡さない (重複翻訳防止)
+- 写真 URL 行 (`写真: <url>`) も `split_photo_lines()` で剥がしてから LLM に渡し、英語側は `Photo: <url>` として機械的に復元する (LLM に URL を触らせない = 改変・脱落を防ぐ)
 - `translation_hash` は (元 summary, 元 description, format_version, lang) ベース
   - 元の日本語が変わった時のみ再翻訳
   - LLM 非決定性に関わらず idempotent

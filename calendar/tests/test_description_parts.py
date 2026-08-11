@@ -128,6 +128,53 @@ def test_split_description_no_url():
     assert url is None
 
 
+def test_format_photo_lines_single_and_multi():
+    assert mod.format_photo_lines([]) == []
+    assert mod.format_photo_lines(["https://e/1.jpg"]) == ["写真: https://e/1.jpg"]
+    assert mod.format_photo_lines(["https://e/1.jpg", "https://e/2.jpg"]) == [
+        "写真1: https://e/1.jpg", "写真2: https://e/2.jpg",
+    ]
+    assert mod.format_photo_lines(["https://e/1.jpg", "https://e/2.jpg"],
+                                  label="Photo", number_sep=" ") == [
+        "Photo 1: https://e/1.jpg", "Photo 2: https://e/2.jpg",
+    ]
+
+
+def test_split_photo_lines_after_source_url_stripped():
+    # 実際の順序: 本文 → 写真行 → source URL 行。split_description が URL 行を
+    # 落とした後の text に対して適用する。
+    text = (
+        "📝 市長ブログ更新 (公開日: 2026-07-28)\n\n本文です。\n\n"
+        "写真: https://www.city.hanno.lg.jp/material/images/group/79/a.jpg\n\n"
+        "市長ブログ「市政一直線」: https://example.com/14127.html"
+    )
+    body, url = mod.split_description(text)
+    body, photos = mod.split_photo_lines(body)
+    assert url == "https://example.com/14127.html"
+    assert photos == ["https://www.city.hanno.lg.jp/material/images/group/79/a.jpg"]
+    assert body.endswith("本文です。")
+
+
+def test_split_photo_lines_multiple_and_numbered():
+    body, photos = mod.split_photo_lines(
+        "本文です。\n\n写真1: https://e/1.jpg\n写真2: https://e/2.jpg")
+    assert body == "本文です。"
+    assert photos == ["https://e/1.jpg", "https://e/2.jpg"]
+
+
+def test_split_photo_lines_noop_without_photos():
+    body, photos = mod.split_photo_lines("本文です。\n\n続きます。")
+    assert body == "本文です。\n\n続きます。"
+    assert photos == []
+
+
+def test_split_photo_lines_keeps_body_url_lines():
+    # 本文中の「写真」以外のラベル付き URL は剥がさない
+    body, photos = mod.split_photo_lines("本文です。\n\n申込: https://e/form.html")
+    assert photos == []
+    assert body.endswith("申込: https://e/form.html")
+
+
 if __name__ == "__main__":
     for name, fn in sorted(globals().items()):
         if name.startswith("test_") and callable(fn):
