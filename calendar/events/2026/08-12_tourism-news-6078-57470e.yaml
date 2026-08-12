@@ -34,3 +34,29 @@ source:
   fetched_at: "2026-08-12T18:54:38.471048Z"
   modified_gmt: "2026-08-12T06:52:40"
   content_hash: "sha256-57470ed56ccce3be"
+translations:
+  en:
+    summary: "📢 Morning Yoga at Naguri Announced (September 6, October 11, November 1)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Oku Musashi Hanno Tourism Association
+      
+      🆕 New Listing (Published: August 12, 2026)
+      
+      Morning yoga events will be held at Nora Naguri Central Park. Professional instructors will guide you through gentle stretches in the soft morning light and fresh air. Beginners and those with tight muscles can participate with confidence.
+      
+      【Date and Time】
+      • September 6 (Sunday) 7:00–8:00
+      • October 11 (Sunday) 7:00–8:00
+      • November 1 (Sunday) 7:00–8:00
+      
+      【Location】Nora Naguri Central Park (607-1 Shimo-Naguri, Hanno City, Saitama Prefecture)
+      
+      【Fee】¥3,000 per person (includes breakfast)
+      
+      【Registration】Advance reservation required. Open to non-members as well as facility users.
+    translation_hash: "sha256-835f470e58bfa04e"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-12T18:55:40.982151Z"
+    format_version: 3

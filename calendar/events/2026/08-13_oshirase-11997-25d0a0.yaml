@@ -26,3 +26,22 @@ source:
   content_hash: "sha256-25d0a009bee4f8ca"
   summary_method: "full"
   publish_date: "2026-08-12"
+translations:
+  en:
+    summary: "ℹ️ Self-evacuation shelters have opened"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New (Published: August 12, 2026)
+      
+      Following the issuance of a landslide hazard warning at 6:07 p.m. today, self-evacuation shelters have been opened at the following locations: Kaji District Administrative Center, Kaji-Higashi District Administrative Center, Agano District Administrative Center, Haraichiba District Administrative Center, and Naguri District Administrative Center.
+      
+      ※ Self-evacuation shelters do not provide food, daily necessities, or other supplies as a general rule.
+      
+      If you evacuate, please bring the minimum necessary items with you in advance.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/emergency/11997.html
+    translation_hash: "sha256-289c98e816242b02"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-12T18:55:42.992574Z"
+    format_version: 3
