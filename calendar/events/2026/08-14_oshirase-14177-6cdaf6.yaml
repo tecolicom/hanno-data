@@ -1,0 +1,28 @@
+uid: "oshirase-14177-6cdaf6@hanno.city.tecoli.com"
+summary: "ℹ️ 高齢者等避難を発令しました"
+url: "https://www.city.hanno.lg.jp/emergency/14177.html"
+dtstart: "2026-08-14"
+dtend: "2026-08-14"
+description: |-
+  🆕 新着掲載 (公開日: 2026-08-13)
+  
+  飯能市に、線状降水帯予測が発表されたことから、飯能市内全域に高齢者等避難を発令しました。
+  
+  これに伴い、全地区行政センターに避難所を開設しました。
+  
+  高齢者や障害がある方など避難に時間のかかる方は、速やかに避難してください。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/emergency/14177.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "14177"
+  url: "https://www.city.hanno.lg.jp/emergency/14177.html"
+  fetched_at: "2026-08-13T18:55:19.272126Z"
+  content_hash: "sha256-6cdaf68492268753"
+  summary_method: "full"
+  publish_date: "2026-08-13"

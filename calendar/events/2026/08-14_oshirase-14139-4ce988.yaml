@@ -1,0 +1,36 @@
+uid: "oshirase-14139-4ce988@hanno.city.tecoli.com"
+summary: "ℹ️ 本市の令和8年熊本地震に伴う被災地支援について"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/14139.html"
+dtstart: "2026-08-14"
+dtend: "2026-08-14"
+description: |-
+  🔄 内容更新 (公開日: 2026-08-05 / 前回掲載: 2026-08-06)
+  主な変更: 街頭募金活動は8月6日・7日に実施済みで、306,959円が集まり日本赤十字社を通じて被災者へ送金されました。
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  令和8年7月28日の熊本地震被災者支援のための街頭募金活動を実施いたしました。
+  
+  令和8年8月6日(木曜日)18時00分～19時00分および8月7日(金曜日)18時00分～19時00分に、東飯能駅東口・西口、飯能駅南口で募金活動を行いました。
+  
+  2日間で集まりました義援金306,959円は、日本赤十字社(地域福祉課)を通じて被災都道府県が設置する義援金配分委員会へ送金し、被災者の方々へお送りいたします。
+  
+  募金箱は市役所本庁舎正面玄関総合案内所に設置しており、他の施設にも順次設置予定です。
+  
+  被災された皆様へのご支援をいただきありがとうございました。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/14139.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "14139"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/14139.html"
+  fetched_at: "2026-08-13T18:55:36.647362Z"
+  content_hash: "sha256-4ce98857314c1aa4"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-08-05"
+  supersedes: "oshirase-14139-500e09@hanno.city.tecoli.com"

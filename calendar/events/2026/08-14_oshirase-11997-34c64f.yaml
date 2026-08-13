@@ -1,0 +1,30 @@
+uid: "oshirase-11997-34c64f@hanno.city.tecoli.com"
+summary: "ℹ️ 自主避難所を開設しました"
+url: "https://www.city.hanno.lg.jp/emergency/11997.html"
+dtstart: "2026-08-14"
+dtend: "2026-08-14"
+description: |-
+  🔄 内容更新 (公開日: 2026-08-13 / 前回掲載: 2026-08-13)
+  主な変更: 警報発表時刻が午後6時7分から午後3時12分に変更され、開設地区が飯能中央と東吾野地区行政センターを追加した7地区に拡大しました。
+  
+  本日、午後3時12分に「 レベル4 土砂災害危険警報 」が発表されたことから、飯能中央、加治、加治東、吾野、東吾野、原市場、名栗地区行政センターに自主避難所を開設しました。
+  
+  ※自主避難所では、食料品や日用品等の提供は原則として行いません。
+  
+  避難する場合は、あらかじめ各自で最低限の必需品を持参してください。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/emergency/11997.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "11997"
+  url: "https://www.city.hanno.lg.jp/emergency/11997.html"
+  fetched_at: "2026-08-13T18:55:21.739703Z"
+  content_hash: "sha256-34c64f3ac704a037"
+  summary_method: "full"
+  publish_date: "2026-08-13"
+  supersedes: "oshirase-11997-25d0a0@hanno.city.tecoli.com"
