@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-13T18:56:21.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🔄 内容更新 (公開日: 2026-08-05 / 前回掲載: 2026-08-06)\n主な変更: 街頭募金活動は8月6日・7日に実施済みで、306,959円が集まり日本赤十字社を通じて被災者へ送金されました。\n\nAI による要約 (正確な情報は元記事をご確認ください)\n\n令和8年7月28日の熊本地震被災者支援のための街頭募金活動を実施いたしました。\n\n令和8年8月6日(木曜日)18時00分～19時00分および8月7日(金曜日)18時00分～19時00分に、東飯能駅東口・西口、飯能駅南口で募金活動を行いました。\n\n2日間で集まりました義援金306,959円は、日本赤十字社(地域福祉課)を通じて被災都道府県が設置する義援金配分委員会へ送金し、被災者の方々へお送りいたします。\n\n募金箱は市役所本庁舎正面玄関総合案内所に設置しており、他の施設にも順次設置予定です。\n\n被災された皆様へのご支援をいただきありがとうございました。\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/14139.html",
+  "end": {
+    "date": "2026-08-15"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Z29qNmU5ZDZoaG1hZTlvNzEwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSA2NzQ1OTE0YjI0MzIzMTEyYTE1ZjQzZGMyMGIzYTBmNGE0ODE3YWZkODAwYzhkMTY4N2QwYmYwYjdmODkwYzYxQGc",
+  "iCalUID": "oshirase-14139-4ce988@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6goj6e9d6hhmae9o7106gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/14139.html"
+  },
+  "start": {
+    "date": "2026-08-14"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 本市の令和8年熊本地震に伴う被災地支援について",
+  "updated": "2026-08-13T18:56:22.153Z"
+}
