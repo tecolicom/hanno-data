@@ -44,3 +44,40 @@ source:
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-08-07"
   supersedes: "oshirase-12265-4335ff@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ Donations and relief funds now being accepted"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content updated (published August 7, 2026 / previously listed August 1, 2026)
+      Main change: New addition of July 2026 Shiga Prefecture Koka City landslide disaster relief fund (acceptance deadline: January 22, 2027).
+      
+      The Japanese Red Cross Society Saitama Chapter Hanno Branch is accepting domestic relief donations and international humanitarian aid contributions.
+      
+      【Domestic Relief Donations】
+      • 2024 Noto Peninsula earthquake disaster relief (Ishikawa, Toyama, Niigata prefectures) – Acceptance deadline: March 22, 2027
+      • September 2024 Noto Peninsula heavy rain disaster relief (Ishikawa Prefecture) – Acceptance deadline: March 22, 2027
+      • 2026 Otsuchi Town forest fire relief (Iwate Prefecture) – Acceptance deadline: August 24, 2026
+      • 2026 Kumamoto earthquake disaster relief (Kumamoto Prefecture) – Acceptance deadline: October 23, 2026
+      • July 2026 Shiga Prefecture Koka City landslide disaster relief (Shiga Prefecture) – Acceptance deadline: January 22, 2027
+      
+      【International Humanitarian Aid】
+      • Middle East humanitarian crisis relief – Acceptance deadline: March 23, 2027
+      • Bangladesh southern refugee relief – Acceptance deadline: March 23, 2027
+      • Ukraine humanitarian crisis relief – Acceptance deadline: March 23, 2027
+      • 2026 Venezuela earthquake relief – Acceptance deadline: September 21, 2026
+      • Undesignated international humanitarian aid (year-round acceptance)
+      
+      【Where to donate】
+      Donation boxes at the main information desk in front of Hanno City Hall main building, or Community Welfare Division (Window 11, 1st floor)
+      
+      【Reception hours】
+      Weekdays 9:00 AM–4:30 PM
+      Those requesting receipts should visit the Community Welfare Division (Window 11, 1st floor of the main building).
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/12265.html
+    translation_hash: "sha256-9b8d790769cd8041"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-13T18:56:33.657589Z"
+    format_version: 3

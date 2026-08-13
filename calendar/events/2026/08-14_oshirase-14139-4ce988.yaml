@@ -34,3 +34,27 @@ source:
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-08-05"
   supersedes: "oshirase-14139-500e09@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ Hanno City's support for areas affected by the July 2026 Kumamoto earthquake"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content update (published August 5, 2026 / previously posted August 6, 2026)
+      Main change: Street fundraising activities were completed on August 6–7, collecting 306,959 yen, which has been sent to disaster victims through the Japanese Red Cross.
+      
+      Hanno City conducted street fundraising to support those affected by the Kumamoto earthquake of July 28, 2026 (Reiwa 8).
+      
+      Fundraising activities were held on Thursday, August 6, 18:00–19:00 and Friday, August 7, 18:00–19:00 at the east and west exits of Higashi-Hanno Station and the south exit of Hanno Station.
+      
+      The 306,959 yen collected over the two days has been sent through the Japanese Red Cross (Regional Welfare Division) to the donation distribution committees established by the affected prefectures, and will be delivered to those affected by the disaster.
+      
+      Donation boxes are set up at the main information desk in front of Hanno City Hall's main building, with plans to set them up at other facilities as well.
+      
+      Thank you for your support for those who were affected by the disaster.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/14139.html
+    translation_hash: "sha256-d9c956947aa38f37"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-13T18:56:36.992077Z"
+    format_version: 3

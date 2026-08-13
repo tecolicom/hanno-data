@@ -26,3 +26,22 @@ source:
   content_hash: "sha256-6cdaf68492268753"
   summary_method: "full"
   publish_date: "2026-08-13"
+translations:
+  en:
+    summary: "ℹ️ Evacuation advisory issued for elderly and vulnerable persons"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New notice (published: August 13, 2026)
+      
+      Following a forecast of a linear precipitation band (線状降水帯), Hanno City has issued an evacuation advisory for elderly persons and others in the entire city.
+      
+      In response, evacuation shelters have been opened at all district administrative centers (全地区行政センター).
+      
+      If you are elderly, disabled, or otherwise need extra time to evacuate, please leave for a shelter right away.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/emergency/14177.html
+    translation_hash: "sha256-de0dda4909d0c5fe"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-13T18:56:38.921451Z"
+    format_version: 3
