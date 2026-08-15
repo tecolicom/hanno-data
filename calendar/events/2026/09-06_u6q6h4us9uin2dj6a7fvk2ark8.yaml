@@ -7,3 +7,10 @@ dtend: "2026-09-06T16:00:00+09:00"
 render:
   gcal:
     mode: timed
+translations:
+  en:
+    summary: "Film screening: 'Chikara-hashiri Okumusashi 2026'"
+    translation_hash: "sha256-e30e3576978676c2"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-15T18:20:12.800637Z"
+    format_version: 3

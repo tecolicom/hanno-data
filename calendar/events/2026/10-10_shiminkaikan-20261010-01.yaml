@@ -21,3 +21,17 @@ source:
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html"
   fetched_at: "2026-08-15T18:19:12.471497Z"
   content_hash: "sha256-fc77b95e739089e0"
+translations:
+  en:
+    summary: "Hanno City War Bereaved Families Memorial Service"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      【Venue】Small Hall, Hanno Civic Hall
+      【Organizer】Hanno City War Bereaved Families Association
+      
+      For more information, visit: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html
+    translation_hash: "sha256-addac69bf01df76b"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-15T18:20:19.713309Z"
+    format_version: 3
