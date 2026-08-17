@@ -34,3 +34,27 @@ source:
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-08-17"
   supersedes: "oshirase-13388-66b097@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ 【Fiscal Year 2026】Press Release Materials"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content Updated (Published: August 17, 2026 / Previously Posted: August 6, 2026)
+      Main Changes: New announcements added as of August 17, 2026 — first public disclosure of the secret transmission documents of "Shimona-guri Lion Dance" and announcements regarding corporate version hometown tax contributions from FLATT Co., Ltd., Kouyou-sha, and Yamaguchi-gumi.
+      
+      The press release materials list on the official Hanno City website has been updated. The main announcements for fiscal year 2026 are as follows:
+      
+      • First public disclosure of the secret transmission documents passed down in "Shimona-guri Lion Dance" (announced August 17)
+      • Call for business operators for private management transition accompanying the rebuilding of Asama Childcare Center (announced August 5)
+      • Appointment of Hanno City PR Ambassadors (announced August 3)
+      • Conclusion of a forest conservation agreement with The Coca-Cola Company Japan and Coca-Cola Bottlers Japan (announced July 29)
+      • Hosting of "Hanno Summer Solstice Festival — Forest, Water, and Sun Beer Garden" (announced July 23)
+      
+      For announcements prior to these, please see the original article.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025_1/13388.html
+    translation_hash: "sha256-83bd96406e13da6c"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-17T18:31:20.789139Z"
+    format_version: 3
