@@ -1,0 +1,36 @@
+uid: "oshirase-13388-41350e@hanno.city.tecoli.com"
+summary: "ℹ️ 【令和8年度】報道発表資料"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025_1/13388.html"
+dtstart: "2026-08-18"
+dtend: "2026-08-18"
+description: |-
+  🔄 内容更新 (公開日: 2026-08-17 / 前回掲載: 2026-08-06)
+  主な変更: 令和8年8月17日付で「下名栗の獅子舞」秘伝書の初公開、株式会社FLATT・光陽社・山口組からの企業版ふるさと納税寄附に関する発表が新たに掲載されました。
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  飯能市公式サイトの報道発表資料一覧ページが更新されました。令和8年度の主な発表内容は以下の通りです。
+  
+  ・「下名栗の獅子舞」に伝わる秘伝書の初公開について（8月17日発表）
+  ・浅間保育所の建替えに伴う民設民営化に向けた事業者募集について（8月5日発表）
+  ・飯能市PR大使の委嘱について（8月3日発表）
+  ・日本コカ・コーラ株式会社及びコカ・コーラボトラーズジャパン株式会社との森林保全に関する協定の締結について（7月29日発表）
+  ・『はんのう夏至祭森と水と太陽のビアガーデン』の開催について（7月23日発表）
+  
+  これより前の発表は元記事をご覧ください。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025_1/13388.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13388"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025_1/13388.html"
+  fetched_at: "2026-08-17T18:30:34.811625Z"
+  content_hash: "sha256-41350ea4aa210bf1"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-08-17"
+  supersedes: "oshirase-13388-66b097@hanno.city.tecoli.com"
