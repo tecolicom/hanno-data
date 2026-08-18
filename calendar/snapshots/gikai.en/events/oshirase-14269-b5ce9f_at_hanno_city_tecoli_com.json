@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-18T18:30:15.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 New (Posted: August 18, 2026)\n\nNotice\n\nThe Nagarebashi Bridge connecting Asu Athletic Park and Iwasawa Athletic Park has been damaged by heavy rain. The bridge deck has been swept away and the bridge is currently closed to traffic. We apologize for any inconvenience and appreciate your understanding and cooperation.\n\nRepair Timeline\n\nOnce the river water level drops and conditions allow us to reinstall the bridge deck, we will update our website with repair progress information.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/ijikanrika/14269.html",
+  "end": {
+    "date": "2026-08-20"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Z3AzY2U5ZGM4cW02cDlwY3AwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-14269-b5ce9f@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6gp3ce9dc8qm6p9pcp06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/ijikanrika/14269.html"
+  },
+  "start": {
+    "date": "2026-08-19"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Notice: Nagarebashi Bridge Closed to Traffic",
+  "updated": "2026-08-18T18:30:15.418Z"
+}

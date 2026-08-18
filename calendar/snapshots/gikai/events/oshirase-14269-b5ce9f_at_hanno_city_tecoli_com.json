@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-18T18:29:57.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🆕 新着掲載 (公開日: 2026-08-18)\n\n## お知らせ\n\n阿須運動公園と岩沢運動公園を繋ぐ流れ橋が大雨の影響で橋桁が流され、通行ができない状態となっております。ご利用の皆様にはご不便ご迷惑をおかけしますが、御理解ご協力の程よろしくお願い致します。\n\n復旧時期について\n\n流れ橋の復旧につきましては、川の水位が下がり橋桁を設置できる状況になりましたら、随時ホームページを更新いたします。\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/ijikanrika/14269.html",
+  "end": {
+    "date": "2026-08-20"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Z3AzY2U5ZGM4cW02cDlwY3AwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSA2NzQ1OTE0YjI0MzIzMTEyYTE1ZjQzZGMyMGIzYTBmNGE0ODE3YWZkODAwYzhkMTY4N2QwYmYwYjdmODkwYzYxQGc",
+  "iCalUID": "oshirase-14269-b5ce9f@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6gp3ce9dc8qm6p9pcp06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/ijikanrika/14269.html"
+  },
+  "start": {
+    "date": "2026-08-19"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 流れ橋通行止めのお知らせについて",
+  "updated": "2026-08-18T18:29:57.540Z"
+}
