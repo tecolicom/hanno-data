@@ -41,3 +41,34 @@ source:
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-08-07"
   supersedes: "oshirase-7334-497925@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ City-owned land sale (general competitive bidding)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content update (published August 7, 2026 / previously listed August 8, 2026)
+      Main changes: Property A minimum sale price changed from ¥19.7 million to ¥19.7 million, bid guarantee changed from ¥2.955 million to ¥2.955 million. Property B minimum sale price changed from ¥46.9 million to ¥46.9 million, bid guarantee changed from ¥7.035 million to ¥7.035 million.
+      
+      Hanno City will sell three city-owned properties through general competitive bidding.
+      
+      【Properties for Sale】
+      Property A (multiple parcels in Yamatechi, total farmland 242.24 sq m) — Minimum sale price ¥19.7 million, bid guarantee ¥2.955 million
+      Property B (Yamatechi 1406-3 and 1407-4, residential land 625.78 sq m) — Minimum sale price ¥46.9 million, bid guarantee ¥7.035 million
+      Property C (Yamatechi 1410-2, residential land 171.97 sq m) — Minimum sale price ¥18.4 million, bid guarantee ¥2.76 million
+      Bundle sale (Properties A, B, C combined 1,039.99 sq m) — Minimum sale price ¥68 million, bid guarantee ¥10.2 million
+      
+      All properties are zoned as First Category Residential Area.
+      
+      【Bidding Schedule】
+      Application period: August 21–September 3, 2026 (Reiwa 8), 9:00 AM–4:30 PM
+      Bidding date and time: September 11, 2026, 2:00 PM
+      Bidding venue: Hanno City Hall Main Building, 2nd Floor, Bidding Room
+      
+      If bundle bids are received but no individual bids are submitted, the bundle bid takes priority. Application documents are available on the city's official website.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/shisannkeiei/7334.html
+    translation_hash: "sha256-d1fb8c706e8f9c41"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-18T18:30:08.575064Z"
+    format_version: 3

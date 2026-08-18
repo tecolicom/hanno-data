@@ -28,3 +28,24 @@ source:
   content_hash: "sha256-b5ce9f673ca6a269"
   summary_method: "full"
   publish_date: "2026-08-18"
+translations:
+  en:
+    summary: "ℹ️ Notice: Nagarebashi Bridge Closed to Traffic"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New (Posted: August 18, 2026)
+      
+      Notice
+      
+      The Nagarebashi Bridge connecting Asu Athletic Park and Iwasawa Athletic Park has been damaged by heavy rain. The bridge deck has been swept away and the bridge is currently closed to traffic. We apologize for any inconvenience and appreciate your understanding and cooperation.
+      
+      Repair Timeline
+      
+      Once the river water level drops and conditions allow us to reinstall the bridge deck, we will update our website with repair progress information.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/ijikanrika/14269.html
+    translation_hash: "sha256-500e07072fb02b7e"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-18T18:30:04.467616Z"
+    format_version: 3
