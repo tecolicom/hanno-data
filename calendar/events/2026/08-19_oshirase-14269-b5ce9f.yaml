@@ -1,0 +1,30 @@
+uid: "oshirase-14269-b5ce9f@hanno.city.tecoli.com"
+summary: "ℹ️ 流れ橋通行止めのお知らせについて"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/ijikanrika/14269.html"
+dtstart: "2026-08-19"
+dtend: "2026-08-19"
+description: |-
+  🆕 新着掲載 (公開日: 2026-08-18)
+  
+  ## お知らせ
+  
+  阿須運動公園と岩沢運動公園を繋ぐ流れ橋が大雨の影響で橋桁が流され、通行ができない状態となっております。ご利用の皆様にはご不便ご迷惑をおかけしますが、御理解ご協力の程よろしくお願い致します。
+  
+  復旧時期について
+  
+  流れ橋の復旧につきましては、川の水位が下がり橋桁を設置できる状況になりましたら、随時ホームページを更新いたします。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/ijikanrika/14269.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "14269"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/ijikanrika/14269.html"
+  fetched_at: "2026-08-18T18:29:07.695583Z"
+  content_hash: "sha256-b5ce9f673ca6a269"
+  summary_method: "full"
+  publish_date: "2026-08-18"
