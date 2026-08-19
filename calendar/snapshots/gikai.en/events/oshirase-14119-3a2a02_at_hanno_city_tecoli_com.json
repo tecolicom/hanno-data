@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-19T18:26:56.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 New listing (Published: August 4, 2026)\n\nTo promote business attraction to the Seiomei East District near the Sayama Hidaka Interchange on the Kanto Central Expressway, we have started a 'company-proposed' area designation system. This changes from the previous method where the city designated land meeting certain conditions to a new system where companies propose land they wish to develop and the city designates it.\n\n【Target Area】\nAreas within the 'Industrial Attraction Zone' identified in Hanno City's Comprehensive Promotion Plan and Urban Planning Master Plan\n\n【Eligible Land Uses】\nLogistics and distribution facilities, industrial facilities, commercial facilities\n\n【Main Requirements】\n• Must not be in an excluded area (agricultural promotion district, Class A or Grade 1 farmland, urban planning facility designation area, etc.)\n• Must have adequate public facilities including roads, water supply, and sewerage\n• Must have consent from all landowners within the designated area\n• Must have completed explanations to residents, landowners, building owners, and neighborhood association leaders within twice the planned building height from the area boundary\n\n【Application Documents】\nSubmit the following documents in 2 copies to the Industrial Promotion Division: application form, power of attorney (if needed), site diagram, location map, land use plan, registered title certificate, official cadastral map copy, landowner consent form, pledge document, neighborhood resident briefing report, current site conditions drawing, site plan of proposed use, water/sewerage facility drawing, etc.\n\nBefore considering use of the system, please consult with the Industrial Promotion Division.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/kigyo/kigyoyuchi/14119.html",
+  "end": {
+    "date": "2026-08-21"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Z29qMmU5ZDZkZ2o0bzlnNjkwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-14119-3a2a02@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6goj2e9d6dgj4o9g6906gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/kigyo/kigyoyuchi/14119.html"
+  },
+  "start": {
+    "date": "2026-08-20"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Company-Proposed Area Designation System under Urban Planning Act Article 34, Section 12",
+  "updated": "2026-08-19T18:26:56.744Z"
+}
