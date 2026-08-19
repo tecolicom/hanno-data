@@ -1,0 +1,28 @@
+uid: "oshirase-14271-eaad3d@hanno.city.tecoli.com"
+summary: "ℹ️ 令和8年6月12日の降雹に伴う罹災証明書・被災証明書について"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/14271.html"
+dtstart: "2026-08-20"
+dtend: "2026-08-20"
+description: |-
+  🆕 新着掲載 (公開日: 2026-08-18)
+  
+  ## 令和8年6月12日の降雹に伴う罹災証明書・被災証明書について
+  
+  令和8年6月12日（金曜日）の降雹に伴う証明書の発行につきましては、申請の受付を8月末までとさせていただきます。申請を検討されている方は早めに申請書を提出いただきますようお願いいたします。
+  
+  罹災証明・被災証明について
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/14271.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "14271"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/14271.html"
+  fetched_at: "2026-08-19T18:25:42.279323Z"
+  content_hash: "sha256-eaad3de026d901a7"
+  summary_method: "full"
+  publish_date: "2026-08-18"
