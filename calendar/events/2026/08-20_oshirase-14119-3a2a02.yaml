@@ -38,3 +38,35 @@ source:
   content_hash: "sha256-3a2a025b81321a4a"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-08-04"
+translations:
+  en:
+    summary: "ℹ️ Company-Proposed Area Designation System under Urban Planning Act Article 34, Section 12"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New listing (Published: August 4, 2026)
+      
+      To promote business attraction to the Seiomei East District near the Sayama Hidaka Interchange on the Kanto Central Expressway, we have started a 'company-proposed' area designation system. This changes from the previous method where the city designated land meeting certain conditions to a new system where companies propose land they wish to develop and the city designates it.
+      
+      【Target Area】
+      Areas within the 'Industrial Attraction Zone' identified in Hanno City's Comprehensive Promotion Plan and Urban Planning Master Plan
+      
+      【Eligible Land Uses】
+      Logistics and distribution facilities, industrial facilities, commercial facilities
+      
+      【Main Requirements】
+      • Must not be in an excluded area (agricultural promotion district, Class A or Grade 1 farmland, urban planning facility designation area, etc.)
+      • Must have adequate public facilities including roads, water supply, and sewerage
+      • Must have consent from all landowners within the designated area
+      • Must have completed explanations to residents, landowners, building owners, and neighborhood association leaders within twice the planned building height from the area boundary
+      
+      【Application Documents】
+      Submit the following documents in 2 copies to the Industrial Promotion Division: application form, power of attorney (if needed), site diagram, location map, land use plan, registered title certificate, official cadastral map copy, landowner consent form, pledge document, neighborhood resident briefing report, current site conditions drawing, site plan of proposed use, water/sewerage facility drawing, etc.
+      
+      Before considering use of the system, please consult with the Industrial Promotion Division.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/kigyo/kigyoyuchi/14119.html
+    translation_hash: "sha256-f37de01ce4edd17a"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-19T18:26:48.685308Z"
+    format_version: 3

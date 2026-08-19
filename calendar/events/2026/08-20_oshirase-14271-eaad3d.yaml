@@ -26,3 +26,22 @@ source:
   content_hash: "sha256-eaad3de026d901a7"
   summary_method: "full"
   publish_date: "2026-08-18"
+translations:
+  en:
+    summary: "ℹ️ Disaster Certificates for the June 12, 2026 Hailstorm"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New (Posted: August 18, 2026)
+      
+      Disaster Certificates for the June 12, 2026 Hailstorm
+      
+      Applications for disaster and damage certificates related to the hailstorm on Friday, June 12, 2026 (Reiwa 8) will be accepted until the end of August. If you are considering applying, please submit your application as soon as possible.
+      
+      Disaster Certificates and Damage Certificates
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/14271.html
+    translation_hash: "sha256-662423049ad54c98"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-19T18:26:50.330863Z"
+    format_version: 3
