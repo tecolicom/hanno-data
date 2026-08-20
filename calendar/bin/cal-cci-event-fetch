@@ -1,0 +1,91 @@
+#!/usr/bin/env python3
+"""cal-cci-event-fetch — 飯能商工会議所の告知 (xo_event) を YAML 化。
+
+Source: https://www.hanno-cci.or.jp/wp-json/wp/v2/xo_event
+
+WordPress REST API。一覧レスポンスに content.rendered が含まれるので、
+記事ごとの個別 fetch は不要 (1 リクエストで本文まで来る)。
+
+**開催日は取れない。** XO Event Calendar は開催日を postmeta に持つが REST は
+meta を公開しておらず、admin-ajax の月グリッドもイベントを返さない。したがって
+dtstart は掲載日 (post date) になる。過去分はアプリのトップページ (今日以降の
+ウィンドウ) には出ず、店舗ページとカレンダー本体に残る。
+
+追記型クローラ (集合同期型ではない)。設計:
+docs/superpowers/specs/2026-08-20-cci-event-calendar-design.md
+"""
+from __future__ import annotations
+
+import argparse
+import hashlib
+import html as _html
+import json
+import os
+import sys
+import urllib.parse
+import urllib.request
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from _lib import (  # noqa: E402
+    USER_AGENT, UID_NAMESPACE, strip_html, normalize_body,
+    yaml_escape_str, yaml_block_scalar, load_source_config,
+)
+
+
+SOURCE_KEY = "cci-event"
+
+# 取り込むカテゴリ (xo_event_cat の term id)。**9 (検定) は除外**:
+# 大半が合格者番号発表で、掲載日に載せても「その日に何かが起きる」わけではない。
+# dict の順序が「複数カテゴリが付いた記事でどれを採るか」の優先順位になる。
+CATEGORIES: dict[int, str] = {
+    8:  "地域振興",
+    20: "セミナー",
+    10: "経営支援",
+    7:  "お知らせ",
+}
+
+# 1 カレンダーに 4 系統が混ざるので識別子を付ける
+# (既存クローラの 📢/🎪/ℹ️/📝 と同じ役割)。
+CATEGORY_PREFIX: dict[str, str] = {
+    "お知らせ":   "ℹ️ ",
+    "セミナー":   "🎓 ",
+    "経営支援":   "💼 ",
+    "地域振興":   "🏮 ",
+}
+
+
+def category_of(cat_ids: list[int]) -> str | None:
+    """記事のカテゴリ名を返す。対象外しか無ければ None。
+
+    複数付いている場合は CATEGORIES の定義順で最初に一致したものを採る。
+    """
+    for cid in CATEGORIES:
+        if cid in cat_ids:
+            return CATEGORIES[cid]
+    return None
+
+
+def summary_for(title: str, cat_ids: list[int]) -> str:
+    """カテゴリ別の絵文字 prefix を付けた summary."""
+    cat = category_of(cat_ids)
+    prefix = CATEGORY_PREFIX.get(cat, "") if cat else ""
+    return f"{prefix}{title}"
+
+
+def body_from_post(post: dict) -> str:
+    """content.rendered を平文へ整形する."""
+    raw = (post.get("content") or {}).get("rendered") or ""
+    return normalize_body(strip_html(_html.unescape(raw)))
+
+
+def content_hash_for(title: str, date: str, body: str) -> str:
+    """コンテンツ identity の hash (= title + date + body のみ).
+
+    **summary_method / format_version は意図的に含めない。** rendering の選択で
+    あって content の identity ではない。含めると CI で ANTHROPIC_API_KEY が
+    落ちた日に全件が「変化あり」判定になりカレンダーが氾濫する
+    (2026-05-26 の実障害。cal-oshirase-fetch のコメントが正典)。
+    """
+    canonical = json.dumps({"title": title, "date": date, "body": body},
+                           ensure_ascii=False, sort_keys=True)
+    return hashlib.sha256(canonical.encode("utf-8")).hexdigest()[:16]
