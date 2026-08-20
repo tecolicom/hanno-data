@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-20T15:03:26.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "AI による要約 (正確な情報は元記事をご確認ください)\n\n飯能まつりチャリティーゴルフ大会参加者募集\n\n開催日時：2026年6月19日（金）\n会場：飯能グリーンカントリークラブ（飯能市久須美292）\n対象：会員・会員従業員\n定員：40組160名\n\n競技方法は18ホール新ぺリア方式。参加費3,000円（当日受付）、プレー費16,900円（税込、食事付）。表彰式はプレー終了後15時ころからクラブハウスで行います。\n\n申込締切：2026年5月8日（金）\n問い合わせ・申込：飯能商工会議所 チャリティーゴルフ大会実行委員会事務局 TEL 042-974-3111・FAX 042-972-7871\n\nあわせて、ご協賛いただける事業者には、飯能まつりへの協賛金またはゴルフ大会への賞品提供をお願いしています。協賛を希望される場合も5月8日までにFAXでお申し込みください。\n\nhttps://www.hanno-cci.or.jp/xo_event/xo_event-2389/",
+  "end": {
+    "date": "2026-03-10"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHBqZ2U5ZDZzc202ZDM1Y2gwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiMGE1NmM4ZTFmNTI0NmNkYTQxZTJmZGIzYzQ0OWIyMGM1MGJiMzY1YWFjOTIzMzNhNGE5MjkwYTIxZTdlZGNmQGc",
+  "iCalUID": "cci-event-2389-79c4ed@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68pjge9d6ssm6d35ch06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ",
+    "email": "b0a56c8e1f5246cda41e2fdb3c449b20c50bb365aac92333a4a9290a21e7edcf@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2389/"
+  },
+  "start": {
+    "date": "2026-03-09"
+  },
+  "status": "confirmed",
+  "summary": "🏮 飯能まつりチャリティーゴルフ大会参加者募集および協賛金のお願い",
+  "updated": "2026-08-20T15:03:26.570Z"
+}

@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-20T15:04:43.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nStarting November 20, 2025 (Reiwa 7), Saitama Prefecture is accepting applications for naming rights partners for three dams it manages. These popular tourist destinations are looking for a sponsor to put their name on these attractive facilities.\n\nFor full details on the recruitment, see the flyer.\n\n〈Key details〉\n\nFacilities: Gassho Dam, Arima Dam, Gongen-do Adjustment Pond\n\nApplication deadline: January 21, 2026 (Reiwa 8) (Wednesday)\n\n※Email and required documents must arrive by the deadline\n\nInquiries:\nSaitama Prefecture Department of Land Development, River Environment Division, Dam Management Section\nTel: 048-830-5116\nEmail: a5110-03@pref.saitama.lg.jp\n\nSource (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2348/",
+  "end": {
+    "date": "2026-01-06"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHBqOGUxZDZncDY4cDlvNmwwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiOTMyNjEzZWUxMWIzYjE2NjU3Yjk4NmE3ZWMxYmQ4MmFkN2MzODVjMzBkZTc1YTJkYjU4MzRiYTFhMjk3ZTMyQGc",
+  "iCalUID": "cci-event-2348-42de85@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68pj8e1d6gp68p9o6l06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ（EN）",
+    "email": "b932613ee11b3b16657b986a7ec1bd82ad7c385c30de75a2db5834ba1a297e32@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2348/"
+  },
+  "start": {
+    "date": "2026-01-05"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Saitama Prefecture seeking naming rights partners for three dams 【Saitama Prefecture PR】",
+  "updated": "2026-08-20T15:04:43.453Z"
+}

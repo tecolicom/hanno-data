@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-20T15:05:11.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nBilling Notice: Hanno Chamber of Commerce & Industry Membership Fees for Fiscal Year 2026\n\nWe have mailed out invoices for fiscal year 2026 membership fees, including dues for the Youth Division and Women's Division. Because the minimum number of units has increased starting in fiscal year 2026, your bill may differ from last year.\n\nPayment deadlines vary by payment method:\n\n◆ Bank Transfer: May 25, 2026 (Monday)\nPlease deposit to your designated account by the previous business day.\n\n◆ Invoice Payment: June 1, 2026 (Monday)\nPlease transfer to the designated financial institution account listed on the invoice, or pay in person at our office.\n\nPlease review the invoice contents as soon as it arrives. Please also refer to the enclosed guidance document.\n\nSource (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2563/",
+  "end": {
+    "date": "2026-04-28"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHFqY2NwZGNrcjM2cGoyNjkwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiOTMyNjEzZWUxMWIzYjE2NjU3Yjk4NmE3ZWMxYmQ4MmFkN2MzODVjMzBkZTc1YTJkYjU4MzRiYTFhMjk3ZTMyQGc",
+  "iCalUID": "cci-event-2563-e63fb2@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68qjccpdckr36pj26906gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ（EN）",
+    "email": "b932613ee11b3b16657b986a7ec1bd82ad7c385c30de75a2db5834ba1a297e32@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2563/"
+  },
+  "start": {
+    "date": "2026-04-27"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Billing Notice: Hanno Chamber of Commerce & Industry Membership Fees for Fiscal Year 2026 (Reiwa 8)",
+  "updated": "2026-08-20T15:05:12.240Z"
+}

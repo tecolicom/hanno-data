@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-20T15:03:52.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "AI による要約 (正確な情報は元記事をご確認ください)\n\n飯能商工会議所専門家相談（6月・7月）\n\n6月の相談日：経営法律(6/16火13:30)、人事労務(6/12金10:00)、承継M&A(6/10水13:30)、知的財産(6/15月10:00)、日本政策金融公庫(6/15月10:00)\n\n7月の相談日：税務・インボイス(7/9木9:30)、経営法律(7/21火13:30)、人事労務(7/10金10:00)、承継M&A(7/8水13:30)、知的財産(7/27火10:00)、日本政策金融公庫(7/15水13:30)\n\n費用：無料（6月税務相談）。対象：商工会議所会員のみ。申込：各相談日の5営業日前までに予約リンクから申し込み。申し込み詳細・相談内容の詳細はリンク先をご確認ください。\n\nhttps://www.hanno-cci.or.jp/xo_event/xo_event-2614/",
+  "end": {
+    "date": "2026-05-26"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHIzMmQxZDcwcW1jcGhrY3AwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiMGE1NmM4ZTFmNTI0NmNkYTQxZTJmZGIzYzQ0OWIyMGM1MGJiMzY1YWFjOTIzMzNhNGE5MjkwYTIxZTdlZGNmQGc",
+  "iCalUID": "cci-event-2614-85ff4f@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68r32d1d70qmcphkcp06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ",
+    "email": "b0a56c8e1f5246cda41e2fdb3c449b20c50bb365aac92333a4a9290a21e7edcf@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2614/"
+  },
+  "start": {
+    "date": "2026-05-25"
+  },
+  "status": "confirmed",
+  "summary": "💼 6月・7月の専門家相談の日程について",
+  "updated": "2026-08-20T15:03:52.382Z"
+}

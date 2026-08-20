@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-20T15:05:04.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nHanno Chamber of Commerce is recruiting general staff members for April 2027 (Reiwa 9).\n\nFor full details, please check the recruitment information below.\n\n■ Hanno Chamber of Commerce Recruitment Site (opens at AirWORK)\n\n【Document Downloads】\n\nNew graduates: please download the entry sheet below and use it for your application.\n\n■ 2027 (Reiwa 9) Recruitment Entry Sheet (PDF: 173KB)\n\nSource (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2467/",
+  "end": {
+    "date": "2026-04-07"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHEzY2RwZDZ0aDY4cDlvNnAwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiOTMyNjEzZWUxMWIzYjE2NjU3Yjk4NmE3ZWMxYmQ4MmFkN2MzODVjMzBkZTc1YTJkYjU4MzRiYTFhMjk3ZTMyQGc",
+  "iCalUID": "cci-event-2467-7bde86@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68q3cdpd6th68p9o6p06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ（EN）",
+    "email": "b932613ee11b3b16657b986a7ec1bd82ad7c385c30de75a2db5834ba1a297e32@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2467/"
+  },
+  "start": {
+    "date": "2026-04-06"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Staff recruitment for April 2027 (Reiwa 9) at Hanno Chamber of Commerce — entry sheet available for download",
+  "updated": "2026-08-20T15:05:04.133Z"
+}

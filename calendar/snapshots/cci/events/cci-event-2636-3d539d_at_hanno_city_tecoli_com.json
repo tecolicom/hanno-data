@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-20T15:03:50.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "AI による要約 (正確な情報は元記事をご確認ください)\n\n【6月WEBセミナー】業務効率・売上UP！はじめてのAI活用\n\n講師：筑間彰（中小企業診断士、株式会社チャイルドピース代表取締役）\n\nセミナー内容：ChatGPTをはじめとする生成AIの活用方法を学べます。講師は17年間学習塾を経営した実務経験と、売上向上・課題解決・経営分析など中小企業コンサルティングの知見を持つ「経営者の家庭教師」。動画マーケティングやホームページ改善の支援も専門としています。\n\n視聴方法：WEB開催。PCはQRコードをクリック、スマホはQRコードを読み取ってください。\n\n対象：飯能商工会議所の会員事業所\n\n申込：会員特典のため、ご視聴に必要なID/パスワード発行希望の場合は担当者までお問い合わせください。\n\nhttps://www.hanno-cci.or.jp/xo_event/xo_event-2636/",
+  "end": {
+    "date": "2026-05-21"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHIzNmRoZDZkaTNhY3BwY2gwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiMGE1NmM4ZTFmNTI0NmNkYTQxZTJmZGIzYzQ0OWIyMGM1MGJiMzY1YWFjOTIzMzNhNGE5MjkwYTIxZTdlZGNmQGc",
+  "iCalUID": "cci-event-2636-3d539d@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68r36dhd6di3acppch06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ",
+    "email": "b0a56c8e1f5246cda41e2fdb3c449b20c50bb365aac92333a4a9290a21e7edcf@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2636/"
+  },
+  "start": {
+    "date": "2026-05-20"
+  },
+  "status": "confirmed",
+  "summary": "🎓 いつでも♪どこでも♪何度でも♪６月のおすすめWEBセミナー情報",
+  "updated": "2026-08-20T15:03:50.922Z"
+}

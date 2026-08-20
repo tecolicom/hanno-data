@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-20T15:04:59.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nWe have sent the documents needed for the fiscal year 2026 labor insurance year-end update procedures to administrative delegation business establishments.\n\nWhen you receive the documents, please open them promptly and check that all contents are included. If any documents are missing, please contact the administrative office.\n\nWe appreciate your busy schedules, but we ask that you meet the submission deadline to ensure smooth processing of the year-end update.\n\nSubmission deadline: April 22, 2026 (Reiwa 8), Wednesday, by 5:00 PM\n\nSource (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2549/",
+  "end": {
+    "date": "2026-03-20"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHFqOGU5ZGNwaTNlYzFtNnAwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiOTMyNjEzZWUxMWIzYjE2NjU3Yjk4NmE3ZWMxYmQ4MmFkN2MzODVjMzBkZTc1YTJkYjU4MzRiYTFhMjk3ZTMyQGc",
+  "iCalUID": "cci-event-2549-fd7066@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68qj8e9dcpi3ec1m6p06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ（EN）",
+    "email": "b932613ee11b3b16657b986a7ec1bd82ad7c385c30de75a2db5834ba1a297e32@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2549/"
+  },
+  "start": {
+    "date": "2026-03-19"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Labor Insurance Year-End Update Procedures for Fiscal Year 2026 (Reiwa 8)",
+  "updated": "2026-08-20T15:05:00.220Z"
+}

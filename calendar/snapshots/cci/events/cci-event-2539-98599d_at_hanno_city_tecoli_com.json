@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-20T15:04:19.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "2026年8月14日（金）は事務所が夏季休業日となります。\n\nご不便をおかけしますが、何卒ご理解いただきますようお願いいたします。\n\nその他は、カレンダーどおり通常業務を行います。\n\nhttps://www.hanno-cci.or.jp/xo_event/xo_event-2539/",
+  "end": {
+    "date": "2026-08-02"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHFqNmU5ZDc0czNhZTlwY2gwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiMGE1NmM4ZTFmNTI0NmNkYTQxZTJmZGIzYzQ0OWIyMGM1MGJiMzY1YWFjOTIzMzNhNGE5MjkwYTIxZTdlZGNmQGc",
+  "iCalUID": "cci-event-2539-98599d@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68qj6e9d74s3ae9pch06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ",
+    "email": "b0a56c8e1f5246cda41e2fdb3c449b20c50bb365aac92333a4a9290a21e7edcf@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2539/"
+  },
+  "start": {
+    "date": "2026-08-01"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 夏季休業日のお知らせ（8/14）",
+  "updated": "2026-08-20T15:04:19.516Z"
+}

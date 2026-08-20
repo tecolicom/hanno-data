@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-20T15:04:11.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "2026（令和8）年度分の飯能市創業支援補助金は予算に達したため、受付を終了いたしました。\n\n■ 経営支援＞補助金・施策・窓口相談＞国等の補助金＞当所窓口の補助金施策\n\nhttps://www.hanno-cci.or.jp/xo_event/xo_event-2722/",
+  "end": {
+    "date": "2026-07-08"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHJqNGNoZDY4cTNhZDFoNnAwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiMGE1NmM4ZTFmNTI0NmNkYTQxZTJmZGIzYzQ0OWIyMGM1MGJiMzY1YWFjOTIzMzNhNGE5MjkwYTIxZTdlZGNmQGc",
+  "iCalUID": "cci-event-2722-245416@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68rj4chd68q3ad1h6p06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ",
+    "email": "b0a56c8e1f5246cda41e2fdb3c449b20c50bb365aac92333a4a9290a21e7edcf@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2722/"
+  },
+  "start": {
+    "date": "2026-07-07"
+  },
+  "status": "confirmed",
+  "summary": "💼 2026（令和8）年度分の飯能市創業支援補助金の受付終了について",
+  "updated": "2026-08-20T15:04:12.066Z"
+}

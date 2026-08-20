@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-20T15:05:44.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nHanno Entrepreneurship School 2026\n\nA 6-week course covering the fundamentals of starting a business.\n\n【Date and Time】\nEvery Friday from September 4 to October 9, 2026 (Reiwa 8). Six sessions total. Each session runs 7:00 PM–9:00 PM (Reception from 6:30 PM).\n\n【Venue】\nSessions 1–4: Hanno Chamber of Commerce and Industry (1-7 Honcho, Hanno)\nSessions 5–6: Hanno Credit Union Hanno Central Branch (1-3 Yawatacho, Hanno)\nAll sessions held in person.\n\n【Capacity】\n30 people\n\n【Fee】\n5,000 yen (tax included)\n\n【Instructors】\nSmall Business Management Consultant Kenta Kitada and others\n\n【Who Can Apply】\nPeople considering starting a business or planning to launch a business soon\n\n【How to Apply】\nHanno Chamber of Commerce and Industry Small Business Consultation Office (via email form)\n\nFor full details, visit the dedicated page on the Hanno Chamber of Commerce and Industry website.\n\nSource (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2756/",
+  "end": {
+    "date": "2026-07-31"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHJqYWRoZDZvcW04ZGo2NjEwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiOTMyNjEzZWUxMWIzYjE2NjU3Yjk4NmE3ZWMxYmQ4MmFkN2MzODVjMzBkZTc1YTJkYjU4MzRiYTFhMjk3ZTMyQGc",
+  "iCalUID": "cci-event-2756-65d6f0@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68rjadhd6oqm8dj66106gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ（EN）",
+    "email": "b932613ee11b3b16657b986a7ec1bd82ad7c385c30de75a2db5834ba1a297e32@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2756/"
+  },
+  "start": {
+    "date": "2026-07-30"
+  },
+  "status": "confirmed",
+  "summary": "🎓 Hanno Entrepreneurship School 2026 — Now Accepting Applications",
+  "updated": "2026-08-20T15:05:45.026Z"
+}

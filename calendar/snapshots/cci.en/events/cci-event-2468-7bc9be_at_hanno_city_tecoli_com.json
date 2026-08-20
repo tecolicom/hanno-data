@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-20T15:05:05.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nHanno Chamber of Commerce will participate in the \"First Joint Company Recruitment Briefing 2026,\" hosted by the Saitama Employment Measures Council.\n\nWe will have a booth at the event, recruiting staff for positions starting in April 2027 (Reiwa 9).\n\n■ Saitama Employment Measures Council / Joint Briefing Session\n\nFor details on recruitment, please check the recruitment information page below.\n\n■ Hanno Chamber of Commerce Recruitment Site (links to AirWORK)\n\nSource (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2468/",
+  "end": {
+    "date": "2026-04-07"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHEzY2UxZDZ0aDY2ZWIyY2wwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiOTMyNjEzZWUxMWIzYjE2NjU3Yjk4NmE3ZWMxYmQ4MmFkN2MzODVjMzBkZTc1YTJkYjU4MzRiYTFhMjk3ZTMyQGc",
+  "iCalUID": "cci-event-2468-7bc9be@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68q3ce1d6th66eb2cl06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ（EN）",
+    "email": "b932613ee11b3b16657b986a7ec1bd82ad7c385c30de75a2db5834ba1a297e32@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2468/"
+  },
+  "start": {
+    "date": "2026-04-06"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Hanno Chamber of Commerce will exhibit at the First Joint Company Recruitment Briefing 2026 (April 17)",
+  "updated": "2026-08-20T15:05:05.478Z"
+}

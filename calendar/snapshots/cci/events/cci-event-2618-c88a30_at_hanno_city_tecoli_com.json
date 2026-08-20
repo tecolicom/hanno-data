@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-20T15:04:16.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "AI による要約 (正確な情報は元記事をご確認ください)\n\n飯能商工会議所では8月・9月に専門家による無料個別相談を実施します。\n\n【8月の相談会】\n・8月5日(水)13:30 承継M&A相談\n・8月7日(金)10:00 人事労務相談\n・8月17日(月)13:30 日本政策金融公庫による相談\n・8月17日(火)10:00 知的財産相談\n・8月18日(火)13:30 経営法律相談\n\n【9月の相談会】\n・9月9日(水)13:30 承継M&A相談\n・9月10日(木)9:30 税務・インボイス制度無料個別相談\n・9月11日(金)10:00 人事労務相談\n・9月15日(火)13:30 経営法律相談・日本政策金融公庫による相談\n・9月28日(火)10:00 知的財産相談\n\n予約は相談日の5営業日前の午前中までに専用リンクからお申し込みください。ご利用は商工会議所会員のみです。\n\nhttps://www.hanno-cci.or.jp/xo_event/xo_event-2618/",
+  "end": {
+    "date": "2026-07-25"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHIzMmUxZGNjczNnbzlqNjEwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiMGE1NmM4ZTFmNTI0NmNkYTQxZTJmZGIzYzQ0OWIyMGM1MGJiMzY1YWFjOTIzMzNhNGE5MjkwYTIxZTdlZGNmQGc",
+  "iCalUID": "cci-event-2618-c88a30@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68r32e1dccs3go9j6106gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ",
+    "email": "b0a56c8e1f5246cda41e2fdb3c449b20c50bb365aac92333a4a9290a21e7edcf@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2618/"
+  },
+  "start": {
+    "date": "2026-07-24"
+  },
+  "status": "confirmed",
+  "summary": "💼 ８月・９月の専門家相談の日程について",
+  "updated": "2026-08-20T15:04:16.826Z"
+}

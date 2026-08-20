@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-20T15:03:48.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "飯能商工会議所では、（一社）埼玉県雇用対策協議会（埼玉県雇対協）が主催する「第２次・求人企業合同説明会2026」に参加し、\n\n2027（令和9）年4月の職員採用を目的としてブース出展いたします。\n\n■（一社）埼玉県雇用対策協議会/合同説明会\n\n採用に関する詳細につきましては、下記の採用情報ページをご確認ください。\n\n■【飯能商工会議所】の採用サイト（AirWORKへ移動します）\n\nhttps://www.hanno-cci.or.jp/xo_event/xo_event-2629/",
+  "end": {
+    "date": "2026-05-20"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHIzNGU5ZDY0c202cGo2NzUwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiMGE1NmM4ZTFmNTI0NmNkYTQxZTJmZGIzYzQ0OWIyMGM1MGJiMzY1YWFjOTIzMzNhNGE5MjkwYTIxZTdlZGNmQGc",
+  "iCalUID": "cci-event-2629-19cff9@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68r34e9d64sm6pj67506gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ",
+    "email": "b0a56c8e1f5246cda41e2fdb3c449b20c50bb365aac92333a4a9290a21e7edcf@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2629/"
+  },
+  "start": {
+    "date": "2026-05-19"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 第２次・求人企業合同説明会2026（6/25）に出展します",
+  "updated": "2026-08-20T15:03:48.808Z"
+}

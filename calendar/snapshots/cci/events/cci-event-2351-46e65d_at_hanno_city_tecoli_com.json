@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-20T15:03:11.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "AI による要約 (正確な情報は元記事をご確認ください)\n\n令和7年分確定申告相談会を開催します。飯能商工会議所および飯能青色申告会の会員事業所が対象です。\n\n開催日程：2026年2月9日（月）から3月6日（金）まで、複数会場で実施。飯能商工会議所（大会議室）、原市場公民館、吾野公民館、精明公民館で開催します。各会場の受付時間は9:30～12:00または13:30～16:00（受付終了は最終時間の30分～1時間前）。\n\n申告内容：所得税（青色申告）、消費税の確定申告に関する税理士による相談と提出受付。税務署担当官との相談は2月9日、17日、25日に実施します。\n\n紙面提出について：商工会議所会場では2月9日（早期提出）以外は紙面提出を受け付けません。紙面提出希望者は公民館開催日をご利用ください。\n\nその他：e-Tax（電子申告）利用を推進しており、スマホによる申告指導も行います。消費税申告がある方は課税取引金額計算書を持参してください。あらかじめ国税庁サイトで申告書を入力しUSBメモリに保存して持参するとスムーズです。詳細は飯能青色申告会事務局へお問い合わせください。\n\nhttps://www.hanno-cci.or.jp/xo_event/xo_event-2351/",
+  "end": {
+    "date": "2026-01-07"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHBqYWM5ZDZncjZhZGhsY2gwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiMGE1NmM4ZTFmNTI0NmNkYTQxZTJmZGIzYzQ0OWIyMGM1MGJiMzY1YWFjOTIzMzNhNGE5MjkwYTIxZTdlZGNmQGc",
+  "iCalUID": "cci-event-2351-46e65d@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68pjac9d6gr6adhlch06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ",
+    "email": "b0a56c8e1f5246cda41e2fdb3c449b20c50bb365aac92333a4a9290a21e7edcf@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2351/"
+  },
+  "start": {
+    "date": "2026-01-06"
+  },
+  "status": "confirmed",
+  "summary": "💼 令和7年分確定申告相談会の開催及び提出受付のご案内",
+  "updated": "2026-08-20T15:03:12.114Z"
+}

@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-20T15:03:17.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "明日2月9日（月）AM9:30開始の確定申告相談会についてお知らせします。\n\n商工会議所南側正面の飯能小町公園の駐車場利用ですが、\n\n8日（日）15:30 現在、積雪の影響により公園敷地内の路面状況が良くない状況です。\n\n飯能市より管理を委託されている、飯能大通り商店街様との申し合わせにより、\n本来は公園ですので、路面状況の良くない場合は駐車場利用ができません。\n\n明日の状況をみての判断となりますが、道路面に駐車場の看板が出ていない場合は、駐車場ではありませんので、\n\nこの場合は、近隣のコインパーキングをご利用ください。\n\nまた、路面の回復状況を見ながら、駐車場を開放する予定でございますので、予めご了承ください。\n\n皆さまのご理解とご協力をお願いいたします。\n\nhttps://www.hanno-cci.or.jp/xo_event/xo_event-2362/",
+  "end": {
+    "date": "2026-02-09"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHBqY2NoZDZjcG1hZWI1YzUwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiMGE1NmM4ZTFmNTI0NmNkYTQxZTJmZGIzYzQ0OWIyMGM1MGJiMzY1YWFjOTIzMzNhNGE5MjkwYTIxZTdlZGNmQGc",
+  "iCalUID": "cci-event-2362-33e9ea@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68pjcchd6cpmaeb5c506gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ",
+    "email": "b0a56c8e1f5246cda41e2fdb3c449b20c50bb365aac92333a4a9290a21e7edcf@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2362/"
+  },
+  "start": {
+    "date": "2026-02-08"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 【重要】 2/9（月）開催の確定申告相談会の駐車場について",
+  "updated": "2026-08-20T15:03:17.271Z"
+}

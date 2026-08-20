@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-20T15:05:08.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nOur seminar team recommends this month's web seminars.\n\n【Title】\nHow to Tackle Customer Harassment: Building an Organization Free from Harassment\n\n【Instructor】\nNoriko Tsuda (津田典子)\nHuman Resources Development Consultant, Fine HR Representative\n\n【Overview】\nAs obligations for customer harassment (カスハラ) prevention measures draw closer, companies must establish \"guidelines to protect employees.\" By implementing appropriate measures, organizations create a safe and secure workplace for employees, which also leads to improved business performance.\nThis seminar covers the essential points that customer-facing businesses should understand and the benefits of implementation as a first step. (38 minutes)\n\n【How to Access】\nPC users: click the QR code. Smartphone users: scan the QR code.\n\n※ Web seminar viewing is a member benefit of Hanno Chamber of Commerce and Industry. Member businesses seeking ID/password issuance should contact their assigned representative.\n\nSource (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2635/",
+  "end": {
+    "date": "2026-04-21"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHIzNmQ5ZDY5aTMwYzlsNnQwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiOTMyNjEzZWUxMWIzYjE2NjU3Yjk4NmE3ZWMxYmQ4MmFkN2MzODVjMzBkZTc1YTJkYjU4MzRiYTFhMjk3ZTMyQGc",
+  "iCalUID": "cci-event-2635-2d0157@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68r36d9d69i30c9l6t06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ（EN）",
+    "email": "b932613ee11b3b16657b986a7ec1bd82ad7c385c30de75a2db5834ba1a297e32@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2635/"
+  },
+  "start": {
+    "date": "2026-04-20"
+  },
+  "status": "confirmed",
+  "summary": "🎓 May web seminars: Anytime, anywhere, as many times as you like",
+  "updated": "2026-08-20T15:05:08.170Z"
+}

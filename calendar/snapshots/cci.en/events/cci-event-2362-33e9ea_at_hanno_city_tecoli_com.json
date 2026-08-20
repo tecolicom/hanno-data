@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-20T15:04:49.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nNotice about parking for the tax consultation session starting at 9:30 AM on February 9 (Monday).\n\nRegarding use of the parking lot at Hanno Komachi Park (in front of the south side of the Chamber of Commerce):\n\nAs of 3:30 PM on February 8 (Sunday), road conditions in the park grounds are poor due to snow accumulation.\n\nFollowing arrangements with Hanno Odori Shopping Street (which manages the lot on behalf of Hanno City), the parking lot cannot be used when road conditions are unsafe. The park is a public facility and this restriction applies when surfaces are compromised.\n\nWe will make a judgment based on tomorrow's conditions. If there is no parking lot sign visible on the road surface, that area is not available for parking.\n\nIn that case, please use nearby coin parking facilities.\n\nWe plan to open the lot as road conditions improve, so we ask for your understanding in advance.\n\nThank you for your cooperation and understanding.\n\nSource (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2362/",
+  "end": {
+    "date": "2026-02-09"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHBqY2NoZDZjcG1hZWI1YzUwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiOTMyNjEzZWUxMWIzYjE2NjU3Yjk4NmE3ZWMxYmQ4MmFkN2MzODVjMzBkZTc1YTJkYjU4MzRiYTFhMjk3ZTMyQGc",
+  "iCalUID": "cci-event-2362-33e9ea@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68pjcchd6cpmaeb5c506gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ（EN）",
+    "email": "b932613ee11b3b16657b986a7ec1bd82ad7c385c30de75a2db5834ba1a297e32@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2362/"
+  },
+  "start": {
+    "date": "2026-02-08"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Important: Parking update for tax consultation session on Feb 9 (Mon)",
+  "updated": "2026-08-20T15:04:49.214Z"
+}

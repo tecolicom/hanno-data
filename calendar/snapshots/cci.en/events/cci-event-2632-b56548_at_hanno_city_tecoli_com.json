@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-20T15:05:02.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nNo time to waste! Digitizing bills and checks – from \"Densai\" to practical tips\n\nThis seminar prepares for the March 2027 end of bill and check exchange in Japan. Instructor Kawai Munenori, a certified management consultant, explains the background of the system change, how small and medium enterprises should transition to \"Densai\" (electronic bill settlement), and how to handle internal preparation and negotiations with business partners. You'll gain practical knowledge to ease vague concerns and move smoothly through preparation.\n\nLecture duration: approximately 36 minutes.\n\nThis is a benefit for members of Hanno Chamber of Commerce and Industry. An ID and password are required to view. Member businesses interested in watching should contact their representative.\n\nSource (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2632/",
+  "end": {
+    "date": "2026-03-21"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHIzNmNoZGM4cWpjZDlrNzEwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiOTMyNjEzZWUxMWIzYjE2NjU3Yjk4NmE3ZWMxYmQ4MmFkN2MzODVjMzBkZTc1YTJkYjU4MzRiYTFhMjk3ZTMyQGc",
+  "iCalUID": "cci-event-2632-b56548@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68r36chdc8qjcd9k7106gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ（EN）",
+    "email": "b932613ee11b3b16657b986a7ec1bd82ad7c385c30de75a2db5834ba1a297e32@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2632/"
+  },
+  "start": {
+    "date": "2026-03-20"
+  },
+  "status": "confirmed",
+  "summary": "🎓 April recommended WEB seminars – anytime, anywhere, as many times as you want",
+  "updated": "2026-08-20T15:05:02.778Z"
+}

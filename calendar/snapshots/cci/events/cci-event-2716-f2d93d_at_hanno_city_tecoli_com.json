@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-20T15:03:39.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "AI による要約 (正確な情報は元記事をご確認ください)\n\n埼玉県経営サポーター制度のご案内\n\n埼玉県は県内中小企業・小規模事業者の適正な利益確保と賃上げ環境整備を支援するため、令和8年3月31日から「経営サポーター」を新設します。\n\n実施期間：令和8年3月31日～令和9年3月\n\n経営サポーターの支援内容：\n- 県の各種支援策をご案内\n- 事業者からの相談を受け付け、支援策をマッチング\n- 利益確保・賃上げ環境整備に向けた伴走支援を実施\n\n支援は無料です。支援期間終了後も商工会議所・商工会の経営指導員による継続支援があります。\n\n飯能商工会議所では埼玉県・埼玉県商工会議所連合会と連携し、会員企業様への制度活用のご案内をお電話でご連絡する場合がありますので、あらかじめご了承ください。\n\n詳細は埼玉県ホームページをご確認ください。\n\nhttps://www.hanno-cci.or.jp/xo_event/xo_event-2716/",
+  "end": {
+    "date": "2026-04-21"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHJqMmRoZGNvcDY4ZTlqY2gwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiMGE1NmM4ZTFmNTI0NmNkYTQxZTJmZGIzYzQ0OWIyMGM1MGJiMzY1YWFjOTIzMzNhNGE5MjkwYTIxZTdlZGNmQGc",
+  "iCalUID": "cci-event-2716-f2d93d@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68rj2dhdcop68e9jch06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ",
+    "email": "b0a56c8e1f5246cda41e2fdb3c449b20c50bb365aac92333a4a9290a21e7edcf@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2716/"
+  },
+  "start": {
+    "date": "2026-04-20"
+  },
+  "status": "confirmed",
+  "summary": "💼 会員企業さまへ経営サポーター制度活用のご案内 【埼玉県】",
+  "updated": "2026-08-20T15:03:39.886Z"
+}

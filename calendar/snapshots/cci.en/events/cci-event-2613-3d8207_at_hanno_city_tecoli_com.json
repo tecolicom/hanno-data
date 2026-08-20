@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-20T15:05:10.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nMay and June expert consultation schedule\n\nHanno Chamber of Commerce and Industry will hold expert consultations on the following dates. Available to chamber members only.\n\n【May consultation schedule】\nMay 8 (Friday) 10:00 – Personnel and labor consultation (Instructor Yuki Yokoji)\nMay 13 (Wednesday) 13:30 – Business succession and M&A consultation (Business succession specialists and various licensed professionals)\nMay 14 (Thursday) 9:30 – Free individual tax and invoice system consultation (Tax accountants from the Hanno district of the Kanto-Shinetsu Tax Accountants Association Tokorozawa branch)\nMay 15 (Friday) 13:30 – Consultation with Japan Finance Corporation (Kawagoe branch)\nMay 18 (Monday) 10:00 – Intellectual property consultation (Instructor Katsuji Matsuda)\nMay 19 (Tuesday) 13:30 – Business law consultation (Instructor Sho Sasaki)\n\n【June consultation schedule】\nJune 10 (Wednesday) 13:30 – Business succession and M&A consultation\nJune 12 (Friday) 10:00 – Personnel and labor consultation\nJune 15 (Monday) 10:00 – Intellectual property consultation and consultation with Japan Finance Corporation\nJune 16 (Tuesday) 13:30 – Business law consultation\n\n【Reservations】\nProceed with your reservation through the booking link for each consultation. For tax consultations, the reservation deadline is 5 business days before the consultation date by mid-morning.\n\nSource (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2613/",
+  "end": {
+    "date": "2026-04-25"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHIzMmNwZDZkaTNnY2hnNnQwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiOTMyNjEzZWUxMWIzYjE2NjU3Yjk4NmE3ZWMxYmQ4MmFkN2MzODVjMzBkZTc1YTJkYjU4MzRiYTFhMjk3ZTMyQGc",
+  "iCalUID": "cci-event-2613-3d8207@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68r32cpd6di3gchg6t06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ（EN）",
+    "email": "b932613ee11b3b16657b986a7ec1bd82ad7c385c30de75a2db5834ba1a297e32@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2613/"
+  },
+  "start": {
+    "date": "2026-04-24"
+  },
+  "status": "confirmed",
+  "summary": "💼 Expert consultation schedule for May and June",
+  "updated": "2026-08-20T15:05:10.897Z"
+}

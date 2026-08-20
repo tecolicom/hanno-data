@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-20T15:05:25.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nOn Friday, July 3 (Reiwa 8), 4:00 PM – 5:00 PM, a seminar on the Saitama Prefecture Small Business DX Adoption Support Subsidy will be held at Hanno Chamber of Commerce and Industry Main Conference Room. Open to Construction Division members. Free.\n\nThis seminar supports the construction industry in addressing labor shortages by promoting IT tool adoption to streamline job sites and boost productivity. Expert speakers will explain the fiscal 2026 subsidy program (offering up to ¥3 million in support) and the DX Promotion Officer dispatch program, with real-world examples from the construction sector.\n\nSeminar topics: current state and challenges of DX, DX in construction, direction of advancement, case studies from Saitama Prefecture, easy-to-use digital tools, and more. Even if you're unsure where to start or worried about preparing application documents, assigned advisors will support you from application through implementation.\n\nCapacity: 30 people. Register via Microsoft Forms.\n\nSource (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2669/",
+  "end": {
+    "date": "2026-06-10"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHIzY2U5ZDZsajYyY3BnY2QwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiOTMyNjEzZWUxMWIzYjE2NjU3Yjk4NmE3ZWMxYmQ4MmFkN2MzODVjMzBkZTc1YTJkYjU4MzRiYTFhMjk3ZTMyQGc",
+  "iCalUID": "cci-event-2669-5fa30c@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68r3ce9d6lj62cpgcd06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ（EN）",
+    "email": "b932613ee11b3b16657b986a7ec1bd82ad7c385c30de75a2db5834ba1a297e32@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2669/"
+  },
+  "start": {
+    "date": "2026-06-09"
+  },
+  "status": "confirmed",
+  "summary": "🎓 July 3 Construction Division Seminar: Saitama's Small Business DX Adoption Support Subsidy — Advancing Digital Transformation in Small Construction Companies",
+  "updated": "2026-08-20T15:05:25.562Z"
+}

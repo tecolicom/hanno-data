@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-20T15:05:22.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nFY2026 Saitama Prefecture Labor-Saving Equipment Support Subsidy – Applications Now Open\n\nSaitama Prefecture is offering subsidies to help small and medium-sized businesses in the prefecture address labor shortages and improve wage conditions by supporting the cost of introducing or upgrading labor-saving equipment.\n\n【Subsidy Coverage】\n• New equipment installation: Costs to introduce new labor-saving equipment listed in the prefecture's approved product category list\n• Equipment upgrade: Costs to switch to labor-saving equipment based on support plans created by specialists\n\n【Eligible Applicants】\nSmall and medium-sized enterprises and manufacturing/sales businesses in Saitama Prefecture\n\n【Concurrent Survey】\nSaitama Prefecture is also conducting a survey about equipment that could benefit from labor-saving solutions. Survey period: May 19, 2026 (Reiwa 8) – June 12, 2026. Note: Equipment listed in the survey is not guaranteed to be eligible for the subsidy.\n\n【Important Note】\nDX (digital transformation) tools are not eligible for this subsidy. For information about DX tool installation subsidies, please check separately.\n\nFor full details, please see the Saitama Prefecture website linked below.\n\nSource (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2681/",
+  "end": {
+    "date": "2026-06-06"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHIzZ2M5ZDc1aTNjYzlqNnAwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiOTMyNjEzZWUxMWIzYjE2NjU3Yjk4NmE3ZWMxYmQ4MmFkN2MzODVjMzBkZTc1YTJkYjU4MzRiYTFhMjk3ZTMyQGc",
+  "iCalUID": "cci-event-2681-9d6136@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68r3gc9d75i3cc9j6p06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ（EN）",
+    "email": "b932613ee11b3b16657b986a7ec1bd82ad7c385c30de75a2db5834ba1a297e32@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2681/"
+  },
+  "start": {
+    "date": "2026-06-05"
+  },
+  "status": "confirmed",
+  "summary": "💼 Saitama Prefecture now accepting applications for the FY2026 Labor-Saving Equipment Support Subsidy for Small and Medium Enterprises",
+  "updated": "2026-08-20T15:05:22.795Z"
+}

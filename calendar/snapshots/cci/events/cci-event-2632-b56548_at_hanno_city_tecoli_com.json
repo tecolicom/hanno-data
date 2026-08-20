@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-20T15:03:32.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "AI による要約 (正確な情報は元記事をご確認ください)\n\n待ったなし！手形・小切手の電子化対応～「でんさい」から実務のポイントまで～\n\n2027年3月末の手形・小切手交換廃止に向けた対応セミナーです。制度変更の背景、中小企業が今実施すべき電子決済手段「でんさい」への移行、社内整備と取引先交渉の進め方について、中小企業診断士の川居宗則講師が詳しく解説します。漠然とした不安を解消し、スムーズな準備を進めるための実務知識が得られます。講演時間は約36分。飯能商工会議所会員向けの特典です。ご視聴にはID/パスワードが必要です。ご希望の会員事業所様は担当者にお問い合わせください。\n\nhttps://www.hanno-cci.or.jp/xo_event/xo_event-2632/",
+  "end": {
+    "date": "2026-03-21"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHIzNmNoZGM4cWpjZDlrNzEwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiMGE1NmM4ZTFmNTI0NmNkYTQxZTJmZGIzYzQ0OWIyMGM1MGJiMzY1YWFjOTIzMzNhNGE5MjkwYTIxZTdlZGNmQGc",
+  "iCalUID": "cci-event-2632-b56548@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68r36chdc8qjcd9k7106gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ",
+    "email": "b0a56c8e1f5246cda41e2fdb3c449b20c50bb365aac92333a4a9290a21e7edcf@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2632/"
+  },
+  "start": {
+    "date": "2026-03-20"
+  },
+  "status": "confirmed",
+  "summary": "🎓 いつでも♪どこでも♪何度でも♪４月のおすすめWEBセミナー情報",
+  "updated": "2026-08-20T15:03:32.455Z"
+}

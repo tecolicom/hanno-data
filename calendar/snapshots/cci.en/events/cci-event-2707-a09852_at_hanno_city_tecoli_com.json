@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-20T15:05:32.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nAbout promoting the \"wage increase support subsidy package\"\n\nThe Saitama Labour Bureau is working to spread awareness of the \"wage increase support subsidy package\" for small and medium-sized enterprises and small business operators.\n\nIn particular, the \"Business Improvement Subsidy\" is a system that provides partial assistance with costs when a workplace raises its minimum wage and makes equipment investments that contribute to productivity improvement. It supports both minimum wage increases and productivity improvements at the same time.\n\nEligible: Small and medium-sized enterprises and small business operators\nContent: Subsidies for minimum wage increases and equipment investment\n\nFor details and application methods, please contact a management guidance officer at the Hanno Chamber of Commerce and Industry. Information about the \"wage increase support subsidy package\" is also available on the Ministry of Health, Labour and Welfare website.\n\nSource (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2707/",
+  "end": {
+    "date": "2026-06-17"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHJqMGRwZGM0bzNpZTFsNjkwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiOTMyNjEzZWUxMWIzYjE2NjU3Yjk4NmE3ZWMxYmQ4MmFkN2MzODVjMzBkZTc1YTJkYjU4MzRiYTFhMjk3ZTMyQGc",
+  "iCalUID": "cci-event-2707-a09852@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68rj0dpdc4o3ie1l6906gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ（EN）",
+    "email": "b932613ee11b3b16657b986a7ec1bd82ad7c385c30de75a2db5834ba1a297e32@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2707/"
+  },
+  "start": {
+    "date": "2026-06-16"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Promotion of wage increase support subsidy package, including business improvement subsidies 【Saitama Labour Bureau】",
+  "updated": "2026-08-20T15:05:32.885Z"
+}

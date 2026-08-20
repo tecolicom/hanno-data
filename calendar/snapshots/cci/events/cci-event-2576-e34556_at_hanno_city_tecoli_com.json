@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-20T15:03:45.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "「カスタマーハラスメント(カスハラ)」とは、顧客から無理な要求をされたり、しつこく責め立てられたりすることなどにより、働く人の環境が害されることをいいます。\n埼玉県では、誰もが安心して働くことができる就業環境や安定した事業活動を継続できる環境、豊かな消費生活を実現するため、関係者の責務を定める条例を制定しました。\n\n埼玉県では、条例施行に向けて、以下の取り組みを行っています。\n\n事業者・事業者団体向け 基本方針・対応マニュアル作成のための手引きの公開\nカスタマーハラスメント防止対策コンサルタント派遣事業（5月7日募集開始）\nカスハラ対策WEBセミナー（募集中）\n\n詳しくは以下よりご確認ください。\n\n■埼玉県カスタマーハラスメント防止対策\n\nhttps://www.hanno-cci.or.jp/xo_event/xo_event-2576/",
+  "end": {
+    "date": "2026-05-01"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHFqZWRoZGNrcGo4ZDlsNnAwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiMGE1NmM4ZTFmNTI0NmNkYTQxZTJmZGIzYzQ0OWIyMGM1MGJiMzY1YWFjOTIzMzNhNGE5MjkwYTIxZTdlZGNmQGc",
+  "iCalUID": "cci-event-2576-e34556@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68qjedhdckpj8d9l6p06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ",
+    "email": "b0a56c8e1f5246cda41e2fdb3c449b20c50bb365aac92333a4a9290a21e7edcf@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2576/"
+  },
+  "start": {
+    "date": "2026-04-30"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 埼玉県カスハラ条例が施行されます（2026（令和8）年7月1日より）",
+  "updated": "2026-08-20T15:03:45.632Z"
+}

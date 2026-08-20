@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-20T15:05:24.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nHanno Chamber of Commerce, in partnership with the Japan Finance Corporation Kawagoe Branch, will hold a one-day consultation session.\n\nOn this day, the Kawagoe Branch's area representative will be stationed at the Chamber office all day. Business owners who normally cannot travel to Kawagoe for consultations are encouraged to take advantage of this opportunity.\n\nWe accept inquiries not only about Marukeí Financing (government small business loans) but also about other types of financing.\n\nAdvance reservation is preferred for consultations. Please contact the Chamber office to check reservation availability.\n\n【Event Details】\n\nDate and Time: Monday, June 15, 2026 (Reiwa 8), 10:00 a.m.–4:00 p.m.\nVenue: Hanno Chamber of Commerce, Reception Room\nStaff: Yuri Kaneko, Japan Finance Corporation Kawagoe Branch\n\n【How to Reserve】\nComplete the reservation form on the attached flyer and submit by FAX or online Forms.\n\nSource (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2686/",
+  "end": {
+    "date": "2026-06-09"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHIzZ2RoZDZrczYybzlvNnQwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiOTMyNjEzZWUxMWIzYjE2NjU3Yjk4NmE3ZWMxYmQ4MmFkN2MzODVjMzBkZTc1YTJkYjU4MzRiYTFhMjk3ZTMyQGc",
+  "iCalUID": "cci-event-2686-58aa87@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68r3gdhd6ks62o9o6t06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ（EN）",
+    "email": "b932613ee11b3b16657b986a7ec1bd82ad7c385c30de75a2db5834ba1a297e32@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2686/"
+  },
+  "start": {
+    "date": "2026-06-08"
+  },
+  "status": "confirmed",
+  "summary": "💼 Japan Finance Corporation One-Day Consultation Session at Hanno Chamber of Commerce",
+  "updated": "2026-08-20T15:05:24.247Z"
+}

@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-20T15:03:41.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "AI による要約 (正確な情報は元記事をご確認ください)\n\n5月・6月の定例専門家相談のご案内\n\n飯能商工会議所では、以下の日程で専門家相談を実施します。商工会議所会員のみ利用可能です。\n\n【5月の相談日程】\n5月8日（金）10:00～人事労務相談（横地冬美先生）\n5月13日（水）13:30～承継M&A相談（事業承継士および各種士業）\n5月14日（木）9:30～税務・インボイス制度無料個別相談（関東信越税理士会所沢支部飯能地区会所属の税理士）\n5月15日（金）13:30～日本政策金融公庫による相談（川越支店担当）\n5月18日（月）10:00～知的財産相談（松田克治先生）\n5月19日（火）13:30～経営法律相談（佐々木翔先生）\n\n【6月の相談日程】\n6月10日（水）13:30～承継M&A相談\n6月12日（金）10:00～人事労務相談\n6月15日（月）10:00～知的財産相談・日本政策金融公庫による相談\n6月16日（火）13:30～経営法律相談\n\n【予約について】\n各相談の予約リンクから手続きを進めてください。税務相談は相談日の5営業日前午前中が予約締切です。\n\nhttps://www.hanno-cci.or.jp/xo_event/xo_event-2613/",
+  "end": {
+    "date": "2026-04-25"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHIzMmNwZDZkaTNnY2hnNnQwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiMGE1NmM4ZTFmNTI0NmNkYTQxZTJmZGIzYzQ0OWIyMGM1MGJiMzY1YWFjOTIzMzNhNGE5MjkwYTIxZTdlZGNmQGc",
+  "iCalUID": "cci-event-2613-3d8207@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68r32cpd6di3gchg6t06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ",
+    "email": "b0a56c8e1f5246cda41e2fdb3c449b20c50bb365aac92333a4a9290a21e7edcf@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2613/"
+  },
+  "start": {
+    "date": "2026-04-24"
+  },
+  "status": "confirmed",
+  "summary": "💼 5月・6月の専門家相談の日程について",
+  "updated": "2026-08-20T15:03:41.603Z"
+}

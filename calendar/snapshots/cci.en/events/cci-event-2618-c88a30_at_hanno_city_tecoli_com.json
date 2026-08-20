@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-20T15:05:43.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nHanno Chamber of Commerce offers free individual consultations with experts in August and September.\n\n【August consultations】\n• August 5 (Wed) 1:30 PM – Business succession and M&A consultation\n• August 7 (Fri) 10:00 AM – Human resources and labor consultation\n• August 17 (Mon) 1:30 PM – Japan Policy Finance Corporation consultation\n• August 17 (Tue) 10:00 AM – Intellectual property consultation\n• August 18 (Tue) 1:30 PM – Management and legal consultation\n\n【September consultations】\n• September 9 (Wed) 1:30 PM – Business succession and M&A consultation\n• September 10 (Thu) 9:30 AM – Tax and invoice system free individual consultation\n• September 11 (Fri) 10:00 AM – Human resources and labor consultation\n• September 15 (Tue) 1:30 PM – Management and legal consultation and Japan Policy Finance Corporation consultation\n• September 28 (Tue) 10:00 AM – Intellectual property consultation\n\nBookings must be made through the dedicated link by the morning of the 5th business day before each consultation date. Available to Chamber members only.\n\nSource (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2618/",
+  "end": {
+    "date": "2026-07-25"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHIzMmUxZGNjczNnbzlqNjEwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiOTMyNjEzZWUxMWIzYjE2NjU3Yjk4NmE3ZWMxYmQ4MmFkN2MzODVjMzBkZTc1YTJkYjU4MzRiYTFhMjk3ZTMyQGc",
+  "iCalUID": "cci-event-2618-c88a30@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68r32e1dccs3go9j6106gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ（EN）",
+    "email": "b932613ee11b3b16657b986a7ec1bd82ad7c385c30de75a2db5834ba1a297e32@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2618/"
+  },
+  "start": {
+    "date": "2026-07-24"
+  },
+  "status": "confirmed",
+  "summary": "💼 August and September expert consultation schedule",
+  "updated": "2026-08-20T15:05:43.562Z"
+}

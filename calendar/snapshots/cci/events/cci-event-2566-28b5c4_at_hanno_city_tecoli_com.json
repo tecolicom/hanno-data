@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-20T15:03:43.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "この度、株式会社NTTドコモ様との取り組みが紹介されましたのでお知らせします。\n\nドコモは、埼玉県飯能市の地域資源である「西川材」と「d払い」を活用し、森林資源の有効活用と地域経済の持続的発展をめざすドコモの地域共創プロジェクトに取組んでいます。\n間伐材を用いた木製QRコードスタンドを通じて、環境保全と社会価値創出の両立を図る取組みをご紹介します。\n\n■docomo EVERYDAY　「地域の森から、いつものお店へ。「西川材×ｄ払い」で広がる、サスティナブルな地域共創」\n\nhttps://www.hanno-cci.or.jp/xo_event/xo_event-2566/",
+  "end": {
+    "date": "2026-04-29"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHFqY2RoZDY4czY0ZGIzNmgwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiMGE1NmM4ZTFmNTI0NmNkYTQxZTJmZGIzYzQ0OWIyMGM1MGJiMzY1YWFjOTIzMzNhNGE5MjkwYTIxZTdlZGNmQGc",
+  "iCalUID": "cci-event-2566-28b5c4@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68qjcdhd68s64db36h06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ",
+    "email": "b0a56c8e1f5246cda41e2fdb3c449b20c50bb365aac92333a4a9290a21e7edcf@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2566/"
+  },
+  "start": {
+    "date": "2026-04-28"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ docomo EVERYDAYに「西川材×d払い」の取り組みが紹介されました",
+  "updated": "2026-08-20T15:03:44.248Z"
+}

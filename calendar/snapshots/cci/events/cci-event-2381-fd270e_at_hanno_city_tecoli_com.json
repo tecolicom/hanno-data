@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-20T15:03:13.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "埼玉県内企業の皆さまへ‐支援金・支援情報‐をご活用ください！また当所職員までお気軽にご相談ください。\n\n◾️ 埼玉県内企業の皆さまへ\n\n◾️ 事業者支援情報検索アプリ\n\n担当課：相談所\n\nhttps://www.hanno-cci.or.jp/xo_event/xo_event-2381/",
+  "end": {
+    "date": "2026-01-16"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHBqZ2M5ZGNwaTM0ZHBnY2wwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiMGE1NmM4ZTFmNTI0NmNkYTQxZTJmZGIzYzQ0OWIyMGM1MGJiMzY1YWFjOTIzMzNhNGE5MjkwYTIxZTdlZGNmQGc",
+  "iCalUID": "cci-event-2381-fd270e@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68pjgc9dcpi34dpgcl06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ",
+    "email": "b0a56c8e1f5246cda41e2fdb3c449b20c50bb365aac92333a4a9290a21e7edcf@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2381/"
+  },
+  "start": {
+    "date": "2026-01-15"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 埼玉県内企業の皆さまへ‐支援金・支援情報‐をご活用ください",
+  "updated": "2026-08-20T15:03:13.513Z"
+}

@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-20T15:04:50.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n2026 Hanno Genki Market and Nishikawa Timber Fair\n\nDate and time: Sunday, March 8, 2026 (Reiwa 8), 9:30 a.m.–3:00 p.m. (held rain or shine)\n\nVenue: Hanno Central Park (223-1 Hanno, Hanno City)\n\nWhat to expect: Local products and food vendors, Nishikawa timber fair, karaoke contest, theater group and music department performances, outdoor stage, fire and police vehicle displays, inflatable dome, and more.\n\nImportant note: There is no parking available near the venue on the day. Please use public transportation or the shuttle bus running from Hanno City Hall.\n\nInquiries: Hanno Chamber of Commerce and Industry, 042-974-3111 (main line)\n\nSource (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2372/",
+  "end": {
+    "date": "2026-02-26"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHBqZWNoZDZoaGpjZHBpNjEwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiOTMyNjEzZWUxMWIzYjE2NjU3Yjk4NmE3ZWMxYmQ4MmFkN2MzODVjMzBkZTc1YTJkYjU4MzRiYTFhMjk3ZTMyQGc",
+  "iCalUID": "cci-event-2372-4c6720@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68pjechd6hhjcdpi6106gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ（EN）",
+    "email": "b932613ee11b3b16657b986a7ec1bd82ad7c385c30de75a2db5834ba1a297e32@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2372/"
+  },
+  "start": {
+    "date": "2026-02-25"
+  },
+  "status": "confirmed",
+  "summary": "🏮 2026 Hanno Genki Market and Nishikawa Timber Fair",
+  "updated": "2026-08-20T15:04:50.501Z"
+}

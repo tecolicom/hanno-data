@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-20T15:04:20.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "AI による要約 (正確な情報は元記事をご確認ください)\n\n埼玉県産業振興公社では、中小企業向けに年間200講座以上の研修を実施しています。新入社員から経営幹部まで階層別研修、人事・経理・営業などの業務分野別研修、AI活用を含むIT・デジタル研修が充実。製造業向けには生産管理、品質管理、ISO、工場責任者育成などの専門研修も提供しています。公的機関ならではの受講しやすい料金が特徴で、受講者満足度は98.2%。個別企業向けの出前研修も年間を通じ開催中。詳細および申込はhttps://www.saitama-j.or.jp/kensyuでご確認いただくか、企画・人材育成グループ（TEL：048-647-4087）までお問合せください。\n\nhttps://www.hanno-cci.or.jp/xo_event/xo_event-2776/",
+  "end": {
+    "date": "2026-08-11"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHJqZWRoZGNsajNncDlnY2QwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiMGE1NmM4ZTFmNTI0NmNkYTQxZTJmZGIzYzQ0OWIyMGM1MGJiMzY1YWFjOTIzMzNhNGE5MjkwYTIxZTdlZGNmQGc",
+  "iCalUID": "cci-event-2776-ef8e0c@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68rjedhdclj3gp9gcd06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ",
+    "email": "b0a56c8e1f5246cda41e2fdb3c449b20c50bb365aac92333a4a9290a21e7edcf@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2776/"
+  },
+  "start": {
+    "date": "2026-08-10"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 中小企業向け研修のお知らせ【埼玉県産業振興公社PR】",
+  "updated": "2026-08-20T15:04:21.092Z"
+}

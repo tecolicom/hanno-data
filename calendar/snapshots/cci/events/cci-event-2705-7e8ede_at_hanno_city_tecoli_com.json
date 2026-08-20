@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-20T15:04:04.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "弊所では、会員事業者様、未加入事業者様へ向けて、商工会議所の経営支援サービスの活用術を公開します。\n\n実際に支援を受けていただいた会員事業所様より、生の声をお聞かせいただきました。ぜひご覧ください。\n\n商工会議所の支援とはどういうものなのか、どんな支援を受けられるのかをご理解いただけたら幸いです。\n\n今回は、経営者の声として、飯能市仲町のそば処長寿庵様、創業者の声として、飯能市茜台のField A 様を紹介します。\n\nまた、経営支援の内容を改めて、知りたいという事業者様は、遠慮なくお問い合わせ下さい。\n\n■ 商工会議所活用術（経営者の声・創業者の声）\n\nhttps://www.hanno-cci.or.jp/xo_event/xo_event-2705/",
+  "end": {
+    "date": "2026-06-16"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHJqMGQ5ZDZ0aWpncGI0Y2wwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiMGE1NmM4ZTFmNTI0NmNkYTQxZTJmZGIzYzQ0OWIyMGM1MGJiMzY1YWFjOTIzMzNhNGE5MjkwYTIxZTdlZGNmQGc",
+  "iCalUID": "cci-event-2705-7e8ede@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68rj0d9d6tijgpb4cl06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ",
+    "email": "b0a56c8e1f5246cda41e2fdb3c449b20c50bb365aac92333a4a9290a21e7edcf@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2705/"
+  },
+  "start": {
+    "date": "2026-06-15"
+  },
+  "status": "confirmed",
+  "summary": "💼 商工会議所活用術で経営者の声、創業者の声を公開しました",
+  "updated": "2026-08-20T15:04:04.658Z"
+}

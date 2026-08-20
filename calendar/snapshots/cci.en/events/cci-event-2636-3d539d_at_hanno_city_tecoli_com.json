@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-20T15:05:18.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n【June WEB Seminar】Boost efficiency and sales! Getting started with AI\n\nInstructor: Akira Chikuma (Small Business Management Consultant, President and CEO of Childpiece Inc.)\n\nSeminar content: Learn how to use generative AI like ChatGPT. The instructor is a \"business mentor to managers\" with 17 years of hands-on experience running a cram school and expertise in small-business consulting—including revenue growth, problem-solving, and business analysis. He also specializes in video marketing and website improvement support.\n\nHow to watch: Online. On a PC, click the QR code; on a smartphone, scan the QR code.\n\nWho can attend: Member businesses of the Hanno Chamber of Commerce and Industry\n\nHow to apply: This is a member benefit. If you would like ID and password to watch, please contact your representative.\n\nSource (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2636/",
+  "end": {
+    "date": "2026-05-21"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHIzNmRoZDZkaTNhY3BwY2gwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiOTMyNjEzZWUxMWIzYjE2NjU3Yjk4NmE3ZWMxYmQ4MmFkN2MzODVjMzBkZTc1YTJkYjU4MzRiYTFhMjk3ZTMyQGc",
+  "iCalUID": "cci-event-2636-3d539d@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68r36dhd6di3acppch06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ（EN）",
+    "email": "b932613ee11b3b16657b986a7ec1bd82ad7c385c30de75a2db5834ba1a297e32@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2636/"
+  },
+  "start": {
+    "date": "2026-05-20"
+  },
+  "status": "confirmed",
+  "summary": "🎓 June recommended WEB seminars – watch anytime, anywhere, as many times as you like",
+  "updated": "2026-08-20T15:05:18.871Z"
+}

@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-20T15:04:01.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "本セミナーでは、経営計画の重要性と作り方を学び、自社の「中期ビジョ ン（3年～5年）」を描き、行動につなげる方法をお伝えします。\n\nあわせて、埼玉県経営 革新計画の策定メリットや申請のポイントも解説します。\n詳細は別添チラシよりご覧ください。\n\nお申込方法\n\nQRコードから電子申請または下記URLよりお申し込みください。\n\n■https://forms.office.com/r/R0QZ7Htd6n\n\n詳細チラシ\n\nhttps://www.hanno-cci.or.jp/xo_event/xo_event-2690/",
+  "end": {
+    "date": "2026-06-11"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHIzaWMxZDY5aDNlZGIxY2QwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiMGE1NmM4ZTFmNTI0NmNkYTQxZTJmZGIzYzQ0OWIyMGM1MGJiMzY1YWFjOTIzMzNhNGE5MjkwYTIxZTdlZGNmQGc",
+  "iCalUID": "cci-event-2690-2b75ac@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68r3ic1d69h3edb1cd06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ",
+    "email": "b0a56c8e1f5246cda41e2fdb3c449b20c50bb365aac92333a4a9290a21e7edcf@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2690/"
+  },
+  "start": {
+    "date": "2026-06-10"
+  },
+  "status": "confirmed",
+  "summary": "🎓 次の成長に繋げていくための売上・利益アップ経営戦略セミナー",
+  "updated": "2026-08-20T15:04:01.667Z"
+}

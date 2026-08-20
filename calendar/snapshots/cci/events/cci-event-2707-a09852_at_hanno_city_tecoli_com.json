@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-20T15:04:05.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "AI による要約 (正確な情報は元記事をご確認ください)\n\n「賃上げ支援助成金パッケージ」の利用促進について\n\n埼玉労働局が、中小企業・小規模事業者向けの「賃上げ支援助成金パッケージ」の周知を進めています。\n\n特に「業務改善助成金」は、事業場内最低賃金を引き上げて、生産性向上に資する設備投資を行った場合、その費用の一部を助成する制度です。最低賃金引上げ対応と生産性向上を同時に支援します。\n\n対象：中小企業・小規模事業者\n内容：最低賃金引上げと設備投資への助成\n\n詳細・申込方法については、飯能商工会議所の経営指導員までお問い合わせください。厚生労働省のウェブサイトでも「賃上げ支援助成金パッケージ」の情報が公開されています。\n\nhttps://www.hanno-cci.or.jp/xo_event/xo_event-2707/",
+  "end": {
+    "date": "2026-06-17"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHJqMGRwZGM0bzNpZTFsNjkwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiMGE1NmM4ZTFmNTI0NmNkYTQxZTJmZGIzYzQ0OWIyMGM1MGJiMzY1YWFjOTIzMzNhNGE5MjkwYTIxZTdlZGNmQGc",
+  "iCalUID": "cci-event-2707-a09852@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68rj0dpdc4o3ie1l6906gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ",
+    "email": "b0a56c8e1f5246cda41e2fdb3c449b20c50bb365aac92333a4a9290a21e7edcf@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2707/"
+  },
+  "start": {
+    "date": "2026-06-16"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 業務改善助成金をはじめとした「賃上げ支援助成金パッケージ」の利用促進について 【埼玉労働局】",
+  "updated": "2026-08-20T15:04:06.161Z"
+}

@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-20T15:03:46.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "帝国データバンクの電子認証サービス「TDB電子認証サービスTypeA」がサービス終了に伴い申込受付を終了します。\n\nこれに伴い、商工会議所会員限定特別料金クーポンの提供も併せて終了となります。\n\n◆商工会議所会員確認用クーポン券\n\n詳細は以下のリンクよりご確認ください。\n\n詳細情報\n\n■TDB電子認証サービスTypeAサービス終了のお知らせ\n\nhttps://www.hanno-cci.or.jp/xo_event/xo_event-2594/",
+  "end": {
+    "date": "2026-05-16"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHFqaWQxZDc1ajMyYzlqNnAwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiMGE1NmM4ZTFmNTI0NmNkYTQxZTJmZGIzYzQ0OWIyMGM1MGJiMzY1YWFjOTIzMzNhNGE5MjkwYTIxZTdlZGNmQGc",
+  "iCalUID": "cci-event-2594-9f1136@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68qjid1d75j32c9j6p06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ",
+    "email": "b0a56c8e1f5246cda41e2fdb3c449b20c50bb365aac92333a4a9290a21e7edcf@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2594/"
+  },
+  "start": {
+    "date": "2026-05-15"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ TDB電子認証サービスTypeA 商工会議所会員限定特別料金クーポンの発行終了について（予告）",
+  "updated": "2026-08-20T15:03:47.127Z"
+}

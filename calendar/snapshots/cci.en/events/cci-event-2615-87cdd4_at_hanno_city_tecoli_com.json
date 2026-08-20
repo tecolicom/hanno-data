@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-20T15:05:36.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nRegular expert consultations will be held in July and August. Available services include tax and invoice system advice, management law, human resources and labor, business succession and M&A, intellectual property, and consultations by the Japan Policy Finance Corporation. In July, consultations are held on different days each week; in August, all consultations except tax advice will be available. Reservations for each consultation close at 10 a.m., five business days before the consultation date. This service is available to Chamber of Commerce and Industry members only. Please make reservations through the link provided.\n\nSource (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2615/",
+  "end": {
+    "date": "2026-06-26"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHIzMmQ5ZDcwcm02cDM0NmgwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiOTMyNjEzZWUxMWIzYjE2NjU3Yjk4NmE3ZWMxYmQ4MmFkN2MzODVjMzBkZTc1YTJkYjU4MzRiYTFhMjk3ZTMyQGc",
+  "iCalUID": "cci-event-2615-87cdd4@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68r32d9d70rm6p346h06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ（EN）",
+    "email": "b932613ee11b3b16657b986a7ec1bd82ad7c385c30de75a2db5834ba1a297e32@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2615/"
+  },
+  "start": {
+    "date": "2026-06-25"
+  },
+  "status": "confirmed",
+  "summary": "💼 Expert consultation schedule for July and August",
+  "updated": "2026-08-20T15:05:36.654Z"
+}

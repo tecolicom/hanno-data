@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-20T15:04:09.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "貿易登録事業者各位\n\n平素より当所事業にご理解とご協力を賜り、誠にありがとうございます。\n\nこのたび、貿易関係証明オンライン発給システムの改修に伴い、本番環境へのリリースを下記のとおり実施いたします。\n\nこれに伴い、システムの運用を一時停止いたしますので、ご利用の皆様におかれましてはご注意くださいますようお願いいたします。\n\nリリース\n\n令和８年７月21日（火）\n\n改修期間\n\n令和８年７月17日（金）19時 ～ ７月21日（火）８時\n\n改修期間中のご注意\n\n上記期間中、申請者は貿易関係証明オンライン発給システムをご利用可能ですが、発給は21日(火)以降となります。\n\nお急ぎの際は、前もって申請するか、用紙による申請をご検討ください。\n\nご不便をおかけいたしますが、ご理解とご協力のほどよろしくお願い申し上げます。\n\nhttps://www.hanno-cci.or.jp/xo_event/xo_event-2724/",
+  "end": {
+    "date": "2026-07-02"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHJqNGQxZDYwcjNpZHIzY3AwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiMGE1NmM4ZTFmNTI0NmNkYTQxZTJmZGIzYzQ0OWIyMGM1MGJiMzY1YWFjOTIzMzNhNGE5MjkwYTIxZTdlZGNmQGc",
+  "iCalUID": "cci-event-2724-0697cf@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68rj4d1d60r3idr3cp06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ",
+    "email": "b0a56c8e1f5246cda41e2fdb3c449b20c50bb365aac92333a4a9290a21e7edcf@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2724/"
+  },
+  "start": {
+    "date": "2026-07-01"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 貿易関係証明オンライン発給システム改修に伴うお知らせ（7/17～7/21）",
+  "updated": "2026-08-20T15:04:10.237Z"
+}

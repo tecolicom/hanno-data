@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-20T15:04:17.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "AI による要約 (正確な情報は元記事をご確認ください)\n\n「はんのう起業スクール2026」開催\n\n創業の基礎知識を学ぶ全6回講座です。\n\n【開催日時】2026年9月4日（金）～10月9日（金）の毎週金曜日、全6回。各回19:00～21:00（18:30受付開始）\n\n【会場】第1～4回は飯能商工会議所（飯能市本町1-7）、第5～6回は飯能信用金庫飯能中央支店（飯能市八幡町1-3）。全て会場開催です。\n\n【定員】30名\n\n【受講料】5,000円（税込）\n\n【講師】中小企業診断士・北田健太氏ほか\n\n【対象】創業を検討している方、事業開始を予定している方\n\n【申込】飯能商工会議所中小企業相談所（メールフォーム経由）\n\n詳細は飯能商工会議所の専用ページをご確認ください。\n\nhttps://www.hanno-cci.or.jp/xo_event/xo_event-2756/",
+  "end": {
+    "date": "2026-07-31"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHJqYWRoZDZvcW04ZGo2NjEwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiMGE1NmM4ZTFmNTI0NmNkYTQxZTJmZGIzYzQ0OWIyMGM1MGJiMzY1YWFjOTIzMzNhNGE5MjkwYTIxZTdlZGNmQGc",
+  "iCalUID": "cci-event-2756-65d6f0@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68rjadhd6oqm8dj66106gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ",
+    "email": "b0a56c8e1f5246cda41e2fdb3c449b20c50bb365aac92333a4a9290a21e7edcf@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2756/"
+  },
+  "start": {
+    "date": "2026-07-30"
+  },
+  "status": "confirmed",
+  "summary": "🎓 「はんのう起業スクール2026」開催のご案内",
+  "updated": "2026-08-20T15:04:18.126Z"
+}

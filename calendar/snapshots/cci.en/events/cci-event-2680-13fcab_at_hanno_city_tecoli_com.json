@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-20T15:05:21.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nBusiness Purpose\n\nSaitama Prefecture provides financial support for implementation costs of DX tools* that help small and medium-sized enterprises improve productivity as they work toward sustained growth.\n\nApplications for this subsidy will begin on July 1, 2026 (Reiwa 8, Wednesday). We encourage you to consider improving productivity through DX during this opportunity.\n\n*DX tools that streamline business operations through digital technology, such as cashless payment systems, accounting software, and group collaboration platforms.\n\nSubsidy Overview\n\nThe subsidy covers:\n• Purchase costs of DX tools that support productivity improvements*1\n• Digital equipment purchase costs needed to operate the DX tools, plus expenses for installation, transportation, setup, and other implementation work*2\n\n*1 Includes lease fees and subscription costs (up to 12 months maximum)\n*2 Up to one-half of total eligible expenses\n\nFor More Information\n\nFor full details, please visit the website or review the subsidy application guide (flyer) linked below.\n\n■Saitama Prefecture Small & Medium Enterprise DX Implementation Support Subsidy\n\nSource (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2680/",
+  "end": {
+    "date": "2026-06-05"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHIzZ2MxZDY0cG1jb3IxYzkwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiOTMyNjEzZWUxMWIzYjE2NjU3Yjk4NmE3ZWMxYmQ4MmFkN2MzODVjMzBkZTc1YTJkYjU4MzRiYTFhMjk3ZTMyQGc",
+  "iCalUID": "cci-event-2680-13fcab@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68r3gc1d64pmcor1c906gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ（EN）",
+    "email": "b932613ee11b3b16657b986a7ec1bd82ad7c385c30de75a2db5834ba1a297e32@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2680/"
+  },
+  "start": {
+    "date": "2026-06-04"
+  },
+  "status": "confirmed",
+  "summary": "💼 Saitama Prefecture Small & Medium Enterprise DX Implementation Support Subsidy Application Period Opens",
+  "updated": "2026-08-20T15:05:21.504Z"
+}

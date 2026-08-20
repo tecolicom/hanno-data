@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-20T15:03:59.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "AI による要約 (正確な情報は元記事をご確認ください)\n\n企業のデジタル化・DX推進セミナー「何から始める？」を解決するDXの第一歩\n\n日時：令和8年6月26日（金）15:00～16:00\n会場：飯能商工会議所 大会議室\n定員：30名\n受講料：無料（会員・非会員とも）\n\nデジタル化の必要性や推進方向、県内事例、埼玉県中小企業DX導入支援補助金などの支援制度について学べるセミナーです。人手不足対応、業務効率化、インボイス制度対応、AI活用などに取り組みたい企業向け。「何から始めればよいか分からない」という方も、担当指導員が補助金申請から導入まで伴走支援します。\n\nお申込み：Microsoft Formsより（詳細・チラシ参照）\n\nhttps://www.hanno-cci.or.jp/xo_event/xo_event-2694/",
+  "end": {
+    "date": "2026-06-10"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHIzaWQxZDZzb2phYzM1NjUwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiMGE1NmM4ZTFmNTI0NmNkYTQxZTJmZGIzYzQ0OWIyMGM1MGJiMzY1YWFjOTIzMzNhNGE5MjkwYTIxZTdlZGNmQGc",
+  "iCalUID": "cci-event-2694-7150e1@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68r3id1d6sojac356506gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ",
+    "email": "b0a56c8e1f5246cda41e2fdb3c449b20c50bb365aac92333a4a9290a21e7edcf@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2694/"
+  },
+  "start": {
+    "date": "2026-06-09"
+  },
+  "status": "confirmed",
+  "summary": "🎓 今こそ始める！企業のデジタル化・DX推進セミナー～「何から始める？」を解決するDXの第一歩～",
+  "updated": "2026-08-20T15:03:59.890Z"
+}

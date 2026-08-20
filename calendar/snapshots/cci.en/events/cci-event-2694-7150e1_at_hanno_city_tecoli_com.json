@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-20T15:05:26.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nCorporate Digital Transformation & DX Promotion Seminar: Taking Your First Step to Solve \"Where Do I Begin?\"\n\nDate and time: June 26, 2026 (Reiwa 8), Friday, 3:00 p.m. – 4:00 p.m.\nVenue: Hanno Chamber of Commerce and Industry, Main Conference Room\nCapacity: 30 people\nFee: Free (members and non-members alike)\n\nThis seminar covers the necessity of digital transformation, implementation direction, examples from within the prefecture, and support programs such as the Saitama Prefecture Small and Medium Enterprise DX Implementation Support Subsidy. It is designed for companies looking to address labor shortages, improve operational efficiency, comply with the invoice system, and implement AI. Even if you're unsure \"where to begin,\" a dedicated advisor will support you from subsidy application through implementation.\n\nApplication: Via Microsoft Forms (see details and flyer for more information)\n\nSource (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2694/",
+  "end": {
+    "date": "2026-06-10"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHIzaWQxZDZzb2phYzM1NjUwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiOTMyNjEzZWUxMWIzYjE2NjU3Yjk4NmE3ZWMxYmQ4MmFkN2MzODVjMzBkZTc1YTJkYjU4MzRiYTFhMjk3ZTMyQGc",
+  "iCalUID": "cci-event-2694-7150e1@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68r3id1d6sojac356506gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ（EN）",
+    "email": "b932613ee11b3b16657b986a7ec1bd82ad7c385c30de75a2db5834ba1a297e32@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2694/"
+  },
+  "start": {
+    "date": "2026-06-09"
+  },
+  "status": "confirmed",
+  "summary": "🎓 Start Now! Corporate Digital Transformation & DX Promotion Seminar — Taking Your First Step to Solve \"Where Do I Begin?\"",
+  "updated": "2026-08-20T15:05:26.796Z"
+}

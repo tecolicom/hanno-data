@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-20T15:05:30.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nThe Hanno Chamber of Commerce is sharing how to make the most of our business support services, for both member businesses and non-member businesses.\n\nWe've gathered real voices from member businesses who have actually used our support services. Please take a look.\n\nWe hope this helps you understand what Chamber of Commerce support is, and what kinds of assistance are available to you.\n\nThis time, we're introducing Chojuan (a soba restaurant in Hanno's Nakamachi district) as an example of a business owner's perspective, and Field A (in Hanno's Akadai district) as an example of a start-up founder's perspective.\n\nIf you're a business owner who would like to learn more about the details of our business support services, please feel free to contact us.\n\n【Chamber of Commerce How-To Guide: Business Owner and Start-Up Founder Stories】\n\nSource (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2705/",
+  "end": {
+    "date": "2026-06-16"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHJqMGQ5ZDZ0aWpncGI0Y2wwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiOTMyNjEzZWUxMWIzYjE2NjU3Yjk4NmE3ZWMxYmQ4MmFkN2MzODVjMzBkZTc1YTJkYjU4MzRiYTFhMjk3ZTMyQGc",
+  "iCalUID": "cci-event-2705-7e8ede@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68rj0d9d6tijgpb4cl06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ（EN）",
+    "email": "b932613ee11b3b16657b986a7ec1bd82ad7c385c30de75a2db5834ba1a297e32@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2705/"
+  },
+  "start": {
+    "date": "2026-06-15"
+  },
+  "status": "confirmed",
+  "summary": "💼 Chamber of Commerce How-To Guide: Business Owner and Start-Up Founder Stories Now Available",
+  "updated": "2026-08-20T15:05:31.236Z"
+}

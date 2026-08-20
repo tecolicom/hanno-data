@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-20T15:05:47.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nThe Saitama Prefecture Industrial Promotion Corporation offers over 200 training courses annually for small and medium-sized businesses. Programs include level-based training for everyone from new employees to executive management, job-function training in areas like human resources, accounting, and sales, and comprehensive IT and digital training including AI applications. For manufacturers, we also offer specialized training in production management, quality control, ISO standards, and factory supervisor development. As a public institution, we offer affordable rates—a key feature of our programs—and our participant satisfaction rating is 98.2%. We also conduct on-site training for individual companies throughout the year.\n\nFor details and to apply, visit https://www.saitama-j.or.jp/kensyu or contact the Planning and Human Resources Development Group at TEL: 048-647-4087.\n\nSource (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2776/",
+  "end": {
+    "date": "2026-08-11"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHJqZWRoZGNsajNncDlnY2QwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiOTMyNjEzZWUxMWIzYjE2NjU3Yjk4NmE3ZWMxYmQ4MmFkN2MzODVjMzBkZTc1YTJkYjU4MzRiYTFhMjk3ZTMyQGc",
+  "iCalUID": "cci-event-2776-ef8e0c@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68rjedhdclj3gp9gcd06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ（EN）",
+    "email": "b932613ee11b3b16657b986a7ec1bd82ad7c385c30de75a2db5834ba1a297e32@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2776/"
+  },
+  "start": {
+    "date": "2026-08-10"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Training programs for small and medium businesses (Saitama Prefecture Industrial Promotion Corporation)",
+  "updated": "2026-08-20T15:05:47.666Z"
+}

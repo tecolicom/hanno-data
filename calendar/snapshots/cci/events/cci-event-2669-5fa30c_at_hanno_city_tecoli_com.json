@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-20T15:03:58.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "AI による要約 (正確な情報は元記事をご確認ください)\n\n7月3日（金）16：00～17：00、飯能商工会議所大会議室で「埼玉県中小企業DX導入支援補助金」活用セミナーを開催します。建設業部会会員対象、無料。\n\n人手不足課題を抱える建設業向けに、ITツール導入による現場省力化と生産性向上を支援するセミナーです。最大300万円の補助が受けられる令和8年度補助金と、DX推進員派遣制度について、専門家が建設業の活用事例を交えて解説します。\n\nセミナー内容：DXの現状と課題、建設業のDX状況、推進方向性、県内事例紹介、明日から使えるデジタルツール紹介など。「何から取り組めばよいか分からない」「申請書類作成に不安」といった方も、担当指導員が申請から導入まで伴走支援します。\n\n定員30名。申込みはMicrosoft Formsから。\n\nhttps://www.hanno-cci.or.jp/xo_event/xo_event-2669/",
+  "end": {
+    "date": "2026-06-10"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHIzY2U5ZDZsajYyY3BnY2QwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiMGE1NmM4ZTFmNTI0NmNkYTQxZTJmZGIzYzQ0OWIyMGM1MGJiMzY1YWFjOTIzMzNhNGE5MjkwYTIxZTdlZGNmQGc",
+  "iCalUID": "cci-event-2669-5fa30c@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68r3ce9d6lj62cpgcd06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ",
+    "email": "b0a56c8e1f5246cda41e2fdb3c449b20c50bb365aac92333a4a9290a21e7edcf@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2669/"
+  },
+  "start": {
+    "date": "2026-06-09"
+  },
+  "status": "confirmed",
+  "summary": "🎓 【7/3建設業部会向け】埼玉県「中小企業DX導入支援補助金」活用セミナー ～中小建設業のためのDX推進～",
+  "updated": "2026-08-20T15:03:58.472Z"
+}

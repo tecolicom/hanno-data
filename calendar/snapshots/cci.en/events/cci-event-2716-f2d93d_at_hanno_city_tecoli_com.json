@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-20T15:05:09.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nSaitama Business Management Support Program Guide\n\nSaitama Prefecture is launching a new \"Management Supporter\" program starting March 31, 2026 (Reiwa 8) to help small and mid-sized businesses and small business operators in the prefecture secure appropriate profits and create an environment for wage increases.\n\nProgram Period: March 31, 2026 – March 2027\n\nManagement Supporter Support Services:\n• Information on various prefectural support programs\n• Acceptance of consultations from business operators and matching with appropriate support measures\n• Hands-on support to help secure profits and create a wage-increase environment\n\nSupport is free of charge. After the support period ends, continuing support will be provided by management advisors from the Chamber of Commerce and Commerce Associations.\n\nHanno Chamber of Commerce will coordinate with Saitama Prefecture and the Saitama Chamber of Commerce Federation to contact member companies by phone regarding how to use this program, so we ask for your understanding in advance.\n\nFor details, please check the Saitama Prefecture website.\n\nSource (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2716/",
+  "end": {
+    "date": "2026-04-21"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHJqMmRoZGNvcDY4ZTlqY2gwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiOTMyNjEzZWUxMWIzYjE2NjU3Yjk4NmE3ZWMxYmQ4MmFkN2MzODVjMzBkZTc1YTJkYjU4MzRiYTFhMjk3ZTMyQGc",
+  "iCalUID": "cci-event-2716-f2d93d@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68rj2dhdcop68e9jch06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ（EN）",
+    "email": "b932613ee11b3b16657b986a7ec1bd82ad7c385c30de75a2db5834ba1a297e32@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2716/"
+  },
+  "start": {
+    "date": "2026-04-20"
+  },
+  "status": "confirmed",
+  "summary": "💼 Notice for Member Companies: Saitama Business Management Support Program",
+  "updated": "2026-08-20T15:05:09.548Z"
+}

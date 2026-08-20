@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-20T15:03:18.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "AI による要約 (正確な情報は元記事をご確認ください)\n\n2026年「はんのう元気市・西川材フェアー」\n\n開催日時：2026年3月8日（日）9時30分～15時00分（雨天決行）\n\n会場：飯能市中央公園（飯能市飯能223-1）\n\n内容：物産・グルメ・飲食販売、西川材フェアー、カラオケ大会、劇団×音楽部、野外ステージ、消防・警察車両展示、エアードーム等\n\n注意：当日、会場周辺に駐車場がありません。公共交通機関または市役所からのシャトルバスをご利用ください。\n\n問い合わせ：飯能商工会議所 042-974-3111（代表）\n\nhttps://www.hanno-cci.or.jp/xo_event/xo_event-2372/",
+  "end": {
+    "date": "2026-02-26"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHBqZWNoZDZoaGpjZHBpNjEwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiMGE1NmM4ZTFmNTI0NmNkYTQxZTJmZGIzYzQ0OWIyMGM1MGJiMzY1YWFjOTIzMzNhNGE5MjkwYTIxZTdlZGNmQGc",
+  "iCalUID": "cci-event-2372-4c6720@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68pjechd6hhjcdpi6106gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ",
+    "email": "b0a56c8e1f5246cda41e2fdb3c449b20c50bb365aac92333a4a9290a21e7edcf@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2372/"
+  },
+  "start": {
+    "date": "2026-02-25"
+  },
+  "status": "confirmed",
+  "summary": "🏮 2026年「はんのう元気市・西川材フェアー」開催のお知らせ",
+  "updated": "2026-08-20T15:03:18.859Z"
+}

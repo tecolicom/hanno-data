@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-20T15:05:48.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nChanges to the \"annual income threshold\" (年収の壁) rules may significantly affect payroll management and tax handling for employees, including part-time and temporary workers.\n\nThis seminar focuses on key points to watch during year-end tax settlement, explaining practical steps based on the latest tax law changes. You'll learn how to organize eligibility standards for dependent status and its relationship with social insurance, and how to apply these rules in your actual work.\n\nWe'll specifically cover procedures and tax adjustment practices that payroll and human resources staff need to know.\n\nFor full details, see the attached flyer.\n\n【How to apply】\n\nSubmit the application form from the flyer by FAX, scan the QR code, or apply electronically using the link below.\n\n■ Apply here: [Seminar Application F]\n\nSource (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2778/",
+  "end": {
+    "date": "2026-08-12"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHJqZWUxZDZkaGo4Y3BwY2gwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiOTMyNjEzZWUxMWIzYjE2NjU3Yjk4NmE3ZWMxYmQ4MmFkN2MzODVjMzBkZTc1YTJkYjU4MzRiYTFhMjk3ZTMyQGc",
+  "iCalUID": "cci-event-2778-3c439d@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68rjee1d6dhj8cppch06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ（EN）",
+    "email": "b932613ee11b3b16657b986a7ec1bd82ad7c385c30de75a2db5834ba1a297e32@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2778/"
+  },
+  "start": {
+    "date": "2026-08-11"
+  },
+  "status": "confirmed",
+  "summary": "🎓 Seminar: \"Key Tax Practices to Watch When the 'Annual Income Threshold' Rules Change\"",
+  "updated": "2026-08-20T15:05:49.224Z"
+}

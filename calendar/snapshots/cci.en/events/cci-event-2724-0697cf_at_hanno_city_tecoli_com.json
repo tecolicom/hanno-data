@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-20T15:05:37.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nTo Registered Trade Operators,\n\nThank you for your continued support and cooperation with our services.\n\nWe will be conducting maintenance on the Trade-Related Certificate Online Issue System, with the release to the production environment scheduled as follows.\n\nDuring this period, system operation will be temporarily suspended. Please note this when planning your use.\n\nRelease Date:\nTuesday, July 21, 2026 (Reiwa 8)\n\nMaintenance Period:\nFriday, July 17, 2026 (Reiwa 8), 7:00 p.m. through Tuesday, July 21, 2026, 8:00 a.m.\n\nImportant Notes During Maintenance:\n\nApplicants may submit applications through the Trade-Related Certificate Online Issue System during the above period, but certificates will not be issued until July 21 (Tuesday) or later.\n\nIf you have urgent needs, please consider submitting your application in advance or using the paper application method.\n\nWe apologize for any inconvenience this may cause and appreciate your understanding and cooperation.\n\nSource (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2724/",
+  "end": {
+    "date": "2026-07-02"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHJqNGQxZDYwcjNpZHIzY3AwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiOTMyNjEzZWUxMWIzYjE2NjU3Yjk4NmE3ZWMxYmQ4MmFkN2MzODVjMzBkZTc1YTJkYjU4MzRiYTFhMjk3ZTMyQGc",
+  "iCalUID": "cci-event-2724-0697cf@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68rj4d1d60r3idr3cp06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ（EN）",
+    "email": "b932613ee11b3b16657b986a7ec1bd82ad7c385c30de75a2db5834ba1a297e32@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2724/"
+  },
+  "start": {
+    "date": "2026-07-01"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Trade-Related Certificate Online Issue System Maintenance Notice (July 17–21, 2026)",
+  "updated": "2026-08-20T15:05:38.155Z"
+}

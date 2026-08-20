@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-20T15:05:14.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nCustomer harassment (\"kasuhara\") occurs when workers face unreasonable demands from customers, are blamed repeatedly, or experience other conduct that harms their work environment.\n\nTo help everyone work safely, support stable business operations, and enable people to enjoy secure consumer lives, Saitama Prefecture has enacted an ordinance that defines the responsibilities of all parties involved.\n\nAhead of the ordinance's implementation, the prefecture is undertaking the following initiatives:\n\n• Publishing guides for businesses and business groups to develop basic policies and response manuals\n• Dispatching customer harassment prevention consultants to businesses (recruitment begins May 7)\n• Hosting online seminars on customer harassment prevention (now recruiting)\n\nFor more details, visit the link below.\n\n■ Saitama Prefecture Customer Harassment Prevention Measures\n\nSource (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2576/",
+  "end": {
+    "date": "2026-05-01"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHFqZWRoZGNrcGo4ZDlsNnAwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiOTMyNjEzZWUxMWIzYjE2NjU3Yjk4NmE3ZWMxYmQ4MmFkN2MzODVjMzBkZTc1YTJkYjU4MzRiYTFhMjk3ZTMyQGc",
+  "iCalUID": "cci-event-2576-e34556@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68qjedhdckpj8d9l6p06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ（EN）",
+    "email": "b932613ee11b3b16657b986a7ec1bd82ad7c385c30de75a2db5834ba1a297e32@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2576/"
+  },
+  "start": {
+    "date": "2026-04-30"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Saitama Prefecture Customer Harassment Prevention Ordinance takes effect July 1, 2026 (Reiwa 8)",
+  "updated": "2026-08-20T15:05:14.799Z"
+}

@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-20T15:03:36.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "5月1日は弊所創立記念日のため、臨時休業日とさせていただきます。\n\nご不便をおかけしますが、何卒ご理解いただきますようお願いいたします。\n\n【臨時休業日】　2026年5月1日（金）\n\nゴールデンウィーク期間は、カレンダーどおりの通常業務を行います。\n\n皆様のご利用をお待ち申し上げます。\n\nhttps://www.hanno-cci.or.jp/xo_event/xo_event-2538/",
+  "end": {
+    "date": "2026-04-13"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHFqNmUxZDcwc2plZGo1Y3AwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiMGE1NmM4ZTFmNTI0NmNkYTQxZTJmZGIzYzQ0OWIyMGM1MGJiMzY1YWFjOTIzMzNhNGE5MjkwYTIxZTdlZGNmQGc",
+  "iCalUID": "cci-event-2538-8976ef@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68qj6e1d70sjedj5cp06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ",
+    "email": "b0a56c8e1f5246cda41e2fdb3c449b20c50bb365aac92333a4a9290a21e7edcf@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2538/"
+  },
+  "start": {
+    "date": "2026-04-12"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 臨時休業日のお知らせ（5/1）",
+  "updated": "2026-08-20T15:03:36.623Z"
+}

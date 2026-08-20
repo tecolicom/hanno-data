@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-20T15:04:41.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nWe are pleased to announce that the January 2026 edition of our digital newsletter \"Utsukushii Hoshi\" (Beautiful Star) has been published.\n\n■Latest Edition of Digital Newsletter \"Utsukushii Hoshi\"\n\nWe also share information through our official LINE account and X (formerly Twitter).\n\nWhen a new edition of the Chamber of Commerce and Industry newsletter is released, you will receive a notification on the publication date if you register your email address or add our LINE official account as a friend. Please sign up.\n\n※Email registration is limited to member businesses of our Chamber. Thank you for your understanding.\n\nSource (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2178/",
+  "end": {
+    "date": "2026-01-06"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OG9qZWUxZGM4cWo4cDlrYzkwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiOTMyNjEzZWUxMWIzYjE2NjU3Yjk4NmE3ZWMxYmQ4MmFkN2MzODVjMzBkZTc1YTJkYjU4MzRiYTFhMjk3ZTMyQGc",
+  "iCalUID": "cci-event-2178-b54e4b@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68ojee1dc8qj8p9kc906gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ（EN）",
+    "email": "b932613ee11b3b16657b986a7ec1bd82ad7c385c30de75a2db5834ba1a297e32@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2178/"
+  },
+  "start": {
+    "date": "2026-01-05"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Digital newsletter \"Utsukushii Hoshi\" (January 2026) now available",
+  "updated": "2026-08-20T15:04:42.083Z"
+}

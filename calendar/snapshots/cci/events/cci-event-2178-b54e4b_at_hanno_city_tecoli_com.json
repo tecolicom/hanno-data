@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-20T15:03:07.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "弊所デジタル広報誌「うつくしい星」2026年1月号を本日発行いたしましたのでお知らせします。\n\n■デジタル広報誌「うつくしい星」最新号\n\n弊所では公式LINEアカウント・X（旧Twitter）でも情報発信しております。\n\n商工会議所広報誌デジタル版は、電子メールを登録または、LINE公式アカウントを友だち登録していただくと、発行日にお知らせが届きます。\nぜひ、ご登録ください。\n\n※電子メール登録は、弊所会員事業所様に限ります。ご了承ください。\n\nhttps://www.hanno-cci.or.jp/xo_event/xo_event-2178/",
+  "end": {
+    "date": "2026-01-06"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OG9qZWUxZGM4cWo4cDlrYzkwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiMGE1NmM4ZTFmNTI0NmNkYTQxZTJmZGIzYzQ0OWIyMGM1MGJiMzY1YWFjOTIzMzNhNGE5MjkwYTIxZTdlZGNmQGc",
+  "iCalUID": "cci-event-2178-b54e4b@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68ojee1dc8qj8p9kc906gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ",
+    "email": "b0a56c8e1f5246cda41e2fdb3c449b20c50bb365aac92333a4a9290a21e7edcf@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2178/"
+  },
+  "start": {
+    "date": "2026-01-05"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ デジタル広報誌2026年1月号を発行いたしました",
+  "updated": "2026-08-20T15:03:07.783Z"
+}

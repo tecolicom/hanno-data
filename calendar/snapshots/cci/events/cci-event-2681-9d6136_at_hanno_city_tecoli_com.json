@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-20T15:03:55.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "AI による要約 (正確な情報は元記事をご確認ください)\n\n令和8年度埼玉県中小企業省力化支援事業補助金の募集開始\n\n県内中小企業の人手不足改善と賃上げ環境整備を目的に、省力化設備の導入・更新に要する経費を補助します。\n\n【補助内容】\n・新規導入：県策定の省力化製品カテゴリリスト掲載機器の新規導入経費\n・設備更新：専門家作成の支援カルテに基づく省力化機器への更新経費\n\n【対象】\n県内中小企業、製造・販売事業者\n\n【併せてアンケート調査実施中】\n省力化効果が見込まれる設備導入希望機器に関するアンケートを募集しています。\n実施期間：令和8年5月19日～6月12日\n※アンケート記入機器が必ずしも補助対象になるとは限りません\n\n【注意】\nDXツールは補助対象外です。DXツール導入補助については別途ご確認ください。\n\n詳細は埼玉県のリンク先ページをご確認ください。\n\nhttps://www.hanno-cci.or.jp/xo_event/xo_event-2681/",
+  "end": {
+    "date": "2026-06-06"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHIzZ2M5ZDc1aTNjYzlqNnAwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiMGE1NmM4ZTFmNTI0NmNkYTQxZTJmZGIzYzQ0OWIyMGM1MGJiMzY1YWFjOTIzMzNhNGE5MjkwYTIxZTdlZGNmQGc",
+  "iCalUID": "cci-event-2681-9d6136@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68r3gc9d75i3cc9j6p06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ",
+    "email": "b0a56c8e1f5246cda41e2fdb3c449b20c50bb365aac92333a4a9290a21e7edcf@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2681/"
+  },
+  "start": {
+    "date": "2026-06-05"
+  },
+  "status": "confirmed",
+  "summary": "💼 令和８年度埼玉県中小企業省力化支援事業補助金の募集を開始しました",
+  "updated": "2026-08-20T15:03:55.653Z"
+}
