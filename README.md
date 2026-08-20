@@ -22,7 +22,7 @@ hanno-data/
 │   ├── hannocity-haraichiba.yaml          # 飯能市乗合ワゴン 原市場 (GTFS-JP、native shape)
 │   ├── seibu.yaml                         # 西武バス 飯26 (GTFS-JP, ODPT、native shape)
 │   └── coords-override.yaml               # 停留所座標オーバーライド + 表記揺れ alias
-├── calendar/                     # Myはんのう Google カレンダー群管理 (JP/EN × default/gikai)
+├── calendar/                     # Google カレンダー群管理 (JP/EN × default/gikai + 店舗カレンダー)
 │   ├── bin/cal-myhanno                    # Google Calendar API ラッパ (--lang en 対応)
 │   ├── bin/cal-tourism-fetch              # hanno-tourism.jp の tour、決定論パーサ (LLM 不使用)
 │   ├── bin/cal-tourism-news-fetch         # hanno-tourism.jp の news、LLM 抽出 + 機械検算
@@ -30,6 +30,7 @@ hanno-data/
 │   ├── bin/cal-gikai-fetch                # 飯能市議会 議事日程
 │   ├── bin/cal-shicho-blog-fetch          # 市長ブログ + 本文取り込み (LLM 不使用)
 │   ├── bin/cal-oshirase-fetch             # 飯能市公式お知らせ + LLM 要約 (Claude Haiku)
+│   ├── bin/cal-cci-chef-fetch             # 商工会議所 日替わりシェフ当番表 (集合同期型、LLM 不使用)
 │   ├── bin/cal-translate-en               # events/ 全件英訳 → translations.en.*
 │   ├── sources.yaml                       # クローラの source 別 city 固有設定 (多都市化用)
 │   ├── events/<year>/<MM-DD>_<uid>.yaml   # canonical YAML (1 イベント 1 ファイル)
@@ -109,7 +110,8 @@ city-tecoli 側で `make sanity-check` を実行すると参照整合性 / 孤�
 ### Myはんのうカレンダー
 
 `calendar/` は `tecolicom@gmail.com` 所有の Google カレンダー群を YAML で
-canonical に管理する仕組み。JP/EN 2 言語 × default/gikai 2 系統 = 4 カレンダー。
+canonical に管理する仕組み。JP/EN 2 言語 × default/gikai 2 系統 = 4 カレンダーに
+加え、店舗カレンダー `chef` (日替わりシェフレストラン、EN なし) の計 5 本。
 詳細は [`calendar/README.md`](./calendar/README.md) 参照。
 
 主なソース:
