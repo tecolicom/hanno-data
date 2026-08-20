@@ -17,6 +17,7 @@
 from __future__ import annotations
 
 import glob
+import hashlib
 import json
 import os
 import re
@@ -679,3 +680,110 @@ def plan_set_sync(existing: dict[str, str], incoming: dict[str, str],
             f"refusing to write. targets: {delete[:20]}")
 
     return {"write": write, "delete": delete, "unchanged": unchanged}
+
+
+def set_sync_uid(uid_prefix: str, date: str, seq: int) -> str:
+    """集合同期系の UID. `{prefix}-{YYYYMMDD}-{NN}@{namespace}` (市民会館と同規約)."""
+    return f"{uid_prefix}-{date.replace('-', '')}-{seq:02d}@{UID_NAMESPACE}"
+
+
+def set_sync_hash(item: dict) -> str:
+    """イベント 1 件の content_hash. **ページ単位ではなくイベント単位**で計算する.
+
+    ページ単位にすると、1 件変わっただけで全件が書き換わり、git diff と
+    Calendar の update が無用に膨らむ (cal-shiminkaikan-fetch の既知の弱点)。
+    """
+    canonical = json.dumps({k: item.get(k) for k in ("date", "summary", "description")},
+                           ensure_ascii=False, sort_keys=True)
+    return "sha256-" + hashlib.sha256(canonical.encode("utf-8")).hexdigest()[:16]
+
+
+def _scan_existing_set(out_dir: str, uid_prefix: str) -> dict[str, dict]:
+    """out_dir 配下から uid が `{uid_prefix}-` で始まる YAML を集める.
+
+    返り値: {uid: {"path": str, "dtstart": str, "content_hash": str}}
+    """
+    found: dict[str, dict] = {}
+    for path in glob.glob(os.path.join(out_dir, "**", "*.yaml"), recursive=True):
+        uid = read_yaml_scalar(path, "uid")
+        if not uid or not uid.startswith(f"{uid_prefix}-"):
+            continue
+        found[uid] = {
+            "path": path,
+            "dtstart": (read_yaml_scalar(path, "dtstart") or "")[:10],
+            "content_hash": read_yaml_scalar(path, "content_hash") or "",
+        }
+    return found
+
+
+def sync_set(out_dir: str, uid_prefix: str, items: list[dict], render_doc,
+             today: str | None = None, max_delete: int = 10,
+             dry_run: bool = False) -> dict[str, int]:
+    """予定表の集合を events/ に同期する (追加 / 更新 / 削除).
+
+    items:      [{"date": "YYYY-MM-DD", "summary": str, "description": str}, ...]
+    render_doc: (uid, item, source_id, content_hash) -> YAML 本文 (str)
+    today:      "YYYY-MM-DD"。省略時は実日付 (テストのために注入可能にしてある)
+
+    削除条件と安全弁は plan_set_sync() を参照。例外が飛ぶときは
+    **1 バイトも書かない** (判定を全部済ませてから書き込む)。
+    """
+    if today is None:
+        today = _date.today().isoformat()   # _lib は `from datetime import date as _date`
+
+    # --- 採番: 同一日内は summary のソート順。入力順が変わっても UID が動かない ---
+    by_date: dict[str, list[dict]] = {}
+    for it in items:
+        by_date.setdefault(it["date"], []).append(it)
+
+    incoming: dict[str, str] = {}
+    dates: dict[str, str] = {}
+    item_by_uid: dict[str, dict] = {}
+    source_id_by_uid: dict[str, str] = {}
+    for date, group in by_date.items():
+        for seq, it in enumerate(sorted(group, key=lambda x: x["summary"]), start=1):
+            uid = set_sync_uid(uid_prefix, date, seq)
+            incoming[uid] = set_sync_hash(it)
+            dates[uid] = date
+            item_by_uid[uid] = it
+            source_id_by_uid[uid] = f"{date.replace('-', '')}-{seq:02d}"
+
+    existing_info = _scan_existing_set(out_dir, uid_prefix)
+    existing = {uid: info["content_hash"] for uid, info in existing_info.items()}
+    for uid, info in existing_info.items():
+        dates.setdefault(uid, info["dtstart"])
+
+    # ここで例外が飛ぶ場合、まだ何も書いていない
+    plan = plan_set_sync(existing, incoming, dates, today, max_delete=max_delete)
+
+    added = updated = deleted = 0
+    for uid in plan["write"]:
+        it = item_by_uid[uid]
+        doc = render_doc(uid, it, source_id_by_uid[uid], incoming[uid])
+        is_new = uid not in existing_info
+        if dry_run:
+            if is_new:
+                added += 1
+            else:
+                updated += 1
+            continue
+        # 既存があれば同じ path を使う (日付が変わっても UID に日付が入るので実質不変)
+        path = (output_path_for(out_dir, uid, dates[uid]) if is_new
+                else existing_info[uid]["path"])
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        with open(path, "w", encoding="utf-8") as f:
+            f.write(doc)
+        if is_new:
+            added += 1
+        else:
+            updated += 1
+
+    for uid in plan["delete"]:
+        if dry_run:
+            deleted += 1
+            continue
+        os.remove(existing_info[uid]["path"])
+        deleted += 1
+
+    return {"added": added, "updated": updated,
+            "deleted": deleted, "unchanged": len(plan["unchanged"])}
