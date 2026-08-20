@@ -625,6 +625,55 @@ def call_llm(system: str, user: str, *, model: str, max_tokens: int,
         return None
 
 
+# ==================== LLM 出力の機械検算 ====================
+# 「〜から〜に」の対。左辺は「値」の maximal な token を取るため、直前が数字・
+# カンマでないことを要求する (負の後読み)。これが無いと「1,970万円から970万円に」
+# の左辺から "970万円" だけを切り出してしまい、真の変更を同値と誤判定する。
+_CLAIM_RE = re.compile(
+    r"(?<![0-9０-９,，])([0-9０-９][0-9０-９,，.．]*[^\s、。]{0,6}?)から"
+    r"([0-9０-９][0-9０-９,，.．]*[^\s、。]{0,6}?)に")
+
+
+def _claim_value_key(s: str) -> str:
+    """同値判定用の正規化キー。全角/半角とカンマの差を吸収する。"""
+    return normalize_char_width(s).replace(",", "").replace("，", "").strip()
+
+
+def drop_unchanged_claims(text: str | None) -> str | None:
+    """「A から A に変更されました」という同値の主張を落とす (機械検算).
+
+    LLM は変更を説明させられると、名指しできる変更が無い場面でも手元の値で型を
+    埋めてしまうことがある。プロンプトで明示的に禁じ temperature=0 にしても
+    発生した (2026-08-19 本番: 4 対すべて同値の「主な変更」が出た) ため、
+    生成後にコード側で検査する。プロンプトを強める方向では再発する。
+
+    単位は **文** (`。` 区切り)。同値の対を 1 つでも含む文は、その文の生成が
+    信用できない証拠なので丸ごと捨てる (節だけ削ると日本語が壊れる)。真の変更を
+    述べた別の文は残す。全部落ちたら None = 「主な変更」行を出さない。
+
+    検出は数値を伴う対に限る。非数値の同値 (「会場が A から A に」) も理屈上
+    ありえるが、緩いパターンは真の変更通知を誤って削除する危険がある。観測された
+    失敗は数値であり、そこだけを確実に止める。
+
+    差分行を作るクローラが複数あるので _lib に置く。片方にだけ置くと、後日
+    片方だけ直る事故が起きる。
+    """
+    if not text or not text.strip():
+        return None
+
+    kept: list[str] = []
+    for sentence in re.split(r"(?<=。)", text):
+        if not sentence.strip():
+            continue
+        pairs = _CLAIM_RE.findall(sentence)
+        if any(_claim_value_key(a) == _claim_value_key(b) for a, b in pairs):
+            continue     # 同値を含む = この文は信用できない
+        kept.append(sentence)
+
+    out = "".join(kept).strip()
+    return out or None
+
+
 # ==================== 集合同期 (schedule set sync) ====================
 # 「1 エンドポイントに全件が載る予定表」を扱う系統の中核。既存の追記型クローラ
 # (記事 1 本 = イベント 1 個) と違い、取得側に無い = 予定から外れた と解釈できる

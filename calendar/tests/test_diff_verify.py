@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""cal-oshirase-fetch の差分行の機械検算 (drop_unchanged_claims) のユニットテスト。
+"""_lib の差分行の機械検算 (drop_unchanged_claims) のユニットテスト。
+
+差分行を作るクローラ (cal-oshirase-fetch / cal-cci-event-fetch) が共有する。
 
 LLM は「〜が〜に変更されました」の型に、変わっていない値を入れてしまうことが
 ある。DIFF_SYSTEM_PROMPT で禁じ temperature=0 にしてもなお起きたので、生成後に
@@ -16,14 +18,13 @@ import importlib.util
 import os
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-BIN = os.path.normpath(os.path.join(HERE, "..", "bin"))
-loader = importlib.machinery.SourceFileLoader("cal_oshirase_fetch",
-                                              os.path.join(BIN, "cal-oshirase-fetch"))
-spec = importlib.util.spec_from_loader(loader.name, loader)
-mod = importlib.util.module_from_spec(spec)
-loader.exec_module(mod)
+SCRIPT = os.path.join(HERE, "..", "bin", "_lib.py")
+loader = importlib.machinery.SourceFileLoader("_lib", SCRIPT)
+spec = importlib.util.spec_from_loader("_lib", loader)
+lib = importlib.util.module_from_spec(spec)
+loader.exec_module(lib)
 
-drop = mod.drop_unchanged_claims
+drop = lib.drop_unchanged_claims
 
 
 # ---------- 実際に起きた誤り ----------
