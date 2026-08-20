@@ -13,8 +13,7 @@
 
 ```
 hanno-data/
-├── gomi/                         # 分別辞典のみ (収集日程は japan-gomi-data へ移管済み)
-│   └── 2026/bunbetsu-jiten.yaml  # ごみ品目の分別事典。/@hanno/gomi/search/ が読む
+│                                 # (ごみ関連は収集日程・分別辞典とも japan-gomi-data へ移管済み)
 ├── bus/                          # バス時刻表 (ファイル名 = feed_id、各 YAML の meta.feed_id と一致)
 │   ├── 5931bus.yaml                       # 国際興業バス (NaviTime/5931bus 由来、native shape)
 │   ├── eaglebus.yaml                      # イーグルバス飯能駅・宮沢路線 (KML+PDF 由来、legacy shape)
@@ -48,15 +47,29 @@ hanno-data/
 
 ## 出典
 
-### ごみ分別事典
+### ごみ (収集日程・分別事典) — 全て japan-gomi-data へ移管済み
 
-- 飯能市公式サイト「ごみの分け方・出し方」の分別事典 PDF
-- `gomi/2026/bunbetsu-jiten.yaml` の `source` に PDF URL と取得日時・ページ範囲を記録する
-
-収集日程 (コース別カレンダー) は
+**このリポジトリにごみ関連データは無い。** 収集日程 (コース別カレンダー) と
+分別事典 (567 品目) はいずれも
 [tecolicom/japan-gomi-data](https://github.com/tecolicom/japan-gomi-data) の
-`municipalities/saitama/hanno/` に移管済み。分別事典は同リポジトリの scope
-(収集日程 + 種別定義) の外なので、こちらに残している。
+`municipalities/saitama/hanno/` にある。
+
+分別事典は当初「japan-gomi-data の scope (収集日程 + 種別定義) の外」として
+こちらに残していたが、2026-08 に移管した。**`category` の正典
+(`schema/categories.yaml`) が向こうにあるため、別リポジトリでは誰も検査できて
+いなかった**のが理由。実際 `not_collected` (45 品目) / `drop_off_only` (9) /
+`reference` (15) の 3 キーが正典に無く、アプリ側が独自の表で補って二重管理に
+なっていた。移管に合わせて `schema/disposal.yaml` (処分可否を別の軸として定義)
+が新設され、未知の category・taxonomy 外の収集種別・同名品目の重複で検査が
+止まるようになっている。
+
+> **ライセンス注意**: 分別事典は移管先で `source.license:
+> proprietary-municipality` を宣言しており、リポジトリ全体のライセンスの対象外
+> として扱われている。飯能市は
+> [ホームページについて](https://www.city.hanno.lg.jp/shiseijoho/koho_johohasshin_hodohappyo/johohasshin/5027.html)
+> で諸権利の帰属を定めており、政府標準利用規約も CC BY も採用していない。
+> 567 品目の選択・配列と note の文言は市の著作物になりえる。市への照会は
+> japan-gomi-data 側で進行中。
 
 ### バス時刻表
 
