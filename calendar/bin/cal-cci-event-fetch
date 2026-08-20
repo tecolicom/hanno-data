@@ -120,6 +120,46 @@ def summarize(title: str, body: str) -> str | None:
     return call_llm(SUMMARY_SYSTEM_PROMPT, user, model=LLM_MODEL, max_tokens=1024)
 
 
+# ==================== 差分行「主な変更」 ====================
+
+DIFF_SYSTEM_PROMPT = """あなたは飯能商工会議所の告知が更新されたとき、何が変わったかを 1 行で述べます。
+
+- 日本語で 1〜2 文、全体で 120 字以内。ラベルは付けず変更内容だけを書く。
+- **前回の掲載内容は要約であって全文とは限りません。** 言い回しや詳しさの違いを変更として報告しないでください。
+- **「〜が〜に変更されました」と書いてよいのは、前回の掲載内容に *異なる値* がはっきり書かれている場合だけです。** 同じ値なら変更ではありません。
+- 拾うべきは行動が変わる変更です: 日付・期間・締切、金額、会場、申込方法、中止/延期。
+- 確信を持って言える変更が無い場合は、何も出力せず空文字を返してください。
+- Markdown 記法は使わない。
+"""
+# 注意: 上の制約はこの指示だけでは守られない。temperature=0 でも同値の対を書く
+# 事例が本番で出た (2026-08-19、cal-oshirase-fetch)。**プロンプトを強める方向で
+# 直そうとしないこと** — 最終的な保証は _lib.drop_unchanged_claims() にある。
+
+
+def diff_line(title: str, prev_path: str, new_body: str) -> str | None:
+    """前世代の description と今回の本文から差分行を作る。作れなければ None。
+
+    比較材料は前世代の description (= 前回の要約または全文)。元記事の本文は
+    保存していないため非対称な比較になる。誤検出は生成後の機械検算で止める。
+    """
+    if not _llm_available():
+        return None
+    raw = read_yaml_block(prev_path, "description")
+    if not raw:
+        return None
+    prev = strip_status_header(raw).strip()
+    if not prev or not new_body or len(new_body) < MIN_BODY_CHARS:
+        return None
+    user = (f"# {title}\n\n## 前回の掲載内容\n\n{prev}\n\n"
+            f"## 今回の本文\n\n{new_body}")
+    text = call_llm(DIFF_SYSTEM_PROMPT, user, model=LLM_MODEL,
+                    max_tokens=512, temperature=0)
+    if text is None:
+        return None
+    line = " ".join(text.split()) or None
+    return drop_unchanged_claims(line)
+
+
 # ==================== 取得 ====================
 
 
@@ -255,9 +295,14 @@ def main() -> None:
             method, text = "full", body
 
         supersedes = gens[-1][1] if gens else None
+        prev_path = gens[-1][2] if gens else None
         parts = [text] if text else []
         if supersedes:
-            parts.insert(0, "🔄 内容更新")
+            header = "🔄 内容更新"
+            dl = diff_line(title, prev_path, body) if prev_path else None
+            if dl:
+                header += f"\n主な変更: {dl}"
+            parts.insert(0, header)
         parts.append(post["link"])
         description = "\n\n".join(parts)
 
