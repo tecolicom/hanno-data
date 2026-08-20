@@ -1,0 +1,21 @@
+uid: "chef-20260819-01@hanno.city.tecoli.com"
+summary: "N.teatime"
+location: "日替わりシェフレストラン"
+url: "https://www.hanno-cci.or.jp/manage/founded/#02"
+dtstart: "2026-08-19"
+dtend: "2026-08-19"
+description: |-
+  日替わりランチ
+  手網焙煎珈琲
+  
+  https://www.hanno-cci.or.jp/manage/founded/#02
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-chef
+  id: "20260819-01"
+  url: "https://www.hanno-cci.or.jp/manage/founded/#02"
+  content_hash: "sha256-10dd777aac927fa2"
