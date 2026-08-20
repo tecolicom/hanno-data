@@ -20,6 +20,7 @@ import json
 import os
 import re
 import subprocess
+import tempfile
 import sys
 from typing import Any
 
@@ -133,12 +134,27 @@ REFERENCE_URL_RE = re.compile(
 )
 
 
+# gws 専用の設定ディレクトリ。**ユーザー OAuth を見せないために分離する。**
+#
+# gws は保存済みのユーザー認証 (~/.config/gws/credentials.enc) を
+# GOOGLE_APPLICATION_CREDENTIALS より優先する。このツールは Service Account
+# 専用なので、ユーザー認証を拾うと意図しない主体で本番カレンダーを書き換える
+# 恐れがあるうえ、スコープが足りなければ全機能が止まる。
+#
+# 2026-08-21: カレンダー作成のために `gws auth login` を通したところ、その
+# トークンが calendar.events を持たなかったため cal-myhanno の全操作が
+# `Request had insufficient authentication scopes` で失敗した。CI は毎回
+# まっさらなランナーなので影響を受けず、ローカルでだけ壊れる形になっていた。
+GWS_CONFIG_DIR = os.path.join(tempfile.gettempdir(), "cal-myhanno-gws")
+
+
 def ensure_auth() -> None:
     if not os.environ.get("GOOGLE_APPLICATION_CREDENTIALS"):
         if os.path.exists(DEFAULT_SA):
             os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = DEFAULT_SA
         else:
             die(f"GOOGLE_APPLICATION_CREDENTIALS not set and {DEFAULT_SA} missing")
+    os.makedirs(GWS_CONFIG_DIR, exist_ok=True)
 
 
 def cal_id(name: str = "default") -> str:
@@ -160,7 +176,9 @@ def gws(*args: str, body: dict | None = None, params: dict | None = None) -> dic
         cmd += ["--params", json.dumps(params)]
     if body is not None:
         cmd += ["--json", json.dumps(body)]
-    proc = subprocess.run(cmd, capture_output=True, text=True)
+    # GWS_CONFIG_DIR の理由はその定義のコメント参照 (ユーザー OAuth を見せない)
+    env = {**os.environ, "GOOGLE_WORKSPACE_CLI_CONFIG_DIR": GWS_CONFIG_DIR}
+    proc = subprocess.run(cmd, capture_output=True, text=True, env=env)
     if proc.returncode != 0:
         die(f"gws failed: {proc.stderr.strip()}", code=proc.returncode)
     try:
@@ -1131,7 +1149,9 @@ def cmd_wipe(args: argparse.Namespace) -> None:
             cmd = ["gws", "calendar", "events", "delete",
                    "--params", json.dumps({"calendarId": cal_id(), "eventId": eid}),
                    "--format", "json"]
-            p = subprocess.run(cmd, capture_output=True, text=True)
+            p = subprocess.run(cmd, capture_output=True, text=True,
+                               env={**os.environ,
+                                    "GOOGLE_WORKSPACE_CLI_CONFIG_DIR": GWS_CONFIG_DIR})
             if p.returncode != 0:
                 err += 1
                 print(f"  DELETE FAIL  {uid}: {p.stderr.strip()[:200]}")
@@ -1213,7 +1233,9 @@ def cmd_prune(args: argparse.Namespace) -> None:
             cmd = ["gws", "calendar", "events", "delete",
                    "--params", json.dumps({"calendarId": cal_id_val, "eventId": e["id"]}),
                    "--format", "json"]
-            p = subprocess.run(cmd, capture_output=True, text=True)
+            p = subprocess.run(cmd, capture_output=True, text=True,
+                               env={**os.environ,
+                                    "GOOGLE_WORKSPACE_CLI_CONFIG_DIR": GWS_CONFIG_DIR})
             if p.returncode != 0:
                 err += 1
                 print(f"  DELETE FAIL  [{cal_key}] {e.get('iCalUID')}: {p.stderr.strip()[:200]}")

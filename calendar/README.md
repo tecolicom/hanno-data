@@ -172,6 +172,30 @@ secrets.GWS_SA_JSON
 
 `cal-myhanno` は env 未設定時に `~/.config/myhanno/sa.json` を自動 fallback する。
 
+### 落とし穴: ユーザー OAuth が SA 認証を上書きする (対処済み)
+
+`gws` は保存済みのユーザー認証 (`~/.config/gws/credentials.enc`) を
+`GOOGLE_APPLICATION_CREDENTIALS` より**優先する**。`cal-myhanno` は Service
+Account 専用のツールなので、これを拾うと 2 つの問題が起きる。
+
+- スコープが足りなければ全操作が `Request had insufficient authentication
+  scopes` で止まる
+- スコープが足りてしまうと、**意図しない主体で本番カレンダーを書き換える**
+
+2026-08-21 に実際に踏んだ。カレンダーを CLI で作るため `gws auth login` を
+`tecolicom@gmail.com` で通したところ、そのトークンが `calendar.events` を
+持たず (作成用に `calendar.calendars` + `calendar.acls` へ絞っていた)、
+`cal-myhanno` の全操作が失敗した。**CI は毎回まっさらなランナーなので影響を
+受けず、ローカルでだけ壊れる**形だった。
+
+対処済み: `cal-myhanno` が `gws` を呼ぶとき
+`GOOGLE_WORKSPACE_CLI_CONFIG_DIR` を専用ディレクトリに固定し、ユーザー認証を
+見せないようにしてある (`GWS_CONFIG_DIR`)。`gws` を直接叩く削除処理 2 箇所も
+同じ環境を渡す。**どう呼んでも常に SA** になる。
+
+なお `gws` をカレンダー作成等でユーザーとして使うこと自体は問題ない。
+`cal-myhanno` から隔離されているだけで、共存できる。
+
 ### 落とし穴: 古いトークンキャッシュで `source` が欠ける
 
 `gws` は取得済みトークンを `~/.config/gws/sa_token_cache.json` にキャッシュする。
