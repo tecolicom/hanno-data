@@ -1,1 +1,11 @@
-{}
+{
+  "https://www.hanno-cci.or.jp/xo_event_cat/promotion/feed/": "promotion-1.xml",
+  "https://www.hanno-cci.or.jp/xo_event_cat/seminar/feed/": "seminar-1.xml",
+  "https://www.hanno-cci.or.jp/xo_event_cat/seminar/feed/?paged=2": "seminar-2.xml",
+  "https://www.hanno-cci.or.jp/xo_event_cat/manage/feed/": "manage-1.xml",
+  "https://www.hanno-cci.or.jp/xo_event_cat/manage/feed/?paged=2": "manage-2.xml",
+  "https://www.hanno-cci.or.jp/xo_event_cat/manage/feed/?paged=3": "manage-3.xml",
+  "https://www.hanno-cci.or.jp/xo_event_cat/news/feed/": "news-1.xml",
+  "https://www.hanno-cci.or.jp/xo_event_cat/news/feed/?paged=2": "news-2.xml",
+  "https://www.hanno-cci.or.jp/xo_event_cat/news/feed/?paged=3": "news-3.xml"
+}

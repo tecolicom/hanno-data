@@ -1,4 +1,4 @@
-uid: "cci-event-2729-51f377@hanno.city.tecoli.com"
+uid: "cci-event-2729-930b04@hanno.city.tecoli.com"
 summary: "ℹ️ 第15回税とつり大会開催のお知らせ 【所沢法人会飯能支部】"
 location: "飯能商工会議所"
 url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2729/"
@@ -9,7 +9,7 @@ description: |-
   
   イベントの詳細・お申し込みは、チラシをご覧いただき、下記のフォームからご入力いただくか、裏面の申込書をご記入のうえで FAX にてお申し込みください。たくさんのご参加をお待ちしております。
   
-  ▶ 参加申込フォーム（Microsoft Formsが開きます）
+  参加申込フォーム（Microsoft Formsが開きます）
   
   https://www.hanno-cci.or.jp/xo_event/xo_event-2729/
 
@@ -23,21 +23,21 @@ source:
   url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2729/"
   category: "お知らせ"
   summary_method: "full"
-  content_hash: "sha256-51f377a1aae4bd05"
+  content_hash: "sha256-930b046053ba0de9"
 translations:
   en:
-    summary: "ℹ️ 15th Tax & Fishing Tournament Announced 【Tokorozawa Corporate Association Hanno Branch】"
+    summary: "ℹ️ 15th Tax and Fishing Tournament Announcement [Tokorozawa Corporate Association Hanno Branch]"
     description: |-
       Automated translation (refer to source for accuracy)
       
-      The Tokorozawa Corporate Association Hanno Branch is hosting the 15th Tax & Fishing Tournament. The event uses Hanno's beautiful natural setting to help children learn about taxes while enjoying fishing in clear streams.
+      The Tokorozawa Corporate Association Hanno Branch will hold the "15th Tax and Fishing Tournament" to help children learn about taxation while enjoying trout fishing in Hanno's beautiful natural setting.
       
-      For event details and to apply, please check the flyer and fill out the form using the link below, or complete the application form on the back of the flyer and submit it by fax. We look forward to your participation.
+      For event details and to apply, please see the flyer and fill in the form below, or complete the application form on the back and submit it by FAX. We look forward to your participation.
       
-      ▶ Application Form (Opens Microsoft Forms)
+      Participation Application Form (Opens Microsoft Forms)
       
       Source (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2729/
-    translation_hash: "sha256-d4db5055d8399f30"
+    translation_hash: "sha256-89c87114b377b3ec"
     model: "claude-haiku-4-5"
-    translated_at: "2026-08-20T14:57:39.647091Z"
+    translated_at: "2026-08-20T23:50:07.421793Z"
     format_version: 3

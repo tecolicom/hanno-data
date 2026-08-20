@@ -45,15 +45,20 @@ cci-chef:
   max_delete: 10
 
 # 飯能商工会議所の告知 (xo_event 投稿タイプ)。追記型。
-# 開催日は REST に出てこない (meta 非公開) ので dtstart は掲載日。
+# 開催日は取れない (postmeta にあり REST も RSS も出さない) ので dtstart は掲載日。
+#
+# **REST API は使わない。** wp-json は Xserver の国外 IP 制限で GitHub Actions
+# から 403 になる (2026-08-20 実測)。カテゴリ別 RSS を使う。content:encoded に
+# 本文全文が入るので REST の利点はほぼ保たれる。取り込むカテゴリは
+# bin/cal-cci-event-fetch の SLUG_TO_CAT_ID が持つ (検定 exam は除外)。
 cci-event:
   uid_prefix: cci-event
   source_type: hanno-cci-event
-  api_url: "https://www.hanno-cci.or.jp/wp-json/wp/v2/xo_event"
+  feed_base: "https://www.hanno-cci.or.jp/xo_event_cat"
   site_url: "https://www.hanno-cci.or.jp/"
   location: "飯能商工会議所"
   url_host_allowlist: www.hanno-cci.or.jp
   url_path_prefix: "/xo_event/"
   after: "2026-01-01T00:00:00"
-  # 取り込むカテゴリ (term id)。9 (検定) は除外。
-  category_ids: [8, 20, 10, 7]
+  # 1 カテゴリあたりの最大ページ数 (1 ページ 10 件)。暴走防止。
+  max_pages: 10

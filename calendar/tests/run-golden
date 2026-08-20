@@ -129,16 +129,22 @@ def _setup_tourism_news(m, crawler, manifest):
 
 
 def _setup_cci_event(m, crawler, manifest):
-    """REST を fixture に差し替え、LLM 経路を断つ (追記型)。
+    """RSS 取得を fixture に差し替え、LLM 経路を断つ (追記型)。
+
+    **fetch_posts ではなく fetch_feed を差し替える。** こうすると golden が
+    RSS のパース経路 (parse_feed / merge_posts) まで通る。fetch_posts ごと
+    置き換えると、本番に存在しない経路をテストすることになる。
 
     _llm_available() を False にすると長文も method=full になり、差分行も
     None になって決定論化する。content_hash に method を含めない設計なので
     hash は動かない。差分行の生成そのものは非決定的なので golden では見ない
     (drop_unchanged_claims の挙動は tests/test_diff_verify.py が見ている)。
     """
-    with open(os.path.join(FIX, crawler, "api-page1.json"), encoding="utf-8") as f:
-        posts = json.load(f)
-    m.fetch_posts = lambda cfg: posts
+    def _fetch_feed(url):
+        if url not in manifest:
+            raise RuntimeError(f"fixture 外の URL: {url}")
+        return _read_fixture(crawler, manifest[url])
+    m.fetch_feed = _fetch_feed
     m._llm_available = lambda: False
 
 

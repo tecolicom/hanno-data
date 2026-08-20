@@ -1,0 +1,57 @@
+uid: "cci-event-2637-2901c1@hanno.city.tecoli.com"
+summary: "🎓 いつでも♪どこでも♪何度でも♪７月のおすすめWEBセミナー情報"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2637/"
+dtstart: "2026-06-20"
+dtend: "2026-06-20"
+description: |-
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  タイトルミスをゼロにする仕事術　認知科学に基づく実践的方法
+  
+  講師：宇都出雅巳（実務に効く人材育成スペシャリスト、AI×人間ハイブリッドコーチ）
+  
+  内容：仕事のミスは個人の注意力や経験では防ぎきれません。本セミナーでは、認知科学を用いて人がミスをする原因を解き明かし、職場ですぐに実践できる具体的な防止策を紹介します。科学的なアプローチで仕事力を確実に向上させる方法を学べます。（46分）
+  
+  対象：飯能商工会議所会員（非会員の視聴については要問い合わせ）
+  
+  視聴方法：PC・スマホどちらでも対応。QRコードをクリック/読み取ってください。
+  
+  注意：WEBセミナーの視聴は飯能商工会議所の会員特典です。視聴に必要なID/パスワード発行希望の会員事業所様は、担当者までお問い合わせください。
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2637/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2637"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2637/"
+  category: "セミナー"
+  summary_method: "llm-haiku-4-5"
+  content_hash: "sha256-2901c1ddfb342d46"
+translations:
+  en:
+    summary: "🎓 Anytime, anywhere, as many times as you like: July's recommended web seminars"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Zero-Mistake Work Techniques: Practical Methods Based on Cognitive Science
+      
+      Instructor: Masami Utsuide (practical people-development specialist, AI × human hybrid coach)
+      
+      Content: You can't prevent work mistakes through individual attention or experience alone. This seminar uses cognitive science to explain why people make mistakes, and introduces concrete prevention strategies you can put into practice at your workplace right away. Learn scientific approaches to reliably improve your work performance. (46 minutes)
+      
+      Target audience: Hanno Chamber of Commerce & Industry members (non-members should inquire)
+      
+      How to watch: Works on both PC and smartphone. Click or scan the QR code.
+      
+      Note: Web seminar viewing is a member benefit of the Hanno Chamber of Commerce & Industry. Members who want ID/password access should contact their assigned representative.
+      
+      Source (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2637/
+    translation_hash: "sha256-0913a2a456039e4d"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-20T23:50:04.926389Z"
+    format_version: 3

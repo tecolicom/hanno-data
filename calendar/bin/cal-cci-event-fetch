@@ -17,13 +17,17 @@ docs/superpowers/specs/2026-08-20-cci-event-calendar-design.md
 from __future__ import annotations
 
 import argparse
+import email.utils
 import hashlib
 import html as _html
 import json
 import os
+import re
 import sys
-import urllib.parse
 import urllib.request
+from datetime import timedelta, timezone
+
+JST = timezone(timedelta(hours=9))
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from _lib import (  # noqa: E402
@@ -160,39 +164,131 @@ def diff_line(title: str, prev_path: str, new_body: str) -> str | None:
     return drop_unchanged_claims(line)
 
 
-# ==================== 取得 ====================
+# ==================== 取得 (RSS) ====================
+#
+# **REST API は使わない。** wp-json は Xserver の国外 IP 制限で GitHub Actions
+# から 403 になる (2026-08-20 に実測。同じ現象を han-note.com で既に踏んでおり
+# WatchCrow/README.md に記録がある)。sitemap も使えない — 商工会議所の sitemap は
+# 固定ページしか含まず、カスタム投稿タイプ xo_event が載っていない。
+#
+# カテゴリ別 RSS なら content:encoded に本文全文が入るので、REST の利点
+# (1 リクエストで本文まで) がほぼそのまま得られる。実測 9 リクエストで 49 件、
+# REST と完全一致 (差分ゼロ)。
+
+# フィードの slug → xo_event_cat の term id。**exam (検定) は含めない。**
+SLUG_TO_CAT_ID: dict[str, int] = {
+    "promotion": 8,     # 地域振興
+    "seminar":   20,    # セミナー
+    "manage":    10,    # 経営支援
+    "news":      7,     # お知らせ
+}
+
+_ITEM_RE = re.compile(r"(?s)<item>(.*?)</item>")
+_CONTENT_RE = re.compile(r"(?s)<content:encoded><!\[CDATA\[(.*?)\]\]></content:encoded>")
+_POST_ID_RE = re.compile(r"[?&]p=(\d+)")
+
+
+def _tag(item: str, name: str) -> str:
+    m = re.search(rf"(?s)<{name}[^>]*>(.*?)</{name}>", item)
+    if not m:
+        return ""
+    v = m.group(1).strip()
+    m2 = re.fullmatch(r"(?s)<!\[CDATA\[(.*?)\]\]>", v)
+    return (m2.group(1) if m2 else v).strip()
+
+
+def parse_feed(xml: str, slug: str) -> list[dict]:
+    """RSS を REST 互換の post dict の list に変換する.
+
+    下流 (要約・世代管理・YAML 生成) は REST の形を前提に書かれているので、
+    ここで形を揃える。
+    """
+    cat_id = SLUG_TO_CAT_ID.get(slug)
+    posts: list[dict] = []
+    for item in _ITEM_RE.findall(xml):
+        guid = _tag(item, "guid")
+        mid = _POST_ID_RE.search(_html.unescape(guid))
+        if not mid:
+            continue
+        # pubDate は UTC。JST に直してから日付にする (UTC のままだと深夜掲載が
+        # 前日扱いになる)。
+        pub = _tag(item, "pubDate")
+        try:
+            dt = email.utils.parsedate_to_datetime(pub).astimezone(JST)
+        except Exception:
+            continue
+        body_html = ""
+        mc = _CONTENT_RE.search(item)
+        if mc:
+            body_html = mc.group(1)
+        posts.append({
+            "id": int(mid.group(1)),
+            "date": dt.date().isoformat(),
+            "link": _html.unescape(_tag(item, "link")),
+            "title": {"rendered": _html.unescape(_tag(item, "title"))},
+            "content": {"rendered": body_html},
+            "xo_event_cat": [cat_id] if cat_id else [],
+        })
+    return posts
+
+
+def merge_posts(batches: list[list[dict]]) -> list[dict]:
+    """複数フィードの結果を記事 ID で名寄せし、掲載日の新しい順に並べる.
+
+    **複数カテゴリを持つ記事がある。** 名寄せしないと二重に数える
+    (実測: 名寄せ前 60、名寄せ後 49)。カテゴリは全部を残し、どれを使うかは
+    category_of() が CATEGORIES の定義順で決める。
+    """
+    by_id: dict[int, dict] = {}
+    for batch in batches:
+        for p in batch:
+            cur = by_id.get(p["id"])
+            if cur is None:
+                by_id[p["id"]] = dict(p)
+            else:
+                cur["xo_event_cat"] = sorted(set(cur["xo_event_cat"]) | set(p["xo_event_cat"]))
+    return sorted(by_id.values(), key=lambda p: (p["date"], p["id"]), reverse=True)
+
+
+def fetch_feed(url: str) -> str:
+    """RSS を 1 本取得する.
+
+    HTTP の口をここに集約しておく。run-golden がこの名前を差し替えて fixture を
+    返すので、golden が RSS のパース経路 (parse_feed / merge_posts) まで通る。
+    """
+    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        return r.read().decode("utf-8", "replace")
+
+
+def feed_url(cfg: dict, slug: str, page: int) -> str:
+    url = f"{cfg['feed_base']}/{slug}/feed/"
+    return url if page == 1 else f"{url}?paged={page}"
 
 
 def fetch_posts(cfg: dict) -> list[dict]:
-    """対象カテゴリの記事を新しい順に取得する (ページング込み)。"""
-    posts: list[dict] = []
-    page = 1
-    while True:
-        q = urllib.parse.urlencode({
-            "per_page": 100,
-            "page": page,
-            "after": cfg["after"],
-            "xo_event_cat": ",".join(str(c) for c in cfg["category_ids"]),
-            "_fields": "id,date,modified_gmt,link,title,content,xo_event_cat",
-        })
-        # 注: modified_gmt による politeness は入れない。REST の一覧が本文まで
-        # 含めて 1 リクエストで返るので、記事ごとの再取得が発生しない。再書き込みの
-        # 抑制は content_hash の一致判定で足りる。
-        req = urllib.request.Request(f"{cfg['api_url']}?{q}",
-                                     headers={"User-Agent": USER_AGENT})
-        try:
-            with urllib.request.urlopen(req) as r:
-                batch = json.load(r)
-        except Exception as e:
-            print(f"  ERROR fetching page {page}: {e}", file=sys.stderr)
-            break
-        if not batch:
-            break
-        posts.extend(batch)
-        if len(batch) < 100:
-            break
-        page += 1
-    return posts
+    """対象カテゴリの記事を RSS から取得する (ページング込み)。"""
+    after = cfg["after"][:10]
+    batches: list[list[dict]] = []
+    for slug in SLUG_TO_CAT_ID:
+        collected: list[dict] = []
+        for page in range(1, cfg.get("max_pages", 10) + 1):
+            url = feed_url(cfg, slug, page)
+            try:
+                xml = fetch_feed(url)
+            except Exception as e:
+                print(f"  ERROR fetching {slug} page {page}: {e}", file=sys.stderr)
+                break
+            items = parse_feed(xml, slug)
+            if not items:
+                break
+            fresh = [p for p in items if p["date"] >= after]
+            collected.extend(fresh)
+            # after より古いものが混ざった = この slug は掘り終わり
+            if len(fresh) < len(items) or len(items) < 10:
+                break
+        batches.append(collected)
+    return merge_posts(batches)
 
 
 # ==================== YAML 生成 ====================

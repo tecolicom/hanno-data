@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-20T23:51:59.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nWe are holding a charity golf tournament to support the Hanno Festival.\n\n【Date】 Friday, June 19, 2026 (Reiwa 8)\n\n【Venue】 Hanno Green Country Club (292 Kusumi, Hanno City; TEL 042-973-0005)\n\n【Eligibility】 Club members and club employee members\n\n【Capacity】 40 foursomes, 160 players total\n\n【Fees】 Participation fee: ¥3,000 (pay at registration on the day). Course fee: ¥16,900 (includes meal; settle individually)\n\n【Application Deadline】 Friday, May 8, 2026\n\n【To Apply / For Inquiries】 Hanno Chamber of Commerce and Industry, Charity Golf Tournament Executive Committee Secretariat; TEL 042-974-3111, FAX 042-972-7871\n\n【Other Information】 The tournament will be held using the 18-hole new Peoria format and shotgun start method. The awards ceremony will be held around 3:00 p.m. in the clubhouse after play ends. Groupings and start times will be arranged by the executive committee.\n\nWe are also accepting donations (sponsorships) for the Hanno Festival and prize contributions for the golf tournament. If you wish to sponsor, please apply by May 8.\n\nSource (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2389/",
+  "end": {
+    "date": "2026-03-10"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHBqZ2U5ZGNrc21jZDMyNmgwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiOTMyNjEzZWUxMWIzYjE2NjU3Yjk4NmE3ZWMxYmQ4MmFkN2MzODVjMzBkZTc1YTJkYjU4MzRiYTFhMjk3ZTMyQGc",
+  "iCalUID": "cci-event-2389-e9f4b4@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68pjge9dcksmcd326h06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ（EN）",
+    "email": "b932613ee11b3b16657b986a7ec1bd82ad7c385c30de75a2db5834ba1a297e32@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2389/"
+  },
+  "start": {
+    "date": "2026-03-09"
+  },
+  "status": "confirmed",
+  "summary": "🏮 Hanno Festival Charity Golf Tournament – Participants and Sponsors Wanted",
+  "updated": "2026-08-20T23:51:59.240Z"
+}

@@ -1,0 +1,73 @@
+uid: "cci-event-2389-e9f4b4@hanno.city.tecoli.com"
+summary: "🏮 飯能まつりチャリティーゴルフ大会参加者募集および協賛金のお願い"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2389/"
+dtstart: "2026-03-09"
+dtend: "2026-03-09"
+description: |-
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  飯能まつり支援のためのチャリティーゴルフ大会を開催します。
+  
+  【開催日】2026年6月19日（金）
+  
+  【会場】飯能グリーンカントリークラブ（飯能市久須美292、TEL 042-973-0005）
+  
+  【対象】会員・会員従業員
+  
+  【定員】40組160名
+  
+  【費用】参加費3,000円（当日受付）、プレー費16,900円（食事付、各自精算）
+  
+  【申込締切】2026年5月8日（金）
+  
+  【申込先・問合先】飯能商工会議所 チャリティーゴルフ大会実行委員会事務局 TEL 042-974-3111、FAX 042-972-7871
+  
+  【その他】18ホール新ぺリア方式、ショットガン方式で実施。表彰式はプレー終了後15時頃からクラブハウスにて。組み合わせ・スタート時間は実行委員会にお任せください。
+  
+  あわせて、飯能まつりへのチャリティー（協賛金）およびゴルフ大会の賞品提供も募集しています。ご協賛いただける場合は5月8日までにお申し込みください。
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2389/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2389"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2389/"
+  category: "地域振興"
+  summary_method: "llm-haiku-4-5"
+  content_hash: "sha256-e9f4b4336341a9f6"
+translations:
+  en:
+    summary: "🏮 Hanno Festival Charity Golf Tournament – Participants and Sponsors Wanted"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      We are holding a charity golf tournament to support the Hanno Festival.
+      
+      【Date】 Friday, June 19, 2026 (Reiwa 8)
+      
+      【Venue】 Hanno Green Country Club (292 Kusumi, Hanno City; TEL 042-973-0005)
+      
+      【Eligibility】 Club members and club employee members
+      
+      【Capacity】 40 foursomes, 160 players total
+      
+      【Fees】 Participation fee: ¥3,000 (pay at registration on the day). Course fee: ¥16,900 (includes meal; settle individually)
+      
+      【Application Deadline】 Friday, May 8, 2026
+      
+      【To Apply / For Inquiries】 Hanno Chamber of Commerce and Industry, Charity Golf Tournament Executive Committee Secretariat; TEL 042-974-3111, FAX 042-972-7871
+      
+      【Other Information】 The tournament will be held using the 18-hole new Peoria format and shotgun start method. The awards ceremony will be held around 3:00 p.m. in the clubhouse after play ends. Groupings and start times will be arranged by the executive committee.
+      
+      We are also accepting donations (sponsorships) for the Hanno Festival and prize contributions for the golf tournament. If you wish to sponsor, please apply by May 8.
+      
+      Source (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2389/
+    translation_hash: "sha256-b9f39e9029549104"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-20T23:50:00.926134Z"
+    format_version: 3

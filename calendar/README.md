@@ -172,11 +172,32 @@ secrets.GWS_SA_JSON
 
 `cal-myhanno` は env 未設定時に `~/.config/myhanno/sa.json` を自動 fallback する。
 
-### 商工会議所の REST API は CI から使えない (cal-cci-event-fetch 無効化中)
+### 商工会議所の REST API は使えない → RSS に切替済み
 
-`cal-cci-event-fetch` は **CI から実行していない**。`cal-daily.yml` で
-コメントアウトしてある。商工会議所の REST API (`/wp-json/`) が GitHub
-Actions の IP から遮断されているため。
+`cal-cci-event-fetch` は **RSS (カテゴリ別フィード) から取得する**。REST API
+(`/wp-json/`) は GitHub Actions の IP から遮断されるため使わない。
+
+```
+https://www.hanno-cci.or.jp/xo_event_cat/<slug>/feed/[?paged=N]
+```
+
+slug は `promotion` (地域振興) / `seminar` (セミナー) / `manage` (経営支援) /
+`news` (お知らせ)。`exam` (検定) は取り込まない。`content:encoded` に本文全文が
+入るので REST の利点 (1 リクエストで本文まで) はほぼ保たれる。実測 9 リクエストで
+49 件、**REST と完全一致** (記事 ID で名寄せして差分ゼロ)。
+
+**記事 ID で重複排除が要る。** 複数カテゴリを持つ記事があり、名寄せ前は 60 件に
+見える (`merge_posts` が担当)。
+
+**REST と RSS で本文が微妙に違う。** REST の `content.rendered` はリンク行の先頭に
+`◾️` が入るが、RSS の `content:encoded` には入らない (WordPress のフィルタ適用範囲の
+差)。2026-08 の切替時、49 件中 6 件の `content_hash` が変わった。**取得経路を
+変えると本文も変わりうる。**
+
+`cal-daily.yml` での自動実行は**まだ有効化していない**。RSS が CI から通るかを
+確認できていないため (下記)。手元 (日本の回線) からは動く。
+
+#### CI から遮断された経緯
 
 観測 (2026-08-20、ランナーは Azure eastus2 / 米国バージニア、IP 135.119.132.147):
 
@@ -207,9 +228,24 @@ Actions の IP から遮断されているため。
 ./calendar/bin/cal-cci-event-fetch --out-dir calendar/events --min-items 1
 ```
 
-恒久対応の候補: HTML スクレイプへの書き直し (chef と同じ経路なら通る見込み。
-ただし記事ごとに 1 リクエスト要り、REST より負荷が大きい) / 商工会議所への
-アクセス許可の相談 / 手元での定期実行。
+#### sitemap は使えなかった
+
+はんのーとの解決策 (`post-sitemap.xml`、`WatchCrow/README.md` 参照) はそのまま
+使えない。商工会議所の sitemap は Google Sitemap Generator 製で
+`sitemap-pt-page-*` (固定ページ) しか含まず、**カスタム投稿タイプ `xo_event` が
+載っていない**。
+
+#### RSS が CI から通るかは未確認
+
+RSS も遮断されうる。`WatchCrow/README.md` の `sitemap` 型の説明が「REST API や
+**RSS** が使えないサイト向け」となっており、その可能性を示している。
+
+REST の 403 を繰り返した結果いま CI の IP が締め出されている可能性が高く
+(2026-08-20 17:01 に HTML まで到達不能になった)、この状態で試しても判定できない
+うえ締め出しを長引かせる。**日を改めて確認する。**
+
+有効化する場合は `--min-items` を **1 以上**にすること。0 は「1 件も取れない異常を
+CI が緑のまま通す」設定で、実際 2026-08-20 の REST 遮断はこれで見逃された。
 
 ### 落とし穴: ユーザー OAuth が SA 認証を上書きする (対処済み)
 

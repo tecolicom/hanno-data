@@ -124,8 +124,8 @@ canonical に管理する仕組み。JP/EN 2 言語 × default/gikai 2 系統 = 
 - **市長ブログ** (`cal-shicho-blog-fetch`): 本文込み掲載、LLM 不使用。incremental mode (dtstart=取得日) で バックデート公開も新着として拾う
 - **飯能市公式お知らせ** (`cal-oshirase-fetch`): 長文は Claude Haiku 4.5 で要約。同じ記事が更新されたら `source.supersedes` で前世代を辿れ、`description` 冒頭に「前回掲載日」と LLM 生成の「主な変更」が付く
 - **飯能商工会議所 / 日替わりシェフレストラン** (`cal-cci-chef-fetch`): **集合同期型の新系統**。ページに埋め込まれた FullCalendar の JSON を決定論パース (LLM 不使用)。既存クローラが「記事 1 本 = イベント 1 個」の追記型なのに対し、こちらは 1 ページに全件が載るので**取得側に無い予定は削除する**。誤削除を防ぐため、削除は取得範囲内かつ今日以降のものに限り、件数が上限を超えたら何も書かずに中止する
-- **飯能商工会議所 / 告知** (`cal-cci-event-fetch`): WordPress REST API (`xo_event`)。お知らせ・セミナー・経営支援・地域振興の 4 カテゴリ (**検定は除外** — 大半が合格者番号発表で、掲載日に載せても「その日に何かが起きる」わけではない)。長文は Claude Haiku で要約。**開催日は REST に出てこない** (meta 非公開) ので dtstart は掲載日。
-  **⚠️ CI からは実行していない** — `/wp-json/` が GitHub Actions の IP (米国) から遮断されるため。手元 (日本の回線) からは動く。詳細と経緯は [`calendar/README.md`](./calendar/README.md)
+- **飯能商工会議所 / 告知** (`cal-cci-event-fetch`): カテゴリ別 **RSS** (`xo_event_cat/<slug>/feed/`)。お知らせ・セミナー・経営支援・地域振興の 4 カテゴリ (**検定は除外** — 大半が合格者番号発表で、掲載日に載せても「その日に何かが起きる」わけではない)。長文は Claude Haiku で要約。**開催日は取れない** (postmeta にあり REST も RSS も出さない) ので dtstart は掲載日。
+  **⚠️ CI では未有効化** — WordPress REST API (`/wp-json/`) が GitHub Actions の IP (米国) から遮断されるため RSS に切り替えた。RSS が CI から通るかは未確認。手元 (日本の回線) からは動く。詳細と経緯は [`calendar/README.md`](./calendar/README.md)
 - **英訳** (`cal-translate-en`): 全 events の英訳を `translations.en.*` に in-place 格納。ただし EN カレンダーを持たない source (`hanno-cci-chef`) は除外
 
 AI 生成コンテンツの表示方針は [`docs/ai-content-policy.md`](./docs/ai-content-policy.md) 参照。

@@ -1,4 +1,4 @@
-uid: "cci-event-2381-fd270e@hanno.city.tecoli.com"
+uid: "cci-event-2381-60a3a7@hanno.city.tecoli.com"
 summary: "ℹ️ 埼玉県内企業の皆さまへ‐支援金・支援情報‐をご活用ください"
 location: "飯能商工会議所"
 url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2381/"
@@ -7,9 +7,9 @@ dtend: "2026-01-15"
 description: |-
   埼玉県内企業の皆さまへ‐支援金・支援情報‐をご活用ください！また当所職員までお気軽にご相談ください。
   
-  ◾️ 埼玉県内企業の皆さまへ
+  埼玉県内企業の皆さまへ
   
-  ◾️ 事業者支援情報検索アプリ
+  事業者支援情報検索アプリ
   
   担当課：相談所
   
@@ -25,23 +25,25 @@ source:
   url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2381/"
   category: "お知らせ"
   summary_method: "full"
-  content_hash: "sha256-fd270e2e0cfbe7f8"
+  content_hash: "sha256-60a3a7214d54f0a9"
 translations:
   en:
-    summary: "ℹ️ Companies in Saitama Prefecture – Use available support funds and information"
+    summary: "ℹ️ Saitama Prefecture Businesses: Make Use of Support Funds and Information"
     description: |-
       Automated translation (refer to source for accuracy)
       
-      Companies in Saitama Prefecture – Make use of available support funds and support information! Our staff are also happy to help with any questions you may have.
+      Saitama Prefecture Businesses: Make Use of Support Funds and Information!
       
-      • Information for companies in Saitama Prefecture
+      Please feel free to consult with our staff members as well.
       
-      • Business support information search app
+      For Saitama Prefecture Businesses
       
-      Responsible department: Consultation Office
+      Business Support Information Search App
+      
+      Department in charge: Consultation Office
       
       Source (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2381/
-    translation_hash: "sha256-12ab3394b51a3127"
+    translation_hash: "sha256-31a4784fa717902a"
     model: "claude-haiku-4-5"
-    translated_at: "2026-08-20T14:55:48.099550Z"
+    translated_at: "2026-08-20T23:49:53.638073Z"
     format_version: 3

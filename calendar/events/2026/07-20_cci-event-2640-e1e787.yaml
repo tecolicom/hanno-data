@@ -1,5 +1,5 @@
-uid: "cci-event-2640-1d8b0d@hanno.city.tecoli.com"
-summary: "🎓 いつでも♪どこでも♪何度でも♪８月のおすすめWEBセミナー情報　"
+uid: "cci-event-2640-e1e787@hanno.city.tecoli.com"
+summary: "🎓 いつでも♪どこでも♪何度でも♪８月のおすすめWEBセミナー情報"
 location: "飯能商工会議所"
 url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2640/"
 dtstart: "2026-07-20"
@@ -33,28 +33,30 @@ source:
   url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2640/"
   category: "セミナー"
   summary_method: "full"
-  content_hash: "sha256-1d8b0d4e720b7837"
+  content_hash: "sha256-e1e78719c8a2acb6"
 translations:
   en:
-    summary: "🎓 Anytime ♪ Anywhere ♪ As Many Times as You Like ♪ August's Recommended WEB Seminars"
+    summary: "🎓 Anytime ♪ Anywhere ♪ As Many Times as You Like ♪ August Recommended Web Seminar Information"
     description: |-
       Automated translation (refer to source for accuracy)
       
-      Our seminar coordinators introduce this month's recommended WEB seminars.
+      Our seminar team introduces this month's recommended web seminars.
       
       【Title】
-      Accounting Fundamentals for Accounting Staff: Understanding Financial Statements
+      Accounting Fundamentals for Accounting Staff — Reading Financial Statements
       
       【Instructor】
-      Hiroki Imazeki (Certified Tax Accountant)
+      Hiroki Imazeki (Imazeki Hiroki)
+      Certified Tax Accountant
       
       【Overview】
-      A comprehensive course covering accounting practice from journal entries and ledgers through to financial statements and how to read them. You'll develop the ability to understand a company's financial position and performance from the numbers, and gain the confidence to answer the president's questions. Refresh your accounting fundamentals and raise the quality of your work! (Recorded: June 9, 2026) (Available until: September 30, 2026) (71 minutes)
+      A comprehensive course covering accounting practice from journal entries and ledgers through settlement and how to read financial statements. You'll develop the ability to understand financial condition and business performance from the numbers, and answer the company president's questions with confidence. Refresh your knowledge of accounting fundamentals and improve the quality of your work! (Recorded: June 9, 2026) (Available until: September 30, 2026) (71 minutes)
       
-      ※Viewing WEB seminars is a member benefit of Hanno Chamber of Commerce and Industry. Member businesses wishing to receive the ID and password needed to view the seminars should contact your representative.
+      ※ Viewing web seminars is a member benefit of Hanno Chamber of Commerce and Industry.
+      Member businesses wishing to receive login ID and password for viewing should contact their assigned staff member.
       
       Source (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2640/
-    translation_hash: "sha256-c75c0b8b0e6f73f7"
+    translation_hash: "sha256-2fdba89ba960bd9d"
     model: "claude-haiku-4-5"
-    translated_at: "2026-08-20T14:57:43.192050Z"
+    translated_at: "2026-08-20T23:50:11.007494Z"
     format_version: 3

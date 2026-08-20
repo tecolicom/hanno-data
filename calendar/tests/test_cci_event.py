@@ -57,6 +57,68 @@ def test_content_hash_ignores_summary_method():
     assert len(a) == 16, a
 
 
+# ---------- RSS のパース ----------
+
+RSS_ITEM = '''<item>
+	<title>「年収の壁の見直しで注意すべき税制実務のポイント」の開催について</title>
+	<link>https://www.hanno-cci.or.jp/xo_event/xo_event-2778/</link>
+	<dc:creator><![CDATA[editor]]></dc:creator>
+	<pubDate>Tue, 11 Aug 2026 00:00:36 +0000</pubDate>
+	<guid isPermaLink="false">https://www.hanno-cci.or.jp/?post_type=xo_event&#038;p=2778</guid>
+	<description><![CDATA[「年収の壁」の見直しにより…]]></description>
+	<content:encoded><![CDATA[<p>本文の一行目。</p>
+<p>本文の二行目。</p>]]></content:encoded>
+</item>'''
+
+RSS_XML = f'<?xml version="1.0"?><rss><channel>{RSS_ITEM}</channel></rss>'
+
+
+def test_parse_feed_extracts_fields():
+    got = m.parse_feed(RSS_XML, "seminar")
+    assert len(got) == 1, got
+    p = got[0]
+    assert p["id"] == 2778, p
+    assert p["date"] == "2026-08-11", p
+    assert p["link"] == "https://www.hanno-cci.or.jp/xo_event/xo_event-2778/", p
+    assert p["title"]["rendered"].startswith("「年収の壁"), p
+    assert "本文の一行目" in p["content"]["rendered"], p
+    assert p["xo_event_cat"] == [20], p        # seminar → term id 20
+
+
+def test_pubdate_is_converted_to_jst():
+    # pubDate は UTC。JST に直してから日付にする。
+    # 2026-08-11T00:00:36Z = 2026-08-11 09:00 JST → 同じ日
+    assert m.parse_feed(RSS_XML, "seminar")[0]["date"] == "2026-08-11"
+    # 2026-08-11T20:00:00Z = 2026-08-12 05:00 JST → 翌日になる
+    late = RSS_XML.replace("Tue, 11 Aug 2026 00:00:36 +0000",
+                           "Tue, 11 Aug 2026 20:00:00 +0000")
+    assert m.parse_feed(late, "seminar")[0]["date"] == "2026-08-12"
+
+
+def test_slug_to_category_id():
+    assert m.SLUG_TO_CAT_ID == {"promotion": 8, "seminar": 20,
+                                "manage": 10, "news": 7}, m.SLUG_TO_CAT_ID
+    assert "exam" not in m.SLUG_TO_CAT_ID          # 検定は除外
+
+
+def test_merge_dedupes_by_post_id():
+    # 複数カテゴリを持つ記事は複数のフィードに現れる。記事 ID で名寄せする
+    # (名寄せしないと実データで 60 件に見える。実際は 49 件)。
+    a = m.parse_feed(RSS_XML, "seminar")
+    b = m.parse_feed(RSS_XML, "manage")
+    merged = m.merge_posts([a, b])
+    assert len(merged) == 1, merged
+    # カテゴリは両方が残る (CATEGORIES の定義順で category_of が選ぶ)
+    assert sorted(merged[0]["xo_event_cat"]) == [10, 20], merged[0]
+
+
+def test_merge_keeps_posts_sorted_newest_first():
+    old = RSS_XML.replace("Tue, 11 Aug 2026 00:00:36 +0000",
+                          "Mon, 05 Jan 2026 00:00:00 +0000").replace("p=2778", "p=1111")
+    merged = m.merge_posts([m.parse_feed(RSS_XML, "seminar"), m.parse_feed(old, "news")])
+    assert [p["id"] for p in merged] == [2778, 1111], merged
+
+
 def test_kentei_category_is_not_in_scope():
     # 9 (検定) を取り込み対象に入れない (設計判断の回帰テスト)
     assert 9 not in m.CATEGORIES, m.CATEGORIES
