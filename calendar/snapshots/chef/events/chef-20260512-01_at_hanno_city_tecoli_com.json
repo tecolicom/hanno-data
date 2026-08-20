@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-20T07:28:52.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "ダルバート（ネパール料理）\n\nhttps://www.hanno-cci.or.jp/manage/founded/#02",
+  "end": {
+    "date": "2026-05-13"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkazZhcGhkNjhvMzRkaGc2a29qNGI5ZzY1MDZnb2JlZHBuaXNvcjllaHNpc3QzNWNkbm1vcTllY2RubXEgYWUxNTc3ZjM2ZDJiNTFkYjIwOGJhZWM1OWNjODRlOTBjZWFiMjVkNDFiYWQxNjZiNDJjMzdmYjcwNjNmNGE0NkBn",
+  "iCalUID": "chef-20260512-01@hanno.city.tecoli.com",
+  "id": "_cdk6aphd68o34dhg6koj4b9g6506gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "日替わりシェフレストラン",
+  "organizer": {
+    "displayName": "📍 日替わりシェフレストラン",
+    "email": "ae1577f36d2b51db208baec59cc84e90ceab25d41bad166b42c37fb7063f4a46@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/manage/founded/#02"
+  },
+  "start": {
+    "date": "2026-05-12"
+  },
+  "status": "confirmed",
+  "summary": "浮き雲",
+  "updated": "2026-08-20T07:28:53.066Z"
+}
