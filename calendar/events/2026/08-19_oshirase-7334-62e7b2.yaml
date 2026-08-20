@@ -5,7 +5,6 @@ dtstart: "2026-08-19"
 dtend: "2026-08-19"
 description: |-
   🔄 内容更新 (公開日: 2026-08-07 / 前回掲載: 2026-08-08)
-  主な変更: 物件Aの最低売却価格が1,970万円から1,970万円に、入札保証金が295.5万円から295.5万円に変更されました。物件Bの最低売却価格が4,690万円から4,690万円に、入札保証金が703.5万円から703.5万円に変更されました。
   
   AI による要約 (正確な情報は元記事をご確認ください)
   
@@ -48,7 +47,6 @@ translations:
       Automated translation (refer to source for accuracy)
       
       🔄 Content update (published August 7, 2026 / previously listed August 8, 2026)
-      Main changes: Property A minimum sale price changed from ¥19.7 million to ¥19.7 million, bid guarantee changed from ¥2.955 million to ¥2.955 million. Property B minimum sale price changed from ¥46.9 million to ¥46.9 million, bid guarantee changed from ¥7.035 million to ¥7.035 million.
       
       Hanno City will sell three city-owned properties through general competitive bidding.
       
@@ -68,7 +66,8 @@ translations:
       If bundle bids are received but no individual bids are submitted, the bundle bid takes priority. Application documents are available on the city's official website.
       
       Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/shisannkeiei/7334.html
-    translation_hash: "sha256-d1fb8c706e8f9c41"
+    translation_hash: "sha256-1a2458a73ce50c3d"
+
     model: "claude-haiku-4-5"
     translated_at: "2026-08-18T18:30:08.575064Z"
     format_version: 3
