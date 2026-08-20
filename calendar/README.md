@@ -11,9 +11,65 @@ Myはんのう Google カレンダー群 (`tecolicom@gmail.com` 所有、`city.t
   - `source:` なし → 手動キュレーション (クローラは絶対に触らない、不可侵)
 - **英訳は YAML 内 `translations.en.*` に格納**: 元の summary/description は不変、英訳が追加情報として隣に並ぶ
 
+## クローラの 2 系統
+
+ソースが**どういう単位で配布されるか**で、扱いが根本的に変わる。
+
+| | 追記型 | 集合同期型 |
+|---|---|---|
+| 配布単位 | 記事 1 本 = イベント 1 個 | 1 エンドポイントに全件 |
+| UID の根拠 | 記事 ID | 日付 + 連番 |
+| 消えたものの解釈 | **判別不能** (取り下げか、一覧から溢れただけか区別できない) | **不在 = 予定から外れた** |
+| 同期 | upsert のみ | **upsert + prune** |
+| 該当 | tourism / tourism-news / oshirase / shicho-blog / gikai / shiminkaikan | **cci-chef** |
+
+集合同期型の中核は `_lib` の 2 関数。削除の可否を決める純粋関数
+`plan_set_sync()` と、その決定を実行する I/O ラッパ `sync_set()`。
+Calendar 側への削除の伝播は `cal-myhanno prune` が担う。
+
+### 削除ガード
+
+`plan_set_sync()` が削除するのは、以下を**すべて**満たすものだけ:
+
+1. 既存側にあり取得側に無い
+2. `dtstart` が取得集合の日付範囲 `[min, max]` の内側 — ソースはローリング
+   ウィンドウなので、範囲外の過去分を守る
+3. `dtstart >= today` — 時間が経って流れていった予定は記録として残す
+
+加えて削除数が上限を超えたら `SetSyncTooManyDeletions` を投げ、**1 バイトも
+書かずに**中止する。取得が 0 件のときは日付範囲を定義できないので何も削除しない。
+
+「ページから消えた」という事実からは、中止なのか予定変更なのか入力ミスの訂正
+なのかを**我々は知り得ない**。したがって `status: canceled` のような**根拠の
+ない状態表示は行わない**。単に削除する。
+
+### prune は `fetch --update-manual` より前に置く
+
+CI のステップ順序が設計の一部である。`cal-myhanno fetch --update-manual` は
+「Calendar にあって YAML に無い event を新規 YAML 化」する経路で、生成される
+YAML は `event_to_yaml()` が作るため **`source:` を持たない**。
+
+したがって prune を後ろに置くと:
+
+```
+crawler が YAML 削除 → Calendar には残存 → fetch --update-manual が拾う
+  → source: なしの YAML として復活 → 以後「手動キュレーション」扱いで不可侵
+  → クローラは二度と触れず、Calendar に永久に残る
+```
+
+**削除したはずの予定が、不可侵な手動イベントとして蘇生する。**
+
+なお `prune` の対象は `--uid-prefix` で限定される (必須引数)。これは既存
+カレンダーへの誤爆を防ぐと同時に、**同じカレンダーに人間が手で足した予定を
+守る**役割も持つ (UID が違うので対象に入らない)。
+
+設計の詳細は
+[`docs/superpowers/specs/2026-08-19-schedule-set-sync-design.md`](../docs/superpowers/specs/2026-08-19-schedule-set-sync-design.md)。
+
 ## カレンダー構成
 
-JP/EN の 2 言語 × 用途別 2 系統 = 4 カレンダーを Service Account 1 つで管理:
+JP/EN の 2 言語 × 用途別 2 系統 = 4 カレンダー、加えて店舗カレンダー 1 本を
+Service Account 1 つで管理:
 
 | logical key | calendar 名 | 内容 | 対応 source.type |
 |---|---|---|---|
@@ -21,6 +77,14 @@ JP/EN の 2 言語 × 用途別 2 系統 = 4 カレンダーを Service Account 
 | `gikai` | 飯能市役所 | 市政情報・市長ブログ・お知らせ | city-hanno-gikai / city-hanno-shicho-blog / city-hanno-oshirase |
 | `default.en` | Myはんのう（EN） | `default` の英訳 (同 source.type) | (同上) |
 | `gikai.en` | 飯能市役所（EN） | `gikai` の英訳 (同 source.type) | (同上) |
+| `chef` | 日替わりシェフレストラン | 商工会議所の当番表 (**EN なし**) | hanno-cci-chef |
+
+`chef` だけ EN 版が無い。`default.en` / `gikai.en` が要るのは `@hanno/` が ical を
+2 言語で配信しているからで、`chef` は**店舗ページに紐付く shop カレンダー**なので
+その経路に乗らない。city-tecoli の店舗ページには i18n の仕組みが無く、訳文を
+表示する場所が存在しないため、`cal-translate-en` の
+`NO_TRANSLATION_SOURCE_TYPES` で明示的に除外している (除外を書かないと
+`translations.en.*` が付き、毎日 LLM を無駄に呼ぶ)。
 
 routing は `source.type` ベース。`source.type` → `default` or `gikai` のマッピングが
 `bin/cal-myhanno` の `SOURCE_TYPE_TO_CALENDAR` に定義。英語カレンダーは
@@ -39,6 +103,7 @@ calendar/
 │   ├── cal-gikai-fetch          飯能市議会 議事日程取得
 │   ├── cal-shicho-blog-fetch    市長ブログ取得 + 本文掲載 (LLM 不使用)
 │   ├── cal-oshirase-fetch       飯能市公式お知らせ取得 + LLM 要約
+│   ├── cal-cci-chef-fetch       商工会議所 日替わりシェフ当番表 (集合同期型、LLM 不使用)
 │   └── cal-translate-en         events/ 全 YAML を英訳して translations.en.* に格納
 ├── sources.yaml                 クローラの source 別 city 固有設定 (URL / prefix 等、多都市化用)
 ├── events/                      canonical YAML (1 イベント 1 ファイル)
@@ -78,6 +143,8 @@ calendar/
 | event YAML 操作 | `read_yaml_scalar`, `read_yaml_block(path, key)`, `existing_content_hash_matches`, `output_path_for`, `find_existing_by_uid` |
 | description 分解 | `strip_status_header(text)` — 冒頭の 🆕/🔄/📝 ブロックを除去 / `split_description(text)` — AI disclaimer 行と末尾 URL 行を剥がし `(本文, source_url)` を返す (status 行は残す。EN 側で訳すため) / `split_photo_lines(text)` — 末尾の `写真: <url>` 行群を剥がし `(本文, [url,…])` を返す / `format_photo_lines(urls, label, number_sep)` — その逆 (1 枚なら `写真:`、複数なら `写真1:` …) |
 | クローラ設定 | `load_source_config(source_key)` — `../sources.yaml` から source 別の city 固有設定 dict を読む (不在 key は KeyError) |
+| 文字種正規化 | `normalize_char_width(s)` — 全角 ASCII → 半角、半角カナ → 全角。**寄せないもの**: 大小文字の差、全角スペース U+3000、全角括弧、全角ティルダ (`normalize_tilde` の担当) |
+| 集合同期 | `plan_set_sync(existing, incoming, dates, today, max_delete)` — 削除可否の判定 (純粋関数、上記「削除ガード」) / `sync_set(out_dir, uid_prefix, items, render_doc, today, max_delete, dry_run)` — その実行 / `set_sync_uid` / `set_sync_hash` (**イベント単位**の content_hash) / `SetSyncTooManyDeletions` |
 
 ## 認証
 
@@ -691,13 +758,26 @@ python3 calendar/tests/run-golden --update   # golden 再生成 (初回 / 意図
 python3 calendar/tests/capture-fixtures      # fixtures を実サイトから再取得 (dev tool、ネットワーク使用)
 ```
 
-golden シナリオは 3 本:
+golden シナリオ:
 
 | golden dir | crawler | seed | 何を固定するか |
 |---|---|---|---|
 | `cal-oshirase-fetch` | oshirase | 無し | 新着掲載 (🆕) の出力 |
 | `cal-oshirase-update` | oshirase | `seed/cal-oshirase-update/` | 既存 YAML がある状態での更新検知 (🔄 + `supersedes`) |
 | `cal-shicho-blog-fetch` | shicho-blog | 無し | 市長ブログの出力 |
+| `cal-tourism-news-fetch` | tourism-news | 無し | 告知 / 本番の 2 イベント生成 |
+| `cal-tourism-news-existing` | tourism-news | `seed/cal-tourism-news-existing/` | 再実行で重複・移動が起きないこと |
+| `cal-cci-chef-fetch` | cci-chef | 無し | 当番表 95 件の初回取込 |
+| `cal-cci-chef-update` | cci-chef | `seed/cal-cci-chef-update/` | 既存 YAML が更新されること |
+| `cal-cci-chef-delete` | cci-chef | `seed/cal-cci-chef-delete/` | 取得側に無い**未来**の予定が消えること |
+| `cal-cci-chef-keep-past` | cci-chef | `seed/cal-cci-chef-keep-past/` | 取得側に無くても**過去**の予定は残ること |
+
+集合同期型 (cci-chef) の削除は「**golden にそのファイルが無い**」という形で
+表現される — `run-golden` が生成ファイルの key set を golden と比較するため、
+消えたファイルは key set の差として検出される。また削除判定は「今日」に依存
+するので、`SET_SYNC_TODAY` で基準日を固定して `--today` で渡している (固定
+しないと fixture 内の予定が日々「過去」に流れ、削除の可否が変わって golden が
+壊れる)。
 
 - `fetch` / `fetch_with_cache` を monkeypatch して `fixtures/<crawler>/`
   (+ `manifest.json` で url→file) を返す。oshirase は `_llm_available()` を False に固定して

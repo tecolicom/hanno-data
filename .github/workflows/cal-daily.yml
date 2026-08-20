@@ -107,6 +107,21 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: ./calendar/bin/cal-oshirase-fetch --out-dir calendar/events --min-items 0 || echo "city-hanno-oshirase" >> "$RUNNER_TEMP/crawl-failures.txt"
 
+      - name: Crawl hanno-cci-chef
+        # 集合同期型。取得側に無い予定は YAML から削除される。削除ガードは
+        # _lib.plan_set_sync (取得範囲内かつ今日以降のみ、上限超過なら exit 3 で
+        # 何も書かない)。LLM 不使用なので API キーは要らない。
+        run: ./calendar/bin/cal-cci-chef-fetch --out-dir calendar/events --min-events 20 || echo "hanno-cci-chef" >> "$RUNNER_TEMP/crawl-failures.txt"
+
+      - name: Prune removed chef events from Calendar
+        # **このステップは次の "Fetch manual Calendar additions" より前でなければ
+        # ならない。** 後ろに置くと、YAML を消したのに Calendar に残った孤児を
+        # fetch --update-manual が source: なしの YAML として拾い、以後
+        # 「手動キュレーション = 不可侵」扱いになって二度と削除できなくなる。
+        env:
+          GOOGLE_APPLICATION_CREDENTIALS: /tmp/sa.json
+        run: ./calendar/bin/cal-myhanno prune --uid-prefix chef -d calendar/events --snapshot-dir calendar/snapshots
+
       - name: Fetch manual Calendar additions + sync manual edits
         # 手動 event は Calendar UI が canonical。新規追加と既存編集の両方を YAML に取り込む。
         # クローラ管理 (source: あり) の YAML は触らない (クローラ + apply-all の責務領域)。

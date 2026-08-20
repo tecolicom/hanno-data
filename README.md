@@ -120,13 +120,15 @@ canonical に管理する仕組み。JP/EN 2 言語 × default/gikai 2 系統 = 
 - **飯能市議会** (`cal-gikai-fetch`): 議事日程
 - **市長ブログ** (`cal-shicho-blog-fetch`): 本文込み掲載、LLM 不使用。incremental mode (dtstart=取得日) で バックデート公開も新着として拾う
 - **飯能市公式お知らせ** (`cal-oshirase-fetch`): 長文は Claude Haiku 4.5 で要約。同じ記事が更新されたら `source.supersedes` で前世代を辿れ、`description` 冒頭に「前回掲載日」と LLM 生成の「主な変更」が付く
-- **英訳** (`cal-translate-en`): 全 events の英訳を `translations.en.*` に in-place 格納
+- **飯能商工会議所 / 日替わりシェフレストラン** (`cal-cci-chef-fetch`): **集合同期型の新系統**。ページに埋め込まれた FullCalendar の JSON を決定論パース (LLM 不使用)。既存クローラが「記事 1 本 = イベント 1 個」の追記型なのに対し、こちらは 1 ページに全件が載るので**取得側に無い予定は削除する**。誤削除を防ぐため、削除は取得範囲内かつ今日以降のものに限り、件数が上限を超えたら何も書かずに中止する
+- **英訳** (`cal-translate-en`): 全 events の英訳を `translations.en.*` に in-place 格納。ただし EN カレンダーを持たない source (`hanno-cci-chef`) は除外
 
 AI 生成コンテンツの表示方針は [`docs/ai-content-policy.md`](./docs/ai-content-policy.md) 参照。
 
 CI 自動化 (GitHub Actions):
-- `cal-daily.yml` (03:00 JST + `calendar/bin/**` push trigger) — 全 fetcher 実行 → events commit → JP Calendar 反映 → `cal-translate-en` で英訳 → translations commit → EN Calendar 反映 → snapshot
-- `cal-golden-test.yml` (`calendar/bin/**` / `sources.yaml` / `tests/**` の push・PR) — `calendar/tests/run-golden` でクローラ出力 YAML がバイト一致で維持されているか hermetic 検証 (カレンダー氾濫の回帰防止)
+- `cal-daily.yml` (03:00 JST + `calendar/bin/**` push trigger) — 全 fetcher 実行 → **`cal-myhanno prune` で削除を Calendar へ伝播** → events commit → JP Calendar 反映 → `cal-translate-en` で英訳 → translations commit → EN Calendar 反映 → snapshot
+  - **prune は `fetch --update-manual` より前に置く必要がある。** 後ろだと、YAML を消したのに Calendar に残った孤児を `fetch` が `source:` なしの YAML として拾い、以後「手動キュレーション = 不可侵」扱いになって二度と削除できなくなる (詳細は [`calendar/README.md`](./calendar/README.md) の「クローラの 2 系統」)
+- `cal-golden-test.yml` (`calendar/bin/**` / `sources.yaml` / `tests/**` の push・PR) — `calendar/tests/run-golden` でクローラ出力 YAML がバイト一致で維持されているか hermetic 検証 (カレンダー氾濫の回帰防止) + `calendar/tests/test_*.py` のユニットテスト実行
 
 golden 網とは別に、純粋関数・API ラッパのユニットテストが `calendar/tests/test_*.py` にある
 (すべてネットワーク非依存)。一覧は [`calendar/README.md`](./calendar/README.md) の

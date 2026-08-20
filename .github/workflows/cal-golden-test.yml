@@ -31,3 +31,15 @@ jobs:
 
       - name: Run golden test
         run: python3 calendar/tests/run-golden
+
+      - name: Run unit tests
+        # test_*.py は個別に自己実行できる (pytest 非依存)。golden 網とは別に
+        # 純粋関数を検証しており、集合同期の削除ガード (plan_set_sync) も
+        # ここで守られている。
+        run: |
+          fail=0
+          for t in calendar/tests/test_*.py; do
+            echo "--- $t"
+            python3 "$t" || fail=1
+          done
+          exit $fail
