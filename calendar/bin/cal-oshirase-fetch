@@ -49,7 +49,7 @@ from _lib import (
     strip_markdown, AI_DISCLAIMER_JP,
     output_path_for, find_existing_by_uid, load_source_config,
     load_http_cache, save_http_cache, fetch_with_cache, dtstart_from_last_modified,
-    call_llm, llm_available,
+    call_llm, llm_available, normalize_char_width,
 )
 
 JST = timezone(timedelta(hours=9))
@@ -135,6 +135,11 @@ DIFF_SYSTEM_PROMPT = """あなたは飯能市公式サイトのお知らせ記�
 - Markdown 記法 (**太字**、# 見出し、- リスト等) は一切使わない。出力先は Google カレンダーの予定欄で literal 表示されます。
 - 変更内容だけを返す。前置きや「以下が変更点です」等の説明は不要。
 """
+# 注意: 上の「〜が〜に変更されました」の制約は、この指示だけでは守られない。
+# temperature=0 でも同値の対を書く事例が本番で出た (2026-08-19)。**プロンプトを
+# 強める方向で直そうとしないこと** — 生成後に drop_unchanged_claims() が機械的に
+# 検査して落とす仕組みが入っている。プロンプト側は「なるべく出さない」ための
+# 一次防御で、最終的な保証はコード側にある。
 
 
 # ==================== Logic ====================
@@ -227,6 +232,51 @@ def summarize_with_llm(title: str, body: str) -> str | None:
     return strip_markdown(text, bullet="・")
 
 
+# 「〜から〜に」の対。左辺は「値」の maximal な token を取るため、直前が数字・
+# カンマでないことを要求する (負の後読み)。これが無いと「1,970万円から970万円に」
+# の左辺から "970万円" だけを切り出してしまい、真の変更を同値と誤判定する。
+_CLAIM_RE = re.compile(
+    r"(?<![0-9０-９,，])([0-9０-９][0-9０-９,，.．]*[^\s、。]{0,6}?)から"
+    r"([0-9０-９][0-9０-９,，.．]*[^\s、。]{0,6}?)に")
+
+
+def _claim_value_key(s: str) -> str:
+    """同値判定用の正規化キー。全角/半角とカンマの差を吸収する。"""
+    return normalize_char_width(s).replace(",", "").replace("，", "").strip()
+
+
+def drop_unchanged_claims(text: str | None) -> str | None:
+    """「A から A に変更されました」という同値の主張を落とす (機械検算).
+
+    LLM は変更を説明させられると、名指しできる変更が無い場面でも手元の値で型を
+    埋めてしまうことがある。DIFF_SYSTEM_PROMPT で明示的に禁じ temperature=0 に
+    しても発生した (2026-08-19 本番: 4 対すべて同値の「主な変更」が出た) ため、
+    生成後にコード側で検査する。プロンプトを強める方向では再発する。
+
+    単位は **文** (`。` 区切り)。同値の対を 1 つでも含む文は、その文の生成が
+    信用できない証拠なので丸ごと捨てる (節だけ削ると日本語が壊れる)。真の変更を
+    述べた別の文は残す。全部落ちたら None = 「主な変更」行を出さない。
+
+    検出は数値を伴う対に限る。非数値の同値 (「会場が A から A に」) も理屈上
+    ありえるが、緩いパターンは真の変更通知を誤って削除する危険がある。観測された
+    失敗は数値であり、そこだけを確実に止める。
+    """
+    if not text or not text.strip():
+        return None
+
+    kept: list[str] = []
+    for sentence in re.split(r"(?<=。)", text):
+        if not sentence.strip():
+            continue
+        pairs = _CLAIM_RE.findall(sentence)
+        if any(_claim_value_key(a) == _claim_value_key(b) for a, b in pairs):
+            continue     # 同値を含む = この文は信用できない
+        kept.append(sentence)
+
+    out = "".join(kept).strip()
+    return out or None
+
+
 def diff_with_llm(title: str, prev_summary: str, new_body: str) -> str | None:
     """前回の要約と今回の本文を比較し「主な変更」の本文を返す。失敗/変更なしは None。"""
     if not prev_summary.strip() or not new_body or len(new_body) < MIN_BODY_CHARS:
@@ -244,7 +294,10 @@ def diff_with_llm(title: str, prev_summary: str, new_body: str) -> str | None:
         return None
     text = strip_markdown(text, bullet="・")
     # 改行は status header を壊すので 1 行に畳む
-    return " ".join(text.split()) or None
+    line = " ".join(text.split()) or None
+    # 生成後の機械検算。プロンプトで禁じても「A から A に変更」が出るため
+    # (drop_unchanged_claims の docstring 参照)、コード側で最後に止める。
+    return drop_unchanged_claims(line)
 
 
 # ---------- description 組立 ----------
