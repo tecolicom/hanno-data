@@ -1,0 +1,58 @@
+uid: "cci-event-2778-3c439d@hanno.city.tecoli.com"
+summary: "🎓 「年収の壁の見直しで注意すべき税制実務のポイント」の開催について"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2778/"
+dtstart: "2026-08-11"
+dtend: "2026-08-11"
+description: |-
+  「年収の壁」の見直しにより、パート・アルバイトを含む従業員の給与管理や税務処理に大きな影響が出る可能性があります。
+  本セミナーでは、年末調整時に注意すべきポイントを中心に、最新の税制改正を踏まえた実務対応を解説します。扶養の適用基準や社会保険との関係を整理し、実務に即した対応策を学びましょう。
+  特に、企業の給与担当者・人事労務担当者が知るべき手続きや税務調整の実務を具体的に取り上げます。
+  詳細は別添チラシよりご覧ください。
+  
+  申し込み方法
+  
+  チラシにございます申込書よりFAXか、QRコードまたは下記リンクより電子申請にてお申し込みください。
+  
+  お申し込み
+  
+  ■ お申し込みはこちらから　【セミナー申込Ｆ】
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2778/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2778"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2778/"
+  category: "セミナー"
+  summary_method: "full"
+  content_hash: "sha256-3c439dc986e9337d"
+translations:
+  en:
+    summary: "🎓 Seminar: \"Key Tax Practices to Watch When the 'Annual Income Threshold' Rules Change\""
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Changes to the "annual income threshold" (年収の壁) rules may significantly affect payroll management and tax handling for employees, including part-time and temporary workers.
+      
+      This seminar focuses on key points to watch during year-end tax settlement, explaining practical steps based on the latest tax law changes. You'll learn how to organize eligibility standards for dependent status and its relationship with social insurance, and how to apply these rules in your actual work.
+      
+      We'll specifically cover procedures and tax adjustment practices that payroll and human resources staff need to know.
+      
+      For full details, see the attached flyer.
+      
+      【How to apply】
+      
+      Submit the application form from the flyer by FAX, scan the QR code, or apply electronically using the link below.
+      
+      ■ Apply here: [Seminar Application F]
+      
+      Source (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2778/
+    translation_hash: "sha256-fbc3221d7604e7ec"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-20T14:57:58.162454Z"
+    format_version: 3

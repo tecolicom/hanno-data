@@ -1,0 +1,67 @@
+uid: "cci-event-2716-f2d93d@hanno.city.tecoli.com"
+summary: "💼 会員企業さまへ経営サポーター制度活用のご案内 【埼玉県】"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2716/"
+dtstart: "2026-04-20"
+dtend: "2026-04-20"
+description: |-
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  埼玉県経営サポーター制度のご案内
+  
+  埼玉県は県内中小企業・小規模事業者の適正な利益確保と賃上げ環境整備を支援するため、令和8年3月31日から「経営サポーター」を新設します。
+  
+  実施期間：令和8年3月31日～令和9年3月
+  
+  経営サポーターの支援内容：
+  - 県の各種支援策をご案内
+  - 事業者からの相談を受け付け、支援策をマッチング
+  - 利益確保・賃上げ環境整備に向けた伴走支援を実施
+  
+  支援は無料です。支援期間終了後も商工会議所・商工会の経営指導員による継続支援があります。
+  
+  飯能商工会議所では埼玉県・埼玉県商工会議所連合会と連携し、会員企業様への制度活用のご案内をお電話でご連絡する場合がありますので、あらかじめご了承ください。
+  
+  詳細は埼玉県ホームページをご確認ください。
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2716/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2716"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2716/"
+  category: "経営支援"
+  summary_method: "llm-haiku-4-5"
+  content_hash: "sha256-f2d93df298eca306"
+translations:
+  en:
+    summary: "💼 Notice for Member Companies: Saitama Business Management Support Program"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Saitama Business Management Support Program Guide
+      
+      Saitama Prefecture is launching a new "Management Supporter" program starting March 31, 2026 (Reiwa 8) to help small and mid-sized businesses and small business operators in the prefecture secure appropriate profits and create an environment for wage increases.
+      
+      Program Period: March 31, 2026 – March 2027
+      
+      Management Supporter Support Services:
+      • Information on various prefectural support programs
+      • Acceptance of consultations from business operators and matching with appropriate support measures
+      • Hands-on support to help secure profits and create a wage-increase environment
+      
+      Support is free of charge. After the support period ends, continuing support will be provided by management advisors from the Chamber of Commerce and Commerce Associations.
+      
+      Hanno Chamber of Commerce will coordinate with Saitama Prefecture and the Saitama Chamber of Commerce Federation to contact member companies by phone regarding how to use this program, so we ask for your understanding in advance.
+      
+      For details, please check the Saitama Prefecture website.
+      
+      Source (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2716/
+    translation_hash: "sha256-281209585970429e"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-20T14:56:33.968018Z"
+    format_version: 3

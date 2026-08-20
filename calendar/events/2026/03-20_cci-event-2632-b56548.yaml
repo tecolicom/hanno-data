@@ -1,0 +1,45 @@
+uid: "cci-event-2632-b56548@hanno.city.tecoli.com"
+summary: "🎓 いつでも♪どこでも♪何度でも♪４月のおすすめWEBセミナー情報"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2632/"
+dtstart: "2026-03-20"
+dtend: "2026-03-20"
+description: |-
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  待ったなし！手形・小切手の電子化対応～「でんさい」から実務のポイントまで～
+  
+  2027年3月末の手形・小切手交換廃止に向けた対応セミナーです。制度変更の背景、中小企業が今実施すべき電子決済手段「でんさい」への移行、社内整備と取引先交渉の進め方について、中小企業診断士の川居宗則講師が詳しく解説します。漠然とした不安を解消し、スムーズな準備を進めるための実務知識が得られます。講演時間は約36分。飯能商工会議所会員向けの特典です。ご視聴にはID/パスワードが必要です。ご希望の会員事業所様は担当者にお問い合わせください。
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2632/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2632"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2632/"
+  category: "セミナー"
+  summary_method: "llm-haiku-4-5"
+  content_hash: "sha256-b56548f564a31af7"
+translations:
+  en:
+    summary: "🎓 April recommended WEB seminars – anytime, anywhere, as many times as you want"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      No time to waste! Digitizing bills and checks – from "Densai" to practical tips
+      
+      This seminar prepares for the March 2027 end of bill and check exchange in Japan. Instructor Kawai Munenori, a certified management consultant, explains the background of the system change, how small and medium enterprises should transition to "Densai" (electronic bill settlement), and how to handle internal preparation and negotiations with business partners. You'll gain practical knowledge to ease vague concerns and move smoothly through preparation.
+      
+      Lecture duration: approximately 36 minutes.
+      
+      This is a benefit for members of Hanno Chamber of Commerce and Industry. An ID and password are required to view. Member businesses interested in watching should contact their representative.
+      
+      Source (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2632/
+    translation_hash: "sha256-014b12f791f47dbd"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-20T14:56:20.299950Z"
+    format_version: 3

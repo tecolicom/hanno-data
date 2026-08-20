@@ -1,0 +1,57 @@
+uid: "cci-event-2636-3d539d@hanno.city.tecoli.com"
+summary: "🎓 いつでも♪どこでも♪何度でも♪６月のおすすめWEBセミナー情報"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2636/"
+dtstart: "2026-05-20"
+dtend: "2026-05-20"
+description: |-
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  【6月WEBセミナー】業務効率・売上UP！はじめてのAI活用
+  
+  講師：筑間彰（中小企業診断士、株式会社チャイルドピース代表取締役）
+  
+  セミナー内容：ChatGPTをはじめとする生成AIの活用方法を学べます。講師は17年間学習塾を経営した実務経験と、売上向上・課題解決・経営分析など中小企業コンサルティングの知見を持つ「経営者の家庭教師」。動画マーケティングやホームページ改善の支援も専門としています。
+  
+  視聴方法：WEB開催。PCはQRコードをクリック、スマホはQRコードを読み取ってください。
+  
+  対象：飯能商工会議所の会員事業所
+  
+  申込：会員特典のため、ご視聴に必要なID/パスワード発行希望の場合は担当者までお問い合わせください。
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2636/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2636"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2636/"
+  category: "セミナー"
+  summary_method: "llm-haiku-4-5"
+  content_hash: "sha256-3d539dfddeee7706"
+translations:
+  en:
+    summary: "🎓 June recommended WEB seminars – watch anytime, anywhere, as many times as you like"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      【June WEB Seminar】Boost efficiency and sales! Getting started with AI
+      
+      Instructor: Akira Chikuma (Small Business Management Consultant, President and CEO of Childpiece Inc.)
+      
+      Seminar content: Learn how to use generative AI like ChatGPT. The instructor is a "business mentor to managers" with 17 years of hands-on experience running a cram school and expertise in small-business consulting—including revenue growth, problem-solving, and business analysis. He also specializes in video marketing and website improvement support.
+      
+      How to watch: Online. On a PC, click the QR code; on a smartphone, scan the QR code.
+      
+      Who can attend: Member businesses of the Hanno Chamber of Commerce and Industry
+      
+      How to apply: This is a member benefit. If you would like ID and password to watch, please contact your representative.
+      
+      Source (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2636/
+    translation_hash: "sha256-cdf7f7e8252a6cff"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-20T14:56:54.126354Z"
+    format_version: 3

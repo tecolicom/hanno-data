@@ -1,0 +1,64 @@
+uid: "cci-event-2362-33e9ea@hanno.city.tecoli.com"
+summary: "ℹ️ 【重要】 2/9（月）開催の確定申告相談会の駐車場について"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2362/"
+dtstart: "2026-02-08"
+dtend: "2026-02-08"
+description: |-
+  明日2月9日（月）AM9:30開始の確定申告相談会についてお知らせします。
+  
+  商工会議所南側正面の飯能小町公園の駐車場利用ですが、
+  
+  8日（日）15:30 現在、積雪の影響により公園敷地内の路面状況が良くない状況です。
+  
+  飯能市より管理を委託されている、飯能大通り商店街様との申し合わせにより、
+  本来は公園ですので、路面状況の良くない場合は駐車場利用ができません。
+  
+  明日の状況をみての判断となりますが、道路面に駐車場の看板が出ていない場合は、駐車場ではありませんので、
+  
+  この場合は、近隣のコインパーキングをご利用ください。
+  
+  また、路面の回復状況を見ながら、駐車場を開放する予定でございますので、予めご了承ください。
+  
+  皆さまのご理解とご協力をお願いいたします。
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2362/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2362"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2362/"
+  category: "お知らせ"
+  summary_method: "full"
+  content_hash: "sha256-33e9eab8bf8a890e"
+translations:
+  en:
+    summary: "ℹ️ Important: Parking update for tax consultation session on Feb 9 (Mon)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Notice about parking for the tax consultation session starting at 9:30 AM on February 9 (Monday).
+      
+      Regarding use of the parking lot at Hanno Komachi Park (in front of the south side of the Chamber of Commerce):
+      
+      As of 3:30 PM on February 8 (Sunday), road conditions in the park grounds are poor due to snow accumulation.
+      
+      Following arrangements with Hanno Odori Shopping Street (which manages the lot on behalf of Hanno City), the parking lot cannot be used when road conditions are unsafe. The park is a public facility and this restriction applies when surfaces are compromised.
+      
+      We will make a judgment based on tomorrow's conditions. If there is no parking lot sign visible on the road surface, that area is not available for parking.
+      
+      In that case, please use nearby coin parking facilities.
+      
+      We plan to open the lot as road conditions improve, so we ask for your understanding in advance.
+      
+      Thank you for your cooperation and understanding.
+      
+      Source (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2362/
+    translation_hash: "sha256-c734a9de240505a9"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-20T14:55:54.111651Z"
+    format_version: 3

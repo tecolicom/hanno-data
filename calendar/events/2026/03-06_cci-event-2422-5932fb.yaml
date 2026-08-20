@@ -1,0 +1,46 @@
+uid: "cci-event-2422-5932fb@hanno.city.tecoli.com"
+summary: "🎓 第19回小規模事業者向け小規模事業者持続化補助金の経営計画書作成に向けた説明会を開催します"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2422/"
+dtstart: "2026-03-06"
+dtend: "2026-03-06"
+description: |-
+  本補助事業は、小規模事業者等が自ら策定した持続的な経営に向けた経営計画に基づく、販路開拓等の取組や、販路開拓等と併せて行う業務効率化の取組を支援するため、それに要する経費の一部を補助するものです。
+  
+  本説明会では、補助金の制度解説や利用事例をわかりやすくご紹介します。担当指導員が補助金の申請までお手伝いしますので、この機会に是非ご参加いただき、役立ててください。詳細及びお申し込みは以下チラシよりご覧ください。
+  
+  担当課
+  
+  中小企業相談所
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2422/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2422"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2422/"
+  category: "セミナー"
+  summary_method: "full"
+  content_hash: "sha256-5932fbeb3669cc71"
+translations:
+  en:
+    summary: "🎓 Information session on the 19th Small Business Sustainability Subsidy – help creating your business plan"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      This subsidy program supports small business owners by providing financial assistance for efforts like market expansion based on a sustainable business plan you create, as well as operational efficiency improvements done alongside those efforts.
+      
+      At this information session, we'll explain the subsidy system and share real-world examples in easy-to-understand terms. Our advisors will help guide you through the application process, so please join us and put this opportunity to good use. For details and to apply, please see the flyer below.
+      
+      【Responsible Division】
+      Small and Medium Enterprise Consultation Office
+      
+      Source (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2422/
+    translation_hash: "sha256-53fee090cd31ce94"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-20T14:56:06.755052Z"
+    format_version: 3

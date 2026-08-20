@@ -1,0 +1,69 @@
+uid: "cci-event-2635-2d0157@hanno.city.tecoli.com"
+summary: "🎓 いつでも♪どこでも♪何度でも♪５月のおすすめWEBセミナー情報"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2635/"
+dtstart: "2026-04-20"
+dtend: "2026-04-20"
+description: |-
+  セミナー担当者がお勧めする今月のＷＥＢセミナーをご紹介します。
+  
+  タイトルカスハラ対策の進め方　ハラスメントのない組織づくり
+  
+  講師
+  
+  津田　典子 （つだ　のりこ）
+  
+  人財育成コンサルタント　Fine HR代表
+  
+  解説
+  
+  カスタマーハラスメント（カスハラ）対策の義務化が迫る中、企業には「従業員を守る指針」の整備が求められています。適切な対策を実施することで従業員が安心・安全に働ける組織となり、業績向上にも繋がります。
+  本セミナーではその第一歩として、顧客対応企業が押さえておくべきポイントや導入によるメリットをお伝えします。(38分)
+  
+  PCの方は、QRコードをクリック、スマホの方はQRコードを読み取ってください。
+  
+  ※ＷＥＢセミナーの視聴は、飯能商工会議所の会員特典です。
+  ご視聴に必要なID/パスワードの発行希望の会員事業所様は、担当者までお問い合わせ下さい。
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2635/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2635"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2635/"
+  category: "セミナー"
+  summary_method: "full"
+  content_hash: "sha256-2d015769380c8f5e"
+translations:
+  en:
+    summary: "🎓 May web seminars: Anytime, anywhere, as many times as you like"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Our seminar team recommends this month's web seminars.
+      
+      【Title】
+      How to Tackle Customer Harassment: Building an Organization Free from Harassment
+      
+      【Instructor】
+      Noriko Tsuda (津田典子)
+      Human Resources Development Consultant, Fine HR Representative
+      
+      【Overview】
+      As obligations for customer harassment (カスハラ) prevention measures draw closer, companies must establish "guidelines to protect employees." By implementing appropriate measures, organizations create a safe and secure workplace for employees, which also leads to improved business performance.
+      This seminar covers the essential points that customer-facing businesses should understand and the benefits of implementation as a first step. (38 minutes)
+      
+      【How to Access】
+      PC users: click the QR code. Smartphone users: scan the QR code.
+      
+      ※ Web seminar viewing is a member benefit of Hanno Chamber of Commerce and Industry. Member businesses seeking ID/password issuance should contact their assigned representative.
+      
+      Source (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2635/
+    translation_hash: "sha256-4cd32b4b0e2c0e75"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-20T14:56:30.454288Z"
+    format_version: 3

@@ -1,0 +1,49 @@
+uid: "cci-event-2629-19cff9@hanno.city.tecoli.com"
+summary: "ℹ️ 第２次・求人企業合同説明会2026（6/25）に出展します"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2629/"
+dtstart: "2026-05-19"
+dtend: "2026-05-19"
+description: |-
+  飯能商工会議所では、（一社）埼玉県雇用対策協議会（埼玉県雇対協）が主催する「第２次・求人企業合同説明会2026」に参加し、
+  
+  2027（令和9）年4月の職員採用を目的としてブース出展いたします。
+  
+  ■（一社）埼玉県雇用対策協議会/合同説明会
+  
+  採用に関する詳細につきましては、下記の採用情報ページをご確認ください。
+  
+  ■【飯能商工会議所】の採用サイト（AirWORKへ移動します）
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2629/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2629"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2629/"
+  category: "お知らせ"
+  summary_method: "full"
+  content_hash: "sha256-19cff94dde98c8a9"
+translations:
+  en:
+    summary: "ℹ️ Hanno Chamber of Commerce exhibits at the Second Joint Recruitment Fair 2026 (June 25)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Chamber of Commerce will participate in the "Second Joint Recruitment Fair 2026" hosted by the Saitama Employment Measures Council and exhibit a booth for staff recruitment targeting April 2027 (Reiwa 9).
+      
+      ■ Saitama Employment Measures Council / Joint Recruitment Fair
+      
+      For details on recruitment, please check the recruitment information page below.
+      
+      ■ 【Hanno Chamber of Commerce】 Recruitment Site (redirects to AirWORK)
+      
+      Source (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2629/
+    translation_hash: "sha256-650dfac8ed2c25e6"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-20T14:56:50.833098Z"
+    format_version: 3

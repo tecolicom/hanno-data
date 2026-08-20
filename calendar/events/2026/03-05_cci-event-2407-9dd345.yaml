@@ -1,0 +1,43 @@
+uid: "cci-event-2407-9dd345@hanno.city.tecoli.com"
+summary: "ℹ️ デジタル会報誌の年4回発行への変更について（2026（令和8）年度より）"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2407/"
+dtstart: "2026-03-05"
+dtend: "2026-03-05"
+description: |-
+  毎月発行しておりますデジタル会報について、今般、掲載内容の見直しに伴い、2026（令和8）年度から年間４回の発行とさせていただきます。
+  
+  今後は、セミナーや補助金等インフォメーションについては、商工会議所ホームページ「新着情報」で随時掲載していきます。
+  
+  また、より充実した内容で掲載していきますので、引続きご覧いただきますようお願い申し上げます。
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2407/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2407"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2407/"
+  category: "お知らせ"
+  summary_method: "full"
+  content_hash: "sha256-9dd345918063b06e"
+translations:
+  en:
+    summary: "ℹ️ Digital newsletter changing to quarterly publication starting fiscal year 2026"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      The digital newsletter, previously published monthly, will shift to four issues per year starting fiscal year 2026 (Reiwa 8) as we review and refresh the content.
+      
+      Going forward, information about seminars, subsidies, and other updates will be posted regularly on the Chamber of Commerce and Industry website under "Latest News."
+      
+      We will continue to provide richer and more substantial content, and we appreciate your continued readership.
+      
+      Source (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2407/
+    translation_hash: "sha256-87774b15fcbed788"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-20T14:56:04.099483Z"
+    format_version: 3

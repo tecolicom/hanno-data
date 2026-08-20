@@ -1,0 +1,55 @@
+uid: "cci-event-2705-7e8ede@hanno.city.tecoli.com"
+summary: "💼 商工会議所活用術で経営者の声、創業者の声を公開しました"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2705/"
+dtstart: "2026-06-15"
+dtend: "2026-06-15"
+description: |-
+  弊所では、会員事業者様、未加入事業者様へ向けて、商工会議所の経営支援サービスの活用術を公開します。
+  
+  実際に支援を受けていただいた会員事業所様より、生の声をお聞かせいただきました。ぜひご覧ください。
+  
+  商工会議所の支援とはどういうものなのか、どんな支援を受けられるのかをご理解いただけたら幸いです。
+  
+  今回は、経営者の声として、飯能市仲町のそば処長寿庵様、創業者の声として、飯能市茜台のField A 様を紹介します。
+  
+  また、経営支援の内容を改めて、知りたいという事業者様は、遠慮なくお問い合わせ下さい。
+  
+  ■ 商工会議所活用術（経営者の声・創業者の声）
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2705/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2705"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2705/"
+  category: "経営支援"
+  summary_method: "full"
+  content_hash: "sha256-7e8ede19dab825d0"
+translations:
+  en:
+    summary: "💼 Chamber of Commerce How-To Guide: Business Owner and Start-Up Founder Stories Now Available"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      The Hanno Chamber of Commerce is sharing how to make the most of our business support services, for both member businesses and non-member businesses.
+      
+      We've gathered real voices from member businesses who have actually used our support services. Please take a look.
+      
+      We hope this helps you understand what Chamber of Commerce support is, and what kinds of assistance are available to you.
+      
+      This time, we're introducing Chojuan (a soba restaurant in Hanno's Nakamachi district) as an example of a business owner's perspective, and Field A (in Hanno's Akadai district) as an example of a start-up founder's perspective.
+      
+      If you're a business owner who would like to learn more about the details of our business support services, please feel free to contact us.
+      
+      【Chamber of Commerce How-To Guide: Business Owner and Start-Up Founder Stories】
+      
+      Source (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2705/
+    translation_hash: "sha256-cac9c72e4cadab77"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-20T14:57:24.339700Z"
+    format_version: 3

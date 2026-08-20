@@ -1,0 +1,43 @@
+uid: "cci-event-2539-98599d@hanno.city.tecoli.com"
+summary: "ℹ️ 夏季休業日のお知らせ（8/14）"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2539/"
+dtstart: "2026-08-01"
+dtend: "2026-08-01"
+description: |-
+  2026年8月14日（金）は事務所が夏季休業日となります。
+  
+  ご不便をおかけしますが、何卒ご理解いただきますようお願いいたします。
+  
+  その他は、カレンダーどおり通常業務を行います。
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2539/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2539"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2539/"
+  category: "お知らせ"
+  summary_method: "full"
+  content_hash: "sha256-98599d7ae5017eda"
+translations:
+  en:
+    summary: "ℹ️ Summer holiday closure notice (August 14)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      On Friday, August 14, 2026 (Reiwa 8), the office will be closed for summer holidays.
+      
+      We apologize for any inconvenience. Thank you for your understanding.
+      
+      All other days will operate on regular business hours as scheduled in the calendar.
+      
+      Source (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2539/
+    translation_hash: "sha256-53d7b4cad7c8f0d8"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-20T14:57:51.519156Z"
+    format_version: 3

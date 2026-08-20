@@ -1,0 +1,55 @@
+uid: "cci-event-2694-7150e1@hanno.city.tecoli.com"
+summary: "🎓 今こそ始める！企業のデジタル化・DX推進セミナー～「何から始める？」を解決するDXの第一歩～"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2694/"
+dtstart: "2026-06-09"
+dtend: "2026-06-09"
+description: |-
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  企業のデジタル化・DX推進セミナー「何から始める？」を解決するDXの第一歩
+  
+  日時：令和8年6月26日（金）15:00～16:00
+  会場：飯能商工会議所 大会議室
+  定員：30名
+  受講料：無料（会員・非会員とも）
+  
+  デジタル化の必要性や推進方向、県内事例、埼玉県中小企業DX導入支援補助金などの支援制度について学べるセミナーです。人手不足対応、業務効率化、インボイス制度対応、AI活用などに取り組みたい企業向け。「何から始めればよいか分からない」という方も、担当指導員が補助金申請から導入まで伴走支援します。
+  
+  お申込み：Microsoft Formsより（詳細・チラシ参照）
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2694/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2694"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2694/"
+  category: "セミナー"
+  summary_method: "llm-haiku-4-5"
+  content_hash: "sha256-7150e110a3cbb919"
+translations:
+  en:
+    summary: "🎓 Start Now! Corporate Digital Transformation & DX Promotion Seminar — Taking Your First Step to Solve \"Where Do I Begin?\""
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Corporate Digital Transformation & DX Promotion Seminar: Taking Your First Step to Solve "Where Do I Begin?"
+      
+      Date and time: June 26, 2026 (Reiwa 8), Friday, 3:00 p.m. – 4:00 p.m.
+      Venue: Hanno Chamber of Commerce and Industry, Main Conference Room
+      Capacity: 30 people
+      Fee: Free (members and non-members alike)
+      
+      This seminar covers the necessity of digital transformation, implementation direction, examples from within the prefecture, and support programs such as the Saitama Prefecture Small and Medium Enterprise DX Implementation Support Subsidy. It is designed for companies looking to address labor shortages, improve operational efficiency, comply with the invoice system, and implement AI. Even if you're unsure "where to begin," a dedicated advisor will support you from subsidy application through implementation.
+      
+      Application: Via Microsoft Forms (see details and flyer for more information)
+      
+      Source (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2694/
+    translation_hash: "sha256-eb846ce97452f252"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-20T14:58:15.953820Z"
+    format_version: 3

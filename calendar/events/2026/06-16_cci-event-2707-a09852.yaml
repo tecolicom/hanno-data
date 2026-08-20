@@ -1,0 +1,55 @@
+uid: "cci-event-2707-a09852@hanno.city.tecoli.com"
+summary: "ℹ️ 業務改善助成金をはじめとした「賃上げ支援助成金パッケージ」の利用促進について 【埼玉労働局】"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2707/"
+dtstart: "2026-06-16"
+dtend: "2026-06-16"
+description: |-
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  「賃上げ支援助成金パッケージ」の利用促進について
+  
+  埼玉労働局が、中小企業・小規模事業者向けの「賃上げ支援助成金パッケージ」の周知を進めています。
+  
+  特に「業務改善助成金」は、事業場内最低賃金を引き上げて、生産性向上に資する設備投資を行った場合、その費用の一部を助成する制度です。最低賃金引上げ対応と生産性向上を同時に支援します。
+  
+  対象：中小企業・小規模事業者
+  内容：最低賃金引上げと設備投資への助成
+  
+  詳細・申込方法については、飯能商工会議所の経営指導員までお問い合わせください。厚生労働省のウェブサイトでも「賃上げ支援助成金パッケージ」の情報が公開されています。
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2707/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2707"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2707/"
+  category: "お知らせ"
+  summary_method: "llm-haiku-4-5"
+  content_hash: "sha256-a0985291c154b5a2"
+translations:
+  en:
+    summary: "ℹ️ Promotion of wage increase support subsidy package, including business improvement subsidies 【Saitama Labour Bureau】"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      About promoting the "wage increase support subsidy package"
+      
+      The Saitama Labour Bureau is working to spread awareness of the "wage increase support subsidy package" for small and medium-sized enterprises and small business operators.
+      
+      In particular, the "Business Improvement Subsidy" is a system that provides partial assistance with costs when a workplace raises its minimum wage and makes equipment investments that contribute to productivity improvement. It supports both minimum wage increases and productivity improvements at the same time.
+      
+      Eligible: Small and medium-sized enterprises and small business operators
+      Content: Subsidies for minimum wage increases and equipment investment
+      
+      For details and application methods, please contact a management guidance officer at the Hanno Chamber of Commerce and Industry. Information about the "wage increase support subsidy package" is also available on the Ministry of Health, Labour and Welfare website.
+      
+      Source (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2707/
+    translation_hash: "sha256-2f048e6df084e1b5"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-20T14:57:27.264709Z"
+    format_version: 3

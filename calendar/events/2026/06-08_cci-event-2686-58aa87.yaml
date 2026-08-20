@@ -1,0 +1,66 @@
+uid: "cci-event-2686-58aa87@hanno.city.tecoli.com"
+summary: "💼 日本政策金融公庫一日相談会（一日公庫）のご案内"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2686/"
+dtstart: "2026-06-08"
+dtend: "2026-06-08"
+description: |-
+  飯能商工会議所では、日本政策金融公庫川越支店と共催して一日相談会（一日公庫）を開催します。
+  
+  この日は川越支店の地区担当者が一日商工会議所に常駐するので、普段、川越まで相談へ行けない事業者の皆さんには、この機会を有効にご活用ください。
+  
+  なお「マル経融資」に限らず、その他のご融資に関するご相談も承ります。
+  
+  相談については事前予約優先となります。予約状況については当所担当へお問合せください。
+  
+  開催概要
+  
+  とき2026年6月15日（月）10：00～16：00
+  会場飯能商工会議所 応接室
+  担当日本政策金融公庫川越支店
+  金子　有里 氏
+  予約チラシにご記入いただきFAX または Formsから
+  
+  案内チラシ
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2686/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2686"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2686/"
+  category: "経営支援"
+  summary_method: "full"
+  content_hash: "sha256-58aa87e5a551affd"
+translations:
+  en:
+    summary: "💼 Japan Finance Corporation One-Day Consultation Session at Hanno Chamber of Commerce"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Chamber of Commerce, in partnership with the Japan Finance Corporation Kawagoe Branch, will hold a one-day consultation session.
+      
+      On this day, the Kawagoe Branch's area representative will be stationed at the Chamber office all day. Business owners who normally cannot travel to Kawagoe for consultations are encouraged to take advantage of this opportunity.
+      
+      We accept inquiries not only about Marukeí Financing (government small business loans) but also about other types of financing.
+      
+      Advance reservation is preferred for consultations. Please contact the Chamber office to check reservation availability.
+      
+      【Event Details】
+      
+      Date and Time: Monday, June 15, 2026 (Reiwa 8), 10:00 a.m.–4:00 p.m.
+      Venue: Hanno Chamber of Commerce, Reception Room
+      Staff: Yuri Kaneko, Japan Finance Corporation Kawagoe Branch
+      
+      【How to Reserve】
+      Complete the reservation form on the attached flyer and submit by FAX or online Forms.
+      
+      Source (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2686/
+    translation_hash: "sha256-dec8508a8ebaf4bc"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-20T14:57:07.806804Z"
+    format_version: 3

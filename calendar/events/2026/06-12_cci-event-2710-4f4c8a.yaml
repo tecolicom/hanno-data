@@ -1,0 +1,67 @@
+uid: "cci-event-2710-4f4c8a@hanno.city.tecoli.com"
+summary: "ℹ️ 埼玉県加工用米等価格高騰対策支援金のご案内 【埼玉県】"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2710/"
+dtstart: "2026-06-12"
+dtend: "2026-06-12"
+description: |-
+  埼玉県は、加工用米及び酒造好適米の価格高騰に伴う経営への影響を緩和するため、県内中小企業者に対し、加工用米等の価格上昇分の一部を緊急的に補助します。
+  
+  交付対象者
+  
+  埼玉県内に本社又は主な事業所を有する中小企業者で、加工用米及び酒造好適米により、清酒等の酒類や味噌等の調味料、米菓等の菓子の製造を行う事業者
+  
+  交付対象物
+  
+  交付対象者が酒類、調味料、菓子等の製造に利用するために購入した令和7年産の加工用米（うるち米、もち米）、酒造好適米の玄米又は精米で、令和8年10月31日までの期間内に納品及び購入代金の支払いが完了したものに限ります。
+  
+  問い合わせ先
+  
+  埼玉県加工用米等価格高騰対策支援金コールセンター
+  
+  TEL 0120-964-048　午前９時～午後５時（土・日・祝日を除く）
+  
+  詳細・チラシ
+  
+  ■ 埼玉県加工用米等価格高騰対策支援金について（埼玉県）
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2710/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2710"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2710/"
+  category: "お知らせ"
+  summary_method: "full"
+  content_hash: "sha256-4f4c8a7e3b6bd517"
+translations:
+  en:
+    summary: "ℹ️ Saitama Prefecture announces emergency subsidy for high processing rice prices 【Saitama Prefecture】"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Saitama Prefecture is providing emergency subsidies to small and medium-sized enterprises in the prefecture to ease the impact of rising prices for processing rice and sake-brewing rice. The subsidy will cover part of the price increase for these rice types.
+      
+      【Eligible applicants】
+      Small and medium-sized enterprises with their head office or main business location in Saitama Prefecture that manufacture alcoholic beverages (such as sake), condiments (such as miso), or confectionery (such as rice crackers) using processing rice and sake-brewing rice.
+      
+      【Eligible products】
+      Only Reiwa 7 (2025) harvest processing rice (regular and glutinous rice) or sake-brewing rice (brown rice or milled rice) that:
+      • Were purchased for manufacturing alcoholic beverages, condiments, confectionery, etc. by an eligible applicant
+      • Were delivered and fully paid for by October 31, Reiwa 8 (2026)
+      
+      【Contact】
+      Saitama Prefecture Processing Rice Emergency Price Support Subsidy Call Center
+      TEL 0120-964-048　9 a.m. to 5 p.m. (closed weekends and national holidays)
+      
+      For details and flyers, visit the Saitama Prefecture website (link provided in the original announcement).
+      
+      Source (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2710/
+    translation_hash: "sha256-7cbb625f42e8a14d"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-20T14:57:21.244611Z"
+    format_version: 3

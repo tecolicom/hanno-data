@@ -1,0 +1,37 @@
+uid: "cci-event-2615-87cdd4@hanno.city.tecoli.com"
+summary: "💼 7月・8月の専門家相談の日程について"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2615/"
+dtstart: "2026-06-25"
+dtend: "2026-06-25"
+description: |-
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  7月・8月の定例専門家相談を実施します。税務・インボイス制度、経営法律、人事労務、事業承継M&A、知的財産、日本政策金融公庫による相談などが利用できます。7月は毎週異なる日程で開催、8月は税務相談以外を実施します。各相談の予約締切は相談日の5営業日前の午前中です。利用は商工会議所会員のみとなります。予約はリンクから手続きしてください。
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2615/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2615"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2615/"
+  category: "経営支援"
+  summary_method: "llm-haiku-4-5"
+  content_hash: "sha256-87cdd4fa289727a4"
+translations:
+  en:
+    summary: "💼 Expert consultation schedule for July and August"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Regular expert consultations will be held in July and August. Available services include tax and invoice system advice, management law, human resources and labor, business succession and M&A, intellectual property, and consultations by the Japan Policy Finance Corporation. In July, consultations are held on different days each week; in August, all consultations except tax advice will be available. Reservations for each consultation close at 10 a.m., five business days before the consultation date. This service is available to Chamber of Commerce and Industry members only. Please make reservations through the link provided.
+      
+      Source (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2615/
+    translation_hash: "sha256-1ff82fa462757ddf"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-20T14:57:32.471307Z"
+    format_version: 3

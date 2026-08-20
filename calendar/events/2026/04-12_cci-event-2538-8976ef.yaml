@@ -1,0 +1,51 @@
+uid: "cci-event-2538-8976ef@hanno.city.tecoli.com"
+summary: "ℹ️ 臨時休業日のお知らせ（5/1）"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2538/"
+dtstart: "2026-04-12"
+dtend: "2026-04-12"
+description: |-
+  5月1日は弊所創立記念日のため、臨時休業日とさせていただきます。
+  
+  ご不便をおかけしますが、何卒ご理解いただきますようお願いいたします。
+  
+  【臨時休業日】　2026年5月1日（金）
+  
+  ゴールデンウィーク期間は、カレンダーどおりの通常業務を行います。
+  
+  皆様のご利用をお待ち申し上げます。
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2538/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2538"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2538/"
+  category: "お知らせ"
+  summary_method: "full"
+  content_hash: "sha256-8976ef4e7a7cab92"
+translations:
+  en:
+    summary: "ℹ️ Temporary Closure Notice (May 1)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      May 1, 2026 (Friday) is our founding anniversary, so we will be closed that day.
+      
+      We apologize for any inconvenience and appreciate your understanding.
+      
+      【Temporary Closure】 Friday, May 1, 2026
+      
+      During Golden Week, we will operate on our regular schedule as shown on the calendar.
+      
+      We look forward to your visit.
+      
+      Source (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2538/
+    translation_hash: "sha256-ef6888d5017c01a5"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-20T14:56:26.782398Z"
+    format_version: 3

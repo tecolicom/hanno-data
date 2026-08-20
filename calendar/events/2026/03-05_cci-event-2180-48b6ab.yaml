@@ -1,0 +1,52 @@
+uid: "cci-event-2180-48b6ab@hanno.city.tecoli.com"
+summary: "ℹ️ デジタル広報誌2026年3月号を発行いたしました"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2180/"
+dtstart: "2026-03-05"
+dtend: "2026-03-05"
+description: |-
+  弊所デジタル広報誌「うつくしい星」2026年3月号を本日発行いたしましたのでお知らせします。
+  
+  ■デジタル広報誌「うつくしい星」最新号
+  
+  弊所では公式LINEアカウント・X（旧Twitter）でも情報発信しております。
+  
+  商工会議所広報誌デジタル版は、電子メールを登録または、LINE公式アカウントを友だち登録していただくと、発行日にお知らせが届きます。
+  ぜひ、ご登録ください。
+  
+  ※電子メール登録は、弊所会員事業所様に限ります。ご了承ください。
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2180/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2180"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2180/"
+  category: "お知らせ"
+  summary_method: "full"
+  content_hash: "sha256-48b6abbeada4ed25"
+translations:
+  en:
+    summary: "ℹ️ Digital newsletter \"Utsukushii Hoshi\" March 2026 issue now available"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      We are pleased to announce that the March 2026 issue of our digital newsletter "Utsukushii Hoshi" (Beautiful Star) has been released today.
+      
+      ■Digital Newsletter "Utsukushii Hoshi" Latest Issue
+      
+      We also share information through our official LINE account and X (formerly Twitter).
+      
+      To receive notifications when new issues of the Chamber of Commerce and Industry digital newsletter are released, you can register your email address or follow our official LINE account. Please sign up.
+      
+      *Email registration is limited to member businesses of our Chamber. Thank you for your understanding.
+      
+      Source (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2180/
+    translation_hash: "sha256-fc6d45ac52f105a5"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-20T14:58:12.547449Z"
+    format_version: 3

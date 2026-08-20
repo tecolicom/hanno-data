@@ -1,0 +1,53 @@
+uid: "cci-event-2351-46e65d@hanno.city.tecoli.com"
+summary: "💼 令和7年分確定申告相談会の開催及び提出受付のご案内"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2351/"
+dtstart: "2026-01-06"
+dtend: "2026-01-06"
+description: |-
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  令和7年分確定申告相談会を開催します。飯能商工会議所および飯能青色申告会の会員事業所が対象です。
+  
+  開催日程：2026年2月9日（月）から3月6日（金）まで、複数会場で実施。飯能商工会議所（大会議室）、原市場公民館、吾野公民館、精明公民館で開催します。各会場の受付時間は9:30～12:00または13:30～16:00（受付終了は最終時間の30分～1時間前）。
+  
+  申告内容：所得税（青色申告）、消費税の確定申告に関する税理士による相談と提出受付。税務署担当官との相談は2月9日、17日、25日に実施します。
+  
+  紙面提出について：商工会議所会場では2月9日（早期提出）以外は紙面提出を受け付けません。紙面提出希望者は公民館開催日をご利用ください。
+  
+  その他：e-Tax（電子申告）利用を推進しており、スマホによる申告指導も行います。消費税申告がある方は課税取引金額計算書を持参してください。あらかじめ国税庁サイトで申告書を入力しUSBメモリに保存して持参するとスムーズです。詳細は飯能青色申告会事務局へお問い合わせください。
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2351/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2351"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2351/"
+  category: "経営支援"
+  summary_method: "llm-haiku-4-5"
+  content_hash: "sha256-46e65d97dde21f25"
+translations:
+  en:
+    summary: "💼 Tax Return Filing Consultation and Submission Guide for 2026 (Reiwa 7)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Chamber of Commerce and Industry and Hanno Blue Return Association are holding tax return consultation sessions.
+      
+      Schedule: February 9 – March 6, 2026 (Reiwa 7), at multiple locations. Sessions held at Hanno Chamber of Commerce and Industry (Main Conference Room), Haraichiba Community Center, Agano Community Center, and Seimei Community Center. Reception times at each venue are 9:30–12:00 or 13:30–16:00 (last intake 30 minutes to 1 hour before closing time).
+      
+      Services: Tax professional consultation and submission for income tax (blue return) and consumption tax filings. Consultation with tax office staff available February 9, 17, and 25.
+      
+      Paper submission: The Chamber of Commerce venue does not accept paper submissions except on February 9 (early filing). Those wishing to file paper returns should use the Community Center sessions.
+      
+      Other notes: e-Tax (electronic filing) is being promoted, with smartphone filing guidance available. Those filing consumption tax should bring a taxable transaction calculation statement. It is recommended to complete your return form beforehand on the National Tax Agency website, save it to a USB drive, and bring it for a faster process. For details, contact the Hanno Blue Return Association office.
+      
+      Source (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2351/
+    translation_hash: "sha256-f8a871e1bf54e157"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-20T14:55:46.469887Z"
+    format_version: 3

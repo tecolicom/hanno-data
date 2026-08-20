@@ -1,0 +1,57 @@
+uid: "cci-event-2622-086bab@hanno.city.tecoli.com"
+summary: "💼 4月・5月の専門家相談の日程について"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2622/"
+dtstart: "2026-03-20"
+dtend: "2026-03-20"
+description: |-
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  飯能商工会議所の4月・5月定例専門家相談（税務・インボイス制度、経営法律、人事労務、事業承継M&A、知的財産、日本政策金融公庫）の日程案内。各相談会ごとに異なる日時・担当専門家で実施。予約は各相談日の5営業日前の午前中が締切（税務相談）、その他は記載なし。会員限定サービス。相談料は税務相談のみ無料と明記、その他の相談料は記載なし。予約手続きはリンクから実施。詳細日時は次の通り。4月：税務9日9:30、経営法律21日13:30、人事労務10日10:00、承継M&A8日13:30、知的財産20日10:00、融資相談15日13:30。5月：税務14日9:30、経営法律19日13:30、人事労務8日10:00、承継M&A13日13:30、知的財産18日10:00、融資相談15日13:30。
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2622/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2622"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2622/"
+  category: "経営支援"
+  summary_method: "llm-haiku-4-5"
+  content_hash: "sha256-086bab7439325270"
+translations:
+  en:
+    summary: "💼 Expert consultation schedule for April and May"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Chamber of Commerce and Industry announces its regular expert consultations for April and May in the following areas: taxation and invoice system, business law, human resources and labor, business succession and M&A, intellectual property, and Japan Policy Finance Corporation loans.
+      
+      Each consultation session is held on a different date and time with different specialists. Reservations close 5 business days before each session at noon (for tax consultations); deadlines for other consultations are not specified. This is a member-only service. Tax consultations are free; fees for other consultations are not listed. Make reservations through the link below.
+      
+      【April Schedule】
+      • Tax consultation: April 9, 9:30 a.m.
+      • Business law: April 21, 1:30 p.m.
+      • Human resources and labor: April 10, 10:00 a.m.
+      • Business succession and M&A: April 8, 1:30 p.m.
+      • Intellectual property: April 20, 10:00 a.m.
+      • Financing consultation: April 15, 1:30 p.m.
+      
+      【May Schedule】
+      • Tax consultation: May 14, 9:30 a.m.
+      • Business law: May 19, 1:30 p.m.
+      • Human resources and labor: May 8, 10:00 a.m.
+      • Business succession and M&A: May 13, 1:30 p.m.
+      • Intellectual property: May 18, 10:00 a.m.
+      • Financing consultation: May 15, 1:30 p.m.
+      
+      For details and to make a reservation, contact Hanno Chamber of Commerce and Industry.
+      
+      Source (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2622/
+    translation_hash: "sha256-2d167dee80577d41"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-20T14:56:17.416060Z"
+    format_version: 3

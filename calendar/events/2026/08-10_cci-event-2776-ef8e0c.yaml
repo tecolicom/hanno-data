@@ -1,0 +1,39 @@
+uid: "cci-event-2776-ef8e0c@hanno.city.tecoli.com"
+summary: "ℹ️ 中小企業向け研修のお知らせ【埼玉県産業振興公社PR】"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2776/"
+dtstart: "2026-08-10"
+dtend: "2026-08-10"
+description: |-
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  埼玉県産業振興公社では、中小企業向けに年間200講座以上の研修を実施しています。新入社員から経営幹部まで階層別研修、人事・経理・営業などの業務分野別研修、AI活用を含むIT・デジタル研修が充実。製造業向けには生産管理、品質管理、ISO、工場責任者育成などの専門研修も提供しています。公的機関ならではの受講しやすい料金が特徴で、受講者満足度は98.2%。個別企業向けの出前研修も年間を通じ開催中。詳細および申込はhttps://www.saitama-j.or.jp/kensyuでご確認いただくか、企画・人材育成グループ（TEL：048-647-4087）までお問合せください。
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2776/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2776"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2776/"
+  category: "お知らせ"
+  summary_method: "llm-haiku-4-5"
+  content_hash: "sha256-ef8e0c7fae6e21ea"
+translations:
+  en:
+    summary: "ℹ️ Training programs for small and medium businesses (Saitama Prefecture Industrial Promotion Corporation)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      The Saitama Prefecture Industrial Promotion Corporation offers over 200 training courses annually for small and medium-sized businesses. Programs include level-based training for everyone from new employees to executive management, job-function training in areas like human resources, accounting, and sales, and comprehensive IT and digital training including AI applications. For manufacturers, we also offer specialized training in production management, quality control, ISO standards, and factory supervisor development. As a public institution, we offer affordable rates—a key feature of our programs—and our participant satisfaction rating is 98.2%. We also conduct on-site training for individual companies throughout the year.
+      
+      For details and to apply, visit https://www.saitama-j.or.jp/kensyu or contact the Planning and Human Resources Development Group at TEL: 048-647-4087.
+      
+      Source (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2776/
+    translation_hash: "sha256-42c329a77e934981"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-20T14:57:54.382578Z"
+    format_version: 3

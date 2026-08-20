@@ -1,0 +1,49 @@
+uid: "cci-event-2669-5fa30c@hanno.city.tecoli.com"
+summary: "🎓 【7/3建設業部会向け】埼玉県「中小企業DX導入支援補助金」活用セミナー ～中小建設業のためのDX推進～"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2669/"
+dtstart: "2026-06-09"
+dtend: "2026-06-09"
+description: |-
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  7月3日（金）16：00～17：00、飯能商工会議所大会議室で「埼玉県中小企業DX導入支援補助金」活用セミナーを開催します。建設業部会会員対象、無料。
+  
+  人手不足課題を抱える建設業向けに、ITツール導入による現場省力化と生産性向上を支援するセミナーです。最大300万円の補助が受けられる令和8年度補助金と、DX推進員派遣制度について、専門家が建設業の活用事例を交えて解説します。
+  
+  セミナー内容：DXの現状と課題、建設業のDX状況、推進方向性、県内事例紹介、明日から使えるデジタルツール紹介など。「何から取り組めばよいか分からない」「申請書類作成に不安」といった方も、担当指導員が申請から導入まで伴走支援します。
+  
+  定員30名。申込みはMicrosoft Formsから。
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2669/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2669"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2669/"
+  category: "セミナー"
+  summary_method: "llm-haiku-4-5"
+  content_hash: "sha256-5fa30cd58fd8fcf0"
+translations:
+  en:
+    summary: "🎓 July 3 Construction Division Seminar: Saitama's Small Business DX Adoption Support Subsidy — Advancing Digital Transformation in Small Construction Companies"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      On Friday, July 3 (Reiwa 8), 4:00 PM – 5:00 PM, a seminar on the Saitama Prefecture Small Business DX Adoption Support Subsidy will be held at Hanno Chamber of Commerce and Industry Main Conference Room. Open to Construction Division members. Free.
+      
+      This seminar supports the construction industry in addressing labor shortages by promoting IT tool adoption to streamline job sites and boost productivity. Expert speakers will explain the fiscal 2026 subsidy program (offering up to ¥3 million in support) and the DX Promotion Officer dispatch program, with real-world examples from the construction sector.
+      
+      Seminar topics: current state and challenges of DX, DX in construction, direction of advancement, case studies from Saitama Prefecture, easy-to-use digital tools, and more. Even if you're unsure where to start or worried about preparing application documents, assigned advisors will support you from application through implementation.
+      
+      Capacity: 30 people. Register via Microsoft Forms.
+      
+      Source (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2669/
+    translation_hash: "sha256-a66a75780b0db0c4"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-20T14:57:11.508533Z"
+    format_version: 3

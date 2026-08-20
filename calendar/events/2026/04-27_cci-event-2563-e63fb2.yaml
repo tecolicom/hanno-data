@@ -1,0 +1,60 @@
+uid: "cci-event-2563-e63fb2@hanno.city.tecoli.com"
+summary: "ℹ️ 令和８年度商工会議所会費のご請求について"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2563/"
+dtstart: "2026-04-27"
+dtend: "2026-04-27"
+description: |-
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  令和8年度商工会議所会費等の請求について
+  
+  令和8年度の商工会議所会費、青年部会費、女性会会費の請求書を郵送いたしました。令和8年度より最低口数が引き上げられたため、昨年度と異なる金額の場合があります。
+  
+  納入期限は納付方法によって異なります。
+  ◆口座振替: 2026年5月25日（月）
+  前営業日までに指定口座へご入金ください
+  
+  ◆請求書払い: 2026年6月1日（月）
+  請求書記載の指定金融機関口座へのお振込み、または弊所窓口でご納入ください
+  
+  請求書が届き次第、内容のご確認をお願いいたします。同封の案内文書もご参照ください。
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2563/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2563"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2563/"
+  category: "お知らせ"
+  summary_method: "llm-haiku-4-5"
+  content_hash: "sha256-e63fb288a822ef71"
+translations:
+  en:
+    summary: "ℹ️ Billing Notice: Hanno Chamber of Commerce & Industry Membership Fees for Fiscal Year 2026 (Reiwa 8)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Billing Notice: Hanno Chamber of Commerce & Industry Membership Fees for Fiscal Year 2026
+      
+      We have mailed out invoices for fiscal year 2026 membership fees, including dues for the Youth Division and Women's Division. Because the minimum number of units has increased starting in fiscal year 2026, your bill may differ from last year.
+      
+      Payment deadlines vary by payment method:
+      
+      ◆ Bank Transfer: May 25, 2026 (Monday)
+      Please deposit to your designated account by the previous business day.
+      
+      ◆ Invoice Payment: June 1, 2026 (Monday)
+      Please transfer to the designated financial institution account listed on the invoice, or pay in person at our office.
+      
+      Please review the invoice contents as soon as it arrives. Please also refer to the enclosed guidance document.
+      
+      Source (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2563/
+    translation_hash: "sha256-845b52292a972750"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-20T14:56:40.536932Z"
+    format_version: 3

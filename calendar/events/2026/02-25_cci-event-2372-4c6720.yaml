@@ -1,0 +1,57 @@
+uid: "cci-event-2372-4c6720@hanno.city.tecoli.com"
+summary: "🏮 2026年「はんのう元気市・西川材フェアー」開催のお知らせ"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2372/"
+dtstart: "2026-02-25"
+dtend: "2026-02-25"
+description: |-
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  2026年「はんのう元気市・西川材フェアー」
+  
+  開催日時：2026年3月8日（日）9時30分～15時00分（雨天決行）
+  
+  会場：飯能市中央公園（飯能市飯能223-1）
+  
+  内容：物産・グルメ・飲食販売、西川材フェアー、カラオケ大会、劇団×音楽部、野外ステージ、消防・警察車両展示、エアードーム等
+  
+  注意：当日、会場周辺に駐車場がありません。公共交通機関または市役所からのシャトルバスをご利用ください。
+  
+  問い合わせ：飯能商工会議所 042-974-3111（代表）
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2372/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2372"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2372/"
+  category: "地域振興"
+  summary_method: "llm-haiku-4-5"
+  content_hash: "sha256-4c67206d2d4b12cb"
+translations:
+  en:
+    summary: "🏮 2026 Hanno Genki Market and Nishikawa Timber Fair"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      2026 Hanno Genki Market and Nishikawa Timber Fair
+      
+      Date and time: Sunday, March 8, 2026 (Reiwa 8), 9:30 a.m.–3:00 p.m. (held rain or shine)
+      
+      Venue: Hanno Central Park (223-1 Hanno, Hanno City)
+      
+      What to expect: Local products and food vendors, Nishikawa timber fair, karaoke contest, theater group and music department performances, outdoor stage, fire and police vehicle displays, inflatable dome, and more.
+      
+      Important note: There is no parking available near the venue on the day. Please use public transportation or the shuttle bus running from Hanno City Hall.
+      
+      Inquiries: Hanno Chamber of Commerce and Industry, 042-974-3111 (main line)
+      
+      Source (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2372/
+    translation_hash: "sha256-f84b43ae766d3ee1"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-20T14:55:56.866686Z"
+    format_version: 3

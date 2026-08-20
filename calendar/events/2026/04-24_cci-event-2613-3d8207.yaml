@@ -1,0 +1,75 @@
+uid: "cci-event-2613-3d8207@hanno.city.tecoli.com"
+summary: "💼 5月・6月の専門家相談の日程について"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2613/"
+dtstart: "2026-04-24"
+dtend: "2026-04-24"
+description: |-
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  5月・6月の定例専門家相談のご案内
+  
+  飯能商工会議所では、以下の日程で専門家相談を実施します。商工会議所会員のみ利用可能です。
+  
+  【5月の相談日程】
+  5月8日（金）10:00～人事労務相談（横地冬美先生）
+  5月13日（水）13:30～承継M&A相談（事業承継士および各種士業）
+  5月14日（木）9:30～税務・インボイス制度無料個別相談（関東信越税理士会所沢支部飯能地区会所属の税理士）
+  5月15日（金）13:30～日本政策金融公庫による相談（川越支店担当）
+  5月18日（月）10:00～知的財産相談（松田克治先生）
+  5月19日（火）13:30～経営法律相談（佐々木翔先生）
+  
+  【6月の相談日程】
+  6月10日（水）13:30～承継M&A相談
+  6月12日（金）10:00～人事労務相談
+  6月15日（月）10:00～知的財産相談・日本政策金融公庫による相談
+  6月16日（火）13:30～経営法律相談
+  
+  【予約について】
+  各相談の予約リンクから手続きを進めてください。税務相談は相談日の5営業日前午前中が予約締切です。
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2613/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2613"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2613/"
+  category: "経営支援"
+  summary_method: "llm-haiku-4-5"
+  content_hash: "sha256-3d82075bf9aa7ad9"
+translations:
+  en:
+    summary: "💼 Expert consultation schedule for May and June"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      May and June expert consultation schedule
+      
+      Hanno Chamber of Commerce and Industry will hold expert consultations on the following dates. Available to chamber members only.
+      
+      【May consultation schedule】
+      May 8 (Friday) 10:00 – Personnel and labor consultation (Instructor Yuki Yokoji)
+      May 13 (Wednesday) 13:30 – Business succession and M&A consultation (Business succession specialists and various licensed professionals)
+      May 14 (Thursday) 9:30 – Free individual tax and invoice system consultation (Tax accountants from the Hanno district of the Kanto-Shinetsu Tax Accountants Association Tokorozawa branch)
+      May 15 (Friday) 13:30 – Consultation with Japan Finance Corporation (Kawagoe branch)
+      May 18 (Monday) 10:00 – Intellectual property consultation (Instructor Katsuji Matsuda)
+      May 19 (Tuesday) 13:30 – Business law consultation (Instructor Sho Sasaki)
+      
+      【June consultation schedule】
+      June 10 (Wednesday) 13:30 – Business succession and M&A consultation
+      June 12 (Friday) 10:00 – Personnel and labor consultation
+      June 15 (Monday) 10:00 – Intellectual property consultation and consultation with Japan Finance Corporation
+      June 16 (Tuesday) 13:30 – Business law consultation
+      
+      【Reservations】
+      Proceed with your reservation through the booking link for each consultation. For tax consultations, the reservation deadline is 5 business days before the consultation date by mid-morning.
+      
+      Source (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2613/
+    translation_hash: "sha256-d3f7a63c8c5d283f"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-20T14:56:37.701003Z"
+    format_version: 3

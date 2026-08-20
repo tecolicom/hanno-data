@@ -1,0 +1,59 @@
+uid: "cci-event-2690-2b75ac@hanno.city.tecoli.com"
+summary: "🎓 次の成長に繋げていくための売上・利益アップ経営戦略セミナー"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2690/"
+dtstart: "2026-06-10"
+dtend: "2026-06-10"
+description: |-
+  本セミナーでは、経営計画の重要性と作り方を学び、自社の「中期ビジョ ン（3年～5年）」を描き、行動につなげる方法をお伝えします。
+  
+  あわせて、埼玉県経営 革新計画の策定メリットや申請のポイントも解説します。
+  詳細は別添チラシよりご覧ください。
+  
+  お申込方法
+  
+  QRコードから電子申請または下記URLよりお申し込みください。
+  
+  ■https://forms.office.com/r/R0QZ7Htd6n
+  
+  詳細チラシ
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2690/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2690"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2690/"
+  category: "セミナー"
+  summary_method: "full"
+  content_hash: "sha256-2b75acd3f8f3d7c9"
+translations:
+  en:
+    summary: "🎓 Sales and Profit Growth Management Strategy Seminar for Your Next Phase of Growth"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      This seminar teaches you the importance of business planning and how to create it. You'll learn how to develop your company's "medium-term vision (3 to 5 years)" and turn that vision into action.
+      
+      We'll also explain the benefits of creating a Saitama Prefecture Management Innovation Plan and key points for applying.
+      
+      For more details, see the attached flyer.
+      
+      【How to Apply】
+      
+      Apply through the QR code (electronic application) or use the URL below.
+      
+      ■https://forms.office.com/r/R0QZ7Htd6n
+      
+      【Details】
+      See the attached flyer.
+      
+      Source (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2690/
+    translation_hash: "sha256-6da30384675b2faa"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-20T14:57:17.112183Z"
+    format_version: 3

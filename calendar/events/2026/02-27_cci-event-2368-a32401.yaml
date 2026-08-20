@@ -1,0 +1,43 @@
+uid: "cci-event-2368-a32401@hanno.city.tecoli.com"
+summary: "ℹ️ 令和8年度新入社員教育研修のご案内"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2368/"
+dtstart: "2026-02-27"
+dtend: "2026-02-27"
+description: |-
+  新入社員、内定者を対象に、社会人としての心構えを学びながら、基本的なビジネスマナー、言葉遣い、職場のコミュニケーションやチームワークの大切さなどについて、グループワークを交えながら実践的に学びます。社員教育にご活用ください。
+  
+  ◾️ 新入社員教育研修のご案内(PDF形式:1.6MB)
+  
+  担当課：相談所
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2368/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2368"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2368/"
+  category: "お知らせ"
+  summary_method: "full"
+  content_hash: "sha256-a324014c327fe642"
+translations:
+  en:
+    summary: "ℹ️ New Employee Training Program for Fiscal Year 2026 (Reiwa 8)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      This training program is designed for new hires and job offer recipients. Participants will learn the mindset and fundamentals of working life, including practical business etiquette, appropriate language and communication, and the importance of workplace teamwork and collaboration. The program uses group work activities to make learning hands-on and practical. Please consider using this for your company's employee development.
+      
+      • New Employee Training Program Guide (PDF format: 1.6 MB)
+      
+      Handled by: Consultation Office
+      
+      Source (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2368/
+    translation_hash: "sha256-80c78b36b5c1bbb5"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-20T14:55:59.083717Z"
+    format_version: 3

@@ -1,0 +1,73 @@
+uid: "cci-event-2681-9d6136@hanno.city.tecoli.com"
+summary: "💼 令和８年度埼玉県中小企業省力化支援事業補助金の募集を開始しました"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2681/"
+dtstart: "2026-06-05"
+dtend: "2026-06-05"
+description: |-
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  令和8年度埼玉県中小企業省力化支援事業補助金の募集開始
+  
+  県内中小企業の人手不足改善と賃上げ環境整備を目的に、省力化設備の導入・更新に要する経費を補助します。
+  
+  【補助内容】
+  ・新規導入：県策定の省力化製品カテゴリリスト掲載機器の新規導入経費
+  ・設備更新：専門家作成の支援カルテに基づく省力化機器への更新経費
+  
+  【対象】
+  県内中小企業、製造・販売事業者
+  
+  【併せてアンケート調査実施中】
+  省力化効果が見込まれる設備導入希望機器に関するアンケートを募集しています。
+  実施期間：令和8年5月19日～6月12日
+  ※アンケート記入機器が必ずしも補助対象になるとは限りません
+  
+  【注意】
+  DXツールは補助対象外です。DXツール導入補助については別途ご確認ください。
+  
+  詳細は埼玉県のリンク先ページをご確認ください。
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2681/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2681"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2681/"
+  category: "経営支援"
+  summary_method: "llm-haiku-4-5"
+  content_hash: "sha256-9d613644fe48063f"
+translations:
+  en:
+    summary: "💼 Saitama Prefecture now accepting applications for the FY2026 Labor-Saving Equipment Support Subsidy for Small and Medium Enterprises"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      FY2026 Saitama Prefecture Labor-Saving Equipment Support Subsidy – Applications Now Open
+      
+      Saitama Prefecture is offering subsidies to help small and medium-sized businesses in the prefecture address labor shortages and improve wage conditions by supporting the cost of introducing or upgrading labor-saving equipment.
+      
+      【Subsidy Coverage】
+      • New equipment installation: Costs to introduce new labor-saving equipment listed in the prefecture's approved product category list
+      • Equipment upgrade: Costs to switch to labor-saving equipment based on support plans created by specialists
+      
+      【Eligible Applicants】
+      Small and medium-sized enterprises and manufacturing/sales businesses in Saitama Prefecture
+      
+      【Concurrent Survey】
+      Saitama Prefecture is also conducting a survey about equipment that could benefit from labor-saving solutions. Survey period: May 19, 2026 (Reiwa 8) – June 12, 2026. Note: Equipment listed in the survey is not guaranteed to be eligible for the subsidy.
+      
+      【Important Note】
+      DX (digital transformation) tools are not eligible for this subsidy. For information about DX tool installation subsidies, please check separately.
+      
+      For full details, please see the Saitama Prefecture website linked below.
+      
+      Source (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2681/
+    translation_hash: "sha256-1b4511ea09e0fd98"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-20T14:57:04.205480Z"
+    format_version: 3

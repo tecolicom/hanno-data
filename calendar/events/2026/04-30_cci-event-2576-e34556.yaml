@@ -1,0 +1,58 @@
+uid: "cci-event-2576-e34556@hanno.city.tecoli.com"
+summary: "ℹ️ 埼玉県カスハラ条例が施行されます（2026（令和8）年7月1日より）"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2576/"
+dtstart: "2026-04-30"
+dtend: "2026-04-30"
+description: |-
+  「カスタマーハラスメント(カスハラ)」とは、顧客から無理な要求をされたり、しつこく責め立てられたりすることなどにより、働く人の環境が害されることをいいます。
+  埼玉県では、誰もが安心して働くことができる就業環境や安定した事業活動を継続できる環境、豊かな消費生活を実現するため、関係者の責務を定める条例を制定しました。
+  
+  埼玉県では、条例施行に向けて、以下の取り組みを行っています。
+  
+  事業者・事業者団体向け 基本方針・対応マニュアル作成のための手引きの公開
+  カスタマーハラスメント防止対策コンサルタント派遣事業（5月7日募集開始）
+  カスハラ対策WEBセミナー（募集中）
+  
+  詳しくは以下よりご確認ください。
+  
+  ■埼玉県カスタマーハラスメント防止対策
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2576/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2576"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2576/"
+  category: "お知らせ"
+  summary_method: "full"
+  content_hash: "sha256-e345560e78f4623a"
+translations:
+  en:
+    summary: "ℹ️ Saitama Prefecture Customer Harassment Prevention Ordinance takes effect July 1, 2026 (Reiwa 8)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Customer harassment ("kasuhara") occurs when workers face unreasonable demands from customers, are blamed repeatedly, or experience other conduct that harms their work environment.
+      
+      To help everyone work safely, support stable business operations, and enable people to enjoy secure consumer lives, Saitama Prefecture has enacted an ordinance that defines the responsibilities of all parties involved.
+      
+      Ahead of the ordinance's implementation, the prefecture is undertaking the following initiatives:
+      
+      • Publishing guides for businesses and business groups to develop basic policies and response manuals
+      • Dispatching customer harassment prevention consultants to businesses (recruitment begins May 7)
+      • Hosting online seminars on customer harassment prevention (now recruiting)
+      
+      For more details, visit the link below.
+      
+      ■ Saitama Prefecture Customer Harassment Prevention Measures
+      
+      Source (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2576/
+    translation_hash: "sha256-b2c8891a5d7a970d"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-20T14:56:46.008560Z"
+    format_version: 3

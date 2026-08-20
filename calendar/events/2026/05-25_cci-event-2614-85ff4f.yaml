@@ -1,0 +1,64 @@
+uid: "cci-event-2614-85ff4f@hanno.city.tecoli.com"
+summary: "💼 6月・7月の専門家相談の日程について"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2614/"
+dtstart: "2026-05-25"
+dtend: "2026-05-25"
+description: |-
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  飯能商工会議所専門家相談（6月・7月）
+  
+  6月の相談日：経営法律(6/16火13:30)、人事労務(6/12金10:00)、承継M&A(6/10水13:30)、知的財産(6/15月10:00)、日本政策金融公庫(6/15月10:00)
+  
+  7月の相談日：税務・インボイス(7/9木9:30)、経営法律(7/21火13:30)、人事労務(7/10金10:00)、承継M&A(7/8水13:30)、知的財産(7/27火10:00)、日本政策金融公庫(7/15水13:30)
+  
+  費用：無料（6月税務相談）。対象：商工会議所会員のみ。申込：各相談日の5営業日前までに予約リンクから申し込み。申し込み詳細・相談内容の詳細はリンク先をご確認ください。
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2614/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2614"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2614/"
+  category: "経営支援"
+  summary_method: "llm-haiku-4-5"
+  content_hash: "sha256-85ff4f163ce5bd3f"
+translations:
+  en:
+    summary: "💼 Expert consultation schedules for June and July"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Chamber of Commerce and Industry Expert Consultations (June and July)
+      
+      June consultation dates:
+      • Management & Legal: June 16 (Tuesday) 1:30 PM
+      • Human Resources & Labor: June 12 (Friday) 10:00 AM
+      • Business Succession & M&A: June 10 (Wednesday) 1:30 PM
+      • Intellectual Property: June 15 (Monday) 10:00 AM
+      • Japan Policy Finance Corporation: June 15 (Monday) 10:00 AM
+      
+      July consultation dates:
+      • Tax & Invoice System: July 9 (Thursday) 9:30 AM
+      • Management & Legal: July 21 (Tuesday) 1:30 PM
+      • Human Resources & Labor: July 10 (Friday) 10:00 AM
+      • Business Succession & M&A: July 8 (Wednesday) 1:30 PM
+      • Intellectual Property: July 27 (Tuesday) 10:00 AM
+      • Japan Policy Finance Corporation: July 15 (Wednesday) 1:30 PM
+      
+      Cost: Free (June tax consultation)
+      
+      Eligibility: Chamber of Commerce and Industry members only
+      
+      How to apply: Register through the booking link by 5 business days before each consultation date. Check the link for full details on application procedures and consultation topics.
+      
+      Source (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2614/
+    translation_hash: "sha256-2c4c9bfe37c69a24"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-20T14:56:56.975101Z"
+    format_version: 3

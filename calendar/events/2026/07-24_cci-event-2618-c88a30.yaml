@@ -1,0 +1,69 @@
+uid: "cci-event-2618-c88a30@hanno.city.tecoli.com"
+summary: "💼 ８月・９月の専門家相談の日程について"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2618/"
+dtstart: "2026-07-24"
+dtend: "2026-07-24"
+description: |-
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  飯能商工会議所では8月・9月に専門家による無料個別相談を実施します。
+  
+  【8月の相談会】
+  ・8月5日(水)13:30 承継M&A相談
+  ・8月7日(金)10:00 人事労務相談
+  ・8月17日(月)13:30 日本政策金融公庫による相談
+  ・8月17日(火)10:00 知的財産相談
+  ・8月18日(火)13:30 経営法律相談
+  
+  【9月の相談会】
+  ・9月9日(水)13:30 承継M&A相談
+  ・9月10日(木)9:30 税務・インボイス制度無料個別相談
+  ・9月11日(金)10:00 人事労務相談
+  ・9月15日(火)13:30 経営法律相談・日本政策金融公庫による相談
+  ・9月28日(火)10:00 知的財産相談
+  
+  予約は相談日の5営業日前の午前中までに専用リンクからお申し込みください。ご利用は商工会議所会員のみです。
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2618/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2618"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2618/"
+  category: "経営支援"
+  summary_method: "llm-haiku-4-5"
+  content_hash: "sha256-c88a30619a3afa84"
+translations:
+  en:
+    summary: "💼 August and September expert consultation schedule"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Chamber of Commerce offers free individual consultations with experts in August and September.
+      
+      【August consultations】
+      • August 5 (Wed) 1:30 PM – Business succession and M&A consultation
+      • August 7 (Fri) 10:00 AM – Human resources and labor consultation
+      • August 17 (Mon) 1:30 PM – Japan Policy Finance Corporation consultation
+      • August 17 (Tue) 10:00 AM – Intellectual property consultation
+      • August 18 (Tue) 1:30 PM – Management and legal consultation
+      
+      【September consultations】
+      • September 9 (Wed) 1:30 PM – Business succession and M&A consultation
+      • September 10 (Thu) 9:30 AM – Tax and invoice system free individual consultation
+      • September 11 (Fri) 10:00 AM – Human resources and labor consultation
+      • September 15 (Tue) 1:30 PM – Management and legal consultation and Japan Policy Finance Corporation consultation
+      • September 28 (Tue) 10:00 AM – Intellectual property consultation
+      
+      Bookings must be made through the dedicated link by the morning of the 5th business day before each consultation date. Available to Chamber members only.
+      
+      Source (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2618/
+    translation_hash: "sha256-7003304896ab2fac"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-20T14:57:46.818873Z"
+    format_version: 3

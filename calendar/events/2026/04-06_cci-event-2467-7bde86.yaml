@@ -1,0 +1,55 @@
+uid: "cci-event-2467-7bde86@hanno.city.tecoli.com"
+summary: "ℹ️ 2027（令和9）年4月採用の職員募集について　※エントリーシートDLあり"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2467/"
+dtstart: "2026-04-06"
+dtend: "2026-04-06"
+description: |-
+  飯能商工会議所では、2027（令和9）年4月採用の総合職職員の募集を行います。
+  
+  詳細は以下の採用情報にてご確認下さい。
+  
+  ■ 【飯能商工会議所】の採用サイト（AirWORKへ移動します）
+  
+  ＜書類ダウンロード＞
+  
+  新卒の方は、エントリーシートをこちらよりダウンロードしてご使用ください。
+  
+  ■ 2027（令和9）年度採用エントリーシート（PDF:173KB）
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2467/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2467"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2467/"
+  category: "お知らせ"
+  summary_method: "full"
+  content_hash: "sha256-7bde864beccea07b"
+translations:
+  en:
+    summary: "ℹ️ Staff recruitment for April 2027 (Reiwa 9) at Hanno Chamber of Commerce — entry sheet available for download"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Chamber of Commerce is recruiting general staff members for April 2027 (Reiwa 9).
+      
+      For full details, please check the recruitment information below.
+      
+      ■ Hanno Chamber of Commerce Recruitment Site (opens at AirWORK)
+      
+      【Document Downloads】
+      
+      New graduates: please download the entry sheet below and use it for your application.
+      
+      ■ 2027 (Reiwa 9) Recruitment Entry Sheet (PDF: 173KB)
+      
+      Source (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2467/
+    translation_hash: "sha256-f96c4b7c5dce2c53"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-20T14:56:22.706112Z"
+    format_version: 3
