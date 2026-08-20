@@ -1,0 +1,98 @@
+#!/usr/bin/env python3
+"""cal-cci-chef-fetch — 飯能商工会議所「日替わりシェフレストラン」当番表 → YAML.
+
+Source: https://www.hanno-cci.or.jp/manage/founded/#02
+
+ページの FullCalendar 初期化コードに、全期間の予定が JSON 配列として直接
+埋め込まれている:
+
+    events: [{"start":"2026-04-14","title":"浮き雲\\nダルバート（ネパール料理）","allDay":true}, …]
+
+REST API も AJAX も要らず、HTML を 1 回取れば全件得られる。LLM 不使用。
+
+**集合同期型クローラ**である (既存の追記型とは別系統)。取得側に無い予定は
+「予定から外れた」と解釈して削除する。削除条件と安全弁は _lib.plan_set_sync()。
+設計: docs/superpowers/specs/2026-08-19-schedule-set-sync-design.md
+"""
+from __future__ import annotations
+
+import argparse
+import json
+import os
+import re
+import sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from _lib import (  # noqa: E402
+    fetch_with_cache, load_http_cache, save_http_cache,
+    load_source_config, normalize_char_width,
+    sync_set, SetSyncTooManyDeletions,
+    yaml_escape_str, yaml_block_scalar,
+)
+
+
+# ==================== Source ====================
+SOURCE_KEY = "cci-chef"
+
+# ==================== Logic ====================
+
+# FullCalendar の設定オブジェクト内の `events: [ … ]`
+_EVENTS_RE = re.compile(r"events:\s*\[")
+
+# 区切り: 改行 または 空白 2 個以上 (半角・全角どちらでも)。
+# 1 個の全角スペースを区切りにしないのは、"Bouguet　Bagle" のように
+# 店名の一部であることがあるため。
+_SPLIT_RE = re.compile(r"\n|[ 　]{2,}")
+
+
+def extract_events_json(html: str) -> list[dict]:
+    """FullCalendar の `events:` 配列を取り出す.
+
+    ブラケットの対応を数えて配列の終端を見つける (正規表現では入れ子を扱えない)。
+    見つからなければ ValueError — ページ構造の変化を静かに握り潰さない。
+    """
+    m = _EVENTS_RE.search(html)
+    if not m:
+        raise ValueError("FullCalendar の events: 配列が見つからない (ページ構造変化の可能性)")
+    start = m.end() - 1
+    depth = 0
+    for i in range(start, len(html)):
+        if html[i] == "[":
+            depth += 1
+        elif html[i] == "]":
+            depth -= 1
+            if depth == 0:
+                return json.loads(html[start:i + 1])
+    raise ValueError("events: 配列が閉じていない")
+
+
+def split_title(title: str) -> tuple[str, list[str]]:
+    """title を (店名, [メニュー行…]) に分ける.
+
+    元データは 2 通りのレイアウト規約が混在する:
+      - 改行区切り:       "北京ごはん\\n魯肉飯\\nタピオカ"
+      - 全角スペース詰め: "N.Teatime　　　日替わりランチ　　　手網焙煎珈琲"
+
+    どちらも「改行 または 空白 2 個以上」で切ると 1 行目が店名になる (実データ
+    95 件で検証済み)。あわせて文字種正規化を掛け、表記揺れを減らす。
+    """
+    parts = [normalize_char_width(p).strip() for p in _SPLIT_RE.split(title)]
+    parts = [p for p in parts if p]
+    if not parts:
+        return "", []
+    return parts[0], parts[1:]
+
+
+def build_items(html: str) -> list[dict]:
+    """HTML から sync_set() に渡す items を作る (日付でソート)."""
+    items: list[dict] = []
+    for ev in extract_events_json(html):
+        date = str(ev.get("start", ""))[:10]
+        if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", date):
+            continue
+        name, menu = split_title(str(ev.get("title", "")))
+        if not name:
+            continue
+        items.append({"date": date, "summary": name, "description": "\n".join(menu)})
+    items.sort(key=lambda x: (x["date"], x["summary"]))
+    return items
