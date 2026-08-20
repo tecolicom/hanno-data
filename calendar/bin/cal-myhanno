@@ -1135,6 +1135,89 @@ def cmd_wipe(args: argparse.Namespace) -> None:
     print(f"\nsummary: deleted={ok}  failed={err}  total={len(items)}")
 
 
+# ---------- prune: delete calendar events whose YAML is gone ----------
+
+
+def cmd_prune(args: argparse.Namespace) -> None:
+    """YAML に対応が無い Calendar イベントを削除する (UID prefix 限定).
+
+    集合同期型クローラ (cal-cci-chef-fetch 等) が YAML を消したとき、その削除を
+    Calendar まで通すための経路。apply-all は insert/update しか行わないので、
+    これが無いと消したはずの予定がカレンダーに残り続ける。
+
+    **CI では fetch --update-manual より前に実行しなければならない。** 後に置くと、
+    Calendar に残った孤児を fetch が source: なしの YAML として拾い、以後
+    「手動キュレーション = 不可侵」扱いになって二度と消せなくなる。
+
+    --uid-prefix は必須。指定しない限り 1 件も消えない (既存カレンダーへの誤爆を
+    構造的に防ぐ)。prefix が一致しないイベント (= 手で足した予定) は対象外。
+    """
+    import glob
+    prefix = args.uid_prefix + "-"
+
+    pattern = os.path.join(args.events_dir, "**", "*.yaml")
+    yaml_uids = set()
+    for f in sorted(glob.glob(pattern, recursive=True)):
+        uid = (load_yaml(f) or {}).get("uid")
+        if uid:
+            yaml_uids.add(uid)
+
+    targets: list[tuple[str, str, dict]] = []   # (cal_key, cal_id, event)
+    for cal_key, cal_id_val in CALENDARS.items():
+        for e in list_all_events(cal_id_val):
+            uid = e.get("iCalUID")
+            if not uid or not uid.startswith(prefix):
+                continue
+            if uid in yaml_uids:
+                continue
+            targets.append((cal_key, cal_id_val, e))
+
+    if not targets:
+        print(f"prune: nothing to delete (uid prefix '{args.uid_prefix}')")
+        return
+
+    print(f"prune: {len(targets)} orphan event(s) with uid prefix '{args.uid_prefix}'")
+    for cal_key, _, e in targets:
+        print(f"  [{cal_key}] {e.get('iCalUID')}  {e.get('summary','')[:40]}")
+
+    if len(targets) > args.max_delete:
+        die(f"{len(targets)} deletions exceed --max-delete {args.max_delete}; refusing")
+
+    if args.dry_run:
+        print("dry-run: nothing deleted")
+        return
+
+    print(f"\n=== taking pre-prune snapshot to {args.snapshot_dir}/ ===")
+    cmd_snapshot(argparse.Namespace(output=args.snapshot_dir))
+
+    # gws delete は cwd に download.html を書く副作用がある — /tmp で実行
+    orig_cwd = os.getcwd()
+    ok = err = 0
+    try:
+        os.chdir("/tmp")
+        for cal_key, cal_id_val, e in targets:
+            cmd = ["gws", "calendar", "events", "delete",
+                   "--params", json.dumps({"calendarId": cal_id_val, "eventId": e["id"]}),
+                   "--format", "json"]
+            p = subprocess.run(cmd, capture_output=True, text=True)
+            if p.returncode != 0:
+                err += 1
+                print(f"  DELETE FAIL  [{cal_key}] {e.get('iCalUID')}: {p.stderr.strip()[:200]}")
+            else:
+                ok += 1
+                print(f"  DELETED  [{cal_key}] {e.get('iCalUID')}")
+    finally:
+        os.chdir(orig_cwd)
+        try:
+            os.remove("/tmp/download.html")
+        except FileNotFoundError:
+            pass
+
+    print(f"\nsummary: deleted={ok}  failed={err}  total={len(targets)}")
+    if err:
+        sys.exit(1)
+
+
 # ---------- arg parser ----------
 
 
@@ -1205,6 +1288,18 @@ def build_parser() -> argparse.ArgumentParser:
     sp.add_argument("--dry-run", action="store_true", help="list what would be deleted (still takes snapshot)")
     sp.add_argument("--snapshot-dir", default="snapshots", help="where to save pre-wipe snapshot")
     sp.set_defaults(func=cmd_wipe)
+
+    sp = sub.add_parser("prune",
+        help="YAML に無い Calendar event を削除 (--uid-prefix で対象を限定、必須)")
+    sp.add_argument("--uid-prefix", required=True,
+                    help="対象の iCalUID prefix (例: chef)。必須 — 誤爆防止")
+    sp.add_argument("-d", "--events-dir", default="events", help="events directory")
+    sp.add_argument("--dry-run", action="store_true")
+    sp.add_argument("--max-delete", type=int, default=10,
+                    help="削除がこれを超えたら中止 (default: 10)")
+    sp.add_argument("--snapshot-dir", default="snapshots",
+                    help="削除前 snapshot の出力先 (default: snapshots)")
+    sp.set_defaults(func=cmd_prune)
 
     return p
 
