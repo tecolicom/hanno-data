@@ -1,0 +1,20 @@
+uid: "chef-20260719-01@hanno.city.tecoli.com"
+summary: "夏まつり"
+location: "日替わりシェフレストラン"
+url: "https://www.hanno-cci.or.jp/manage/founded/#02"
+dtstart: "2026-07-19"
+dtend: "2026-07-19"
+description: |-
+  （商工会議所）
+  
+  https://www.hanno-cci.or.jp/manage/founded/#02
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-chef
+  id: "20260719-01"
+  url: "https://www.hanno-cci.or.jp/manage/founded/#02"
+  content_hash: "sha256-c74289c325447548"

@@ -1,0 +1,22 @@
+uid: "chef-20260410-01@hanno.city.tecoli.com"
+summary: "北京ごはん"
+location: "日替わりシェフレストラン"
+url: "https://www.hanno-cci.or.jp/manage/founded/#02"
+dtstart: "2026-04-10"
+dtend: "2026-04-10"
+description: |-
+  魯肉飯（ルーローハン）
+  タピオカ
+  他
+  
+  https://www.hanno-cci.or.jp/manage/founded/#02
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-chef
+  id: "20260410-01"
+  url: "https://www.hanno-cci.or.jp/manage/founded/#02"
+  content_hash: "sha256-aa9f97e657ddec0c"

@@ -31,3 +31,15 @@ tourism-news:
   url_host_allowlist: hanno-tourism.jp
   url_path_prefix: "/news/"
   backfill_months: 6
+
+# 飯能商工会議所「日替わりシェフレストラン」当番表。
+# **集合同期型** — 1 ページに全期間の予定が JSON で埋め込まれており、取得側に
+# 無い予定は削除する (既存の追記型クローラとは別系統)。
+cci-chef:
+  uid_prefix: chef
+  source_type: hanno-cci-chef
+  page_url: "https://www.hanno-cci.or.jp/manage/founded/"
+  anchor: "02"
+  location: "日替わりシェフレストラン"
+  url_host_allowlist: www.hanno-cci.or.jp
+  max_delete: 10

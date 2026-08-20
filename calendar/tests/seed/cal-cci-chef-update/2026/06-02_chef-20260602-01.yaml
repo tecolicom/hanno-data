@@ -1,0 +1,20 @@
+uid: "chef-20260602-01@hanno.city.tecoli.com"
+summary: "古い店名"
+location: "日替わりシェフレストラン"
+url: "https://www.hanno-cci.or.jp/manage/founded/#02"
+dtstart: "2026-06-02"
+dtend: "2026-06-02"
+description: |-
+  古いメニュー
+
+  https://www.hanno-cci.or.jp/manage/founded/#02
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-chef
+  id: "20260602-01"
+  url: "https://www.hanno-cci.or.jp/manage/founded/#02"
+  content_hash: "sha256-0000000000000000"

@@ -96,3 +96,101 @@ def build_items(html: str) -> list[dict]:
         items.append({"date": date, "summary": name, "description": "\n".join(menu)})
     items.sort(key=lambda x: (x["date"], x["summary"]))
     return items
+
+
+# ---------- YAML 生成 ----------
+
+
+def build_yaml_doc(uid: str, item: dict, source_id: str, content_hash: str) -> str:
+    """1 イベントの YAML 本文を組み立てる (sync_set の render_doc コールバック).
+
+    summary に絵文字 prefix は付けない: 専用カレンダーなので全件同じ prefix に
+    なり情報量がない (既存クローラの 📢/🎪/ℹ️/📝 は 1 カレンダーに複数ソースが
+    混ざるための識別子)。
+    """
+    cfg = load_source_config(SOURCE_KEY)
+    source_url = f"{cfg['page_url']}#{cfg['anchor']}"
+
+    desc_parts = []
+    if item["description"]:
+        desc_parts.append(item["description"])
+    desc_parts.append(source_url)
+    description = "\n\n".join(desc_parts)
+
+    lines = [
+        f"uid: {yaml_escape_str(uid)}",
+        f"summary: {yaml_escape_str(item['summary'])}",
+        f"location: {yaml_escape_str(cfg['location'])}",
+        f"url: {yaml_escape_str(source_url)}",
+        f"dtstart: {yaml_escape_str(item['date'])}",
+        f"dtend: {yaml_escape_str(item['date'])}",
+        "description: " + yaml_block_scalar(description, indent=2),
+        "",
+        "render:",
+        "  gcal:",
+        "    mode: single-allday",
+        "",
+        "source:",
+        f"  type: {cfg['source_type']}",
+        f"  id: {yaml_escape_str(source_id)}",
+        f"  url: {yaml_escape_str(source_url)}",
+        f"  content_hash: {yaml_escape_str(content_hash)}",
+    ]
+    return "\n".join(lines) + "\n"
+
+
+# ---------- main ----------
+
+
+def main() -> None:
+    here = os.path.dirname(os.path.abspath(__file__))
+    default_out_dir = os.path.join(here, "..", "events")
+    cfg = load_source_config(SOURCE_KEY)
+
+    ap = argparse.ArgumentParser(
+        description="飯能商工会議所 日替わりシェフレストラン当番表 → YAML (LLM 不使用)")
+    ap.add_argument("--out-dir", default=default_out_dir)
+    ap.add_argument("--uid-prefix", default=cfg["uid_prefix"])
+    ap.add_argument("--dry-run", action="store_true", help="書き込まずに件数だけ出す")
+    ap.add_argument("--min-events", type=int, default=20,
+                    help="抽出件数がこれ未満なら exit 2 (CI 暴走防止、default: 20)")
+    ap.add_argument("--max-delete", type=int, default=cfg.get("max_delete", 10),
+                    help="削除がこれを超えたら何も書かずに exit 3")
+    ap.add_argument("--today", default=None, help="削除判定の基準日 (テスト用)")
+    args = ap.parse_args()
+
+    url = cfg["page_url"]
+    host = url.split("/")[2]
+    if host != cfg["url_host_allowlist"]:
+        sys.exit(f"URL outside allowlist: {url}")
+
+    # HTTP Conditional GET: 304 なら parse も write も全 skip
+    http_cache = load_http_cache()
+    entry = http_cache.get(url, {})
+    html, etag, lm = fetch_with_cache(url, entry.get("etag"), entry.get("last_modified"))
+    if html is None:
+        print(f"304 not modified, skip: {url}", file=sys.stderr)
+        return
+    http_cache[url] = {"etag": etag, "last_modified": lm}
+    save_http_cache(http_cache)
+
+    items = build_items(html)
+    print(f"Extracted {len(items)} events from {url}", file=sys.stderr)
+    if len(items) < args.min_events:
+        sys.exit(f"only {len(items)} events (< --min-events {args.min_events}); "
+                 f"page structure may have changed")
+
+    try:
+        stats = sync_set(args.out_dir, args.uid_prefix, items, build_yaml_doc,
+                         today=args.today, max_delete=args.max_delete,
+                         dry_run=args.dry_run)
+    except SetSyncTooManyDeletions as e:
+        print(f"ERROR: {e}", file=sys.stderr)
+        sys.exit(3)
+
+    print(f"Done. added={stats['added']} updated={stats['updated']} "
+          f"deleted={stats['deleted']} unchanged={stats['unchanged']}", file=sys.stderr)
+
+
+if __name__ == "__main__":
+    main()

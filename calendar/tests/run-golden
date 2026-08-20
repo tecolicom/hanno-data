@@ -42,7 +42,13 @@ def _read_fixture(crawler, fname):
 # dtstart が実行日に依存しないクローラ。ここに載るものは日付を正規化せず
 # そのまま比較する。news は「本文から抽出した開催日」が dtstart なので、
 # 潰すと本設計の要である日付抽出の回帰を golden が見逃す。
-DETERMINISTIC_DATE_CRAWLERS = {"cal-tourism-news-fetch"}
+DETERMINISTIC_DATE_CRAWLERS = {"cal-tourism-news-fetch", "cal-cci-chef-fetch"}
+
+# 削除判定を「今日」に依存させないため、集合同期型クローラには基準日を固定して
+# 渡す。固定しないと fixture 内の予定が日々「過去」に流れ、削除の可否が変わって
+# golden が壊れる。
+SET_SYNC_TODAY = "2026-06-01"
+SET_SYNC_CRAWLERS = {"cal-cci-chef-fetch"}
 
 
 def _normalize(text, keep_dates=False):
@@ -121,6 +127,18 @@ def _setup_tourism_news(m, crawler, manifest):
     m.check_news_count = lambda n, min_news: None
 
 
+def _setup_cci_chef(m, crawler, manifest):
+    """HTTP を fixture に差し替える (集合同期型クローラ)。
+
+    基準日の固定は SET_SYNC_TODAY を --today で渡すことで行う (_run_crawler)。
+    """
+    m.fetch_with_cache = lambda url, etag, lm: (
+        (_read_fixture(crawler, manifest[url]), None, None) if url in manifest
+        else (None, None, None))
+    m.load_http_cache = lambda: {}
+    m.save_http_cache = lambda c: None
+
+
 # (golden 名, crawler スクリプト名, setup, seed dir 名 | None)
 # seed を渡すと、その中身を out-dir に事前展開してから crawler を走らせる
 # (= 既存 YAML がある状態の再現。更新検知 / supersedes の経路を通す)。
@@ -134,6 +152,14 @@ CRAWLERS = [
     # 応答が要るので golden ではなく test_news_cancel.py が実データで見ている。
     ("cal-tourism-news-existing", "cal-tourism-news-fetch", _setup_tourism_news,
      "cal-tourism-news-existing"),
+    # 集合同期型。seed 付きの 3 本は削除ガードの回帰を見る:
+    #   update    … 既存 YAML が更新されること
+    #   delete    … 取得側に無い「未来」の予定が消えること (golden に無い = 消えた)
+    #   keep-past … 取得側に無くても「過去」の予定は残ること
+    ("cal-cci-chef-fetch", "cal-cci-chef-fetch", _setup_cci_chef, None),
+    ("cal-cci-chef-update", "cal-cci-chef-fetch", _setup_cci_chef, "cal-cci-chef-update"),
+    ("cal-cci-chef-delete", "cal-cci-chef-fetch", _setup_cci_chef, "cal-cci-chef-delete"),
+    ("cal-cci-chef-keep-past", "cal-cci-chef-fetch", _setup_cci_chef, "cal-cci-chef-keep-past"),
 ]
 
 
@@ -149,6 +175,8 @@ def _run_crawler(crawler, setup, seed):
             if seed:
                 shutil.copytree(os.path.join(SEED, seed), d, dirs_exist_ok=True)
             sys.argv = [crawler, "--out-dir", d]
+            if crawler in SET_SYNC_CRAWLERS:
+                sys.argv += ["--today", SET_SYNC_TODAY]
             m.main()
             keep = crawler in DETERMINISTIC_DATE_CRAWLERS
             for p in glob.glob(os.path.join(d, "**", "*.yaml"), recursive=True):

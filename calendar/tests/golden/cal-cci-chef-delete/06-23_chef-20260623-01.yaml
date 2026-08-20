@@ -1,0 +1,20 @@
+uid: "chef-20260623-01@hanno.city.tecoli.com"
+summary: "浮き雲"
+location: "日替わりシェフレストラン"
+url: "https://www.hanno-cci.or.jp/manage/founded/#02"
+dtstart: "2026-06-23"
+dtend: "2026-06-23"
+description: |-
+  ダルバート（ネパール料理）
+  
+  https://www.hanno-cci.or.jp/manage/founded/#02
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-chef
+  id: "20260623-01"
+  url: "https://www.hanno-cci.or.jp/manage/founded/#02"
+  content_hash: "sha256-2758bdb19085aab5"

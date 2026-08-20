@@ -1,0 +1,18 @@
+uid: "chef-20260615-01@hanno.city.tecoli.com"
+summary: "消えるはずの予定"
+location: "日替わりシェフレストラン"
+url: "https://www.hanno-cci.or.jp/manage/founded/#02"
+dtstart: "2026-06-15"
+dtend: "2026-06-15"
+description: |-
+  https://www.hanno-cci.or.jp/manage/founded/#02
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-chef
+  id: "20260615-01"
+  url: "https://www.hanno-cci.or.jp/manage/founded/#02"
+  content_hash: "sha256-1111111111111111"

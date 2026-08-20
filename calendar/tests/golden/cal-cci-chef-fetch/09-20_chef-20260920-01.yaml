@@ -1,0 +1,18 @@
+uid: "chef-20260920-01@hanno.city.tecoli.com"
+summary: "ひだまりcafeほわっと（認知症cafe）"
+location: "日替わりシェフレストラン"
+url: "https://www.hanno-cci.or.jp/manage/founded/#02"
+dtstart: "2026-09-20"
+dtend: "2026-09-20"
+description: |-
+  https://www.hanno-cci.or.jp/manage/founded/#02
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-chef
+  id: "20260920-01"
+  url: "https://www.hanno-cci.or.jp/manage/founded/#02"
+  content_hash: "sha256-f7afdb0e2147f538"

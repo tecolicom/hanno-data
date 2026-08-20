@@ -1,0 +1,20 @@
+uid: "chef-20260702-01@hanno.city.tecoli.com"
+summary: "毎週木曜日"
+location: "日替わりシェフレストラン"
+url: "https://www.hanno-cci.or.jp/manage/founded/#02"
+dtstart: "2026-07-02"
+dtend: "2026-07-02"
+description: |-
+  出店者募集中
+  
+  https://www.hanno-cci.or.jp/manage/founded/#02
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-chef
+  id: "20260702-01"
+  url: "https://www.hanno-cci.or.jp/manage/founded/#02"
+  content_hash: "sha256-56b43c5dba01a9cd"
