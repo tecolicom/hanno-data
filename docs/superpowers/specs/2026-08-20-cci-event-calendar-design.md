@@ -76,27 +76,42 @@ REST API は `meta` を公開していない (`wp-json/wp/v2/xo_event` のレス
 
 ## 4. カレンダー構成
 
-| logical key | 内容 |
+| logical key | calendar ID |
 |---|---|
-| `cci` | 商工会議所からのお知らせ (JP) |
-| `cci.en` | 同 英訳 |
+| `cci` | `b0a56c8e1f5246cda41e2fdb3c449b20c50bb365aac92333a4a9290a21e7edcf@group.calendar.google.com` |
+| `cci.en` | `b932613ee11b3b16657b986a7ec1bd82ad7c385c30de75a2db5834ba1a297e32@group.calendar.google.com` |
 
 `source.type` は `hanno-cci-event`。routing は `SOURCE_TYPE_TO_CALENDAR` に
 1 行追加。
 
-**英訳する。** 当番表 (`chef`) を英訳しなかったのは「店名という固有名詞を訳しても
-情報が増えない」ためで、shop カレンダーだからではない。商工会議所の告知は
-補助金・相談窓口・セミナーの説明文で、本文の中央値は 370 字ある。飯能で事業を
-する外国人にとって実用的な情報であり、訳す価値がある。
+**英訳する。** 当番表 (`chef`) を英訳しなかった理由は「**店名という固有名詞を訳しても
+情報が増えない**」の一点。商工会議所の告知は補助金・相談窓口・セミナーの説明文で、
+本文の中央値は 370 字ある。飯能で事業をする外国人にとって実用的な情報であり、訳す
+価値がある。
 
-`cci.en` は店舗ページには出ない (city-tecoli の店舗ページに i18n が無い)。
-既存の `default.en` / `gikai.en` と同じく、Google カレンダーで直接購読する経路で
-使う。
+> **訂正**: 起案時に「shop カレンダーは店舗ページに i18n が無いので英訳しても
+> 読む場所が無い」と書いたが、これは誤り。`publicCalendars()` が除外するのは
+> `kind: 'todo'` だけで (`storage/shops.ts:127-129`)、**言語による絞り込みは
+> 存在しない**。登録すれば英語カレンダーもそのまま店舗ページに並ぶ。
+> `default.en` / `gikai.en` が店舗ページに出ないのは、それらが街レベルの
+> カレンダーで**そもそも店舗に登録されていない**ためであって、英語だからではない。
 
-**Google カレンダーを 2 本、新規に作る必要がある** (`tecolicom@gmail.com` 所有、
-SA に「予定の変更権限」で共有)。`cci` はアプリの商工会議所店舗ページから作成する
-(当番表と同じ手順) と ShopCalendar として自動登録され、§1(a) の ⚙ も出る。
-`cci.en` は店舗ページに出さないので Google カレンダー UI で手作りする。
+したがって `cci.en` にも 2 つの経路がある。店舗ページへの登録と、Google カレンダー
+での直接購読。どちらで見せるかは運用判断で、本設計は両方を可能にしておく。
+
+### カレンダーは作成済み (2026-08-20)
+
+`tecolicom@gmail.com` 所有、一般公開 (`reader`/`default`)、SA
+`myhanno-bot@city-tecoli.iam.gserviceaccount.com` に `writer` を委託。
+SA からアクセスできることを確認済み。
+
+作成は `gws` CLI で行った。`gws auth login` を `tecolicom@gmail.com` で通し、
+`calendars.insert` → `acl.insert` × 2 を実行。所有者を揃えるため SA 認証では
+作っていない (`calendars.insert` は「認証したユーザーが data owner になる」)。
+以後カレンダーを増やすときも同じ手順で足りる。
+
+**残る手作業**: 商工会議所の店舗ページへの登録 (公開カレンダーとして ICS URL を
+登録)。これで商工会議所のカレンダーが 2 本になり §1(a) の ⚙ も出る。
 
 ## 5. 本文と要約
 
