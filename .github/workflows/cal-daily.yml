@@ -107,6 +107,15 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: ./calendar/bin/cal-oshirase-fetch --out-dir calendar/events --min-items 0 || echo "city-hanno-oshirase" >> "$RUNNER_TEMP/crawl-failures.txt"
 
+      - name: Crawl hanno-cci-event
+        # 長文は Claude Haiku で要約する。ANTHROPIC_API_KEY が無いと method が
+        # llm-haiku-4-5 から full に変わるが、content_hash に method を含めない
+        # 設計なので hash は動かない (= flood しない)。それでも要約の有無で
+        # 見え方が変わるので、CI では必ず鍵を渡す。
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: ./calendar/bin/cal-cci-event-fetch --out-dir calendar/events --min-items 0 || echo "hanno-cci-event" >> "$RUNNER_TEMP/crawl-failures.txt"
+
       - name: Crawl hanno-cci-chef
         # 集合同期型。取得側に無い予定は YAML から削除される。削除ガードは
         # _lib.plan_set_sync (取得範囲内かつ今日以降のみ、上限超過なら exit 3 で

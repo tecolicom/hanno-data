@@ -78,13 +78,21 @@ Service Account 1 つで管理:
 | `default.en` | Myはんのう（EN） | `default` の英訳 (同 source.type) | (同上) |
 | `gikai.en` | 飯能市役所（EN） | `gikai` の英訳 (同 source.type) | (同上) |
 | `chef` | 日替わりシェフレストラン | 商工会議所の当番表 (**EN なし**) | hanno-cci-chef |
+| `cci` | 商工会議所からのお知らせ | 商工会議所の告知 (検定を除く 4 カテゴリ) | hanno-cci-event |
+| `cci.en` | 商工会議所からのお知らせ（EN） | `cci` の英訳 | (同上) |
 
-`chef` だけ EN 版が無い。`default.en` / `gikai.en` が要るのは `@hanno/` が ical を
-2 言語で配信しているからで、`chef` は**店舗ページに紐付く shop カレンダー**なので
-その経路に乗らない。city-tecoli の店舗ページには i18n の仕組みが無く、訳文を
-表示する場所が存在しないため、`cal-translate-en` の
-`NO_TRANSLATION_SOURCE_TYPES` で明示的に除外している (除外を書かないと
-`translations.en.*` が付き、毎日 LLM を無駄に呼ぶ)。
+`chef` だけ EN 版が無い。理由は「**店名という固有名詞を訳しても情報が増えない**」
+の一点。`cal-translate-en` の `NO_TRANSLATION_SOURCE_TYPES` で明示的に除外している
+(除外を書かないと `translations.en.*` が付き、毎日 LLM を無駄に呼ぶ)。
+
+同じ shop カレンダーでも `cci` は英訳する。告知は補助金・相談窓口・セミナーの
+説明文で、本文の中央値は 370 字あり、訳す価値がある。
+
+> **shop カレンダーだから英訳しない、ではない。** `publicCalendars()` が除外するのは
+> `kind: 'todo'` だけで (city-tecoli の `storage/shops.ts:127-129`)、**言語による
+> 絞り込みは存在しない**。登録すれば英語カレンダーもそのまま店舗ページに並ぶ。
+> `default.en` / `gikai.en` が店舗ページに出ないのは、それらが街レベルのカレンダーで
+> **そもそも店舗に登録されていない**ためであって、英語だからではない。
 
 routing は `source.type` ベース。`source.type` → `default` or `gikai` のマッピングが
 `bin/cal-myhanno` の `SOURCE_TYPE_TO_CALENDAR` に定義。英語カレンダーは
@@ -104,6 +112,7 @@ calendar/
 │   ├── cal-shicho-blog-fetch    市長ブログ取得 + 本文掲載 (LLM 不使用)
 │   ├── cal-oshirase-fetch       飯能市公式お知らせ取得 + LLM 要約
 │   ├── cal-cci-chef-fetch       商工会議所 日替わりシェフ当番表 (集合同期型、LLM 不使用)
+│   ├── cal-cci-event-fetch      商工会議所の告知 (xo_event)、長文は LLM 要約
 │   └── cal-translate-en         events/ 全 YAML を英訳して translations.en.* に格納
 ├── sources.yaml                 クローラの source 別 city 固有設定 (URL / prefix 等、多都市化用)
 ├── events/                      canonical YAML (1 イベント 1 ファイル)
@@ -145,6 +154,7 @@ calendar/
 | クローラ設定 | `load_source_config(source_key)` — `../sources.yaml` から source 別の city 固有設定 dict を読む (不在 key は KeyError) |
 | 文字種正規化 | `normalize_char_width(s)` — 全角 ASCII → 半角、半角カナ → 全角。**寄せないもの**: 大小文字の差、全角スペース U+3000、全角括弧、全角ティルダ (`normalize_tilde` の担当) |
 | 集合同期 | `plan_set_sync(existing, incoming, dates, today, max_delete)` — 削除可否の判定 (純粋関数、上記「削除ガード」) / `sync_set(out_dir, uid_prefix, items, render_doc, today, max_delete, dry_run)` — その実行 / `set_sync_uid` / `set_sync_hash` (**イベント単位**の content_hash) / `SetSyncTooManyDeletions` |
+| LLM 出力の検算 | `drop_unchanged_claims(text)` — 「A から A に変更」を含む文を落とす。**差分行を作る全クローラが共有する** (`cal-oshirase-fetch` / `cal-cci-event-fetch`)。片方にだけ置くと後日片方だけ直る事故が起きるので `_lib` に置いている |
 
 ## 認証
 
@@ -798,6 +808,8 @@ golden シナリオ:
 | `cal-tourism-news-fetch` | tourism-news | 無し | 告知 / 本番の 2 イベント生成 |
 | `cal-tourism-news-existing` | tourism-news | `seed/cal-tourism-news-existing/` | 再実行で重複・移動が起きないこと |
 | `cal-cci-chef-fetch` | cci-chef | 無し | 当番表 95 件の初回取込 |
+| `cal-cci-event-fetch` | cci-event | 無し | 商工会議所の告知 49 件の初回取込 |
+| `cal-cci-event-update` | cci-event | `seed/cal-cci-event-update/` | **追記型**の更新検知 — 旧世代が残り新世代が `supersedes` 付きで増える (50 件) |
 | `cal-cci-chef-update` | cci-chef | `seed/cal-cci-chef-update/` | 既存 YAML が更新されること |
 | `cal-cci-chef-delete` | cci-chef | `seed/cal-cci-chef-delete/` | 取得側に無い**未来**の予定が消えること |
 | `cal-cci-chef-keep-past` | cci-chef | `seed/cal-cci-chef-keep-past/` | 取得側に無くても**過去**の予定は残ること |
