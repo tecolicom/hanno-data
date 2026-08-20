@@ -622,3 +622,60 @@ def call_llm(system: str, user: str, *, model: str, max_tokens: int,
     except Exception as e:
         print(f"  WARN: LLM call failed: {e}", file=sys.stderr)
         return None
+
+
+# ==================== 集合同期 (schedule set sync) ====================
+# 「1 エンドポイントに全件が載る予定表」を扱う系統の中核。既存の追記型クローラ
+# (記事 1 本 = イベント 1 個) と違い、取得側に無い = 予定から外れた と解釈できる
+# ので、削除まで行える。設計:
+# docs/superpowers/specs/2026-08-19-schedule-set-sync-design.md
+
+
+class SetSyncTooManyDeletions(RuntimeError):
+    """削除対象が上限を超えた。パース失敗でカレンダーが空になる事故を止める。"""
+
+
+def plan_set_sync(existing: dict[str, str], incoming: dict[str, str],
+                  dates: dict[str, str], today: str,
+                  max_delete: int = 10) -> dict[str, list[str]]:
+    """既存集合と取得集合を照合し、書き込み / 削除 / 据え置きを決める (純粋関数).
+
+    existing / incoming: {uid: content_hash}
+    dates:               {uid: "YYYY-MM-DD"}  (existing と incoming の両方を含む)
+    today:               "YYYY-MM-DD"
+
+    削除は以下を **すべて** 満たすときだけ:
+      1. 既存側にあり取得側に無い
+      2. dtstart が取得集合の日付範囲 [min, max] の内側
+         → ソースはローリングウィンドウなので、範囲外の過去分を守る
+      3. dtstart >= today
+         → 時間が経って流れていった予定は記録として残す
+
+    incoming が空なら日付範囲を定義できないので何も削除しない (パース失敗時の保険)。
+    """
+    write = sorted(uid for uid, h in incoming.items() if existing.get(uid) != h)
+    unchanged = sorted(uid for uid, h in incoming.items() if existing.get(uid) == h)
+
+    delete: list[str] = []
+    if incoming:
+        incoming_dates = [dates[uid] for uid in incoming if uid in dates]
+        lo, hi = min(incoming_dates), max(incoming_dates)
+        for uid in existing:
+            if uid in incoming:
+                continue
+            d = dates.get(uid)
+            if d is None:
+                continue        # 日付不明は触らない
+            if not (lo <= d <= hi):
+                continue        # 取得範囲の外
+            if d < today:
+                continue        # 過去は残す
+            delete.append(uid)
+        delete.sort()
+
+    if len(delete) > max_delete:
+        raise SetSyncTooManyDeletions(
+            f"{len(delete)} deletions exceed max_delete={max_delete}; "
+            f"refusing to write. targets: {delete[:20]}")
+
+    return {"write": write, "delete": delete, "unchanged": unchanged}
