@@ -46,6 +46,12 @@ CALENDARS: dict[str, str] = {
     # 英語 (lang=en) — JP と対称構成
     "default.en": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",  # Myはんのう（EN）
     "gikai.en":   "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",  # 飯能市役所（EN）
+    # 飯能商工会議所「日替わりシェフレストラン」当番表 (集合同期型)。
+    # tecolicom@gmail.com 所有、city-tecoli のアプリが商工会議所の店舗ページ
+    # (place_id: ChIJ_aM0DDcmGWAR3KV7H6eOrIs) から作成したもの。
+    # EN 版は作らない: 店舗ページに i18n が無く、読む場所が存在しないため
+    # (cal-translate-en の NO_TRANSLATION_SOURCE_TYPES で除外している)。
+    "chef":       "ae1577f36d2b51db208baec59cc84e90ceab25d41bad166b42c37fb7063f4a46@group.calendar.google.com",  # 日替わりシェフレストラン
 }
 
 # source.type → calendar (logical name) ルーティング
@@ -54,6 +60,7 @@ SOURCE_TYPE_TO_CALENDAR: dict[str, str] = {
     "city-hanno-gikai":       "gikai",
     "city-hanno-shicho-blog": "gikai",
     "city-hanno-oshirase":    "gikai",
+    "hanno-cci-chef":         "chef",
 }
 
 

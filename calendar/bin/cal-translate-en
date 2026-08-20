@@ -62,6 +62,13 @@ LLM_MAX_TOKENS = 2048  # 翻訳なので summarize より長めに
 # AI 翻訳 disclaimer (訳文冒頭). docs/ai-content-policy.md 参照.
 EN_DISCLAIMER = "Automated translation (refer to source for accuracy)"
 
+# 翻訳しない source.type。EN カレンダーを持たない (= 訳しても読む場所が無い)
+# ソースを除外する。書かないと translations.en.* が付き、毎日 LLM を無駄に呼ぶ。
+#   hanno-cci-chef … 店舗ページに紐付く shop カレンダーで、@hanno/ の ical
+#                    2 言語配信には乗らない。city-tecoli の店舗ページには
+#                    i18n の仕組みが無いため、訳文を表示する場所が存在しない。
+NO_TRANSLATION_SOURCE_TYPES = frozenset({"hanno-cci-chef"})
+
 # 翻訳プロンプト. Google Calendar 表示 (plain text) を前提.
 SYSTEM_PROMPT = """You translate Japanese municipal calendar entries from Hanno City (飯能市, Saitama Prefecture, Japan) into clear plain English for non-Japanese-speaking residents and visitors.
 
@@ -290,6 +297,12 @@ def main() -> None:
             errors += 1
             continue
         if args.only_uid and doc.get("uid") != args.only_uid:
+            continue
+        # EN カレンダーを持たない source は訳さない。translation_hash の計算より
+        # 前に落とす (後ろだと、既に translations.en が付いた YAML を rehash して
+        # しまう)。
+        if (doc.get("source") or {}).get("type") in NO_TRANSLATION_SOURCE_TYPES:
+            skipped += 1
             continue
         summary = doc.get("summary", "")
         description = doc.get("description", "")
