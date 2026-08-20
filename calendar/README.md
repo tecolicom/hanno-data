@@ -172,6 +172,45 @@ secrets.GWS_SA_JSON
 
 `cal-myhanno` は env 未設定時に `~/.config/myhanno/sa.json` を自動 fallback する。
 
+### 商工会議所の REST API は CI から使えない (cal-cci-event-fetch 無効化中)
+
+`cal-cci-event-fetch` は **CI から実行していない**。`cal-daily.yml` で
+コメントアウトしてある。商工会議所の REST API (`/wp-json/`) が GitHub
+Actions の IP から遮断されているため。
+
+観測 (2026-08-20、ランナーは Azure eastus2 / 米国バージニア、IP 135.119.132.147):
+
+| 時刻 | HTML (`/manage/founded/`) | REST (`/wp-json/`) |
+|---|---|---|
+| 15:56 | timeout | timeout |
+| 16:43 | **200** | **403** |
+| 16:52 | **200** | **403** |
+| 17:01 | **000 (到達不能)** | **000 (到達不能)** |
+
+同時刻に日本国内のローカル回線からは REST も HTML も 200。CDN / WAF の
+ヘッダは無く `server: nginx` のみ。UA は両クローラで同一なので UA 起因ではない。
+
+一貫した説明は「`/wp-json/` が国外 IP から遮断されており (日本の WordPress
+サイトで一般的な設定。公開ページは通し `wp-login.php` / `xmlrpc.php` /
+`wp-json` だけ国外から弾く)、403 を繰り返した結果 IP 全体が締め出された」。
+
+**止めた理由は 2 つ。**
+
+1. **巻き添え** — 同じ IP から動く `cal-cci-chef-fetch` まで到達不能になる
+   (実際 15:56 と 17:01 に chef 側も落ちた)
+2. **相手のサイトに迷惑** — 遮断されると分かっている先を毎日叩かない
+
+取り込み済みの 49 件は `events/` とカレンダーに残る。手元 (日本の回線) からは
+問題なく動くので、更新が必要なら手動で流す:
+
+```
+./calendar/bin/cal-cci-event-fetch --out-dir calendar/events --min-items 1
+```
+
+恒久対応の候補: HTML スクレイプへの書き直し (chef と同じ経路なら通る見込み。
+ただし記事ごとに 1 リクエスト要り、REST より負荷が大きい) / 商工会議所への
+アクセス許可の相談 / 手元での定期実行。
+
 ### 落とし穴: ユーザー OAuth が SA 認証を上書きする (対処済み)
 
 `gws` は保存済みのユーザー認証 (`~/.config/gws/credentials.enc`) を

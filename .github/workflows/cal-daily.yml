@@ -107,14 +107,34 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: ./calendar/bin/cal-oshirase-fetch --out-dir calendar/events --min-items 0 || echo "city-hanno-oshirase" >> "$RUNNER_TEMP/crawl-failures.txt"
 
-      - name: Crawl hanno-cci-event
-        # 長文は Claude Haiku で要約する。ANTHROPIC_API_KEY が無いと method が
-        # llm-haiku-4-5 から full に変わるが、content_hash に method を含めない
-        # 設計なので hash は動かない (= flood しない)。それでも要約の有無で
-        # 見え方が変わるので、CI では必ず鍵を渡す。
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: ./calendar/bin/cal-cci-event-fetch --out-dir calendar/events --min-items 0 || echo "hanno-cci-event" >> "$RUNNER_TEMP/crawl-failures.txt"
+      # ===== 無効化中: hanno-cci-event =====
+      #
+      # cal-cci-event-fetch は **CI から実行しない**。商工会議所の REST API
+      # (/wp-json/) が GitHub Actions の IP から遮断されているため。
+      #
+      # 観測 (2026-08-20、ランナーは Azure eastus2 / 米国バージニア):
+      #   15:56  HTML timeout   / REST timeout
+      #   16:43  HTML 200       / REST 403
+      #   16:52  HTML 200       / REST 403
+      #   17:01  HTML 000       / REST 000   ← サイト全体へ到達不能
+      # 同時刻に日本国内のローカル回線からは REST も HTML も 200。
+      #
+      # 一貫した説明は「/wp-json/ が国外 IP から遮断されており (日本の WordPress
+      # サイトで一般的な設定)、403 を繰り返した結果 IP 全体が締め出された」。
+      #
+      # **止める理由は 2 つある。**
+      # 1. 巻き添え — 同じ IP から動く cal-cci-chef-fetch まで到達不能になる
+      #    (実際 15:56 と 17:01 に chef 側も落ちた)
+      # 2. 相手のサイトに迷惑 — 遮断されると分かっている先を毎日叩かない
+      #
+      # データは失われない。取り込み済みの 49 件は events/ とカレンダーに残る。
+      # 恒久対応 (HTML スクレイプへの書き直し / 商工会議所への相談 / 手元での
+      # 定期実行) は別途検討する。
+      #
+      # - name: Crawl hanno-cci-event
+      #   env:
+      #     ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      #   run: ./calendar/bin/cal-cci-event-fetch --out-dir calendar/events --min-items 1 || echo "hanno-cci-event" >> "$RUNNER_TEMP/crawl-failures.txt"
 
       - name: Crawl hanno-cci-chef
         # 集合同期型。取得側に無い予定は YAML から削除される。削除ガードは
