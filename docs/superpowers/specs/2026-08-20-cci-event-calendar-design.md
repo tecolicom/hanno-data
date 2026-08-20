@@ -61,6 +61,9 @@ REST API は `meta` を公開していない (`wp-json/wp/v2/xo_event` のレス
 試したが、月グリッドの枠だけを返しイベントを含まない。
 
 したがって取れるのは `date` / `title` / `content` / `link` / `xo_event_cat` のみ。
+**RSS に切り替えても同じ** (§8)。`<pubDate>` は掲載日であって開催日ではなく、
+postmeta の開催日は RSS にも現れない。開催日が欲しければ本文からの抽出 (LLM +
+機械検算) が要る — 本設計の非目的 (§11)。
 
 **帰結: 過去分はトップページに出ない。** アプリのトップは「今日以降」を見るので、
 2026-01 に掲載された記事は取り込んでもトップには現れない。店舗ページと
@@ -216,26 +219,88 @@ source:
 | 経営支援 | `💼 ` |
 | 地域振興 | `🏮 ` |
 
-## 8. 取得
+## 8. 取得 — RSS を使う (REST は使えない)
 
-`https://www.hanno-cci.or.jp/wp-json/wp/v2/xo_event`
+### REST が使えない
 
-- `after=2026-01-01T00:00:00` で期間を絞る
-- `xo_event_cat` でカテゴリを指定 (4 つ)
-- `_fields` で必要なフィールドだけ取る
+起案時は `wp-json/wp/v2/xo_event` を使う設計だったが、**CI から実行できない**
+ことが判明したので RSS に切り替える。
 
-**2 段の判定を混同しないこと。**
+観測 (2026-08-20、ランナーは Azure eastus2 / 米国バージニア):
 
-| 何を決めるか | 材料 |
-|---|---|
-| この記事を処理するか (politeness) | `modified_gmt` — 前回取得以降に動いていなければ skip |
-| 新世代を作るか | **`content_hash`** — title + date + body から計算 |
+| 時刻 | HTML | REST |
+|---|---|---|
+| 15:56 | timeout | timeout |
+| 16:43 | **200** | **403** |
+| 16:52 | **200** | **403** |
+| 17:01 | **000 (到達不能)** | **000 (到達不能)** |
 
-`modified_gmt` はサーバ側の更新時刻で、本文が実質変わっていなくても動くことが
-ある (プラグインの再保存等)。世代を決めるのは必ず `content_hash` 側。
+同時刻に日本国内のローカル回線からは両方 200。
 
-REST 一覧に `content.rendered` が含まれるので、記事ごとの個別 fetch は不要
-(`cal-tourism-fetch` が HTML を取りに行くのとは違い、1 リクエストで本文まで来る)。
+**同じ現象を別サイトで既に踏んでいた。** `WatchCrow/README.md` に記録がある:
+
+> han-note.com は Xserver の REST API アクセス制限により海外 IP (GitHub
+> Actions ランナー含む) からの wp-json が 403 になるため、`sitemap` 型に切替済み。
+
+つまり原因は Xserver 系ホスティングの「国外 IP からの REST API 制限」。公開
+ページは通し、`wp-login.php` / `xmlrpc.php` / `wp-json` だけ弾く設定。403 を
+繰り返した結果、IP 全体が締め出されたと見られる (17:01 の到達不能)。
+
+**遮断されると分かっている先を叩き続けない。** 巻き添えで
+`cal-cci-chef-fetch` まで落ちる (実際 15:56 と 17:01 に落ちた)。
+
+### sitemap は使えない
+
+はんのーとの解決策 (`post-sitemap.xml`) はそのままは使えない。商工会議所の
+sitemap は Google Sitemap Generator 製で、**`sitemap-pt-page-*` (固定ページ)
+しか含まず、カスタム投稿タイプ `xo_event` が載っていない**。
+
+### RSS を使う
+
+カテゴリ別フィードを回す。
+
+```
+https://www.hanno-cci.or.jp/xo_event_cat/<slug>/feed/[?paged=N]
+```
+
+| カテゴリ | slug | term id |
+|---|---|---|
+| 地域振興 | `promotion` | 8 |
+| セミナー | `seminar` | 20 |
+| 経営支援 | `manage` | 10 |
+| お知らせ | `news` | 7 |
+| ~~検定~~ | ~~`exam`~~ | ~~9~~ (除外) |
+
+1 フィード 10 件。`?paged=N` でページングでき、`pubDate` が `after` より古く
+なったら打ち切る。**実測 9 リクエストで 49 件**。
+
+RSS の各 `<item>` から必要なものが全部取れる。
+
+| 用途 | RSS | (REST での対応物) |
+|---|---|---|
+| タイトル | `<title>` | `title.rendered` |
+| 本文全文 | **`<content:encoded>`** | `content.rendered` |
+| 掲載日 | `<pubDate>` | `date` |
+| 記事 ID | `<guid>` の `p=NNNN` | `id` |
+| カテゴリ | **フィードの slug** | `xo_event_cat` |
+
+**取得結果は REST と完全に一致する** (2026-08-20 実測: 記事 ID で名寄せして
+49 件、差分ゼロ)。
+
+### 注意: 記事 ID で重複排除する
+
+**複数カテゴリを持つ記事がある。** カテゴリ別フィードを回すと同じ記事が複数回
+現れるので、記事 ID で名寄せしなければ二重に数える (実測: 名寄せ前 60、
+名寄せ後 49)。
+
+カテゴリは `CATEGORIES` の定義順で最初に一致したものを採る (§7 と同じ規則)。
+
+### 失うもの
+
+- **`after=` によるサーバ側の絞り込み** — 取得後に `pubDate` でコードが捨てる
+- **`modified_gmt`** — RSS に無い。ただし元々使っていない (§8 起案時の
+  「2 段の判定」は、REST 一覧が本文まで返すので記事ごとの再取得が発生せず、
+  実際に必要なのは `content_hash` 側だけだった)
 
 ## 9. テスト
 
@@ -259,11 +324,32 @@ fixture は REST のレスポンス JSON。
 
 ## 10. CI
 
-`cal-daily.yml` に crawl ステップを追加する。`ANTHROPIC_API_KEY` が**必須**
-(要約方式が変わると `content_hash` が動くため。`cal-oshirase-fetch` /
-`cal-tourism-news-fetch` と同じ扱い)。
+**RSS 版が CI から動くかは未確認。** REST の 403 を繰り返した結果いま CI の IP
+が締め出されている可能性が高く (§8)、この状態で試しても RSS の可否を判定でき
+ないうえ、締め出しを長引かせる。**実装を先に済ませ、CI 投入は日を改めて判断する。**
 
-集合同期型ではないので `prune` は不要。
+RSS が CI から通らない可能性は実在する。`WatchCrow/README.md` の `sitemap` 型の
+説明が「REST API や **RSS** が使えないサイト向け」となっており、RSS も遮断され
+うることを示している。
+
+CI に載せる場合の設定:
+
+```yaml
+- name: Crawl hanno-cci-event
+  env:
+    ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+  run: ./calendar/bin/cal-cci-event-fetch --out-dir calendar/events --min-items 1 || echo "hanno-cci-event" >> "$RUNNER_TEMP/crawl-failures.txt"
+```
+
+`--min-items` は **1 以上にする**。起案時に 0 にしていたが、これは「0 件取得でも
+成功扱い」を意味し、**サイトから 1 件も取れない異常が CI を緑のまま通す**。実際
+2026-08-20 の REST 遮断はこれで見逃された。0 件は正常な運用では起こらないので、
+1 なら誤検知しない。
+
+`ANTHROPIC_API_KEY` は必須 (要約の有無で見え方が変わる)。集合同期型ではないので
+`prune` は不要。
+
+CI に載せられない場合は、日本の回線から手動で流す運用になる。
 
 ## 11. 非目的
 
