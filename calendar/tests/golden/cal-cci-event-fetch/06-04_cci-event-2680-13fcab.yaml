@@ -1,0 +1,43 @@
+uid: "cci-event-2680-13fcab@hanno.city.tecoli.com"
+summary: "💼 埼玉県中小企業DX導入支援補助金の募集を開始します"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2680/"
+dtstart: "2026-06-04"
+dtend: "2026-06-04"
+description: |-
+  事業目的
+  
+  埼玉県では、持続的に成長していくために生産性向上に資するDXツール※の活用を図る中小企業者等に対し、導入経費の支援を行います。
+  
+  令和8年7月1日（水曜日）から補助金の申請受付を開始しますので、この機会にDXによる生産性の向上を是非御検討ください。
+  
+  ※キャッシュレス決済システムや会計ソフト、グループウェアなどデジタルを活用して業務の効率化を図るツール。
+  
+  事業概要（補助金）
+  
+  生産性向上に資するDXツールの購入費＊1
+  導入するDXツールの運用に必要となるデジタル機器購入費、設置や運搬、設定等の導入に要する経費＊2
+  
+  ＊1 リース料やサブスクリプション利用料も含む（最大1年間分）
+  
+  ＊2 対象経費総額の2分の1まで
+  
+  その他詳細
+  
+  詳細は、下記ホームページや補助金募集案内（チラシ）を御覧ください。
+  
+  ■埼玉県中小企業DX導入支援補助金
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2680/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2680"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2680/"
+  category: "経営支援"
+  summary_method: "full"
+  content_hash: "sha256-13fcab610495345c"

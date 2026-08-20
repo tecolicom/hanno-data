@@ -1,0 +1,36 @@
+uid: "cci-event-2776-ef8e0c@hanno.city.tecoli.com"
+summary: "ℹ️ 中小企業向け研修のお知らせ【埼玉県産業振興公社PR】"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2776/"
+dtstart: "2026-08-10"
+dtend: "2026-08-10"
+description: |-
+  人材育成は埼玉県産業振興公社におまかせください！
+  
+  当公社では、中小企業向けに年間200講座以上の研修を行っています。階層別研修（新入・若手社員、中堅社員、経営幹部、女性リーダー向けなど）、業務分野別研修（人事・経理、営業・マーケティングなど）、AI活用をはじめとするIT・デジタル活用研修まで、幅広いラインナップをご用意しています。また、県内製造業のニーズに応え、生産力向上につながる生産管理、現場改善、品質管理研修をはじめ、ＩＳＯ、工場責任者育成などの製造業向け研修や機械実技訓練研修も充実しています。
+  
+  公的機関ならではの受講しやすい料金で提供しているほか、受講者満足度は98.2%（令和７年度実績）となっています。その他、個別企業からの要望に応じた出前研修も年間を通じ多数開催しています。貴社の人材育成に、ぜひ当公社の研修をご活用ください。
+  
+  詳細はこちら
+  
+  ■ https://www.saitama-j.or.jp/kensyu
+  
+  お問合せ
+  
+  （公財）埼玉県産業振興公社 企画・人材育成グループ
+  
+  TEL：048-647-4087
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2776/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2776"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2776/"
+  category: "お知らせ"
+  summary_method: "full"
+  content_hash: "sha256-ef8e0c7fae6e21ea"

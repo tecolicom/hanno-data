@@ -1,0 +1,33 @@
+uid: "cci-event-2348-42de85@hanno.city.tecoli.com"
+summary: "ℹ️ 県管理ダム ネーミングライツパートナー募集します 【埼玉県PR】"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2348/"
+dtstart: "2026-01-05"
+dtend: "2026-01-05"
+description: |-
+  令和７年11月２０日より埼玉県が管理する3つのダムでネーミングライツパートナーを募集します。観光地としても多くの人が訪れる魅力あふれるダムに名前を付けてみませんか？
+  
+  募集概要等の詳細はチラシをご覧ください。
+  
+  ＜抜粋＞
+  
+  対象施設合角ダム、有間ダム、権現堂調整池
+  募集期間令和8年1月21日（水）まで
+  
+  ※電子メール、各証明書必着
+  お問合せ先埼玉県 県土整備部 河川環境課 ダム管理担当
+  電話:048-830-5116　E-mail：a5110-03@pref.saitama.lg.jp
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2348/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2348"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2348/"
+  category: "お知らせ"
+  summary_method: "full"
+  content_hash: "sha256-42de8504f4bb0bc9"

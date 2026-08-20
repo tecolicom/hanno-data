@@ -1,0 +1,32 @@
+uid: "cci-event-2594-9f1136@hanno.city.tecoli.com"
+summary: "ℹ️ TDB電子認証サービスTypeA 商工会議所会員限定特別料金クーポンの発行終了について（予告）"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2594/"
+dtstart: "2026-05-15"
+dtend: "2026-05-15"
+description: |-
+  帝国データバンクの電子認証サービス「TDB電子認証サービスTypeA」がサービス終了に伴い申込受付を終了します。
+  
+  これに伴い、商工会議所会員限定特別料金クーポンの提供も併せて終了となります。
+  
+  ◆商工会議所会員確認用クーポン券
+  
+  詳細は以下のリンクよりご確認ください。
+  
+  詳細情報
+  
+  ■TDB電子認証サービスTypeAサービス終了のお知らせ
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2594/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2594"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2594/"
+  category: "お知らせ"
+  summary_method: "full"
+  content_hash: "sha256-9f1136813c6c0caf"

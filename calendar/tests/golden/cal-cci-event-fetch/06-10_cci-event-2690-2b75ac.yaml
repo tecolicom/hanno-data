@@ -1,0 +1,33 @@
+uid: "cci-event-2690-2b75ac@hanno.city.tecoli.com"
+summary: "🎓 次の成長に繋げていくための売上・利益アップ経営戦略セミナー"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2690/"
+dtstart: "2026-06-10"
+dtend: "2026-06-10"
+description: |-
+  本セミナーでは、経営計画の重要性と作り方を学び、自社の「中期ビジョ ン（3年～5年）」を描き、行動につなげる方法をお伝えします。
+  
+  あわせて、埼玉県経営 革新計画の策定メリットや申請のポイントも解説します。
+  詳細は別添チラシよりご覧ください。
+  
+  お申込方法
+  
+  QRコードから電子申請または下記URLよりお申し込みください。
+  
+  ■https://forms.office.com/r/R0QZ7Htd6n
+  
+  詳細チラシ
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2690/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2690"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2690/"
+  category: "セミナー"
+  summary_method: "full"
+  content_hash: "sha256-2b75acd3f8f3d7c9"

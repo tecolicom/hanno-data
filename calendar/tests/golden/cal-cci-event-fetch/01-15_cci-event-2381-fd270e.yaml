@@ -1,0 +1,28 @@
+uid: "cci-event-2381-fd270e@hanno.city.tecoli.com"
+summary: "ℹ️ 埼玉県内企業の皆さまへ‐支援金・支援情報‐をご活用ください"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2381/"
+dtstart: "2026-01-15"
+dtend: "2026-01-15"
+description: |-
+  埼玉県内企業の皆さまへ‐支援金・支援情報‐をご活用ください！また当所職員までお気軽にご相談ください。
+  
+  ◾️ 埼玉県内企業の皆さまへ
+  
+  ◾️ 事業者支援情報検索アプリ
+  
+  担当課：相談所
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2381/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2381"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2381/"
+  category: "お知らせ"
+  summary_method: "full"
+  content_hash: "sha256-fd270e2e0cfbe7f8"

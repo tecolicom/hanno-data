@@ -1,0 +1,35 @@
+uid: "cci-event-2563-e63fb2@hanno.city.tecoli.com"
+summary: "ℹ️ 令和８年度商工会議所会費のご請求について"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2563/"
+dtstart: "2026-04-27"
+dtend: "2026-04-27"
+description: |-
+  本日、令和８年度分の商工会議所会費、青年部会費、女性会会費のご請求書を各事業所様宛てに郵送いたしました。
+  
+  また、既にご案内のとおり、令和８年度分の商工会議所会費より、最低口数の引上げさせていただきました。（添付文書を同封しております）
+  昨年度と金額が異なる場合がございますので、事業所様におかれましては、封書が届き次第、直ちにご開封いただき、内容のご確認をお願いいたします。
+  
+  なお、口座振替または請求書払によって、納入期限が異なります。詳しくは下図をご参照ください。
+  
+  納付方法振替日・納付期限備考
+  口座振替2026年5月25日（月）前営業日までに貴事業所ご指定の口座へご入金をお願いいたします
+  請求書払い2026年6月1日（月）請求書記載の指定金融機関口座へのお振込み、または弊所窓口でご納入ください
+  
+  ＜同封のご案内＞
+  
+  ■商工会議所会員会費の下限口数引上げに伴う会費の値上げへのご理解のお願い（PDF:422KB）
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2563/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2563"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2563/"
+  category: "お知らせ"
+  summary_method: "full"
+  content_hash: "sha256-e63fb288a822ef71"

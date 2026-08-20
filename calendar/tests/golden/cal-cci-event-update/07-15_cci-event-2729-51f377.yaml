@@ -1,0 +1,26 @@
+uid: "cci-event-2729-51f377@hanno.city.tecoli.com"
+summary: "ℹ️ 第15回税とつり大会開催のお知らせ 【所沢法人会飯能支部】"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2729/"
+dtstart: "2026-07-15"
+dtend: "2026-07-15"
+description: |-
+  （一社）所沢法人会飯能支部では、豊かな飯能の自然を活かし、清流釣りを楽しみながら、お子様の租税知識を育むことを目的に「第15回税とつり大会」を開催します。
+  
+  イベントの詳細・お申し込みは、チラシをご覧いただき、下記のフォームからご入力いただくか、裏面の申込書をご記入のうえで FAX にてお申し込みください。たくさんのご参加をお待ちしております。
+  
+  ▶ 参加申込フォーム（Microsoft Formsが開きます）
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2729/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2729"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2729/"
+  category: "お知らせ"
+  summary_method: "full"
+  content_hash: "sha256-51f377a1aae4bd05"

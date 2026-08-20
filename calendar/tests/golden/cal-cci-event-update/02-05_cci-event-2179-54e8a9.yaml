@@ -1,0 +1,31 @@
+uid: "cci-event-2179-54e8a9@hanno.city.tecoli.com"
+summary: "ℹ️ デジタル広報誌2026年2月号を発行いたしました"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2179/"
+dtstart: "2026-02-05"
+dtend: "2026-02-05"
+description: |-
+  弊所デジタル広報誌「うつくしい星」2026年2月号を本日発行いたしましたのでお知らせします。
+  
+  ■デジタル広報誌「うつくしい星」最新号
+  
+  弊所では公式LINEアカウント・X（旧Twitter）でも情報発信しております。
+  
+  商工会議所広報誌デジタル版は、電子メールを登録または、LINE公式アカウントを友だち登録していただくと、発行日にお知らせが届きます。
+  ぜひ、ご登録ください。
+  
+  ※電子メール登録は、弊所会員事業所様に限ります。ご了承ください。
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2179/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2179"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2179/"
+  category: "お知らせ"
+  summary_method: "full"
+  content_hash: "sha256-54e8a9ee533b2862"

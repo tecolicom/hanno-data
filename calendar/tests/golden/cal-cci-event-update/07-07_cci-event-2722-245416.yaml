@@ -1,0 +1,24 @@
+uid: "cci-event-2722-245416@hanno.city.tecoli.com"
+summary: "💼 2026（令和8）年度分の飯能市創業支援補助金の受付終了について"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2722/"
+dtstart: "2026-07-07"
+dtend: "2026-07-07"
+description: |-
+  2026（令和8）年度分の飯能市創業支援補助金は予算に達したため、受付を終了いたしました。
+  
+  ■ 経営支援＞補助金・施策・窓口相談＞国等の補助金＞当所窓口の補助金施策
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2722/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2722"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2722/"
+  category: "経営支援"
+  summary_method: "full"
+  content_hash: "sha256-2454167f4bfd6083"

@@ -42,7 +42,8 @@ def _read_fixture(crawler, fname):
 # dtstart が実行日に依存しないクローラ。ここに載るものは日付を正規化せず
 # そのまま比較する。news は「本文から抽出した開催日」が dtstart なので、
 # 潰すと本設計の要である日付抽出の回帰を golden が見逃す。
-DETERMINISTIC_DATE_CRAWLERS = {"cal-tourism-news-fetch", "cal-cci-chef-fetch"}
+DETERMINISTIC_DATE_CRAWLERS = {"cal-tourism-news-fetch", "cal-cci-chef-fetch",
+                               "cal-cci-event-fetch"}
 
 # 削除判定を「今日」に依存させないため、集合同期型クローラには基準日を固定して
 # 渡す。固定しないと fixture 内の予定が日々「過去」に流れ、削除の可否が変わって
@@ -127,6 +128,20 @@ def _setup_tourism_news(m, crawler, manifest):
     m.check_news_count = lambda n, min_news: None
 
 
+def _setup_cci_event(m, crawler, manifest):
+    """REST を fixture に差し替え、LLM 経路を断つ (追記型)。
+
+    _llm_available() を False にすると長文も method=full になり、差分行も
+    None になって決定論化する。content_hash に method を含めない設計なので
+    hash は動かない。差分行の生成そのものは非決定的なので golden では見ない
+    (drop_unchanged_claims の挙動は tests/test_diff_verify.py が見ている)。
+    """
+    with open(os.path.join(FIX, crawler, "api-page1.json"), encoding="utf-8") as f:
+        posts = json.load(f)
+    m.fetch_posts = lambda cfg: posts
+    m._llm_available = lambda: False
+
+
 def _setup_cci_chef(m, crawler, manifest):
     """HTTP を fixture に差し替える (集合同期型クローラ)。
 
@@ -160,6 +175,10 @@ CRAWLERS = [
     ("cal-cci-chef-update", "cal-cci-chef-fetch", _setup_cci_chef, "cal-cci-chef-update"),
     ("cal-cci-chef-delete", "cal-cci-chef-fetch", _setup_cci_chef, "cal-cci-chef-delete"),
     ("cal-cci-chef-keep-past", "cal-cci-chef-fetch", _setup_cci_chef, "cal-cci-chef-keep-past"),
+    # 商工会議所の告知 (追記型)。update は既存世代を置いた状態で再実行し、
+    # 新 UID + supersedes が付くこと (= 旧世代が残ること) を見る。
+    ("cal-cci-event-fetch", "cal-cci-event-fetch", _setup_cci_event, None),
+    ("cal-cci-event-update", "cal-cci-event-fetch", _setup_cci_event, "cal-cci-event-update"),
 ]
 
 

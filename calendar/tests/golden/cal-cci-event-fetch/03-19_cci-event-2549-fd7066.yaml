@@ -1,0 +1,29 @@
+uid: "cci-event-2549-fd7066@hanno.city.tecoli.com"
+summary: "ℹ️ 令和8年分の労働保険年度更新手続きについて"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2549/"
+dtstart: "2026-03-19"
+dtend: "2026-03-19"
+description: |-
+  令和８年度分の労働保険の年度更新手続きに必要な書類を事務委託事業所様あてに発送しました。
+  
+  お手元に届きましたら、速やかに開封いただき、内容物の確認をお願いいたします。
+  不足書類等がございましたら、お手数ですが事務局までご連絡くださいますようお願いいたします。
+  
+  ご多用の折、恐縮ではございますが、円滑な年度更新処理のため、提出期限をお守りいただくきますよう、重ねてお願いいたします。
+  
+  提出期限は、2026（令和8）年4月22日（水）17:00 までです。
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2549/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2549"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2549/"
+  category: "お知らせ"
+  summary_method: "full"
+  content_hash: "sha256-fd706628b08ef70f"

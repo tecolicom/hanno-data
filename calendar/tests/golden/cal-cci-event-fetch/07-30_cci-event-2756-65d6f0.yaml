@@ -1,0 +1,67 @@
+uid: "cci-event-2756-65d6f0@hanno.city.tecoli.com"
+summary: "🎓 「はんのう起業スクール2026」開催のご案内"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2756/"
+dtstart: "2026-07-30"
+dtend: "2026-07-30"
+description: |-
+  何から始める？創業の不安を「自信」に変える６日間
+  
+  日時2026年　9/4（金）、9/11（金）、9/18（金）、9/25（金）、10/2（金）、10/9（金）　（全６回）
+  
+  時間
+  
+  各日 19:00〜21:00（２時間）　※18：30より受付
+  
+  定員
+  
+  30名
+  
+  受講料
+  
+  5,000円（税込）
+  
+  会場
+  
+  第１回～第４回
+  
+  飯能商工会議所（飯能市本町1-7）
+  
+  第５回～第６回
+  
+  飯能信用金庫 飯能中央支店（飯能市八幡町1-3）
+  
+  ※全て会場開催となります。オンラインでの開催はございません。
+  講師
+  
+  第１回～第４回、第６回
+  
+  スティミュラス株式会社　代表取締役
+  
+  中小企業診断士　北田 健太　氏
+  
+  第５回
+  
+  飯能信用金庫　経営支援グループ
+  
+  詳細内容は、下記の専用ページよりご確認ください。
+  
+  ■「はんのう起業スクール2026」お申込ページ
+  
+  本件担当
+  
+  中小企業相談所（メールフォームが開きます）
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2756/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2756"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2756/"
+  category: "セミナー"
+  summary_method: "full"
+  content_hash: "sha256-65d6f0c8ce2fd3b1"

@@ -1,0 +1,27 @@
+uid: "cci-event-2452-2e443a@hanno.city.tecoli.com"
+summary: "ℹ️ 2026（令和8）年度ホームページバナー広告募集のお知らせ"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2452/"
+dtstart: "2026-03-19"
+dtend: "2026-03-19"
+description: |-
+  2026（令和8）年度4月以降分のホームページバナー広告の掲載事業所様を募集します。
+  
+  募集内容の詳細は、以下のページをご覧ください。
+  なお、ご不明な点は担当までお問い合わせ下さい。
+  
+  ■ 飯能商工会議所ホームページ有料バナー広告掲載企業募集のご案内
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2452/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2452"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2452/"
+  category: "お知らせ"
+  summary_method: "full"
+  content_hash: "sha256-2e443ae4faeb717c"

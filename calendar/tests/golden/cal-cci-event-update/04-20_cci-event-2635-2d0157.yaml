@@ -1,0 +1,40 @@
+uid: "cci-event-2635-2d0157@hanno.city.tecoli.com"
+summary: "🎓 いつでも♪どこでも♪何度でも♪５月のおすすめWEBセミナー情報"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2635/"
+dtstart: "2026-04-20"
+dtend: "2026-04-20"
+description: |-
+  セミナー担当者がお勧めする今月のＷＥＢセミナーをご紹介します。
+  
+  タイトルカスハラ対策の進め方　ハラスメントのない組織づくり
+  
+  講師
+  
+  津田　典子 （つだ　のりこ）
+  
+  人財育成コンサルタント　Fine HR代表
+  
+  解説
+  
+  カスタマーハラスメント（カスハラ）対策の義務化が迫る中、企業には「従業員を守る指針」の整備が求められています。適切な対策を実施することで従業員が安心・安全に働ける組織となり、業績向上にも繋がります。
+  本セミナーではその第一歩として、顧客対応企業が押さえておくべきポイントや導入によるメリットをお伝えします。(38分)
+  
+  PCの方は、QRコードをクリック、スマホの方はQRコードを読み取ってください。
+  
+  ※ＷＥＢセミナーの視聴は、飯能商工会議所の会員特典です。
+  ご視聴に必要なID/パスワードの発行希望の会員事業所様は、担当者までお問い合わせ下さい。
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2635/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2635"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2635/"
+  category: "セミナー"
+  summary_method: "full"
+  content_hash: "sha256-2d015769380c8f5e"

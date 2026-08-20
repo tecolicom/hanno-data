@@ -1,0 +1,27 @@
+uid: "cci-event-2566-28b5c4@hanno.city.tecoli.com"
+summary: "ℹ️ docomo EVERYDAYに「西川材×d払い」の取り組みが紹介されました"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2566/"
+dtstart: "2026-04-28"
+dtend: "2026-04-28"
+description: |-
+  この度、株式会社NTTドコモ様との取り組みが紹介されましたのでお知らせします。
+  
+  ドコモは、埼玉県飯能市の地域資源である「西川材」と「d払い」を活用し、森林資源の有効活用と地域経済の持続的発展をめざすドコモの地域共創プロジェクトに取組んでいます。
+  間伐材を用いた木製QRコードスタンドを通じて、環境保全と社会価値創出の両立を図る取組みをご紹介します。
+  
+  ■docomo EVERYDAY　「地域の森から、いつものお店へ。「西川材×ｄ払い」で広がる、サスティナブルな地域共創」
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2566/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2566"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2566/"
+  category: "お知らせ"
+  summary_method: "full"
+  content_hash: "sha256-28b5c4506a4c941a"

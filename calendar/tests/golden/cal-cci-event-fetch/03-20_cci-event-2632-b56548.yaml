@@ -1,0 +1,38 @@
+uid: "cci-event-2632-b56548@hanno.city.tecoli.com"
+summary: "🎓 いつでも♪どこでも♪何度でも♪４月のおすすめWEBセミナー情報"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2632/"
+dtstart: "2026-03-20"
+dtend: "2026-03-20"
+description: |-
+  セミナー担当者がお勧めする今月のＷＥＢセミナーをご紹介します。
+  
+  タイトル待ったなし！　手形・小切手の電子化対応～「でんさい」から実務のポイントまで～
+  
+  講師
+  
+  川居　宗則 （かわい　むねのり）
+  経営デザインコンサルティングオフィス　代表、中小企業診断士、１級ＦＰ
+  
+  解説
+  
+  2027年3月末までに手形・小切手の交換が廃止されます。本セミナーでは、制度変更の背景や中小企業が今やるべき実務対応、そして代替となる電子決済手段(でんさい)について詳しく解説します。社内整備や取引先交渉をどう進めるべきなのか。漠然とした不安を解消し、業務に支障をきたすことなくスムーズな準備を進めましょう。(36分)
+  
+  PCの方は、QRコードをクリック、スマホの方はQRコードを読み取ってください。
+  
+  ※ＷＥＢセミナーの視聴は、飯能商工会議所の会員特典です。
+  ご視聴に必要なID/パスワードの発行希望の会員事業所様は、担当者までお問い合わせ下さい。
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2632/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2632"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2632/"
+  category: "セミナー"
+  summary_method: "full"
+  content_hash: "sha256-b56548f564a31af7"

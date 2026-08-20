@@ -1,0 +1,22 @@
+uid: "cci-event-2778-000000@hanno.city.tecoli.com"
+summary: "🎓 旧世代の見出し"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2778/"
+dtstart: "2026-08-11"
+dtend: "2026-08-11"
+description: |-
+  旧世代の本文
+
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2778/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2778"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2778/"
+  category: "セミナー"
+  summary_method: "full"
+  content_hash: "sha256-0000000000000000"

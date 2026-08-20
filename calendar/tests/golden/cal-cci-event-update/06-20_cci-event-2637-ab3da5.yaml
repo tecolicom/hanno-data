@@ -1,0 +1,39 @@
+uid: "cci-event-2637-ab3da5@hanno.city.tecoli.com"
+summary: "🎓 いつでも♪どこでも♪何度でも♪７月のおすすめWEBセミナー情報　"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2637/"
+dtstart: "2026-06-20"
+dtend: "2026-06-20"
+description: |-
+  セミナー担当者がお勧めする今月のＷＥＢセミナーをご紹介します。
+  
+  タイトルミスをゼロにする仕事術　認知科学に基づく実践的方法
+  
+  講師
+  
+  宇都出　雅巳 （うつで　まさみ）
+  
+  実務に効く人材育成スペシャリスト ／ 「AI×人間」ハイブリッドコーチ ／ システム監査技術者・公認会計士
+  
+  解説
+  
+  個人の注意力や経験に頼ったやり方だけでは仕事のミスは防ぎきれません。必要なのは、科学的に再現できる「ミスゼロの仕組み」です。本セミナーでは、認知科学を用いて人がミスをしてしまう原因を解き明かし、職場ですぐに実践できる具体的な防止策を紹介します。科学的なアプローチで、仕事力を確実に向上させましょう。(46分)
+  
+  PCの方は、QRコードをクリック、スマホの方はQRコードを読み取ってください。
+  
+  ※ＷＥＢセミナーの視聴は、飯能商工会議所の会員特典です。
+  ご視聴に必要なID/パスワードの発行希望の会員事業所様は、担当者までお問い合わせ下さい。
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2637/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2637"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2637/"
+  category: "セミナー"
+  summary_method: "full"
+  content_hash: "sha256-ab3da57193135abf"

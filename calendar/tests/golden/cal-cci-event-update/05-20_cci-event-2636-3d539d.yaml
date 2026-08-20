@@ -1,0 +1,38 @@
+uid: "cci-event-2636-3d539d@hanno.city.tecoli.com"
+summary: "🎓 いつでも♪どこでも♪何度でも♪６月のおすすめWEBセミナー情報"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2636/"
+dtstart: "2026-05-20"
+dtend: "2026-05-20"
+description: |-
+  セミナー担当者がお勧めする今月のＷＥＢセミナーをご紹介します。
+  
+  タイトル業務効率・売上UP！はじめてのAI活用
+  
+  講師
+  
+  筑間　彰 （ちくま　あきら）
+  中小企業診断士 ／ 株式会社チャイルドピース 代表取締役
+  
+  解説
+  
+  自らもオーナーとして17年学習塾を経営。個別指導塾で培った「わかりやすいアドバイス」で目標に導く力と、顧客獲得・スタッフ育成など経営全般の知見から、「経営者の家庭教師」として、売上向上、課題解決、経営分析・戦略策定など、中小企業のコンサルティングを行う。ChatGPTをはじめとする生成AI活用支援のほか、YouTubeを利用した動画マーケティングの支援やホームページの改善助言等も得意としている。販売士、マーケティング関連の著書も多数。
+  
+  PCの方は、QRコードをクリック、スマホの方はQRコードを読み取ってください。
+  
+  ※ＷＥＢセミナーの視聴は、飯能商工会議所の会員特典です。
+  ご視聴に必要なID/パスワードの発行希望の会員事業所様は、担当者までお問い合わせ下さい。
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2636/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2636"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2636/"
+  category: "セミナー"
+  summary_method: "full"
+  content_hash: "sha256-3d539dfddeee7706"

@@ -1,0 +1,26 @@
+uid: "cci-event-2407-9dd345@hanno.city.tecoli.com"
+summary: "ℹ️ デジタル会報誌の年4回発行への変更について（2026（令和8）年度より）"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2407/"
+dtstart: "2026-03-05"
+dtend: "2026-03-05"
+description: |-
+  毎月発行しておりますデジタル会報について、今般、掲載内容の見直しに伴い、2026（令和8）年度から年間４回の発行とさせていただきます。
+  
+  今後は、セミナーや補助金等インフォメーションについては、商工会議所ホームページ「新着情報」で随時掲載していきます。
+  
+  また、より充実した内容で掲載していきますので、引続きご覧いただきますようお願い申し上げます。
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2407/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2407"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2407/"
+  category: "お知らせ"
+  summary_method: "full"
+  content_hash: "sha256-9dd345918063b06e"

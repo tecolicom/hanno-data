@@ -1,0 +1,36 @@
+uid: "cci-event-2640-1d8b0d@hanno.city.tecoli.com"
+summary: "🎓 いつでも♪どこでも♪何度でも♪８月のおすすめWEBセミナー情報　"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2640/"
+dtstart: "2026-07-20"
+dtend: "2026-07-20"
+description: |-
+  セミナー担当者がお勧めする今月のＷＥＢセミナーをご紹介します。
+  
+  タイトル経理担当者向け　経理の基礎〜財務諸表編〜
+  
+  講師
+  
+  今関　博喜 （いまぜき　ひろき）
+  税理士
+  
+  解説
+  
+  仕訳・帳簿から決算、財務諸表の見方まで経理の実務を網羅的に学べる講座です。数字から財政状態や業績を読み解く力が身につき、社長の質問にも自信を持って答えられます。経理の基礎を学び直し業務の質を高めましょう！（収録：2026年6月9日）（公開期限：2026年9月30日）(71分)
+  
+  ※ＷＥＢセミナーの視聴は、飯能商工会議所の会員特典です。
+  ご視聴に必要なID/パスワードの発行希望の会員事業所様は、担当者までお問い合わせ下さい。
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2640/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2640"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2640/"
+  category: "セミナー"
+  summary_method: "full"
+  content_hash: "sha256-1d8b0d4e720b7837"
