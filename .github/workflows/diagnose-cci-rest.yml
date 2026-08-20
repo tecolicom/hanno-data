@@ -1,0 +1,51 @@
+name: (temporary) diagnose CCI REST block
+
+# 飯能商工会議所の REST API (/wp-json/) が CI からだけ 403 になる原因を切り分ける
+# ための一時的なワークフロー。原因が判明したら削除する。
+#
+# 観測されている事実 (2026-08-20):
+#   - 同一ランナー・同一時刻で HTML (/manage/founded/) は 200、REST は 403
+#   - 日本国内のローカル回線からは REST も 200 (x-wp-total: 440 を返す)
+#   - CDN / WAF のヘッダは無く、server: nginx のみ
+#
+# 有力な仮説は「国外 IP アクセス制限」(日本の WordPress サイトで一般的な設定。
+# 公開ページは通し、wp-login.php / xmlrpc.php / wp-json だけ国外から遮断する)。
+# ランナーの所在地と 403 の応答本文が分かれば決着する。
+
+on:
+  workflow_dispatch:
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Runner の公開 IP と所在地
+        run: curl -s https://ipinfo.io/json || echo "ipinfo 取得失敗"
+
+      - name: REST API の応答 (本文込み)
+        run: |
+          echo "--- /wp-json/wp/v2/xo_event ---"
+          curl -s -i -m 30 \
+            -A "myhanno-calendar-fetcher/0.1 (+https://city.tecoli.com)" \
+            "https://www.hanno-cci.or.jp/wp-json/wp/v2/xo_event?per_page=1" \
+            | head -40 || echo "curl 失敗 (exit $?)"
+
+      - name: REST のルート (/wp-json/) も試す
+        run: |
+          curl -s -o /dev/null -w "wp-json root: HTTP %{http_code}\n" -m 30 \
+            -A "myhanno-calendar-fetcher/0.1 (+https://city.tecoli.com)" \
+            "https://www.hanno-cci.or.jp/wp-json/" || echo "curl 失敗"
+
+      - name: 対照 — HTML ページ
+        run: |
+          curl -s -o /dev/null -w "HTML page  : HTTP %{http_code}\n" -m 30 \
+            -A "myhanno-calendar-fetcher/0.1 (+https://city.tecoli.com)" \
+            "https://www.hanno-cci.or.jp/manage/founded/" || echo "curl 失敗"
+
+      - name: 対照 — ブラウザ風 UA で REST
+        # UA による選別ではないことを確かめる (クローラ UA と同じ結果になるはず)
+        run: |
+          curl -s -o /dev/null -w "REST (browser UA): HTTP %{http_code}\n" -m 30 \
+            -A "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36" \
+            "https://www.hanno-cci.or.jp/wp-json/wp/v2/xo_event?per_page=1" || echo "curl 失敗"
