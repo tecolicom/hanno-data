@@ -29,6 +29,9 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from _lib import (  # noqa: E402
     USER_AGENT, UID_NAMESPACE, strip_html, normalize_body,
     yaml_escape_str, yaml_block_scalar, load_source_config,
+    call_llm, llm_available, drop_unchanged_claims,
+    output_path_for, read_yaml_scalar, read_yaml_block,
+    strip_status_header, AI_DISCLAIMER_JP,
 )
 
 
@@ -89,3 +92,189 @@ def content_hash_for(title: str, date: str, body: str) -> str:
     canonical = json.dumps({"title": title, "date": date, "body": body},
                            ensure_ascii=False, sort_keys=True)
     return hashlib.sha256(canonical.encode("utf-8")).hexdigest()[:16]
+
+
+# ==================== 要約 ====================
+
+MIN_BODY_CHARS = 50          # これ未満なら url-only
+FULL_TEXT_THRESHOLD = 400    # これ以下は全文、超は LLM 要約 (cal-oshirase-fetch と同値)
+LLM_MODEL = "claude-haiku-4-5"
+
+SUMMARY_SYSTEM_PROMPT = """あなたは飯能商工会議所の告知を、Google カレンダーの予定欄に収まる日本語要約にします。
+
+- 全体で 200〜400 字程度。
+- 事業者・市民が行動を決めるのに要る情報を優先: 日付・期間・締切、場所、費用、対象、申込方法。
+- 本文に無いことは書かない。推測しない。
+- Markdown 記法は使わない (literal 表示されるため)。
+- 要約だけを返す。前置きは不要。
+"""
+
+
+def _llm_available() -> bool:
+    """run-golden がこの名前を差し替えて LLM 経路を断つので薄いラッパで残す。"""
+    return llm_available()
+
+
+def summarize(title: str, body: str) -> str | None:
+    user = f"# {title}\n\n{body}"
+    return call_llm(SUMMARY_SYSTEM_PROMPT, user, model=LLM_MODEL, max_tokens=1024)
+
+
+# ==================== 取得 ====================
+
+
+def fetch_posts(cfg: dict) -> list[dict]:
+    """対象カテゴリの記事を新しい順に取得する (ページング込み)。"""
+    posts: list[dict] = []
+    page = 1
+    while True:
+        q = urllib.parse.urlencode({
+            "per_page": 100,
+            "page": page,
+            "after": cfg["after"],
+            "xo_event_cat": ",".join(str(c) for c in cfg["category_ids"]),
+            "_fields": "id,date,modified_gmt,link,title,content,xo_event_cat",
+        })
+        # 注: modified_gmt による politeness は入れない。REST の一覧が本文まで
+        # 含めて 1 リクエストで返るので、記事ごとの再取得が発生しない。再書き込みの
+        # 抑制は content_hash の一致判定で足りる。
+        req = urllib.request.Request(f"{cfg['api_url']}?{q}",
+                                     headers={"User-Agent": USER_AGENT})
+        try:
+            with urllib.request.urlopen(req) as r:
+                batch = json.load(r)
+        except Exception as e:
+            print(f"  ERROR fetching page {page}: {e}", file=sys.stderr)
+            break
+        if not batch:
+            break
+        posts.extend(batch)
+        if len(batch) < 100:
+            break
+        page += 1
+    return posts
+
+
+# ==================== YAML 生成 ====================
+
+
+def build_yaml_doc(uid: str, post: dict, cfg: dict, description: str,
+                   method: str, content_hash: str,
+                   supersedes: str | None) -> str:
+    date_str = post["date"][:10]
+    lines = [
+        f"uid: {yaml_escape_str(uid)}",
+        f"summary: {yaml_escape_str(summary_for(post['title']['rendered'], post['xo_event_cat']))}",
+        f"location: {yaml_escape_str(cfg['location'])}",
+        f"url: {yaml_escape_str(post['link'])}",
+        f"dtstart: {yaml_escape_str(date_str)}",
+        f"dtend: {yaml_escape_str(date_str)}",
+        "description: " + yaml_block_scalar(description, indent=2),
+        "",
+        "render:",
+        "  gcal:",
+        "    mode: single-allday",
+        "",
+        "source:",
+        f"  type: {cfg['source_type']}",
+        f"  id: {yaml_escape_str(str(post['id']))}",
+        f"  url: {yaml_escape_str(post['link'])}",
+        f"  category: {yaml_escape_str(category_of(post['xo_event_cat']) or '')}",
+        f"  summary_method: {yaml_escape_str(method)}",
+        f"  content_hash: {yaml_escape_str('sha256-' + content_hash)}",
+    ]
+    if supersedes:
+        lines.append(f"  supersedes: {yaml_escape_str(supersedes)}")
+    return "\n".join(lines) + "\n"
+
+
+# ==================== main ====================
+
+
+def _existing_by_page_id(out_dir: str, uid_prefix: str) -> dict[str, list[tuple[str, str, str]]]:
+    """{page_id: [(content_hash, uid, path), ...]} を返す (世代判定用)。"""
+    import glob
+    found: dict[str, list[tuple[str, str, str]]] = {}
+    for path in sorted(glob.glob(os.path.join(out_dir, "**", "*.yaml"), recursive=True)):
+        uid = read_yaml_scalar(path, "uid")
+        if not uid or not uid.startswith(f"{uid_prefix}-"):
+            continue
+        pid = read_yaml_scalar(path, "id")
+        ch = (read_yaml_scalar(path, "content_hash") or "").replace("sha256-", "")
+        if pid:
+            found.setdefault(pid, []).append((ch, uid, path))
+    return found
+
+
+def main() -> None:
+    here = os.path.dirname(os.path.abspath(__file__))
+    default_out_dir = os.path.join(here, "..", "events")
+    cfg = load_source_config(SOURCE_KEY)
+
+    ap = argparse.ArgumentParser(description="飯能商工会議所 xo_event → YAML")
+    ap.add_argument("--out-dir", default=default_out_dir)
+    ap.add_argument("--uid-prefix", default=cfg["uid_prefix"])
+    ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--min-items", type=int, default=0,
+                    help="取得件数がこれ未満なら exit 2 (CI 暴走防止)")
+    args = ap.parse_args()
+
+    posts = fetch_posts(cfg)
+    print(f"Fetched {len(posts)} posts", file=sys.stderr)
+    if len(posts) < args.min_items:
+        sys.exit(f"only {len(posts)} posts (< --min-items {args.min_items})")
+
+    existing = _existing_by_page_id(args.out_dir, args.uid_prefix)
+    written = skipped = 0
+
+    for post in posts:
+        title = post["title"]["rendered"]
+        date_str = post["date"][:10]
+        body = body_from_post(post)
+        ch = content_hash_for(title, date_str, body)
+        pid = str(post["id"])
+
+        gens = existing.get(pid, [])
+        if any(h == ch for h, _, _ in gens):
+            skipped += 1
+            continue                       # 同内容の世代が既にある
+
+        if not body or len(body) < MIN_BODY_CHARS:
+            method, text = "url-only", ""
+        elif len(body) <= FULL_TEXT_THRESHOLD:
+            method, text = "full", body
+        elif _llm_available():
+            s = summarize(title, body)
+            if s:
+                method, text = "llm-haiku-4-5", f"{AI_DISCLAIMER_JP}\n\n{s}"
+            else:
+                method, text = "full", body
+        else:
+            # LLM 不可の環境では長文も full。method を full にしておけば
+            # content_hash は変わらない (hash に method を含めないため)。
+            method, text = "full", body
+
+        supersedes = gens[-1][1] if gens else None
+        parts = [text] if text else []
+        if supersedes:
+            parts.insert(0, "🔄 内容更新")
+        parts.append(post["link"])
+        description = "\n\n".join(parts)
+
+        uid = f"{args.uid_prefix}-{pid}-{ch[:6]}@{UID_NAMESPACE}"
+        doc = build_yaml_doc(uid, post, cfg, description, method, ch, supersedes)
+        out_path = output_path_for(args.out_dir, uid, date_str)
+
+        if args.dry_run:
+            written += 1
+            continue
+        os.makedirs(os.path.dirname(out_path), exist_ok=True)
+        with open(out_path, "w", encoding="utf-8") as f:
+            f.write(doc)
+        written += 1
+
+    print(f"Done. written={written} skipped={skipped}", file=sys.stderr)
+
+
+if __name__ == "__main__":
+    main()
