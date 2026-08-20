@@ -29,3 +29,24 @@ source:
   category: "お知らせ"
   summary_method: "full"
   content_hash: "sha256-54e8a9ee533b2862"
+translations:
+  en:
+    summary: "ℹ️ Digital PR magazine February 2026 issue released"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      We are pleased to announce that the February 2026 issue of our digital PR magazine "Utsukushii Hoshi" has been published today.
+      
+      ■Digital PR Magazine "Utsukushii Hoshi" Latest Issue
+      
+      We also share information through our official LINE account and X (formerly Twitter).
+      
+      To receive notifications on publication day, you can register your email address or add our LINE official account as a friend. Please sign up.
+      
+      ※Email registration is limited to chamber member businesses. Thank you for your understanding.
+      
+      Source (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2179/
+    translation_hash: "sha256-69afb6ab25f1b69c"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-20T15:56:43.675175Z"
+    format_version: 3
