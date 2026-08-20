@@ -21,6 +21,7 @@ import json
 import os
 import re
 import sys
+import unicodedata
 import urllib.error
 import urllib.request
 from datetime import date as _date
@@ -190,6 +191,43 @@ def normalize_fullwidth_digits(s: str) -> str:
         co = ord(c)
         if 0xff10 <= co <= 0xff19:
             out.append(chr(co - 0xff10 + 0x30))
+        else:
+            out.append(c)
+    return "".join(out)
+
+
+# 全角 → 半角に寄せない文字。変換は「判断を含まない文字種の寄せ」に留める。
+#   括弧類 — 日本語文中で半角にすると読みにくくなる
+#   全角ティルダ U+FF5E — この文字の正規化は normalize_tilde() の担当
+#     (あちらは波ダッシュ U+301C に寄せる)。ここで `~` にすると _lib 内で
+#     同じ文字の扱いが食い違うので触らない。
+_FULLWIDTH_KEEP = frozenset("（）［］｛｝～")
+
+# 半角カタカナ (濁点・半濁点を含む)。濁点は後続文字なので run 単位で合成する。
+_HALFWIDTH_KANA_RE = re.compile(r"[｡-ﾟ]+")
+
+
+def normalize_char_width(s: str) -> str:
+    """文字種を機械的に寄せる (全角 ASCII → 半角、半角カナ → 全角).
+
+    表記揺れ (`Ｎ．Ｔｅａｔｉｍｅ` / `N.Teatime` 等) を減らすための正規化。
+    **判断を含む正規化はしない**: 大小文字の差、全角スペース (U+3000)、
+    全角括弧はそのまま残す。エイリアス表による寄せもしない。
+
+    半角カナは `unicodedata.normalize("NFKC", ...)` を連続 run に掛けて
+    合成する (`ﾍﾞ` → `ベ`)。NFKC を文字列全体に掛けないのは、`～` や `①`、
+    全角括弧まで巻き込んで原文を必要以上に書き換えてしまうため。
+    """
+    def _kana(m: re.Match) -> str:
+        return unicodedata.normalize("NFKC", m.group(0))
+
+    s = _HALFWIDTH_KANA_RE.sub(_kana, s)
+
+    out = []
+    for c in s:
+        co = ord(c)
+        if 0xff01 <= co <= 0xff5e and c not in _FULLWIDTH_KEEP:
+            out.append(chr(co - 0xfee0))
         else:
             out.append(c)
     return "".join(out)
