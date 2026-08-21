@@ -165,13 +165,54 @@ SA メアドを「予定の変更権限」(writer) で共有済み。
 
 ```
 # ローカル
-export GOOGLE_APPLICATION_CREDENTIALS=~/.config/myhanno/sa.json
+export GOOGLE_APPLICATION_CREDENTIALS=~/.config/city-tecoli/calendar-sa.json
 
 # CI (GitHub Actions secret に SA JSON 全文を入れる)
 secrets.GWS_SA_JSON
 ```
 
-`cal-gcal` は env 未設定時に `~/.config/myhanno/sa.json` を自動 fallback する。
+`cal-gcal` は env 未設定時に `~/.config/city-tecoli/calendar-sa.json` を自動 fallback
+する (旧 `~/.config/myhanno/sa.json` も候補に残してあるが、2026-08-21 に移動済み)。
+
+鍵の持ち主は **city-tecoli プロジェクトの service account** で、街にもツールにも
+属さない。1 本の SA に各カレンダーの writer を委託していく形なので、街が増えても
+鍵は 1 本のまま。街ごとに主体を変えたいときは `GOOGLE_APPLICATION_CREDENTIALS` で
+上書きする (CI がそうしている)。
+
+### カレンダーを新規に作る
+
+新しい配信元を足すとき、既存カレンダーに相乗りしないなら 3 手順で作る。すべて
+`gws` で完結する (UI は不要)。**カレンダーはそのデータを管理している主体の
+アカウントに作る** — 名前と実態の不整合を防ぐため (商工会議所の当番表を
+tecolicom 側に作って作り直した前例がある)。
+
+```bash
+export GOOGLE_APPLICATION_CREDENTIALS=~/.config/city-tecoli/calendar-sa.json
+
+# 1. 作成 (owner = 実行した主体)
+gws calendar calendars insert --format json \
+  --json '{"summary":"<表示名>","timeZone":"Asia/Tokyo"}'
+# → 返る "id" が Calendar ID
+
+# 2. 一般公開 (アプリの ICS / 埋め込みで読ませるなら必須)
+gws calendar acl insert --format json --params '{"calendarId":"<ID>"}' \
+  --json '{"role":"reader","scope":{"type":"default"}}'
+
+# 3. SA に書き込みを委託 (これが無いとクローラが apply できない)
+gws calendar acl insert --format json --params '{"calendarId":"<ID>"}' \
+  --json '{"role":"writer","scope":{"type":"user","value":"myhanno-bot@city-tecoli.iam.gserviceaccount.com"}}'
+```
+
+出来上がりの ACL はこの形になる (`gws calendar acl list` で確認できる):
+
+| role | scope |
+|---|---|
+| owner | カレンダー自身 / 作成したアカウント |
+| reader | `default` (= 一般公開) |
+| writer | `myhanno-bot@city-tecoli.iam.gserviceaccount.com` |
+
+作ったら `city.yaml` の `calendars` に logical name で登録し、`source_type_to_calendar`
+にルーティングを足す。両方やらないと **YAML は増えるがカレンダーに出ない**。
 
 ### 商工会議所の REST API は使えない → RSS に切替済み
 
@@ -838,6 +879,13 @@ Safety policy:
 
 city.hanno.lg.jp 配下の静的ページは ETag / Last-Modified 対応のため、`fetch_with_cache()` で 304 を受けて parse / write を全 skip。ETag / Last-Modified は `calendar/.http-cache.json` に永続化 (git で commit して CI runs 間で持続)。
 
+> **⚠️ 新クローラの初回だけの罠。** 初回取込は手元で実行して差分を見るのが原則だが、
+> その実行で `.http-cache.json` に入った ETag を**一緒に commit してはいけない**。
+> 最初の CI 実行が 304 を受けて全 skip し、`--min-items 1` なら失敗、0 なら「何も
+> していないのに緑」になる。commit するのは `events/` だけにし、`.http-cache.json`
+> の新規エントリは戻す (`git checkout -- calendar/.http-cache.json`)。CI が自分で
+> 取得して自分で書けば、以降は正しく効く。
+
 対応状況:
 - ✅ `cal-shiminkaikan`, `cal-gikai`, `cal-shicho-blog` (city.hanno.lg.jp)
 - ✅ `cal-oshirase` の**記事ページ** (city.hanno.lg.jp。実測で 50 件すべて 304)
@@ -972,6 +1020,11 @@ golden シナリオ:
   **正規化**する。content_hash は日付非依存なのでそのまま比較 → ハッシュ回帰は確実に検知。
 - **クローラ・`sources.yaml`・fixtures を変更したら必ず `run-golden` を緑にすること。**
   出力を意図的に変えた場合のみ `--update` で golden を更新し、差分を PR で確認する。
+- **シナリオを足す手順**: `run-golden` に `_setup_<name>(m, crawler, manifest)` を書いて
+  HTTP 層を fixture に差し替え、`# (golden 名, crawler スクリプト名, setup, seed dir 名 | None)`
+  のタプル一覧に 1 行足す。fixture は `fixtures/<crawler>/` + `manifest.json` (url→file)。
+  既存 YAML がある状態を再現したいときは `seed/<name>/` を置く (seed 自身も golden に含まれる)。
+  初回は `--update` で golden を生成し、差分を目で確認してから commit する。
 - **スタブは取得の最下層に当てる。** 上位関数 (「記事一覧を組み立てて返す」層) を
   丸ごと差し替えると、解析コードが 1 行も走らないまま golden が緑になる。2026-08-21 に
   cci-event でこれを踏んだ: REST 形状の fixture で `fetch_posts()` をスタブしていたため、

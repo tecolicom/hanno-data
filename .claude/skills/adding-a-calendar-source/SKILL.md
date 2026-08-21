@@ -17,6 +17,10 @@ description: Use when hanno-data に新しい予定の配信元を取り込む�
 配信元が**毎回「全体」を出す**なら集合同期型、**新着が増えていく**なら追記型。
 → README「クローラの 2 系統」「削除ガード」「prune は fetch --update-manual より前に置く」
 
+**写す先**: 集合同期型なら `cal-cci-chef-fetch` (196 行、`_lib.sync_set()` を使う最小例)。
+追記型なら `cal-cci-event-fetch` (RSS + LLM 要約) か `cal-oshirase-fetch` (世代管理・差分要約
+まで入った重い例)。ゼロから書かない。
+
 判定を誤ると: 追記型として作った集合同期型のソースは、予定が取り消されても
 カレンダーに残り続ける。逆に集合同期型として作った追記型は、一覧から溢れた
 古い記事を「取り消された」と誤解して消す。
@@ -45,7 +49,7 @@ HTML と RSS は開いたまま REST だけ 403 になる、という形で現�
 | `calendar/bin/cal-<name>-fetch` | クローラ本体 | — |
 | `calendar/city.yaml` の `calendars` | logical name → カレンダー ID | apply 先が無い |
 | `calendar/city.yaml` の `source_type_to_calendar` | `source_type` → logical name | **YAML は増えるがカレンダーに出ない** |
-| `.github/workflows/cal-daily.yml` | Crawl ステップ | 手で回すまで永久に更新されない |
+| `.github/workflows/cal-daily.yml` | Crawl ステップ。LLM 要約するなら `ANTHROPIC_API_KEY` を env に渡す | 手で回すまで永久に更新されない (キー無しだと要約が本文そのままに変わり `content_hash` が動く) |
 | `calendar/tests/run-golden` | `_setup_*` + シナリオ | 出力が壊れても誰も気づかない |
 
 集合同期型ならこれに加えて、`cal-daily.yml` の **prune を `fetch --update-manual` より
@@ -59,7 +63,9 @@ HTML と RSS は開いたまま REST だけ 403 になる、という形で現�
   走らないまま緑になる → README「テスト (golden 網)」の該当項。
 - **`content_hash` に要約手法や生成条件を混ぜない。** 混ぜると手法を変えた瞬間に全件の
   ハッシュが変わり、カレンダーが氾濫する。
-- 初回取込は**必ず手元で実行して差分を見る**。CI に初回を任せない。
+- 初回取込は**必ず手元で実行して差分を見る**。CI に初回を任せない。ただし
+  **`.http-cache.json` の新規エントリは commit しない** — 最初の CI 実行が 304 で
+  全 skip する → README「HTTP Conditional GET」の警告。
 - **遮断されうる配信元は、安定しているものの後ろに置く。** 遮断は 403 の連発で IP ごと
   締め出される形で起き、同じランナーから動く**他のクローラまで巻き添えで落ちる**
   (2026-08-20 実測)。新顔を先頭に置くと、既存のソースを人質に取ることになる。
@@ -80,7 +86,8 @@ HTML と RSS は開いたまま REST だけ 403 になる、という形で現�
 ## 新しいカレンダーを作る必要があるとき
 
 カレンダーは**そのデータを管理している主体のアカウントに作る** (名前と実態の不整合を
-防ぐ)。作成後、Service Account に writer を委託する。手順は city-tecoli repo の
-`accessing-hanno-calendars` スキルにある。`gws` を使うときは
-`GOOGLE_WORKSPACE_CLI_CONFIG_DIR` を固定すること — ユーザー OAuth が SA を上書きする
-(README「落とし穴: ユーザー OAuth が SA 認証を上書きする」)。
+防ぐ)。作成 → 一般公開 → SA に writer 委託の 3 手順は `gws` で完結する。
+コマンドは README「カレンダーを新規に作る」にある。
+
+`gws` を使うときは `GOOGLE_WORKSPACE_CLI_CONFIG_DIR` を固定すること — ユーザー OAuth が
+SA を上書きする (README「落とし穴: ユーザー OAuth が SA 認証を上書きする」)。
