@@ -23,3 +23,20 @@ source:
   fetched_at: "2026-08-21T14:00:09.973806Z"
   modified_gmt: "2026-08-21T06:04:04"
   content_hash: "sha256-9d8a4c5e57e15580"
+translations:
+  en:
+    summary: "📢 Closure notice: September 5–6 (Saturday–Sunday)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Tourism Association (奥むさし飯能観光協会): https://hanno-tourism.jp/news/9%e6%9c%885%e6%97%a5%e5%9c%9f%e3%83%bb6%e6%97%a5%e6%97%a5%e4%bc%91%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b
+      
+      🆕 New listing (Published: August 21, 2026)
+      
+      The Hanno Tourism Association will close temporarily on Saturday, September 5 and Sunday, September 6, 2026 (Reiwa 8) for regular facility maintenance at Hanno Chamber of Commerce and Industry. Telephone inquiries and information services will be unavailable. On these dates, Eagle Bus pass purchases and manhole card distribution will not be available.
+      
+      Note: Puratto Hanno (Hanno Station Tourist Information Center, tel. 042-978-9111, open 9:00–17:00) will operate as usual.
+    translation_hash: "sha256-2d20285c73b8512c"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-21T14:02:51.950193Z"
+    format_version: 3

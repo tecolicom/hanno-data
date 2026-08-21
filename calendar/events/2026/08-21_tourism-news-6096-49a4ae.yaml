@@ -23,3 +23,18 @@ source:
   fetched_at: "2026-08-21T14:00:07.942585Z"
   modified_gmt: "2026-08-21T06:44:25"
   content_hash: "sha256-49a4ae646b230da5"
+translations:
+  en:
+    summary: "📢 Lion Dance at Shimonaguri Suwa Shrine"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Source: https://hanno-tourism.jp/news/%e4%b8%8b%e5%90%8d%e6%a0%97%e8%ab%8f%e8%a8%aa%e7%a5%9e%e7%a4%be%e3%81%ae%e7%8d%85%e5%ad%90%e8%88%9e
+      
+      🆕 New listing (published August 21, 2026)
+      
+      A lion dance offering will be held at Shimonaguri Suwa Shrine. The full rehearsal (sorooi) takes place Saturday, August 22, 2026, and the main annual festival (rei taisai) is Sunday, August 23, 2026. During the festival, from 8:30 a.m. to around 5:50 p.m., there will be shrine visits, decorative offerings, flower arrangements, three-beat rhythms, sacred rituals (classical music performance), pole-based movements, female lion concealment, and unsheathed-blade performances. A secret transmission document (hidenisho) of the Shimonaguri lion dance—passed down from Takamizu Mountain in Nariki, Ōme City, about 200 years ago—will be publicly displayed for the first time. Public viewing takes place at Shimonaguri Suwa Shrine.
+    translation_hash: "sha256-863d595ca192da33"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-21T14:02:55.978879Z"
+    format_version: 3
