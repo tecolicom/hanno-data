@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-21T00:16:33.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n�新 Newly listed (published: August 20, 2026)\n\nThe Saitama Prefecture Women's Career Center and Hanno City are jointly hosting an online employment support seminar for women titled \"Labor law knowledge you should know when working.\"\n\nThe seminar will clearly explain the basics of labor law important for job hunting, including employment contracts, working hours, holidays and overtime, and how to read a pay stub, with practical examples.\n\n【Date and time】\nTuesday, October 13, 2026 (Reiwa 8) 10:00 a.m.–12:00 p.m.\n\n【Capacity】\n130 people\n\n【How to apply】\nPlease apply through the Saitama Prefecture Women's Career Center website. You will need to register as a user of the Saitama Prefecture Women's Career Center to attend the seminar.\n\n【Application start date】\nTuesday, September 1, 2026 (Reiwa 8)\n\n【Contact】\nSaitama Prefecture Women's Career Center\nPhone: 048-601-5810\nReception hours: 9:30 a.m.–5:30 p.m.\n(Closed Sundays, national holidays, year-end/New Year period, the third Thursday of each month, and on temporary closure days)\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/kurashi/10863.html",
+  "end": {
+    "date": "2026-08-23"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2MHMzY2NwZGNrcjY2ZTFnNzUwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-10863-e6c809@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h60s3ccpdckr66e1g7506gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/kurashi/10863.html"
+  },
+  "start": {
+    "date": "2026-08-22"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Women's employment support seminar (online) to be held",
+  "updated": "2026-08-21T00:16:33.987Z"
+}

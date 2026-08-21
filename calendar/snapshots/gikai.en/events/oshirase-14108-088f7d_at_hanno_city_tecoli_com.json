@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-21T00:16:34.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🔄 Content update (Published: August 20, 2026 / Previously posted: July 30, 2026)\nMain changes: October reservation intake scheduled for August 4 has been postponed. The cause was determined to be lightning strike damage; repair work is in progress.\n\nHanno Haraichiba Welfare Center is temporarily closed. Due to air conditioning system malfunction, the facility has been closed since July 29, 2026 (Reiwa 8). Advance reservations for October, which were scheduled to open on Tuesday, August 4, are now on hold for the time being. Since the completion date for maintenance cannot be determined at this time, we will announce the reservation opening date again on our website and other channels. The malfunction was caused by a lightning strike, and repair work has been ordered from a contractor.\n\n(Continued at the link below)\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/tiikifukushi/14108.html",
+  "end": {
+    "date": "2026-08-23"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Z29qMGUxZDYwczNncGhuY2gwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-14108-088f7d@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6goj0e1d60s3gphnch06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/tiikifukushi/14108.html"
+  },
+  "start": {
+    "date": "2026-08-22"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Hanno Haraichiba Welfare Center temporarily closed",
+  "updated": "2026-08-21T00:16:34.736Z"
+}

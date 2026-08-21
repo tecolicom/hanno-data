@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-21T00:16:14.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🔄 内容更新 (公開日: 2026-08-20 / 前回掲載: 2026-07-30)\n主な変更: 8月4日予定の10月分予約受付を見合わせ、受付開始時期は改めて案内予定。落雷が原因と判明し修繕業者に発注中。\n\nAI による要約 (正確な情報は元記事をご確認ください)\n\n飯能市原市場福祉センターが臨時休館しております。空調設備が不調のため、令和8年7月29日より休館中です。8月4日（火曜日）から受付予定であった10月分の予約は、しばらくの間見合わせます。メンテナンスの完了時期は現在見通せないため、受付開始の期日については改めてホームページ等でお知らせいたします。不調の原因は落雷によるものと判明し、現在修繕に向けて業者へ発注中です。\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/tiikifukushi/14108.html",
+  "end": {
+    "date": "2026-08-23"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Z29qMGUxZDYwczNncGhuY2gwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSA2NzQ1OTE0YjI0MzIzMTEyYTE1ZjQzZGMyMGIzYTBmNGE0ODE3YWZkODAwYzhkMTY4N2QwYmYwYjdmODkwYzYxQGc",
+  "iCalUID": "oshirase-14108-088f7d@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6goj0e1d60s3gphnch06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/tiikifukushi/14108.html"
+  },
+  "start": {
+    "date": "2026-08-22"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 飯能市原市場福祉センターの臨時休館について",
+  "updated": "2026-08-21T00:16:14.237Z"
+}
