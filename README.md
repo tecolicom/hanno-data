@@ -23,7 +23,7 @@ hanno-data/
 │   ├── seibu.yaml                         # 西武バス 飯26 (GTFS-JP, ODPT、native shape)
 │   └── coords-override.yaml               # 停留所座標オーバーライド + 表記揺れ alias
 ├── calendar/                     # Google カレンダー群管理 (JP/EN × default/gikai + 店舗カレンダー)
-│   ├── bin/cal-myhanno                    # Google Calendar API ラッパ (--lang en 対応)
+│   ├── bin/cal-gcal                    # Google Calendar API ラッパ (--lang en 対応)
 │   ├── bin/cal-tourism-fetch              # hanno-tourism.jp の tour、決定論パーサ (LLM 不使用)
 │   ├── bin/cal-tourism-news-fetch         # hanno-tourism.jp の news、LLM 抽出 + 機械検算
 │   ├── bin/cal-shiminkaikan-fetch         # 飯能市民会館 公演スケジュール
@@ -131,7 +131,7 @@ canonical に管理する仕組み。JP/EN 2 言語 × default/gikai 2 系統 = 
 AI 生成コンテンツの表示方針は [`docs/ai-content-policy.md`](./docs/ai-content-policy.md) 参照。
 
 CI 自動化 (GitHub Actions):
-- `cal-daily.yml` (03:00 JST + `calendar/bin/**` push trigger) — 全 fetcher 実行 → **`cal-myhanno prune` で削除を Calendar へ伝播** → events commit → JP Calendar 反映 → `cal-translate-en` で英訳 → translations commit → EN Calendar 反映 → snapshot
+- `cal-daily.yml` (03:00 JST + `calendar/bin/**` push trigger) — 全 fetcher 実行 → **`cal-gcal prune` で削除を Calendar へ伝播** → events commit → JP Calendar 反映 → `cal-translate-en` で英訳 → translations commit → EN Calendar 反映 → snapshot
   - **prune は `fetch --update-manual` より前に置く必要がある。** 後ろだと、YAML を消したのに Calendar に残った孤児を `fetch` が `source:` なしの YAML として拾い、以後「手動キュレーション = 不可侵」扱いになって二度と削除できなくなる (詳細は [`calendar/README.md`](./calendar/README.md) の「クローラの 2 系統」)
 - `cal-golden-test.yml` (`calendar/bin/**` / `sources.yaml` / `tests/**` の push・PR) — `calendar/tests/run-golden` でクローラ出力 YAML がバイト一致で維持されているか hermetic 検証 (カレンダー氾濫の回帰防止) + `calendar/tests/test_*.py` のユニットテスト実行
 

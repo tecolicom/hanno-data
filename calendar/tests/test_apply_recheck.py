@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""cal-myhanno の「書き込み直前の再確認」のユニットテスト。
+"""cal-gcal の「書き込み直前の再確認」のユニットテスト。
 索引構築後に Calendar 側が変わった状況を作って、正しく振る舞うか検証する。
 gws / find_event_by_uid を差し替えるのでネットワーク非依存。
 実行: python3 calendar/tests/test_apply_recheck.py
@@ -13,7 +13,7 @@ import tempfile
 HERE = os.path.dirname(os.path.abspath(__file__))
 BIN = os.path.normpath(os.path.join(HERE, "..", "bin"))
 loader = importlib.machinery.SourceFileLoader("cal_myhanno",
-                                              os.path.join(BIN, "cal-myhanno"))
+                                              os.path.join(BIN, "cal-gcal"))
 spec = importlib.util.spec_from_loader(loader.name, loader)
 mod = importlib.util.module_from_spec(spec)
 loader.exec_module(mod)

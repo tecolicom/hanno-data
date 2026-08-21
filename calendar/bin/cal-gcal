@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""cal-myhanno — Myはんのう Google Calendar 管理ラッパ.
+"""cal-gcal — Google Calendar 側の管理ラッパ (gws を包む).
 
 汎用 CLI は googleworkspace/cli (`gws`) を採用し、本スクリプトは:
   - Myはんのう calendar ID をデフォルト注入
@@ -8,7 +8,8 @@
 を担う薄いラッパ。
 
 認証:
-  GOOGLE_APPLICATION_CREDENTIALS env が未設定なら ~/.config/myhanno/sa.json を試す。
+  GOOGLE_APPLICATION_CREDENTIALS env が未設定なら
+  ~/.config/city-tecoli/calendar-sa.json を試す。
 
 カレンダー ID:
   CAL_ID env で上書き可能。未指定なら Myはんのう を使う。
@@ -34,7 +35,18 @@ from _lib import yaml_block_scalar, load_city_config
 _CITY = load_city_config()
 
 DEFAULT_TZ = "Asia/Tokyo"
-DEFAULT_SA = os.path.expanduser("~/.config/myhanno/sa.json")
+# SA 鍵の既定パス。鍵の持ち主は **city-tecoli プロジェクトの service account** で、
+# 街にもツールにも属さない (1 本の SA に各カレンダーの writer を委託していく形。
+# 実際この SA は飯能と無関係な「街てこり」カレンダーにも書いている)。
+# よって置き場所もプロジェクト単位にする — ツール名で切ると、別のツールが同じ鍵を
+# 使う日に名前が実態とズレる。file 名は用途で識別する (同じ dir に別用途の資格情報が
+# 増えたとき sa.json では区別できない)。
+# 街ごと / 用途ごとに主体を変えたいときは GOOGLE_APPLICATION_CREDENTIALS で
+# 上書きする (CI がそうしている)。旧パスは fallback として残す。
+DEFAULT_SA_CANDIDATES = [
+    os.path.expanduser("~/.config/city-tecoli/calendar-sa.json"),
+    os.path.expanduser("~/.config/myhanno/sa.json"),
+]
 
 # 管理対象カレンダー一覧 (logical name → Google Calendar ID)
 # 命名規則: 言語以外の base key と、言語別 `<base>.<lang>` の組合せ.
@@ -114,18 +126,20 @@ REFERENCE_URL_RE = re.compile(
 # 恐れがあるうえ、スコープが足りなければ全機能が止まる。
 #
 # 2026-08-21: カレンダー作成のために `gws auth login` を通したところ、その
-# トークンが calendar.events を持たなかったため cal-myhanno の全操作が
+# トークンが calendar.events を持たなかったため cal-gcal の全操作が
 # `Request had insufficient authentication scopes` で失敗した。CI は毎回
 # まっさらなランナーなので影響を受けず、ローカルでだけ壊れる形になっていた。
-GWS_CONFIG_DIR = os.path.join(tempfile.gettempdir(), "cal-myhanno-gws")
+GWS_CONFIG_DIR = os.path.join(tempfile.gettempdir(), "cal-gcal-gws")
 
 
 def ensure_auth() -> None:
     if not os.environ.get("GOOGLE_APPLICATION_CREDENTIALS"):
-        if os.path.exists(DEFAULT_SA):
-            os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = DEFAULT_SA
+        found = next((p for p in DEFAULT_SA_CANDIDATES if os.path.exists(p)), None)
+        if found:
+            os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = found
         else:
-            die(f"GOOGLE_APPLICATION_CREDENTIALS not set and {DEFAULT_SA} missing")
+            die("GOOGLE_APPLICATION_CREDENTIALS not set and none of "
+                + " / ".join(DEFAULT_SA_CANDIDATES) + " exist")
     os.makedirs(GWS_CONFIG_DIR, exist_ok=True)
 
 
@@ -137,7 +151,7 @@ def cal_id(name: str = "default") -> str:
 
 
 def die(msg: str, code: int = 1) -> None:
-    print(f"cal-myhanno: {msg}", file=sys.stderr)
+    print(f"cal-gcal: {msg}", file=sys.stderr)
     sys.exit(code)
 
 
@@ -1230,7 +1244,7 @@ def cmd_prune(args: argparse.Namespace) -> None:
 
 
 def build_parser() -> argparse.ArgumentParser:
-    p = argparse.ArgumentParser(prog="cal-myhanno", description="Myはんのう Calendar wrapper around gws")
+    p = argparse.ArgumentParser(prog="cal-gcal", description="Google Calendar wrapper around gws")
     sub = p.add_subparsers(dest="command", required=True)
 
     sp = sub.add_parser("find", help="list events (default: upcoming)")

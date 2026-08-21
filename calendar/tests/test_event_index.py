@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""cal-myhanno の EventIndex のユニットテスト。list_all_events を差し替えるので
+"""cal-gcal の EventIndex のユニットテスト。list_all_events を差し替えるので
 ネットワーク非依存。
 実行: python3 calendar/tests/test_event_index.py
 """
@@ -10,7 +10,7 @@ import os
 HERE = os.path.dirname(os.path.abspath(__file__))
 BIN = os.path.normpath(os.path.join(HERE, "..", "bin"))
 loader = importlib.machinery.SourceFileLoader("cal_myhanno",
-                                              os.path.join(BIN, "cal-myhanno"))
+                                              os.path.join(BIN, "cal-gcal"))
 spec = importlib.util.spec_from_loader(loader.name, loader)
 mod = importlib.util.module_from_spec(spec)
 loader.exec_module(mod)

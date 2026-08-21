@@ -25,7 +25,7 @@ Myはんのう Google カレンダー群 (`tecolicom@gmail.com` 所有、`city.t
 
 集合同期型の中核は `_lib` の 2 関数。削除の可否を決める純粋関数
 `plan_set_sync()` と、その決定を実行する I/O ラッパ `sync_set()`。
-Calendar 側への削除の伝播は `cal-myhanno prune` が担う。
+Calendar 側への削除の伝播は `cal-gcal prune` が担う。
 
 ### 削除ガード
 
@@ -45,7 +45,7 @@ Calendar 側への削除の伝播は `cal-myhanno prune` が担う。
 
 ### prune は `fetch --update-manual` より前に置く
 
-CI のステップ順序が設計の一部である。`cal-myhanno fetch --update-manual` は
+CI のステップ順序が設計の一部である。`cal-gcal fetch --update-manual` は
 「Calendar にあって YAML に無い event を新規 YAML 化」する経路で、生成される
 YAML は `event_to_yaml()` が作るため **`source:` を持たない**。
 
@@ -95,7 +95,7 @@ Service Account 1 つで管理:
 > **そもそも店舗に登録されていない**ためであって、英語だからではない。
 
 routing は `source.type` ベース。`source.type` → `default` or `gikai` のマッピングが
-`bin/cal-myhanno` の `SOURCE_TYPE_TO_CALENDAR` に定義。英語カレンダーは
+`bin/cal-gcal` の `SOURCE_TYPE_TO_CALENDAR` に定義。英語カレンダーは
 `<base>.<lang>` 命名で base routing と lang を直交的に組み合わせる。
 
 ## ディレクトリ構成
@@ -104,7 +104,7 @@ routing は `source.type` ベース。`source.type` → `default` or `gikai` の
 calendar/
 ├── bin/
 │   ├── _lib.py                  全 crawler の共通ヘルパ (HTTP fetch / cache / YAML 整形 / config 読込 / etc.)
-│   ├── cal-myhanno              Google Calendar API ラッパ (Python + gws)
+│   ├── cal-gcal              Google Calendar API ラッパ (Python + gws)
 │   ├── cal-tourism-fetch        hanno-tourism.jp の tour 投稿タイプ、決定論パーサ (LLM 不使用)
 │   ├── cal-tourism-news-fetch   hanno-tourism.jp の news 投稿タイプ、LLM 抽出 + 機械検算
 │   ├── cal-shiminkaikan-fetch   飯能市民会館 公演スケジュール取得
@@ -171,7 +171,7 @@ export GOOGLE_APPLICATION_CREDENTIALS=~/.config/myhanno/sa.json
 secrets.GWS_SA_JSON
 ```
 
-`cal-myhanno` は env 未設定時に `~/.config/myhanno/sa.json` を自動 fallback する。
+`cal-gcal` は env 未設定時に `~/.config/myhanno/sa.json` を自動 fallback する。
 
 ### 商工会議所の REST API は使えない → RSS に切替済み
 
@@ -266,7 +266,7 @@ CI が緑のまま通す」設定で、実際 2026-08-20 の REST 遮断はこ�
 ### 落とし穴: ユーザー OAuth が SA 認証を上書きする (対処済み)
 
 `gws` は保存済みのユーザー認証 (`~/.config/gws/credentials.enc`) を
-`GOOGLE_APPLICATION_CREDENTIALS` より**優先する**。`cal-myhanno` は Service
+`GOOGLE_APPLICATION_CREDENTIALS` より**優先する**。`cal-gcal` は Service
 Account 専用のツールなので、これを拾うと 2 つの問題が起きる。
 
 - スコープが足りなければ全操作が `Request had insufficient authentication
@@ -276,16 +276,16 @@ Account 専用のツールなので、これを拾うと 2 つの問題が起き
 2026-08-21 に実際に踏んだ。カレンダーを CLI で作るため `gws auth login` を
 `tecolicom@gmail.com` で通したところ、そのトークンが `calendar.events` を
 持たず (作成用に `calendar.calendars` + `calendar.acls` へ絞っていた)、
-`cal-myhanno` の全操作が失敗した。**CI は毎回まっさらなランナーなので影響を
+`cal-gcal` の全操作が失敗した。**CI は毎回まっさらなランナーなので影響を
 受けず、ローカルでだけ壊れる**形だった。
 
-対処済み: `cal-myhanno` が `gws` を呼ぶとき
+対処済み: `cal-gcal` が `gws` を呼ぶとき
 `GOOGLE_WORKSPACE_CLI_CONFIG_DIR` を専用ディレクトリに固定し、ユーザー認証を
 見せないようにしてある (`GWS_CONFIG_DIR`)。`gws` を直接叩く削除処理 2 箇所も
 同じ環境を渡す。**どう呼んでも常に SA** になる。
 
 なお `gws` をカレンダー作成等でユーザーとして使うこと自体は問題ない。
-`cal-myhanno` から隔離されているだけで、共存できる。
+`cal-gcal` から隔離されているだけで、共存できる。
 
 ### 落とし穴: 古いトークンキャッシュで `source` が欠ける
 
@@ -319,22 +319,27 @@ LLM 利用スクリプト (`cal-oshirase-fetch`, `cal-tourism-news-fetch`,
 - Python 3.10+
 - `pyyaml`, `httpx`
 
-## bin/cal-myhanno
+## bin/cal-gcal
+
+> **2026-08-21 に `cal-myhanno` から改名。** 機能が都市非依存になった (都市固有の値は
+> `city.yaml` へ移した) のに名前だけ飯能に紐付いていたため。SA 鍵の既定パスも
+> `~/.config/city-tecoli/calendar-sa.json` に移し、旧 `~/.config/myhanno/sa.json` は fallback として
+> 残している。`docs/superpowers/` の spec / plan は当時の記録なので旧名のまま。
 
 Google Calendar 側を操作するためのコマンド群。内部で `gws` を呼ぶ。
 
 ```
-cal-myhanno find [-q QUERY] [--time-min ISO] [--time-max ISO] [--json]
-cal-myhanno show <event-id>
-cal-myhanno set-allday <event-id> [--dry-run]                       # 時刻指定 → 終日 (marker 付き)
-cal-myhanno set-timed  <event-id> [--dry-run]                       # 終日 (marker 付き) → 時刻指定
-cal-myhanno fetch       [-o events] [--force] [--update-manual]     # Calendar → YAML 一括吸い上げ
-cal-myhanno apply      <yaml-file> [--dry-run] [--lang LANG]        # YAML 1 件 → Calendar
-cal-myhanno apply-all  [-d events] [--dry-run] [--lang LANG] [--only-managed]
+cal-gcal find [-q QUERY] [--time-min ISO] [--time-max ISO] [--json]
+cal-gcal show <event-id>
+cal-gcal set-allday <event-id> [--dry-run]                       # 時刻指定 → 終日 (marker 付き)
+cal-gcal set-timed  <event-id> [--dry-run]                       # 終日 (marker 付き) → 時刻指定
+cal-gcal fetch       [-o events] [--force] [--update-manual]     # Calendar → YAML 一括吸い上げ
+cal-gcal apply      <yaml-file> [--dry-run] [--lang LANG]        # YAML 1 件 → Calendar
+cal-gcal apply-all  [-d events] [--dry-run] [--lang LANG] [--only-managed]
                                                                     # events/ 全件 → Calendar
-cal-myhanno diff       [-d events] [--lang LANG]                    # YAML と Calendar の整合チェック
-cal-myhanno snapshot   [-o snapshots]                               # Calendar → JSON でバックアップ
-cal-myhanno wipe       --confirm [--dry-run]                        # Calendar 全削除 (内部で先に snapshot)
+cal-gcal diff       [-d events] [--lang LANG]                    # YAML と Calendar の整合チェック
+cal-gcal snapshot   [-o snapshots]                               # Calendar → JSON でバックアップ
+cal-gcal wipe       --confirm [--dry-run]                        # Calendar 全削除 (内部で先に snapshot)
 ```
 
 内部の主なヘルパ:
@@ -412,10 +417,10 @@ Google が頻繁に変動させる `etag` は除外、`updated` は残す。
 
 事故時の復旧手順:
 ```bash
-cal-myhanno snapshot          # (念のため) 最新 snapshot
-cal-myhanno wipe --confirm    # Calendar 全削除 (内部で自動 snapshot 取得)
-cal-myhanno apply-all         # YAML から完全再投入 (iCalUID も復元)
-cal-myhanno diff              # 整合確認 (0 件差分)
+cal-gcal snapshot          # (念のため) 最新 snapshot
+cal-gcal wipe --confirm    # Calendar 全削除 (内部で自動 snapshot 取得)
+cal-gcal apply-all         # YAML から完全再投入 (iCalUID も復元)
+cal-gcal diff              # 整合確認 (0 件差分)
 ```
 
 ## bin/cal-tourism-fetch
@@ -877,7 +882,7 @@ tourism の `modified_gmt` が使えたのは、あれが WordPress の投稿ご
 `uid_namespace` / `user_agent` / 管理対象カレンダー / `source.type` → カレンダーの
 ルーティングを持つ。`calendar/bin/` のコードはこれを読むだけで、都市固有の値を
 **1 つも埋め込んでいない** (2026-08-21 時点で `_lib.py` に残る "hanno" はコメントと
-解析例の 3 箇所のみ、`cal-myhanno` に残るのはツール自身の名前だけ)。
+解析例の 3 箇所のみ、`cal-gcal` に残るのはツール自身の名前だけ)。
 
 **⚠️ `uid_namespace` を変えてはいけない。** iCalUID の `@` 以降にそのまま入るので、
 変えると全イベントの UID が変わり、旧 UID が残ったまま全件が再作成される。
@@ -990,10 +995,10 @@ golden 網とは別に、純粋関数・API ラッパのユニットテストが
 | `test_generation_index.py` | oshirase の page_id 別世代索引 |
 | `test_diff_line.py` | oshirase の差分要約行 (LLM は差し替え) |
 | `test_backfill_rewrite.py` | oshirase の in-place 書き換えヘルパ |
-| `test_calendar_paging.py` | `cal-myhanno` の `events.list` ページング |
-| `test_apply_helpers.py` | `cal-myhanno` の同期判定 / マージ |
-| `test_event_index.py` | `cal-myhanno` の `EventIndex` |
-| `test_apply_recheck.py` | `cal-myhanno` の書き込み前再確認 |
+| `test_calendar_paging.py` | `cal-gcal` の `events.list` ページング |
+| `test_apply_helpers.py` | `cal-gcal` の同期判定 / マージ |
+| `test_event_index.py` | `cal-gcal` の `EventIndex` |
+| `test_apply_recheck.py` | `cal-gcal` の書き込み前再確認 |
 
 ## YAML スキーマ例
 
