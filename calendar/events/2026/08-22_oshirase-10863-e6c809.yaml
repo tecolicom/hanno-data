@@ -44,3 +44,38 @@ source:
   content_hash: "sha256-e6c8096c445a7a6c"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-08-20"
+translations:
+  en:
+    summary: "ℹ️ Women's employment support seminar (online) to be held"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      �新 Newly listed (published: August 20, 2026)
+      
+      The Saitama Prefecture Women's Career Center and Hanno City are jointly hosting an online employment support seminar for women titled "Labor law knowledge you should know when working."
+      
+      The seminar will clearly explain the basics of labor law important for job hunting, including employment contracts, working hours, holidays and overtime, and how to read a pay stub, with practical examples.
+      
+      【Date and time】
+      Tuesday, October 13, 2026 (Reiwa 8) 10:00 a.m.–12:00 p.m.
+      
+      【Capacity】
+      130 people
+      
+      【How to apply】
+      Please apply through the Saitama Prefecture Women's Career Center website. You will need to register as a user of the Saitama Prefecture Women's Career Center to attend the seminar.
+      
+      【Application start date】
+      Tuesday, September 1, 2026 (Reiwa 8)
+      
+      【Contact】
+      Saitama Prefecture Women's Career Center
+      Phone: 048-601-5810
+      Reception hours: 9:30 a.m.–5:30 p.m.
+      (Closed Sundays, national holidays, year-end/New Year period, the third Thursday of each month, and on temporary closure days)
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/kurashi/10863.html
+    translation_hash: "sha256-5b6f15b7f105f56c"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-21T00:16:23.668357Z"
+    format_version: 3

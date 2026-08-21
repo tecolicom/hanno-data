@@ -26,3 +26,21 @@ source:
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-08-20"
   supersedes: "oshirase-14108-2db404@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ Hanno Haraichiba Welfare Center temporarily closed"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content update (Published: August 20, 2026 / Previously posted: July 30, 2026)
+      Main changes: October reservation intake scheduled for August 4 has been postponed. The cause was determined to be lightning strike damage; repair work is in progress.
+      
+      Hanno Haraichiba Welfare Center is temporarily closed. Due to air conditioning system malfunction, the facility has been closed since July 29, 2026 (Reiwa 8). Advance reservations for October, which were scheduled to open on Tuesday, August 4, are now on hold for the time being. Since the completion date for maintenance cannot be determined at this time, we will announce the reservation opening date again on our website and other channels. The malfunction was caused by a lightning strike, and repair work has been ordered from a contractor.
+      
+      (Continued at the link below)
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/tiikifukushi/14108.html
+    translation_hash: "sha256-394f3fe706372f9a"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-21T00:16:26.490249Z"
+    format_version: 3
