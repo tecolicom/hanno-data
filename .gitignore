@@ -7,8 +7,10 @@
 node_modules/
 __pycache__/
 
-# claude-code 作業ディレクトリ (ローカル設定)
-.claude/
+# claude-code 作業ディレクトリ (ローカル設定)。skills だけは共有する
+# (ディレクトリごと無視すると git が中を見ないので、`.claude/*` + 例外にする)
+.claude/*
+!.claude/skills/
 
 # ad-hoc 用ローカルファイル
 download.html
