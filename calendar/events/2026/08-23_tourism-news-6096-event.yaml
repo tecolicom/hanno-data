@@ -1,0 +1,23 @@
+uid: "tourism-news-6096-event@hanno.city.tecoli.com"
+summary: "🎪 下名栗諏訪神社の獅子舞"
+url: "https://hanno-tourism.jp/news/%e4%b8%8b%e5%90%8d%e6%a0%97%e8%ab%8f%e8%a8%aa%e7%a5%9e%e7%a4%be%e3%81%ae%e7%8d%85%e5%ad%90%e8%88%9e"
+dtstart: "2026-08-23"
+dtend: "2026-08-23"
+description: |-
+  奥むさし飯能観光協会: https://hanno-tourism.jp/news/%e4%b8%8b%e5%90%8d%e6%a0%97%e8%ab%8f%e8%a8%aa%e7%a5%9e%e7%a4%be%e3%81%ae%e7%8d%85%e5%ad%90%e8%88%9e
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  下名栗諏訪神社の獅子舞奉納が行われます。揃いは2026年8月22日(土)、例大祭は2026年8月23日(日)です。例大祭では8時30分から17時50分頃まで、御宮参り・御幣懸り、花懸り、三拍子、神事式(雅楽奉奏)、棹懸り、女獅子隠し、白刃などが行われます。また、約200年前に青梅市成木の高水山から譲り受けた下名栗の獅子舞に伝わる秘伝書が初公開されます。一般公開は下名栗諏訪神社で行われます。
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-tourism-jp-news
+  id: "6096"
+  url: "https://hanno-tourism.jp/news/%e4%b8%8b%e5%90%8d%e6%a0%97%e8%ab%8f%e8%a8%aa%e7%a5%9e%e7%a4%be%e3%81%ae%e7%8d%85%e5%ad%90%e8%88%9e"
+  fetched_at: "2026-08-21T14:00:07.974310Z"
+  modified_gmt: "2026-08-21T06:44:25"
+  content_hash: "sha256-49a4ae646b230da5"
