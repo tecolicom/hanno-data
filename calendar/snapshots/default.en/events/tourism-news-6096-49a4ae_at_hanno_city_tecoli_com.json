@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-21T14:03:09.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nSource: https://hanno-tourism.jp/news/%e4%b8%8b%e5%90%8d%e6%a0%97%e8%ab%8f%e8%a8%aa%e7%a5%9e%e7%a4%be%e3%81%ae%e7%8d%85%e5%ad%90%e8%88%9e\n\n🆕 New listing (published August 21, 2026)\n\nA lion dance offering will be held at Shimonaguri Suwa Shrine. The full rehearsal (sorooi) takes place Saturday, August 22, 2026, and the main annual festival (rei taisai) is Sunday, August 23, 2026. During the festival, from 8:30 a.m. to around 5:50 p.m., there will be shrine visits, decorative offerings, flower arrangements, three-beat rhythms, sacred rituals (classical music performance), pole-based movements, female lion concealment, and unsheathed-blade performances. A secret transmission document (hidenisho) of the Shimonaguri lion dance—passed down from Takamizu Mountain in Nariki, Ōme City, about 200 years ago—will be publicly displayed for the first time. Public viewing takes place at Shimonaguri Suwa Shrine.",
+  "end": {
+    "date": "2026-08-22"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFyajVldHBpcWRoZzc0cjJxZDFwYzRxNjJwYTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIGQ5MTkzY2Y1ZjY0NGFiNDFhMjhlMjI2OGE5OGFiYzVhYTQyNmJkMmQ1NzcxNTI4MzQyNDRhZDY5YTMxZjVhNjhAZw",
+  "iCalUID": "tourism-news-6096-49a4ae@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqrj5etpiqdhg74r2qd1pc4q62pa0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/news/%e4%b8%8b%e5%90%8d%e6%a0%97%e8%ab%8f%e8%a8%aa%e7%a5%9e%e7%a4%be%e3%81%ae%e7%8d%85%e5%ad%90%e8%88%9e"
+  },
+  "start": {
+    "date": "2026-08-21"
+  },
+  "status": "confirmed",
+  "summary": "📢 Lion Dance at Shimonaguri Suwa Shrine",
+  "updated": "2026-08-21T14:03:10.071Z"
+}
