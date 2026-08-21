@@ -945,20 +945,51 @@ tourism の `modified_gmt` が使えたのは、あれが WordPress の投稿ご
 
 多都市展開時は、各 data repo がこのファイルを自分の値で持つ。
 
-## 検討中: 飯能市立図書館 (2026-08-22 時点で未実装)
+## 配信元を最初に見る
 
-`https://www.hanno-lib.jp/calendar/` = **こども図書館カレンダー**。調査だけ済んでいる。
+新しい配信元に当たったとき、**コードを書く前の 10 分**でここまで分かる。
+「先に決める 4 つ」(skill) の入力はすべてこれで揃う。
 
-- 静的 Apache、`Last-Modified` あり (Conditional GET が効く)、`robots.txt` は 404
-- **当月のみ**。月送りリンクが無い → 取得できる「集合」は 1 か月分。削除ガードは
-  incoming の日付範囲に閉じるので、これは自然に扱える
-- 中身が 3 種類混在: 単発イベント (個別ページあり) / 定例行事 (規則が書いてある) /
-  休館日 (規則が書いてある)
-- 一般向けの `/event/` (行事案内) が別にある
+```bash
+UA="myhanno-calendar-fetcher/0.1 (+https://city.tecoli.com)"
 
-**こども図書館から着手する**のは、飯能を知らない人に向けた訴求力が子ども向けの
-内容にあるという判断による。他館のカレンダーは後から検討する。したがってクローラは
-最初から**館を増やせる形** (`sources.yaml` に館ごとの URL を持つ) にしておくこと。
+# 1. ヘッダ — 条件付き GET が使えるか、何で動いているか
+curl -sI -A "$UA" "$URL" | head -8
+
+# 2. 本文を取って素性を見る
+curl -s -A "$UA" "$URL" -o /tmp/src.html -w "bytes=%{size_download}\n"
+grep -oE '<title>[^<]*</title>|generator[^>]*content="[^"]*"' /tmp/src.html
+
+# 3. タグを剥がして「何が載っているか」を読む
+python3 -c "
+import re,sys
+h=open('/tmp/src.html',encoding='utf-8',errors='replace').read()
+b=re.sub(r'<script.*?</script>|<style.*?</style>','',h,flags=re.S)
+print(re.sub(r'\n\s*\n+','\n',re.sub(r'<[^>]+>','\n',b)).strip()[:2000])"
+
+# 4. リンク — 期間の送り、詳細ページ、姉妹カレンダー
+python3 -c "
+import re
+h=open('/tmp/src.html',encoding='utf-8',errors='replace').read()
+for u,t in re.findall(r'href=\"([^\"]+)\"[^>]*>([^<]{0,30})',h): print(u,'|',t.strip())" | sort -u
+
+# 5. 明示された制限
+curl -s -A "$UA" "$(echo "$URL" | grep -oE '^https?://[^/]+')/robots.txt" | head
+```
+
+読み取れることと、その先の判断:
+
+| 見えたもの | 意味すること |
+|---|---|
+| `Last-Modified` / `ETag` がある | `fetch_with_cache()` の条件付き GET が効く。毎日全文を取らずに済む |
+| `generator` が WordPress | REST (`/wp-json/`) と RSS が候補。**ただし REST は国外 IP から遮断されうる** (「先に決める」2 番) |
+| 期間を送るリンクが無い | 一度に取れる集合が現在の期間だけ。集合同期型の削除ガードは incoming の日付範囲に閉じるので、これは自然に扱える (範囲外の過去を消さない) |
+| 一覧に要約 + 詳細ページ | 二段取得。既存では oshirase / shicho-blog が同じ形 |
+| 単発 / 規則 / 状態 が混在 | 普通のこと。規則は `rrule`、状態も落とさない (下の 2 節) |
+| `robots.txt` が 404 | **許可ではない**。利用規約は別途確認する (「先に決める」0 番) |
+
+**調査結果をこの README に書き残さないこと。** 個別の配信元の観測は、次に見たときには
+変わっている。残すのは「何を見るか」だけでよい — 上のコマンドで 10 分で取り直せる。
 
 ## 繰り返し予定 (rrule)
 
@@ -997,7 +1028,7 @@ rrule: FREQ=WEEKLY;BYDAY=SA,SU;UNTIL=2027-03-31
 
 **配信元のカレンダーに書いてあるなら、そのまま出す。** 休館日も含めて取り込む。
 
-判断の経緯 (2026-08-22、図書館カレンダーの検討時):
+判断の経緯 (2026-08-22、施設カレンダーの検討時):
 
 アプリは既に開館状態を持っている。city-tecoli の `src/lib/places.ts` が Google Places
 の `regularOpeningHours` を読み、`OpenStatus` (`open` / `opening_today` / `closed` /
