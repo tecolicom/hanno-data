@@ -897,7 +897,7 @@ shicho-blog:
 - ⚠️ config は必ず **この hanno-data repo 内**に置く。本体 city-tecoli repo の
   `cities/hanno/config.yaml` ではダメ — CI は hanno-data repo だけを checkout するため
   本体 repo のファイルは見えない。
-- 現状 oshirase / shicho-blog の 2 ソースのみ移行済み (Phase 1)。残りは順次。
+- 移行済み: oshirase / shicho-blog / tourism-news / cci-chef / cci-event。残りは順次。
 - `uid_namespace` は今も `_lib.UID_NAMESPACE` 共有定数のまま (Phase 1 では外出ししていない)。
 
 ## テスト (golden 網)
@@ -944,7 +944,12 @@ golden シナリオ:
   **正規化**する。content_hash は日付非依存なのでそのまま比較 → ハッシュ回帰は確実に検知。
 - **クローラ・`sources.yaml`・fixtures を変更したら必ず `run-golden` を緑にすること。**
   出力を意図的に変えた場合のみ `--update` で golden を更新し、差分を PR で確認する。
-- 現状 oshirase / shicho-blog の 2 クローラのみ対象 (Phase 1)。
+- **スタブは取得の最下層に当てる。** 上位関数 (「記事一覧を組み立てて返す」層) を
+  丸ごと差し替えると、解析コードが 1 行も走らないまま golden が緑になる。2026-08-21 に
+  cci-event でこれを踏んだ: REST 形状の fixture で `fetch_posts()` をスタブしていたため、
+  REST → RSS 切替で書き直した RSS 解析が未検証のまま通っていた。`fetch_feed()` (生の
+  フィード本文を返す層) をスタブに変えたところ、6 件の出力差が即座に検出された。
+  **判断基準: そのスタブを当てて、今回書いたコードは実行されるか。**
 
 ### ユニットテスト
 
