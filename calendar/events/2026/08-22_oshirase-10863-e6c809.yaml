@@ -1,0 +1,46 @@
+uid: "oshirase-10863-e6c809@hanno.city.tecoli.com"
+summary: "ℹ️ 女性向け就職支援セミナー（オンライン）を開催します"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/kurashi/10863.html"
+dtstart: "2026-08-22"
+dtend: "2026-08-22"
+description: |-
+  🆕 新着掲載 (公開日: 2026-08-20)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  埼玉県女性キャリアセンターと飯能市の共催により、女性向け就職支援セミナー「働く上で知っておきたい労働法の知識」をオンラインで開催します。
+  
+  雇用契約、労働時間、休日や残業、給与明細の見方など、再就職に向けて知っておきたい労働法の基本を実例を交えてわかりやすく解説します。
+  
+  【開催日時】
+  令和8年10月13日（火曜日）10時00分～12時00分
+  
+  【定員】
+  130名
+  
+  【申込方法】
+  埼玉県女性キャリアセンターのホームページからお申し込みください。セミナー受講には埼玉県女性キャリアセンターの利用登録が必要です。
+  
+  【申込開始日】
+  令和8年9月1日（火曜日）
+  
+  【お問い合せ】
+  埼玉県女性キャリアセンター
+  電話：048-601-5810
+  受付時間：9時30分～17時30分
+  （日曜日、祝日、年末年始、毎月第3木曜日、臨時休館日を除く）
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/kurashi/10863.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "10863"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/kurashi/10863.html"
+  fetched_at: "2026-08-21T00:15:02.088395Z"
+  content_hash: "sha256-e6c8096c445a7a6c"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-08-20"

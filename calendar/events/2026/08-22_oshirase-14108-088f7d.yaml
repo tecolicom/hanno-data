@@ -1,0 +1,28 @@
+uid: "oshirase-14108-088f7d@hanno.city.tecoli.com"
+summary: "ℹ️ 飯能市原市場福祉センターの臨時休館について"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/tiikifukushi/14108.html"
+dtstart: "2026-08-22"
+dtend: "2026-08-22"
+description: |-
+  🔄 内容更新 (公開日: 2026-08-20 / 前回掲載: 2026-07-30)
+  主な変更: 8月4日予定の10月分予約受付を見合わせ、受付開始時期は改めて案内予定。落雷が原因と判明し修繕業者に発注中。
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  飯能市原市場福祉センターが臨時休館しております。空調設備が不調のため、令和8年7月29日より休館中です。8月4日（火曜日）から受付予定であった10月分の予約は、しばらくの間見合わせます。メンテナンスの完了時期は現在見通せないため、受付開始の期日については改めてホームページ等でお知らせいたします。不調の原因は落雷によるものと判明し、現在修繕に向けて業者へ発注中です。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/tiikifukushi/14108.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "14108"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/tiikifukushi/14108.html"
+  fetched_at: "2026-08-21T00:14:59.287709Z"
+  content_hash: "sha256-088f7d134cdcfabe"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-08-20"
+  supersedes: "oshirase-14108-2db404@hanno.city.tecoli.com"
