@@ -25,51 +25,23 @@ import sys
 from typing import Any
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from _lib import yaml_block_scalar
+from _lib import yaml_block_scalar, load_city_config
 
 
 # ==================== Calendar ====================
-# 管理対象 Google Calendar のメタ情報。多都市展開時はこのセクションがそのまま
-# 都市別 config (YAML) になる想定。
-DEFAULT_CAL_ID = (
-    "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013"
-    "@group.calendar.google.com"
-)
+# 管理対象 Google Calendar のメタ情報は calendar/city.yaml が持つ (都市固有値なので
+# コードに埋めない)。この tool のロジックは都市非依存。
+_CITY = load_city_config()
+
 DEFAULT_TZ = "Asia/Tokyo"
 DEFAULT_SA = os.path.expanduser("~/.config/myhanno/sa.json")
 
 # 管理対象カレンダー一覧 (logical name → Google Calendar ID)
 # 命名規則: 言語以外の base key と、言語別 `<base>.<lang>` の組合せ.
-CALENDARS: dict[str, str] = {
-    # 日本語 (lang=default)
-    "default":    DEFAULT_CAL_ID,  # Myはんのう (公開イベント・ツーリズム・市民会館 等)
-    "gikai":      "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",  # 飯能市役所
-    # 英語 (lang=en) — JP と対称構成
-    "default.en": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",  # Myはんのう（EN）
-    "gikai.en":   "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",  # 飯能市役所（EN）
-    # 飯能商工会議所「日替わりシェフレストラン」当番表 (集合同期型)。
-    # tecolicom@gmail.com 所有、city-tecoli のアプリが商工会議所の店舗ページ
-    # (place_id: ChIJ_aM0DDcmGWAR3KV7H6eOrIs) から作成したもの。
-    # EN 版は作らない: 店舗ページに i18n が無く、読む場所が存在しないため
-    # (cal-translate-en の NO_TRANSLATION_SOURCE_TYPES で除外している)。
-    "chef":       "ae1577f36d2b51db208baec59cc84e90ceab25d41bad166b42c37fb7063f4a46@group.calendar.google.com",  # 日替わりシェフレストラン
-    # 飯能商工会議所の告知 (お知らせ・セミナー・経営支援・地域振興)。
-    # tecolicom@gmail.com 所有、一般公開、SA に writer を委託。gws CLI で作成。
-    # chef と違い **英訳する** — 告知は説明文なので訳す価値がある
-    # (chef を訳さないのは店名が固有名詞で情報が増えないため)。
-    "cci":        "b0a56c8e1f5246cda41e2fdb3c449b20c50bb365aac92333a4a9290a21e7edcf@group.calendar.google.com",  # 商工会議所からのお知らせ
-    "cci.en":     "b932613ee11b3b16657b986a7ec1bd82ad7c385c30de75a2db5834ba1a297e32@group.calendar.google.com",  # 商工会議所からのお知らせ（EN）
-}
+CALENDARS: dict[str, str] = _CITY["calendars"]
 
 # source.type → calendar (logical name) ルーティング
-# logical name "gikai" は内部呼称、display は「飯能市役所」(議会以外の市政情報も含む)
-SOURCE_TYPE_TO_CALENDAR: dict[str, str] = {
-    "city-hanno-gikai":       "gikai",
-    "city-hanno-shicho-blog": "gikai",
-    "city-hanno-oshirase":    "gikai",
-    "hanno-cci-chef":         "chef",
-    "hanno-cci-event":        "cci",
-}
+SOURCE_TYPE_TO_CALENDAR: dict[str, str] = _CITY["source_type_to_calendar"]
 
 
 # ==================== Logic ====================

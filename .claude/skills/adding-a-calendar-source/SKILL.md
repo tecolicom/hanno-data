@@ -43,8 +43,8 @@ HTML と RSS は開いたまま REST だけ 403 になる、という形で現�
 |---|---|---|
 | `calendar/sources.yaml` | `uid_prefix` / `source_type` / `summary_prefix` / URL | クローラが起動時に落ちる (すぐ気づく) |
 | `calendar/bin/cal-<name>-fetch` | クローラ本体 | — |
-| `cal-myhanno` の `CALENDARS` | logical name → カレンダー ID | apply 先が無い |
-| `cal-myhanno` の `SOURCE_TYPE_TO_CALENDAR` | `source_type` → logical name | **YAML は増えるがカレンダーに出ない** |
+| `calendar/city.yaml` の `calendars` | logical name → カレンダー ID | apply 先が無い |
+| `calendar/city.yaml` の `source_type_to_calendar` | `source_type` → logical name | **YAML は増えるがカレンダーに出ない** |
 | `.github/workflows/cal-daily.yml` | Crawl ステップ | 手で回すまで永久に更新されない |
 | `calendar/tests/run-golden` | `_setup_*` + シナリオ | 出力が壊れても誰も気づかない |
 

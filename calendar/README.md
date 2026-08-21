@@ -114,6 +114,7 @@ calendar/
 │   ├── cal-cci-chef-fetch       商工会議所 日替わりシェフ当番表 (集合同期型、LLM 不使用)
 │   ├── cal-cci-event-fetch      商工会議所の告知 (xo_event)、長文は LLM 要約
 │   └── cal-translate-en         events/ 全 YAML を英訳して translations.en.* に格納
+├── city.yaml                    都市 (data repo) 固有設定 (uid_namespace / カレンダー ID / routing)
 ├── sources.yaml                 クローラの source 別 city 固有設定 (URL / prefix 等、多都市化用)
 ├── events/                      canonical YAML (1 イベント 1 ファイル)
 │   └── <year>/<MM-DD>_<uid>.yaml
@@ -871,6 +872,18 @@ tourism の `modified_gmt` が使えたのは、あれが WordPress の投稿ご
 なお `https://www.city.hanno.lg.jp/robots.txt` は 404 で、サイトマップ以外に機械可読な
 入口は見つかっていない。
 
+## 都市設定 (city.yaml)
+
+`uid_namespace` / `user_agent` / 管理対象カレンダー / `source.type` → カレンダーの
+ルーティングを持つ。`calendar/bin/` のコードはこれを読むだけで、都市固有の値を
+**1 つも埋め込んでいない** (2026-08-21 時点で `_lib.py` に残る "hanno" はコメントと
+解析例の 3 箇所のみ、`cal-myhanno` に残るのはツール自身の名前だけ)。
+
+**⚠️ `uid_namespace` を変えてはいけない。** iCalUID の `@` 以降にそのまま入るので、
+変えると全イベントの UID が変わり、旧 UID が残ったまま全件が再作成される。
+
+多都市展開時は、各 data repo がこのファイルを自分の値で持つ。
+
 ## クローラ設定 (sources.yaml)
 
 クローラの city 固有値 (feed/top URL・uid_prefix・summary_prefix・source_type・
@@ -898,7 +911,9 @@ shicho-blog:
   `cities/hanno/config.yaml` ではダメ — CI は hanno-data repo だけを checkout するため
   本体 repo のファイルは見えない。
 - 移行済み: oshirase / shicho-blog / tourism-news / cci-chef / cci-event。残りは順次。
-- `uid_namespace` は今も `_lib.UID_NAMESPACE` 共有定数のまま (Phase 1 では外出ししていない)。
+- 都市そのものの設定 (`uid_namespace` / `user_agent` / カレンダー ID / source_type の
+  ルーティング) は **`calendar/city.yaml`** に分けてある。source 単位ではなく repo 単位の
+  値なので別ファイルにした。`_lib.load_city_config()` が読む。
 
 ## テスト (golden 網)
 

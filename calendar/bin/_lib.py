@@ -38,11 +38,33 @@ except ImportError:  # CI / 最小環境では未インストールのことが�
 # ==================== 定数 ====================
 
 
+def load_city_config(config_path: str | None = None) -> dict:
+    """calendar/city.yaml から都市 (data repo) 固有の設定 dict を返す。
+
+    config_path 省略時は _lib.py から ../city.yaml で解決。source 別の設定は
+    load_source_config() が sources.yaml から読む。
+    file 不在 / YAML 不正は例外を投げて即失敗する — silent default で誤った
+    namespace を使うと全イベントの UID が変わり、カレンダーが総入れ替えになる。
+    """
+    import yaml
+    if config_path is None:
+        config_path = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                                   "..", "city.yaml")
+    with open(config_path, encoding="utf-8") as f:
+        cfg = yaml.safe_load(f)
+    if not isinstance(cfg, dict):
+        raise ValueError(f"{config_path}: top-level に mapping が必要")
+    return cfg
+
+
+_CITY = load_city_config()
+
 # 全 crawler 共通の User-Agent (= 取得先サーバ側で連絡先が辿れる identifier)
-USER_AGENT = "myhanno-calendar-fetcher/0.1 (+https://city.tecoli.com)"
+USER_AGENT = _CITY["user_agent"]
 
 # 全 crawler 共通の UID namespace (iCalUID の `@` 以降に使う)
-UID_NAMESPACE = "hanno.city.tecoli.com"
+# ⚠️ 値を変えると全イベントの UID が変わる。city.yaml のコメントを読むこと。
+UID_NAMESPACE = _CITY["uid_namespace"]
 
 # AI 要約 / 翻訳結果の冒頭に付ける disclaimer (日本語). cal-oshirase-fetch が
 # 付与し、cal-translate-en が翻訳時に剥がす契約。

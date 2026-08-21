@@ -1,7 +1,7 @@
 # クローラの source 別設定 (city 固有値)。
 # 多都市展開時は各 data repo がこのファイルを持つ。クローラのコード (calendar/bin/) は
 # 都市非依存で、ここの値を起動時に読み込む。
-# 注: uid_namespace は現状 _lib.UID_NAMESPACE 共有定数のままなので、ここには含めない。
+# 注: repo 単位の値 (uid_namespace / user_agent / カレンダー ID / routing) は city.yaml。
 oshirase:
   uid_prefix: oshirase
   source_type: city-hanno-oshirase
