@@ -107,40 +107,36 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: ./calendar/bin/cal-oshirase-fetch --out-dir calendar/events --min-items 0 || echo "city-hanno-oshirase" >> "$RUNNER_TEMP/crawl-failures.txt"
 
-      # ===== 無効化中: hanno-cci-event =====
-      #
-      # cal-cci-event-fetch は **CI から実行しない**。商工会議所の REST API
-      # (/wp-json/) が GitHub Actions の IP から遮断されているため。
-      #
-      # 観測 (2026-08-20、ランナーは Azure eastus2 / 米国バージニア):
-      #   15:56  HTML timeout   / REST timeout
-      #   16:43  HTML 200       / REST 403
-      #   16:52  HTML 200       / REST 403
-      #   17:01  HTML 000       / REST 000   ← サイト全体へ到達不能
-      # 同時刻に日本国内のローカル回線からは REST も HTML も 200。
-      #
-      # 一貫した説明は「/wp-json/ が国外 IP から遮断されており (日本の WordPress
-      # サイトで一般的な設定)、403 を繰り返した結果 IP 全体が締め出された」。
-      #
-      # **止める理由は 2 つある。**
-      # 1. 巻き添え — 同じ IP から動く cal-cci-chef-fetch まで到達不能になる
-      #    (実際 15:56 と 17:01 に chef 側も落ちた)
-      # 2. 相手のサイトに迷惑 — 遮断されると分かっている先を毎日叩かない
-      #
-      # データは失われない。取り込み済みの 49 件は events/ とカレンダーに残る。
-      # 恒久対応 (HTML スクレイプへの書き直し / 商工会議所への相談 / 手元での
-      # 定期実行) は別途検討する。
-      #
-      # - name: Crawl hanno-cci-event
-      #   env:
-      #     ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-      #   run: ./calendar/bin/cal-cci-event-fetch --out-dir calendar/events --min-items 1 || echo "hanno-cci-event" >> "$RUNNER_TEMP/crawl-failures.txt"
-
       - name: Crawl hanno-cci-chef
         # 集合同期型。取得側に無い予定は YAML から削除される。削除ガードは
         # _lib.plan_set_sync (取得範囲内かつ今日以降のみ、上限超過なら exit 3 で
         # 何も書かない)。LLM 不使用なので API キーは要らない。
         run: ./calendar/bin/cal-cci-chef-fetch --out-dir calendar/events --min-events 20 || echo "hanno-cci-chef" >> "$RUNNER_TEMP/crawl-failures.txt"
+
+      # 注: cci-event は chef の**後**に置く。cci-event が遮断されると同一 IP から
+      # の chef まで巻き添えで落ちるため (2026-08-20 実測)、先に chef を通す。
+      - name: Crawl hanno-cci-event
+        # 商工会議所の告知。REST (/wp-json/) は CI から遮断されているため RSS で取る
+        # (2026-08-21 に切替)。**RSS が CI から通るかはこの再有効化が初めての検証**
+        # (2026-08-22)。同ホストの HTML は cal-cci-chef-fetch が CI から取れている。
+        #
+        # --min-items 1 は必須。0 は「1 件も取れない異常を緑のまま通す」設定で、
+        # 2026-08-20 の REST 遮断はそれで見逃した。
+        #
+        # REST が使えない経緯 (観測 2026-08-20、ランナーは Azure eastus2 / 米国):
+        #   15:56  HTML timeout / REST timeout
+        #   16:43  HTML 200     / REST 403
+        #   16:52  HTML 200     / REST 403
+        #   17:01  HTML 000     / REST 000   ← サイト全体へ到達不能
+        # 同時刻に日本国内のローカル回線からは REST も HTML も 200。一貫した説明は
+        # 「/wp-json/ が国外 IP から遮断されており (日本の WordPress で一般的な設定)、
+        # 403 を繰り返した結果 IP 全体が締め出された」。
+        #
+        # もし RSS でも遮断されるなら、巻き添えで cal-cci-chef-fetch まで落ちる
+        # (2026-08-20 に実際そうなった)。その場合は再び無効化する。
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: ./calendar/bin/cal-cci-event-fetch --out-dir calendar/events --min-items 1 || echo "hanno-cci-event" >> "$RUNNER_TEMP/crawl-failures.txt"
 
       - name: Prune removed chef events from Calendar
         # **このステップは次の "Fetch manual Calendar additions" より前でなければ
@@ -231,7 +227,10 @@ jobs:
 
       - name: Translate to English (only stale / new YAMLs)
         # translation_hash 一致なら skip するので、変更が無いときは LLM 呼出 0。
-        # ANTHROPIC_API_KEY が無い環境では skip 扱い (errors を出すが exit 0)。
+        # ANTHROPIC_API_KEY が無い環境では skip 扱い (下の guard で exit 0)。
+        # errors>0 なら cal-translate-en が非ゼロで終わる (2026-08-22〜)。ここで
+        # 止めずに集計へ回すのは、EN apply / snapshot まで進めて「訳せた分は反映
+        # する」ため。ジョブ末尾の "Report crawler failures" でまとめて赤にする。
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
@@ -239,7 +238,7 @@ jobs:
             echo "ANTHROPIC_API_KEY not set, skipping translation"
             exit 0
           fi
-          ./calendar/bin/cal-translate-en --events-dir calendar/events
+          ./calendar/bin/cal-translate-en --events-dir calendar/events || echo "cal-translate-en" >> "$RUNNER_TEMP/crawl-failures.txt"
 
       - name: Commit translation changes
         run: |

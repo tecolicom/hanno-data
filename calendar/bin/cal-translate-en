@@ -367,6 +367,11 @@ def main() -> None:
 
     print(f"Done. translated={translated}  skipped={skipped}  errors={errors}",
           file=sys.stderr)
+    # 表示するだけでは誰も気づかない。翻訳が落ちても EN カレンダーは古い訳のまま
+    # 残り、CI は緑で回り続ける (= 静かに古びる)。終了コードに出して検知可能にする。
+    # 呼び出し側 (cal-daily.yml) は他ステップを止めずに失敗を集計する配線にしてある。
+    if errors:
+        sys.exit(1)
 
 
 if __name__ == "__main__":
