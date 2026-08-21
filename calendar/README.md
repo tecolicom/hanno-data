@@ -945,6 +945,60 @@ tourism の `modified_gmt` が使えたのは、あれが WordPress の投稿ご
 
 多都市展開時は、各 data repo がこのファイルを自分の値で持つ。
 
+## 繰り返し予定 (rrule)
+
+**実装済みだが 2026-08-22 時点で使用例ゼロ**。コード内のコメントが「今は無いはず」と
+書いているのはそのため。使ってよい。
+
+YAML に `rrule:` を置くと `cal-gcal` が `RRULE:` を前置して Calendar の `recurrence`
+に渡す。値は RFC 5545 の RRULE 本体 (`RRULE:` は付けない)。
+
+```yaml
+uid: lib-ohanashi@hanno.city.tecoli.com
+summary: おはなしのじかん
+dtstart: 2026-04-04
+rrule: FREQ=WEEKLY;BYDAY=SA,SU;UNTIL=2027-03-31
+```
+
+往復が成立することは実装で確認済み (2026-08-22):
+
+| 経路 | 実装 |
+|---|---|
+| YAML → Calendar | `doc["rrule"]` → `body["recurrence"] = ["RRULE:..."]` |
+| Calendar → YAML | `recurrence` から `RRULE:` を剥がして `rrule:` に戻す |
+| 差分検知 | `COMPARE_FIELDS` に `recurrence` が入っている |
+| マスターの保全 | 同期経路の `events.list` は `singleEvents: False`。繰り返しマスターが
+  インスタンスに展開されないので、読み戻しで壊れない (`find` だけ `True`) |
+
+終日イベントの `UNTIL` は `normalize_rrule_until()` が date-time → date に直す
+(Calendar が終日 + date-time UNTIL を弾くため)。
+
+**いつ使うか**: 「毎週土日祝」のような**規則そのものが配信元に書かれている**とき。
+規則を N 件の個別イベントに展開すると、規則が変わったときに全件を作り直すことになり、
+削除ガードの上限にも当たる。逆に、配信元が個別の日付を列挙しているだけなら展開された
+まま扱う (規則を推測しない)。
+
+## 状態 (休館日・開館時間) をどう扱うか — 前例なし
+
+既存 6 ソースはすべて「何かが起きる」イベント。**図書館の休館日のような「状態」を
+カレンダーに入れた前例は無い。** 新しくそういう配信元を扱うときは、**取り込む前に
+どこに置くかを決める**こと。
+
+判断の材料:
+
+- **アプリは既に開館状態を持っている。** city-tecoli の `src/lib/places.ts` が Google
+  Places の `regularOpeningHours` を読み、`OpenStatus` (`open` / `opening_today` /
+  `closed` / `holiday`) として店/施設カードに出している。定例の休館日はここで既に
+  表現されており、カレンダーにも入れると**二重管理**になる。
+- **カレンダーが向くのは「例外」**。特別整理期間・年末年始・臨時休館のように、
+  定例の規則からは導けない日。これは Places 側には出ない。
+- **終日イベントとして出すなら**、タイトルに何が起きるかを書く (「休館」)。
+  `status: canceled` のような状態表示は使わない (削除ガードの節と同じ理由 —
+  根拠のない状態を我々は名乗れない)。
+
+結論を出さずに実装を始めないこと。**どちらに置くかで、クローラが何を抽出するかが
+変わる** (全休館日か、例外だけか)。
+
 ## クローラ設定 (sources.yaml)
 
 クローラの city 固有値 (feed/top URL・uid_prefix・summary_prefix・source_type・
