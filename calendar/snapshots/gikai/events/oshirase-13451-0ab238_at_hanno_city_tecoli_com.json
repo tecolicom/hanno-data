@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-22T18:21:39.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🔄 内容更新 (公開日: 2026-08-21 / 前回掲載: 2026-08-09)\n主な変更: 8月16日の展示解説会が終了しました。\n\nAI による要約 (正確な情報は元記事をご確認ください)\n\n昭和100年企画展「飯能と昭和ー市の誕生と進化するくらしー」を令和8年7月19日（日）から8月30日（日）まで開催します。合併を重ねながら形成された飯能市域の歴史と、家具や家電の変化を通じた暮らしの移り変わりを館蔵資料で紹介します。開館時間は午前9時30分から午後4時30分まで。休館日は7月20日を除く月曜日、7月21日（火）、7月24日（金）、8月12日（水）、8月28日（金）です。\n\n関連イベント：展示解説会は8月23日（日）午前10時～10時30分、午後3時～3時30分に実施。夕暮れミュージアムは午後6時から30分程の展示解説、8月29日（土）に開催（開館時間午後7時まで延長）。ワークショップ「きっとす探検隊」は8月22日（土）午前10時～12時、午後1時～3時、飯能市立博物館特別展示室・自然コーナーで実施、参加申込不要。昭和100年の記録を触れて、見て、学べます。\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/tenji_moyooshimono/13451.html",
+  "end": {
+    "date": "2026-08-24"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3EzYWM5ZDYxZ200Y2hqNzEwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSA2NzQ1OTE0YjI0MzIzMTEyYTE1ZjQzZGMyMGIzYTBmNGE0ODE3YWZkODAwYzhkMTY4N2QwYmYwYjdmODkwYzYxQGc",
+  "iCalUID": "oshirase-13451-0ab238@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6cq3ac9d61gm4chj7106gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/tenji_moyooshimono/13451.html"
+  },
+  "start": {
+    "date": "2026-08-23"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 昭和100年企画展「飯能と昭和ー市の誕生と進化するくらしー」",
+  "updated": "2026-08-22T18:21:39.920Z"
+}
