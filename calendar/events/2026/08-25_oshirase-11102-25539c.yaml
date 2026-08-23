@@ -40,3 +40,34 @@ source:
   content_hash: "sha256-25539c606df2e8a8"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-08-24"
+translations:
+  en:
+    summary: "ℹ️ Sugo-ashi Leisurely Walk – October 20 (Tuesday) and October 31 (Saturday), 2026"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      �新 New listing (Published: August 24, 2026)
+      
+      Sugo-ashi Leisurely Walk October event.
+      
+      Dates: October 20 (Tuesday) and October 31 (Saturday), 2026 (Reiwa 8)
+      
+      【Event Overview】
+      Meeting time: 10:00 a.m.
+      Meeting location: West parking lot of Hanno City Hall
+      Course: Two routes available depending on weather and number of participants
+      • Course 1: City Hall → Benzaiten Shrine → Chikkanji Temple → Nakayama West Signal → Yatsuda → Ninin Temple → Central Park → Hongo Water Purification Plant → Hanno River Stepping Stone Bridge → Hanno Station → Higashi-Hanno Station → City Hall
+      • Course 2: City Hall → Hanno city area (Shimokaji, Futayanagi, Kaji, etc.) → Iruma city area (Shinko, Noda, etc.) → Fushiko Station (return by train)
+      Distance: About 7 kilometers
+      Expected duration: About 2 hours 30 minutes
+      Fee: Free (insurance is your own responsibility)
+      What to bring: Drinking water, rain gear, Sugo-ashi handbook (if you have one)
+      Registration: Walk-in on the day (please arrive by the meeting time)
+      Cancellation check: For cancellation updates due to weather, check the Hanno Walking Club website or contact Onda after 3:00 p.m. the day before
+      Contact: Onda 090-2205-8073
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/11102.html
+    translation_hash: "sha256-6e0ee84f3a7c1cdc"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-23T18:21:26.490133Z"
+    format_version: 3

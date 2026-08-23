@@ -28,3 +28,27 @@ source:
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-08-21"
   supersedes: "oshirase-13451-53005a@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ Centennial Exhibition: Hanno and the Showa Era—The City's Birth and Evolving Life"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content Update (Updated: August 21, 2026 / Previously posted: August 9, 2026)
+      Main change: The exhibition talk on August 16 has ended.
+      
+      The Centennial Exhibition "Hanno and the Showa Era—The City's Birth and Evolving Life" runs from July 19 (Sunday) through August 30 (Sunday), 2026. Using museum collections, the exhibition introduces the history of Hanno City as it was shaped through repeated mergers, and shows how daily life has changed through the evolution of furniture and household appliances. Open 9:30 a.m. to 4:30 p.m. Closed Mondays (except July 20), July 21 (Tuesday), July 24 (Friday), August 12 (Wednesday), and August 28 (Friday).
+      
+      Related Events:
+      
+      • Exhibition Talk: August 23 (Sunday), 10:00–10:30 a.m. and 3:00–3:30 p.m.
+      
+      • Evening Museum: August 29 (Saturday), 6:00 p.m. with about 30 minutes of exhibition talk (extended hours until 7:00 p.m.). 
+      
+      • Workshop "Showa 100 Discovery Squad": August 22 (Saturday), 10:00 a.m.–12:00 p.m. and 1:00–3:00 p.m. at Hanno City Museum Special Exhibition Room, Nature Corner. No advance registration required. Touch, see, and learn about Showa's 100-year record.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/tenji_moyooshimono/13451.html
+    translation_hash: "sha256-131c98a2fc335456"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-23T18:21:22.010144Z"
+    format_version: 3
