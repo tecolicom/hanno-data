@@ -834,6 +834,23 @@ cal-translate-en [--events-dir DIR] [--dry-run] [--limit N] [--only-uid UID]
   - LLM 非決定性に関わらず idempotent
   - `TRANSLATION_FORMAT_VERSION` を bump すると wrapper 文言改変を全件に伝播
 
+### 応答形式はサーバ側で強制する + 引き直す
+
+`output_config.format` に `json_schema` を渡している (`OUTPUT_SCHEMA`)。
+**プロンプトに「JSON で返せ」と書くだけでは足りない。** 原文の `「」` を英語の
+`"` に訳した瞬間、エスケープされない `"` が JSON 文字列の中に入って
+`json.loads` が落ちる。2026-08-22 の CI がこれで赤になった
+(1 件だけ失敗 → run 32590407302)。
+
+同じ癖は `docs/superpowers/specs/2026-08-10-tourism-news-design.md` にも
+記録がある (「そのままコピー」と指示しても引用符を打ち直す)。**LLM に
+JSON を書かせる箇所は、原文に括弧類が入りうる時点で同じ穴がある。**
+
+schema を渡しても 100% ではない。同じ記事で **95 回中 1 回**、壊れた JSON が
+返った (2026-08-23 実測)。1 件の失敗でジョブ全体が赤になるので、
+**JSON が読めなかったときだけ** `LLM_MAX_ATTEMPTS` 回まで引き直す。
+通信・HTTP の失敗は引き直さない (呼出側が errors を数え、翌日の実行が拾う)。
+
 ## CI (GitHub Actions)
 
 2 本構成:

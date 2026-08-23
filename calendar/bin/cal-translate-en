@@ -59,6 +59,24 @@ TRANSLATION_FORMAT_VERSION = 3
 LLM_MODEL = "claude-haiku-4-5"
 LLM_MAX_TOKENS = 2048  # 翻訳なので summarize より長めに
 
+# 応答形式をサーバ側で強制する (structured outputs)。プロンプトで「JSON を返せ」と
+# 書くだけでは足りない: 原文の「」を英語の " に訳した瞬間、エスケープされない "
+# が JSON 文字列に混ざって json.loads が落ちる (2026-08-22 に実際に発生し、
+# 1 件の翻訳失敗で CI が赤になった)。schema を渡すと API が形式を保証する。
+OUTPUT_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "summary": {"type": "string"},
+        "description": {"type": "string"},
+    },
+    "required": ["summary", "description"],
+    "additionalProperties": False,
+}
+
+# schema 強制でも 100% ではない — 同じ記事で 95 回中 1 回、壊れた JSON が返った
+# (2026-08-23 実測)。1 件の失敗でジョブ全体が赤になるので引き直す。
+LLM_MAX_ATTEMPTS = 3
+
 # AI 翻訳 disclaimer (訳文冒頭). docs/ai-content-policy.md 参照.
 EN_DISCLAIMER = "Automated translation (refer to source for accuracy)"
 
@@ -100,13 +118,8 @@ Notes:
 # ==================== Logic ====================
 
 
-def translate(jp_summary: str, jp_description: str) -> dict | None:
-    """Claude Haiku に翻訳依頼. 失敗時 None."""
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
-    if not api_key:
-        print("  ERROR: ANTHROPIC_API_KEY not set", file=sys.stderr)
-        return None
-    user_msg = f"SUMMARY:\n{jp_summary}\n\nDESCRIPTION:\n{jp_description}"
+def _request_translation(api_key: str, user_msg: str) -> str | None:
+    """API を 1 回叩いて応答テキストを返す。通信・HTTP の失敗時 None。"""
     try:
         r = httpx.post(
             "https://api.anthropic.com/v1/messages",
@@ -120,6 +133,9 @@ def translate(jp_summary: str, jp_description: str) -> dict | None:
                 "max_tokens": LLM_MAX_TOKENS,
                 "system": SYSTEM_PROMPT,
                 "messages": [{"role": "user", "content": user_msg}],
+                "output_config": {
+                    "format": {"type": "json_schema", "schema": OUTPUT_SCHEMA},
+                },
             },
             timeout=90,
         )
@@ -129,14 +145,40 @@ def translate(jp_summary: str, jp_description: str) -> dict | None:
         # JSON コードフェンスが付くケースに対応
         raw = re.sub(r"^```(?:json)?\s*", "", raw)
         raw = re.sub(r"\s*```$", "", raw)
-        parsed = json.loads(raw)
-        return {
-            "summary": strip_markdown(parsed["summary"].strip()),
-            "description": strip_markdown(parsed["description"].strip()),
-        }
+        return raw
     except Exception as e:
         print(f"  ERROR LLM translate: {e}", file=sys.stderr)
         return None
+
+
+def translate(jp_summary: str, jp_description: str) -> dict | None:
+    """Claude Haiku に翻訳依頼. 失敗時 None.
+
+    **JSON が読めなかったときだけ引き直す。** 通信・HTTP の失敗は引き直さない
+    (呼出側が errors を数えて CI を赤にし、翌日の実行が拾う)。原因の切り分けは
+    docs より OUTPUT_SCHEMA のコメントを見ること。
+    """
+    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    if not api_key:
+        print("  ERROR: ANTHROPIC_API_KEY not set", file=sys.stderr)
+        return None
+    user_msg = f"SUMMARY:\n{jp_summary}\n\nDESCRIPTION:\n{jp_description}"
+    for attempt in range(1, LLM_MAX_ATTEMPTS + 1):
+        raw = _request_translation(api_key, user_msg)
+        if raw is None:
+            return None
+        try:
+            parsed = json.loads(raw)
+            return {
+                "summary": strip_markdown(str(parsed["summary"]).strip()),
+                "description": strip_markdown(str(parsed["description"]).strip()),
+            }
+        except Exception as e:
+            print(f"  WARN LLM translate: 応答が JSON として読めない "
+                  f"(試行 {attempt}/{LLM_MAX_ATTEMPTS}): {e}", file=sys.stderr)
+    print("  ERROR LLM translate: 引き直しても JSON が読めなかった",
+          file=sys.stderr)
+    return None
 
 
 def build_en_description(en_body: str, source_url: str | None,
