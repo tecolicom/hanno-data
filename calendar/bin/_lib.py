@@ -607,11 +607,19 @@ def llm_available() -> bool:
 
 
 def call_llm(system: str, user: str, *, model: str, max_tokens: int,
-             temperature: float | None = None, timeout: int = 60) -> str | None:
+             temperature: float | None = None, timeout: int = 60,
+             output_schema: dict | None = None) -> str | None:
     """Anthropic Messages API を 1 回叩き、応答テキストを返す。失敗時 None。
 
     Markdown 除去や後処理は行わない (呼出側が strip_markdown 等を掛ける)。
     temperature は省略時リクエストに含めない (API 既定に委ねる)。
+
+    **応答を JSON で受け取るなら output_schema を渡すこと。** プロンプトに
+    「JSON で返せ」と書くだけでは形式は保証されない。原文の `「」` を英語の
+    `"` に訳す・写すと、エスケープされない `"` が JSON 文字列に混ざって
+    json.loads が落ちる (2026-08-22 に cal-translate-en で実際に発生)。
+    output_schema を渡すと API 側が形式を保証する。
+    → calendar/README.md「応答形式はサーバ側で強制する + 引き直す」
     """
     if httpx is None:
         print("  WARN: httpx not installed, skipping LLM call", file=sys.stderr)
@@ -628,6 +636,10 @@ def call_llm(system: str, user: str, *, model: str, max_tokens: int,
     }
     if temperature is not None:
         payload["temperature"] = temperature
+    if output_schema is not None:
+        payload["output_config"] = {
+            "format": {"type": "json_schema", "schema": output_schema},
+        }
     try:
         r = httpx.post(
             ANTHROPIC_API_URL,

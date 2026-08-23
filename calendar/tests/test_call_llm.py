@@ -75,6 +75,27 @@ def test_call_llm_includes_temperature_when_given():
     assert fake.calls[0]["json"]["temperature"] == 0, fake.calls[0]["json"]
 
 
+def test_call_llm_omits_output_config_by_default():
+    fake = _FakeHttpx()
+    lib.httpx = fake
+    _with_key(lambda: lib.call_llm("S", "U", model="m", max_tokens=256))
+    assert "output_config" not in fake.calls[0]["json"], fake.calls[0]["json"]
+
+
+def test_call_llm_passes_output_schema_as_json_schema():
+    """JSON を受け取る呼出は形式をサーバ側に強制させる
+    (プロンプトの「JSON で返せ」だけでは引用符でエスケープが壊れる)。"""
+    schema = {"type": "object", "properties": {"a": {"type": "string"}},
+              "required": ["a"], "additionalProperties": False}
+    fake = _FakeHttpx()
+    lib.httpx = fake
+    _with_key(lambda: lib.call_llm("S", "U", model="m", max_tokens=256,
+                                   output_schema=schema))
+    fmt = fake.calls[0]["json"]["output_config"]["format"]
+    assert fmt["type"] == "json_schema", fmt
+    assert fmt["schema"] is schema, fmt
+
+
 def test_call_llm_returns_none_without_api_key():
     lib.httpx = _FakeHttpx()
     old = os.environ.pop("ANTHROPIC_API_KEY", None)

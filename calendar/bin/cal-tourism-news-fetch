@@ -62,6 +62,27 @@ FULL_TEXT_THRESHOLD = 400    # LLM 不在時、これ以下は全文掲載
 LLM_MODEL = "claude-haiku-4-5"
 LLM_MAX_TOKENS = 1024
 
+# 応答形式をサーバ側で強制する (structured outputs)。プロンプトの指示だけでは
+# 足りない。特に date_evidence は「本文から一字一句コピー」させる項目なので、
+# 原文に `「」` や `"` があると、エスケープされない `"` が JSON 文字列に
+# 混ざって json.loads が落ちうる (同じ形の事故が 2026-08-22 に
+# cal-translate-en で起きた)。プロンプト側の JSON 例と揃えること。
+EXTRACT_OUTPUT_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "summary": {"type": "string"},
+        "event_date": {"type": ["string", "null"]},
+        "event_end_date": {"type": ["string", "null"]},
+        "date_evidence": {"type": ["string", "null"]},
+        "status": {"type": "string",
+                   "enum": ["normal", "canceled", "postponed", "ended"]},
+        "announces_event_itself": {"type": "boolean"},
+    },
+    "required": ["summary", "event_date", "event_end_date", "date_evidence",
+                 "status", "announces_event_itself"],
+    "additionalProperties": False,
+}
+
 # v1: 初版。調査で確認した 6 つの失敗モードに一対一で対応させている
 # (docs/superpowers/specs/2026-08-10-tourism-news-design.md の「確認された失敗モード」)。
 EXTRACT_SYSTEM_PROMPT = """あなたは奥むさし飯能観光協会サイトのお知らせ記事から、市民向けカレンダーに載せる情報を取り出すアシスタントです。
@@ -252,7 +273,8 @@ def extract_with_llm(title: str, body_text: str,
         return None
     raw = call_llm(EXTRACT_SYSTEM_PROMPT,
                    llm_user_message(title, body_text, pub_date),
-                   model=LLM_MODEL, max_tokens=LLM_MAX_TOKENS, temperature=0)
+                   model=LLM_MODEL, max_tokens=LLM_MAX_TOKENS, temperature=0,
+                   output_schema=EXTRACT_OUTPUT_SCHEMA)
     if raw is None:
         return None
     try:

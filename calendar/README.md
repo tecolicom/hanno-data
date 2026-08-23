@@ -155,7 +155,14 @@ calendar/
 | クローラ設定 | `load_source_config(source_key)` — `../sources.yaml` から source 別の city 固有設定 dict を読む (不在 key は KeyError) |
 | 文字種正規化 | `normalize_char_width(s)` — 全角 ASCII → 半角、半角カナ → 全角。**寄せないもの**: 大小文字の差、全角スペース U+3000、全角括弧、全角ティルダ (`normalize_tilde` の担当) |
 | 集合同期 | `plan_set_sync(existing, incoming, dates, today, max_delete)` — 削除可否の判定 (純粋関数、上記「削除ガード」) / `sync_set(out_dir, uid_prefix, items, render_doc, today, max_delete, dry_run)` — その実行 / `set_sync_uid` / `set_sync_hash` (**イベント単位**の content_hash) / `SetSyncTooManyDeletions` |
+| LLM 呼出 | `call_llm(system, user, *, model, max_tokens, temperature, timeout, output_schema)` — Messages API を 1 回叩く。**JSON を受け取るなら `output_schema` を必ず渡す** (下記) |
 | LLM 出力の検算 | `drop_unchanged_claims(text)` — 「A から A に変更」を含む文を落とす。**差分行を作る全クローラが共有する** (`cal-oshirase-fetch` / `cal-cci-event-fetch`)。片方にだけ置くと後日片方だけ直る事故が起きるので `_lib` に置いている |
+
+**LLM に JSON を書かせる箇所は `output_schema` を渡すこと。** プロンプトに
+「JSON で返せ」と書くだけでは形式は保証されない。原文の `「」` を英語の `"` に
+訳す・写すと、エスケープされない `"` が JSON 文字列に混ざって `json.loads` が
+落ちる。渡すと API 側が形式を保証する。詳細と実測値は
+「bin/cal-translate-en → 応答形式はサーバ側で強制する + 引き直す」。
 
 ## 認証
 

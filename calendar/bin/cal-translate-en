@@ -380,6 +380,7 @@ def main() -> None:
         if not description:
             result = translate(summary, "(no description)")
             if not result:
+                print(f"  ERROR translate failed: {path}", file=sys.stderr)
                 errors += 1
                 continue
             en_description = ""
@@ -392,12 +393,14 @@ def main() -> None:
                 # description はあるが strip 後に空 → summary のみ翻訳
                 result = translate(summary, "(no body)")
                 if not result:
+                    print(f"  ERROR translate failed: {path}", file=sys.stderr)
                     errors += 1
                     continue
                 en_description = ""
             else:
                 result = translate(summary, body_for_llm)
                 if not result:
+                    print(f"  ERROR translate failed: {path}", file=sys.stderr)
                     errors += 1
                     continue
                 en_description = build_en_description(result["description"], source_url,
