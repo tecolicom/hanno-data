@@ -120,6 +120,14 @@ def test_translate_does_not_retry_transport_failure():
     assert boom.calls == 1, boom.calls
 
 
+def test_translate_returns_none_when_httpx_missing():
+    """golden 網 (cal-golden-test.yml) は pyyaml しか入れない。httpx 不在でも
+    このモジュールが import でき、translate() が None を返すこと
+    (import 自体が失敗すると CI がテスト実行前に落ちる)。"""
+    mod.httpx = None
+    assert _with_key(lambda: mod.translate("要約", "本文")) is None
+
+
 def test_translate_returns_none_without_api_key():
     mod.httpx = _FakeHttpx()
     old = os.environ.pop("ANTHROPIC_API_KEY", None)

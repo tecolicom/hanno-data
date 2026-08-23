@@ -34,7 +34,14 @@ import sys
 from datetime import datetime
 
 import yaml
-import httpx
+
+try:
+    import httpx
+except ImportError:
+    # CI / 最小環境では未インストールのことがある。golden 網 (cal-golden-test.yml)
+    # は pyyaml しか入れず、ユニットテストがこのモジュールを import する。
+    # _lib.py が同じ理由で同じ guard を持っている。
+    httpx = None
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from _lib import (yaml_escape_str, yaml_block_scalar, strip_markdown,
@@ -160,6 +167,9 @@ def translate(jp_summary: str, jp_description: str) -> dict | None:
     (呼出側が errors を数えて CI を赤にし、翌日の実行が拾う)。原因の切り分けは
     docs より OUTPUT_SCHEMA のコメントを見ること。
     """
+    if httpx is None:
+        print("  ERROR: httpx not installed", file=sys.stderr)
+        return None
     api_key = os.environ.get("ANTHROPIC_API_KEY")
     if not api_key:
         print("  ERROR: ANTHROPIC_API_KEY not set", file=sys.stderr)
