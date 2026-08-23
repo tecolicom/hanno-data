@@ -1,0 +1,75 @@
+name: (temporary) probe hanno-lib endpoints
+
+# 飯能市立図書館 (www.hanno-lib.jp) の取得経路が CI の IP から通るかを確かめる
+# ための一時的なワークフロー。判定が付いたら削除する。
+#
+# なぜ実装前に確かめるか (skill「先に決める 4 つ」2 番):
+#   休館日の入手経路は cal.php (JSON) しか無い。/calendar/ の HTML には空の
+#   <table id="opac-calendar"> があるだけで、中身は JS が cal.php から取って
+#   描画している。だから cal.php が国外 IP から遮断されていると、取得層の
+#   書き直しでは済まず設計そのものが変わる。
+#
+#   同じ罠を 2026-08-20 に商工会議所で踏んでいる。日本のレンタルサーバは
+#   公開 HTML を通したまま、動的エンドポイントだけ国外から弾くことがある。
+#   手元 (日本の回線) で通ったことは CI から通る根拠にならない。
+#
+# 遠慮がちに叩くこと。403 を連発すると IP ごと締め出され、同じランナーから
+# 動く他のクローラまで巻き添えで落ちる (2026-08-20 実測)。各エンドポイント
+# 1 回ずつしか叩かない。
+
+on:
+  workflow_dispatch:
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      UA: "myhanno-calendar-fetcher/0.1 (+https://city.tecoli.com)"
+    steps:
+      - name: Runner の公開 IP と所在地
+        run: curl -s https://ipinfo.io/json || echo "ipinfo 取得失敗"
+
+      - name: 本命 — cal.php (休館日の唯一の入手経路)
+        # HTTP 200 だけでは足りない。遮断ページが 200 で返ることもあるので
+        # closing_day が実際に入っているかまで見る。
+        run: |
+          curl -s -m 30 -A "$UA" \
+            "https://www.hanno-lib.jp/cal.php?libraries=02&term_from=202608&term_to=202609" \
+            -o cal.json -w "cal.php     : HTTP %{http_code}  %{size_download} bytes\n" \
+            || echo "curl 失敗 (exit $?)"
+          python3 - <<'PY'
+          import json
+          try:
+              d = json.load(open("cal.json"))
+          except Exception as e:
+              print("JSON として読めない:", e)
+              print(open("cal.json", encoding="utf-8", errors="replace").read()[:500])
+              raise SystemExit(0)
+          for lib in d.get("libraries", []):
+              for t in lib.get("term", []):
+                  print(f"  {lib['code']} {lib['name']} {t['month']} "
+                        f"closing={len(t.get('closing_day', []))} "
+                        f"event={len(t.get('event_day', []))}")
+          PY
+
+      - name: events.php (イベント日 → 記事一覧)
+        run: |
+          curl -s -m 30 -A "$UA" \
+            "https://www.hanno-lib.jp/events.php?kind=2&target=general&libraries=02&term_from=20260829" \
+            -o ev.html -w "events.php  : HTTP %{http_code}  %{size_download} bytes\n" \
+            || echo "curl 失敗 (exit $?)"
+          python3 -c "
+          import re
+          h = open('ev.html', encoding='utf-8', errors='replace').read()
+          m = re.search(r'<article.*?</article>', h, re.S)
+          print('  ' + (re.sub(r'\s+', ' ', m.group(0))[:300] if m else 'article 無し'))"
+
+      - name: 静的ページ — カレンダー本体と記事詳細
+        # 詳細ページの Last-Modified が取れるかも見る (条件付き GET が効くか)
+        run: |
+          curl -s -o /dev/null -m 30 -A "$UA" \
+            -w "/calendar/   : HTTP %{http_code}\n" \
+            "https://www.hanno-lib.jp/calendar/" || echo "curl 失敗"
+          curl -sI -m 30 -A "$UA" "https://www.hanno-lib.jp/calendar/822.html" \
+            | grep -iE "^HTTP|^Last-Modified|^ETag" || echo "curl 失敗"
