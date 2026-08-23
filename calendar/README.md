@@ -829,10 +829,12 @@ cal-translate-en [--events-dir DIR] [--dry-run] [--limit N] [--only-uid UID]
 - Markdown 記法は除去 (出力先が plain text Google Calendar 想定)
 - 入力前処理: 元 description の冒頭「AI による要約…」行と末尾 URL 行は LLM に渡さない (重複翻訳防止)
 - 写真 URL 行 (`写真: <url>`) も `split_photo_lines()` で剥がしてから LLM に渡し、英語側は `Photo: <url>` として機械的に復元する (LLM に URL を触らせない = 改変・脱落を防ぐ)
-- `translation_hash` は (元 summary, 元 description, format_version, lang) ベース
+- `translation_hash` は (元 summary, 元 description, lang) ベース
   - 元の日本語が変わった時のみ再翻訳
   - LLM 非決定性に関わらず idempotent
-  - `TRANSLATION_FORMAT_VERSION` を bump すると wrapper 文言改変を全件に伝播
+  - **`format_version` は hash に入っていない。** 入れると wrapper/プロンプトを
+    直した瞬間に全件再翻訳が走るため意図的に外してある。既存訳に遡って
+    反映したいときは `--rehash-only` で明示的に回す
 
 ### 応答形式はサーバ側で強制する + 引き直す
 

@@ -15,8 +15,8 @@
         format_version: 1
 
 translation_hash 一致なら skip (idempotent) — 元の日本語が変わったら自動で
-再翻訳が走る. format_version を bump すると wrapper/disclaimer 変更を
-全件に伝播できる.
+再翻訳が走る. format_version は hash に **含まない** ので, bump しても
+再翻訳は走らない (compute_translation_hash の docstring 参照).
 
 ANTHROPIC_API_KEY 必須. 失敗時は warn して該当 YAML を変更しない.
 
@@ -47,7 +47,9 @@ LANG = "en"
 
 
 # ==================== Tunables ====================
-# format_version: wrapper/disclaimer/プロンプト改変時に bump.
+# format_version: wrapper/disclaimer/プロンプト改変時に bump。**記録のみ**で、
+# translation_hash には入らない (= bump しても再翻訳は走らない)。既存訳に
+# 遡って反映したいときは --rehash-only で明示的に回す。
 # v1: 初版 (Plain English, AI disclaimer 冒頭, 元 URL を末尾保持)
 # v2: 中止/延期/申込終了等の最新ステータスを訳文冒頭に配置するよう prompt 改訂
 # v3: ステータス変更続報 (申込終了等) では訳文を短く保つよう prompt 追加
