@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-24T18:33:01.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 New (Published: August 21, 2026)\n\nDonations are being accepted for relief of those affected by the heavy rain disaster in Chiba in August 2026 (Reiwa 8).\n\n【Donations at Hanno City Hall】\nA donation box is set up at the Information Counter (1st floor) of Hanno City Hall Main Building. Those requesting a receipt should visit the Community Welfare Division (Window 11, 1st floor of the same building).\n\nAcceptance period: August 21 (Friday) – November 24 (Tuesday), 2026\nAcceptance hours: Weekdays 9:00 AM – 4:30 PM\n\n【Bank transfer】\nIf you prefer to donate directly to the Japanese Red Cross Society, please transfer to the following account. The acceptance period is August 21 (Friday) – November 30 (Monday), 2026.\n\nJapan Post Bank / Post Office: Account number 00100-2-636358 | Account name: Japanese Red Cross Chiba Heavy Rain Relief Fund R8\n(Counter transfers have no fee. The post office payment slip stub serves as a receipt for tax purposes.)\n\nBank transfers:\nSumitomo Mitsui Bank Suzuran Branch | Ordinary account 2787556\nMitsubishi UFJ Bank Yamabiko Branch | Ordinary account 2105554\nMizuho Bank Kunugi Branch | Ordinary account 0620839\nAccount name: Japanese Red Cross Society\n(Bank transfer receipt serves as a receipt for tax purposes.)\n\nAll donations received will be sent in full to those affected by the disaster. Thank you for your support.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/fukushisoumu/14307.html",
+  "end": {
+    "date": "2026-08-26"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Z3BqMGRwZDZsaDNnY2IzY2gwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-14307-5b81cd@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6gpj0dpd6lh3gcb3ch06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/fukushisoumu/14307.html"
+  },
+  "start": {
+    "date": "2026-08-25"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Donations accepted for August 2026 Chiba heavy rain disaster relief",
+  "updated": "2026-08-24T18:33:01.484Z"
+}

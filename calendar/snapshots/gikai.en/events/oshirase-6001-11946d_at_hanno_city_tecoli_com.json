@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-24T18:33:02.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 Newly posted (Published: August 21, 2026)\n\nSeptember 10–16 is Suicide Prevention Week. Hanno City is working toward a community where no one is driven to suicide, by spreading accurate information about suicide and eliminating misunderstandings and stigma.\n\nHanno City implements comprehensive support measures for people choosing to live, ensuring that those facing difficulties can access the help they need.\n\n【Consultation Services】\n• Hanno City Individual Counseling: District health nurses offer consultation for worries, anxiety, sleep problems, and other physical or mental health concerns. Available to people experiencing worry, anxiety, or unexplained physical or mental health issues, and their families. Contact: 042-974-3488\n\n• Inochi no Denwa (Lifeline)\n0570-783-556 (Navigation dial; daily 10:00 a.m.–10:00 p.m.)\n0120-783-556 (Daily 4:00 p.m.–9:00 p.m.; on the 10th of each month 8:00 a.m.–8:00 a.m. the next day)\n048-645-4343 (Saitama Inochi no Denwa; 24 hours)\n\nCompassionate counseling services are here to support you through difficult feelings.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/6001.html",
+  "end": {
+    "date": "2026-08-26"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOW02MG8zMmI5aDY0c2o4ZGo0ODFrNjJyamVkc242NnFia2Y0bjc4cGIzZHRtNmliajNkdG1nIGI2ZjM2ZTE5NzUxYzA1Y2NlOTlmYTAwODI4ZTQyOWY0MGY2ZGIxMDBlMmRiZTQ0MmJjMjYyMmEyNWRhOTczMTZAZw",
+  "iCalUID": "oshirase-6001-11946d@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9m60o32b9h64sj8dj481k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/6001.html"
+  },
+  "start": {
+    "date": "2026-08-25"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Suicide Prevention Week",
+  "updated": "2026-08-24T18:33:02.397Z"
+}

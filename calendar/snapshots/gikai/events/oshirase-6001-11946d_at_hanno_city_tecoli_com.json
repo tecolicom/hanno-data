@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-24T18:32:33.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🆕 新着掲載 (公開日: 2026-08-21)\n\nAI による要約 (正確な情報は元記事をご確認ください)\n\n9月10日から16日は自殺予防週間です。誰も自殺に追い込まれることのない飯能市をめざし、自殺についての正しい知識の普及啓発と、誤解や偏見をなくすことに取り組んでいます。\n\n飯能市では生きることの包括的支援施策を実施しており、悩みを抱えた人が必要な支援を受けられるよう努めています。\n\n【相談窓口】\n・飯能市の個別相談: 悩み、不安、眠れないなどの心身の不調について、地区の担当保健師が相談に応じます。対象は、悩みや不安、原因不明の心身の不調が見られる方またはその家族。連絡先は042-974-3488\n\n・いのちの電話\n0570-783-556（ナビダイヤル 毎日午前10時～午後10時まで）\n0120-783-556（毎日午後4時～午後9時まで、毎月10日午前8時～翌日午前8時まで）\n048-645-4343（埼玉いのちの電話 24時間）\n\nつらい気持ちに寄り添える相談窓口があります。\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/6001.html",
+  "end": {
+    "date": "2026-08-26"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOW02MG8zMmI5aDY0c2o4ZGo0ODFrNjJyamVkc242NnFia2Y0bjc4cGIzZHRtNmliajNkdG1nIDY3NDU5MTRiMjQzMjMxMTJhMTVmNDNkYzIwYjNhMGY0YTQ4MTdhZmQ4MDBjOGQxNjg3ZDBiZjBiN2Y4OTBjNjFAZw",
+  "iCalUID": "oshirase-6001-11946d@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9m60o32b9h64sj8dj481k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/6001.html"
+  },
+  "start": {
+    "date": "2026-08-25"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 自殺予防週間",
+  "updated": "2026-08-24T18:32:33.584Z"
+}
