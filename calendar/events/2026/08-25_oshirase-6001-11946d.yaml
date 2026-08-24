@@ -1,0 +1,38 @@
+uid: "oshirase-6001-11946d@hanno.city.tecoli.com"
+summary: "ℹ️ 自殺予防週間"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/6001.html"
+dtstart: "2026-08-25"
+dtend: "2026-08-25"
+description: |-
+  🆕 新着掲載 (公開日: 2026-08-21)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  9月10日から16日は自殺予防週間です。誰も自殺に追い込まれることのない飯能市をめざし、自殺についての正しい知識の普及啓発と、誤解や偏見をなくすことに取り組んでいます。
+  
+  飯能市では生きることの包括的支援施策を実施しており、悩みを抱えた人が必要な支援を受けられるよう努めています。
+  
+  【相談窓口】
+  ・飯能市の個別相談: 悩み、不安、眠れないなどの心身の不調について、地区の担当保健師が相談に応じます。対象は、悩みや不安、原因不明の心身の不調が見られる方またはその家族。連絡先は042-974-3488
+  
+  ・いのちの電話
+  0570-783-556（ナビダイヤル 毎日午前10時～午後10時まで）
+  0120-783-556（毎日午後4時～午後9時まで、毎月10日午前8時～翌日午前8時まで）
+  048-645-4343（埼玉いのちの電話 24時間）
+  
+  つらい気持ちに寄り添える相談窓口があります。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/6001.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "6001"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/6001.html"
+  fetched_at: "2026-08-24T18:31:37.441216Z"
+  content_hash: "sha256-11946df9c8b999ae"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-08-21"

@@ -1,0 +1,47 @@
+uid: "oshirase-14307-5b81cd@hanno.city.tecoli.com"
+summary: "ℹ️ 令和8年8月千葉豪雨災害義援金の受付について"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/fukushisoumu/14307.html"
+dtstart: "2026-08-25"
+dtend: "2026-08-25"
+description: |-
+  🆕 新着掲載 (公開日: 2026-08-21)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  令和8年8月千葉豪雨災害義援金の受付を実施しています。
+  
+  【市役所での受付】
+  飯能市役所本庁舎1階総合案内所カウンターに募金箱を設置しております。領収書を希望される方は、同庁舎1階地域福祉課（11番窓口）で受け付けております。
+  
+  受付期間：令和8年8月21日（金曜日）～令和8年11月24日（火曜日）
+  受付時間：平日午前9時00分～午後4時30分
+  
+  【金融機関からの振込】
+  日本赤十字社へ直接振込を希望される場合は、下記の専用口座へお振込ください。受付期間は令和8年8月21日（金曜日）～令和8年11月30日（月曜日）です。
+  
+  ゆうちょ銀行・郵便局：口座記号番号 00100-2-636358　加入者名 日赤R8千葉豪雨義援金
+  （窓口でのお振込みの場合は振込手数料免除。ゆうちょ銀行の払込用紙の半券が受領証の代わりとして税制上の措置が受けられます）
+  
+  銀行振込：
+  三井住友銀行 すずらん支店 普通 2787556
+  三菱UFJ銀行 やまびこ支店 普通 2105554
+  みずほ銀行 クヌギ支店 普通 0620839
+  口座名義：日本赤十字社（ニホンセキジュウジシャ）
+  （銀行振込の際の利用明細票が受領証の代わりとして税制上の措置が受けられます）
+  
+  寄付いただいた全額は被災者の方々へお送りいたします。ご協力をよろしくお願いいたします。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/fukushisoumu/14307.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "14307"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/fukushisoumu/14307.html"
+  fetched_at: "2026-08-24T18:31:33.420210Z"
+  content_hash: "sha256-5b81cd2f39950094"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-08-21"
