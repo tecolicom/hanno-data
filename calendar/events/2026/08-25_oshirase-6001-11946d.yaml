@@ -36,3 +36,30 @@ source:
   content_hash: "sha256-11946df9c8b999ae"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-08-21"
+translations:
+  en:
+    summary: "ℹ️ Suicide Prevention Week"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 Newly posted (Published: August 21, 2026)
+      
+      September 10–16 is Suicide Prevention Week. Hanno City is working toward a community where no one is driven to suicide, by spreading accurate information about suicide and eliminating misunderstandings and stigma.
+      
+      Hanno City implements comprehensive support measures for people choosing to live, ensuring that those facing difficulties can access the help they need.
+      
+      【Consultation Services】
+      • Hanno City Individual Counseling: District health nurses offer consultation for worries, anxiety, sleep problems, and other physical or mental health concerns. Available to people experiencing worry, anxiety, or unexplained physical or mental health issues, and their families. Contact: 042-974-3488
+      
+      • Inochi no Denwa (Lifeline)
+      0570-783-556 (Navigation dial; daily 10:00 a.m.–10:00 p.m.)
+      0120-783-556 (Daily 4:00 p.m.–9:00 p.m.; on the 10th of each month 8:00 a.m.–8:00 a.m. the next day)
+      048-645-4343 (Saitama Inochi no Denwa; 24 hours)
+      
+      Compassionate counseling services are here to support you through difficult feelings.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/6001.html
+    translation_hash: "sha256-d5ef88a0a88836f5"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-24T18:32:53.042451Z"
+    format_version: 3

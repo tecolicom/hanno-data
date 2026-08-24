@@ -45,3 +45,39 @@ source:
   content_hash: "sha256-5b81cd2f39950094"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-08-21"
+translations:
+  en:
+    summary: "ℹ️ Donations accepted for August 2026 Chiba heavy rain disaster relief"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New (Published: August 21, 2026)
+      
+      Donations are being accepted for relief of those affected by the heavy rain disaster in Chiba in August 2026 (Reiwa 8).
+      
+      【Donations at Hanno City Hall】
+      A donation box is set up at the Information Counter (1st floor) of Hanno City Hall Main Building. Those requesting a receipt should visit the Community Welfare Division (Window 11, 1st floor of the same building).
+      
+      Acceptance period: August 21 (Friday) – November 24 (Tuesday), 2026
+      Acceptance hours: Weekdays 9:00 AM – 4:30 PM
+      
+      【Bank transfer】
+      If you prefer to donate directly to the Japanese Red Cross Society, please transfer to the following account. The acceptance period is August 21 (Friday) – November 30 (Monday), 2026.
+      
+      Japan Post Bank / Post Office: Account number 00100-2-636358 | Account name: Japanese Red Cross Chiba Heavy Rain Relief Fund R8
+      (Counter transfers have no fee. The post office payment slip stub serves as a receipt for tax purposes.)
+      
+      Bank transfers:
+      Sumitomo Mitsui Bank Suzuran Branch | Ordinary account 2787556
+      Mitsubishi UFJ Bank Yamabiko Branch | Ordinary account 2105554
+      Mizuho Bank Kunugi Branch | Ordinary account 0620839
+      Account name: Japanese Red Cross Society
+      (Bank transfer receipt serves as a receipt for tax purposes.)
+      
+      All donations received will be sent in full to those affected by the disaster. Thank you for your support.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/fukushisoumu/14307.html
+    translation_hash: "sha256-828fc76be83c2e0b"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-24T18:32:49.316318Z"
+    format_version: 3
