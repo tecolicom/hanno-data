@@ -33,6 +33,14 @@ calendars:
   # (chef を訳さないのは店名が固有名詞で情報が増えないため)。
   cci: "b0a56c8e1f5246cda41e2fdb3c449b20c50bb365aac92333a4a9290a21e7edcf@group.calendar.google.com"          # 商工会議所からのお知らせ
   cci.en: "b932613ee11b3b16657b986a7ec1bd82ad7c385c30de75a2db5834ba1a297e32@group.calendar.google.com"       # 商工会議所からのお知らせ（EN）
+  # 飯能市立図書館 (山手町19-5)。city-tecoli の施設ページ
+  # place_id: ChIJo0ygjPCcJhURjglJPLfCYRs に紐づける。
+  # tecolicom@gmail.com 所有、一般公開、SA に writer を委託。gws CLI で作成。
+  lib-main: "786eee595c2063985b878d3142f0c6ff03c2cb087e9939ea607f051f2c687d7f@group.calendar.google.com"        # 飯能市立図書館
+  lib-main.en: "28d9c864a634878ad25b493c27ec78e06bac0ba2a85fd5dfda4aac2d0752f7d6@group.calendar.google.com"     # 飯能市立図書館（EN）
+  # こども図書館 (稲荷町25-8)。place_id: ChIJyVn5ejkmGWARKQvc2xVW-F4
+  lib-kids: "acbe143a7445e2e1f4535e344c71623730bf884986bbba977271328711b25f87@group.calendar.google.com"        # こども図書館
+  lib-kids.en: "bdd7b2c9fd1d7de96da33c7bd40abdd5640138c844b6231c9d607fce456242c3@group.calendar.google.com"     # こども図書館（EN）
 
 # source.type → calendar (logical name) ルーティング。
 # 未登録の source.type は `default` に行く。
@@ -43,3 +51,7 @@ source_type_to_calendar:
   city-hanno-oshirase: gikai
   hanno-cci-chef: chef
   hanno-cci-event: cci
+  hanno-lib-main-closed: lib-main
+  hanno-lib-main-event: lib-main
+  hanno-lib-kids-closed: lib-kids
+  hanno-lib-kids-event: lib-kids
