@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-25T18:33:20.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 18:30–20:30\n\nAutomated translation (refer to source for accuracy)\n\nℹ️ RESCHEDULED: This tour was postponed to September 5 (Saturday) due to thunderstorms.\n\nHanno Ecotourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-cyokotto-lighttrap/\n\nExplore the night forest—a place few get to walk through—with a specialist guide who will help you spot creatures active after dark.\n\n【Fee】¥2,500 per person; ¥2,000 for repeat visitors; ¥5,000 per family (includes insurance and guide)\n\n【Capacity】20 people\n\n【Guide】Tsubasa Kojima (Hanno City Ecotourism Citizen Guides Association, Wildlife Division)\n\n【What to bring】Flashlight (headlamp preferred), drinking water, rain gear, backpack (something that keeps both hands free recommended), towel, insect repellent spray, long sleeves and long pants, comfortable non-slip athletic shoes, hat",
+  "end": {
+    "date": "2026-09-06"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bGhuaXJyYmR0cTc4cnBkZGhrbWVxM2tlaHA2MnMxZDY4bzM0ZGhnNzRvM2FnMzhjNW42c3JwZWNka244dTllZWhpbTZycmNkNG42NnJyZCBkOTE5M2NmNWY2NDRhYjQxYTI4ZTIyNjhhOThhYmM1YWE0MjZiZDJkNTc3MTUyODM0MjQ0YWQ2OWEzMWY1YTY4QGc",
+  "iCalUID": "tourism-ec-cyokotto-lighttrap-20260905@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqpb35lhnirrbdtq78rpddhkmeq3kehp62s1d68o34dhg74o3ag38c5n6srpecdkn8u9eehim6rrcd4n66rrd",
+  "kind": "calendar#event",
+  "location": "集合 飯能市中央公園トイレ前（国際興業バス「OH!!!・天覧山下」下車徒歩1分）",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-cyokotto-lighttrap/"
+  },
+  "start": {
+    "date": "2026-09-05"
+  },
+  "status": "confirmed",
+  "summary": "ちょこっとお手軽ツアー〜夜の生きもの探しとライトトラップ〜",
+  "updated": "2026-08-25T18:33:20.998Z"
+}

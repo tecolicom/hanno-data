@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-25T18:33:18.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nHanno Chamber of Commerce and Industry will hold expert consultations in September and October.\n\nSeptember consultation dates:\n• September 9 (Wed) 1:30 p.m. – Business succession and M&A consultation\n• September 10 (Thu) 9:30 a.m. – Tax and invoice system consultation\n• September 11 (Fri) 10:00 a.m. – Personnel and labor consultation\n• September 15 (Tue) 1:30 p.m. – Business law consultation and Japan Finance Corporation consultation\n• September 28 (Tue) 10:00 a.m. – Intellectual property consultation\n\nOctober consultation dates:\n• October 8 (Thu) 9:30 a.m. – Tax and invoice system consultation\n• October 9 (Fri) 10:00 a.m. – Personnel and labor consultation\n• October 14 (Wed) 1:30 p.m. – Business succession and M&A consultation\n• October 15 (Tue) 1:30 p.m. – Japan Finance Corporation consultation\n• October 19 (Mon) 10:00 a.m. – Intellectual property consultation\n• October 20 (Tue) 1:30 p.m. – Business law consultation\n\nAll consultations are free and available to Hanno Chamber of Commerce and Industry members only. For tax, personnel and labor, and intellectual property consultations, the reservation deadline is 5 business days before the consultation date (by midday). To reserve, use the booking link on the Chamber of Commerce website.\n\nSource (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2619/",
+  "end": {
+    "date": "2026-08-26"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHIzMmU5ZDYwcGphZDluNmQwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiOTMyNjEzZWUxMWIzYjE2NjU3Yjk4NmE3ZWMxYmQ4MmFkN2MzODVjMzBkZTc1YTJkYjU4MzRiYTFhMjk3ZTMyQGc",
+  "iCalUID": "cci-event-2619-035573@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68r32e9d60pjad9n6d06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ（EN）",
+    "email": "b932613ee11b3b16657b986a7ec1bd82ad7c385c30de75a2db5834ba1a297e32@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2619/"
+  },
+  "start": {
+    "date": "2026-08-25"
+  },
+  "status": "confirmed",
+  "summary": "💼 Expert consultation schedule for September and October",
+  "updated": "2026-08-25T18:33:18.330Z"
+}

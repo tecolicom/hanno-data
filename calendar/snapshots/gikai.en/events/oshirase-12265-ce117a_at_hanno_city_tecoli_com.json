@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-25T18:33:18.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nContent updated (August 25, 2026 / Previously posted: August 14, 2026)\n\nMain changes: The August 2026 Chiba Heavy Rain Disaster Relief Fund (collection ends November 23, 2026) has been added as a new domestic relief fund, and the 2026 Colombia Earthquake Relief Fund (collection ends November 23, 2026) has been added to overseas relief funds. The Fiscal 2026 Ootsuchi Forest Fire Relief Fund has been removed from the collection list.\n\nThe Japanese Red Cross Society Saitama Prefectural Branch Hanno District accepts donations for both domestic and overseas relief funds.\n\n【Domestic Relief Funds】\n• 2024 Noto Peninsula Earthquake Disaster Relief Fund (Ishikawa, Toyama, Niigata prefectures) — collection ends March 22, 2027\n• September 2024 Noto Peninsula Heavy Rain Disaster Relief Fund (Ishikawa) — collection ends March 22, 2027\n• 2026 Kumamoto Earthquake Disaster Relief Fund (Kumamoto) — collection ends October 23, 2026\n• July 2026 Koga City, Shiga Prefecture Landslide Disaster Relief Fund (Shiga) — collection ends January 22, 2027\n• August 2026 Chiba Heavy Rain Disaster Relief Fund (Chiba) — collection ends November 23, 2026\n\n【Overseas Relief Funds】\n• Middle East Humanitarian Crisis Relief Fund — collection ends March 23, 2027\n• Southern Bangladesh Refugee Relief Fund — collection ends March 23, 2027\n• Ukraine Humanitarian Crisis Relief Fund — collection ends March 23, 2027\n• 2026 Venezuela Earthquake Relief Fund — collection ends September 21, 2026\n• 2026 Colombia Earthquake Relief Fund — collection ends November 23, 2026\n• Undesignated Overseas Relief Fund (year-round)\n\n【Collection Locations】 Front desk information counter at Hanno City Hall main building (donation boxes) or Community Welfare Division (1st floor, window 11)\n【Collection Hours】 Weekdays 9:00 a.m. to 4:30 p.m.\n\nIf you need a receipt, please request one at the Community Welfare Division on the 1st floor of City Hall. All donations collected are sent in full to the Relief Fund Distribution Committee of the affected prefectures.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/fukushisoumu/12265.html",
+  "end": {
+    "date": "2026-08-27"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2OHAzY2Q5ZGNkaWoyYzluYzUwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-12265-ce117a@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h68p3cd9dcdij2c9nc506gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/fukushisoumu/12265.html"
+  },
+  "start": {
+    "date": "2026-08-26"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Update on Relief and Donation Collections",
+  "updated": "2026-08-25T18:33:19.124Z"
+}
