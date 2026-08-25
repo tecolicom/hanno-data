@@ -1,9 +1,9 @@
-uid: "tourism-ec-cyokotto-lighttrap-20260809@hanno.city.tecoli.com"
+uid: "tourism-ec-cyokotto-lighttrap-20260905@hanno.city.tecoli.com"
 summary: "ちょこっとお手軽ツアー〜夜の生きもの探しとライトトラップ〜"
 location: "集合 飯能市中央公園トイレ前（国際興業バス「OH!!!・天覧山下」下車徒歩1分）"
 url: "https://hanno-tourism.jp/hanno-eco/tour/ec-cyokotto-lighttrap/"
-dtstart: "2026-08-09T18:30:00+09:00"
-dtend: "2026-08-09T20:30:00+09:00"
+dtstart: "2026-09-05T18:30:00+09:00"
+dtend: "2026-09-05T20:30:00+09:00"
 description: |-
   飯能エコツーリズム協会: https://hanno-tourism.jp/hanno-eco/tour/ec-cyokotto-lighttrap/
   
@@ -26,5 +26,5 @@ source:
   type: hanno-tourism-jp
   id: "ec-cyokotto-lighttrap"
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-cyokotto-lighttrap/"
-  fetched_at: "2026-08-25T18:31:07.211621Z"
+  fetched_at: "2026-08-25T18:31:07.211934Z"
   content_hash: "sha256-ebe8885f50206334"

@@ -1,0 +1,66 @@
+uid: "oshirase-13960-ed5ec3@hanno.city.tecoli.com"
+summary: "ℹ️ ★歯みがきとおやつ★にこにこ歯っピー教室"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/13960.html"
+dtstart: "2026-08-26"
+dtend: "2026-08-26"
+description: |-
+  🆕 新着掲載 (公開日: 2026-08-20)
+  
+  ## 歯みがきのこと、おやつのこと、一緒に学びませんか？
+  
+  1・2歳頃は、食習慣や歯みがき習慣が身につく大切な時期です。
+  
+  「どんなおやつを選べばいい？」「歯みがきを嫌がる…」「歯医者さんにはいつ行けばいいの？」
+  
+  そんな疑問に保健師と栄養士がお答えします！
+  
+  内容
+  
+  ・むし歯を予防するポイント
+  
+  ・おやつの選び方・食べ方
+  
+  ・歯みがきのやり方
+  
+  ・歯科医院受診のタイミング
+  
+  希望者は個別相談も可能です！
+  
+  対象
+  
+  市内在住の1・2歳児と保護者
+  
+  日時
+  
+  令和8年9月17日 10時から
+  
+  会場
+  
+  保健センター
+  
+  持ち物
+  
+  母子健康手帳
+  
+  予約
+  
+  定員10組、予約制
+  
+  下記よりお申し込みください。
+  
+  申し込みフォーム
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/13960.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13960"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/13960.html"
+  fetched_at: "2026-08-25T18:31:39.745323Z"
+  content_hash: "sha256-ed5ec313a9795d95"
+  summary_method: "full"
+  publish_date: "2026-08-20"
