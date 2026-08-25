@@ -64,3 +64,51 @@ source:
   content_hash: "sha256-ed5ec313a9795d95"
   summary_method: "full"
   publish_date: "2026-08-20"
+translations:
+  en:
+    summary: "ℹ️ ★Brushing and Snacks★ Smile Happy Teeth Class"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 Newly added (Published: August 20, 2026)
+      
+      Want to learn about brushing and snacks together?
+      
+      Ages 1 and 2 are an important time when eating habits and brushing habits develop.
+      
+      "What snacks should I choose?" "My child refuses to brush…" "When should we visit the dentist?"
+      
+      Our health nurse and nutritionist will answer your questions!
+      
+      Contents
+      • Points to prevent cavities
+      • How to choose and eat snacks
+      • How to brush teeth
+      • When to visit the dentist
+      
+      One-on-one consultations are available for those who wish!
+      
+      Who can attend
+      Residents of Hanno City with children aged 1 and 2, and their guardians
+      
+      Date and time
+      September 17, 2026 (Reiwa 8), 10:00 a.m.
+      
+      Location
+      Health Center (Kenko Center)
+      
+      What to bring
+      Maternal and Child Health Handbook (Boshi Kenko Techō)
+      
+      Registration
+      Capacity: 10 groups. Advance registration required.
+      
+      Please apply using the form below.
+      
+      Application form
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/13960.html
+    translation_hash: "sha256-861c39b2d95d9c40"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-25T18:33:07.145597Z"
+    format_version: 3

@@ -28,3 +28,33 @@ source:
   category: "経営支援"
   summary_method: "llm-haiku-4-5"
   content_hash: "sha256-035573a18c8bb276"
+translations:
+  en:
+    summary: "💼 Expert consultation schedule for September and October"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Chamber of Commerce and Industry will hold expert consultations in September and October.
+      
+      September consultation dates:
+      • September 9 (Wed) 1:30 p.m. – Business succession and M&A consultation
+      • September 10 (Thu) 9:30 a.m. – Tax and invoice system consultation
+      • September 11 (Fri) 10:00 a.m. – Personnel and labor consultation
+      • September 15 (Tue) 1:30 p.m. – Business law consultation and Japan Finance Corporation consultation
+      • September 28 (Tue) 10:00 a.m. – Intellectual property consultation
+      
+      October consultation dates:
+      • October 8 (Thu) 9:30 a.m. – Tax and invoice system consultation
+      • October 9 (Fri) 10:00 a.m. – Personnel and labor consultation
+      • October 14 (Wed) 1:30 p.m. – Business succession and M&A consultation
+      • October 15 (Tue) 1:30 p.m. – Japan Finance Corporation consultation
+      • October 19 (Mon) 10:00 a.m. – Intellectual property consultation
+      • October 20 (Tue) 1:30 p.m. – Business law consultation
+      
+      All consultations are free and available to Hanno Chamber of Commerce and Industry members only. For tax, personnel and labor, and intellectual property consultations, the reservation deadline is 5 business days before the consultation date (by midday). To reserve, use the booking link on the Chamber of Commerce website.
+      
+      Source (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2619/
+    translation_hash: "sha256-79485a1111245de6"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-25T18:32:57.837247Z"
+    format_version: 3

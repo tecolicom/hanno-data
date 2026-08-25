@@ -45,3 +45,40 @@ source:
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-08-25"
   supersedes: "oshirase-12265-caa926@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ Update on Relief and Donation Collections"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Content updated (August 25, 2026 / Previously posted: August 14, 2026)
+      
+      Main changes: The August 2026 Chiba Heavy Rain Disaster Relief Fund (collection ends November 23, 2026) has been added as a new domestic relief fund, and the 2026 Colombia Earthquake Relief Fund (collection ends November 23, 2026) has been added to overseas relief funds. The Fiscal 2026 Ootsuchi Forest Fire Relief Fund has been removed from the collection list.
+      
+      The Japanese Red Cross Society Saitama Prefectural Branch Hanno District accepts donations for both domestic and overseas relief funds.
+      
+      【Domestic Relief Funds】
+      • 2024 Noto Peninsula Earthquake Disaster Relief Fund (Ishikawa, Toyama, Niigata prefectures) — collection ends March 22, 2027
+      • September 2024 Noto Peninsula Heavy Rain Disaster Relief Fund (Ishikawa) — collection ends March 22, 2027
+      • 2026 Kumamoto Earthquake Disaster Relief Fund (Kumamoto) — collection ends October 23, 2026
+      • July 2026 Koga City, Shiga Prefecture Landslide Disaster Relief Fund (Shiga) — collection ends January 22, 2027
+      • August 2026 Chiba Heavy Rain Disaster Relief Fund (Chiba) — collection ends November 23, 2026
+      
+      【Overseas Relief Funds】
+      • Middle East Humanitarian Crisis Relief Fund — collection ends March 23, 2027
+      • Southern Bangladesh Refugee Relief Fund — collection ends March 23, 2027
+      • Ukraine Humanitarian Crisis Relief Fund — collection ends March 23, 2027
+      • 2026 Venezuela Earthquake Relief Fund — collection ends September 21, 2026
+      • 2026 Colombia Earthquake Relief Fund — collection ends November 23, 2026
+      • Undesignated Overseas Relief Fund (year-round)
+      
+      【Collection Locations】 Front desk information counter at Hanno City Hall main building (donation boxes) or Community Welfare Division (1st floor, window 11)
+      【Collection Hours】 Weekdays 9:00 a.m. to 4:30 p.m.
+      
+      If you need a receipt, please request one at the Community Welfare Division on the 1st floor of City Hall. All donations collected are sent in full to the Relief Fund Distribution Committee of the affected prefectures.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/fukushisoumu/12265.html
+    translation_hash: "sha256-bcc5cfd9250367ca"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-25T18:33:02.800037Z"
+    format_version: 3
