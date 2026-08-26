@@ -145,11 +145,23 @@ def main() -> None:
             # 「休館日が薄い」検査 (check_min_days) が同じ except に落ちるのは
             # 許容する — どちらも「この館は飛ばす」で正しい判断だから。
             # 区別が要るときは例外の型名・メッセージで追える。
+            #
+            # OSError も拾うのは Ruling 9 の対応: _lib.fetch は urllib の例外を
+            # ラップせず「エラーは呼出側に伝播」する契約なので、DNS 失敗・
+            # タイムアウト・HTTP エラーは urllib.error.URLError (OSError の
+            # サブクラス。HTTPError は URLError のサブクラス) として飛び、
+            # except ValueError だけでは素通りして main() 全体を落とす。
+            # 回線ごと落ちているなら両館とも失敗するので挙動は実質変わらないが、
+            # 効くのは片方のリクエストだけが失敗する場合 — 一時的なタイムアウト、
+            # 配信元によるレート制限、特定 URL の遮断。設計書は hanno-cci.or.jp が
+            # CI の IP を遮断した実例を記録しており、片側だけ落ちる事態は
+            # 絵空事ではない。失敗した館は sync_set に一度も渡らないので、
+            # 取得できなかったことが誤削除に化ける経路も無い。
             cal_json = fetch_cal(cfg["cal_url"], code, term_from, term_to)
             terms = terms_of(cal_json, code)
             check_min_days(terms, code, args.min_days_per_month)
             days = days_of(terms, "closing_day")
-        except ValueError as e:
+        except (ValueError, OSError) as e:
             print(f"ERROR: 館 {code} ({type(e).__name__}): {e}", file=sys.stderr)
             failed_thin.append(code)
             continue

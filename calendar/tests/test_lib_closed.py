@@ -5,7 +5,11 @@
 from __future__ import annotations
 import importlib.machinery
 import importlib.util
+import json
 import os
+import sys
+import tempfile
+import urllib.error
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 SCRIPT = os.path.join(HERE, "..", "bin", "cal-lib-closed-fetch")
@@ -89,6 +93,51 @@ def test_check_min_days_rejects_dict_closing_day():
         assert "202608" in str(e), e
         return
     raise AssertionError("closing_day が dict なのに ValueError が飛ばない")
+
+
+def test_main_isolates_communication_failure_per_library():
+    """Ruling 9: 通信そのものの失敗も館ごとに閉じる。
+
+    _hanno_lib.fetch_cal は urllib の例外をラップせず呼出側に伝播させる (docstring
+    の契約)。DNS 失敗・タイムアウト・HTTP エラーは urllib.error.URLError
+    (OSError のサブクラス) として飛ぶので、except ValueError だけでは素通りして
+    main() 全体を落としてしまい、「1 館の失敗を他館に波及させない」(Ruling 7) が
+    いちばん起きやすい失敗 (通信) に対して効かなくなる。01 を通信エラーにしても
+    02 は最後まで処理され、exit code は検査・取得失敗と同じ 2 になることを確認する。
+    """
+    fixtures = os.path.join(HERE, "fixtures", "cal-lib-closed-fetch")
+    with open(os.path.join(fixtures, "cal-02.json"), encoding="utf-8") as f:
+        cal_02 = json.load(f)
+
+    def fake_fetch_cal(cal_url, lib_code, term_from, term_to):
+        if lib_code == "01":
+            raise urllib.error.URLError("boom")
+        return cal_02
+
+    # クローラは `from _hanno_lib import fetch_cal` しているので、差し替えは
+    # _hanno_lib の実体ではなくクローラの名前空間 (mod.fetch_cal) に対して行う。
+    orig_fetch_cal = mod.fetch_cal
+    orig_argv = sys.argv
+    mod.fetch_cal = fake_fetch_cal
+    try:
+        with tempfile.TemporaryDirectory() as out_dir:
+            sys.argv = ["cal-lib-closed-fetch", "--out-dir", out_dir,
+                        "--today", "2026-08-24"]
+            try:
+                mod.main()
+            except SystemExit as e:
+                assert e.code == 2, e.code
+            else:
+                raise AssertionError("01 が通信エラーなのに main() が exit しない")
+
+            written = []
+            for _root, _dirs, files in os.walk(out_dir):
+                written.extend(files)
+            assert any("libkids-closed-" in f for f in written), written
+            assert not any("libmain-closed-" in f for f in written), written
+    finally:
+        sys.argv = orig_argv
+        mod.fetch_cal = orig_fetch_cal
 
 
 if __name__ == "__main__":
