@@ -32,3 +32,25 @@ source:
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-08-23"
   supersedes: "oshirase-13451-0ab238@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ Showa 100 Years Special Exhibition: Hanno and the Showa Era—The City's Birth and Evolving Life"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content updated (published: August 23, 2026 / previous: August 23, 2026)
+      Main changes: Exhibition talks moved from July 30 and August 16 to August 23. Evening Museum moved from August 11 (holiday) to August 29 (Saturday).
+      
+      The Hanno City Museum will hold the Showa 100 Years Special Exhibition "Hanno and the Showa Era—The City's Birth and Evolving Life" from Sunday, July 19 to Sunday, August 30, 2026 (Reiwa 8). To commemorate Reiwa 8, the year marking 100 years since the Showa era began, the exhibition introduces the history of Hanno's birth and evolution, and the changing daily lives of residents through furniture and home appliances, using museum collections. Hours: 9:30 AM to 4:30 PM. Closed Mondays (except July 20), July 21 (Tuesday), July 24 (Friday), August 12 (Wednesday), and August 28 (Friday).
+      
+      Related events:
+      • August 29 (Saturday) Evening Museum (extended hours until 7 PM, exhibition talk from 6 PM for about 30 minutes)
+      • August 22 (Saturday) Workshop "Touch, See, and Learn about Showa and Nature!" (10 AM–12 PM, 1 PM–3 PM, free admission, no advance registration required, come directly to the venue)
+      
+      Note: The related lecture "Picture Postcards Tell Hanno's 100 Years of Showa" scheduled for August 1, the exhibition talks on July 30, August 16, and August 23, and the Evening Museum on August 11 have all ended.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/tenji_moyooshimono/13451.html
+    translation_hash: "sha256-39e2a82576c84352"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-26T19:43:41.768530Z"
+    format_version: 3

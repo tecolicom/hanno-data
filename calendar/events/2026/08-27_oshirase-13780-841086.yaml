@@ -51,3 +51,45 @@ source:
   content_hash: "sha256-841086bc1d161094"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-08-26"
+translations:
+  en:
+    summary: "ℹ️ 23rd Iruma County and City Human Rights Festival to be held"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      New (Published: August 26, 2026)
+      
+      The 23rd Iruma County and City Human Rights Festival will be held. The goal is to raise awareness of human rights respect and deepen understanding and interest in human rights issues.
+      
+      【Date and Time】
+      Friday, October 16, 2026 (Reiwa 8) from 1:00 PM to 3:40 PM (doors open 12:30 PM)
+      
+      【Venue】
+      Kawagoe City Yamabuki Kaikan Hall (1-18-1 Koori-cho, Kawagoe City)
+      Please use public transportation.
+      
+      【Program】
+      Opening ceremony with performance by Uriiro Theater Group / Human rights essay readings / Lecture by Yoichi Watanabe (war photographer, topic: "The Value of Life Through the Viewfinder") / Community center art exhibition and more
+      
+      【Registration】
+      • Capacity: 350 general seating, 5 wheelchair-accessible seats (lottery)
+      • You may apply once per person for up to 2 people
+      • If demand exceeds capacity, residents, workers, and students of the 13 municipalities in Iruma County and City will be prioritized
+      • Application period: Friday, September 11, 2026 to Sunday, September 27, 2026
+      • Application methods: Internet, phone, fax, or in person
+        Phone / Fax / In person: Hanno City Human Rights and Daily Life Safety Division
+        Phone: 042-973-2111 (extension 6201)
+        Fax: 042-972-8455
+        Window hours: 9:00 AM to 4:30 PM (closed weekends and holidays)
+      
+      【Other Information】
+      • Cost: Free
+      • Sign language interpretation: Available
+      • Childcare: Available (ages 1 through preschool, advance registration required)
+      • Winning applicants will receive admission tickets by postcard
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/kurashi/13780.html
+    translation_hash: "sha256-06974cd9a0d0712e"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-26T19:43:46.940797Z"
+    format_version: 3

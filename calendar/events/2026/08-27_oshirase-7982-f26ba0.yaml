@@ -24,3 +24,18 @@ source:
   content_hash: "sha256-f26ba07ef61156f2"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-08-25"
+translations:
+  en:
+    summary: "ℹ️ Alzheimer's Awareness Month"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New (Posted: August 25, 2026)
+      
+      September 21 is World Alzheimer's Day. Every September, Hanno City holds Alzheimer's Awareness Month with various activities related to dementia. In fiscal 2026 (Reiwa 8), we will host an Alzheimer's lecture and hold a special display of recommended books at the library with the theme "Building a Community Friendly to People with Dementia." We invite you to join us in thinking together about dementia as we work toward building a town where everyone feels secure.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/tiikihoukatu/ninchi-sisaku/ninchi-jigyou/7982.html
+    translation_hash: "sha256-f9d728736a1baee5"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-26T19:43:49.228242Z"
+    format_version: 3

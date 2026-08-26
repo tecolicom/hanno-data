@@ -41,3 +41,34 @@ source:
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-08-25"
   supersedes: "oshirase-12265-ce117a@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ Donation and relief fund collection notice"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content updated (Published: August 25, 2026 / Previous: August 26, 2026)
+      Main changes: The deadline for the August 2026 Chiba Heavy Rain Disaster Relief Fund has been changed from November 23 to November 24. The deadline for the 2026 Colombia Earthquake Relief Fund has also been changed from November 23 to November 24.
+      
+      The Japanese Red Cross Saitama Prefecture Branch Hanno District accepts donations and relief funds to support disaster victims in Japan and abroad.
+      
+      【Collection locations】Donation box at the information desk near the main entrance of City Hall, or the Community Welfare Division (1st floor, counter 11)
+      
+      【Collection hours】Weekdays 9:00 a.m. to 4:30 p.m.
+      
+      【Domestic relief funds currently accepting donations】
+      • Noto Peninsula Earthquake Disaster Relief Fund (Ishikawa, Toyama, Nagano prefectures) – Collection deadline: March 22, 2027
+      • September 2024 Noto Peninsula Heavy Rain Disaster Relief Fund (Ishikawa) – Collection deadline: March 22, 2027
+      • 2026 Kumamoto Earthquake Disaster Relief Fund (Kumamoto) – Collection deadline: October 23, 2026
+      • July 2026 Landslide Disaster Relief Fund in Koka City, Shiga – Collection deadline: January 22, 2027
+      • August 2026 Chiba Heavy Rain Disaster Relief Fund (Chiba) – Collection deadline: November 24, 2026
+      
+      【International relief funds currently accepting donations】Middle East Humanitarian Crisis Relief Fund (deadline: March 23, 2027), Bangladesh Southern Refugee Relief Fund (deadline: March 23, 2027), Ukraine Humanitarian Crisis Relief Fund (deadline: March 23, 2027), 2026 Venezuela Earthquake Relief Fund (deadline: September 21, 2026), 2026 Colombia Earthquake Relief Fund (deadline: November 24, 2026), Undesignated International Relief Fund (accepting year-round)
+      
+      Receipts are available upon request at the Community Welfare Division counter 11.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/fukushisoumu/12265.html
+    translation_hash: "sha256-9c7f686b07300dc5"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-26T19:43:33.539796Z"
+    format_version: 3

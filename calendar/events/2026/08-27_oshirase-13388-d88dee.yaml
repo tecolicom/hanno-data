@@ -34,3 +34,28 @@ source:
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-08-26"
   supersedes: "oshirase-13388-41350e@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ Hanno City Press Releases – Fiscal Year 2026"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content Updated (Published: August 26, 2026 / Previously posted: August 18, 2026)
+      
+      Main changes: A new press release has been added regarding Hanno City's comprehensive partnership agreement with Puss in Boots Inc. (announced August 26).
+      
+      The Hanno City press release list has been updated. Major announcements for fiscal year 2026 (Reiwa 8) are as follows:
+      
+      • Comprehensive partnership agreement between Hanno City and Puss in Boots Inc. (announced August 26)
+      • First public unveiling of a secret tradition book related to "Shimomeari Lion Dance" (announced August 17)
+      • Call for business operators to participate in privatization and private management of Asama Childcare Center in connection with its reconstruction (announced August 5)
+      • Appointment of Hanno City PR Ambassadors (announced August 3)
+      • Forest conservation agreement concluded with The Coca-Cola Company Japan and Coca-Cola Bottlers Japan (announced July 29)
+      
+      For earlier announcements, please see the original articles.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025_1/13388.html
+    translation_hash: "sha256-5230392a9cd53b12"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-26T19:43:36.588061Z"
+    format_version: 3

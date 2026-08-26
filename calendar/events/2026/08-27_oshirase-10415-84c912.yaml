@@ -24,3 +24,18 @@ source:
   content_hash: "sha256-84c912330b43775e"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-08-26"
+translations:
+  en:
+    summary: "ℹ️ Recruitment of Community-Based Care Service Providers for Fiscal Year 2026 (Reiwa 8)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 Newly Posted (Published: August 26, 2026)
+      
+      Hanno City is now recruiting community-based care service providers for facility development planned within fiscal year 2027 (Reiwa 9). This recruitment is based on Hanno City's Long-term Care Insurance Business Plan, 9th Period (fiscal years 2024–2026 / Reiwa 6–8), and aims to ensure and improve service quality while conducting fair selection. Applicants should review the "Hanno City Community-Based Care Service Provider Recruitment Guidelines." The recruitment guidelines, application document checklist, and application forms (in Excel format) are available for download.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/ninteikyufu/10415.html
+    translation_hash: "sha256-8a562280db5a2510"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-26T19:43:27.487277Z"
+    format_version: 3
