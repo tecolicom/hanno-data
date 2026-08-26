@@ -1,0 +1,45 @@
+uid: "libkids-event-822-20260822@hanno.city.tecoli.com"
+summary: "📚 夜のおはなし会（8月22日）"
+location: "こども図書館"
+url: "https://www.hanno-lib.jp/calendar/822.html"
+dtstart: "2026-08-22"
+dtend: "2026-08-22"
+description: |-
+  8月のおはなし会は、いつもとちがい、夜に開催します。
+  
+  ちょっぴりこわいお話をこども図書館でお楽しみください。
+  
+  日時
+  
+  令和8年8月22日(土)
+  
+  19:00～19:45
+  
+  ※こども図書館は16：00に一度閉館し、18：30に開館します。
+  
+  会場
+  
+  こども図書館　2階　多目的ホール
+  
+  内容
+  
+  ちょっぴりこわい、日本や世界のおはなしをします。
+  
+  注意事項
+  
+  夜、暗い時間なので、大人の人といっしょに来てください。
+  
+  当日は臨時駐車場を用意しています。係員の案内にしたがって駐車してください。
+  
+  https://www.hanno-lib.jp/calendar/822.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-lib-kids-event
+  id: "822"
+  url: "https://www.hanno-lib.jp/calendar/822.html"
+  content_hash: "sha256-59d160e36bcfc51c"
+  summary_method: "full"

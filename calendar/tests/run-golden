@@ -208,6 +208,38 @@ def _setup_lib_event(m, crawler, manifest):
     m.llm_available = lambda: False
 
 
+# 1 記事が複数日に出る実データの記事 (「8月のおはなしのじかん」)。
+# _setup_lib_event_content_update が条件付き GET を模すのに使う。
+_LIB_EVENT_UPDATED_URL = "https://www.hanno-lib.jp/calendar/88128911151622232930.html"
+_LIB_EVENT_UPDATED_LM = "Wed, 26 Aug 2026 09:00:00 GMT"
+
+
+def _setup_lib_event_content_update(m, crawler, manifest):
+    """Ruling 12 の回帰網: 1 記事が複数日に出るとき、記事本文が更新された後
+    同一実行内の全ての日が新しい本文に揃うことを見る。
+
+    _setup_lib_event は fetch_with_cache を「常に 200 相当」にしか差し替え
+    ないので、304 短絡そのものは一度も踏まれない (lm が常に None)。
+    この記事だけ実際の条件付き GET を模す: 同一実行内で最初に処理した日は
+    (http_cache が空なので) 200 でその日の fixture 本文 (= 更新後の本文) を
+    取り、以後の日は http_cache が実行中に _LIB_EVENT_UPDATED_LM に更新
+    されているので 304 になる。seed には「更新前の本文」の content_hash を
+    持つ YAML を 11 日ぶん置いてあるので、メモ化 (detail_cache) が無いと
+    304 + out_path 既存の短絡で古い本文のまま固定されてしまう。
+    """
+    _setup_lib_event(m, crawler, manifest)
+
+    def _fetch_with_cache(url, etag, lm):
+        if url not in manifest:
+            return None, None, None
+        if url == _LIB_EVENT_UPDATED_URL:
+            if lm == _LIB_EVENT_UPDATED_LM:
+                return None, etag, lm                                       # 304
+            return _read_fixture(crawler, manifest[url]), None, _LIB_EVENT_UPDATED_LM  # 200
+        return _read_fixture(crawler, manifest[url]), None, None
+    m.fetch_with_cache = _fetch_with_cache
+
+
 # (golden 名, crawler スクリプト名, setup, seed dir 名 | None)
 # seed を渡すと、その中身を out-dir に事前展開してから crawler を走らせる
 # (= 既存 YAML がある状態の再現。更新検知 / supersedes の経路を通す)。
@@ -252,6 +284,16 @@ CRAWLERS = [
     # 図書館のイベント (追記型)。event_day → events.php → 詳細ページの 3 段を
     # 通す。要約は LLM 無効化で full 経路に倒している。
     ("cal-lib-event-fetch", "cal-lib-event-fetch", _setup_lib_event, None),
+    # hash-skip: 既存 YAML の content_hash が一致するとき書き直さないこと
+    # (= translations: ブロックが消えないこと) を見る (Ruling 11 の回帰網)。
+    # seed の content_hash はダミーではなく、fixture の本文に対して
+    # content_hash_for を実際に呼んで得た正しい値。
+    ("cal-lib-event-hash-skip", "cal-lib-event-fetch", _setup_lib_event,
+     "cal-lib-event-hash-skip"),
+    # content-update: 1 記事が複数日に出るとき、本文が更新されたら同一実行内の
+    # 全ての日が新しい本文に揃うこと (= メモ化) を見る (Ruling 12 の回帰網)。
+    ("cal-lib-event-content-update", "cal-lib-event-fetch",
+     _setup_lib_event_content_update, "cal-lib-event-content-update"),
 ]
 
 

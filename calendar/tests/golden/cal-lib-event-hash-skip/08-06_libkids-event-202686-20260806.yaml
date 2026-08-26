@@ -1,0 +1,47 @@
+uid: "libkids-event-202686-20260806@hanno.city.tecoli.com"
+summary: "📚 こども図書館まつり「歌とことばのおもちゃ箱2026」を開催します。(8月6日)"
+location: "こども図書館"
+url: "https://www.hanno-lib.jp/calendar/202686.html"
+dtstart: "2026-08-06"
+dtend: "2026-08-06"
+description: |-
+  日時
+  
+  令和8年8月6日(木) 14:00～15:00
+  
+  内容
+  
+  入間市で活躍する年中から小学生のこどものコーラスです。みんなで歌ったり詩を読んだりします。
+  
+  出演
+  
+  ハミングバード　キッズコーラス
+  
+  賛助出演
+  
+  クール・マリエール
+  
+  定員
+  
+  なし
+  
+  申込
+  
+  不要。直接会場へ
+  
+  その他
+  
+  臨時駐車場はありません。徒歩または自転車でご来館ください。
+  
+  https://www.hanno-lib.jp/calendar/202686.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-lib-kids-event
+  id: "202686"
+  url: "https://www.hanno-lib.jp/calendar/202686.html"
+  content_hash: "sha256-a722c30b46b7d973"
+  summary_method: "full"

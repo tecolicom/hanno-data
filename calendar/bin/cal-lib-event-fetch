@@ -21,7 +21,13 @@ _hanno_lib.terms_of() が cal.php の応答形を検査することで行う。
 日数分 + 詳細ページが記事数分、と叩く回数が多い。館ごと・日ごと・記事ごとに
 try で閉じ、失敗した単位だけ飛ばして次へ進む。追記型なので、飛ばした記事が
 誤削除に化ける経路は無い (翌日の実行が拾い直す)。取りこぼしを静かにしない
-ため、失敗が 1 件でもあれば exit 2 で終わる (再試行はしない)。
+ため、失敗・allowlist 拒否が 1 件でもあれば exit 2 で終わる (再試行はしない)。
+
+**詳細ページは実行内でメモ化する。** 1 記事が複数日に出るとき、304 短絡
+(その日の YAML が既にあれば取り直さない) と条件付き GET の組み合わせのままだと、
+最初に処理した日が本文更新を拾っても後続の日は古い本文のまま固定される。
+同一実行内で 1 度取得した本文は使い回すことでこれを防ぐ (詳細は main() 内の
+detail_cache のコメント参照)。
 
 設計: docs/superpowers/specs/2026-08-24-hanno-lib-calendar-design.md
 """
@@ -33,6 +39,7 @@ import json
 import os
 import re
 import sys
+import urllib.parse
 from datetime import date as _date
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -118,13 +125,39 @@ def page_name(url: str) -> str:
 
 
 def content_hash_for(title: str, body: str, day: str) -> str:
-    """イベント 1 件の content_hash. **要約手法や生成条件は混ぜない.**
+    """イベント 1 件の content_hash (裸の 16 桁、"sha256-" は前置しない).
 
-    混ぜると手法を変えた瞬間に全件のハッシュが変わり、カレンダーが氾濫する。
+    **要約手法や生成条件は混ぜない。** 混ぜると手法を変えた瞬間に全件の
+    ハッシュが変わり、カレンダーが氾濫する。
+
+    **"sha256-" を前置しないこと。** `existing_content_hash_matches` (_lib.py)
+    は YAML の `content_hash:` 行から "sha256-" を剥がした 16 桁を group(1) で
+    取り出して比較するので、ここで前置すると比較が永久に不一致になり skip
+    経路が一度も発動しない (Ruling 11)。前置は `build_yaml_doc` 側で行う。
+    既存クローラ (`cal-gikai-fetch` / `cal-shiminkaikan-fetch` /
+    `cal-tourism-fetch` / `cal-cci-event-fetch`) もこの規約。
     """
     canonical = json.dumps({"title": title, "body": body, "day": day},
                            ensure_ascii=False, sort_keys=True)
-    return "sha256-" + hashlib.sha256(canonical.encode("utf-8")).hexdigest()[:16]
+    return hashlib.sha256(canonical.encode("utf-8")).hexdigest()[:16]
+
+
+def limit_event_days(days: list[str], today: str, max_days: int) -> list[str]:
+    """event_day を max_days 件まで打ち切る。**未来の日を優先して残す.**
+
+    days は昇順なので単純な `days[:max_days]` は過去 (古い方) を残してしまう
+    (Ruling 15)。実データは 1 か月あたり十数件で、複数か月ぶん登録されると
+    上限に届き得るが、そのとき切り捨てるべきは既に終わった過去の日であって、
+    これから来る未来の日ではない。未来だけで max_days を超える場合は、
+    直近 (早い方) の未来日を残す。
+    """
+    future = [d for d in days if d >= today]
+    if len(future) >= max_days:
+        return future[:max_days]
+    past = [d for d in days if d < today]
+    remaining = max_days - len(future)
+    kept_past = past[-remaining:] if remaining > 0 else []
+    return sorted(kept_past + future)
 
 
 def summarize(title: str, body: str) -> str | None:
@@ -167,7 +200,7 @@ def build_yaml_doc(uid: str, lib: dict, summary: str, url: str, day: str,
         f"  type: {lib['source_type']}",
         f"  id: {yaml_escape_str(page)}",
         f"  url: {yaml_escape_str(url)}",
-        f"  content_hash: {yaml_escape_str(content_hash)}",
+        f"  content_hash: {yaml_escape_str('sha256-' + content_hash)}",
         f"  summary_method: {yaml_escape_str(method)}",
     ]
     return "\n".join(lines) + "\n"
@@ -187,14 +220,31 @@ def main() -> None:
                     help="events.php を叩く日数の上限 (暴走防止)")
     args = ap.parse_args()
 
-    host = cfg["cal_url"].split("/")[2]
-    if host != cfg["url_host_allowlist"]:
-        sys.exit(f"URL outside allowlist: {cfg['cal_url']}")
+    # cal_url / events_url は同じ sources.yaml 由来だが別々に検査する
+    # (どちらも同じホストである保証はコードとしては無いので非対称にしない)。
+    for key in ("cal_url", "events_url"):
+        host = cfg[key].split("/")[2]
+        if host != cfg["url_host_allowlist"]:
+            sys.exit(f"URL outside allowlist: {cfg[key]}")
 
     today = args.today or _date.today().isoformat()
     term_from, term_to = month_window(today, int(cfg["months_ahead"]))
 
     http_cache = load_http_cache()
+    # 詳細ページの本文キャッシュ (この 1 回の実行内だけ有効)。1 記事が複数日に
+    # 出るとき (「8月のおはなしのじかん」のように 1 記事が 11 日に出る例が実在
+    # する)、同じ日実行内で最初に取得した本文を後続の日でも使い回す (Ruling 12)。
+    #
+    # 無いと何が起きるか: 304 短絡 (Ruling 2) は「その日の YAML が既にあれば
+    # 取り直さない」だが、http_cache は実行中にどんどん更新される。記事が
+    # 更新されて Last-Modified が動くと、最初に処理した日は 200 で新本文を
+    # 得て http_cache を新しい lm に書き換えるが、後続の日は条件付き GET で
+    # (更新後の) 新しい lm を送るのでサーバは 304 を返す。304 かつ out_path が
+    # 既存 (前回の巡回で書かれている) だと即 skip するので、後続の日は
+    # 古い本文のまま二度と直らない。メモ化すれば、後続の日は最初の日が
+    # 取得した本文をそのまま使うので (ネットワークにすら出ない)、この穴が
+    # 塞がる上に同じ記事を日数分だけ何度も取りに行く無駄も無くなる。
+    detail_cache: dict[str, tuple[str, str]] = {}
     written = skipped = 0
     # 3 段それぞれで失敗を記録する。1 件の失敗 (記事の 404、events.php の
     # 構造変化など) で全体を落とすと、cal.php 1 + events.php が event_day の
@@ -204,6 +254,7 @@ def main() -> None:
     failed_libs = []
     failed_days = []      # "code/day" 形式
     failed_articles = []  # "code/day/detail_url" 形式
+    blocked_articles = []  # allowlist で弾いた "code/day/detail_url" 形式
 
     for lib in cfg["libraries"]:
         code = lib["code"]
@@ -223,10 +274,12 @@ def main() -> None:
             continue
 
         if len(days) > args.max_event_days:
-            print(f"  WARN: {code} event_day {len(days)} 日 > "
-                  f"--max-event-days {args.max_event_days}、先頭だけ処理する",
-                  file=sys.stderr)
-            days = days[:args.max_event_days]
+            total = len(days)
+            days = limit_event_days(days, today, args.max_event_days)
+            print(f"  WARN: {code} event_day {total} 日 > "
+                  f"--max-event-days {args.max_event_days}、"
+                  f"未来日を優先して {len(days)} 日を処理する "
+                  f"({total - len(days)} 日切り捨て)", file=sys.stderr)
         print(f"{code} {lib['name']}: {len(days)} event days", file=sys.stderr)
 
         for day in days:
@@ -242,11 +295,25 @@ def main() -> None:
                 continue
 
             for detail_url, list_title in events:
-                if (detail_url.split("/")[2] != cfg["url_host_allowlist"]
-                        or cfg["url_path_prefix"] not in detail_url):
-                    print(f"  WARN: allowlist 外、skip: {detail_url}", file=sys.stderr)
-                    continue
                 try:
+                    # allowlist 判定は try の中で行う (Ruling 13)。
+                    # href="#" や相対 URL は urlparse なら例外を投げずに
+                    # netloc="" として素直に弾ける。split("/")[2] は
+                    # IndexError で例外の外に出て「1 件で全体停止」を
+                    # 再発させてしまう。
+                    parsed = urllib.parse.urlparse(detail_url)
+                    if (parsed.netloc != cfg["url_host_allowlist"]
+                            or cfg["url_path_prefix"] not in parsed.path):
+                        print(f"  WARN: allowlist 外、skip: {detail_url}",
+                              file=sys.stderr)
+                        # 配信元が記事を url_path_prefix の外へ移すと全件が
+                        # ここで弾かれ、written=0 のまま exit 0 になり得る。
+                        # イベントは件数で異常を測れない設計 (0 件が正常) な
+                        # ので、これを見張るには失敗として数えるしかない
+                        # (Ruling 14)。
+                        blocked_articles.append(f"{code}/{day}/{detail_url}")
+                        continue
+
                     # uid/out_path は page と ymd だけで決まるので、本文取得の
                     # 前に計算できる。304 のとき out_path の有無で短絡すれば
                     # 条件付き GET が実際に節約になる。
@@ -254,25 +321,35 @@ def main() -> None:
                     uid = f"{lib['uid_prefix']}-{page}-{ymd}@{UID_NAMESPACE}"
                     out_path = output_path_for(args.out_dir, uid, day)
 
-                    entry = http_cache.get(detail_url, {})
-                    html, etag, lm = fetch_with_cache(
-                        detail_url, entry.get("etag"), entry.get("last_modified"))
-                    if html is None:
-                        # 304 = 本文は前回から変わっていない。その日の YAML が
-                        # 既にあるなら取り直す必要はない (条件付き GET の節約は
-                        # ここで効く)。無いときだけ取り直す — 同じ記事が新しい
-                        # 日に載ったケース (「8月のおはなしのじかん(8月1・2日）」
-                        # のように 1 記事が複数日に出るため、日ごとに YAML を
-                        # 作る)。
-                        if os.path.exists(out_path):
-                            skipped += 1
-                            continue
-                        html = _hanno_lib.fetch_text(detail_url)
+                    if detail_url in detail_cache:
+                        raw_title, body = detail_cache[detail_url]
                     else:
-                        http_cache[detail_url] = {"etag": etag, "last_modified": lm}
+                        entry = http_cache.get(detail_url, {})
+                        html, etag, lm = fetch_with_cache(
+                            detail_url, entry.get("etag"),
+                            entry.get("last_modified"))
+                        if html is None:
+                            # 304 = 本文は前回から変わっていない。その日の
+                            # YAML が既にあるなら取り直す必要はない。無いとき
+                            # だけ取り直す — 同じ記事が新しい日に載った
+                            # ケース (「8月のおはなしのじかん(8月1・2日）」
+                            # のように 1 記事が複数日に出るため、日ごとに
+                            # YAML を作る)。
+                            if os.path.exists(out_path):
+                                skipped += 1
+                                continue
+                            html = _hanno_lib.fetch_text(detail_url)
+                        else:
+                            http_cache[detail_url] = {
+                                "etag": etag, "last_modified": lm}
+                        raw_title, body = parse_detail(html)
+                        # list_title (events.php 側のタイトル) は日ごとに
+                        # 来る値なので、キャッシュには解析した生の title
+                        # (空文字含む) を入れ、フォールバックは日ごとに
+                        # 適用する (Ruling 12 の注意点)。
+                        detail_cache[detail_url] = (raw_title, body)
 
-                    title, body = parse_detail(html)
-                    title = title or list_title
+                    title = raw_title or list_title
                     ch = content_hash_for(title, body, day)
                     if existing_content_hash_matches(out_path, ch):
                         skipped += 1
@@ -298,9 +375,10 @@ def main() -> None:
     if not args.dry_run:
         save_http_cache(http_cache)
     print(f"Done. written={written} skipped={skipped}", file=sys.stderr)
-    if failed_libs or failed_days or failed_articles:
+    if failed_libs or failed_days or failed_articles or blocked_articles:
         print(f"失敗: 館={failed_libs or 'なし'} 日={failed_days or 'なし'} "
-              f"記事={failed_articles or 'なし'}", file=sys.stderr)
+              f"記事={failed_articles or 'なし'} "
+              f"allowlist={blocked_articles or 'なし'}", file=sys.stderr)
         sys.exit(2)
 
 
