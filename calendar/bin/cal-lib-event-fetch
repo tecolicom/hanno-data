@@ -1,0 +1,308 @@
+#!/usr/bin/env python3
+"""cal-lib-event-fetch — 飯能市立図書館のイベント → YAML.
+
+3 段で辿る:
+  1. cal.php の event_day  … その館でイベントがある日
+  2. events.php?term_from=<日>  … その日の記事タイトルと詳細 URL
+     (term_to は無視されるので 1 日 1 リクエスト)
+  3. /calendar/<page>.html  … 本文 (静的・Last-Modified あり → 条件付き GET)
+
+**追記型クローラ**。events.php は当月以外も返すが、過去に流れた記事が一覧から
+消えても削除しない (集合同期型ではない)。
+
+**1 記事 1 件ではなく日ごとに 1 件**作る。「8月のおはなしのじかん(8月1・2…日)」
+のような記事は events.php が該当日それぞれで返しており、配信元が「その日の
+イベント」として出している形をそのまま写す。
+
+**件数では異常を測れない。** event_day が 0 件の期間は普通にある。疎通の判定は
+_hanno_lib.terms_of() が cal.php の応答形を検査することで行う。
+
+**1 件の失敗で全体を落とさない。** cal.php 1 + events.php が event_day の
+日数分 + 詳細ページが記事数分、と叩く回数が多い。館ごと・日ごと・記事ごとに
+try で閉じ、失敗した単位だけ飛ばして次へ進む。追記型なので、飛ばした記事が
+誤削除に化ける経路は無い (翌日の実行が拾い直す)。取りこぼしを静かにしない
+ため、失敗が 1 件でもあれば exit 2 で終わる (再試行はしない)。
+
+設計: docs/superpowers/specs/2026-08-24-hanno-lib-calendar-design.md
+"""
+from __future__ import annotations
+
+import argparse
+import hashlib
+import json
+import os
+import re
+import sys
+from datetime import date as _date
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from _lib import (  # noqa: E402
+    UID_NAMESPACE, AI_DISCLAIMER_JP,
+    load_source_config, load_http_cache, save_http_cache, fetch_with_cache,
+    strip_html, collapse_space, normalize_body, strip_markdown,
+    call_llm, llm_available, output_path_for, existing_content_hash_matches,
+    yaml_escape_str, yaml_block_scalar,
+)
+import _hanno_lib  # noqa: E402  (fetch_text は golden が差し替えるので修飾して呼ぶ)
+from _hanno_lib import month_window, fetch_cal, terms_of, days_of  # noqa: E402
+
+
+SOURCE_KEY = "lib-event"
+
+MIN_BODY_CHARS = 30          # これ未満なら LLM を呼ばない
+FULL_TEXT_THRESHOLD = 400    # これ以下は全文掲載 (引用扱い、AI ラベル無し)
+
+LLM_MODEL = "claude-haiku-4-5"
+LLM_MAX_TOKENS = 1024
+
+SUMMARY_SYSTEM_PROMPT = """あなたは飯能市立図書館のイベント記事から、市民向けカレンダーに載せる要約を作るアシスタントです。
+
+これは自動パイプラインの一部で、あなたの出力はプログラムがそのまま解釈します。人間との対話ではありません。前置き・後書き・質問はしないでください。
+
+- 全体で 200〜400 字程度の日本語。
+- 日時・場所・対象・持ち物・申込方法など、市民の行動に関わる事実は省略しない。本文に書かれていないことは書かない (推測禁止)。
+- 日付は本文表記のまま (令和8年8月22日 等)。
+- 出だしに「お知らせ:」のような冗語は不要。本題から始める。
+- 末尾に URL や「詳細は〜」を付けない。呼出側で付与する。
+- **Markdown 記法は一切使わない**。出力先は Google カレンダーの予定欄で、literal なテキストとして表示される。箇条書きは行頭「・」、見出しは「【見出し】」。
+"""
+
+_ARTICLE_RE = re.compile(r"<article.*?</article>", re.S)
+_LINK_RE = re.compile(r"""<a\s+href=["']([^"']+)["']\s*>(.*?)</a>""", re.S)
+_H1_RE = re.compile(r"<h1[^>]*>(.*?)</h1>", re.S)
+_IMG_RE = re.compile(r"<img[^>]*>", re.I)
+
+
+def parse_events_page(html: str) -> list[tuple[str, str]]:
+    """events.php の <article> から (詳細 URL, タイトル) を返す.
+
+    <article> が無ければ ValueError — ページ構造の変化を静かに握り潰さない。
+    <article> はあるがリンクが無いのは正常 (イベント 0 件の日)。
+    """
+    m = _ARTICLE_RE.search(html)
+    if not m:
+        raise ValueError("events.php: <article> が無い (ページ構造変化の可能性)")
+    out: list[tuple[str, str]] = []
+    for url, raw_title in _LINK_RE.findall(m.group(0)):
+        title = collapse_space(strip_html(raw_title))
+        if url and title:
+            out.append((url, title))
+    return out
+
+
+def parse_detail(html: str) -> tuple[str, str]:
+    """詳細ページから (見出し, 本文テキスト) を返す.
+
+    見出しは本文から取り除く (summary に使うので description で重複させない)。
+    画像は取り込まない (利用条件の記載が無く、この repo は CC0)。
+    """
+    m = _ARTICLE_RE.search(html)
+    if not m:
+        raise ValueError("詳細ページ: <article> が無い (ページ構造変化の可能性)")
+    art = m.group(0)
+    h1 = _H1_RE.search(art)
+    title = collapse_space(strip_html(h1.group(1))) if h1 else ""
+    body_html = _H1_RE.sub("", art)
+    body_html = _IMG_RE.sub("", body_html)
+    return title, normalize_body(strip_html(body_html))
+
+
+def page_name(url: str) -> str:
+    """詳細ページ URL から UID に使う識別子を取る (末尾の .html を落とす).
+
+    タイトルから作らないのは、タイトルが直ると UID が変わって別イベントに
+    なってしまうため。
+    """
+    last = url.rstrip("/").split("/")[-1]
+    return last[:-5] if last.endswith(".html") else last
+
+
+def content_hash_for(title: str, body: str, day: str) -> str:
+    """イベント 1 件の content_hash. **要約手法や生成条件は混ぜない.**
+
+    混ぜると手法を変えた瞬間に全件のハッシュが変わり、カレンダーが氾濫する。
+    """
+    canonical = json.dumps({"title": title, "body": body, "day": day},
+                           ensure_ascii=False, sort_keys=True)
+    return "sha256-" + hashlib.sha256(canonical.encode("utf-8")).hexdigest()[:16]
+
+
+def summarize(title: str, body: str) -> str | None:
+    raw = call_llm(SUMMARY_SYSTEM_PROMPT, f"# {title}\n\n{body}",
+                   model=LLM_MODEL, max_tokens=LLM_MAX_TOKENS)
+    return strip_markdown(raw.strip(), bullet="・") if raw else None
+
+
+def build_description(title: str, body: str, url: str) -> tuple[str, str]:
+    """(description, summary_method) を返す."""
+    if not body or len(body) < MIN_BODY_CHARS:
+        return url, "url-only"
+    if len(body) <= FULL_TEXT_THRESHOLD:
+        return f"{body}\n\n{url}", "full"
+    s = summarize(title, body) if llm_available() else None
+    if s:
+        return f"{AI_DISCLAIMER_JP}\n\n{s}\n\n{url}", "llm-haiku-4-5"
+    # LLM 不可 / 失敗時は full。method を full にしておけば content_hash は
+    # 変わらない (hash に method を含めていないため)。
+    return f"{body}\n\n{url}", "full"
+
+
+def build_yaml_doc(uid: str, lib: dict, summary: str, url: str, day: str,
+                   description: str, method: str, content_hash: str,
+                   page: str) -> str:
+    lines = [
+        f"uid: {yaml_escape_str(uid)}",
+        f"summary: {yaml_escape_str(summary)}",
+        f"location: {yaml_escape_str(lib['name'])}",
+        f"url: {yaml_escape_str(url)}",
+        f"dtstart: {yaml_escape_str(day)}",
+        f"dtend: {yaml_escape_str(day)}",
+        "description: " + yaml_block_scalar(description, indent=2),
+        "",
+        "render:",
+        "  gcal:",
+        "    mode: single-allday",
+        "",
+        "source:",
+        f"  type: {lib['source_type']}",
+        f"  id: {yaml_escape_str(page)}",
+        f"  url: {yaml_escape_str(url)}",
+        f"  content_hash: {yaml_escape_str(content_hash)}",
+        f"  summary_method: {yaml_escape_str(method)}",
+    ]
+    return "\n".join(lines) + "\n"
+
+
+def main() -> None:
+    here = os.path.dirname(os.path.abspath(__file__))
+    default_out_dir = os.path.join(here, "..", "events")
+    cfg = load_source_config(SOURCE_KEY)
+
+    ap = argparse.ArgumentParser(description="飯能市立図書館のイベント → YAML")
+    ap.add_argument("--out-dir", default=default_out_dir)
+    ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--today", default=None, help="取得ウィンドウの基準日 (テスト用)")
+    ap.add_argument("--max-event-days", type=int,
+                    default=int(cfg.get("max_event_days", 60)),
+                    help="events.php を叩く日数の上限 (暴走防止)")
+    args = ap.parse_args()
+
+    host = cfg["cal_url"].split("/")[2]
+    if host != cfg["url_host_allowlist"]:
+        sys.exit(f"URL outside allowlist: {cfg['cal_url']}")
+
+    today = args.today or _date.today().isoformat()
+    term_from, term_to = month_window(today, int(cfg["months_ahead"]))
+
+    http_cache = load_http_cache()
+    written = skipped = 0
+    # 3 段それぞれで失敗を記録する。1 件の失敗 (記事の 404、events.php の
+    # 構造変化など) で全体を落とすと、cal.php 1 + events.php が event_day の
+    # 日数分 + 詳細ページが記事数分、という多数のリクエストのうちどれか 1 つが
+    # 落ちるだけで日常的に赤くなる。追記型なので飛ばした分が誤削除に化ける
+    # 経路は無く、翌日の実行が拾い直す (再試行はしない)。
+    failed_libs = []
+    failed_days = []      # "code/day" 形式
+    failed_articles = []  # "code/day/detail_url" 形式
+
+    for lib in cfg["libraries"]:
+        code = lib["code"]
+        try:
+            # 取得層が死んだら terms_of が ValueError を投げる (件数では測れ
+            # ないので、ここが疎通の判定)。OSError も拾うのは cal-lib-closed-
+            # fetch と同じ理由 (Ruling 9): _lib.fetch は urllib の例外を
+            # ラップせず呼出側に伝播するので、DNS 失敗・タイムアウト・HTTP
+            # エラーは urllib.error.URLError (OSError のサブクラス。
+            # HTTPError は URLError のサブクラス) として飛ぶ。
+            cal_json = fetch_cal(cfg["cal_url"], code, term_from, term_to)
+            terms = terms_of(cal_json, code)
+            days = days_of(terms, "event_day")
+        except (ValueError, OSError) as e:
+            print(f"ERROR: 館 {code} ({type(e).__name__}): {e}", file=sys.stderr)
+            failed_libs.append(code)
+            continue
+
+        if len(days) > args.max_event_days:
+            print(f"  WARN: {code} event_day {len(days)} 日 > "
+                  f"--max-event-days {args.max_event_days}、先頭だけ処理する",
+                  file=sys.stderr)
+            days = days[:args.max_event_days]
+        print(f"{code} {lib['name']}: {len(days)} event days", file=sys.stderr)
+
+        for day in days:
+            ymd = day.replace("-", "")
+            ev_url = (f"{cfg['events_url']}?kind=2&target=general"
+                      f"&libraries={code}&term_from={ymd}")
+            try:
+                events = parse_events_page(_hanno_lib.fetch_text(ev_url))
+            except (ValueError, OSError) as e:
+                print(f"ERROR: 館 {code} {day} ({type(e).__name__}): {e}",
+                      file=sys.stderr)
+                failed_days.append(f"{code}/{day}")
+                continue
+
+            for detail_url, list_title in events:
+                if (detail_url.split("/")[2] != cfg["url_host_allowlist"]
+                        or cfg["url_path_prefix"] not in detail_url):
+                    print(f"  WARN: allowlist 外、skip: {detail_url}", file=sys.stderr)
+                    continue
+                try:
+                    # uid/out_path は page と ymd だけで決まるので、本文取得の
+                    # 前に計算できる。304 のとき out_path の有無で短絡すれば
+                    # 条件付き GET が実際に節約になる。
+                    page = page_name(detail_url)
+                    uid = f"{lib['uid_prefix']}-{page}-{ymd}@{UID_NAMESPACE}"
+                    out_path = output_path_for(args.out_dir, uid, day)
+
+                    entry = http_cache.get(detail_url, {})
+                    html, etag, lm = fetch_with_cache(
+                        detail_url, entry.get("etag"), entry.get("last_modified"))
+                    if html is None:
+                        # 304 = 本文は前回から変わっていない。その日の YAML が
+                        # 既にあるなら取り直す必要はない (条件付き GET の節約は
+                        # ここで効く)。無いときだけ取り直す — 同じ記事が新しい
+                        # 日に載ったケース (「8月のおはなしのじかん(8月1・2日）」
+                        # のように 1 記事が複数日に出るため、日ごとに YAML を
+                        # 作る)。
+                        if os.path.exists(out_path):
+                            skipped += 1
+                            continue
+                        html = _hanno_lib.fetch_text(detail_url)
+                    else:
+                        http_cache[detail_url] = {"etag": etag, "last_modified": lm}
+
+                    title, body = parse_detail(html)
+                    title = title or list_title
+                    ch = content_hash_for(title, body, day)
+                    if existing_content_hash_matches(out_path, ch):
+                        skipped += 1
+                        continue
+
+                    description, method = build_description(title, body, detail_url)
+                    doc = build_yaml_doc(uid, lib,
+                                         f"{cfg['summary_prefix']}{title}",
+                                         detail_url, day, description, method, ch, page)
+                    if args.dry_run:
+                        written += 1
+                        continue
+                    os.makedirs(os.path.dirname(out_path), exist_ok=True)
+                    with open(out_path, "w", encoding="utf-8") as f:
+                        f.write(doc)
+                    written += 1
+                except (ValueError, OSError) as e:
+                    print(f"ERROR: 館 {code} {day} {detail_url} "
+                          f"({type(e).__name__}): {e}", file=sys.stderr)
+                    failed_articles.append(f"{code}/{day}/{detail_url}")
+                    continue
+
+    if not args.dry_run:
+        save_http_cache(http_cache)
+    print(f"Done. written={written} skipped={skipped}", file=sys.stderr)
+    if failed_libs or failed_days or failed_articles:
+        print(f"失敗: 館={failed_libs or 'なし'} 日={failed_days or 'なし'} "
+              f"記事={failed_articles or 'なし'}", file=sys.stderr)
+        sys.exit(2)
+
+
+if __name__ == "__main__":
+    main()

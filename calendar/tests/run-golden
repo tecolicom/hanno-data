@@ -43,7 +43,8 @@ def _read_fixture(crawler, fname):
 # そのまま比較する。news は「本文から抽出した開催日」が dtstart なので、
 # 潰すと本設計の要である日付抽出の回帰を golden が見逃す。
 DETERMINISTIC_DATE_CRAWLERS = {"cal-tourism-news-fetch", "cal-cci-chef-fetch",
-                               "cal-cci-event-fetch", "cal-lib-closed-fetch"}
+                               "cal-cci-event-fetch", "cal-lib-closed-fetch",
+                               "cal-lib-event-fetch"}
 
 # --today を渡すクローラと、その基準日。固定しないと fixture 内の予定が日々
 # 「過去」に流れ、削除の可否や取得ウィンドウが変わって golden が壊れる。
@@ -52,6 +53,7 @@ DETERMINISTIC_DATE_CRAWLERS = {"cal-tourism-news-fetch", "cal-cci-chef-fetch",
 TODAY_BY_CRAWLER = {
     "cal-cci-chef-fetch": "2026-06-01",
     "cal-lib-closed-fetch": "2026-08-24",
+    "cal-lib-event-fetch": "2026-08-24",
 }
 
 
@@ -195,6 +197,17 @@ def _setup_lib(m, crawler, manifest):
     m.save_http_cache = lambda c: None
 
 
+def _setup_lib_event(m, crawler, manifest):
+    """図書館のイベントクローラ用。_setup_lib に LLM 無効化を足す.
+
+    要約は非決定的なので golden では呼ばない。実データの記事本文は
+    FULL_TEXT_THRESHOLD (400 字) を下回るものが多く、その場合は LLM の
+    有無に関わらず full 経路なので、解析経路はそのまま走る。
+    """
+    _setup_lib(m, crawler, manifest)
+    m.llm_available = lambda: False
+
+
 # (golden 名, crawler スクリプト名, setup, seed dir 名 | None)
 # seed を渡すと、その中身を out-dir に事前展開してから crawler を走らせる
 # (= 既存 YAML がある状態の再現。更新検知 / supersedes の経路を通す)。
@@ -236,6 +249,9 @@ CRAWLERS = [
     ("cal-lib-closed-keep-past", "cal-lib-closed-fetch", _setup_lib, "cal-lib-closed-keep-past"),
     ("cal-lib-closed-keep-out-of-range", "cal-lib-closed-fetch", _setup_lib,
      "cal-lib-closed-keep-out-of-range"),
+    # 図書館のイベント (追記型)。event_day → events.php → 詳細ページの 3 段を
+    # 通す。要約は LLM 無効化で full 経路に倒している。
+    ("cal-lib-event-fetch", "cal-lib-event-fetch", _setup_lib_event, None),
 ]
 
 

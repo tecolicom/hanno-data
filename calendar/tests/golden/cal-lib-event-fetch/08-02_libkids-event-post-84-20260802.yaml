@@ -1,0 +1,67 @@
+uid: "libkids-event-post-84-20260802@hanno.city.tecoli.com"
+summary: "📚 手作り絵本講座を開催します(８月1日・2日)定員に達しました。"
+location: "こども図書館"
+url: "https://www.hanno-lib.jp/calendar/post-84.html"
+dtstart: "2026-08-02"
+dtend: "2026-08-02"
+description: |-
+  定員に達ししたため募集を締め切りました。
+  
+  おはなしや絵を自分でかんがえて、世界にひとつだけのオリジナル絵本をつくろう！
+  
+  日　時
+  
+  令和８年８月1日（土）２日（日）【全２回】
+  
+  (２日間とも参加してください)
+  
+  １３:00～１５:00
+  
+  会　場
+  
+  こども図書館　多目的ホール
+  
+  指　導
+  
+  図書館職員
+  
+  対　象
+  
+  小学生までのこども
+  
+  定　員
+  
+  ２０名　(先着順)
+  
+  ※　小学生未満は、必ず保護者同伴のこと
+  
+  申込み
+  
+  令和8年７月10日(金)からこども図書館へ　　(定員になり次第締切)
+  
+  11時～16時（電話・ＦＡＸ可）
+  
+  持ち物
+  
+  ・筆記用具（色ぬりに使うもの含む）
+  
+  ・古新聞（あれば、毎回１日分ほど用意）
+  
+  準備等
+  
+  ＊ 汚れてもいい服装できてください。
+  
+  ＊ お話のヒントを考えたり、きっかけとなる絵や文をかいてきてください。
+  
+  https://www.hanno-lib.jp/calendar/post-84.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-lib-kids-event
+  id: "post-84"
+  url: "https://www.hanno-lib.jp/calendar/post-84.html"
+  content_hash: "sha256-c35c24bae6df5386"
+  summary_method: "full"

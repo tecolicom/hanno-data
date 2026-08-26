@@ -1,0 +1,27 @@
+uid: "libkids-event-819-1-20260819@hanno.city.tecoli.com"
+summary: "📚 こぐまちゃんタイム(8月19日)"
+location: "こども図書館"
+url: "https://www.hanno-lib.jp/calendar/819-1.html"
+dtstart: "2026-08-19"
+dtend: "2026-08-19"
+description: |-
+  こぐまちゃんタイムを開催します。
+  
+  日時　令和8年8月19日（水）　11：30～12：００
+  
+  対象　０さい～３さいくらい
+  
+  会場　こども図書館おはなしコーナー
+  
+  https://www.hanno-lib.jp/calendar/819-1.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-lib-kids-event
+  id: "819-1"
+  url: "https://www.hanno-lib.jp/calendar/819-1.html"
+  content_hash: "sha256-d8d26d1a1d5678aa"
+  summary_method: "full"

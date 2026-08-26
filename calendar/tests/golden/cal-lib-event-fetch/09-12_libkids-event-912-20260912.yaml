@@ -1,0 +1,47 @@
+uid: "libkids-event-912-20260912@hanno.city.tecoli.com"
+summary: "📚 ワークショップ「川の生き物を見てみよう」(9月12日)"
+location: "こども図書館"
+url: "https://www.hanno-lib.jp/calendar/912.html"
+dtstart: "2026-09-12"
+dtend: "2026-09-12"
+description: |-
+  内容
+  
+  飯能河原の生き物について学び、絵を描いてオリジナルのしおりをつくります。
+  
+  日時
+  
+  令和８年９月１２日（土）　13：30～14：45
+  
+  会場
+  
+  こども図書館多目的ホール
+  
+  講師
+  
+  こども図書館職員
+  
+  対象
+  
+  幼児・小学生（未就学児は保護者同伴）
+  
+  定員
+  
+  20人（事前申込制、定員になり次第締め切り）
+  
+  申し込み
+  
+  令和８年８月１８日（火）11：00から　こども図書館へ（電話・ＦＡＸ）
+  
+  https://www.hanno-lib.jp/calendar/912.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-lib-kids-event
+  id: "912"
+  url: "https://www.hanno-lib.jp/calendar/912.html"
+  content_hash: "sha256-3b9ab382acf244c1"
+  summary_method: "full"
