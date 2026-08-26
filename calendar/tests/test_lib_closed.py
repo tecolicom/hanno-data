@@ -66,6 +66,31 @@ def test_check_min_days_rejects_empty_terms():
     raise AssertionError("term 空なのに ValueError が飛ばない")
 
 
+def test_check_min_days_rejects_string_closing_day():
+    """closing_day が文字列だと len() が通ってしまう ("2027-04-01" == 10 文字)。
+
+    型検査が無いと月 3 日の閾値を素通りしてしまうので、isinstance で止める。
+    """
+    terms = [{"month": "202608", "closing_day": "2027-04-01"}]
+    try:
+        mod.check_min_days(terms, "02", 3)
+    except ValueError as e:
+        assert "202608" in str(e), e
+        return
+    raise AssertionError("closing_day が文字列なのに ValueError が飛ばない")
+
+
+def test_check_min_days_rejects_dict_closing_day():
+    """closing_day が dict のときも同じく型検査で止める。"""
+    terms = [{"month": "202608", "closing_day": {"a": 1, "b": 2, "c": 3}}]
+    try:
+        mod.check_min_days(terms, "02", 3)
+    except ValueError as e:
+        assert "202608" in str(e), e
+        return
+    raise AssertionError("closing_day が dict なのに ValueError が飛ばない")
+
+
 if __name__ == "__main__":
     for name, fn in sorted(globals().items()):
         if name.startswith("test_") and callable(fn):

@@ -56,6 +56,14 @@ def check_min_days(terms: list[dict], lib_code: str, min_per_month: int) -> None
     """
     if not terms:
         raise ValueError(f"館 {lib_code}: term が 1 つも無い (今月分は必ず返るはず)")
+    for t in terms:
+        days = t.get("closing_day")
+        if days is not None and not isinstance(days, list):
+            # str も len() が通ってしまう ("2027-04-01" → 10 で閾値をすり抜ける)。
+            # ここで止めないと直後の days_of 頼みになり、検査の順序に依存する。
+            raise ValueError(
+                f"館 {lib_code}: {t.get('month')} の closing_day が list でない "
+                f"({type(days).__name__})")
     thin = [f"{t.get('month')}={len(t.get('closing_day') or [])}"
             for t in terms if len(t.get("closing_day") or []) < min_per_month]
     if thin:
@@ -120,17 +128,32 @@ def main() -> None:
     term_from, term_to = month_window(today, int(cfg["months_ahead"]))
 
     total = {"added": 0, "updated": 0, "deleted": 0, "unchanged": 0}
+    # 館ごとに丸ごと try で囲み、1 館の失敗が他館に波及しないようにする。
+    # sync_set() の「疑わしければ何もしない」原子性は 1 コール = 1 館の範囲でしか
+    # 保証されない (uid_prefix を館ごとに分けているのはそのため)。ここで全館を
+    # 1 つの try に入れてしまうと、02 が検査に落ちたときに 01 がすでに書いた
+    # 結果は残ったまま処理が止まり、逆に 01 が落ちると 02 は一度も試されない —
+    # 「館ごとに閉じる」という設計の前提が main() の制御フローで崩れてしまう。
+    failed_thin = []       # 取得・解析・検査の失敗 (この館は飛ばす)
+    failed_deletions = []  # 削除件数が max-delete を超えた館
     for lib in cfg["libraries"]:
         code = lib["code"]
-        # 取得層が死んだら terms_of が ValueError を投げる。握り潰さない。
-        cal_json = fetch_cal(cfg["cal_url"], code, term_from, term_to)
-        terms = terms_of(cal_json, code)
         try:
+            # fetch_cal / terms_of / days_of はいずれも ValueError を投げる
+            # (JSONDecodeError は ValueError のサブクラス、days_of も
+            # Ruling 5 で ValueError を投げるようになった)。通信・解析の失敗と
+            # 「休館日が薄い」検査 (check_min_days) が同じ except に落ちるのは
+            # 許容する — どちらも「この館は飛ばす」で正しい判断だから。
+            # 区別が要るときは例外の型名・メッセージで追える。
+            cal_json = fetch_cal(cfg["cal_url"], code, term_from, term_to)
+            terms = terms_of(cal_json, code)
             check_min_days(terms, code, args.min_days_per_month)
+            days = days_of(terms, "closing_day")
         except ValueError as e:
-            sys.exit(f"{e}")
+            print(f"ERROR: 館 {code} ({type(e).__name__}): {e}", file=sys.stderr)
+            failed_thin.append(code)
+            continue
 
-        days = days_of(terms, "closing_day")
         items = closing_items(days, lib, cfg["page_url"], cfg["summary_prefix"])
         print(f"{code} {lib['name']}: {len(terms)} months, {len(items)} closing days",
               file=sys.stderr)
@@ -141,14 +164,24 @@ def main() -> None:
                              today=today, max_delete=args.max_delete,
                              dry_run=args.dry_run)
         except SetSyncTooManyDeletions as e:
-            print(f"ERROR: {code} {e}", file=sys.stderr)
-            sys.exit(3)
+            print(f"ERROR: 館 {code}: {e}", file=sys.stderr)
+            failed_deletions.append(code)
+            continue
         for k in total:
             total[k] += stats[k]
 
     print(f"Done. added={total['added']} updated={total['updated']} "
           f"deleted={total['deleted']} unchanged={total['unchanged']}",
           file=sys.stderr)
+    if failed_thin or failed_deletions:
+        print(f"失敗した館: 取得・検査={failed_thin or 'なし'} "
+              f"削除超過={failed_deletions or 'なし'}", file=sys.stderr)
+    # 削除超過が 1 件でもあれば 3 を優先する (--max-delete の help と一致)。
+    # 検査・取得の失敗だけなら 2 (--min-days-per-month の help と一致)。
+    if failed_deletions:
+        sys.exit(3)
+    if failed_thin:
+        sys.exit(2)
 
 
 if __name__ == "__main__":

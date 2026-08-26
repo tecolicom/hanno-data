@@ -220,14 +220,18 @@ CRAWLERS = [
     # 新 UID + supersedes が付くこと (= 旧世代が残ること) を見る。
     ("cal-cci-event-fetch", "cal-cci-event-fetch", _setup_cci_event, None),
     ("cal-cci-event-update", "cal-cci-event-fetch", _setup_cci_event, "cal-cci-event-update"),
-    # 図書館の休館日 (集合同期型)。seed 付きの 3 本が削除ガードの回帰を見る:
+    # 図書館の休館日 (集合同期型)。seed 付きの 4 本が回帰を見る:
+    #   update            … 既存 YAML が上書きされること (ダミー hash → 実 hash)
     #   delete            … 取得側に無い「未来かつ範囲内」の休館日が消えること
     #   keep-past         … 取得側に無くても today より前の休館日は残ること
     #   keep-out-of-range … 取得側が返した範囲より後の休館日は、未来でも残ること
     # 削除条件は「incoming に無い かつ 範囲内 かつ today 以降」の 3 つ全部。
     # keep-past に範囲外の日付を使うと、どちらの枝で残ったのか区別できず、
     # 片方が壊れても緑のままになる。だから 2 本に分けて 1 枝ずつ通す。
+    # update だけは向きが逆: closing_day に「無い」日付では incoming に入らず
+    # 上書き経路を通らないので、closing_day に「ある」日付 (2026-09-07) を使う。
     ("cal-lib-closed-fetch", "cal-lib-closed-fetch", _setup_lib, None),
+    ("cal-lib-closed-update", "cal-lib-closed-fetch", _setup_lib, "cal-lib-closed-update"),
     ("cal-lib-closed-delete", "cal-lib-closed-fetch", _setup_lib, "cal-lib-closed-delete"),
     ("cal-lib-closed-keep-past", "cal-lib-closed-fetch", _setup_lib, "cal-lib-closed-keep-past"),
     ("cal-lib-closed-keep-out-of-range", "cal-lib-closed-fetch", _setup_lib,
