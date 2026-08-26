@@ -62,3 +62,58 @@ cci-event:
   after: "2026-01-01T00:00:00"
   # 1 カテゴリあたりの最大ページ数 (1 ページ 10 件)。暴走防止。
   max_pages: 10
+
+# 飯能市立図書館の休館日。**集合同期型** — cal.php が月ごとに「その月の全休館日」
+# を返すので、取得側に無い日は削除する。LLM 不使用。
+#
+# **取得できる範囲は年度末までで、固定の月数ではない。** 休館日は年度単位で
+# 登録されており、取れる月数は観測時期で 1〜12 か月に変わる。months_ahead は
+# 「配信元が持ちうる最大」で、返った分だけを扱う。
+#
+# min_days_per_month は **館ごと・返ってきた月ごと**の下限。総数の固定値だと
+# (a) 年度末に近づくと正常時でも赤になり、(b) 片方の館が丸ごと空でも
+# もう片方の分で閾値を超えて半分の欠落が静かに通る。
+lib-closed:
+  cal_url: "https://www.hanno-lib.jp/cal.php"
+  page_url: "https://www.hanno-lib.jp/calendar/"
+  url_host_allowlist: www.hanno-lib.jp
+  summary_prefix: "🏛 "
+  months_ahead: 12
+  min_days_per_month: 3
+  max_delete: 10
+  libraries:
+    - code: "01"
+      name: "飯能市立図書館"
+      uid_prefix: libmain-closed
+      source_type: hanno-lib-main-closed
+    - code: "02"
+      name: "こども図書館"
+      uid_prefix: libkids-closed
+      source_type: hanno-lib-kids-closed
+
+# 飯能市立図書館のイベント。追記型。
+# cal.php の event_day → events.php (その日の記事一覧) → 詳細ページ、の 3 段。
+# events.php は term_to を無視するので 1 日 1 リクエスト。max_event_days は
+# その暴走防止 (cci-event の max_pages と同じ発想)。
+#
+# **件数では異常を測れない。** event_day が 0 件の期間は普通にある
+# (本館 01 は 2026-08 時点で全月 0 件)。疎通の判定は cal.php の応答が JSON として
+# 読めるかで行う (_hanno_lib.terms_of が ValueError を投げる)。
+lib-event:
+  cal_url: "https://www.hanno-lib.jp/cal.php"
+  events_url: "https://www.hanno-lib.jp/events.php"
+  site_url: "https://www.hanno-lib.jp/"
+  url_host_allowlist: www.hanno-lib.jp
+  url_path_prefix: "/calendar/"
+  summary_prefix: "📚 "
+  months_ahead: 12
+  max_event_days: 60
+  libraries:
+    - code: "01"
+      name: "飯能市立図書館"
+      uid_prefix: libmain-event
+      source_type: hanno-lib-main-event
+    - code: "02"
+      name: "こども図書館"
+      uid_prefix: libkids-event
+      source_type: hanno-lib-kids-event
