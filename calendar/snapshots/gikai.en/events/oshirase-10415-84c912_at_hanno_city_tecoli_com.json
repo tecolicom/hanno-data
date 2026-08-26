@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-26T19:43:57.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 Newly Posted (Published: August 26, 2026)\n\nHanno City is now recruiting community-based care service providers for facility development planned within fiscal year 2027 (Reiwa 9). This recruitment is based on Hanno City's Long-term Care Insurance Business Plan, 9th Period (fiscal years 2024–2026 / Reiwa 6–8), and aims to ensure and improve service quality while conducting fair selection. Applicants should review the \"Hanno City Community-Based Care Service Provider Recruitment Guidelines.\" The recruitment guidelines, application document checklist, and application forms (in Excel format) are available for download.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/ninteikyufu/10415.html",
+  "end": {
+    "date": "2026-08-28"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2MHEzMmQ5ZDcwcTY2ZTloNjkwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-10415-84c912@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h60q32d9d70q66e9h6906gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/ninteikyufu/10415.html"
+  },
+  "start": {
+    "date": "2026-08-27"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Recruitment of Community-Based Care Service Providers for Fiscal Year 2026 (Reiwa 8)",
+  "updated": "2026-08-26T19:43:57.654Z"
+}
