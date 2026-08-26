@@ -9,8 +9,6 @@ description: |-
   
   直接ご来場ください。
   
-  ※開始時刻が10分早まり、午後2時50分からになりました。ご注意ください。
-  
   https://www.hanno-lib.jp/calendar/88128911151622232930.html
 
 render:
@@ -21,5 +19,5 @@ source:
   type: hanno-lib-kids-event
   id: "88128911151622232930"
   url: "https://www.hanno-lib.jp/calendar/88128911151622232930.html"
-  content_hash: "sha256-14ae75b2039fae40"
+  content_hash: "sha256-3836eb36e8670b7b"
   summary_method: "full"

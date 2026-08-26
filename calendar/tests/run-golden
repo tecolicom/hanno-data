@@ -212,6 +212,12 @@ def _setup_lib_event(m, crawler, manifest):
 # _setup_lib_event_content_update が条件付き GET を模すのに使う。
 _LIB_EVENT_UPDATED_URL = "https://www.hanno-lib.jp/calendar/88128911151622232930.html"
 _LIB_EVENT_UPDATED_LM = "Wed, 26 Aug 2026 09:00:00 GMT"
+# この記事の「更新後」の本文だけを持つ、テスト専用の捏造 fixture (Ruling 17)。
+# manifest.json には載せない — manifest は実データとの 1:1 対応を保つ約束
+# なので、fixtures/cal-lib-event-fetch/f032.html (manifest 経由) は常に配信元
+# の実際の応答のまま。この定数だけが唯一「捏造データを使う」経路であることを
+# 明示するため、ファイル名を直接ここに書く (manifest を経由させない)。
+_LIB_EVENT_UPDATED_FIXTURE = "f032b.html"
 
 
 def _setup_lib_event_content_update(m, crawler, manifest):
@@ -221,11 +227,20 @@ def _setup_lib_event_content_update(m, crawler, manifest):
     _setup_lib_event は fetch_with_cache を「常に 200 相当」にしか差し替え
     ないので、304 短絡そのものは一度も踏まれない (lm が常に None)。
     この記事だけ実際の条件付き GET を模す: 同一実行内で最初に処理した日は
-    (http_cache が空なので) 200 でその日の fixture 本文 (= 更新後の本文) を
-    取り、以後の日は http_cache が実行中に _LIB_EVENT_UPDATED_LM に更新
-    されているので 304 になる。seed には「更新前の本文」の content_hash を
-    持つ YAML を 11 日ぶん置いてあるので、メモ化 (detail_cache) が無いと
-    304 + out_path 既存の短絡で古い本文のまま固定されてしまう。
+    (http_cache が空なので) 200 でその日の fixture 本文を取り、以後の日は
+    http_cache が実行中に _LIB_EVENT_UPDATED_LM に更新されているので 304 に
+    なる。seed には「更新前の本文」の content_hash を持つ YAML を 11 日ぶん
+    置いてあるので、メモ化 (detail_cache) が無いと 304 + out_path 既存の
+    短絡で古い本文のまま固定されてしまう。
+
+    **どちらが捏造データか (Ruling 17)**: `f032.html` (manifest 経由、通常の
+    _setup_lib_event と同じ) は配信元の実際の応答。`f032b.html` は
+    このシナリオ専用にテストで本文を書き換えた**捏造データ**で、配信元は
+    こう告知していない。以前は f032.html 自体をその場で書き換えていたため、
+    基準シナリオ (cal-lib-event-fetch) の golden に捏造文が混入していた。
+    このシナリオでだけ f032b.html を返すことで、他の全シナリオ
+    (cal-lib-event-fetch / cal-lib-event-hash-skip 含む) は f032.html
+    (実データ) のまま保つ。
     """
     _setup_lib_event(m, crawler, manifest)
 
@@ -234,8 +249,9 @@ def _setup_lib_event_content_update(m, crawler, manifest):
             return None, None, None
         if url == _LIB_EVENT_UPDATED_URL:
             if lm == _LIB_EVENT_UPDATED_LM:
-                return None, etag, lm                                       # 304
-            return _read_fixture(crawler, manifest[url]), None, _LIB_EVENT_UPDATED_LM  # 200
+                return None, etag, lm                                        # 304
+            return (_read_fixture(crawler, _LIB_EVENT_UPDATED_FIXTURE),
+                    None, _LIB_EVENT_UPDATED_LM)                             # 200 (捏造データ)
         return _read_fixture(crawler, manifest[url]), None, None
     m.fetch_with_cache = _fetch_with_cache
 
