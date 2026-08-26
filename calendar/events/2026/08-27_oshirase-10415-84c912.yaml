@@ -1,0 +1,26 @@
+uid: "oshirase-10415-84c912@hanno.city.tecoli.com"
+summary: "ℹ️ 令和8年度 地域密着型サービス事業者の公募について"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/ninteikyufu/10415.html"
+dtstart: "2026-08-27"
+dtend: "2026-08-27"
+description: |-
+  🆕 新着掲載 (公開日: 2026-08-26)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  飯能市では、令和9年度内の施設等整備に向けて、地域密着型サービス事業者の公募を実施しています。飯能市介護保険事業計画第9期計画（令和6年度～令和8年度）に基づくもので、サービスの質の確保・向上及び公正な選考を行います。応募に当たっては、「飯能市地域密着型サービス事業者公募要領」を確認してください。公募要領、申請書類一覧表、申請書類（Excel）が提供されています。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/ninteikyufu/10415.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "10415"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/ninteikyufu/10415.html"
+  fetched_at: "2026-08-26T19:41:53.394214Z"
+  content_hash: "sha256-84c912330b43775e"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-08-26"

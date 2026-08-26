@@ -1,0 +1,26 @@
+uid: "oshirase-7982-f26ba0@hanno.city.tecoli.com"
+summary: "ℹ️ アルツハイマー月間"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/tiikihoukatu/ninchi-sisaku/ninchi-jigyou/7982.html"
+dtstart: "2026-08-27"
+dtend: "2026-08-27"
+description: |-
+  🆕 新着掲載 (公開日: 2026-08-25)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  9月21日は世界アルツハイマーデーです。飯能市では毎年9月にアルツハイマー月間として、認知症に関連した様々な取り組みを実施しています。令和8年度は、アルツハイマー講演会を開催するほか、図書館において「認知症の人にやさしいまちへ」をテーマにした推薦図書の特別展示を行います。誰もがあんしんできるまちづくりを目指し、認知症について共に考える機会にご参加ください。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/tiikihoukatu/ninchi-sisaku/ninchi-jigyou/7982.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "7982"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/tiikihoukatu/ninchi-sisaku/ninchi-jigyou/7982.html"
+  fetched_at: "2026-08-26T19:42:01.576834Z"
+  content_hash: "sha256-f26ba07ef61156f2"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-08-25"

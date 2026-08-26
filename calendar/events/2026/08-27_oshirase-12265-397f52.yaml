@@ -1,0 +1,43 @@
+uid: "oshirase-12265-397f52@hanno.city.tecoli.com"
+summary: "ℹ️ 義援金・救援金の受付について"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/fukushisoumu/12265.html"
+dtstart: "2026-08-27"
+dtend: "2026-08-27"
+description: |-
+  🔄 内容更新 (公開日: 2026-08-25 / 前回掲載: 2026-08-26)
+  主な変更: 令和8年8月千葉豪雨災害義援金の受付終了予定日が11月23日から11月24日に変更されました。また、2026年コロンビア地震救援金の受付終了予定日が11月23日から11月24日に変更されました。
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  日本赤十字社埼玉県支部飯能地区は、国内外の災害被災者を支援するため義援金・救援金を受け付けています。
+  
+  【受付場所】市役所本庁舎正面玄関総合案内の募金箱、または地域福祉課（1階11番窓口）
+  
+  【受付時間】平日9時00分～16時30分
+  
+  【受付中の国内義援金】
+  ・令和6年能登半島地震災害義援金（石川県・富山県・新潟県）受付終了予定日：令和9年3月22日
+  ・令和6年9月能登半島大雨災害義援金（石川県）受付終了予定日：令和9年3月22日
+  ・令和8年熊本地震災害義援金（熊本県）受付終了予定日：令和8年10月23日
+  ・令和8年7月滋賀県甲賀市の土砂崩れ災害義援金（滋賀県）受付終了予定日：令和9年1月22日
+  ・令和8年8月千葉豪雨災害義援金（千葉県）受付終了予定日：令和8年11月24日
+  
+  【受付中の海外救援金】中東人道危機救援金（受付終了予定日：令和9年3月23日）、バングラデシュ南部避難民救援金（受付終了予定日：令和9年3月23日）、ウクライナ人道危機救援金（受付終了予定日：令和9年3月23日）、2026年ベネズエラ地震救援金（受付終了予定日：令和8年9月21日）、2026年コロンビア地震救援金（受付終了予定日：令和8年11月24日）、無指定海外救援金（通年受付）
+  
+  領収書希望の方は地域福祉課11番窓口で申し受けます。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/fukushisoumu/12265.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "12265"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/fukushisoumu/12265.html"
+  fetched_at: "2026-08-26T19:41:59.125849Z"
+  content_hash: "sha256-397f522874ffa241"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-08-25"
+  supersedes: "oshirase-12265-ce117a@hanno.city.tecoli.com"

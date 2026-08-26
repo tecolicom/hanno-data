@@ -1,0 +1,53 @@
+uid: "oshirase-13780-841086@hanno.city.tecoli.com"
+summary: "ℹ️ 「第23回入間郡市人権フェスティバル」を開催します"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/kurashi/13780.html"
+dtstart: "2026-08-27"
+dtend: "2026-08-27"
+description: |-
+  🆕 新着掲載 (公開日: 2026-08-26)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  第23回入間郡市人権フェスティバルを開催します。人権尊重意識を高め、人権問題への理解・関心を深めることをめざしています。
+  
+  【開催日時】
+  令和8年10月16日（金曜日）13時00分～15時40分（開場12時30分）
+  
+  【開催場所】
+  川越市やまぶき会館ホール（川越市郭町1丁目18番地1）
+  公共交通機関でお越しください。
+  
+  【内容】
+  オープニングセレモニー「うりいろ劇団」による演奏／人権作文朗読／講演（講師：渡辺陽一氏・戦場カメラマン、演題「ファインダー越しにみた命の大切さ」）／集会所作品展示など
+  
+  【申込】
+  ・定員：一般席350席・車いす席5席（抽選制）
+  ・1人につき1回のみ、2名分までお申し込み可能
+  ・希望者多数の場合は入間郡市13市町に在住・在勤・在学の方を優先
+  ・申込期間：令和8年9月11日（金曜日）～9月27日（日曜日）
+  ・申込方法：インターネット・電話・ファクス・窓口
+  　電話・ファクス・窓口：飯能市人権くらし安全課
+  　電話042-973-2111（内線6201）
+  　ファクス042-972-8455
+  　窓口受付：9時00分～16時30分（土日祝を除く）
+  
+  【その他】
+  ・費用：無料
+  ・手話通訳：あり
+  ・保育：あり（1歳～就学前、事前申込必須）
+  ・当選者に入場券をはがきで郵送
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/kurashi/13780.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13780"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/kurashi/13780.html"
+  fetched_at: "2026-08-26T19:41:51.115074Z"
+  content_hash: "sha256-841086bc1d161094"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-08-26"

@@ -1,0 +1,34 @@
+uid: "oshirase-13451-248735@hanno.city.tecoli.com"
+summary: "ℹ️ 昭和100年企画展「飯能と昭和ー市の誕生と進化するくらしー」"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/tenji_moyooshimono/13451.html"
+dtstart: "2026-08-27"
+dtend: "2026-08-27"
+description: |-
+  🔄 内容更新 (公開日: 2026-08-23 / 前回掲載: 2026-08-23)
+  主な変更: 展示解説会が7月30日と8月16日から8月23日に変更、夕暮れミュージアムが8月11日（祝日）から8月29日（土）に変更されました。
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  令和8年7月19日（日）から8月30日（日）まで、飯能市立博物館で昭和100年企画展「飯能と昭和ー市の誕生と進化するくらしー」を開催します。昭和100年を迎える令和8年を記念し、飯能市域の誕生と進化の歴史、そして家具や家電とともに変化してきた人々の暮らしを館蔵資料で紹介します。開館時間は午前9時30分から午後4時30分。休館日は7月20日を除く月曜日、7月21日（火）、7月24日（金）、8月12日（水）、8月28日（金）です。
+  
+  関連イベント：
+  ・8月29日（土）夕暮れミュージアム（開館時間を午後7時まで延長、午後6時から30分程の展示解説実施）
+  ・8月22日（土）ワークショップ「触れて、見て、昭和と自然を学ぼう！」（10時～12時、13時～15時、参加無料、申込不要、当日直接会場へ）
+  
+  なお、8月1日開催予定だった関連講演会「絵はがきが語る飯能の昭和100年」および7月30日、8月16日、8月23日の展示解説会、8月11日の夕暮れミュージアムは終了しました。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/tenji_moyooshimono/13451.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13451"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/tenji_moyooshimono/13451.html"
+  fetched_at: "2026-08-26T19:42:10.113314Z"
+  content_hash: "sha256-24873506c41ae90a"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-08-23"
+  supersedes: "oshirase-13451-0ab238@hanno.city.tecoli.com"

@@ -1,0 +1,36 @@
+uid: "oshirase-13388-d88dee@hanno.city.tecoli.com"
+summary: "ℹ️ 【令和8年度】報道発表資料"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025_1/13388.html"
+dtstart: "2026-08-27"
+dtend: "2026-08-27"
+description: |-
+  🔄 内容更新 (公開日: 2026-08-26 / 前回掲載: 2026-08-18)
+  主な変更: 飯能市と長ぐつを脱いだ猫株式会社との包括連携協定の締結について（8月26日発表）が新たに追加されました。
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  飯能市報道発表資料の一覧ページが更新されました。令和8年度の主な発表は以下の通りです。
+  
+  ・飯能市と長ぐつを脱いだ猫株式会社との包括連携協定の締結（8月26日発表）
+  ・「下名栗の獅子舞」に伝わる秘伝書の初公開（8月17日発表）
+  ・浅間保育所の建替えに伴う民設民営化に向けた事業者募集（8月5日発表）
+  ・飯能市PR大使の委嘱（8月3日発表）
+  ・日本コカ・コーラ株式会社及びコカ・コーラボトラーズジャパン株式会社との森林保全に関する協定の締結（7月29日発表）
+  
+  これより前の発表は元記事をご覧ください。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025_1/13388.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13388"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025_1/13388.html"
+  fetched_at: "2026-08-26T19:41:43.971499Z"
+  content_hash: "sha256-d88dee789abdc04b"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-08-26"
+  supersedes: "oshirase-13388-41350e@hanno.city.tecoli.com"
