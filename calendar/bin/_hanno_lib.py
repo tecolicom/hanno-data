@@ -12,6 +12,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -31,7 +32,17 @@ def month_window(today: str, months_ahead: int) -> tuple[str, str]:
 
 
 def fetch_text(url: str) -> str:
-    """HTTP GET してテキストを返す。**golden はこの関数を差し替える** (最下層)."""
+    """HTTP GET してテキストを返す。**golden はこの関数を差し替える** (最下層).
+
+    **`from _hanno_lib import fetch_text` の形で import しないこと。** golden
+    テストは `_hanno_lib.fetch_text` を差し替えることで URL → テキストの層を
+    fixture に載せる。from-import すると呼出側モジュールの名前空間に束縛が
+    コピーされ、後からの差し替えが効かず、テストが実ネットワークに出てしまう。
+    `import _hanno_lib` して `_hanno_lib.fetch_text(...)` と修飾して呼ぶこと。
+
+    (`fetch_cal` は自分のモジュール globals 経由で `fetch_text` を引くので、
+    `fetch_cal` を from-import するのは問題ない。)
+    """
     return _fetch(url)
 
 
@@ -57,6 +68,8 @@ def terms_of(cal_json: dict, lib_code: str) -> list[dict]:
     if not isinstance(libs, list):
         raise ValueError("cal.php: libraries が無い (取得経路の異常)")
     for lib in libs:
+        if not isinstance(lib, dict):
+            raise ValueError(f"cal.php: libraries の要素が dict でない ({lib!r})")
         if lib.get("code") == lib_code:
             terms = lib.get("term")
             if not isinstance(terms, list):
@@ -65,13 +78,28 @@ def terms_of(cal_json: dict, lib_code: str) -> list[dict]:
     raise ValueError(f"cal.php: 館 {lib_code} が応答に含まれない")
 
 
+_YMD_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+
+
 def days_of(terms: list[dict], key: str) -> list[str]:
     """term 配列から closing_day / event_day を "YYYY-MM-DD" の昇順で集める.
 
-    配信元は "2026/08/03" 形式で返す。重複は潰す。
+    配信元は "2026/08/03" 形式で返す。重複は潰す。**terms_of と方針を揃え、
+    正規化後の値が "YYYY-MM-DD" の形でなければ ValueError。** 黙って通すと
+    ゼロ埋め無しでソート順が壊れたまま、あるいは list でない値・None/int が
+    混ざったまま不正な UID を作ってしまう (取得層が死んだことと区別できなく
+    なる、という terms_of と同じ理由)。
     """
     out: set[str] = set()
     for t in terms:
-        for d in t.get(key) or []:
-            out.add(str(d).replace("/", "-"))
+        days = t.get(key) or []
+        if not isinstance(days, list):
+            raise ValueError(
+                f"cal.php: term[{key!r}] が list でない ({days!r})")
+        for d in days:
+            normalized = str(d).replace("/", "-")
+            if not _YMD_RE.match(normalized):
+                raise ValueError(
+                    f"cal.php: term[{key!r}] に不正な日付が含まれる ({d!r})")
+            out.add(normalized)
     return sorted(out)
