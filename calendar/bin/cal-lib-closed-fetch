@@ -1,0 +1,155 @@
+#!/usr/bin/env python3
+"""cal-lib-closed-fetch — 飯能市立図書館の休館日 → YAML.
+
+Source: https://www.hanno-lib.jp/cal.php (JSON)
+
+/calendar/ の HTML には空の <table id="opac-calendar"> があるだけで、中身は JS が
+この cal.php から取って描画している。**休館日の入手経路はこれしかない。**
+
+**集合同期型クローラ**である。取得側に無い休館日は「取り消された」と解釈して
+削除する。削除条件と安全弁は _lib.plan_set_sync()。
+
+館ごとに uid_prefix を分けて sync_set() を呼ぶので、削除ガードも館ごとに閉じる。
+
+LLM 不使用 — cal.php が返すのは日付だけで、要約する本文が無い。決定論的に作れる
+ものに LLM を挟むと content_hash が揺れる余地を増やすだけ。
+
+設計: docs/superpowers/specs/2026-08-24-hanno-lib-calendar-design.md
+"""
+from __future__ import annotations
+
+import argparse
+import os
+import sys
+from datetime import date as _date
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from _lib import (  # noqa: E402
+    load_source_config, sync_set, SetSyncTooManyDeletions,
+    yaml_escape_str, yaml_block_scalar,
+)
+from _hanno_lib import month_window, fetch_cal, terms_of, days_of  # noqa: E402
+
+
+SOURCE_KEY = "lib-closed"
+
+
+def closing_items(days: list[str], lib: dict, page_url: str,
+                  summary_prefix: str) -> list[dict]:
+    """休館日のリストを sync_set() に渡す items にする.
+
+    summary に館名を残すのは、city-tecoli の日次表示が購読カレンダーのイベントを
+    所属に関わらず混ぜて出すため。「休館」だけでは意味が通らない。
+    """
+    return [{"date": d,
+             "summary": f"{summary_prefix}{lib['name']} 休館",
+             "description": f"{lib['name']}は休館です。"}
+            for d in days]
+
+
+def check_min_days(terms: list[dict], lib_code: str, min_per_month: int) -> None:
+    """**館ごと・月ごと**に休館日の下限を検査する。割ったら ValueError.
+
+    総数の固定値では測れない: 取れる月数が観測時期で 1〜12 か月に変わるので
+    年度末に近づくと正常時でも下回る。館ごとに見ないと、片方が丸ごと空でも
+    もう片方の分で閾値を超えて半分の欠落が静かに通る。
+    """
+    if not terms:
+        raise ValueError(f"館 {lib_code}: term が 1 つも無い (今月分は必ず返るはず)")
+    thin = [f"{t.get('month')}={len(t.get('closing_day') or [])}"
+            for t in terms if len(t.get("closing_day") or []) < min_per_month]
+    if thin:
+        raise ValueError(
+            f"館 {lib_code}: 休館日が月 {min_per_month} 日未満の月がある: "
+            f"{', '.join(thin)}")
+
+
+def build_yaml_doc_for(lib: dict, cfg: dict):
+    """sync_set の render_doc コールバックを館ごとに作る."""
+    page_url = cfg["page_url"]
+
+    def _render(uid: str, item: dict, source_id: str, content_hash: str) -> str:
+        description = f"{item['description']}\n\n{page_url}"
+        lines = [
+            f"uid: {yaml_escape_str(uid)}",
+            f"summary: {yaml_escape_str(item['summary'])}",
+            f"location: {yaml_escape_str(lib['name'])}",
+            f"url: {yaml_escape_str(page_url)}",
+            f"dtstart: {yaml_escape_str(item['date'])}",
+            f"dtend: {yaml_escape_str(item['date'])}",
+            "description: " + yaml_block_scalar(description, indent=2),
+            "",
+            "render:",
+            "  gcal:",
+            "    mode: single-allday",
+            "",
+            "source:",
+            f"  type: {lib['source_type']}",
+            f"  id: {yaml_escape_str(source_id)}",
+            f"  url: {yaml_escape_str(page_url)}",
+            f"  content_hash: {yaml_escape_str(content_hash)}",
+        ]
+        return "\n".join(lines) + "\n"
+
+    return _render
+
+
+def main() -> None:
+    here = os.path.dirname(os.path.abspath(__file__))
+    default_out_dir = os.path.join(here, "..", "events")
+    cfg = load_source_config(SOURCE_KEY)
+
+    ap = argparse.ArgumentParser(
+        description="飯能市立図書館の休館日 → YAML (集合同期型、LLM 不使用)")
+    ap.add_argument("--out-dir", default=default_out_dir)
+    ap.add_argument("--dry-run", action="store_true", help="書き込まずに件数だけ出す")
+    ap.add_argument("--today", default=None,
+                    help="取得ウィンドウと削除判定の基準日 (テスト用)")
+    ap.add_argument("--min-days-per-month", type=int,
+                    default=cfg.get("min_days_per_month", 3),
+                    help="館ごと・月ごとの休館日の下限。割ったら exit 2")
+    ap.add_argument("--max-delete", type=int, default=cfg.get("max_delete", 10),
+                    help="削除がこれを超えたら何も書かずに exit 3")
+    args = ap.parse_args()
+
+    host = cfg["cal_url"].split("/")[2]
+    if host != cfg["url_host_allowlist"]:
+        sys.exit(f"URL outside allowlist: {cfg['cal_url']}")
+
+    today = args.today or _date.today().isoformat()
+    term_from, term_to = month_window(today, int(cfg["months_ahead"]))
+
+    total = {"added": 0, "updated": 0, "deleted": 0, "unchanged": 0}
+    for lib in cfg["libraries"]:
+        code = lib["code"]
+        # 取得層が死んだら terms_of が ValueError を投げる。握り潰さない。
+        cal_json = fetch_cal(cfg["cal_url"], code, term_from, term_to)
+        terms = terms_of(cal_json, code)
+        try:
+            check_min_days(terms, code, args.min_days_per_month)
+        except ValueError as e:
+            sys.exit(f"{e}")
+
+        days = days_of(terms, "closing_day")
+        items = closing_items(days, lib, cfg["page_url"], cfg["summary_prefix"])
+        print(f"{code} {lib['name']}: {len(terms)} months, {len(items)} closing days",
+              file=sys.stderr)
+
+        try:
+            stats = sync_set(args.out_dir, lib["uid_prefix"], items,
+                             build_yaml_doc_for(lib, cfg),
+                             today=today, max_delete=args.max_delete,
+                             dry_run=args.dry_run)
+        except SetSyncTooManyDeletions as e:
+            print(f"ERROR: {code} {e}", file=sys.stderr)
+            sys.exit(3)
+        for k in total:
+            total[k] += stats[k]
+
+    print(f"Done. added={total['added']} updated={total['updated']} "
+          f"deleted={total['deleted']} unchanged={total['unchanged']}",
+          file=sys.stderr)
+
+
+if __name__ == "__main__":
+    main()

@@ -43,13 +43,16 @@ def _read_fixture(crawler, fname):
 # そのまま比較する。news は「本文から抽出した開催日」が dtstart なので、
 # 潰すと本設計の要である日付抽出の回帰を golden が見逃す。
 DETERMINISTIC_DATE_CRAWLERS = {"cal-tourism-news-fetch", "cal-cci-chef-fetch",
-                               "cal-cci-event-fetch"}
+                               "cal-cci-event-fetch", "cal-lib-closed-fetch"}
 
-# 削除判定を「今日」に依存させないため、集合同期型クローラには基準日を固定して
-# 渡す。固定しないと fixture 内の予定が日々「過去」に流れ、削除の可否が変わって
-# golden が壊れる。
-SET_SYNC_TODAY = "2026-06-01"
-SET_SYNC_CRAWLERS = {"cal-cci-chef-fetch"}
+# --today を渡すクローラと、その基準日。固定しないと fixture 内の予定が日々
+# 「過去」に流れ、削除の可否や取得ウィンドウが変わって golden が壊れる。
+# 図書館クローラは取得ウィンドウ (cal.php の term_from/term_to) も today から
+# 作るので、fixture の URL と一致する日付を選ぶこと。
+TODAY_BY_CRAWLER = {
+    "cal-cci-chef-fetch": "2026-06-01",
+    "cal-lib-closed-fetch": "2026-08-24",
+}
 
 
 def _normalize(text, keep_dates=False):
@@ -151,8 +154,40 @@ def _setup_cci_event(m, crawler, manifest):
 def _setup_cci_chef(m, crawler, manifest):
     """HTTP を fixture に差し替える (集合同期型クローラ)。
 
-    基準日の固定は SET_SYNC_TODAY を --today で渡すことで行う (_run_crawler)。
+    基準日の固定は TODAY_BY_CRAWLER を --today で渡すことで行う (_run_crawler)。
     """
+    m.fetch_with_cache = lambda url, etag, lm: (
+        (_read_fixture(crawler, manifest[url]), None, None) if url in manifest
+        else (None, None, None))
+    m.load_http_cache = lambda: {}
+    m.save_http_cache = lambda c: None
+
+
+def _setup_lib(m, crawler, manifest):
+    """URL → テキストの層だけ fixture に差し替える (最下層).
+
+    _hanno_lib.fetch_text を潰すので、JSON 解析 (terms_of / days_of) も
+    items 生成も本物が走る。上位を差し替えると今回書いた解析コードが 1 行も
+    走らないまま緑になる。
+    """
+    sys.path.insert(0, BIN)
+    import _hanno_lib
+
+    # クローラが fetch_text を from-import していると、モジュールの名前空間に
+    # 束縛がコピーされて下の差し替えが効かず、golden が実ネットワークに出る
+    # (手元では非決定的、CI では URLError)。静かに漏れるくらいならその場で
+    # 落とす。_hanno_lib.fetch_text(...) と修飾して呼ぶこと。
+    assert not hasattr(m, "fetch_text"), (
+        f"{crawler} が fetch_text を from-import している。"
+        "_hanno_lib.fetch_text(...) と修飾して呼ぶこと "
+        "(_hanno_lib.fetch_text の docstring 参照)")
+
+    def _fetch_text(url):
+        if url not in manifest:
+            raise RuntimeError(f"fixture 外の URL: {url}")
+        return _read_fixture(crawler, manifest[url])
+
+    _hanno_lib.fetch_text = _fetch_text
     m.fetch_with_cache = lambda url, etag, lm: (
         (_read_fixture(crawler, manifest[url]), None, None) if url in manifest
         else (None, None, None))
@@ -185,6 +220,18 @@ CRAWLERS = [
     # 新 UID + supersedes が付くこと (= 旧世代が残ること) を見る。
     ("cal-cci-event-fetch", "cal-cci-event-fetch", _setup_cci_event, None),
     ("cal-cci-event-update", "cal-cci-event-fetch", _setup_cci_event, "cal-cci-event-update"),
+    # 図書館の休館日 (集合同期型)。seed 付きの 3 本が削除ガードの回帰を見る:
+    #   delete            … 取得側に無い「未来かつ範囲内」の休館日が消えること
+    #   keep-past         … 取得側に無くても today より前の休館日は残ること
+    #   keep-out-of-range … 取得側が返した範囲より後の休館日は、未来でも残ること
+    # 削除条件は「incoming に無い かつ 範囲内 かつ today 以降」の 3 つ全部。
+    # keep-past に範囲外の日付を使うと、どちらの枝で残ったのか区別できず、
+    # 片方が壊れても緑のままになる。だから 2 本に分けて 1 枝ずつ通す。
+    ("cal-lib-closed-fetch", "cal-lib-closed-fetch", _setup_lib, None),
+    ("cal-lib-closed-delete", "cal-lib-closed-fetch", _setup_lib, "cal-lib-closed-delete"),
+    ("cal-lib-closed-keep-past", "cal-lib-closed-fetch", _setup_lib, "cal-lib-closed-keep-past"),
+    ("cal-lib-closed-keep-out-of-range", "cal-lib-closed-fetch", _setup_lib,
+     "cal-lib-closed-keep-out-of-range"),
 ]
 
 
@@ -200,8 +247,8 @@ def _run_crawler(crawler, setup, seed):
             if seed:
                 shutil.copytree(os.path.join(SEED, seed), d, dirs_exist_ok=True)
             sys.argv = [crawler, "--out-dir", d]
-            if crawler in SET_SYNC_CRAWLERS:
-                sys.argv += ["--today", SET_SYNC_TODAY]
+            if crawler in TODAY_BY_CRAWLER:
+                sys.argv += ["--today", TODAY_BY_CRAWLER[crawler]]
             m.main()
             keep = crawler in DETERMINISTIC_DATE_CRAWLERS
             for p in glob.glob(os.path.join(d, "**", "*.yaml"), recursive=True):

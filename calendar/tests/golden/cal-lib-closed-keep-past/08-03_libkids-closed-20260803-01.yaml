@@ -1,0 +1,20 @@
+uid: "libkids-closed-20260803-01@hanno.city.tecoli.com"
+summary: "🏛 こども図書館 休館"
+location: "こども図書館"
+url: "https://www.hanno-lib.jp/calendar/"
+dtstart: "2026-08-03"
+dtend: "2026-08-03"
+description: |-
+  こども図書館は休館です。
+  
+  https://www.hanno-lib.jp/calendar/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-lib-kids-closed
+  id: "20260803-01"
+  url: "https://www.hanno-lib.jp/calendar/"
+  content_hash: "sha256-6bf496e559edb7ae"

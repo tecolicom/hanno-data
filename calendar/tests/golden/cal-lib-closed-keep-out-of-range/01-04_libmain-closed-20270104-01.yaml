@@ -1,0 +1,20 @@
+uid: "libmain-closed-20270104-01@hanno.city.tecoli.com"
+summary: "🏛 飯能市立図書館 休館"
+location: "飯能市立図書館"
+url: "https://www.hanno-lib.jp/calendar/"
+dtstart: "2027-01-04"
+dtend: "2027-01-04"
+description: |-
+  飯能市立図書館は休館です。
+  
+  https://www.hanno-lib.jp/calendar/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-lib-main-closed
+  id: "20270104-01"
+  url: "https://www.hanno-lib.jp/calendar/"
+  content_hash: "sha256-b9f1dc36eb0778c6"
