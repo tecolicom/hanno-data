@@ -1,0 +1,39 @@
+uid: "libkids-event-88-20260808@hanno.city.tecoli.com"
+summary: "📚 こども図書館まつり「楽しいお話をきいてみよう」を開催します。(8月8日)"
+location: "こども図書館"
+url: "https://www.hanno-lib.jp/calendar/88.html"
+dtstart: "2026-08-08"
+dtend: "2026-08-08"
+description: |-
+  日時
+  
+  令和8年8月8日(土) 14:00～15:00
+  
+  内容
+  
+  絵本や童話を楽しみましょう。
+  
+  出演
+  
+  たまてばこ
+  
+  定員
+  
+  なし
+  
+  申込
+  
+  不要。直接会場へ
+  
+  https://www.hanno-lib.jp/calendar/88.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-lib-kids-event
+  id: "88"
+  url: "https://www.hanno-lib.jp/calendar/88.html"
+  content_hash: "sha256-85b5486ea27b3274"
+  summary_method: "full"

@@ -206,6 +206,23 @@ def build_yaml_doc(uid: str, lib: dict, summary: str, url: str, day: str,
     return "\n".join(lines) + "\n"
 
 
+SUMMARY_HEAD = 5
+
+
+def summarize_list(items: list[str], limit: int = SUMMARY_HEAD) -> str:
+    """失敗一覧を「件数 + 先頭 N 件」に丸める.
+
+    event_day が最大 60 日 × 記事数なので、全件を並べると 1 行が数百 URL に
+    なって CI ログで読めなくなる。件数さえ分かれば原因の当たりは付く。
+    """
+    if not items:
+        return "なし"
+    head = ", ".join(items[:limit])
+    if len(items) <= limit:
+        return f"{len(items)} 件 [{head}]"
+    return f"{len(items)} 件 [{head}, …他 {len(items) - limit} 件]"
+
+
 def main() -> None:
     here = os.path.dirname(os.path.abspath(__file__))
     default_out_dir = os.path.join(here, "..", "events")
@@ -254,7 +271,12 @@ def main() -> None:
     failed_libs = []
     failed_days = []      # "code/day" 形式
     failed_articles = []  # "code/day/detail_url" 形式
-    blocked_articles = []  # allowlist で弾いた "code/day/detail_url" 形式
+    # allowlist で弾いたものは理由で分ける (Ruling 18)。同じホストで置き場だけ
+    # 外れているのは「配信元が記事を移した = 取りこぼし」なので失敗に数え、
+    # 別ホスト・"#"・相対 URL は WARN に留める。
+    moved_articles = []   # 同ホストだが url_path_prefix の外 → 失敗
+    offsite_links = []    # 別ホスト / netloc 無し → WARN のみ
+    empty_days = []       # リンクはあったのに受理 0 件だった日 → 失敗 (backstop)
 
     for lib in cfg["libraries"]:
         code = lib["code"]
@@ -294,6 +316,7 @@ def main() -> None:
                 failed_days.append(f"{code}/{day}")
                 continue
 
+            accepted = 0   # allowlist を通った記事の数 (下の backstop 用)
             for detail_url, list_title in events:
                 try:
                     # allowlist 判定は try の中で行う (Ruling 13)。
@@ -302,17 +325,30 @@ def main() -> None:
                     # IndexError で例外の外に出て「1 件で全体停止」を
                     # 再発させてしまう。
                     parsed = urllib.parse.urlparse(detail_url)
-                    if (parsed.netloc != cfg["url_host_allowlist"]
-                            or cfg["url_path_prefix"] not in parsed.path):
-                        print(f"  WARN: allowlist 外、skip: {detail_url}",
+                    if parsed.netloc != cfg["url_host_allowlist"]:
+                        # 別ホスト・"#"・相対 URL。記事ではなくナビゲーションの
+                        # 部品である可能性が高いので WARN だけにする
+                        # (Ruling 18)。失敗に数えると、配信元が外部リンクを
+                        # 1 本足しただけで CI が恒常的に赤になり、しかも
+                        # コード変更以外に緑へ戻す手段が無い —「1 件の失敗で
+                        # 日常的に赤くしない」(Ruling 10) と衝突する。
+                        # ここを素通りした取りこぼしは、下の「受理 0 件」の
+                        # backstop が捉える。
+                        print(f"  WARN: 配信元外のリンク、skip: {detail_url}",
                               file=sys.stderr)
-                        # 配信元が記事を url_path_prefix の外へ移すと全件が
-                        # ここで弾かれ、written=0 のまま exit 0 になり得る。
-                        # イベントは件数で異常を測れない設計 (0 件が正常) な
-                        # ので、これを見張るには失敗として数えるしかない
-                        # (Ruling 14)。
-                        blocked_articles.append(f"{code}/{day}/{detail_url}")
+                        offsite_links.append(f"{code}/{day}/{detail_url}")
                         continue
+                    if cfg["url_path_prefix"] not in parsed.path:
+                        # 同じホストなのに記事の置き場から外れている =
+                        # 配信元が記事を移した。**取りこぼしが明確**なので
+                        # 失敗に数える (Ruling 18)。イベントは件数で異常を
+                        # 測れない設計 (0 件が正常) なので、部分的な移動を
+                        # 見張る手段が他に無い。
+                        print(f"  ERROR: 記事の置き場の外、skip: {detail_url}",
+                              file=sys.stderr)
+                        moved_articles.append(f"{code}/{day}/{detail_url}")
+                        continue
+                    accepted += 1
 
                     # uid/out_path は page と ymd だけで決まるので、本文取得の
                     # 前に計算できる。304 のとき out_path の有無で短絡すれば
@@ -372,13 +408,28 @@ def main() -> None:
                     failed_articles.append(f"{code}/{day}/{detail_url}")
                     continue
 
+            if events and accepted == 0:
+                # リンクはあったのに 1 件も受理できなかった = 配信元の構造が
+                # 変わった可能性が高い。別ホスト側 (WARN 止まり) に全部落ちる
+                # ケース — 例えば配信元が相対 URL に切り替えた — もここで
+                # 捕まる。取りこぼしを静かにしないための backstop (Ruling 18)。
+                print(f"  ERROR: 館 {code} {day}: リンク {len(events)} 件のうち "
+                      f"受理 0 件", file=sys.stderr)
+                empty_days.append(f"{code}/{day}")
+
     if not args.dry_run:
         save_http_cache(http_cache)
     print(f"Done. written={written} skipped={skipped}", file=sys.stderr)
-    if failed_libs or failed_days or failed_articles or blocked_articles:
-        print(f"失敗: 館={failed_libs or 'なし'} 日={failed_days or 'なし'} "
-              f"記事={failed_articles or 'なし'} "
-              f"allowlist={blocked_articles or 'なし'}", file=sys.stderr)
+    if offsite_links:
+        # exit には影響させないが、黙らせもしない (Ruling 18)。
+        print(f"配信元外のリンク (skip): {summarize_list(offsite_links)}",
+              file=sys.stderr)
+    if failed_libs or failed_days or failed_articles or moved_articles or empty_days:
+        print(f"失敗: 館={summarize_list(failed_libs)} "
+              f"日={summarize_list(failed_days)} "
+              f"記事={summarize_list(failed_articles)} "
+              f"記事の移動={summarize_list(moved_articles)} "
+              f"受理0件の日={summarize_list(empty_days)}", file=sys.stderr)
         sys.exit(2)
 
 

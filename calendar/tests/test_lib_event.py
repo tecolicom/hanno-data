@@ -13,6 +13,7 @@ import os
 import re
 import sys
 import tempfile
+import urllib.error
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 BIN = os.path.join(HERE, "..", "bin")
@@ -427,6 +428,179 @@ def test_build_description_falls_back_to_full_when_llm_unavailable():
         mod.llm_available = orig_llm_available
     assert method == "full", method
     assert desc == f"{body}\n\nhttps://x/4", desc
+
+
+def _run_synthetic(links, detail_html=None, day="2026-08-01",
+                   fetch_with_cache=None):
+    """1 館 1 日ぶんの合成データで main() を走らせ (exit code, 出力, 書かれた
+    ファイル名) を返す.
+
+    links は events.php の <article> に並べる (href, タイトル) のリスト。
+    detail_html は詳細ページの中身 (None なら既定の本文)。
+    fetch_with_cache を渡すとその関数で差し替える (404 や 304 の再現用)。
+    """
+    items = "".join(f"<li><a href='{h}'>{t}</a></li>" for h, t in links)
+    events_html = f"<article><div class='txtbox'><ul>{items}</ul></div></article>"
+    body = detail_html or (
+        "<article><h1>合成イベント</h1><div class='txtbox'><p>"
+        + ("あ" * 60) + "</p></div></article>")
+
+    def fake_fetch_cal(cal_url, lib_code, term_from, term_to):
+        ed = [day] if lib_code == "02" else []
+        return {"libraries": [{"code": lib_code,
+                               "term": [{"month": day[:4] + day[5:7],
+                                         "event_day": ed}]}]}
+
+    def fake_fetch_text(url):
+        if "events.php" in url:
+            return events_html
+        return body
+
+    orig = {
+        "fetch_cal": mod.fetch_cal,
+        "fetch_text": _hanno_lib.fetch_text,
+        "fetch_with_cache": mod.fetch_with_cache,
+        "load_http_cache": mod.load_http_cache,
+        "save_http_cache": mod.save_http_cache,
+        "llm_available": mod.llm_available,
+    }
+    mod.fetch_cal = fake_fetch_cal
+    _hanno_lib.fetch_text = fake_fetch_text
+    mod.fetch_with_cache = fetch_with_cache or (lambda u, e, l: (body, None, None))
+    mod.load_http_cache = lambda: {}
+    mod.save_http_cache = lambda c: None
+    mod.llm_available = lambda: False
+    code = 0
+    try:
+        with tempfile.TemporaryDirectory() as out_dir:
+            argv = ["cal-lib-event-fetch", "--out-dir", out_dir,
+                    "--today", "2026-08-24"]
+            try:
+                out = _run_main_capture_stderr(argv)
+            except SystemExit as e:
+                code = e.code
+                out = ""
+            files = sorted(os.path.basename(p) for p in
+                           glob.glob(os.path.join(out_dir, "**", "*.yaml"),
+                                     recursive=True))
+    finally:
+        mod.fetch_cal = orig["fetch_cal"]
+        _hanno_lib.fetch_text = orig["fetch_text"]
+        mod.fetch_with_cache = orig["fetch_with_cache"]
+        mod.load_http_cache = orig["load_http_cache"]
+        mod.save_http_cache = orig["save_http_cache"]
+        mod.llm_available = orig["llm_available"]
+    return code, out, files
+
+
+_OK_LINK = ("https://www.hanno-lib.jp/calendar/900.html", "正しい記事")
+
+
+def test_moved_article_counts_as_failure():
+    """Ruling 18: 同じホストなのに url_path_prefix の外にある記事は
+    「配信元が記事を移した = 取りこぼし」なので失敗に数える (exit 2)。
+
+    イベントは件数で異常を測れない設計 (0 件が正常) なので、一部の記事だけ
+    移されたことを見張る手段がこれ以外に無い。
+    """
+    code, _out, files = _run_synthetic([
+        _OK_LINK,
+        ("https://www.hanno-lib.jp/event/901.html", "移された記事"),
+    ])
+    assert code == 2, code
+    assert len(files) == 1, files      # 正しい記事は書かれている
+
+
+def test_offsite_links_do_not_fail_the_run():
+    """Ruling 18: 別ホスト・"#"・相対 URL は記事ではなくナビゲーションの部品で
+    ある可能性が高いので WARN 止まりにする。
+
+    ここを失敗にすると、配信元が外部リンクを 1 本足しただけで CI が恒常的に
+    赤になり、コード変更以外に緑へ戻す手段が無くなる (Ruling 10 と衝突する)。
+    """
+    code, _out, files = _run_synthetic([
+        _OK_LINK,
+        ("#", "ページ内リンク"),
+        ("https://www.city.hanno.lg.jp/foo.html", "市のサイト"),
+        ("/calendar/902.html", "相対リンク"),
+    ])
+    assert code == 0, code
+    assert len(files) == 1, files
+
+
+def test_zero_accepted_links_fails_even_if_all_are_offsite():
+    """Ruling 18 の backstop: リンクはあったのに 1 件も受理できなかった日は
+    失敗にする。
+
+    配信元が相対 URL に切り替えるなど、取りこぼしが全部 WARN 側に落ちる形で
+    起きうる。それを静かに通すと記事が消えたことに気付けない。
+    """
+    code, _out, files = _run_synthetic([
+        ("/calendar/903.html", "相対リンクだけ"),
+        ("#", "ページ内リンク"),
+    ])
+    assert code == 2, code
+    assert files == [], files
+
+
+def test_article_404_is_isolated_from_the_rest():
+    """Ruling 10 の記事枝: 詳細ページが 1 つ 404 でも他の記事は書かれ、
+    exit 2 で取りこぼしを知らせること。
+
+    _lib.fetch_with_cache は 304 以外の HTTPError をそのまま再送出するので、
+    リンク切れが 1 本あるだけで全体が落ちる作りになりやすい。
+    """
+    dead = "https://www.hanno-lib.jp/calendar/dead.html"
+
+    def _fetch_with_cache(url, etag, lm):
+        if url == dead:
+            raise urllib.error.HTTPError(url, 404, "Not Found", {}, None)
+        return (None, None, None)   # 本文は fetch_text 側から来る
+
+    code, _out, files = _run_synthetic(
+        [_OK_LINK, (dead, "消えた記事")], fetch_with_cache=_fetch_with_cache)
+    assert code == 2, code
+    assert len(files) == 1, files
+
+
+def test_list_title_is_used_when_the_detail_page_has_no_h1():
+    """parse_detail が見出しを取れないとき events.php 側のタイトルに落とす.
+
+    メモ化 (Ruling 12) は本文だけを共有し、list_title のフォールバックは
+    日ごとに適用する — ここが崩れると、複数日記事の 2 日目以降が 1 日目の
+    タイトルを名乗る。
+    """
+    no_h1 = ("<article><div class='txtbox'><p>" + ("い" * 60)
+             + "</p></div></article>")
+    code, _out, files = _run_synthetic([_OK_LINK], detail_html=no_h1)
+    assert code == 0, code
+    assert len(files) == 1, files
+
+
+def test_summarize_list_truncates():
+    """失敗一覧は件数 + 先頭 N 件に丸める (60 日 × 記事数だと 1 行が数百 URL
+    になって CI ログで読めなくなる)。"""
+    assert mod.summarize_list([]) == "なし"
+    got = mod.summarize_list([f"u{i}" for i in range(20)])
+    assert got.startswith("20 件 ["), got
+    assert "他 15 件" in got, got
+
+
+def test_every_fixture_is_referenced_except_the_doctored_one():
+    """fixture の迷子を防ぐ.
+
+    manifest から参照されないファイルは、シナリオ専用に手で作った
+    f032b.html (Ruling 17) だけであるべき。将来 fixture を採り直したときに
+    使われないコピーが残っても気付けるようにする。
+    """
+    fixdir = os.path.join(HERE, "fixtures", "cal-lib-event-fetch")
+    manifest, _read = _fixture_manifest_and_reader()
+    on_disk = {os.path.basename(p) for p in glob.glob(os.path.join(fixdir, "*"))}
+    on_disk.discard("manifest.json")
+    unreferenced = on_disk - set(manifest.values())
+    assert unreferenced == {"f032b.html"}, unreferenced
+    missing = set(manifest.values()) - on_disk
+    assert not missing, missing
 
 
 if __name__ == "__main__":

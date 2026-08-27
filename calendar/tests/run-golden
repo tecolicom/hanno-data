@@ -224,14 +224,16 @@ def _setup_lib_event_content_update(m, crawler, manifest):
     """Ruling 12 の回帰網: 1 記事が複数日に出るとき、記事本文が更新された後
     同一実行内の全ての日が新しい本文に揃うことを見る。
 
-    _setup_lib_event は fetch_with_cache を「常に 200 相当」にしか差し替え
-    ないので、304 短絡そのものは一度も踏まれない (lm が常に None)。
     この記事だけ実際の条件付き GET を模す: 同一実行内で最初に処理した日は
-    (http_cache が空なので) 200 でその日の fixture 本文を取り、以後の日は
-    http_cache が実行中に _LIB_EVENT_UPDATED_LM に更新されているので 304 に
-    なる。seed には「更新前の本文」の content_hash を持つ YAML を 11 日ぶん
-    置いてあるので、メモ化 (detail_cache) が無いと 304 + out_path 既存の
-    短絡で古い本文のまま固定されてしまう。
+    (http_cache が空なので) 200 で「更新後の本文」を取り、http_cache が
+    実行中に _LIB_EVENT_UPDATED_LM へ更新される。seed には「更新前の本文」の
+    content_hash を持つ YAML を 11 日ぶん置いてある。
+
+    **メモ化 (detail_cache) があるので、緑の経路では 2 日目以降が
+    fetch_with_cache を呼ばない** — つまりこのシナリオは 304 の戻り値を
+    消費しない。メモ化を外すと初めて 2 日目以降が 304 を受け取り、
+    out_path 既存の短絡で古い本文のまま固定されて赤くなる。
+    304 そのものの回帰網は _setup_lib_event_304 が担う (Ruling 19)。
 
     **どちらが捏造データか (Ruling 17)**: `f032.html` (manifest 経由、通常の
     _setup_lib_event と同じ) は配信元の実際の応答。`f032b.html` は
@@ -254,6 +256,35 @@ def _setup_lib_event_content_update(m, crawler, manifest):
                     None, _LIB_EVENT_UPDATED_LM)                             # 200 (捏造データ)
         return _read_fixture(crawler, manifest[url]), None, None
     m.fetch_with_cache = _fetch_with_cache
+
+
+_LIB_EVENT_304_LM = "Mon, 24 Aug 2026 00:00:00 GMT"
+
+
+def _setup_lib_event_304(m, crawler, manifest):
+    """Ruling 19: 304 (Not Modified) の両枝をピン留めする.
+
+    **本番の定常状態はこれ**である。詳細ページは静的で Last-Modified が
+    滅多に動かないので、毎日の実行はほぼ全記事が 304 になる。ところが他の
+    シナリオは fetch_with_cache を「常に 200 相当」(lm が常に None) にしか
+    差し替えないので、いちばん頻繁に走る経路に網が 1 本も無かった。
+
+    load_http_cache が全 URL について一致する Last-Modified を返し、
+    fetch_with_cache は常に 304 を返す。seed には 18 件のうち 17 件だけ
+    置いてあるので、1 回の実行で両方の枝を通る:
+
+      - seed のある 17 件 … 304 かつ out_path 既存 → skip (書き直さない)
+      - seed の無い 1 件 (08-22 の 822) … 304 だが out_path が無い →
+        fetch_text で取り直す (同じ記事が新しい日に載ったときの経路)
+
+    期待は written=1 / skipped=17。`os.path.exists(out_path)` の判定を
+    反転させても、取り直しのフォールバックを消しても、このシナリオが赤くなる。
+    """
+    _setup_lib_event(m, crawler, manifest)
+    m.load_http_cache = lambda: {
+        url: {"etag": None, "last_modified": _LIB_EVENT_304_LM}
+        for url in manifest}
+    m.fetch_with_cache = lambda url, etag, lm: (None, etag, lm)
 
 
 # (golden 名, crawler スクリプト名, setup, seed dir 名 | None)
@@ -310,6 +341,11 @@ CRAWLERS = [
     # 全ての日が新しい本文に揃うこと (= メモ化) を見る (Ruling 12 の回帰網)。
     ("cal-lib-event-content-update", "cal-lib-event-fetch",
      _setup_lib_event_content_update, "cal-lib-event-content-update"),
+    # 304-skip: 条件付き GET が 304 を返す**本番の定常状態**を通す
+    # (Ruling 19)。seed は 18 件中 17 件なので、1 回の実行で
+    # 「304 + 既存 → skip」と「304 + 未作成 → 取り直す」の両枝を通る。
+    ("cal-lib-event-304-skip", "cal-lib-event-fetch",
+     _setup_lib_event_304, "cal-lib-event-304-skip"),
 ]
 
 
