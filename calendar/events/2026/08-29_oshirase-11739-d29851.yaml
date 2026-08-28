@@ -1,0 +1,28 @@
+uid: "oshirase-11739-d29851@hanno.city.tecoli.com"
+summary: "ℹ️ 第7回お絵描き大好き作品展"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jitishinkoka/shiminkatudou/11739.html"
+dtstart: "2026-08-29"
+dtend: "2026-08-29"
+description: |-
+  🆕 新着掲載 (公開日: 2026-08-28)
+  
+  ## 飯能市立保育所、名栗幼稚園の園児のみなさんが自由に描いた作品を展示します。
+  
+  展示期間  9月7日(月曜日）～ 9月23日(水曜日）
+  
+  場所  市民活動センター交流広場 (丸広百貨店飯能店7階）10時～19時
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jitishinkoka/shiminkatudou/11739.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "11739"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jitishinkoka/shiminkatudou/11739.html"
+  fetched_at: "2026-08-28T02:00:27.774312Z"
+  content_hash: "sha256-d298515465671e0b"
+  summary_method: "full"
+  publish_date: "2026-08-28"

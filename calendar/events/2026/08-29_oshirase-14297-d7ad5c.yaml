@@ -1,0 +1,33 @@
+uid: "oshirase-14297-d7ad5c@hanno.city.tecoli.com"
+summary: "ℹ️ 長ぐつを脱いだ猫株式会社との連携協定（令和8年8月27日）"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/tihousouseikouikigyousei/sangakukanrenkei/14297.html"
+dtstart: "2026-08-29"
+dtend: "2026-08-29"
+description: |-
+  🆕 新着掲載 (公開日: 2026-08-27)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  飯能市と長ぐつを脱いだ猫株式会社は、令和8年8月27日に包括連携協定を締結しました。飯能市の強固な地盤という特徴をプロモーションし、防災減災対策、移住定住促進、健康づくり、生涯現役での起業家支援、公共施設等の天然芝整備によるまちづくりを推進します。
+  
+  連携事項は以下の通り：
+  ・健康づくり
+  ・移住定住促進及び起業家支援
+  ・地震に強いまちのプロモーション及び防災減災対策
+  ・公共施設等の緑化（天然芝の整備）を通じたまちづくり
+  ・その他協定目的達成に必要な事項
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/tihousouseikouikigyousei/sangakukanrenkei/14297.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "14297"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/tihousouseikouikigyousei/sangakukanrenkei/14297.html"
+  fetched_at: "2026-08-28T02:00:32.636726Z"
+  content_hash: "sha256-d7ad5cfb68689857"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-08-27"

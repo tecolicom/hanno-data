@@ -1,6 +1,6 @@
 uid: "tourism-ec-cyokotto-wakoucha-20260926@hanno.city.tecoli.com"
 summary: "ちょこっとお手軽ツアー〜原市場の生きもの探しと和紅茶づくり〜"
-location: "集合 原市場福祉センター玄関前（国際興業バス「原市場」下車徒歩2分）"
+location: "集合 原市場地区行政センター玄関前（国際興業バス「石原橋」下車徒歩3分） ※原市場福祉センター閉館につき集合場所が変更になりました。"
 url: "https://hanno-tourism.jp/hanno-eco/tour/ec-cyokotto-wakoucha/"
 dtstart: "2026-09-26T13:30:00+09:00"
 dtend: "2026-09-26T16:30:00+09:00"
@@ -26,36 +26,5 @@ source:
   type: hanno-tourism-jp
   id: "ec-cyokotto-wakoucha"
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-cyokotto-wakoucha/"
-  fetched_at: "2026-08-06T23:53:50.337287Z"
-  content_hash: "sha256-de49071744e3c853"
-translations:
-  en:
-    summary: "Easy Eco-Tour: Wildlife Spotting at Haraichiba & Handmade Japanese Black Tea"
-    description: |-
-      Automated translation (refer to source for accuracy)
-      
-      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-cyokotto-wakoucha/
-      
-      Explore the wetlands of Haraichiba area to search for wildlife, and make handmade Japanese black tea using Hanno tea as a collaborative activity.
-      
-      【Participation fee】
-      ¥2,500 per person, ¥5,000 per family (includes guide fee, instructor fee, insurance)
-      
-      【Capacity】
-      12 people
-      
-      【Guide】
-      Kojima Tsubasa (Hanno City Eco-Tourism Citizen Guides Association – Wildlife Division)
-      
-      【What to bring】
-      • Drinking water, towel, work gloves (like cotton gloves)
-      • Insect repellent, rain gear
-      • Child life jacket if you have one (rentals available)
-      • Aquatic net or collection case if you have one (rentals available)
-      • Clothes suitable for getting wet (avoid exposing too much skin)
-      • Non-slip shoes suitable for getting wet that work in water up to knee depth (no rubber boots or sandals)
-      • Hat
-    translation_hash: "sha256-8127c0bde14926ee"
-    model: "claude-haiku-4-5"
-    translated_at: "2026-08-06T23:57:02.901488Z"
-    format_version: 3
+  fetched_at: "2026-08-28T01:59:43.649519Z"
+  content_hash: "sha256-66be2dc02170f1e4"

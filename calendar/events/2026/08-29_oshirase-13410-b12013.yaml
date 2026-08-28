@@ -1,0 +1,38 @@
+uid: "oshirase-13410-b12013@hanno.city.tecoli.com"
+summary: "ℹ️ 飯能市プレミアム付デジタル商品券事業について"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/13410.html"
+dtstart: "2026-08-29"
+dtend: "2026-08-29"
+description: |-
+  🔄 内容更新 (公開日: 2026-08-28 / 前回掲載: 2026-07-15)
+  主な変更: 購入申込期間が7月31日で終了し、当選発表は8月3日午後3時以降にPayPayから送付されます。
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  飯能市プレミアム付デジタル商品券の購入権をお持ちの方は、令和8年8月31日（月曜日）までに購入手続きを完了してください。購入期限を過ぎると購入権が無効となります。
+  
+  PayPayアプリ内から購入できます。当選していても購入がお済でないと商品券は利用できませんのでご注意ください。当選発表メールは8月3日（月曜日）午後3時以降にPayPayから送付されます。
+  
+  ・商品券内容：7,500円分が5,000円で購入可能（1口あたり）
+  ・利用期間：購入後から令和8年12月25日（金曜日）まで
+  ・利用対象店舗：市内のPayPay加盟店のうち対象店舗のみ
+  
+  購入申込は令和8年7月31日（金曜日）をもって終了しました。申込期間は令和8年7月1日から7月31日でした。操作説明会も既に終了しています。
+  
+  PayPayのご利用に関するご質問はPayPayカスタマーサポート窓口（電話0120-990-634、24時間365日対応）へお問い合わせください。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/13410.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13410"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/13410.html"
+  fetched_at: "2026-08-28T02:00:15.618091Z"
+  content_hash: "sha256-b1201311f2b8ebab"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-08-28"
+  supersedes: "oshirase-13410-628198@hanno.city.tecoli.com"

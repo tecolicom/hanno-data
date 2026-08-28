@@ -1,0 +1,32 @@
+uid: "oshirase-14321-61958c@hanno.city.tecoli.com"
+summary: "ℹ️ 令和8年熊本地震に伴う住宅支援について"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/bosai/14321.html"
+dtstart: "2026-08-29"
+dtend: "2026-08-29"
+description: |-
+  🆕 新着掲載 (公開日: 2026-08-27)
+  
+  ## 住宅支援について
+  
+  令和8年熊本地震で被災された住まいの確保を支援するため、市営住宅2戸(岩渕団地)を提供します。
+  
+  対象者は、地震の被災者で住宅に困窮している方となります。
+  
+  入居期間は原則6か月とし、必要に応じて最長1年まで延長できるものとします。
+  
+  なお、本市が提供する市営住宅については、被災者の受入れが可能な公営住宅等の情報として国土交通省に報告し、全国の自治体等の情報と合わせて同省ホームページに掲載されています。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/bosai/14321.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "14321"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/bosai/14321.html"
+  fetched_at: "2026-08-28T02:00:28.607440Z"
+  content_hash: "sha256-61958c4f9e960e9f"
+  summary_method: "full"
+  publish_date: "2026-08-27"
