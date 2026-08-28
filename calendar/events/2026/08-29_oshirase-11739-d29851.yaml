@@ -26,3 +26,22 @@ source:
   content_hash: "sha256-d298515465671e0b"
   summary_method: "full"
   publish_date: "2026-08-28"
+translations:
+  en:
+    summary: "ℹ️ 7th Drawing Lovers Exhibition"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New (Published: August 28, 2026)
+      
+      We will display artworks freely drawn by children from Hanno Municipal Childcare Center and Naguri Kindergarten.
+      
+      Exhibition period: September 7 (Monday) – September 23 (Wednesday)
+      
+      Location: Citizens' Activity Center Exchange Plaza (7th floor, Maruhiro Department Store Hanno Branch), 10:00 am – 7:00 pm
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jitishinkoka/shiminkatudou/11739.html
+    translation_hash: "sha256-48ccd68aec7e4fdc"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-28T02:01:53.899655Z"
+    format_version: 3

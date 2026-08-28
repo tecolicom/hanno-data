@@ -37,3 +37,31 @@ source:
   content_hash: "sha256-12f943761b84dcfd"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-08-28"
+translations:
+  en:
+    summary: "ℹ️ Intake consultations for children needing special care at municipal childcare facilities"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      📢 Newly posted (published August 28, 2026)
+      
+      Hanno City is accepting intake consultations for children with developmental delays, allergies, or medical care needs who wish to attend a municipal childcare facility in April 2027 (Reiwa 9) or during the 2027 fiscal year.
+      
+      【Schedule】
+      Children with developmental delays or allergies: October 8, 9, 13, 2026 (Reiwa 8), 9:00 AM – 11:00 AM
+      Children requiring medical care: October 6, 7, 2026 (Reiwa 8), 10:00 AM – 11:30 AM
+      
+      【Location】
+      Yamate Childcare Center (1F, 19-4 Yamate-cho, Hanno)
+      
+      【What to expect】
+      Please bring your child with you. Staff including childcare workers, health nurses, a nutritionist, and a counselor will observe your child and discuss developmental history and home life with you.
+      
+      【How to apply】
+      This requires advance reservation. Call the Childcare Division at 042-973-2111 or visit the Childcare Division window at City Hall between September 1 and September 24, 2026 (Reiwa 8). Please fill out and bring a health and development form on the day of your consultation.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/hoikuka/ninteikyufu/8236.html
+    translation_hash: "sha256-67a141203f8e35de"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-28T02:02:28.157350Z"
+    format_version: 3

@@ -31,3 +31,25 @@ source:
   content_hash: "sha256-d7ad5cfb68689857"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-08-27"
+translations:
+  en:
+    summary: "ℹ️ Partnership agreement with Nagagutsu wo Nuida Neko Inc. (August 27, 2026)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New post (Published: August 27, 2026)
+      
+      Hanno City and Nagagutsu wo Nuida Neko Inc. signed a comprehensive partnership agreement on August 27, 2026 (Reiwa 8). The agreement promotes Hanno City's strong geological foundation and advances disaster prevention and mitigation, support for relocation and settlement, health promotion, support for lifelong entrepreneurs, and town development through natural grass installation at public facilities.
+      
+      Areas of cooperation:
+      • Health promotion
+      • Relocation/settlement support and entrepreneurship support
+      • Promotion of an earthquake-resistant city and disaster prevention/mitigation measures
+      • Town development through greening of public facilities (natural grass installation)
+      • Other matters necessary to achieve the goals of the agreement
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/tihousouseikouikigyousei/sangakukanrenkei/14297.html
+    translation_hash: "sha256-1f7a0f522f2976c3"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-28T02:02:19.405148Z"
+    format_version: 3

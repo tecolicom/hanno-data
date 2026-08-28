@@ -37,3 +37,31 @@ source:
   content_hash: "sha256-c96f90f8cb61db3f"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-08-28"
+translations:
+  en:
+    summary: "ℹ️ Mental Health Forum Lecture"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      New listing (posted August 28, 2026)
+      
+      Hanno City is hosting a Mental Health Forum. The topic is "Practical psychological skills for everyday life: stress management and mental health in the workplace." Lecturer Kosuke Akiyama, a certified psychologist and clinical psychologist, will explain easy-to-understand approaches to managing stress effectively.
+      
+      Date and time: October 1, 2026 (Thursday), 2:00 p.m.–4:00 p.m. (doors open 1:30 p.m.)
+      Venue: Hanno City Fujimi District Community Center Assembly Hall (16 Futayanagi, Hanno)
+      Capacity: 100 people (first come, first served)
+      
+      Application period: September 1–25, 2026 (Tuesday 9:00 a.m. through Friday 4:30 p.m.)
+      
+      How to apply:
+      • Online application
+      • Fax (042-974-6558): include your address, name, phonetic spelling of your name, and phone number
+      • Phone (042-974-3488)
+      
+      If you need sign language interpretation, please request it by September 8, 2026. Parking is available at Hanno City Hall.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/14150.html
+    translation_hash: "sha256-f1a7d78157f4f019"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-28T02:02:09.079423Z"
+    format_version: 3

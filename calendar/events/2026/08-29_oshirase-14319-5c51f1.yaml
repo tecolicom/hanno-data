@@ -32,3 +32,28 @@ source:
   content_hash: "sha256-5c51f1b9b615b052"
   summary_method: "full"
   publish_date: "2026-08-26"
+translations:
+  en:
+    summary: "ℹ️ Staff dispatch in response to the 2026 Kumamoto earthquake"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New post (Published: August 26, 2026)
+      
+      We received a request to dispatch 2 staff members for the period from August 17 (Monday) to August 25 (Tuesday), and have dispatched staff as follows.
+      
+      Staff Dispatch
+      
+      (1) Dispatch period: August 17 (Monday) to August 25 (Tuesday), 2026 (Reiwa 8) — 9 days total
+      
+      (2) Dispatch destination: Kumamoto City, Kumamoto Prefecture
+      
+      (3) Number of staff: 2
+      
+      (4) Duties: Evacuation shelter operations and damaged building assessment surveys
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/bosai/14319.html
+    translation_hash: "sha256-00534acb36d11d6a"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-28T02:02:21.503237Z"
+    format_version: 3

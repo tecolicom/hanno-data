@@ -36,3 +36,29 @@ source:
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-08-28"
   supersedes: "oshirase-13410-628198@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ Hanno City Premium Digital Shopping Vouchers Program"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content Update (Posted: August 28, 2026 / Previous: July 15, 2026)
+      Main changes: The purchase application period ended on July 31, and the winners' announcement will be sent from PayPay on August 3 at 3:00 PM or later.
+      
+      If you hold a purchase right for Hanno City Premium Digital Shopping Vouchers, please complete your purchase by August 31, 2026 (Monday, Reiwa 8). If you miss the purchase deadline, your purchase right becomes invalid.
+      
+      You can purchase from within the PayPay app. Please note that even if you are selected as a winner, you cannot use the vouchers unless you complete the purchase. The winners' announcement email will be sent from PayPay on August 3 (Monday) at 3:00 PM or later.
+      
+      • Voucher details: 7,500 yen value available for 5,000 yen per unit
+      • Usage period: From purchase until December 25, 2026 (Friday, Reiwa 8)
+      • Eligible stores: PayPay partner stores in Hanno City that are designated as eligible merchants
+      
+      The purchase application period closed on July 31, 2026 (Friday, Reiwa 8). Applications were accepted from July 1 to July 31. Operation explanation sessions have already concluded.
+      
+      For questions about PayPay usage, please contact PayPay Customer Support (Phone: 0120-990-634, available 24/7).
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/13410.html
+    translation_hash: "sha256-95f5950f2127468c"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-28T02:02:05.430256Z"
+    format_version: 3

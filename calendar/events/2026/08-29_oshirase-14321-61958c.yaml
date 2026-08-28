@@ -30,3 +30,26 @@ source:
   content_hash: "sha256-61958c4f9e960e9f"
   summary_method: "full"
   publish_date: "2026-08-27"
+translations:
+  en:
+    summary: "ℹ️ Housing support for those affected by the 2026 Kumamoto earthquake"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 Newly posted (Published: August 27, 2026)
+      
+      Housing Support
+      
+      To help people affected by the 2026 Kumamoto earthquake secure housing, Hanno City is providing 2 municipal apartments (Iwabuchi housing complex).
+      
+      Eligibility: Earthquake disaster victims facing housing difficulties.
+      
+      Stay period: The standard occupancy is 6 months, extendable up to 1 year if needed.
+      
+      Note: Information about these municipal apartments has been reported to the Ministry of Land, Infrastructure, Transport and Tourism as available public housing for disaster victims. This information appears on the Ministry's website alongside offerings from other municipalities across Japan.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/bosai/14321.html
+    translation_hash: "sha256-74b1d277cb2af704"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-28T02:02:23.952091Z"
+    format_version: 3
