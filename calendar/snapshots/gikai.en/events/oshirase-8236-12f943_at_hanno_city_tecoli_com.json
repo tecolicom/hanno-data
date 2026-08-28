@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-28T02:02:42.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n📢 Newly posted (published August 28, 2026)\n\nHanno City is accepting intake consultations for children with developmental delays, allergies, or medical care needs who wish to attend a municipal childcare facility in April 2027 (Reiwa 9) or during the 2027 fiscal year.\n\n【Schedule】\nChildren with developmental delays or allergies: October 8, 9, 13, 2026 (Reiwa 8), 9:00 AM – 11:00 AM\nChildren requiring medical care: October 6, 7, 2026 (Reiwa 8), 10:00 AM – 11:30 AM\n\n【Location】\nYamate Childcare Center (1F, 19-4 Yamate-cho, Hanno)\n\n【What to expect】\nPlease bring your child with you. Staff including childcare workers, health nurses, a nutritionist, and a counselor will observe your child and discuss developmental history and home life with you.\n\n【How to apply】\nThis requires advance reservation. Call the Childcare Division at 042-973-2111 or visit the Childcare Division window at City Hall between September 1 and September 24, 2026 (Reiwa 8). Please fill out and bring a health and development form on the day of your consultation.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/hoikuka/ninteikyufu/8236.html",
+  "end": {
+    "date": "2026-08-30"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOW82OHBqY2I5aDY5ajNpZDFqODFrNjJyamVkc242NnFia2Y0bjc4cGIzZHRtNmliajNkdG1nIGI2ZjM2ZTE5NzUxYzA1Y2NlOTlmYTAwODI4ZTQyOWY0MGY2ZGIxMDBlMmRiZTQ0MmJjMjYyMmEyNWRhOTczMTZAZw",
+  "iCalUID": "oshirase-8236-12f943@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9o68pjcb9h69j3id1j81k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/hoikuka/ninteikyufu/8236.html"
+  },
+  "start": {
+    "date": "2026-08-29"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Intake consultations for children needing special care at municipal childcare facilities",
+  "updated": "2026-08-28T02:02:42.983Z"
+}

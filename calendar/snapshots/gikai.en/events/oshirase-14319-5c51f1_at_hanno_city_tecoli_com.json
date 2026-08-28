@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-28T02:02:41.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 New post (Published: August 26, 2026)\n\nWe received a request to dispatch 2 staff members for the period from August 17 (Monday) to August 25 (Tuesday), and have dispatched staff as follows.\n\nStaff Dispatch\n\n(1) Dispatch period: August 17 (Monday) to August 25 (Tuesday), 2026 (Reiwa 8) — 9 days total\n\n(2) Dispatch destination: Kumamoto City, Kumamoto Prefecture\n\n(3) Number of staff: 2\n\n(4) Duties: Evacuation shelter operations and damaged building assessment surveys\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/bosai/14319.html",
+  "end": {
+    "date": "2026-08-30"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Z3BqMmU5ZDZsaGphY2I2NjUwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-14319-5c51f1@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6gpj2e9d6lhjacb66506gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/bosai/14319.html"
+  },
+  "start": {
+    "date": "2026-08-29"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Staff dispatch in response to the 2026 Kumamoto earthquake",
+  "updated": "2026-08-28T02:02:41.714Z"
+}

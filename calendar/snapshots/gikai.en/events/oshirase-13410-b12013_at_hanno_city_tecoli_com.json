@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-28T02:02:39.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🔄 Content Update (Posted: August 28, 2026 / Previous: July 15, 2026)\nMain changes: The purchase application period ended on July 31, and the winners' announcement will be sent from PayPay on August 3 at 3:00 PM or later.\n\nIf you hold a purchase right for Hanno City Premium Digital Shopping Vouchers, please complete your purchase by August 31, 2026 (Monday, Reiwa 8). If you miss the purchase deadline, your purchase right becomes invalid.\n\nYou can purchase from within the PayPay app. Please note that even if you are selected as a winner, you cannot use the vouchers unless you complete the purchase. The winners' announcement email will be sent from PayPay on August 3 (Monday) at 3:00 PM or later.\n\n• Voucher details: 7,500 yen value available for 5,000 yen per unit\n• Usage period: From purchase until December 25, 2026 (Friday, Reiwa 8)\n• Eligible stores: PayPay partner stores in Hanno City that are designated as eligible merchants\n\nThe purchase application period closed on July 31, 2026 (Friday, Reiwa 8). Applications were accepted from July 1 to July 31. Operation explanation sessions have already concluded.\n\nFor questions about PayPay usage, please contact PayPay Customer Support (Phone: 0120-990-634, available 24/7).\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/13410.html",
+  "end": {
+    "date": "2026-08-30"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3EzMmMxZGM4b2o0YzFoNmQwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-13410-b12013@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6cq32c1dc8oj4c1h6d06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/13410.html"
+  },
+  "start": {
+    "date": "2026-08-29"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Hanno City Premium Digital Shopping Vouchers Program",
+  "updated": "2026-08-28T02:02:39.948Z"
+}
