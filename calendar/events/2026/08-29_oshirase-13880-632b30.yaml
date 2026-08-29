@@ -28,3 +28,25 @@ source:
   summary_method: "full"
   publish_date: "2026-08-28"
   supersedes: "oshirase-13880-7be6a2@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ Automated Phone Guide and Call Recording System Launch (Reposted)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content Updated (Posted: August 28, 2026 / Previously: July 23, 2026)
+      Main changes: No changes identified.
+      
+      Starting Monday, August 31, 2026 (Reiwa 8), Hanno City Hall's main phone line (973-2111) will use automated voice guidance to direct your call. This means the extension numbers for each department will change.
+      
+      We are also beginning to record calls to improve the quality of our service.
+      
+      Extension Number Changes by Department
+      
+      (Details about new extension numbers would appear here)
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/sougouseisakugyoukaku/13880.html
+    translation_hash: "sha256-67c2b0ff41323798"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-29T01:24:56.295623Z"
+    format_version: 3

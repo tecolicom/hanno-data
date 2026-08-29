@@ -44,3 +44,37 @@ source:
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-08-28"
   supersedes: "oshirase-14150-c96f90@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ Mental Health Forum Lecture"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content Update (Published: August 28, 2026 / Previously posted: August 29, 2026)
+      Key change: Parking information has been updated. Previously only "Please use Hanno City Hall parking," but now clarifies that parking space on the venue grounds is limited.
+      
+      A Mental Health Forum will be held.
+      
+      【Speaker】 Kosuke Akiyama, certified psychologist and clinical psychologist. Drawing on experience with return-to-work support and counseling at clinics and companies in Tokyo and Minami-Hanno Hospital, he will discuss practical psychological skills and healthy stress management techniques you can use in daily life.
+      
+      【Date & Time】 Thursday, October 1, 2026 (Reiwa 8), 2:00 p.m. – 4:00 p.m. (Doors open 1:30 p.m.)
+      
+      【Venue】 Fujimi District Administrative Center Meeting Room, Hanno City (1-16 Oaza Futayanagi, Hanno)
+      
+      【Capacity】 100 people (first come, first served)
+      
+      【Target】 No restrictions stated
+      
+      【Fee】 Free
+      
+      【Application Deadline】 Friday, September 25, 2026 (Reiwa 8), 4:30 p.m.
+      
+      【How to Apply】 Online form, fax (042-974-6558), or phone (042-974-3488). When applying by fax, include your address, name, kana spelling, and phone number.
+      
+      【Other Information】 Sign language interpretation available; request by Tuesday, September 8, 2026 (Reiwa 8). Please use Hanno City Hall parking.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/14150.html
+    translation_hash: "sha256-846acd3d7db0f248"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-29T01:25:01.058170Z"
+    format_version: 3

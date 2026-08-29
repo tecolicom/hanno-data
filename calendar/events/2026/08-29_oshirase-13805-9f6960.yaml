@@ -39,3 +39,36 @@ source:
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-08-28"
   supersedes: "oshirase-13805-2cfad9@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ Call for private-sector proposals on Hanno City's comprehensive facility management services (updated Aug 28)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content updated (Published: August 28, 2026 / Previous: July 23, 2026)
+      Main changes: On August 28, responses to proposal questions, utility cost survey forms, and repair history lists were newly published.
+      
+      Hanno City is accepting proposals for a comprehensive facility management system. The program covers 81 facilities including City Hall and seeks two types of proposals:
+      
+      • A Proposal: Comprehensive management of maintenance inspections and facility upkeep
+      • B Proposal: Added-value services such as revenue-generating projects, energy management, power procurement, and digital transformation (DX)
+      
+      【Schedule】
+      July 2026: Call for proposals opens
+      July–August 2026: Expressions of interest and questions accepted; matchmaking support provided
+      August–September 2026: Proposal submission period
+      Late September 2026: Review process
+      Early October 2026: Review results announced
+      October 2026–March 2027: Detailed negotiations
+      April 1, 2027: Operations begin
+      
+      The city will also provide matchmaking support between eligible operators. For full details, see the implementation guidelines and published materials.
+      
+      【Contact】Hanno City General Policy Department, Asset Management Division
+      Phone: 042-973-2111 (ext. 282)
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/kanzai/13805.html
+    translation_hash: "sha256-5506025b036c636a"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-29T01:24:53.909750Z"
+    format_version: 3

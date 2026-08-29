@@ -23,3 +23,33 @@ source:
   fetched_at: "2026-08-29T01:23:08.037461Z"
   modified_gmt: "2026-08-28T02:04:28"
   content_hash: "sha256-042ccca7de21398b"
+translations:
+  en:
+    summary: "📢 Vendor Application Notice for Hanno Festival 2026 (Nov 7–8)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      If you plan to set up a stall at the 2026 Hanno Festival (November 7–8, Reiwa 8), you must submit the required application documents.
+      
+      【Required Documents】
+      All vendors must submit a Vendor Application & Pledge Form (出店申請書兼誓約書). Depending on your stall type and location, you may also need to submit:
+      • Road Use Permit Application (申請費用2,500円 / application fee ¥2,500)
+      • Temporary Shop Opening Notification (露店等の開設届出書)
+      • Outline of Temporary Stall Operation (臨時出店の概要)
+      • Land Use Consent Form (土地使用承諾書)
+      
+      These apply if your stall involves goods or food sales, use of heating equipment, occupies road or parking space, uses private land, or differs from standard operating forms.
+      
+      【Location Restrictions】
+      No stalls may be set up on the sidewalk of Ekimae-dori (the street from Hanno Station North Exit to just before Higashi-machi Intersection) due to festival float processions.
+      
+      【Submission Details】
+      Submit to: Oku-Musashi Hanno Tourism Association (飯能まつり協賛会事務局 / Hanno Festival Sponsorship Committee Office)
+      Hours: 9:00–17:00 (closed Sundays)
+      Deadline: Friday, October 2, 2026 (strict)
+      
+      For more information, visit the Oku-Musashi Hanno Tourism Association website.
+    translation_hash: "sha256-75a46e6f20d36fd5"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-29T01:24:49.861722Z"
+    format_version: 3
