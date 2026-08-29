@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-29T01:25:11.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🔄 Content Update (Published: August 28, 2026 / Previously posted: August 29, 2026)\nKey change: Parking information has been updated. Previously only \"Please use Hanno City Hall parking,\" but now clarifies that parking space on the venue grounds is limited.\n\nA Mental Health Forum will be held.\n\n【Speaker】 Kosuke Akiyama, certified psychologist and clinical psychologist. Drawing on experience with return-to-work support and counseling at clinics and companies in Tokyo and Minami-Hanno Hospital, he will discuss practical psychological skills and healthy stress management techniques you can use in daily life.\n\n【Date & Time】 Thursday, October 1, 2026 (Reiwa 8), 2:00 p.m. – 4:00 p.m. (Doors open 1:30 p.m.)\n\n【Venue】 Fujimi District Administrative Center Meeting Room, Hanno City (1-16 Oaza Futayanagi, Hanno)\n\n【Capacity】 100 people (first come, first served)\n\n【Target】 No restrictions stated\n\n【Fee】 Free\n\n【Application Deadline】 Friday, September 25, 2026 (Reiwa 8), 4:30 p.m.\n\n【How to Apply】 Online form, fax (042-974-6558), or phone (042-974-3488). When applying by fax, include your address, name, kana spelling, and phone number.\n\n【Other Information】 Sign language interpretation available; request by Tuesday, September 8, 2026 (Reiwa 8). Please use Hanno City Hall parking.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/14150.html",
+  "end": {
+    "date": "2026-08-30"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Z29qYWMxZGNwajNnYzFsY2QwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-14150-ff805c@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6gojac1dcpj3gc1lcd06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/14150.html"
+  },
+  "start": {
+    "date": "2026-08-29"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Mental Health Forum Lecture",
+  "updated": "2026-08-29T01:25:11.240Z"
+}

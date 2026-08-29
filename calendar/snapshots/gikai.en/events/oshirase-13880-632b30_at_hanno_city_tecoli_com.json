@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-29T01:25:10.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🔄 Content Updated (Posted: August 28, 2026 / Previously: July 23, 2026)\nMain changes: No changes identified.\n\nStarting Monday, August 31, 2026 (Reiwa 8), Hanno City Hall's main phone line (973-2111) will use automated voice guidance to direct your call. This means the extension numbers for each department will change.\n\nWe are also beginning to record calls to improve the quality of our service.\n\nExtension Number Changes by Department\n\n(Details about new extension numbers would appear here)\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/sougouseisakugyoukaku/13880.html",
+  "end": {
+    "date": "2026-08-30"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3MzZ2MxZDZvcGo0b2hqNjEwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-13880-632b30@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6cs3gc1d6opj4ohj6106gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/sougouseisakugyoukaku/13880.html"
+  },
+  "start": {
+    "date": "2026-08-29"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Automated Phone Guide and Call Recording System Launch (Reposted)",
+  "updated": "2026-08-29T01:25:10.627Z"
+}
