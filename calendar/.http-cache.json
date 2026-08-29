@@ -239,6 +239,9 @@
   "https://hanno-tourism.jp/news/gw%e4%bc%91%e6%a5%ad%e6%97%a5%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b": {
     "modified_gmt": "2026-04-28T07:35:55"
   },
+  "https://hanno-tourism.jp/news/hannomaturi2026": {
+    "modified_gmt": "2026-08-28T02:04:28"
+  },
   "https://www.city.hanno.lg.jp/emergency/11997.html": {
     "etag": "\"6a7d6e0d-b634\"",
     "last_modified": "Thu, 13 Aug 2026 07:11:09 GMT"
@@ -564,12 +567,12 @@
     "last_modified": "Fri, 21 Aug 2026 07:42:03 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/gesuidoka/kanri/hanbai/13747.html": {
-    "etag": "\"6a8be818-dd13\"",
-    "last_modified": "Mon, 24 Aug 2026 06:43:36 GMT"
+    "etag": "\"6a914d10-dd44\"",
+    "last_modified": "Fri, 28 Aug 2026 08:55:44 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/gesuidoka/kanri/hanbai/13986.html": {
-    "etag": "\"6a8be81c-c201\"",
-    "last_modified": "Mon, 24 Aug 2026 06:43:40 GMT"
+    "etag": "\"6a914d11-c232\"",
+    "last_modified": "Fri, 28 Aug 2026 08:55:45 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/suidogyomuka/oshirase/13515.html": {
     "etag": "\"6a4c8582-c4e2\"",
@@ -592,12 +595,12 @@
     "last_modified": "Mon, 10 Aug 2026 08:52:46 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/kanko/kankosisetu/13714.html": {
-    "etag": "\"6a8fea9c-c0d6\"",
-    "last_modified": "Thu, 27 Aug 2026 07:43:24 GMT"
+    "etag": "\"6a914d24-c0ff\"",
+    "last_modified": "Fri, 28 Aug 2026 08:56:04 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/kanko/kankosisetu/13759.html": {
-    "etag": "\"6a8fea9d-bb95\"",
-    "last_modified": "Thu, 27 Aug 2026 07:43:25 GMT"
+    "etag": "\"6a914d24-bbbe\"",
+    "last_modified": "Fri, 28 Aug 2026 08:56:04 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/kankyomidorimizuka/10070.html": {
     "etag": "\"6a7990a4-c695\"",
@@ -612,32 +615,32 @@
     "last_modified": "Fri, 21 Aug 2026 07:47:50 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/13410.html": {
-    "etag": "\"6a90d4a8-e605\"",
-    "last_modified": "Fri, 28 Aug 2026 00:22:00 GMT"
+    "etag": "\"6a913f49-e61e\"",
+    "last_modified": "Fri, 28 Aug 2026 07:56:57 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/13631.html": {
     "etag": "\"6a87fdac-c613\"",
     "last_modified": "Fri, 21 Aug 2026 07:26:36 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/14284.html": {
-    "etag": "\"6a8fdf14-c0fa\"",
-    "last_modified": "Thu, 27 Aug 2026 06:54:12 GMT"
+    "etag": "\"6a913f4b-c113\"",
+    "last_modified": "Fri, 28 Aug 2026 07:56:59 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/furusatonozei/9107.html": {
     "etag": "\"6a4c84ae-bd4a\"",
     "last_modified": "Tue, 07 Jul 2026 04:46:38 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/kigyo/kigyoyuchi/14119.html": {
-    "etag": "\"6a8fdf21-d29a\"",
-    "last_modified": "Thu, 27 Aug 2026 06:54:25 GMT"
+    "etag": "\"6a914c4b-d2c7\"",
+    "last_modified": "Fri, 28 Aug 2026 08:52:27 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/shinrinzukurika/13168.html": {
     "etag": "\"6a799130-d4d3\"",
     "last_modified": "Mon, 10 Aug 2026 08:52:00 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/shinrinzukurika/shinrinseibi/13168.html": {
-    "etag": "\"6a880118-d65f\"",
-    "last_modified": "Fri, 21 Aug 2026 07:41:12 GMT"
+    "etag": "\"6a914bff-d694\"",
+    "last_modified": "Fri, 28 Aug 2026 08:51:11 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/12265.html": {
     "etag": "\"6a7d0258-c723\"",
@@ -656,24 +659,24 @@
     "last_modified": "Mon, 10 Aug 2026 08:53:08 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/fukushisoumu/12265.html": {
-    "etag": "\"6a8e42a2-c903\"",
-    "last_modified": "Wed, 26 Aug 2026 01:34:26 GMT"
+    "etag": "\"6a914a67-c938\"",
+    "last_modified": "Fri, 28 Aug 2026 08:44:23 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/fukushisoumu/14121.html": {
-    "etag": "\"6a8bc6f6-d043\"",
-    "last_modified": "Mon, 24 Aug 2026 04:22:14 GMT"
+    "etag": "\"6a914a67-d078\"",
+    "last_modified": "Fri, 28 Aug 2026 08:44:23 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/fukushisoumu/14307.html": {
-    "etag": "\"6a8c021e-cdad\"",
-    "last_modified": "Mon, 24 Aug 2026 08:34:38 GMT"
+    "etag": "\"6a914a68-cde2\"",
+    "last_modified": "Fri, 28 Aug 2026 08:44:24 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/tiikifukushi/13654.html": {
     "etag": "\"6a880134-bea5\"",
     "last_modified": "Fri, 21 Aug 2026 07:41:40 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/tiikifukushi/14108.html": {
-    "etag": "\"6a88014d-c2a3\"",
-    "last_modified": "Fri, 21 Aug 2026 07:42:05 GMT"
+    "etag": "\"6a914a89-c2d6\"",
+    "last_modified": "Fri, 28 Aug 2026 08:44:57 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/10590.html": {
     "etag": "\"6a702926-c14a\"",
@@ -704,8 +707,8 @@
     "last_modified": "Tue, 25 Aug 2026 08:39:41 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/14150.html": {
-    "etag": "\"6a90da32-cbe0\"",
-    "last_modified": "Fri, 28 Aug 2026 00:45:38 GMT"
+    "etag": "\"6a913aea-cbd7\"",
+    "last_modified": "Fri, 28 Aug 2026 07:38:18 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/6001.html": {
     "etag": "\"6a8b8986-bea5\"",
@@ -720,8 +723,8 @@
     "last_modified": "Fri, 21 Aug 2026 07:22:32 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/13810.html": {
-    "etag": "\"6a87fdba-c6fb\"",
-    "last_modified": "Fri, 21 Aug 2026 07:26:50 GMT"
+    "etag": "\"6a914ef1-c721\"",
+    "last_modified": "Fri, 28 Aug 2026 09:03:45 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/8820.html": {
     "etag": "\"6a87fccf-c44b\"",
@@ -744,16 +747,16 @@
     "last_modified": "Mon, 10 Aug 2026 09:08:27 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/ninteikyufu/10415.html": {
-    "etag": "\"6a8e6768-c448\"",
-    "last_modified": "Wed, 26 Aug 2026 04:11:20 GMT"
+    "etag": "\"6a914b97-c448\"",
+    "last_modified": "Fri, 28 Aug 2026 08:49:27 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/oshirase/8820.html": {
     "etag": "\"6a799373-c584\"",
     "last_modified": "Mon, 10 Aug 2026 09:01:39 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/tiikihoukatu/kaigo-yobou/7410.html": {
-    "etag": "\"6a90db59-dde6\"",
-    "last_modified": "Fri, 28 Aug 2026 00:50:33 GMT"
+    "etag": "\"6a914bbc-de0c\"",
+    "last_modified": "Fri, 28 Aug 2026 08:50:04 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/tiikihoukatu/ninchi-sisaku/7986.html": {
     "etag": "\"6a856332-d68a\"",
@@ -764,16 +767,16 @@
     "last_modified": "Fri, 21 Aug 2026 07:51:17 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/tiikihoukatu/ninchi-sisaku/ninchi-jigyou/7982.html": {
-    "etag": "\"6a8e3ff4-ceb7\"",
-    "last_modified": "Wed, 26 Aug 2026 01:23:00 GMT"
+    "etag": "\"6a914bcc-cedd\"",
+    "last_modified": "Fri, 28 Aug 2026 08:50:20 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/hoikuka/13413.html": {
     "etag": "\"6a66fdef-c76b\"",
     "last_modified": "Mon, 27 Jul 2026 06:42:55 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/hoikuka/ninteikyufu/8236.html": {
-    "etag": "\"6a90e02c-c87d\"",
-    "last_modified": "Fri, 28 Aug 2026 01:11:08 GMT"
+    "etag": "\"6a914d9a-c8b3\"",
+    "last_modified": "Fri, 28 Aug 2026 08:58:02 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/kodomoshienka/13750.html": {
     "etag": "\"6a79915d-c89a\"",
@@ -820,8 +823,8 @@
     "last_modified": "Mon, 27 Jul 2026 06:56:27 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/syogaigakusyu-sports/sports/osirase/13949.html": {
-    "etag": "\"6a880302-cc65\"",
-    "last_modified": "Fri, 21 Aug 2026 07:49:22 GMT"
+    "etag": "\"6a913e88-cc72\"",
+    "last_modified": "Fri, 28 Aug 2026 07:53:44 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/gyoseicenterkanrika/fujimichikugyoseicenter_kominkan/13584.html": {
     "etag": "\"6a79943b-bfd9\"",
@@ -864,24 +867,24 @@
     "last_modified": "Mon, 27 Jul 2026 06:38:37 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/bohan/11743.html": {
-    "etag": "\"6a8d2ef0-c857\"",
-    "last_modified": "Tue, 25 Aug 2026 05:58:08 GMT"
+    "etag": "\"6a914b2e-c883\"",
+    "last_modified": "Fri, 28 Aug 2026 08:47:42 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/bohan/13930.html": {
-    "etag": "\"6a8d2ef2-c9f1\"",
-    "last_modified": "Tue, 25 Aug 2026 05:58:10 GMT"
+    "etag": "\"6a914b30-ca1d\"",
+    "last_modified": "Fri, 28 Aug 2026 08:47:44 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/kurashi/10863.html": {
-    "etag": "\"6a8d2ef0-ca36\"",
-    "last_modified": "Tue, 25 Aug 2026 05:58:08 GMT"
+    "etag": "\"6a914b04-ca60\"",
+    "last_modified": "Fri, 28 Aug 2026 08:47:00 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/kurashi/11813.html": {
-    "etag": "\"6a8d2ef0-c7c6\"",
-    "last_modified": "Tue, 25 Aug 2026 05:58:08 GMT"
+    "etag": "\"6a914b04-c7f0\"",
+    "last_modified": "Fri, 28 Aug 2026 08:47:00 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/kurashi/13780.html": {
-    "etag": "\"6a8e2c89-ddac\"",
-    "last_modified": "Wed, 26 Aug 2026 00:00:09 GMT"
+    "etag": "\"6a914b06-ddd6\"",
+    "last_modified": "Fri, 28 Aug 2026 08:47:02 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jitishinkoka/9371.html": {
     "etag": "\"6a799083-c340\"",
@@ -915,6 +918,10 @@
     "etag": "\"6a8e3eff-e9a8\"",
     "last_modified": "Wed, 26 Aug 2026 01:18:55 GMT"
   },
+  "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/hodohappyo/houdouhappyou2025_1/13388.html": {
+    "etag": "\"6a913eb8-e9bf\"",
+    "last_modified": "Fri, 28 Aug 2026 07:54:32 GMT"
+  },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/johosystem/13166.html": {
     "etag": "\"6a66fdd8-c2e6\"",
     "last_modified": "Mon, 27 Jul 2026 06:42:32 GMT"
@@ -936,16 +943,16 @@
     "last_modified": "Thu, 30 Jul 2026 02:54:44 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/sougouseisakugyoukaku/13880.html": {
-    "etag": "\"6a880143-bbff\"",
-    "last_modified": "Fri, 21 Aug 2026 07:41:55 GMT"
+    "etag": "\"6a9155e0-bc81\"",
+    "last_modified": "Fri, 28 Aug 2026 09:33:20 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/tihousouseikouikigyousei/sangakukanrenkei/13563.html": {
     "etag": "\"6a7d4a30-c643\"",
     "last_modified": "Thu, 13 Aug 2026 04:38:08 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/tihousouseikouikigyousei/sangakukanrenkei/14297.html": {
-    "etag": "\"6a90c7b5-c447\"",
-    "last_modified": "Thu, 27 Aug 2026 23:26:45 GMT"
+    "etag": "\"6a914e33-c48d\"",
+    "last_modified": "Fri, 28 Aug 2026 09:00:35 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/13685.html": {
     "etag": "\"6a799158-c102\"",
@@ -972,20 +979,20 @@
     "last_modified": "Fri, 21 Aug 2026 07:41:42 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/kanzai/13805.html": {
-    "etag": "\"6a88013d-f159\"",
-    "last_modified": "Fri, 21 Aug 2026 07:41:49 GMT"
+    "etag": "\"6a914aca-f474\"",
+    "last_modified": "Fri, 28 Aug 2026 08:46:02 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/kanzai/13809.html": {
-    "etag": "\"6a88013d-ce0f\"",
-    "last_modified": "Fri, 21 Aug 2026 07:41:49 GMT"
+    "etag": "\"6a914aca-ce41\"",
+    "last_modified": "Fri, 28 Aug 2026 08:46:02 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/kanzai/13925.html": {
-    "etag": "\"6a880146-bba8\"",
-    "last_modified": "Fri, 21 Aug 2026 07:41:58 GMT"
+    "etag": "\"6a914acb-bbda\"",
+    "last_modified": "Fri, 28 Aug 2026 08:46:03 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/shisannkeiei/7334.html": {
-    "etag": "\"6a87fff4-d8f2\"",
-    "last_modified": "Fri, 21 Aug 2026 07:36:20 GMT"
+    "etag": "\"6a914aa5-d928\"",
+    "last_modified": "Fri, 28 Aug 2026 08:45:25 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kinkyuuzaiseitaisaku/11840.html": {
     "etag": "\"6a702c4e-e929\"",
@@ -996,8 +1003,8 @@
     "last_modified": "Mon, 27 Jul 2026 06:54:52 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kinkyuuzaiseitaisaku/13803.html": {
-    "etag": "\"6a88013d-c6cc\"",
-    "last_modified": "Fri, 21 Aug 2026 07:41:49 GMT"
+    "etag": "\"6a9139cb-c6e9\"",
+    "last_modified": "Fri, 28 Aug 2026 07:33:31 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/14139.html": {
     "etag": "\"6a7d0397-c1ab\"",
@@ -1016,24 +1023,24 @@
     "last_modified": "Tue, 07 Jul 2026 04:50:07 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/bosai/14139.html": {
-    "etag": "\"6a90dca1-c2b9\"",
-    "last_modified": "Fri, 28 Aug 2026 00:56:01 GMT"
+    "etag": "\"6a914f87-c2e6\"",
+    "last_modified": "Fri, 28 Aug 2026 09:06:15 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/bosai/14152.html": {
-    "etag": "\"6a90dca1-cedc\"",
-    "last_modified": "Fri, 28 Aug 2026 00:56:01 GMT"
+    "etag": "\"6a914f87-cf09\"",
+    "last_modified": "Fri, 28 Aug 2026 09:06:15 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/bosai/14271.html": {
-    "etag": "\"6a90dca2-bb58\"",
-    "last_modified": "Fri, 28 Aug 2026 00:56:02 GMT"
+    "etag": "\"6a914f88-bb85\"",
+    "last_modified": "Fri, 28 Aug 2026 09:06:16 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/bosai/14319.html": {
-    "etag": "\"6a90dca2-ba6f\"",
-    "last_modified": "Fri, 28 Aug 2026 00:56:02 GMT"
+    "etag": "\"6a914f88-ba9c\"",
+    "last_modified": "Fri, 28 Aug 2026 09:06:16 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/bosai/14321.html": {
-    "etag": "\"6a90dca2-bc67\"",
-    "last_modified": "Fri, 28 Aug 2026 00:56:02 GMT"
+    "etag": "\"6a914f88-bc94\"",
+    "last_modified": "Fri, 28 Aug 2026 09:06:16 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/shokuinka/13007.html": {
     "etag": "\"6a702999-d6e1\"",
@@ -1056,8 +1063,8 @@
     "last_modified": "Tue, 18 Aug 2026 07:35:38 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/ijikanrika/kouen/14269.html": {
-    "etag": "\"6a90e9d8-bc3a\"",
-    "last_modified": "Fri, 28 Aug 2026 01:52:24 GMT"
+    "etag": "\"6a914d72-bc55\"",
+    "last_modified": "Fri, 28 Aug 2026 08:57:22 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/kenchikuka/akiya/11866.html": {
     "etag": "\"6a7993e6-cae9\"",
@@ -1068,8 +1075,8 @@
     "last_modified": "Mon, 24 Aug 2026 08:01:48 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/kenchikuka/kenchikushido/oshirase/9173.html": {
-    "etag": "\"6a8d3b80-c3b7\"",
-    "last_modified": "Tue, 25 Aug 2026 06:51:44 GMT"
+    "etag": "\"6a914e66-c3f0\"",
+    "last_modified": "Fri, 28 Aug 2026 09:01:26 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/kenchikuka/oshirase/9173.html": {
     "etag": "\"6a880051-c211\"",

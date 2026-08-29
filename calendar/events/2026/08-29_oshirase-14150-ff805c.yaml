@@ -1,0 +1,46 @@
+uid: "oshirase-14150-ff805c@hanno.city.tecoli.com"
+summary: "ℹ️ 【講演会】こころの健康フォーラム"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/14150.html"
+dtstart: "2026-08-29"
+dtend: "2026-08-29"
+description: |-
+  🔄 内容更新 (公開日: 2026-08-28 / 前回掲載: 2026-08-29)
+  主な変更: 駐車場の利用案内が変更されました。前回は「飯能市役所駐車場をご利用ください」のみでしたが、今回は会場敷地内の駐車スペースが狭小であることが明記されました。
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  こころの健康フォーラムを開催します。
+  
+  【講師】公認心理師・臨床心理士の秋山洸亮氏。都内クリニック・企業・南飯能病院でリワーク等に従事する経験から、日頃から使える心理スキルやストレスとの上手な付き合い方を講演します。
+  
+  【日時】令和8年10月1日（木曜日）午後2時～午後4時（午後1時30分開場）
+  
+  【会場】飯能市富士見地区行政センター集会室（飯能市大字双柳1番地の16）
+  
+  【定員】100名（申込順）
+  
+  【対象】制限の記載なし
+  
+  【料金】記載なし
+  
+  【申込期限】令和8年9月25日（金曜日）午後4時30分
+  
+  【申込方法】電子申請・ファクス（042-974-6558）・電話（042-974-3488）。ファクス申込時は住所・氏名・フリガナ・電話番号を記載。
+  
+  【その他】手話通訳は令和8年9月8日（火曜日）までに申し出てください。駐車場は飯能市役所駐車場をご利用ください。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/14150.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "14150"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/14150.html"
+  fetched_at: "2026-08-29T01:23:35.510066Z"
+  content_hash: "sha256-ff805cf6552634c1"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-08-28"
+  supersedes: "oshirase-14150-c96f90@hanno.city.tecoli.com"
