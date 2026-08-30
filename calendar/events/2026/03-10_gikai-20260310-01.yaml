@@ -6,7 +6,7 @@ dtstart: "2026-03-10"
 dtend: "2026-03-10"
 description: |-
   会期日程: https://www.city.hanno.lg.jp/material/files/group/45/kaikinittei8-3.pdf
-  議案一覧表: https://www.city.hanno.lg.jp/soshikikarasagasu/gikaisomuka/kaigijoho/13089.html
+  議案一覧表: https://www.city.hanno.lg.jp/soshikikarasagasu/gikaisomuka/giji/kaigijoho/13089.html
   一般質問: https://www.city.hanno.lg.jp/material/files/group/45/ippannsitumon8-3.pdf
   議員別賛否状況: https://www.city.hanno.lg.jp/material/files/group/45/sannpizyoukyou8-3.pdf
 
@@ -28,12 +28,12 @@ translations:
 
       Session schedule: https://www.city.hanno.lg.jp/material/files/group/45/kaikinittei8-3.pdf
 
-      Agenda list: https://www.city.hanno.lg.jp/soshikikarasagasu/gikaisomuka/kaigijoho/13089.html
+      Agenda list: https://www.city.hanno.lg.jp/soshikikarasagasu/gikaisomuka/giji/kaigijoho/13089.html
 
       General questions: https://www.city.hanno.lg.jp/material/files/group/45/ippannsitumon8-3.pdf
 
       Source (Japanese): https://www.city.hanno.lg.jp/material/files/group/45/sannpizyoukyou8-3.pdf
-    translation_hash: "sha256-be17320110c8a7dc"
+    translation_hash: "sha256-18809e0415528e1b"
     model: "claude-haiku-4-5"
     translated_at: "2026-05-26T05:55:39.085489Z"
     format_version: 3
