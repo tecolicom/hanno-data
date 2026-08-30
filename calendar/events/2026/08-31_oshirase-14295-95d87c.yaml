@@ -40,3 +40,31 @@ source:
   content_hash: "sha256-95d87cbde3d0d602"
   summary_method: "full"
   publish_date: "2026-08-24"
+translations:
+  en:
+    summary: "ℹ️ Donation received from Yamaguchi-gumi Corporation"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New post (Published: August 24, 2026)
+      
+      In advancing the Hanno Machina Mirai Vision, we received a donation through the Corporate Hometown Tax program from Yamaguchi-gumi Corporation (Headquarters: Chichibu City, Saitama Prefecture; Representative Director: Yamaguchiよしひろ). A certificate of appreciation ceremony was held on July 15, 2026 (Reiwa 8).
+      
+      【Donation Amount】
+      Not disclosed
+      
+      【Date Received】
+      May 25, 2026 (Monday)
+      
+      【About the Donor Company】
+      Yamaguchi-gumi Corporation was founded in 1937 (Showa 12). It is a comprehensive construction company rooted in the Chichibu region, specializing in civil engineering and road construction work. Through infrastructure development, the company contributes to "ensuring people's safety and security and advancing regional community development."
+      
+      Headquarters: Chichibu City, Saitama Prefecture
+      Founded: 1937 (Showa 12)
+      Business areas: Civil engineering, heavy equipment and earthwork, dredging, steel structures, road paving, water utility facilities, demolition
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/toshikeikakuka/keikakumachidukuri/14295.html
+    translation_hash: "sha256-9eb8b45795fba4ca"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-30T14:00:06.756131Z"
+    format_version: 3

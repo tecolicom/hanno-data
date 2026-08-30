@@ -36,3 +36,30 @@ source:
   content_hash: "sha256-2f753cbc383f9d27"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-08-24"
+translations:
+  en:
+    summary: "ℹ️ Daito Kentaku Corporation made a donation to Hanno City"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New post (Published: August 24, 2026)
+      
+      Hanno City received a donation from Daito Kentaku Corporation through the Corporate Furusato Nozei (corporate hometown tax) program. The funds will support the Hanno Machina Mirai Vision initiative.
+      
+      【Donation Amount】
+      ¥1,000,000
+      
+      【Donation Receipt Date】
+      March 16, 2026 (Monday)
+      
+      【Donating Company】
+      Daito Kentaku Corporation (Headquarters: Minato Ward, Tokyo; Representative Director: Akira Takeuchi)
+      Founded in 1974. A comprehensive real estate company that handles the full cycle of land utilization planning and proposals, design and construction of rental housing, tenant recruitment, and property management. The company also operates a wide range of services including real estate brokerage, rental management, and energy businesses.
+      
+      The donation receipt ceremony was held on July 10, 2026.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/toshikeikakuka/keikakumachidukuri/14294.html
+    translation_hash: "sha256-fa5b8e9c8b153dff"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-30T14:00:01.555651Z"
+    format_version: 3

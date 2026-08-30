@@ -40,3 +40,36 @@ source:
   content_hash: "sha256-81d49aecbecdf042"
   summary_method: "full"
   publish_date: "2026-08-30"
+translations:
+  en:
+    summary: "ℹ️ Hanno City receives donation from FLATT Corporation"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New announcement (Posted: August 30, 2026)
+      
+      Hanno City has received a corporate hometown tax donation from FLATT Corporation (Headquarters: Numazu City, Shizuoka Prefecture; Representative Director: Shinsuke Nojima) to support the Hanno Machimaka (Town Center) Future Vision initiative.
+      
+      Donation Amount
+      
+      ¥300,000
+      
+      Donation Receipt Date
+      
+      July 30, 2026 (Thursday) (Reiwa 8)
+      
+      Donor Company Details
+      
+      FLATT Corporation was established in 2021 (Reiwa 3). The company specializes in interior construction and general building construction work, with a commitment to valuing connections between people. The company also operates an earthquake reinforcement business for suspended ceilings, offering services across the entire scope from diagnosis and proposal through design and construction.
+      
+      Headquarters: Numazu City, Shizuoka Prefecture
+      
+      Established: 2021 (Reiwa 3)
+      
+      Business Overview: Building construction and project management for retail stores and commercial facilities; interior construction work centered on light-gauge steel and drywall construction; general architectural design services; suspended ceiling earthquake reinforcement business
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/toshikeikakuka/keikakumachidukuri/14296.html
+    translation_hash: "sha256-dc7640df9a13e677"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-30T14:00:14.336536Z"
+    format_version: 3
