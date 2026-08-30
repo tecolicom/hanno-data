@@ -138,6 +138,41 @@ def test_translate_returns_none_without_api_key():
             os.environ["ANTHROPIC_API_KEY"] = old
 
 
+def test_rehash_does_not_grow_a_blank_line():
+    """--rehash-only は translation_hash 行だけを差し替え、行を増やさないこと。
+
+    回帰の由来: 正規表現の `(\s*)$` が行末の改行まで捕まえ、それを書き戻した
+    うえで `\n` を足していたため、rehash するたび translation_hash の直後に
+    空行が 1 行増えていた。YAML としては読めてしまうので静かに壊れる
+    (2026-08-30、議会の URL 差し替えで実際に踏んだ)。
+    """
+    import tempfile
+
+    src = (
+        'uid: "x@example"\n'
+        'summary: "s"\n'
+        "translations:\n"
+        "  en:\n"
+        '    summary: "S"\n'
+        '    translation_hash: "sha256-0000000000000000"\n'
+        '    model: "claude-haiku-4-5"\n'
+        "    format_version: 3\n"
+    )
+    with tempfile.TemporaryDirectory() as d:
+        path = os.path.join(d, "t.yaml")
+        with open(path, "w", encoding="utf-8") as f:
+            f.write(src)
+        assert mod._rewrite_translation_hash(path, "sha256-1111111111111111")
+        first = open(path, encoding="utf-8").read()
+        assert mod._rewrite_translation_hash(path, "sha256-2222222222222222")
+        second = open(path, encoding="utf-8").read()
+
+    assert len(first.splitlines()) == len(src.splitlines()), first
+    assert len(second.splitlines()) == len(src.splitlines()), second
+    assert '    translation_hash: "sha256-2222222222222222"\n' in second, second
+    assert "\n\n" not in second, second
+
+
 if __name__ == "__main__":
     for name, fn in sorted(globals().items()):
         if name.startswith("test_") and callable(fn):

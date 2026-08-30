@@ -296,8 +296,13 @@ def _rewrite_translation_hash(path: str, new_hash: str) -> bool:
 
     --rehash-only 用。LLM 呼出なし、翻訳本文 (summary/description) は触らない。
     マッチする最初の `    translation_hash:` 行を置換する素朴な方式。
+
+    行末の空白は捨てて `\n` を 1 つだけ書く。以前は `(\s*)$` で行末を捕まえて
+    そのまま書き戻したうえに `\n` を足していたため、rehash するたびに
+    translation_hash の直後に空行が 1 行増えていた (YAML としては読めるので
+    静かに壊れる)。
     """
-    pat = re.compile(r'^(\s*translation_hash:\s*)"[^"]*"(\s*)$')
+    pat = re.compile(r'^(\s*)translation_hash:\s*"[^"]*"\s*$')
     try:
         with open(path, "r", encoding="utf-8") as f:
             lines = f.readlines()
@@ -307,7 +312,7 @@ def _rewrite_translation_hash(path: str, new_hash: str) -> bool:
     for i, ln in enumerate(lines):
         m = pat.match(ln)
         if m:
-            lines[i] = f'{m.group(1)}"{new_hash}"{m.group(2)}\n'
+            lines[i] = f'{m.group(1)}translation_hash: "{new_hash}"\n'
             updated = True
             break
     if not updated:
