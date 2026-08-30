@@ -2,7 +2,7 @@
 """cal-gikai-fetch — 飯能市議会「会期日程」PDF を構造化 YAML 化.
 
 Source page (PDF リンク一覧):
-  https://www.city.hanno.lg.jp/soshikikarasagasu/gikaisomuka/kaigijoho/395.html
+  https://www.city.hanno.lg.jp/soshikikarasagasu/gikaisomuka/giji/kaigijoho/395.html
 PDF 命名: kaikinittei<reiwa年>-<月>.pdf
   例: 令和8年3月定例会 → kaikinittei8-3.pdf
 
@@ -39,11 +39,11 @@ from typing import Iterable
 DEFAULT_UID_PREFIX = "gikai"
 SOURCE_TYPE = "city-hanno-gikai"
 SUMMARY_PREFIX = "🏛 "
-INDEX_URL = "https://www.city.hanno.lg.jp/soshikikarasagasu/gikaisomuka/kaigijoho/395.html"
-AGENDA_INDEX_URL = "https://www.city.hanno.lg.jp/soshikikarasagasu/gikaisomuka/kaigijoho/index.html"
-IPPAN_INDEX_URL = "https://www.city.hanno.lg.jp/soshikikarasagasu/gikaisomuka/kaigijoho/227.html"
-SANPI_INDEX_URL = "https://www.city.hanno.lg.jp/soshikikarasagasu/gikaisomuka/kaigijoho/396.html"
-URL_ALLOWLIST = re.compile(r"^https://www\.city\.hanno\.lg\.jp/soshikikarasagasu/gikaisomuka/kaigijoho/395\.html$")
+INDEX_URL = "https://www.city.hanno.lg.jp/soshikikarasagasu/gikaisomuka/giji/kaigijoho/395.html"
+AGENDA_INDEX_URL = "https://www.city.hanno.lg.jp/soshikikarasagasu/gikaisomuka/giji/kaigijoho/index.html"
+IPPAN_INDEX_URL = "https://www.city.hanno.lg.jp/soshikikarasagasu/gikaisomuka/giji/kaigijoho/227.html"
+SANPI_INDEX_URL = "https://www.city.hanno.lg.jp/soshikikarasagasu/gikaisomuka/giji/kaigijoho/396.html"
+URL_ALLOWLIST = re.compile(r"^https://www\.city\.hanno\.lg\.jp/soshikikarasagasu/gikaisomuka/giji/kaigijoho/395\.html$")
 
 
 # ==================== Tunables ====================
