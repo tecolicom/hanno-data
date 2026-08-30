@@ -1,0 +1,42 @@
+uid: "oshirase-14295-95d87c@hanno.city.tecoli.com"
+summary: "ℹ️ 株式会社山口組から寄附をいただきました"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/toshikeikakuka/keikakumachidukuri/14295.html"
+dtstart: "2026-08-31"
+dtend: "2026-08-31"
+description: |-
+  🆕 新着掲載 (公開日: 2026-08-24)
+  
+  飯能まちなか未来ビジョンの推進にあたり、以下のとおり株式会社山口組（本社：埼玉県秩父市、代表取締役：山口能弘）から企業版ふるさと納税による御寄附をいただきました。また、それを受けて令和8年7月15日に感謝状贈呈式を執り行いました。
+  
+  ## 寄附額
+  
+  非公表
+  
+  ## 寄附受領日
+  
+  令和8年5月25日（月曜日）
+  
+  ## 寄附企業詳細
+  
+  株式会社山口組は、昭和12年（1937年）創立。土木・舗装工事を中心とした秩父地域に根差した総合建設企業で、インフラ整備を通じて「人々の安心と安全を確保し、地域社会の発展」に貢献されています。
+  
+  本社：埼玉県秩父市
+  
+  創業：昭和12年（1937年）
+  
+  事業概要：土木、とび・土工、しゅんせつ、鋼構造物、舗装、水道施設、解体
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/toshikeikakuka/keikakumachidukuri/14295.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "14295"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/toshikeikakuka/keikakumachidukuri/14295.html"
+  fetched_at: "2026-08-30T13:59:10.683996Z"
+  content_hash: "sha256-95d87cbde3d0d602"
+  summary_method: "full"
+  publish_date: "2026-08-24"

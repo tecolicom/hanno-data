@@ -1,0 +1,42 @@
+uid: "oshirase-14296-81d49a@hanno.city.tecoli.com"
+summary: "ℹ️ 株式会社FLATTから寄附をいただきました"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/toshikeikakuka/keikakumachidukuri/14296.html"
+dtstart: "2026-08-31"
+dtend: "2026-08-31"
+description: |-
+  🆕 新着掲載 (公開日: 2026-08-30)
+  
+  飯能まちなか未来ビジョンの推進にあたり、以下のとおり株式会社FLATT（本社：静岡県沼津市、代表取締役：野島大輔）から企業版ふるさと納税による御寄附をいただきました。
+  
+  ## 寄附額
+  
+  金300,000円
+  
+  ## 寄附受領日
+  
+  令和8年7月30日（木曜日）
+  
+  ## 寄附企業詳細
+  
+  株式会社FLATTは、令和3年（2021年）設立。内装工事を主体とした建築工事全般業務を通じ、「人と人のつながりを大切にする事」を心掛けている企業です。吊り天井における地震対策事業も行っており、診断から提案及び設計から施工に至る全ての業務に対応しておられます。
+  
+  本社：静岡県沼津市
+  
+  設立：令和3年（2021年）
+  
+  事業概要：店舗、商業施設の建築、制作管理全般、LGS・ボード工事を主体とした内装工事全般、建築設計業務全般および吊り天井地震対策事業
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/toshikeikakuka/keikakumachidukuri/14296.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "14296"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/toshikeikakuka/keikakumachidukuri/14296.html"
+  fetched_at: "2026-08-30T13:58:59.886975Z"
+  content_hash: "sha256-81d49aecbecdf042"
+  summary_method: "full"
+  publish_date: "2026-08-30"

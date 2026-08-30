@@ -1,0 +1,38 @@
+uid: "oshirase-14294-2f753c@hanno.city.tecoli.com"
+summary: "ℹ️ 大東建託株式会社から寄附をいただきました"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/toshikeikakuka/keikakumachidukuri/14294.html"
+dtstart: "2026-08-31"
+dtend: "2026-08-31"
+description: |-
+  🆕 新着掲載 (公開日: 2026-08-24)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  大東建託株式会社から企業版ふるさと納税による寄附を受けました。飯能まちなか未来ビジョンの推進に充てられます。
+  
+  【寄附額】
+  1,000,000 円
+  
+  【寄附受領日】
+  令和8年3月16日（月曜日）
+  
+  【寄附企業】
+  大東建託株式会社（本社：東京都港区、代表取締役：竹内啓）
+  1974 年創業。土地活用の企画・提案から賃貸住宅の設計・施工、入居者募集、建物管理までを一貫して行う総合不動産企業。不動産仲介、賃貸管理、エネルギー事業など幅広いサービスを展開しています。
+  
+  寄附目録受領式は令和8年7月10日に執り行われました。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/toshikeikakuka/keikakumachidukuri/14294.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "14294"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/toshikeikakuka/keikakumachidukuri/14294.html"
+  fetched_at: "2026-08-30T13:59:14.405475Z"
+  content_hash: "sha256-2f753cbc383f9d27"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-08-24"
