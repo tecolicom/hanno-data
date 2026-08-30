@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-30T14:00:21.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 New announcement (Posted: August 30, 2026)\n\nHanno City has received a corporate hometown tax donation from FLATT Corporation (Headquarters: Numazu City, Shizuoka Prefecture; Representative Director: Shinsuke Nojima) to support the Hanno Machimaka (Town Center) Future Vision initiative.\n\nDonation Amount\n\n¥300,000\n\nDonation Receipt Date\n\nJuly 30, 2026 (Thursday) (Reiwa 8)\n\nDonor Company Details\n\nFLATT Corporation was established in 2021 (Reiwa 3). The company specializes in interior construction and general building construction work, with a commitment to valuing connections between people. The company also operates an earthquake reinforcement business for suspended ceilings, offering services across the entire scope from diagnosis and proposal through design and construction.\n\nHeadquarters: Numazu City, Shizuoka Prefecture\n\nEstablished: 2021 (Reiwa 3)\n\nBusiness Overview: Building construction and project management for retail stores and commercial facilities; interior construction work centered on light-gauge steel and drywall construction; general architectural design services; suspended ceiling earthquake reinforcement business\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/toshikeikakuka/keikakumachidukuri/14296.html",
+  "end": {
+    "date": "2026-09-01"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Z3AzaWRoZDcwb204ZDFwYzUwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-14296-81d49a@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6gp3idhd70om8d1pc506gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/toshikeikakuka/keikakumachidukuri/14296.html"
+  },
+  "start": {
+    "date": "2026-08-31"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Hanno City receives donation from FLATT Corporation",
+  "updated": "2026-08-30T14:00:21.914Z"
+}

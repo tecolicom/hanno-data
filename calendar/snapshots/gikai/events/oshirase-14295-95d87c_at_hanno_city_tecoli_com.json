@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-30T13:59:52.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🆕 新着掲載 (公開日: 2026-08-24)\n\n飯能まちなか未来ビジョンの推進にあたり、以下のとおり株式会社山口組（本社：埼玉県秩父市、代表取締役：山口能弘）から企業版ふるさと納税による御寄附をいただきました。また、それを受けて令和8年7月15日に感謝状贈呈式を執り行いました。\n\n## 寄附額\n\n非公表\n\n## 寄附受領日\n\n令和8年5月25日（月曜日）\n\n## 寄附企業詳細\n\n株式会社山口組は、昭和12年（1937年）創立。土木・舗装工事を中心とした秩父地域に根差した総合建設企業で、インフラ整備を通じて「人々の安心と安全を確保し、地域社会の発展」に貢献されています。\n\n本社：埼玉県秩父市\n\n創業：昭和12年（1937年）\n\n事業概要：土木、とび・土工、しゅんせつ、鋼構造物、舗装、水道施設、解体\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/toshikeikakuka/keikakumachidukuri/14295.html",
+  "end": {
+    "date": "2026-09-01"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Z3AzaWQ5ZDc0cW04ZTFuY2QwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSA2NzQ1OTE0YjI0MzIzMTEyYTE1ZjQzZGMyMGIzYTBmNGE0ODE3YWZkODAwYzhkMTY4N2QwYmYwYjdmODkwYzYxQGc",
+  "iCalUID": "oshirase-14295-95d87c@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6gp3id9d74qm8e1ncd06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/toshikeikakuka/keikakumachidukuri/14295.html"
+  },
+  "start": {
+    "date": "2026-08-31"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 株式会社山口組から寄附をいただきました",
+  "updated": "2026-08-30T13:59:53.002Z"
+}

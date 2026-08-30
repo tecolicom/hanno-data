@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-30T14:00:20.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 New post (Published: August 24, 2026)\n\nIn advancing the Hanno Machina Mirai Vision, we received a donation through the Corporate Hometown Tax program from Yamaguchi-gumi Corporation (Headquarters: Chichibu City, Saitama Prefecture; Representative Director: Yamaguchiよしひろ). A certificate of appreciation ceremony was held on July 15, 2026 (Reiwa 8).\n\n【Donation Amount】\nNot disclosed\n\n【Date Received】\nMay 25, 2026 (Monday)\n\n【About the Donor Company】\nYamaguchi-gumi Corporation was founded in 1937 (Showa 12). It is a comprehensive construction company rooted in the Chichibu region, specializing in civil engineering and road construction work. Through infrastructure development, the company contributes to \"ensuring people's safety and security and advancing regional community development.\"\n\nHeadquarters: Chichibu City, Saitama Prefecture\nFounded: 1937 (Showa 12)\nBusiness areas: Civil engineering, heavy equipment and earthwork, dredging, steel structures, road paving, water utility facilities, demolition\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/toshikeikakuka/keikakumachidukuri/14295.html",
+  "end": {
+    "date": "2026-09-01"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Z3AzaWQ5ZDc0cW04ZTFuY2QwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-14295-95d87c@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6gp3id9d74qm8e1ncd06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/toshikeikakuka/keikakumachidukuri/14295.html"
+  },
+  "start": {
+    "date": "2026-08-31"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Donation received from Yamaguchi-gumi Corporation",
+  "updated": "2026-08-30T14:00:21.146Z"
+}

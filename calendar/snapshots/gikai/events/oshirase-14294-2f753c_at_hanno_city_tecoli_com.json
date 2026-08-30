@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-30T13:59:52.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🆕 新着掲載 (公開日: 2026-08-24)\n\nAI による要約 (正確な情報は元記事をご確認ください)\n\n大東建託株式会社から企業版ふるさと納税による寄附を受けました。飯能まちなか未来ビジョンの推進に充てられます。\n\n【寄附額】\n1,000,000 円\n\n【寄附受領日】\n令和8年3月16日（月曜日）\n\n【寄附企業】\n大東建託株式会社（本社：東京都港区、代表取締役：竹内啓）\n1974 年創業。土地活用の企画・提案から賃貸住宅の設計・施工、入居者募集、建物管理までを一貫して行う総合不動産企業。不動産仲介、賃貸管理、エネルギー事業など幅広いサービスを展開しています。\n\n寄附目録受領式は令和8年7月10日に執り行われました。\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/toshikeikakuka/keikakumachidukuri/14294.html",
+  "end": {
+    "date": "2026-09-01"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Z3AzaWQxZDY5ajNlZDlqY2QwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSA2NzQ1OTE0YjI0MzIzMTEyYTE1ZjQzZGMyMGIzYTBmNGE0ODE3YWZkODAwYzhkMTY4N2QwYmYwYjdmODkwYzYxQGc",
+  "iCalUID": "oshirase-14294-2f753c@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6gp3id1d69j3ed9jcd06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/toshikeikakuka/keikakumachidukuri/14294.html"
+  },
+  "start": {
+    "date": "2026-08-31"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 大東建託株式会社から寄附をいただきました",
+  "updated": "2026-08-30T13:59:52.482Z"
+}

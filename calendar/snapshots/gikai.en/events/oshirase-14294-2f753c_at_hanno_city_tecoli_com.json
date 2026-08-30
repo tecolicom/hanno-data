@@ -1,0 +1,34 @@
+{
+  "created": "2026-08-30T14:00:20.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 New post (Published: August 24, 2026)\n\nHanno City received a donation from Daito Kentaku Corporation through the Corporate Furusato Nozei (corporate hometown tax) program. The funds will support the Hanno Machina Mirai Vision initiative.\n\n【Donation Amount】\n¥1,000,000\n\n【Donation Receipt Date】\nMarch 16, 2026 (Monday)\n\n【Donating Company】\nDaito Kentaku Corporation (Headquarters: Minato Ward, Tokyo; Representative Director: Akira Takeuchi)\nFounded in 1974. A comprehensive real estate company that handles the full cycle of land utilization planning and proposals, design and construction of rental housing, tenant recruitment, and property management. The company also operates a wide range of services including real estate brokerage, rental management, and energy businesses.\n\nThe donation receipt ceremony was held on July 10, 2026.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/toshikeikakuka/keikakumachidukuri/14294.html",
+  "end": {
+    "date": "2026-09-01"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Z3AzaWQxZDY5ajNlZDlqY2QwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-14294-2f753c@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6gp3id1d69j3ed9jcd06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/toshikeikakuka/keikakumachidukuri/14294.html"
+  },
+  "start": {
+    "date": "2026-08-31"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Daito Kentaku Corporation made a donation to Hanno City",
+  "updated": "2026-08-30T14:00:20.416Z"
+}
