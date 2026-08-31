@@ -1,14 +1,14 @@
-uid: "shiminkaikan-20261010-01@hanno.city.tecoli.com"
-summary: "飯能市遺族会戦没者追悼式"
-location: "飯能市民会館 小ホール"
+uid: "shiminkaikan-20261023-01@hanno.city.tecoli.com"
+summary: "年金友の会 会員の集い"
+location: "飯能市民会館 大ホール"
 url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html"
-dtstart: "2026-10-10T14:00:00+09:00"
-dtend: "2026-10-10T16:00:00+09:00"
+dtstart: "2026-10-23T14:00:00+09:00"
+dtend: "2026-10-23T16:00:00+09:00"
 description: |-
   飯能市民会館: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html
   
-  【会場】小ホール
-  【主催】飯能市遺族会
+  【会場】大ホール
+  【主催】JAいるま野西部地域管理課
 
 render:
   gcal:
@@ -17,7 +17,7 @@ render:
 
 source:
   type: city-hanno-shiminkaikan
-  id: "20261010-01"
+  id: "20261023-01"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html"
-  fetched_at: "2026-08-31T22:17:33.424742Z"
+  fetched_at: "2026-08-31T22:17:33.425130Z"
   content_hash: "sha256-46a7a5e41f05f1cd"
