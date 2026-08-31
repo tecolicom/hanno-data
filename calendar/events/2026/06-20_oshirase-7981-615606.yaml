@@ -1,6 +1,6 @@
 uid: "oshirase-7981-615606@hanno.city.tecoli.com"
 summary: "ℹ️ ひだまりカフェ(認知症カフェ)"
-url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/ninchi-sisaku/ninchi-jigyou/7981.html"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/tiikihoukatu/ninchi-sisaku/ninchi-jigyou/7981.html"
 dtstart: "2026-06-20"
 dtend: "2026-06-20"
 description: |-
@@ -18,7 +18,7 @@ description: |-
   
   会場によって料金が異なります。詳細は、各施設の案内資料か担当の地域包括支援センターまたは飯能市介護福祉課にお問い合わせください。
   
-  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/ninchi-sisaku/ninchi-jigyou/7981.html
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/tiikihoukatu/ninchi-sisaku/ninchi-jigyou/7981.html
 
 render:
   gcal:
@@ -27,7 +27,7 @@ render:
 source:
   type: city-hanno-oshirase
   id: "7981"
-  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/ninchi-sisaku/ninchi-jigyou/7981.html"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/tiikihoukatu/ninchi-sisaku/ninchi-jigyou/7981.html"
   fetched_at: "2026-06-19T19:42:28.328495Z"
   content_hash: "sha256-6156069a3eae8367"
   summary_method: "llm-haiku-4-5"
@@ -52,8 +52,8 @@ translations:
       
       Fees vary by venue. For details, contact the information desk at each facility, your local community support center (chiiki hokatsu shien senta), or Hanno City Nursing and Welfare Division.
       
-      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/ninchi-sisaku/ninchi-jigyou/7981.html
-    translation_hash: "sha256-419a59b0faf4a46c"
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/tiikihoukatu/ninchi-sisaku/ninchi-jigyou/7981.html
+    translation_hash: "sha256-ece9cd5a199ea224"
     model: "claude-haiku-4-5"
     translated_at: "2026-06-19T19:44:56.461202Z"
     format_version: 3

@@ -1,6 +1,6 @@
 uid: "oshirase-13565-4c4400@hanno.city.tecoli.com"
 summary: "ℹ️ はんのう夏至祭"
-url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/sangakukanrenkei/13565.html"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/tihousouseikouikigyousei/sangakukanrenkei/13565.html"
 dtstart: "2026-05-30"
 dtend: "2026-05-30"
 description: |-
@@ -14,7 +14,7 @@ description: |-
   
   飯能市・株式会社ムーミン物語・西武鉄道株式会社の地域活性化連携協定に基づくシティプロモーションの一環で、本協議会は飯能商工会議所および一般社団法人奥むさし飯能観光協会を加えた5者で構成されています。初の開催となります。
   
-  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/sangakukanrenkei/13565.html
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/tihousouseikouikigyousei/sangakukanrenkei/13565.html
 
 render:
   gcal:
@@ -23,7 +23,7 @@ render:
 source:
   type: city-hanno-oshirase
   id: "13565"
-  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/sangakukanrenkei/13565.html"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/tihousouseikouikigyousei/sangakukanrenkei/13565.html"
   fetched_at: "2026-05-29T20:13:32.144761Z"
   content_hash: "sha256-4c440088bd852046"
   summary_method: "llm-haiku-4-5"
@@ -44,8 +44,8 @@ translations:
       
       This city promotion initiative is part of a regional revitalization partnership agreement among Hanno City, Moomin Stories Co., Ltd., and Seibu Railway Co., Ltd. The promotion council is made up of five organizations: these three partners plus the Hanno Chamber of Commerce and Industry and the Okumusashi Hanno Tourism Association. This is the festival's first year.
       
-      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/sangakukanrenkei/13565.html
-    translation_hash: "sha256-5c7b8f431f8b1363"
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/tihousouseikouikigyousei/sangakukanrenkei/13565.html
+    translation_hash: "sha256-2853d43fe399c9e1"
     model: "claude-haiku-4-5"
     translated_at: "2026-05-29T20:15:20.061174Z"
     format_version: 3

@@ -1,6 +1,6 @@
 uid: "oshirase-13747-c1c05c@hanno.city.tecoli.com"
 summary: "ℹ️ 飯能市使用済みマンホールふたの販売のご案内"
-url: "https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/gesuidoka/hanbai/13747.html"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/gesuidoka/kanri/hanbai/13747.html"
 dtstart: "2026-07-09"
 dtend: "2026-07-09"
 description: |-
@@ -36,7 +36,7 @@ description: |-
   飯能市浄化センター（埼玉県飯能市征矢町31－17）
   購入者が搬出・積み込みを行い、引渡し時に現金で代金を支払います。
   
-  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/gesuidoka/hanbai/13747.html
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/gesuidoka/kanri/hanbai/13747.html
 
 render:
   gcal:
@@ -45,7 +45,7 @@ render:
 source:
   type: city-hanno-oshirase
   id: "13747"
-  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/gesuidoka/hanbai/13747.html"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/gesuidoka/kanri/hanbai/13747.html"
   fetched_at: "2026-07-12T02:11:39.309364Z"
   content_hash: "sha256-c1c05c155b29457f"
   summary_method: "llm-haiku-4-5"
@@ -86,8 +86,8 @@ translations:
       Hanno City Purification Center (31-17 Soya-cho, Hanno City, Saitama)
       Buyers are responsible for loading and transport. Payment in cash is due at pickup.
       
-      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/gesuidoka/hanbai/13747.html
-    translation_hash: "sha256-c1c99af37d5141f8"
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/gesuidoka/kanri/hanbai/13747.html
+    translation_hash: "sha256-2fcb64bebd9ab0f9"
     model: "claude-haiku-4-5"
     translated_at: "2026-07-12T02:26:54.244654Z"
     format_version: 3

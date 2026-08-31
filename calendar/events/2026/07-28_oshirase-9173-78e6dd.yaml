@@ -1,6 +1,6 @@
 uid: "oshirase-9173-78e6dd@hanno.city.tecoli.com"
 summary: "ℹ️ 建築士による無料耐震診断相談会"
-url: "https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/kenchikuka/oshirase/9173.html"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/kenchikuka/kenchikushido/oshirase/9173.html"
 dtstart: "2026-07-28"
 dtend: "2026-07-28"
 description: |-
@@ -16,7 +16,7 @@ description: |-
   
   診断は現地調査を行わず、図面等の情報から耐震性の目安を示します。
   
-  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/kenchikuka/oshirase/9173.html
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/kenchikuka/kenchikushido/oshirase/9173.html
 
 render:
   gcal:
@@ -25,7 +25,7 @@ render:
 source:
   type: city-hanno-oshirase
   id: "9173"
-  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/kenchikuka/oshirase/9173.html"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/kenchikuka/kenchikushido/oshirase/9173.html"
   fetched_at: "2026-07-27T19:19:51.388872Z"
   content_hash: "sha256-78e6ddb58fe2f446"
   summary_method: "llm-haiku-4-5"
@@ -48,8 +48,8 @@ translations:
       
       The diagnosis does not include an on-site survey. The architects will provide a general indication of earthquake-resistance based on drawings and other available information.
       
-      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/kenchikuka/oshirase/9173.html
-    translation_hash: "sha256-7fe9aa351788ad5a"
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/kenchikuka/kenchikushido/oshirase/9173.html
+    translation_hash: "sha256-8b66209cd19f4055"
     model: "claude-haiku-4-5"
     translated_at: "2026-07-27T19:23:30.038462Z"
     format_version: 3

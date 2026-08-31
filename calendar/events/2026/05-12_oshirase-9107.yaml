@@ -1,6 +1,6 @@
 uid: "oshirase-9107@hanno.city.tecoli.com"
 summary: "ℹ️ ふるさと納税寄附及び使途内容の報告について"
-url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/furusatonozei/9107.html"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/syokorose/furusatonozei/9107.html"
 dtstart: "2026-05-12"
 dtend: "2026-05-12"
 description: |-
@@ -10,7 +10,7 @@ description: |-
   
   令和7年度 ふるさと納税寄附及び使途内容報告書 (PDFファイル: 2.9MB)
   
-  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/furusatonozei/9107.html
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/syokorose/furusatonozei/9107.html
 
 render:
   gcal:
@@ -19,7 +19,7 @@ render:
 source:
   type: city-hanno-oshirase
   id: "9107"
-  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/furusatonozei/9107.html"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/syokorose/furusatonozei/9107.html"
   fetched_at: "2026-05-20T04:55:24.068606Z"
   content_hash: "sha256-ac1cbd36c6fe5530"
   summary_method: "full"
@@ -35,8 +35,8 @@ translations:
 
       Fiscal Year 2025 (Reiwa 7) Hometown Tax Donation and Usage Report (PDF file: 2.9MB)
 
-      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/furusatonozei/9107.html
-    translation_hash: "sha256-260d3bd277420ee1"
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/syokorose/furusatonozei/9107.html
+    translation_hash: "sha256-dfc13aebea426285"
 
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:36:41.478380Z"

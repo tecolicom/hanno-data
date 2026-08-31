@@ -1,6 +1,6 @@
 uid: "oshirase-13206@hanno.city.tecoli.com"
 summary: "ℹ️ 東飯能駅「新オブジェ」お披露目セレモニー"
-url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/sangakukanrenkei/13206.html"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/tihousouseikouikigyousei/sangakukanrenkei/13206.html"
 dtstart: "2026-03-07"
 dtend: "2026-03-07"
 description: |-
@@ -8,7 +8,7 @@ description: |-
   
   令和8年3月7日(土曜日)、東飯能駅の自由通路に「ムーミンママ」のオブジェを設置するお披露目セレモニーを開催しました。飯能駅に続く第2弾として、飯能市・株式会社ムーミン物語・西武鉄道株式会社・飯能商工会議所・一般社団法人奥むさし飯能観光協会で構成する「ムーミンに会えるまち、はんのう」プロジェクト推進協議会の事業です。飯能駅・東飯能駅がムーミンで結ばれることで、まちなか回遊の新たな軸となり、駅を起点とした「歩きたくなるまちづくり」を加速させ、中心市街地の賑わい創出と市内全域の活性化につなげます。セレモニーには飯能市長、関係企業・団体の代表、ムーミンキャラクター、Nicot飯能の園児10名が出席しました。
   
-  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/sangakukanrenkei/13206.html
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/tihousouseikouikigyousei/sangakukanrenkei/13206.html
 
 render:
   gcal:
@@ -17,7 +17,7 @@ render:
 source:
   type: city-hanno-oshirase
   id: "13206"
-  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/sangakukanrenkei/13206.html"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/tihousouseikouikigyousei/sangakukanrenkei/13206.html"
   fetched_at: "2026-05-20T04:56:59.756454Z"
   content_hash: "sha256-f2161dd021b0b985"
   summary_method: "llm-haiku-4-5"
@@ -29,8 +29,8 @@ translations:
 
       On March 7, 2026 (Reiwa 8), a Saturday, a reveal ceremony was held at Higashi-Hanno Station's free passage to unveil an object featuring Moominmamma. This is the second installation following Hanno Station, as part of the "Hanno, a town where you can meet Moomin" project carried out by the Hanno City Moomin Project Promotion Council, which brings together Hanno City, Moomin Stories Inc., Seibu Railway Co., Ltd., the Hanno Chamber of Commerce and Industry, and the General Incorporated Association Okumusashi Hanno Tourism Association. By connecting Hanno Station and Higashi-Hanno Station through Moomin, the stations become a new axis for foot traffic throughout the city center, accelerate "town development that makes people want to walk," and drive vitality in the central business district and across the entire city. The ceremony was attended by the Hanno City Mayor, representatives from related companies and organizations, Moomin characters, and ten children from Nicot Hanno.
 
-      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/sangakukanrenkei/13206.html
-    translation_hash: "sha256-ec28901d2c52fbd9"
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/tihousouseikouikigyousei/sangakukanrenkei/13206.html
+    translation_hash: "sha256-fc86d11d6047ca1a"
 
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:33:08.256223Z"

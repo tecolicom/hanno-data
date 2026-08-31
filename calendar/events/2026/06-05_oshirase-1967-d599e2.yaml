@@ -1,6 +1,6 @@
 uid: "oshirase-1967-d599e2@hanno.city.tecoli.com"
 summary: "ℹ️ 介護予防・日常生活支援総合事業(事業者向け)"
-url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/so-go-jigyou/1967.html"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/tiikihoukatu/so-go-jigyou/1967.html"
 dtstart: "2026-06-05"
 dtend: "2026-06-05"
 description: |-
@@ -33,7 +33,7 @@ description: |-
   【参考資料】
   飯能市独自の緩和基準サービス（訪問型・通所型サービスA）の基準表
   
-  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/so-go-jigyou/1967.html
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/tiikihoukatu/so-go-jigyou/1967.html
 
 render:
   gcal:
@@ -42,7 +42,7 @@ render:
 source:
   type: city-hanno-oshirase
   id: "1967"
-  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/so-go-jigyou/1967.html"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/tiikihoukatu/so-go-jigyou/1967.html"
   fetched_at: "2026-06-04T19:59:39.641152Z"
   content_hash: "sha256-d599e20491514088"
   summary_method: "llm-haiku-4-5"
@@ -80,8 +80,8 @@ translations:
       【Reference Materials】
       Standard table for Hanno City's original relaxed-standard services (visiting-type and day service-type Service A)
       
-      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/so-go-jigyou/1967.html
-    translation_hash: "sha256-257c7d1c2bce5cd7"
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/tiikihoukatu/so-go-jigyou/1967.html
+    translation_hash: "sha256-55d9de54437f83a4"
     model: "claude-haiku-4-5"
     translated_at: "2026-06-04T20:01:08.968222Z"
     format_version: 3

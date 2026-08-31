@@ -1,6 +1,6 @@
 uid: "oshirase-13388-b1c595@hanno.city.tecoli.com"
 summary: "ℹ️ 【令和8年度】報道発表資料"
-url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025_1/13388.html"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/hodohappyo/houdouhappyou2025_1/13388.html"
 dtstart: "2026-06-04"
 dtend: "2026-06-04"
 description: |-
@@ -10,7 +10,7 @@ description: |-
   
   旧向原団地跡地の活用に係るサウンディング型市場調査を実施します。事業者の皆様からの提案・ご意見を募集しています。詳細は添付の実施要領をご確認ください。
   
-  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025_1/13388.html
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/hodohappyo/houdouhappyou2025_1/13388.html
 
 render:
   gcal:
@@ -19,7 +19,7 @@ render:
 source:
   type: city-hanno-oshirase
   id: "13388"
-  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025_1/13388.html"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/hodohappyo/houdouhappyou2025_1/13388.html"
   fetched_at: "2026-06-03T20:51:31.345601Z"
   content_hash: "sha256-b1c595c4c8961b2f"
   summary_method: "llm-haiku-4-5"
@@ -36,8 +36,8 @@ translations:
       
       We are conducting a market survey (soundings-type) regarding the use of the former Mukohara Housing Complex site. We are inviting proposals and feedback from business operators. Please see the attached implementation guidelines for details.
       
-      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025_1/13388.html
-    translation_hash: "sha256-5bab0d6571bba3aa"
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/hodohappyo/houdouhappyou2025_1/13388.html
+    translation_hash: "sha256-db651287a62e0ae8"
     model: "claude-haiku-4-5"
     translated_at: "2026-06-03T20:53:25.968575Z"
     format_version: 3

@@ -1,6 +1,6 @@
 uid: "oshirase-13138@hanno.city.tecoli.com"
 summary: "ℹ️ 定例記者会見（令和8年2月20日開催）"
-url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025/13138.html"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/hodohappyo/houdouhappyou2025/13138.html"
 dtstart: "2026-02-20"
 dtend: "2026-02-20"
 description: |-
@@ -20,7 +20,7 @@ description: |-
   
   各案件に関する詳細な資料（PDFファイル）が市公式サイトに掲載されています。
   
-  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025/13138.html
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/hodohappyo/houdouhappyou2025/13138.html
 
 render:
   gcal:
@@ -29,7 +29,7 @@ render:
 source:
   type: city-hanno-oshirase
   id: "13138"
-  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025/13138.html"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/hodohappyo/houdouhappyou2025/13138.html"
   fetched_at: "2026-05-20T04:57:19.008320Z"
   content_hash: "sha256-697e59946f9c1952"
   summary_method: "llm-haiku-4-5"
@@ -53,8 +53,8 @@ translations:
 
       Detailed materials (PDF files) for each agenda item are posted on the city's official website.
 
-      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025/13138.html
-    translation_hash: "sha256-6cc93a83748dc40e"
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/hodohappyo/houdouhappyou2025/13138.html
+    translation_hash: "sha256-3c67a3bc0322065f"
 
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:32:25.900003Z"

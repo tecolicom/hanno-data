@@ -1,6 +1,6 @@
 uid: "oshirase-13477@hanno.city.tecoli.com"
 summary: "ℹ️ 飯能市立図書館「新オブジェ」お披露目セレモニー"
-url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/sangakukanrenkei/13477.html"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/tihousouseikouikigyousei/sangakukanrenkei/13477.html"
 dtstart: "2026-04-23"
 dtend: "2026-04-23"
 description: |-
@@ -14,7 +14,7 @@ description: |-
   
   出席者は飯能市長、株式会社ムーミン物語代表取締役社長、西武鉄道株式会社ジェネラルマネジャー、飯能商工会議所事務局長、奥むさし飯能観光協会会長、教育長・教育部長・図書館館長のほか、山手保育所園児32名とムーミンキャラクターが参加しました。
   
-  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/sangakukanrenkei/13477.html
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/tihousouseikouikigyousei/sangakukanrenkei/13477.html
 
 render:
   gcal:
@@ -23,7 +23,7 @@ render:
 source:
   type: city-hanno-oshirase
   id: "13477"
-  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/sangakukanrenkei/13477.html"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/tihousouseikouikigyousei/sangakukanrenkei/13477.html"
   fetched_at: "2026-05-20T04:55:46.649056Z"
   content_hash: "sha256-df3dd79c6890c1f5"
   summary_method: "llm-haiku-4-5"
@@ -41,8 +41,8 @@ translations:
 
       Attendees included the Hanno City Mayor, the President of Moomin Stories Company, a General Manager of Seibu Railway Company, the Director of the Hanno Chamber of Commerce and Industry, the Chair of the Okumusashi Hanno Tourism Association, the Director of Education, the Education Department Director, the Library Director, 32 children from Yamate Childcare Center, and Moomin characters.
 
-      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/sangakukanrenkei/13477.html
-    translation_hash: "sha256-d1cab30909b29fcc"
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/tihousouseikouikigyousei/sangakukanrenkei/13477.html
+    translation_hash: "sha256-7d19a9f9c32a5c9c"
 
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:35:46.384514Z"

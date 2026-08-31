@@ -1,6 +1,6 @@
 uid: "oshirase-7986-c8a132@hanno.city.tecoli.com"
 summary: "ℹ️ 認知症とは"
-url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/ninchi-sisaku/7986.html"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/tiikihoukatu/ninchi-sisaku/7986.html"
 dtstart: "2026-06-30"
 dtend: "2026-06-30"
 description: |-
@@ -14,7 +14,7 @@ description: |-
   
   若年性認知症の人とその家族のためのピアカウンセリング「若年のつどい・飯能」を開催しています。令和8年8月22日(土)午後1時30分～午後3時30分、飯能市市民活動センター(栄町24-4 丸広百貨店飯能店7階)で開催予定です。本人同士の交流や家族の介護相談、情報交換ができます。
   
-  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/ninchi-sisaku/7986.html
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/tiikihoukatu/ninchi-sisaku/7986.html
 
 render:
   gcal:
@@ -23,7 +23,7 @@ render:
 source:
   type: city-hanno-oshirase
   id: "7986"
-  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/ninchi-sisaku/7986.html"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/tiikihoukatu/ninchi-sisaku/7986.html"
   fetched_at: "2026-06-29T19:50:25.596368Z"
   content_hash: "sha256-c8a1324d8cbb31b1"
   summary_method: "llm-haiku-4-5"
@@ -44,8 +44,8 @@ translations:
       
       We hold peer counseling gatherings called "Young Dementia Gatherings・Hanno" for people with young-onset dementia and their families. The next session is scheduled for August 22, 2026 (Saturday) from 1:30 PM to 3:30 PM at Hanno City Citizen Activity Center (7th floor of Maruhiro Department Store Hanno, 24-4 Sakaecho). Participants can connect with others, share caregiving advice, and exchange information.
       
-      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/ninchi-sisaku/7986.html
-    translation_hash: "sha256-3f24b2c51e9f8bdf"
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/tiikihoukatu/ninchi-sisaku/7986.html
+    translation_hash: "sha256-334e511ebd83eeae"
     model: "claude-haiku-4-5"
     translated_at: "2026-06-29T19:52:46.559705Z"
     format_version: 3

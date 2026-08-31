@@ -1,6 +1,6 @@
 uid: "oshirase-7410-802596@hanno.city.tecoli.com"
 summary: "ℹ️ はんのうシニアカレッジ"
-url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/kaigo-yobou/7410.html"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/tiikihoukatu/kaigo-yobou/7410.html"
 dtstart: "2026-06-03"
 dtend: "2026-06-03"
 description: |-
@@ -21,7 +21,7 @@ description: |-
   
   申込・問い合わせ：介護福祉課 地域包括ケア担当 電話042-973-3753 E-mail：shien@city.hanno.lg.jp
   
-  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/kaigo-yobou/7410.html
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/tiikihoukatu/kaigo-yobou/7410.html
 
 render:
   gcal:
@@ -30,7 +30,7 @@ render:
 source:
   type: city-hanno-oshirase
   id: "7410"
-  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/kaigo-yobou/7410.html"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/tiikihoukatu/kaigo-yobou/7410.html"
   fetched_at: "2026-06-02T20:41:32.700572Z"
   content_hash: "sha256-80259644eb336a23"
   summary_method: "llm-haiku-4-5"
@@ -56,8 +56,8 @@ translations:
       
       To apply or inquire: Care and Welfare Division, Community-based Comprehensive Care Section, phone 042-973-3753, email: shien@city.hanno.lg.jp
       
-      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/kaigo-yobou/7410.html
-    translation_hash: "sha256-faccf59732731cbe"
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/tiikihoukatu/kaigo-yobou/7410.html
+    translation_hash: "sha256-bd484253772a7703"
     model: "claude-haiku-4-5"
     translated_at: "2026-06-02T20:43:11.092969Z"
     format_version: 3

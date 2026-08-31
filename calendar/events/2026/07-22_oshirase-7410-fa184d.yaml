@@ -1,6 +1,6 @@
 uid: "oshirase-7410-fa184d@hanno.city.tecoli.com"
 summary: "ℹ️ はんのうシニアカレッジ"
-url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/kaigo-yobou/7410.html"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/tiikihoukatu/kaigo-yobou/7410.html"
 dtstart: "2026-07-22"
 dtend: "2026-07-22"
 description: |-
@@ -16,7 +16,7 @@ description: |-
   
   ・コミュニケーションパートナー養成講座：失語症など「言葉の障害」に関する基礎知識と会話の手助け方法を学ぶ。令和8年5月27日（水曜日）10時から11時30分、講師は言語聴覚士。会場は総合福祉センター。受講後は毎月開催の「コミュニケーション講座」のパートナーとして活躍できます。
   
-  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/kaigo-yobou/7410.html
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/tiikihoukatu/kaigo-yobou/7410.html
 
 render:
   gcal:
@@ -25,7 +25,7 @@ render:
 source:
   type: city-hanno-oshirase
   id: "7410"
-  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/kaigo-yobou/7410.html"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/tiikihoukatu/kaigo-yobou/7410.html"
   fetched_at: "2026-07-21T19:11:29.717606Z"
   content_hash: "sha256-fa184dd76da9addc"
   summary_method: "llm-haiku-4-5"
@@ -48,8 +48,8 @@ translations:
       
       • Communication Partner Training Course: Learn basic knowledge about "speech disorders" such as aphasia and techniques for assisting conversation. Held May 27, 2027 (Wednesday) from 10:00 to 11:30 a.m. Taught by a speech-language pathologist. Venue: Comprehensive Welfare Center. After completing the course, participants can serve as partners in the monthly "Communication Lecture" program.
       
-      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/kaigo-yobou/7410.html
-    translation_hash: "sha256-8242eb9a11886346"
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/tiikihoukatu/kaigo-yobou/7410.html
+    translation_hash: "sha256-c0fbd1cda81461a9"
     model: "claude-haiku-4-5"
     translated_at: "2026-07-21T19:15:05.615016Z"
     format_version: 3

@@ -1,6 +1,6 @@
 uid: "oshirase-13388-66b097@hanno.city.tecoli.com"
 summary: "ℹ️ 【令和8年度】報道発表資料"
-url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025_1/13388.html"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/hodohappyo/houdouhappyou2025_1/13388.html"
 dtstart: "2026-08-06"
 dtend: "2026-08-06"
 description: |-
@@ -18,7 +18,7 @@ description: |-
   
   これより前の発表は元記事をご覧ください。
   
-  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025_1/13388.html
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/hodohappyo/houdouhappyou2025_1/13388.html
 
 render:
   gcal:
@@ -27,7 +27,7 @@ render:
 source:
   type: city-hanno-oshirase
   id: "13388"
-  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025_1/13388.html"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/hodohappyo/houdouhappyou2025_1/13388.html"
   fetched_at: "2026-08-05T19:22:27.837270Z"
   content_hash: "sha256-66b0975980a4f611"
   summary_method: "llm-haiku-4-5"
@@ -52,8 +52,8 @@ translations:
       
       For earlier announcements, please see the original article.
       
-      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025_1/13388.html
-    translation_hash: "sha256-99ab6848ff644b2e"
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/hodohappyo/houdouhappyou2025_1/13388.html
+    translation_hash: "sha256-ef3b5076ad91f28e"
     model: "claude-haiku-4-5"
     translated_at: "2026-08-05T19:24:39.032982Z"
     format_version: 3

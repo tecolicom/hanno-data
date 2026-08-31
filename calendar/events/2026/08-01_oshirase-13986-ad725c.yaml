@@ -1,6 +1,6 @@
 uid: "oshirase-13986-ad725c@hanno.city.tecoli.com"
 summary: "ℹ️ 【結果】飯能市使用済みマンホールふたの販売"
-url: "https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/gesuidoka/hanbai/13986.html"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/gesuidoka/kanri/hanbai/13986.html"
 dtstart: "2026-08-01"
 dtend: "2026-08-01"
 description: |-
@@ -29,7 +29,7 @@ description: |-
   
   販売マンホールふた一覧 (PDFファイル: 2.4MB)
   
-  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/gesuidoka/hanbai/13986.html
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/gesuidoka/kanri/hanbai/13986.html
 
 render:
   gcal:
@@ -38,7 +38,7 @@ render:
 source:
   type: city-hanno-oshirase
   id: "13986"
-  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/gesuidoka/hanbai/13986.html"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/gesuidoka/kanri/hanbai/13986.html"
   fetched_at: "2026-07-31T19:16:36.326648Z"
   content_hash: "sha256-ad725c8ea21be8a7"
   summary_method: "full"
@@ -67,8 +67,8 @@ translations:
       
       List of Manhole Covers for Sale (PDF file: 2.4 MB)
       
-      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/gesuidoka/hanbai/13986.html
-    translation_hash: "sha256-31b44de1b89bef01"
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/gesuidoka/kanri/hanbai/13986.html
+    translation_hash: "sha256-6fcc4d419be44d2f"
     model: "claude-haiku-4-5"
     translated_at: "2026-07-31T19:18:34.179782Z"
     format_version: 3

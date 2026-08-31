@@ -1,6 +1,6 @@
 uid: "oshirase-7981-24286f@hanno.city.tecoli.com"
 summary: "ℹ️ ひだまりカフェ(認知症カフェ)"
-url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/ninchi-sisaku/ninchi-jigyou/7981.html"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/tiikihoukatu/ninchi-sisaku/ninchi-jigyou/7981.html"
 dtstart: "2026-06-04"
 dtend: "2026-06-04"
 description: |-
@@ -20,7 +20,7 @@ description: |-
   ・詳細(開催日時・アクセス・料金等)はパンフレットPDFをご覧ください
   ・掲載内容以外の問合せは、各会場に掲載されている地域包括支援センターまたは飯能市介護福祉課にお問い合わせください
   
-  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/ninchi-sisaku/ninchi-jigyou/7981.html
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/tiikihoukatu/ninchi-sisaku/ninchi-jigyou/7981.html
 
 render:
   gcal:
@@ -29,7 +29,7 @@ render:
 source:
   type: city-hanno-oshirase
   id: "7981"
-  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/ninchi-sisaku/ninchi-jigyou/7981.html"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/tiikihoukatu/ninchi-sisaku/ninchi-jigyou/7981.html"
   fetched_at: "2026-06-03T20:52:13.893400Z"
   content_hash: "sha256-24286fa772ee5058"
   summary_method: "llm-haiku-4-5"
@@ -56,8 +56,8 @@ translations:
       • For details (dates, times, access, fees, etc.), see the pamphlet PDF
       • For questions beyond what is listed here, contact the Community Comprehensive Support Center posted at each venue or Hanno City Care and Welfare Division
       
-      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/ninchi-sisaku/ninchi-jigyou/7981.html
-    translation_hash: "sha256-5d93cb1f8ad7dd91"
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/tiikihoukatu/ninchi-sisaku/ninchi-jigyou/7981.html
+    translation_hash: "sha256-fb21418d477f887f"
     model: "claude-haiku-4-5"
     translated_at: "2026-06-03T20:53:29.794451Z"
     format_version: 3

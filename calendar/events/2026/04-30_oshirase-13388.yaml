@@ -1,6 +1,6 @@
 uid: "oshirase-13388@hanno.city.tecoli.com"
 summary: "ℹ️ 【令和8年度】報道発表資料"
-url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025_1/13388.html"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/hodohappyo/houdouhappyou2025_1/13388.html"
 dtstart: "2026-04-30"
 dtend: "2026-04-30"
 description: |-
@@ -28,7 +28,7 @@ description: |-
   MXモバイリング株式会社からの寄附について（企業版ふるさと納税）
   MXモバイリング株式会社から企業版ふるさと納税による寄附があります。
   
-  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025_1/13388.html
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/hodohappyo/houdouhappyou2025_1/13388.html
 
 render:
   gcal:
@@ -37,7 +37,7 @@ render:
 source:
   type: city-hanno-oshirase
   id: "13388"
-  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025_1/13388.html"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/hodohappyo/houdouhappyou2025_1/13388.html"
   fetched_at: "2026-05-20T04:55:40.649550Z"
   content_hash: "sha256-26add0a9f88da59a"
   summary_method: "llm-haiku-4-5"
@@ -69,8 +69,8 @@ translations:
       Donation from MX Mobiling Co., Ltd. (Corporate Hometown Tax)
       MX Mobiling Co., Ltd. will make a donation through the Corporate Hometown Tax program.
 
-      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/hisho/hodohappyo/houdouhappyou2025_1/13388.html
-    translation_hash: "sha256-534c795eda5c6e7f"
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/hodohappyo/houdouhappyou2025_1/13388.html
+    translation_hash: "sha256-5300ab16b2ac077a"
 
     model: "claude-haiku-4-5"
     translated_at: "2026-05-20T05:36:00.346992Z"

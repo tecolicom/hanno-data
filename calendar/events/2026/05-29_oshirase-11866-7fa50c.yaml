@@ -1,6 +1,6 @@
 uid: "oshirase-11866-7fa50c@hanno.city.tecoli.com"
 summary: "ℹ️ 相続おしかけ講座"
-url: "https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/kenchikuka/akiya/11866.html"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/kenchikuka/jutaku/akiya/11866.html"
 dtstart: "2026-05-29"
 dtend: "2026-05-29"
 description: |-
@@ -28,7 +28,7 @@ description: |-
   【実施時の注意】
   講座資料（テキスト・参加者アンケート）は市が提供します。会の進行は申込者が行い、参加者に筆記用具、マイク（可能な範囲で）をご用意ください。講座終了後2週間以内に実績報告書と回収したアンケートを建築課へ提出してください。
   
-  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/kenchikuka/akiya/11866.html
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/kenchikuka/jutaku/akiya/11866.html
 
 render:
   gcal:
@@ -37,7 +37,7 @@ render:
 source:
   type: city-hanno-oshirase
   id: "11866"
-  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/kenchikuka/akiya/11866.html"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/kenchikuka/jutaku/akiya/11866.html"
   fetched_at: "2026-05-28T20:13:09.238089Z"
   content_hash: "sha256-7fa50c7ae892bc45"
   summary_method: "llm-haiku-4-5"
@@ -70,8 +70,8 @@ translations:
       【What to arrange on the day】
       Hanno City provides lecture materials (textbook and participant survey). The applicant's organization runs the session. Please provide participants with writing supplies and a microphone if possible. Within two weeks of the lecture, submit a completion report and collected surveys to the Architecture Division.
       
-      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/kenchikuka/akiya/11866.html
-    translation_hash: "sha256-a3dca056dfcdd11c"
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/kenchikuka/jutaku/akiya/11866.html
+    translation_hash: "sha256-d58a9570afe8e0ff"
     model: "claude-haiku-4-5"
     translated_at: "2026-05-28T20:14:50.614426Z"
     format_version: 3
