@@ -21,3 +21,17 @@ source:
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html"
   fetched_at: "2026-08-31T22:17:33.425130Z"
   content_hash: "sha256-46a7a5e41f05f1cd"
+translations:
+  en:
+    summary: "Gathering for Nenkin-Tomo Association Members"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Venue: Hanno Citizens' Hall (Ōhōru / Main Hall)
+      Organized by: JA Iruma Nishi-bu Chiiki Kanri-ka (JA Iruma Western Area Management Division)
+      
+      For more information, visit: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html
+    translation_hash: "sha256-95a68b7d30d54e06"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-08-31T22:21:30.214189Z"
+    format_version: 3
