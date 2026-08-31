@@ -1,0 +1,35 @@
+{
+  "created": "2026-08-31T22:21:45.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 14:00–16:00\n\nAutomated translation (refer to source for accuracy)\n\nVenue: Hanno Citizens' Hall (Ōhōru / Main Hall)\nOrganized by: JA Iruma Nishi-bu Chiiki Kanri-ka (JA Iruma Western Area Management Division)\n\nFor more information, visit: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html",
+  "end": {
+    "date": "2026-10-24"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2VkazZpcmI5ZHBsbTJxYmJjNW4ycWNoZzY4cjMyYzFpNmNtajBjYTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIGQ5MTkzY2Y1ZjY0NGFiNDFhMjhlMjI2OGE5OGFiYzVhYTQyNmJkMmQ1NzcxNTI4MzQyNDRhZDY5YTMxZjVhNjhAZw",
+  "iCalUID": "shiminkaikan-20261023-01@hanno.city.tecoli.com",
+  "id": "_edk6irb9dplm2qbbc5n2qchg68r32c1i6cmj0ca0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "location": "飯能市民会館 大ホール",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html"
+  },
+  "start": {
+    "date": "2026-10-23"
+  },
+  "status": "confirmed",
+  "summary": "Gathering for Nenkin-Tomo Association Members",
+  "updated": "2026-08-31T22:21:45.866Z"
+}
