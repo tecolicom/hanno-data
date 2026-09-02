@@ -40,3 +40,35 @@ source:
   summary_method: "full"
   publish_date: "2026-07-15"
   supersedes: "oshirase-13923-12bbfe@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ eLTAX system maintenance — service suspension planned for September 2026"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Content updated (published: July 15, 2026 / previously posted: July 17, 2026)
+      Main change: None.
+      
+      eLTAX System Maintenance — Service Suspension (September 2026 Reiwa 8)
+      
+      The eLTAX (Local Tax Portal Site) system will undergo maintenance, and service will be suspended during the following period.
+      
+      During the suspension, you will not be able to use eLTAX or eL-QR for electronic filing, electronic payment, or other local tax procedures. Please note this carefully.
+      
+      We apologize for any inconvenience and appreciate your understanding and cooperation.
+      
+      【Service Suspension Period】
+      
+      September 19, 2026 (Saturday) 00:00 – September 24, 2026 (Thursday) 08:30 (estimated)
+      
+      For details, please see the links and leaflet below.
+      
+      eLTAX System Maintenance — Service Suspension Notice (external site)
+      
+      Service Suspension Notice for eLTAX Maintenance (PDF file: 714.6KB)
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/shuzeika/kanri/13923.html
+    translation_hash: "sha256-801de14304fbfda0"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-09-02T20:25:55.513839Z"
+    format_version: 3

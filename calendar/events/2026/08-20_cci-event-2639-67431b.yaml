@@ -35,3 +35,28 @@ source:
   category: "セミナー"
   summary_method: "full"
   content_hash: "sha256-67431bcbec98817b"
+translations:
+  en:
+    summary: "🎓 Anytime • Anywhere • As Many Times as You Want • September's Recommended WEB Seminars"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Our seminar team introduces this month's recommended WEB seminars.
+      
+      【Title】Selling Skills: Three Core Powers (Part 1)
+      
+      【Instructor】
+      Takashi Ichikawa
+      Chief Executive Officer, UI Bridge Marketing Co., Ltd.
+      
+      【Overview】
+      Top salespeople don't rely on willpower or determination—they design results based on market structure. In this seminar, we'll walk through concrete strategies to streamline your actions with data, using successful vending machine sales cases as examples. Move beyond aimless field visits and master a "repeatable sales approach" that reliably moves your target customers to action. (24 minutes)
+      
+      ※ WEB seminar viewing is a member benefit of Hanno Chamber of Commerce and Industry.
+      Member businesses interested in receiving ID/password access for viewing should contact their assigned representative.
+      
+      Source (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2639/
+    translation_hash: "sha256-650456efbdf820db"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-09-02T20:25:47.934736Z"
+    format_version: 3

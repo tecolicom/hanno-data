@@ -23,3 +23,18 @@ source:
   fetched_at: "2026-09-02T20:24:18.404076Z"
   modified_gmt: "2026-09-02T06:58:22"
   content_hash: "sha256-aa5d68aff63e0b38"
+translations:
+  en:
+    summary: "📢 Sept. 19 (Sat.) Charity event for Reiwa 8 Kumamoto earthquake relief, hosted by Yosakoi Hanno Ranbu"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Oku Musashi Hanno Tourism Association
+      
+      【New Listing】(Posted: Sept. 2, 2026)
+      
+      On Saturday, Sept. 19, 2026, from 11:00 a.m. to 4:00 p.m., a charity event to support Reiwa 8 Kumamoto earthquake relief will be held in the parking lot in front of the Hanno City Hall Annex. The event is organized by Yosakoi Hanno Ranbu and admission is free.
+    translation_hash: "sha256-5457da010a5ac986"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-09-02T20:25:57.882375Z"
+    format_version: 3

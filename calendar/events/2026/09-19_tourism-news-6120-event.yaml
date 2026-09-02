@@ -21,3 +21,16 @@ source:
   fetched_at: "2026-09-02T20:24:18.426179Z"
   modified_gmt: "2026-09-02T06:58:22"
   content_hash: "sha256-aa5d68aff63e0b38"
+translations:
+  en:
+    summary: "ℹ️ Charity Event for Kumamoto Earthquake Relief Hosted by Yosakoi Hanno Ranbu"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      On September 19 (Saturday), 11:00–16:00, a charity event to support earthquake relief for the 2026 Kumamoto earthquake will be held in the parking area in front of Hanno City Hall Annex. The event is hosted by Yosakoi Hanno Ranbu and admission is free.
+      
+      For more information, visit the Oku Musashi Hanno Tourism Association website.
+    translation_hash: "sha256-2aea12c21f702324"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-09-02T20:26:04.006415Z"
+    format_version: 3

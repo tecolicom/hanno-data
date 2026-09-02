@@ -23,3 +23,22 @@ source:
   fetched_at: "2026-09-02T20:24:21.717968Z"
   modified_gmt: "2026-09-01T07:22:43"
   content_hash: "sha256-6474578b3ec9c89c"
+translations:
+  en:
+    summary: "📢 \"Forest and Lake Craft Beer Journey\" Sept 19–21 (Sat–Mon, national holiday) at Metsä Village"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Oku-Musashi Hanno Tourism Association event
+      
+      🆕 New listing (Published: September 1, 2026)
+      
+      "Forest and Lake Craft Beer Journey" runs September 19–21, 2026 (Reiwa 8) over three days at Metsä Village. This is an event where you can enjoy premium craft beers, mead (honey wine), food, and music in the natural surroundings of a Nordic lifestyle experience facility.
+      
+      On opening day, September 19, at 7:00 PM, "Metsä's Nordic Fireworks" — a spectacular 15-minute fireworks display set to music recommended by the embassies of 8 Nordic countries — will light up the sky.
+      
+      Participating breweries include Hanno's local brewery "Karlvärn" alongside carefully selected craft breweries from Saitama Prefecture and beyond that focus on traditional brewing methods, Finnish beers, and a diverse selection of meads made with premium honey from Japan and around the world — all bringing Nordic flavors to life.
+    translation_hash: "sha256-434f8f0fa8ee54c1"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-09-02T20:25:51.724295Z"
+    format_version: 3
