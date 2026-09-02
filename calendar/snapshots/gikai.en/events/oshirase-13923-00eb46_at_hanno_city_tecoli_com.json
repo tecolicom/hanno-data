@@ -1,0 +1,34 @@
+{
+  "created": "2026-09-02T20:26:13.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nContent updated (published: July 15, 2026 / previously posted: July 17, 2026)\nMain change: None.\n\neLTAX System Maintenance — Service Suspension (September 2026 Reiwa 8)\n\nThe eLTAX (Local Tax Portal Site) system will undergo maintenance, and service will be suspended during the following period.\n\nDuring the suspension, you will not be able to use eLTAX or eL-QR for electronic filing, electronic payment, or other local tax procedures. Please note this carefully.\n\nWe apologize for any inconvenience and appreciate your understanding and cooperation.\n\n【Service Suspension Period】\n\nSeptember 19, 2026 (Saturday) 00:00 – September 24, 2026 (Thursday) 08:30 (estimated)\n\nFor details, please see the links and leaflet below.\n\neLTAX System Maintenance — Service Suspension Notice (external site)\n\nService Suspension Notice for eLTAX Maintenance (PDF file: 714.6KB)\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/shuzeika/kanri/13923.html",
+  "end": {
+    "date": "2026-09-03"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3NqNGNwZDYwbzZhb2hrNnAwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-13923-00eb46@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6csj4cpd60o6aohk6p06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/shuzeika/kanri/13923.html"
+  },
+  "start": {
+    "date": "2026-09-02"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ eLTAX system maintenance — service suspension planned for September 2026",
+  "updated": "2026-09-02T20:26:13.507Z"
+}

@@ -1,0 +1,34 @@
+{
+  "created": "2026-09-02T20:26:13.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nOku Musashi Hanno Tourism Association\n\n【New Listing】(Posted: Sept. 2, 2026)\n\nOn Saturday, Sept. 19, 2026, from 11:00 a.m. to 4:00 p.m., a charity event to support Reiwa 8 Kumamoto earthquake relief will be held in the parking lot in front of the Hanno City Hall Annex. The event is organized by Yosakoi Hanno Ranbu and admission is free.",
+  "end": {
+    "date": "2026-09-03"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFyajVldHBpcWRoaDY4bzJxb2IxNmxpM2NlMjBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIGQ5MTkzY2Y1ZjY0NGFiNDFhMjhlMjI2OGE5OGFiYzVhYTQyNmJkMmQ1NzcxNTI4MzQyNDRhZDY5YTMxZjVhNjhAZw",
+  "iCalUID": "tourism-news-6120-aa5d68@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqrj5etpiqdhh68o2qob16li3ce20d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/news/%e3%82%88%e3%81%95%e3%81%93%e3%81%84%e9%a3%af%e8%83%bd%e4%b9%b1%e8%88%9e%e3%81%95%e3%82%93%e4%b8%bb%e5%82%ac%ef%bc%81%e3%80%80%e3%80%80%e3%80%80%e3%80%80%e3%80%80%e3%80%80%e3%80%80%e3%80%80%e3%80%80"
+  },
+  "start": {
+    "date": "2026-09-02"
+  },
+  "status": "confirmed",
+  "summary": "📢 Sept. 19 (Sat.) Charity event for Reiwa 8 Kumamoto earthquake relief, hosted by Yosakoi Hanno Ranbu",
+  "updated": "2026-09-02T20:26:14.103Z"
+}

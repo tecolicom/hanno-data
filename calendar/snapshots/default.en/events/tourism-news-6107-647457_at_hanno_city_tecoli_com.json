@@ -1,0 +1,34 @@
+{
+  "created": "2026-09-02T20:26:12.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nOku-Musashi Hanno Tourism Association event\n\n🆕 New listing (Published: September 1, 2026)\n\n\"Forest and Lake Craft Beer Journey\" runs September 19–21, 2026 (Reiwa 8) over three days at Metsä Village. This is an event where you can enjoy premium craft beers, mead (honey wine), food, and music in the natural surroundings of a Nordic lifestyle experience facility.\n\nOn opening day, September 19, at 7:00 PM, \"Metsä's Nordic Fireworks\" — a spectacular 15-minute fireworks display set to music recommended by the embassies of 8 Nordic countries — will light up the sky.\n\nParticipating breweries include Hanno's local brewery \"Karlvärn\" alongside carefully selected craft breweries from Saitama Prefecture and beyond that focus on traditional brewing methods, Finnish beers, and a diverse selection of meads made with premium honey from Japan and around the world — all bringing Nordic flavors to life.",
+  "end": {
+    "date": "2026-09-02"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFyajVldHBpcWRoaDYwcmlxZGhrNnNxM2FkcTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIGQ5MTkzY2Y1ZjY0NGFiNDFhMjhlMjI2OGE5OGFiYzVhYTQyNmJkMmQ1NzcxNTI4MzQyNDRhZDY5YTMxZjVhNjhAZw",
+  "iCalUID": "tourism-news-6107-647457@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqrj5etpiqdhh60riqdhk6sq3adq0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/news/%e3%80%8c%e6%a3%ae%e3%81%a8%e6%b9%96%e3%81%ae%e3%82%af%e3%83%a9%e3%83%95%e3%83%88%e3%83%93%e3%83%bc%e3%83%ab%e3%82%b8%e3%83%a3%e3%83%bc%e3%83%8b%e3%83%bc%e3%80%8d9-19%e5%9c%9f%ef%bd%9e21%e6%9c%88"
+  },
+  "start": {
+    "date": "2026-09-01"
+  },
+  "status": "confirmed",
+  "summary": "📢 \"Forest and Lake Craft Beer Journey\" Sept 19–21 (Sat–Mon, national holiday) at Metsä Village",
+  "updated": "2026-09-02T20:26:12.527Z"
+}

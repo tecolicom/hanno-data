@@ -1,0 +1,35 @@
+{
+  "created": "2026-09-02T20:26:11.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nOur seminar team introduces this month's recommended WEB seminars.\n\n【Title】Selling Skills: Three Core Powers (Part 1)\n\n【Instructor】\nTakashi Ichikawa\nChief Executive Officer, UI Bridge Marketing Co., Ltd.\n\n【Overview】\nTop salespeople don't rely on willpower or determination—they design results based on market structure. In this seminar, we'll walk through concrete strategies to streamline your actions with data, using successful vending machine sales cases as examples. Move beyond aimless field visits and master a \"repeatable sales approach\" that reliably moves your target customers to action. (24 minutes)\n\n※ WEB seminar viewing is a member benefit of Hanno Chamber of Commerce and Industry.\nMember businesses interested in receiving ID/password access for viewing should contact their assigned representative.\n\nSource (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2639/",
+  "end": {
+    "date": "2026-08-21"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHIzNmU5ZDZvcmo4Y3BoYzkwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiOTMyNjEzZWUxMWIzYjE2NjU3Yjk4NmE3ZWMxYmQ4MmFkN2MzODVjMzBkZTc1YTJkYjU4MzRiYTFhMjk3ZTMyQGc",
+  "iCalUID": "cci-event-2639-67431b@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68r36e9d6orj8cphc906gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ（EN）",
+    "email": "b932613ee11b3b16657b986a7ec1bd82ad7c385c30de75a2db5834ba1a297e32@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2639/"
+  },
+  "start": {
+    "date": "2026-08-20"
+  },
+  "status": "confirmed",
+  "summary": "🎓 Anytime • Anywhere • As Many Times as You Want • September's Recommended WEB Seminars",
+  "updated": "2026-09-02T20:26:11.729Z"
+}
