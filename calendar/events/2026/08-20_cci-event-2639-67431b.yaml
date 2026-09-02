@@ -1,0 +1,37 @@
+uid: "cci-event-2639-67431b@hanno.city.tecoli.com"
+summary: "🎓 いつでも♪どこでも♪何度でも♪９月のおすすめWEBセミナー情報"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2639/"
+dtstart: "2026-08-20"
+dtend: "2026-08-20"
+description: |-
+  セミナー担当者がお勧めする今月のＷＥＢセミナーをご紹介します。
+  
+  タイトル売れる営業　３つの力（１）
+  
+  講師
+  
+  市川　卓（いちかわ　たかし）
+  
+  ユイブリッジマーケティング株式会社 代表取締役
+  
+  解説
+  
+  トップ営業パーソンは気合や根性ではなく、市場の構造から成果を設計しています。本セミナーでは、自動販売機営業の成功事例をもとに、行動をデータで効率化する具体策を解説。闇雲な外回りを卒業し、狙った顧客を確実に動かすための「再現性ある営業スタイル」を身につけましょう。(24分)
+  
+  ※ＷＥＢセミナーの視聴は、飯能商工会議所の会員特典です。
+  ご視聴に必要なID/パスワードの発行希望の会員事業所様は、担当者までお問い合わせ下さい。
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2639/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2639"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2639/"
+  category: "セミナー"
+  summary_method: "full"
+  content_hash: "sha256-67431bcbec98817b"
