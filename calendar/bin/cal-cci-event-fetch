@@ -33,7 +33,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from _lib import (  # noqa: E402
     USER_AGENT, UID_NAMESPACE, strip_html, normalize_body,
     yaml_escape_str, yaml_block_scalar, load_source_config,
-    call_llm, llm_available, drop_unchanged_claims,
+    call_llm, llm_available, drop_unchanged_claims, DIFF_NO_CHANGE_NOTE,
     output_path_for, read_yaml_scalar, read_yaml_block,
     strip_status_header, AI_DISCLAIMER_JP,
 )
@@ -140,28 +140,33 @@ DIFF_SYSTEM_PROMPT = """あなたは飯能商工会議所の告知が更新さ�
 # 直そうとしないこと** — 最終的な保証は _lib.drop_unchanged_claims() にある。
 
 
-def diff_line(title: str, prev_path: str, new_body: str) -> str | None:
-    """前世代の description と今回の本文から差分行を作る。作れなければ None。
+def diff_line(title: str, prev_path: str,
+              new_body: str) -> tuple[str | None, bool]:
+    """前世代の description と今回の本文から (差分行, 比較できたか) を返す。
 
     比較材料は前世代の description (= 前回の要約または全文)。元記事の本文は
     保存していないため非対称な比較になる。誤検出は生成後の機械検算で止める。
+
+    2 値で返すのは、呼出側が「比較したが変更が無かった」と「そもそも比較して
+    いない」を区別する必要があるため。前者にだけ DIFF_NO_CHANGE_NOTE を出す。
     """
     if not _llm_available():
-        return None
+        return None, False
     raw = read_yaml_block(prev_path, "description")
     if not raw:
-        return None
+        return None, False
     prev = strip_status_header(raw).strip()
     if not prev or not new_body or len(new_body) < MIN_BODY_CHARS:
-        return None
+        return None, False
     user = (f"# {title}\n\n## 前回の掲載内容\n\n{prev}\n\n"
             f"## 今回の本文\n\n{new_body}")
     text = call_llm(DIFF_SYSTEM_PROMPT, user, model=LLM_MODEL,
                     max_tokens=512, temperature=0)
     if text is None:
-        return None
+        return None, False       # API 失敗 = 比較できていない
     line = " ".join(text.split()) or None
-    return drop_unchanged_claims(line)
+    # 機械検算で全部落ちても「比較はした」ので True。
+    return drop_unchanged_claims(line), True
 
 
 # ==================== 取得 (RSS) ====================
@@ -395,9 +400,14 @@ def main() -> None:
         parts = [text] if text else []
         if supersedes:
             header = "🔄 内容更新"
-            dl = diff_line(title, prev_path, body) if prev_path else None
+            dl, compared = (diff_line(title, prev_path, body) if prev_path
+                            else (None, False))
             if dl:
                 header += f"\n主な変更: {dl}"
+            elif compared:
+                # 比較はできたが述べるに値する変更が無かった。見出しだけ残すと
+                # 「なぜ空なのか」と読み手を迷わせるので明示する。
+                header += f"\n主な変更: {DIFF_NO_CHANGE_NOTE}"
             parts.insert(0, header)
         parts.append(post["link"])
         description = "\n\n".join(parts)

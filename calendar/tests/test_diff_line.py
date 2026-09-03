@@ -41,16 +41,20 @@ def _write(text):
 
 
 def _with_llm(available, diff_fn):
-    """_llm_available と diff_with_llm を差し替えるヘルパ."""
+    """_llm_available と diff_with_llm を差し替えるヘルパ.
+
+    diff_with_llm は (行, 比較したか) の 2 値を返す契約 (2026-09-03〜)。
+    スタブも 2 値で返すこと。
+    """
     mod._llm_available = lambda: available
     mod.diff_with_llm = diff_fn
 
 
 def test_returns_none_when_llm_unavailable():
     path = _write(PREV_YAML)
-    _with_llm(False, lambda t, p, b: "呼ばれてはいけない")
+    _with_llm(False, lambda t, p, b: ("呼ばれてはいけない", True))
     try:
-        assert mod._diff_line("市有地の売却", path, "本文" * 100) is None
+        assert mod._diff_line("市有地の売却", path, "本文" * 100) == (None, False)
     finally:
         os.remove(path)
 
@@ -63,14 +67,14 @@ def test_passes_stripped_prev_summary_to_llm():
         seen["title"] = title
         seen["prev"] = prev_summary
         seen["body"] = new_body
-        return "入札日を 9/11 に再設定。"
+        return "入札日を 9/11 に再設定。", True
 
     _with_llm(True, fake)
     try:
         got = mod._diff_line("市有地の売却", path, "新しい本文")
     finally:
         os.remove(path)
-    assert got == "入札日を 9/11 に再設定。"
+    assert got == ("入札日を 9/11 に再設定。", True)
     # status 行 / disclaimer / 末尾 URL がすべて剥がれていること
     assert seen["prev"] == "入札日は令和8年6月19日です。"
     assert seen["title"] == "市有地の売却"
@@ -79,36 +83,42 @@ def test_passes_stripped_prev_summary_to_llm():
 
 def test_skips_url_only_previous_generation():
     path = _write(PREV_YAML.replace('"llm-haiku-4-5"', '"url-only"'))
-    _with_llm(True, lambda t, p, b: "呼ばれてはいけない")
+    _with_llm(True, lambda t, p, b: ("呼ばれてはいけない", True))
     try:
-        assert mod._diff_line("市有地の売却", path, "新しい本文") is None
+        assert mod._diff_line("市有地の売却", path, "新しい本文") == (None, False)
     finally:
         os.remove(path)
 
 
-def test_returns_none_when_llm_returns_empty():
+def test_passes_through_compared_but_no_change():
+    """比較はできたが述べるべき変更が無かった、をそのまま通すこと。
+
+    ここを (None, False) に潰すと、呼出側が「大きな変更は認められませんでした」
+    を出せなくなり、見出しだけの空欄に戻る。
+    """
     path = _write(PREV_YAML)
-    _with_llm(True, lambda t, p, b: "")
+    _with_llm(True, lambda t, p, b: (None, True))
     try:
-        assert mod._diff_line("市有地の売却", path, "新しい本文") is None
+        assert mod._diff_line("市有地の売却", path, "新しい本文") == (None, True)
     finally:
         os.remove(path)
 
 
-def test_returns_none_when_llm_fails():
+def test_passes_through_not_compared():
+    """比較できなかった、をそのまま通すこと (API 失敗など)。"""
     path = _write(PREV_YAML)
-    _with_llm(True, lambda t, p, b: None)
+    _with_llm(True, lambda t, p, b: (None, False))
     try:
-        assert mod._diff_line("市有地の売却", path, "新しい本文") is None
+        assert mod._diff_line("市有地の売却", path, "新しい本文") == (None, False)
     finally:
         os.remove(path)
 
 
 def test_returns_none_when_description_missing():
     path = _write('uid: "oshirase-7334@x"\nsource:\n  summary_method: "full"\n')
-    _with_llm(True, lambda t, p, b: "呼ばれてはいけない")
+    _with_llm(True, lambda t, p, b: ("呼ばれてはいけない", True))
     try:
-        assert mod._diff_line("市有地の売却", path, "新しい本文") is None
+        assert mod._diff_line("市有地の売却", path, "新しい本文") == (None, False)
     finally:
         os.remove(path)
 

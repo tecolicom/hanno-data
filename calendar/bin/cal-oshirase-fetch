@@ -49,7 +49,7 @@ from _lib import (
     strip_markdown, AI_DISCLAIMER_JP,
     output_path_for, find_existing_by_uid, load_source_config,
     load_http_cache, save_http_cache, fetch_with_cache, dtstart_from_last_modified,
-    call_llm, llm_available, drop_unchanged_claims,
+    call_llm, llm_available, drop_unchanged_claims, DIFF_NO_CHANGE_NOTE,
 )
 
 JST = timezone(timedelta(hours=9))
@@ -233,11 +233,16 @@ def summarize_with_llm(title: str, body: str) -> str | None:
 
 
 
-def diff_with_llm(title: str, prev_summary: str, new_body: str) -> str | None:
-    """前回の要約と今回の本文を比較し「主な変更」の本文を返す。失敗/変更なしは None。"""
+def diff_with_llm(title: str, prev_summary: str,
+                  new_body: str) -> tuple[str | None, bool]:
+    """前回の要約と今回の本文を比較し (「主な変更」の本文, 比較できたか) を返す。
+
+    2 値で返すのは、呼出側が「比較したが変更が無かった」と「そもそも比較して
+    いない」を区別する必要があるため。前者にだけ DIFF_NO_CHANGE_NOTE を出す。
+    """
     if not prev_summary.strip() or not new_body or len(new_body) < MIN_BODY_CHARS:
         # 安全装置: 材料が薄い状態で LLM を呼ばない (ハルシネーション防止)
-        return None
+        return None, False
     user = (f"# {title}\n\n"
             f"## 前回の要約\n\n{prev_summary}\n\n"
             f"## 今回の本文\n\n{new_body}")
@@ -247,13 +252,14 @@ def diff_with_llm(title: str, prev_summary: str, new_body: str) -> str | None:
     text = call_llm(DIFF_SYSTEM_PROMPT, user, model=LLM_MODEL,
                     max_tokens=DIFF_LLM_MAX_TOKENS, temperature=0)
     if text is None:
-        return None
+        return None, False       # API 失敗 = 比較できていない
     text = strip_markdown(text, bullet="・")
     # 改行は status header を壊すので 1 行に畳む
     line = " ".join(text.split()) or None
     # 生成後の機械検算。プロンプトで禁じても「A から A に変更」が出るため
     # (_lib.drop_unchanged_claims の docstring 参照)、コード側で最後に止める。
-    return drop_unchanged_claims(line)
+    # ここで全部落ちても「比較はした」ので True を返す。
+    return drop_unchanged_claims(line), True
 
 
 # ---------- description 組立 ----------
@@ -268,24 +274,25 @@ def _llm_available() -> bool:
     return llm_available()
 
 
-def _diff_line(title: str, prev_path: str, new_body: str) -> str | None:
-    """直前世代の YAML と今回の本文から「主な変更」1 行を作る。作れなければ None。
+def _diff_line(title: str, prev_path: str,
+               new_body: str) -> tuple[str | None, bool]:
+    """直前世代の YAML と今回の本文から (「主な変更」1 行, 比較できたか) を返す。
 
     比較材料は前世代の description (= 前回の LLM 要約)。元記事の本文は保存して
     いないため、旧要約 × 新本文の非対称な比較になる。誤検出の抑制は
     DIFF_SYSTEM_PROMPT 側で行う。
     """
     if not _llm_available():
-        return None
+        return None, False
     if _read_yaml_scalar(prev_path, "summary_method") == "url-only":
-        return None          # 前世代は URL のみ = 比較材料が無い
+        return None, False   # 前世代は URL のみ = 比較材料が無い
     raw = read_yaml_block(prev_path, "description")
     if not raw:
-        return None
+        return None, False
     prev_summary, _url = split_description(strip_status_header(raw))
     if not prev_summary.strip():
-        return None
-    return diff_with_llm(title, prev_summary, new_body) or None
+        return None, False
+    return diff_with_llm(title, prev_summary, new_body)
 
 
 def _materialize_description(body: str, method: str, title: str, article_url: str,
@@ -525,9 +532,11 @@ def run_backfill_diff(args) -> int:
             if title.startswith(SUMMARY_PREFIX):
                 title = title[len(SUMMARY_PREFIX):]
             header = f"🔄 内容更新 (公開日: {publish_date} / 前回掲載: {prev_dtstart})"
-            diff_line = _diff_line(title, prev_path, body)
+            diff_line, compared = _diff_line(title, prev_path, body)
             if diff_line:
                 header = f"{header}\n主な変更: {diff_line}"
+            elif compared:
+                header = f"{header}\n主な変更: {DIFF_NO_CHANGE_NOTE}"
             if args.dry_run:
                 print(f"# === {path} ===")
                 print(header)
@@ -693,9 +702,13 @@ def main() -> None:
                 prev_dtstart, prev_uid, prev_path, _prev_hash = prev[0]
                 supersedes = prev_uid
                 status_header = f"🔄 内容更新 (公開日: {publish_date} / 前回掲載: {prev_dtstart})"
-                diff_line = _diff_line(it["title"], prev_path, body)
+                diff_line, compared = _diff_line(it["title"], prev_path, body)
                 if diff_line:
                     status_header = f"{status_header}\n主な変更: {diff_line}"
+                elif compared:
+                    # 比較はできたが述べるに値する変更が無かった。見出しだけ
+                    # 残すと「なぜ空なのか」と読み手を迷わせるので明示する。
+                    status_header = f"{status_header}\n主な変更: {DIFF_NO_CHANGE_NOTE}"
             else:
                 supersedes = None
                 status_header = f"🆕 新着掲載 (公開日: {publish_date})"
