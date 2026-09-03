@@ -28,3 +28,22 @@ source:
   content_hash: "sha256-cc4cf74635ec9594"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-09-04"
+translations:
+  en:
+    summary: "ℹ️ Watch Out for Bicycle Theft"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New (Published: September 4, 2026)
+      
+      Over 40% of bicycle thefts in the prefecture happen on residential property. About 60% of stolen bicycles were unlocked, so always lock your bike when you park it. Using two locks ("two-lock") is an effective way to prevent theft.
+      
+      Bicycle users are legally required to register their bikes for crime prevention. Registering at a bike shop, home center, or other registration office helps with recovery and return if your bike is stolen. Always register when you buy a new bike or receive one from someone else.
+      
+      If your bicycle goes missing, report it to the nearest police station or police box right away. For the report, you'll need your crime prevention registration number, frame number, and a description of the bike. Have ready your receipt or registration copy, the location and time you parked it, and when you discovered it was stolen.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/bohan/14345.html
+    translation_hash: "sha256-141744fae0b4f4ab"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-09-03T20:25:02.138474Z"
+    format_version: 3

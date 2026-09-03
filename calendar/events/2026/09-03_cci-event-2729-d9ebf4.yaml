@@ -26,3 +26,19 @@ source:
   summary_method: "llm-haiku-4-5"
   content_hash: "sha256-d9ebf4ecba30a356"
   supersedes: "cci-event-2729-930b04@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ 【Cancelled】Notice of the 15th Tax and Fishing Tournament 【Tokorozawa Corporate Association Hanno Branch】"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content Update
+      Main change: The 15th Tax and Fishing Tournament has been cancelled due to poor weather forecast.
+      
+      The 15th Tax and Fishing Tournament is cancelled due to poor weather being forecast. We are prioritizing the safety of participants. Those who have registered will be notified separately by phone or email. For those who were planning to participate, Arima Valley Tourist Fishing Grounds is offering special discounts. Please see our website for details. We appreciate your understanding.
+      
+      Source (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2729/
+    translation_hash: "sha256-d0ab5c965b4ada09"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-09-03T20:24:58.935780Z"
+    format_version: 3
