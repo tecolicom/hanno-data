@@ -1,0 +1,35 @@
+{
+  "created": "2026-09-03T20:25:11.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🔄 Content Update\nMain change: The 15th Tax and Fishing Tournament has been cancelled due to poor weather forecast.\n\nThe 15th Tax and Fishing Tournament is cancelled due to poor weather being forecast. We are prioritizing the safety of participants. Those who have registered will be notified separately by phone or email. For those who were planning to participate, Arima Valley Tourist Fishing Grounds is offering special discounts. Please see our website for details. We appreciate your understanding.\n\nSource (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2729/",
+  "end": {
+    "date": "2026-09-04"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHJqNGU5ZGNnc21hb2o2NmgwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiOTMyNjEzZWUxMWIzYjE2NjU3Yjk4NmE3ZWMxYmQ4MmFkN2MzODVjMzBkZTc1YTJkYjU4MzRiYTFhMjk3ZTMyQGc",
+  "iCalUID": "cci-event-2729-d9ebf4@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68rj4e9dcgsmaoj66h06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ（EN）",
+    "email": "b932613ee11b3b16657b986a7ec1bd82ad7c385c30de75a2db5834ba1a297e32@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2729/"
+  },
+  "start": {
+    "date": "2026-09-03"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 【Cancelled】Notice of the 15th Tax and Fishing Tournament 【Tokorozawa Corporate Association Hanno Branch】",
+  "updated": "2026-09-03T20:25:11.694Z"
+}

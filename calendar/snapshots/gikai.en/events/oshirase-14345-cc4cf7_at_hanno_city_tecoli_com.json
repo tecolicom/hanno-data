@@ -1,0 +1,34 @@
+{
+  "created": "2026-09-03T20:25:12.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 New (Published: September 4, 2026)\n\nOver 40% of bicycle thefts in the prefecture happen on residential property. About 60% of stolen bicycles were unlocked, so always lock your bike when you park it. Using two locks (\"two-lock\") is an effective way to prevent theft.\n\nBicycle users are legally required to register their bikes for crime prevention. Registering at a bike shop, home center, or other registration office helps with recovery and return if your bike is stolen. Always register when you buy a new bike or receive one from someone else.\n\nIf your bicycle goes missing, report it to the nearest police station or police box right away. For the report, you'll need your crime prevention registration number, frame number, and a description of the bike. Have ready your receipt or registration copy, the location and time you parked it, and when you discovered it was stolen.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/bohan/14345.html",
+  "end": {
+    "date": "2026-09-06"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Z3BqOGQ5ZGNkaGo4b3I2NnQwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-14345-cc4cf7@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6gpj8d9dcdhj8or66t06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/bohan/14345.html"
+  },
+  "start": {
+    "date": "2026-09-05"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Watch Out for Bicycle Theft",
+  "updated": "2026-09-03T20:25:12.663Z"
+}
