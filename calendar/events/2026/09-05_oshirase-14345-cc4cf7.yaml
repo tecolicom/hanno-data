@@ -1,0 +1,30 @@
+uid: "oshirase-14345-cc4cf7@hanno.city.tecoli.com"
+summary: "ℹ️ 自転車の盗難にご注意ください"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/bohan/14345.html"
+dtstart: "2026-09-05"
+dtend: "2026-09-05"
+description: |-
+  🆕 新着掲載 (公開日: 2026-09-04)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  県内で発生した自転車盗難の約4割以上が住宅敷地内で発生しています。盗まれた自転車の約6割が無施錠のため、駐輪時には必ず鍵をかけてください。複数の鍵をかける「ツーロック」が盗難防止に効果的です。
+  
+  自転車利用者には法律により防犯登録が義務付けられています。自転車販売店やホームセンターなどの防犯登録所で登録することで、盗難時の発見・返還につながります。自転車を購入したときや譲り受けたときには必ず登録してください。
+  
+  自転車がなくなった場合は、速やかに最寄りの警察署・交番に盗難の被害届を提出してください。被害届には防犯登録番号、車体番号、自転車の特徴が必要です。保証書や防犯登録の控え、駐輪した場所と日時、被害を確認した日時をお伝えください。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/bohan/14345.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "14345"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/bohan/14345.html"
+  fetched_at: "2026-09-03T20:23:54.977662Z"
+  content_hash: "sha256-cc4cf74635ec9594"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-09-04"

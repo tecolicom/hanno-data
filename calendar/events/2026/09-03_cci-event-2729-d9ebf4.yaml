@@ -1,0 +1,28 @@
+uid: "cci-event-2729-d9ebf4@hanno.city.tecoli.com"
+summary: "ℹ️ 【中止】第15回税とつり大会開催のお知らせ 【所沢法人会飯能支部】"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2729/"
+dtstart: "2026-09-03"
+dtend: "2026-09-03"
+description: |-
+  🔄 内容更新
+  主な変更: 第15回税とつり大会が天候不良予報のため中止となりました。
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  第15回税とつり大会は天候不良が予報されるため、参加者の安全を考慮して開催を中止いたします。お申込みをいただいた方には、別途お電話またはメールでご案内させていただきます。なお、参加予定であった方は、有間渓谷観光釣り場より特別優待がございますので、詳しくは当会ホームページをご覧ください。ご理解のほどよろしくお願いいたします。
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2729/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2729"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2729/"
+  category: "お知らせ"
+  summary_method: "llm-haiku-4-5"
+  content_hash: "sha256-d9ebf4ecba30a356"
+  supersedes: "cci-event-2729-930b04@hanno.city.tecoli.com"
