@@ -1,0 +1,34 @@
+{
+  "created": "2026-09-04T20:12:00.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n【New Alert】(Posted: September 4, 2026)\n\nSaitama Prefecture is expected to experience unstable atmospheric conditions due to a front stalled near Honshu and warm, moist air.\n\nBe alert and cautious of flooding in low-lying areas, river overflow, and landslides.\n\nCheck the Japan Meteorological Agency website for Kikiruku (hazard map) and time-series forecasts, and stay informed of the latest weather disaster advisories.\n\nJapan Meteorological Agency: Hanno disaster prevention information (external site)\n\n• Time-series information\n• Weather disaster prevention and meteorological commentary\n• Warnings, advisories, and early warnings\n• Kikiruku (real-time hazard map)\n• Japan Meteorological Agency homepage\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/bosai/14370.html",
+  "end": {
+    "date": "2026-09-06"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Z3BqZWMxZDZkaWowb2oxNmwwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-14370-3e0ba5@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6gpjec1d6dij0oj16l06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/bosai/14370.html"
+  },
+  "start": {
+    "date": "2026-09-05"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Heavy rain warning",
+  "updated": "2026-09-04T20:12:01.183Z"
+}

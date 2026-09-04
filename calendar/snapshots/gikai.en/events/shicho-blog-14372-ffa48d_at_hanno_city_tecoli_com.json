@@ -1,0 +1,34 @@
+{
+  "created": "2026-09-04T20:12:01.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n📝 Mayor's Blog Update (Published: September 4, 2026)\n\nOn Friday, September 4, 2026 (Reiwa 8), the 3rd Regular Session of the Hanno City Council opened.\n\nThe session runs from September 4 through September 29, and council members are scheduled to deliberate on a total of 30 agenda items and approvals, including proposed ordinances, supplementary budget proposals, and road-related motions.\n\nPhoto: https://www.city.hanno.lg.jp/material/images/group/79/080904reiwa8nendai3kaihannoshigikaiteireikai.JPG\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202609/14372.html",
+  "end": {
+    "date": "2026-09-06"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2VkazZpb3I4ZHNtbTRyM2Zjc21qMmQxajZzcDJxcGo2YzRxM2dwMjBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIGI2ZjM2ZTE5NzUxYzA1Y2NlOTlmYTAwODI4ZTQyOWY0MGY2ZGIxMDBlMmRiZTQ0MmJjMjYyMmEyNWRhOTczMTZAZw",
+  "iCalUID": "shicho-blog-14372-ffa48d@hanno.city.tecoli.com",
+  "id": "_edk6ior8dsmm4r3fcsmj2d1j6sp2qpj6c4q3gp20d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202609/14372.html"
+  },
+  "start": {
+    "date": "2026-09-05"
+  },
+  "status": "confirmed",
+  "summary": "📝 Mayor: Hanno City Council Regular Session, September 2026 (Reiwa 8, 3rd Meeting)",
+  "updated": "2026-09-04T20:12:02.098Z"
+}

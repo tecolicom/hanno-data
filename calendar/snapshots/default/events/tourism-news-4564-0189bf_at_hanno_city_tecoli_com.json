@@ -1,0 +1,34 @@
+{
+  "created": "2026-09-04T20:11:20.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "奥むさし飯能観光協会: https://hanno-tourism.jp/news/hanno-jc-marche\n\n🆕 新着掲載 (公開日: 2026-09-04)\n",
+  "end": {
+    "date": "2026-09-05"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFyajVldHBpcWQxbDZvcTJxYzFoNzBzbTRwaTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIDIwNTQwM2M5NzFkYzVlZjIxZWZkODFjMWQ1Mzg0OWNhZGZkOTAxYjc1Yzc3ZDg4OTU1ZDk2MDBmNDVmMmEwMTNAZw",
+  "iCalUID": "tourism-news-4564-0189bf@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqrj5etpiqd1l6oq2qc1h70sm4pi0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能カレンダー",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/news/hanno-jc-marche"
+  },
+  "start": {
+    "date": "2026-09-04"
+  },
+  "status": "confirmed",
+  "summary": "📢 飯能まつり ステージ・パレード・市民マルシェのお申込みについて",
+  "updated": "2026-09-04T20:11:20.683Z"
+}

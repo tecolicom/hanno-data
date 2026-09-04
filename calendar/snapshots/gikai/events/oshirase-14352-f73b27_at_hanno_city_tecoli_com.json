@@ -1,0 +1,34 @@
+{
+  "created": "2026-09-04T20:11:21.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🆕 新着掲載 (公開日: 2026-09-02)\n\n## 令和8年度熊本地震に係る被災地派遣職員等（熊本市）の報告会\n\n日時：令和8年9月1日（火曜日） 午後1時15分\n\n場所：飯能市役所本庁舎別館1階 危機管理会議室\n\n被災地（熊本市）への人的支援（避難所運営業務及び被害家屋調査認定業務）として派遣していた2名から、市長へ被災地の現状等を報告しました。\n\n被災地への派遣\n\n【派遣人数及び派遣期間】\n\n（熊本市） 2名：令和8年8月17日（月曜日）から令和8年8月25日（火曜日）\n\n【業務内容】\n\n避難所運営業務の支援\n\n家屋の被害認定業務の支援 等\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/bosai/14352.html",
+  "end": {
+    "date": "2026-09-06"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Z3BqYWNoZGNvcmo2b2hpNnQwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSA2NzQ1OTE0YjI0MzIzMTEyYTE1ZjQzZGMyMGIzYTBmNGE0ODE3YWZkODAwYzhkMTY4N2QwYmYwYjdmODkwYzYxQGc",
+  "iCalUID": "oshirase-14352-f73b27@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6gpjachdcorj6ohi6t06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/bosai/14352.html"
+  },
+  "start": {
+    "date": "2026-09-05"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 熊本市への派遣職員からの報告会を行いました",
+  "updated": "2026-09-04T20:11:21.457Z"
+}

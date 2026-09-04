@@ -1,0 +1,34 @@
+{
+  "created": "2026-09-04T20:11:59.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 New entry (published: September 2, 2026)\n\nReport from Staff Dispatched to Kumamoto City for Kumamoto Earthquake Response (Fiscal Year 2026)\n\nDate and time: September 1, 2026 (Tuesday), 1:15 PM\n\nLocation: Hanno City Hall Main Building Annex, 1st Floor, Crisis Management Conference Room\n\nTwo staff members who were dispatched to the disaster area (Kumamoto City) to provide human support—including evacuation shelter operations and damaged property assessment work—reported on the current situation in the affected area to the city mayor.\n\nDispatch to disaster area\n\n【Number of staff dispatched and dispatch period】\n\n(Kumamoto City) 2 staff members: August 17, 2026 (Monday) to August 25, 2026 (Tuesday)\n\n【Work duties】\n\n• Support for evacuation shelter operations\n• Support for damaged property assessment work\n• and other tasks\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/bosai/14352.html",
+  "end": {
+    "date": "2026-09-06"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Z3BqYWNoZGNvcmo2b2hpNnQwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-14352-f73b27@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6gpjachdcorj6ohi6t06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/bosai/14352.html"
+  },
+  "start": {
+    "date": "2026-09-05"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Report from staff dispatched to Kumamoto City",
+  "updated": "2026-09-04T20:12:00.373Z"
+}
