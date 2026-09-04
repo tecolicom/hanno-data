@@ -1,0 +1,27 @@
+uid: "shicho-blog-14372-ffa48d@hanno.city.tecoli.com"
+summary: "📝 市長：令和8年第3回飯能市議会定例会"
+url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202609/14372.html"
+dtstart: "2026-09-05"
+dtend: "2026-09-05"
+description: |-
+  📝 市長ブログ更新 (公開日: 2026-09-04)
+  
+  9月4日（金曜日）、令和8年第3回飯能市議会定例会が開会されました。
+  
+  会期は9月4日から9月29日までで、条例案、補正予算案、道路議案など計30件の議案・認定についてご審議いただく予定です。
+  
+  写真: https://www.city.hanno.lg.jp/material/images/group/79/080904reiwa8nendai3kaihannoshigikaiteireikai.JPG
+  
+  市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202609/14372.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-shicho-blog
+  id: "14372"
+  url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202609/14372.html"
+  fetched_at: "2026-09-04T20:10:23.642072Z"
+  content_hash: "sha256-ffa48dc8db2f1d90"
+  publish_date: "2026-09-04"

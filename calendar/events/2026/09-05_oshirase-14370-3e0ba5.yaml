@@ -1,0 +1,40 @@
+uid: "oshirase-14370-3e0ba5@hanno.city.tecoli.com"
+summary: "ℹ️ 大雨に注意してください"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/bosai/14370.html"
+dtstart: "2026-09-05"
+dtend: "2026-09-05"
+description: |-
+  🆕 新着掲載 (公開日: 2026-09-04)
+  
+  埼玉県では、本州付近に停滞する前線や暖かく湿った空気の影響により、大気の状態が不安定となる見込みです。
+  
+  低い土地の浸水や河川の増水、土砂災害に注意・警戒してください。
+  
+  「気象庁ホームページ」のキキクルや時系列情報をご確認いただくとともに、最新の防災気象情報に留意してください。
+  
+  気象庁：飯能市の防災情報（外部サイト）
+  
+  時系列情報
+  
+  気象防災情報・気象解説情報等
+  
+  警報・注意報、早期注意情報
+  
+  キキクル
+  
+  気象庁ホームページ
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/bosai/14370.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "14370"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/bosai/14370.html"
+  fetched_at: "2026-09-04T20:10:26.262488Z"
+  content_hash: "sha256-3e0ba5630ad571a2"
+  summary_method: "full"
+  publish_date: "2026-09-04"

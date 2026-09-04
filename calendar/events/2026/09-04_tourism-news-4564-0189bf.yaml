@@ -1,0 +1,22 @@
+uid: "tourism-news-4564-0189bf@hanno.city.tecoli.com"
+summary: "📢 飯能まつり ステージ・パレード・市民マルシェのお申込みについて"
+url: "https://hanno-tourism.jp/news/hanno-jc-marche"
+dtstart: "2026-09-04"
+dtend: "2026-09-04"
+description: |
+  奥むさし飯能観光協会: https://hanno-tourism.jp/news/hanno-jc-marche
+  
+  🆕 新着掲載 (公開日: 2026-09-04)
+  
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-tourism-jp-news
+  id: "4564"
+  url: "https://hanno-tourism.jp/news/hanno-jc-marche"
+  fetched_at: "2026-09-04T20:09:27.195981Z"
+  modified_gmt: "2026-09-04T06:52:01"
+  content_hash: "sha256-0189bfd46213e4a2"

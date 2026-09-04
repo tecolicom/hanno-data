@@ -1,0 +1,29 @@
+uid: "shicho-blog-14375-31b907@hanno.city.tecoli.com"
+summary: "📝 市長：令和8年熊本地震・被災地支援派遣職員の報告会"
+url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202609/14375.html"
+dtstart: "2026-09-05"
+dtend: "2026-09-05"
+description: |-
+  📝 市長ブログ更新 (公開日: 2026-09-01)
+  
+  9月1日（火曜日）、令和8年熊本地震で被災した熊本市に8月17日から25日までの9日間、被災地支援のため本市から2名の職員を派遣しました。
+  
+  本日、被災された方々の不安に寄り添い、本市を代表して尽力した職員から、現地で経験したことや直面した課題などについての庁内報告会を行いました。
+  
+  「災害に強い、安全・安心なまちづくり」こそ、まずは第一に進めなければいけません。本日報告された内容などを共有し、本市の防災体制の強化に生かしてまいります。
+  
+  写真: https://www.city.hanno.lg.jp/material/images/group/79/080901reiwa8nenkumamotojishinhisaichishienhakensyokuinnohoukokukai.JPG
+  
+  市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202609/14375.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-shicho-blog
+  id: "14375"
+  url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202609/14375.html"
+  fetched_at: "2026-09-04T20:10:24.211250Z"
+  content_hash: "sha256-31b9078211cc36d4"
+  publish_date: "2026-09-01"

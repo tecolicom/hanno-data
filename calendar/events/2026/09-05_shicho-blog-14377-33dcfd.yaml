@@ -1,0 +1,29 @@
+uid: "shicho-blog-14377-33dcfd@hanno.city.tecoli.com"
+summary: "📝 市長：シェイクアウト訓練"
+url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202609/14377.html"
+dtstart: "2026-09-05"
+dtend: "2026-09-05"
+description: |-
+  📝 市長ブログ更新 (公開日: 2026-09-01)
+  
+  本日、9月1日は防災の日です。大正12年9月1日に関東大震災が発生し、多くの方々が犠牲となりました。
+  
+  地震が発生したときは、その場から移動せず、「姿勢を低くする」、「頭を守る」、「動かずにじっとする」ことが大事です。このシェイクアウト訓練を全庁で実施しました。
+  
+  まずは自分の身は自分で守ることが大切です。地震のときには実践いただきますようお願いします。
+  
+  写真: https://www.city.hanno.lg.jp/material/images/group/79/080901shakeoutkunren.jpg
+  
+  市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202609/14377.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-shicho-blog
+  id: "14377"
+  url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202609/14377.html"
+  fetched_at: "2026-09-04T20:10:24.761452Z"
+  content_hash: "sha256-33dcfd048a7bf3b5"
+  publish_date: "2026-09-01"
