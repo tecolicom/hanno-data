@@ -27,3 +27,24 @@ source:
   fetched_at: "2026-09-04T20:10:24.761452Z"
   content_hash: "sha256-33dcfd048a7bf3b5"
   publish_date: "2026-09-01"
+translations:
+  en:
+    summary: "📝 Mayor: Earthquake Drill"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      📝 Mayor's Blog Update (Published: September 1, 2026)
+      
+      Today, September 1, is Disaster Prevention Day in Japan. On September 1, 1923 (Taisho 12), the Great Kanto Earthquake struck, and many lives were lost.
+      
+      When an earthquake happens, it's important to stay where you are and follow three steps: drop low, cover your head, and hold still. We held an earthquake drill (ShakeOut) across all city offices today.
+      
+      First and foremost, we must protect ourselves. Please practice these steps so you can act instinctively if a real earthquake occurs.
+      
+      Photo: https://www.city.hanno.lg.jp/material/images/group/79/080901shakeoutkunren.jpg
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202609/14377.html
+    translation_hash: "sha256-8988e13905608f52"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-09-04T20:11:51.285881Z"
+    format_version: 3

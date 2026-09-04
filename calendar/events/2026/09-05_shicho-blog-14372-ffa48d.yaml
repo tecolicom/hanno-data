@@ -25,3 +25,22 @@ source:
   fetched_at: "2026-09-04T20:10:23.642072Z"
   content_hash: "sha256-ffa48dc8db2f1d90"
   publish_date: "2026-09-04"
+translations:
+  en:
+    summary: "📝 Mayor: Hanno City Council Regular Session, September 2026 (Reiwa 8, 3rd Meeting)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      📝 Mayor's Blog Update (Published: September 4, 2026)
+      
+      On Friday, September 4, 2026 (Reiwa 8), the 3rd Regular Session of the Hanno City Council opened.
+      
+      The session runs from September 4 through September 29, and council members are scheduled to deliberate on a total of 30 agenda items and approvals, including proposed ordinances, supplementary budget proposals, and road-related motions.
+      
+      Photo: https://www.city.hanno.lg.jp/material/images/group/79/080904reiwa8nendai3kaihannoshigikaiteireikai.JPG
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202609/14372.html
+    translation_hash: "sha256-d926158b1f40d558"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-09-04T20:11:43.491726Z"
+    format_version: 3

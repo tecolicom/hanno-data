@@ -20,3 +20,16 @@ source:
   fetched_at: "2026-09-04T20:09:27.195981Z"
   modified_gmt: "2026-09-04T06:52:01"
   content_hash: "sha256-0189bfd46213e4a2"
+translations:
+  en:
+    summary: "📢 Hanno Festival: Applications for Stage, Parade, and Citizen Market"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Tourism Association: https://hanno-tourism.jp/news/hanno-jc-marche
+      
+      🆕 New listing (Published: September 4, 2026)
+    translation_hash: "sha256-42720aedb6593cd5"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-09-04T20:11:32.018123Z"
+    format_version: 3

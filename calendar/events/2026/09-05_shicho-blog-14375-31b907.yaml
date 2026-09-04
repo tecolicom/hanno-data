@@ -27,3 +27,24 @@ source:
   fetched_at: "2026-09-04T20:10:24.211250Z"
   content_hash: "sha256-31b9078211cc36d4"
   publish_date: "2026-09-01"
+translations:
+  en:
+    summary: "📝 Mayor: Report from staff dispatched to support Kumamoto earthquake disaster recovery efforts in Reiwa 8"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      📝 Mayor's Blog Update (Published: September 1, 2026)
+      
+      On Tuesday, September 1, Hanno City dispatched 2 staff members to Kumamoto City, which was affected by the Reiwa 8 Kumamoto earthquake, from August 17–25 (9 days total) to provide disaster support.
+      
+      Today, the staff members who worked on behalf of our city and stood beside those affected held an internal report session to share their experiences and the challenges they faced in the affected area.
+      
+      Building a "disaster-resilient, safe, and secure community" must be our first priority. We will share the content from today's report and use these insights to strengthen Hanno City's disaster preparedness system.
+      
+      Photo: https://www.city.hanno.lg.jp/material/images/group/79/080901reiwa8nenkumamotojishinhisaichishienhakensyokuinnohoukokukai.JPG
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202609/14375.html
+    translation_hash: "sha256-5adf2ea31efe0038"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-09-04T20:11:46.667678Z"
+    format_version: 3
