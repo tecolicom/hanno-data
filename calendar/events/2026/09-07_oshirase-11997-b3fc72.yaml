@@ -1,0 +1,30 @@
+uid: "oshirase-11997-b3fc72@hanno.city.tecoli.com"
+summary: "ℹ️ 自主避難所を開設しました"
+url: "https://www.city.hanno.lg.jp/emergency/11997.html"
+dtstart: "2026-09-07"
+dtend: "2026-09-07"
+description: |-
+  🔄 内容更新 (公開日: 2026-09-06 / 前回掲載: 2026-08-14)
+  主な変更: 自主避難所が追加開設されました。美杉台地区行政センターが新たに加わり、第二区地区行政センターも受け入れを開始しています。
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  【9月6日19時10分発表】9月6日夕方から7日にかけて埼玉県で雷を伴った非常に激しい雨が予想されています。暗くなってからの移動や道路冠水時の車での移動は危険なため、川や崖の近くにお住まいで不安を感じる場合は、事前にハザードマップを確認し、必需品・食料・毛布等を用意のうえ自主避難を検討してください。
+  
+  飯能市では以下の施設で自主避難者を受け入れています：飯能中央地区行政センター、第二区地区行政センター、加治地区行政センター、加治東地区行政センター、美杉台地区行政センター、南高麗地区行政センター、吾野地区行政センター、東吾野地区行政センター、原市場地区行政センター、名栗地区行政センター。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/emergency/11997.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "11997"
+  url: "https://www.city.hanno.lg.jp/emergency/11997.html"
+  fetched_at: "2026-09-06T19:52:50.128267Z"
+  content_hash: "sha256-b3fc7258400d19b2"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-09-06"
+  supersedes: "oshirase-11997-34c64f@hanno.city.tecoli.com"
