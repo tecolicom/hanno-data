@@ -1,0 +1,34 @@
+{
+  "created": "2026-09-07T21:03:09.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 Newly posted (Published: September 1, 2026)\n\nHanno City is continuously recruiting temporary teaching staff to work at elementary and junior high schools in the city.\n\n【Position types】\nElementary school teacher (temporary appointment, fixed-term), Junior high school teacher (temporary appointment, fixed-term)\n\n【Workplace】\nElementary schools (12 schools) or junior high schools (7 schools) within the city. The Hanno City Board of Education will designate your workplace considering your preferences, residence, commute time, and other factors.\n\n【Working hours】\n7 hours 45 minutes per day\n\n【Start date】\nApril 1, 2027 (Reiwa 9). In some cases, appointments may be possible during fiscal year 2026 (Reiwa 8) depending on circumstances.\n\n【Salary】\nBased on Saitama Prefecture standards. Bonuses and various allowances included.\n\n【Number of positions】\nMultiple openings. Active recruitment ongoing based on each school's needs.\n\n【Eligibility】\nApplicants must hold an elementary or junior high school teaching certificate, or be expected to obtain one by March 31, 2027 (Reiwa 9). Expired or inactive certificates may be accepted under certain conditions. In some cases, a junior high school certificate holder may work at an elementary school.\n\n【Selection method】\nInterview, etc.\n\n【How to apply】\nContact the Hanno City Board of Education, School Education Division by phone, or use the inquiry form (phone number required when using the form; for urgent matters, phone application is recommended)\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/gakkokyoikuka/7604.html",
+  "end": {
+    "date": "2026-09-09"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOW42b28zOGI5bTZkZ202b2o1ODFrNjJyamVkc242NnFia2Y0bjc4cGIzZHRtNmliajNkdG1nIGI2ZjM2ZTE5NzUxYzA1Y2NlOTlmYTAwODI4ZTQyOWY0MGY2ZGIxMDBlMmRiZTQ0MmJjMjYyMmEyNWRhOTczMTZAZw",
+  "iCalUID": "oshirase-7604-63acbe@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9n6oo38b9m6dgm6oj581k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/gakkokyoikuka/7604.html"
+  },
+  "start": {
+    "date": "2026-09-08"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Recruitment of temporary teaching staff",
+  "updated": "2026-09-07T21:03:09.738Z"
+}

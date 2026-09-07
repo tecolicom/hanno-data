@@ -1,0 +1,34 @@
+{
+  "created": "2026-09-07T21:02:31.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🆕 新着掲載 (公開日: 2026-09-01)\n\nAI による要約 (正確な情報は元記事をご確認ください)\n\n飯能市内の小学校・中学校で勤務する臨時的任用教職員を随時募集しています。\n\n【職種】小学校教諭（臨任、任期付教員）、中学校教諭（臨任、任期付教員）\n\n【勤務場所】市内小学校（12校）又は中学校（7校）。本人の希望、居住地、通勤時間等を考慮して市教育委員会が指定します。\n\n【勤務時間】7時間45分\n\n【勤務開始時期】令和9年4月1日。令和8年度中でも状況によっては任用可能な場合があります。\n\n【給与】県の基準によります。賞与有り、諸手当有り。\n\n【募集人数】複数名。各学校の状況に応じて積極的募集中。\n\n【応募資格】教員免許状（小学校又は中学校）を有する方、または令和9年3月31日までに教員免許状取得見込みの方。失効中・休眠中の免許も条件によっては有効と認められる場合があります。中学校免許で小学校勤務可能な場合もあります。\n\n【選考方法】面接等\n\n【応募方法】飯能市教育委員会学校教育課へ電話で連絡、またはお問い合わせフォームから連絡（フォーム利用時は電話番号必須。急を要する場合は電話応募）\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/gakkokyoikuka/7604.html",
+  "end": {
+    "date": "2026-09-09"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOW42b28zOGI5bTZkZ202b2o1ODFrNjJyamVkc242NnFia2Y0bjc4cGIzZHRtNmliajNkdG1nIDY3NDU5MTRiMjQzMjMxMTJhMTVmNDNkYzIwYjNhMGY0YTQ4MTdhZmQ4MDBjOGQxNjg3ZDBiZjBiN2Y4OTBjNjFAZw",
+  "iCalUID": "oshirase-7604-63acbe@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9n6oo38b9m6dgm6oj581k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/gakkokyoikuka/7604.html"
+  },
+  "start": {
+    "date": "2026-09-08"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 臨時的任用教職員の募集について",
+  "updated": "2026-09-07T21:02:31.682Z"
+}
