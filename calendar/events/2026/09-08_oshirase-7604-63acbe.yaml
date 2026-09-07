@@ -1,0 +1,44 @@
+uid: "oshirase-7604-63acbe@hanno.city.tecoli.com"
+summary: "ℹ️ 臨時的任用教職員の募集について"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/gakkokyoikuka/7604.html"
+dtstart: "2026-09-08"
+dtend: "2026-09-08"
+description: |-
+  🆕 新着掲載 (公開日: 2026-09-01)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  飯能市内の小学校・中学校で勤務する臨時的任用教職員を随時募集しています。
+  
+  【職種】小学校教諭（臨任、任期付教員）、中学校教諭（臨任、任期付教員）
+  
+  【勤務場所】市内小学校（12校）又は中学校（7校）。本人の希望、居住地、通勤時間等を考慮して市教育委員会が指定します。
+  
+  【勤務時間】7時間45分
+  
+  【勤務開始時期】令和9年4月1日。令和8年度中でも状況によっては任用可能な場合があります。
+  
+  【給与】県の基準によります。賞与有り、諸手当有り。
+  
+  【募集人数】複数名。各学校の状況に応じて積極的募集中。
+  
+  【応募資格】教員免許状（小学校又は中学校）を有する方、または令和9年3月31日までに教員免許状取得見込みの方。失効中・休眠中の免許も条件によっては有効と認められる場合があります。中学校免許で小学校勤務可能な場合もあります。
+  
+  【選考方法】面接等
+  
+  【応募方法】飯能市教育委員会学校教育課へ電話で連絡、またはお問い合わせフォームから連絡（フォーム利用時は電話番号必須。急を要する場合は電話応募）
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/gakkokyoikuka/7604.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "7604"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/gakkokyoikuka/7604.html"
+  fetched_at: "2026-09-07T21:01:38.324516Z"
+  content_hash: "sha256-63acbecd5e05b53a"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-09-01"
