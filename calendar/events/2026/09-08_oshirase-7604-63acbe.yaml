@@ -42,3 +42,45 @@ source:
   content_hash: "sha256-63acbecd5e05b53a"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-09-01"
+translations:
+  en:
+    summary: "ℹ️ Recruitment of temporary teaching staff"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 Newly posted (Published: September 1, 2026)
+      
+      Hanno City is continuously recruiting temporary teaching staff to work at elementary and junior high schools in the city.
+      
+      【Position types】
+      Elementary school teacher (temporary appointment, fixed-term), Junior high school teacher (temporary appointment, fixed-term)
+      
+      【Workplace】
+      Elementary schools (12 schools) or junior high schools (7 schools) within the city. The Hanno City Board of Education will designate your workplace considering your preferences, residence, commute time, and other factors.
+      
+      【Working hours】
+      7 hours 45 minutes per day
+      
+      【Start date】
+      April 1, 2027 (Reiwa 9). In some cases, appointments may be possible during fiscal year 2026 (Reiwa 8) depending on circumstances.
+      
+      【Salary】
+      Based on Saitama Prefecture standards. Bonuses and various allowances included.
+      
+      【Number of positions】
+      Multiple openings. Active recruitment ongoing based on each school's needs.
+      
+      【Eligibility】
+      Applicants must hold an elementary or junior high school teaching certificate, or be expected to obtain one by March 31, 2027 (Reiwa 9). Expired or inactive certificates may be accepted under certain conditions. In some cases, a junior high school certificate holder may work at an elementary school.
+      
+      【Selection method】
+      Interview, etc.
+      
+      【How to apply】
+      Contact the Hanno City Board of Education, School Education Division by phone, or use the inquiry form (phone number required when using the form; for urgent matters, phone application is recommended)
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/gakkokyoikuka/7604.html
+    translation_hash: "sha256-6dfe9aece23edf9d"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-09-07T21:02:50.212603Z"
+    format_version: 3
