@@ -40,3 +40,36 @@ source:
   content_hash: "sha256-66b61ba5e68f0399"
   summary_method: "full"
   publish_date: "2026-09-08"
+translations:
+  en:
+    summary: "ℹ️ Heavy Rain Alert"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New (Published: September 8, 2026)
+      
+      Saitama Prefecture is expected to experience very unstable atmospheric conditions through the late evening of September 9 due to a frontal system and warm, moist air flowing toward it.
+      
+      Be alert and prepared for flooding in low-lying areas, swollen rivers, and mudslides.
+      
+      Linearly organized rainbands may develop across Saitama from the early evening of September 8 through the early morning of September 9, with the risk of disaster potentially increasing sharply.
+      
+      Check the Japan Meteorological Agency (JMA) website for Kikizuku (risk level maps) and time-series forecasts, and stay informed of the latest disaster prevention weather information.
+      
+      Japan Meteorological Agency: Disaster prevention information for Hanno City (external site)
+      
+      Time-series information
+      
+      Weather disaster prevention and weather explanation information
+      
+      Weather warnings and advisories, early warning information
+      
+      Kikizuku (risk level maps)
+      
+      Japan Meteorological Agency website
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/bosai/14393.html
+    translation_hash: "sha256-da886476f310f095"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-09-08T20:37:23.956451Z"
+    format_version: 3

@@ -30,3 +30,24 @@ source:
   content_hash: "sha256-755fcded3961c368"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-09-08"
+translations:
+  en:
+    summary: "ℹ️ Beware of water heater inspection scams"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New (Posted: September 8, 2026)
+      
+      Caution about fraudulent schemes using free water heater inspections as a pretext. Scammers posing as unknown contractors call or visit homes, claiming "your old water heater is dangerous," then pressure you to buy or sign service contracts.
+      
+      Legitimate gas equipment inspections are performed by gas retailers as a legal requirement at least once every four years, and customers receive advance notice. Do not respond to unsolicited calls or visits from unknown businesses.
+      
+      If you're unsure whether an inspection or repair is needed, contact your gas company, power company, water heater manufacturer, or dealer directly to ask. Inspections (after the warranty period) and replacements are paid services. The industry recommends having a trusted contractor inspect and replace water heaters around 10 years after installation.
+      
+      Inspection scams target not just water heaters but also roofs, electrical panels, and crawl spaces (termites). Even after signing a contract, you may be able to cancel under consumer protection laws. If you encounter a problem, contact your local consumer affairs center for help.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/kurashi/14382.html
+    translation_hash: "sha256-f5a245640db83cca"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-09-08T20:37:17.149203Z"
+    format_version: 3

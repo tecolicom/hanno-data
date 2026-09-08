@@ -41,3 +41,34 @@ source:
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-09-08"
   supersedes: "oshirase-11997-b3fc72@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ Voluntary evacuation centers now open"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content Updated (Published: September 8, 2026 / Previously: September 7, 2026)
+      Main changes: Target period changed from September 6 evening–7 to September 8 evening–9. Three additional facilities added: Fujimi District Administrative Center, Seimei District Administrative Center, and Futatsyanagi District Administrative Center.
+      
+      Voluntary evacuation centers opened at 6:00 PM on Tuesday, September 8 (Reiwa 8). The Japan Meteorological Agency forecasts that Saitama Prefecture will experience very heavy rain from the evening of September 8 through September 9. If you live near rivers or cliffs and feel concerned for your safety, please consider evacuating voluntarily. Hanno City is accepting evacuees at the following facilities. If you evacuate, please bring essential items, food, blankets, and other necessities.
+      
+      【Open Facilities】
+      • Fujimi District Administrative Center
+      • Hanno Central District Administrative Center
+      • Daini-ku District Administrative Center
+      • Seimei District Administrative Center
+      • Futatsyanagi District Administrative Center
+      • Kaji District Administrative Center
+      • Kaji-Higashi District Administrative Center
+      • Misugidai District Administrative Center
+      • Minami-Komae District Administrative Center
+      • Agano District Administrative Center
+      • Higashi-Agano District Administrative Center
+      • Haraichiba District Administrative Center
+      • Nagu District Administrative Center
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/emergency/11997.html
+    translation_hash: "sha256-19d0319380ef5d82"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-09-08T20:36:54.008828Z"
+    format_version: 3
