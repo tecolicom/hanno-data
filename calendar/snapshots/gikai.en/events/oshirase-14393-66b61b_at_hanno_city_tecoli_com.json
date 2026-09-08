@@ -1,0 +1,34 @@
+{
+  "created": "2026-09-08T20:37:36.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 New (Published: September 8, 2026)\n\nSaitama Prefecture is expected to experience very unstable atmospheric conditions through the late evening of September 9 due to a frontal system and warm, moist air flowing toward it.\n\nBe alert and prepared for flooding in low-lying areas, swollen rivers, and mudslides.\n\nLinearly organized rainbands may develop across Saitama from the early evening of September 8 through the early morning of September 9, with the risk of disaster potentially increasing sharply.\n\nCheck the Japan Meteorological Agency (JMA) website for Kikizuku (risk level maps) and time-series forecasts, and stay informed of the latest disaster prevention weather information.\n\nJapan Meteorological Agency: Disaster prevention information for Hanno City (external site)\n\nTime-series information\n\nWeather disaster prevention and weather explanation information\n\nWeather warnings and advisories, early warning information\n\nKikizuku (risk level maps)\n\nJapan Meteorological Agency website\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/bosai/14393.html",
+  "end": {
+    "date": "2026-09-10"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Z3BqaWNwZDZvcjY0ZGhoYzkwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-14393-66b61b@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6gpjicpd6or64dhhc906gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/bosai/14393.html"
+  },
+  "start": {
+    "date": "2026-09-09"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Heavy Rain Alert",
+  "updated": "2026-09-08T20:37:36.663Z"
+}

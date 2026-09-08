@@ -1,0 +1,34 @@
+{
+  "created": "2026-09-08T20:37:35.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 New (Posted: September 8, 2026)\n\nCaution about fraudulent schemes using free water heater inspections as a pretext. Scammers posing as unknown contractors call or visit homes, claiming \"your old water heater is dangerous,\" then pressure you to buy or sign service contracts.\n\nLegitimate gas equipment inspections are performed by gas retailers as a legal requirement at least once every four years, and customers receive advance notice. Do not respond to unsolicited calls or visits from unknown businesses.\n\nIf you're unsure whether an inspection or repair is needed, contact your gas company, power company, water heater manufacturer, or dealer directly to ask. Inspections (after the warranty period) and replacements are paid services. The industry recommends having a trusted contractor inspect and replace water heaters around 10 years after installation.\n\nInspection scams target not just water heaters but also roofs, electrical panels, and crawl spaces (termites). Even after signing a contract, you may be able to cancel under consumer protection laws. If you encounter a problem, contact your local consumer affairs center for help.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/kurashi/14382.html",
+  "end": {
+    "date": "2026-09-10"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Z3BqZ2NoZDZzcWphcGozY2gwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-14382-755fcd@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6gpjgchd6sqjapj3ch06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/kurashi/14382.html"
+  },
+  "start": {
+    "date": "2026-09-09"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Beware of water heater inspection scams",
+  "updated": "2026-09-08T20:37:35.735Z"
+}

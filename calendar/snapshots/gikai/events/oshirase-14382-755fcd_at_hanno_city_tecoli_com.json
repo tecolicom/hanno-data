@@ -1,0 +1,34 @@
+{
+  "created": "2026-09-08T20:36:37.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🆕 新着掲載 (公開日: 2026-09-08)\n\nAI による要約 (正確な情報は元記事をご確認ください)\n\n給湯器の無料点検を名目にした商法への注意喚起です。見知らぬ業者からの電話や訪問で「古い給湯器は危険」と不安をあおり、購入・工事契約を迫る詐欺的手法が報告されています。\n\n正規のガス設備点検は、ガス小売事業者が法定義務として4年に1度以上実施し、契約者に事前案内を配布します。心当たりのない電話や訪問は応じないでください。\n\n点検や修理が必要かわからない場合は、自分でガス・電力会社、メーカー、販売会社に連絡して相談してください。給湯器の点検（保証期間後）や交換は有料です。なお業界では使用開始から10年を目安に信頼できる事業者による点検・交換を推奨しています。\n\n点検商法は給湯器の他、屋根・分電盤・床下（シロアリ）等も対象です。契約後でもクーリング・オフができる場合があります。問題が生じた場合は消費生活センターにご相談ください。\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/kurashi/14382.html",
+  "end": {
+    "date": "2026-09-10"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Z3BqZ2NoZDZzcWphcGozY2gwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSA2NzQ1OTE0YjI0MzIzMTEyYTE1ZjQzZGMyMGIzYTBmNGE0ODE3YWZkODAwYzhkMTY4N2QwYmYwYjdmODkwYzYxQGc",
+  "iCalUID": "oshirase-14382-755fcd@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6gpjgchd6sqjapj3ch06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/kurashi/14382.html"
+  },
+  "start": {
+    "date": "2026-09-09"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 給湯器の点検商法にご注意ください",
+  "updated": "2026-09-08T20:36:37.812Z"
+}
