@@ -1,0 +1,42 @@
+uid: "oshirase-14393-66b61b@hanno.city.tecoli.com"
+summary: "ℹ️ 大雨にご注意ください"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/bosai/14393.html"
+dtstart: "2026-09-09"
+dtend: "2026-09-09"
+description: |-
+  🆕 新着掲載 (公開日: 2026-09-08)
+  
+  埼玉県では、前線や前線に向かって流れ込む暖かく湿った空気の影響により、9日夜遅くにかけて大気の状態が非常に不安定となる見込みです。
+  
+  低い土地の浸水や河川の増水、土砂災害に注意・警戒してください。
+  
+  埼玉県では8日夜のはじめ頃から9日明け方にかけて線状降水帯が発生して災害の危険度が急激に高まる可能性があります。
+  
+  「気象庁ホームページ」のキキクルや時系列情報をご確認いただくとともに、最新の防災気象情報に留意してください。
+  
+  気象庁：飯能市の防災情報（外部サイト）
+  
+  時系列情報
+  
+  気象防災情報・気象解説情報等
+  
+  警報・注意報、早期注意情報
+  
+  キキクル
+  
+  気象庁ホームページ
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/bosai/14393.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "14393"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/bosai/14393.html"
+  fetched_at: "2026-09-08T20:35:44.991132Z"
+  content_hash: "sha256-66b61ba5e68f0399"
+  summary_method: "full"
+  publish_date: "2026-09-08"

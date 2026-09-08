@@ -251,9 +251,13 @@
   "https://hanno-tourism.jp/news/hannomaturi2026": {
     "modified_gmt": "2026-09-02T04:12:41"
   },
+  "https://www.city.hanno.lg.jp/emergency/10396.html": {
+    "etag": "\"6aa06e45-b555\"",
+    "last_modified": "Tue, 08 Sep 2026 20:21:25 GMT"
+  },
   "https://www.city.hanno.lg.jp/emergency/11997.html": {
-    "etag": "\"6a9d3c2b-bfe7\"",
-    "last_modified": "Sun, 06 Sep 2026 10:10:51 GMT"
+    "etag": "\"6a9fd7b5-c0d5\"",
+    "last_modified": "Tue, 08 Sep 2026 09:39:01 GMT"
   },
   "https://www.city.hanno.lg.jp/emergency/14177.html": {
     "etag": "\"6a7db031-b54c\"",
@@ -923,6 +927,10 @@
     "etag": "\"6a9e1ac6-ddd6\"",
     "last_modified": "Mon, 07 Sep 2026 02:00:38 GMT"
   },
+  "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/kurashi/14382.html": {
+    "etag": "\"6a9fc085-c4d9\"",
+    "last_modified": "Tue, 08 Sep 2026 08:00:05 GMT"
+  },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jitishinkoka/9371.html": {
     "etag": "\"6a799083-c340\"",
     "last_modified": "Mon, 10 Aug 2026 08:49:07 GMT"
@@ -1027,6 +1035,10 @@
     "etag": "\"6a9e1ad2-bbda\"",
     "last_modified": "Mon, 07 Sep 2026 02:00:50 GMT"
   },
+  "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/shisannkeiei/14356.html": {
+    "etag": "\"6a9f5c99-e15a\"",
+    "last_modified": "Tue, 08 Sep 2026 00:53:45 GMT"
+  },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/shisannkeiei/7334.html": {
     "etag": "\"6a950c18-d928\"",
     "last_modified": "Mon, 31 Aug 2026 05:07:36 GMT"
@@ -1086,6 +1098,10 @@
   "https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/bosai/14370.html": {
     "etag": "\"6a9a7bd1-be95\"",
     "last_modified": "Fri, 04 Sep 2026 08:05:37 GMT"
+  },
+  "https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/bosai/14393.html": {
+    "etag": "\"6a9fb2db-c03a\"",
+    "last_modified": "Tue, 08 Sep 2026 07:01:47 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/shokuinka/13007.html": {
     "etag": "\"6a702999-d6e1\"",

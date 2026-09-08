@@ -1,0 +1,26 @@
+uid: "oshirase-10396-238736@hanno.city.tecoli.com"
+summary: "ℹ️ 自主避難所の閉鎖について"
+url: "https://www.city.hanno.lg.jp/emergency/10396.html"
+dtstart: "2026-09-10"
+dtend: "2026-09-10"
+description: |-
+  🆕 新着掲載 (公開日: 2026-09-09)
+  
+  【9月9日（水曜日）5時00分時点】自主避難所閉鎖
+  
+  自主避難所として設置をしていた精明地区行政センター、富士見地区行政センター、双柳地区行政センターの3か所については、自主避難者が帰宅又はいないことから5時00分をもって閉鎖しました。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/emergency/10396.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "10396"
+  url: "https://www.city.hanno.lg.jp/emergency/10396.html"
+  fetched_at: "2026-09-08T20:35:28.058772Z"
+  content_hash: "sha256-2387369152b3d472"
+  summary_method: "full"
+  publish_date: "2026-09-09"

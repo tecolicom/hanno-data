@@ -1,0 +1,43 @@
+uid: "oshirase-11997-fa0d5b@hanno.city.tecoli.com"
+summary: "ℹ️ 自主避難所を開設しました"
+url: "https://www.city.hanno.lg.jp/emergency/11997.html"
+dtstart: "2026-09-09"
+dtend: "2026-09-09"
+description: |-
+  🔄 内容更新 (公開日: 2026-09-08 / 前回掲載: 2026-09-07)
+  主な変更: 対象日時が9月6日夕方～7日から9月8日夕方～9日に変更されました。また、富士見地区行政センター、精明地区行政センター、双柳地区行政センターが新たに受け入れ施設に追加されました。
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  9月8日（火曜日）18時00分に自主避難所を開設しました。気象庁の予想では、埼玉県は9月8日夕方から9日にかけて非常に激しい雨が降る見込みです。川や崖の近くにお住まいで不安を感じる場合には、自主的な避難を検討してください。飯能市では以下の施設で自主避難者の受け入れを行っています。避難をされる方は、身の回りの必需品、食料、毛布等をご用意のうえ移動してください。
+  
+  【開設施設】
+  ・富士見地区行政センター
+  ・飯能中央地区行政センター
+  ・第二区地区行政センター
+  ・精明地区行政センター
+  ・双柳地区行政センター
+  ・加治地区行政センター
+  ・加治東地区行政センター
+  ・美杉台地区行政センター
+  ・南高麗地区行政センター
+  ・吾野地区行政センター
+  ・東吾野地区行政センター
+  ・原市場地区行政センター
+  ・名栗地区行政センター
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/emergency/11997.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "11997"
+  url: "https://www.city.hanno.lg.jp/emergency/11997.html"
+  fetched_at: "2026-09-08T20:35:33.493935Z"
+  content_hash: "sha256-fa0d5b4a0b20dca3"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-09-08"
+  supersedes: "oshirase-11997-b3fc72@hanno.city.tecoli.com"

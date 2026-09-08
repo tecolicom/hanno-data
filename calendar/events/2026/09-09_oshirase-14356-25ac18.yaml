@@ -1,0 +1,52 @@
+uid: "oshirase-14356-25ac18@hanno.city.tecoli.com"
+summary: "ℹ️ 建物解体条件付き市有地一般競争入札について（飯能市役所第2庁舎）"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/shisannkeiei/14356.html"
+dtstart: "2026-09-09"
+dtend: "2026-09-09"
+description: |-
+  🆕 新着掲載 (公開日: 2026-09-08)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  飯能市役所第2庁舎の解体撤去を条件とした市有地の一般競争入札を実施します。
+  
+  【売却物件】
+  所在地：大字双柳字精進場94番25、大字双柳字橋場371番2（宅地、計1,133.65平方メートル）
+  最低売却価格：15,300,000円
+  入札保証金：2,295,000円
+  
+  【解体撤去対象建物】
+  飯能市役所第2庁舎（家屋番号371番2及び371番2の2）
+  ・371番2：鉄筋コンクリート・鉄骨造、地下1階付4階建、延床面積1,414.47平方メートル
+  ・371番2の2：鉄骨造平屋建、床面積207.77平方メートル
+  （注：登記情報と現存建物は異なります）
+  
+  【現地見学・図書閲覧】
+  申込受付：令和8年9月15日（火曜日）から9月30日（水曜日）まで
+  見学日（予定）：令和8年10月5日（月曜日）・6日（火曜日）・7日（水曜日）のいずれか
+  申込先：資産経営課（sisankeiei@city.hanno.lg.jp）
+  
+  【質問受付】
+  受付期間：令和8年10月8日（木曜日）から10月16日（金曜日）まで
+  回答日（予定）：令和8年10月27日（火曜日）
+  申込先：資産経営課（sisankeiei@city.hanno.lg.jp）
+  
+  【入札】
+  参加申込受付：令和8年11月2日（月曜日）から11月13日（金曜日）（土日祝を除く午前9時から午後4時30分、郵送は必着）
+  入札日時：令和8年11月20日（金曜日）午後2時
+  会場：飯能市役所本庁舎2階入札室（大字双柳1番地の1）
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/shisannkeiei/14356.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "14356"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/shisannkeiei/14356.html"
+  fetched_at: "2026-09-08T20:35:44.385472Z"
+  content_hash: "sha256-25ac1843ae432e53"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-09-08"
