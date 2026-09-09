@@ -1,0 +1,38 @@
+uid: "cci-event-2803-5c6404@hanno.city.tecoli.com"
+summary: "🏮 2026年「くるくるはんのうマルシェ」開催のお知らせ"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2803/"
+dtstart: "2026-09-09"
+dtend: "2026-09-09"
+description: |-
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  2026年「くるくるはんのうマルシェ」
+  
+  日時：2026年9月27日（日）11:00～16:00
+  
+  飯能市内の生産者と飲食店、クリエイターが連携したマルシェを開催します。
+  
+  複数の会場で地元農産物を使った飲食やスイーツ、飲料などを販売：
+  - 飯能小町公園
+  - 飯能信用金庫飯能中央支店前
+  - 新井石材店展示スペース
+  - やまにわ前
+  
+  日替わりシェフレストラン、焙煎所、ベーグル店、スイーツ店、地酒、蜂蜜など多彩な出店者が出展予定です。
+  
+  飯能の農産物の魅力を発見できる機会となります。
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2803/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2803"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2803/"
+  category: "地域振興"
+  summary_method: "llm-haiku-4-5"
+  content_hash: "sha256-5c64043a68f3e269"

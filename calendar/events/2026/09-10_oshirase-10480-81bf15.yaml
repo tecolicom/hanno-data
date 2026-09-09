@@ -1,0 +1,44 @@
+uid: "oshirase-10480-81bf15@hanno.city.tecoli.com"
+summary: "ℹ️ 令和8年飯能まつりの開催について"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/kanko/10480.html"
+dtstart: "2026-09-10"
+dtend: "2026-09-10"
+description: |-
+  🆕 新着掲載 (公開日: 2026-08-27)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  令和8年11月7日（土曜日）・8日（日曜日）に飯能まつりが開催されます。
+  
+  【開催日時】
+  1日目 11月7日（土曜日） 正午から午後9時
+  2日目 11月8日（日曜日） 午前9時から午後9時
+  
+  【出店について】
+  飯能まつりで出店される方は「出店申請書兼誓約書」の提出が必要です。詳細は飯能まつり公式ホームページでご確認ください。
+  
+  【ステージ・パレード・市民マルシェについて】
+  これらに参加する場合、事前申込と事前説明会への参加が必要です。詳細は公益社団法人飯能青年会議所ホームページの申込フォームをご確認ください。
+  
+  【催し物内容・交通規制のご案内】
+  催し物の内容やまつり開催に伴う交通規制については、決まり次第飯能まつり公式ホームページにて随時更新されます。
+  
+  【問い合わせ】
+  飯能まつり協賛会事務局（一般社団法人奥むさし飯能観光協会）
+  電話 042-980-5051
+  住所 飯能市本町1-7（飯能商工会議所内）
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/kanko/10480.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "10480"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/kanko/10480.html"
+  fetched_at: "2026-09-09T20:18:14.930026Z"
+  content_hash: "sha256-81bf15e1912a5e55"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-08-27"
