@@ -34,3 +34,28 @@ source:
   category: "セミナー"
   summary_method: "llm-haiku-4-5"
   content_hash: "sha256-7fe1adb60cb661d3"
+translations:
+  en:
+    summary: "🎓 Practical Seminar: Smart Management in an Era of High Prices and Wage Increases"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Practical Seminar: Smart Management in an Era of High Prices and Wage Increases
+      
+      Date and time: Friday, October 30, 2026 (Reiwa 8), 2:00 PM–4:00 PM
+      Location: Hanno Chamber of Commerce and Industry, Main Conference Room (1-7 Honcho, Hanno)
+      Eligible participants: Small and medium-sized enterprises and small business operators (members and non-members welcome)
+      Fee: Free
+      Capacity: First come, first served, up to 30 people
+      
+      This seminar teaches you how to make your cost structure transparent, run profit planning and pricing simulations, and manage cash flow. Learn practical ways to reshape your business to cope with rising material and labor costs, implement sustainable operations, and give employees meaningful raises. The seminar covers responding to raw material and wage inflation, creating fair salary standards your staff will accept, timing hiring and equipment investments, and planning cash flow strategically. Recommended for business owners interested in any of these topics.
+      
+      To apply, contact the Hanno Chamber of Commerce and Industry, Small Business Support Office:
+      Telephone: 042-974-3111
+      Email: shien_gr@hanno-cci.or.jp
+      
+      Source (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2796/
+    translation_hash: "sha256-b117eed1a05e34f1"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-09-09T20:19:15.006351Z"
+    format_version: 3

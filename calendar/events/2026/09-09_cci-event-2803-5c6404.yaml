@@ -36,3 +36,30 @@ source:
   category: "地域振興"
   summary_method: "llm-haiku-4-5"
   content_hash: "sha256-5c64043a68f3e269"
+translations:
+  en:
+    summary: "🏮 2026 Kurukuru Hanno Marche (Market) Event Announcement"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      2026 Kurukuru Hanno Marche
+      
+      Date and time: Sunday, September 27, 2026 (Reiwa 8), 11:00 a.m.–4:00 p.m.
+      
+      A market where local producers, restaurants, and creators in Hanno City come together.
+      
+      Multiple venues will sell food, sweets, and drinks made with local produce:
+      • Hanno Komachi Park
+      • In front of Hanno Shinkin Bank Hanno Central Branch
+      • Arai Sekizai Display Space
+      • In front of Yaminawa
+      
+      A diverse lineup of vendors is expected, including a rotating-chef restaurant, a roasting shop, bagel shop, sweets shop, local sake, honey, and more.
+      
+      This is an opportunity to discover the appeal of Hanno's agricultural products.
+      
+      Source (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2803/
+    translation_hash: "sha256-3d669f7d4b2e10e1"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-09-09T20:19:21.126906Z"
+    format_version: 3

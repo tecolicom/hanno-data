@@ -42,3 +42,25 @@ source:
   content_hash: "sha256-81bf15e1912a5e55"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-08-27"
+translations:
+  en:
+    summary: "ℹ️ Hanno Festival 2026 to be held November 7–8"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      📢 New (Published: August 27, 2026)
+      
+      The Hanno Festival will be held on Saturday, November 7, and Sunday, November 8, 2026 (Reiwa 8).
+      
+      【Event Times】
+      Day 1: Saturday, November 7 — noon to 9 p.m.
+      Day 2: Sunday, November 8 — 9 a.m. to 9 p.m.
+      
+      【Vendor Booths】
+      Vendors planning to set up at the Hanno Festival must submit a
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/kanko/10480.html
+    translation_hash: "sha256-6476025877504b5d"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-09-09T20:19:26.103525Z"
+    format_version: 3
