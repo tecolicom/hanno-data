@@ -1,0 +1,34 @@
+{
+  "created": "2026-09-09T20:19:04.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🆕 新着掲載 (公開日: 2026-08-27)\n\nAI による要約 (正確な情報は元記事をご確認ください)\n\n令和8年11月7日（土曜日）・8日（日曜日）に飯能まつりが開催されます。\n\n【開催日時】\n1日目 11月7日（土曜日） 正午から午後9時\n2日目 11月8日（日曜日） 午前9時から午後9時\n\n【出店について】\n飯能まつりで出店される方は「出店申請書兼誓約書」の提出が必要です。詳細は飯能まつり公式ホームページでご確認ください。\n\n【ステージ・パレード・市民マルシェについて】\nこれらに参加する場合、事前申込と事前説明会への参加が必要です。詳細は公益社団法人飯能青年会議所ホームページの申込フォームをご確認ください。\n\n【催し物内容・交通規制のご案内】\n催し物の内容やまつり開催に伴う交通規制については、決まり次第飯能まつり公式ホームページにて随時更新されます。\n\n【問い合わせ】\n飯能まつり協賛会事務局（一般社団法人奥むさし飯能観光協会）\n電話 042-980-5051\n住所 飯能市本町1-7（飯能商工会議所内）\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/kanko/10480.html",
+  "end": {
+    "date": "2026-09-11"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2MHEzZ2MxZDcwb200cGhoNmwwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSA2NzQ1OTE0YjI0MzIzMTEyYTE1ZjQzZGMyMGIzYTBmNGE0ODE3YWZkODAwYzhkMTY4N2QwYmYwYjdmODkwYzYxQGc",
+  "iCalUID": "oshirase-10480-81bf15@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h60q3gc1d70om4phh6l06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/kanko/10480.html"
+  },
+  "start": {
+    "date": "2026-09-10"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 令和8年飯能まつりの開催について",
+  "updated": "2026-09-09T20:19:05.059Z"
+}

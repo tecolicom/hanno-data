@@ -1,0 +1,35 @@
+{
+  "created": "2026-09-09T20:19:03.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "AI による要約 (正確な情報は元記事をご確認ください)\n\n物価高・賃上げ時代の脱ドンブリ経営実践セミナー\n\n日時：2026年10月30日（金）14:00～16:00\n場所：飯能商工会議所大会議室（飯能市本町1-7）\n対象：中小企業・小規模事業者（会員・非会員問わず）\n費用：無料\n定員：先着30名\n\nコスト構造の見える化、利益計画と適正価格設定のシミュレーション、キャッシュフロー管理手法について学ぶセミナーです。物価高騰や最低賃金引上げに対応し、持続的な事業運営と従業員の賃上げを実現するための経営体質転換について、実践的に学べます。原材料費・人件費高騰への対応、社員が納得する給与基準作り、採用・設備投資のタイミング、計画的な資金繰りについて関心のある事業者におすすめです。\n\n申込：飯能商工会議所中小企業相談所\nTEL：042-974-3111\nMail：shien_gr@hanno-cci.or.jp\n\nhttps://www.hanno-cci.or.jp/xo_event/xo_event-2796/",
+  "end": {
+    "date": "2026-09-10"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHJqaWRoZDZ0ajZhY2IxY2gwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiMGE1NmM4ZTFmNTI0NmNkYTQxZTJmZGIzYzQ0OWIyMGM1MGJiMzY1YWFjOTIzMzNhNGE5MjkwYTIxZTdlZGNmQGc",
+  "iCalUID": "cci-event-2796-7fe1ad@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68rjidhd6tj6acb1ch06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ",
+    "email": "b0a56c8e1f5246cda41e2fdb3c449b20c50bb365aac92333a4a9290a21e7edcf@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2796/"
+  },
+  "start": {
+    "date": "2026-09-09"
+  },
+  "status": "confirmed",
+  "summary": "🎓 物価高・賃上げ時代の脱ドンブリ経営実践セミナー",
+  "updated": "2026-09-09T20:19:03.576Z"
+}
