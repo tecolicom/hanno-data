@@ -1,0 +1,26 @@
+uid: "oshirase-10146-c0d464@hanno.city.tecoli.com"
+summary: "ℹ️ 令和8年秋の全国交通安全運動を実施します"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/bohan/10146.html"
+dtstart: "2026-09-12"
+dtend: "2026-09-12"
+description: |-
+  🆕 新着掲載 (公開日: 2026-09-11)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  令和8年9月21日(月曜日)から9月30日(水曜日)までの10日間、「秋の全国交通安全運動」を実施します。埼玉県では「高齢者と自転車の交通事故防止」と「生活道路における速度抑制対策の推進」を重点項目として、歩行者の安全確保と反射材用品の着用促進、夕暮れ時の早めのライト点灯と飲酒運転・「ながらスマホ」の根絶、自転車・特定小型原動機付自転車の交通ルール理解・遵守の徹底に取り組みます。統一行動日は9月30日(水曜日)「交通事故死ゼロを目指す日」です。スローガンは「人も車も自転車も 安心・安全 埼玉県」。歩行者も運転者も交通ルールを守って交通事故をなくしましょう。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/bohan/10146.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "10146"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/bohan/10146.html"
+  fetched_at: "2026-09-10T20:19:58.853201Z"
+  content_hash: "sha256-c0d4644510ca6344"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-09-11"
