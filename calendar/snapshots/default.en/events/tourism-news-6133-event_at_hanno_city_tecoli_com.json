@@ -1,0 +1,34 @@
+{
+  "created": "2026-09-10T20:21:50.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nMoomin Valley Park is hosting an autumn event called \"Moomin Valley Park Harvest\" from September 12 to October 25, 2026 (Reiwa 8). The park features new terraces, a participatory show called \"Apple Pop Playtime!\", autumn umbrella sky displays, and more seasonal attractions.\n\n【Special Services】\n• September 21 (Monday, national holiday, Respect for the Aged Day): Free admission for ages 65 and up\n• September 19–23 (Saturday through Wednesday, national holiday, Respect for the Aged Day Week): Senior discount rates\n• Kids Support Campaign: Ages 4 through high school, 1-day pass for ¥500 (tax included; regular ¥1,300)\n• U22 Pass: Ages 18–22, 1-day pass for ¥2,200 (tax included; regular ¥4,300; advance purchase only)\n\nMore information: https://hanno-tourism.jp/news/%e7%89%a9%e8%aa%9e%e3%81%a8%e3%82%a2%e3%83%bc%e3%83%88%e3%81%ae%e4%b8%96%e7%95%8c%e3%81%b8%ef%bc%81%e3%80%8c%e3%83%a0%e3%83%bc%e3%83%9f%e3%83%b3%e3%83%90%e3%83%ac%e3%83%bc%e3%83%91%e3%83%bc%e3%82%af",
+  "end": {
+    "date": "2026-10-26"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFyajVldHBpcWRoaDZjcGlxcGJtY2xuNzhnMzhjNW42c3JwZWNka244dTllZWhpbTZycmNkNG42NnJyZCBkOTE5M2NmNWY2NDRhYjQxYTI4ZTIyNjhhOThhYmM1YWE0MjZiZDJkNTc3MTUyODM0MjQ0YWQ2OWEzMWY1YTY4QGc",
+  "iCalUID": "tourism-news-6133-event@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqrj5etpiqdhh6cpiqpbmcln78g38c5n6srpecdkn8u9eehim6rrcd4n66rrd",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/news/%e7%89%a9%e8%aa%9e%e3%81%a8%e3%82%a2%e3%83%bc%e3%83%88%e3%81%ae%e4%b8%96%e7%95%8c%e3%81%b8%ef%bc%81%e3%80%8c%e3%83%a0%e3%83%bc%e3%83%9f%e3%83%b3%e3%83%90%e3%83%ac%e3%83%bc%e3%83%91%e3%83%bc%e3%82%af"
+  },
+  "start": {
+    "date": "2026-09-12"
+  },
+  "status": "confirmed",
+  "summary": "🎪 Enter a world of stories and art! \"Moomin Valley Park Harvest\" begins September 12 (Reiwa 8)",
+  "updated": "2026-09-10T20:21:50.290Z"
+}
