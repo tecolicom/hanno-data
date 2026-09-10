@@ -36,3 +36,40 @@ source:
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-09-08"
   supersedes: "oshirase-12265-397f52@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ Accepting donations for disaster relief and humanitarian aid"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Updated information (Published: September 8, 2026 / Previously posted: August 27, 2026)
+      Main changes: Donations for heavy rain disaster relief (Toyama, Ishikawa, Fukui prefectures) from August 27, Reiwa 8, and 2026 Nepal flood relief are now accepted.
+      
+      The Japanese Red Cross Society Saitama Prefecture Hanno District accepts domestic disaster relief donations and international humanitarian aid donations.
+      
+      【Domestic Disaster Relief Donations】
+      • 2024 Noto Peninsula Earthquake disaster relief (Ishikawa, Toyama, Niigata prefectures; deadline: March 22, 2027)
+      • September 2024 Noto Peninsula heavy rain disaster relief (Ishikawa; March 22, 2027)
+      • 2026 Kumamoto Earthquake disaster relief (Kumamoto Prefecture; October 23, 2026)
+      • July 2026 landslide disaster relief in Koka City, Shiga Prefecture (Shiga; January 22, 2027)
+      • August 2026 Chiba heavy rain disaster relief (Chiba Prefecture; November 24, 2026)
+      • Heavy rain disaster relief from August 27, 2026 onwards (Toyama, Ishikawa, Fukui prefectures; January 22, 2027)
+      
+      【International Humanitarian Aid Donations】
+      • Middle East humanitarian crisis relief (March 23, 2027)
+      • Bangladesh southern region refugee relief (March 23, 2027)
+      • Ukraine humanitarian crisis relief (March 23, 2027)
+      • 2026 Venezuela earthquake relief (September 21, 2026)
+      • 2026 Colombia earthquake relief (November 24, 2026)
+      • 2026 Nepal flood relief (November 24, 2026)
+      • Undesignated international humanitarian relief (year-round)
+      
+      Acceptance locations: Information desk at the main entrance of Hanno City Hall (donation box) or Community Welfare Division (1st floor, Window 11)
+      Acceptance hours: Weekdays 9:00 AM – 4:30 PM
+      Receipts available upon request at the Community Welfare Division.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/fukushisoumu/12265.html
+    translation_hash: "sha256-c3bfa8025d25a6e2"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-09-10T20:21:23.993494Z"
+    format_version: 3

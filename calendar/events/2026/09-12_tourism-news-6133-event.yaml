@@ -27,3 +27,22 @@ source:
   fetched_at: "2026-09-10T20:19:44.657393Z"
   modified_gmt: "2026-09-10T06:55:30"
   content_hash: "sha256-d9ce737d18141de5"
+translations:
+  en:
+    summary: "🎪 Enter a world of stories and art! \"Moomin Valley Park Harvest\" begins September 12 (Reiwa 8)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Moomin Valley Park is hosting an autumn event called "Moomin Valley Park Harvest" from September 12 to October 25, 2026 (Reiwa 8). The park features new terraces, a participatory show called "Apple Pop Playtime!", autumn umbrella sky displays, and more seasonal attractions.
+      
+      【Special Services】
+      • September 21 (Monday, national holiday, Respect for the Aged Day): Free admission for ages 65 and up
+      • September 19–23 (Saturday through Wednesday, national holiday, Respect for the Aged Day Week): Senior discount rates
+      • Kids Support Campaign: Ages 4 through high school, 1-day pass for ¥500 (tax included; regular ¥1,300)
+      • U22 Pass: Ages 18–22, 1-day pass for ¥2,200 (tax included; regular ¥4,300; advance purchase only)
+      
+      More information: https://hanno-tourism.jp/news/%e7%89%a9%e8%aa%9e%e3%81%a8%e3%82%a2%e3%83%bc%e3%83%88%e3%81%ae%e4%b8%96%e7%95%8c%e3%81%b8%ef%bc%81%e3%80%8c%e3%83%a0%e3%83%bc%e3%83%9f%e3%83%b3%e3%83%90%e3%83%ac%e3%83%bc%e3%83%91%e3%83%bc%e3%82%af
+    translation_hash: "sha256-94dead6d41adb3c0"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-09-10T20:21:39.532631Z"
+    format_version: 3

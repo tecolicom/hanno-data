@@ -24,3 +24,29 @@ source:
   content_hash: "sha256-c0d4644510ca6344"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-09-11"
+translations:
+  en:
+    summary: "ℹ️ Nationwide Traffic Safety Campaign: Fall 2026"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New post (Published: September 11, 2026)
+      
+      From September 21 to 30, 2026 (Reiwa 8), Hanno City participates in the nationwide Fall Traffic Safety Campaign. Saitama Prefecture's priority areas are preventing traffic accidents involving older adults and cyclists, and promoting speed control on residential roads.
+      
+      Key initiatives:
+      • Ensuring pedestrian safety and encouraging reflective gear
+      • Promoting early headlight use at dusk and eliminating drunk driving and distracted phone use while driving
+      • Strengthening understanding and compliance with traffic rules for bicycles and small motorized bicycles
+      
+      Unified Action Day: September 30, 2026 – "Aim for Zero Traffic Fatalities Day"
+      
+      Campaign slogan: "People, cars, bicycles – Safety and peace of mind in Saitama"
+      
+      Both pedestrians and drivers: follow traffic rules and help eliminate traffic accidents.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/bohan/10146.html
+    translation_hash: "sha256-4b197f193a024cb1"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-09-10T20:21:28.139586Z"
+    format_version: 3
