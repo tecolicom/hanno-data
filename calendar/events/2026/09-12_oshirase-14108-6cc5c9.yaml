@@ -1,0 +1,42 @@
+uid: "oshirase-14108-6cc5c9@hanno.city.tecoli.com"
+summary: "ℹ️ 原市場福祉センターの開館（再開）について"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/tiikifukushi/14108.html"
+dtstart: "2026-09-12"
+dtend: "2026-09-12"
+description: |-
+  🔄 内容更新 (公開日: 2026-09-10 / 前回掲載: 2026-08-22)
+  主な変更: 9月17日（木曜日）より開館再開。10月・11月の利用予約は開館日から受付開始。
+  
+  ## 令和8年9月17日（木曜日）より開館いたします
+  
+  この度、落雷による空調設備の故障に伴い臨時休館としておりましたが、空調設
+  
+  備の可動状況を確認し、受水槽の清掃を終えて安全に施設を利用できる状態である
+  
+  事を確認いたしました。御利用者の皆様には、長らく御不便と御迷惑をおかけしま
+  
+  したが、令和8年9月17日（木曜日）より開館することになりました。
+  
+  今後とも皆様には、センターを快適に御利用いただけるよう維持管理に努めて参
+  
+  りますので御協力をお願いいたします。
+  
+  ## 10月、11月の利用予約について
+  
+  10月、11月の予約につきましては、開館日より受付を開始いたします。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/tiikifukushi/14108.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "14108"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/tiikifukushi/14108.html"
+  fetched_at: "2026-09-11T20:20:41.990074Z"
+  content_hash: "sha256-6cc5c91000f5d56d"
+  summary_method: "full"
+  publish_date: "2026-09-10"
+  supersedes: "oshirase-14108-088f7d@hanno.city.tecoli.com"
