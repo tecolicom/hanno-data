@@ -1,0 +1,34 @@
+{
+  "created": "2026-09-11T20:21:38.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🔄 内容更新 (公開日: 2026-09-10 / 前回掲載: 2026-08-22)\n主な変更: 9月17日（木曜日）より開館再開。10月・11月の利用予約は開館日から受付開始。\n\n## 令和8年9月17日（木曜日）より開館いたします\n\nこの度、落雷による空調設備の故障に伴い臨時休館としておりましたが、空調設\n\n備の可動状況を確認し、受水槽の清掃を終えて安全に施設を利用できる状態である\n\n事を確認いたしました。御利用者の皆様には、長らく御不便と御迷惑をおかけしま\n\nしたが、令和8年9月17日（木曜日）より開館することになりました。\n\n今後とも皆様には、センターを快適に御利用いただけるよう維持管理に努めて参\n\nりますので御協力をお願いいたします。\n\n## 10月、11月の利用予約について\n\n10月、11月の予約につきましては、開館日より受付を開始いたします。\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/tiikifukushi/14108.html",
+  "end": {
+    "date": "2026-09-13"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Z29qMGUxZDZwaG02ZGIzNzUwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSA2NzQ1OTE0YjI0MzIzMTEyYTE1ZjQzZGMyMGIzYTBmNGE0ODE3YWZkODAwYzhkMTY4N2QwYmYwYjdmODkwYzYxQGc",
+  "iCalUID": "oshirase-14108-6cc5c9@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6goj0e1d6phm6db37506gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/tiikifukushi/14108.html"
+  },
+  "start": {
+    "date": "2026-09-12"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 原市場福祉センターの開館（再開）について",
+  "updated": "2026-09-11T20:21:39.101Z"
+}

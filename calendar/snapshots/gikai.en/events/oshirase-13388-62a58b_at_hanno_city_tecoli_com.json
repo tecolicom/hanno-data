@@ -1,0 +1,34 @@
+{
+  "created": "2026-09-11T20:22:13.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🔄 Content updated (Published: September 11, 2026 / Previously: August 27, 2026)\nMain change: Added announcement of Wasegaku Yumei High School's 5th Anniversary Commemoration Ceremony (announced September 11).\n\nHanno City's press release list page has been updated. Major announcements for fiscal year 2026 (Reiwa 8) are listed below.\n\n• Wasegaku Yumei High School 5th Anniversary Commemoration Ceremony (announced September 11)\n• Comprehensive Partnership Agreement between Hanno City and Puss in Boots Corporation (announced August 26)\n• First Public Display of Secret Documents Passed Down in Shimona-guri Lion Dance Tradition (announced August 17)\n• Business Recruitment for Private Operation of Asama Childcare Center Following Relocation Project (announced August 5)\n• Hanno Summer Solstice Festival: Forest, Water, and Sun Beer Garden Event (announced July 23)\n\nFor earlier announcements, please see the original article.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/hodohappyo/houdouhappyou2025_1/13388.html",
+  "end": {
+    "date": "2026-09-13"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3BqZ2UxZDZvcDYyZDlvYzkwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-13388-62a58b@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6cpjge1d6op62d9oc906gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/hodohappyo/houdouhappyou2025_1/13388.html"
+  },
+  "start": {
+    "date": "2026-09-12"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Hanno City Press Releases — Fiscal Year 2026",
+  "updated": "2026-09-11T20:22:13.537Z"
+}
