@@ -34,3 +34,27 @@ source:
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-09-11"
   supersedes: "oshirase-13388-d88dee@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ Hanno City Press Releases — Fiscal Year 2026"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content updated (Published: September 11, 2026 / Previously: August 27, 2026)
+      Main change: Added announcement of Wasegaku Yumei High School's 5th Anniversary Commemoration Ceremony (announced September 11).
+      
+      Hanno City's press release list page has been updated. Major announcements for fiscal year 2026 (Reiwa 8) are listed below.
+      
+      • Wasegaku Yumei High School 5th Anniversary Commemoration Ceremony (announced September 11)
+      • Comprehensive Partnership Agreement between Hanno City and Puss in Boots Corporation (announced August 26)
+      • First Public Display of Secret Documents Passed Down in Shimona-guri Lion Dance Tradition (announced August 17)
+      • Business Recruitment for Private Operation of Asama Childcare Center Following Relocation Project (announced August 5)
+      • Hanno Summer Solstice Festival: Forest, Water, and Sun Beer Garden Event (announced July 23)
+      
+      For earlier announcements, please see the original article.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/hodohappyo/houdouhappyou2025_1/13388.html
+    translation_hash: "sha256-324584465221621e"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-09-11T20:21:50.489157Z"
+    format_version: 3

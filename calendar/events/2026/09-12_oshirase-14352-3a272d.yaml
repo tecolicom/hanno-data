@@ -41,3 +41,36 @@ source:
   summary_method: "full"
   publish_date: "2026-09-04"
   supersedes: "oshirase-14352-f73b27@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ Report from staff dispatched to Kumamoto City"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content update (published: September 4, 2026 / previous: September 5, 2026)
+      
+      Report from Staff Dispatched to Kumamoto in Connection with the 2026 Kumamoto Earthquake
+      
+      Date and time: Tuesday, September 1, 2026 (Reiwa 8), 1:15 p.m.
+      
+      Location: Crisis Management Conference Room, 1st floor, Hanno City Hall Annex Building
+      
+      Two staff members who were dispatched to provide human support to the disaster-affected area (Kumamoto City)—specifically to assist with evacuation center operations and damaged property assessment work—reported on the current situation in the affected area to the mayor.
+      
+      Dispatched Personnel Support to Affected Area
+      
+      【Number of personnel and dispatch period】
+      
+      (Kumamoto City) 2 staff: Monday, August 17, 2026 (Reiwa 8) through Tuesday, August 25, 2026
+      
+      【Work duties】
+      
+      • Support for evacuation center operations
+      • Support for property damage assessment work
+      • Other duties
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/bosai/14352.html
+    translation_hash: "sha256-a267d3eb32c8e768"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-09-11T20:22:04.472978Z"
+    format_version: 3
