@@ -21,3 +21,17 @@ source:
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html"
   fetched_at: "2026-09-15T20:45:48.587182Z"
   content_hash: "sha256-2360176e4edf3cc1"
+translations:
+  en:
+    summary: "63rd Hanno Citizens Choir Festival"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      【Venue】Grand Hall
+      【Organizer】Hanno Choral Association
+      
+      For more information, visit the Hanno Citizen's Hall website.
+    translation_hash: "sha256-49267898df879b86"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-09-15T20:47:16.521840Z"
+    format_version: 3

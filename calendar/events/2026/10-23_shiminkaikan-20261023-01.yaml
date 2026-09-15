@@ -21,3 +21,17 @@ source:
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html"
   fetched_at: "2026-09-15T20:45:48.586325Z"
   content_hash: "sha256-2360176e4edf3cc1"
+translations:
+  en:
+    summary: "Pension Association Members' Gathering"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Venue: Hanno Citizen's Hall, Grand Hall
+      Organized by: JA Iruma-no Seibu Region Administration Division
+      
+      For more information about Hanno Citizen's Hall: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html
+    translation_hash: "sha256-95a68b7d30d54e06"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-09-15T20:47:07.786225Z"
+    format_version: 3
