@@ -1,0 +1,34 @@
+{
+  "created": "2026-09-17T20:52:57.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "奥むさし飯能観光協会: https://hanno-tourism.jp/news/%e5%90%8d%e6%a0%97%e3%81%b5%e3%82%8b%e3%81%95%e3%81%a8%e3%81%be%e3%81%a4%e3%82%8a2025\n\n🆕 新着掲載 (公開日: 2026-09-15)\n\nAI による要約 (正確な情報は元記事をご確認ください)\n\n名栗ふるさとまつり2026が開催されます。地元特産品やキッチンカー、グルメの出店、フラダンスなどのステージ、はたらく車の展示などが予定されています。詳細な日時・場所・申込情報は本文に記載されていません。",
+  "end": {
+    "date": "2026-09-16"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFyajVldHBpcWQxbDZrbzJxZGhoY2hnajRwYTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIDIwNTQwM2M5NzFkYzVlZjIxZWZkODFjMWQ1Mzg0OWNhZGZkOTAxYjc1Yzc3ZDg4OTU1ZDk2MDBmNDVmMmEwMTNAZw",
+  "iCalUID": "tourism-news-4550-61da2e@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqrj5etpiqd1l6ko2qdhhchgj4pa0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能カレンダー",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/news/%e5%90%8d%e6%a0%97%e3%81%b5%e3%82%8b%e3%81%95%e3%81%a8%e3%81%be%e3%81%a4%e3%82%8a2025"
+  },
+  "start": {
+    "date": "2026-09-15"
+  },
+  "status": "confirmed",
+  "summary": "📢 名栗ふるさとまつり2026",
+  "updated": "2026-09-17T20:52:57.709Z"
+}

@@ -1,0 +1,34 @@
+{
+  "created": "2026-09-17T20:53:43.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nThe Nagurisatofurusato Festival 2026 will be held. The festival will feature local specialty products, food trucks and gourmet vendors, stage performances including hula dancing, and displays of working vehicles. For detailed information on date, time, location, and application details, please visit the Oku-Musashi Hanno Tourism Association website (https://hanno-tourism.jp/news/%e5%90%8d%e6%a0%97%e3%81%b5%e3%82%8b%e3%81%95%e3%81%a8%e3%81%be%e3%81%a4%e3%82%8a2025).",
+  "end": {
+    "date": "2026-09-16"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFyajVldHBpcWQxbDZrbzJxZGhoY2hnajRwYTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIGQ5MTkzY2Y1ZjY0NGFiNDFhMjhlMjI2OGE5OGFiYzVhYTQyNmJkMmQ1NzcxNTI4MzQyNDRhZDY5YTMxZjVhNjhAZw",
+  "iCalUID": "tourism-news-4550-61da2e@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqrj5etpiqd1l6ko2qdhhchgj4pa0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/news/%e5%90%8d%e6%a0%97%e3%81%b5%e3%82%8b%e3%81%95%e3%81%a8%e3%81%be%e3%81%a4%e3%82%8a2025"
+  },
+  "start": {
+    "date": "2026-09-15"
+  },
+  "status": "confirmed",
+  "summary": "📢 Nagurisatofurusato Festival 2026",
+  "updated": "2026-09-17T20:53:43.804Z"
+}
