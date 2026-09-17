@@ -23,3 +23,14 @@ source:
   fetched_at: "2026-09-17T20:51:16.460829Z"
   modified_gmt: "2026-09-17T02:07:19"
   content_hash: "sha256-61da2ee56ffccf63"
+translations:
+  en:
+    summary: "📢 Nagurisatofurusato Festival 2026"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      The Nagurisatofurusato Festival 2026 will be held. The festival will feature local specialty products, food trucks and gourmet vendors, stage performances including hula dancing, and displays of working vehicles. For detailed information on date, time, location, and application details, please visit the Oku-Musashi Hanno Tourism Association website (https://hanno-tourism.jp/news/%e5%90%8d%e6%a0%97%e3%81%b5%e3%82%8b%e3%81%95%e3%81%a8%e3%81%be%e3%81%a4%e3%82%8a2025).
+    translation_hash: "sha256-6c4bfac1845d08fe"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-09-17T20:53:12.700813Z"
+    format_version: 3

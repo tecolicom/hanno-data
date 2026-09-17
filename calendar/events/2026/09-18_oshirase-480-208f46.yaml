@@ -41,3 +41,35 @@ source:
   content_hash: "sha256-208f46c868cf89bd"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-09-17"
+translations:
+  en:
+    summary: "ℹ️ Children's Influenza Vaccination Program"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New posting (Published: September 17, 2026)
+      
+      Hanno City and Hidaka City provide public funding to cover the cost of children's influenza vaccination to help reduce the financial burden on families.
+      
+      【Period】September 24, 2026 (Reiwa 8) through January 31, 2027 (until the medical facility's last business day; start dates may vary by facility in September)
+      
+      【Who Can Get Vaccinated】Persons with resident registration in the city as of the vaccination date
+      • Inactivated vaccine: ages 6 months through third year of junior high school
+      • Intranasal vaccine: ages 2 through third year of junior high school
+      
+      【Vaccine Types and Costs】
+      • Inactivated vaccine (injected): Free. Children under 13 need 2 doses; ages 13 and up need 1 dose
+      • Intranasal vaccine: ¥4,100 (pay at the medical facility); 1 dose
+      ※ Only one type of vaccine may be given in the same season
+      
+      【How to Get Vaccinated】Call a participating medical facility to make an appointment. Bring an item that shows your address, name, and date of birth (such as your My Number insurance card) and your mother-child health handbook. Receive a medical questionnaire form at the facility and get vaccinated.
+      
+      【Participating Medical Facilities】Multiple medical facilities in Hanno City and Hidaka City participate. Implementation varies by vaccine type and age restrictions, so contact the medical facility in advance.
+      
+      【Important Notes】Vaccinations outside the implementation period or at non-participating facilities are at your own cost. If vaccination is deferred due to medical examination results, the examination fee is also at your own cost.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/480.html
+    translation_hash: "sha256-08613c9566f3944d"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-09-17T20:53:29.985815Z"
+    format_version: 3

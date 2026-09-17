@@ -48,3 +48,49 @@ source:
   content_hash: "sha256-e1cfc1acd09bd1d5"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-09-17"
+translations:
+  en:
+    summary: "ℹ️ Flu Vaccination for Older Adults (2026)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      📋 New (Posted September 17, 2026)
+      
+      2026 Fiscal Year Flu Vaccination for Older Adults
+      
+      【Period】
+      September 24, 2026 (Reiwa 8) – January 31, 2027, or until the final day of operation at participating medical facilities in Hanno and Hidaka cities.
+      
+      *Note: In September, vaccination start dates vary by facility. Please contact your medical facility in advance.
+      *Medical facilities participating in Saitama Prefecture's inter-city cooperation program (outside Hanno and Hidaka) will begin from October 1, 2026.
+      
+      【Who is eligible】
+      You must be registered as a resident of Hanno City and be at least one of the following on the vaccination date:
+      • Age 65 or older
+      • Age 60–64 with severe disability of the heart, kidneys, respiratory system, or immune system (due to HIV), equivalent to disability handbook grade 1
+      
+      *Those in the second category must complete registration at the Health Center beforehand. Please bring your disability handbook and visit the Health Center.
+      
+      【Number of doses】
+      1 dose per person
+      
+      【Cost】
+      ¥1,500 (paid directly at the medical facility)
+      
+      *If you receive welfare assistance or support for Chinese returnees, prior application is required. Please contact the Health Center.
+      
+      【How to get vaccinated】
+      1. Call your chosen medical facility in advance to make a reservation.
+      2. Collect the pre-vaccination questionnaire and information sheet at the facility and read them carefully.
+      3. Fill in the required information (including body temperature) on the questionnaire on the day of vaccination.
+      
+      【Other information】
+      Simultaneous vaccination with COVID-19 vaccine is possible if the doctor determines it is necessary.
+      
+      A list of participating medical facilities in Hanno and Hidaka cities is available. Facilities may change, so please call ahead to confirm before your vaccination appointment.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/6485.html
+    translation_hash: "sha256-a9ebbf70be200d7b"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-09-17T20:53:35.313442Z"
+    format_version: 3

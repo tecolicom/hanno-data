@@ -34,3 +34,28 @@ source:
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-09-17"
   supersedes: "oshirase-13388-62a58b@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ Hanno City Press Releases – Fiscal Year 2026"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content Updated (Published: September 17, 2026 / Previously posted: September 12, 2026)
+      
+      Main change: A new announcement regarding "Early start date for influenza vaccination" was added on September 17, 2026 (Reiwa 8).
+      
+      The list of Hanno City press releases for fiscal year 2026 has been updated. Recent announcements:
+      
+      • Early start date for influenza vaccination (announced September 17)
+      • Wasegaku Dream Education High School 5th Anniversary Ceremony (announced September 11)
+      • Comprehensive Partnership Agreement between Hanno City and Boots Off the Cat Inc. (announced August 26)
+      • First public release of historical documents on the lion dance tradition of Shimo-Naguri (announced August 17)
+      • Operator recruitment for the rebuilding and private operation of Asama Childcare Center (announced August 5)
+      
+      For earlier announcements, please see the previous articles.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/hodohappyo/houdouhappyou2025_1/13388.html
+    translation_hash: "sha256-9e15c2db6c8743bb"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-09-17T20:53:19.172979Z"
+    format_version: 3
