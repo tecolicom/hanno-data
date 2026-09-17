@@ -1,0 +1,36 @@
+uid: "oshirase-13388-78859b@hanno.city.tecoli.com"
+summary: "ℹ️ 【令和8年度】報道発表資料"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/hodohappyo/houdouhappyou2025_1/13388.html"
+dtstart: "2026-09-18"
+dtend: "2026-09-18"
+description: |-
+  🔄 内容更新 (公開日: 2026-09-17 / 前回掲載: 2026-09-12)
+  主な変更: 令和8年9月17日付けで「インフルエンザ予防接種の実施開始時期の前倒し」に関する新しい発表が追加されました。
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  令和8年度報道発表資料一覧が更新されました。最近の発表内容は以下の通りです。
+  
+  ・インフルエンザ予防接種の実施開始時期の前倒しについて（9月17日発表）
+  ・わせがく夢育高等学校 創立5周年記念式典の開催について（9月11日発表）
+  ・飯能市と長ぐつを脱いだ猫株式会社との包括連携協定の締結について（8月26日発表）
+  ・「下名栗の獅子舞」に伝わる秘伝書の初公開について（8月17日発表）
+  ・浅間保育所の建替えに伴う民設民営化に向けた事業者募集について（8月5日発表）
+  
+  これより前の発表は元記事をご覧ください。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/hodohappyo/houdouhappyou2025_1/13388.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13388"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/hodohappyo/houdouhappyou2025_1/13388.html"
+  fetched_at: "2026-09-17T20:51:36.902690Z"
+  content_hash: "sha256-78859bc74e36cd0f"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-09-17"
+  supersedes: "oshirase-13388-62a58b@hanno.city.tecoli.com"

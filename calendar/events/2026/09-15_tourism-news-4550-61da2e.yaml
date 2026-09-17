@@ -1,0 +1,25 @@
+uid: "tourism-news-4550-61da2e@hanno.city.tecoli.com"
+summary: "📢 名栗ふるさとまつり2026"
+url: "https://hanno-tourism.jp/news/%e5%90%8d%e6%a0%97%e3%81%b5%e3%82%8b%e3%81%95%e3%81%a8%e3%81%be%e3%81%a4%e3%82%8a2025"
+dtstart: "2026-09-15"
+dtend: "2026-09-15"
+description: |-
+  奥むさし飯能観光協会: https://hanno-tourism.jp/news/%e5%90%8d%e6%a0%97%e3%81%b5%e3%82%8b%e3%81%95%e3%81%a8%e3%81%be%e3%81%a4%e3%82%8a2025
+  
+  🆕 新着掲載 (公開日: 2026-09-15)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  名栗ふるさとまつり2026が開催されます。地元特産品やキッチンカー、グルメの出店、フラダンスなどのステージ、はたらく車の展示などが予定されています。詳細な日時・場所・申込情報は本文に記載されていません。
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-tourism-jp-news
+  id: "4550"
+  url: "https://hanno-tourism.jp/news/%e5%90%8d%e6%a0%97%e3%81%b5%e3%82%8b%e3%81%95%e3%81%a8%e3%81%be%e3%81%a4%e3%82%8a2025"
+  fetched_at: "2026-09-17T20:51:16.460829Z"
+  modified_gmt: "2026-09-17T02:07:19"
+  content_hash: "sha256-61da2ee56ffccf63"

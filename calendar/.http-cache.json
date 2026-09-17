@@ -170,6 +170,9 @@
   "https://hanno-tourism.jp/news/%e4%bb%a4%e5%92%8c8%e5%b9%b4%e9%a3%af%e8%83%bd%e3%81%be%e3%81%a4%e3%82%8a%e3%80%80%e5%8d%94%e8%b3%9b%e3%81%ae%e3%81%8a%e9%a1%98%e3%81%84": {
     "modified_gmt": "2026-07-23T07:08:46"
   },
+  "https://hanno-tourism.jp/news/%e5%90%8d%e6%a0%97%e3%81%b5%e3%82%8b%e3%81%95%e3%81%a8%e3%81%be%e3%81%a4%e3%82%8a2025": {
+    "modified_gmt": "2026-09-17T02:07:19"
+  },
   "https://hanno-tourism.jp/news/%e5%90%8d%e6%a0%97%e3%81%bb%e3%81%9f%e3%82%8b%e7%a5%ad%e3%82%8a": {
     "modified_gmt": "2026-06-26T07:52:50"
   },
@@ -750,9 +753,17 @@
     "etag": "\"6a9e178a-cbd7\"",
     "last_modified": "Mon, 07 Sep 2026 01:46:50 GMT"
   },
+  "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/480.html": {
+    "etag": "\"6aab2c72-f343\"",
+    "last_modified": "Wed, 16 Sep 2026 23:55:30 GMT"
+  },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/6001.html": {
     "etag": "\"6a9e1647-bea5\"",
     "last_modified": "Mon, 07 Sep 2026 01:41:27 GMT"
+  },
+  "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/6485.html": {
+    "etag": "\"6aab2c44-ee7d\"",
+    "last_modified": "Wed, 16 Sep 2026 23:54:44 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/7601.html": {
     "etag": "\"6a9e167c-c07d\"",
@@ -975,8 +986,8 @@
     "last_modified": "Wed, 26 Aug 2026 01:18:55 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/hodohappyo/houdouhappyou2025_1/13388.html": {
-    "etag": "\"6aa35e3f-ed6b\"",
-    "last_modified": "Fri, 11 Sep 2026 01:49:51 GMT"
+    "etag": "\"6aab3d23-efd4\"",
+    "last_modified": "Thu, 17 Sep 2026 01:06:43 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/johosystem/13166.html": {
     "etag": "\"6a66fdd8-c2e6\"",
