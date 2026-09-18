@@ -1,0 +1,34 @@
+{
+  "created": "2026-09-18T20:18:53.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 New (Published: September 18, 2026)\n\nAbout Typhoon No. 25\n\nTyphoon No. 25 may bring heavy rain and strong winds from the weekend holiday period onward. Please be alert to flooding in low-lying areas, swollen rivers, and landslides.\n\nPlease prepare in advance\n\n• Prepare flashlights, batteries, and portable radios\n\n• Charge your mobile phone\n\n• Stock drinking water\n\n• Check the area around your home\n\n• Move items that blow easily indoors, etc.\n\nSandbag distribution\n\nThe typhoon's path and strength may change\n\nContinuously check the latest weather conditions.\n\nPlease check the Japan Meteorological Agency (JMA) website's \"Kiki-Kuru\" (hazard map) and time-series information, and stay alert to the latest disaster prevention weather information.\n\nJMA: Hanno City disaster prevention information (external site)\n\nHanno City landslide hazard map\n\nTime-series information\n\nWeather/disaster prevention information and weather commentary, etc.\n\nWarnings and advisories, early warning information\n\nKiki-Kuru\n\nJMA website\n\nSource (Japanese): https://www.city.hanno.lg.jp/emergency/14415.html",
+  "end": {
+    "date": "2026-09-20"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Z3EzMmQ5ZDZ0aTMyZDFwNjEwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-14415-7d1490@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6gq32d9d6ti32d1p6106gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/emergency/14415.html"
+  },
+  "start": {
+    "date": "2026-09-19"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Typhoon No. 25 is approaching",
+  "updated": "2026-09-18T20:18:53.725Z"
+}
