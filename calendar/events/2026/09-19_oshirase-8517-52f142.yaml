@@ -1,0 +1,42 @@
+uid: "oshirase-8517-52f142@hanno.city.tecoli.com"
+summary: "ℹ️ 会計年度任用職員募集（市民税課）"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/shiminzeika/tokutyo/kyuyotokubetsuchoshu_shiminzei_kemminzei_sinrinkakyouzei/8517.html"
+dtstart: "2026-09-19"
+dtend: "2026-09-19"
+description: |-
+  🆕 新着掲載 (公開日: 2026-09-18)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  市民税課の会計年度任用職員（非常勤）6名を募集します。
+  
+  応募資格：事務経験があり、パソコン操作のできる方
+  
+  雇用期間：令和9年1月14日（木曜日）～5月17日（月曜日）
+  
+  勤務日時：月～金曜日（祝日除く）10時～16時（休憩12時～13時）
+  
+  勤務場所：市役所本庁舎
+  
+  勤務内容：個人市民税・県民税の課税資料整理、書類・パソコンを使用したチェック、申告予約電話受付など
+  
+  賃金：最低賃金改定後の給与規定を適用（参考：月額133,901円・令和8年9月16日現在）、社会保険加入
+  
+  選考方法：面接
+  
+  応募方法：11月13日（金曜日）までに本人が写真貼付の履歴書を市民税課へ持参してください。郵送不可。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/shiminzeika/tokutyo/kyuyotokubetsuchoshu_shiminzei_kemminzei_sinrinkakyouzei/8517.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "8517"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/shiminzeika/tokutyo/kyuyotokubetsuchoshu_shiminzei_kemminzei_sinrinkakyouzei/8517.html"
+  fetched_at: "2026-09-18T20:17:27.841333Z"
+  content_hash: "sha256-52f142759a7e50da"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-09-18"
