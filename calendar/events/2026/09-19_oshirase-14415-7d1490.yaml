@@ -58,3 +58,54 @@ source:
   content_hash: "sha256-7d149019f5a0c4f7"
   summary_method: "full"
   publish_date: "2026-09-18"
+translations:
+  en:
+    summary: "ℹ️ Typhoon No. 25 is approaching"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New (Published: September 18, 2026)
+      
+      About Typhoon No. 25
+      
+      Typhoon No. 25 may bring heavy rain and strong winds from the weekend holiday period onward. Please be alert to flooding in low-lying areas, swollen rivers, and landslides.
+      
+      Please prepare in advance
+      
+      • Prepare flashlights, batteries, and portable radios
+      
+      • Charge your mobile phone
+      
+      • Stock drinking water
+      
+      • Check the area around your home
+      
+      • Move items that blow easily indoors, etc.
+      
+      Sandbag distribution
+      
+      The typhoon's path and strength may change
+      
+      Continuously check the latest weather conditions.
+      
+      Please check the Japan Meteorological Agency (JMA) website's "Kiki-Kuru" (hazard map) and time-series information, and stay alert to the latest disaster prevention weather information.
+      
+      JMA: Hanno City disaster prevention information (external site)
+      
+      Hanno City landslide hazard map
+      
+      Time-series information
+      
+      Weather/disaster prevention information and weather commentary, etc.
+      
+      Warnings and advisories, early warning information
+      
+      Kiki-Kuru
+      
+      JMA website
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/emergency/14415.html
+    translation_hash: "sha256-45d7fee6510cc80d"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-09-18T20:18:41.497953Z"
+    format_version: 3

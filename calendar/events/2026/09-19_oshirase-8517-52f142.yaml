@@ -40,3 +40,43 @@ source:
   content_hash: "sha256-52f142759a7e50da"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-09-18"
+translations:
+  en:
+    summary: "ℹ️ Recruitment: Non-permanent accounting year staff (Citizen Tax Division) — 6 positions"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 Newly posted (Published: September 18, 2026)
+      
+      Hanno City is recruiting 6 non-permanent accounting year staff members for the Citizen Tax Division.
+      
+      【Eligibility】
+      Applicants must have office work experience and be able to use computers.
+      
+      【Employment Period】
+      January 14 (Thursday), 2027 through May 17 (Monday), 2027
+      
+      【Work Schedule】
+      Monday–Friday (excluding holidays)
+      10:00 a.m. to 4:00 p.m. (lunch break 12:00 p.m. to 1:00 p.m.)
+      
+      【Work Location】
+      Hanno City Hall main building
+      
+      【Job Duties】
+      Organizing tax assessment documents for personal city and prefectural income tax, document and computer-based checking, answering phone calls for tax filing reservations, and similar tasks
+      
+      【Pay】
+      Salary follows the regulations after the latest minimum wage revision (Reference: ¥133,901 per month as of September 16, 2025). Social insurance coverage included.
+      
+      【Selection Method】
+      Interview
+      
+      【How to Apply】
+      Bring your handwritten resume with a photo to the Citizen Tax Division in person by Friday, November 13. Mail applications are not accepted.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/shiminzeika/tokutyo/kyuyotokubetsuchoshu_shiminzei_kemminzei_sinrinkakyouzei/8517.html
+    translation_hash: "sha256-4ff4fcc405709b2b"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-09-18T20:18:46.955462Z"
+    format_version: 3
