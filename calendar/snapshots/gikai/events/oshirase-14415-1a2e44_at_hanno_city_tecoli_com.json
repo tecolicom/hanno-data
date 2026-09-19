@@ -1,0 +1,34 @@
+{
+  "created": "2026-09-19T19:58:34.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🔄 内容更新 (公開日: 2026-09-19 / 前回掲載: 2026-09-19)\n主な変更: 台風25号は21日夜に関東地方に最接近、大雨のピークは21日午後の見込み。落雷や竜巻などの激しい突風にも注意してください。\n\nAI による要約 (正確な情報は元記事をご確認ください)\n\n台風第25号が21日に関東地方に接近します。最接近は21日夜、大雨のピークは21日午後の見込みです。土砂災害、低い土地の浸水、河川の増水、落雷、竜巻などの激しい突風に注意・警戒してください。\n\n事前の備え：懐中電灯、電池、携帯ラジオ、携帯電話の充電、飲料水等の確保、家の周りの点検、飛ばされやすいものを室内へしまうなど。\n\n台風の進路や強さは変化する可能性があります。気象庁ホームページのキキクルや時系列情報で最新の防災気象情報を継続的に確認してください。\n\n土のうの配布があります。\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/emergency/14415.html",
+  "end": {
+    "date": "2026-09-21"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Z3EzMmQ5ZDY1Z2o0cDlrNmgwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSA2NzQ1OTE0YjI0MzIzMTEyYTE1ZjQzZGMyMGIzYTBmNGE0ODE3YWZkODAwYzhkMTY4N2QwYmYwYjdmODkwYzYxQGc",
+  "iCalUID": "oshirase-14415-1a2e44@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6gq32d9d65gj4p9k6h06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/emergency/14415.html"
+  },
+  "start": {
+    "date": "2026-09-20"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 台風25号が接近しています",
+  "updated": "2026-09-19T19:58:34.966Z"
+}
