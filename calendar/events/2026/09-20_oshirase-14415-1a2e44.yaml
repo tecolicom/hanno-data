@@ -32,3 +32,25 @@ source:
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-09-19"
   supersedes: "oshirase-14415-7d1490@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ Typhoon No. 25 is approaching"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content updated (published: September 19, 2026 / previously posted: September 19, 2026)
+      Main changes: Typhoon No. 25 will come closest to the Kanto region on the evening of the 21st; the heaviest rain is expected in the afternoon of the 21st. Be alert to severe gusts including lightning and tornadoes.
+      
+      Typhoon No. 25 will approach the Kanto region on the 21st. It will come closest on the evening of the 21st, with the heaviest rain expected in the afternoon of the 21st. Watch and be alert for landslides, flooding in low-lying areas, swelling rivers, lightning, and severe gusts such as tornadoes.
+      
+      Advance preparations: Secure flashlights, batteries, portable radios, charge mobile phones, stock drinking water and other supplies, inspect your home's surroundings, and move items that could blow away indoors.
+      
+      Typhoon paths and strength can change. Continuously check the latest disaster prevention weather information on the Japan Meteorological Agency website through Kikitoru (heavy rain forecast map) and time-series updates.
+      
+      Sandbag distribution is available.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/emergency/14415.html
+    translation_hash: "sha256-77c6b5c88b737e03"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-09-19T19:58:43.807492Z"
+    format_version: 3
