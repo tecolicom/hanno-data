@@ -32,3 +32,22 @@ source:
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-09-21"
   supersedes: "oshirase-10590-93218d@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ Sugo-Ashi Event: 13th Hidaka Kawasemi-no-Sato Two-Day Walk, Nov 28–29, 2026"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Join the 13th Hidaka Kawasemi-no-Sato Two-Day Walk (November 28–29, Reiwa 8) to earn Sugo-Ashi stamps (special two-day walk seals).
+      
+      You can earn one stamp per day regardless of which course you take. Please bring your Sugo-Ashi handbook (available at the venue if needed).
+      
+      Stamps are issued at the Hanno Walking Club booth in Binchotan Park (the main venue at 125–2 Takara-Koma Hongo, Hidaka City).
+      
+      Participants who collect 5 or more Sugo-Ashi stamps at Hanno City events within the same fiscal year receive a special prize. (Eligibility: Hanno City residents, employees, and students only.)
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/10590.html
+    translation_hash: "sha256-12394d39c44641d3"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-09-21T21:36:34.965586Z"
+    format_version: 3

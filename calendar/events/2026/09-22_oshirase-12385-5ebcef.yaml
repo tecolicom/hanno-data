@@ -34,3 +34,43 @@ source:
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-09-21"
   supersedes: "oshirase-12385@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ Sugo-Ashi Event: 21st South Koma One-Day Walk, Sunday, November 15, 2026"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content Updated (Published: September 21, 2026 / Previously listed: March 30, 2026)
+      
+      Main changes: Date moved from May 23 to November 15; meeting time changed from 10:00 to 8:00; meeting location changed from Daini Ward Administrative Center to South Koma Ward Administrative Center; distance shortened from approximately 14 km to approximately 9 km; fee changed from ¥200 to free; application deadline moved from May 19 to October 30.
+      
+      【Event Details】
+      
+      The 21st South Koma One-Day Walk will be held on Sunday, November 15, 2026. This is a scenic approximately 9-kilometer walk through the autumn foliage route from Misugi-dai to Asahi-yama Observation Park, expected to take about 4 hours.
+      
+      Meeting time: 8:00 a.m.
+      Meeting location: South Koma Ward Administrative Center
+      Fee: Free
+      Parking: South Koma Junior High School grounds (available)
+      Day-of participation: Welcome
+      
+      What to bring: Drinking water, rain gear, Sugo-Ashi handbook (if you have one).
+      
+      【How to Apply】
+      
+      Application deadline: Friday, October 30, 2026
+      
+      Apply to South Koma Ward Administrative Center by:
+      • Phone: 042-972-2805
+      • Fax: 042-974-2736
+      • Email: koma-center@city.hanno.lg.jp
+      
+      【Weather Policy】
+      
+      Event cancelled in case of rain. If uncertain about conditions on the day, contact South Koma Ward Administrative Center after 6:30 a.m.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/12385.html
+    translation_hash: "sha256-d75ec376e8a255e2"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-09-21T21:36:39.864512Z"
+    format_version: 3

@@ -38,3 +38,32 @@ source:
   content_hash: "sha256-cbe6ac00524660c0"
   summary_method: "full"
   publish_date: "2026-09-21"
+translations:
+  en:
+    summary: "ℹ️ Disaster weather information changed starting in 2026"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New post (Published: September 21, 2026)
+      
+      Starting in late May 2026 (Reiwa 8), the Japan Meteorological Agency has made major changes to the names and system of disaster weather information (heavy rain advisories, warnings, etc.) to communicate danger levels more intuitively.
+      
+      Main changes
+      
+      • Warning and advisory information names now include a "level (1–5)" designation.
+      
+      (Example: "Heavy rain warning" → "Level 3 heavy rain warning")
+      
+      • Level 4 equivalent information is now issued as a "Danger warning" to convey greater risk.
+      
+      (Example: "Landslide alert information" → "Level 4 landslide danger warning")
+      
+      • Information is now organized into four categories: river flooding / heavy rain / landslides / storm surge.
+      
+      For more details, see the Japan Meteorological Agency special page and Ministry of Land, Infrastructure, Transport and Tourism news release.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/emergency/14431.html
+    translation_hash: "sha256-49210da24c1f8e7b"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-09-21T21:37:18.346609Z"
+    format_version: 3

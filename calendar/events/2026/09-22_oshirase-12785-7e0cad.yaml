@@ -38,3 +38,33 @@ source:
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-09-21"
   supersedes: "oshirase-12785@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ Sogo-ashi Event: 32nd Kaji Tekuteku Walk, Saturday, November 21, 2026"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Updated information (published September 21, 2026 / previously listed May 11, 2026)
+      
+      Key changes: Gathering time moved from June 16 at 10:00 to November 21 at 8:30 a.m. Gathering location changed from the west side parking lot of Hanno City Hall to Kaji Elementary School. Route now covers the Kaji district. Distance increased from approximately 7 kilometers to approximately 12 kilometers. Registration method changed to advance registration at the Kaji East District Administrative Center by November 11.
+      
+      We are holding the 32nd Kaji Tekuteku Walk. You will walk an approximately 12-kilometer course through the Kaji district, passing through Saikoji Temple, Dairenji Temple, Momiji Park, and other locations.
+      
+      Date and time: Saturday, November 21, 2026 (Reiwa 8), gathering at 8:30 a.m.
+      Gathering location: Kaji Elementary School
+      Duration: Approximately 3 hours 30 minutes
+      Fee: Free
+      What to bring: Packed lunch, beverages, rain gear, ground sheet, Sogo-ashi handbook (if you have one)
+      Registration deadline: Wednesday, November 11
+      How to register: Contact Kaji East District Administrative Center
+      • Phone: 042-974-4546
+      • Fax: 042-972-9806
+      • Email: kajih-center@city.hanno.lg.jp
+      
+      The event will be cancelled in case of severe weather. A decision will be made at 7:00 a.m. on the day. If conditions are unclear, please contact the Kaji East District Administrative Center for information.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/12785.html
+    translation_hash: "sha256-6ad3e2783f7b8adf"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-09-21T21:37:00.920294Z"
+    format_version: 3

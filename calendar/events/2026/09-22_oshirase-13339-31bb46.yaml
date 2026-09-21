@@ -37,3 +37,36 @@ source:
   content_hash: "sha256-31bb46573f13fa80"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-09-21"
+translations:
+  en:
+    summary: "ℹ️ Sugo-ashi Event: 1st Maple Walk on Monday, November 23, 2026 (National Holiday)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New (Posted: September 21, 2026)
+      
+      We are holding an autumn walking event through the countryside and villages of the Seimei District: "Sugo-ashi Event – 1st Maple Walk" (name changed from the former "51st Seimei District Walking Rally").
+      
+      November 23, 2026 (Reiwa 8) — Monday (National Holiday)
+      
+      【Event Details】
+      Meeting time: 8:15 a.m. (planned)
+      Meeting place: Seimei District Administrative Center (planned)
+      Route: Approximately 8 kilometers, approximately 3 hours (planned)
+      Fee: Free
+      What to bring: Drinks, rain gear, Sugo-ashi handbook (if you have one)
+      
+      【Registration Deadline】
+      Register by Wednesday, November 11 by contacting either:
+      
+      • Seimei District Administrative Center: Phone 042-972-2314 | Fax 042-972-9804 | Email seimei-k@city.hanno.lg.jp
+      • Tamayanagi District Administrative Center: Phone 042-972-9900 | Fax 042-972-9902 | Email nami-k@city.hanno.lg.jp
+      
+      【Weather-related cancellations】
+      To check if the event is cancelled due to weather or other conditions, contact the Seimei District Administrative Center between 7:30 a.m. and 8:00 a.m. on the day of the event.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/13339.html
+    translation_hash: "sha256-b0636704fb282d69"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-09-21T21:37:11.623640Z"
+    format_version: 3

@@ -24,3 +24,40 @@ source:
   content_hash: "sha256-42e4a8d5d9d92b35"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-09-21"
+translations:
+  en:
+    summary: "ℹ️ Sugo-Ashi Event: 15th Naguri Hiking Tour, Sunday, November 15, 2026"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      newly posted (published: September 21, 2026)
+      
+      15th Naguri Hiking Tour: "Walk through Naguri Lake and Arima Gorge adorned with autumn colors."
+      
+      Date & Time: Sunday, November 15, 2026 (Reiwa 8), 9:00 a.m.
+      Meeting Place: Nora Naguri Sawabi 3rd Parking Lot
+      
+      Route: Nora Naguri → North shore of Naguri Lake → Canoe Workshop → Arima Gorge Fishing Spot → South shore of Naguri Lake → Nora Naguri
+      Distance: Approximately 9 kilometers
+      Duration: Approximately 3 hours
+      
+      Fee: ¥100 (insurance, collected on the day)
+      
+      What to Bring: Packed lunch, drinks, rain gear, Sugo-Ashi handbook and bear bell (if you have them), etc.
+      
+      Registration Deadline: Friday, November 6, 2026
+      
+      To Register: Contact Naguri District Administrative Center
+      • Phone: 042-979-1121
+      • Fax: 042-979-1113
+      • Email: naguri-center@city.hanno.lg.jp
+      
+      Cancellation Check: On the day of the event, call Naguri District Administrative Center after 7:00 a.m. to confirm if the event is cancelled due to weather or other reasons.
+      
+      Convenient Access: Take the Kokusai Kögyo Bus departing Hanno Station at 8:00 a.m.; you'll arrive at Nora Naguri Sawabi no Yu at 8:41 a.m.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/12652.html
+    translation_hash: "sha256-8f365f1ab5cf0da3"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-09-21T21:36:43.899670Z"
+    format_version: 3

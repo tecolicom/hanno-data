@@ -41,3 +41,42 @@ source:
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-09-21"
   supersedes: "oshirase-12784-502ffa@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ Sugo-Ashi Walking Event – November 20, 2026 (Friday): Seasonal Walk with Koiwai Water Purification Plant Tour and Kashiwagi Mountain Autumn Hike"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content Updated (Published: September 21, 2026 / Previous: May 29, 2026)
+      
+      Main changes: Date changed from July 22 to November 20; meeting place changed from City Hall to Koiwai Water Purification Plant; meeting time changed from 10:00 to 9:00 a.m.; total duration changed from approximately 3.5 hours to approximately 6 hours; fee changed from ¥200 to ¥100; application deadline changed from July 18 to November 13; application contact updated.
+      
+      
+      We are holding a "Seasonal Walking" event featuring a tour of Koiwai Water Purification Plant and a hike on Kashiwagi Mountain.
+      
+      【Event Details】
+      Date: Friday, November 20, 2026 (Reiwa 8)
+      Meeting time: 9:00 a.m.
+      Meeting place: Koiwai Water Purification Plant
+      Route: Koiwai Water Purification Plant → Facility tour → Enosaka junction → Kashiwagi Mountain summit (lunch break) → Akane Pass → Akane Plateau distribution reservoir grounds → Koiwai Water Purification Plant
+      Distance: Approximately 10 kilometers
+      Duration: Approximately 6 hours
+      
+      【Fee & What to Bring】
+      Fee: ¥100 (insurance, collected on the day)
+      Bring: Beverages, boxed lunch, rain gear, Sugo-Ashi handbook (if you have one)
+      
+      【Registration】
+      Capacity: 30 people
+      Application period: October 5 (Monday) to November 13 (Friday)
+      To apply, contact Haraichiba District Administrative Center by phone (042-977-1232), fax (042-977-0582), or email (hara-center@city.hanno.lg.jp).
+      
+      【Getting There & Weather Info】
+      To reach Koiwai Water Purification Plant: Get off at Hanno Second Elementary School bus stop and walk approximately 15 minutes.
+      Weather: The event may be cancelled due to weather conditions. To check for cancellation on the day, contact Haraichiba District Administrative Center between 7:00–7:30 a.m.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/12784.html
+    translation_hash: "sha256-97e84d85402b252f"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-09-21T21:36:49.555624Z"
+    format_version: 3

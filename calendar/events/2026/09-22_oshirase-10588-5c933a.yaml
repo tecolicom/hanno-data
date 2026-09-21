@@ -48,3 +48,43 @@ source:
   summary_method: "full"
   publish_date: "2026-09-21"
   supersedes: "oshirase-10588@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ Sugo Aruki Event on Wednesday, November 25, 2026 – Walk and Enjoy the Four Seasons of Hanno, Sayama, and Iruma"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content Update (Published: September 21, 2026 / Previously posted: March 30, 2026)
+      Main changes: Meeting time moved from 9:45 a.m. to 10:00 a.m.; meeting location changed from Agano Station ticket gate to the west side parking lot of Hanno City Hall; course and cancellation check time also updated.
+      
+      【Event Details】
+      
+      Date: Wednesday, November 25, 2026
+      
+      Meeting time: 10:00 a.m.
+      
+      Meeting location: West side parking lot of Hanno City Hall
+      
+      Route: Hanno City Hall → Seiomei District Administrative Center → Shinko Central Park → Sayama PA → Enjo-ji Temple → Hanno City Hall
+      
+      Distance: Approximately 14 kilometers
+      
+      Estimated duration: Approximately 4 hours
+      
+      Participation fee: ¥200 (covers insurance, etc.; collected on the day)
+      
+      What to bring: Bento lunch, drinks, rain gear, Sugo Aruki handbook (if you have one)
+      
+      Application deadline: By Saturday, November 21, 2026, to ASA Hanno by phone (042-972-4701) or fax (042-974-2190)
+      
+      Cancellation notice: Check with ASA Hanno after 9:00 a.m. on the day of the event for any cancellations due to weather or other reasons
+      
+      Inquiries: Onda (090-2205-8073)
+      
+      Organizer: Hanno Walking Club
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/10588.html
+    translation_hash: "sha256-4347fd9012f29a8c"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-09-21T21:36:31.819538Z"
+    format_version: 3
