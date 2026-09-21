@@ -1,0 +1,40 @@
+uid: "oshirase-14431-cbe6ac@hanno.city.tecoli.com"
+summary: "ℹ️ 令和8年から防災気象情報が変わりました"
+url: "https://www.city.hanno.lg.jp/emergency/14431.html"
+dtstart: "2026-09-22"
+dtend: "2026-09-22"
+description: |-
+  🆕 新着掲載 (公開日: 2026-09-21)
+  
+  令和8年（2026年）5月下旬から、災害発生の危険度をより直感的に伝えるため、気象庁が発表する防災気象情報（大雨注意報・警報等）の名称や体系が大きく変わりました。
+  
+  ## 主な変更点
+  
+  	警報・注意報の情報名に「レベル（1〜5）」が付記されます。
+  
+  	（例：「大雨警報」→「レベル3大雨警報」）
+  
+  	レベル4相当の情報は、より危険度が伝わる「危険警報」として発表されます。
+  
+  	（例：「土砂災害警戒情報」→「レベル4土砂災害危険警報」）
+  
+  	情報が河川氾濫/大雨/土砂災害/高潮の4区分で整理されます。
+  
+  気象庁特設ページ
+  
+  国土交通省報道発表資料
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/emergency/14431.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "14431"
+  url: "https://www.city.hanno.lg.jp/emergency/14431.html"
+  fetched_at: "2026-09-21T21:35:29.630725Z"
+  content_hash: "sha256-cbe6ac00524660c0"
+  summary_method: "full"
+  publish_date: "2026-09-21"

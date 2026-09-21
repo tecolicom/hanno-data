@@ -273,6 +273,10 @@
     "etag": "\"6aae28f6-c0a4\"",
     "last_modified": "Sat, 19 Sep 2026 06:17:26 GMT"
   },
+  "https://www.city.hanno.lg.jp/emergency/14431.html": {
+    "etag": "\"6ab0db96-b98b\"",
+    "last_modified": "Mon, 21 Sep 2026 07:24:06 GMT"
+  },
   "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/index.html": {
     "etag": "\"6a1541cf-b9ed\"",
     "last_modified": "Tue, 26 May 2026 06:46:39 GMT"
@@ -725,9 +729,13 @@
     "etag": "\"6aa3487f-bf49\"",
     "last_modified": "Fri, 11 Sep 2026 00:17:03 GMT"
   },
+  "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/10588.html": {
+    "etag": "\"6ab07257-c0e1\"",
+    "last_modified": "Sun, 20 Sep 2026 23:55:03 GMT"
+  },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/10590.html": {
-    "etag": "\"6a702926-c14a\"",
-    "last_modified": "Mon, 03 Aug 2026 05:37:42 GMT"
+    "etag": "\"6ab07257-c768\"",
+    "last_modified": "Sun, 20 Sep 2026 23:55:03 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/11102.html": {
     "etag": "\"6a9e16e7-c3dd\"",
@@ -737,9 +745,25 @@
     "etag": "\"6a87fd2a-c7f5\"",
     "last_modified": "Fri, 21 Aug 2026 07:24:26 GMT"
   },
+  "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/12385.html": {
+    "etag": "\"6ab06c7b-c50b\"",
+    "last_modified": "Sun, 20 Sep 2026 23:30:03 GMT"
+  },
+  "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/12652.html": {
+    "etag": "\"6ab06da7-c403\"",
+    "last_modified": "Sun, 20 Sep 2026 23:35:03 GMT"
+  },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/12784.html": {
-    "etag": "\"6a4c8254-c04a\"",
-    "last_modified": "Tue, 07 Jul 2026 04:36:36 GMT"
+    "etag": "\"6ab06ed4-c642\"",
+    "last_modified": "Sun, 20 Sep 2026 23:40:04 GMT"
+  },
+  "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/12785.html": {
+    "etag": "\"6ab06fff-c422\"",
+    "last_modified": "Sun, 20 Sep 2026 23:45:03 GMT"
+  },
+  "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/13339.html": {
+    "etag": "\"6ab0712b-c426\"",
+    "last_modified": "Sun, 20 Sep 2026 23:50:03 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/13487.html": {
     "etag": "\"6a4c827e-c33b\"",
@@ -752,6 +776,10 @@
   "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/13960.html": {
     "etag": "\"6a9e1783-c069\"",
     "last_modified": "Mon, 07 Sep 2026 01:46:43 GMT"
+  },
+  "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/14134.html": {
+    "etag": "\"6ab07387-c338\"",
+    "last_modified": "Mon, 21 Sep 2026 00:00:07 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/14150.html": {
     "etag": "\"6a9e178a-cbd7\"",

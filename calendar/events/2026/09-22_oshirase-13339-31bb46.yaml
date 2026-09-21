@@ -1,0 +1,39 @@
+uid: "oshirase-13339-31bb46@hanno.city.tecoli.com"
+summary: "ℹ️ スゴ足イベント 2026年11月23日（月曜日・祝日）第1回もみじウオーク"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/13339.html"
+dtstart: "2026-09-22"
+dtend: "2026-09-22"
+description: |-
+  🆕 新着掲載 (公開日: 2026-09-21)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  秋の精明地区の里地里山を歩くイベント「スゴ足イベント 第1回もみじウオーク」を開催します（旧称：第51回精明地区歩行ラリーから名称変更）。
+  
+  令和8年11月23日（月曜日・祝日）
+  集合時間：8時15分予定
+  集合場所：精明地区行政センター予定
+  コース：約8キロメートル予定、約3時間予定
+  費用：無料
+  持ち物：飲み物、雨具、スゴ足手帳（お持ちの方）
+  
+  申し込み締切：11月11日（水曜日）までに以下いずれかへ
+  ・精明地区行政センター 電話042-972-2314 ファクス042-972-9804 メールseimei-k@city.hanno.lg.jp
+  ・双柳地区行政センター 電話042-972-9900 ファクス042-972-9902 メールnami-k@city.hanno.lg.jp
+  
+  天候等による中止の確認は当日7時30分から8時までに精明地区行政センターへお問い合わせください。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/13339.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13339"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/13339.html"
+  fetched_at: "2026-09-21T21:35:03.752268Z"
+  content_hash: "sha256-31bb46573f13fa80"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-09-21"

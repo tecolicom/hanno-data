@@ -1,0 +1,36 @@
+uid: "oshirase-12385-5ebcef@hanno.city.tecoli.com"
+summary: "ℹ️ スゴ足イベント 2026年11月15日（日曜日）第21回南高麗ワンデーウオーク"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/12385.html"
+dtstart: "2026-09-22"
+dtend: "2026-09-22"
+description: |-
+  🔄 内容更新 (公開日: 2026-09-21 / 前回掲載: 2026-03-30)
+  主な変更: 期日が5月23日から11月15日に変更、集合時間が10時から8時に変更、集合場所が第二区地区行政センターから南高麗地区行政センターに変更、距離が約14キロから約9キロに短縮、費用が200円から無料に変更、申込期限が5月19日から10月30日に変更されました。
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  第21回南高麗ワンデーウオークを11月15日(日曜日)開催します。紅葉の美杉台～あさひ山展望公園コースを歩く、約9キロメートル、予定時間約4時間のイベントです。
+  
+  集合時間は8時、集合場所は南高麗地区行政センターです。費用は無料。駐車場として南高麗中学校校庭が利用でき、当日参加も可能です。
+  
+  持ち物は飲み物、雨具、スゴ足手帳(お持ちの方)。
+  
+  申込みは10月30日(金曜日)までに南高麗地区行政センターへ。電話042-972-2805、ファクス042-974-2736、メールkoma-center@city.hanno.lg.jpで受け付けます。
+  
+  雨天中止。判断がつかない場合は、当日6時30分以降に南高麗地区行政センターへお問い合わせください。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/12385.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "12385"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/12385.html"
+  fetched_at: "2026-09-21T21:35:28.973141Z"
+  content_hash: "sha256-5ebcef9696d23877"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-09-21"
+  supersedes: "oshirase-12385@hanno.city.tecoli.com"

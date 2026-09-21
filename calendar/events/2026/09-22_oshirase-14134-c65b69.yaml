@@ -1,0 +1,26 @@
+uid: "oshirase-14134-c65b69@hanno.city.tecoli.com"
+summary: "ℹ️ スゴ足イベント 2026年11月17日(火曜日)スゴ足のんびりウオーク11月"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/14134.html"
+dtstart: "2026-09-22"
+dtend: "2026-09-22"
+description: |-
+  🆕 新着掲載 (公開日: 2026-09-21)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  スゴ足のんびりウオーク11月を開催します。11月17日(火曜日)10時に飯能市役所西側駐車場に集合。天候や参加人数により2つのコース（いずれも約7キロメートル、約2.5時間）のいずれかを歩きます。コース(1)は市役所・弁財天・智観寺・能仁寺・中央公園・飯能河原飛び石橋・飯能駅・東飯能駅経由で市役所へ。コース(2)は飯能市内（下加治、双柳、加治など）、入間市内（新光、野田など）を経由し仏子駅から電車で戻ります。費用は無料（保険は各自負担）。当日参加。持ち物は飲み物、雨具、交通系ICカード、スゴ足手帳（お持ちの方）。中止の確認は前日15時以降に飯能ウオーキング倶楽部ホームページまたは恩田(090-2205-8073)へ。主催は飯能ウオーキング倶楽部です。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/14134.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "14134"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/14134.html"
+  fetched_at: "2026-09-21T21:34:52.218949Z"
+  content_hash: "sha256-c65b695e4a1fe6b8"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-09-21"

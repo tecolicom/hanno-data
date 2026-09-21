@@ -1,0 +1,26 @@
+uid: "oshirase-12652-42e4a8@hanno.city.tecoli.com"
+summary: "ℹ️ スゴ足イベント 2026年11月15日（日曜日）第15回名栗ハイキング"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/12652.html"
+dtstart: "2026-09-22"
+dtend: "2026-09-22"
+description: |-
+  🆕 新着掲載 (公開日: 2026-09-21)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  第15回名栗ハイキング「紅葉に彩られた名栗湖と有間渓谷を巡ろう」を開催します。令和8年11月15日(日曜日)午前9時、ノーラ名栗さわらび第3駐車場に集合。ノーラ名栗 → 名栗湖北岸側 → カヌー工房 → 有間渓谷観光釣り場 → 名栗湖南岸側 → ノーラ名栗のコース、約9キロメートル、約3時間。費用は100円(保険代、当日集金)。持ち物は弁当、飲み物、雨具、スゴ足手帳・クマ鈴(お持ちの方)など。申し込みは11月6日(金曜日)までに名栗地区行政センター(電話042-979-1121、ファクス042-979-1113、メールnaguri-center@city.hanno.lg.jp)へ。天候等による中止の確認は当日午前7時以降に名栗地区行政センターへ電話ください。飯能駅発午前8時の国際興業バスを利用するとノーラ名栗・さわらびの湯に午前8時41分到着で便利です。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/12652.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "12652"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/12652.html"
+  fetched_at: "2026-09-21T21:35:16.643435Z"
+  content_hash: "sha256-42e4a8d5d9d92b35"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-09-21"

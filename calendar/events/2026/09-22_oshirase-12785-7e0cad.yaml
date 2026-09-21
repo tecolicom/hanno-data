@@ -1,0 +1,40 @@
+uid: "oshirase-12785-7e0cad@hanno.city.tecoli.com"
+summary: "ℹ️ スゴ足イベント 2026年11月21日（土曜日）第32回加治てくてくウオーク"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/12785.html"
+dtstart: "2026-09-22"
+dtend: "2026-09-22"
+description: |-
+  🔄 内容更新 (公開日: 2026-09-21 / 前回掲載: 2026-05-11)
+  主な変更: 集合時間が6月16日10時から11月21日8時30分に変更、集合場所が飯能市役所西側駐車場から加治小学校に変更、コースが加治地区内に変更、距離が約7キロメートルから約12キロメートルに変更、申し込みが11月11日までに加治東地区行政センターへの事前申し込みに変更されました。
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  第32回加治てくてくウオーク を開催します。加治地区内の約12キロメートルのコースを、西光寺、大蓮寺、もみじ公園などを経由して歩きます。
+  
+  日時：令和8年11月21日（土曜日）8時30分集合
+  集合場所：加治小学校
+  所要時間：約3時間30分
+  費用：無料
+  持ち物：弁当、飲み物、雨具、敷物、スゴ足手帳（お持ちの方）
+  申し込み期限：11月11日（水曜日）まで
+  申し込み方法：加治東地区行政センターへ
+  　電話 042-974-4546
+  　ファクス 042-972-9806
+  　メール kajih-center@city.hanno.lg.jp
+  荒天の場合は中止。当日7時に判断のため、判断のつかない場合は加治東地区行政センターへお問い合わせください。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/12785.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "12785"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/12785.html"
+  fetched_at: "2026-09-21T21:35:08.280415Z"
+  content_hash: "sha256-7e0cadaeb5fcf7dd"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-09-21"
+  supersedes: "oshirase-12785@hanno.city.tecoli.com"

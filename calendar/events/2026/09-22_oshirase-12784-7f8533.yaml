@@ -1,0 +1,43 @@
+uid: "oshirase-12784-7f8533@hanno.city.tecoli.com"
+summary: "ℹ️ スゴ足イベント 2026年11月20日（金曜日）四季を感じる歩こう会～小岩井浄水場の施設見学と紅葉の柏木山ハイキング～"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/12784.html"
+dtstart: "2026-09-22"
+dtend: "2026-09-22"
+description: |-
+  🔄 内容更新 (公開日: 2026-09-21 / 前回掲載: 2026-05-29)
+  主な変更: 期日が7月22日から11月20日に変更、集合場所が市役所から小岩井浄水場に変更、集合時間が10時から9時に変更、予定時間が約3時間30分から約6時間に変更、費用が200円から100円に変更、申込期限が7月18日から11月13日に変更、申込先が変更されました。
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  小岩井浄水場の施設見学と柏木山のハイキングを行う「四季を感じる歩こう会」を開催します。
+  
+  期日：令和8年11月20日（金曜日）
+  集合時間：午前9時
+  集合場所：小岩井浄水場
+  コース：小岩井浄水場 → 施設見学 → 榎坂分岐 → 柏木山山頂（昼食） → 赤根峠 → 茜台の配水場広場 → 小岩井浄水場
+  距離：約10キロメートル
+  予定時間：約6時間
+  
+  費用：100円（保険代等、当日集金）
+  持ち物：飲み物、弁当、雨具、スゴ足手帳（お持ちの方）
+  募集人数：30名
+  
+  申し込み：10月5日（月曜日）から11月13日（金曜日）までに、原市場地区行政センターへ電話（042-977-1232）、ファクス（042-977-0582）、またはメール（hara-center@city.hanno.lg.jp）でお申し込みください。
+  
+  その他：小岩井浄水場までは飯能第二小学校バス停で下車し、徒歩約15分です。天候により中止する可能性があります。中止の確認は当日午前7時から7時30分までに原市場地区行政センターへお問い合わせください。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/12784.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "12784"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/12784.html"
+  fetched_at: "2026-09-21T21:35:13.223366Z"
+  content_hash: "sha256-7f85332e539d4f69"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-09-21"
+  supersedes: "oshirase-12784-502ffa@hanno.city.tecoli.com"
