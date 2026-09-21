@@ -1,0 +1,34 @@
+{
+  "created": "2026-09-21T21:37:29.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🔄 Updated information (published September 21, 2026 / previously listed May 11, 2026)\n\nKey changes: Gathering time moved from June 16 at 10:00 to November 21 at 8:30 a.m. Gathering location changed from the west side parking lot of Hanno City Hall to Kaji Elementary School. Route now covers the Kaji district. Distance increased from approximately 7 kilometers to approximately 12 kilometers. Registration method changed to advance registration at the Kaji East District Administrative Center by November 11.\n\nWe are holding the 32nd Kaji Tekuteku Walk. You will walk an approximately 12-kilometer course through the Kaji district, passing through Saikoji Temple, Dairenji Temple, Momiji Park, and other locations.\n\nDate and time: Saturday, November 21, 2026 (Reiwa 8), gathering at 8:30 a.m.\nGathering location: Kaji Elementary School\nDuration: Approximately 3 hours 30 minutes\nFee: Free\nWhat to bring: Packed lunch, beverages, rain gear, ground sheet, Sogo-ashi handbook (if you have one)\nRegistration deadline: Wednesday, November 11\nHow to register: Contact Kaji East District Administrative Center\n• Phone: 042-974-4546\n• Fax: 042-972-9806\n• Email: kajih-center@city.hanno.lg.jp\n\nThe event will be cancelled in case of severe weather. A decision will be made at 7:00 a.m. on the day. If conditions are unclear, please contact the Kaji East District Administrative Center for information.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/12785.html",
+  "end": {
+    "date": "2026-09-23"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2OHJqZ2Q5ZDZ0aWowb3IxY2gwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-12785-7e0cad@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h68rjgd9d6tij0or1ch06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/12785.html"
+  },
+  "start": {
+    "date": "2026-09-22"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Sogo-ashi Event: 32nd Kaji Tekuteku Walk, Saturday, November 21, 2026",
+  "updated": "2026-09-21T21:37:30.246Z"
+}

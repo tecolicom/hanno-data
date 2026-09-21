@@ -1,0 +1,34 @@
+{
+  "created": "2026-09-21T21:37:27.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nJoin the 13th Hidaka Kawasemi-no-Sato Two-Day Walk (November 28–29, Reiwa 8) to earn Sugo-Ashi stamps (special two-day walk seals).\n\nYou can earn one stamp per day regardless of which course you take. Please bring your Sugo-Ashi handbook (available at the venue if needed).\n\nStamps are issued at the Hanno Walking Club booth in Binchotan Park (the main venue at 125–2 Takara-Koma Hongo, Hidaka City).\n\nParticipants who collect 5 or more Sugo-Ashi stamps at Hanno City events within the same fiscal year receive a special prize. (Eligibility: Hanno City residents, employees, and students only.)\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/10590.html",
+  "end": {
+    "date": "2026-09-23"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2MHFqaWMxZGNjc2owY3BqNmgwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-10590-c90334@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h60qjic1dccsj0cpj6h06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/10590.html"
+  },
+  "start": {
+    "date": "2026-09-22"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Sugo-Ashi Event: 13th Hidaka Kawasemi-no-Sato Two-Day Walk, Nov 28–29, 2026",
+  "updated": "2026-09-21T21:37:27.403Z"
+}

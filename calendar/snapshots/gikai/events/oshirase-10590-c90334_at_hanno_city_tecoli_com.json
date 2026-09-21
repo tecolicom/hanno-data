@@ -1,0 +1,34 @@
+{
+  "created": "2026-09-21T21:36:16.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🔄 内容更新 (公開日: 2026-09-21 / 前回掲載: 2026-06-19)\n主な変更: 前回の要約が空欄のため、比較対象がありません。今回の本文は「スゴ足スタンプ」に関する飯能市のイベント参加特典についての情報で、8月4日の飯能市内ウオーキングイベントではなく、11月28日～29日の日高市開催のツーデーウオークに関するものです。 変更を判定できないため、出力なし。\n\nAI による要約 (正確な情報は元記事をご確認ください)\n\n令和8年11月28日（土）・29日（日）開催の第13回日高かわせみの里ツーデーウオークに参加すると、スゴ足スタンプ（ツーデーウオーク専用シール）がもらえます。\n\nどのコースに参加してもスタンプ対象で、1日につき1スタンプを付与します。スゴ足手帳をお持ちください（当日配布可）。\n\nスタンプ押印場所は、日高市高麗本郷125−2 曼殊沙華公園内の巾着田メイン会場の飯能ウオーキング倶楽部ブースです。\n\n飯能市のスゴ足イベントで年度内にスゴ足スタンプを5つ以上集めた方に特典を差し上げます（飯能市在住・在勤・在学の方に限ります）。\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/10590.html",
+  "end": {
+    "date": "2026-09-23"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2MHFqaWMxZGNjc2owY3BqNmgwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSA2NzQ1OTE0YjI0MzIzMTEyYTE1ZjQzZGMyMGIzYTBmNGE0ODE3YWZkODAwYzhkMTY4N2QwYmYwYjdmODkwYzYxQGc",
+  "iCalUID": "oshirase-10590-c90334@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h60qjic1dccsj0cpj6h06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/10590.html"
+  },
+  "start": {
+    "date": "2026-09-22"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ スゴ足イベント 2026年11月28日（土曜日）、11月29日（日曜日） 第13回日高かわせみの里ツーデーウオーク",
+  "updated": "2026-09-21T21:36:17.217Z"
+}

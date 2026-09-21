@@ -1,0 +1,34 @@
+{
+  "created": "2026-09-21T21:37:29.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🔄 Content Updated (Published: September 21, 2026 / Previous: May 29, 2026)\n\nMain changes: Date changed from July 22 to November 20; meeting place changed from City Hall to Koiwai Water Purification Plant; meeting time changed from 10:00 to 9:00 a.m.; total duration changed from approximately 3.5 hours to approximately 6 hours; fee changed from ¥200 to ¥100; application deadline changed from July 18 to November 13; application contact updated.\n\n\nWe are holding a \"Seasonal Walking\" event featuring a tour of Koiwai Water Purification Plant and a hike on Kashiwagi Mountain.\n\n【Event Details】\nDate: Friday, November 20, 2026 (Reiwa 8)\nMeeting time: 9:00 a.m.\nMeeting place: Koiwai Water Purification Plant\nRoute: Koiwai Water Purification Plant → Facility tour → Enosaka junction → Kashiwagi Mountain summit (lunch break) → Akane Pass → Akane Plateau distribution reservoir grounds → Koiwai Water Purification Plant\nDistance: Approximately 10 kilometers\nDuration: Approximately 6 hours\n\n【Fee & What to Bring】\nFee: ¥100 (insurance, collected on the day)\nBring: Beverages, boxed lunch, rain gear, Sugo-Ashi handbook (if you have one)\n\n【Registration】\nCapacity: 30 people\nApplication period: October 5 (Monday) to November 13 (Friday)\nTo apply, contact Haraichiba District Administrative Center by phone (042-977-1232), fax (042-977-0582), or email (hara-center@city.hanno.lg.jp).\n\n【Getting There & Weather Info】\nTo reach Koiwai Water Purification Plant: Get off at Hanno Second Elementary School bus stop and walk approximately 15 minutes.\nWeather: The event may be cancelled due to weather conditions. To check for cancellation on the day, contact Haraichiba District Administrative Center between 7:00–7:30 a.m.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/12784.html",
+  "end": {
+    "date": "2026-09-23"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2OHJqZ2QxZDZ0ajNnZDlqNmQwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-12784-7f8533@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h68rjgd1d6tj3gd9j6d06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/12784.html"
+  },
+  "start": {
+    "date": "2026-09-22"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Sugo-Ashi Walking Event – November 20, 2026 (Friday): Seasonal Walk with Koiwai Water Purification Plant Tour and Kashiwagi Mountain Autumn Hike",
+  "updated": "2026-09-21T21:37:29.556Z"
+}

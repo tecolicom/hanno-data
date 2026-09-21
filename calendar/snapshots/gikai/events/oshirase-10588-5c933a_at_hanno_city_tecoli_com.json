@@ -1,0 +1,34 @@
+{
+  "created": "2026-09-21T21:36:16.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🔄 内容更新 (公開日: 2026-09-21 / 前回掲載: 2026-03-30)\n主な変更: 集合時間が9時45分から10時に、集合場所が吾野駅改札口から飯能市役所西側駐車場に変更、コースと中止確認時間も変わります。\n\n## イベント内容\n\n\t期日 11月25日(水曜日)\n\n\t集合時間 10時\n\n\t集合場所 飯能市役所西側駐車場\n\n\tコース 飯能市役所 → 精明地区行政センター → 新光中央公園 → 狭山PA → 円照寺 → 飯能市役所\n\n\t距離  約14キロメートル\n\n\t予定時間 約4時間\n\n\t参加費 200円(保険代等、当日集金)\n\n\t持ち物   弁当、飲み物、雨具、スゴ足手帳(お持ちの方)\n\n\t申し込み  11月21日(土曜日）までにASA飯能へ 電話 042-972-4701 ファクス 042-974-2190\n\n\t中止の確認  天候等による中止の確認は、当日朝9時以降にASA飯能へ\n\n\t問い合わせ 恩田 090-2205-8073\n\n\t主催  飯能ウオーキング倶楽部\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/10588.html",
+  "end": {
+    "date": "2026-09-23"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2MHFqZ2UxZDZsaGppY3BqYzUwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSA2NzQ1OTE0YjI0MzIzMTEyYTE1ZjQzZGMyMGIzYTBmNGE0ODE3YWZkODAwYzhkMTY4N2QwYmYwYjdmODkwYzYxQGc",
+  "iCalUID": "oshirase-10588-5c933a@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h60qjge1d6lhjicpjc506gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/10588.html"
+  },
+  "start": {
+    "date": "2026-09-22"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ スゴ足イベント 2026年11月25日（水曜日）飯能・狭山・入間の四季を感じ愉しく歩く",
+  "updated": "2026-09-21T21:36:16.414Z"
+}
