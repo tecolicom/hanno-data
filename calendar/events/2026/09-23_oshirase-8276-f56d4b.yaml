@@ -32,3 +32,26 @@ source:
   content_hash: "sha256-f56d4bd58121d324"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-09-22"
+translations:
+  en:
+    summary: "ℹ️ October is Foster Care Month"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      October is Foster Care Month. The foster care system cares for approximately 46,000 children nationwide who cannot live with their families due to parental illness, abuse, economic hardship, or other reasons. Foster parents provide these children with warm love and a home-like environment in place of their parents.
+      
+      Currently, only about 20% of children needing care are placed with foster families. The remaining 80% live in public institutions like children's homes. For healthy child development, care in a family environment is crucial.
+      
+      Foster care takes many forms. Some foster parents provide long-term care, while others take children for short periods—anywhere from a few days to several months. You can choose based on the timeframe and care style that suits you. All require registration as a foster parent.
+      
+      A foster parent from Hanno shared this message: "By becoming a foster family, you increase the options available to children who need care. While there are many challenges, looking back, the joy far outweighs the difficulties."
+      
+      For questions about foster care:
+      • Saitama Tokorozawa Child Consultation Center: 04-2992-4152 (weekdays, 8:30 a.m.–6:15 p.m.)
+      • Hanno City Child Support Division: 042-973-2111, ext. 1526 (weekdays, 9:00 a.m.–4:30 p.m.)
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/kodomoshienka/soudanshien/8276.html
+    translation_hash: "sha256-395b8e88d4d412e0"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-09-22T20:47:38.498385Z"
+    format_version: 3
