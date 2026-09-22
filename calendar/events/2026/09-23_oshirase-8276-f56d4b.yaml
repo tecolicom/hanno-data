@@ -1,0 +1,34 @@
+uid: "oshirase-8276-f56d4b@hanno.city.tecoli.com"
+summary: "ℹ️ 10月は「里親月間」です"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/kodomoshienka/soudanshien/8276.html"
+dtstart: "2026-09-23"
+dtend: "2026-09-23"
+description: |-
+  🆕 新着掲載 (公開日: 2026-09-22)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  10月は「里親月間」です。親の病気や虐待、経済的理由などで家庭で暮らせない全国約46,000人のこどもたちを、保護者に代わって温かい愛情と家庭的な環境の中で育てる制度が「里親制度」です。
+  
+  現在、里子として受け入れられているこどもはわずか20%で、約80%は児童養護施設などの公的機関で暮らしているのが現状。こどもの健全な育成のためには、より家庭的な環境下での養育が重要です。
+  
+  里親のカタチはさまざまで、長期間預かる里親から数日～数か月の短期間預かる里親まで、期間や預かり方に応じた選択肢があります。いずれも養育里親としての登録が必要です。
+  
+  市内の里親からのメッセージでは「受け皿をひとつ増やすことで、里親が必要なこどもたちの選択肢を増やすことができます。大変なことも多いですが、振り返ってみると喜びの気持ちの方が多いです」とのことです。
+  
+  里親制度についての相談先：埼玉県所沢児童相談所（04-2992-4152、平日8時30分～18時15分）またはこども支援部こども支援課（042-973-2111内線1526、平日9時00分～16時30分）
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/kodomoshienka/soudanshien/8276.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "8276"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/kodomoshienka/soudanshien/8276.html"
+  fetched_at: "2026-09-22T20:46:28.704146Z"
+  content_hash: "sha256-f56d4bd58121d324"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-09-22"
