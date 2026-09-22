@@ -1,0 +1,34 @@
+{
+  "created": "2026-09-22T20:47:47.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nOctober is Foster Care Month. The foster care system cares for approximately 46,000 children nationwide who cannot live with their families due to parental illness, abuse, economic hardship, or other reasons. Foster parents provide these children with warm love and a home-like environment in place of their parents.\n\nCurrently, only about 20% of children needing care are placed with foster families. The remaining 80% live in public institutions like children's homes. For healthy child development, care in a family environment is crucial.\n\nFoster care takes many forms. Some foster parents provide long-term care, while others take children for short periods—anywhere from a few days to several months. You can choose based on the timeframe and care style that suits you. All require registration as a foster parent.\n\nA foster parent from Hanno shared this message: \"By becoming a foster family, you increase the options available to children who need care. While there are many challenges, looking back, the joy far outweighs the difficulties.\"\n\nFor questions about foster care:\n• Saitama Tokorozawa Child Consultation Center: 04-2992-4152 (weekdays, 8:30 a.m.–6:15 p.m.)\n• Hanno City Child Support Division: 042-973-2111, ext. 1526 (weekdays, 9:00 a.m.–4:30 p.m.)\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/kodomoshienka/soudanshien/8276.html",
+  "end": {
+    "date": "2026-09-24"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOW82OHJqY2JiNjZrcjY4ZDMyODFrNjJyamVkc242NnFia2Y0bjc4cGIzZHRtNmliajNkdG1nIGI2ZjM2ZTE5NzUxYzA1Y2NlOTlmYTAwODI4ZTQyOWY0MGY2ZGIxMDBlMmRiZTQ0MmJjMjYyMmEyNWRhOTczMTZAZw",
+  "iCalUID": "oshirase-8276-f56d4b@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9o68rjcbb66kr68d3281k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/kodomoshienka/soudanshien/8276.html"
+  },
+  "start": {
+    "date": "2026-09-23"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ October is Foster Care Month",
+  "updated": "2026-09-22T20:47:47.990Z"
+}
