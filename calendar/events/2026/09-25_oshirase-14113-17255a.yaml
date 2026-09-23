@@ -1,0 +1,49 @@
+uid: "oshirase-14113-17255a@hanno.city.tecoli.com"
+summary: "ℹ️ 埼玉司法書士会 所沢支部 法の日無料相続・遺言相談会のご案内"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/kurashi/14113.html"
+dtstart: "2026-09-25"
+dtend: "2026-09-25"
+description: |-
+  🆕 新着掲載 (公開日: 2026-09-24)
+  
+  司法書士が無料で、相続・遺言のほか、登記・裁判手続・成年後見・会社設立・借金問題などの法律に関する相談に応じます。
+  
+  	予約不要、先着順となります。
+  
+  	相談時間は、30分です。
+  
+  	ご相談内容に関する資料がございましたらご持参ください。
+  
+  	法の日無料相続・遺言相談会
+  
+  			日時
+  
+  			令和8年10月12日（月曜日）
+  
+  			10時30分～15時30分（受付は14時まで）
+  
+  			場所
+  			飯能市市民活動センター（丸広百貨店 飯能店7階）会議室
+  
+  			主催
+  			埼玉司法書士会所沢支部飯能班
+  
+  			問合せ
+  			あんしん相続成年後見事務所（司法書士 渡邊）
+  
+  			電話 042－978－9005
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/kurashi/14113.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "14113"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/kurashi/14113.html"
+  fetched_at: "2026-09-23T20:58:04.455090Z"
+  content_hash: "sha256-17255aff7cac8cfe"
+  summary_method: "full"
+  publish_date: "2026-09-24"
