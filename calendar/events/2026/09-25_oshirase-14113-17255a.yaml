@@ -47,3 +47,36 @@ source:
   content_hash: "sha256-17255aff7cac8cfe"
   summary_method: "full"
   publish_date: "2026-09-24"
+translations:
+  en:
+    summary: "ℹ️ Free inheritance and will consultation by Saitama Bar Association (Tokorozawa Chapter)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New listing (posted: September 24, 2026)
+      
+      A licensed judicial scrivener (司法書士) will provide free consultations on inheritance, wills, and other legal matters including registration, court procedures, adult guardianship, company formation, and debt issues.
+      
+      No reservation needed—first come, first served.
+      
+      Each consultation is 30 minutes.
+      
+      Please bring any documents related to your matter if you have them.
+      
+      【Free Inheritance and Will Consultation Day】
+      
+      Date and time: October 12, 2026 (Monday, Reiwa 8)
+      10:30 a.m.–3:30 p.m. (Reception closes at 2:00 p.m.)
+      
+      Location: Hanno Citizen Activity Center (7th floor, Maruhiro Department Store Hanno branch) – Conference room
+      
+      Organizer: Saitama Bar Association, Tokorozawa Chapter, Hanno Group
+      
+      Inquiries: Anshin Succession and Adult Guardianship Office (Judicial Scrivener Watanabe)
+      Phone: 042-978-9005
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/kurashi/14113.html
+    translation_hash: "sha256-f7e569683d02eacb"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-09-23T20:59:21.563676Z"
+    format_version: 3
