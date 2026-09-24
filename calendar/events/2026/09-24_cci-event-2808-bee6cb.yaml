@@ -1,0 +1,28 @@
+uid: "cci-event-2808-bee6cb@hanno.city.tecoli.com"
+summary: "ℹ️ 埼玉県最低賃金改正のお知らせ"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2808/"
+dtstart: "2026-09-24"
+dtend: "2026-09-24"
+description: |-
+  令和8年10月1日から埼玉県最低賃金は時間額1,196円（引上げ額55円）となります。最低賃金は年齢や雇用形態に関係なく、パートや学生アルバイトも含め、埼玉県内の事業場で働くすべての労働者に適用されます。働く人も雇う人も賃金額が1時間当たり1,196円以上かどうか必ず確認しましょう。
+  
+  詳しくは、埼玉労働局労働基準部賃金室（TEL048-600-6205）又は最寄りの労働基準監督署へお尋ねください。
+  
+  本件に関する埼玉労働局HP
+  
+  賃金・家内労働関係
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2808/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2808"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2808/"
+  category: "お知らせ"
+  summary_method: "full"
+  content_hash: "sha256-bee6cb1dd153b526"

@@ -1,0 +1,32 @@
+uid: "oshirase-14400-ef92ce@hanno.city.tecoli.com"
+summary: "ℹ️ レオ・ライナとたのしくあそぼう！（連携事業）"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/tihousouseikouikigyousei/sangakukanrenkei/14400.html"
+dtstart: "2026-09-25"
+dtend: "2026-09-25"
+description: |-
+  🆕 新着掲載 (公開日: 2026-09-24)
+  
+  埼玉西武ライオンズの球団マスコットキャラクターのライナ、公式パフォーマーのbluelegendsが市内保育所を訪問し、園児たちと交流を図りました。
+  
+  ## 実施日・場所
+  
+  令和8年8月24日（月曜日） 浅間保育所
+  
+  ## 本事業について
+  
+  本事業は、飯能市と埼玉西武ライオンズとの連携協定（フレンドリーシティ）に基づく事業の一環として、ライオンズのマスコットキャラクター「レオ」または「ライナ」、公式パフォーマー「bluelegends」が市内保育所を訪問し、ダンス体験などの体験事業を通じて、「仲間を思いやる気持ち」・「明るく元気な挨拶」・「ふれあいを通じて体を動かすことの楽しさ」を伝えるプログラムです。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/tihousouseikouikigyousei/sangakukanrenkei/14400.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "14400"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/tihousouseikouikigyousei/sangakukanrenkei/14400.html"
+  fetched_at: "2026-09-24T21:02:43.729090Z"
+  content_hash: "sha256-ef92cee844c6de03"
+  summary_method: "full"
+  publish_date: "2026-09-24"

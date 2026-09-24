@@ -1,0 +1,26 @@
+uid: "cci-event-2810-659076@hanno.city.tecoli.com"
+summary: "ℹ️ 令和8年10月1日からハラスメント対策が強化されます！"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2810/"
+dtstart: "2026-09-24"
+dtend: "2026-09-24"
+description: |-
+  令和8年10月1日より、カスタマーハラスメント（カスハラ）及び求職者等に対するセクシュアルハラスメント（いわゆる「求職者等セクハラ」）の防止措置が、事業主の義務となります。
+  
+  詳しい内容については、以下の埼玉労働局ホームページをご確認ください。
+  
+  出典：埼玉労働局「職場におけるハラスメント防止対策」職場におけるハラスメント防止対策
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2810/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2810"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2810/"
+  category: "お知らせ"
+  summary_method: "full"
+  content_hash: "sha256-659076a2c792d587"

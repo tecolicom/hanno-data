@@ -1,0 +1,42 @@
+uid: "oshirase-14404-fd6314@hanno.city.tecoli.com"
+summary: "ℹ️ 「親子でつくる、ヒンメリの時間」の開催について（後援事業）"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/tihousouseikouikigyousei/sangakukanrenkei/14404.html"
+dtstart: "2026-09-25"
+dtend: "2026-09-25"
+description: |-
+  🆕 新着掲載 (公開日: 2026-09-24)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  親子でつくる、ヒンメリの時間
+  
+  トーベ・ヤンソンあけぼの子どもの森公園 子ども劇場で開催されるフィンランド伝統文化のワークショップです。グループワークとヒンメリ作りを通じて、フィンランドの魅力を学び体験できます。
+  
+  【開催日時】令和8年9月26日（土曜日）10時30分〜11時45分（10時受付開始）
+  
+  【会場】トーベ・ヤンソンあけぼの子どもの森公園 子ども劇場（阿須893-1）
+  
+  【対象】小学生及び保護者
+  
+  【参加費】無料
+  
+  【申込方法】申込フォームより必要事項をご入力ください
+  
+  【主催】公益社団法人飯能青年会議所
+  
+  【問合せ】070-6468-8274（特別実行委員長 浅見 友章）
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/tihousouseikouikigyousei/sangakukanrenkei/14404.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "14404"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/tihousouseikouikigyousei/sangakukanrenkei/14404.html"
+  fetched_at: "2026-09-24T21:02:42.722260Z"
+  content_hash: "sha256-fd6314e08808bb0e"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-09-24"
