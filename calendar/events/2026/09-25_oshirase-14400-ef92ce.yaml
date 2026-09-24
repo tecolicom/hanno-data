@@ -30,3 +30,26 @@ source:
   content_hash: "sha256-ef92cee844c6de03"
   summary_method: "full"
   publish_date: "2026-09-24"
+translations:
+  en:
+    summary: "ℹ️ Have fun playing with Leo and Rina! (Partnership program)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New post (Published: September 24, 2026)
+      
+      Rina, the mascot character of the Saitama Seibu Lions baseball team, and bluelegends, the team's official performers, visited a childcare center in Hanno City and interacted with the children.
+      
+      Event Date and Location
+      
+      August 24, 2026 (Reiwa 8) Monday — Sengen Childcare Center
+      
+      About This Program
+      
+      This program is part of a partnership initiative between Hanno City and the Saitama Seibu Lions based on their friendship city agreement. The Lions' mascot character "Leo" or "Rina" and official performers "bluelegends" visit childcare centers throughout the city to offer hands-on experiences such as dance activities. Through these interactions, the program teaches children about caring for teammates, greeting others with brightness and energy, and the joy of moving their bodies through direct contact and play.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/tihousouseikouikigyousei/sangakukanrenkei/14400.html
+    translation_hash: "sha256-62b60dc5bd0dc1f3"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-09-24T21:04:07.243777Z"
+    format_version: 3

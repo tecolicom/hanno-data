@@ -26,3 +26,20 @@ source:
   category: "お知らせ"
   summary_method: "full"
   content_hash: "sha256-bee6cb1dd153b526"
+translations:
+  en:
+    summary: "ℹ️ Saitama Minimum Wage Change Notice"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Starting October 1, 2026 (Reiwa 8), the Saitama Prefecture minimum wage will be 1,196 yen per hour (an increase of 55 yen). The minimum wage applies to all workers in Saitama Prefecture regardless of age or employment type, including part-time workers and student workers. Both workers and employers should check that hourly wages meet or exceed 1,196 yen.
+      
+      For details, contact the Saitama Labor Bureau, Labor Standards Department, Wages Division (TEL 048-600-6205) or your nearest labor standards inspection office.
+      
+      Related: Saitama Labor Bureau website – Wages and Domestic Work
+      
+      Source (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2808/
+    translation_hash: "sha256-789f1f8b5f33f116"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-09-24T21:04:02.346239Z"
+    format_version: 3

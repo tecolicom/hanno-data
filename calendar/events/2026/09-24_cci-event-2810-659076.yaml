@@ -24,3 +24,20 @@ source:
   category: "お知らせ"
   summary_method: "full"
   content_hash: "sha256-659076a2c792d587"
+translations:
+  en:
+    summary: "ℹ️ Harassment prevention measures strengthen from October 1, 2026 (Reiwa 8)!"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Starting October 1, 2026 (Reiwa 8), employers are required to put in place measures to prevent customer harassment (often called "customer harassment") and sexual harassment against job seekers and others (sometimes called "job-seeker sexual harassment").
+      
+      For detailed information, please visit the Saitama Labor Bureau website.
+      
+      Source: Saitama Labor Bureau "Workplace Harassment Prevention Measures"
+      
+      Source (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2810/
+    translation_hash: "sha256-5922b6c49f12bf9e"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-09-24T21:04:04.210176Z"
+    format_version: 3

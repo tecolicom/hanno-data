@@ -40,3 +40,34 @@ source:
   content_hash: "sha256-fd6314e08808bb0e"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-09-24"
+translations:
+  en:
+    summary: "ℹ️ Workshop: \"Making Himmeli with Parent and Child\" (Supported Event)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New listing (Posted: September 24, 2026)
+      
+      Making Himmeli with Parent and Child
+      
+      A Finnish traditional culture workshop held at the Children's Theater in Tove Jansson Akebono Children's Forest Park. Through group activities and himmeli (Finnish straw ornament) making, participants can learn about and experience the charm of Finland.
+      
+      【Date and Time】Saturday, September 26, 2026 (Reiwa 8), 10:30 a.m.–11:45 a.m. (Reception starts at 10:00 a.m.)
+      
+      【Venue】Children's Theater, Tove Jansson Akebono Children's Forest Park (893-1 Azu)
+      
+      【Who Can Join】Elementary school students and their parents
+      
+      【Fee】Free
+      
+      【How to Apply】Fill in the required information via the application form
+      
+      【Organizer】Hanno Junior Chamber of Commerce (Public Interest Incorporated Association)
+      
+      【Inquiries】070-6468-8274 (Special Executive Committee Chair: Tomoaki Asami)
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/tihousouseikouikigyousei/sangakukanrenkei/14404.html
+    translation_hash: "sha256-ef1e466513816094"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-09-24T21:04:10.825128Z"
+    format_version: 3
