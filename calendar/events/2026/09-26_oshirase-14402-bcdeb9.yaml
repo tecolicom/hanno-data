@@ -24,3 +24,22 @@ source:
   content_hash: "sha256-bcdeb925d4351c2e"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-09-25"
+translations:
+  en:
+    summary: "ℹ️ Tontu Festival 2026 to be held (supported event)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New entry (posted September 25, 2026)
+      
+      Tontu Festival 2026 will be held October 3–4, 2026 (Reiwa 8) from 10:00 a.m. to 4:30 p.m. at Metsa Village (327-6 Miyazawa). This is part of a 10-year initiative running through 2031 with Hanno City as the venue, centered on building an inclusive society. This year's theme is "A day when anyone, alone or together, can make something."
+      
+      The festival features markets, workshops, stage performances, sports and games, tea ceremony experiences, food and craft sales by welfare organizations from across Japan, live music, and many other activities for children and adults alike.
+      
+      For inquiries, contact NPO Decent Work Lab (Tontu Festival Secretariat): phone 03-6451-7345.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/tihousouseikouikigyousei/sangakukanrenkei/14402.html
+    translation_hash: "sha256-2fb66f1a5dcc0ced"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-09-25T21:01:44.169974Z"
+    format_version: 3

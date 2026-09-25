@@ -22,3 +22,18 @@ source:
   content_hash: "sha256-e80d5f7ab563feb2"
   summary_method: "full"
   publish_date: "2026-09-25"
+translations:
+  en:
+    summary: "ℹ️ Notice: \"Higashi-Agano District Sports Festival\" Cancelled"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New (Posted: September 25, 2026)
+      
+      The "65th Higashi-Agano District Sports Festival" scheduled for Sunday, September 27, 2026, has been cancelled due to forecasted poor weather.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/gyoseicenterkanrika/togonochikugyoseicenter_kominkan/14434.html
+    translation_hash: "sha256-0faf6e7505a90583"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-09-25T21:01:45.665978Z"
+    format_version: 3

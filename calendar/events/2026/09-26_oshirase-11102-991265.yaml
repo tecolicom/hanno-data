@@ -55,3 +55,48 @@ source:
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-09-24"
   supersedes: "oshirase-11102-25539c@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ Sugo-Ashi Event October 20 (Tue) and 31 (Sat) 2026 – Sugo-Ashi Leisurely Walk October"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content Updated (Published: September 24, 2026 / Previous: August 25, 2026)
+      Main changes: October 31 meeting location moved from west side parking lot of Hanno City Hall to in front of Hanno City Hall Annex Building. Course (2) on October 31 changed from ending at Futako Station to ending at Musashi-Yokote Station. Transit IC card added to required items.
+      
+      Sugo-Ashi Leisurely Walk October will be held.
+      
+      【Event Date and Time】
+      October 20 (Tuesday) and October 31 (Saturday) – Gather at 10:00 AM
+      
+      【Meeting Location】
+      October 20: West side parking lot of Hanno City Hall
+      October 31: In front of Hanno City Hall Annex Building
+      
+      【Routes】
+      October 20: One of the following routes will be walked depending on weather and number of participants.
+      (1) City Hall → Benzaiten Shrine → Chikkanji Temple → Nakayama-nishi Signal → Yatsuda → Ninin-ji Temple → Central Park → Hongo Water Purification Plant → Hanno River Stepping-Stone Bridge → Hanno Station → Higashi-Hanno Station → Hanno City Hall
+      (2) City Hall → Hanno city area (Shimokaji, Futanayanagi, Kaji, etc.) → Iruma city area (Shinko, Noda, etc.) → Futako Station (return by train)
+      
+      October 31: City Hall → Hanno city area → Musashi-Yokote Station (return by train)
+      
+      【Distance and Estimated Time】
+      Approximately 7 kilometers, approximately 2 hours 30 minutes
+      
+      【Fee】
+      Free (insurance is your own responsibility)
+      
+      【What to Bring】
+      Drink, rain gear, transit IC card, Sugo-Ashi handbook (if you have one)
+      
+      【How to Register】
+      Join on the day (please arrive by the start time)
+      
+      【Cancellation Check】
+      For cancellations due to weather or other reasons, check the Hanno Walking Club website or contact Onda (090-2205-8073) after 3:00 PM the day before the event.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/11102.html
+    translation_hash: "sha256-ac93286dc07be1bf"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-09-25T21:01:40.415224Z"
+    format_version: 3
