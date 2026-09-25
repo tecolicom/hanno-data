@@ -1,0 +1,57 @@
+uid: "oshirase-11102-991265@hanno.city.tecoli.com"
+summary: "ℹ️ スゴ足イベント 2026年10月20日（火曜日）、31日（土曜日）スゴ足のんびりウオーク10月"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/11102.html"
+dtstart: "2026-09-26"
+dtend: "2026-09-26"
+description: |-
+  🔄 内容更新 (公開日: 2026-09-24 / 前回掲載: 2026-08-25)
+  主な変更: 10月31日（土曜日）の集合場所が飯能市役所西側駐車場から飯能市役所別館前に変更、同日のコース（2）が仏子駅ゴールから武蔵横手駅ゴールに変更されました。持ち物に交通系ICカードが追加されました。
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  スゴ足のんびりウオーク10月を開催します。
+  
+  【開催日時】
+  10月20日(火曜日)、10月31日(土曜日) 10時集合
+  
+  【集合場所】
+  10月20日：飯能市役所西側駐車場
+  10月31日：飯能市役所別館前
+  
+  【コース】
+  10月20日：天候や参加人数により以下のいずれかを歩きます。
+  （1）市役所 → 弁財天 → 智観寺 → 中山西信号 → 谷津田 → 能仁寺 → 中央公園 → 本郷浄水場 → 飯能河原飛び石橋 → 飯能駅 → 東飯能駅 → 飯能市役所
+  （2）市役所 → 飯能市内（下加治、双柳、加治など） → 入間市内（新光、野田など） → 仏子駅（電車で戻ります）
+  
+  10月31日：市役所 → 飯能市内 → 武蔵横手駅（電車で戻ります）
+  
+  【距離・予定時間】
+  約7キロメートル、約2時間30分
+  
+  【費用】
+  無料（保険は各自でお願いします）
+  
+  【持ち物】
+  飲み物、雨具、交通系ICカード、スゴ足手帳（お持ちの方）
+  
+  【申し込み】
+  当日参加（時間までにおいで下さい）
+  
+  【中止確認】
+  天候等による中止の確認は前日15時以降に飯能ウオーキング倶楽部ホームページまたは恩田(090-2205-8073)へ確認してください。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/11102.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "11102"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/11102.html"
+  fetched_at: "2026-09-25T21:00:17.188081Z"
+  content_hash: "sha256-9912659b33ac68c6"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-09-24"
+  supersedes: "oshirase-11102-25539c@hanno.city.tecoli.com"

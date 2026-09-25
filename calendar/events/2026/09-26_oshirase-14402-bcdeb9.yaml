@@ -1,0 +1,26 @@
+uid: "oshirase-14402-bcdeb9@hanno.city.tecoli.com"
+summary: "ℹ️ トントゥフェスティバル2026の開催について（後援事業）"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/tihousouseikouikigyousei/sangakukanrenkei/14402.html"
+dtstart: "2026-09-26"
+dtend: "2026-09-26"
+description: |-
+  🆕 新着掲載 (公開日: 2026-09-25)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  令和8年10月3日（土曜日）・4日（日曜日）10時00分から16時30分まで、メッツァビレッジ（宮沢327-6）でトントゥフェスティバル2026が開催されます。共生社会をテーマに2031年までの10年間にわたって飯能市を会場に実施されるイベントで、今年は「ひとりでも、みんなでも なにかがつくれる日。」をテーマに開催。マルシェ、ワークショップ、ステージ、スポーツ・ゲーム、茶道体験、全国の福祉事業所による食品・雑貨販売、音楽ライブなど、こどもから大人まで楽しめるさまざまな企画が予定されています。問合せはNPO法人ディーセントワーク・ラボ（トントゥフェスティバル事務局）電話番号03-6451-7345。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/tihousouseikouikigyousei/sangakukanrenkei/14402.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "14402"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/tihousouseikouikigyousei/sangakukanrenkei/14402.html"
+  fetched_at: "2026-09-25T21:00:11.376978Z"
+  content_hash: "sha256-bcdeb925d4351c2e"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-09-25"

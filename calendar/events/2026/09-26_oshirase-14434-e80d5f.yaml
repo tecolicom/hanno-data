@@ -1,0 +1,24 @@
+uid: "oshirase-14434-e80d5f@hanno.city.tecoli.com"
+summary: "ℹ️ 「東吾野地区体育祭」中止のお知らせ"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/gyoseicenterkanrika/togonochikugyoseicenter_kominkan/14434.html"
+dtstart: "2026-09-26"
+dtend: "2026-09-26"
+description: |-
+  🆕 新着掲載 (公開日: 2026-09-25)
+  
+  9月27日（日曜日）に開催を予定しておりました、「第65回東吾野地区体育祭」は天候不良が予測されるため、中止することとなりました。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/gyoseicenterkanrika/togonochikugyoseicenter_kominkan/14434.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "14434"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/gyoseicenterkanrika/togonochikugyoseicenter_kominkan/14434.html"
+  fetched_at: "2026-09-25T21:00:07.275281Z"
+  content_hash: "sha256-e80d5f7ab563feb2"
+  summary_method: "full"
+  publish_date: "2026-09-25"
