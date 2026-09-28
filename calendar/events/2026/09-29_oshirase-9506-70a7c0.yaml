@@ -1,0 +1,45 @@
+uid: "oshirase-9506-70a7c0@hanno.city.tecoli.com"
+summary: "ℹ️ 新型コロナウイルス感染症予防接種"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/9506.html"
+dtstart: "2026-09-29"
+dtend: "2026-09-29"
+description: |-
+  🆕 新着掲載 (公開日: 2026-09-28)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  令和8年度新型コロナウイルス感染症予防接種を、令和8年10月1日～令和9年3月31日の期間、飯能市及び日高市内の定期予防接種実施医療機関で実施します。
+  
+  【対象者】
+  接種日現在、飯能市内に住民登録があり、以下のいずれかに該当し、接種を希望する方
+  ・65歳以上の方
+  ・60歳以上65歳未満で、心臓、じん臓、呼吸器、またはヒト免疫不全ウイルスによる免疫機能に極度の障害がある方（身体障害者手帳1級程度）
+  ※60～65歳未満の方は事前に保健センターで手続きが必要です。
+  
+  【実施内容】
+  接種回数：1人につき1回
+  費用：11,560円（医療機関の窓口に直接お支払い）
+  ※生活保護受給者、中国残留邦人等支援給付受給者は事前申請で費用負担が変わります。保健センターへお持ちください。
+  
+  【接種方法】
+  事前に医療機関へお電話で予約をお願いします。予診票と説明書を受け取り、よく読んだ上で必要事項を記入してください。
+  
+  【注意事項】
+  実施期間以外、定期予防接種実施医療機関及び埼玉県相互乗り入れ事業参加医療機関以外での接種は全額自己負担となり、接種後の費用返還はありません。定期予防接種実施医療機関は変更となる場合があるため、事前に医療機関へお電話で確認してください。
+  
+  ワクチンはファイザー社、モデルナ社、第一三共社、Meiji Seikaファルマ社、武田薬品工業社の5種類があります。接種に使用するワクチンについては医療機関へご確認ください。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/9506.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "9506"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/9506.html"
+  fetched_at: "2026-09-28T22:52:11.176351Z"
+  content_hash: "sha256-70a7c0e222496d6f"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-09-28"
