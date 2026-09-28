@@ -1,0 +1,34 @@
+{
+  "created": "2026-09-28T22:53:26.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 New listing (published September 28, 2026)\n\nHanno City will offer COVID-19 vaccinations from October 1, 2026 (Reiwa 8) through March 31, 2027 (Reiwa 9) at designated regular vaccination facilities in Hanno and Hidaka cities.\n\n【Eligible people】\nYou must be registered as a resident of Hanno City on the vaccination date and meet at least one of the following conditions, and wish to receive the vaccine:\n• 65 years old or older\n• 60 to under 65 years old with severe immune dysfunction due to heart disease, kidney disease, respiratory disease, or HIV (equivalent to Class 1 physical disability certificate)\n※Those aged 60 to under 65 must complete advance procedures at the Health Center.\n\n【Details of vaccination】\nNumber of doses: 1 dose per person\nCost: ¥11,560 (paid directly at the medical facility)\n※If you receive living allowance or support payment for former Japanese residents of China, advance application can change your cost. Please bring documentation to the Health Center.\n\n【How to get vaccinated】\nCall your chosen medical facility in advance to make a reservation. Receive the pre-vaccination questionnaire and explanation materials, read them carefully, and fill in the required information.\n\n【Important notes】\nVaccination outside the implementation period, or at medical facilities other than designated regular vaccination facilities and participating facilities in the Saitama mutual access program, will be entirely at your own expense with no refund available after vaccination. Designated facilities may change, so confirm by phone with your chosen facility in advance.\n\nFive vaccine types are available: Pfizer, Moderna, Daiichi Sankyo, Meiji Seika Pharma, and Takeda Pharmaceutical. Check with your medical facility about which vaccine will be used for your vaccination.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/9506.html",
+  "end": {
+    "date": "2026-09-30"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOXA2a28zY2I5bjYxZ2plb3BnODFrNjJyamVkc242NnFia2Y0bjc4cGIzZHRtNmliajNkdG1nIGI2ZjM2ZTE5NzUxYzA1Y2NlOTlmYTAwODI4ZTQyOWY0MGY2ZGIxMDBlMmRiZTQ0MmJjMjYyMmEyNWRhOTczMTZAZw",
+  "iCalUID": "oshirase-9506-70a7c0@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9p6ko3cb9n61gjeopg81k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/9506.html"
+  },
+  "start": {
+    "date": "2026-09-29"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ COVID-19 Vaccination Program for Fiscal Year 2026",
+  "updated": "2026-09-28T22:53:26.398Z"
+}

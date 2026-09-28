@@ -1,0 +1,34 @@
+{
+  "created": "2026-09-28T22:53:25.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nNew posting (published September 28, 2026)\n\n【Who can apply】\nWe are recruiting organizations and groups to participate in Minkatsu Winter 2026, taking place Sunday, December 6, 2026 (Reiwa 8). You can participate with a display or workshop.\n\n【How to apply】\nApply in person at the Citizens Activity Center (市民活動センター) window between Sunday, October 4 and Sunday, October 18, 2026. Fill out the application form at the time of submission.\n\n【Questions】\nPhone: (042) 978-7551\nEmail: minkatsu@city.hanno.lg.jp\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jitishinkoka/shiminkatudou/11773.html",
+  "end": {
+    "date": "2026-09-30"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2NHJqZWNwZDZzcGo4cGhwY3AwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-11773-734f9f@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h64rjecpd6spj8phpcp06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jitishinkoka/shiminkatudou/11773.html"
+  },
+  "start": {
+    "date": "2026-09-29"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Groups wanted for Minkatsu Winter 2026",
+  "updated": "2026-09-28T22:53:25.585Z"
+}
