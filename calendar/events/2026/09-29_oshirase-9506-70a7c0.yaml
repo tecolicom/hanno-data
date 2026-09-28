@@ -43,3 +43,37 @@ source:
   content_hash: "sha256-70a7c0e222496d6f"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-09-28"
+translations:
+  en:
+    summary: "ℹ️ COVID-19 Vaccination Program for Fiscal Year 2026"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New listing (published September 28, 2026)
+      
+      Hanno City will offer COVID-19 vaccinations from October 1, 2026 (Reiwa 8) through March 31, 2027 (Reiwa 9) at designated regular vaccination facilities in Hanno and Hidaka cities.
+      
+      【Eligible people】
+      You must be registered as a resident of Hanno City on the vaccination date and meet at least one of the following conditions, and wish to receive the vaccine:
+      • 65 years old or older
+      • 60 to under 65 years old with severe immune dysfunction due to heart disease, kidney disease, respiratory disease, or HIV (equivalent to Class 1 physical disability certificate)
+      ※Those aged 60 to under 65 must complete advance procedures at the Health Center.
+      
+      【Details of vaccination】
+      Number of doses: 1 dose per person
+      Cost: ¥11,560 (paid directly at the medical facility)
+      ※If you receive living allowance or support payment for former Japanese residents of China, advance application can change your cost. Please bring documentation to the Health Center.
+      
+      【How to get vaccinated】
+      Call your chosen medical facility in advance to make a reservation. Receive the pre-vaccination questionnaire and explanation materials, read them carefully, and fill in the required information.
+      
+      【Important notes】
+      Vaccination outside the implementation period, or at medical facilities other than designated regular vaccination facilities and participating facilities in the Saitama mutual access program, will be entirely at your own expense with no refund available after vaccination. Designated facilities may change, so confirm by phone with your chosen facility in advance.
+      
+      Five vaccine types are available: Pfizer, Moderna, Daiichi Sankyo, Meiji Seika Pharma, and Takeda Pharmaceutical. Check with your medical facility about which vaccine will be used for your vaccination.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/9506.html
+    translation_hash: "sha256-6a6e9c185f0077d7"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-09-28T22:53:17.687593Z"
+    format_version: 3

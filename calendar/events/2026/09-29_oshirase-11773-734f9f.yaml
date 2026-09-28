@@ -32,3 +32,26 @@ source:
   content_hash: "sha256-734f9f7f1e10aae5"
   summary_method: "full"
   publish_date: "2026-09-28"
+translations:
+  en:
+    summary: "ℹ️ Groups wanted for Minkatsu Winter 2026"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      New posting (published September 28, 2026)
+      
+      【Who can apply】
+      We are recruiting organizations and groups to participate in Minkatsu Winter 2026, taking place Sunday, December 6, 2026 (Reiwa 8). You can participate with a display or workshop.
+      
+      【How to apply】
+      Apply in person at the Citizens Activity Center (市民活動センター) window between Sunday, October 4 and Sunday, October 18, 2026. Fill out the application form at the time of submission.
+      
+      【Questions】
+      Phone: (042) 978-7551
+      Email: minkatsu@city.hanno.lg.jp
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jitishinkoka/shiminkatudou/11773.html
+    translation_hash: "sha256-51c2d495e523f274"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-09-28T22:53:11.260441Z"
+    format_version: 3
