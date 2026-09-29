@@ -820,6 +820,83 @@ RSS フィードは見ず、`events/` を走査して対象記事だけ再 fetch
 
 `source.summary_method` フィールドに上記 method が記録される (後の再生成判定に利用)。
 
+## bin/cal-lib-closed-fetch / bin/cal-lib-event-fetch
+
+飯能市立図書館 (`www.hanno-lib.jp`) の休館日とイベント。館ごとに独立した
+カレンダー (`lib-main` / `lib-kids`、各 `.en`) へ配信する。
+設計: `docs/superpowers/specs/2026-08-24-hanno-lib-calendar-design.md`
+
+取得層は `bin/_hanno_lib.py` に集約している (2 クローラが同じ `cal.php` を読む)。
+
+```
+cal.php?libraries=<館>&term_from=YYYYMM&term_to=YYYYMM  → closing_day[] / event_day[]
+events.php?kind=2&target=general&libraries=<館>&term_from=YYYYMMDD → その日の記事
+/calendar/<page>.html                                    → 本文 (Last-Modified あり)
+```
+
+**1 リクエスト 1 館。** `libraries=01,02` とまとめると `event_day` が空で返る。
+
+**取得できる範囲は年度末までで固定の月数ではない。** 休館日は年度単位で登録され、
+取れる月数は観測時期で 1〜12 か月に変わる。`months_ahead: 12` は「配信元が持ちうる
+最大」で、返った分だけを扱う。この性質があるので、休館日の件数チェックは
+**館ごと・月ごと** (`--min-days-per-month`) で見る。総数の固定値だと年度末に
+近づいたとき正常時でも赤になる。
+
+**「`closing_day` が空の月は無視する」という緩和を入れないこと。** ある月の
+`term` はあるが `closing_day` が空のとき、その月を落とすと日付が incoming から
+消える。しかし前後の月には日付があるので既存 YAML は削除範囲 `[min,max]` の内側に
+残り、未来なら削除条件を全部満たす。5〜8 件なので `max_delete` にも掛からず
+**静かに月まるごと消える**。`--min-days-per-month` が止めることがこの穴の唯一の
+見張りである。
+
+**イベントは件数で異常を測れない。** `event_day` が 0 件の期間は普通にある
+(本館 01 は 2026-08 時点で全月 0 件)。疎通は `_hanno_lib.terms_of()` が `cal.php`
+の応答形を検査して担保している。
+
+**1 記事 1 件ではなく日ごとに 1 件**作る。「8月のおはなしのじかん(8月1・2…日)」の
+ような記事は `events.php` が該当日それぞれで返しており、配信元が「その日の
+イベント」として出している形をそのまま写す。同一実行内では本文をメモ化するので、
+11 日に出る記事でも詳細ページの取得は 1 回で済む。
+
+**`_hanno_lib.fetch_text` を from-import しないこと。** golden はこの関数を
+差し替えて URL → テキストの層を fixture に載せる。from-import すると呼出側の
+名前空間に束縛がコピーされて差し替えが効かず、テストが実ネットワークに出る。
+`run-golden` の `_setup_lib` に `assert not hasattr(m, "fetch_text")` のガードを
+置いてあるので、間違えるとその場で落ちる。
+
+**失敗はできるだけ狭く閉じる。** 休館日は館ごと、イベントは館・日・記事の 3 段で
+`except (ValueError, OSError)` に落とし、1 件の失敗で全体を止めない
+(`_lib.fetch` は urllib の例外をラップしないので、通信失敗は `OSError` 系で飛ぶ)。
+ただし取りこぼしを静かにしないため、失敗があれば最後に非ゼロ (2 = 取得・検査の
+失敗、3 = 削除超過) で終わる。
+
+`events.php` のリンクが allowlist を外れたときは理由で分ける。同じホストで
+`url_path_prefix` の外なら「配信元が記事を移した = 取りこぼし」なので失敗に数え、
+別ホスト・`#`・相対 URL は WARN に留める (外部リンク 1 本で CI が恒常的に赤に
+ならないように)。後者に全部落ちる取りこぼしは「リンクはあったのに受理 0 件の日」を
+backstop にして捉える。
+
+`rrule` は使わない。ページに規則が書いてあるが、`closing_day` には規則から導け
+ない日 (祝日の翌日など) が入っており、配信元は個別の日付を列挙している。
+
+golden シナリオ (`run-golden`):
+
+| 名前 | 見るもの |
+|---|---|
+| `cal-lib-closed-fetch` | 通常取得 (2 館 × 53 日) |
+| `cal-lib-closed-update` | 既存 YAML が上書きされること |
+| `cal-lib-closed-delete` | 取得側に無い**未来かつ範囲内**の休館日が消えること |
+| `cal-lib-closed-keep-past` | 取得側に無くても `today` より前は残ること |
+| `cal-lib-closed-keep-out-of-range` | 取得側の範囲より後は、未来でも残ること |
+| `cal-lib-event-fetch` | 通常取得 (3 段の取得と解析) |
+| `cal-lib-event-hash-skip` | `content_hash` 一致で書き直さないこと (= `translations:` が消えないこと) |
+| `cal-lib-event-content-update` | 複数日に出る記事の**全ての日**が新本文に揃うこと |
+| `cal-lib-event-304-skip` | 304 の両枝 (既存 → skip / 未作成 → 取り直す)。**本番の定常状態** |
+
+削除ガードは「incoming に無い **かつ** 範囲内 **かつ** `dtstart >= today`」の
+3 条件すべて。`keep-past` と `keep-out-of-range` を分けているのは、1 本にまとめると
+どちらの枝で残ったのか区別できず、片方が壊れても緑のままになるため。
+
 ## bin/cal-translate-en
 
 `events/` 全 YAML を Claude Haiku 4.5 で英訳し、各 YAML 内に
@@ -1135,12 +1212,14 @@ golden シナリオ:
 | `cal-cci-chef-delete` | cci-chef | `seed/cal-cci-chef-delete/` | 取得側に無い**未来**の予定が消えること |
 | `cal-cci-chef-keep-past` | cci-chef | `seed/cal-cci-chef-keep-past/` | 取得側に無くても**過去**の予定は残ること |
 
-集合同期型 (cci-chef) の削除は「**golden にそのファイルが無い**」という形で
-表現される — `run-golden` が生成ファイルの key set を golden と比較するため、
-消えたファイルは key set の差として検出される。また削除判定は「今日」に依存
-するので、`SET_SYNC_TODAY` で基準日を固定して `--today` で渡している (固定
-しないと fixture 内の予定が日々「過去」に流れ、削除の可否が変わって golden が
-壊れる)。
+集合同期型 (cci-chef / lib-closed) の削除は「**golden にそのファイルが無い**」
+という形で表現される — `run-golden` が生成ファイルの key set を golden と
+比較するため、消えたファイルは key set の差として検出される。また削除判定は
+「今日」に依存するので、`TODAY_BY_CRAWLER` で基準日をクローラごとに固定して
+`--today` で渡している (固定しないと fixture 内の予定が日々「過去」に流れ、
+削除の可否が変わって golden が壊れる)。図書館クローラは取得ウィンドウ
+(`cal.php` の `term_from`/`term_to`) も today から作るので、fixture の URL と
+一致する日付を選ぶ必要がある。
 
 - `fetch` / `fetch_with_cache` を monkeypatch して `fixtures/<crawler>/`
   (+ `manifest.json` で url→file) を返す。oshirase は `_llm_available()` を False に固定して

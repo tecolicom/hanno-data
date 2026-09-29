@@ -138,6 +138,37 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: ./calendar/bin/cal-cci-event-fetch --out-dir calendar/events --min-items 1 || echo "hanno-cci-event" >> "$RUNNER_TEMP/crawl-failures.txt"
 
+      # 注: 図書館は cci-event の後ろに置く。新しい配信元が遮断されると同一 IP
+      # からの他クローラまで巻き添えで落ちるため (2026-08-20 実測)、先に既存を通す。
+      - name: Crawl hanno-lib-closed
+        # 図書館の休館日。集合同期型で、取得側に無い日は YAML から削除される。
+        # 削除ガードは _lib.plan_set_sync (取得範囲内かつ今日以降のみ。上限超過なら
+        # exit 3 で何も書かない)。LLM 不使用なので API キーは要らない。
+        #
+        # 件数チェックは館ごと・月ごと (--min-days-per-month)。総数の固定値は使えない
+        # — 休館日は年度単位で登録されており、取れる月数が観測時期で 1〜12 か月に
+        # 変わるため、年度末に近づくと正常時でも下回る。
+        #
+        # 館ごとに独立して失敗する: 1 館が落ちても他館は処理し、最後に
+        # exit 2 (取得・検査の失敗) / exit 3 (削除超過) で知らせる。
+        run: ./calendar/bin/cal-lib-closed-fetch --out-dir calendar/events || echo "hanno-lib-closed" >> "$RUNNER_TEMP/crawl-failures.txt"
+
+      - name: Crawl hanno-lib-event
+        # 図書館のイベント。追記型。cal.php の event_day → events.php → 詳細ページ。
+        # ANTHROPIC_API_KEY が無いと長文記事の description が要約から本文そのままに
+        # 変わる。content_hash には method を含めていないのでハッシュは動かないが、
+        # ローカルと CI で出力が変わるのは避ける。
+        #
+        # --min-items 相当の件数チェックは持たない。event_day が 0 件の期間は普通に
+        # あり (本館 01 は 2026-08 時点で全月 0 件)、0 を異常とすると常時赤になる。
+        # 疎通は _hanno_lib.terms_of() が cal.php の応答形を検査して担保している。
+        #
+        # 館・日・記事の 3 段で失敗を閉じる。1 記事が 404 でも他は処理し、
+        # 取りこぼしがあれば exit 2 で知らせる (静かに減らさない)。
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: ./calendar/bin/cal-lib-event-fetch --out-dir calendar/events || echo "hanno-lib-event" >> "$RUNNER_TEMP/crawl-failures.txt"
+
       - name: Prune removed chef events from Calendar
         # **このステップは次の "Fetch manual Calendar additions" より前でなければ
         # ならない。** 後ろに置くと、YAML を消したのに Calendar に残った孤児を
@@ -146,6 +177,20 @@ jobs:
         env:
           GOOGLE_APPLICATION_CREDENTIALS: /tmp/sa.json
         run: ./calendar/bin/cal-gcal prune --uid-prefix chef -d calendar/events --snapshot-dir calendar/snapshots
+
+      - name: Prune removed library closures from Calendar
+        # chef と同じ理由でこの位置。**"Fetch manual Calendar additions" より前**
+        # でなければならない。後ろに置くと、YAML を消したのに Calendar に残った
+        # 孤児を fetch --update-manual が source: なしの YAML として拾い、以後
+        # 「手動キュレーション = 不可侵」扱いになって二度と削除できなくなる。
+        #
+        # イベント側 (libmain-event / libkids-event) は追記型で YAML を消さないので
+        # prune しない。休館日だけが集合同期型。
+        env:
+          GOOGLE_APPLICATION_CREDENTIALS: /tmp/sa.json
+        run: |
+          ./calendar/bin/cal-gcal prune --uid-prefix libmain-closed -d calendar/events --snapshot-dir calendar/snapshots
+          ./calendar/bin/cal-gcal prune --uid-prefix libkids-closed -d calendar/events --snapshot-dir calendar/snapshots
 
       - name: Fetch manual Calendar additions + sync manual edits
         # 手動 event は Calendar UI が canonical。新規追加と既存編集の両方を YAML に取り込む。
