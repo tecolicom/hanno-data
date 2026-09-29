@@ -1,0 +1,23 @@
+uid: "libkids-event-9956121319202122232627-20260913@hanno.city.tecoli.com"
+summary: "📚 9月のおはなしのじかん（9月5・6・12・13・19・20・21・22・23・26・27日）"
+location: "こども図書館"
+url: "https://www.hanno-lib.jp/calendar/9956121319202122232627.html"
+dtstart: "2026-09-13"
+dtend: "2026-09-13"
+description: |-
+  「おはなしのじかん」は、毎週土曜日、日曜日、祝・休日の午後3時から3時30分に開催します。
+  
+  直接ご来場ください。
+  
+  https://www.hanno-lib.jp/calendar/9956121319202122232627.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-lib-kids-event
+  id: "9956121319202122232627"
+  url: "https://www.hanno-lib.jp/calendar/9956121319202122232627.html"
+  content_hash: "sha256-ddd797d1ea363b2d"
+  summary_method: "full"

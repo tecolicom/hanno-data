@@ -1,0 +1,25 @@
+uid: "libkids-event-9919-20260919@hanno.city.tecoli.com"
+summary: "📚 9月のおはなし会(9月19日)"
+location: "こども図書館"
+url: "https://www.hanno-lib.jp/calendar/9919.html"
+dtstart: "2026-09-19"
+dtend: "2026-09-19"
+description: |-
+  9月のおはなし会を開催します。
+  
+  日時　令和8年9月19日（土）　14:00～14:30
+  
+  会場　こども図書館　2階　多目的ホール
+  
+  https://www.hanno-lib.jp/calendar/9919.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-lib-kids-event
+  id: "9919"
+  url: "https://www.hanno-lib.jp/calendar/9919.html"
+  content_hash: "sha256-ff823171aebaf53f"
+  summary_method: "full"

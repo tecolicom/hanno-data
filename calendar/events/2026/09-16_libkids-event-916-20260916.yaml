@@ -1,0 +1,27 @@
+uid: "libkids-event-916-20260916@hanno.city.tecoli.com"
+summary: "📚 こぐまちゃんタイム（9月16日）"
+location: "こども図書館"
+url: "https://www.hanno-lib.jp/calendar/916.html"
+dtstart: "2026-09-16"
+dtend: "2026-09-16"
+description: |-
+  こぐまちゃんタイムを開催します。
+  
+  日時　令和8年9月16日（水）　11：30～12：００
+  
+  対象　０さい～３さいくらい
+  
+  会場　こども図書館おはなしコーナー
+  
+  https://www.hanno-lib.jp/calendar/916.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-lib-kids-event
+  id: "916"
+  url: "https://www.hanno-lib.jp/calendar/916.html"
+  content_hash: "sha256-b77a23546fd5be84"
+  summary_method: "full"
