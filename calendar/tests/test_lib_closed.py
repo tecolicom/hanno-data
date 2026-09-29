@@ -140,6 +140,100 @@ def test_main_isolates_communication_failure_per_library():
         mod.fetch_cal = orig_fetch_cal
 
 
+def _terms(*months, days=5):
+    return [{"month": m, "closing_day": ["x"] * days} for m in months]
+
+
+def test_check_min_days_accepts_contiguous_months():
+    """実 fixture と同じ並び (202608..202703) が通ること。"""
+    mod.check_min_days(_terms("202608", "202609", "202610", "202611",
+                              "202612", "202701", "202702", "202703"), "02", 3)
+
+
+def test_check_min_days_flags_a_month_missing_in_the_middle(): 
+    """Ruling 21: 月が丸ごと返ってこない形を捕まえる。
+
+    下限検査は**返ってきた term しか回らない**ので、cal.php が中間の 1 か月を
+    term ごと落とすと素通りする。そうなるとその月の休館日は incoming から
+    消え、前後の月には日付があるので既存 YAML は削除範囲の内側に残り、未来なら
+    削除条件を全部満たす。1 か月 = 5〜8 件で max_delete (館ごと 10) に掛からず、
+    cal-gcal prune の既定も 10 なので Calendar 側も同じ日に消える。
+    """
+    terms = _terms("202609", "202610", "202611", "202701", "202702")
+    try:
+        mod.check_min_days(terms, "02", 3)
+    except ValueError as e:
+        assert "202612" in str(e), e
+        return
+    raise AssertionError("月が抜けているのに ValueError が飛ばない")
+
+
+def test_check_min_days_flags_multiple_missing_months():
+    terms = _terms("202609", "202612")
+    try:
+        mod.check_min_days(terms, "02", 3)
+    except ValueError as e:
+        assert "202610" in str(e) and "202611" in str(e), e
+        return
+    raise AssertionError("月が 2 つ抜けているのに ValueError が飛ばない")
+
+
+def test_check_min_days_allows_a_single_month():
+    """1 か月しか返らないのは縮退だが連続性としては正常 (範囲ガードが守る)。"""
+    mod.check_min_days(_terms("202609"), "02", 3)
+
+
+def test_check_min_days_handles_the_year_boundary():
+    """12 月 → 1 月をまたいで連続と判定すること。"""
+    mod.check_min_days(_terms("202611", "202612", "202701"), "02", 3)
+    try:
+        mod.check_min_days(_terms("202611", "202701"), "02", 3)
+    except ValueError as e:
+        assert "202612" in str(e), e
+        return
+    raise AssertionError("年跨ぎの欠落を検出しない")
+
+
+def test_main_exits_3_when_deletions_exceed_max_delete():
+    """Minor 1: 削除しすぎのガード (exit 3) に回帰網が無かった。
+
+    sync_set が「疑わしければ何も書かない」保証は残るが、`sys.exit(3)` を
+    消しても golden もユニットも緑のままだった。大量削除の警報だけが静かに
+    消える形なので網を張る。
+    """
+    import tempfile
+    import shutil
+
+    seed = os.path.join(HERE, "seed", "cal-lib-closed-delete")
+    fixdir = os.path.join(HERE, "fixtures", "cal-lib-closed-fetch")
+    with open(os.path.join(fixdir, "manifest.json"), encoding="utf-8") as f:
+        manifest = json.load(f)
+
+    def fake_fetch_cal(cal_url, lib_code, term_from, term_to):
+        url = (f"{cal_url}?libraries={lib_code}"
+               f"&term_from={term_from}&term_to={term_to}")
+        with open(os.path.join(fixdir, manifest[url]), encoding="utf-8") as f:
+            return json.load(f)
+
+    orig_fetch_cal = mod.fetch_cal
+    orig_argv = sys.argv
+    mod.fetch_cal = fake_fetch_cal
+    try:
+        with tempfile.TemporaryDirectory() as d:
+            shutil.copytree(seed, d, dirs_exist_ok=True)
+            sys.argv = ["cal-lib-closed-fetch", "--out-dir", d,
+                        "--today", "2026-08-24", "--max-delete", "0"]
+            try:
+                mod.main()
+            except SystemExit as e:
+                assert e.code == 3, e.code
+            else:
+                raise AssertionError("削除が max-delete を超えたのに exit しない")
+    finally:
+        sys.argv = orig_argv
+        mod.fetch_cal = orig_fetch_cal
+
+
 if __name__ == "__main__":
     for name, fn in sorted(globals().items()):
         if name.startswith("test_") and callable(fn):

@@ -137,10 +137,16 @@ https://www.hanno-lib.jp/events.php?kind=2&target=general&libraries=<館>&term_f
 
 | `source_type` | → calendar | uid |
 |---|---|---|
-| `hanno-lib-main-closed` | `lib-main` | `libmain-closed-<YYYYMMDD>` |
+| `hanno-lib-main-closed` | `lib-main` | `libmain-closed-<YYYYMMDD>-<NN>` |
 | `hanno-lib-main-event` | `lib-main` | `libmain-event-<ページ名>-<YYYYMMDD>` |
-| `hanno-lib-kids-closed` | `lib-kids` | `libkids-closed-<YYYYMMDD>` |
+| `hanno-lib-kids-closed` | `lib-kids` | `libkids-closed-<YYYYMMDD>-<NN>` |
 | `hanno-lib-kids-event` | `lib-kids` | `libkids-event-<ページ名>-<YYYYMMDD>` |
+
+休館日の末尾 `-<NN>` は集合同期型に共通の連番で、`_lib.set_sync_uid` が
+`{prefix}-{YYYYMMDD}-{NN}` の形で採番する (市民会館・日替わりシェフと同じ規約)。
+1 館 1 日 1 件なので実際には常に `01`。**この記述は 2026-09 に実装へ合わせて
+訂正したもの** — 設計時は `-<NN>` を書き落としていたが、UID は既に 106 件の
+YAML に書かれており**変えられない**ので、直すのは設計書の側である。
 
 種別まで割るのは YAML 2 行の追加で済み、「後から休館日だけ英訳を止める」と
 いった調整が UID を変えずにできる。**UID を変えると全件が作り直しになる**。
@@ -317,7 +323,7 @@ CI では **prune を `fetch --update-manual` より前**に置く。逆にす�
 | `calendar/city.yaml` の `calendars` | `lib-main` / `lib-main.en` / `lib-kids` / `lib-kids.en`。コメントに place_id と所有アカウントを残す |
 | `calendar/city.yaml` の `source_type_to_calendar` | 4 行。**忘れると YAML は増えるがカレンダーに出ない** |
 | `.github/workflows/cal-daily.yml` | Crawl 2 ステップ + closed の prune。event 側に `ANTHROPIC_API_KEY` |
-| `calendar/tests/run-golden` | `_setup_lib_closed` / `_setup_lib_event` + 4 シナリオ (9 節) |
+| `calendar/tests/run-golden` | `_setup_lib` / `_setup_lib_event` + 4 シナリオ (9 節) |
 
 `--min-days` は休館日クローラ固有の名前にする。既存クローラの `--min-items` /
 `--min-tours` / `--min-news` と同じ役割だが、数えているのが「日」なので名前を

@@ -70,6 +70,42 @@ def check_min_days(terms: list[dict], lib_code: str, min_per_month: int) -> None
         raise ValueError(
             f"館 {lib_code}: 休館日が月 {min_per_month} 日未満の月がある: "
             f"{', '.join(thin)}")
+    _check_months_are_contiguous(terms, lib_code)
+
+
+def _check_months_are_contiguous(terms: list[dict], lib_code: str) -> None:
+    """返ってきた月が最初から最後まで飛びなく並んでいることを検査する.
+
+    上の下限検査は**返ってきた term しか回らない**ので、月が丸ごと欠落した形
+    (cal.php が中間の 1 か月を term ごと落とす) は素通りする。そうなると
+    その月の休館日は incoming から消え、前後の月には日付があるので既存 YAML は
+    削除範囲 [min,max] の内側に残り、未来なら削除条件を全部満たす。実測で
+    1 か月 = 5〜8 件、max_delete は館ごと 10 なのでガードに掛からず消え、
+    cal-gcal prune の既定も 10 なので Calendar 側も同じ日に消える。
+
+    Ruling 7 はこの穴の見張りを check_min_days に任せると決めたが、その
+    check_min_days に見えない形がこれだった (Ruling 21)。
+
+    **「その月は休館日 0 件」という配信元の表現は term あり + 空配列**であり
+    (本館 01 の event_day が全月この形)、それは上の下限検査が捕まえる。
+    ここが捕まえるのは「月そのものが返ってこない」形。
+
+    置き場所を _hanno_lib.terms_of にしないのは、terms_of の契約が「形の検査」
+    であるのに対し月の欠落は**形としては正しく中身が不正**であり、しかも
+    問題になるのは休館日だけ (イベントは月に event_day が無いのが正常) のため。
+    """
+    months = sorted(str(t.get("month")) for t in terms)
+    expected = []
+    y, mo = int(months[0][:4]), int(months[0][4:6])
+    last_y, last_mo = int(months[-1][:4]), int(months[-1][4:6])
+    while (y, mo) <= (last_y, last_mo):
+        expected.append(f"{y:04d}{mo:02d}")
+        y, mo = (y + 1, 1) if mo == 12 else (y, mo + 1)
+    missing = [m for m in expected if m not in months]
+    if missing:
+        raise ValueError(
+            f"館 {lib_code}: {months[0]}〜{months[-1]} の間で月が抜けている: "
+            f"{', '.join(missing)} (欠落した月の休館日が誤って削除されうる)")
 
 
 def build_yaml_doc_for(lib: dict, cfg: dict):
