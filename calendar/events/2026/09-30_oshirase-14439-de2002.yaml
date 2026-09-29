@@ -37,3 +37,31 @@ source:
   content_hash: "sha256-de2002ec7359b7f3"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-09-24"
+translations:
+  en:
+    summary: "ℹ️ Emergency support for rising input costs due to Middle East situation (agricultural, forestry, and fisheries businesses)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 Newly posted (Published: September 24, 2026)
+      
+      Saitama Prefecture is running an emergency support program to help agricultural, forestry, and fisheries businesses cope with sudden price spikes and supply shortages of petroleum-derived products due to the Middle East situation. The program will cover part of the increased input costs or the price difference for replacement products.
+      
+      An information session will be held.
+      
+      【Date and time】Wednesday, September 30, 2026 (Reiwa 8), 2:00 PM – 3:00 PM
+      
+      【Format】Web session via Microsoft Teams
+      
+      【Registration】No registration required. Join from the URL below on the day: https://teams.microsoft.com/meet/429011343164186?p=fpvChVdzp38ThLPgCn
+      ID: 429 011 343 164 186 / Passcode: 7ka73Bf7
+      
+      【Session materials】Scheduled to be posted on the Saitama Prefecture Production Promotion Division website by Tuesday, September 29, 2026
+      
+      If web viewing is difficult, you can watch at the same time at the satellite venue in the conference room on the 2nd floor of JAiruma-no Broad-area Farm Operation Center (1805-126 Shimoacasaka, Kawagoe).
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/nogyoshinkoka/tyojutaisaku/14439.html
+    translation_hash: "sha256-41c66e6ab13d523e"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-09-29T21:47:56.636063Z"
+    format_version: 3
