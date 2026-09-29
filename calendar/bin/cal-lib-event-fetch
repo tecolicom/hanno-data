@@ -75,7 +75,17 @@ SUMMARY_SYSTEM_PROMPT = """あなたは飯能市立図書館のイベント記�
 """
 
 _ARTICLE_RE = re.compile(r"<article.*?</article>", re.S)
-_LINK_RE = re.compile(r"""<a\s+href=["']([^"']+)["']\s*>(.*?)</a>""", re.S)
+# <a> の属性の並びに依存しないこと (Ruling 20)。以前は
+# `<a\s+href=["']...["']\s*>` と書いており、**href が唯一の属性で直後が `>`**
+# である場合しか拾えなかった。実データ (fixture 14 ページ) の <a> は 18 件すべて
+# href 単独なので通っていたが、配信元がテーマを更新して class や target を
+# 1 つ足しただけで全記事が取れなくなる。しかも <article> は在るので
+# parse_events_page は ValueError を投げず、静かに 0 件になる。
+# `(?:[^>]*?\s)?` で href の直前が空白であることを要求する。単に
+# `[^>]*?href` と書くと `data-href=` の中の href にマッチしてしまう。
+_LINK_RE = re.compile(
+    r"""<a\s(?:[^>]*?\s)?href\s*=\s*["']([^"']+)["'][^>]*>(.*?)</a>""",
+    re.S | re.I)
 _H1_RE = re.compile(r"<h1[^>]*>(.*?)</h1>", re.S)
 _IMG_RE = re.compile(r"<img[^>]*>", re.I)
 
@@ -84,16 +94,23 @@ def parse_events_page(html: str) -> list[tuple[str, str]]:
     """events.php の <article> から (詳細 URL, タイトル) を返す.
 
     <article> が無ければ ValueError — ページ構造の変化を静かに握り潰さない。
-    <article> はあるがリンクが無いのは正常 (イベント 0 件の日)。
+    <article> はあるがリンクが無いのは正常 (イベント 0 件の日)。ただし
+    「event_day なのに全日でリンク 0 件」は異常で、呼出側が館ごとに見張る
+    (Ruling 20)。ここでは判断しない — 1 日だけ 0 件は普通に起きるため。
+
+    **すべての <article> を見る。** 以前は最初の 1 つだけを見ており
+    (`search` + 非貪欲)、1 ページ 1 article の現データでは無害だったが、
+    1 記事 1 <article> に変わると残りが静かに落ちる。
     """
-    m = _ARTICLE_RE.search(html)
-    if not m:
+    articles = _ARTICLE_RE.findall(html)
+    if not articles:
         raise ValueError("events.php: <article> が無い (ページ構造変化の可能性)")
     out: list[tuple[str, str]] = []
-    for url, raw_title in _LINK_RE.findall(m.group(0)):
-        title = collapse_space(strip_html(raw_title))
-        if url and title:
-            out.append((url, title))
+    for art in articles:
+        for url, raw_title in _LINK_RE.findall(art):
+            title = collapse_space(strip_html(raw_title))
+            if url and title:
+                out.append((url, title))
     return out
 
 
@@ -277,6 +294,7 @@ def main() -> None:
     moved_articles = []   # 同ホストだが url_path_prefix の外 → 失敗
     offsite_links = []    # 別ホスト / netloc 無し → WARN のみ
     empty_days = []       # リンクはあったのに受理 0 件だった日 → 失敗 (backstop)
+    silent_libs = []      # 訪問した日が全滅 = パーサが壊れた疑い → 失敗 (Ruling 20)
 
     for lib in cfg["libraries"]:
         code = lib["code"]
@@ -304,6 +322,8 @@ def main() -> None:
                   f"({total - len(days)} 日切り捨て)", file=sys.stderr)
         print(f"{code} {lib['name']}: {len(days)} event days", file=sys.stderr)
 
+        visited_days = 0   # events.php を実際に読めた日
+        links_seen = 0     # その館で <article> から取れたリンクの総数
         for day in days:
             ymd = day.replace("-", "")
             ev_url = (f"{cfg['events_url']}?kind=2&target=general"
@@ -316,6 +336,8 @@ def main() -> None:
                 failed_days.append(f"{code}/{day}")
                 continue
 
+            visited_days += 1
+            links_seen += len(events)
             accepted = 0   # allowlist を通った記事の数 (下の backstop 用)
             for detail_url, list_title in events:
                 try:
@@ -338,7 +360,7 @@ def main() -> None:
                               file=sys.stderr)
                         offsite_links.append(f"{code}/{day}/{detail_url}")
                         continue
-                    if cfg["url_path_prefix"] not in parsed.path:
+                    if not parsed.path.startswith(cfg["url_path_prefix"]):
                         # 同じホストなのに記事の置き場から外れている =
                         # 配信元が記事を移した。**取りこぼしが明確**なので
                         # 失敗に数える (Ruling 18)。イベントは件数で異常を
@@ -417,6 +439,24 @@ def main() -> None:
                       f"受理 0 件", file=sys.stderr)
                 empty_days.append(f"{code}/{day}")
 
+        # 館ごとの backstop (Ruling 20)。**これが本体の網である。**
+        # 配信元が「この日はイベントがある」と言った日 (cal.php の event_day) を
+        # 訪問して、そのすべてで <article> からリンクが 1 本も取れないのは、
+        # ページ構造が変わってパーサが壊れたということ。1 日だけ 0 件は普通に
+        # 起きるので日単位では判定せず、館単位で見る。
+        #
+        # `empty_days` (Ruling 18) との違い: あちらは「リンクは取れたが 1 件も
+        # 受理できなかった日」で、リンクが**取れなくなった**場合は発火しない。
+        # そこが空いていると、テーマ更新で <a> に属性が 1 つ増えただけで
+        # 新しいイベントが永久に増えなくなり、しかも exit 0 で静かに通る。
+        #
+        # 本館 01 は event_day が 0 件で 1 日も訪問しないため、
+        # visited_days == 0 となりここは発火しない (恒常的な赤にならない)。
+        if visited_days and links_seen == 0:
+            print(f"ERROR: 館 {code}: event_day の {visited_days} 日すべてで "
+                  f"リンクが 0 件 (events.php の構造変化の疑い)", file=sys.stderr)
+            silent_libs.append(code)
+
     if not args.dry_run:
         save_http_cache(http_cache)
     print(f"Done. written={written} skipped={skipped}", file=sys.stderr)
@@ -424,12 +464,14 @@ def main() -> None:
         # exit には影響させないが、黙らせもしない (Ruling 18)。
         print(f"配信元外のリンク (skip): {summarize_list(offsite_links)}",
               file=sys.stderr)
-    if failed_libs or failed_days or failed_articles or moved_articles or empty_days:
+    if (failed_libs or failed_days or failed_articles or moved_articles
+            or empty_days or silent_libs):
         print(f"失敗: 館={summarize_list(failed_libs)} "
               f"日={summarize_list(failed_days)} "
               f"記事={summarize_list(failed_articles)} "
               f"記事の移動={summarize_list(moved_articles)} "
-              f"受理0件の日={summarize_list(empty_days)}", file=sys.stderr)
+              f"受理0件の日={summarize_list(empty_days)} "
+              f"リンク全滅の館={summarize_list(silent_libs)}", file=sys.stderr)
         sys.exit(2)
 
 

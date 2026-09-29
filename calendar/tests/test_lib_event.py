@@ -431,28 +431,40 @@ def test_build_description_falls_back_to_full_when_llm_unavailable():
 
 
 def _run_synthetic(links, detail_html=None, day="2026-08-01",
-                   fetch_with_cache=None):
-    """1 館 1 日ぶんの合成データで main() を走らせ (exit code, 出力, 書かれた
+                   fetch_with_cache=None, events_html=None,
+                   no_event_days=False, extra_empty_day=None):
+    """1 館ぶんの合成データで main() を走らせ (exit code, 出力, 書かれた
     ファイル名) を返す.
 
     links は events.php の <article> に並べる (href, タイトル) のリスト。
     detail_html は詳細ページの中身 (None なら既定の本文)。
     fetch_with_cache を渡すとその関数で差し替える (404 や 304 の再現用)。
+    events_html を渡すと events.php の中身をそのまま使う (パーサを壊す再現用)。
+    no_event_days=True で cal.php が event_day を 1 件も返さない館を作る。
+    extra_empty_day にその日だけリンク 0 件の日を足せる。
     """
     items = "".join(f"<li><a href='{h}'>{t}</a></li>" for h, t in links)
-    events_html = f"<article><div class='txtbox'><ul>{items}</ul></div></article>"
+    if events_html is None:
+        events_html = f"<article><div class='txtbox'><ul>{items}</ul></div></article>"
+    empty_html = "<article><div class='txtbox'><ul></ul></div></article>"
     body = detail_html or (
         "<article><h1>合成イベント</h1><div class='txtbox'><p>"
         + ("あ" * 60) + "</p></div></article>")
 
+    days = [] if no_event_days else [day]
+    if extra_empty_day:
+        days = sorted(days + [extra_empty_day])
+
     def fake_fetch_cal(cal_url, lib_code, term_from, term_to):
-        ed = [day] if lib_code == "02" else []
+        ed = days if lib_code == "02" else []
         return {"libraries": [{"code": lib_code,
                                "term": [{"month": day[:4] + day[5:7],
                                          "event_day": ed}]}]}
 
     def fake_fetch_text(url):
         if "events.php" in url:
+            if extra_empty_day and extra_empty_day.replace("-", "") in url:
+                return empty_html
             return events_html
         return body
 
@@ -601,6 +613,95 @@ def test_every_fixture_is_referenced_except_the_doctored_one():
     assert unreferenced == {"f032b.html"}, unreferenced
     missing = set(manifest.values()) - on_disk
     assert not missing, missing
+
+
+def test_parse_events_page_tolerates_extra_attributes_on_the_anchor():
+    """Ruling 20: <a> の属性の並びに依存しないこと。
+
+    以前の正規表現は **href が唯一の属性で直後が `>`** である場合しか拾えず、
+    配信元がテーマを更新して class や target を 1 つ足すだけで全記事が
+    取れなくなった。実データ (fixture 14 ページ) の <a> は 18 件すべて
+    href 単独なので、いまのテーマだから偶然通っていただけ。
+    """
+    url = "https://www.hanno-lib.jp/calendar/912.html"
+    variants = [
+        f"<a href='{url}'>記事</a>",
+        f"<a class='link' href='{url}'>記事</a>",
+        f"<a href='{url}' target='_blank'>記事</a>",
+        f'<a href="{url}" rel="noopener" class="x">記事</a>',
+        f"<A HREF='{url}'>記事</A>",
+        f"<a\n   href='{url}'\n   class='y'>記事</a>",
+    ]
+    for v in variants:
+        got = mod.parse_events_page(
+            f"<article><div class='txtbox'><ul><li>{v}</li></ul></div></article>")
+        assert got == [(url, "記事")], (v, got)
+
+
+def test_parse_events_page_reads_every_article():
+    """1 ページに <article> が複数あっても全部見ること。
+
+    以前は search + 非貪欲で最初の 1 つしか見ていなかった。現データは
+    1 ページ 1 article なので無害だったが、1 記事 1 <article> に変わると
+    2 件目以降が静かに落ちる。
+    """
+    a = "https://www.hanno-lib.jp/calendar/1.html"
+    b = "https://www.hanno-lib.jp/calendar/2.html"
+    html = (f"<article><a href='{a}'>ひとつ目</a></article>"
+            f"<article><a href='{b}'>ふたつ目</a></article>")
+    assert mod.parse_events_page(html) == [(a, "ひとつ目"), (b, "ふたつ目")], html
+
+
+def test_main_fails_when_every_visited_day_yields_no_links():
+    """Ruling 20 の本体の網: event_day の全日でリンクが 0 件なら館を失敗にする。
+
+    **正規表現の修正では閉じない。** 次のテーマ変更でまた零になるので、
+    「解析できなくなったこと」自体を見張る必要がある。そのためこのテストは
+    **修正後の正規表現でも解析できない形** (href を持たない <a>) を使う。
+    class や target で試すと正規表現の修正を確かめているだけになる。
+
+    ここが無いと、リンクが取れなくなっても ERROR も WARN も出ず exit 0 で
+    通り、新しいイベントが永久に増えなくなる (件数が減ったのに緑)。
+    """
+    broken = ("<article><div class='txtbox'><ul>"
+              "<li><a data-href='https://www.hanno-lib.jp/calendar/912.html'>"
+              "記事</a></li></ul></div></article>")
+    code, out, files = _run_synthetic([_OK_LINK], events_html=broken)
+    assert code == 2, (code, out)
+    assert files == [], files
+
+
+def test_path_prefix_is_matched_from_the_start_not_anywhere():
+    """url_path_prefix は前方一致で見ること (既存の cal-shicho-blog-fetch と同じ)。
+
+    部分一致だと /archive/calendar/x.html のように prefix を途中に含むだけの
+    パスが記事として通ってしまう。同ホストで記事の置き場の外にあるものは
+    「配信元が記事を移した」= 取りこぼしとして扱う (Ruling 18)。
+    """
+    code, out, files = _run_synthetic([
+        _OK_LINK,
+        ("https://www.hanno-lib.jp/archive/calendar/901.html", "置き場の外"),
+    ])
+    assert code == 2, (code, out)
+    assert len(files) == 1, files
+
+
+def test_main_does_not_fail_when_no_day_is_visited():
+    """event_day が 0 件の館では発火しないこと。
+
+    本館 01 は 2026-08 時点で全月 0 件。訪問する日が無いのに
+    「全日でリンク 0 件」と判定すると、正常な状態で恒常的に赤くなる。
+    """
+    code, out, files = _run_synthetic([], no_event_days=True)
+    assert code == 0, (code, out)
+    assert files == [], files
+
+
+def test_main_survives_a_single_empty_day():
+    """1 日だけリンク 0 件なのは普通に起きる。館単位で見るのはそのため。"""
+    code, out, files = _run_synthetic([_OK_LINK], extra_empty_day="2026-08-02")
+    assert code == 0, (code, out)
+    assert len(files) == 1, files
 
 
 if __name__ == "__main__":
