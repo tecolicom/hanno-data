@@ -150,7 +150,7 @@ def test_check_min_days_accepts_contiguous_months():
                               "202612", "202701", "202702", "202703"), "02", 3)
 
 
-def test_check_min_days_flags_a_month_missing_in_the_middle(): 
+def test_check_min_days_flags_a_month_missing_in_the_middle():
     """Ruling 21: 月が丸ごと返ってこない形を捕まえる。
 
     下限検査は**返ってきた term しか回らない**ので、cal.php が中間の 1 か月を
@@ -176,6 +176,34 @@ def test_check_min_days_flags_multiple_missing_months():
         assert "202610" in str(e) and "202611" in str(e), e
         return
     raise AssertionError("月が 2 つ抜けているのに ValueError が飛ばない")
+
+
+def test_check_min_days_distinguishes_a_format_change_from_a_missing_month():
+    """month の書式が変わった形を「月が抜けている」と誤って報告しないこと。
+
+    この検査の存在理由は誤削除を止めることなので、ログを読む人が
+    「配信元が月を落とした」と「配信元が書式を変えた」を取り違えると
+    調査が遠回りになる。
+    """
+    for months in (["2026-10", "2026-11"], [None], ["202610x"]):
+        terms = [{"month": m, "closing_day": ["x"] * 5} for m in months]
+        try:
+            mod.check_min_days(terms, "02", 3)
+        except ValueError as e:
+            assert "YYYYMM の形でない" in str(e), (months, e)
+            assert "月が抜けている" not in str(e), (months, e)
+        else:
+            raise AssertionError(f"{months} が通ってしまう")
+
+
+def test_check_min_days_allows_the_twelve_months_after_a_fiscal_year_rollover():
+    """年度更新後 (12 か月) で連続性検査が誤爆しないこと。
+
+    Ruling 21 が Ruling 22 の状況 (2027-04 に 12 か月ぶんが入る) で赤に
+    なると、年に 1 度の予定停止が原因不明の失敗に化ける。
+    """
+    months = [f"2027{i:02d}" for i in range(4, 13)] + [f"2028{i:02d}" for i in range(1, 4)]
+    mod.check_min_days(_terms(*months), "02", 3)
 
 
 def test_check_min_days_allows_a_single_month():

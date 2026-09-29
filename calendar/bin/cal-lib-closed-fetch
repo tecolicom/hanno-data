@@ -20,6 +20,7 @@ from __future__ import annotations
 
 import argparse
 import os
+import re
 import sys
 from datetime import date as _date
 
@@ -73,6 +74,9 @@ def check_min_days(terms: list[dict], lib_code: str, min_per_month: int) -> None
     _check_months_are_contiguous(terms, lib_code)
 
 
+_YYYYMM_RE = re.compile(r"^\d{6}$")
+
+
 def _check_months_are_contiguous(terms: list[dict], lib_code: str) -> None:
     """返ってきた月が最初から最後まで飛びなく並んでいることを検査する.
 
@@ -95,6 +99,16 @@ def _check_months_are_contiguous(terms: list[dict], lib_code: str) -> None:
     問題になるのは休館日だけ (イベントは月に event_day が無いのが正常) のため。
     """
     months = sorted(str(t.get("month")) for t in terms)
+    # 書式の検査を先に置く (days_of の _YMD_RE と同じ作法)。これが無いと
+    # month が None / キー無し / "2026-10" のとき、生の int() エラーになるか
+    # 「月が抜けている」と読めるメッセージになる。この検査の存在理由は
+    # 誤削除を止めることなので、2027 年にログを読む人が「配信元が月を落とした」と
+    # 「配信元が書式を変えた」を取り違えると調査が遠回りになる。
+    bad = [m for m in months if not _YYYYMM_RE.match(m)]
+    if bad:
+        raise ValueError(
+            f"館 {lib_code}: month が YYYYMM の形でない: {', '.join(bad)} "
+            f"(配信元の書式変化の可能性。月の欠落とは別)")
     expected = []
     y, mo = int(months[0][:4]), int(months[0][4:6])
     last_y, last_mo = int(months[-1][:4]), int(months[-1][4:6])
