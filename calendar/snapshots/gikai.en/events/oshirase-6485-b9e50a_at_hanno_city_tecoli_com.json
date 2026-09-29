@@ -1,0 +1,34 @@
+{
+  "created": "2026-09-29T21:48:14.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🔄 Content updated (Published: September 17, 2026 / Previously posted: September 18, 2026)\nMain change: The vaccination start date at medical facilities in Hanno and Hidaka has been changed to \"from September 24, as each facility becomes ready.\"\n\nFlU vaccination for seniors in fiscal year 2026 (Reiwa 8) starts September 24. At regular vaccination facilities in Hanno and Hidaka cities, vaccination begins September 24 from facilities that are ready; at medical facilities participating in the prefectural cross-acceptance program, vaccination begins October 1.\n\n【Who can get it】People with residential registration in Hanno at the time of vaccination who fall into one of these categories and wish to be vaccinated:\n• Aged 65 and over\n• Aged 60 to under 65 with severe disability (approximately equivalent to Grade 1 disability certificate level) of the heart, kidneys, respiratory system, or immune function due to HIV. The second group must complete procedures at the Health Center beforehand.\n\n【Vaccination period】September 24, 2026 – January 31, 2027 (up to the last clinic day at regular vaccination facilities)\n\n【Cost】1,500 yen (paid at the window). Free for recipients of livelihood protection benefits or support allowances for Chinese returnees to Japan (requires advance application).\n\n【Number of doses】One dose per person\n\n【How to get vaccinated】Call a medical facility to make a reservation, then fill out the pre-vaccination questionnaire with required information.\n\n(Note) Different facilities may start on different dates in September, so confirm in advance. The vaccination start date may change depending on vaccine supply. Vaccination outside the designated period or at facilities other than designated ones will be entirely self-paid, with no refund after vaccination.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/6485.html",
+  "end": {
+    "date": "2026-10-01"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOW02Z3MzYWJiMjc1aWphYzMxODFrNjJyamVkc242NnFia2Y0bjc4cGIzZHRtNmliajNkdG1nIGI2ZjM2ZTE5NzUxYzA1Y2NlOTlmYTAwODI4ZTQyOWY0MGY2ZGIxMDBlMmRiZTQ0MmJjMjYyMmEyNWRhOTczMTZAZw",
+  "iCalUID": "oshirase-6485-b9e50a@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9m6gs3abb275ijac3181k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/6485.html"
+  },
+  "start": {
+    "date": "2026-09-30"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Flu vaccination for seniors (2026)",
+  "updated": "2026-09-29T21:48:14.872Z"
+}
