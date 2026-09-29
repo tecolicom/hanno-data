@@ -1,0 +1,20 @@
+uid: "chef-20261122-01@hanno.city.tecoli.com"
+summary: "Bouguet　Bagle"
+location: "日替わりシェフレストラン"
+url: "https://www.hanno-cci.or.jp/manage/founded/#02"
+dtstart: "2026-11-22"
+dtend: "2026-11-22"
+description: |-
+  焼きたてベーグル、ドリンク
+  
+  https://www.hanno-cci.or.jp/manage/founded/#02
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-chef
+  id: "20261122-01"
+  url: "https://www.hanno-cci.or.jp/manage/founded/#02"
+  content_hash: "sha256-2e7033b37cf3fa64"

@@ -1,0 +1,39 @@
+uid: "oshirase-14439-de2002@hanno.city.tecoli.com"
+summary: "ℹ️ 中東情勢に伴う仕入価格高騰緊急支援事業（農林水産業者）について"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/nogyoshinkoka/tyojutaisaku/14439.html"
+dtstart: "2026-09-30"
+dtend: "2026-09-30"
+description: |-
+  🆕 新着掲載 (公開日: 2026-09-24)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  埼玉県が、中東情勢に伴う石油等由来製品の急激な価格高騰や供給不足に対応する緊急支援事業を実施しており、農林水産業者の仕入れ価格上昇分またはその代替品に対する仕入れ価格差の一部を支援します。
+  
+  説明会が開催されます。
+  
+  【日時】令和8年9月30日（水曜日）午後2時00分～午後3時00分
+  
+  【開催方法】Microsoft TeamsによるWEB開催
+  
+  【申込】申し込み不要。当日以下URLからご参加ください：https://teams.microsoft.com/meet/429011343164186?p=fpvChVdzp38ThLPgCn
+  ID：429 011 343 164 186／パスコード：7ka73Bf7
+  
+  【説明会資料】令和9年9月29日（火曜日）までに埼玉県生産振興課ホームページに掲載予定
+  
+  WEB視聴が困難な場合は、JAいるま野広域営農センター2階会議室（川越市下赤坂1805-126）のサテライト会場で同時刻に視聴できます。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/nogyoshinkoka/tyojutaisaku/14439.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "14439"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/nogyoshinkoka/tyojutaisaku/14439.html"
+  fetched_at: "2026-09-29T21:46:26.585259Z"
+  content_hash: "sha256-de2002ec7359b7f3"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-09-24"

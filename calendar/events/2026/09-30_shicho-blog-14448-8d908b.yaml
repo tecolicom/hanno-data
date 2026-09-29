@@ -1,0 +1,25 @@
+uid: "shicho-blog-14448-8d908b@hanno.city.tecoli.com"
+summary: "📝 市長：第4回飯能モルッククラブオープン大会"
+url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202609/14448.html"
+dtstart: "2026-09-30"
+dtend: "2026-09-30"
+description: |-
+  📝 市長ブログ更新 (公開日: 2026-09-27)
+  
+  9月27日（日曜日）、飯能モルッククラブ主催による、飯能モルッククラブオープン大会が飯能市民体育館ペタンク場にて開催され、お招きいただき開会式に参加いたしました。
+  
+  写真: https://www.city.hanno.lg.jp/material/images/group/79/080927dai4kaihannomolkkyclubopentaikai.jpg
+  
+  市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202609/14448.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-shicho-blog
+  id: "14448"
+  url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202609/14448.html"
+  fetched_at: "2026-09-29T21:46:16.885334Z"
+  content_hash: "sha256-8d908b95c18c36d3"
+  publish_date: "2026-09-27"

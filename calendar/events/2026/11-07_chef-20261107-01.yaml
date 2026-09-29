@@ -1,0 +1,18 @@
+uid: "chef-20261107-01@hanno.city.tecoli.com"
+summary: "飯能まつり（会議所）"
+location: "日替わりシェフレストラン"
+url: "https://www.hanno-cci.or.jp/manage/founded/#02"
+dtstart: "2026-11-07"
+dtend: "2026-11-07"
+description: |-
+  https://www.hanno-cci.or.jp/manage/founded/#02
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-chef
+  id: "20261107-01"
+  url: "https://www.hanno-cci.or.jp/manage/founded/#02"
+  content_hash: "sha256-b7ae9f5f86a8bc29"

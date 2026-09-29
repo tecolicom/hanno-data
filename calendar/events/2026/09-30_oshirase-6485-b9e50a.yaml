@@ -1,0 +1,42 @@
+uid: "oshirase-6485-b9e50a@hanno.city.tecoli.com"
+summary: "ℹ️ 高齢者インフルエンザ予防接種"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/6485.html"
+dtstart: "2026-09-30"
+dtend: "2026-09-30"
+description: |-
+  🔄 内容更新 (公開日: 2026-09-17 / 前回掲載: 2026-09-18)
+  主な変更: 飯能市及び日高市の医療機関での接種開始日が「9月24日から準備が整った医療機関から」に変更されました。
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  令和8年度の高齢者インフルエンザ予防接種を9月24日から実施します。飯能市及び日高市の定期予防接種実施医療機関では9月24日から準備の整った医療機関から開始、県相互乗り入れ事業参加医療機関では10月1日からの開始となります。
+  
+  【対象者】接種日現在、飯能市内に住民登録があり、以下に該当し接種を希望する方
+  ・65歳以上の方
+  ・60歳以上65歳未満で心臓、腎臓、呼吸器、またはヒト免疫不全ウイルスによる免疫機能に極度の障害がある方（身体障害者手帳1級程度）。2番目の対象者は事前に保健センターでの手続きが必要です。
+  
+  【実施期間】令和8年9月24日～令和9年1月31日（定期予防接種実施医療機関の最終診療日まで）
+  
+  【費用】1,500円（窓口払い）。生活保護受給者、中国残留邦人等支援給付受給者は事前申請により無料です。
+  
+  【接種回数】1人につき1回
+  
+  【接種の受け方】医療機関に電話等で予約し、予診票に必要事項を記入してください。
+  
+  （注意）9月中は医療機関によって開始日が異なるため事前に確認してください。ワクチン供給状況により接種開始日は変わる場合があります。実施期間外や指定医療機関以外での接種は全額自己負担となり、接種後の返還はできません。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/6485.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "6485"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/6485.html"
+  fetched_at: "2026-09-29T21:46:42.617972Z"
+  content_hash: "sha256-b9e50a55b38a4c41"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-09-17"
+  supersedes: "oshirase-6485-e1cfc1@hanno.city.tecoli.com"

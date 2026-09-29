@@ -1,0 +1,29 @@
+uid: "shicho-blog-14446-dece7f@hanno.city.tecoli.com"
+summary: "📝 市長：秋の全国交通安全運動出発式"
+url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202609/14446.html"
+dtstart: "2026-09-30"
+dtend: "2026-09-30"
+description: |-
+  📝 市長ブログ更新 (公開日: 2026-09-16)
+  
+  9月16日（水曜日）、「秋の全国交通安全運動」の出発式に参加しました。
+  
+  9月21日から9月30日までを期間として、秋季の交通事故防止の徹底を図る啓発活動に取り組みます。
+  
+  市民の皆様一人ひとりが更なる安全運転を心がけていただくようお願いします。
+  
+  写真: https://www.city.hanno.lg.jp/material/images/group/79/080916akinozenkokukotsuanzenundousyuppatsushiki.jpg
+  
+  市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202609/14446.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-shicho-blog
+  id: "14446"
+  url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202609/14446.html"
+  fetched_at: "2026-09-29T21:46:17.463055Z"
+  content_hash: "sha256-dece7ff7539bf969"
+  publish_date: "2026-09-16"

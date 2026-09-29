@@ -1,0 +1,25 @@
+uid: "shicho-blog-14450-d16aef@hanno.city.tecoli.com"
+summary: "📝 市長：第75回飯能市民スポーツ祭 剣道大会"
+url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202609/14450.html"
+dtstart: "2026-09-30"
+dtend: "2026-09-30"
+description: |-
+  📝 市長ブログ更新 (公開日: 2026-09-27)
+  
+  9月27日（日曜日）、飯能市民体育館メインアリーナにて、飯能市民スポーツ祭 剣道大会が開催され、お招きいただき開会式に参加いたしました。
+  
+  写真: https://www.city.hanno.lg.jp/material/images/group/79/080927dai75kaihannoshiminsportssaikendoutaikai.jpg
+  
+  市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202609/14450.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-shicho-blog
+  id: "14450"
+  url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202609/14450.html"
+  fetched_at: "2026-09-29T21:46:16.188317Z"
+  content_hash: "sha256-d16aef76ea6406a2"
+  publish_date: "2026-09-27"

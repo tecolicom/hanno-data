@@ -1,0 +1,22 @@
+uid: "chef-20261008-01@hanno.city.tecoli.com"
+summary: "猪鹿ブッチャーズ"
+location: "日替わりシェフレストラン"
+url: "https://www.hanno-cci.or.jp/manage/founded/#02"
+dtstart: "2026-10-08"
+dtend: "2026-10-08"
+description: |-
+  ジビエレバニラ定食
+  ジビエひき肉なすみそ炒め定食
+  ジビエガパオプレート
+  
+  https://www.hanno-cci.or.jp/manage/founded/#02
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-chef
+  id: "20261008-01"
+  url: "https://www.hanno-cci.or.jp/manage/founded/#02"
+  content_hash: "sha256-f78e23e87046f4d0"
