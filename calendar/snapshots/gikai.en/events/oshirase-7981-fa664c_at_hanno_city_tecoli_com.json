@@ -1,0 +1,34 @@
+{
+  "created": "2026-09-30T21:49:20.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🔄 Content Update (Published: September 30, 2026 / Previously listed: June 20, 2026)\nMain change: Kinoka's meeting date has been changed from October 26 to October 19.\n\nHanno City runs \"Hidamari Café\" and \"Hidamari no Tsudoi\" (Hidamari Gatherings) as welcoming spaces where people with dementia, their families, and community members can gather. Hidamari Café operates at 10 locations (Howatto, Rock Garden, McDonald's, Kinoka, Hinata, Welcia, SOMPO Care Lavière Hanno, Kusunoki, Shiki no Sato Hanno, and Metsä). Visitors enjoy tea or coffee while spending time together. Hidamari no Tsudoi meets at 2 locations (Kusunoki and Cha-dokoro Tanpopo) and serves as both a gathering space for families caring for people with dementia and a place for the person with dementia to interact with others. Fees vary by location. For details and inquiries, please contact each facility, the Community Comprehensive Support Center, or Hanno City's Long-term Care and Welfare Division.\n\nNote: Kinoka's meeting date has been changed from October 26 to October 19.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/tiikihoukatu/ninchi-sisaku/ninchi-jigyou/7981.html",
+  "end": {
+    "date": "2026-10-02"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOW43NHMzMmJiNmM0cjNjZDMzODFrNjJyamVkc242NnFia2Y0bjc4cGIzZHRtNmliajNkdG1nIGI2ZjM2ZTE5NzUxYzA1Y2NlOTlmYTAwODI4ZTQyOWY0MGY2ZGIxMDBlMmRiZTQ0MmJjMjYyMmEyNWRhOTczMTZAZw",
+  "iCalUID": "oshirase-7981-fa664c@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9n74s32bb6c4r3cd3381k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/tiikihoukatu/ninchi-sisaku/ninchi-jigyou/7981.html"
+  },
+  "start": {
+    "date": "2026-10-01"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Hidamari Café (Dementia Café)",
+  "updated": "2026-09-30T21:49:21.048Z"
+}

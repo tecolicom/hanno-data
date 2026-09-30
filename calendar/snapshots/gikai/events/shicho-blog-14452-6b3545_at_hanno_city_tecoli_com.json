@@ -1,0 +1,34 @@
+{
+  "created": "2026-09-30T21:48:06.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "📝 市長ブログ更新 (公開日: 2026-09-28)\n\n9月28日（月曜日）、令和8年熊本地震義援金支援チャリティーイベントを9月19日（土曜日）に開催された「よさこい飯能乱舞」の皆様がイベントのご報告にお越しくださいました。\n\n被災地の復興を願い、すぐさま行動を起こされた皆様に、飯能市を代表し、深く敬意と感謝を申し上げます。皆様のご支援と温かい思いは、必ずや被災地の皆様の活力につながるものと確信しています。\n\n写真: https://www.city.hanno.lg.jp/material/images/group/79/reiwa8nenkumamotojishingienkinshiencharityeventhoukoku.JPG\n\n市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202609/14452.html",
+  "end": {
+    "date": "2026-10-02"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2VkazZpb3I4ZHNtbTRyM2Zjc21qMmQxazZrcDJxZGoyNmNxajhkYTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIDY3NDU5MTRiMjQzMjMxMTJhMTVmNDNkYzIwYjNhMGY0YTQ4MTdhZmQ4MDBjOGQxNjg3ZDBiZjBiN2Y4OTBjNjFAZw",
+  "iCalUID": "shicho-blog-14452-6b3545@hanno.city.tecoli.com",
+  "id": "_edk6ior8dsmm4r3fcsmj2d1k6kp2qdj26cqj8da0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202609/14452.html"
+  },
+  "start": {
+    "date": "2026-10-01"
+  },
+  "status": "confirmed",
+  "summary": "📝 市長：令和8年熊本地震義援金支援チャリティーイベント報告",
+  "updated": "2026-09-30T21:48:07.109Z"
+}

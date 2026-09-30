@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "🕒 12:40–14:40\n\nAutomated translation (refer to source for accuracy)\n\n【Venue】Grand Hall\n【Organizer】Hanno Choral Association\n\nFor more information, visit the Hanno Citizen's Hall website.",
+  "description": "🕒 12:40–14:40\n\nAutomated translation (refer to source for accuracy)\n\nVenue: Grand Hall, Hanno Citizens' Hall\nHost: Hanno Choral Federation\n\nFor details, visit: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html",
   "end": {
     "date": "2026-11-15"
   },
@@ -30,6 +30,6 @@
     "date": "2026-11-14"
   },
   "status": "confirmed",
-  "summary": "63rd Hanno Citizens Choir Festival",
-  "updated": "2026-09-15T20:47:33.617Z"
+  "summary": "63rd Hanno Citizens' Choral Festival",
+  "updated": "2026-09-30T21:49:23.907Z"
 }

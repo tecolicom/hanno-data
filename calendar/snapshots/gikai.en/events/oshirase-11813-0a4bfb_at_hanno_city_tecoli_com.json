@@ -1,0 +1,34 @@
+{
+  "created": "2026-09-30T21:49:15.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🔄 Content updated (published September 8, 2026 / previously listed July 30, 2026)\nMain change: The temporary consultation office at Seimy District Administrative Center has closed.\n\nAdministrative consultation is a service that accepts inquiries and requests about government agencies — such as \"I don't understand,\" \"the explanation doesn't make sense to me,\" or \"is the processing wrong?\" You can also consult about welfare services, pension systems, and city procedures and programs.\n\n【Regular Consultation (Citizens' General Consultation)】\nSpecialist consultants including lawyers, judicial scriveners, administrative consultation commissioners, and human rights advocates provide advice to help with life concerns and problem-solving.\n\n【Temporary Consultation】\nFrom September 1 to October 31, 2026 (Reiwa 8), temporary administrative consultation offices will open for \"Administrative Consultation Month.\" Consultation is free and strictly confidential.\n• Minami-Takarae District Administrative Center: October 15, 2026 (Thursday) 10:00–12:00, 13:00–15:00\n(The September 7 consultation at Seimy District Administrative Center has ended)\n\n【Other Consultation Services】\nThe Ministry of Internal Affairs and Communications Kanto Regional Administrative Evaluation Bureau also accepts consultations through their administrative consultation hotline (phone 0570-090-110 / fax 048-600-2336).\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/kurashi/11813.html",
+  "end": {
+    "date": "2026-10-02"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2NHMzMmNwZDYxZ2o4b2o2YzkwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-11813-0a4bfb@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h64s32cpd61gj8oj6c906gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/kurashi/11813.html"
+  },
+  "start": {
+    "date": "2026-10-01"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Did you know about administrative consultation services?",
+  "updated": "2026-09-30T21:49:15.606Z"
+}

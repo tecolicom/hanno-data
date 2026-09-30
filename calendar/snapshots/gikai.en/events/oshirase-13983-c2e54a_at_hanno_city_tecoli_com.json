@@ -1,0 +1,34 @@
+{
+  "created": "2026-09-30T21:49:17.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 New Listing (Posted: September 30, 2026)\n\nStarting October 1, 2026 (Reiwa 8), Hanno City will subsidize part of the cost of security products you purchase and install to protect your home.\n\n【Application Period】October 1, 2026 (Thursday) to February 26, 2027 (Friday) — applications close once the budget is exhausted.\n\n【Who Can Apply】Individuals with resident registration in Hanno City who currently live here (excluding organized crime members). For rental housing, the owner's consent is required.\n\n【Subsidy Amount】Up to half the total cost of purchasing and installing security products, with a maximum of ¥10,000 per household. One application per household.\n\n【Eligible Products】Home security cameras (single-family homes only), video doorbells, window bars, motion-sensor lights, sensor alarms, security film, high-security locks, additional locks, security glass, shutters or window shades, security gravel (single-family homes only). You can combine multiple products.\n\n【How to Apply】Submit your application between October 1, 2026 and February 26, 2027 using one of these methods:\n• In person: Human Rights, Living, and Safety Division (1st floor, Hanno City Hall Annex Building), weekdays 9:00 a.m.–4:30 p.m.\n• By mail: Hanno City Human Rights, Living, and Safety Division, 1-1 Soyanagi, Hanno City 357-8501 (postmark date is valid)\n• Online: Hanno City Electronic Application and Notification Service\n\n【Required Documents】Subsidy application form and billing statement, oath document, copy of your ID, receipts for purchase and installation costs, documentation showing the security product's manufacturer, model name, and specifications, photographs of the installed products (specific number per product type), copy of your bank book or cash card in your name, and (for rental housing) written consent from the owner.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/bohan/13983.html",
+  "end": {
+    "date": "2026-10-02"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3NqZ2NwZGNjcDZhZDlrYzUwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-13983-c2e54a@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6csjgcpdccp6ad9kc506gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/bohan/13983.html"
+  },
+  "start": {
+    "date": "2026-10-01"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Home Security Subsidy Program — From October 1, we will help cover costs for buying and installing security products at your home",
+  "updated": "2026-09-30T21:49:18.062Z"
+}

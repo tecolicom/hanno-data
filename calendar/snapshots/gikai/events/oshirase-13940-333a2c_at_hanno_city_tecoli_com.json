@@ -1,0 +1,34 @@
+{
+  "created": "2026-09-30T21:48:02.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🆕 新着掲載 (公開日: 2026-09-30)\n\n本市では、国の物価高騰対応重点支援地方創生臨時交付金を活用し、緊急経済対策に取り組んでいます。\n\nエネルギー・食品価格等の物価高騰が続く中、物価高騰等の影響を受けた生活者や事業者に対し、当該交付金を活用した令和8年度緊急経済対策を実施いたします。\n\n各事業概要については、以下のPDFファイルをご確認ください。\n\n令和8年度飯能市緊急経済対策一覧 (PDFファイル: 70.4KB)\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/13940.html",
+  "end": {
+    "date": "2026-10-02"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3NqOGMxZDZjcGo2bzlpY2QwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSA2NzQ1OTE0YjI0MzIzMTEyYTE1ZjQzZGMyMGIzYTBmNGE0ODE3YWZkODAwYzhkMTY4N2QwYmYwYjdmODkwYzYxQGc",
+  "iCalUID": "oshirase-13940-333a2c@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6csj8c1d6cpj6o9icd06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/13940.html"
+  },
+  "start": {
+    "date": "2026-10-01"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 令和8年度飯能市緊急経済対策について",
+  "updated": "2026-09-30T21:48:02.995Z"
+}

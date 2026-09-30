@@ -1,0 +1,34 @@
+{
+  "created": "2026-09-30T21:49:19.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 New (Published: September 30, 2026)\n\nThe city conducts cultural property fire drills each year with community cooperation to protect heritage buildings and structures from fire and other disasters. This year's drill will take place at Jōrakuin (Takayama Fudō).\n\nDate and Time\n\nSunday, October 25, 2026 (Reiwa 8), starting at 2:00 p.m., lasting approximately one hour\n\nLocation\n\nJōrakuin (346 Takayama)\n\nNotes\n\nFrom 1:50 p.m. on the day of the drill until the drill ends, surrounding roads will be temporarily closed to traffic. We appreciate your understanding and cooperation.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/bunkazaitanto/bunkazai/14146.html",
+  "end": {
+    "date": "2026-10-02"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Z29qOGRoZGM4cmphZDlsNnAwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-14146-b75556@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6goj8dhdc8rjad9l6p06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/bunkazaitanto/bunkazai/14146.html"
+  },
+  "start": {
+    "date": "2026-10-01"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Cultural Property Fire Drill to be held on October 25, 2026 (Reiwa 8)",
+  "updated": "2026-09-30T21:49:19.574Z"
+}

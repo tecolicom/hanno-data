@@ -1,0 +1,34 @@
+{
+  "created": "2026-09-30T21:48:05.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🆕 新着掲載 (公開日: 2026-09-30)\n\nAI による要約 (正確な情報は元記事をご確認ください)\n\nふるさと納税制度の透明性確保に向けた資料を公表します。\n\n総務省告示の改正に伴い、令和8年10月1日以降、制度の適正な運用基準が厳格化されました。飯能市はこれに対応し、以下の資料を公開します。\n\n【募集費用の透明化】\n令和7年度にふるさと納税募集費用として支払った額のうち、1支払先あたり100万円以上の支払先を一覧表（PDF140.0KB）で公表しています。\n\n【返礼品の地場産品基準】\n令和8年10月1日～令和9年9月30日の指定対象期間について、飯能市が提供する返礼品のうち地場産品基準第3号に該当する返礼品について、区域内で生じた価値の割合の証明事項を一覧表（PDF360.0KB）で公表しています。\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/syokorose/furusatonozei/14399.html",
+  "end": {
+    "date": "2026-10-02"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Z3BqaWU5ZDZvczM4b2hwNnQwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSA2NzQ1OTE0YjI0MzIzMTEyYTE1ZjQzZGMyMGIzYTBmNGE0ODE3YWZkODAwYzhkMTY4N2QwYmYwYjdmODkwYzYxQGc",
+  "iCalUID": "oshirase-14399-684b97@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6gpjie9d6os38ohp6t06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/syokorose/furusatonozei/14399.html"
+  },
+  "start": {
+    "date": "2026-10-01"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ ふるさと納税における各種公表資料",
+  "updated": "2026-09-30T21:48:05.689Z"
+}
