@@ -32,3 +32,26 @@ source:
   content_hash: "sha256-684b97f61d8d46fe"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-09-30"
+translations:
+  en:
+    summary: "ℹ️ Hometown Tax (Furusato Nozei) Disclosure Materials"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 Newly posted (Published: September 30, 2026)
+      
+      Hanno City is releasing documents to ensure transparency in the Hometown Tax system.
+      
+      Following revisions to the Ministry of Internal Affairs and Communications ordinance, stricter operational standards for the system came into effect from October 1, 2026 (Reiwa 8). Hanno City is disclosing the following materials in response:
+      
+      【Fundraising Cost Transparency】
+      We are publishing a list (PDF 140.0 KB) of payment recipients to whom Hanno City paid 1 million yen or more in Hometown Tax fundraising costs during fiscal year 2025 (Reiwa 7).
+      
+      【Local Product Standards for Return Gifts】
+      For the designated period from October 1, 2026 (Reiwa 8) to September 30, 2027 (Reiwa 9), we are publishing a list (PDF 360.0 KB) documenting the percentage of value created within the city for return gifts that meet Local Product Standard Category 3.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/syokorose/furusatonozei/14399.html
+    translation_hash: "sha256-e6a9bfb3a6c7ea64"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-09-30T21:48:45.151316Z"
+    format_version: 3

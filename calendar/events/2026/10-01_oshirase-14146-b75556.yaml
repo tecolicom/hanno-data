@@ -34,3 +34,30 @@ source:
   content_hash: "sha256-b75556f9e3ce624a"
   summary_method: "full"
   publish_date: "2026-09-30"
+translations:
+  en:
+    summary: "ℹ️ Cultural Property Fire Drill to be held on October 25, 2026 (Reiwa 8)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New (Published: September 30, 2026)
+      
+      The city conducts cultural property fire drills each year with community cooperation to protect heritage buildings and structures from fire and other disasters. This year's drill will take place at Jōrakuin (Takayama Fudō).
+      
+      Date and Time
+      
+      Sunday, October 25, 2026 (Reiwa 8), starting at 2:00 p.m., lasting approximately one hour
+      
+      Location
+      
+      Jōrakuin (346 Takayama)
+      
+      Notes
+      
+      From 1:50 p.m. on the day of the drill until the drill ends, surrounding roads will be temporarily closed to traffic. We appreciate your understanding and cooperation.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/bunkazaitanto/bunkazai/14146.html
+    translation_hash: "sha256-eca0ac0d0bd92aba"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-09-30T21:48:42.081231Z"
+    format_version: 3

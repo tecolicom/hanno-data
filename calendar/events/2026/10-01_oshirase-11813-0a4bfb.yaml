@@ -37,3 +37,30 @@ source:
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-09-08"
   supersedes: "oshirase-11813-f2c40b@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ Did you know about administrative consultation services?"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content updated (published September 8, 2026 / previously listed July 30, 2026)
+      Main change: The temporary consultation office at Seimy District Administrative Center has closed.
+      
+      Administrative consultation is a service that accepts inquiries and requests about government agencies — such as "I don't understand," "the explanation doesn't make sense to me," or "is the processing wrong?" You can also consult about welfare services, pension systems, and city procedures and programs.
+      
+      【Regular Consultation (Citizens' General Consultation)】
+      Specialist consultants including lawyers, judicial scriveners, administrative consultation commissioners, and human rights advocates provide advice to help with life concerns and problem-solving.
+      
+      【Temporary Consultation】
+      From September 1 to October 31, 2026 (Reiwa 8), temporary administrative consultation offices will open for "Administrative Consultation Month." Consultation is free and strictly confidential.
+      • Minami-Takarae District Administrative Center: October 15, 2026 (Thursday) 10:00–12:00, 13:00–15:00
+      (The September 7 consultation at Seimy District Administrative Center has ended)
+      
+      【Other Consultation Services】
+      The Ministry of Internal Affairs and Communications Kanto Regional Administrative Evaluation Bureau also accepts consultations through their administrative consultation hotline (phone 0570-090-110 / fax 048-600-2336).
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/kurashi/11813.html
+    translation_hash: "sha256-a73474af00019176"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-09-30T21:48:23.972121Z"
+    format_version: 3

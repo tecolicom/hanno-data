@@ -26,3 +26,21 @@ source:
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-09-30"
   supersedes: "oshirase-7981-615606@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ Hidamari Café (Dementia Café)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content Update (Published: September 30, 2026 / Previously listed: June 20, 2026)
+      Main change: Kinoka's meeting date has been changed from October 26 to October 19.
+      
+      Hanno City runs "Hidamari Café" and "Hidamari no Tsudoi" (Hidamari Gatherings) as welcoming spaces where people with dementia, their families, and community members can gather. Hidamari Café operates at 10 locations (Howatto, Rock Garden, McDonald's, Kinoka, Hinata, Welcia, SOMPO Care Lavière Hanno, Kusunoki, Shiki no Sato Hanno, and Metsä). Visitors enjoy tea or coffee while spending time together. Hidamari no Tsudoi meets at 2 locations (Kusunoki and Cha-dokoro Tanpopo) and serves as both a gathering space for families caring for people with dementia and a place for the person with dementia to interact with others. Fees vary by location. For details and inquiries, please contact each facility, the Community Comprehensive Support Center, or Hanno City's Long-term Care and Welfare Division.
+      
+      Note: Kinoka's meeting date has been changed from October 26 to October 19.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/tiikihoukatu/ninchi-sisaku/ninchi-jigyou/7981.html
+    translation_hash: "sha256-0afa977f3bacb137"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-09-30T21:48:48.696596Z"
+    format_version: 3

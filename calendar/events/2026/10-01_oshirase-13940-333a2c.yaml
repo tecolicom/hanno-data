@@ -28,3 +28,24 @@ source:
   content_hash: "sha256-333a2c6853a63911"
   summary_method: "full"
   publish_date: "2026-09-30"
+translations:
+  en:
+    summary: "ℹ️ Hanno City Emergency Economic Measures for 2026 (Reiwa 8)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New (Published: September 30, 2026)
+      
+      Hanno City is implementing emergency economic measures using the national Price Surge Response Priority Support Local Revitalization Temporary Grant.
+      
+      As energy and food prices continue to rise, the city is rolling out fiscal year 2026 emergency economic measures using this grant to support residents and businesses affected by price increases and other economic pressures.
+      
+      For an overview of each program, see the PDF file below:
+      
+      Hanno City Fiscal Year 2026 Emergency Economic Measures List (PDF: 70.4 KB)
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/13940.html
+    translation_hash: "sha256-125d9773ef9e50f8"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-09-30T21:48:30.039583Z"
+    format_version: 3

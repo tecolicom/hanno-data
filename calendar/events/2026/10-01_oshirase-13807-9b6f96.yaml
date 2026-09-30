@@ -32,3 +32,26 @@ source:
   content_hash: "sha256-9b6f96ce63353535"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-09-30"
+translations:
+  en:
+    summary: "ℹ️ One month of water service basic charge waived"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New posting (Published: September 30, 2026)
+      
+      As a measure to counter rising prices, Hanno City will waive one month of the water service basic charge using national emergency local revitalization grants for price stabilization support.
+      
+      The exemption applies to meter readings taken between October 1 and November 30, 2026 (Reiwa 8). Because the city divides districts by odd and even months for meter readings, the exemption period differs:
+      • Even-month reading districts: October 2026 reading (September–October billing period)
+      • Odd-month reading districts: November 2026 reading (October–November billing period)
+      
+      The exemption covers all households and businesses (excluding government agencies) with water service contracts in Hanno City. The exemption amount varies by pipe diameter: 13mm ¥600, 20mm ¥1,000, 25mm ¥1,800, 30mm ¥2,500, 40mm ¥5,200, 50mm ¥8,300, 75mm ¥19,200, 100mm ¥31,700, 150mm ¥69,000 (all prices exclude tax).
+      
+      No special procedures are needed—the exemption applies automatically to all eligible customers. Your meter reading notice will show the amount before exemption, but your actual bill will reflect the exempted amount. Note: the exemption covers only the basic charge; usage-based charges and sewerage fees are not waived. If you started or stopped service during the exemption period, you may not be eligible.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/suidogyomuka/soumuryoukin/oshirase/13807.html
+    translation_hash: "sha256-5cf25006e2b19dbb"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-09-30T21:48:27.845312Z"
+    format_version: 3

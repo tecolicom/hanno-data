@@ -49,3 +49,43 @@ source:
   content_hash: "sha256-f4def7af99ee6ecb"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-09-30"
+translations:
+  en:
+    summary: "ℹ️ Gender Equality Online Lecture: 'Being a Father in This Era'"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 Newly listed (posted: September 30, 2026)
+      
+      An online lecture on gender equality will be held featuring author Genro Shiraiwa discussing fatherhood and modern challenges for men.
+      
+      Author Genro Shiraiwa will share his experience as a father and episodes from his published works, reflecting on thoughts from child-rearing and issues surrounding modern men. This lecture offers an opportunity to think about the role of fathers in the home and society.
+      
+      【Date and time】 December 6, 2026 (Reiwa 8, Sunday) 10:30 a.m.–12:00 p.m. (noon)
+      
+      【Format】 Zoom online lecture
+      
+      【How to watch】
+      Online viewing from home (capacity 280 people, first-come first-served)
+      Screening venues in the region (first-come first-served)
+        • Hanno City Library (19-5 Yamate-cho, capacity 50, opens 10:00 a.m.)
+        • Shinjishoze Community Development Center (1-8-3 Midori-cho, Tokorozawa, capacity 50)
+        • Shin-Sayama Community Center (2-17-1 Shin-Sayama, Sayama, capacity 30)
+        • Iruma City Health and Welfare Center (730-1 Kami-Fujisawa, Iruma, capacity 50)
+        • Hidaka City Lifelong Learning Center (370-20 Shikayama, Hidaka, capacity 40)
+      
+      【Speaker】 Genro Shiraiwa (author)
+      
+      【Who can attend】 Residents, employees, or students of Tokorozawa, Hanno, Sayama, Iruma, or Hidaka
+      
+      【Participation fee】 Free
+      
+      【Registration period】 October 19, 2026 (Reiwa 8, Monday) 9:00 a.m.–November 30 (Monday) 4:30 p.m.
+      
+      【How to apply】 Online application or phone: Human Rights, Lifestyle & Safety Division 042-973-2111 (extension 6202), Monday–Friday 9:00 a.m.–4:30 p.m. (excluding holidays)
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/kurashi/10236.html
+    translation_hash: "sha256-9048ecd8059437e6"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-09-30T21:48:20.099151Z"
+    format_version: 3
