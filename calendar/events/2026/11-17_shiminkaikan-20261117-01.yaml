@@ -1,22 +1,23 @@
-uid: "shiminkaikan-20261126-01@hanno.city.tecoli.com"
-summary: "ホールでグランドピアノを弾いてみませんか"
+uid: "shiminkaikan-20261117-01@hanno.city.tecoli.com"
+summary: "令和8年度入間地区PTA連絡協議会役員等研修会"
 location: "飯能市民会館 小ホール"
 url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html"
-dtstart: "2026-11-26"
-dtend: "2026-11-26"
+dtstart: "2026-11-17T13:00:00+09:00"
+dtend: "2026-11-17T15:00:00+09:00"
 description: |-
   飯能市民会館: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html
   
   【会場】小ホール
-  【主催】市民会館
+  【主催】入間地区PTA連絡協議会
 
 render:
   gcal:
     mode: single-allday
+    time_marker: "13:00–15:00"
 
 source:
   type: city-hanno-shiminkaikan
-  id: "20261126-01"
+  id: "20261117-01"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html"
-  fetched_at: "2026-09-30T21:46:21.385400Z"
+  fetched_at: "2026-09-30T21:46:21.385014Z"
   content_hash: "sha256-2fd0e65b985d2b97"

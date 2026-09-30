@@ -1,0 +1,56 @@
+uid: "oshirase-14122-0d324b@hanno.city.tecoli.com"
+summary: "ℹ️ 働き方応援セミナー＆個別就職相談のご案内（埼玉しごとサポート）"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/14122.html"
+dtstart: "2026-10-01"
+dtend: "2026-10-01"
+description: |-
+  🆕 新着掲載 (公開日: 2026-09-30)
+  
+  自分を知るためのワークを通して、キャリアについて考えてみませんか？
+  
+  テーマ：自己分析とキャリアプラン～自分を知って、自分らしい働き方を考えよう～
+  
+  内容：今の自分らしさを整理してみよう。ワークを通して自分の強みに気づき、今後のキャリアの進め方を提案します。
+  
+  日時：令和8年12月22日（火曜日）
+  
+  【 受付 】
+  
+  12時30分から13時まで
+  
+  【 セミナー 】
+  
+  13時から14時30分まで
+  
+  【個別就職相談会】
+  
+  14時45分から15時15分まで
+  
+  15時15分から15時45分まで
+  
+  （注意）各回定員3名
+  
+  会場：飯能市市民活動センター 多目的ホール
+  
+  定員：50人（申込順）
+  
+  申込方法：埼玉しごとサポートへ電話
+  
+  問合せ先： 049-265-5844（埼玉しごとサポート）
+  
+  働き方応援セミナー＆個別就職相談会チラシ (PDFファイル: 1.1MB)
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/14122.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "14122"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/14122.html"
+  fetched_at: "2026-09-30T21:47:03.522305Z"
+  content_hash: "sha256-0d324b99062cec55"
+  summary_method: "full"
+  publish_date: "2026-09-30"

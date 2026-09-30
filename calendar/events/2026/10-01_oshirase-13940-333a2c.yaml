@@ -1,0 +1,30 @@
+uid: "oshirase-13940-333a2c@hanno.city.tecoli.com"
+summary: "ℹ️ 令和8年度飯能市緊急経済対策について"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/13940.html"
+dtstart: "2026-10-01"
+dtend: "2026-10-01"
+description: |-
+  🆕 新着掲載 (公開日: 2026-09-30)
+  
+  本市では、国の物価高騰対応重点支援地方創生臨時交付金を活用し、緊急経済対策に取り組んでいます。
+  
+  エネルギー・食品価格等の物価高騰が続く中、物価高騰等の影響を受けた生活者や事業者に対し、当該交付金を活用した令和8年度緊急経済対策を実施いたします。
+  
+  各事業概要については、以下のPDFファイルをご確認ください。
+  
+  令和8年度飯能市緊急経済対策一覧 (PDFファイル: 70.4KB)
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/13940.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13940"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/13940.html"
+  fetched_at: "2026-09-30T21:47:04.409140Z"
+  content_hash: "sha256-333a2c6853a63911"
+  summary_method: "full"
+  publish_date: "2026-09-30"

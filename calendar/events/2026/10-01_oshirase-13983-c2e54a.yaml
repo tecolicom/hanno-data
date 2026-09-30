@@ -1,0 +1,41 @@
+uid: "oshirase-13983-c2e54a@hanno.city.tecoli.com"
+summary: "ℹ️ 「住まいの防犯対策費補助金」10月1日から防犯用品の購入および設置にかかる費用を補助します"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/bohan/13983.html"
+dtstart: "2026-10-01"
+dtend: "2026-10-01"
+description: |-
+  🆕 新着掲載 (公開日: 2026-09-30)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  令和8年10月1日から、自宅の防犯対策として購入・設置した防犯用品の費用の一部を補助します。
+  
+  【対象期間】令和8年10月1日（木）から令和9年2月26日（金）まで（予算に達し次第受付終了）
+  
+  【対象者】飯能市内に住民登録し現に居住している個人（暴力団員を除く）。賃貸住宅は所有者等の同意が必要です。
+  
+  【補助額】防犯用品の購入費と設置工事費の合計の2分の1（上限10,000円）。1世帯1回限り。
+  
+  【対象用品】家庭用防犯カメラ（共同住宅を除く）、録画機能付きインターホン、面格子、人感センサーライト、センサーアラーム、防犯フィルム、防犯性能の高い錠、補助錠、防犯ガラス、雨戸・窓シャッター、防犯砂利（共同住宅を除く）。複数の組み合わせが可能です。
+  
+  【申請方法】令和8年10月1日から令和9年2月26日までに、以下のいずれかで申請。
+  ・飯能市役所本庁舎別館1階人権くらし安全課（平日9時～16時30分）
+  ・郵送先：〒357-8501飯能市双柳1-1飯能市役所人権くらし安全課（消印有効）
+  ・電子申請（飯能市電子申請・届出サービス）
+  
+  【必要書類】補助金交付申請書兼請求書、誓約書、申請者の身分証写し、購入費・設置費の領収書、防犯用品のメーカー・製品名・仕様が確認できるもの、設置状況の写真（用品ごとに指定枚数）、申請者名義の通帳またはキャッシュカードのコピー、賃貸住宅の場合は同意書。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/bohan/13983.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13983"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/bohan/13983.html"
+  fetched_at: "2026-09-30T21:46:58.880285Z"
+  content_hash: "sha256-c2e54a5182fafb2c"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-09-30"

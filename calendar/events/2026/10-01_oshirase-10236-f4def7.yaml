@@ -1,0 +1,51 @@
+uid: "oshirase-10236-f4def7@hanno.city.tecoli.com"
+summary: "ℹ️ 男女共同参画オンライン講演会『今、この時代に父親としていきること』"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/kurashi/10236.html"
+dtstart: "2026-10-01"
+dtend: "2026-10-01"
+description: |-
+  🆕 新着掲載 (公開日: 2026-09-30)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  男女共同参画オンライン講演会『今、この時代に父親としていきること』を開催します。
+  
+  作家・白岩玄氏が、父親としての経験や著書のエピソードを交えながら、子育てで感じた思いや現代の男性を取り巻く課題について語ります。父親の視点から、家庭や社会における役割を考えるきっかけとなる講演です。
+  
+  【日時】令和8年12月6日（日曜日）10時30分～正午
+  
+  【開催形式】zoomミーティングによるオンライン講演
+  
+  【視聴方法】
+  ・自宅などでのオンライン視聴（定員280人、先着順）
+  ・市内各所視聴会場での視聴（先着順）
+  　飯能市立図書館（山手町19-5、定員50人、午前10時開場）
+  　新所沢まちづくりセンター（所沢市緑町1-8-3、定員50人）
+  　新狭山公民館（狭山市新狭山2-17-1、定員30人）
+  　入間市健康福祉センター（入間市上藤沢730-1、定員50人）
+  　日高市立生涯学習センター（日高市大字鹿山370-20、定員40人）
+  
+  【講師】白岩玄氏（作家）
+  
+  【対象】所沢市・飯能市・狭山市・入間市・日高市に在住・在勤・在学の方
+  
+  【参加費】無料
+  
+  【申込期間】令和8年10月19日（月曜日）9時00分～11月30日（月曜日）16時30分
+  
+  【申込方法】電子申請または電話（人権くらし安全課 042-973-2111（内線6202）月～金9時00分～16時30分、祝日を除く）
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/kurashi/10236.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "10236"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/kurashi/10236.html"
+  fetched_at: "2026-09-30T21:46:47.764084Z"
+  content_hash: "sha256-f4def7af99ee6ecb"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-09-30"

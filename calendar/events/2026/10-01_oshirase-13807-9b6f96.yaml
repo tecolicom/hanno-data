@@ -1,0 +1,34 @@
+uid: "oshirase-13807-9b6f96@hanno.city.tecoli.com"
+summary: "ℹ️ 1ヶ月分の水道基本料金を免除します"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/suidogyomuka/soumuryoukin/oshirase/13807.html"
+dtstart: "2026-10-01"
+dtend: "2026-10-01"
+description: |-
+  🆕 新着掲載 (公開日: 2026-09-30)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  物価高騰対策として、国の物価高騰対応重点支援地方創生臨時交付金を活用し、水道基本料金1ヶ月分を免除します。
+  
+  対象期間は令和8年10月1日から11月30日の間に実施した検針分です。市内を奇数月と偶数月に地区分けして検針しているため、免除となる期間が異なります。
+  ・偶数月検針地区の方：令和8年10月検針分（9～10月分）
+  ・奇数月検針地区の方：令和8年11月検針分（10～11月分）
+  
+  免除対象は本市と給水契約を結んでいる世帯及び事業者（官公庁は除く）です。口径により免除額が異なります（13ミリメートル：600円、20ミリメートル：1,000円、25ミリメートル：1,800円、30ミリメートル：2,500円、40ミリメートル：5,200円、50ミリメートル：8,300円、75ミリメートル：19,200円、100ミリメートル：31,700円、150ミリメートル：69,000円、全て税抜）。
+  
+  特別な手続きは不要で、対象者全員に自動的に免除が適用されます。検針票の請求予定額は免除前の金額ですが、実際の請求は免除後の金額となります。なお、使用水量に応じた料金免除及び下水道使用料の免除はありません。対象期間内に使用開始・中止した場合は免除対象外となる場合があります。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/suidogyomuka/soumuryoukin/oshirase/13807.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13807"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/jogesuidobu/suidogyomuka/soumuryoukin/oshirase/13807.html"
+  fetched_at: "2026-09-30T21:46:42.480713Z"
+  content_hash: "sha256-9b6f96ce63353535"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-09-30"

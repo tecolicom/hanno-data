@@ -1,0 +1,28 @@
+uid: "oshirase-7981-fa664c@hanno.city.tecoli.com"
+summary: "ℹ️ ひだまりカフェ(認知症カフェ)"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/tiikihoukatu/ninchi-sisaku/ninchi-jigyou/7981.html"
+dtstart: "2026-10-01"
+dtend: "2026-10-01"
+description: |-
+  🔄 内容更新 (公開日: 2026-09-30 / 前回掲載: 2026-06-20)
+  主な変更: きのかの開催日程が10月26日から10月19日に変更されました。
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  飯能市内で認知症の人やその家族、地域住民が気軽に集える場として「ひだまりカフェ」と「ひだまりのつどい」を展開しています。ひだまりカフェは10か所（ほわっと、ロックガーデン、マクドナルド、きのか、ひなた、ウエルシア、SOMPOケア ラヴィーレ飯能、くすのき、四季の郷 飯能、メッツァ）で、お茶やコーヒーを飲みながら楽しい時間を過ごします。ひだまりのつどいは2か所（くすのき、茶処 たんぽぽ）で、認知症の方を介護する家族のためのつどいと本人の交流の場として活動しています。会場によって料金が異なります。詳細および問合せについては、各施設のパンフレットまたは地域包括支援センター、飯能市介護福祉課までお問い合わせください。なお、きのかの開催日程が10月26日から10月19日に変更となりました。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/tiikihoukatu/ninchi-sisaku/ninchi-jigyou/7981.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "7981"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/tiikihoukatu/ninchi-sisaku/ninchi-jigyou/7981.html"
+  fetched_at: "2026-09-30T21:46:51.813633Z"
+  content_hash: "sha256-fa664cd81bb8d83d"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-09-30"
+  supersedes: "oshirase-7981-615606@hanno.city.tecoli.com"

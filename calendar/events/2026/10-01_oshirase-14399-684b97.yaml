@@ -1,0 +1,34 @@
+uid: "oshirase-14399-684b97@hanno.city.tecoli.com"
+summary: "ℹ️ ふるさと納税における各種公表資料"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/syokorose/furusatonozei/14399.html"
+dtstart: "2026-10-01"
+dtend: "2026-10-01"
+description: |-
+  🆕 新着掲載 (公開日: 2026-09-30)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  ふるさと納税制度の透明性確保に向けた資料を公表します。
+  
+  総務省告示の改正に伴い、令和8年10月1日以降、制度の適正な運用基準が厳格化されました。飯能市はこれに対応し、以下の資料を公開します。
+  
+  【募集費用の透明化】
+  令和7年度にふるさと納税募集費用として支払った額のうち、1支払先あたり100万円以上の支払先を一覧表（PDF140.0KB）で公表しています。
+  
+  【返礼品の地場産品基準】
+  令和8年10月1日～令和9年9月30日の指定対象期間について、飯能市が提供する返礼品のうち地場産品基準第3号に該当する返礼品について、区域内で生じた価値の割合の証明事項を一覧表（PDF360.0KB）で公表しています。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/syokorose/furusatonozei/14399.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "14399"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/syokorose/furusatonozei/14399.html"
+  fetched_at: "2026-09-30T21:47:01.884334Z"
+  content_hash: "sha256-684b97f61d8d46fe"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-09-30"
