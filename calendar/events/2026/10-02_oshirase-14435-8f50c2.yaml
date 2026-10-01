@@ -1,0 +1,40 @@
+uid: "oshirase-14435-8f50c2@hanno.city.tecoli.com"
+summary: "ℹ️ 事業系一般廃棄物処理手数料等の改定について【令和9年4月1日から】"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/cleancenter/14435.html"
+dtstart: "2026-10-02"
+dtend: "2026-10-02"
+description: |-
+  🆕 新着掲載 (公開日: 2026-10-01)
+  
+  ## 事業系一般廃棄物処理手数料等の改定について
+  
+  事業系一般廃棄物処理手数料及び産業廃棄物処理料金(併せ産廃に限る)につきましては、長年据え置いておりましたが、更なるごみの減量化・資源化を推進するとともに、処理経費に対する受益者負担の適正化を図るため、次のとおり改定します。
+  
+  事業系一般廃棄物を排出している事業者様におかれましては、今後もごみの減量化・資源化及び適正なごみの分別にご協力いただきますようお願いいたします。
+  
+  改定時期
+  
+  令和9年4月1日
+  
+  ## 改定内容
+  
+  現行：200円/10キログラム ⇒ 改定後：300円/10キログラム
+  
+  【消費税込の金額となります。】
+  
+  事業系一般廃棄物処理手数料等の改定について【令和9年4月1日から】
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/cleancenter/14435.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "14435"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/cleancenter/14435.html"
+  fetched_at: "2026-10-01T22:14:35.789151Z"
+  content_hash: "sha256-8f50c228503e1329"
+  summary_method: "full"
+  publish_date: "2026-10-01"

@@ -1,0 +1,37 @@
+uid: "oshirase-14146-bb791a@hanno.city.tecoli.com"
+summary: "ℹ️ 令和8年度文化財防火訓練を10月25日に実施します"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/bunkazaitanto/bunkazai/14146.html"
+dtstart: "2026-10-02"
+dtend: "2026-10-02"
+description: |-
+  🔄 内容更新 (公開日: 2026-10-01 / 前回掲載: 2026-10-01)
+  
+  市では、文化財の建造物等を火災等の災害から守るため、地域の皆さんのご協力のもと、文化財防火訓練を毎年実施しています。今年度は常楽院（高山不動）で実施します。
+  
+  ## 日時
+  
+  令和8年10月25日（日曜日） 14時から1時間程度
+  
+  ## 場所
+  
+  常楽院（高山346）
+  
+  ## その他
+  
+  訓練当日は13時50分から訓練終了まで周辺道路が一時通行止めとなります。恐れ入りますがご理解ご協力をいただきますようお願い申し上げます。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/bunkazaitanto/bunkazai/14146.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "14146"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/bunkazaitanto/bunkazai/14146.html"
+  fetched_at: "2026-10-01T22:14:35.290356Z"
+  content_hash: "sha256-bb791a1dd05141b6"
+  summary_method: "full"
+  publish_date: "2026-10-01"
+  supersedes: "oshirase-14146-b75556@hanno.city.tecoli.com"

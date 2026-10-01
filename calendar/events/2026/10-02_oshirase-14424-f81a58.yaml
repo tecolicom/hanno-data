@@ -1,0 +1,36 @@
+uid: "oshirase-14424-f81a58@hanno.city.tecoli.com"
+summary: "ℹ️ 飯能市内私立幼稚園園児募集"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/hoikuka/ninteikyufu/14424.html"
+dtstart: "2026-10-02"
+dtend: "2026-10-02"
+description: |-
+  🆕 新着掲載 (公開日: 2026-10-01)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  令和9年度入園園児募集。願書・申込書の配布は令和8年10月15日（木曜日）から各園で開始。入園願書の受付は各園ごとに11月1日（日曜日）または11月2日（月曜日）から開始。受付場所・時間等の詳細は各園に確認してください。
+  
+  飯能市内の私立幼稚園・認定こども園は以下の通り。
+  ・飯能幼稚園（飯能市山手町9-14、042-973-1332）
+  ・わかば幼稚園（飯能市小久保146、042-972-2781）
+  ・大東幼稚園（飯能市永田530、042-975-1550）
+  ・認定こども園さゆり幼稚園（飯能市緑町2-5、042-973-3456）
+  ・幼保連携型認定こども園白鳥幼稚園（飯能市岩沢1129、042-974-2341）
+  ・加治幼稚園（飯能市川寺462-2、042-973-5444）
+  
+  満3歳で入園した月～就学前まで幼稚園部分の保育料は無償化。教育時間前後の預かり保育も別途申請で一定額まで無償化。認定こども園の保育所部分利用希望の場合は保育所等利用申込が必要で、入所可否は市の利用調整で決定します。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/hoikuka/ninteikyufu/14424.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "14424"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/hoikuka/ninteikyufu/14424.html"
+  fetched_at: "2026-10-01T22:14:33.794910Z"
+  content_hash: "sha256-f81a589d9c786394"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-10-01"
