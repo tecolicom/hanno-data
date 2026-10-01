@@ -1,0 +1,34 @@
+{
+  "created": "2026-10-01T22:15:53.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 New entry (Published: October 1, 2026)\n\nEnrollment for fiscal year 2027 (Reiwa 9). Application forms and enrollment documents will be distributed at each kindergarten starting October 15, 2026 (Thursday). Applications will be accepted at each kindergarten starting either November 1 (Sunday) or November 2 (Monday). For details on reception location and hours, contact each kindergarten directly.\n\nPrivate kindergartens and certified child care centers in Hanno City:\n• Hanno Kindergarten (9-14 Yamatecho, Hanno, 042-973-1332)\n• Wakaba Kindergarten (146 Okokubo, Hanno, 042-972-2781)\n• Daito Kindergarten (530 Nagata, Hanno, 042-975-1550)\n• Certified Child Care Center Sayuri Kindergarten (2-5 Midoricho, Hanno, 042-973-3456)\n• Combined Kindergarten and Care Certified Center Hakuchō Kindergarten (1129 Iwasawa, Hanno, 042-974-2341)\n• Kaji Kindergarten (462-2 Kawadera, Hanno, 042-973-5444)\n\nTuition for the kindergarten program is free from the month a child enters at age 3 until starting school. After-school care (before and after regular hours) is also free up to a certain amount with separate application. If you wish to use the daycare program portion at a certified center, you must apply separately for daycare use, and acceptance is determined by the city's allocation system.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/hoikuka/ninteikyufu/14424.html",
+  "end": {
+    "date": "2026-10-03"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Z3EzNGQxZGNvczMybzlsNzEwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-14424-f81a58@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6gq34d1dcos32o9l7106gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/hoikuka/ninteikyufu/14424.html"
+  },
+  "start": {
+    "date": "2026-10-02"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Private kindergartens in Hanno City recruiting new students",
+  "updated": "2026-10-01T22:15:54.154Z"
+}

@@ -1,0 +1,34 @@
+{
+  "created": "2026-10-01T22:15:52.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nThe city conducts cultural heritage fire drills every year with the help of local residents to protect historic buildings and structures from fire and other disasters. This year's drill will be held at Jōrakuin Temple (Takayama Fudō).\n\n【Date and Time】\nSunday, October 25, 2026 (Reiwa 8), starting at 2:00 PM for approximately 1 hour\n\n【Location】\nJōrakuin Temple (Takayama 346)\n\n【Other Information】\nOn the day of the drill, surrounding roads will be temporarily closed from 1:50 PM until the end of the drill. Thank you for your understanding and cooperation.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/bunkazaitanto/bunkazai/14146.html",
+  "end": {
+    "date": "2026-10-03"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Z29qOGRoZGM5aDNlZTloYzUwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-14146-bb791a@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6goj8dhdc9h3ee9hc506gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/bunkazaitanto/bunkazai/14146.html"
+  },
+  "start": {
+    "date": "2026-10-02"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Cultural Heritage Fire Drill scheduled for October 25, 2026 (Reiwa 8)",
+  "updated": "2026-10-01T22:15:53.121Z"
+}
