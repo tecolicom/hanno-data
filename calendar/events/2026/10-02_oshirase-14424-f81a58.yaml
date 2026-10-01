@@ -34,3 +34,28 @@ source:
   content_hash: "sha256-f81a589d9c786394"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-10-01"
+translations:
+  en:
+    summary: "ℹ️ Private kindergartens in Hanno City recruiting new students"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New entry (Published: October 1, 2026)
+      
+      Enrollment for fiscal year 2027 (Reiwa 9). Application forms and enrollment documents will be distributed at each kindergarten starting October 15, 2026 (Thursday). Applications will be accepted at each kindergarten starting either November 1 (Sunday) or November 2 (Monday). For details on reception location and hours, contact each kindergarten directly.
+      
+      Private kindergartens and certified child care centers in Hanno City:
+      • Hanno Kindergarten (9-14 Yamatecho, Hanno, 042-973-1332)
+      • Wakaba Kindergarten (146 Okokubo, Hanno, 042-972-2781)
+      • Daito Kindergarten (530 Nagata, Hanno, 042-975-1550)
+      • Certified Child Care Center Sayuri Kindergarten (2-5 Midoricho, Hanno, 042-973-3456)
+      • Combined Kindergarten and Care Certified Center Hakuchō Kindergarten (1129 Iwasawa, Hanno, 042-974-2341)
+      • Kaji Kindergarten (462-2 Kawadera, Hanno, 042-973-5444)
+      
+      Tuition for the kindergarten program is free from the month a child enters at age 3 until starting school. After-school care (before and after regular hours) is also free up to a certain amount with separate application. If you wish to use the daycare program portion at a certified center, you must apply separately for daycare use, and acceptance is determined by the city's allocation system.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kodomoshienbu/hoikuka/ninteikyufu/14424.html
+    translation_hash: "sha256-f4635346ee708b90"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-01T22:15:40.386939Z"
+    format_version: 3

@@ -38,3 +38,32 @@ source:
   content_hash: "sha256-8f50c228503e1329"
   summary_method: "full"
   publish_date: "2026-10-01"
+translations:
+  en:
+    summary: "ℹ️ Business waste processing fees to increase from April 1, 2027 (Reiwa 9)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New (posted: October 1, 2026)
+      
+      Business Waste Processing Fees – Price Increase
+      
+      Business general waste processing fees and industrial waste processing charges (industrial waste only) have been held at the same level for many years. To further promote waste reduction and resource recycling, and to fairly adjust how costs are shared with those who benefit from disposal services, we are changing the fees as follows.
+      
+      Businesses that generate business waste are asked to continue cooperating in waste reduction, resource recycling, and proper waste sorting.
+      
+      Effective Date
+      
+      April 1, 2027 (Reiwa 9)
+      
+      Fee Changes
+      
+      Current: ¥200 per 10 kg  ⇒  New: ¥300 per 10 kg
+      
+      【Prices include consumption tax.】
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/cleancenter/14435.html
+    translation_hash: "sha256-b994a29c06d5e6ce"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-01T22:15:44.081932Z"
+    format_version: 3
