@@ -1,0 +1,30 @@
+uid: "tourism-ec-moridon-akihuyu-20261128@hanno.city.tecoli.com"
+summary: "紅葉の山と川とまちぐるり散歩〜天覧とせせらぎ遊歩道と店蔵〜"
+location: "集合 飯能市立博物館前"
+url: "https://hanno-tourism.jp/hanno-eco/tour/ec-moridon-akihuyu/"
+dtstart: "2026-11-28T09:30:00+09:00"
+dtend: "2026-11-28T14:00:00+09:00"
+description: |-
+  飯能エコツーリズム協会: https://hanno-tourism.jp/hanno-eco/tour/ec-moridon-akihuyu/
+  
+  緑と清流のまち飯能、かつては山で切り出した木を筏に組んで江戸、東京まで流して木材として利用されました。
+  
+  【利用料金】一人:3,500円 （ガイド、保険、昼食、軽食）
+  
+  【定員】10名
+  
+  【ガイド】森の団栗団スタッフ
+  
+  【持ち物】飲料水、雨具、敷物（レジャーシート）、トレッキングポール（あれば）
+
+render:
+  gcal:
+    mode: single-allday
+    time_marker: "09:30–14:00"
+
+source:
+  type: hanno-tourism-jp
+  id: "ec-moridon-akihuyu"
+  url: "https://hanno-tourism.jp/hanno-eco/tour/ec-moridon-akihuyu/"
+  fetched_at: "2026-10-06T08:10:45.700817Z"
+  content_hash: "sha256-3f060c2a832b5128"

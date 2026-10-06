@@ -1,0 +1,30 @@
+uid: "tourism-news-6233-07996e@hanno.city.tecoli.com"
+summary: "📢 第4回 一丁目路地あそび 10/11(日)"
+url: "https://hanno-tourism.jp/news/%e7%ac%ac4%e5%9b%9e%e3%80%80%e4%b8%80%e4%b8%81%e7%9b%ae%e8%b7%af%e5%9c%b0%e3%81%82%e3%81%9d%e3%81%b3"
+dtstart: "2026-10-05"
+dtend: "2026-10-05"
+description: |-
+  奥むさし飯能観光協会: https://hanno-tourism.jp/news/%e7%ac%ac4%e5%9b%9e%e3%80%80%e4%b8%80%e4%b8%81%e7%9b%ae%e8%b7%af%e5%9c%b0%e3%81%82%e3%81%9d%e3%81%b3
+  
+  🆕 新着掲載 (公開日: 2026-10-05)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  飯能の路地を知り、親しみ、路地の価値を再発見するイベント「第4回　一丁目路地あそび」。路地で昔あそびなどを通しての多世代交流を楽しめます。
+  
+  【開催日時】2026年10月11日（日）10:00〜15:00
+  【参加費】無料
+  【内容】路上お絵描き、昔あそび（コマ・ベーゴマ・剣玉・折り紙・フラフープ・メンコ）、囲碁・将棋、看板おじさんおもしろ企画、紙芝居・絵本交換会
+  【天候】小雨決行。延期の場合は10月12日（月・祝）に実施
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-tourism-jp-news
+  id: "6233"
+  url: "https://hanno-tourism.jp/news/%e7%ac%ac4%e5%9b%9e%e3%80%80%e4%b8%80%e4%b8%81%e7%9b%ae%e8%b7%af%e5%9c%b0%e3%81%82%e3%81%9d%e3%81%b3"
+  fetched_at: "2026-10-06T08:11:19.079990Z"
+  modified_gmt: "2026-10-05T07:18:59"
+  content_hash: "sha256-07996e4a98c1392a"

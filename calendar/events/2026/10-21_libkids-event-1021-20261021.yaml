@@ -1,0 +1,27 @@
+uid: "libkids-event-1021-20261021@hanno.city.tecoli.com"
+summary: "📚 こぐまちゃんタイム(10月21日)"
+location: "こども図書館"
+url: "https://www.hanno-lib.jp/calendar/1021.html"
+dtstart: "2026-10-21"
+dtend: "2026-10-21"
+description: |-
+  こぐまちゃんタイムを開催します。
+  
+  日時　令和8年10月21日（水）　11：30～12：００
+  
+  対象　０さい～３さいくらい
+  
+  会場　こども図書館おはなしコーナー
+  
+  https://www.hanno-lib.jp/calendar/1021.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-lib-kids-event
+  id: "1021"
+  url: "https://www.hanno-lib.jp/calendar/1021.html"
+  content_hash: "sha256-031eb65c59462879"
+  summary_method: "full"

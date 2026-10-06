@@ -1,0 +1,29 @@
+uid: "tourism-osampo-aki-20261115@hanno.city.tecoli.com"
+summary: "秋のお散歩マーケット"
+url: "https://hanno-tourism.jp/hanno-eco/tour/osampo-aki/"
+dtstart: "2026-11-15T09:00:00+09:00"
+dtend: "2026-11-15T15:00:00+09:00"
+description: |-
+  飯能エコツーリズム協会: https://hanno-tourism.jp/hanno-eco/tour/osampo-aki/
+  
+  山間の集落である、黒指・細田地区。家の軒先に並べられた季節の農作物や手作り品。山道を散歩しながら、買い物や住民とのふれあいを楽しみませんか？ 点在する家々の軒先を覗きながら、住民と触れ合うことで、心の洗濯が出来ると思います。地域全体でおもてなしを致しますので、ぜひ秋の里山を訪れてみてください。
+  
+  【利用料金】大人400円、小学生以下100円
+  
+  【定員】なし（当日受付）
+  
+  【持ち物】飲み物・軽食
+  
+  【備考】主催者：お散歩マーケット実行委員会 HP https://kamibun.x0.to/
+
+render:
+  gcal:
+    mode: single-allday
+    time_marker: "09:00–15:00"
+
+source:
+  type: hanno-tourism-jp
+  id: "osampo-aki"
+  url: "https://hanno-tourism.jp/hanno-eco/tour/osampo-aki/"
+  fetched_at: "2026-10-06T08:10:39.014291Z"
+  content_hash: "sha256-33abc44f78fd2d28"

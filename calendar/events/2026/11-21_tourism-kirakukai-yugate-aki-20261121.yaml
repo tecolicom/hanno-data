@@ -1,0 +1,30 @@
+uid: "tourism-kirakukai-yugate-aki-20261121@hanno.city.tecoli.com"
+summary: "ユガテの森で秋の味覚を味わう"
+location: "集合 西武池袋線「東吾野駅」駅前"
+url: "https://hanno-tourism.jp/hanno-eco/tour/kirakukai-yugate-aki/"
+dtstart: "2026-11-21T09:00:00+09:00"
+dtend: "2026-11-21T14:30:00+09:00"
+description: |-
+  飯能エコツーリズム協会: https://hanno-tourism.jp/hanno-eco/tour/kirakukai-yugate-aki/
+  
+  実りの秋です！キノコが美味しい季節に、ユガテの森で森づくりの一環として行っている原木栽培のキノコを収穫し、キノコ料理を作って、秋の味覚を一緒に楽しみましょう。
+  
+  【利用料金】大人3,000円、小学生以下2,000円 (ガイド料、保険代、材料費など)
+  
+  【定員】15名
+  
+  【ガイド】NPO法人西川木楽会スタッフ
+  
+  【持ち物】筆記用具、昼食（主食）、飲料水、手袋、帽子、ビニール袋、タオル、おやつ、雨具
+
+render:
+  gcal:
+    mode: single-allday
+    time_marker: "09:00–14:30"
+
+source:
+  type: hanno-tourism-jp
+  id: "kirakukai-yugate-aki"
+  url: "https://hanno-tourism.jp/hanno-eco/tour/kirakukai-yugate-aki/"
+  fetched_at: "2026-10-06T08:10:40.045701Z"
+  content_hash: "sha256-b2391c4510932d24"

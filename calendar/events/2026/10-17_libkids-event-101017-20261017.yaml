@@ -1,0 +1,25 @@
+uid: "libkids-event-101017-20261017@hanno.city.tecoli.com"
+summary: "📚 10月のおはなし会(10月17日)"
+location: "こども図書館"
+url: "https://www.hanno-lib.jp/calendar/101017.html"
+dtstart: "2026-10-17"
+dtend: "2026-10-17"
+description: |-
+  10月のおはなし会を開催します。
+  
+  日時　令和8年10月17日（土）　14:00～14:30
+  
+  会場　こども図書館　2階　多目的ホール
+  
+  https://www.hanno-lib.jp/calendar/101017.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-lib-kids-event
+  id: "101017"
+  url: "https://www.hanno-lib.jp/calendar/101017.html"
+  content_hash: "sha256-dccfdd22e10edaba"
+  summary_method: "full"

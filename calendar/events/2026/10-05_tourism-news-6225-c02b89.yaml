@@ -1,0 +1,25 @@
+uid: "tourism-news-6225-c02b89@hanno.city.tecoli.com"
+summary: "📢 飯能エコツアーチラシ2026.秋冬号"
+url: "https://hanno-tourism.jp/news/ecotour-akihuyu"
+dtstart: "2026-10-05"
+dtend: "2026-10-05"
+description: |-
+  奥むさし飯能観光協会: https://hanno-tourism.jp/news/ecotour-akihuyu
+  
+  🆕 新着掲載 (公開日: 2026-10-05)
+  
+  飯能エコツアーチラシ2026.秋冬号
+  
+  ※画像クリックでPDFファイルをご覧いただけます。
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-tourism-jp-news
+  id: "6225"
+  url: "https://hanno-tourism.jp/news/ecotour-akihuyu"
+  fetched_at: "2026-10-06T08:11:19.116302Z"
+  modified_gmt: "2026-10-05T06:34:29"
+  content_hash: "sha256-c02b8997fa98163f"

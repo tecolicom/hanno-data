@@ -1,0 +1,23 @@
+uid: "libkids-event-1010341011121718242531-20261031@hanno.city.tecoli.com"
+summary: "📚 10月のおはなしのじかん(10月3・4・10・11・12・17・18・24・25・31日)"
+location: "こども図書館"
+url: "https://www.hanno-lib.jp/calendar/1010341011121718242531.html"
+dtstart: "2026-10-31"
+dtend: "2026-10-31"
+description: |-
+  「おはなしのじかん」は、毎週土曜日、日曜日、祝・休日の午後3時から3時30分に開催します。
+  
+  直接ご来場ください。
+  
+  https://www.hanno-lib.jp/calendar/1010341011121718242531.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-lib-kids-event
+  id: "1010341011121718242531"
+  url: "https://www.hanno-lib.jp/calendar/1010341011121718242531.html"
+  content_hash: "sha256-190f796ac7685585"
+  summary_method: "full"

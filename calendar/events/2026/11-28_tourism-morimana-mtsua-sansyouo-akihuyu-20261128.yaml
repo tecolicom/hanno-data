@@ -1,0 +1,32 @@
+uid: "tourism-morimana-mtsua-sansyouo-akihuyu-20261128@hanno.city.tecoli.com"
+summary: "メッツァで生きもの保全活動！ トウキョウサンショウウオを守ろう"
+location: "集合 メッツァビレッジインフォメーション前（イーグルバス他「メッツァ」下車徒歩3分）"
+url: "https://hanno-tourism.jp/hanno-eco/tour/morimana-mtsua-sansyouo-akihuyu/"
+dtstart: "2026-11-28T10:00:00+09:00"
+dtend: "2026-11-28T15:00:00+09:00"
+description: |-
+  飯能エコツーリズム協会: https://hanno-tourism.jp/hanno-eco/tour/morimana-mtsua-sansyouo-akihuyu/
+  
+  水辺と陸地を行き来する不思議な生き方をするサンショウウオが、水辺にやってくる前のこの時期に、産卵しやすい環境を考えながら水辺環境の整備・保全活動を一緒に行いましょう！
+  
+  【利用料金】大人3,000円、学生2,000円、未就学児1,000円 （ガイド代、保険代、資料代等）
+  
+  【定員】20名
+  
+  【ガイド】森のフィールド学舎スタッフ
+  
+  【持ち物】飲み物、昼食（施設内に飲食店有り）、軍手（手袋）、着替え、タオル、長靴
+  
+  【備考】森のフィールド学舎HP https://morinomanabiya168.wixsite.com/website
+
+render:
+  gcal:
+    mode: single-allday
+    time_marker: "10:00–15:00"
+
+source:
+  type: hanno-tourism-jp
+  id: "morimana-mtsua-sansyouo-akihuyu"
+  url: "https://hanno-tourism.jp/hanno-eco/tour/morimana-mtsua-sansyouo-akihuyu/"
+  fetched_at: "2026-10-06T08:10:46.972943Z"
+  content_hash: "sha256-e65e691eec66c8ea"

@@ -1,0 +1,45 @@
+uid: "libkids-event-1031-1-20261031@hanno.city.tecoli.com"
+summary: "📚 ハロウィンのおはなし会(10月31日)"
+location: "こども図書館"
+url: "https://www.hanno-lib.jp/calendar/1031-1.html"
+dtstart: "2026-10-31"
+dtend: "2026-10-31"
+description: |-
+  日時
+  
+  令和8年10月31日(土)
+  
+  午後2時～3時
+  
+  場所
+  
+  こども図書館　2階　多目的ホール
+  
+  申込
+  
+  令和8年10月7日(水)午前11時から
+  
+  こども図書館へ(電話、ファックスも可)
+  
+  定員
+  
+  20人(先着順)
+  
+  内容
+  
+  ハロウィンに関する絵本の読み聞かせやパネルシアター、工作(おばけとかぼちゃのけんだま)をします。
+  
+  ※ぜひ仮装してきてください。
+  
+  https://www.hanno-lib.jp/calendar/1031-1.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-lib-kids-event
+  id: "1031-1"
+  url: "https://www.hanno-lib.jp/calendar/1031-1.html"
+  content_hash: "sha256-b79359ab8c1c315a"
+  summary_method: "full"

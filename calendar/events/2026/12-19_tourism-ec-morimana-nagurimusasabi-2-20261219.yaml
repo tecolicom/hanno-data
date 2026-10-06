@@ -1,0 +1,32 @@
+uid: "tourism-ec-morimana-nagurimusasabi-2-20261219@hanno.city.tecoli.com"
+summary: "冬の夜、ムササビに会いに行こう〜森の暮らしと、昔からのお話〜"
+location: "集合 下名栗諏訪神社（国際興業バス「諏訪橋」下車徒歩２分）"
+url: "https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-nagurimusasabi-2/"
+dtstart: "2026-12-19T15:30:00+09:00"
+dtend: "2026-12-19T18:00:00+09:00"
+description: |-
+  飯能エコツーリズム協会: https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-nagurimusasabi-2/
+  
+  冬の夜の森をゆっくり歩き、ムササビの声や食べあとを探しながら、木から木へ滑空する姿を待ちます。
+  
+  【利用料金】大人：6,000円、学生：5,000円、未就学児3,000円 （ガイド、保険、資料など）
+  
+  【定員】10名
+  
+  【ガイド】森のフィールド学舎スタッフ
+  
+  【持ち物】雨具・飲み物・防寒着・足元を照らすためのライト・行動食
+  
+  【備考】森のフィールド学舎HP https://morinomanabiya168.wixsite.com/website
+
+render:
+  gcal:
+    mode: single-allday
+    time_marker: "15:30–18:00"
+
+source:
+  type: hanno-tourism-jp
+  id: "ec-morimana-nagurimusasabi-2"
+  url: "https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-nagurimusasabi-2/"
+  fetched_at: "2026-10-06T08:10:52.902456Z"
+  content_hash: "sha256-871c3047fb277a2e"

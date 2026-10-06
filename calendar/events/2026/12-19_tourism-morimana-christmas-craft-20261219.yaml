@@ -1,0 +1,32 @@
+uid: "tourism-morimana-christmas-craft-20261219@hanno.city.tecoli.com"
+summary: "アオジシ谷クラフト 〜自然の素材でクリスマスに彩りを〜"
+location: "集合 飯能市中央公園トイレ前(国際興業バス「OH!!!・天覧山下」下車徒歩1分)"
+url: "https://hanno-tourism.jp/hanno-eco/tour/morimana-christmas-craft/"
+dtstart: "2026-12-19T10:00:00+09:00"
+dtend: "2026-12-19T15:30:00+09:00"
+description: |-
+  飯能エコツーリズム協会: https://hanno-tourism.jp/hanno-eco/tour/morimana-christmas-craft/
+  
+  自然に囲まれた里山で、クリスマスをやお正月を彩るオリジナルのアイテムを一緒に作りましょう。モリマナが手掛ける「アオジシ谷」には、クラフトに必要な木の実や種子も揃っています。材料は自分で集め、作業の合間にフィールドワークで自然を満喫できるのも魅力です。
+  
+  【利用料金】大人：5,000円、学生：4,000円、未就学児：2,500円 （ガイド代、保険代、資料代等）
+  
+  【定員】20名
+  
+  【ガイド】森のフィールド学舎スタッフ
+  
+  【持ち物】飲み物、着替え、軍手などの手袋、昼食、タオル
+  
+  【備考】森のフィールド学舎HP https://morinomanabiya168.wixsite.com/website
+
+render:
+  gcal:
+    mode: single-allday
+    time_marker: "10:00–15:30"
+
+source:
+  type: hanno-tourism-jp
+  id: "morimana-christmas-craft"
+  url: "https://hanno-tourism.jp/hanno-eco/tour/morimana-christmas-craft/"
+  fetched_at: "2026-10-06T08:10:50.621119Z"
+  content_hash: "sha256-4c94f4ca0429d630"

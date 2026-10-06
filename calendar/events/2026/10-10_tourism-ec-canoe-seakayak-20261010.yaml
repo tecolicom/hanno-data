@@ -9,7 +9,7 @@ description: |-
   
   地元の木材で製作した木製シーカヤックに乗り、名栗湖の豊かな自然を巡るエコツアーです。
   
-  【利用料金】一人6,000円 （ガイド、保険、カヤックレンタル代、食材代など）
+  【利用料金】大人6,000円、小学生以下4,000円 （ガイド、保険、カヤックレンタル代、食材代など）
   
   【定員】2人乗り艇×2艇
   
@@ -28,28 +28,5 @@ source:
   type: hanno-tourism-jp
   id: "ec-canoe-seakayak"
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-canoe-seakayak/"
-  fetched_at: "2026-08-04T19:23:49.720744Z"
-  content_hash: "sha256-37e9305a668cfc32"
-translations:
-  en:
-    summary: "Wood and Lake Connected: Wooden Sea Kayak Eco-Tour at Naguri Lake with Homemade Pizza Lunch"
-    description: |-
-      Automated translation (refer to source for accuracy)
-      
-      Hanno Ecotourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-canoe-seakayak/
-      
-      Explore the rich natural beauty of Naguri Lake from wooden sea kayaks crafted from locally sourced timber. This eco-tour offers an intimate experience of the forest and water ecosystem.
-      
-      【Fee】¥6,000 per person (includes guide, insurance, kayak rental, food ingredients, and more)
-      
-      【Capacity】Two 2-person kayaks (4 people total)
-      
-      【Guide】Staff from Certified NPO Naguri Canoe Workshop (認定NPO法人名栗カヌー工房)
-      
-      【What to bring】Drinks, towel, change of clothes (you may get wet), clothes suitable for getting wet, and sun protection items such as hat or sunglasses as needed.
-      
-      【More information】Certified NPO Naguri Canoe Workshop website: https://naguri-canoe.co.jp/
-    translation_hash: "sha256-3d39693ed4a96a31"
-    model: "claude-haiku-4-5"
-    translated_at: "2026-08-04T19:27:50.780677Z"
-    format_version: 3
+  fetched_at: "2026-10-06T08:11:07.696290Z"
+  content_hash: "sha256-4916e9fc5112b283"
