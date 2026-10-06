@@ -1,0 +1,35 @@
+{
+  "created": "2026-10-06T08:20:02.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 10:30–15:00\n\nAutomated translation (refer to source for accuracy)\n\nHanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/kinokenntikujuku-3/\n\nForests nurture trees, and skilled craftspeople build homes using traditional methods where wood and craftsmanship shine. Experience the full beauty of wood.\n\n【Fee】Adults ¥4,000 | Elementary school children and under ¥1,000 (includes guide, lunch, insurance)\n\n【Capacity】20 people\n\n【Guides】Takayuki Okabe, Seiichi Oyama (Okabe Lumber)\n\n【What to bring】Water bottle, towel, work gloves",
+  "end": {
+    "date": "2026-11-08"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFxcjlkcG5tbXBiZWRwcTZpcXJsZDlxbW10OWQ2Y21qNGMxaTZvb2oyYzFuODFrNjJyamVkc242NnFia2Y0bjc4cGIzZHRtNmliajNkdG1nIGQ5MTkzY2Y1ZjY0NGFiNDFhMjhlMjI2OGE5OGFiYzVhYTQyNmJkMmQ1NzcxNTI4MzQyNDRhZDY5YTMxZjVhNjhAZw",
+  "iCalUID": "tourism-kinokenntikujuku-3-20261107@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqqr9dpnmmpbedpq6iqrld9qmmt9d6cmj4c1i6ooj2c1n81k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+  "kind": "calendar#event",
+  "location": "集合 岡部材木店土場（飯能市大河原922 国際興業バス「永田会館」下車徒歩15分）",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/kinokenntikujuku-3/"
+  },
+  "start": {
+    "date": "2026-11-07"
+  },
+  "status": "confirmed",
+  "summary": "Wood House Exploration Tour—From Forest to Home: Part 3 'Carpentry Skills and Traditional Joinery'",
+  "updated": "2026-10-06T08:20:02.681Z"
+}

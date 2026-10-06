@@ -1,0 +1,35 @@
+{
+  "created": "2026-10-06T08:24:45.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 09:00–14:30\n\nAutomated translation (refer to source for accuracy)\n\nHanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/kirakukai-yugate-aki/\n\nIt's the season of harvest! When mushrooms are at their best, come to Yugate Forest to harvest mushrooms grown on logs as part of forest conservation efforts, prepare mushroom dishes, and enjoy autumn's flavors together.\n\n【Fee】Adults ¥3,000 / Children (elementary school and under) ¥2,000 (includes guide, insurance, materials)\n\n【Capacity】15 people\n\n【Guide】NPO Nishikawa Kiraku-kai Staff\n\n【What to bring】Writing materials, lunch (main dish), drinking water, gloves, hat, plastic bags, towel, snacks, rain gear",
+  "end": {
+    "date": "2026-11-22"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFxcjllOWdtbXRiYmM1a2lxdWJsY3RnbjhwOWRjNWxtaWI5aTYwcDNjYzloNjhvazBxMzFkcG42dWJqM2Q1cTdpYmprY2xobXVyMzk1cGhtdXI4IGQ5MTkzY2Y1ZjY0NGFiNDFhMjhlMjI2OGE5OGFiYzVhYTQyNmJkMmQ1NzcxNTI4MzQyNDRhZDY5YTMxZjVhNjhAZw",
+  "iCalUID": "tourism-kirakukai-yugate-aki-20261121@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqqr9e9gmmtbbc5kiqublctgn8p9dc5lmib9i60p3cc9h68ok0q31dpn6ubj3d5q7ibjkclhmur395phmur8",
+  "kind": "calendar#event",
+  "location": "集合 西武池袋線「東吾野駅」駅前",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/kirakukai-yugate-aki/"
+  },
+  "start": {
+    "date": "2026-11-21"
+  },
+  "status": "confirmed",
+  "summary": "Taste autumn flavors at Yugate Forest",
+  "updated": "2026-10-06T08:24:46.244Z"
+}

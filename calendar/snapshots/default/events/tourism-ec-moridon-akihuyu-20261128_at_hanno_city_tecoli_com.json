@@ -1,0 +1,35 @@
+{
+  "created": "2026-10-06T08:13:39.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 09:30–14:00\n\n飯能エコツーリズム協会: https://hanno-tourism.jp/hanno-eco/tour/ec-moridon-akihuyu/\n\n緑と清流のまち飯能、かつては山で切り出した木を筏に組んで江戸、東京まで流して木材として利用されました。\n\n【利用料金】一人:3,500円 （ガイド、保険、昼食、軽食）\n\n【定員】10名\n\n【ガイド】森の団栗団スタッフ\n\n【持ち物】飲料水、雨具、敷物（レジャーシート）、トレッキングポール（あれば）",
+  "end": {
+    "date": "2026-11-29"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bG1tdXNqOWNobm1zYmIxZGRrbWd0YnBla21qNGMxaTZvb2oyY2hvODFrNjJyamVkc242NnFia2Y0bjc4cGIzZHRtNmliajNkdG1nIDIwNTQwM2M5NzFkYzVlZjIxZWZkODFjMWQ1Mzg0OWNhZGZkOTAxYjc1Yzc3ZDg4OTU1ZDk2MDBmNDVmMmEwMTNAZw",
+  "iCalUID": "tourism-ec-moridon-akihuyu-20261128@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqpb35lmmusj9chnmsbb1ddkmgtbpekmj4c1i6ooj2cho81k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+  "kind": "calendar#event",
+  "location": "集合 飯能市立博物館前",
+  "organizer": {
+    "displayName": "飯能カレンダー",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-moridon-akihuyu/"
+  },
+  "start": {
+    "date": "2026-11-28"
+  },
+  "status": "confirmed",
+  "summary": "紅葉の山と川とまちぐるり散歩〜天覧とせせらぎ遊歩道と店蔵〜",
+  "updated": "2026-10-06T08:13:39.768Z"
+}

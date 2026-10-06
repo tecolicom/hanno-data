@@ -1,0 +1,35 @@
+{
+  "created": "2026-10-06T08:25:05.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 10:00–15:30\n\nAutomated translation (refer to source for accuracy)\n\nHanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/morimana-christmas-craft/\n\nIn a countryside setting surrounded by nature, create your own original Christmas and New Year decorations. Aojishi Valley, managed by Morimana, has all the nuts and seeds you need for crafting. You'll collect materials yourself, and enjoy nature during fieldwork breaks.\n\n【Fee】\nAdults: ¥5,000\nStudents: ¥4,000\nPreschool children: ¥2,500\n(includes guide, insurance, materials, etc.)\n\n【Capacity】20 people\n\n【Guide】Forest Field School staff\n\n【What to bring】Drinking water, change of clothes, work gloves, lunch, towel\n\n【More info】Forest Field School website: https://morinomanabiya168.wixsite.com/website",
+  "end": {
+    "date": "2026-12-20"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFyYmZlOWttcW9iZWM0bW02cTNpZDVwbjhyYjFlY21tNnNqMWNwcTJxY2hnNjhyMzJjaGg3NTA2Z29iZWRwbmlzb3I5ZWhzaXN0MzVjZG5tb3E5ZWNkbm1xIGQ5MTkzY2Y1ZjY0NGFiNDFhMjhlMjI2OGE5OGFiYzVhYTQyNmJkMmQ1NzcxNTI4MzQyNDRhZDY5YTMxZjVhNjhAZw",
+  "iCalUID": "tourism-morimana-christmas-craft-20261219@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqrbfe9kmqobec4mm6q3id5pn8rb1ecmm6sj1cpq2qchg68r32chh7506gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "集合 飯能市中央公園トイレ前(国際興業バス「OH!!!・天覧山下」下車徒歩1分)",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/morimana-christmas-craft/"
+  },
+  "start": {
+    "date": "2026-12-19"
+  },
+  "status": "confirmed",
+  "summary": "Aojishi Valley Craft – Decorate Christmas with Natural Materials",
+  "updated": "2026-10-06T08:25:06.264Z"
+}

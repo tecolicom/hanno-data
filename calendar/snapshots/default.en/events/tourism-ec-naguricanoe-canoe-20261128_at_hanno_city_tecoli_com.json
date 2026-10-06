@@ -1,0 +1,35 @@
+{
+  "created": "2026-10-06T08:24:52.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 10:00–14:00\n\nAutomated translation (refer to source for accuracy)\n\nHanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-naguricanoe-canoe/\n\nCanadian canoes use a single-blade paddle to glide dynamically across the water — an active and exciting way to paddle.\n\n【Fee】Adults ¥5,000, Elementary school and younger ¥4,000 (includes guide, insurance, canoe rental, lunch)\n\n【Capacity】5 people\n\n【Guide】Staff of certified NPO Naguri Canoe Workshop\n\n【What to bring】Drinking water (vending machine available at the workshop). Bring sun protection (hat, sunglasses, etc.) as needed.\n\n【More information】Certified NPO Naguri Canoe Workshop: https://naguri-canoe.co.jp/",
+  "end": {
+    "date": "2026-11-29"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bG42MnBybGU5a202b2JlZHRpaXFvcjFkcG5tYWI5aTYwcDNjYzloNjhzNDBxMzFkcG42dWJqM2Q1cTdpYmprY2xobXVyMzk1cGhtdXI4IGQ5MTkzY2Y1ZjY0NGFiNDFhMjhlMjI2OGE5OGFiYzVhYTQyNmJkMmQ1NzcxNTI4MzQyNDRhZDY5YTMxZjVhNjhAZw",
+  "iCalUID": "tourism-ec-naguricanoe-canoe-20261128@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqpb35ln62prle9km6obedtiiqor1dpnmab9i60p3cc9h68s40q31dpn6ubj3d5q7ibjkclhmur395phmur8",
+  "kind": "calendar#event",
+  "location": "集合 名栗カヌー工房（国際興業バス「ノーラ名栗・さわらびの湯」下車徒歩20分、または「河又名栗湖入口」下車25分）",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-naguricanoe-canoe/"
+  },
+  "start": {
+    "date": "2026-11-28"
+  },
+  "status": "confirmed",
+  "summary": "First-Time Canadian Canoe Beginner Lesson @ Lake Naguri — Leisurely Lake Enjoyment with Homemade Pizza Lunch",
+  "updated": "2026-10-06T08:24:53.197Z"
+}

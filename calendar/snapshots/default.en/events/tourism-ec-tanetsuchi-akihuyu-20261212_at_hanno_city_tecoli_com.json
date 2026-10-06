@@ -1,0 +1,35 @@
+{
+  "created": "2026-10-06T08:25:00.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 09:30–14:40\n\nAutomated translation (refer to source for accuracy)\n\nHanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-tanetsuke-akihuyu/\n\nA hands-on tour creating kinoko-chan gardens (raised beds) using fallen leaves and branches, planting and transplanting autumn vegetables, and maintaining the garden. A kinoko-chan farming method advisor will share easy-to-understand tips for daily garden care. Lunch features Italian cuisine made with kinoko-chan vegetables at a restaurant.\n\n【Fee】Adults ¥8,800 | Middle school and younger ¥2,200 (includes guide, lunch, materials, insurance)\n\n【Capacity】15 people\n\n【Guide】Hanno Tane to Tsuchi Farm Staff\n\n【What to bring】Drinking water, hat, towel, gloves, etc.",
+  "end": {
+    "date": "2026-12-13"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bHE2MnJqNWVocG5hb3I4ZDRtbTJxcjlkMXFuaXQ5ZDY4bzM0ZGhoNjhvajRnMzhjNW42c3JwZWNka244dTllZWhpbTZycmNkNG42NnJyZCBkOTE5M2NmNWY2NDRhYjQxYTI4ZTIyNjhhOThhYmM1YWE0MjZiZDJkNTc3MTUyODM0MjQ0YWQ2OWEzMWY1YTY4QGc",
+  "iCalUID": "tourism-ec-tanetsuchi-akihuyu-20261212@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqpb35lq62rj5ehpnaor8d4mm2qr9d1qnit9d68o34dhh68oj4g38c5n6srpecdkn8u9eehim6rrcd4n66rrd",
+  "kind": "calendar#event",
+  "location": "集合 ラ・ノーラ前の畑 （飯能市下加治243-25、イーグルバス「飯能靖和病院」下車徒歩8分）",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-tanetsuchi-akihuyu/"
+  },
+  "start": {
+    "date": "2026-12-12"
+  },
+  "status": "confirmed",
+  "summary": "Forest Town Hanno: Autumn Kinoko-chan Garden Experience",
+  "updated": "2026-10-06T08:25:00.641Z"
+}

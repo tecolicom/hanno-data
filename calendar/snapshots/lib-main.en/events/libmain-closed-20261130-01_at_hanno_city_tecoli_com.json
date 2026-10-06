@@ -1,0 +1,35 @@
+{
+  "created": "2026-10-06T08:24:55.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nHanno City Library is closed.\n\nSource (Japanese): https://www.hanno-lib.jp/calendar/",
+  "end": {
+    "date": "2026-12-01"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Roa200cmIxZDVuMnFvcmNkdHBtYXAxZDY4bzM0ZGhoNjRwajBiOWc2NTA2Z29iZWRwbmlzb3I5ZWhzaXN0MzVjZG5tb3E5ZWNkbm1xIDI4ZDljODY0YTYzNDg3OGFkMjViNDkzYzI3ZWM3OGUwNmJhYzBiYTJhODVmZDVkZmRhNGFhYzJkMDc1MmY3ZDZAZw",
+  "iCalUID": "libmain-closed-20261130-01@hanno.city.tecoli.com",
+  "id": "_dhkm4rb1d5n2qorcdtpmap1d68o34dhh64pj0b9g6506gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能市立図書館",
+  "organizer": {
+    "displayName": "飯能市立図書館（EN）",
+    "email": "28d9c864a634878ad25b493c27ec78e06bac0ba2a85fd5dfda4aac2d0752f7d6@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-lib.jp",
+    "url": "https://www.hanno-lib.jp/calendar/"
+  },
+  "start": {
+    "date": "2026-11-30"
+  },
+  "status": "confirmed",
+  "summary": "🏛 Hanno City Library: Closed",
+  "updated": "2026-10-06T08:24:55.755Z"
+}

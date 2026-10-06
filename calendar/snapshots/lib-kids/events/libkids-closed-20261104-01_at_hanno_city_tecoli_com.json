@@ -1,0 +1,35 @@
+{
+  "created": "2026-10-06T08:13:24.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "こども図書館は休館です。\n\nhttps://www.hanno-lib.jp/calendar/",
+  "end": {
+    "date": "2026-11-05"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Roa200cXI5Y2hwaXFvcmNkdHBtYXAxZDY4bzM0ZGhoNjRvMzhiOWc2NTA2Z29iZWRwbmlzb3I5ZWhzaXN0MzVjZG5tb3E5ZWNkbm1xIGFjYmUxNDNhNzQ0NWUyZTFmNDUzNWUzNDRjNzE2MjM3MzBiZjg4NDk4NmJiYmE5NzcyNzEzMjg3MTFiMjVmODdAZw",
+  "iCalUID": "libkids-closed-20261104-01@hanno.city.tecoli.com",
+  "id": "_dhkm4qr9chpiqorcdtpmap1d68o34dhh64o38b9g6506gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "こども図書館",
+  "organizer": {
+    "displayName": "こども図書館",
+    "email": "acbe143a7445e2e1f4535e344c71623730bf884986bbba977271328711b25f87@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-lib.jp",
+    "url": "https://www.hanno-lib.jp/calendar/"
+  },
+  "start": {
+    "date": "2026-11-04"
+  },
+  "status": "confirmed",
+  "summary": "🏛 こども図書館 休館",
+  "updated": "2026-10-06T08:13:24.799Z"
+}

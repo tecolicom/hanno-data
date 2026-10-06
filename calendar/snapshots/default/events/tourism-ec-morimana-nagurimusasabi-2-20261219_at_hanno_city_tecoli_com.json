@@ -1,0 +1,35 @@
+{
+  "created": "2026-10-06T08:13:51.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 15:30–18:00\n\n飯能エコツーリズム協会: https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-nagurimusasabi-2/\n\n冬の夜の森をゆっくり歩き、ムササビの声や食べあとを探しながら、木から木へ滑空する姿を待ちます。\n\n【利用料金】大人：6,000円、学生：5,000円、未就学児3,000円 （ガイド、保険、資料など）\n\n【定員】10名\n\n【ガイド】森のフィールド学舎スタッフ\n\n【持ち物】雨具・飲み物・防寒着・足元を照らすためのライト・行動食\n\n【備考】森のフィールド学舎HP https://morinomanabiya168.wixsite.com/website",
+  "end": {
+    "date": "2026-12-20"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bG1tdXNqOWRsZ21zbzlkZHBnbWV0YmlkNW1uYXNyMWVkZ200cTlkNjhtajRjMWk2b29qNGM5cDgxazYycmplZHNuNjZxYmtmNG43OHBiM2R0bTZpYmozZHRtZyAyMDU0MDNjOTcxZGM1ZWYyMWVmZDgxYzFkNTM4NDljYWRmZDkwMWI3NWM3N2Q4ODk1NWQ5NjAwZjQ1ZjJhMDEzQGc",
+  "iCalUID": "tourism-ec-morimana-nagurimusasabi-2-20261219@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqpb35lmmusj9dlgmso9ddpgmetbid5mnasr1edgm4q9d68mj4c1i6ooj4c9p81k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+  "kind": "calendar#event",
+  "location": "集合 下名栗諏訪神社（国際興業バス「諏訪橋」下車徒歩２分）",
+  "organizer": {
+    "displayName": "飯能カレンダー",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-nagurimusasabi-2/"
+  },
+  "start": {
+    "date": "2026-12-19"
+  },
+  "status": "confirmed",
+  "summary": "冬の夜、ムササビに会いに行こう〜森の暮らしと、昔からのお話〜",
+  "updated": "2026-10-06T08:13:52.000Z"
+}

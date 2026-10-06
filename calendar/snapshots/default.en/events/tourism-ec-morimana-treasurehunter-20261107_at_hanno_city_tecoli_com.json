@@ -1,0 +1,35 @@
+{
+  "created": "2026-10-06T08:20:01.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 10:30–15:00\n\nAutomated translation (refer to source for accuracy)\n\nSatoyama Treasure Hunter!! ~ Make a wreath from natural materials\n\nHanno Ecotourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-treasurehunter/\n\nAn interactive eco-tour where you search for treasures in nature while learning about the connections in living ecosystems and the appeal of satoyama (traditional rural landscapes) together with specialist students.\n\n【Fee】\nAdult: ¥2,500\nStudent: ¥1,500\nPreschool child: ¥1,000\n(Includes guide, insurance, materials, and food)\n\n【Capacity】20 people\n\n【Guide】Mori no Field Gakusha (Forest Field Academy) staff\n\n【What to bring】Gloves, drink, lunch, change of clothes, insect repellent if needed\n\n【More information】Mori no Field Gakusha website: https://morinomanabiya168.wixsite.com/website",
+  "end": {
+    "date": "2026-11-08"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bG1tdXNqOWRsZ21zbzlkZWhwNmFvYmplbHA2YXEzbGRwcTZhc2hkNjhvMzRkaGg2NG8zZWczOGM1bjZzcnBlY2Rrbjh1OWVlaGltNnJyY2Q0bjY2cnJkIGQ5MTkzY2Y1ZjY0NGFiNDFhMjhlMjI2OGE5OGFiYzVhYTQyNmJkMmQ1NzcxNTI4MzQyNDRhZDY5YTMxZjVhNjhAZw",
+  "iCalUID": "tourism-ec-morimana-treasurehunter-20261107@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqpb35lmmusj9dlgmso9dehp6aobjelp6aq3ldpq6ashd68o34dhh64o3eg38c5n6srpecdkn8u9eehim6rrcd4n66rrd",
+  "kind": "calendar#event",
+  "location": "集合 飯能市立博物館前（国際興業バス「OH!!!・天覧山下」または「市民会館・博物館」下車徒歩3分）",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-treasurehunter/"
+  },
+  "start": {
+    "date": "2026-11-07"
+  },
+  "status": "confirmed",
+  "summary": "里山トレジャーハンター!!〜大自然の素材でリース作り",
+  "updated": "2026-10-06T08:20:01.367Z"
+}

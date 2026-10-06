@@ -1,0 +1,35 @@
+{
+  "created": "2026-10-06T08:25:04.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 15:30–18:00\n\nAutomated translation (refer to source for accuracy)\n\nHanno Ecotourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-nagurimusasabi-2/\n\nTake a slow walk through the winter forest at night, listening for flying squirrel calls and looking for feeding marks, while you wait to spot them gliding from tree to tree.\n\n【Fees】Adults: ¥6,000 | Students: ¥5,000 | Preschool children: ¥3,000 (includes guide, insurance, materials)\n\n【Capacity】10 people\n\n【Guide】Forest Field Study Hall (Mori no Manabiya) staff\n\n【What to bring】Rain gear • drinking water • warm clothing • flashlight to light your footing • snack food\n\n【More information】Forest Field Study Hall website: https://morinomanabiya168.wixsite.com/website",
+  "end": {
+    "date": "2026-12-20"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bG1tdXNqOWRsZ21zbzlkZHBnbWV0YmlkNW1uYXNyMWVkZ200cTlkNjhtajRjMWk2b29qNGM5cDgxazYycmplZHNuNjZxYmtmNG43OHBiM2R0bTZpYmozZHRtZyBkOTE5M2NmNWY2NDRhYjQxYTI4ZTIyNjhhOThhYmM1YWE0MjZiZDJkNTc3MTUyODM0MjQ0YWQ2OWEzMWY1YTY4QGc",
+  "iCalUID": "tourism-ec-morimana-nagurimusasabi-2-20261219@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqpb35lmmusj9dlgmso9ddpgmetbid5mnasr1edgm4q9d68mj4c1i6ooj4c9p81k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+  "kind": "calendar#event",
+  "location": "集合 下名栗諏訪神社（国際興業バス「諏訪橋」下車徒歩２分）",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-nagurimusasabi-2/"
+  },
+  "start": {
+    "date": "2026-12-19"
+  },
+  "status": "confirmed",
+  "summary": "Winter night: meet flying squirrels in the forest — woodland life and old stories",
+  "updated": "2026-10-06T08:25:04.822Z"
+}

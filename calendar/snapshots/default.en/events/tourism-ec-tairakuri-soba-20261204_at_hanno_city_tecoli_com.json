@@ -1,0 +1,35 @@
+{
+  "created": "2026-10-06T08:24:56.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 10:30–13:00\n\nAutomated translation (refer to source for accuracy)\n\nHanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-tairakuri-soba/\n\nYou'll experience nearly the entire soba-making process—from preparing the dough to kneading, stretching, and cutting. Then you'll enjoy the soba noodles you made yourself for lunch, served with tempura made from local vegetables.\n\n【Fee】\n• Adults: ¥4,000\n• Elementary school children: ¥3,000\n• Preschool children: ¥1,500\n(Includes guide, insurance, and lunch)\n\n【Capacity】\n2 groups (up to 4 people per group)\n\n【Guide】\nTaira Chestnut Farm (Tairakuri-en) staff\n\n【What to bring】\nDrink, apron, head scarf, towel, mask\n\n【Notes】\nTaira Chestnut Farm website: https://tairakurien.com/",
+  "end": {
+    "date": "2026-12-05"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bHE2MnFiaWM1bG5hc2o5NWxwbXVvajE1a3AzMGNobTY0cDMwZDIwZDFnbXNyamY1cGhtaXQzcDVwcTZhb3JmZGhraXNvcmZkayBkOTE5M2NmNWY2NDRhYjQxYTI4ZTIyNjhhOThhYmM1YWE0MjZiZDJkNTc3MTUyODM0MjQ0YWQ2OWEzMWY1YTY4QGc",
+  "iCalUID": "tourism-ec-tairakuri-soba-20261204@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqpb35lq62qbic5lnasj95lpmuoj15kp30chm64p30d20d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "location": "集合 たいら栗園（西武池袋線「東吾野駅」下車徒歩15分）",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-tairakuri-soba/"
+  },
+  "start": {
+    "date": "2026-12-04"
+  },
+  "status": "confirmed",
+  "summary": "🎉 Experience making soba noodles and savoring the countryside with all five senses — try your hand at making 28% soba!!",
+  "updated": "2026-10-06T08:24:56.415Z"
+}

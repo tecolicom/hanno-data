@@ -1,0 +1,35 @@
+{
+  "created": "2026-10-06T08:13:16.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "こぐまちゃんタイムを開催します。\n\n日時　令和8年10月21日（水）　11：30～12：００\n\n対象　０さい～３さいくらい\n\n会場　こども図書館おはなしコーナー\n\nhttps://www.hanno-lib.jp/calendar/1021.html",
+  "end": {
+    "date": "2026-10-22"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Roa200cXI5Y2hwaXFwYm1jbG43OGI5aDYwcDMyYjlpNjBwM2NjOWc2OG9rMHEzMWRwbjZ1YmozZDVxN2liamtjbGhtdXIzOTVwaG11cjggYWNiZTE0M2E3NDQ1ZTJlMWY0NTM1ZTM0NGM3MTYyMzczMGJmODg0OTg2YmJiYTk3NzI3MTMyODcxMWIyNWY4N0Bn",
+  "iCalUID": "libkids-event-1021-20261021@hanno.city.tecoli.com",
+  "id": "_dhkm4qr9chpiqpbmcln78b9h60p32b9i60p3cc9g68ok0q31dpn6ubj3d5q7ibjkclhmur395phmur8",
+  "kind": "calendar#event",
+  "location": "こども図書館",
+  "organizer": {
+    "displayName": "こども図書館",
+    "email": "acbe143a7445e2e1f4535e344c71623730bf884986bbba977271328711b25f87@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-lib.jp",
+    "url": "https://www.hanno-lib.jp/calendar/1021.html"
+  },
+  "start": {
+    "date": "2026-10-21"
+  },
+  "status": "confirmed",
+  "summary": "📚 こぐまちゃんタイム(10月21日)",
+  "updated": "2026-10-06T08:13:16.679Z"
+}

@@ -1,0 +1,35 @@
+{
+  "created": "2026-10-06T08:19:57.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nDate and time\nSaturday, October 31, 2026 (Reiwa 8)\n2:00 PM–3:00 PM\n\nLocation\nHanno Children's Library, 2nd Floor, Multipurpose Hall\n\nRegistration\nOpen from 11:00 AM on Wednesday, October 7, 2026 (Reiwa 8)\nRegister at Hanno Children's Library (phone and fax accepted)\n\nCapacity\n20 people (first-come, first-served)\n\nWhat's happening\nWe'll read Halloween-themed picture books aloud, show a panel theater performance, and do crafts (making ghost and pumpkin kendama juggling toys).\n\n※ Please come in costume if you can!\n\nSource (Japanese): https://www.hanno-lib.jp/calendar/1031-1.html",
+  "end": {
+    "date": "2026-11-01"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Roa200cXI5Y2hwaXFwYm1jbG43OGI5aDYwcGoyYjloNWtwMzBjaG02NG8zNmNhMGQxZ21zcmpmNXBobWl0M3A1cHE2YW9yZmRoa2lzb3JmZGsgYmRkN2IyYzlmZDFkN2RlOTZkYTMzYzdiZDQwYWJkZDU2NDAxMzhjODQ0YjYyMzFjOWQ2MDdmY2U0NTYyNDJjM0Bn",
+  "iCalUID": "libkids-event-1031-1-20261031@hanno.city.tecoli.com",
+  "id": "_dhkm4qr9chpiqpbmcln78b9h60pj2b9h5kp30chm64o36ca0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "location": "こども図書館",
+  "organizer": {
+    "displayName": "こども図書館（EN）",
+    "email": "bdd7b2c9fd1d7de96da33c7bd40abdd5640138c844b6231c9d607fce456242c3@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-lib.jp",
+    "url": "https://www.hanno-lib.jp/calendar/1031-1.html"
+  },
+  "start": {
+    "date": "2026-10-31"
+  },
+  "status": "confirmed",
+  "summary": "📚 Halloween Story Time (October 31)",
+  "updated": "2026-10-06T08:19:57.912Z"
+}

@@ -1,0 +1,35 @@
+{
+  "created": "2026-10-06T08:13:21.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "日時\n\n令和8年10月31日(土)\n\n午後2時～3時\n\n場所\n\nこども図書館　2階　多目的ホール\n\n申込\n\n令和8年10月7日(水)午前11時から\n\nこども図書館へ(電話、ファックスも可)\n\n定員\n\n20人(先着順)\n\n内容\n\nハロウィンに関する絵本の読み聞かせやパネルシアター、工作(おばけとかぼちゃのけんだま)をします。\n\n※ぜひ仮装してきてください。\n\nhttps://www.hanno-lib.jp/calendar/1031-1.html",
+  "end": {
+    "date": "2026-11-01"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Roa200cXI5Y2hwaXFwYm1jbG43OGI5aDYwcGoyYjloNWtwMzBjaG02NG8zNmNhMGQxZ21zcmpmNXBobWl0M3A1cHE2YW9yZmRoa2lzb3JmZGsgYWNiZTE0M2E3NDQ1ZTJlMWY0NTM1ZTM0NGM3MTYyMzczMGJmODg0OTg2YmJiYTk3NzI3MTMyODcxMWIyNWY4N0Bn",
+  "iCalUID": "libkids-event-1031-1-20261031@hanno.city.tecoli.com",
+  "id": "_dhkm4qr9chpiqpbmcln78b9h60pj2b9h5kp30chm64o36ca0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "location": "こども図書館",
+  "organizer": {
+    "displayName": "こども図書館",
+    "email": "acbe143a7445e2e1f4535e344c71623730bf884986bbba977271328711b25f87@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-lib.jp",
+    "url": "https://www.hanno-lib.jp/calendar/1031-1.html"
+  },
+  "start": {
+    "date": "2026-10-31"
+  },
+  "status": "confirmed",
+  "summary": "📚 ハロウィンのおはなし会(10月31日)",
+  "updated": "2026-10-06T08:13:22.406Z"
+}

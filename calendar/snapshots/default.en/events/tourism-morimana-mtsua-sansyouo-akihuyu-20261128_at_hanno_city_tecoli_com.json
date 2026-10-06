@@ -1,0 +1,35 @@
+{
+  "created": "2026-10-06T08:24:54.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 10:00–15:00\n\nAutomated translation (refer to source for accuracy)\n\nHanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/morimana-mtsua-sansyouo-akihuyu/\n\nSalamanders have a fascinating lifestyle moving between water and land. Before they arrive at water's edge this season, join us in preparing and conserving the waterside environment to support their breeding.\n\n【Fee】Adults ¥3,000 | Students ¥2,000 | Preschool ¥1,000 (includes guide, insurance, materials)\n\n【Capacity】20 people\n\n【Guide】Mori no Field Gakusha (Forest Field Learning House) staff\n\n【What to bring】Drinking water, lunch (food vendors available on-site), work gloves, change of clothes, towel, rubber boots\n\n【More info】Mori no Field Gakusha: https://morinomanabiya168.wixsite.com/website",
+  "end": {
+    "date": "2026-11-29"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFyYmZlOWttcW9iZWM0bW1xdDNqZWxnaXFzcjFkcHBuaXJybGRzbW0ycXI5ZDFxbml0OWQ2OG8zNGRoaDY0cDNnZzM4YzVuNnNycGVjZGtuOHU5ZWVoaW02cnJjZDRuNjZycmQgZDkxOTNjZjVmNjQ0YWI0MWEyOGUyMjY4YTk4YWJjNWFhNDI2YmQyZDU3NzE1MjgzNDI0NGFkNjlhMzFmNWE2OEBn",
+  "iCalUID": "tourism-morimana-mtsua-sansyouo-akihuyu-20261128@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqrbfe9kmqobec4mmqt3jelgiqsr1dppnirrldsmm2qr9d1qnit9d68o34dhh64p3gg38c5n6srpecdkn8u9eehim6rrcd4n66rrd",
+  "kind": "calendar#event",
+  "location": "集合 メッツァビレッジインフォメーション前（イーグルバス他「メッツァ」下車徒歩3分）",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/morimana-mtsua-sansyouo-akihuyu/"
+  },
+  "start": {
+    "date": "2026-11-28"
+  },
+  "status": "confirmed",
+  "summary": "🌿 Conservation Activity at Metsä: Protecting Tokyo Salamanders",
+  "updated": "2026-10-06T08:24:54.567Z"
+}

@@ -1,0 +1,35 @@
+{
+  "created": "2026-10-06T08:25:11.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 09:30–16:00\n\nAutomated translation (refer to source for accuracy)\n\nHanno Ecotourism Association: https://hanno-tourism.jp/hanno-eco/tour/kirakukai-kadomatu/\n\nCollect materials from local bamboo groves while learning about nature conservation, forestry, and the living culture of the Nishikawa region.\n\n【Fee】Adults ¥3,000, Elementary school children ¥1,500 (includes guide, insurance, materials, and lunch)\n\n【Capacity】20 people\n\n【Guide】NPO Nishikawa Kiraku-kai staff\n\n【What to bring】Work gloves, towel, drinking water, plastic bags, snacks, writing materials",
+  "end": {
+    "date": "2026-12-28"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFxcjllOWdtbXRiYmM1a2lxcXIxY2hubXFvYmtla21qNGMxaTZvb2o0Y2huODFrNjJyamVkc242NnFia2Y0bjc4cGIzZHRtNmliajNkdG1nIGQ5MTkzY2Y1ZjY0NGFiNDFhMjhlMjI2OGE5OGFiYzVhYTQyNmJkMmQ1NzcxNTI4MzQyNDRhZDY5YTMxZjVhNjhAZw",
+  "iCalUID": "tourism-kirakukai-kadomatu-20261227@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqqr9e9gmmtbbc5kiqqr1chnmqobkekmj4c1i6ooj4chn81k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+  "kind": "calendar#event",
+  "location": "集合 西武池袋線「東吾野駅」駅前広場",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/kirakukai-kadomatu/"
+  },
+  "start": {
+    "date": "2026-12-27"
+  },
+  "status": "confirmed",
+  "summary": "Mini Kadomatsu (New Year's decorations) Craft 2026",
+  "updated": "2026-10-06T08:25:11.525Z"
+}

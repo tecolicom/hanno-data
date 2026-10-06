@@ -1,0 +1,34 @@
+{
+  "created": "2026-10-06T08:19:42.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nHanno-Musashi Hanno Tourism Association: https://hanno-tourism.jp/news/ecotour-akihuyu\n\n🆕 New listing (published: October 5, 2026)\n\nHanno Eco-Tour Flyer 2026 Fall-Winter Edition\n\nClick the image to view the PDF file.",
+  "end": {
+    "date": "2026-10-06"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFyajVldHBpcWRoaTY4cWlxb3BnNjloM2dlYTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIGQ5MTkzY2Y1ZjY0NGFiNDFhMjhlMjI2OGE5OGFiYzVhYTQyNmJkMmQ1NzcxNTI4MzQyNDRhZDY5YTMxZjVhNjhAZw",
+  "iCalUID": "tourism-news-6225-c02b89@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqrj5etpiqdhi68qiqopg69h3gea0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/news/ecotour-akihuyu"
+  },
+  "start": {
+    "date": "2026-10-05"
+  },
+  "status": "confirmed",
+  "summary": "📢 Hanno Eco-Tour Flyer 2026 Fall-Winter Edition",
+  "updated": "2026-10-06T08:19:43.109Z"
+}

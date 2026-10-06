@@ -1,0 +1,35 @@
+{
+  "created": "2026-10-06T08:20:06.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 10:00–14:30\n\nAutomated translation (refer to source for accuracy)\n\nHanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/morimana-akinosyuukaku/\n\nAt \"Aoji Sh谷\" (青ジシ谷), a satoyama (foothill village) environment being restored, we grow rice by reviving abandoned paddies.\n\n【Fee】Adults ¥3,000 | Students ¥2,000 | Preschool children ¥1,500 (includes guide, insurance, and tools)\n\n【Capacity】15 people\n\n【Guide】Mori no Field School staff\n\n【What to bring】Drinks, lunch, work gloves, towel, hat, change of clothes, rubber boots\n\n【More info】Mori no Field School website: https://morinomanabiya168.wixsite.com/website",
+  "end": {
+    "date": "2026-11-15"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFyYmZlOWttcW9iZWM0bW0ycXI5ZHBubjZ1YmxlbGxtMnFybDVrcDMwY2htNjRvajJkMjBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIGQ5MTkzY2Y1ZjY0NGFiNDFhMjhlMjI2OGE5OGFiYzVhYTQyNmJkMmQ1NzcxNTI4MzQyNDRhZDY5YTMxZjVhNjhAZw",
+  "iCalUID": "tourism-morimana-akinosyuukaku-20261114@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqrbfe9kmqobec4mm2qr9dpnn6ublellm2qrl5kp30chm64oj2d20d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "location": "集合 飯能市中央公園トイレ前（国際興業バス「OH!!!・天覧山下」下車徒歩1分）",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/morimana-akinosyuukaku/"
+  },
+  "start": {
+    "date": "2026-11-14"
+  },
+  "status": "confirmed",
+  "summary": "Rice farming at Aoji Sh谷 Autumn Harvest Festival",
+  "updated": "2026-10-06T08:20:06.767Z"
+}

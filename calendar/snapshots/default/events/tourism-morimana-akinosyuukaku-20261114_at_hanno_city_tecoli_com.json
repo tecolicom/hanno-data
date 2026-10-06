@@ -1,0 +1,35 @@
+{
+  "created": "2026-10-06T08:13:31.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 10:00–14:30\n\n飯能エコツーリズム協会: https://hanno-tourism.jp/hanno-eco/tour/morimana-akinosyuukaku/\n\n里山環境を再生している「アオジシ谷」では、休耕田を復活させお米を作っています。\n\n【利用料金】大人3,000円、学生2,000円、未就学児1,500円 （ガイド料、保険、道具代）\n\n【定員】15名\n\n【ガイド】森のフィールド学舎スタッフ\n\n【持ち物】飲み物、昼食、軍手、タオル、帽子、着替え、長靴\n\n【備考】森のフィールド学舎HP https://morinomanabiya168.wixsite.com/website",
+  "end": {
+    "date": "2026-11-15"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFyYmZlOWttcW9iZWM0bW0ycXI5ZHBubjZ1YmxlbGxtMnFybDVrcDMwY2htNjRvajJkMjBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIDIwNTQwM2M5NzFkYzVlZjIxZWZkODFjMWQ1Mzg0OWNhZGZkOTAxYjc1Yzc3ZDg4OTU1ZDk2MDBmNDVmMmEwMTNAZw",
+  "iCalUID": "tourism-morimana-akinosyuukaku-20261114@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqrbfe9kmqobec4mm2qr9dpnn6ublellm2qrl5kp30chm64oj2d20d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "location": "集合 飯能市中央公園トイレ前（国際興業バス「OH!!!・天覧山下」下車徒歩1分）",
+  "organizer": {
+    "displayName": "飯能カレンダー",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/morimana-akinosyuukaku/"
+  },
+  "start": {
+    "date": "2026-11-14"
+  },
+  "status": "confirmed",
+  "summary": "アオジシ谷でお米づくり！秋の収穫祭編",
+  "updated": "2026-10-06T08:13:31.299Z"
+}

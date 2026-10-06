@@ -1,0 +1,35 @@
+{
+  "created": "2026-10-06T08:13:42.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 10:00–15:00\n\n飯能エコツーリズム協会: https://hanno-tourism.jp/hanno-eco/tour/morimana-mtsua-sansyouo-akihuyu/\n\n水辺と陸地を行き来する不思議な生き方をするサンショウウオが、水辺にやってくる前のこの時期に、産卵しやすい環境を考えながら水辺環境の整備・保全活動を一緒に行いましょう！\n\n【利用料金】大人3,000円、学生2,000円、未就学児1,000円 （ガイド代、保険代、資料代等）\n\n【定員】20名\n\n【ガイド】森のフィールド学舎スタッフ\n\n【持ち物】飲み物、昼食（施設内に飲食店有り）、軍手（手袋）、着替え、タオル、長靴\n\n【備考】森のフィールド学舎HP https://morinomanabiya168.wixsite.com/website",
+  "end": {
+    "date": "2026-11-29"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFyYmZlOWttcW9iZWM0bW1xdDNqZWxnaXFzcjFkcHBuaXJybGRzbW0ycXI5ZDFxbml0OWQ2OG8zNGRoaDY0cDNnZzM4YzVuNnNycGVjZGtuOHU5ZWVoaW02cnJjZDRuNjZycmQgMjA1NDAzYzk3MWRjNWVmMjFlZmQ4MWMxZDUzODQ5Y2FkZmQ5MDFiNzVjNzdkODg5NTVkOTYwMGY0NWYyYTAxM0Bn",
+  "iCalUID": "tourism-morimana-mtsua-sansyouo-akihuyu-20261128@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqrbfe9kmqobec4mmqt3jelgiqsr1dppnirrldsmm2qr9d1qnit9d68o34dhh64p3gg38c5n6srpecdkn8u9eehim6rrcd4n66rrd",
+  "kind": "calendar#event",
+  "location": "集合 メッツァビレッジインフォメーション前（イーグルバス他「メッツァ」下車徒歩3分）",
+  "organizer": {
+    "displayName": "飯能カレンダー",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/morimana-mtsua-sansyouo-akihuyu/"
+  },
+  "start": {
+    "date": "2026-11-28"
+  },
+  "status": "confirmed",
+  "summary": "メッツァで生きもの保全活動！ トウキョウサンショウウオを守ろう",
+  "updated": "2026-10-06T08:13:42.329Z"
+}

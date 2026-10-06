@@ -1,0 +1,35 @@
+{
+  "created": "2026-10-06T08:25:15.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 13:00–16:00\n\nAutomated translation (refer to source for accuracy)\n\nHanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/kitagawacb-oyakodetakibi/\n\nPerfect for first-timers. Kitagawa Camping Base staff will guide you through everything from wood splitting to cleanup and fire-building techniques.\n\n【Fee】¥5,000 per family (includes guide, insurance, and materials)\n\n【Capacity】3 families, up to 15 people\n\n【Guide】Kitagawa Camping Base staff\n\n【What to bring】Work gloves\n\n【More information】Kitagawa Camping Base website: http://www.kitagawa-cb.jp/",
+  "end": {
+    "date": "2026-12-30"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFxcjllaGdtZW9ibmM1aG00YmJmZjVnbW1ycjRjbHE2MnFyOWM5a2lxY2hnNjhyMzJjaGk3NTA2Z29iZWRwbmlzb3I5ZWhzaXN0MzVjZG5tb3E5ZWNkbm1xIGQ5MTkzY2Y1ZjY0NGFiNDFhMjhlMjI2OGE5OGFiYzVhYTQyNmJkMmQ1NzcxNTI4MzQyNDRhZDY5YTMxZjVhNjhAZw",
+  "iCalUID": "tourism-kitagawacb-oyakodetakibi-20261229@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqqr9ehgmeobnc5hm4bbff5gmmrr4clq62qr9c9kiqchg68r32chi7506gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "集合 喜多川キャンピングベース（飯能市北川318-1） ※電車でお越しの方は西武秩父線「西吾野駅」より送迎します。",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/kitagawacb-oyakodetakibi/"
+  },
+  "start": {
+    "date": "2026-12-29"
+  },
+  "status": "confirmed",
+  "summary": "Family bonfire experience: wood splitting, fire-building, campfire, and s'mores",
+  "updated": "2026-10-06T08:25:15.635Z"
+}

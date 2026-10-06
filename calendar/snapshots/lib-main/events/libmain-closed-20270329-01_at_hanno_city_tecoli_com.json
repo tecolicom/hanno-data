@@ -1,0 +1,35 @@
+{
+  "created": "2026-10-06T08:14:29.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "飯能市立図書館は休館です。\n\nhttps://www.hanno-lib.jp/calendar/",
+  "end": {
+    "date": "2027-03-30"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Roa200cmIxZDVuMnFvcmNkdHBtYXAxZDY4bzM0ZHBnNmNwM2liOWc2NTA2Z29iZWRwbmlzb3I5ZWhzaXN0MzVjZG5tb3E5ZWNkbm1xIDc4NmVlZTU5NWMyMDYzOTg1Yjg3OGQzMTQyZjBjNmZmMDNjMmNiMDg3ZTk5MzllYTYwN2YwNTFmMmM2ODdkN2ZAZw",
+  "iCalUID": "libmain-closed-20270329-01@hanno.city.tecoli.com",
+  "id": "_dhkm4rb1d5n2qorcdtpmap1d68o34dpg6cp3ib9g6506gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能市立図書館",
+  "organizer": {
+    "displayName": "飯能市立図書館",
+    "email": "786eee595c2063985b878d3142f0c6ff03c2cb087e9939ea607f051f2c687d7f@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-lib.jp",
+    "url": "https://www.hanno-lib.jp/calendar/"
+  },
+  "start": {
+    "date": "2027-03-29"
+  },
+  "status": "confirmed",
+  "summary": "🏛 飯能市立図書館 休館",
+  "updated": "2026-10-06T08:14:29.292Z"
+}

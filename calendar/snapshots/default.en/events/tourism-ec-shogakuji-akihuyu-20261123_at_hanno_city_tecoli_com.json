@@ -1,0 +1,35 @@
+{
+  "created": "2026-10-06T08:24:47.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 10:30–14:30\n\nAutomated translation (refer to source for accuracy)\n\nHanno Ecotourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-shogakuji-akihuyu/\n\nExperience Zen training centered on seated meditation (zazen) at Shogakuji, an authorized meditation hall of the Soto Zen school, surrounded by Hanno's nature and the sounds of the river, wind, and birdsong.\n\n【Fee】\n¥7,000 per person (includes guide, lunch, sutra copying, insurance)\n\n【Capacity】\n20 people\n\n【Guide】\nShioi Sanae (Shogakuji)\n\n【What to bring】\nTowel, long pants that are comfortable for sitting meditation (wear them or bring a change)",
+  "end": {
+    "date": "2026-11-24"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bHBtZ3JyN2M1bG5hcWo5NWxnbW1xYjhlbHNuYWI5aTYwcDNjYzloNjhwazBxMzFkcG42dWJqM2Q1cTdpYmprY2xobXVyMzk1cGhtdXI4IGQ5MTkzY2Y1ZjY0NGFiNDFhMjhlMjI2OGE5OGFiYzVhYTQyNmJkMmQ1NzcxNTI4MzQyNDRhZDY5YTMxZjVhNjhAZw",
+  "iCalUID": "tourism-ec-shogakuji-akihuyu-20261123@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqpb35lpmgrr7c5lnaqj95lgmmqb8elsnab9i60p3cc9h68pk0q31dpn6ubj3d5q7ibjkclhmur395phmur8",
+  "kind": "calendar#event",
+  "location": "集合 正覚寺 飯能市上名栗2326（国際興業バス「名郷」下車徒歩1分）",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-shogakuji-akihuyu/"
+  },
+  "start": {
+    "date": "2026-11-23"
+  },
+  "status": "confirmed",
+  "summary": "Zen temple training experience (meditation, dharma talk, sutra copying, vegetarian meal, practice)",
+  "updated": "2026-10-06T08:24:47.589Z"
+}

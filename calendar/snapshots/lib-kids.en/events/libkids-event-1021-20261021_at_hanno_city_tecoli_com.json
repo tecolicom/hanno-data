@@ -1,0 +1,35 @@
+{
+  "created": "2026-10-06T08:19:51.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nWe are holding Koguma-chan Time.\n\nDate and time: October 21, 2026 (Reiwa 8), Wednesday, 11:30–12:00\n\nFor: Ages 0 to about 3\n\nLocation: Hanno Library Children's Section, Story Corner\n\nSource (Japanese): https://www.hanno-lib.jp/calendar/1021.html",
+  "end": {
+    "date": "2026-10-22"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Roa200cXI5Y2hwaXFwYm1jbG43OGI5aDYwcDMyYjlpNjBwM2NjOWc2OG9rMHEzMWRwbjZ1YmozZDVxN2liamtjbGhtdXIzOTVwaG11cjggYmRkN2IyYzlmZDFkN2RlOTZkYTMzYzdiZDQwYWJkZDU2NDAxMzhjODQ0YjYyMzFjOWQ2MDdmY2U0NTYyNDJjM0Bn",
+  "iCalUID": "libkids-event-1021-20261021@hanno.city.tecoli.com",
+  "id": "_dhkm4qr9chpiqpbmcln78b9h60p32b9i60p3cc9g68ok0q31dpn6ubj3d5q7ibjkclhmur395phmur8",
+  "kind": "calendar#event",
+  "location": "こども図書館",
+  "organizer": {
+    "displayName": "こども図書館（EN）",
+    "email": "bdd7b2c9fd1d7de96da33c7bd40abdd5640138c844b6231c9d607fce456242c3@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-lib.jp",
+    "url": "https://www.hanno-lib.jp/calendar/1021.html"
+  },
+  "start": {
+    "date": "2026-10-21"
+  },
+  "status": "confirmed",
+  "summary": "📚 Koguma-chan Time (October 21)",
+  "updated": "2026-10-06T08:19:52.114Z"
+}

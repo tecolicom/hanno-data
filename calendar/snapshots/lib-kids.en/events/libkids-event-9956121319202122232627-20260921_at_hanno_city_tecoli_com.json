@@ -1,0 +1,35 @@
+{
+  "created": "2026-10-06T08:19:33.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nStorytime is held every Saturday, Sunday, and public holiday from 3:00 PM to 3:30 PM.\n\nPlease come in person.\n\nSource (Japanese): https://www.hanno-lib.jp/calendar/9956121319202122232627.html",
+  "end": {
+    "date": "2026-09-22"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Roa200cXI5Y2hwaXFwYm1jbG43OGI5cDc0cWpjYzlpNjRwajJlOWk2MHAzMmNoaTY4cGo0ZGhpNnNtajRjMWk2b28zaWNoaDgxazYycmplZHNuNjZxYmtmNG43OHBiM2R0bTZpYmozZHRtZyBiZGQ3YjJjOWZkMWQ3ZGU5NmRhMzNjN2JkNDBhYmRkNTY0MDEzOGM4NDRiNjIzMWM5ZDYwN2ZjZTQ1NjI0MmMzQGc",
+  "iCalUID": "libkids-event-9956121319202122232627-20260921@hanno.city.tecoli.com",
+  "id": "_dhkm4qr9chpiqpbmcln78b9p74qjcc9i64pj2e9i60p32chi68pj4dhi6smj4c1i6oo3ichh81k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+  "kind": "calendar#event",
+  "location": "こども図書館",
+  "organizer": {
+    "displayName": "こども図書館（EN）",
+    "email": "bdd7b2c9fd1d7de96da33c7bd40abdd5640138c844b6231c9d607fce456242c3@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-lib.jp",
+    "url": "https://www.hanno-lib.jp/calendar/9956121319202122232627.html"
+  },
+  "start": {
+    "date": "2026-09-21"
+  },
+  "status": "confirmed",
+  "summary": "📚 September Storytime (Sept 5, 6, 12, 13, 19, 20, 21, 22, 23, 26, 27)",
+  "updated": "2026-10-06T08:19:33.210Z"
+}

@@ -1,0 +1,35 @@
+{
+  "created": "2026-10-06T08:24:46.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 09:30–14:40\n\nAutomated translation (refer to source for accuracy)\n\nHanno Ecotourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-tanetsuchi-akihuyu/\n\nJoin a tour to build mushroom-style garden rows (kinichan hatake) using fallen leaves and branches, sow autumn vegetable seeds, plant seedlings, and help maintain the garden. A kinichan farming method adviser will explain daily care tips in easy-to-understand steps. Lunch features an Italian meal made with kinichan vegetables, served at a restaurant.\n\n【Participation Fee】Adults ¥8,800 / Junior high school and under ¥2,200 (includes guide, lunch, materials, and insurance)\n\n【Capacity】15 people\n\n【Guide】Hanno Tane to Tsuchi Farm staff\n\n【What to bring】Drinking water, hat, towel, gloves, and other suitable gear",
+  "end": {
+    "date": "2026-11-23"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bHE2MnJqNWVocG5hb3I4ZDRtbTJxcjlkMXFuaXQ5ZDY4bzM0ZGhoNjRwMzRnMzhjNW42c3JwZWNka244dTllZWhpbTZycmNkNG42NnJyZCBkOTE5M2NmNWY2NDRhYjQxYTI4ZTIyNjhhOThhYmM1YWE0MjZiZDJkNTc3MTUyODM0MjQ0YWQ2OWEzMWY1YTY4QGc",
+  "iCalUID": "tourism-ec-tanetsuchi-akihuyu-20261122@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqpb35lq62rj5ehpnaor8d4mm2qr9d1qnit9d68o34dhh64p34g38c5n6srpecdkn8u9eehim6rrcd4n66rrd",
+  "kind": "calendar#event",
+  "location": "集合 ラ・ノーラ前の畑 （飯能市下加治243-25、イーグルバス「飯能靖和病院」下車徒歩8分）",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-tanetsuchi-akihuyu/"
+  },
+  "start": {
+    "date": "2026-11-22"
+  },
+  "status": "confirmed",
+  "summary": "🌱 Hanno Forest Town: Fall Mushroom Field Garden Experience",
+  "updated": "2026-10-06T08:24:46.849Z"
+}

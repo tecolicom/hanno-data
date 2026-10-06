@@ -1,0 +1,35 @@
+{
+  "created": "2026-10-06T08:24:49.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nThe Children's Library is closed.\n\nSource (Japanese): https://www.hanno-lib.jp/calendar/",
+  "end": {
+    "date": "2026-11-28"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Roa200cXI5Y2hwaXFvcmNkdHBtYXAxZDY4bzM0ZGhoNjRwM2ViOWc2NTA2Z29iZWRwbmlzb3I5ZWhzaXN0MzVjZG5tb3E5ZWNkbm1xIGJkZDdiMmM5ZmQxZDdkZTk2ZGEzM2M3YmQ0MGFiZGQ1NjQwMTM4Yzg0NGI2MjMxYzlkNjA3ZmNlNDU2MjQyYzNAZw",
+  "iCalUID": "libkids-closed-20261127-01@hanno.city.tecoli.com",
+  "id": "_dhkm4qr9chpiqorcdtpmap1d68o34dhh64p3eb9g6506gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "こども図書館",
+  "organizer": {
+    "displayName": "こども図書館（EN）",
+    "email": "bdd7b2c9fd1d7de96da33c7bd40abdd5640138c844b6231c9d607fce456242c3@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-lib.jp",
+    "url": "https://www.hanno-lib.jp/calendar/"
+  },
+  "start": {
+    "date": "2026-11-27"
+  },
+  "status": "confirmed",
+  "summary": "🏛 Children's Library Closed",
+  "updated": "2026-10-06T08:24:49.647Z"
+}

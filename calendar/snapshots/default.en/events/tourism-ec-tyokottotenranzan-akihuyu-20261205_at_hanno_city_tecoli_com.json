@@ -1,0 +1,35 @@
+{
+  "created": "2026-10-06T08:24:56.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 15:00–17:00\n\nAutomated translation (refer to source for accuracy)\n\nHanno Eco-Tourism Association\n\nDiscover nature's subtle changes on Tenranzan as you walk with a knowledgeable guide — things you might miss on an ordinary stroll.\n\n【Fee】¥2,000 per person; ¥1,500 for repeat visitors; ¥4,000 per family (includes guide fee and insurance)\n\n【Capacity】10 people\n\n【Guide】Tsubasa Kojima (Wildlife Division)\n\n【What to bring】Drinking water, rain gear, backpack or hands-free bag (recommended), towel, insect repellent",
+  "end": {
+    "date": "2026-12-06"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bHE3aXJyYmR0cTc4cnJrY2xuNzRvYmVmOWdtc2JiMWRka21ndGJwZWttajRjMWk2b29qNGMxbDgxazYycmplZHNuNjZxYmtmNG43OHBiM2R0bTZpYmozZHRtZyBkOTE5M2NmNWY2NDRhYjQxYTI4ZTIyNjhhOThhYmM1YWE0MjZiZDJkNTc3MTUyODM0MjQ0YWQ2OWEzMWY1YTY4QGc",
+  "iCalUID": "tourism-ec-tyokottotenranzan-akihuyu-20261205@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqpb35lq7irrbdtq78rrkcln74obef9gmsbb1ddkmgtbpekmj4c1i6ooj4c1l81k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+  "kind": "calendar#event",
+  "location": "集合 飯能市立博物館前（国際興業バス「OH!!!・天覧山下」または「市民会館・博物館」バス停下車徒歩3分）",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-tyokottotenranzan-akihuyu/"
+  },
+  "start": {
+    "date": "2026-12-05"
+  },
+  "status": "confirmed",
+  "summary": "ちょこっとお手軽ツアー〜天覧山〜",
+  "updated": "2026-10-06T08:24:57.123Z"
+}

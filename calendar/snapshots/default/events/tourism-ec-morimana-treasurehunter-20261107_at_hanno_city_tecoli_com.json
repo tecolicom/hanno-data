@@ -1,0 +1,35 @@
+{
+  "created": "2026-10-06T08:13:25.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 10:30–15:00\n\n飯能エコツーリズム協会: https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-treasurehunter/\n\n自然の中で宝探しを楽しみながら、生きものたちの生態系でのつながりや、里山の魅力を専門学生と一緒に学べる体験型エコツアーです。\n\n【利用料金】大人：2,500円、学生：1,500円、未就学児1,000円 （ガイド、保険、資料、食材費など）\n\n【定員】20名\n\n【ガイド】森のフィールド学舎スタッフ\n\n【持ち物】手袋、飲み物、昼食、着替え、必要であれば虫よけ\n\n【備考】森のフィールド学舎HP https://morinomanabiya168.wixsite.com/website",
+  "end": {
+    "date": "2026-11-08"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFwYjM1bG1tdXNqOWRsZ21zbzlkZWhwNmFvYmplbHA2YXEzbGRwcTZhc2hkNjhvMzRkaGg2NG8zZWczOGM1bjZzcnBlY2Rrbjh1OWVlaGltNnJyY2Q0bjY2cnJkIDIwNTQwM2M5NzFkYzVlZjIxZWZkODFjMWQ1Mzg0OWNhZGZkOTAxYjc1Yzc3ZDg4OTU1ZDk2MDBmNDVmMmEwMTNAZw",
+  "iCalUID": "tourism-ec-morimana-treasurehunter-20261107@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqpb35lmmusj9dlgmso9dehp6aobjelp6aq3ldpq6ashd68o34dhh64o3eg38c5n6srpecdkn8u9eehim6rrcd4n66rrd",
+  "kind": "calendar#event",
+  "location": "集合 飯能市立博物館前（国際興業バス「OH!!!・天覧山下」または「市民会館・博物館」下車徒歩3分）",
+  "organizer": {
+    "displayName": "飯能カレンダー",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-treasurehunter/"
+  },
+  "start": {
+    "date": "2026-11-07"
+  },
+  "status": "confirmed",
+  "summary": "里山トレジャーハンター!!〜大自然の素材でリース作り",
+  "updated": "2026-10-06T08:13:26.233Z"
+}

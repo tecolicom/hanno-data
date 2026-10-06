@@ -1,0 +1,35 @@
+{
+  "created": "2026-10-06T08:13:58.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 13:00–16:00\n\n飯能エコツーリズム協会: https://hanno-tourism.jp/hanno-eco/tour/kitagawacb-oyakodetakibi/\n\n初めての方でも大丈夫。喜多川キャンピングベースのスタッフが薪割から火起こし片付けまでノウハウを教えます。\n\n【利用料金】1家族：5,000円 （ガイド料、保険料、材料費等）\n\n【定員】3家族15名\n\n【ガイド】喜多川キャンピングベース スタッフ\n\n【持ち物】軍手\n\n【備考】喜多川キャンピングベースＨＰ http://www.kitagawa-cb.jp/",
+  "end": {
+    "date": "2026-12-28"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFxcjllaGdtZW9ibmM1aG00YmJmZjVnbW1ycjRjbHE2MnFyOWM5a2lxY2hnNjhyMzJjaGk2dDA2Z29iZWRwbmlzb3I5ZWhzaXN0MzVjZG5tb3E5ZWNkbm1xIDIwNTQwM2M5NzFkYzVlZjIxZWZkODFjMWQ1Mzg0OWNhZGZkOTAxYjc1Yzc3ZDg4OTU1ZDk2MDBmNDVmMmEwMTNAZw",
+  "iCalUID": "tourism-kitagawacb-oyakodetakibi-20261227@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqqr9ehgmeobnc5hm4bbff5gmmrr4clq62qr9c9kiqchg68r32chi6t06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "集合 喜多川キャンピングベース（飯能市北川318-1） ※電車でお越しの方は西武秩父線「西吾野駅」より送迎します。",
+  "organizer": {
+    "displayName": "飯能カレンダー",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/kitagawacb-oyakodetakibi/"
+  },
+  "start": {
+    "date": "2026-12-27"
+  },
+  "status": "confirmed",
+  "summary": "親子で楽しむ焚火体験（薪割・火起こし・焚火・マシュマロ焼き）",
+  "updated": "2026-10-06T08:13:58.909Z"
+}

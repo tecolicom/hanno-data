@@ -1,0 +1,34 @@
+{
+  "created": "2026-10-06T08:19:45.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nHosted by Oku-Musashi Hanno Tourism Association\n\nDiscover, enjoy, and rediscover the value of Hanno's alleys at the \"4th Ichōmecho Alley Play Event.\" Experience intergenerational fun through traditional games and activities in the alleyways.\n\n【Date & Time】October 11, 2026 (Reiwa 8), 10:00 AM–3:00 PM\n【Participation Fee】Free\n【Activities】Street chalk drawing, traditional games (spinning tops, fighting tops, cup-and-ball, origami, hula hoops, trading cards), Go and shogi, special activities by the \"sign artist,\" paper theater shows and picture book exchange\n【Weather】Event held rain or shine. If postponed, will be held October 12, 2026 (Monday, national holiday)\n\nMore information: https://hanno-tourism.jp/news/%e7%ac%ac4%e5%9b%9e%e3%80%80%e4%b8%80%e4%b8%81%e7%9b%ae%e8%b7%af%e5%9c%b0%e3%81%82%e3%81%9d%e3%81%b3",
+  "end": {
+    "date": "2026-10-12"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFyajVldHBpcWRoaTZjcGlxcGJtY2xuNzhnMzhjNW42c3JwZWNka244dTllZWhpbTZycmNkNG42NnJyZCBkOTE5M2NmNWY2NDRhYjQxYTI4ZTIyNjhhOThhYmM1YWE0MjZiZDJkNTc3MTUyODM0MjQ0YWQ2OWEzMWY1YTY4QGc",
+  "iCalUID": "tourism-news-6233-event@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqrj5etpiqdhi6cpiqpbmcln78g38c5n6srpecdkn8u9eehim6rrcd4n66rrd",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/news/%e7%ac%ac4%e5%9b%9e%e3%80%80%e4%b8%80%e4%b8%81%e7%9b%ae%e8%b7%af%e5%9c%b0%e3%81%82%e3%81%9d%e3%81%b3"
+  },
+  "start": {
+    "date": "2026-10-11"
+  },
+  "status": "confirmed",
+  "summary": "🎪 4th Ichōmecho Alley Play Event 10/11 (Sun)",
+  "updated": "2026-10-06T08:19:46.120Z"
+}
