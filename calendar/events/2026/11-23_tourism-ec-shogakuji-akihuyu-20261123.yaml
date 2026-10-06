@@ -28,3 +28,28 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-shogakuji-akihuyu/"
   fetched_at: "2026-10-06T08:10:35.349978Z"
   content_hash: "sha256-08bd3d9b2fa7f4ca"
+translations:
+  en:
+    summary: "Zen temple training experience (meditation, dharma talk, sutra copying, vegetarian meal, practice)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Ecotourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-shogakuji-akihuyu/
+      
+      Experience Zen training centered on seated meditation (zazen) at Shogakuji, an authorized meditation hall of the Soto Zen school, surrounded by Hanno's nature and the sounds of the river, wind, and birdsong.
+      
+      【Fee】
+      ¥7,000 per person (includes guide, lunch, sutra copying, insurance)
+      
+      【Capacity】
+      20 people
+      
+      【Guide】
+      Shioi Sanae (Shogakuji)
+      
+      【What to bring】
+      Towel, long pants that are comfortable for sitting meditation (wear them or bring a change)
+    translation_hash: "sha256-8fcc22869089e3ad"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-06T08:16:55.944568Z"
+    format_version: 3

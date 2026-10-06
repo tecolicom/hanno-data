@@ -30,3 +30,28 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-tochukaso/"
   fetched_at: "2026-10-06T08:10:51.739180Z"
   content_hash: "sha256-9c80d5a7ddf54e84"
+translations:
+  en:
+    summary: "Winter forest treasure hunt! Find the mysterious fungus \"cordyceps\" that grows from insects"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Ecotourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-tochukaso/
+      
+      Once you know the tricks, the forest becomes a treasure hunt. Walk through the winter forest with a guide and search for the mysterious fungus "cordyceps" (冬虫夏草) that grows from insects and other organisms.
+      
+      【Fee】
+      Adults: ¥5,000 | Students: ¥4,000 | Preschool children: ¥2,500
+      (Includes guide, insurance, materials, food, etc.)
+      
+      【Capacity】10 people
+      
+      【Guide】Forest Field Academy (森のフィールド学舎) staff
+      
+      【What to bring】Gloves, snacks, drinking water, lunch, bear bell
+      
+      【More information】Forest Field Academy website: https://morinomanabiya168.wixsite.com/website
+    translation_hash: "sha256-0a4e27ddc1a831f2"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-06T08:18:09.382133Z"
+    format_version: 3

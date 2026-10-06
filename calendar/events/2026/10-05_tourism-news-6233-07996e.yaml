@@ -28,3 +28,21 @@ source:
   fetched_at: "2026-10-06T08:11:19.079990Z"
   modified_gmt: "2026-10-05T07:18:59"
   content_hash: "sha256-07996e4a98c1392a"
+translations:
+  en:
+    summary: "📢 4th Ichōme Alleyway Play Event – October 11 (Sun)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      A community event to discover and reconnect with the alleyways of Hanno. "4th Ichōme Alleyway Play" brings together people of all ages to enjoy traditional games and activities in the alleyways.
+      
+      【Date & Time】October 11, 2026 (Reiwa 8), 10:00 a.m. – 3:00 p.m.
+      【Admission】Free
+      【Activities】Street chalk drawing, traditional games (spinning tops, battling tops, cup-and-ball, origami, hula hoops, Japanese flipping card game), go and shogi, sign-maker's fun activities, paper theater and picture book exchange
+      【Weather】Rain or shine. If postponed, the event will be held on October 12 (Mon, national holiday)
+      
+      For more information: Okumushi Hanno Tourism Association (https://hanno-tourism.jp/news/%e7%ac%ac4%e5%9b%9e%e3%80%80%e4%b8%80%e4%b8%81%e7%9b%ae%e8%b7%af%e5%9c%b0%e3%81%82%e3%81%9d%e3%81%b3)
+    translation_hash: "sha256-9efe880acbc0b5f7"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-06T08:15:24.594354Z"
+    format_version: 3

@@ -23,3 +23,20 @@ source:
   url: "https://www.hanno-lib.jp/calendar/9919.html"
   content_hash: "sha256-ff823171aebaf53f"
   summary_method: "full"
+translations:
+  en:
+    summary: "📚 September Storytelling Session (September 19)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      We are holding a September storytelling session.
+      
+      Date and time: Saturday, September 19, 2026 (Reiwa 8), 2:00 PM to 2:30 PM
+      
+      Location: Children's Library, 2nd Floor, Multi-purpose Hall
+      
+      Source (Japanese): https://www.hanno-lib.jp/calendar/9919.html
+    translation_hash: "sha256-5162722981c4064a"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-06T08:14:53.541494Z"
+    format_version: 3

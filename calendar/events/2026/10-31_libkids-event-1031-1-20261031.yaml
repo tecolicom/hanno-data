@@ -43,3 +43,33 @@ source:
   url: "https://www.hanno-lib.jp/calendar/1031-1.html"
   content_hash: "sha256-b79359ab8c1c315a"
   summary_method: "full"
+translations:
+  en:
+    summary: "📚 Halloween Story Time (October 31)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Date and time
+      Saturday, October 31, 2026 (Reiwa 8)
+      2:00 PM–3:00 PM
+      
+      Location
+      Hanno Children's Library, 2nd Floor, Multipurpose Hall
+      
+      Registration
+      Open from 11:00 AM on Wednesday, October 7, 2026 (Reiwa 8)
+      Register at Hanno Children's Library (phone and fax accepted)
+      
+      Capacity
+      20 people (first-come, first-served)
+      
+      What's happening
+      We'll read Halloween-themed picture books aloud, show a panel theater performance, and do crafts (making ghost and pumpkin kendama juggling toys).
+      
+      ※ Please come in costume if you can!
+      
+      Source (Japanese): https://www.hanno-lib.jp/calendar/1031-1.html
+    translation_hash: "sha256-4e08721de7e1e0ee"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-06T08:16:08.033968Z"
+    format_version: 3

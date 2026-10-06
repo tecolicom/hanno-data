@@ -18,3 +18,16 @@ source:
   id: "20261026-01"
   url: "https://www.hanno-lib.jp/calendar/"
   content_hash: "sha256-fd55971574f99d09"
+translations:
+  en:
+    summary: "🏛 Children's Library Closed"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      The Children's Library is closed.
+      
+      Source (Japanese): https://www.hanno-lib.jp/calendar/
+    translation_hash: "sha256-12010f045c1c8c5c"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-06T08:16:00.236997Z"
+    format_version: 3

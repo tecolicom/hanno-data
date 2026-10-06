@@ -28,3 +28,24 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-moridon-akihuyu/"
   fetched_at: "2026-10-06T08:10:45.700817Z"
   content_hash: "sha256-3f060c2a832b5128"
+translations:
+  en:
+    summary: "Autumn leaves mountain, river, and town walk—Tenranzan, Seseragi Path, and historic storehouses"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-moridon-akihuyu/
+      
+      Hanno is a town of greenery and clear streams. In the past, timber cut in the mountains was lashed into rafts and floated down to Edo and Tokyo for use as lumber.
+      
+      【Fee】¥3,500 per person (includes guide, insurance, lunch, and light refreshments)
+      
+      【Capacity】10 people
+      
+      【Guide】Mori no Donguri-dan staff
+      
+      【What to bring】drinking water, rain gear, ground cloth (picnic blanket), trekking poles (if you have them)
+    translation_hash: "sha256-096c0e2dcc69f160"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-06T08:17:10.335600Z"
+    format_version: 3

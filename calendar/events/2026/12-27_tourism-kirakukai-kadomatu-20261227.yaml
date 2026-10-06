@@ -28,3 +28,24 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/kirakukai-kadomatu/"
   fetched_at: "2026-10-06T08:10:55.139433Z"
   content_hash: "sha256-569845bbc112652a"
+translations:
+  en:
+    summary: "Mini Kadomatsu (New Year's decorations) Craft 2026"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Ecotourism Association: https://hanno-tourism.jp/hanno-eco/tour/kirakukai-kadomatu/
+      
+      Collect materials from local bamboo groves while learning about nature conservation, forestry, and the living culture of the Nishikawa region.
+      
+      【Fee】Adults ¥3,000, Elementary school children ¥1,500 (includes guide, insurance, materials, and lunch)
+      
+      【Capacity】20 people
+      
+      【Guide】NPO Nishikawa Kiraku-kai staff
+      
+      【What to bring】Work gloves, towel, drinking water, plastic bags, snacks, writing materials
+    translation_hash: "sha256-83266ba587c7b61a"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-06T08:18:14.892930Z"
+    format_version: 3

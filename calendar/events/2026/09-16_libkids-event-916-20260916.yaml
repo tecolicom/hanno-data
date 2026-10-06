@@ -25,3 +25,22 @@ source:
   url: "https://www.hanno-lib.jp/calendar/916.html"
   content_hash: "sha256-b77a23546fd5be84"
   summary_method: "full"
+translations:
+  en:
+    summary: "📚 Koguma-chan Time (September 16)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      We will be holding Koguma-chan Time.
+      
+      Date and time　Wednesday, September 16, 2026 (Reiwa 8)　11:30 a.m.–12:00 p.m.
+      
+      For ages　Approximately 0 to 3 years old
+      
+      Location　Children's Library Story Corner
+      
+      Source (Japanese): https://www.hanno-lib.jp/calendar/916.html
+    translation_hash: "sha256-a74b8fcfae8b52f6"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-06T08:14:51.592200Z"
+    format_version: 3

@@ -27,3 +27,25 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/osampo-aki/"
   fetched_at: "2026-10-06T08:10:39.014291Z"
   content_hash: "sha256-33abc44f78fd2d28"
+translations:
+  en:
+    summary: "Autumn Walking Market"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/osampo-aki/
+      
+      Visit the mountain villages of Kuroysashi and Hosoda, where seasonal farm produce and handmade items are displayed outside local homes. Stroll through the scenic mountain paths while shopping and meeting residents. This is a chance to refresh your spirit by exploring the scattered homes and connecting with the community. The entire district welcomes visitors, so come experience the autumn countryside.
+      
+      【Fee】Adults ¥400, elementary school age and under ¥100
+      
+      【Capacity】No limit (first-come, first-served on the day)
+      
+      【What to bring】Water and light snacks
+      
+      【Notes】Organizer: Osampo Market Executive Committee
+      HP https://kamibun.x0.to/
+    translation_hash: "sha256-c3a367feb96e052c"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-06T08:16:41.664128Z"
+    format_version: 3

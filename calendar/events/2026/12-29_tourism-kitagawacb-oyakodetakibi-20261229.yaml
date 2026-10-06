@@ -30,3 +30,26 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/kitagawacb-oyakodetakibi/"
   fetched_at: "2026-10-06T08:10:56.486139Z"
   content_hash: "sha256-6528d7a7f92a5753"
+translations:
+  en:
+    summary: "Family bonfire experience: wood splitting, fire-building, campfire, and s'mores"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/kitagawacb-oyakodetakibi/
+      
+      Perfect for first-timers. Kitagawa Camping Base staff will guide you through everything from wood splitting to cleanup and fire-building techniques.
+      
+      【Fee】¥5,000 per family (includes guide, insurance, and materials)
+      
+      【Capacity】3 families, up to 15 people
+      
+      【Guide】Kitagawa Camping Base staff
+      
+      【What to bring】Work gloves
+      
+      【More information】Kitagawa Camping Base website: http://www.kitagawa-cb.jp/
+    translation_hash: "sha256-c721bef4601702b4"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-06T08:18:25.324525Z"
+    format_version: 3

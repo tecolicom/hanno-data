@@ -30,3 +30,26 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/morimana-mtsua-sansyouo-akihuyu/"
   fetched_at: "2026-10-06T08:10:46.972943Z"
   content_hash: "sha256-e65e691eec66c8ea"
+translations:
+  en:
+    summary: "🌿 Conservation Activity at Metsä: Protecting Tokyo Salamanders"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/morimana-mtsua-sansyouo-akihuyu/
+      
+      Salamanders have a fascinating lifestyle moving between water and land. Before they arrive at water's edge this season, join us in preparing and conserving the waterside environment to support their breeding.
+      
+      【Fee】Adults ¥3,000 | Students ¥2,000 | Preschool ¥1,000 (includes guide, insurance, materials)
+      
+      【Capacity】20 people
+      
+      【Guide】Mori no Field Gakusha (Forest Field Learning House) staff
+      
+      【What to bring】Drinking water, lunch (food vendors available on-site), work gloves, change of clothes, towel, rubber boots
+      
+      【More info】Mori no Field Gakusha: https://morinomanabiya168.wixsite.com/website
+    translation_hash: "sha256-e956220885c43e10"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-06T08:17:18.484389Z"
+    format_version: 3

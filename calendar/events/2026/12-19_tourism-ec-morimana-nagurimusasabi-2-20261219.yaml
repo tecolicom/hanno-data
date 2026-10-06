@@ -30,3 +30,26 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-nagurimusasabi-2/"
   fetched_at: "2026-10-06T08:10:52.902456Z"
   content_hash: "sha256-871c3047fb277a2e"
+translations:
+  en:
+    summary: "Winter night: meet flying squirrels in the forest — woodland life and old stories"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Ecotourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-nagurimusasabi-2/
+      
+      Take a slow walk through the winter forest at night, listening for flying squirrel calls and looking for feeding marks, while you wait to spot them gliding from tree to tree.
+      
+      【Fees】Adults: ¥6,000 | Students: ¥5,000 | Preschool children: ¥3,000 (includes guide, insurance, materials)
+      
+      【Capacity】10 people
+      
+      【Guide】Forest Field Study Hall (Mori no Manabiya) staff
+      
+      【What to bring】Rain gear • drinking water • warm clothing • flashlight to light your footing • snack food
+      
+      【More information】Forest Field Study Hall website: https://morinomanabiya168.wixsite.com/website
+    translation_hash: "sha256-37d8585d87d66e6d"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-06T08:17:53.884415Z"
+    format_version: 3

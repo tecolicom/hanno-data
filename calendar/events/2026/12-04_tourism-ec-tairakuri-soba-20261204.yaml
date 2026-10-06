@@ -30,3 +30,34 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-tairakuri-soba/"
   fetched_at: "2026-10-06T08:10:36.613323Z"
   content_hash: "sha256-d19897b5907ba3c7"
+translations:
+  en:
+    summary: "🎉 Experience making soba noodles and savoring the countryside with all five senses — try your hand at making 28% soba!!"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-tairakuri-soba/
+      
+      You'll experience nearly the entire soba-making process—from preparing the dough to kneading, stretching, and cutting. Then you'll enjoy the soba noodles you made yourself for lunch, served with tempura made from local vegetables.
+      
+      【Fee】
+      • Adults: ¥4,000
+      • Elementary school children: ¥3,000
+      • Preschool children: ¥1,500
+      (Includes guide, insurance, and lunch)
+      
+      【Capacity】
+      2 groups (up to 4 people per group)
+      
+      【Guide】
+      Taira Chestnut Farm (Tairakuri-en) staff
+      
+      【What to bring】
+      Drink, apron, head scarf, towel, mask
+      
+      【Notes】
+      Taira Chestnut Farm website: https://tairakurien.com/
+    translation_hash: "sha256-07fbc800dfef7c75"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-06T08:17:23.833157Z"
+    format_version: 3

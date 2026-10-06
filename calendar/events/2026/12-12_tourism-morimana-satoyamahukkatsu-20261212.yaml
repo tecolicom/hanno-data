@@ -30,3 +30,24 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/morimana-satoyamahukkatsu/"
   fetched_at: "2026-10-06T08:10:48.123782Z"
   content_hash: "sha256-abebd968793ccf54"
+translations:
+  en:
+    summary: "Satoyama Revival Project! Tokyo Salamander Spawning Ground Conservation Work"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      The Hanno Ecotourism Association invites you to participate in conservation work at the water habitats where Tokyo salamanders lay their eggs in the satoyama (traditional village forest).
+      
+      【Fee】Adults ¥3,000 | Students ¥2,500 | Preschool children ¥1,500 (includes guide, insurance, and materials)
+      
+      【Capacity】20 people
+      
+      【Guide】Mori no Field Manabiya staff
+      
+      【What to bring】Drinking water, lunch, work gloves, change of clothes, towel, waterproof boots
+      
+      【Note】For more information, visit Mori no Field Manabiya: https://morinomanabiya168.wixsite.com/website
+    translation_hash: "sha256-9b16252501ea3610"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-06T08:17:41.083615Z"
+    format_version: 3

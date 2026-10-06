@@ -21,3 +21,18 @@ source:
   url: "https://www.hanno-lib.jp/calendar/1010341011121718242531.html"
   content_hash: "sha256-76454bd0e0700d8d"
   summary_method: "full"
+translations:
+  en:
+    summary: "📚 October Storytime (October 3, 4, 10, 11, 12, 17, 18, 24, 25, 31)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Storytime is held every Saturday, Sunday, and public holiday from 3:00 PM to 3:30 PM.
+      
+      Please visit in person.
+      
+      Source (Japanese): https://www.hanno-lib.jp/calendar/1010341011121718242531.html
+    translation_hash: "sha256-18a9d0fe3e6446ef"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-06T08:15:42.226418Z"
+    format_version: 3

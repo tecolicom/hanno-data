@@ -30,3 +30,26 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-tairakuri-soba/"
   fetched_at: "2026-10-06T08:10:36.613146Z"
   content_hash: "sha256-d19897b5907ba3c7"
+translations:
+  en:
+    summary: "Experience traditional soba-making in the countryside — try your hand at making Niwahachi soba!"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Learn soba noodle-making from start to finish — mixing dough, kneading, stretching, and cutting — then enjoy your freshly made soba noodles with locally grown vegetable tempura as lunch.
+      
+      【Fee】Adults ¥4,000 | Elementary school children ¥3,000 | Preschool children ¥1,500 (includes guide, insurance, and lunch)
+      
+      【Capacity】2 groups (up to 4 people per group)
+      
+      【Guide】Taira Chestnut Garden staff
+      
+      【What to bring】Drinks, apron, headscarf, towel, mask
+      
+      【More information】Taira Chestnut Garden: https://tairakurien.com/
+      
+      Organized by Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-tairakuri-soba/
+    translation_hash: "sha256-07fbc800dfef7c75"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-06T08:16:31.468712Z"
+    format_version: 3

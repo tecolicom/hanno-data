@@ -28,3 +28,24 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-logcamp-gibier/"
   fetched_at: "2026-10-06T08:10:44.696609Z"
   content_hash: "sha256-99a2b67e24b00c04"
+translations:
+  en:
+    summary: "Learn about Hanno's game meat! A tour celebrating gratitude for the animals we eat"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Ecotourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-logcamp-gibier/
+      
+      This is an experiential tour that takes you from watching the butchering of deer caught in Hanno to eating game meat cuisine. As part of wildlife damage control—a key issue in mountain communities—you'll tour the processing facility Mujika and learn about current efforts to prevent animal damage to crops and property. Then, with gratitude for the mountain's bounty, you'll enjoy game meat dishes at the restaurant Log Camp.
+      
+      【Fee】 ¥10,000 per person (includes guide, meal, and insurance)
+      
+      【Capacity】 8 people
+      
+      【Guide】 Satoh Yoshinori (NPO crew-L)
+      
+      【What to bring】 Train fare, work gloves, clothes you don't mind getting dirty, comfortable walking shoes
+    translation_hash: "sha256-1db63048697641e6"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-06T08:17:07.240052Z"
+    format_version: 3

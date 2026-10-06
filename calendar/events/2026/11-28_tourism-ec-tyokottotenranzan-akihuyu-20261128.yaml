@@ -28,3 +28,32 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-tyokottotenranzan-akihuyu/"
   fetched_at: "2026-10-06T08:10:30.417972Z"
   content_hash: "sha256-d1ff3e0fffdfd50e"
+translations:
+  en:
+    summary: "Easy-Going Tour ~ Tenranzan Mountain"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-tyokottotenranzan-akihuyu/
+      
+      Walk with a guide and discover subtle changes in nature that you might miss on an ordinary stroll.
+      
+      【Fee】
+      ¥2,000 per person; ¥1,500 for returning visitors; ¥4,000 per family (includes guide fee, insurance, etc.)
+      
+      【Capacity】
+      10 people
+      
+      【Guide】
+      Koji Kojima (Wildlife Section)
+      
+      【What to bring】
+      • Drinking water
+      • Rain gear
+      • Backpack or similar (hands-free bag recommended)
+      • Towel
+      • Insect repellent supplies
+    translation_hash: "sha256-9451adb351ee5cb1"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-06T08:17:14.955086Z"
+    format_version: 3

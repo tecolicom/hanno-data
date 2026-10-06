@@ -18,3 +18,16 @@ source:
   id: "20261102-01"
   url: "https://www.hanno-lib.jp/calendar/"
   content_hash: "sha256-8fa4caca6df7ffe7"
+translations:
+  en:
+    summary: "🏛 Hanno Library Closed"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Library is closed.
+      
+      Source (Japanese): https://www.hanno-lib.jp/calendar/
+    translation_hash: "sha256-4c3b439f08f3d82b"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-06T08:16:12.538547Z"
+    format_version: 3

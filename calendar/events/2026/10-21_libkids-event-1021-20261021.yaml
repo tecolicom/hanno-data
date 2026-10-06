@@ -25,3 +25,22 @@ source:
   url: "https://www.hanno-lib.jp/calendar/1021.html"
   content_hash: "sha256-031eb65c59462879"
   summary_method: "full"
+translations:
+  en:
+    summary: "📚 Koguma-chan Time (October 21)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      We are holding Koguma-chan Time.
+      
+      Date and time: October 21, 2026 (Reiwa 8), Wednesday, 11:30–12:00
+      
+      For: Ages 0 to about 3
+      
+      Location: Hanno Library Children's Section, Story Corner
+      
+      Source (Japanese): https://www.hanno-lib.jp/calendar/1021.html
+    translation_hash: "sha256-8e7a51a814e97245"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-06T08:15:52.183161Z"
+    format_version: 3

@@ -28,3 +28,24 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/kirakukai-yugate-aki/"
   fetched_at: "2026-10-06T08:10:40.045701Z"
   content_hash: "sha256-b2391c4510932d24"
+translations:
+  en:
+    summary: "Taste autumn flavors at Yugate Forest"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/kirakukai-yugate-aki/
+      
+      It's the season of harvest! When mushrooms are at their best, come to Yugate Forest to harvest mushrooms grown on logs as part of forest conservation efforts, prepare mushroom dishes, and enjoy autumn's flavors together.
+      
+      【Fee】Adults ¥3,000 / Children (elementary school and under) ¥2,000 (includes guide, insurance, materials)
+      
+      【Capacity】15 people
+      
+      【Guide】NPO Nishikawa Kiraku-kai Staff
+      
+      【What to bring】Writing materials, lunch (main dish), drinking water, gloves, hat, plastic bags, towel, snacks, rain gear
+    translation_hash: "sha256-827c557c4c168ce0"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-06T08:16:49.230499Z"
+    format_version: 3

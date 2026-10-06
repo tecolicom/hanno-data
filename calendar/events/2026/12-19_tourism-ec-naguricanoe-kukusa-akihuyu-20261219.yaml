@@ -30,3 +30,26 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-naguricanoe-kukusa-akihuyu/"
   fetched_at: "2026-10-06T08:10:49.244557Z"
   content_hash: "sha256-f3b668edd83e21e8"
+translations:
+  en:
+    summary: "Polish your own kuksa (Nordic wooden cup) & enjoy wood-fired pizza lunch"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-naguricanoe-kukusa-akihuyu/
+      
+      A tour where you polish and finish your own kuksa—a traditional Nordic wooden cup made from Hanno-grown timber—and enjoy a wood-fired pizza lunch.
+      
+      【Fee】¥7,000 per person (includes guide, insurance, kuksa kit, and lunch)
+      
+      【Capacity】5 people
+      
+      【Guide】Staff from Certified NPO Naguri Canoe Workshop
+      
+      【What to bring】Apron, drinks
+      
+      【Note】Certified NPO Naguri Canoe Workshop: https://naguri-canoe.co.jp/
+    translation_hash: "sha256-a45a8097389a65d2"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-06T08:17:56.808945Z"
+    format_version: 3

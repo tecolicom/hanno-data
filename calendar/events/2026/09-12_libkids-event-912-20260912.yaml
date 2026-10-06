@@ -45,3 +45,34 @@ source:
   url: "https://www.hanno-lib.jp/calendar/912.html"
   content_hash: "sha256-3b9ab382acf244c1"
   summary_method: "full"
+translations:
+  en:
+    summary: "📚 Workshop: \"Let's Look at River Creatures\" (September 12)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Learn about the creatures living in the Hanno River, draw pictures, and make your own original bookmarks.
+      
+      【When】
+      Saturday, September 12, 2026 (Reiwa 8), 1:30 p.m.–2:45 p.m.
+      
+      【Where】
+      Children's Library Multipurpose Hall
+      
+      【Instructor】
+      Children's Library staff
+      
+      【Who can join】
+      Preschoolers and elementary school students (children under school age must be accompanied by a guardian)
+      
+      【Capacity】
+      20 people (advance registration required; registration closes once capacity is reached)
+      
+      【How to register】
+      From Tuesday, August 18, 2026 (Reiwa 8) at 11:00 a.m., contact the Children's Library by phone or FAX
+      
+      Source (Japanese): https://www.hanno-lib.jp/calendar/912.html
+    translation_hash: "sha256-14c7e1aea418f70b"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-06T08:14:44.588636Z"
+    format_version: 3

@@ -23,3 +23,20 @@ source:
   fetched_at: "2026-10-06T08:11:19.116302Z"
   modified_gmt: "2026-10-05T06:34:29"
   content_hash: "sha256-c02b8997fa98163f"
+translations:
+  en:
+    summary: "📢 Hanno Eco-Tour Flyer 2026 Fall-Winter Edition"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno-Musashi Hanno Tourism Association: https://hanno-tourism.jp/news/ecotour-akihuyu
+      
+      🆕 New listing (published: October 5, 2026)
+      
+      Hanno Eco-Tour Flyer 2026 Fall-Winter Edition
+      
+      Click the image to view the PDF file.
+    translation_hash: "sha256-44c03dc88839fedb"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-06T08:15:20.004030Z"
+    format_version: 3

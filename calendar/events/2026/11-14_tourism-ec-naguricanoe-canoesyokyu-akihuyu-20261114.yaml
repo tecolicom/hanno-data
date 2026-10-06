@@ -30,3 +30,26 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-naguricanoe-canoesyokyu-akihuyu/"
   fetched_at: "2026-10-06T08:10:31.665911Z"
   content_hash: "sha256-c41715c21cf52712"
+translations:
+  en:
+    summary: "Canadian Canoe Beginner Lesson at Lake Naguri—Take It Easy on the Water"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hosted by Hanno Ecotourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-naguricanoe-canoesyokyu-akihuyu/
+      
+      Canadian canoe is an active and dynamic way to paddle using a single-blade paddle, gliding smoothly across the water. Learn steering and control techniques while enjoying the experience.
+      
+      【Fee】 ¥3,000 per person (includes guide, insurance, and canoe rental)
+      
+      【Capacity】 5 people
+      
+      【Guide】 Staff from Certified NPO Naguri Canoe Workshop
+      
+      【What to Bring】 Drinking water (vending machine available at the workshop), sun protection items such as hat or sunglasses as needed
+      
+      【Note】 Certified NPO Naguri Canoe Workshop: https://naguri-canoe.co.jp/
+    translation_hash: "sha256-12aa52295c62c571"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-06T08:16:34.794675Z"
+    format_version: 3

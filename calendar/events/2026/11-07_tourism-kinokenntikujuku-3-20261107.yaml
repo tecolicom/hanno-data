@@ -28,3 +28,24 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/kinokenntikujuku-3/"
   fetched_at: "2026-10-06T08:10:32.772570Z"
   content_hash: "sha256-84ee6186f12d263c"
+translations:
+  en:
+    summary: "Wood House Exploration Tour—From Forest to Home: Part 3 'Carpentry Skills and Traditional Joinery'"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/kinokenntikujuku-3/
+      
+      Forests nurture trees, and skilled craftspeople build homes using traditional methods where wood and craftsmanship shine. Experience the full beauty of wood.
+      
+      【Fee】Adults ¥4,000 | Elementary school children and under ¥1,000 (includes guide, lunch, insurance)
+      
+      【Capacity】20 people
+      
+      【Guides】Takayuki Okabe, Seiichi Oyama (Okabe Lumber)
+      
+      【What to bring】Water bottle, towel, work gloves
+    translation_hash: "sha256-e6c05a9ab3c3d668"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-06T08:16:24.241655Z"
+    format_version: 3

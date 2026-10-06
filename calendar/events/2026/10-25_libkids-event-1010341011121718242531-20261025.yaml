@@ -21,3 +21,18 @@ source:
   url: "https://www.hanno-lib.jp/calendar/1010341011121718242531.html"
   content_hash: "sha256-6b044d5bd5f69efe"
   summary_method: "full"
+translations:
+  en:
+    summary: "📚 October Storytelling Hours (Oct 3, 4, 10, 11, 12, 17, 18, 24, 25, 31)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Storytelling Hours take place every Saturday, Sunday, and holiday at 3:00 p.m. to 3:30 p.m.
+      
+      Please visit us in person.
+      
+      Source (Japanese): https://www.hanno-lib.jp/calendar/1010341011121718242531.html
+    translation_hash: "sha256-18a9d0fe3e6446ef"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-06T08:15:55.564908Z"
+    format_version: 3

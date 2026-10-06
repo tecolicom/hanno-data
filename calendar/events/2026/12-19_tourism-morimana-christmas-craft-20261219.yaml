@@ -30,3 +30,30 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/morimana-christmas-craft/"
   fetched_at: "2026-10-06T08:10:50.621119Z"
   content_hash: "sha256-4c94f4ca0429d630"
+translations:
+  en:
+    summary: "Aojishi Valley Craft – Decorate Christmas with Natural Materials"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/morimana-christmas-craft/
+      
+      In a countryside setting surrounded by nature, create your own original Christmas and New Year decorations. Aojishi Valley, managed by Morimana, has all the nuts and seeds you need for crafting. You'll collect materials yourself, and enjoy nature during fieldwork breaks.
+      
+      【Fee】
+      Adults: ¥5,000
+      Students: ¥4,000
+      Preschool children: ¥2,500
+      (includes guide, insurance, materials, etc.)
+      
+      【Capacity】20 people
+      
+      【Guide】Forest Field School staff
+      
+      【What to bring】Drinking water, change of clothes, work gloves, lunch, towel
+      
+      【More info】Forest Field School website: https://morinomanabiya168.wixsite.com/website
+    translation_hash: "sha256-ab54daaf12a1d96b"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-06T08:17:59.992650Z"
+    format_version: 3
