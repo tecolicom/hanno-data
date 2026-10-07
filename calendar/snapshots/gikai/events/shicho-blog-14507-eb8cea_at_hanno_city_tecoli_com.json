@@ -1,0 +1,34 @@
+{
+  "created": "2026-10-07T22:34:23.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "📝 市長ブログ更新 (公開日: 2026-10-04)\n\n10月4日（日曜日）、有間渓谷観光釣り場、なぐり元気プラザによる釣り大会の表彰式に出席いたしました。\n\n青少年健全育成事業及び地域活性化事業の一環として、大変豊かな自然の中での釣りを通じて、親子のコミュニケーションが十分に図れたのではないかと思います。\n\nこれからも、名栗地域、そして飯能市で様々な体験をしていただければと思います。\n\n写真: https://www.city.hanno.lg.jp/material/images/group/79/081004hannoshicyouhaichallengetsuritaikaithefinalhyousyoushiki.jpg\n\n市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202610/14507.html",
+  "end": {
+    "date": "2026-10-09"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2VkazZpb3I4ZHNtbTRyM2Zjc21qMmQxbDYwcmlxcGIyNzFobWFvYTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIDY3NDU5MTRiMjQzMjMxMTJhMTVmNDNkYzIwYjNhMGY0YTQ4MTdhZmQ4MDBjOGQxNjg3ZDBiZjBiN2Y4OTBjNjFAZw",
+  "iCalUID": "shicho-blog-14507-eb8cea@hanno.city.tecoli.com",
+  "id": "_edk6ior8dsmm4r3fcsmj2d1l60riqpb271hmaoa0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202610/14507.html"
+  },
+  "start": {
+    "date": "2026-10-08"
+  },
+  "status": "confirmed",
+  "summary": "📝 市長：第15回飯能市長杯チャレンジ釣り大会 THE FINAL表彰式",
+  "updated": "2026-10-07T22:34:24.071Z"
+}

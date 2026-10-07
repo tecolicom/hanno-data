@@ -1,0 +1,34 @@
+{
+  "created": "2026-10-07T22:35:03.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n📝 Mayor's blog update (Published: October 4, 2026)\n\nOn Sunday, October 4, I was invited to and attended the following athletic and sports festivals.\n\nEach venue was held successfully through the dedicated efforts of event organizers, local residents, and others.\n\n• 52nd Kaji Sports Festival\n\n• 49th Hanno Central Sports Festival\n\n• 67th Hara-ichiba District Sports Festival\n\nPhoto: https://www.city.hanno.lg.jp/material/images/group/79/081004shinaikakuchikusportssai.jpg\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202610/14509.html",
+  "end": {
+    "date": "2026-10-09"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2VkazZpb3I4ZHNtbTRyM2Zjc21qMmQxbDYwc2lxZHBoY2hqMzJwMjBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIGI2ZjM2ZTE5NzUxYzA1Y2NlOTlmYTAwODI4ZTQyOWY0MGY2ZGIxMDBlMmRiZTQ0MmJjMjYyMmEyNWRhOTczMTZAZw",
+  "iCalUID": "shicho-blog-14509-71df1d@hanno.city.tecoli.com",
+  "id": "_edk6ior8dsmm4r3fcsmj2d1l60siqdphchj32p20d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202610/14509.html"
+  },
+  "start": {
+    "date": "2026-10-08"
+  },
+  "status": "confirmed",
+  "summary": "📝 Mayor: District sports festivals across the city",
+  "updated": "2026-10-07T22:35:04.179Z"
+}

@@ -1,0 +1,34 @@
+{
+  "created": "2026-10-07T22:34:24.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "📝 市長ブログ更新 (公開日: 2026-10-04)\n\n10月4日（日曜日）、下記の体育祭・スポーツ祭にご招待いただき出席してまいりました。\n\n各会場とも大会関係者、地域の方々等のご尽力により盛大に開催されました。\n\n記\n\n・第52回加治スポーツ祭\n\n・第49回飯能中央スポーツ祭\n\n・第67回原市場地区スポーツ祭\n\n写真: https://www.city.hanno.lg.jp/material/images/group/79/081004shinaikakuchikusportssai.jpg\n\n市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202610/14509.html",
+  "end": {
+    "date": "2026-10-09"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2VkazZpb3I4ZHNtbTRyM2Zjc21qMmQxbDYwc2lxZHBoY2hqMzJwMjBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIDY3NDU5MTRiMjQzMjMxMTJhMTVmNDNkYzIwYjNhMGY0YTQ4MTdhZmQ4MDBjOGQxNjg3ZDBiZjBiN2Y4OTBjNjFAZw",
+  "iCalUID": "shicho-blog-14509-71df1d@hanno.city.tecoli.com",
+  "id": "_edk6ior8dsmm4r3fcsmj2d1l60siqdphchj32p20d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202610/14509.html"
+  },
+  "start": {
+    "date": "2026-10-08"
+  },
+  "status": "confirmed",
+  "summary": "📝 市長：市内各地区スポーツ祭",
+  "updated": "2026-10-07T22:34:24.791Z"
+}
