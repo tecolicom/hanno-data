@@ -1,0 +1,32 @@
+uid: "oshirase-7980-9b4e59@hanno.city.tecoli.com"
+summary: "ℹ️ 認知症サポーター養成講座"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/tiikihoukatu/ninchi-sisaku/ninchi-jigyou/7980.html"
+dtstart: "2026-10-08"
+dtend: "2026-10-08"
+description: |-
+  🆕 新着掲載 (公開日: 2026-10-07)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  認知症になっても安心して暮らせるまちづくりを目指し、認知症について正しく理解し、認知症の人や家族をあたたかく見守る応援者「認知症サポーター」を養成する講座を開催しています。現在、飯能市では約10,263人が受講しています。
+  
+  【認知症サポーター養成講座】
+  今後の予定：令和8年10月19日（月曜日）13時30分から16時、総合福祉センター開催。開催日程は広報はんのう等でお知らせします。団体での受講を希望される場合は介護福祉課または各地域包括支援センターにご連絡ください。
+  
+  【認知症サポーター ステップアップ講座】
+  養成講座で学んだことを土台に、実践の場で必要となる認知症に関する知識・対応方法について学べます。対象は飯能市在住・在勤のどなたでも。養成講座未受講でも参加可能です。参加費無料。オレンジリング配布はありません。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/tiikihoukatu/ninchi-sisaku/ninchi-jigyou/7980.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "7980"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/tiikihoukatu/ninchi-sisaku/ninchi-jigyou/7980.html"
+  fetched_at: "2026-10-07T22:32:36.951987Z"
+  content_hash: "sha256-9b4e59b0e4f0289b"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-10-07"

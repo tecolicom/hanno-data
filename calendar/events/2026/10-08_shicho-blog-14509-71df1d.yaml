@@ -1,0 +1,35 @@
+uid: "shicho-blog-14509-71df1d@hanno.city.tecoli.com"
+summary: "📝 市長：市内各地区スポーツ祭"
+url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202610/14509.html"
+dtstart: "2026-10-08"
+dtend: "2026-10-08"
+description: |-
+  📝 市長ブログ更新 (公開日: 2026-10-04)
+  
+  10月4日（日曜日）、下記の体育祭・スポーツ祭にご招待いただき出席してまいりました。
+  
+  各会場とも大会関係者、地域の方々等のご尽力により盛大に開催されました。
+  
+  記
+  
+  ・第52回加治スポーツ祭
+  
+  ・第49回飯能中央スポーツ祭
+  
+  ・第67回原市場地区スポーツ祭
+  
+  写真: https://www.city.hanno.lg.jp/material/images/group/79/081004shinaikakuchikusportssai.jpg
+  
+  市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202610/14509.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-shicho-blog
+  id: "14509"
+  url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202610/14509.html"
+  fetched_at: "2026-10-07T22:32:32.170116Z"
+  content_hash: "sha256-71df1df60158e0f2"
+  publish_date: "2026-10-04"

@@ -1,0 +1,27 @@
+uid: "shicho-blog-14505-ebae7c@hanno.city.tecoli.com"
+summary: "📝 市長：名栗ふるさとまつり2026"
+url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202610/14505.html"
+dtstart: "2026-10-08"
+dtend: "2026-10-08"
+description: |-
+  📝 市長ブログ更新 (公開日: 2026-10-04)
+  
+  10月4日（日曜日）、ノーラ名栗にて開催された「名栗ふるさとまつり2026」にご招待いただき、あいさつさせていただくとともに、各ブースを回らせていただきました。
+  
+  開催にあたりご尽力いただきました関係者の方々に感謝申し上げます。
+  
+  写真: https://www.city.hanno.lg.jp/material/images/group/79/081004nagurifurusatomatsuri2026.jpg
+  
+  市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202610/14505.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-shicho-blog
+  id: "14505"
+  url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202610/14505.html"
+  fetched_at: "2026-10-07T22:32:31.465580Z"
+  content_hash: "sha256-ebae7caea6b419f4"
+  publish_date: "2026-10-04"

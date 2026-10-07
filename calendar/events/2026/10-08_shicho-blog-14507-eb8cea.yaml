@@ -1,0 +1,29 @@
+uid: "shicho-blog-14507-eb8cea@hanno.city.tecoli.com"
+summary: "📝 市長：第15回飯能市長杯チャレンジ釣り大会 THE FINAL表彰式"
+url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202610/14507.html"
+dtstart: "2026-10-08"
+dtend: "2026-10-08"
+description: |-
+  📝 市長ブログ更新 (公開日: 2026-10-04)
+  
+  10月4日（日曜日）、有間渓谷観光釣り場、なぐり元気プラザによる釣り大会の表彰式に出席いたしました。
+  
+  青少年健全育成事業及び地域活性化事業の一環として、大変豊かな自然の中での釣りを通じて、親子のコミュニケーションが十分に図れたのではないかと思います。
+  
+  これからも、名栗地域、そして飯能市で様々な体験をしていただければと思います。
+  
+  写真: https://www.city.hanno.lg.jp/material/images/group/79/081004hannoshicyouhaichallengetsuritaikaithefinalhyousyoushiki.jpg
+  
+  市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202610/14507.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-shicho-blog
+  id: "14507"
+  url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202610/14507.html"
+  fetched_at: "2026-10-07T22:32:30.744532Z"
+  content_hash: "sha256-eb8cea2b1ed9caf7"
+  publish_date: "2026-10-04"
