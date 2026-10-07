@@ -30,3 +30,24 @@ source:
   content_hash: "sha256-9b4e59b0e4f0289b"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-10-07"
+translations:
+  en:
+    summary: "ℹ️ Dementia Supporter Training Course"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      New listing (Published: October 7, 2026)
+      
+      Hanno City is working toward a community where people with dementia can live with peace of mind. We run training courses to foster "dementia supporters"—caring community members who understand dementia correctly and warmly support people with dementia and their families. As of now, about 10,263 people in Hanno City have completed the training.
+      
+      【Dementia Supporter Training Course】
+      Upcoming session: Monday, October 19, 2026 (Reiwa 8), 1:30 p.m. to 4:00 p.m., held at Hanno General Welfare Center. Future session dates will be announced in the city newsletter and other media. If your group would like to arrange a training session, please contact the Care and Welfare Division or your local Community Comprehensive Support Center.
+      
+      【Dementia Supporter Step-Up Course】
+      Builds on what you learned in the basic training course. Learn practical dementia-related knowledge and response methods for real-world situations. Open to anyone who lives or works in Hanno City. You do not need to have completed the basic training course to participate. Free of charge. Orange rings are not distributed in this course.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/tiikihoukatu/ninchi-sisaku/ninchi-jigyou/7980.html
+    translation_hash: "sha256-721d44361b01fcaf"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-07T22:34:44.398872Z"
+    format_version: 3

@@ -27,3 +27,24 @@ source:
   fetched_at: "2026-10-07T22:32:30.744532Z"
   content_hash: "sha256-eb8cea2b1ed9caf7"
   publish_date: "2026-10-04"
+translations:
+  en:
+    summary: "📝 Mayor's Blog: 15th Hanno City Mayor's Cup Challenge Fishing Tournament THE FINAL Award Ceremony"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      📝 Mayor's Blog Update (Published: October 4, 2026)
+      
+      On Sunday, October 4, I attended the award ceremony for the fishing tournament held at Arima Valley Scenic Fishing Grounds and Naguri Genki Plaza.
+      
+      As part of youth development and local revitalization initiatives, I believe fishing in this rich natural setting provided an excellent opportunity for parents and children to communicate with one another.
+      
+      I hope that in the future, visitors will continue to enjoy a variety of experiences in the Naguri area and throughout Hanno City.
+      
+      Photo: https://www.city.hanno.lg.jp/material/images/group/79/081004hannoshicyouhaichallengetsuritaikaithefinalhyousyoushiki.jpg
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202610/14507.html
+    translation_hash: "sha256-f1c7727b162c5d04"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-07T22:34:49.069990Z"
+    format_version: 3

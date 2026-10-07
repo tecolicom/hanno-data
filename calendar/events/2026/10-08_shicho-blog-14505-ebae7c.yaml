@@ -25,3 +25,22 @@ source:
   fetched_at: "2026-10-07T22:32:31.465580Z"
   content_hash: "sha256-ebae7caea6b419f4"
   publish_date: "2026-10-04"
+translations:
+  en:
+    summary: "📝 Mayor: Nagurizato Festival 2026"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      📝 Mayor's Blog Update (Published: October 4, 2026)
+      
+      On Sunday, October 4, I was invited to Nora Naguri, where the Nagurizato Festival 2026 was held. I had the opportunity to give remarks and visit the various booths at the event.
+      
+      I would like to extend my thanks to all those who worked hard to make this event possible.
+      
+      Photo: https://www.city.hanno.lg.jp/material/images/group/79/081004nagurifurusatomatsuri2026.jpg
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202610/14505.html
+    translation_hash: "sha256-dad40cf2227788a9"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-07T22:34:46.070412Z"
+    format_version: 3

@@ -33,3 +33,28 @@ source:
   fetched_at: "2026-10-07T22:32:32.170116Z"
   content_hash: "sha256-71df1df60158e0f2"
   publish_date: "2026-10-04"
+translations:
+  en:
+    summary: "📝 Mayor: District sports festivals across the city"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      📝 Mayor's blog update (Published: October 4, 2026)
+      
+      On Sunday, October 4, I was invited to and attended the following athletic and sports festivals.
+      
+      Each venue was held successfully through the dedicated efforts of event organizers, local residents, and others.
+      
+      • 52nd Kaji Sports Festival
+      
+      • 49th Hanno Central Sports Festival
+      
+      • 67th Hara-ichiba District Sports Festival
+      
+      Photo: https://www.city.hanno.lg.jp/material/images/group/79/081004shinaikakuchikusportssai.jpg
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202610/14509.html
+    translation_hash: "sha256-413c04ac04f13867"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-07T22:34:51.804655Z"
+    format_version: 3

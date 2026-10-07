@@ -49,3 +49,45 @@ source:
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-10-05"
   supersedes: "oshirase-12265-8c400a@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ Donations and relief funds accepted"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content updated (published: October 5, 2026 / previously posted: September 11, 2026)
+      
+      Main changes: The acceptance deadline for the 2026 Kumamoto Earthquake Relief Fund has been extended from October 23, 2026 (Reiwa 8) to March 22, 2027 (Reiwa 9). The 2026 Typhoon No. 25 Relief Fund (Chiba Prefecture) has been newly added. The 2026 Venezuela Earthquake Relief Fund acceptance has ended.
+      
+      The Japanese Red Cross Society Saitama Branch Hanno District accepts donations for domestic disaster relief and international humanitarian assistance.
+      
+      【Domestic Disaster Relief Funds (Currently Accepting)】
+      • 2024 Noto Peninsula Earthquake Relief Fund (Ishikawa, Toyama, Niigata prefectures) — Deadline: March 22, 2027 (Reiwa 9)
+      • September 2024 Noto Peninsula Heavy Rain Relief Fund (Ishikawa) — Deadline: March 22, 2027
+      • 2026 Kumamoto Earthquake Relief Fund (Kumamoto) — Deadline: March 22, 2027
+      • July 2026 Landslide Disaster Relief Fund, Koka City, Shiga Prefecture — Deadline: January 22, 2027
+      • August 2026 Chiba Heavy Rain Relief Fund (Chiba) — Deadline: March 22, 2027
+      • Heavy Rain Disaster Relief Fund from August 27, 2026 (Toyama & Ishikawa: January 22, 2027 / Fukui: November 30, 2026)
+      • 2026 Typhoon No. 25 Relief Fund (Chiba) — Deadline: March 22, 2027
+      
+      【International Humanitarian Relief Funds (Currently Accepting)】
+      • Middle East Humanitarian Crisis Relief Fund — Deadline: March 23, 2027
+      • Bangladesh Southern Refugee Relief Fund — Deadline: March 23, 2027
+      • Ukraine Humanitarian Crisis Relief Fund — Deadline: March 23, 2027
+      • 2026 Colombia Earthquake Relief Fund — Deadline: November 24, 2026
+      • 2026 Nepal Flood Relief Fund — Deadline: November 24, 2026
+      • Undesignated International Relief Fund — Accepts year-round
+      
+      【Where to Donate】
+      Hanno City Hall main building, front entrance general information desk (donation box) or Community Welfare Division (1st floor, Window 11)
+      
+      【Hours】
+      Weekdays 9:00 AM to 4:30 PM
+      
+      Receipts are available upon request at the Community Welfare Division (1st floor, Window 11).
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/chiikifukushika/fukushisoumu/12265.html
+    translation_hash: "sha256-012d4a544ed8ac95"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-07T22:34:39.728327Z"
+    format_version: 3
