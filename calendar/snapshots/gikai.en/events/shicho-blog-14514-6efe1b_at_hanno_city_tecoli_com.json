@@ -1,0 +1,34 @@
+{
+  "created": "2026-10-08T22:47:27.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n📝 Mayor's Blog Update (Published: October 6, 2026)\n\nOn Tuesday, October 6, Hanno City and Safety Union Corporation signed the \"Accord on Crime Prevention and Disaster Preparedness for Safe and Secure Community Development in Hanno City.\"\n\nSafety Union Corporation, based in Hanno, is a security company that has long supported community safety and peace of mind. They handle a wide range of needs—from traffic control services to event security and facility security. They aim not just to protect places and people, but to help our community enjoy safe, secure, and happy daily lives. They also work hard to train security staff who can help anyone in need.\n\nRecently, as disasters have become more severe and crimes more complex and sophisticated, citizens' interest in safety and peace of mind has grown. To strengthen our community's crime prevention and disaster preparedness capacity and build a safer, more secure town, we decided to sign this accord.\n\nGoing forward, both sides will work together to promote disaster and emergency response efforts, and we will cooperate to develop initiatives that lead to community vitalization.\n\nPhoto: https://www.city.hanno.lg.jp/material/images/group/79/081006safetyunionteiketsushiki.jpg\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202610/14514.html",
+  "end": {
+    "date": "2026-10-10"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2VkazZpb3I4ZHNtbTRyM2Zjc21qMmQxbDY0cTJxZGo1Y3BpajJvaTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIGI2ZjM2ZTE5NzUxYzA1Y2NlOTlmYTAwODI4ZTQyOWY0MGY2ZGIxMDBlMmRiZTQ0MmJjMjYyMmEyNWRhOTczMTZAZw",
+  "iCalUID": "shicho-blog-14514-6efe1b@hanno.city.tecoli.com",
+  "id": "_edk6ior8dsmm4r3fcsmj2d1l64q2qdj5cpij2oi0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202610/14514.html"
+  },
+  "start": {
+    "date": "2026-10-09"
+  },
+  "status": "confirmed",
+  "summary": "📝 Mayor's Statement: Hanno City Signs Crime Prevention and Disaster Preparedness Accord with Safety Union Corporation",
+  "updated": "2026-10-08T22:47:28.283Z"
+}

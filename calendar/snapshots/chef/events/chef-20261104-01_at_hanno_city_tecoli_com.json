@@ -1,16 +1,16 @@
 {
-  "created": "2026-09-29T21:47:32.000Z",
+  "created": "2026-09-29T21:47:42.000Z",
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "焼きたてベーグル、ドリンク\n\nhttps://www.hanno-cci.or.jp/manage/founded/#02",
+  "description": "生ドーナツ、ドリンク\n\nhttps://www.hanno-cci.or.jp/manage/founded/#02",
   "end": {
-    "date": "2026-10-13"
+    "date": "2026-11-05"
   },
   "eventType": "default",
-  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkazZhcGhkNjhvMzRkaGg2MG9qNGI5ZzY1MDZnb2JlZHBuaXNvcjllaHNpc3QzNWNkbm1vcTllY2RubXEgYWUxNTc3ZjM2ZDJiNTFkYjIwOGJhZWM1OWNjODRlOTBjZWFiMjVkNDFiYWQxNjZiNDJjMzdmYjcwNjNmNGE0NkBn",
-  "iCalUID": "chef-20261012-01@hanno.city.tecoli.com",
-  "id": "_cdk6aphd68o34dhh60oj4b9g6506gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkazZhcGhkNjhvMzRkaGg2NG8zOGI5ZzY1MDZnb2JlZHBuaXNvcjllaHNpc3QzNWNkbm1vcTllY2RubXEgYWUxNTc3ZjM2ZDJiNTFkYjIwOGJhZWM1OWNjODRlOTBjZWFiMjVkNDFiYWQxNjZiNDJjMzdmYjcwNjNmNGE0NkBn",
+  "iCalUID": "chef-20261104-01@hanno.city.tecoli.com",
+  "id": "_cdk6aphd68o34dhh64o38b9g6506gobedpnisor9ehsist35cdnmoq9ecdnmq",
   "kind": "calendar#event",
   "location": "日替わりシェフレストラン",
   "organizer": {
@@ -27,9 +27,9 @@
     "url": "https://www.hanno-cci.or.jp/manage/founded/#02"
   },
   "start": {
-    "date": "2026-10-12"
+    "date": "2026-11-04"
   },
   "status": "confirmed",
-  "summary": "Bouguet　Bagle",
-  "updated": "2026-09-29T21:47:33.096Z"
+  "summary": "N.Teatime",
+  "updated": "2026-10-08T22:46:59.179Z"
 }

@@ -1,0 +1,34 @@
+{
+  "created": "2026-10-08T22:47:27.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🔄 Content updated (Published: October 8, 2026 / Previously posted: July 30, 2026)\nMain changes: \"Ended\" added to article title and event dates now shown in past tense. Number of exhibits (97 from elementary students, 18 from middle school students, 125 total) and research presentation results (7 special award winners presented, 40+ visitors) newly recorded.\n\n【Event Period】\n\nHeld from Saturday, September 12 through Sunday, September 27, 2026 (Reiwa 8).\n\n(Note) The venue was closed on Monday, September 14 and Thursday, September 24, and Friday, September 25.\n\n【Hours】\n\n9:30 a.m. to 4:30 p.m.\n\nOn Friday, September 18 and Saturday, September 26, hours were extended until 7:00 p.m.\n\n【Venue】\n\nHanno City Museum Special Exhibition Room and Exhibition Hall\n\n【Number of Exhibits】\n\nElementary School Division: 97 works\n\nMiddle School Division: 18 works\n\nTotal: 125 works\n\n【Related Event: Research Presentation Session】\n\nHeld on Sunday, September 27 (the final day of the exhibition) in Meeting Room 202 of Hanno City Civic Hall.\n\nOn the day, 7 of those who received special awards gave presentations, and over 40 visitors attended.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/tenji_moyooshimono/13839.html",
+  "end": {
+    "date": "2026-10-10"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3MzNmU5ZDZrbzNlcDFuNnQwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-13839-507d77@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6cs36e9d6ko3ep1n6t06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/tenji_moyooshimono/13839.html"
+  },
+  "start": {
+    "date": "2026-10-09"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 【Ended】29th Hanno City Elementary and Middle School Social Studies Research Exhibition",
+  "updated": "2026-10-08T22:47:27.508Z"
+}

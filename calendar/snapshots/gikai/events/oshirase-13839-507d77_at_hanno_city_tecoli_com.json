@@ -1,0 +1,34 @@
+{
+  "created": "2026-10-08T22:46:57.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🔄 内容更新 (公開日: 2026-10-08 / 前回掲載: 2026-07-30)\n主な変更: 【終了しました】と記事タイトルが追加され、会期が過去形で表記されました。出展数（小学生97点、中学生18点、合計125点）と研究発表会の実績（特別賞受賞者7名が発表、来場者40名以上）が新たに記載されました。\n\n## 会期\n\n令和8年9月12日(土曜日)から9月27日(日曜日)まで開催しました。\n\n(注意)9月14日(月曜日)・24日(木曜日)、25日（金曜日）は休館日でした。\n\n## 時間\n\n午前9時30分から午後4時30分まで。\n\n9月18日(金曜日)、26日（土曜日）は午後7時まで延長しました。\n\n## 会場\n\n飯能市立博物館 特別展示室・展示ホール\n\n## 出展数\n\n小学生の部 97点\n\n中学生の部 18点\n\n合計    125点\n\n## 関連事業 研究発表会\n\n展示最終日である9月27日（日曜日）に、飯能市市民会館202会議室にて開催しました。\n\n当日は特別賞を受賞した方の中から7名が発表を行い、40名以上の方にご来場いただきました。\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/tenji_moyooshimono/13839.html",
+  "end": {
+    "date": "2026-10-10"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3MzNmU5ZDZrbzNlcDFuNnQwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSA2NzQ1OTE0YjI0MzIzMTEyYTE1ZjQzZGMyMGIzYTBmNGE0ODE3YWZkODAwYzhkMTY4N2QwYmYwYjdmODkwYzYxQGc",
+  "iCalUID": "oshirase-13839-507d77@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6cs36e9d6ko3ep1n6t06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/tenji_moyooshimono/13839.html"
+  },
+  "start": {
+    "date": "2026-10-09"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 【終了しました】第29回 飯能市小・中学校社会科研究展",
+  "updated": "2026-10-08T22:46:57.614Z"
+}
