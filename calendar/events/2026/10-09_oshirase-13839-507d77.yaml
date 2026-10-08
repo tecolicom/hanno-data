@@ -52,3 +52,47 @@ source:
   summary_method: "full"
   publish_date: "2026-10-08"
   supersedes: "oshirase-13839-12d4c1@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ 【Ended】29th Hanno City Elementary and Middle School Social Studies Research Exhibition"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content updated (Published: October 8, 2026 / Previously posted: July 30, 2026)
+      Main changes: "Ended" added to article title and event dates now shown in past tense. Number of exhibits (97 from elementary students, 18 from middle school students, 125 total) and research presentation results (7 special award winners presented, 40+ visitors) newly recorded.
+      
+      【Event Period】
+      
+      Held from Saturday, September 12 through Sunday, September 27, 2026 (Reiwa 8).
+      
+      (Note) The venue was closed on Monday, September 14 and Thursday, September 24, and Friday, September 25.
+      
+      【Hours】
+      
+      9:30 a.m. to 4:30 p.m.
+      
+      On Friday, September 18 and Saturday, September 26, hours were extended until 7:00 p.m.
+      
+      【Venue】
+      
+      Hanno City Museum Special Exhibition Room and Exhibition Hall
+      
+      【Number of Exhibits】
+      
+      Elementary School Division: 97 works
+      
+      Middle School Division: 18 works
+      
+      Total: 125 works
+      
+      【Related Event: Research Presentation Session】
+      
+      Held on Sunday, September 27 (the final day of the exhibition) in Meeting Room 202 of Hanno City Civic Hall.
+      
+      On the day, 7 of those who received special awards gave presentations, and over 40 visitors attended.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/tenji_moyooshimono/13839.html
+    translation_hash: "sha256-c45c01b65aa4306a"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-08T22:47:12.997511Z"
+    format_version: 3

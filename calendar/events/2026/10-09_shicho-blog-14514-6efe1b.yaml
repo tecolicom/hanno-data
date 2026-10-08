@@ -29,3 +29,26 @@ source:
   fetched_at: "2026-10-08T22:45:11.670670Z"
   content_hash: "sha256-6efe1bfea580e8f2"
   publish_date: "2026-10-06"
+translations:
+  en:
+    summary: "📝 Mayor's Statement: Hanno City Signs Crime Prevention and Disaster Preparedness Accord with Safety Union Corporation"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      📝 Mayor's Blog Update (Published: October 6, 2026)
+      
+      On Tuesday, October 6, Hanno City and Safety Union Corporation signed the "Accord on Crime Prevention and Disaster Preparedness for Safe and Secure Community Development in Hanno City."
+      
+      Safety Union Corporation, based in Hanno, is a security company that has long supported community safety and peace of mind. They handle a wide range of needs—from traffic control services to event security and facility security. They aim not just to protect places and people, but to help our community enjoy safe, secure, and happy daily lives. They also work hard to train security staff who can help anyone in need.
+      
+      Recently, as disasters have become more severe and crimes more complex and sophisticated, citizens' interest in safety and peace of mind has grown. To strengthen our community's crime prevention and disaster preparedness capacity and build a safer, more secure town, we decided to sign this accord.
+      
+      Going forward, both sides will work together to promote disaster and emergency response efforts, and we will cooperate to develop initiatives that lead to community vitalization.
+      
+      Photo: https://www.city.hanno.lg.jp/material/images/group/79/081006safetyunionteiketsushiki.jpg
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202610/14514.html
+    translation_hash: "sha256-e8e929162b9991b7"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-08T22:47:17.098086Z"
+    format_version: 3
