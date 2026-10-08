@@ -1,11 +1,11 @@
-uid: "chef-20261012-01@hanno.city.tecoli.com"
-summary: "Bouguet　Bagle"
+uid: "chef-20261118-01@hanno.city.tecoli.com"
+summary: "N.Teatime"
 location: "日替わりシェフレストラン"
 url: "https://www.hanno-cci.or.jp/manage/founded/#02"
-dtstart: "2026-10-12"
-dtend: "2026-10-12"
+dtstart: "2026-11-18"
+dtend: "2026-11-18"
 description: |-
-  焼きたてベーグル、ドリンク
+  生ドーナツ、ドリンク
   
   https://www.hanno-cci.or.jp/manage/founded/#02
 
@@ -15,6 +15,6 @@ render:
 
 source:
   type: hanno-cci-chef
-  id: "20261012-01"
+  id: "20261118-01"
   url: "https://www.hanno-cci.or.jp/manage/founded/#02"
-  content_hash: "sha256-70ca1ac0ee36af2d"
+  content_hash: "sha256-6b5f66e571ef1e2e"

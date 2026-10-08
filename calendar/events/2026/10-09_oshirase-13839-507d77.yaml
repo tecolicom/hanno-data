@@ -1,0 +1,54 @@
+uid: "oshirase-13839-507d77@hanno.city.tecoli.com"
+summary: "ℹ️ 【終了しました】第29回 飯能市小・中学校社会科研究展"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/tenji_moyooshimono/13839.html"
+dtstart: "2026-10-09"
+dtend: "2026-10-09"
+description: |-
+  🔄 内容更新 (公開日: 2026-10-08 / 前回掲載: 2026-07-30)
+  主な変更: 【終了しました】と記事タイトルが追加され、会期が過去形で表記されました。出展数（小学生97点、中学生18点、合計125点）と研究発表会の実績（特別賞受賞者7名が発表、来場者40名以上）が新たに記載されました。
+  
+  ## 会期
+  
+  令和8年9月12日(土曜日)から9月27日(日曜日)まで開催しました。
+  
+  (注意)9月14日(月曜日)・24日(木曜日)、25日（金曜日）は休館日でした。
+  
+  ## 時間
+  
+  午前9時30分から午後4時30分まで。
+  
+  9月18日(金曜日)、26日（土曜日）は午後7時まで延長しました。
+  
+  ## 会場
+  
+  飯能市立博物館 特別展示室・展示ホール
+  
+  ## 出展数
+  
+  小学生の部 97点
+  
+  中学生の部 18点
+  
+  合計    125点
+  
+  ## 関連事業 研究発表会
+  
+  展示最終日である9月27日（日曜日）に、飯能市市民会館202会議室にて開催しました。
+  
+  当日は特別賞を受賞した方の中から7名が発表を行い、40名以上の方にご来場いただきました。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/tenji_moyooshimono/13839.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13839"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/tenji_moyooshimono/13839.html"
+  fetched_at: "2026-10-08T22:45:17.014490Z"
+  content_hash: "sha256-507d777719c7aa16"
+  summary_method: "full"
+  publish_date: "2026-10-08"
+  supersedes: "oshirase-13839-12d4c1@hanno.city.tecoli.com"

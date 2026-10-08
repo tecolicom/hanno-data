@@ -1,0 +1,31 @@
+uid: "shicho-blog-14514-6efe1b@hanno.city.tecoli.com"
+summary: "📝 市長：株式会社セーフティユニオンとの「飯能市防犯及び防災のまちづくり推進に関する協定」締結式"
+url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202610/14514.html"
+dtstart: "2026-10-09"
+dtend: "2026-10-09"
+description: |-
+  📝 市長ブログ更新 (公開日: 2026-10-06)
+  
+  10月6日（火曜日）、本市と株式会社セーフティユニオンは「飯能市防犯及び防災のまちづくり推進に関する協定」を締結しました。
+  
+  株式会社セーフティユニオン様は、飯能市を拠点に、地域の安全・安心を支えてきた警備会社で、交通誘導警備をはじめ、イベント警備、施設警備など様々なニーズに対応され、「場所」や「人」を守るだけでなく、社会や地域の人々が、安全・安心に、楽しくすごせる毎日を創っていくことを目指すとともに、どんな人が困っていても助けられる警備員の育成などに努められています。
+  
+  昨今は、災害の激甚化や、犯罪の複雑・巧妙化によって、市民の安全・安心に対する関心が高まっていることから、地域の防犯・防災力の向上を図り、安全で安心なまちづくりに取り組んでいくため、飯能市防犯及び防災のまちづくり推進に関する協定を締結することといたしました。
+  
+  今後、双方が連携して、防災・災害対策を推進し、地域活性化につながる取組が展開できるよう相互に協力してまいります。
+  
+  写真: https://www.city.hanno.lg.jp/material/images/group/79/081006safetyunionteiketsushiki.jpg
+  
+  市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202610/14514.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-shicho-blog
+  id: "14514"
+  url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202610/14514.html"
+  fetched_at: "2026-10-08T22:45:11.670670Z"
+  content_hash: "sha256-6efe1bfea580e8f2"
+  publish_date: "2026-10-06"
