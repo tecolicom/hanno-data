@@ -1,0 +1,25 @@
+uid: "tourism-news-6238-edb0d0@hanno.city.tecoli.com"
+summary: "📢 OH!!!創業祭 ６th Anniversary 10/10(土)･11(日)･12(月/祝）開催❣"
+url: "https://hanno-tourism.jp/news/oh%e5%89%b5%e6%a5%ad%e7%a5%ad%e3%80%80%ef%bc%96th-anniversary%e3%80%8010-10%e5%9c%9f%ef%bd%a511%e6%97%a5%ef%bd%a512%e6%9c%88-%e7%a5%9d%ef%bc%89%e9%96%8b%e5%82%ac%e2%9d%a3"
+dtstart: "2026-10-09"
+dtend: "2026-10-09"
+description: |-
+  奥むさし飯能観光協会: https://hanno-tourism.jp/news/oh%e5%89%b5%e6%a5%ad%e7%a5%ad%e3%80%80%ef%bc%96th-anniversary%e3%80%8010-10%e5%9c%9f%ef%bd%a511%e6%97%a5%ef%bd%a512%e6%9c%88-%e7%a5%9d%ef%bc%89%e9%96%8b%e5%82%ac%e2%9d%a3
+  
+  🆕 新着掲載 (公開日: 2026-10-09)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  OH!!!創業祭 6th Anniversary を10月10日(土)・11日(日)・12日(月/祝)に開催。天覧山のふもとのOH!!!で、ガラポン大抽選会、縁日、さつまいもぴったり詰め、ワークショップなど開催。
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-tourism-jp-news
+  id: "6238"
+  url: "https://hanno-tourism.jp/news/oh%e5%89%b5%e6%a5%ad%e7%a5%ad%e3%80%80%ef%bc%96th-anniversary%e3%80%8010-10%e5%9c%9f%ef%bd%a511%e6%97%a5%ef%bd%a512%e6%9c%88-%e7%a5%9d%ef%bc%89%e9%96%8b%e5%82%ac%e2%9d%a3"
+  fetched_at: "2026-10-09T22:08:13.296393Z"
+  modified_gmt: "2026-10-09T02:23:38"
+  content_hash: "sha256-edb0d0b84a11d7f5"

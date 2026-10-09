@@ -1,0 +1,25 @@
+uid: "tourism-news-6243-fa3d95@hanno.city.tecoli.com"
+summary: "📢 飯能河原のプレミアムBBQエリアでゆったり秋のバーベキュー♪"
+url: "https://hanno-tourism.jp/news/%e9%a3%af%e8%83%bd%e6%b2%b3%e5%8e%9f%e3%81%ae%e3%83%97%e3%83%ac%e3%83%9f%e3%82%a2%e3%83%a0bbq%e3%82%a8%e3%83%aa%e3%82%a2%e3%81%a7%e3%82%86%e3%81%a3%e3%81%9f%e3%82%8a%e7%a7%8b%e3%81%ae%e3%83%90"
+dtstart: "2026-10-09"
+dtend: "2026-10-09"
+description: |-
+  奥むさし飯能観光協会: https://hanno-tourism.jp/news/%e9%a3%af%e8%83%bd%e6%b2%b3%e5%8e%9f%e3%81%ae%e3%83%97%e3%83%ac%e3%83%9f%e3%82%a2%e3%83%a0bbq%e3%82%a8%e3%83%aa%e3%82%a2%e3%81%a7%e3%82%86%e3%81%a3%e3%81%9f%e3%82%8a%e7%a7%8b%e3%81%ae%e3%83%90
+  
+  🆕 新着掲載 (公開日: 2026-10-09)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  飯能河原のプレミアムBBQエリアで秋のバーベキューを受付中。土日祝日限定。駅から徒歩15分。機材セット済みのおまかせプランと、自身の機材を持ち込むプランがあります。食材、炭、食器・消耗品類のみのお持ち込みでOK。1組4名様以上からご利用いただけます。
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-tourism-jp-news
+  id: "6243"
+  url: "https://hanno-tourism.jp/news/%e9%a3%af%e8%83%bd%e6%b2%b3%e5%8e%9f%e3%81%ae%e3%83%97%e3%83%ac%e3%83%9f%e3%82%a2%e3%83%a0bbq%e3%82%a8%e3%83%aa%e3%82%a2%e3%81%a7%e3%82%86%e3%81%a3%e3%81%9f%e3%82%8a%e7%a7%8b%e3%81%ae%e3%83%90"
+  fetched_at: "2026-10-09T22:08:10.511020Z"
+  modified_gmt: "2026-10-09T07:28:51"
+  content_hash: "sha256-fa3d952bd090cdc3"
