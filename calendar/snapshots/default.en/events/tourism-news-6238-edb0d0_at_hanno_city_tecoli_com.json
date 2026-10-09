@@ -1,0 +1,34 @@
+{
+  "created": "2026-10-09T22:10:36.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nOH!!! Founding Festival 6th Anniversary will be held October 10–12, 2026 (Reiwa 8) at OH!!!, located at the foot of Tenranzan mountain.\n\nEvent features:\n• Prize lottery (garapon)\n• Festival food stalls\n• Sweet potato packing challenge\n• Workshops\n\nFor details, visit: https://hanno-tourism.jp/news/oh%e5%89%b5%e6%a5%ad%e7%a5%ad%e3%80%80%ef%bc%96th-anniversary%e3%80%8010-10%e5%9c%9f%e5%b8%8b11%e6%97%a5%e5%b8%8b12%e6%9c%88-%e7%a5%9d%ef%bc%89%e9%96%8b%e5%82%ac%e2%9d%a3",
+  "end": {
+    "date": "2026-10-10"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFyajVldHBpcWRoaTZjczJxcGI0YzhvNjhjMjBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIGQ5MTkzY2Y1ZjY0NGFiNDFhMjhlMjI2OGE5OGFiYzVhYTQyNmJkMmQ1NzcxNTI4MzQyNDRhZDY5YTMxZjVhNjhAZw",
+  "iCalUID": "tourism-news-6238-edb0d0@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqrj5etpiqdhi6cs2qpb4c8o68c20d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/news/oh%e5%89%b5%e6%a5%ad%e7%a5%ad%e3%80%80%ef%bc%96th-anniversary%e3%80%8010-10%e5%9c%9f%ef%bd%a511%e6%97%a5%ef%bd%a512%e6%9c%88-%e7%a5%9d%ef%bc%89%e9%96%8b%e5%82%ac%e2%9d%a3"
+  },
+  "start": {
+    "date": "2026-10-09"
+  },
+  "status": "confirmed",
+  "summary": "📢 OH!!! Founding Festival 6th Anniversary on Oct 10–12 (Sat–Mon/Hol)",
+  "updated": "2026-10-09T22:10:37.162Z"
+}

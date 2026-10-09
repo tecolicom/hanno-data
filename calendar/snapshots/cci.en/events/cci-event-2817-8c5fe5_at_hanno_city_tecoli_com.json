@@ -1,0 +1,35 @@
+{
+  "created": "2026-10-09T22:10:36.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nSunday, November 8, 2026 (Reiwa 8), 10:00 a.m.–7:00 p.m.\n\nThe Hanno Genki Festival will take place in the parking lot of Saitama Resona Bank Hanno Branch.\n\nThis day coincides with the Hanno Festival, so the whole town will be lively and bustling.\n\nThe Chamber of Commerce will showcase Nishikawa lumber and promote exchanges with the Tohoku region, spreading energy and vitality from Hanno!\n\nThere will be seafood from Tohoku and local food specialties.\n\nFloat processions and other attractions will be held in front of the venue, so please come and enjoy the festivities.\n\nNote: There is no parking available at the venue. Please use public transportation.\n\nSource (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2817/",
+  "end": {
+    "date": "2026-10-10"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHMzMmRwZDcxaGphcGo1NmwwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiOTMyNjEzZWUxMWIzYjE2NjU3Yjk4NmE3ZWMxYmQ4MmFkN2MzODVjMzBkZTc1YTJkYjU4MzRiYTFhMjk3ZTMyQGc",
+  "iCalUID": "cci-event-2817-8c5fe5@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68s32dpd71hjapj56l06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ（EN）",
+    "email": "b932613ee11b3b16657b986a7ec1bd82ad7c385c30de75a2db5834ba1a297e32@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2817/"
+  },
+  "start": {
+    "date": "2026-10-09"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Hanno Genki Festival 2026 to be held on November 8",
+  "updated": "2026-10-09T22:10:36.558Z"
+}

@@ -1,0 +1,34 @@
+{
+  "created": "2026-10-09T22:10:08.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "奥むさし飯能観光協会: https://hanno-tourism.jp/news/oh%e5%89%b5%e6%a5%ad%e7%a5%ad%e3%80%80%ef%bc%96th-anniversary%e3%80%8010-10%e5%9c%9f%ef%bd%a511%e6%97%a5%ef%bd%a512%e6%9c%88-%e7%a5%9d%ef%bc%89%e9%96%8b%e5%82%ac%e2%9d%a3\n\nAI による要約 (正確な情報は元記事をご確認ください)\n\nOH!!!創業祭 6th Anniversary を10月10日(土)・11日(日)・12日(月/祝)に開催。天覧山のふもとのOH!!!で、ガラポン大抽選会、縁日、さつまいもぴったり詰め、ワークショップなど開催。",
+  "end": {
+    "date": "2026-10-13"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFyajVldHBpcWRoaTZjczJxcGJtY2xuNzhnMzhjNW42c3JwZWNka244dTllZWhpbTZycmNkNG42NnJyZCAyMDU0MDNjOTcxZGM1ZWYyMWVmZDgxYzFkNTM4NDljYWRmZDkwMWI3NWM3N2Q4ODk1NWQ5NjAwZjQ1ZjJhMDEzQGc",
+  "iCalUID": "tourism-news-6238-event@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqrj5etpiqdhi6cs2qpbmcln78g38c5n6srpecdkn8u9eehim6rrcd4n66rrd",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能カレンダー",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/news/oh%e5%89%b5%e6%a5%ad%e7%a5%ad%e3%80%80%ef%bc%96th-anniversary%e3%80%8010-10%e5%9c%9f%ef%bd%a511%e6%97%a5%ef%bd%a512%e6%9c%88-%e7%a5%9d%ef%bc%89%e9%96%8b%e5%82%ac%e2%9d%a3"
+  },
+  "start": {
+    "date": "2026-10-10"
+  },
+  "status": "confirmed",
+  "summary": "🎪 OH!!!創業祭 ６th Anniversary 10/10(土)･11(日)･12(月/祝）開催❣",
+  "updated": "2026-10-09T22:10:08.270Z"
+}
