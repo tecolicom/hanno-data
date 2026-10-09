@@ -32,3 +32,28 @@ source:
   category: "お知らせ"
   summary_method: "full"
   content_hash: "sha256-8c5fe5a5f1b875d7"
+translations:
+  en:
+    summary: "ℹ️ Hanno Genki Festival 2026 to be held on November 8"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Sunday, November 8, 2026 (Reiwa 8), 10:00 a.m.–7:00 p.m.
+      
+      The Hanno Genki Festival will take place in the parking lot of Saitama Resona Bank Hanno Branch.
+      
+      This day coincides with the Hanno Festival, so the whole town will be lively and bustling.
+      
+      The Chamber of Commerce will showcase Nishikawa lumber and promote exchanges with the Tohoku region, spreading energy and vitality from Hanno!
+      
+      There will be seafood from Tohoku and local food specialties.
+      
+      Float processions and other attractions will be held in front of the venue, so please come and enjoy the festivities.
+      
+      Note: There is no parking available at the venue. Please use public transportation.
+      
+      Source (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2817/
+    translation_hash: "sha256-872cd7ed605c346b"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-09T22:10:18.285638Z"
+    format_version: 3

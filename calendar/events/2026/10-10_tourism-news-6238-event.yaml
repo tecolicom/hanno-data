@@ -21,3 +21,14 @@ source:
   fetched_at: "2026-10-09T22:08:13.319601Z"
   modified_gmt: "2026-10-09T02:23:38"
   content_hash: "sha256-edb0d0b84a11d7f5"
+translations:
+  en:
+    summary: "🎪 OH!!! Founding Festival 6th Anniversary — October 10 (Sat), 11 (Sun), 12 (Mon/Holiday)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      The OH!!! Founding Festival 6th Anniversary runs October 10–12 (Reiwa 6). At OH!!!, located at the foot of Tenranzan, enjoy a lucky draw raffle, festival games and food stalls, sweet potato packing challenges, workshops, and more.
+    translation_hash: "sha256-13e0d72ae167e487"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-09T22:10:28.067891Z"
+    format_version: 3

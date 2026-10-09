@@ -23,3 +23,18 @@ source:
   fetched_at: "2026-10-09T22:08:10.511020Z"
   modified_gmt: "2026-10-09T07:28:51"
   content_hash: "sha256-fa3d952bd090cdc3"
+translations:
+  en:
+    summary: "📢 Relaxing autumn barbecue at Hanno River's premium BBQ area ♪"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      New listing (Published: October 9, 2026)
+      
+      Autumn barbecue reservations are now open at the premium BBQ area on Hanno River. Available weekends and holidays only. A 15-minute walk from the station. Two options: a hassle-free plan with equipment already set up, or bring your own equipment. You can bring food, charcoal, and dishes/consumables. Groups of 4 or more.
+      
+      (For full details, visit the Oku-Musashi Hanno Tourism Association website)
+    translation_hash: "sha256-d04c17b9988d5cf2"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-09T22:10:24.812718Z"
+    format_version: 3

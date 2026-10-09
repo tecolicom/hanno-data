@@ -23,3 +23,22 @@ source:
   fetched_at: "2026-10-09T22:08:13.296393Z"
   modified_gmt: "2026-10-09T02:23:38"
   content_hash: "sha256-edb0d0b84a11d7f5"
+translations:
+  en:
+    summary: "📢 OH!!! Founding Festival 6th Anniversary on Oct 10–12 (Sat–Mon/Hol)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      OH!!! Founding Festival 6th Anniversary will be held October 10–12, 2026 (Reiwa 8) at OH!!!, located at the foot of Tenranzan mountain.
+      
+      Event features:
+      • Prize lottery (garapon)
+      • Festival food stalls
+      • Sweet potato packing challenge
+      • Workshops
+      
+      For details, visit: https://hanno-tourism.jp/news/oh%e5%89%b5%e6%a5%ad%e7%a5%ad%e3%80%80%ef%bc%96th-anniversary%e3%80%8010-10%e5%9c%9f%e5%b8%8b11%e6%97%a5%e5%b8%8b12%e6%9c%88-%e7%a5%9d%ef%bc%89%e9%96%8b%e5%82%ac%e2%9d%a3
+    translation_hash: "sha256-74e949b9db26067b"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-09T22:10:22.044641Z"
+    format_version: 3
