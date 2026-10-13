@@ -1,0 +1,54 @@
+uid: "oshirase-480-5d5652@hanno.city.tecoli.com"
+summary: "ℹ️ 子どもインフルエンザ予防接種事業"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/480.html"
+dtstart: "2026-10-14"
+dtend: "2026-10-14"
+description: |-
+  🔄 内容更新 (公開日: 2026-09-17 / 前回掲載: 2026-09-18)
+  主な変更: 変更が無いため、出力なし。
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  飯能市は、子育て世帯の経済的負担軽減を目的として、子どものインフルエンザ予防接種の費用を公費助成します。
+  
+  【令和8年度 接種開始日】
+  令和8年9月24日から、飯能市及び日高市の協力医療機関で接種を開始。ワクチン供給状況により、医療機関ごとに開始日が異なる場合があります。
+  
+  【対象者】
+  接種日現在、市内に住民登録がある以下の年齢に該当する方
+  ・不活化ワクチン：生後6か月から中学3年生
+  ・経鼻ワクチン：2歳から中学3年生
+  
+  【実施期間】
+  令和8年9月24日～令和9年1月31日で飯能市及び日高市の協力実施医療機関の最終診療日
+  
+  【接種回数】
+  ・不活化ワクチン：13歳未満2回、13歳以上1回
+  ・経鼻ワクチン：1回
+  ※同一シーズンに両方のワクチン接種はできません
+  
+  【費用】
+  ・不活化ワクチン：無料
+  ・経鼻ワクチン：4,100円（医療機関の窓口に直接お支払い）
+  
+  【受け方】
+  事前に協力医療機関に電話でご予約ください。マイナ保険証または資格確認書、子ども医療費受給資格証など住所・氏名・生年月日が確認できるもの及び母子健康手帳をお持ちください。
+  
+  【注意】
+  診察の結果、接種を見合わせた場合の診察料は自己負担。実施期間外及び協力医療機関以外での接種は自己負担で、接種後の費用返還はありません。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/480.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "480"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/480.html"
+  fetched_at: "2026-10-13T00:03:24.776097Z"
+  content_hash: "sha256-5d565299dc5d67c0"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-09-17"
+  supersedes: "oshirase-480-208f46@hanno.city.tecoli.com"
