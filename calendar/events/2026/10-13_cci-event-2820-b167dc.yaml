@@ -1,0 +1,26 @@
+uid: "cci-event-2820-b167dc@hanno.city.tecoli.com"
+summary: "ℹ️ 障害者差別解消法及び県条例に係る事業者向け説明会のご案内"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2820/"
+dtstart: "2026-10-13"
+dtend: "2026-10-13"
+description: |-
+  障害者差別解消法は、障害のある方に対する合理的配慮の提供が義務付けられています。
+  
+  障害者差別解消法の概要や、その内容を踏まえて事業者のみなさんに求められている対応や「合理的配慮」の考え方について理解いただくことを目的として埼玉県とともに駿河台大学で実施します。
+  
+  事業者の皆様におかれましては、ぜひご参加ください！！
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2820/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2820"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2820/"
+  category: "お知らせ"
+  summary_method: "full"
+  content_hash: "sha256-b167dc8733d2ed33"

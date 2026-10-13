@@ -1,0 +1,20 @@
+uid: "chef-20261208-01@hanno.city.tecoli.com"
+summary: "Meeting　me"
+location: "日替わりシェフレストラン"
+url: "https://www.hanno-cci.or.jp/manage/founded/#02"
+dtstart: "2026-12-08"
+dtend: "2026-12-08"
+description: |-
+  タコスピザ、ドライカレー
+  
+  https://www.hanno-cci.or.jp/manage/founded/#02
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-chef
+  id: "20261208-01"
+  url: "https://www.hanno-cci.or.jp/manage/founded/#02"
+  content_hash: "sha256-6eacfb9e30806e9e"
