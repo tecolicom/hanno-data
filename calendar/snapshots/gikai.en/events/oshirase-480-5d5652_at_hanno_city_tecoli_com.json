@@ -1,0 +1,34 @@
+{
+  "created": "2026-10-13T00:05:03.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nHanno City will cover the cost of children's flu vaccinations to reduce the financial burden on families raising children.\n\n【Fiscal Year 2026 Vaccination Start Date】\nVaccinations begin September 24, 2026 (Reiwa 8) at cooperating medical facilities in Hanno and Hidaka cities. Start dates may vary by facility depending on vaccine supply.\n\n【Who Can Get It】\nChildren with current resident registration in Hanno City at the time of vaccination, in these age groups:\n• Inactivated vaccine: 6 months old through 3rd year of junior high school\n• Nasal spray vaccine: 2 years old through 3rd year of junior high school\n\n【Implementation Period】\nSeptember 24, 2026 (Reiwa 8) through January 31, 2027 (Reiwa 9), or until the final business day of each cooperating medical facility in Hanno and Hidaka cities, whichever comes first.\n\n【Number of Doses】\n• Inactivated vaccine: 2 doses for those under 13 years old; 1 dose for 13 years and older\n• Nasal spray vaccine: 1 dose\n※You cannot receive both types of vaccine in the same season.\n\n【Cost】\n• Inactivated vaccine: Free\n• Nasal spray vaccine: ¥4,100 (paid directly at the medical facility)\n\n【How to Get Vaccinated】\nCall a cooperating medical facility in advance to make an appointment. Bring your My Number Insurance Card or Certificate of Eligibility Confirmation, a child medical expense coverage certificate or similar document showing your address, name, and date of birth, and your mother-child health handbook.\n\n【Important Notes】\nIf a medical examination shows vaccination should be postponed, you pay the examination fee yourself. Vaccinations outside the implementation period or at non-cooperating facilities are at your own cost, and no refunds are provided after vaccination.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/480.html",
+  "end": {
+    "date": "2026-10-15"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWs3MG8ycWRiNDZrcjNhY2kwZDFnbXNyamY1cGhtaXQzcDVwcTZhb3JmZGhraXNvcmZkayBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-480-5d5652@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9k70o2qdb46kr3aci0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/480.html"
+  },
+  "start": {
+    "date": "2026-10-14"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Children's Influenza Vaccination Subsidy Program",
+  "updated": "2026-10-13T00:05:03.807Z"
+}
