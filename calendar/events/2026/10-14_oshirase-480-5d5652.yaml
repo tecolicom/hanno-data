@@ -52,3 +52,42 @@ source:
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-09-17"
   supersedes: "oshirase-480-208f46@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ Children's Influenza Vaccination Subsidy Program"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno City will cover the cost of children's flu vaccinations to reduce the financial burden on families raising children.
+      
+      【Fiscal Year 2026 Vaccination Start Date】
+      Vaccinations begin September 24, 2026 (Reiwa 8) at cooperating medical facilities in Hanno and Hidaka cities. Start dates may vary by facility depending on vaccine supply.
+      
+      【Who Can Get It】
+      Children with current resident registration in Hanno City at the time of vaccination, in these age groups:
+      • Inactivated vaccine: 6 months old through 3rd year of junior high school
+      • Nasal spray vaccine: 2 years old through 3rd year of junior high school
+      
+      【Implementation Period】
+      September 24, 2026 (Reiwa 8) through January 31, 2027 (Reiwa 9), or until the final business day of each cooperating medical facility in Hanno and Hidaka cities, whichever comes first.
+      
+      【Number of Doses】
+      • Inactivated vaccine: 2 doses for those under 13 years old; 1 dose for 13 years and older
+      • Nasal spray vaccine: 1 dose
+      ※You cannot receive both types of vaccine in the same season.
+      
+      【Cost】
+      • Inactivated vaccine: Free
+      • Nasal spray vaccine: ¥4,100 (paid directly at the medical facility)
+      
+      【How to Get Vaccinated】
+      Call a cooperating medical facility in advance to make an appointment. Bring your My Number Insurance Card or Certificate of Eligibility Confirmation, a child medical expense coverage certificate or similar document showing your address, name, and date of birth, and your mother-child health handbook.
+      
+      【Important Notes】
+      If a medical examination shows vaccination should be postponed, you pay the examination fee yourself. Vaccinations outside the implementation period or at non-cooperating facilities are at your own cost, and no refunds are provided after vaccination.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/480.html
+    translation_hash: "sha256-68498ab6d73c124e"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-13T00:04:53.308879Z"
+    format_version: 3
