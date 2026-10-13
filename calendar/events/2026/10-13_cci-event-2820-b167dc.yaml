@@ -24,3 +24,20 @@ source:
   category: "お知らせ"
   summary_method: "full"
   content_hash: "sha256-b167dc8733d2ed33"
+translations:
+  en:
+    summary: "ℹ️ Briefing session for businesses on the Disability Discrimination Law and prefectural ordinance"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      The Disability Discrimination Law requires businesses to provide reasonable accommodations for people with disabilities.
+      
+      This briefing session, held jointly by Saitama Prefecture and Surugadai University, aims to help business operators understand the overview of the Disability Discrimination Law, the accommodations required of businesses, and the concept of "reasonable accommodations."
+      
+      We encourage all business operators to attend!
+      
+      Source (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2820/
+    translation_hash: "sha256-d01fdfb69e71344f"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-13T22:15:11.875518Z"
+    format_version: 3
