@@ -1,0 +1,35 @@
+{
+  "created": "2026-10-13T22:15:22.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nThe Disability Discrimination Law requires businesses to provide reasonable accommodations for people with disabilities.\n\nThis briefing session, held jointly by Saitama Prefecture and Surugadai University, aims to help business operators understand the overview of the Disability Discrimination Law, the accommodations required of businesses, and the concept of \"reasonable accommodations.\"\n\nWe encourage all business operators to attend!\n\nSource (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2820/",
+  "end": {
+    "date": "2026-10-14"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHMzNGMxZGM4b2pjZHI0Y2QwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiOTMyNjEzZWUxMWIzYjE2NjU3Yjk4NmE3ZWMxYmQ4MmFkN2MzODVjMzBkZTc1YTJkYjU4MzRiYTFhMjk3ZTMyQGc",
+  "iCalUID": "cci-event-2820-b167dc@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68s34c1dc8ojcdr4cd06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ（EN）",
+    "email": "b932613ee11b3b16657b986a7ec1bd82ad7c385c30de75a2db5834ba1a297e32@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2820/"
+  },
+  "start": {
+    "date": "2026-10-13"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Briefing session for businesses on the Disability Discrimination Law and prefectural ordinance",
+  "updated": "2026-10-13T22:15:22.520Z"
+}
