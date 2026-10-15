@@ -1,0 +1,44 @@
+uid: "oshirase-10335-964fae@hanno.city.tecoli.com"
+summary: "ℹ️ 健康づくり応援フェス2026"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/10335.html"
+dtstart: "2026-10-16"
+dtend: "2026-10-16"
+description: |-
+  🆕 新着掲載 (公開日: 2026-10-15)
+  
+  市民の皆さまに、楽しみながら健康について学び、交流を深めていただくとともに、健康づくりを実践するきっかけとしていただくため、「健康づくり応援フェス2026」を開催します。
+  
+  当日は、さまざまな催し物を用意しています。詳細については、決まり次第掲載します。
+  
+  皆さまのご参加をお待ちしています。
+  
+  ## 日時
+  
+  令和8年11月29日（日曜日）
+  
+  午前10時から午後1時まで
+  
+  ## 会場
+  
+  飯能市総合福祉センター
+  
+  (飯能市双柳371番地の13)
+  
+  ## イベント案内
+  
+  詳細については、決まり次第掲載します。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/10335.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "10335"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/10335.html"
+  fetched_at: "2026-10-15T20:50:43.169185Z"
+  content_hash: "sha256-964fae745b57a97e"
+  summary_method: "full"
+  publish_date: "2026-10-15"

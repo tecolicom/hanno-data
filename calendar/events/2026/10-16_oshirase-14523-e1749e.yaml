@@ -1,0 +1,43 @@
+uid: "oshirase-14523-e1749e@hanno.city.tecoli.com"
+summary: "ℹ️ 飯能市防災行政無線音声応答サービスの一時停止について"
+url: "https://www.city.hanno.lg.jp/emergency/14523.html"
+dtstart: "2026-10-16"
+dtend: "2026-10-16"
+description: |-
+  🆕 新着掲載 (公開日: 2026-10-15)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  飯能市防災行政無線音声応答サービスが一時停止中です。
+  
+  【原因】
+  運営事業者がシステム連携する株式会社アルカディアが第三者による不正アクセスを受け、個人情報が漏洩した可能性があります。
+  
+  【停止中のサービス】
+  ・飯能市防災行政無線の放送内容が閲覧できるサイト
+  ・飯能市Facebook
+  ・飯能市防災X（旧Twitter）
+  ・Yahoo！防災速報アプリ
+  
+  【対応状況】
+  現在システムへの影響について調査中です。復旧日時は未定です。
+  
+  【ご注意】
+  登録されているメールアドレス等が悪用される恐れがあります。心当たりのない送信元からの不審なメール等に十分ご注意ください。
+  
+  詳細は株式会社アルカディア公式ホームページをご確認ください。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/emergency/14523.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "14523"
+  url: "https://www.city.hanno.lg.jp/emergency/14523.html"
+  fetched_at: "2026-10-15T20:50:42.622444Z"
+  content_hash: "sha256-e1749e43a117fbcf"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-10-15"

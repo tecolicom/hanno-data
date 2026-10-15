@@ -1,0 +1,23 @@
+uid: "tourism-news-6251-event@hanno.city.tecoli.com"
+summary: "🎪 やまにわ偏愛マルシェ10/17(土)、11/21(土)、12/12(土)開催♪"
+url: "https://hanno-tourism.jp/news/%e3%82%84%e3%81%be%e3%81%ab%e3%82%8f%e5%81%8f%e6%84%9b%e3%83%9e%e3%83%ab%e3%82%b7%e3%82%a710-17%e5%9c%9f%e3%80%8111-21%e5%9c%9f%e3%80%8112-12%e5%9c%9f%e9%96%8b%e5%82%ac%e2%99%aa"
+dtstart: "2026-10-17"
+dtend: "2026-10-17"
+description: |-
+  奥むさし飯能観光協会: https://hanno-tourism.jp/news/%e3%82%84%e3%81%be%e3%81%ab%e3%82%8f%e5%81%8f%e6%84%9b%e3%83%9e%e3%83%ab%e3%82%b7%e3%82%a710-17%e5%9c%9f%e3%80%8111-21%e5%9c%9f%e3%80%8112-12%e5%9c%9f%e9%96%8b%e5%82%ac%e2%99%aa
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  飯能で「やまにわ偏愛マルシェ」が3回開催されます。vol.1は10月17日(土)「はんのうオクトーバーフェスト」、vol.2は11月21日(土)「はんのう文化祭」、vol.3は12月12日(土)「はんのう冬の夜市」。会場は飯能大通り商店街、飯能小町公園、偏愛デパートメント やまにわです。見る、触れる、体験する、好奇心がかきたてられるマルシェへお越しください。
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-tourism-jp-news
+  id: "6251"
+  url: "https://hanno-tourism.jp/news/%e3%82%84%e3%81%be%e3%81%ab%e3%82%8f%e5%81%8f%e6%84%9b%e3%83%9e%e3%83%ab%e3%82%b7%e3%82%a710-17%e5%9c%9f%e3%80%8111-21%e5%9c%9f%e3%80%8112-12%e5%9c%9f%e9%96%8b%e5%82%ac%e2%99%aa"
+  fetched_at: "2026-10-15T20:50:19.623922Z"
+  modified_gmt: "2026-10-15T05:09:45"
+  content_hash: "sha256-af6f3c20dccd7859"

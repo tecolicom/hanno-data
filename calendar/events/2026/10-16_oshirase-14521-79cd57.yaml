@@ -1,0 +1,36 @@
+uid: "oshirase-14521-79cd57@hanno.city.tecoli.com"
+summary: "ℹ️ 10月17日に「子供お囃子発表会」が実施されます"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/bunkazaitanto/bunkazai/14521.html"
+dtstart: "2026-10-16"
+dtend: "2026-10-16"
+description: |-
+  🆕 新着掲載 (公開日: 2026-10-15)
+  
+  飯能市郷土芸能保存会青年部が、10月17日（土曜日）に「子供お囃子発表会」を実施します。
+  
+  飯能まつりを前に、間近でお祭の雰囲気を体感できる機会となります。ぜひお越しください。
+  
+  ## 日時
+  
+  令和8年10月17日（土曜日） 14時00分開場 14時30分開演
+  
+  ## 場所
+  
+  飯能中央地区行政センター
+  
+  ## チラシ
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/bunkazaitanto/bunkazai/14521.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "14521"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/bunkazaitanto/bunkazai/14521.html"
+  fetched_at: "2026-10-15T20:50:34.345333Z"
+  content_hash: "sha256-79cd57c462f2bee3"
+  summary_method: "full"
+  publish_date: "2026-10-15"

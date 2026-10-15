@@ -1,0 +1,23 @@
+uid: "tourism-news-6247-event@hanno.city.tecoli.com"
+summary: "🎪 げんき体験フェスティバル＠名栗げんきプラザ 10/25（日）開催！"
+url: "https://hanno-tourism.jp/news/%e3%81%92%e3%82%93%e3%81%8d%e4%bd%93%e9%a8%93%e3%83%95%e3%82%a7%e3%82%b9%e3%83%86%e3%82%a3%e3%83%90%e3%83%ab%ef%bc%a0%e5%90%8d%e6%a0%97%e3%81%92%e3%82%93%e3%81%8d%e3%83%97%e3%83%a9%e3%82%b6%e3%80%8010"
+dtstart: "2026-10-25"
+dtend: "2026-10-25"
+description: |-
+  奥むさし飯能観光協会: https://hanno-tourism.jp/news/%e3%81%92%e3%82%93%e3%81%8d%e4%bd%93%e9%a8%93%e3%83%95%e3%82%a7%e3%82%b9%e3%83%86%e3%82%a3%e3%83%90%e3%83%ab%ef%bc%a0%e5%90%8d%e6%a0%97%e3%81%92%e3%82%93%e3%81%8d%e3%83%97%e3%83%a9%e3%82%b6%e3%80%8010
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  埼玉県立名栗げんきプラザで「げんき体験フェスティバル」を開催します。テーマは『地域×体験』。火おこし、薪割り、クラフト、トルティーヤ作り（限定200食）など様々な体験ができます。参加には事前申し込みが必要です。
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-tourism-jp-news
+  id: "6247"
+  url: "https://hanno-tourism.jp/news/%e3%81%92%e3%82%93%e3%81%8d%e4%bd%93%e9%a8%93%e3%83%95%e3%82%a7%e3%82%b9%e3%83%86%e3%82%a3%e3%83%90%e3%83%ab%ef%bc%a0%e5%90%8d%e6%a0%97%e3%81%92%e3%82%93%e3%81%8d%e3%83%97%e3%83%a9%e3%82%b6%e3%80%8010"
+  fetched_at: "2026-10-15T20:50:22.312422Z"
+  modified_gmt: "2026-10-15T01:36:33"
+  content_hash: "sha256-aacea53d53f46571"
