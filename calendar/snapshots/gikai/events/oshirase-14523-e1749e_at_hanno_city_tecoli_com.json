@@ -1,0 +1,34 @@
+{
+  "created": "2026-10-15T20:52:09.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🆕 新着掲載 (公開日: 2026-10-15)\n\nAI による要約 (正確な情報は元記事をご確認ください)\n\n飯能市防災行政無線音声応答サービスが一時停止中です。\n\n【原因】\n運営事業者がシステム連携する株式会社アルカディアが第三者による不正アクセスを受け、個人情報が漏洩した可能性があります。\n\n【停止中のサービス】\n・飯能市防災行政無線の放送内容が閲覧できるサイト\n・飯能市Facebook\n・飯能市防災X（旧Twitter）\n・Yahoo！防災速報アプリ\n\n【対応状況】\n現在システムへの影響について調査中です。復旧日時は未定です。\n\n【ご注意】\n登録されているメールアドレス等が悪用される恐れがあります。心当たりのない送信元からの不審なメール等に十分ご注意ください。\n\n詳細は株式会社アルカディア公式ホームページをご確認ください。\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/emergency/14523.html",
+  "end": {
+    "date": "2026-10-17"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Z3FqNGNwZGNrb2plZDFwY2wwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSA2NzQ1OTE0YjI0MzIzMTEyYTE1ZjQzZGMyMGIzYTBmNGE0ODE3YWZkODAwYzhkMTY4N2QwYmYwYjdmODkwYzYxQGc",
+  "iCalUID": "oshirase-14523-e1749e@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6gqj4cpdckojed1pcl06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/emergency/14523.html"
+  },
+  "start": {
+    "date": "2026-10-16"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 飯能市防災行政無線音声応答サービスの一時停止について",
+  "updated": "2026-10-15T20:52:09.883Z"
+}

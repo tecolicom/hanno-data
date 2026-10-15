@@ -1,0 +1,34 @@
+{
+  "created": "2026-10-15T20:52:58.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 New (Published: October 15, 2026)\n\nHanno City's Disaster Prevention Radio voice response service is temporarily suspended.\n\n【Cause】\nArcadia Corporation, which operates the system integration, has experienced an unauthorized access by a third party, and there is a possibility that personal information has been leaked.\n\n【Services currently suspended】\n• Website where Hanno City Disaster Prevention Radio broadcast content can be viewed\n• Hanno City Facebook\n• Hanno City Disaster Prevention X (formerly Twitter)\n• Yahoo! Disaster Prevention Alert app\n\n【Status of response】\nAn investigation into the impact on the system is currently underway. The restoration date and time are undetermined.\n\n【Important note】\nThere is a risk that registered email addresses and other information may be misused. Please be careful of suspicious emails from unknown senders.\n\nFor details, please check the official homepage of Arcadia Corporation.\n\nSource (Japanese): https://www.city.hanno.lg.jp/emergency/14523.html",
+  "end": {
+    "date": "2026-10-17"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Z3FqNGNwZGNrb2plZDFwY2wwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-14523-e1749e@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6gqj4cpdckojed1pcl06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/emergency/14523.html"
+  },
+  "start": {
+    "date": "2026-10-16"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Hanno City Disaster Prevention Radio Voice Response Service temporarily suspended",
+  "updated": "2026-10-15T20:52:58.737Z"
+}

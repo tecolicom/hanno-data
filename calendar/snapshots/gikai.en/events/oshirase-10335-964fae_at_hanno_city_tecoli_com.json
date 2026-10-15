@@ -1,0 +1,34 @@
+{
+  "created": "2026-10-15T20:52:55.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 Newly posted (as of October 15, 2026)\n\nThe city is hosting the \"Health Promotion Festival 2026\" to help residents learn about health in a fun atmosphere, deepen community connections, and find motivation to take action on their own health.\n\nVarious activities will be available on the day. Details will be posted as they are confirmed.\n\nWe look forward to your participation.\n\nDate and time\n\nNovember 29, 2026 (Reiwa 8) (Sunday)\n\n10:00 a.m. to 1:00 p.m.\n\nVenue\n\nHanno City Comprehensive Welfare Center\n\n(371-13 Futatsayagi, Hanno)\n\nEvent information\n\nDetails will be posted as they are confirmed.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/10335.html",
+  "end": {
+    "date": "2026-10-17"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2MHBqNmQ5ZDc0cjM4cGoxY2wwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-10335-964fae@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h60pj6d9d74r38pj1cl06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/10335.html"
+  },
+  "start": {
+    "date": "2026-10-16"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Health Promotion Festival 2026",
+  "updated": "2026-10-15T20:52:56.298Z"
+}
