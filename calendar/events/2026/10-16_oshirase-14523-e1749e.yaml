@@ -41,3 +41,35 @@ source:
   content_hash: "sha256-e1749e43a117fbcf"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-10-15"
+translations:
+  en:
+    summary: "ℹ️ Hanno City Disaster Prevention Radio Voice Response Service temporarily suspended"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New (Published: October 15, 2026)
+      
+      Hanno City's Disaster Prevention Radio voice response service is temporarily suspended.
+      
+      【Cause】
+      Arcadia Corporation, which operates the system integration, has experienced an unauthorized access by a third party, and there is a possibility that personal information has been leaked.
+      
+      【Services currently suspended】
+      • Website where Hanno City Disaster Prevention Radio broadcast content can be viewed
+      • Hanno City Facebook
+      • Hanno City Disaster Prevention X (formerly Twitter)
+      • Yahoo! Disaster Prevention Alert app
+      
+      【Status of response】
+      An investigation into the impact on the system is currently underway. The restoration date and time are undetermined.
+      
+      【Important note】
+      There is a risk that registered email addresses and other information may be misused. Please be careful of suspicious emails from unknown senders.
+      
+      For details, please check the official homepage of Arcadia Corporation.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/emergency/14523.html
+    translation_hash: "sha256-62ea2e7140ac5035"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-15T20:52:38.588788Z"
+    format_version: 3

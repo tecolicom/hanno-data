@@ -23,3 +23,24 @@ source:
   fetched_at: "2026-10-15T20:50:19.588152Z"
   modified_gmt: "2026-10-15T05:09:45"
   content_hash: "sha256-af6f3c20dccd7859"
+translations:
+  en:
+    summary: "📢 Yamaninwa Specialty Market on Oct 17 (Sat), Nov 21 (Sat), Dec 12 (Sat)♪"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      The Yamaninwa Specialty Market will be held three times in Hanno.
+      
+      vol.1 – October 17 (Sat): Hanno October Fest
+      vol.2 – November 21 (Sat): Hanno Culture Festival
+      vol.3 – December 12 (Sat): Hanno Winter Night Market
+      
+      Venues: Hanno Main Street Shopping District, Hanno Komachi Park, and Henai Department Yamaninwa
+      
+      Come experience a market full of things to see, touch, and try that will spark your curiosity!
+      
+      More information: https://hanno-tourism.jp/news/%e3%82%84%e3%81%be%e3%81%ab%e3%82%8f%e5%81%8f%e6%84%9b%e3%83%9e%e3%83%ab%e3%82%b7%e3%82%a710-17%e5%9c%9f%e3%80%8111-21%e5%9c%9f%e3%80%8112-12%e5%9c%9f%e9%96%8b%e5%82%ac%e2%99%aa (Oku Musashi Hanno Tourism Association)
+    translation_hash: "sha256-e5c53ba1355bb890"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-15T20:52:25.170373Z"
+    format_version: 3

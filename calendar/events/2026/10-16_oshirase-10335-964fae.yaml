@@ -42,3 +42,38 @@ source:
   content_hash: "sha256-964fae745b57a97e"
   summary_method: "full"
   publish_date: "2026-10-15"
+translations:
+  en:
+    summary: "ℹ️ Health Promotion Festival 2026"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 Newly posted (as of October 15, 2026)
+      
+      The city is hosting the "Health Promotion Festival 2026" to help residents learn about health in a fun atmosphere, deepen community connections, and find motivation to take action on their own health.
+      
+      Various activities will be available on the day. Details will be posted as they are confirmed.
+      
+      We look forward to your participation.
+      
+      Date and time
+      
+      November 29, 2026 (Reiwa 8) (Sunday)
+      
+      10:00 a.m. to 1:00 p.m.
+      
+      Venue
+      
+      Hanno City Comprehensive Welfare Center
+      
+      (371-13 Futatsayagi, Hanno)
+      
+      Event information
+      
+      Details will be posted as they are confirmed.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/10335.html
+    translation_hash: "sha256-99841faecacce011"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-15T20:52:28.443567Z"
+    format_version: 3

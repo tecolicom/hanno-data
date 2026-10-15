@@ -34,3 +34,27 @@ source:
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-10-15"
   supersedes: "oshirase-13388-78859b@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ 【Reiwa 8】News Releases List"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content updated (Published: October 15, 2026 / Previous: September 18, 2026)
+      Main change: New addition — Temporary suspension of Hanno City Disaster Prevention Radio Voice Response Service (announced October 15) has been added.
+      
+      Hanno City's Reiwa 8 news releases list has been updated. The latest announcements are as follows.
+      
+      • Temporary suspension of Hanno City Disaster Prevention Radio Voice Response Service (announced October 15, 2026)
+      • Earlier start date for Reiwa 8 flu vaccination program (announced September 17, 2026)
+      • Founding 5th anniversary ceremony for Wasegaku Dream Education High School (announced September 11, 2026)
+      • Conclusion of comprehensive partnership agreement between Hanno City and Puss in Boots Co., Ltd. (announced August 26, 2026)
+      • First public display of secret scrolls preserved in the "Shimona-kuguri Lion Dance" tradition (announced August 17, 2026)
+      
+      For earlier announcements, please see the original articles.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/hodohappyo/houdouhappyou2025_1/13388.html
+    translation_hash: "sha256-a188db652c9dd155"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-15T20:52:32.187438Z"
+    format_version: 3

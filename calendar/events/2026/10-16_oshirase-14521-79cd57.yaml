@@ -34,3 +34,27 @@ source:
   content_hash: "sha256-79cd57c462f2bee3"
   summary_method: "full"
   publish_date: "2026-10-15"
+translations:
+  en:
+    summary: "ℹ️ Children's Hayashi (festival music) performance on October 17"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New entry (posted October 15, 2026)
+      
+      The Hanno City Folk Art Preservation Society Youth Division will hold a "Children's Hayashi Performance" on October 17, 2026 (Saturday).
+      
+      This is a great chance to experience the atmosphere of the festival up close, just before the Hanno Festival. Please come and join us.
+      
+      【Date and Time】
+      Saturday, October 17, 2026 (Reiwa 8)
+      Opens 2:00 PM / Performance begins 2:30 PM
+      
+      【Location】
+      Hanno Central District Administrative Center
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/bunkazaitanto/bunkazai/14521.html
+    translation_hash: "sha256-1cfbefacb79c56a1"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-15T20:52:35.074461Z"
+    format_version: 3

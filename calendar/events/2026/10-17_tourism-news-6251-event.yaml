@@ -21,3 +21,16 @@ source:
   fetched_at: "2026-10-15T20:50:19.623922Z"
   modified_gmt: "2026-10-15T05:09:45"
   content_hash: "sha256-af6f3c20dccd7859"
+translations:
+  en:
+    summary: "🎪 Yamaniwa Henai Market events on Oct 17, Nov 21, Dec 12 (Saturdays)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno's "Yamaniwa Henai Market" will be held three times. Vol. 1 is October 17 (Saturday) "Hanno Oktoberfest", Vol. 2 is November 21 (Saturday) "Hanno Culture Festival", and Vol. 3 is December 12 (Saturday) "Hanno Winter Night Market". Venues include Hanno Ohdori Shopping Street, Hanno Komachi Park, and Henai Department Store Yamaniwa. Come see, touch, experience, and let your curiosity be sparked at this market.
+      
+      For details, visit: https://hanno-tourism.jp/news/%e3%82%84%e3%81%be%e3%81%ab%e3%82%8f%e5%81%8f%e6%84%9b%e3%83%9e%e3%83%ab%e3%82%b7%e3%82%a710-17%e5%9c%9f%e3%80%8111-21%e5%9c%9f%e3%80%8112-12%e5%9c%9f%e9%96%8b%e5%82%ac%e2%99%aa (Oku-Musashi Hanno Tourism Association)
+    translation_hash: "sha256-9c0c4e0f9e83fbcf"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-15T20:52:42.562051Z"
+    format_version: 3

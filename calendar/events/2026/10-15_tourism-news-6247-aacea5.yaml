@@ -23,3 +23,16 @@ source:
   fetched_at: "2026-10-15T20:50:22.277019Z"
   modified_gmt: "2026-10-15T01:36:33"
   content_hash: "sha256-aacea53d53f46571"
+translations:
+  en:
+    summary: "📢 Genki Experience Festival at Nagurigenkiplaza on October 25 (Sunday)!"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      The Oku-Musashi Hanno Tourism Association is hosting the Genki Experience Festival at Saitama Prefectural Nagurigenkiplaza. The theme is 'Community × Experience.' You can try a variety of hands-on activities including fire-making, wood-splitting, crafts, and tortilla-making (limited to 200 servings). Pre-registration is required to participate.
+      
+      (For full details, visit the link above)
+    translation_hash: "sha256-5384869a423c8a61"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-15T20:52:20.918184Z"
+    format_version: 3
