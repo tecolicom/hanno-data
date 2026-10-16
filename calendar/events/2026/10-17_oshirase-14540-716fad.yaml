@@ -1,0 +1,28 @@
+uid: "oshirase-14540-716fad@hanno.city.tecoli.com"
+summary: "ℹ️ 飯能市防災行政無線音声応答サービスについて"
+url: "https://www.city.hanno.lg.jp/emergency/14540.html"
+dtstart: "2026-10-17"
+dtend: "2026-10-17"
+description: |-
+  🆕 新着掲載 (公開日: 2026-10-16)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  飯能市防災行政無線音声応答サービス運営事業者がシステム連携していた株式会社アルカディアで不正アクセスが発生し、個人情報漏洩の可能性をお知らせしておりましたが、同社システムに飯能市防災行政無線音声応答サービス利用者の個人情報の登録がないことを確認しました。利用者の皆さまに多大なご心配とご迷惑をおかけしたことをお詫びいたします。
+  
+  放送内容の配信については、飯能市が管理しているサイト・Facebook・防災X（旧Twitter）で通常通り配信しています。なお「Yahoo！防災速報アプリ」は市の管理外のため、再開の権限はありません。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/emergency/14540.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "14540"
+  url: "https://www.city.hanno.lg.jp/emergency/14540.html"
+  fetched_at: "2026-10-16T20:24:07.147559Z"
+  content_hash: "sha256-716fad2a96dcb202"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-10-16"

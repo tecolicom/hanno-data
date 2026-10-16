@@ -1,0 +1,23 @@
+uid: "shiminkaikan-20261205-01@hanno.city.tecoli.com"
+summary: "第33回飯能・日高市民チャリティークリスマスコンサート"
+location: "飯能市民会館 小ホール"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html"
+dtstart: "2026-12-05T13:30:00+09:00"
+dtend: "2026-12-05T15:30:00+09:00"
+description: |-
+  飯能市民会館: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html
+  
+  【会場】小ホール
+  【主催】飯能・日高市民クリスマス実行委員会
+
+render:
+  gcal:
+    mode: single-allday
+    time_marker: "13:30–15:30"
+
+source:
+  type: city-hanno-shiminkaikan
+  id: "20261205-01"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html"
+  fetched_at: "2026-10-16T20:23:52.471550Z"
+  content_hash: "sha256-e098d70e2fc07228"

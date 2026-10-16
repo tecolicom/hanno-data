@@ -1,0 +1,50 @@
+uid: "oshirase-14519-29f04d@hanno.city.tecoli.com"
+summary: "ℹ️ 飯能元気まつり開催のお知らせ"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/shinrinzukurika/shinrinkanri/14519.html"
+dtstart: "2026-10-17"
+dtend: "2026-10-17"
+description: |-
+  🆕 新着掲載 (公開日: 2026-10-16)
+  
+  ## 飯能元気まつり開催のお知らせ
+  
+  飯能まつりと同時開催で飯能元気まつりが開催されます。是非ご来場ください。
+  
+  （注意）駐車場はございませんので公共交通機関をご利用ください。
+  
+  飯能元気まつりホームページ
+  
+  日時
+  
+  11月8日（日曜日）午前10時00分～午後7時00分
+  
+  場所
+  
+  埼玉りそな銀行飯能支店 駐車場
+  
+  内容
+  
+  	西川材PRコーナー
+  
+  	東北・地元物産フェア
+  
+  リンク
+  
+  飯能まつりホームページ（飯能まつり協賛会事務局）
+  
+  令和8年飯能まつりの開催について（飯能市）
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/shinrinzukurika/shinrinkanri/14519.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "14519"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/shinrinzukurika/shinrinkanri/14519.html"
+  fetched_at: "2026-10-16T20:24:07.758185Z"
+  content_hash: "sha256-29f04dc645ef40df"
+  summary_method: "full"
+  publish_date: "2026-10-16"
