@@ -1,0 +1,34 @@
+{
+  "created": "2026-10-16T20:26:24.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🔄 Content Updated (Published: October 16, 2026 / Previously posted: October 16, 2026)\nMain changes: New announcement added regarding temporary closure of the Children's Library due to facility repairs.\n\nThe list of Hanno City press releases for fiscal year 2026 has been updated. Recent major announcements include:\n\n• Temporary closure of the Children's Library due to facility repairs (announced October 16)\n• Temporary suspension of Hanno City Disaster Prevention Radio voice response service (announced October 15)\n• Earlier start date for fiscal 2026 influenza vaccination program (announced September 17)\n• Washegaku Dream School 5th Anniversary Commemorative Ceremony – celebrating five years since reopening the former school (announced September 11)\n• Comprehensive partnership agreement between Hanno City and Puss in Boots Co., Ltd. (announced August 26)\n\nFor earlier announcements, please see the original articles.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/hodohappyo/houdouhappyou2025_1/13388.html",
+  "end": {
+    "date": "2026-10-18"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3BqZ2UxZDY0cjM2b2hnNmwwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-13388-163b05@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6cpjge1d64r36ohg6l06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/hodohappyo/houdouhappyou2025_1/13388.html"
+  },
+  "start": {
+    "date": "2026-10-17"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Hanno City Press Releases – Fiscal Year 2026 (Updated)",
+  "updated": "2026-10-16T20:26:24.482Z"
+}

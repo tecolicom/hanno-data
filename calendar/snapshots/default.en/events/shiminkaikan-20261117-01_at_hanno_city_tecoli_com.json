@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "🕒 13:00–15:00\n\nAutomated translation (refer to source for accuracy)\n\n【Venue】 Small Hall, Hanno Citizens' Hall\n【Organizer】 Iruma District PTA Council\n\nFor more information, visit: Hanno Citizens' Hall\nhttps://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html",
+  "description": "🕒 13:00–15:00\n\nAutomated translation (refer to source for accuracy)\n\nVenue: Hanno Citizens' Hall, Small Hall\n\nOrganized by: Iruma District PTA Liaison Council\n\nHanno Citizens' Hall: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html",
   "end": {
     "date": "2026-11-18"
   },
@@ -30,6 +30,6 @@
     "date": "2026-11-17"
   },
   "status": "confirmed",
-  "summary": "Reiwa 8 (2026) Iruma District PTA Council Officers Training Meeting",
-  "updated": "2026-09-30T21:49:24.707Z"
+  "summary": "Reiwa 8 (2026) Iruma District PTA Liaison Council Officers Training Session",
+  "updated": "2026-10-16T20:26:29.387Z"
 }

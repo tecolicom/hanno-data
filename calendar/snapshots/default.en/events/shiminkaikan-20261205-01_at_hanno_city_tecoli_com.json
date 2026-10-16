@@ -1,0 +1,35 @@
+{
+  "created": "2026-10-16T20:26:30.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 13:30–15:30\n\nAutomated translation (refer to source for accuracy)\n\nVenue: Small Hall (Hanno Citizen Hall)\n\nOrganizer: Hanno-Hidaka Citizen Christmas Executive Committee\n\nFor details, see the Hanno City website (Hanno Citizen Hall page).",
+  "end": {
+    "date": "2026-12-06"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2VkazZpcmI5ZHBsbTJxYmJjNW4ycWNoZzY4cjMyY2hnNmttajBjYTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIGQ5MTkzY2Y1ZjY0NGFiNDFhMjhlMjI2OGE5OGFiYzVhYTQyNmJkMmQ1NzcxNTI4MzQyNDRhZDY5YTMxZjVhNjhAZw",
+  "iCalUID": "shiminkaikan-20261205-01@hanno.city.tecoli.com",
+  "id": "_edk6irb9dplm2qbbc5n2qchg68r32chg6kmj0ca0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "location": "飯能市民会館 小ホール",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html"
+  },
+  "start": {
+    "date": "2026-12-05"
+  },
+  "status": "confirmed",
+  "summary": "33rd Hanno-Hidaka Citizen Charity Christmas Concert",
+  "updated": "2026-10-16T20:26:31.120Z"
+}
