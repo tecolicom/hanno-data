@@ -21,3 +21,18 @@ source:
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html"
   fetched_at: "2026-10-16T20:23:52.471550Z"
   content_hash: "sha256-e098d70e2fc07228"
+translations:
+  en:
+    summary: "33rd Hanno-Hidaka Citizen Charity Christmas Concert"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Venue: Small Hall (Hanno Citizen Hall)
+      
+      Organizer: Hanno-Hidaka Citizen Christmas Executive Committee
+      
+      For details, see the Hanno City website (Hanno Citizen Hall page).
+    translation_hash: "sha256-b4ed290749382dd1"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-16T20:26:12.326559Z"
+    format_version: 3

@@ -21,3 +21,17 @@ source:
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html"
   fetched_at: "2026-10-16T20:23:52.464100Z"
   content_hash: "sha256-e098d70e2fc07228"
+translations:
+  en:
+    summary: "23rd Hanno City Youth Voice Competition"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Venue: Hanno Civic Hall, Small Hall
+      Organizer: Hanno Citizens Council for Youth Development
+      
+      For more information, visit: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html
+    translation_hash: "sha256-2abe4a79145b251b"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-16T20:25:56.547026Z"
+    format_version: 3

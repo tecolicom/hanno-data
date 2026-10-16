@@ -21,3 +21,18 @@ source:
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html"
   fetched_at: "2026-10-16T20:23:52.468737Z"
   content_hash: "sha256-e098d70e2fc07228"
+translations:
+  en:
+    summary: "Reiwa 8 (2026) Iruma District PTA Liaison Council Officers Training Session"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Venue: Hanno Citizens' Hall, Small Hall
+      
+      Organized by: Iruma District PTA Liaison Council
+      
+      Hanno Citizens' Hall: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html
+    translation_hash: "sha256-d8969d7cdaf54e60"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-16T20:26:06.210030Z"
+    format_version: 3

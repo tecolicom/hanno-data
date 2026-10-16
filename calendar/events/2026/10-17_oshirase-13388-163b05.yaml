@@ -34,3 +34,27 @@ source:
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-10-16"
   supersedes: "oshirase-13388-e3d355@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ Hanno City Press Releases – Fiscal Year 2026 (Updated)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content Updated (Published: October 16, 2026 / Previously posted: October 16, 2026)
+      Main changes: New announcement added regarding temporary closure of the Children's Library due to facility repairs.
+      
+      The list of Hanno City press releases for fiscal year 2026 has been updated. Recent major announcements include:
+      
+      • Temporary closure of the Children's Library due to facility repairs (announced October 16)
+      • Temporary suspension of Hanno City Disaster Prevention Radio voice response service (announced October 15)
+      • Earlier start date for fiscal 2026 influenza vaccination program (announced September 17)
+      • Washegaku Dream School 5th Anniversary Commemorative Ceremony – celebrating five years since reopening the former school (announced September 11)
+      • Comprehensive partnership agreement between Hanno City and Puss in Boots Co., Ltd. (announced August 26)
+      
+      For earlier announcements, please see the original articles.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/hodohappyo/houdouhappyou2025_1/13388.html
+    translation_hash: "sha256-0d9d5313fc9f9cfd"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-16T20:25:47.537876Z"
+    format_version: 3

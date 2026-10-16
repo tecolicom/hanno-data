@@ -48,3 +48,43 @@ source:
   content_hash: "sha256-29f04dc645ef40df"
   summary_method: "full"
   publish_date: "2026-10-16"
+translations:
+  en:
+    summary: "ℹ️ Hanno Genki Festival to be held"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New listing (Posted: October 16, 2026)
+      
+      Hanno Genki Festival to be held
+      
+      The Hanno Genki Festival will be held at the same time as the Hanno Festival. We look forward to your visit.
+      
+      (Note) There is no parking available, so please use public transportation.
+      
+      Hanno Genki Festival homepage
+      
+      Date and time
+      
+      Sunday, November 8 (Reiwa 8), 10:00 AM to 7:00 PM
+      
+      Location
+      
+      Saitama Resona Bank Hanno Branch parking lot
+      
+      Content
+      
+      • Nishikawa timber PR corner
+      • Tohoku and local specialty goods fair
+      
+      Links
+      
+      Hanno Festival homepage (Hanno Festival Sponsorship Association Office)
+      
+      About the 2026 Hanno Festival (Hanno City)
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/shinrinzukurika/shinrinkanri/14519.html
+    translation_hash: "sha256-6db6ba43d98ee0a5"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-16T20:25:51.245588Z"
+    format_version: 3
