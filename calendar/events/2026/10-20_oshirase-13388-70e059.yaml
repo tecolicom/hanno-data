@@ -34,3 +34,27 @@ source:
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-10-19"
   supersedes: "oshirase-13388-163b05@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ 【Reiwa 8 (2026)】Press Release Materials"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content updated (Published: October 19, 2026 / Previous: October 17, 2026)
+      Main change: A new announcement about Hanno City Disaster Prevention Radio Voice Response Service (October 16) has been added.
+      
+      The press release materials list page has been updated. The latest announcements are as follows:
+      
+      • Hanno City Disaster Prevention Radio Voice Response Service (Announced October 16, Reiwa 8)
+      • Temporary closure of Children's Library for facility repairs (Announced October 16, Reiwa 8)
+      • Temporary suspension of Hanno City Disaster Prevention Radio Voice Response Service (Announced October 15, Reiwa 8)
+      • Early start date for Reiwa 8 influenza vaccination program (Announced September 17, Reiwa 8)
+      • Wasegaku Dream-Building High School 5th Anniversary Ceremony – Celebrating five years since the closed school's reopening (Announced September 11, Reiwa 8)
+      
+      For announcements before these, please see the original articles.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/hodohappyo/houdouhappyou2025_1/13388.html
+    translation_hash: "sha256-c558690f13a3d9d6"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-19T22:00:34.217600Z"
+    format_version: 3
