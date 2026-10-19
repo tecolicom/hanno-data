@@ -1,0 +1,34 @@
+{
+  "created": "2026-10-19T22:00:44.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🔄 Content updated (Published: October 19, 2026 / Previous: October 17, 2026)\nMain change: A new announcement about Hanno City Disaster Prevention Radio Voice Response Service (October 16) has been added.\n\nThe press release materials list page has been updated. The latest announcements are as follows:\n\n• Hanno City Disaster Prevention Radio Voice Response Service (Announced October 16, Reiwa 8)\n• Temporary closure of Children's Library for facility repairs (Announced October 16, Reiwa 8)\n• Temporary suspension of Hanno City Disaster Prevention Radio Voice Response Service (Announced October 15, Reiwa 8)\n• Early start date for Reiwa 8 influenza vaccination program (Announced September 17, Reiwa 8)\n• Wasegaku Dream-Building High School 5th Anniversary Ceremony – Celebrating five years since the closed school's reopening (Announced September 11, Reiwa 8)\n\nFor announcements before these, please see the original articles.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/hodohappyo/houdouhappyou2025_1/13388.html",
+  "end": {
+    "date": "2026-10-21"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3BqZ2UxZDZzbzZhYzFsNzUwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-13388-70e059@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6cpjge1d6so6ac1l7506gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/hodohappyo/houdouhappyou2025_1/13388.html"
+  },
+  "start": {
+    "date": "2026-10-20"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 【Reiwa 8 (2026)】Press Release Materials",
+  "updated": "2026-10-19T22:00:44.649Z"
+}
