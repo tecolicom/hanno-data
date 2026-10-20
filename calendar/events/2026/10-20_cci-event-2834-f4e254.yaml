@@ -24,3 +24,20 @@ source:
   category: "お知らせ"
   summary_method: "full"
   content_hash: "sha256-f4e25460d6c0cfa4"
+translations:
+  en:
+    summary: "ℹ️ Group Company Interview Event in Hanno — Coming Up"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Are you searching for a job on your own and unsure where to start?
+      
+      At the group company interview event, you can speak directly with company representatives without needing to pass a document screening first. This is a chance to learn about companies and their work firsthand.
+      
+      Use this opportunity to meet potential employers and find work that fits you!
+      
+      Source (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2834/
+    translation_hash: "sha256-e2b6563c607f63e1"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-20T21:10:56.292923Z"
+    format_version: 3

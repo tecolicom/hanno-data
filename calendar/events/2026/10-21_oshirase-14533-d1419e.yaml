@@ -41,3 +41,35 @@ source:
   content_hash: "sha256-d1419ee2b55a3d78"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-10-19"
+translations:
+  en:
+    summary: "ℹ️ Emergency Support Subsidy for Small and Medium Enterprises: Price Increases and Supply Shortages Due to Middle East Situation (Saitama Prefecture)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 Newly posted (Published: October 19, 2026)
+      
+      A subsidy program for small and medium enterprises with headquarters in Saitama Prefecture. Businesses experiencing rising prices and supply shortages of petroleum-derived products due to the Middle East situation—and unable to pass these costs to customers, resulting in a profit margin decrease of 5% or more compared to the same month last year—can receive subsidies for increased procurement costs, price differences when switching to alternative products, and equipment investment expenses for alternative product adaptation.
+      
+      【Eligibility Requirements】
+      • Small and medium enterprises with headquarters in Saitama Prefecture
+      • Gross profit margin or operating profit margin for the most recent month (any month from March 2026 onwards through the application month) must be lower than the same month of the previous year
+      
+      【Eligible Expenses】
+      • Increased procurement costs for petroleum-derived products
+      • Price differences when switching to alternative products
+      • Equipment investment expenses for alternative product adaptation, etc.
+      
+      【Application Period】
+      Phase 1: September 25, 2026 (Friday) to November 6, 2026 (Friday) at 4:00 PM
+      Phase 2: December 21, 2026 (Monday) to February 5, 2027 (Friday) (tentative)
+      
+      【Contact】
+      Emergency Support Subsidy Hotline for Small and Medium Enterprises: Price Increases and Supply Shortages Due to Middle East Situation
+      Phone: 050-1752-8336 (9:00 AM–5:00 PM, closed weekends and holidays)
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/14533.html
+    translation_hash: "sha256-d7119a9dc87363f9"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-20T21:11:03.145759Z"
+    format_version: 3
