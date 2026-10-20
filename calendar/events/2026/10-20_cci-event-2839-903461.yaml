@@ -1,0 +1,24 @@
+uid: "cci-event-2839-903461@hanno.city.tecoli.com"
+summary: "ℹ️ 「飯能グルメ＆ビアガーデン」開催のお知らせ"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2839/"
+dtstart: "2026-10-20"
+dtend: "2026-10-20"
+description: |-
+  飯能河原ウッドデッキにて「飯能グルメ＆ビアガーデン」が開催されます。
+  
+  夏とは違う涼しい中で、おいしいグルメとビールをお楽しみください。
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2839/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2839"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2839/"
+  category: "お知らせ"
+  summary_method: "full"
+  content_hash: "sha256-9034618c70630c96"

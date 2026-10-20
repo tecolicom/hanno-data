@@ -1,0 +1,26 @@
+uid: "cci-event-2834-f4e254@hanno.city.tecoli.com"
+summary: "ℹ️ 「合同企業面接会 in 飯能」開催のお知らせ"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2834/"
+dtstart: "2026-10-20"
+dtend: "2026-10-20"
+description: |-
+  就職活動の企業探しについて、1人で悩んでいませんか？
+  
+  合同企業面接会では、書類選考なしで企業の担当者と直接お話をすることができ、その企業・お仕事について知ることができます。
+  
+  お仕事との出会いの場として、ぜひご活用ください！
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2834/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2834"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2834/"
+  category: "お知らせ"
+  summary_method: "full"
+  content_hash: "sha256-f4e25460d6c0cfa4"

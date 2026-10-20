@@ -1,0 +1,43 @@
+uid: "oshirase-14533-d1419e@hanno.city.tecoli.com"
+summary: "ℹ️ 【埼玉県】中東情勢に伴う価格高騰・供給不足緊急支援事業（中小企業）補助金"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/14533.html"
+dtstart: "2026-10-21"
+dtend: "2026-10-21"
+description: |-
+  🆕 新着掲載 (公開日: 2026-10-19)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  埼玉県内に本店を有する中小企業を対象とした補助金。中東情勢に伴う石油等由来製品の価格高騰・供給不足により、価格転嫁を図れず利益率が減少（最近1か月の利益率が前年同月比で5%以上減少）している企業に対し、仕入額上昇分、代替品への価格差、代替品対応の設備投資経費を補助します。
+  
+  【対象要件】
+  ・埼玉県内に本店を有する中小企業等
+  ・最近1か月（令和8年3月から申請月までのいずれかの月）の売上高総利益率または売上高営業利益率が前年同月比で減少していること
+  
+  【補助対象経費】
+  ・石油等由来製品の仕入額上昇分
+  ・代替品切り替え時の価格差
+  ・代替品対応のための設備投資経費など
+  
+  【申請期間】
+  第1期：令和8年9月25日（金曜日）から11月6日（金曜日）16時まで
+  第2期：令和8年12月21日（月曜日）から令和9年2月5日（金曜日）（予定）
+  
+  【お問合せ】
+  中東情勢に伴う価格高騰・供給不足緊急支援事業（中小企業）補助金コールセンター
+  電話：050-1752-8336（9時～17時、土日祝除く）
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/14533.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "14533"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/14533.html"
+  fetched_at: "2026-10-20T21:08:53.821887Z"
+  content_hash: "sha256-d1419ee2b55a3d78"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-10-19"
