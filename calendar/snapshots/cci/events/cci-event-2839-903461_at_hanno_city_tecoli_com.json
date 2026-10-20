@@ -1,0 +1,35 @@
+{
+  "created": "2026-10-20T21:10:46.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "飯能河原ウッドデッキにて「飯能グルメ＆ビアガーデン」が開催されます。\n\n夏とは違う涼しい中で、おいしいグルメとビールをお楽しみください。\n\nhttps://www.hanno-cci.or.jp/xo_event/xo_event-2839/",
+  "end": {
+    "date": "2026-10-21"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHMzNmU5ZDc0bzM2ZDFtNjUwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiMGE1NmM4ZTFmNTI0NmNkYTQxZTJmZGIzYzQ0OWIyMGM1MGJiMzY1YWFjOTIzMzNhNGE5MjkwYTIxZTdlZGNmQGc",
+  "iCalUID": "cci-event-2839-903461@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68s36e9d74o36d1m6506gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ",
+    "email": "b0a56c8e1f5246cda41e2fdb3c449b20c50bb365aac92333a4a9290a21e7edcf@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2839/"
+  },
+  "start": {
+    "date": "2026-10-20"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 「飯能グルメ＆ビアガーデン」開催のお知らせ",
+  "updated": "2026-10-20T21:10:46.852Z"
+}

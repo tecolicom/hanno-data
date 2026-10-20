@@ -1,0 +1,34 @@
+{
+  "created": "2026-10-20T21:11:14.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 Newly posted (Published: October 19, 2026)\n\nA subsidy program for small and medium enterprises with headquarters in Saitama Prefecture. Businesses experiencing rising prices and supply shortages of petroleum-derived products due to the Middle East situation—and unable to pass these costs to customers, resulting in a profit margin decrease of 5% or more compared to the same month last year—can receive subsidies for increased procurement costs, price differences when switching to alternative products, and equipment investment expenses for alternative product adaptation.\n\n【Eligibility Requirements】\n• Small and medium enterprises with headquarters in Saitama Prefecture\n• Gross profit margin or operating profit margin for the most recent month (any month from March 2026 onwards through the application month) must be lower than the same month of the previous year\n\n【Eligible Expenses】\n• Increased procurement costs for petroleum-derived products\n• Price differences when switching to alternative products\n• Equipment investment expenses for alternative product adaptation, etc.\n\n【Application Period】\nPhase 1: September 25, 2026 (Friday) to November 6, 2026 (Friday) at 4:00 PM\nPhase 2: December 21, 2026 (Monday) to February 5, 2027 (Friday) (tentative)\n\n【Contact】\nEmergency Support Subsidy Hotline for Small and Medium Enterprises: Price Increases and Supply Shortages Due to Middle East Situation\nPhone: 050-1752-8336 (9:00 AM–5:00 PM, closed weekends and holidays)\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/14533.html",
+  "end": {
+    "date": "2026-10-22"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Z3FqNmNwZGNnb2o4YzlwY2wwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-14533-d1419e@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6gqj6cpdcgoj8c9pcl06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/14533.html"
+  },
+  "start": {
+    "date": "2026-10-21"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Emergency Support Subsidy for Small and Medium Enterprises: Price Increases and Supply Shortages Due to Middle East Situation (Saitama Prefecture)",
+  "updated": "2026-10-20T21:11:14.843Z"
+}

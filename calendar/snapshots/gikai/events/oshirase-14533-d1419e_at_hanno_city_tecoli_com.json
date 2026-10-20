@@ -1,0 +1,34 @@
+{
+  "created": "2026-10-20T21:10:47.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🆕 新着掲載 (公開日: 2026-10-19)\n\nAI による要約 (正確な情報は元記事をご確認ください)\n\n埼玉県内に本店を有する中小企業を対象とした補助金。中東情勢に伴う石油等由来製品の価格高騰・供給不足により、価格転嫁を図れず利益率が減少（最近1か月の利益率が前年同月比で5%以上減少）している企業に対し、仕入額上昇分、代替品への価格差、代替品対応の設備投資経費を補助します。\n\n【対象要件】\n・埼玉県内に本店を有する中小企業等\n・最近1か月（令和8年3月から申請月までのいずれかの月）の売上高総利益率または売上高営業利益率が前年同月比で減少していること\n\n【補助対象経費】\n・石油等由来製品の仕入額上昇分\n・代替品切り替え時の価格差\n・代替品対応のための設備投資経費など\n\n【申請期間】\n第1期：令和8年9月25日（金曜日）から11月6日（金曜日）16時まで\n第2期：令和8年12月21日（月曜日）から令和9年2月5日（金曜日）（予定）\n\n【お問合せ】\n中東情勢に伴う価格高騰・供給不足緊急支援事業（中小企業）補助金コールセンター\n電話：050-1752-8336（9時～17時、土日祝除く）\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/14533.html",
+  "end": {
+    "date": "2026-10-22"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Z3FqNmNwZGNnb2o4YzlwY2wwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSA2NzQ1OTE0YjI0MzIzMTEyYTE1ZjQzZGMyMGIzYTBmNGE0ODE3YWZkODAwYzhkMTY4N2QwYmYwYjdmODkwYzYxQGc",
+  "iCalUID": "oshirase-14533-d1419e@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6gqj6cpdcgoj8c9pcl06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/14533.html"
+  },
+  "start": {
+    "date": "2026-10-21"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 【埼玉県】中東情勢に伴う価格高騰・供給不足緊急支援事業（中小企業）補助金",
+  "updated": "2026-10-20T21:10:47.344Z"
+}
