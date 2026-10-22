@@ -1,0 +1,34 @@
+{
+  "created": "2026-10-22T21:08:06.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nAutumn event at Hanno River on Saturday, October 31, 2026, 11:00 AM–7:00 PM at Hanno River Wooddeck Stage Plaza.\n\nFood & Drink: Food trucks featuring Hanno area specialties including craft beer, curry, BBQ, yakitori (grilled chicken), and more.\n\nWorkshops: On-the-spot screen printing for T-shirts and hoodies.\n\nFree Activities for Children:\n• Bamboo boat workshop and racing\n• Leaf pool treasure hunt\n• Participants receive Halloween stickers and marshmallows as prizes\n\nEvening Atmosphere: Sweden torches (tall log fires) create a magical nighttime ambiance. Music shifts from daytime nature sounds to dramatic evening and night selections as the sun sets.\n\nWeather: Event will be cancelled in case of rain or severe weather. Cancellation notice will be posted on Instagram and X the day before.\n\nRecommendation: Late October evenings get cold around sunset and after, so bring warm layers.\n\nOrganized by Okumushi Hanno Tourism Association.",
+  "end": {
+    "date": "2026-10-23"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFyajVldHBpcWRoaTZvcDJxZDlqNjFqMzRkMjBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIGQ5MTkzY2Y1ZjY0NGFiNDFhMjhlMjI2OGE5OGFiYzVhYTQyNmJkMmQ1NzcxNTI4MzQyNDRhZDY5YTMxZjVhNjhAZw",
+  "iCalUID": "tourism-news-6262-530f24@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqrj5etpiqdhi6op2qd9j61j34d20d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/news/10-31%e5%9c%9f-%e7%a7%8b%e3%81%ae%e9%a3%af%e8%83%bd%e6%b2%b3%e5%8e%9f%e3%81%a7%e9%a3%af%e8%83%bd%e3%82%b0%e3%83%ab%e3%83%a1%ef%bc%86%e3%83%93%e3%82%a2%e3%82%ac%e3%83%bc%e3%83%87%e3%83%b3%e3%80%80"
+  },
+  "start": {
+    "date": "2026-10-22"
+  },
+  "status": "confirmed",
+  "summary": "📢 October 31 (Saturday): Autumn Hanno River Grilling & Beer Garden with Hanno Cuisine",
+  "updated": "2026-10-22T21:08:07.002Z"
+}
