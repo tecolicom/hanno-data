@@ -23,3 +23,31 @@ source:
   fetched_at: "2026-10-22T21:06:22.454993Z"
   modified_gmt: "2026-10-22T03:45:18"
   content_hash: "sha256-530f24c17a009967"
+translations:
+  en:
+    summary: "📢 October 31 (Saturday): Autumn Hanno River Grilling & Beer Garden with Hanno Cuisine"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Autumn event at Hanno River on Saturday, October 31, 2026, 11:00 AM–7:00 PM at Hanno River Wooddeck Stage Plaza.
+      
+      Food & Drink: Food trucks featuring Hanno area specialties including craft beer, curry, BBQ, yakitori (grilled chicken), and more.
+      
+      Workshops: On-the-spot screen printing for T-shirts and hoodies.
+      
+      Free Activities for Children:
+      • Bamboo boat workshop and racing
+      • Leaf pool treasure hunt
+      • Participants receive Halloween stickers and marshmallows as prizes
+      
+      Evening Atmosphere: Sweden torches (tall log fires) create a magical nighttime ambiance. Music shifts from daytime nature sounds to dramatic evening and night selections as the sun sets.
+      
+      Weather: Event will be cancelled in case of rain or severe weather. Cancellation notice will be posted on Instagram and X the day before.
+      
+      Recommendation: Late October evenings get cold around sunset and after, so bring warm layers.
+      
+      Organized by Okumushi Hanno Tourism Association.
+    translation_hash: "sha256-3e9338f8948b1282"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-22T21:07:52.625057Z"
+    format_version: 3

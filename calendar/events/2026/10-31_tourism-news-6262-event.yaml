@@ -21,3 +21,28 @@ source:
   fetched_at: "2026-10-22T21:06:22.503558Z"
   modified_gmt: "2026-10-22T03:45:18"
   content_hash: "sha256-530f24c17a009967"
+translations:
+  en:
+    summary: "🎪 Hanno Gourmet & Beer Garden in Autumn at Hanno Riverbed"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      An autumn event on October 31 (Saturday, Reiwa 6) from 11:00 to 19:00 at Hanno Riverbed Wood Deck Stage Plaza, hosted by Okumusashi Hanno Tourism Association.
+      
+      Food & Drink: Food trucks featuring Hanno local specialties—craft beer, curry, BBQ, grilled chicken, and more.
+      
+      Workshops & Activities:
+      • On-site T-shirt and hoodie printing workshop
+      • Free activities for children: bamboo boat workshop & races, treasure hunt in a leaf pool (participants receive Halloween stickers and marshmallows)
+      
+      Atmosphere: A Sweden torch (log fire) creates a magical evening. Live music shifts from daytime nature-themed sets to dramatic evening songs as sunset transitions to night.
+      
+      What to Bring: Warm layers recommended, as temperatures are expected to drop around sunset and nightfall at the end of October.
+      
+      Weather: The event will be cancelled in case of rain or severe weather. Cancellation notice will be posted on Instagram and X the day before.
+      
+      For more details, visit the Okumusashi Hanno Tourism Association website.
+    translation_hash: "sha256-518c28618c2924a7"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-22T21:07:57.209257Z"
+    format_version: 3
