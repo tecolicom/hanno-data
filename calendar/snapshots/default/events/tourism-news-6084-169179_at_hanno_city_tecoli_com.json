@@ -1,0 +1,34 @@
+{
+  "created": "2026-10-23T20:54:38.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "奥むさし飯能観光協会: https://hanno-tourism.jp/news/hannomaturi2026\n\n🔄 内容更新 (公開日: 2026-08-27 / 前回掲載: 2026-08-27)\n\nAI による要約 (正確な情報は元記事をご確認ください)\n\n令和8年飯能まつり（11月7日(土)・11月8日(日)開催）の出店募集は終了しました。出店される方は、出店内容に応じて各種書類の提出が必要です。すべての出店者は「出店申請書兼誓約書」を提出してください。道路上での出店は「道路使用許可申請書」（申請費用2,500円）、火気器具使用時は「露店等の開設届出書」、食品取扱時は「臨時出店の概要」、駐車場・民有地での出店は「土地使用承諾書」の提出が必要です。駅前通り（飯能駅北口〜東町交差点手前）への出店はできません。提出先は(一社)奥むさし飯能観光協会【飯能まつり協賛会事務局】で、提出期限は10月2日(金)厳守です。",
+  "end": {
+    "date": "2026-08-28"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFyajVldHBpcWRoZzcwcTJxYzltNzRvamVlYTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIDIwNTQwM2M5NzFkYzVlZjIxZWZkODFjMWQ1Mzg0OWNhZGZkOTAxYjc1Yzc3ZDg4OTU1ZDk2MDBmNDVmMmEwMTNAZw",
+  "iCalUID": "tourism-news-6084-169179@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqrj5etpiqdhg70q2qc9m74ojeea0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能カレンダー",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/news/hannomaturi2026"
+  },
+  "start": {
+    "date": "2026-08-27"
+  },
+  "status": "confirmed",
+  "summary": "📢 「令和８年飯能まつり」で出店される方へ【11/7(土)・11/8(日)開催】",
+  "updated": "2026-10-23T20:54:38.532Z"
+}

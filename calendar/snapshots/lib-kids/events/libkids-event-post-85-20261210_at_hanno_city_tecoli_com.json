@@ -1,0 +1,35 @@
+{
+  "created": "2026-10-23T20:54:44.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "こども図書館の施設の修繕に伴い、下記の日程で臨時休館といたします。\n\nご迷惑をおかけいたしますが、ご理解とご協力の程、よろしくお願いいたします。\n\n【休館期間（終日）】\n\n令和８年１２月４日（金）から\n\n令和９年１月１５日（金）まで\n\n【休館に伴う対応について】\n\n・こども図書館での館内閲覧、図書の貸出、返却はできません。\n\n・予約した資料の受け取りが「こども図書館」の方については「市立図書館」での受け取りをお願いいたします。\n\n・ブックポストについては休館期間中についても利用可能です。\n\nhttps://www.hanno-lib.jp/calendar/post-85.html",
+  "end": {
+    "date": "2026-12-11"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Roa200cXI5Y2hwaXFwYm1jbG43OGJiZ2R0cG44YjlvNmttajRjMWk2b29qNGM5ZzgxazYycmplZHNuNjZxYmtmNG43OHBiM2R0bTZpYmozZHRtZyBhY2JlMTQzYTc0NDVlMmUxZjQ1MzVlMzQ0YzcxNjIzNzMwYmY4ODQ5ODZiYmJhOTc3MjcxMzI4NzExYjI1Zjg3QGc",
+  "iCalUID": "libkids-event-post-85-20261210@hanno.city.tecoli.com",
+  "id": "_dhkm4qr9chpiqpbmcln78bbgdtpn8b9o6kmj4c1i6ooj4c9g81k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+  "kind": "calendar#event",
+  "location": "こども図書館",
+  "organizer": {
+    "displayName": "こども図書館",
+    "email": "acbe143a7445e2e1f4535e344c71623730bf884986bbba977271328711b25f87@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-lib.jp",
+    "url": "https://www.hanno-lib.jp/calendar/post-85.html"
+  },
+  "start": {
+    "date": "2026-12-10"
+  },
+  "status": "confirmed",
+  "summary": "📚 こども図書館の臨時休館について(令和８年１２月４日（金）～ 令和９年１月１５日（金）)",
+  "updated": "2026-10-23T20:54:44.875Z"
+}

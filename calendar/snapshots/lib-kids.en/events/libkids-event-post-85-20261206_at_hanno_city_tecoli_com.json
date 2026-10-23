@@ -1,0 +1,35 @@
+{
+  "created": "2026-10-23T20:57:46.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nThe Children's Library will close temporarily for facility repairs during the period below.\n\nWe apologize for any inconvenience and appreciate your understanding and cooperation.\n\n【Closure Period (all day)】\n\nDecember 4, 2026 (Reiwa 8) through January 15, 2027 (Reiwa 9)\n\n【Changes during the closure】\n\n• The Children's Library will not offer in-library reading, book lending, or returns.\n\n• If you have reserved materials for pickup at the Children's Library, please pick them up at the main Hanno Library instead.\n\n• The book drop box will remain available during the closure period.\n\nSource (Japanese): https://www.hanno-lib.jp/calendar/post-85.html",
+  "end": {
+    "date": "2026-12-07"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Roa200cXI5Y2hwaXFwYm1jbG43OGJiZ2R0cG44YjlvNmttajRjMWk2b29qNGMxbTgxazYycmplZHNuNjZxYmtmNG43OHBiM2R0bTZpYmozZHRtZyBiZGQ3YjJjOWZkMWQ3ZGU5NmRhMzNjN2JkNDBhYmRkNTY0MDEzOGM4NDRiNjIzMWM5ZDYwN2ZjZTQ1NjI0MmMzQGc",
+  "iCalUID": "libkids-event-post-85-20261206@hanno.city.tecoli.com",
+  "id": "_dhkm4qr9chpiqpbmcln78bbgdtpn8b9o6kmj4c1i6ooj4c1m81k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+  "kind": "calendar#event",
+  "location": "こども図書館",
+  "organizer": {
+    "displayName": "こども図書館（EN）",
+    "email": "bdd7b2c9fd1d7de96da33c7bd40abdd5640138c844b6231c9d607fce456242c3@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-lib.jp",
+    "url": "https://www.hanno-lib.jp/calendar/post-85.html"
+  },
+  "start": {
+    "date": "2026-12-06"
+  },
+  "status": "confirmed",
+  "summary": "📚 Children's Library temporary closure (December 4, 2026 – January 15, 2027)",
+  "updated": "2026-10-23T20:57:46.486Z"
+}

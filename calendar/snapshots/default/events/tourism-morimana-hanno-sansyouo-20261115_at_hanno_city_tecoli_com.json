@@ -1,0 +1,35 @@
+{
+  "created": "2026-10-23T20:54:40.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🕒 10:00–15:00\n\n飯能エコツーリズム協会: https://hanno-tourism.jp/hanno-eco/tour/morimana-hanno-sansyouo/\n\n里山環境にくらす「トウキョウサンショウウオ」。 水辺と陸地を行き来する生態の謎に迫ります。 今回は産卵場となる溝を掘る作業をします。 春には作業をした産卵場での卵のう調査を予定しています。 晩秋の水辺を観察しながら、楽しく作業をしましょう！ ※このツアーに参加されると春に行われる卵のうカウントツアーの参加費が半額になります。\n\n【利用料金】大人3,000円、学生2,000円、未就学児1,000円 （ガイド料、保険、資料代）\n\n【定員】20名\n\n【ガイド】森のフィールド学舎スタッフ\n\n【持ち物】飲み物、昼食、軍手、着替え、タオル、長靴\n\n【備考】森のフィールド学舎HP https://morinomanabiya168.wixsite.com/website",
+  "end": {
+    "date": "2026-11-16"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFyYmZlOWttcW9iZWM0bW1nb2JlZHBuaXFzcjFkcHBuaXJybGRzbWo0YzFpNm9vajJjOWw4MWs2MnJqZWRzbjY2cWJrZjRuNzhwYjNkdG02aWJqM2R0bWcgMjA1NDAzYzk3MWRjNWVmMjFlZmQ4MWMxZDUzODQ5Y2FkZmQ5MDFiNzVjNzdkODg5NTVkOTYwMGY0NWYyYTAxM0Bn",
+  "iCalUID": "tourism-morimana-hanno-sansyouo-20261115@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqrbfe9kmqobec4mmgobedpniqsr1dppnirrldsmj4c1i6ooj2c9l81k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+  "kind": "calendar#event",
+  "location": "集合 飯能市立博物館前（国際興業バス「OH!!!・天覧山下」または」「市民会館・博物館」下車徒歩3分）",
+  "organizer": {
+    "displayName": "飯能カレンダー",
+    "email": "205403c971dc5ef21efd81c1d53849cadfd901b75c77d88955d9600f45f2a013@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/hanno-eco/tour/morimana-hanno-sansyouo/"
+  },
+  "start": {
+    "date": "2026-11-15"
+  },
+  "status": "confirmed",
+  "summary": "飯能にくらすサンショウウオの生態を学ぼう！産卵地の保全作業編",
+  "updated": "2026-10-23T20:54:40.277Z"
+}

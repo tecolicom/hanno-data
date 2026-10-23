@@ -1,0 +1,34 @@
+{
+  "created": "2026-10-23T20:57:42.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nHanno Festival 2026 (November 7–8, Reiwa 8)\n\nVendor registration has closed. If you are an approved vendor, you must submit required documents based on your business type by October 2, 2026 (Friday).\n\nAll vendors must submit:\n• Vendor Application & Pledge Form (出店申請書兼誓約書)\n\nAdditional requirements by type:\n• Street vending: Road Use Permit Application (申請費用2,500円 application fee)\n• Using fire equipment: Temporary Stall Opening Notice (露店等の開設届出書)\n• Handling food: Temporary Vendor Outline Form (臨時出店の概要)\n• Parking lot or private land: Land Use Consent Form (土地使用承諾書)\n\nNote: Vendors cannot set up on Station Front Street (from Hanno Station North Exit to just before the Higashimachi intersection).\n\nSubmit documents to:\nOku-Musashi Hanno Tourism Association (奥むさし飯能観光協会)\nHanno Matsuri Sponsorship Committee Office (飯能まつり協賛会事務局)\n\nDeadline: October 2, 2026 (Friday) — strictly observed.\n\nFor details: https://hanno-tourism.jp/news/hannomaturi2026",
+  "end": {
+    "date": "2026-08-28"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFyajVldHBpcWRoZzcwcTJxYzltNzRvamVlYTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIGQ5MTkzY2Y1ZjY0NGFiNDFhMjhlMjI2OGE5OGFiYzVhYTQyNmJkMmQ1NzcxNTI4MzQyNDRhZDY5YTMxZjVhNjhAZw",
+  "iCalUID": "tourism-news-6084-169179@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqrj5etpiqdhg70q2qc9m74ojeea0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/news/hannomaturi2026"
+  },
+  "start": {
+    "date": "2026-08-27"
+  },
+  "status": "confirmed",
+  "summary": "📢 Vendor Information for Hanno Festival 2026 (Nov 7–8) — Application Closed",
+  "updated": "2026-10-23T20:57:43.119Z"
+}
