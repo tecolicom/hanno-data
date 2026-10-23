@@ -164,6 +164,9 @@
   "https://hanno-tourism.jp/hanno-eco/tour/morimana-christmas-craft/": {
     "modified_gmt": "2026-10-05T06:11:19"
   },
+  "https://hanno-tourism.jp/hanno-eco/tour/morimana-hanno-sansyouo/": {
+    "modified_gmt": "2026-10-23T06:35:05"
+  },
   "https://hanno-tourism.jp/hanno-eco/tour/morimana-mtsua-sansyouo-akihuyu/": {
     "modified_gmt": "2026-10-05T06:10:11"
   },
@@ -336,7 +339,7 @@
     "modified_gmt": "2026-09-04T06:52:01"
   },
   "https://hanno-tourism.jp/news/hannomaturi2026": {
-    "modified_gmt": "2026-09-02T04:12:41"
+    "modified_gmt": "2026-10-23T05:24:17"
   },
   "https://hanno-tourism.jp/news/oh%e5%89%b5%e6%a5%ad%e7%a5%ad%e3%80%80%ef%bc%96th-anniversary%e3%80%8010-10%e5%9c%9f%ef%bd%a511%e6%97%a5%ef%bd%a512%e6%9c%88-%e7%a5%9d%ef%bc%89%e9%96%8b%e5%82%ac%e2%9d%a3": {
     "modified_gmt": "2026-10-09T02:23:38"
@@ -1443,18 +1446,22 @@
   },
   "https://www.hanno-lib.jp/calendar/101017.html": {
     "etag": null,
-    "last_modified": "Sun, 18 Oct 2026 01:41:24 GMT"
+    "last_modified": "Fri, 23 Oct 2026 05:06:47 GMT"
   },
   "https://www.hanno-lib.jp/calendar/1010341011121718242531.html": {
     "etag": null,
-    "last_modified": "Sun, 18 Oct 2026 01:41:24 GMT"
+    "last_modified": "Fri, 23 Oct 2026 05:06:47 GMT"
   },
   "https://www.hanno-lib.jp/calendar/1021.html": {
     "etag": null,
-    "last_modified": "Sun, 18 Oct 2026 01:41:24 GMT"
+    "last_modified": "Fri, 23 Oct 2026 05:06:47 GMT"
   },
   "https://www.hanno-lib.jp/calendar/1031-1.html": {
     "etag": null,
-    "last_modified": "Sun, 18 Oct 2026 01:41:24 GMT"
+    "last_modified": "Fri, 23 Oct 2026 05:06:47 GMT"
+  },
+  "https://www.hanno-lib.jp/calendar/post-85.html": {
+    "etag": null,
+    "last_modified": "Fri, 23 Oct 2026 05:06:47 GMT"
   }
 }

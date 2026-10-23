@@ -1,0 +1,37 @@
+uid: "libkids-event-post-85-20261205@hanno.city.tecoli.com"
+summary: "📚 こども図書館の臨時休館について(令和８年１２月４日（金）～ 令和９年１月１５日（金）)"
+location: "こども図書館"
+url: "https://www.hanno-lib.jp/calendar/post-85.html"
+dtstart: "2026-12-05"
+dtend: "2026-12-05"
+description: |-
+  こども図書館の施設の修繕に伴い、下記の日程で臨時休館といたします。
+  
+  ご迷惑をおかけいたしますが、ご理解とご協力の程、よろしくお願いいたします。
+  
+  【休館期間（終日）】
+  
+  令和８年１２月４日（金）から
+  
+  令和９年１月１５日（金）まで
+  
+  【休館に伴う対応について】
+  
+  ・こども図書館での館内閲覧、図書の貸出、返却はできません。
+  
+  ・予約した資料の受け取りが「こども図書館」の方については「市立図書館」での受け取りをお願いいたします。
+  
+  ・ブックポストについては休館期間中についても利用可能です。
+  
+  https://www.hanno-lib.jp/calendar/post-85.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-lib-kids-event
+  id: "post-85"
+  url: "https://www.hanno-lib.jp/calendar/post-85.html"
+  content_hash: "sha256-b814997932290bea"
+  summary_method: "full"
