@@ -35,3 +35,30 @@ source:
   url: "https://www.hanno-lib.jp/calendar/post-85.html"
   content_hash: "sha256-28324cd5cb275ac9"
   summary_method: "full"
+translations:
+  en:
+    summary: "📚 Children's Library Temporary Closure (December 4, 2026 – January 15, 2027 (Reiwa 8–9))"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      The Children's Library will close temporarily for facility repairs during the following period.
+      
+      We apologize for any inconvenience and appreciate your understanding and cooperation.
+      
+      【Closure Period (All Day)】
+      
+      December 4, 2026 (Friday, Reiwa 8) through January 15, 2027 (Friday, Reiwa 9)
+      
+      【Changes During Closure】
+      
+      • Inside browsing, book checkout, and returns at the Children's Library will not be available.
+      
+      • Patrons who reserved materials for pickup at the Children's Library may pick them up at the Main Library instead.
+      
+      • The book drop box will remain available during the closure period.
+      
+      Source (Japanese): https://www.hanno-lib.jp/calendar/post-85.html
+    translation_hash: "sha256-bdedec6599bd2c63"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-23T20:56:09.325026Z"
+    format_version: 3

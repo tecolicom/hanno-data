@@ -24,3 +24,35 @@ source:
   modified_gmt: "2026-10-23T05:24:17"
   content_hash: "sha256-169179c22f6f5d85"
   supersedes: "tourism-news-6084-042ccc@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "📢 Vendor Information for Hanno Festival 2026 (Nov 7–8) — Application Closed"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Festival 2026 (November 7–8, Reiwa 8)
+      
+      Vendor registration has closed. If you are an approved vendor, you must submit required documents based on your business type by October 2, 2026 (Friday).
+      
+      All vendors must submit:
+      • Vendor Application & Pledge Form (出店申請書兼誓約書)
+      
+      Additional requirements by type:
+      • Street vending: Road Use Permit Application (申請費用2,500円 application fee)
+      • Using fire equipment: Temporary Stall Opening Notice (露店等の開設届出書)
+      • Handling food: Temporary Vendor Outline Form (臨時出店の概要)
+      • Parking lot or private land: Land Use Consent Form (土地使用承諾書)
+      
+      Note: Vendors cannot set up on Station Front Street (from Hanno Station North Exit to just before the Higashimachi intersection).
+      
+      Submit documents to:
+      Oku-Musashi Hanno Tourism Association (奥むさし飯能観光協会)
+      Hanno Matsuri Sponsorship Committee Office (飯能まつり協賛会事務局)
+      
+      Deadline: October 2, 2026 (Friday) — strictly observed.
+      
+      For details: https://hanno-tourism.jp/news/hannomaturi2026
+    translation_hash: "sha256-5cb9003a1ec8611f"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-23T20:55:18.013407Z"
+    format_version: 3

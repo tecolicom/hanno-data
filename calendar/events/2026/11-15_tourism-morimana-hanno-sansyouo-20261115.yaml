@@ -30,3 +30,28 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/morimana-hanno-sansyouo/"
   fetched_at: "2026-10-23T20:52:40.421213Z"
   content_hash: "sha256-5b3c60310bbed4eb"
+translations:
+  en:
+    summary: "Learn about the ecology of Japanese giant salamanders in Hanno! — Conservation work at spawning grounds edition"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/morimana-hanno-sansyouo/
+      
+      The Tokyo giant salamander (Tōkyō sanshōuō) lives in satoyama (managed hillside) environments. This tour explores the mystery of their life cycle as they move between water and land. This time, you'll help dig drainage channels that serve as spawning grounds. In spring, we plan to conduct a survey of egg clusters at the sites you've prepared. Observe the late-autumn waterside while enjoying hands-on work!
+      
+      ※ Participants in this tour receive a 50% discount on the spring egg-cluster count tour.
+      
+      【Fee】Adults ¥3,000 | Students ¥2,000 | Preschool children ¥1,000 (includes guide, insurance, materials)
+      
+      【Capacity】20 people
+      
+      【Guide】Mori no Field Gakusha staff
+      
+      【What to bring】Drinks, lunch, work gloves, change of clothes, towel, boots
+      
+      【More information】Mori no Field Gakusha website: https://morinomanabiya168.wixsite.com/website
+    translation_hash: "sha256-6d2655a4b3fed9bc"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-23T20:55:22.988634Z"
+    format_version: 3
