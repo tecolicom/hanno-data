@@ -30,3 +30,26 @@ source:
   content_hash: "sha256-71ba55097e5d999c"
   summary_method: "full"
   publish_date: "2026-10-22"
+translations:
+  en:
+    summary: "ℹ️ Meiji Yasuda Life Insurance Company donates to Hanno City"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New (Published: October 22, 2026)
+      
+      On October 13, 2026 (Reiwa 8), Meiji Yasuda Life Insurance Company, with which our city has a comprehensive partnership agreement, donated funds as part of their "Supporting My Hometown" fundraising initiative.
+      
+      This is the eighth donation from the company since August 2020 (Reiwa 2). The company has been giving continuously.
+      
+      The donated funds will be used to support child-rearing assistance programs.
+      
+      About the "Supporting My Hometown" Fundraising Initiative
+      
+      This program is part of the company's nationwide "Energizing Our Hometowns Project," which supports community health and quality of life. Employees designate regions where they live or have roots and contribute to fundraising campaigns. The company then adds its own donation on top of employee contributions.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/tihousouseikouikigyousei/sangakukanrenkei/14528.html
+    translation_hash: "sha256-255d14dccfbbb1f0"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-27T21:49:06.548469Z"
+    format_version: 3

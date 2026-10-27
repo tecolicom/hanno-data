@@ -23,3 +23,18 @@ source:
   fetched_at: "2026-10-27T21:42:33.851864Z"
   modified_gmt: "2026-10-27T06:01:21"
   content_hash: "sha256-7805525ab7d4b60c"
+translations:
+  en:
+    summary: "📢 Hanno Tourism Office Closed Nov 7–8 for Hanno Festival"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      The Okumusashi Hanno Tourism Association (located in the Hanno Chamber of Commerce) will be closed for tourist information services and phone calls on November 7–8, 2026 (Reiwa 8), the two days of the Hanno Festival.
+      
+      Please note: Eagle Bus regular ticket purchases and manhole card distribution will not be available during this closure.
+      
+      However, Purat Hanno (the tourist information desk at Hanno Station) will extend its hours to 9:00 AM–7:00 PM on both festival days.
+    translation_hash: "sha256-2ecdcd8158104d72"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-27T21:49:31.572599Z"
+    format_version: 3

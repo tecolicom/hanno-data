@@ -36,3 +36,36 @@ source:
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-10-26"
   supersedes: "oshirase-13340@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ Sugoshi Walking Event December 15, 2026 (Tuesday) – Sugoshi Relaxed Walk December"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content Updated (Published: October 26, 2026 / Previously listed: March 27, 2026)
+      Main change: Event date has been rescheduled from May 19 and 30 to December 15.
+      
+      Hanno Walking Club is holding "Sugoshi Relaxed Walk December."
+      
+      Date & Time: December 15, 2026 (Tuesday) – Gather at 10:00 a.m.
+      Gathering Place: West parking lot of Hanno City Hall
+      
+      Course: Depending on weather and number of participants, you will walk one of the following:
+      
+      (1) City Hall → Benzaiten → Chikkanji → Nakayama West Signal → Yatsuda → Nionji → Central Park → Hongo Water Purification Plant → Hanno Riverbed Stepping Stones Bridge → Hanno Station → Higashi-Hanno Station → City Hall (approximately 7 kilometers, approximately 2 hours 30 minutes)
+      
+      (2) City Hall → Around Hanno City (Shimokaji, Futayanagi, Kaji, etc.) → Around Iruma City (Shinko, Noda, etc.) → Busshi Station (return by train) (approximately 7 kilometers, approximately 2 hours 30 minutes)
+      
+      Cost: Free (insurance is your own responsibility)
+      
+      What to Bring: Drinks, rain gear, IC transit card, Sugoshi Handbook (if you have one)
+      
+      Registration: No advance registration – just show up at the gathering place by the start time.
+      
+      Cancellation Notice: To check if the walk is cancelled due to weather or other reasons, check the Hanno Walking Club website or call Onda at 090-2205-8073 after 3:00 p.m. on the day before the event.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/13340.html
+    translation_hash: "sha256-7c98352f7e8fa35a"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-27T21:49:23.124016Z"
+    format_version: 3

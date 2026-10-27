@@ -40,3 +40,34 @@ source:
   content_hash: "sha256-c748d62a2a9d1546"
   summary_method: "full"
   publish_date: "2026-10-21"
+translations:
+  en:
+    summary: "ℹ️ Coordinated patrol against uncontrolled development in Fiscal 2026"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New posting (Published: October 21, 2026)
+      
+      Coordinated Patrol Against Uncontrolled Development
+      
+      Hanno City works with Saitama Prefecture and 25 other municipalities in the prefecture to conduct coordinated patrols aimed at preventing uncontrolled development around areas such as the Kan-Etsu Expressway interchanges.
+      
+      For details on the definition of uncontrolled development and other information, please visit the Saitama Prefecture website.
+      
+      Saitama Prefecture website: "Industrial Infrastructure Development Surrounding Areas – Uncontrolled Development Prevention Initiatives"
+      
+      Patrol Period
+      
+      November 2, 2026 (Monday) through November 30, 2026 (Monday)
+      
+      Inquiries about the Coordinated Patrol Against Uncontrolled Development
+      
+      Saitama Prefecture Industrial Infrastructure Measures Division
+      
+      Phone: 048-830-5545
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/nogyoshinkoka/keikaku/14510.html
+    translation_hash: "sha256-c1e5e51458a501ee"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-27T21:49:02.552193Z"
+    format_version: 3

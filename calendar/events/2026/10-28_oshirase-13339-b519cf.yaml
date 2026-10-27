@@ -46,3 +46,39 @@ source:
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-10-27"
   supersedes: "oshirase-13339-31bb46@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ Sogo-Ashi Event: First Maple Leaf Walk, November 23, 2026 (Monday, National Holiday)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content updated (published October 27, 2026 / previously listed September 22, 2026)
+      Main change: The course distance has been adjusted from approximately 8 kilometers to approximately 7.8 kilometers.
+      
+      We are holding the "First Maple Leaf Walk," a guided walk through the autumn countryside and rural areas of the Seimei District. (Note: This replaces the 51st Seimei District Walking Rally, which has been renamed.)
+      
+      【Date and Time】Monday, November 23, 2026 (Reiwa 8), National Holiday. Assembly at 8:15 a.m.
+      
+      【Assembly Point】Seimei District Administrative Center
+      
+      【Course】Seimei District Administrative Center → through Okokubo, Hiramatsu, and Ashikariba areas → through Futayanagi and Okokubo areas → National Route 299 Bypass → through Aoki and Nakai areas → Nakai Tourism Public Restroom (rest stop) → Miyazawa Lake and Metsa Village (rest stop) → through Miyazawa, Shimokaji, and Okokubo areas → return to Seimei District Administrative Center
+      
+      【Distance】Approximately 7.8 kilometers
+      
+      【Planned Duration】Approximately 3 hours
+      
+      【Cost】Free
+      
+      【What to Bring】Drinking water, rain gear, Sogo-Ashi handbook (if you have one)
+      
+      【How to Apply】Apply to one of the district administrative centers listed below by Wednesday, November 11, 2026:
+      • Seimei District Administrative Center — Phone: 042-972-2314, Fax: 042-972-9804, Email: seimei-k@city.hanno.lg.jp
+      • Futayanagi District Administrative Center — Phone: 042-972-9900, Fax: 042-972-9902, Email: nami-k@city.hanno.lg.jp
+      
+      【Checking for Cancellation】If weather or other conditions cause cancellation, please call the Seimei District Administrative Center between 7:30 a.m. and 8:00 a.m. on the day of the event to confirm.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/13339.html
+    translation_hash: "sha256-c88fe9d9d9baf614"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-27T21:49:37.714920Z"
+    format_version: 3

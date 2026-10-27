@@ -43,3 +43,45 @@ source:
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-10-23"
   supersedes: "oshirase-8239@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ Hanno Food and Nutrition Promotion Council"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content Updated (Published: October 23, 2026 / Previously listed: March 24, 2026)
+      Main change: Details for the Reiwa 8 Food and Nutrition Promotion Staff Training Course have been finalized. The course runs over 4 days from November 25, 2026 to February 19, 2027. Application period: October 23 to November 20, 2026.
+      
+      The Hanno Food and Nutrition Promotion Council is offering a training course for promotion staff in fiscal year 2026 (Reiwa 8). You will learn about nutrition and health and gain qualifications to work as a food education expert.
+      
+      【Schedule, Venue, and What to Bring】
+      
+      Day 1: Wednesday, November 25, 2026, 10:00 a.m.–4:00 p.m., Hanno City Health Center. Hands-on cooking practice and 3 lectures. Bring: apron, head covering, mask, writing materials.
+      
+      Day 2: Friday, December 18, 2026, 1:00 p.m.–4:00 p.m., Hanno City Health Center. 3 lectures. Bring: writing materials.
+      
+      Day 3: Thursday, January 28, 2027, 1:00 p.m.–4:00 p.m., Hanno Fujimi Community Center / Administrative Center. Physical activity session and lecture. Bring: exercise-appropriate clothing and shoes, towel, drink, writing materials.
+      
+      Day 4: Friday, February 19, 2027, 1:00 p.m.–4:00 p.m., Hanno City Health Center. Lectures and completion ceremony. Bring: writing materials.
+      
+      You must also attend 2 regular cooking practice sessions held by your branch (December and February).
+      
+      【Capacity, Eligibility, and Fees】
+      Capacity: 30 people. Open to anyone (any age or gender) willing to join the Hanno Food and Nutrition Promotion Council. The course itself is free, but each branch's cooking practice sessions require a materials fee (roughly 500–1,000 yen per session).
+      
+      【How to Apply】
+      Period: Friday, October 23, 2026 to Friday, November 20, 2026.
+      
+      Method: Provide your name, date of birth, address, and phone number, then apply by:
+      • Phone: 042-974-3488 (weekdays, 9:00 a.m.–5:15 p.m.)
+      • Fax: 042-974-6558
+      • Email: kenkozukuri@city.hanno.lg.jp
+      • Online application system
+      
+      After completing the course, you will join one of five branches (Hanno North, Hanno East, Kaji East, Kaji West, or Haraichiba) and participate in community health activities in your area. You can discuss which branch to join after seeing how they operate.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/8239.html
+    translation_hash: "sha256-00bd77ef54f38ace"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-27T21:49:14.268389Z"
+    format_version: 3

@@ -23,3 +23,20 @@ source:
   fetched_at: "2026-10-27T21:42:37.887561Z"
   modified_gmt: "2026-10-27T10:25:12"
   content_hash: "sha256-c52aeead1bba1f56"
+translations:
+  en:
+    summary: "📢 Enjoy Hanno! Moomin Valley Park Outing Pass (Digital)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Okumushi Hanno Tourism Association: https://hanno-tourism.jp/news/mvp-odekakepass-2026ws
+      
+      🆕 New listing (Published: October 26, 2026)
+      
+      The Enjoy Hanno! Moomin Valley Park digital pass is now on sale. The package includes a one-day pass for all Seibu Railway lines (except the Tamagawa Line), round-trip bus tickets between Hanno Station North Exit and Metsa, a Moomin Valley Park one-day pass, 1,000 yen worth of coupons usable at Hanno City partner shops, and an original Moomin Valley Park clip.
+      
+      During the year-end and New Year period from December 31, 2026 (Thursday) to January 4, 2027 (Monday), Moomin Valley Park and Metsa Village will also serve as coupon partner shops and clip exchange locations. Other partner shops may be closed during the holiday period, so advance confirmation is recommended.
+    translation_hash: "sha256-430cff3e647683cb"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-27T21:49:17.956782Z"
+    format_version: 3

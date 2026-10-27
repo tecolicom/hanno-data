@@ -48,3 +48,45 @@ source:
   summary_method: "full"
   publish_date: "2026-10-26"
   supersedes: "oshirase-7601-ee1cc0@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ Sugo-Ashi Walking Event – Dec 9, 2026 (Wednesday) – Walk through Misugi-dai and Ochiai Nature"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content Update (Posted: October 26, 2026 / Previously listed: July 21, 2026)
+      Main changes: Date moved from September 24 to December 9; course extended from about 10 km to about 11 km; registration deadline moved from September 20 to December 5.
+      
+      Event Details
+      
+      Date: December 9 (Wednesday)
+      
+      Assembly time: 10:00 a.m.
+      
+      Assembly location: West parking lot of Hanno City Hall
+      
+      Course: Hanno City Hall → Hanno River (Hanno-gawara) → Asahi-yama Overlook Park → Yuuhi-yama Park → Kanji-ji Temple → Saikoji Temple → Beside the purification center → Yagawa Bridge → Kawaji → Hanno City Hall
+      
+      Distance: Approximately 11 kilometers
+      
+      Estimated duration: About 3 hours 30 minutes
+      
+      Fee: 200 yen (insurance and other costs; collected on the day)
+      
+      What to bring: Packed lunch, drinks, rain gear, Sugo-Ashi handbook (if you have one)
+      
+      Registration: Register with ASA Hanno by December 5 (Saturday)
+      Phone: 042-972-4701
+      Fax: 042-974-2190
+      
+      Cancel check: For cancellations due to weather or other reasons, contact ASA Hanno after 9:00 a.m. on the day of the event.
+      
+      Inquiries: Onda, 090-2205-8073
+      
+      Hosted by: Hanno Walking Club
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/7601.html
+    translation_hash: "sha256-9b015b0209d25ddf"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-27T21:49:28.445560Z"
+    format_version: 3

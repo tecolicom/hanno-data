@@ -21,3 +21,16 @@ source:
   fetched_at: "2026-10-27T21:42:33.900347Z"
   modified_gmt: "2026-10-27T06:01:21"
   content_hash: "sha256-7805525ab7d4b60c"
+translations:
+  en:
+    summary: "ℹ️ November 7–8 (Sun) Hanno Festival Closure Notice"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Oku-Musashi Hanno Tourism Association (located inside Hanno Chamber of Commerce and Industry) will close for tourist information services and phone support on November 7–8, 2026 (Reiwa 8), during the Hanno Festival. Eagle Bus regular pass purchases and manhole card distribution will not be available during these days. Please note: Plat Hanno (the tourist information counter at Hanno Station) will extend its hours to 9:00 AM–7:00 PM on both festival days.
+      
+      More details: https://hanno-tourism.jp/news/11-7%e5%9c%9f%ef%bd%a58%e6%97%a5%e3%80%80%e9%a3%af%e8%83%bd%e3%81%be%e3%81%a4%e3%82%8a%e9%96%8b%e5%82%ac%e3%81%ab%e4%bc%b4%e3%81%86%e4%bc%91%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b
+    translation_hash: "sha256-621075755f9e18a0"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-27T21:49:54.227567Z"
+    format_version: 3

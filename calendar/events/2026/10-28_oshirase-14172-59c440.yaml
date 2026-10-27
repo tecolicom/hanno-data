@@ -36,3 +36,31 @@ source:
   content_hash: "sha256-59c4406a85928039"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-10-27"
+translations:
+  en:
+    summary: "ℹ️ Want to promote your shop on Hanno's official social media?"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New listing (Published: October 27, 2026)
+      
+      Hanno City creates short promotional videos featuring local shops and posts them regularly on official social media (Instagram and YouTube channel). We are now recruiting shop owners to appear in these promotional videos as a great opportunity to reach a wide audience inside and outside the city.
+      
+      【How to apply】
+      To apply, fill out the Hanno City SNS Listing Application Form with required information and submit it by email or fax to the Secretariat and Public Relations Division, Information Promotion Section.
+      
+      Email: koho@city.hanno.lg.jp
+      Fax: 042-974-0311
+      
+      【Eligibility】
+      • Your shop must be located in Hanno City (chain stores operating in multiple municipalities are not eligible)
+      • Your business must meet all posting conditions in the SNS Listing Application Form
+      
+      【About filming】
+      After your application is approved, the Secretariat and Public Relations Division will contact you to arrange a filming date. From filming to posting typically takes about 2–4 weeks (this may take longer if we receive many applications). The video will feature your shop's exterior, interior, and products you want to promote. You may need to provide consumable items for filming.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/14172.html
+    translation_hash: "sha256-76abe4c6579d1b52"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-27T21:49:41.956440Z"
+    format_version: 3

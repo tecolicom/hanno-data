@@ -37,3 +37,31 @@ source:
   content_hash: "sha256-9ced7c5fdc8a3eb3"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-10-27"
+translations:
+  en:
+    summary: "ℹ️ Temporary suspension of some city website and system functions"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New announcement (Published: October 27, 2026)
+      
+      Due to an urgent security update to fix a PHP vulnerability, some functions of the Hanno City website and city system services are temporarily suspended.
+      
+      【Suspended functions】
+      • Hanno City website: inquiry form, event calendar, RSS information sharing, page ID search
+      • Email distribution system
+      • Nishikawa Broad-area Forest Cooperative website
+      
+      【Suspension period】
+      Restart date is not yet determined. Services will be restored gradually once the security measures are complete.
+      
+      【Response】
+      While the inquiry form is unavailable, please contact us by phone. We will update the website as soon as the security measures are finished.
+      
+      No damage from this vulnerability has been detected so far. We apologize for any inconvenience and appreciate your understanding and cooperation.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/14546.html
+    translation_hash: "sha256-9cf9df6895a75346"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-27T21:49:44.825261Z"
+    format_version: 3

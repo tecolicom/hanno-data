@@ -45,3 +45,38 @@ source:
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-10-27"
   supersedes: "oshirase-7837-fb1746@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ Traffic Fatal Accident Alert Issued"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content Update (Published: October 27, 2026 / Previously posted: July 22, 2026)
+      Main change: The alert period has been changed to October 27 – November 5, 2026. Of the 5 accidents in this alert period, 3 involved elderly victims, and 2 occurred on crosswalks during dark hours (within 1 hour after sunset or before sunrise).
+      
+      Saitama Prefecture has issued a Traffic Fatal Accident Alert following 5 fatal traffic accidents that occurred between October 20 and October 23, 2026 (Reiwa 8).
+      
+      【Alert Period】
+      October 27 – November 5, 2026 (10 days)
+      
+      【Characteristics of the Accidents】
+      Of 5 accidents, 3 involved elderly victims. Two of these occurred on crosswalks during dark hours—within 1 hour after sunset or within 1 hour before sunrise.
+      
+      【For Pedestrians】
+      • Use crosswalks and pedestrian overpasses
+      • Always look both ways and use hand signals (raising your hand, etc.) to clearly show drivers your intention to cross
+      • Wear reflective materials, lights, or bright-colored clothing during dusk, night, and early morning hours
+      
+      【For Drivers】
+      • Obey speed limits and drive with caution and distance
+      • Pedestrians have priority at crosswalks
+      • About 70% of pedestrian accidents occur when crossing from the right side of the vehicle's view; pay special attention to crossings from the right
+      • Drive with consideration for elderly pedestrians
+      • Turn on headlights early at dusk, and use high beams effectively at night
+      • Make thorough checks when turning right or left
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/bohan/7837.html
+    translation_hash: "sha256-79b86c8e5c9d2123"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-27T21:49:50.319752Z"
+    format_version: 3
