@@ -1,0 +1,34 @@
+{
+  "created": "2026-10-27T21:50:03.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 New (Published: October 22, 2026)\n\nOn October 13, 2026 (Reiwa 8), Meiji Yasuda Life Insurance Company, with which our city has a comprehensive partnership agreement, donated funds as part of their \"Supporting My Hometown\" fundraising initiative.\n\nThis is the eighth donation from the company since August 2020 (Reiwa 2). The company has been giving continuously.\n\nThe donated funds will be used to support child-rearing assistance programs.\n\nAbout the \"Supporting My Hometown\" Fundraising Initiative\n\nThis program is part of the company's nationwide \"Energizing Our Hometowns Project,\" which supports community health and quality of life. Employees designate regions where they live or have roots and contribute to fundraising campaigns. The company then adds its own donation on top of employee contributions.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/tihousouseikouikigyousei/sangakukanrenkei/14528.html",
+  "end": {
+    "date": "2026-10-24"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Z3FqNGUxZDZzb200bzlsNmwwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-14528-71ba55@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6gqj4e1d6som4o9l6l06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/tihousouseikouikigyousei/sangakukanrenkei/14528.html"
+  },
+  "start": {
+    "date": "2026-10-23"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Meiji Yasuda Life Insurance Company donates to Hanno City",
+  "updated": "2026-10-27T21:50:03.978Z"
+}

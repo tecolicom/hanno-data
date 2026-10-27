@@ -1,0 +1,34 @@
+{
+  "created": "2026-10-27T21:50:07.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 New announcement (Published: October 27, 2026)\n\nDue to an urgent security update to fix a PHP vulnerability, some functions of the Hanno City website and city system services are temporarily suspended.\n\n【Suspended functions】\n• Hanno City website: inquiry form, event calendar, RSS information sharing, page ID search\n• Email distribution system\n• Nishikawa Broad-area Forest Cooperative website\n\n【Suspension period】\nRestart date is not yet determined. Services will be restored gradually once the security measures are complete.\n\n【Response】\nWhile the inquiry form is unavailable, please contact us by phone. We will update the website as soon as the security measures are finished.\n\nNo damage from this vulnerability has been detected so far. We apologize for any inconvenience and appreciate your understanding and cooperation.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/14546.html",
+  "end": {
+    "date": "2026-10-29"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Z3FqOGRoZDc1aG1hcDFuY2QwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-14546-9ced7c@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6gqj8dhd75hmap1ncd06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/14546.html"
+  },
+  "start": {
+    "date": "2026-10-28"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Temporary suspension of some city website and system functions",
+  "updated": "2026-10-27T21:50:08.085Z"
+}

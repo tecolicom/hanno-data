@@ -1,0 +1,34 @@
+{
+  "created": "2026-10-27T21:50:04.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nOkumushi Hanno Tourism Association: https://hanno-tourism.jp/news/mvp-odekakepass-2026ws\n\n🆕 New listing (Published: October 26, 2026)\n\nThe Enjoy Hanno! Moomin Valley Park digital pass is now on sale. The package includes a one-day pass for all Seibu Railway lines (except the Tamagawa Line), round-trip bus tickets between Hanno Station North Exit and Metsa, a Moomin Valley Park one-day pass, 1,000 yen worth of coupons usable at Hanno City partner shops, and an original Moomin Valley Park clip.\n\nDuring the year-end and New Year period from December 31, 2026 (Thursday) to January 4, 2027 (Monday), Moomin Valley Park and Metsa Village will also serve as coupon partner shops and clip exchange locations. Other partner shops may be closed during the holiday period, so advance confirmation is recommended.",
+  "end": {
+    "date": "2026-10-27"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFyajVldHBpcWRoaTZzcjJxb3BsNjlnbWFwYTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIGQ5MTkzY2Y1ZjY0NGFiNDFhMjhlMjI2OGE5OGFiYzVhYTQyNmJkMmQ1NzcxNTI4MzQyNDRhZDY5YTMxZjVhNjhAZw",
+  "iCalUID": "tourism-news-6276-c52aee@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqrj5etpiqdhi6sr2qopl69gmapa0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/news/mvp-odekakepass-2026ws"
+  },
+  "start": {
+    "date": "2026-10-26"
+  },
+  "status": "confirmed",
+  "summary": "📢 Enjoy Hanno! Moomin Valley Park Outing Pass (Digital)",
+  "updated": "2026-10-27T21:50:05.040Z"
+}
