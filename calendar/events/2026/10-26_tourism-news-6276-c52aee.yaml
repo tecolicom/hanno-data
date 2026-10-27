@@ -1,0 +1,25 @@
+uid: "tourism-news-6276-c52aee@hanno.city.tecoli.com"
+summary: "📢 はんのう満喫！ムーミンバレーパークおでかけパス（デジタル）"
+url: "https://hanno-tourism.jp/news/mvp-odekakepass-2026ws"
+dtstart: "2026-10-26"
+dtend: "2026-10-26"
+description: |-
+  奥むさし飯能観光協会: https://hanno-tourism.jp/news/mvp-odekakepass-2026ws
+  
+  🆕 新着掲載 (公開日: 2026-10-26)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  はんのう満喫！ムーミンバレーパーク（デジタル）が好評発売中。西武鉄道全線（多摩川線を除く）の一日乗車券、飯能駅北口～メッツァ間のバス往復乗車券、ムーミンバレーパーク1デーパス、飯能市内取扱加盟店で使える1,000円相当のクーポン、ムーミンバレーパークオリジナルクリップがセットになっています。2026年12月31日（木）～2027年1月4日（月）の年末年始期間は、ムーミンバレーパークとメッツァビレッジがクーポン取扱加盟店およびクリップ引き換え場所として追加対応となります。その他の取扱加盟店は年末年始に休業している店舗もあるため、事前確認が必要です。
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-tourism-jp-news
+  id: "6276"
+  url: "https://hanno-tourism.jp/news/mvp-odekakepass-2026ws"
+  fetched_at: "2026-10-27T21:42:37.887561Z"
+  modified_gmt: "2026-10-27T10:25:12"
+  content_hash: "sha256-c52aeead1bba1f56"

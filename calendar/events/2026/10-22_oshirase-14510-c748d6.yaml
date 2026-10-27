@@ -1,0 +1,42 @@
+uid: "oshirase-14510-c748d6@hanno.city.tecoli.com"
+summary: "ℹ️ 令和8年度 乱開発抑止一斉パトロールの実施について"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/nogyoshinkoka/keikaku/14510.html"
+dtstart: "2026-10-22"
+dtend: "2026-10-22"
+description: |-
+  🆕 新着掲載 (公開日: 2026-10-21)
+  
+  ## 乱開発抑止一斉パトロールとは
+  
+  埼玉県および埼玉県内25市町と連携し、圏央道インターチェンジ周辺などの乱開発抑止を目的とした一斉パトロールを実施します。
+  
+  乱開発の定義など、詳細は埼玉県ホームページをご覧ください。
+  
+  埼玉県ホームページ「産業基盤づくり周辺地域 乱開発抑止の取組」
+  
+  パトロール実施期間
+  
+  令和8年11月2日（月曜日）から令和8年11月30日（月曜日）
+  
+  乱開発抑止一斉パトロールに関する問い合わせ
+  
+  埼玉県産業基盤対策幹
+  
+  電話番号
+  
+  048-830-5545
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/nogyoshinkoka/keikaku/14510.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "14510"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/nogyoshinkoka/keikaku/14510.html"
+  fetched_at: "2026-10-27T21:43:32.222336Z"
+  content_hash: "sha256-c748d62a2a9d1546"
+  summary_method: "full"
+  publish_date: "2026-10-21"

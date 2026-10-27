@@ -1,0 +1,38 @@
+uid: "oshirase-14172-59c440@hanno.city.tecoli.com"
+summary: "ℹ️ 市公式SNSでお店を紹介しませんか"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/14172.html"
+dtstart: "2026-10-28"
+dtend: "2026-10-28"
+description: |-
+  🆕 新着掲載 (公開日: 2026-10-27)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  飯能市ではシティプロモーション事業として、市内の店舗を紹介するショート動画を作成し公式SNS（インスタグラム・Youtubeチャンネル）で随時掲載しています。広く市内外へのPRの機会になるため、店舗の紹介動画への出演を募集しています。
+  
+  【応募条件】
+  ・飯能市内に住所を有する店舗（他市町村にチェーン展開している店舗は除く）
+  ・市公式SNS掲載申込書の掲載条件をすべて満たす事業者
+  
+  【申込方法】
+  飯能市SNS掲載申込書に必要事項を記入し、メールまたはファクスで秘書広報課情報発信担当に提出してください。
+  Eメール：koho@city.hanno.lg.jp
+  ファクス：042-974-0311
+  
+  【撮影について】
+  掲載決定後、秘書広報課から撮影日程の調整連絡があります。撮影から掲載までは概ね2～4週間程度（応募多数の場合はさらに時間がかかることがあります）。撮影内容は店舗外観、店内の様子、PRしたい商品です。消耗品など提供が必要な場合があります。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/14172.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "14172"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/14172.html"
+  fetched_at: "2026-10-27T21:42:57.808804Z"
+  content_hash: "sha256-59c4406a85928039"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-10-27"

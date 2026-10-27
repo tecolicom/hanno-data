@@ -1,0 +1,48 @@
+uid: "oshirase-13339-b519cf@hanno.city.tecoli.com"
+summary: "ℹ️ スゴ足イベント 2026年11月23日（月曜日・祝日）第1回もみじウオーク"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/13339.html"
+dtstart: "2026-10-28"
+dtend: "2026-10-28"
+description: |-
+  🔄 内容更新 (公開日: 2026-10-27 / 前回掲載: 2026-09-22)
+  主な変更: コースが約8キロメートルから約7.8キロメートルに変更されました。
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  秋の精明地区の里地里山を歩く「第1回もみじウオーク」を開催します。（注：第51回精明地区歩行ラリーから名称変更）
+  
+  【日時】令和8年11月23日（月曜日・祝日）8時15分集合
+  
+  【集合場所】精明地区行政センター
+  
+  【コース】精明地区行政センター→小久保・平松・芦苅場地内→双柳・小久保地内→国道299号バイパス→青木・中居地内→中居観光公衆トイレ（トイレ休憩）→宮沢湖・メッツァビレッジ（トイレ休憩）→宮沢・下加治・小久保地内→精明地区行政センター
+  
+  【距離】約7.8キロメートル
+  
+  【予定時間】約3時間
+  
+  【費用】無料
+  
+  【持ち物】飲み物、雨具、スゴ足手帳（お持ちの方）
+  
+  【申し込み】11月11日（水曜日）までに以下のいずれかの地区行政センターへ申し込んでください。
+  ・精明地区行政センター 電話 042-972-2314 ファクス 042-972-9804 メール seimei-k@city.hanno.lg.jp
+  ・双柳地区行政センター 電話 042-972-9900 ファクス 042-972-9902 メール nami-k@city.hanno.lg.jp
+  
+  【中止の確認】天候等による中止の確認は、当日7時30分から8時までに精明地区行政センターへ電話でお問い合わせください。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/13339.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13339"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/13339.html"
+  fetched_at: "2026-10-27T21:43:03.275061Z"
+  content_hash: "sha256-b519cfaae0687e0c"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-10-27"
+  supersedes: "oshirase-13339-31bb46@hanno.city.tecoli.com"

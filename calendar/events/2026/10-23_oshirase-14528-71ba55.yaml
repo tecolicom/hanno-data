@@ -1,0 +1,32 @@
+uid: "oshirase-14528-71ba55@hanno.city.tecoli.com"
+summary: "ℹ️ 明治安田生命保険相互会社様から寄附金をいただきました"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/tihousouseikouikigyousei/sangakukanrenkei/14528.html"
+dtstart: "2026-10-23"
+dtend: "2026-10-23"
+description: |-
+  🆕 新着掲載 (公開日: 2026-10-22)
+  
+  令和8年10月13日、本市と「包括連携協定」を締結している明治安田生命保険相互会社様より、「私の地元応援募金」としてご寄附をいただきました。
+  
+  同社からは、令和2年8月以降、継続してご寄附をいただいており、今回で8回目となります。
+  
+  いただいたご寄附は、子育て支援への取組に活用させていただきます。
+  
+  ## 私の地元応援募金について
+  
+  同社が地域住民の健康づくりや暮らしの充実に向け、全国で展開する「地元の元気プロジェクト」の一環として実施されているものであり、同社の従業員が居住地・出身地などゆかりのある地域を指定して行なう募金に会社の拠出を上乗せして寄付を行う取組です。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/tihousouseikouikigyousei/sangakukanrenkei/14528.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "14528"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/tihousouseikouikigyousei/sangakukanrenkei/14528.html"
+  fetched_at: "2026-10-27T21:43:31.415104Z"
+  content_hash: "sha256-71ba55097e5d999c"
+  summary_method: "full"
+  publish_date: "2026-10-22"

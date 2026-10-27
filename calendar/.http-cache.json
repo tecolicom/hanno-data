@@ -296,6 +296,9 @@
   "https://hanno-tourism.jp/news/10-31%e5%9c%9f-%e7%a7%8b%e3%81%ae%e9%a3%af%e8%83%bd%e6%b2%b3%e5%8e%9f%e3%81%a7%e9%a3%af%e8%83%bd%e3%82%b0%e3%83%ab%e3%83%a1%ef%bc%86%e3%83%93%e3%82%a2%e3%82%ac%e3%83%bc%e3%83%87%e3%83%b3%e3%80%80": {
     "modified_gmt": "2026-10-22T03:45:18"
   },
+  "https://hanno-tourism.jp/news/11-7%e5%9c%9f%ef%bd%a58%e6%97%a5%e3%80%80%e9%a3%af%e8%83%bd%e3%81%be%e3%81%a4%e3%82%8a%e9%96%8b%e5%82%ac%e3%81%ab%e4%bc%b4%e3%81%86%e4%bc%91%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b": {
+    "modified_gmt": "2026-10-27T06:01:21"
+  },
   "https://hanno-tourism.jp/news/3%e6%9c%8821%e6%97%a5%e5%9c%9f%e6%a1%88%e5%86%85%e6%a5%ad%e5%8b%99%e3%81%8a%e4%bc%91%e3%81%bf%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b": {
     "modified_gmt": "2026-03-17T07:25:38"
   },
@@ -341,6 +344,9 @@
   "https://hanno-tourism.jp/news/hannomaturi2026": {
     "modified_gmt": "2026-10-23T05:24:17"
   },
+  "https://hanno-tourism.jp/news/mvp-odekakepass-2026ws": {
+    "modified_gmt": "2026-10-27T10:25:12"
+  },
   "https://hanno-tourism.jp/news/oh%e5%89%b5%e6%a5%ad%e7%a5%ad%e3%80%80%ef%bc%96th-anniversary%e3%80%8010-10%e5%9c%9f%ef%bd%a511%e6%97%a5%ef%bd%a512%e6%9c%88-%e7%a5%9d%ef%bc%89%e9%96%8b%e5%82%ac%e2%9d%a3": {
     "modified_gmt": "2026-10-09T02:23:38"
   },
@@ -371,6 +377,10 @@
   "https://www.city.hanno.lg.jp/emergency/14540.html": {
     "etag": "\"6ad1d989-bfda\"",
     "last_modified": "Fri, 16 Oct 2026 08:00:09 GMT"
+  },
+  "https://www.city.hanno.lg.jp/kurashi_seikatsukankyo/bosai_saigaiengo_kikikanri/11/14540.html": {
+    "etag": "\"6ad963bc-c42f\"",
+    "last_modified": "Thu, 22 Oct 2026 01:15:40 GMT"
   },
   "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/index.html": {
     "etag": "\"6a1541cf-b9ed\"",
@@ -800,6 +810,10 @@
     "etag": "\"6a7993db-c507\"",
     "last_modified": "Mon, 10 Aug 2026 09:03:23 GMT"
   },
+  "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/nogyoshinkoka/keikaku/14510.html": {
+    "etag": "\"6ad875ff-be63\"",
+    "last_modified": "Wed, 21 Oct 2026 08:21:19 GMT"
+  },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/nogyoshinkoka/tyojutaisaku/14439.html": {
     "etag": "\"6acd8200-c7b7\"",
     "last_modified": "Tue, 13 Oct 2026 00:57:36 GMT"
@@ -929,8 +943,12 @@
     "last_modified": "Tue, 13 Oct 2026 00:40:50 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/13339.html": {
-    "etag": "\"6acd7e2f-c426\"",
-    "last_modified": "Tue, 13 Oct 2026 00:41:19 GMT"
+    "etag": "\"6ae04f69-c634\"",
+    "last_modified": "Tue, 27 Oct 2026 07:14:49 GMT"
+  },
+  "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/13340.html": {
+    "etag": "\"6ade9807-c344\"",
+    "last_modified": "Mon, 26 Oct 2026 00:00:07 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/13487.html": {
     "etag": "\"6a4c827e-c33b\"",
@@ -965,12 +983,16 @@
     "last_modified": "Tue, 13 Oct 2026 00:36:45 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/7601.html": {
-    "etag": "\"6a9e167c-c07d\"",
-    "last_modified": "Mon, 07 Sep 2026 01:42:20 GMT"
+    "etag": "\"6ade1985-c0ae\"",
+    "last_modified": "Sun, 25 Oct 2026 15:00:21 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/7930.html": {
     "etag": "\"6a9e1683-c844\"",
     "last_modified": "Mon, 07 Sep 2026 01:42:27 GMT"
+  },
+  "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/8239.html": {
+    "etag": "\"6ada2502-dc48\"",
+    "last_modified": "Thu, 22 Oct 2026 15:00:18 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/9506.html": {
     "etag": "\"6acd7d77-106fa\"",
@@ -1093,8 +1115,8 @@
     "last_modified": "Thu, 16 Jul 2026 01:03:08 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/tenji_moyooshimono/13839.html": {
-    "etag": "\"6acf0f57-bfc2\"",
-    "last_modified": "Wed, 14 Oct 2026 05:12:55 GMT"
+    "etag": "\"6adade29-bfc2\"",
+    "last_modified": "Fri, 23 Oct 2026 04:10:17 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/syogaigakusyu-sports/sports/13949.html": {
     "etag": "\"6a67011b-cb39\"",
@@ -1168,6 +1190,10 @@
     "etag": "\"6acd81fb-c023\"",
     "last_modified": "Tue, 13 Oct 2026 00:57:31 GMT"
   },
+  "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/bohan/7837.html": {
+    "etag": "\"6ae03de4-cabd\"",
+    "last_modified": "Tue, 27 Oct 2026 06:00:04 GMT"
+  },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/kurashi/10236.html": {
     "etag": "\"6acd8117-ce41\"",
     "last_modified": "Tue, 13 Oct 2026 00:53:43 GMT"
@@ -1228,6 +1254,14 @@
     "etag": "\"6a8e3eff-e9a8\"",
     "last_modified": "Wed, 26 Aug 2026 01:18:55 GMT"
   },
+  "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/14172.html": {
+    "etag": "\"6ae05df7-c652\"",
+    "last_modified": "Tue, 27 Oct 2026 08:16:55 GMT"
+  },
+  "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/14546.html": {
+    "etag": "\"6adfe4dd-c4d1\"",
+    "last_modified": "Mon, 26 Oct 2026 23:40:13 GMT"
+  },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/hodohappyo/houdouhappyou2025_1/13388.html": {
     "etag": "\"6ad56c0d-f60e\"",
     "last_modified": "Mon, 19 Oct 2026 01:02:05 GMT"
@@ -1275,6 +1309,10 @@
   "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/tihousouseikouikigyousei/sangakukanrenkei/14404.html": {
     "etag": "\"6acd8434-c77d\"",
     "last_modified": "Tue, 13 Oct 2026 01:07:00 GMT"
+  },
+  "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/tihousouseikouikigyousei/sangakukanrenkei/14528.html": {
+    "etag": "\"6ad98bec-c1be\"",
+    "last_modified": "Thu, 22 Oct 2026 04:07:08 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/13685.html": {
     "etag": "\"6a799158-c102\"",

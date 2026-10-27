@@ -1,0 +1,47 @@
+uid: "oshirase-7837-b030ec@hanno.city.tecoli.com"
+summary: "ℹ️ 交通死亡事故多発警報の発令について"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/bohan/7837.html"
+dtstart: "2026-10-28"
+dtend: "2026-10-28"
+description: |-
+  🔄 内容更新 (公開日: 2026-10-27 / 前回掲載: 2026-07-22)
+  主な変更: 警報発令の対象期間が令和8年10月27日から11月5日までに変更されました。また、今回の事故5件のうち3件で高齢者が亡くなり、2件は暗い時間帯の横断歩道上での発生となっています。
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  埼玉県内で令和8年10月20日から10月23日までの4日間に5件の交通死亡事故が発生したため、埼玉県交通死亡事故多発警報が発令されました。
+  
+  【発令期間】
+  令和8年10月27日から令和8年11月5日までの10日間
+  
+  【事故の特徴】
+  5件中3件で高齢者が亡くなっており、うち2件は日没後1時間以内または日の出前1時間以内の暗い時間帯に、横断歩道上で発生しています。
+  
+  【歩行者の皆さんへ】
+  ・横断歩道や歩道橋を利用してください
+  ・必ず左右を確認し、手を上げるなどのハンドサインでドライバーに横断意思を伝えてください
+  ・夕暮れ、夜間、早朝には反射材やライト、明るい色の服を着用してください
+  
+  【ドライバーの皆さんへ】
+  ・法定速度遵守と余裕を持った運転をしてください
+  ・横断歩道は歩行者優先です
+  ・歩行者の約7割が車両から見て右側から横断中に事故に遭っているため、右側からの横断に注意してください
+  ・高齢者に思いやりを持った運転をしてください
+  ・夕暮れ時は早めに前照灯を点灯し、夜間はハイビームを効果的に使用してください
+  ・右折時、左折時の十分な確認をしてください
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/bohan/7837.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "7837"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/bohan/7837.html"
+  fetched_at: "2026-10-27T21:43:13.320127Z"
+  content_hash: "sha256-b030ece50af33e12"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-10-27"
+  supersedes: "oshirase-7837-fb1746@hanno.city.tecoli.com"
