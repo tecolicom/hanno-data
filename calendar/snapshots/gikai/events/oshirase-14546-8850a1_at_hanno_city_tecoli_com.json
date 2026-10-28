@@ -1,0 +1,34 @@
+{
+  "created": "2026-10-28T22:09:53.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🔄 内容更新 (公開日: 2026-10-27 / 前回掲載: 2026-10-28)\n主な変更: 市ホームページの問い合わせフォーム、イベントカレンダー、RSS情報連携、ページID検索が復旧しました。メール配信システムと西川広域森林組合ホームページは引き続き停止中です。\n\n## 市ホームページの一部機能の再開について\n\nプログラミング言語（システム）PHPの脆弱性に対する緊急の安全対策（修正プログラムの適用）のため、一時停止していた市ホームページの一部機能につきましては、全て復旧となりました。\n\nなお、現在復旧に向けて作業中のサービスについては下記のとおりです。\n\n市民の皆様にはご不便とご迷惑をお掛けしますが、安全にサービスをご利用いただくための重要な対策となりますので、何卒ご理解とご協力を賜りますようお願い申し上げます。\n\n復旧次第、早急にお知らせいたします。\n\n停止しているサービス\n\n1.メール配信システム\n\n2.西川広域森林組合ホームページ\n\n停止期間\n\n現時点で再開時期は未定ですが、安全対策が実施され次第、順次再開する予定です。\n\n関連リンク\n\n国家サイバー統括室(注意・警戒情報)エックス\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/14546.html",
+  "end": {
+    "date": "2026-10-30"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Z3FqOGRoZDcwczNhYzMxNjUwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSA2NzQ1OTE0YjI0MzIzMTEyYTE1ZjQzZGMyMGIzYTBmNGE0ODE3YWZkODAwYzhkMTY4N2QwYmYwYjdmODkwYzYxQGc",
+  "iCalUID": "oshirase-14546-8850a1@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6gqj8dhd70s3ac316506gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/14546.html"
+  },
+  "start": {
+    "date": "2026-10-29"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 停止していた市ホームページの一部機能の再開について",
+  "updated": "2026-10-28T22:09:53.998Z"
+}

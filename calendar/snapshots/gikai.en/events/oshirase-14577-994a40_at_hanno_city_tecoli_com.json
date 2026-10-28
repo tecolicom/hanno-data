@@ -1,0 +1,34 @@
+{
+  "created": "2026-10-28T22:10:55.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 New (Published: October 28, 2026)\n\nA data leak has occurred at Satofull, a hometown tax donation portal site related to Hanno City. The leak resulted from unauthorized access to \"Cuenote FC,\" a service provided by Yumirulink Co., Ltd., which was used for email distribution. Some information stored by the company has been exposed.\n\n【Request to all donors and residents】\n\nPlease be cautious of suspicious emails, SMS messages, phone calls, and mail claiming to be from Satofull or related organizations. Do not open URLs or attachments in unsolicited emails or SMS messages. Do not enter personal information such as your name, date of birth, bank account details, or passwords on suspicious websites.\n\nFor inquiries related to this matter, please contact Satofull Co., Ltd. (ask@satofull.co.jp).\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/syokorose/furusatonozei/14577.html",
+  "end": {
+    "date": "2026-10-30"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Z3FqZWRwZDc0c2o4bzlrNjEwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-14577-994a40@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6gqjedpd74sj8o9k6106gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/syokorose/furusatonozei/14577.html"
+  },
+  "start": {
+    "date": "2026-10-29"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Possible data leak from Satofull, a hometown tax donation portal site related to Hanno City",
+  "updated": "2026-10-28T22:10:55.904Z"
+}

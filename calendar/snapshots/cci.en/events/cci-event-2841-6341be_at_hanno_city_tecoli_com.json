@@ -1,0 +1,35 @@
+{
+  "created": "2026-10-28T22:10:52.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nDigital Customer Acquisition Seminar and Individual Consultation Session\n\n【Seminar】\nDate and Time: November 13, 2026 (Reiwa 8), Friday, 2:00 PM–4:00 PM\nLocation: Hanno Chamber of Commerce and Industry, Main Conference Room (1-7 Honcho, Hanno)\nFee: Free\nCapacity: First come, first served, 30 participants\nEligible: Small and medium-sized businesses and small business operators (members and non-members welcome)\n\nLearn practical web marketing methods to acquire new customers and increase sales with limited staff and budget amid rising costs and labor shortages. The seminar covers reviewing your sales channels (website, SNS, flyers, etc.), improving the \"three elements of customer acquisition,\" and low-cost acquisition techniques you can put into practice right away.\n\n【Individual Consultation Session】\nDate and Time: November 25, 2026 (Reiwa 8), Wednesday\n• 10:30 AM–12:00 PM\n• 1:00 PM–2:30 PM\n• 2:30 PM–4:00 PM\n• 4:00 PM–5:30 PM\n\nLocation: Hanno Chamber of Commerce and Industry, Conference Room (1-7 Honcho, Hanno)\nFee: Free\nCapacity: 4 companies (first come, first served; advance registration required)\nEligible: Seminar participants and business operators looking to review their sales channels\n\nThe instructor will provide concrete advice on improvement strategies tailored to your company's information-sharing and customer acquisition challenges, helping you turn seminar knowledge into action.\n\n【To Apply】\nHanno Chamber of Commerce and Industry, Small and Medium Enterprise Consultation Center\nPhone: 042-974-3111\nEmail: shien_gr@hanno-cci.or.jp\n\nSource (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2841/",
+  "end": {
+    "date": "2026-10-28"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHMzOGM5ZDZvcGo4Y2IyY2wwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiOTMyNjEzZWUxMWIzYjE2NjU3Yjk4NmE3ZWMxYmQ4MmFkN2MzODVjMzBkZTc1YTJkYjU4MzRiYTFhMjk3ZTMyQGc",
+  "iCalUID": "cci-event-2841-6341be@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68s38c9d6opj8cb2cl06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ（EN）",
+    "email": "b932613ee11b3b16657b986a7ec1bd82ad7c385c30de75a2db5834ba1a297e32@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2841/"
+  },
+  "start": {
+    "date": "2026-10-27"
+  },
+  "status": "confirmed",
+  "summary": "🎓 Digital customer acquisition seminar and one-on-one consultation for small and medium-sized businesses facing rising costs and labor shortages",
+  "updated": "2026-10-28T22:10:52.869Z"
+}
