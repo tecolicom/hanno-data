@@ -1,0 +1,48 @@
+uid: "oshirase-14546-8850a1@hanno.city.tecoli.com"
+summary: "ℹ️ 停止していた市ホームページの一部機能の再開について"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/14546.html"
+dtstart: "2026-10-29"
+dtend: "2026-10-29"
+description: |-
+  🔄 内容更新 (公開日: 2026-10-27 / 前回掲載: 2026-10-28)
+  主な変更: 市ホームページの問い合わせフォーム、イベントカレンダー、RSS情報連携、ページID検索が復旧しました。メール配信システムと西川広域森林組合ホームページは引き続き停止中です。
+  
+  ## 市ホームページの一部機能の再開について
+  
+  プログラミング言語（システム）PHPの脆弱性に対する緊急の安全対策（修正プログラムの適用）のため、一時停止していた市ホームページの一部機能につきましては、全て復旧となりました。
+  
+  なお、現在復旧に向けて作業中のサービスについては下記のとおりです。
+  
+  市民の皆様にはご不便とご迷惑をお掛けしますが、安全にサービスをご利用いただくための重要な対策となりますので、何卒ご理解とご協力を賜りますようお願い申し上げます。
+  
+  復旧次第、早急にお知らせいたします。
+  
+  停止しているサービス
+  
+  1.メール配信システム
+  
+  2.西川広域森林組合ホームページ
+  
+  停止期間
+  
+  現時点で再開時期は未定ですが、安全対策が実施され次第、順次再開する予定です。
+  
+  関連リンク
+  
+  国家サイバー統括室(注意・警戒情報)エックス
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/14546.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "14546"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/14546.html"
+  fetched_at: "2026-10-28T22:07:17.331317Z"
+  content_hash: "sha256-8850a17c4097025a"
+  summary_method: "full"
+  publish_date: "2026-10-27"
+  supersedes: "oshirase-14546-9ced7c@hanno.city.tecoli.com"

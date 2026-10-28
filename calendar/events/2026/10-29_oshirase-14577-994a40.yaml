@@ -1,0 +1,32 @@
+uid: "oshirase-14577-994a40@hanno.city.tecoli.com"
+summary: "ℹ️ ふるさと納税ポータルサイト「さとふる」​ における情報漏えいの恐れについて"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/syokorose/furusatonozei/14577.html"
+dtstart: "2026-10-29"
+dtend: "2026-10-29"
+description: |-
+  🆕 新着掲載 (公開日: 2026-10-28)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  飯能市に関連するふるさと納税ポータルサイト「さとふる」において、メール配信業務で利用されていたユミルリンク株式会社のサービス「Cuenote FC」への不正アクセスにより、同社が保存していた情報の一部が漏えいしました。
+  
+  【寄附者の皆さま並びに市民の皆さまへのお願い】
+  
+  さとふるや関係先を装った不審なメール、SMS、電話、郵便物にご注意ください。身に覚えのないメールやSMSに記載されたURLや添付ファイルは開かず、不審なWebサイトに氏名、生年月日、口座情報、パスワードなどの個人情報を入力しないようお願いいたします。
+  
+  本件に関するお問い合わせは、株式会社さとふる（ask@satofull.co.jp）までお願いいたします。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/syokorose/furusatonozei/14577.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "14577"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/syokorose/furusatonozei/14577.html"
+  fetched_at: "2026-10-28T22:07:13.602130Z"
+  content_hash: "sha256-994a402ce3188587"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-10-28"

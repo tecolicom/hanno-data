@@ -1,0 +1,40 @@
+uid: "oshirase-11813-d0b1db@hanno.city.tecoli.com"
+summary: "ℹ️ ご存知ですか「行政相談」"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/kurashi/11813.html"
+dtstart: "2026-10-29"
+dtend: "2026-10-29"
+description: |-
+  🔄 内容更新 (公開日: 2026-10-16 / 前回掲載: 2026-10-01)
+  主な変更: 特設相談が終了しました。
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  行政相談では、行政機関の手続きや制度について「分からない」「説明に納得できない」「処理が間違っているのではないか」などの相談・要望を受け付けています。
+  
+  【定例相談（市民よろず相談）】
+  弁護士、司法書士、行政相談委員、人権擁護委員等の専門相談員が生活上の悩み事や問題解決に向けて助言を行います。詳細は飯能市社会福祉協議会ホームページ「市民よろず相談」をご覧ください。
+  
+  【特設相談（終了しました）】
+  令和8年9月1日～10月31日の「行政相談月間」期間中、特設行政相談所を開設予定でした。
+  ・精明地区行政センター：令和8年9月7日（月）10～12時、13～15時
+  ・南高麗地区行政センター：令和8年10月15日（木）10～12時、13～15時
+  相談は無料・秘密厳守です。（このセクションは既に実施日を過ぎています）
+  
+  【その他の相談】
+  総務省関東管区行政評価局で行政相談ダイヤル（電話0570-090-110、ファクス048-600-2336）により相談を受け付けています。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/kurashi/11813.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "11813"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/kurashi/11813.html"
+  fetched_at: "2026-10-28T22:07:30.008227Z"
+  content_hash: "sha256-d0b1db451752ee02"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-10-16"
+  supersedes: "oshirase-11813-0a4bfb@hanno.city.tecoli.com"
