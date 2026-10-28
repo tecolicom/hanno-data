@@ -30,3 +30,32 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-treasurehunter/"
   fetched_at: "2026-10-28T22:05:56.017079Z"
   content_hash: "sha256-7578d550c008110b"
+translations:
+  en:
+    summary: "里山トレジャーハンター!!〜大自然の素材でリース作り"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Satoyama Treasure Hunter!! – Make a Wreath from Nature's Materials
+      
+      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/ec-morimana-treasurehunter/
+      
+      An interactive eco-tour where you enjoy treasure hunting in nature while learning about ecosystems and the charm of satoyama (traditional rural landscape) alongside specialist students.
+      
+      【Fee】
+      Adults: ¥2,500
+      Students: ¥1,500
+      Preschool children: ¥1,000
+      (Includes guide, insurance, materials, food, etc.)
+      
+      【Capacity】20 people
+      
+      【Guide】Mori no Field Gakusha staff
+      
+      【What to bring】Gloves, drinks, lunch, change of clothes, insect repellent if needed
+      
+      【More information】Mori no Field Gakusha website: https://morinomanabiya168.wixsite.com/website
+    translation_hash: "sha256-c185aa0982af20aa"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-28T22:10:33.667882Z"
+    format_version: 3

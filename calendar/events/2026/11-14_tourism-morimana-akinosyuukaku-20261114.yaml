@@ -30,3 +30,26 @@ source:
   url: "https://hanno-tourism.jp/hanno-eco/tour/morimana-akinosyuukaku/"
   fetched_at: "2026-10-28T22:05:57.328836Z"
   content_hash: "sha256-ab80cc55a9456db2"
+translations:
+  en:
+    summary: "Rice growing in Aoji Shale Valley! Autumn harvest festival edition"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Eco-Tourism Association: https://hanno-tourism.jp/hanno-eco/tour/morimana-akinosyuukaku/
+      
+      At "Aoji Shale Valley" (アオジシ谷), a satoyama (rural mountain village) environment being restored, rice is grown by reviving abandoned paddies.
+      
+      【Fee】Adults ¥3,000 | Students ¥2,000 | Preschool children ¥1,500 (includes guide, insurance, tools)
+      
+      【Capacity】15 people
+      
+      【Guide】Mori no Field Gakusha (Forest Field Learning Hall) staff
+      
+      【What to bring】Drinking water, lunch, work gloves, towel, hat, change of clothes, boots
+      
+      【More information】Mori no Field Gakusha: https://morinomanabiya168.wixsite.com/website
+    translation_hash: "sha256-807f5c99ff8721a9"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-28T22:10:37.138872Z"
+    format_version: 3

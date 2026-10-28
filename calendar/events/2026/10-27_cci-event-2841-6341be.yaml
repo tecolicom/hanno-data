@@ -42,3 +42,44 @@ source:
   category: "セミナー"
   summary_method: "llm-haiku-4-5"
   content_hash: "sha256-6341bebd066a8b84"
+translations:
+  en:
+    summary: "🎓 Digital customer acquisition seminar and one-on-one consultation for small and medium-sized businesses facing rising costs and labor shortages"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Digital Customer Acquisition Seminar and Individual Consultation Session
+      
+      【Seminar】
+      Date and Time: November 13, 2026 (Reiwa 8), Friday, 2:00 PM–4:00 PM
+      Location: Hanno Chamber of Commerce and Industry, Main Conference Room (1-7 Honcho, Hanno)
+      Fee: Free
+      Capacity: First come, first served, 30 participants
+      Eligible: Small and medium-sized businesses and small business operators (members and non-members welcome)
+      
+      Learn practical web marketing methods to acquire new customers and increase sales with limited staff and budget amid rising costs and labor shortages. The seminar covers reviewing your sales channels (website, SNS, flyers, etc.), improving the "three elements of customer acquisition," and low-cost acquisition techniques you can put into practice right away.
+      
+      【Individual Consultation Session】
+      Date and Time: November 25, 2026 (Reiwa 8), Wednesday
+      • 10:30 AM–12:00 PM
+      • 1:00 PM–2:30 PM
+      • 2:30 PM–4:00 PM
+      • 4:00 PM–5:30 PM
+      
+      Location: Hanno Chamber of Commerce and Industry, Conference Room (1-7 Honcho, Hanno)
+      Fee: Free
+      Capacity: 4 companies (first come, first served; advance registration required)
+      Eligible: Seminar participants and business operators looking to review their sales channels
+      
+      The instructor will provide concrete advice on improvement strategies tailored to your company's information-sharing and customer acquisition challenges, helping you turn seminar knowledge into action.
+      
+      【To Apply】
+      Hanno Chamber of Commerce and Industry, Small and Medium Enterprise Consultation Center
+      Phone: 042-974-3111
+      Email: shien_gr@hanno-cci.or.jp
+      
+      Source (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2841/
+    translation_hash: "sha256-362911f826b5815a"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-28T22:10:10.326862Z"
+    format_version: 3

@@ -30,3 +30,24 @@ source:
   content_hash: "sha256-994a402ce3188587"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-10-28"
+translations:
+  en:
+    summary: "ℹ️ Possible data leak from Satofull, a hometown tax donation portal site related to Hanno City"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New (Published: October 28, 2026)
+      
+      A data leak has occurred at Satofull, a hometown tax donation portal site related to Hanno City. The leak resulted from unauthorized access to "Cuenote FC," a service provided by Yumirulink Co., Ltd., which was used for email distribution. Some information stored by the company has been exposed.
+      
+      【Request to all donors and residents】
+      
+      Please be cautious of suspicious emails, SMS messages, phone calls, and mail claiming to be from Satofull or related organizations. Do not open URLs or attachments in unsolicited emails or SMS messages. Do not enter personal information such as your name, date of birth, bank account details, or passwords on suspicious websites.
+      
+      For inquiries related to this matter, please contact Satofull Co., Ltd. (ask@satofull.co.jp).
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/syokorose/furusatonozei/14577.html
+    translation_hash: "sha256-0db8099df5c7654c"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-28T22:10:26.223080Z"
+    format_version: 3

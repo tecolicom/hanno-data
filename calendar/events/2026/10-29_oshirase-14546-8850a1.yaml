@@ -46,3 +46,41 @@ source:
   summary_method: "full"
   publish_date: "2026-10-27"
   supersedes: "oshirase-14546-9ced7c@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ Some city website functions have resumed"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      📢 Content Update (Published: October 27, 2026 / Previously posted: October 28, 2026)
+      
+      Main changes: The city website's contact form, event calendar, RSS feed integration, and page ID search have been restored. The email delivery system and Nishikawa Broad-Area Forest Cooperative website remain offline.
+      
+      City Website Functions Resume
+      
+      Most city website functions that were temporarily suspended due to emergency security measures for PHP programming language vulnerabilities (applying security patches) have now been fully restored.
+      
+      Several services are still being worked on for restoration as follows.
+      
+      We apologize for the inconvenience and disruption this has caused. These are essential safety measures to ensure you can use our services securely, and we ask for your understanding and cooperation.
+      
+      We will inform you promptly once services are restored.
+      
+      【Services Currently Offline】
+      
+      1. Email Delivery System
+      2. Nishikawa Broad-Area Forest Cooperative Website
+      
+      【Suspension Period】
+      
+      The restart timeline is unknown at this time. However, services will be brought back online in sequence once safety measures are completed.
+      
+      【Related Link】
+      
+      National Cyber Security Center (Alerts & Advisories) on X
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/14546.html
+    translation_hash: "sha256-691937bacad46d7e"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-28T22:10:19.522407Z"
+    format_version: 3

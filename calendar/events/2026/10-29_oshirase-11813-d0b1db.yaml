@@ -38,3 +38,31 @@ source:
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-10-16"
   supersedes: "oshirase-11813-0a4bfb@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ Do You Know About Administrative Consultation?"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content Update (Published October 16, 2026 / Previously listed October 1, 2026)
+      Main change: Special consultation sessions have ended.
+      
+      Administrative consultation handles inquiries and requests about government agency procedures and systems—things like "I don't understand," "I'm not satisfied with the explanation," or "I think there might be a mistake in how this was processed."
+      
+      【Regular Consultation (Citizens' General Consultation)】
+      Specialist advisors—including lawyers, judicial scriveners, administrative consultation commissioners, and human rights advocates—provide guidance on life problems and problem-solving. For details, see the Hanno City Social Welfare Council website under "Citizens' General Consultation."
+      
+      【Special Consultation (Ended)】
+      During the "Administrative Consultation Month" (September 1 – October 31, 2026), temporary administrative consultation offices were planned.
+      • Seimei District Administrative Center: Monday, September 7, 2026, 10 a.m.–12 p.m. and 1–3 p.m.
+      • Minami-Kōmae District Administrative Center: Thursday, October 15, 2026, 10 a.m.–12 p.m. and 1–3 p.m.
+      Consultation is free and confidential. (These sessions have already passed.)
+      
+      【Other Consultation】
+      The Ministry of Internal Affairs and Communications Kanto Regional Bureau for Administrative Evaluation offers an administrative consultation hotline (phone 0570-090-110, fax 048-600-2336).
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/kurashi/11813.html
+    translation_hash: "sha256-1d1ef027a8b3f61d"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-28T22:10:15.135850Z"
+    format_version: 3

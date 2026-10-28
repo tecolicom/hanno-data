@@ -30,3 +30,24 @@ source:
   content_hash: "sha256-ea844743e433fa2d"
   summary_method: "full"
   publish_date: "2026-10-28"
+translations:
+  en:
+    summary: "ℹ️ Special roadside inspection to eliminate illegally modified vehicles was conducted"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New post (Published: October 28, 2026)
+      
+      On the nights of October 17–18, 2026 (Reiwa 8), a joint special roadside inspection was conducted at Shohmaru Station parking lot by the Kanto Regional Transport Bureau Saitama Transport Office, the National Automobile Technology and Quality Organization Kanto Inspection Division, the Kei Automobile Inspection Association, and the Saitama Prefectural Police. The inspection was part of efforts to eliminate illegally modified vehicles.
+      
+      For details, see the press release from the Ministry of Land, Infrastructure, Transport and Tourism Kanto Regional Transport Bureau (link opens in new window).
+      
+      Related links
+      
+      Ministry of Land, Infrastructure, Transport and Tourism website: Illegally Modified and Nuisance Black Smoke Vehicle Information Reporting Window (link opens in new window)
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/bohan/14574.html
+    translation_hash: "sha256-041be21ae8f9f5fd"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-28T22:10:22.800637Z"
+    format_version: 3
