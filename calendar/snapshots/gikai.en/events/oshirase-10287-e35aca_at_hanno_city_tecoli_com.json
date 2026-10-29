@@ -1,0 +1,34 @@
+{
+  "created": "2026-10-29T22:24:34.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 New (Published: October 27, 2026)\n\nThe Citizen Activity Center will hold two winter events.\n\n【Mikatsu Winter 2026】\nDate and time: Sunday, December 6, 10:30 a.m.–4:00 p.m.\nVenue: Citizen Activity Center\nLocal groups and individuals will perform music, singing, dance, and more, offer workshops, and sell items.\n\nAt the same venue, a beginner smartphone class \"LINE App Workshop\" will also be held.\nDate and time: Sunday, December 6, 1:30 p.m.–3:30 p.m.\nVenue: Citizen Activity Center Conference Room\nCapacity: 15 people (first-come, first-served)\nTo apply: Call the Citizen Activity Center starting Sunday, November 8.\n※Please bring your own smartphone.\n\n【Christmas Concert】\nDate and time: Saturday, December 19, 2:00 p.m.–3:00 p.m.\nVenue: Multi-purpose Hall\nPerformer: S Quartet Orgel\nCapacity: 80 people (first-come, first-served)\nTo apply: Call the Citizen Activity Center starting Saturday, November 14.\n※Please use the City Hall parking lot. Maruhiro Department Store underground parking charges a fee.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jitishinkoka/shiminkatudou/10287.html",
+  "end": {
+    "date": "2026-10-31"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2MHAzZ2RwZGNrcGphb2IzYzUwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-10287-e35aca@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h60p3gdpdckpjaob3c506gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jitishinkoka/shiminkatudou/10287.html"
+  },
+  "start": {
+    "date": "2026-10-30"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Citizen Activity Center Winter Events",
+  "updated": "2026-10-29T22:24:35.180Z"
+}

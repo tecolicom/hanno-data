@@ -1,0 +1,34 @@
+{
+  "created": "2026-10-29T22:24:35.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 New (Posted: October 29, 2026)\n\nDuring hunting season (when hunters from within and outside Hanno City can capture game animals and birds using firearms, nets, and traps), if you enter mountain forests for work, hiking, or other activities, please follow these 3 precautions to prevent accidents:\n\n1. Wear brightly colored clothing\n\n2. Notify hunters of your presence by using a bell, radio, or similar device\n\n3. Never approach traps if you spot them\n\nThe 2026 hunting season (Reiwa 8) runs from November 15 (Sunday) through February 15, 2027 (Reiwa 9, Monday).\n\nNote: Trap hunting for wild boar and sika deer continues through March 15, 2027 (Reiwa 9, Monday), so please be aware.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/nogyoshinkoka/tyojutaisaku/choju/12114.html",
+  "end": {
+    "date": "2026-10-31"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2OG9qMmQxZDZrcGoyb2I1Y2QwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-12114-531aec@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h68oj2d1d6kpj2ob5cd06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/nogyoshinkoka/tyojutaisaku/choju/12114.html"
+  },
+  "start": {
+    "date": "2026-10-30"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Hunting Season Notice",
+  "updated": "2026-10-29T22:24:35.814Z"
+}

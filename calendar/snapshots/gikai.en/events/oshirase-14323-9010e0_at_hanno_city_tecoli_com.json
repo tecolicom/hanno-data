@@ -1,0 +1,34 @@
+{
+  "created": "2026-10-29T22:24:37.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 New listing (Posted: October 28, 2026)\n\nA group job interview event for job seekers aged 59 and under. No written application required — you can meet company representatives directly and get advice on your job search.\n\n【Event Date and Time】\nJanuary 15, 2027 (Reiwa 9), Friday, 1:00 PM – 4:00 PM\n(Reception opens at 12:30 PM)\n\n【Venue】\nHanno Citizen Activity Center, Multipurpose Hall\n\n【Participating Companies】\nApproximately 10 companies\n\n【Capacity】\n50 people (first come, first served)\n\n【Registration Opens】\nMonday, November 9, 2026 (Reiwa 8)\n\n【How to Apply】\nReserve by phone or on the Saitama Job Support website.\n\nPhone: 049-265-5844\nOffice hours: Monday–Friday, 9:00 AM – 5:00 PM (closed weekends and holidays)\n\nFor details about participating companies, check the Saitama Job Support website.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/14323.html",
+  "end": {
+    "date": "2026-10-31"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Z3BqNGNwZDc0bzMyYzM1NjEwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-14323-9010e0@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6gpj4cpd74o32c356106gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/14323.html"
+  },
+  "start": {
+    "date": "2026-10-30"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Job Fair for Ages 59 and Under",
+  "updated": "2026-10-29T22:24:38.098Z"
+}

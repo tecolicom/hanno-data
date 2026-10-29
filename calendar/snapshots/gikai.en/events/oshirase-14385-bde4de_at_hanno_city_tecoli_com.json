@@ -1,0 +1,34 @@
+{
+  "created": "2026-10-29T22:24:38.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nOn Saturday, November 28, 2026 (Reiwa 8), Hanno will host a cultural heritage walk titled \"Enjoying Hanno's Landforms and Geology.\"\n\nThis guided tour follows a course featured in the 2025 publication 'Topography & Geology Watching! Hanno on Foot'. With expert commentary, participants will explore Hanno's landforms and geology, including the manganese ore mining sites at Ryukaizan and the right bank of the Iruma River.\n\n【Date and Time】Saturday, November 28; gather at 8:50 a.m., depart at 9:00 a.m., dismiss around 1:00 p.m. (Proceeds in light rain; cancelled in severe weather)\n\n【Meeting Place】Hanno Museum\n\n【Route】Museum → Iruma River right bank → Hachinikidō → Ryukaizan (manganese mining sites, summit, observation platform) → Azumakyo → Dore-mi-fa Bridge → Nagata Sugi bus stop\n\n【Instructors】Satoshi Takekoshi, Ikuo Kubota, Fumitaka Kutsuma, Hiroshi Kurakawa (Kanto Plain Western Edge Hills Research Group)\n\n【Participation Fee】500 yen\n\n【Capacity】20 people (first come, first served)\n\n【Registration Deadline】9:00 a.m. Monday, November 9 through 4:00 p.m. Friday, November 20\n\n【How to Apply】Online application preferred; window, phone, or email also accepted (Museum Cultural Heritage Section)\n\nNote: The walk covers approximately 4 kilometers and is for experienced hikers. Please bring long sleeves, long pants, hat, well-broken-in shoes, water, rain gear, and a light snack. Bring the booklet 'Topography & Geology Watching! Hanno on Foot' (if you don't have it, copies will be sold on the day for 300 yen). Cancellations after the registration deadline will incur a fee equal to the participation cost.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/bunkazaitanto/bunkazai/14385.html",
+  "end": {
+    "date": "2026-10-31"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Z3BqZ2Q5ZGM5aTZhZDM0Y2wwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-14385-bde4de@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6gpjgd9dc9i6ad34cl06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/bunkazaitanto/bunkazai/14385.html"
+  },
+  "start": {
+    "date": "2026-10-30"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Cultural Heritage Walk on November 28: \"Enjoying Hanno's Landforms and Geology\"",
+  "updated": "2026-10-29T22:24:38.849Z"
+}

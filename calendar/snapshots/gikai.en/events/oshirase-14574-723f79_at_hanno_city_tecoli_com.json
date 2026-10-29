@@ -1,0 +1,34 @@
+{
+  "created": "2026-10-29T22:24:40.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🔄 Content updated (published: October 28, 2026 / previously posted: October 29, 2026)\n\nOn the night of October 17–18, 2026 (Reiwa 8), a joint special roadside inspection was conducted at Shohmaru Station parking lot by the Kanto Regional Transport Bureau Saitama Transport Division, the National Automotive Technology & Reliability Organization Kanto Inspection Division, the Kei Automobile Inspection Association, and the Saitama Prefectural Police. The inspection was part of efforts to eliminate illegally modified vehicles.\n\nFor details, see the press release from the Kanto Regional Transport Bureau of the Ministry of Land, Infrastructure, Transport and Tourism (link opens in new window).\n\nRelated links\n\nMinistry of Land, Infrastructure, Transport and Tourism website: Illegally Modified Vehicle and Nuisance Black Smoke Vehicle Information Reporting Window (link opens in new window)\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/bohan/14574.html",
+  "end": {
+    "date": "2026-10-31"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Z3FqZWQxZDZzcDM2cGhuNzUwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-14574-723f79@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6gqjed1d6sp36phn7506gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/bohan/14574.html"
+  },
+  "start": {
+    "date": "2026-10-30"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Special roadside inspection to eliminate illegally modified vehicles was conducted",
+  "updated": "2026-10-29T22:24:40.391Z"
+}

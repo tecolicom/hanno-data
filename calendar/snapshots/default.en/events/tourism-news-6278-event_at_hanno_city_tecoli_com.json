@@ -1,0 +1,34 @@
+{
+  "created": "2026-10-29T22:24:41.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nThe 2026 Hanno Festival will take place over two days, November 7–8 (Reiwa 8).\n\nThis festival blends traditional events—floats, food stalls, neighborhood music performances, and lion dances—with a citizens' parade, vendor booths, and various attractions. Local residents and tourists gather to celebrate together.\n\nVenue: Around Hanno Station North Exit (Odori Street, Ginza Street, Chuo Street, and others)\n\nRain or shine; cancelled only in severe weather. Event details may change on either day.\n\nFor details, visit Okumushi Hanno Tourism Association: https://hanno-tourism.jp/news/%e4%bb%a4%e5%92%8c8%e5%b9%b4%e9%a3%af%e8%83%bd%e3%81%be%e3%81%a4%e3%82%8a%e3%80%8011-7%e5%9c%9f%ef%bd%a58%e6%97%a5",
+  "end": {
+    "date": "2026-11-09"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFyajVldHBpcWRoaTZzczJxcGJtY2xuNzhnMzhjNW42c3JwZWNka244dTllZWhpbTZycmNkNG42NnJyZCBkOTE5M2NmNWY2NDRhYjQxYTI4ZTIyNjhhOThhYmM1YWE0MjZiZDJkNTc3MTUyODM0MjQ0YWQ2OWEzMWY1YTY4QGc",
+  "iCalUID": "tourism-news-6278-event@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqrj5etpiqdhi6ss2qpbmcln78g38c5n6srpecdkn8u9eehim6rrcd4n66rrd",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/news/%e4%bb%a4%e5%92%8c8%e5%b9%b4%e9%a3%af%e8%83%bd%e3%81%be%e3%81%a4%e3%82%8a%e3%80%8011-7%e5%9c%9f%ef%bd%a58%e6%97%a5"
+  },
+  "start": {
+    "date": "2026-11-07"
+  },
+  "status": "confirmed",
+  "summary": "🎪 Hanno Festival 2026 — November 7 (Sat) & 8 (Sun)",
+  "updated": "2026-10-29T22:24:41.938Z"
+}

@@ -1,0 +1,34 @@
+{
+  "created": "2026-10-29T22:24:39.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 New entry (Published: October 29, 2026)\n\nHanno City has launched an official LINE account and will begin full operations on November 1, 2026 (Reiwa 8). Through LINE, you can receive city government information, disaster and crime prevention updates, and access the Hanno Public Relations newsletter and garbage collection calendar. Please make use of this new service.\n\n(Note) You must add the Hanno City official LINE account as a friend to use this service.\n\nHow to add the account as a friend\n\nRegistering with a QR code\n\nOpen the LINE app on your smartphone, scan the QR code below, and tap the \"Add\" button to complete registration.\n\nSearching to register\n\n1. In the LINE app, go to the \"Add Friend\" screen and select \"Search.\" Enter the ID \"@hannocity\" and search.\n\n2. Select \"Hanno City\" (飯能市) and tap the \"Add\" button.\n\nHanno City Official LINE Account Operating Policy\n\nHanno City Official SNS List\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/14464.html",
+  "end": {
+    "date": "2026-10-31"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Z3EzY2QxZDYwcTY2YzM2NnQwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-14464-04c0f7@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6gq3cd1d60q66c366t06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/14464.html"
+  },
+  "start": {
+    "date": "2026-10-30"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Hanno City has launched an official LINE account",
+  "updated": "2026-10-29T22:24:39.594Z"
+}

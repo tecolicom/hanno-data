@@ -1,0 +1,34 @@
+{
+  "created": "2026-10-29T22:23:16.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🆕 新着掲載 (公開日: 2026-10-29)\n\n飯能市LINE公式アカウントを開設し、11月1日から正式に運用を開始します。LINEを通して、市政情報、防災・防犯情報などのほか、広報はんのうやごみカレンダーなどもご覧いただけます。ぜひご利用ください。\n\n（注意）ご利用には飯能市LINE公式アカウントの友達登録が必要です。\n\n## 友達登録方法\n\n二次元コードで登録する場合\n\nスマートフォンのLINEアプリで下記の二次元コードを読み込み、「追加」ボタンを押して登録します。\n\n検索して登録する場合\n\n1.LINEアプリの「友だち追加」画面の「検索」を選択して、ID「@hannocity」と入力し検索します。\n\n2.「飯能市」を選択し、「追加」ボタンを押して追加します。\n\n## 飯能市LINE公式アカウント運用方針\n\n飯能市公式SNS一覧\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/14464.html",
+  "end": {
+    "date": "2026-10-31"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Z3EzY2QxZDYwcTY2YzM2NnQwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSA2NzQ1OTE0YjI0MzIzMTEyYTE1ZjQzZGMyMGIzYTBmNGE0ODE3YWZkODAwYzhkMTY4N2QwYmYwYjdmODkwYzYxQGc",
+  "iCalUID": "oshirase-14464-04c0f7@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6gq3cd1d60q66c366t06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/14464.html"
+  },
+  "start": {
+    "date": "2026-10-30"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 飯能市LINE公式アカウントを開設しました",
+  "updated": "2026-10-29T22:23:16.811Z"
+}
