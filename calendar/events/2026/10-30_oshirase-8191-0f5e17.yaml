@@ -1,0 +1,40 @@
+uid: "oshirase-8191-0f5e17@hanno.city.tecoli.com"
+summary: "ℹ️ 「令和9年”私の一文字”作品展」の作品を募集します"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jitishinkoka/shiminkatudou/8191.html"
+dtstart: "2026-10-30"
+dtend: "2026-10-30"
+description: |-
+  🆕 新着掲載 (公開日: 2026-10-27)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  令和9年「私の一文字」作品展の作品募集。令和9年への希望・決意・目標などを漢字一文字に書いた作品を募集します。
+  
+  【対象】小学生以上、おひとり1点
+  
+  【用紙】半紙またはA4サイズ用紙（パソコン作成の場合はA4のみ）、縦書き横書き自由
+  
+  【応募期間】令和8年11月20日（金曜日）から12月13日（日曜日）まで
+  
+  【提出先】飯能市市民活動センター（丸広百貨店飯能店7階）に直接持参
+  
+  【応募方法】配布中の募集チラシの引換票・申込票・貼付票に必要事項を記入して作品と一緒に提出。ホームページの応募用紙の印刷またはそれに準ずる用紙での提出も可能。
+  
+  【展示期間】令和9年1月4日（月曜日）から17日（日曜日）まで、市民活動センター「お正月展」にて展示
+  
+  【注意】原則作品は返却しません。返却希望の場合は提出時に申し出てください。返却期間は令和9年1月21日（木曜日）から25日（月曜日）まで。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jitishinkoka/shiminkatudou/8191.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "8191"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jitishinkoka/shiminkatudou/8191.html"
+  fetched_at: "2026-10-29T22:20:08.998532Z"
+  content_hash: "sha256-0f5e1751b557bdb4"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-10-27"

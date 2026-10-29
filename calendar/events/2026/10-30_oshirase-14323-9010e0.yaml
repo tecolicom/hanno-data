@@ -1,0 +1,38 @@
+uid: "oshirase-14323-9010e0@hanno.city.tecoli.com"
+summary: "ℹ️ 59歳以下向け合同企業面接会を開催します"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/14323.html"
+dtstart: "2026-10-30"
+dtend: "2026-10-30"
+description: |-
+  🆕 新着掲載 (公開日: 2026-10-28)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  59歳以下を対象とした合同企業面接会を開催します。書類選考なしで企業の担当者と直接面談でき、仕事探しの相談ができます。
+  
+  【開催日時】令和9年1月15日（金曜日）午後1時～午後4時（午後0時30分から受付）
+  
+  【会場】飯能市民活動センター 多目的ホール
+  
+  【参加企業】10社予定
+  
+  【定員】50名（申込順）
+  
+  【申込受付開始】令和8年11月9日（月曜日）から
+  
+  【申込方法】埼玉しごとサポートに電話またはホームページで予約。電話：049-265-5844（受付時間：月曜日～金曜日午前9時～午後5時、土日祝除く）。参加企業の詳細は埼玉しごとサポートホームページをご確認ください。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/14323.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "14323"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/14323.html"
+  fetched_at: "2026-10-29T22:19:56.714589Z"
+  content_hash: "sha256-9010e005fd02f93a"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-10-28"

@@ -1,0 +1,33 @@
+uid: "oshirase-14574-723f79@hanno.city.tecoli.com"
+summary: "ℹ️ 不正改造車を排除するための特別街頭検査が実施されました"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/bohan/14574.html"
+dtstart: "2026-10-30"
+dtend: "2026-10-30"
+description: |-
+  🔄 内容更新 (公開日: 2026-10-28 / 前回掲載: 2026-10-29)
+  
+  令和8年10月17日～18日の深夜に正丸駅駐車場において、関東運輸局埼玉運輸支局、自動車技術総合機構関東検査部、軽自動車検査協会及び埼玉県警察が合同で、不正改造車排除の一環として特別街頭検査を実施しました。
+  
+  詳細は、下記の国土交通省関東運輸局のプレスリリースをご覧ください。
+  
+  関東運輸局プレスリリース 埼玉運輸支局が、正丸駅にて 特別街頭検査を実施（別ウインドウで開きます）
+  
+  関連リンク
+  
+  国土交通省ホームページ 不正改造車・迷惑黒煙車情報提供窓口(別ウインドウで開きます)
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/bohan/14574.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "14574"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/bohan/14574.html"
+  fetched_at: "2026-10-29T22:19:53.344333Z"
+  content_hash: "sha256-723f79f468c2d811"
+  summary_method: "full"
+  publish_date: "2026-10-28"
+  supersedes: "oshirase-14574-ea8447@hanno.city.tecoli.com"

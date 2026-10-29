@@ -1,0 +1,26 @@
+uid: "tourism-news-5978-fdf302@hanno.city.tecoli.com"
+summary: "📢 令和8年飯能まつり 協賛のお願い"
+url: "https://hanno-tourism.jp/news/%e4%bb%a4%e5%92%8c8%e5%b9%b4%e9%a3%af%e8%83%bd%e3%81%be%e3%81%a4%e3%82%8a%e3%80%80%e5%8d%94%e8%b3%9b%e3%81%ae%e3%81%8a%e9%a1%98%e3%81%84"
+dtstart: "2026-07-23"
+dtend: "2026-07-23"
+description: |-
+  奥むさし飯能観光協会: https://hanno-tourism.jp/news/%e4%bb%a4%e5%92%8c8%e5%b9%b4%e9%a3%af%e8%83%bd%e3%81%be%e3%81%a4%e3%82%8a%e3%80%80%e5%8d%94%e8%b3%9b%e3%81%ae%e3%81%8a%e9%a1%98%e3%81%84
+  
+  🔄 内容更新 (公開日: 2026-07-23 / 前回掲載: 2026-07-23)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  【募集終了】令和8年11月7日(土)、8日(日)に開催予定の飯能まつりについて、協賛金の募集を行っていました。安心・安全でにぎやかで盛大な祭りの開催に向けて、個人・団体からの協賛を募集していました。申込方法は案内書類またはGoogleFormでした。
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-tourism-jp-news
+  id: "5978"
+  url: "https://hanno-tourism.jp/news/%e4%bb%a4%e5%92%8c8%e5%b9%b4%e9%a3%af%e8%83%bd%e3%81%be%e3%81%a4%e3%82%8a%e3%80%80%e5%8d%94%e8%b3%9b%e3%81%ae%e3%81%8a%e9%a1%98%e3%81%84"
+  fetched_at: "2026-10-29T22:19:32.489847Z"
+  modified_gmt: "2026-10-29T01:58:04"
+  content_hash: "sha256-fdf302b052497e86"
+  supersedes: "tourism-news-5978-b7b80e@hanno.city.tecoli.com"

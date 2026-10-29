@@ -1,0 +1,36 @@
+uid: "oshirase-13388-10ab80@hanno.city.tecoli.com"
+summary: "ℹ️ 【令和8年度】報道発表資料"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/hodohappyo/houdouhappyou2025_1/13388.html"
+dtstart: "2026-10-30"
+dtend: "2026-10-30"
+description: |-
+  🔄 内容更新 (公開日: 2026-10-29 / 前回掲載: 2026-10-20)
+  主な変更: 令和8年10月29日に「第78回埼玉県消防協会定例表彰『現場功労章』受章について」が新たに追加されました。
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  飯能市報道発表資料一覧が更新されました。令和8年度の主な発表は以下の通りです。
+  
+  ・第78回埼玉県消防協会定例表彰「現場功労章」受章について（10月29日発表）
+  ・こども図書館の施設修繕に伴う臨時休館について（10月16日発表）
+  ・飯能市防災行政無線音声応答サービスについて（10月16日発表）
+  ・令和8年度インフルエンザ予防接種の実施開始時期の前倒しについて（9月17日発表）
+  ・わせがく夢育高等学校創立5周年記念式典の開催について（9月11日発表）
+  
+  これより前の発表は元記事をご覧ください。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/hodohappyo/houdouhappyou2025_1/13388.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13388"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/hodohappyo/houdouhappyou2025_1/13388.html"
+  fetched_at: "2026-10-29T22:19:50.602289Z"
+  content_hash: "sha256-10ab80ba4e44dd6d"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-10-29"
+  supersedes: "oshirase-13388-70e059@hanno.city.tecoli.com"

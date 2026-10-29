@@ -1,0 +1,42 @@
+uid: "oshirase-14464-04c0f7@hanno.city.tecoli.com"
+summary: "ℹ️ 飯能市LINE公式アカウントを開設しました"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/14464.html"
+dtstart: "2026-10-30"
+dtend: "2026-10-30"
+description: |-
+  🆕 新着掲載 (公開日: 2026-10-29)
+  
+  飯能市LINE公式アカウントを開設し、11月1日から正式に運用を開始します。LINEを通して、市政情報、防災・防犯情報などのほか、広報はんのうやごみカレンダーなどもご覧いただけます。ぜひご利用ください。
+  
+  （注意）ご利用には飯能市LINE公式アカウントの友達登録が必要です。
+  
+  ## 友達登録方法
+  
+  二次元コードで登録する場合
+  
+  スマートフォンのLINEアプリで下記の二次元コードを読み込み、「追加」ボタンを押して登録します。
+  
+  検索して登録する場合
+  
+  1.LINEアプリの「友だち追加」画面の「検索」を選択して、ID「@hannocity」と入力し検索します。
+  
+  2.「飯能市」を選択し、「追加」ボタンを押して追加します。
+  
+  ## 飯能市LINE公式アカウント運用方針
+  
+  飯能市公式SNS一覧
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/14464.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "14464"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/14464.html"
+  fetched_at: "2026-10-29T22:19:51.277298Z"
+  content_hash: "sha256-04c0f70e0e7bf72a"
+  summary_method: "full"
+  publish_date: "2026-10-29"

@@ -1,0 +1,18 @@
+uid: "chef-20261207-01@hanno.city.tecoli.com"
+summary: "くるくる"
+location: "日替わりシェフレストラン"
+url: "https://www.hanno-cci.or.jp/manage/founded/#02"
+dtstart: "2026-12-07"
+dtend: "2026-12-07"
+description: |-
+  https://www.hanno-cci.or.jp/manage/founded/#02
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-chef
+  id: "20261207-01"
+  url: "https://www.hanno-cci.or.jp/manage/founded/#02"
+  content_hash: "sha256-ef2493a8dbef1d4d"

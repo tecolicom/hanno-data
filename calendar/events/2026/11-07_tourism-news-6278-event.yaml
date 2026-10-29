@@ -1,0 +1,23 @@
+uid: "tourism-news-6278-event@hanno.city.tecoli.com"
+summary: "🎪 令和8年飯能まつり 11/7(土)･8(日)"
+url: "https://hanno-tourism.jp/news/%e4%bb%a4%e5%92%8c8%e5%b9%b4%e9%a3%af%e8%83%bd%e3%81%be%e3%81%a4%e3%82%8a%e3%80%8011-7%e5%9c%9f%ef%bd%a58%e6%97%a5"
+dtstart: "2026-11-07"
+dtend: "2026-11-08"
+description: |-
+  奥むさし飯能観光協会: https://hanno-tourism.jp/news/%e4%bb%a4%e5%92%8c8%e5%b9%b4%e9%a3%af%e8%83%bd%e3%81%be%e3%81%a4%e3%82%8a%e3%80%8011-7%e5%9c%9f%ef%bd%a58%e6%97%a5
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  令和8年飯能まつりが11月7日(土)・8日(日)の2日間で開催されます。山車・屋台曳行や居囃子、獅子舞などの伝統的行事と市民パレード、模擬店、イベントが融合したお祭りです。地域住民と観光客が一堂に集まり賑わいをみせます。開催場所は飯能駅北口周辺(大通り・銀座通り・中央通りほか)。雨天決行、荒天中止。両日ともに開催内容の一部を変更する場合があります。
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-tourism-jp-news
+  id: "6278"
+  url: "https://hanno-tourism.jp/news/%e4%bb%a4%e5%92%8c8%e5%b9%b4%e9%a3%af%e8%83%bd%e3%81%be%e3%81%a4%e3%82%8a%e3%80%8011-7%e5%9c%9f%ef%bd%a58%e6%97%a5"
+  fetched_at: "2026-10-29T22:19:29.304749Z"
+  modified_gmt: "2026-10-29T07:02:08"
+  content_hash: "sha256-f4d4db7fd7119eb3"

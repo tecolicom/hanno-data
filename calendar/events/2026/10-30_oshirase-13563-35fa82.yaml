@@ -1,0 +1,28 @@
+uid: "oshirase-13563-35fa82@hanno.city.tecoli.com"
+summary: "ℹ️ 【令和8年度】（下期）はんのう満喫！ムーミンバレーパークおでかけパス（デジタル）"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/tihousouseikouikigyousei/sangakukanrenkei/13563.html"
+dtstart: "2026-10-30"
+dtend: "2026-10-30"
+description: |-
+  🔄 内容更新 (公開日: 2026-10-26 / 前回掲載: 2026-05-30)
+  主な変更: クーポン使用時のプレゼントがムーミンバレーパークオリジナルステッカーからオリジナルクリップに変更されました。
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  令和8年度（下期）「はんのう満喫！ムーミンバレーパークおでかけパス（デジタル）」を販売します。西武鉄道一日乗車券・ムーミンバレーパークワンデーパス・バス往復券がセットになった企画乗車券に、市内加盟店（全45店舗）で使える1,000円分の「はんのう満喫！クーポン」が付加されています。クーポンを利用した方にはムーミンバレーパークオリジナルクリップをプレゼント。飯能市内の周遊とムーミンバレーパーク訪問がお得に楽しめます。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/tihousouseikouikigyousei/sangakukanrenkei/13563.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13563"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/kikakuka/tihousouseikouikigyousei/sangakukanrenkei/13563.html"
+  fetched_at: "2026-10-29T22:20:19.264954Z"
+  content_hash: "sha256-35fa822c0e6b22ac"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-10-26"
+  supersedes: "oshirase-13563-6ba72b@hanno.city.tecoli.com"

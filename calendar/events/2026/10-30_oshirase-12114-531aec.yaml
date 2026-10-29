@@ -1,0 +1,34 @@
+uid: "oshirase-12114-531aec@hanno.city.tecoli.com"
+summary: "ℹ️ 狩猟期間のお知らせ"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/nogyoshinkoka/tyojutaisaku/choju/12114.html"
+dtstart: "2026-10-30"
+dtend: "2026-10-30"
+description: |-
+  🆕 新着掲載 (公開日: 2026-10-29)
+  
+  狩猟期間（市内外の狩猟者が銃器、網およびわなを使用して狩猟鳥獣を捕獲することができる期間）に作業やハイキングなどで山林に入る際には、狩猟による事故を未然に防ぐため、次の1～3に注意してください。
+  
+  1. 目立つ色の服を着用する
+  
+  2．鈴やラジオなどで狩猟者に自分の存在を知らせる
+  
+  3．わなを見かけても決して近寄らない
+  
+  令和8年度狩猟期間は、11月15日（日曜日）～令和9年2月15日（月曜日）です。
+  
+  なお、イノシシ、ニホンジカのわな猟は令和9年3月15日（月曜日）までですので、ご注意ください。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/nogyoshinkoka/tyojutaisaku/choju/12114.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "12114"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/nogyoshinkoka/tyojutaisaku/choju/12114.html"
+  fetched_at: "2026-10-29T22:19:52.117533Z"
+  content_hash: "sha256-531aecceb53d7262"
+  summary_method: "full"
+  publish_date: "2026-10-29"
