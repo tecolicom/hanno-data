@@ -38,3 +38,39 @@ source:
   content_hash: "sha256-0f5e1751b557bdb4"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-10-27"
+translations:
+  en:
+    summary: "ℹ️ Call for entries:"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New listing (Published: October 27, 2026)
+      
+      We are accepting entries for the Reiwa 9 (2027) "My One Character" art exhibition. Submit artwork featuring a single kanji character that represents your hopes, determination, or goals for Reiwa 9.
+      
+      【Eligibility】
+      Elementary school students and older; one entry per person
+      
+      【Paper】
+      Hanshi paper or A4 size paper (A4 only if computer-created); vertical or horizontal orientation welcome
+      
+      【Submission Period】
+      November 20, 2026 (Friday) through December 13, 2026 (Sunday)
+      
+      【Submission Location】
+      Hanno City Citizen Activity Center (7th floor, Maruhi Department Store Hanno) — submit in person
+      
+      【How to Submit】
+      Fill in the required information on the entry form, application form, and attachment label (available on the recruitment flyer or downloadable from the website), and submit with your artwork. You may also submit using a printout of the application form from the website or equivalent paper.
+      
+      【Display Period】
+      January 4 (Monday) through January 17 (Sunday), Reiwa 9 (2027), displayed at the Citizen Activity Center "New Year Exhibition"
+      
+      【Important Note】
+      Submitted works will not be returned as a rule. If you wish your work returned, please indicate this at the time of submission. The return period is January 21 (Thursday) through January 25 (Monday), Reiwa 9 (2027).
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jitishinkoka/shiminkatudou/8191.html
+    translation_hash: "sha256-b87fe7522812e4e4"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-29T22:24:17.722681Z"
+    format_version: 3

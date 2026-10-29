@@ -23,3 +23,22 @@ source:
   fetched_at: "2026-10-29T22:19:29.256347Z"
   modified_gmt: "2026-10-29T07:02:08"
   content_hash: "sha256-f4d4db7fd7119eb3"
+translations:
+  en:
+    summary: "📢 Hanno Festival 2026 November 7–8 (Sat–Sun)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      The Hanno Festival (Reiwa 8) will be held over two days: November 7–8, 2026 (Sat–Sun).
+      
+      This festival blends traditional events—floats and portable shrines, music performances, and lion dances—with a citizen parade, food stalls, and various activities. Local residents and visitors gather to celebrate together.
+      
+      Location: Around Hanno Station North Exit (including Odori Avenue, Ginza Avenue, Chuo Avenue, and nearby streets).
+      
+      Rain or shine the event will proceed, but it may be cancelled in severe weather. Some program details may change on either day.
+      
+      For more information, visit: https://hanno-tourism.jp/news/%e4%bb%a4%e5%92%8c8%e5%b9%b4%e9%a3%af%e8%83%bd%e3%81%be%e3%81%a4%e3%82%8a%e3%80%8011-7%e5%9c%9f%ef%bd%a58%e6%97%a5
+    translation_hash: "sha256-2d937432704eb4ef"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-29T22:23:38.506528Z"
+    format_version: 3

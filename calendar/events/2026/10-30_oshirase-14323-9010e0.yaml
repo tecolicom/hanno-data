@@ -36,3 +36,42 @@ source:
   content_hash: "sha256-9010e005fd02f93a"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-10-28"
+translations:
+  en:
+    summary: "ℹ️ Job Fair for Ages 59 and Under"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New listing (Posted: October 28, 2026)
+      
+      A group job interview event for job seekers aged 59 and under. No written application required — you can meet company representatives directly and get advice on your job search.
+      
+      【Event Date and Time】
+      January 15, 2027 (Reiwa 9), Friday, 1:00 PM – 4:00 PM
+      (Reception opens at 12:30 PM)
+      
+      【Venue】
+      Hanno Citizen Activity Center, Multipurpose Hall
+      
+      【Participating Companies】
+      Approximately 10 companies
+      
+      【Capacity】
+      50 people (first come, first served)
+      
+      【Registration Opens】
+      Monday, November 9, 2026 (Reiwa 8)
+      
+      【How to Apply】
+      Reserve by phone or on the Saitama Job Support website.
+      
+      Phone: 049-265-5844
+      Office hours: Monday–Friday, 9:00 AM – 5:00 PM (closed weekends and holidays)
+      
+      For details about participating companies, check the Saitama Job Support website.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/sangyoshinkoka/14323.html
+    translation_hash: "sha256-b4b7d058f5b0eb91"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-29T22:23:57.578235Z"
+    format_version: 3

@@ -44,3 +44,38 @@ source:
   content_hash: "sha256-e35acacb3c677c7f"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-10-27"
+translations:
+  en:
+    summary: "ℹ️ Citizen Activity Center Winter Events"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New (Published: October 27, 2026)
+      
+      The Citizen Activity Center will hold two winter events.
+      
+      【Mikatsu Winter 2026】
+      Date and time: Sunday, December 6, 10:30 a.m.–4:00 p.m.
+      Venue: Citizen Activity Center
+      Local groups and individuals will perform music, singing, dance, and more, offer workshops, and sell items.
+      
+      At the same venue, a beginner smartphone class "LINE App Workshop" will also be held.
+      Date and time: Sunday, December 6, 1:30 p.m.–3:30 p.m.
+      Venue: Citizen Activity Center Conference Room
+      Capacity: 15 people (first-come, first-served)
+      To apply: Call the Citizen Activity Center starting Sunday, November 8.
+      ※Please bring your own smartphone.
+      
+      【Christmas Concert】
+      Date and time: Saturday, December 19, 2:00 p.m.–3:00 p.m.
+      Venue: Multi-purpose Hall
+      Performer: S Quartet Orgel
+      Capacity: 80 people (first-come, first-served)
+      To apply: Call the Citizen Activity Center starting Saturday, November 14.
+      ※Please use the City Hall parking lot. Maruhiro Department Store underground parking charges a fee.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jitishinkoka/shiminkatudou/10287.html
+    translation_hash: "sha256-f1a6657fb901605b"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-29T22:23:42.573748Z"
+    format_version: 3

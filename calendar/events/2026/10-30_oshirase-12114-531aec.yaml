@@ -32,3 +32,28 @@ source:
   content_hash: "sha256-531aecceb53d7262"
   summary_method: "full"
   publish_date: "2026-10-29"
+translations:
+  en:
+    summary: "ℹ️ Hunting Season Notice"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New (Posted: October 29, 2026)
+      
+      During hunting season (when hunters from within and outside Hanno City can capture game animals and birds using firearms, nets, and traps), if you enter mountain forests for work, hiking, or other activities, please follow these 3 precautions to prevent accidents:
+      
+      1. Wear brightly colored clothing
+      
+      2. Notify hunters of your presence by using a bell, radio, or similar device
+      
+      3. Never approach traps if you spot them
+      
+      The 2026 hunting season (Reiwa 8) runs from November 15 (Sunday) through February 15, 2027 (Reiwa 9, Monday).
+      
+      Note: Trap hunting for wild boar and sika deer continues through March 15, 2027 (Reiwa 9, Monday), so please be aware.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/nogyoshinkoka/tyojutaisaku/choju/12114.html
+    translation_hash: "sha256-4b70504aa5c6cb92"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-29T22:23:45.798194Z"
+    format_version: 3

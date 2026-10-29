@@ -22,3 +22,18 @@ source:
   modified_gmt: "2026-10-29T02:09:55"
   content_hash: "sha256-80c86426afc6d2f0"
   supersedes: "tourism-news-4564-0189bf@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "📢 Hanno Festival: Stage, Parade & Citizens Market — Application Now Closed"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Okumushi Hanno Tourism Association: https://hanno-tourism.jp/news/hanno-jc-marche
+      
+      🔄 Content Update (Published: September 4, 2026 / Previously published: September 4, 2026)
+      
+      ※ Applications for this year have closed.
+    translation_hash: "sha256-b80bee3371c13bc9"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-29T22:23:34.076174Z"
+    format_version: 3

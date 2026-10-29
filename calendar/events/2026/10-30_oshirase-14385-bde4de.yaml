@@ -44,3 +44,36 @@ source:
   content_hash: "sha256-bde4de211afcc59f"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-10-26"
+translations:
+  en:
+    summary: "ℹ️ Cultural Heritage Walk on November 28: \"Enjoying Hanno's Landforms and Geology\""
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      On Saturday, November 28, 2026 (Reiwa 8), Hanno will host a cultural heritage walk titled "Enjoying Hanno's Landforms and Geology."
+      
+      This guided tour follows a course featured in the 2025 publication 'Topography & Geology Watching! Hanno on Foot'. With expert commentary, participants will explore Hanno's landforms and geology, including the manganese ore mining sites at Ryukaizan and the right bank of the Iruma River.
+      
+      【Date and Time】Saturday, November 28; gather at 8:50 a.m., depart at 9:00 a.m., dismiss around 1:00 p.m. (Proceeds in light rain; cancelled in severe weather)
+      
+      【Meeting Place】Hanno Museum
+      
+      【Route】Museum → Iruma River right bank → Hachinikidō → Ryukaizan (manganese mining sites, summit, observation platform) → Azumakyo → Dore-mi-fa Bridge → Nagata Sugi bus stop
+      
+      【Instructors】Satoshi Takekoshi, Ikuo Kubota, Fumitaka Kutsuma, Hiroshi Kurakawa (Kanto Plain Western Edge Hills Research Group)
+      
+      【Participation Fee】500 yen
+      
+      【Capacity】20 people (first come, first served)
+      
+      【Registration Deadline】9:00 a.m. Monday, November 9 through 4:00 p.m. Friday, November 20
+      
+      【How to Apply】Online application preferred; window, phone, or email also accepted (Museum Cultural Heritage Section)
+      
+      Note: The walk covers approximately 4 kilometers and is for experienced hikers. Please bring long sleeves, long pants, hat, well-broken-in shoes, water, rain gear, and a light snack. Bring the booklet 'Topography & Geology Watching! Hanno on Foot' (if you don't have it, copies will be sold on the day for 300 yen). Cancellations after the registration deadline will incur a fee equal to the participation cost.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/bunkazaitanto/bunkazai/14385.html
+    translation_hash: "sha256-4c137dd44cecea4a"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-29T22:24:04.579349Z"
+    format_version: 3

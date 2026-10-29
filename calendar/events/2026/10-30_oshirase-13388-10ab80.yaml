@@ -34,3 +34,28 @@ source:
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-10-29"
   supersedes: "oshirase-13388-70e059@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ Hanno City Press Release Materials (Fiscal Year 2026, Reiwa 8)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content Updated (Published: October 29, 2026 / Previous: October 20, 2026)
+      
+      Main Change: "78th Saitama Prefecture Fire Department Association Regular Awards—Commendation for Field Service" (announced October 29, 2026) has been newly added.
+      
+      Hanno City's press release material list has been updated. Major announcements for fiscal year 2026 are as follows:
+      
+      • 78th Saitama Prefecture Fire Department Association Regular Awards—Commendation for Field Service (October 29 announcement)
+      • Children's Library Temporary Closure Due to Facility Repairs (October 16 announcement)
+      • Hanno City Emergency Wireless Public Address Voice Response Service (October 16 announcement)
+      • Earlier Start Date for Fiscal Year 2026 Influenza Prevention Vaccination Program (September 17 announcement)
+      • Wasegaku Dream Education High School 5th Anniversary Commemorative Ceremony (September 11 announcement)
+      
+      For announcements from before this date, please see the original article.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/hodohappyo/houdouhappyou2025_1/13388.html
+    translation_hash: "sha256-964bdf510dc0e807"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-29T22:23:49.559312Z"
+    format_version: 3

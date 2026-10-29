@@ -40,3 +40,36 @@ source:
   content_hash: "sha256-04c0f70e0e7bf72a"
   summary_method: "full"
   publish_date: "2026-10-29"
+translations:
+  en:
+    summary: "ℹ️ Hanno City has launched an official LINE account"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New entry (Published: October 29, 2026)
+      
+      Hanno City has launched an official LINE account and will begin full operations on November 1, 2026 (Reiwa 8). Through LINE, you can receive city government information, disaster and crime prevention updates, and access the Hanno Public Relations newsletter and garbage collection calendar. Please make use of this new service.
+      
+      (Note) You must add the Hanno City official LINE account as a friend to use this service.
+      
+      How to add the account as a friend
+      
+      Registering with a QR code
+      
+      Open the LINE app on your smartphone, scan the QR code below, and tap the "Add" button to complete registration.
+      
+      Searching to register
+      
+      1. In the LINE app, go to the "Add Friend" screen and select "Search." Enter the ID "@hannocity" and search.
+      
+      2. Select "Hanno City" (飯能市) and tap the "Add" button.
+      
+      Hanno City Official LINE Account Operating Policy
+      
+      Hanno City Official SNS List
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/14464.html
+    translation_hash: "sha256-32baf78c9d8fd13b"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-29T22:24:08.638319Z"
+    format_version: 3

@@ -24,3 +24,14 @@ source:
   modified_gmt: "2026-10-29T01:58:04"
   content_hash: "sha256-fdf302b052497e86"
   supersedes: "tourism-news-5978-b7b80e@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "📢 Hanno Festival 2026 (Reiwa 8) – Sponsorship Appeal (Recruitment Closed)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      【Recruitment Closed】The Hanno Festival, scheduled for November 7–8, 2026 (Reiwa 8, a Saturday and Sunday), had been seeking sponsorships from individuals and organizations to help ensure a safe, lively, and grand celebration. Applications were accepted via guidance documents or Google Form. (For more details, visit the Oku-Musashi Hanno Tourism Association website.)
+    translation_hash: "sha256-0815494d38c86e83"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-29T22:23:31.519282Z"
+    format_version: 3
