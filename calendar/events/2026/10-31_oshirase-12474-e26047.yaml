@@ -35,3 +35,27 @@ source:
   content_hash: "sha256-e26047e8bf078a8f"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-10-28"
+translations:
+  en:
+    summary: "ℹ️ Violence Against Women Awareness Month (November 12–25)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      During the annual Violence Against Women Awareness Month (November 12–25), Hanno City runs several programs to eliminate violence and raise public awareness.
+      
+      【DV Prevention Week Special Exhibition】
+      October 31 – November 26, 2026 (Reiwa 8), the Hanno City Library and Children's Library will display materials related to domestic violence (DV). The exhibited materials are available for borrowing. During this period, the City Library will distribute purple ribbon bookmarks.
+      
+      【DV Prevention Week Panel Exhibition】
+      November 11–25, 2026, the Citizen Activity Center will hold a panel exhibition with themes on "Domestic Violence" and "Dating DV", and share information on gender equality and DV prevention.
+      
+      【DV Prevention Week Film Screening】
+      November 28, 2026 (Saturday), 1:30 p.m.–3:30 p.m., at the Hanno City Library. Film: "Am I Okay to Be Alive?" Capacity: 50 people, first-come first-served.
+      
+      The City will also publish "Ensemble," the gender equality and information newsletter.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/kurashi/12474.html
+    translation_hash: "sha256-03b35a56068bb54d"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-30T21:55:27.788195Z"
+    format_version: 3

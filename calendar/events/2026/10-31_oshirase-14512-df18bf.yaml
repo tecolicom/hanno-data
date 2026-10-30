@@ -38,3 +38,37 @@ source:
   content_hash: "sha256-df18bfbbbb0536a9"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-10-30"
+translations:
+  en:
+    summary: "ℹ️ Hanno City Public Facilities Management Plan Revision (Draft) — Public Comment Period"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 Newly Posted (Published: October 30, 2026)
+      
+      Hanno City is seeking public comments on the revised draft of its Public Facilities and Similar Facilities Comprehensive Management Plan.
+      
+      This plan addresses changing demand for public facilities due to population decline and considers the city's financial situation. Over a 30-year period, it will plan and carry out facility renewal, consolidation, closure, and long-term maintenance to ease financial burden, stabilize spending, and achieve optimal facility placement. The plan covers the 30 years from fiscal 2017 (Heisei 29) through fiscal 2048 (Reiwa 28) and is expected to be reviewed roughly every 10 years. Since 10 years have passed since the plan was first adopted in fiscal 2026 (Reiwa 8), a revised draft has been prepared.
+      
+      【Comment Period】
+      November 18 (Wednesday) through December 21 (Monday), 2026 (Reiwa 8)
+      
+      【Where to View the Draft】
+      • Hanno City Hall website
+      • Hanno City Hall main building, 3rd floor, Government Information Corner
+      • Hanno Station Service Counter
+      • Community Activities Center
+      • District government offices throughout the city
+      • Hanno City Library
+      
+      【How to Submit Comments】
+      1 Fill out the form provided at viewing locations and deposit it in the opinion collection box
+      2 Use the online submission form at Hanno City's Electronic Application and Notification Service
+      
+      Submitted comments and the city's responses will be published later on the website and at viewing locations. Individual replies will not be provided. Personal information will not be disclosed.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/shisannkeiei/14512.html
+    translation_hash: "sha256-b3acf6ae05a40e31"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-30T21:55:33.460998Z"
+    format_version: 3
