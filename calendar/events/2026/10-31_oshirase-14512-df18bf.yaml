@@ -1,0 +1,40 @@
+uid: "oshirase-14512-df18bf@hanno.city.tecoli.com"
+summary: "ℹ️ 飯能市公共施設等総合管理計画改訂（素案）に関する意見を募集します"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/shisannkeiei/14512.html"
+dtstart: "2026-10-31"
+dtend: "2026-10-31"
+description: |-
+  🆕 新着掲載 (公開日: 2026-10-30)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  飯能市公共施設等総合管理計画改訂（素案）について、市民意見を募集しています。
+  
+  この計画は、人口減少による公共施設等の利用需要変化と財政状況を踏まえ、施設の更新・統廃合・長寿命化などを30年間の長期視点で計画実施し、財政負担の軽減・平準化と最適な配置を目指すものです。計画は平成29年度から令和28年度までの30年間で、おおむね10年ごとに見直される予定。令和8年度で計画策定から10年が経過するため、改訂素案を取りまとめました。
+  
+  【募集期間】
+  令和8年11月18日（水）から12月21日（月）まで
+  
+  【素案の閲覧場所】
+  市役所ホームページ、市役所本庁舎(3階)市政資料コーナー、飯能駅サービスコーナー、市民活動センター、各地区行政センター、市立図書館
+  
+  【意見の提出方法】
+  1 閲覧場所に設置の用紙を意見回収箱へ投函
+  2 飯能市電子申請・届出サービスの専用フォームへ入力
+  
+  提出された意見等と市の考え方は、後日ホームページと閲覧場所で公表します。個別回答は行われません。個人情報は非公表です。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/shisannkeiei/14512.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "14512"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/shisannkeiei/14512.html"
+  fetched_at: "2026-10-30T21:53:37.319782Z"
+  content_hash: "sha256-df18bfbbbb0536a9"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-10-30"

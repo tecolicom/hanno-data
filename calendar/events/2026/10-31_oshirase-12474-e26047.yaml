@@ -1,0 +1,37 @@
+uid: "oshirase-12474-e26047@hanno.city.tecoli.com"
+summary: "ℹ️ 「女性に対する暴力をなくす運動」期間について"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/kurashi/12474.html"
+dtstart: "2026-10-31"
+dtend: "2026-10-31"
+description: |-
+  🆕 新着掲載 (公開日: 2026-10-28)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  毎年11月12日～25日の「女性に対する暴力をなくす運動」期間に、飯能市では暴力の根絶と啓発を目指した複数の事業を実施します。
+  
+  【DV防止週間特別展示】
+  令和8年10月31日（土曜日）～11月26日（木曜日）、市立図書館・こども図書館でDV関連資料を展示します。展示資料は貸出可能で、期間中は市立図書館でパープルリボンのしおりを配布します。
+  
+  【DV防止週間パネル展】
+  令和8年11月11日（水曜日）～25日（水曜日）、市民活動センターで「ドメスティック・バイオレンス」「デートDV」をテーマとしたパネル展示と男女共同参画・DV防止情報を発信します。
+  
+  【DV防止週間映画会】
+  令和8年11月28日（土曜日）13時30分～15時30分、市立図書館で映画『わたし、生きてていいのかな』を上映します。定員50人で当日先着順です。
+  
+  また、男女共同参画情報誌「アンサンブル」も発行されます。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/kurashi/12474.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "12474"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/kurashi/12474.html"
+  fetched_at: "2026-10-30T21:53:44.484940Z"
+  content_hash: "sha256-e26047e8bf078a8f"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-10-28"
