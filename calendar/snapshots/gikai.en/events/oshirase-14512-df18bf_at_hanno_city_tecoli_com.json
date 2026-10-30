@@ -1,0 +1,34 @@
+{
+  "created": "2026-10-30T21:55:41.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 Newly Posted (Published: October 30, 2026)\n\nHanno City is seeking public comments on the revised draft of its Public Facilities and Similar Facilities Comprehensive Management Plan.\n\nThis plan addresses changing demand for public facilities due to population decline and considers the city's financial situation. Over a 30-year period, it will plan and carry out facility renewal, consolidation, closure, and long-term maintenance to ease financial burden, stabilize spending, and achieve optimal facility placement. The plan covers the 30 years from fiscal 2017 (Heisei 29) through fiscal 2048 (Reiwa 28) and is expected to be reviewed roughly every 10 years. Since 10 years have passed since the plan was first adopted in fiscal 2026 (Reiwa 8), a revised draft has been prepared.\n\n【Comment Period】\nNovember 18 (Wednesday) through December 21 (Monday), 2026 (Reiwa 8)\n\n【Where to View the Draft】\n• Hanno City Hall website\n• Hanno City Hall main building, 3rd floor, Government Information Corner\n• Hanno Station Service Counter\n• Community Activities Center\n• District government offices throughout the city\n• Hanno City Library\n\n【How to Submit Comments】\n1 Fill out the form provided at viewing locations and deposit it in the opinion collection box\n2 Use the online submission form at Hanno City's Electronic Application and Notification Service\n\nSubmitted comments and the city's responses will be published later on the website and at viewing locations. Individual replies will not be provided. Personal information will not be disclosed.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/shisannkeiei/14512.html",
+  "end": {
+    "date": "2026-11-01"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Z3FqMmNoZGNoajMyZTMyY3AwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-14512-df18bf@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6gqj2chdchj32e32cp06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/shisannkeiei/14512.html"
+  },
+  "start": {
+    "date": "2026-10-31"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Hanno City Public Facilities Management Plan Revision (Draft) — Public Comment Period",
+  "updated": "2026-10-30T21:55:42.107Z"
+}

@@ -1,0 +1,34 @@
+{
+  "created": "2026-10-30T21:55:17.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🆕 新着掲載 (公開日: 2026-10-30)\n\nAI による要約 (正確な情報は元記事をご確認ください)\n\n飯能市公共施設等総合管理計画改訂（素案）について、市民意見を募集しています。\n\nこの計画は、人口減少による公共施設等の利用需要変化と財政状況を踏まえ、施設の更新・統廃合・長寿命化などを30年間の長期視点で計画実施し、財政負担の軽減・平準化と最適な配置を目指すものです。計画は平成29年度から令和28年度までの30年間で、おおむね10年ごとに見直される予定。令和8年度で計画策定から10年が経過するため、改訂素案を取りまとめました。\n\n【募集期間】\n令和8年11月18日（水）から12月21日（月）まで\n\n【素案の閲覧場所】\n市役所ホームページ、市役所本庁舎(3階)市政資料コーナー、飯能駅サービスコーナー、市民活動センター、各地区行政センター、市立図書館\n\n【意見の提出方法】\n1 閲覧場所に設置の用紙を意見回収箱へ投函\n2 飯能市電子申請・届出サービスの専用フォームへ入力\n\n提出された意見等と市の考え方は、後日ホームページと閲覧場所で公表します。個別回答は行われません。個人情報は非公表です。\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/shisannkeiei/14512.html",
+  "end": {
+    "date": "2026-11-01"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Z3FqMmNoZGNoajMyZTMyY3AwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSA2NzQ1OTE0YjI0MzIzMTEyYTE1ZjQzZGMyMGIzYTBmNGE0ODE3YWZkODAwYzhkMTY4N2QwYmYwYjdmODkwYzYxQGc",
+  "iCalUID": "oshirase-14512-df18bf@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6gqj2chdchj32e32cp06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/shisannkeiei/14512.html"
+  },
+  "start": {
+    "date": "2026-10-31"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 飯能市公共施設等総合管理計画改訂（素案）に関する意見を募集します",
+  "updated": "2026-10-30T21:55:17.289Z"
+}
