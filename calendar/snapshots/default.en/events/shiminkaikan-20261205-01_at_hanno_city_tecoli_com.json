@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "🕒 13:30–15:30\n\nAutomated translation (refer to source for accuracy)\n\nVenue: Small Hall (Hanno Citizen Hall)\n\nOrganizer: Hanno-Hidaka Citizen Christmas Executive Committee\n\nFor details, see the Hanno City website (Hanno Citizen Hall page).",
+  "description": "🕒 13:30–15:30\n\nAutomated translation (refer to source for accuracy)\n\nVenue: Small Hall (Hanno Civic Hall)\n\nOrganized by: Hanno-Hidaka Community Christmas Executive Committee\n\nFor details, visit: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html",
   "end": {
     "date": "2026-12-06"
   },
@@ -30,6 +30,6 @@
     "date": "2026-12-05"
   },
   "status": "confirmed",
-  "summary": "33rd Hanno-Hidaka Citizen Charity Christmas Concert",
-  "updated": "2026-10-16T20:26:31.120Z"
+  "summary": "33rd Hanno-Hidaka Community Charity Christmas Concert",
+  "updated": "2026-10-31T20:55:11.890Z"
 }
