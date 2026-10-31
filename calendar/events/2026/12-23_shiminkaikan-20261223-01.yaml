@@ -1,0 +1,22 @@
+uid: "shiminkaikan-20261223-01@hanno.city.tecoli.com"
+summary: "ホールでグランドピアノを弾いてみませんか"
+location: "飯能市民会館 小ホール"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html"
+dtstart: "2026-12-23"
+dtend: "2026-12-23"
+description: |-
+  飯能市民会館: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html
+  
+  【会場】小ホール
+  【主催】市民会館
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-shiminkaikan
+  id: "20261223-01"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html"
+  fetched_at: "2026-10-31T20:52:53.467076Z"
+  content_hash: "sha256-6ac96927dc00e911"
