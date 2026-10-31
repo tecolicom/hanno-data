@@ -21,3 +21,17 @@ source:
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html"
   fetched_at: "2026-10-31T20:52:53.467466Z"
   content_hash: "sha256-6ac96927dc00e911"
+translations:
+  en:
+    summary: "Charity Concert of Song and Piano"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Venue: Hanno Civic Hall, Small Hall
+      Organized by: Pastel Music Studio
+      
+      For details, visit: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html
+    translation_hash: "sha256-aa4d54583ec5bc92"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-31T20:54:50.230485Z"
+    format_version: 3

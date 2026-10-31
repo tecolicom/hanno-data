@@ -21,3 +21,18 @@ source:
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html"
   fetched_at: "2026-10-31T20:52:53.466896Z"
   content_hash: "sha256-6ac96927dc00e911"
+translations:
+  en:
+    summary: "19th Beethoven Symphony No. 9 Performance with Chorus"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Venue: Hanno Citizens' Hall, Grand Hall
+      
+      Organized by: Hanno Beethoven Symphony No. 9 Performance Executive Committee
+      
+      For more information, visit the Hanno Citizens' Hall website: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html
+    translation_hash: "sha256-bb6b67817322299d"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-31T20:55:00.401850Z"
+    format_version: 3

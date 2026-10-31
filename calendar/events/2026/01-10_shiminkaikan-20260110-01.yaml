@@ -21,3 +21,16 @@ source:
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html"
   fetched_at: "2026-10-31T20:52:53.467222Z"
   content_hash: "sha256-6ac96927dc00e911"
+translations:
+  en:
+    summary: "Hanno City Coming-of-Age Ceremony 2027 ～ Celebrating Twenty Years Old ～"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      【Venue】Grand Hall, Hanno Citizens' Hall (https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html)
+      
+      【Organized by】Lifelong Learning and Sports Division
+    translation_hash: "sha256-29b812e0ad0551a0"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-10-31T20:54:46.346562Z"
+    format_version: 3
