@@ -1,0 +1,35 @@
+{
+  "created": "2026-11-01T21:37:39.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "こぐまちゃんタイムを開催します。\n\n日時　令和8年11月18日（水）　11：30～12：００\n\n対象　０さい～３さいくらい\n\n会場　こども図書館おはなしコーナー\n\nhttps://www.hanno-lib.jp/calendar/1118-1.html",
+  "end": {
+    "date": "2026-11-19"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Roa200cXI5Y2hwaXFwYm1jbG43OGI5aDY0b2pnYjloNWtwMzBjaG02NG9qMmUyMGQxZ21zcmpmNXBobWl0M3A1cHE2YW9yZmRoa2lzb3JmZGsgYWNiZTE0M2E3NDQ1ZTJlMWY0NTM1ZTM0NGM3MTYyMzczMGJmODg0OTg2YmJiYTk3NzI3MTMyODcxMWIyNWY4N0Bn",
+  "iCalUID": "libkids-event-1118-1-20261118@hanno.city.tecoli.com",
+  "id": "_dhkm4qr9chpiqpbmcln78b9h64ojgb9h5kp30chm64oj2e20d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "location": "こども図書館",
+  "organizer": {
+    "displayName": "こども図書館",
+    "email": "acbe143a7445e2e1f4535e344c71623730bf884986bbba977271328711b25f87@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-lib.jp",
+    "url": "https://www.hanno-lib.jp/calendar/1118-1.html"
+  },
+  "start": {
+    "date": "2026-11-18"
+  },
+  "status": "confirmed",
+  "summary": "📚 こぐまちゃんタイム(11月18日)",
+  "updated": "2026-11-01T21:37:39.865Z"
+}

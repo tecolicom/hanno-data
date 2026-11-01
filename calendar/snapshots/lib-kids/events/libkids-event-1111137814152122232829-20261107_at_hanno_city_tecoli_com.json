@@ -1,0 +1,35 @@
+{
+  "created": "2026-11-01T21:37:36.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "「おはなしのじかん」は、毎週土曜日、日曜日、祝・休日の午後3時から3時30分に開催します。\n\n直接ご来場ください。\n\nhttps://www.hanno-lib.jp/calendar/1111137814152122232829.html",
+  "end": {
+    "date": "2026-11-08"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Roa200cXI5Y2hwaXFwYm1jbG43OGI5aDY0b2oyYzlqNnNzMzJkMWg2a3AzMmNoaTY4cGo0ZTFpNzRtajRjMWk2b29qMmMxbjgxazYycmplZHNuNjZxYmtmNG43OHBiM2R0bTZpYmozZHRtZyBhY2JlMTQzYTc0NDVlMmUxZjQ1MzVlMzQ0YzcxNjIzNzMwYmY4ODQ5ODZiYmJhOTc3MjcxMzI4NzExYjI1Zjg3QGc",
+  "iCalUID": "libkids-event-1111137814152122232829-20261107@hanno.city.tecoli.com",
+  "id": "_dhkm4qr9chpiqpbmcln78b9h64oj2c9j6ss32d1h6kp32chi68pj4e1i74mj4c1i6ooj2c1n81k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+  "kind": "calendar#event",
+  "location": "こども図書館",
+  "organizer": {
+    "displayName": "こども図書館",
+    "email": "acbe143a7445e2e1f4535e344c71623730bf884986bbba977271328711b25f87@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-lib.jp",
+    "url": "https://www.hanno-lib.jp/calendar/1111137814152122232829.html"
+  },
+  "start": {
+    "date": "2026-11-07"
+  },
+  "status": "confirmed",
+  "summary": "📚 11月のおはなしのじかん(11月1.3.7.8.14.15.21.22.23.28.29日)",
+  "updated": "2026-11-01T21:37:36.481Z"
+}

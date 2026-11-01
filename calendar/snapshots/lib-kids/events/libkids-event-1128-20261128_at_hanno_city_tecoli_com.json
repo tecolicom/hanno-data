@@ -1,0 +1,35 @@
+{
+  "created": "2026-11-01T21:37:43.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "内容\n\n落ち葉の形を活かして思い思いの図鑑を作ります。\n\n日時\n\n令和８年11月28日（土）　13:30～15:00\n\n会場\n\nこども図書館多目的ホール\n\n講師\n\nこども図書館職員\n\n対象\n\n幼児・小学生（未就学児は保護者同伴）\n\n定員\n\n20人（申込順、定員になり次第締め切り）\n\n申し込み\n\n令和８年11月5日（木）11：00から　こども図書館へ（電話・ＦＡＸ可）\n\nhttps://www.hanno-lib.jp/calendar/1128.html",
+  "end": {
+    "date": "2026-11-29"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Roa200cXI5Y2hwaXFwYm1jbG43OGI5aDY0cDNnYjlpNjBwM2NjOWg2OHM0MHEzMWRwbjZ1YmozZDVxN2liamtjbGhtdXIzOTVwaG11cjggYWNiZTE0M2E3NDQ1ZTJlMWY0NTM1ZTM0NGM3MTYyMzczMGJmODg0OTg2YmJiYTk3NzI3MTMyODcxMWIyNWY4N0Bn",
+  "iCalUID": "libkids-event-1128-20261128@hanno.city.tecoli.com",
+  "id": "_dhkm4qr9chpiqpbmcln78b9h64p3gb9i60p3cc9h68s40q31dpn6ubj3d5q7ibjkclhmur395phmur8",
+  "kind": "calendar#event",
+  "location": "こども図書館",
+  "organizer": {
+    "displayName": "こども図書館",
+    "email": "acbe143a7445e2e1f4535e344c71623730bf884986bbba977271328711b25f87@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-lib.jp",
+    "url": "https://www.hanno-lib.jp/calendar/1128.html"
+  },
+  "start": {
+    "date": "2026-11-28"
+  },
+  "status": "confirmed",
+  "summary": "📚 ワークショップ「はっぱでずかんをつくろう！」(11月28日)",
+  "updated": "2026-11-01T21:37:43.747Z"
+}
