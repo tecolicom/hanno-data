@@ -1,0 +1,25 @@
+uid: "libkids-event-111121-20261121@hanno.city.tecoli.com"
+summary: "📚 11月のおはなし会(11月21日)"
+location: "こども図書館"
+url: "https://www.hanno-lib.jp/calendar/111121.html"
+dtstart: "2026-11-21"
+dtend: "2026-11-21"
+description: |-
+  11月のおはなし会を開催します。
+  
+  日時　令和8年11月21日（土）　14:00～14:30
+  
+  会場　こども図書館　2階　多目的ホール
+  
+  https://www.hanno-lib.jp/calendar/111121.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-lib-kids-event
+  id: "111121"
+  url: "https://www.hanno-lib.jp/calendar/111121.html"
+  content_hash: "sha256-8e65d302a3d35697"
+  summary_method: "full"

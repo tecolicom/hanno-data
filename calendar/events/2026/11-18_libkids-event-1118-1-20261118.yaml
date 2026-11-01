@@ -1,0 +1,27 @@
+uid: "libkids-event-1118-1-20261118@hanno.city.tecoli.com"
+summary: "📚 こぐまちゃんタイム(11月18日)"
+location: "こども図書館"
+url: "https://www.hanno-lib.jp/calendar/1118-1.html"
+dtstart: "2026-11-18"
+dtend: "2026-11-18"
+description: |-
+  こぐまちゃんタイムを開催します。
+  
+  日時　令和8年11月18日（水）　11：30～12：００
+  
+  対象　０さい～３さいくらい
+  
+  会場　こども図書館おはなしコーナー
+  
+  https://www.hanno-lib.jp/calendar/1118-1.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-lib-kids-event
+  id: "1118-1"
+  url: "https://www.hanno-lib.jp/calendar/1118-1.html"
+  content_hash: "sha256-3aedfbbf9dd781ac"
+  summary_method: "full"

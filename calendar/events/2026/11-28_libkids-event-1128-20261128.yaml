@@ -1,0 +1,47 @@
+uid: "libkids-event-1128-20261128@hanno.city.tecoli.com"
+summary: "📚 ワークショップ「はっぱでずかんをつくろう！」(11月28日)"
+location: "こども図書館"
+url: "https://www.hanno-lib.jp/calendar/1128.html"
+dtstart: "2026-11-28"
+dtend: "2026-11-28"
+description: |-
+  内容
+  
+  落ち葉の形を活かして思い思いの図鑑を作ります。
+  
+  日時
+  
+  令和８年11月28日（土）　13:30～15:00
+  
+  会場
+  
+  こども図書館多目的ホール
+  
+  講師
+  
+  こども図書館職員
+  
+  対象
+  
+  幼児・小学生（未就学児は保護者同伴）
+  
+  定員
+  
+  20人（申込順、定員になり次第締め切り）
+  
+  申し込み
+  
+  令和８年11月5日（木）11：00から　こども図書館へ（電話・ＦＡＸ可）
+  
+  https://www.hanno-lib.jp/calendar/1128.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-lib-kids-event
+  id: "1128"
+  url: "https://www.hanno-lib.jp/calendar/1128.html"
+  content_hash: "sha256-6715040c2c2cbf34"
+  summary_method: "full"

@@ -1,0 +1,29 @@
+uid: "libkids-event-1114-20261114@hanno.city.tecoli.com"
+summary: "📚 大人のためのおはなし会(11月14日)"
+location: "こども図書館"
+url: "https://www.hanno-lib.jp/calendar/1114.html"
+dtstart: "2026-11-14"
+dtend: "2026-11-14"
+description: |-
+  大人のためのおはなし会を開催します。
+  
+  ふだんはこどもたちに話しているお話を大人の方々に語ります。
+  
+  晩秋のひととき、日本や外国のおはなしをたっぷり楽しんでください。
+  
+  日時　令和8年11月14日（土）　午後1時30分～3時
+  
+  会場　こども図書館　2階　多目的ホール
+  
+  https://www.hanno-lib.jp/calendar/1114.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-lib-kids-event
+  id: "1114"
+  url: "https://www.hanno-lib.jp/calendar/1114.html"
+  content_hash: "sha256-ce30bf93aaf5f0c4"
+  summary_method: "full"

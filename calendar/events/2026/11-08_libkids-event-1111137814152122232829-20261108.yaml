@@ -1,0 +1,23 @@
+uid: "libkids-event-1111137814152122232829-20261108@hanno.city.tecoli.com"
+summary: "📚 11月のおはなしのじかん(11月1.3.7.8.14.15.21.22.23.28.29日)"
+location: "こども図書館"
+url: "https://www.hanno-lib.jp/calendar/1111137814152122232829.html"
+dtstart: "2026-11-08"
+dtend: "2026-11-08"
+description: |-
+  「おはなしのじかん」は、毎週土曜日、日曜日、祝・休日の午後3時から3時30分に開催します。
+  
+  直接ご来場ください。
+  
+  https://www.hanno-lib.jp/calendar/1111137814152122232829.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-lib-kids-event
+  id: "1111137814152122232829"
+  url: "https://www.hanno-lib.jp/calendar/1111137814152122232829.html"
+  content_hash: "sha256-7c245e28841ce410"
+  summary_method: "full"
