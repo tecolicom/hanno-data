@@ -23,3 +23,20 @@ source:
   url: "https://www.hanno-lib.jp/calendar/111121.html"
   content_hash: "sha256-8e65d302a3d35697"
   summary_method: "full"
+translations:
+  en:
+    summary: "📚 November Story Time (November 21)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      We are hosting a November story time session.
+      
+      Date and time: Saturday, November 21, 2026 (Reiwa 8) 2:00 PM–2:30 PM
+      
+      Location: Children's Library, 2nd Floor, Multi-purpose Hall
+      
+      Source (Japanese): https://www.hanno-lib.jp/calendar/111121.html
+    translation_hash: "sha256-604f62b8a1eec065"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-11-01T21:38:11.217867Z"
+    format_version: 3

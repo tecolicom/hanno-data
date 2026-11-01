@@ -27,3 +27,24 @@ source:
   url: "https://www.hanno-lib.jp/calendar/1114.html"
   content_hash: "sha256-ce30bf93aaf5f0c4"
   summary_method: "full"
+translations:
+  en:
+    summary: "📚 Storytelling for Adults (November 14)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Join us for a special storytelling session for adults.
+      
+      Our storytellers will share tales that are usually told to children, now presented for an adult audience.
+      
+      Spend a lovely late-autumn afternoon enjoying a rich selection of stories from Japan and around the world.
+      
+      Date and Time: Saturday, November 14, 2026 (Reiwa 8), 1:30 p.m. – 3:00 p.m.
+      
+      Venue: Children's Library, 2nd Floor, Multi-Purpose Hall
+      
+      Source (Japanese): https://www.hanno-lib.jp/calendar/1114.html
+    translation_hash: "sha256-1bd741d2e234b59d"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-11-01T21:38:04.154836Z"
+    format_version: 3

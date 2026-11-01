@@ -45,3 +45,34 @@ source:
   url: "https://www.hanno-lib.jp/calendar/1128.html"
   content_hash: "sha256-6715040c2c2cbf34"
   summary_method: "full"
+translations:
+  en:
+    summary: "📚 Workshop: Make Your Own Leaf Picture Book (November 28)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Create your own picture book using fallen leaves.
+      
+      【Date and Time】
+      Saturday, November 28, 2026 (Reiwa 8), 1:30 p.m.–3:00 p.m.
+      
+      【Location】
+      Hanno Children's Library Multipurpose Hall
+      
+      【Instructor】
+      Hanno Children's Library staff
+      
+      【Who Can Join】
+      Preschool and elementary school children (preschoolers must be accompanied by a parent or guardian)
+      
+      【Capacity】
+      20 people (first-come, first-served; registration closes when full)
+      
+      【How to Apply】
+      Starting Thursday, November 5, 2026 at 11:00 a.m., apply at Hanno Children's Library (phone or fax accepted)
+      
+      Source (Japanese): https://www.hanno-lib.jp/calendar/1128.html
+    translation_hash: "sha256-853504bcc697a31b"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-11-01T21:38:19.906243Z"
+    format_version: 3

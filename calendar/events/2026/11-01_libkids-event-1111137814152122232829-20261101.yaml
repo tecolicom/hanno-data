@@ -21,3 +21,18 @@ source:
   url: "https://www.hanno-lib.jp/calendar/1111137814152122232829.html"
   content_hash: "sha256-57bef20e09a6ab96"
   summary_method: "full"
+translations:
+  en:
+    summary: "📚 November Story Time (November 1, 3, 7, 8, 14, 15, 21, 22, 23, 28, 29)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Story Time is held every Saturday, Sunday, and holiday afternoons from 3:00 PM to 3:30 PM.
+      
+      Please visit us in person.
+      
+      Source (Japanese): https://www.hanno-lib.jp/calendar/1111137814152122232829.html
+    translation_hash: "sha256-eed52e9ca54437de"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-11-01T21:37:54.219397Z"
+    format_version: 3

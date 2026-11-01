@@ -25,3 +25,22 @@ source:
   url: "https://www.hanno-lib.jp/calendar/1118-1.html"
   content_hash: "sha256-3aedfbbf9dd781ac"
   summary_method: "full"
+translations:
+  en:
+    summary: "📚 Kuma-chan Story Time (November 18)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Kuma-chan Story Time will be held.
+      
+      Date and time   Wednesday, November 18, 2026 (Reiwa 8)   11:30–12:00
+      
+      For ages   Around 0–3 years old
+      
+      Location   Children's Library Story Corner
+      
+      Source (Japanese): https://www.hanno-lib.jp/calendar/1118-1.html
+    translation_hash: "sha256-05c04fcd607837d1"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-11-01T21:38:08.110091Z"
+    format_version: 3
