@@ -48,3 +48,39 @@ source:
   content_hash: "sha256-a5e8957d2fb7db4a"
   summary_method: "full"
   publish_date: "2026-11-02"
+translations:
+  en:
+    summary: "ℹ️ Children's Cultural Heritage Class: \"Making Japanese-Bound Books\" on December 6, 2026 (Reiwa 8)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New listing (Published: November 2, 2026)
+      
+      To understand the past, we need to explore historical documents and records. Learn about the history of writing and books, then make your own Japanese-bound book.
+      
+      【Children's Cultural Heritage Class: "Making Japanese-Bound Books"】
+      
+      Date and time
+      December 6 (Sunday), 10:00–11:30 AM (Doors open 9:45 AM)
+      
+      Location
+      Hanno City Museum, Learning and Research Room
+      
+      Who can attend
+      Elementary school children and younger, plus their parents/guardians
+      
+      Important note: This craft uses sharp tools such as awls and needles. Parent cooperation is required.
+      
+      Capacity
+      10 groups
+      
+      How to apply
+      Online application (preferred) accepted from November 17 (Tuesday), 10:00 AM to December 1 (Tuesday), 4:00 PM. Walk-in registration, phone, and email also accepted.
+      
+      Contact: Hanno City Museum
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/bunkazaitanto/bunkazai/14388.html
+    translation_hash: "sha256-0f6c465ec939504f"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-11-03T00:22:57.911293Z"
+    format_version: 3
