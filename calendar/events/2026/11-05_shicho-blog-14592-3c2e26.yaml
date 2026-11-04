@@ -1,0 +1,27 @@
+uid: "shicho-blog-14592-3c2e26@hanno.city.tecoli.com"
+summary: "📝 市長：防犯のまちづくり街頭キャンペーン"
+url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202610/14592.html"
+dtstart: "2026-11-05"
+dtend: "2026-11-05"
+description: |-
+  📝 市長ブログ更新 (公開日: 2026-10-29)
+  
+  10月29日（木曜日）、市内スーパーマーケットのご協力のもと実施した、埼玉県主催「防犯のまちづくり街頭キャンペーン」でご挨拶させていただきました。
+  
+  引き続き、様々な防犯活動を展開していきますので、ご協力のほど、よろしくお願いします。
+  
+  写真: https://www.city.hanno.lg.jp/material/images/group/79/081029bohannomachidukurigaitoucampaign.jpg
+  
+  市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202610/14592.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-shicho-blog
+  id: "14592"
+  url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202610/14592.html"
+  fetched_at: "2026-11-04T23:05:52.093527Z"
+  content_hash: "sha256-3c2e26fbae512d6e"
+  publish_date: "2026-10-29"

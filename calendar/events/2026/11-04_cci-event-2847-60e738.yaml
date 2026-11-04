@@ -1,0 +1,30 @@
+uid: "cci-event-2847-60e738@hanno.city.tecoli.com"
+summary: "🏮 はんのう・ひだかパンフェスタ２０２６を開催します。"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2847/"
+dtstart: "2026-11-04"
+dtend: "2026-11-04"
+description: |-
+  毎年、年末に開催し、好評いただいている「はんのう・ひだかパンフェスタ２０２６」を開催します。
+  
+  今年は、日高市曼殊沙華公園が会場となります。当日は市内外の人気店が多数出店しますので是非、ご来場ください。尚駐車場はございますが台数に限りがありますので、公共交通機関をご利用ください。
+  
+  ※日高市あおぞら市も同時開催します。
+  
+  ※西武鉄道ウォーキング＆ハイキングのコースになっています。詳しくは西武鉄道ホームページをご覧ください。
+  
+  ※商品はできる限り用意しますが、早くに売り切れお場合があります。
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2847/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2847"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2847/"
+  category: "地域振興"
+  summary_method: "full"
+  content_hash: "sha256-60e73827230f8c7a"
