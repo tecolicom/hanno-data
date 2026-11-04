@@ -25,3 +25,22 @@ source:
   fetched_at: "2026-11-04T23:05:52.093527Z"
   content_hash: "sha256-3c2e26fbae512d6e"
   publish_date: "2026-10-29"
+translations:
+  en:
+    summary: "📝 Mayor: Crime Prevention Community Awareness Campaign"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      📝 Mayor's Blog Update (Published: October 29, 2026)
+      
+      On Thursday, October 29, I greeted participants at the "Crime Prevention Community Awareness Campaign," a Saitama Prefecture initiative held at a local supermarket with their cooperation.
+      
+      We will continue to roll out various crime prevention activities, and we ask for your ongoing support and cooperation.
+      
+      Photo: https://www.city.hanno.lg.jp/material/images/group/79/081029bohannomachidukurigaitoucampaign.jpg
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202610/14592.html
+    translation_hash: "sha256-b91e64b971ab194f"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-11-04T23:08:00.677825Z"
+    format_version: 3

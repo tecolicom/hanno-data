@@ -28,3 +28,24 @@ source:
   category: "地域振興"
   summary_method: "full"
   content_hash: "sha256-60e73827230f8c7a"
+translations:
+  en:
+    summary: "🏮 Hanno-Hidaka Bread Festival 2026 will be held."
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      We will hold the popular "Hanno-Hidaka Bread Festival 2026," which takes place every year at the end of the year.
+      
+      This year, the venue will be Manshusharaka Park in Hidaka City. Many popular bakeries and food vendors from within and outside the city will set up shop, so please come visit us. Parking is available, but spaces are limited, so please use public transportation.
+      
+      ※ Hidaka City Aozora Market (farmers' market) will also be held at the same time.
+      
+      ※ This is part of the Seibu Railway Walking & Hiking course. For more details, please check the Seibu Railway website.
+      
+      ※ We will prepare products to the best of our ability, but items may sell out early.
+      
+      Source (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2847/
+    translation_hash: "sha256-d1463a1663545b37"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-11-04T23:07:52.873243Z"
+    format_version: 3
