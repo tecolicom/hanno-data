@@ -1,0 +1,35 @@
+{
+  "created": "2026-11-04T23:08:10.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nWe will hold the popular \"Hanno-Hidaka Bread Festival 2026,\" which takes place every year at the end of the year.\n\nThis year, the venue will be Manshusharaka Park in Hidaka City. Many popular bakeries and food vendors from within and outside the city will set up shop, so please come visit us. Parking is available, but spaces are limited, so please use public transportation.\n\n※ Hidaka City Aozora Market (farmers' market) will also be held at the same time.\n\n※ This is part of the Seibu Railway Walking & Hiking course. For more details, please check the Seibu Railway website.\n\n※ We will prepare products to the best of our ability, but items may sell out early.\n\nSource (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2847/",
+  "end": {
+    "date": "2026-11-05"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHMzOGRwZDZvbzZhZHBqNzEwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiOTMyNjEzZWUxMWIzYjE2NjU3Yjk4NmE3ZWMxYmQ4MmFkN2MzODVjMzBkZTc1YTJkYjU4MzRiYTFhMjk3ZTMyQGc",
+  "iCalUID": "cci-event-2847-60e738@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68s38dpd6oo6adpj7106gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ（EN）",
+    "email": "b932613ee11b3b16657b986a7ec1bd82ad7c385c30de75a2db5834ba1a297e32@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2847/"
+  },
+  "start": {
+    "date": "2026-11-04"
+  },
+  "status": "confirmed",
+  "summary": "🏮 Hanno-Hidaka Bread Festival 2026 will be held.",
+  "updated": "2026-11-04T23:08:10.989Z"
+}

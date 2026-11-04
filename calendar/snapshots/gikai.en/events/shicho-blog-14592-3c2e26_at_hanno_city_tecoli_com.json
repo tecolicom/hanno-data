@@ -1,0 +1,34 @@
+{
+  "created": "2026-11-04T23:08:12.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n📝 Mayor's Blog Update (Published: October 29, 2026)\n\nOn Thursday, October 29, I greeted participants at the \"Crime Prevention Community Awareness Campaign,\" a Saitama Prefecture initiative held at a local supermarket with their cooperation.\n\nWe will continue to roll out various crime prevention activities, and we ask for your ongoing support and cooperation.\n\nPhoto: https://www.city.hanno.lg.jp/material/images/group/79/081029bohannomachidukurigaitoucampaign.jpg\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202610/14592.html",
+  "end": {
+    "date": "2026-11-06"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2VkazZpb3I4ZHNtbTRyM2Zjc21qMmQxbDc0cDJxY3IzNjlpajRkaTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIGI2ZjM2ZTE5NzUxYzA1Y2NlOTlmYTAwODI4ZTQyOWY0MGY2ZGIxMDBlMmRiZTQ0MmJjMjYyMmEyNWRhOTczMTZAZw",
+  "iCalUID": "shicho-blog-14592-3c2e26@hanno.city.tecoli.com",
+  "id": "_edk6ior8dsmm4r3fcsmj2d1l74p2qcr369ij4di0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202610/14592.html"
+  },
+  "start": {
+    "date": "2026-11-05"
+  },
+  "status": "confirmed",
+  "summary": "📝 Mayor: Crime Prevention Community Awareness Campaign",
+  "updated": "2026-11-04T23:08:12.416Z"
+}

@@ -1,0 +1,34 @@
+{
+  "created": "2026-11-04T23:07:43.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🆕 新着掲載 (公開日: 2026-11-01)\n\nAI による要約 (正確な情報は元記事をご確認ください)\n\n令和8年分の確定申告・市民税県民税申告に用いる「障害者控除対象者認定書」と「おむつ使用確認書」の申請を受け付けます。介護福祉課へご申請ください。\n\n【障害者控除対象者認定書】\n対象は65歳以上で令和8年12月31日現在、介護保険の要介護認定を受けている方（要支援1・2を除く）です。要介護1～3の方は「障害者控除」、要介護4～5の方または要介護1～3で寝たきり度・認知症高齢者日常生活自立度が一定以上の方は「特別障害者控除」が受けられます。障害者手帳をお持ちの方は申請不要です。令和7年分の認定書交付済みの方のうち、令和8年12月31日現在も対象要件を満たす方には1月下旬頃に令和8年分の認定書を送付しますので申請の必要がありません。\n\n【おむつ使用確認書】\n対象は介護保険要介護認定者で、主治医意見書にておむつ使用の必要性が認められている方です。おむつ控除が初年度の場合は、おむつ使用年の主治医意見書で寝たきり度がB1・B2・C1・C2のいずれかに該当し、かつ失禁対応またはカテーテル対応が記載されていることが必要です。2年目以降は、使用年の主治医意見書で同様の確認がなされていることが必要です。\n\n申請期間は令和9年1月4日（月曜日）から令和9年3月15日（月曜日）までです。\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/ninteikyufu/12418.html",
+  "end": {
+    "date": "2026-11-06"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2OHEzMmUxZGNjcTM4Y2o0NmwwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSA2NzQ1OTE0YjI0MzIzMTEyYTE1ZjQzZGMyMGIzYTBmNGE0ODE3YWZkODAwYzhkMTY4N2QwYmYwYjdmODkwYzYxQGc",
+  "iCalUID": "oshirase-12418-c442d5@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h68q32e1dccq38cj46l06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/ninteikyufu/12418.html"
+  },
+  "start": {
+    "date": "2026-11-05"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 要介護認定者の所得控除について",
+  "updated": "2026-11-04T23:07:43.244Z"
+}

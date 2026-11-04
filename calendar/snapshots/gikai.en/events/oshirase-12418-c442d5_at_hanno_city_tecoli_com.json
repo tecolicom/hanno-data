@@ -1,0 +1,34 @@
+{
+  "created": "2026-11-04T23:08:11.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 Newly posted (Published: November 1, 2026)\n\nWe are now accepting applications for the \"Disability Control Target Certification\" and \"Diaper Use Confirmation Letter\" to be used in your 2026 (Reiwa 8) tax return and municipal/prefectural tax return. Please apply at the Long-Term Care and Welfare Division.\n\n【Disability Control Target Certification】\nEligible applicants are age 65 and older who, as of December 31, 2026 (Reiwa 8), hold a care insurance \"needs care\" (要介護) designation, excluding support levels 1 and 2. Those with care levels 1–3 qualify for \"Disability Control,\" while those with care levels 4–5, or care levels 1–3 with a bedridden degree or dementia daily-living independence rating above a certain threshold, qualify for \"Special Disability Control.\" If you hold a disability handbook, you do not need to apply. If you received a certification for 2025 (Reiwa 7) and still meet the eligibility requirements as of December 31, 2026, we will mail your 2026 certification around late January, so you do not need to apply.\n\n【Diaper Use Confirmation Letter】\nEligible applicants are care insurance beneficiaries whose physician opinion report recognizes the medical necessity of diaper use. For first-year diaper deduction claims, the physician opinion report from the year of use must show a bedridden degree of B1, B2, C1, or C2, and must state either incontinence management or catheter management. From the second year onward, the physician opinion report from the year of use must confirm the same requirements.\n\nApplication period: January 4, 2027 (Monday) through March 15, 2027 (Monday)\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/ninteikyufu/12418.html",
+  "end": {
+    "date": "2026-11-06"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2OHEzMmUxZGNjcTM4Y2o0NmwwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-12418-c442d5@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h68q32e1dccq38cj46l06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/kaigofukushika/ninteikyufu/12418.html"
+  },
+  "start": {
+    "date": "2026-11-05"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Income deductions for care insurance beneficiaries",
+  "updated": "2026-11-04T23:08:11.798Z"
+}

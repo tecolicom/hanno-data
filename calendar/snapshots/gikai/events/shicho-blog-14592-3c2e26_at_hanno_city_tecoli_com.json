@@ -1,0 +1,34 @@
+{
+  "created": "2026-11-04T23:07:43.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "📝 市長ブログ更新 (公開日: 2026-10-29)\n\n10月29日（木曜日）、市内スーパーマーケットのご協力のもと実施した、埼玉県主催「防犯のまちづくり街頭キャンペーン」でご挨拶させていただきました。\n\n引き続き、様々な防犯活動を展開していきますので、ご協力のほど、よろしくお願いします。\n\n写真: https://www.city.hanno.lg.jp/material/images/group/79/081029bohannomachidukurigaitoucampaign.jpg\n\n市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202610/14592.html",
+  "end": {
+    "date": "2026-11-06"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2VkazZpb3I4ZHNtbTRyM2Zjc21qMmQxbDc0cDJxY3IzNjlpajRkaTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIDY3NDU5MTRiMjQzMjMxMTJhMTVmNDNkYzIwYjNhMGY0YTQ4MTdhZmQ4MDBjOGQxNjg3ZDBiZjBiN2Y4OTBjNjFAZw",
+  "iCalUID": "shicho-blog-14592-3c2e26@hanno.city.tecoli.com",
+  "id": "_edk6ior8dsmm4r3fcsmj2d1l74p2qcr369ij4di0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202610/14592.html"
+  },
+  "start": {
+    "date": "2026-11-05"
+  },
+  "status": "confirmed",
+  "summary": "📝 市長：防犯のまちづくり街頭キャンペーン",
+  "updated": "2026-11-04T23:07:43.927Z"
+}
