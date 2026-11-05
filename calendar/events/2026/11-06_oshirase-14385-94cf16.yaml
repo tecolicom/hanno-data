@@ -1,0 +1,46 @@
+uid: "oshirase-14385-94cf16@hanno.city.tecoli.com"
+summary: "ℹ️ 令和8年度第2回文化財めぐり「飯能の地形と地質の楽しみ方」を11月28日に開催します"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/bunkazaitanto/bunkazai/14385.html"
+dtstart: "2026-11-06"
+dtend: "2026-11-06"
+description: |-
+  🔄 内容更新 (公開日: 2026-10-26 / 前回掲載: 2026-10-30)
+  主な変更: 申込締切後のキャンセル規定が変更されました。締切日まではキャンセル可能になり、締切後のみ参加費相当額を申し受けます。
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  令和8年11月28日（土曜日）に「飯能の地形と地質の楽しみ方」と題する文化財めぐりを開催します。昨年刊行された『地形・地質ウォッチング！歩いて楽しむ飯能』に掲載のコースを、専門家の解説を交えて歩きます。
+  
+  【日時】11月28日（土曜日）8時50分集合・9時出発～13時頃解散（小雨決行・荒天中止）
+  
+  【場所・コース】博物館（集合）ー入間川右岸―八耳堂―龍崖山（マンガン鉱採掘跡・山頂・見晴台）―吾妻峡―ドレミファ橋―永田大杉バス停（解散）、距離約4キロメートル（健脚向け）
+  
+  【講師】竹越智氏・久保田郁夫氏・久津間文隆氏・倉川博氏（関東平野西縁丘陵団体研究グループ）
+  
+  【参加費】500円
+  
+  【持ち物・服装】長袖長ズボン・帽子・履き慣れた靴・飲み物・雨具・軽食。冊子『地形・地質ウォッチング！歩いて楽しむ飯能』を当日テキストとして使用します（お持ちでない方は別途300円で当日販売）。
+  
+  【定員】20名（先着順）
+  
+  【申込期間】11月9日（月曜日）9時から11月20日（金曜日）16時まで
+  
+  【申込方法】博物館文化財担当へ原則電子申請（窓口・電話・メールも可）
+  
+  【注意】申込締切日（11月20日）まではキャンセル可能。同日以降のキャンセルは参加費相当額を徴収します。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/bunkazaitanto/bunkazai/14385.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "14385"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/bunkazaitanto/bunkazai/14385.html"
+  fetched_at: "2026-11-05T23:09:13.545593Z"
+  content_hash: "sha256-94cf162de8f1504b"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-10-26"
+  supersedes: "oshirase-14385-bde4de@hanno.city.tecoli.com"

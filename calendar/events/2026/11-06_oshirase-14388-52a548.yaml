@@ -1,0 +1,54 @@
+uid: "oshirase-14388-52a548@hanno.city.tecoli.com"
+summary: "ℹ️ 令和8年度子ども文化財教室「和綴じ本を作ってみよう！」を12月6日に開催します"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/bunkazaitanto/bunkazai/14388.html"
+dtstart: "2026-11-06"
+dtend: "2026-11-06"
+description: |-
+  🔄 内容更新 (公開日: 2026-11-02 / 前回掲載: 2026-11-03)
+  主な変更: 開催時間が11時30分までから12時までに延長されました。また、博物館休館日は電話042-972-2301文化財担当での受付も可能になりました。
+  
+  私たちが過去のことを知るためには、古文書など史料を紐解くことが不可欠です。文字や本の歴史について学び、和綴じ本を実際に作ってみましょう。
+  
+  ## 子ども文化財教室「和綴じ本を作ってみよう！」
+  
+  日時
+  
+  12月6日（日曜日） 10時から12時まで （開場 9時45分）
+  
+  会場
+  
+  飯能市立博物館 学習研究室
+  
+  対象
+  
+  小学生以下の児童及びその保護者
+  
+  注意 工作では千枚通しや針など先のとがったものを使用します。保護者の方もご協力ください。
+  
+  定員
+  
+  10組
+  
+  申込・問い合わせ
+  
+  11月17日（火曜日）10時から12月1日（火曜日）16時までに博物館へ原則電子申請にて受付（窓口・電話・メールも可）
+  
+  博物館休館日は、電話042-972-2301文化財担当でも、受付します。
+  
+  電子申請はこちら
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/bunkazaitanto/bunkazai/14388.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "14388"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/bunkazaitanto/bunkazai/14388.html"
+  fetched_at: "2026-11-05T23:08:59.126876Z"
+  content_hash: "sha256-52a548b7c1b16301"
+  summary_method: "full"
+  publish_date: "2026-11-02"
+  supersedes: "oshirase-14388-a5e895@hanno.city.tecoli.com"
