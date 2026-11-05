@@ -52,3 +52,40 @@ source:
   summary_method: "full"
   publish_date: "2026-11-02"
   supersedes: "oshirase-14388-a5e895@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ Children's Cultural Heritage Class: Make a Japanese-Style Bound Book on December 6, 2026"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content Update (Published: November 2, 2026 / Previously listed: November 3, 2026)
+      Main change: The end time has been extended from 11:30 a.m. to 12:00 p.m. Also, on museum closed days, applications are now accepted by phone at 042-972-2301 (Cultural Heritage Division).
+      
+      To understand the past, we need to explore historical documents and sources. Learn about the history of writing and books, then make a Japanese-style bound book (watozy-hon) yourself.
+      
+      Children's Cultural Heritage Class: Make a Japanese-Style Bound Book
+      
+      Date and time:
+      December 6 (Sunday, Reiwa 8), 10:00 a.m. to 12:00 p.m. (Doors open 9:45 a.m.)
+      
+      Location:
+      Hanno City Museum, Study and Research Room
+      
+      Who can attend:
+      Elementary school children and younger, with a parent or guardian. (Sharp tools like awls and needles will be used in the craft—parents' help is needed.)
+      
+      Capacity:
+      10 groups
+      
+      How to apply:
+      From 11:17 a.m. on Tuesday, November 17 (Reiwa 8) to 4:00 p.m. on Tuesday, December 1 (Reiwa 8), apply at the museum. Electronic application is preferred (applications by counter, phone, or email also accepted).
+      
+      On museum closed days, you may also apply by phone: 042-972-2301, Cultural Heritage Division.
+      
+      Electronic application form available at the link above.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/bunkazaitanto/bunkazai/14388.html
+    translation_hash: "sha256-27375e8544b7d845"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-11-05T23:10:57.412257Z"
+    format_version: 3

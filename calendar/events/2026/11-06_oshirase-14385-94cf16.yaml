@@ -44,3 +44,22 @@ source:
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-10-26"
   supersedes: "oshirase-14385-bde4de@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ Cultural Heritage Walking Tour (Reiwa 8, 2nd session):"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      📋 Content Update (published: October 26, 2026 / previous: October 30, 2026)
+      Main change: Cancellation policy after the application deadline has been revised. Cancellations are now possible up to the deadline; after the deadline, the participation fee will be charged.
+      
+      🔄 Cancellation Policy Update
+      Cancellations are now free until the application deadline (November 20). Cancellations after the deadline will result in the participation fee being charged.
+      
+      On Saturday, November 28, 2026 (Reiwa 8), we will hold a cultural heritage walking tour titled
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/bunkazaitanto/bunkazai/14385.html
+    translation_hash: "sha256-6d1e7d049029434d"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-11-05T23:10:51.622918Z"
+    format_version: 3
