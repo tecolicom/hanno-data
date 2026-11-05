@@ -1,0 +1,34 @@
+{
+  "created": "2026-11-05T23:11:09.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🔄 Content Update (Published: November 2, 2026 / Previously listed: November 3, 2026)\nMain change: The end time has been extended from 11:30 a.m. to 12:00 p.m. Also, on museum closed days, applications are now accepted by phone at 042-972-2301 (Cultural Heritage Division).\n\nTo understand the past, we need to explore historical documents and sources. Learn about the history of writing and books, then make a Japanese-style bound book (watozy-hon) yourself.\n\nChildren's Cultural Heritage Class: Make a Japanese-Style Bound Book\n\nDate and time:\nDecember 6 (Sunday, Reiwa 8), 10:00 a.m. to 12:00 p.m. (Doors open 9:45 a.m.)\n\nLocation:\nHanno City Museum, Study and Research Room\n\nWho can attend:\nElementary school children and younger, with a parent or guardian. (Sharp tools like awls and needles will be used in the craft—parents' help is needed.)\n\nCapacity:\n10 groups\n\nHow to apply:\nFrom 11:17 a.m. on Tuesday, November 17 (Reiwa 8) to 4:00 p.m. on Tuesday, December 1 (Reiwa 8), apply at the museum. Electronic application is preferred (applications by counter, phone, or email also accepted).\n\nOn museum closed days, you may also apply by phone: 042-972-2301, Cultural Heritage Division.\n\nElectronic application form available at the link above.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/bunkazaitanto/bunkazai/14388.html",
+  "end": {
+    "date": "2026-11-07"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Z3BqZ2UxZDZrcDYyZDlrNzEwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-14388-52a548@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6gpjge1d6kp62d9k7106gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/bunkazaitanto/bunkazai/14388.html"
+  },
+  "start": {
+    "date": "2026-11-06"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Children's Cultural Heritage Class: Make a Japanese-Style Bound Book on December 6, 2026",
+  "updated": "2026-11-05T23:11:09.633Z"
+}
