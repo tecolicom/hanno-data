@@ -1,0 +1,34 @@
+{
+  "created": "2026-11-06T22:39:43.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🔄 内容更新 (公開日: 2026-11-06 / 前回掲載: 2026-10-16)\n主な変更: 駐車場利用方法が明記されました。飯能県税事務所の駐車場を利用し、市役所駐車場は利用できません。また、講演会、歯科健診、薬剤師相談、助産師相談、鍼灸体験、柔道整復師相談、各種健康チェックなど具体的な催し物の詳細が追加されました。\n\nAI による要約 (正確な情報は元記事をご確認ください)\n\n令和8年11月29日（日曜日）午前10時～午後1時、飯能市総合福祉センターで「健康づくり応援フェス2026」を開催します。\n\n【主な催し物】\n歯科医師・医師による講演会（第1部10時40分～11時10分「口腔機能低下症について」、第2部11時15分～11時45分「かかりつけ医について」）、はんのう愛育会によるふれあい交流会、飯能市8020歯の健康づくり優秀者表彰、口腔機能チェック（10時30分～12時、定員30名先着順）、小児フッ素塗布・歯科健診・歯みがき指導（対象1歳程度～小学6年生、先着順）、キッズファーマシー、助産師による相談・体験、鍼灸無料体験、柔道整復師による痛みの相談、在宅医療相談、手洗いチェッカー、健康チェックコーナー（血管年齢測定・握力測定）、骨密度測定、ベジチェック、特定健康診査案内、グルメ販売。\n\n【駐車場】飯能県税事務所をご利用ください。台数に限りがあるため公共交通機関の利用にご協力ください。市役所駐車場は利用不可。\n\n授乳室は3階静養室をご利用ください。\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/10335.html",
+  "end": {
+    "date": "2026-11-08"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2MHBqNmQ5ZDY0cW1hcDloNjEwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSA2NzQ1OTE0YjI0MzIzMTEyYTE1ZjQzZGMyMGIzYTBmNGE0ODE3YWZkODAwYzhkMTY4N2QwYmYwYjdmODkwYzYxQGc",
+  "iCalUID": "oshirase-10335-15ee10@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h60pj6d9d64qmap9h6106gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/10335.html"
+  },
+  "start": {
+    "date": "2026-11-07"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 健康づくり応援フェス2026",
+  "updated": "2026-11-06T22:39:43.819Z"
+}

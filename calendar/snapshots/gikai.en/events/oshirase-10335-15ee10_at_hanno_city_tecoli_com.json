@@ -1,0 +1,34 @@
+{
+  "created": "2026-11-06T22:40:04.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🔄 Content Updated (Published: November 6, 2026 / Previous: October 16, 2026)\nMain changes: Parking instructions have been clarified. Use the Hanno Prefectural Tax Office parking lot; City Hall parking is not available. Details of specific programs including lectures, dental checkups, pharmacist consultations, midwife consultations, acupuncture/moxibustion experience, judo therapy consultations, and health screenings have been added.\n\nThe \"Health Promotion Festival 2026\" will be held on Sunday, November 29, 2026 (Reiwa 8), from 10:00 a.m. to 1:00 p.m. at the Hanno City Comprehensive Welfare Center.\n\n【Main Programs】\nLectures by dentists and physicians (Part 1: 10:40–11:10 a.m. \"Oral Function Decline Syndrome\"; Part 2: 11:15–11:45 a.m. \"Finding Your Regular Doctor\"), exchange gathering by Hanno Aiikukai, awards for Hanno \"8020 Healthy Teeth\" achievement, oral function screening (10:30 a.m.–12:00 p.m., 30 people first come first served), pediatric fluoride application, dental checkups, and tooth-brushing instruction (ages ~1 year through grade 6, first come first served), kids' pharmacy, consultation and experience sessions with midwives, free acupuncture/moxibustion experience, pain consultation with judo therapy specialist, home medical care consultation, hand-washing checker, health screening corner (blood vessel age measurement, grip strength test), bone density measurement, vegetable intake check, special health checkup information, food sales.\n\n【Parking】Please use the Hanno Prefectural Tax Office parking lot. Because parking spaces are limited, please use public transportation if possible. City Hall parking is not available.\n\nNursing room: Use the rest room on the 3rd floor.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/10335.html",
+  "end": {
+    "date": "2026-11-08"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2MHBqNmQ5ZDY0cW1hcDloNjEwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-10335-15ee10@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h60pj6d9d64qmap9h6106gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/10335.html"
+  },
+  "start": {
+    "date": "2026-11-07"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Health Promotion Festival 2026",
+  "updated": "2026-11-06T22:40:04.409Z"
+}
