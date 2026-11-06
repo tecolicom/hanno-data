@@ -1,0 +1,25 @@
+uid: "shicho-blog-14605-9c2036@hanno.city.tecoli.com"
+summary: "📝 市長：令和8年飯能市表彰"
+url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202611/14605.html"
+dtstart: "2026-11-07"
+dtend: "2026-11-07"
+description: |-
+  📝 市長ブログ更新 (公開日: 2026-11-03)
+  
+  11月3日（火曜日・祝日）、飯能市役所にて、令和8年飯能市表彰式を執り行いました。
+  
+  市の発展に寄与された方など、27名の方にご出席いただき、表彰状や感謝状をお渡しいたしました。
+  
+  市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202611/14605.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-shicho-blog
+  id: "14605"
+  url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202611/14605.html"
+  fetched_at: "2026-11-06T22:38:00.107975Z"
+  content_hash: "sha256-9c20364dfbaaf02a"
+  publish_date: "2026-11-03"
