@@ -1,0 +1,34 @@
+{
+  "created": "2026-11-08T21:36:33.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 Newly Posted (Published: November 9, 2026)\n\nWinter Food Poisoning: Watch Out for Norovirus\n\nWe're sharing information about how to prevent food poisoning and infectious gastroenteritis caused by norovirus, which is especially common in winter.\n\n【About Norovirus】\nNorovirus multiplies only in the human intestines. It spreads through oral ingestion via stool or vomit from infected people, which can contaminate hands or food. There is no vaccine, and treatment is limited to symptom management. Even just 10–100 virus particles can cause infection, and young children and elderly people risk severe illness.\n\n【Symptoms】\n1–2 days after infection, nausea, vomiting, abdominal pain, diarrhea, and fever typically appear and last 1–2 days before recovery. Even after symptoms disappear, the virus continues to be shed for about a week, or up to a month in some cases, so watch for secondary infections.\n\n【Prevention Methods】\n• Wash hands thoroughly after using the toilet or handling shellfish (washing twice is more effective)\n• Thoroughly clean and disinfect cooking tools like cutting boards and knives (including handles)\n• Heat food to 85–90°C at the center for 90 seconds or more (frozen foods require extra heating time)\n• When handling patient stool or vomit, wear disposable gloves, a mask, and an apron\n• Clean the area with 0.1% sodium hypochlorite solution using paper towels\n• Always disinfect your hands with disinfectant after cleanup\n• If you have diarrhea, shower only or bathe last; avoid sharing towels; change bathwater daily\n• Do not work in food preparation if you're unwell\n\nInquiries: Saitama Sayama Health and Welfare Bureau, Living Environment and Pharmaceutical Division 04-2941-6535\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/14596.html",
+  "end": {
+    "date": "2026-11-11"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Z3FqaWRoZGNoajY2Y2oyNnQwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-14596-dfc2b7@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6gqjidhdchj66cj26t06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/14596.html"
+  },
+  "start": {
+    "date": "2026-11-10"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Winter Food Poisoning: Watch Out for Norovirus!",
+  "updated": "2026-11-08T21:36:34.200Z"
+}
