@@ -1,0 +1,46 @@
+uid: "oshirase-14596-dfc2b7@hanno.city.tecoli.com"
+summary: "ℹ️ 冬の食中毒 ノロウイルスにご注意を！"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/14596.html"
+dtstart: "2026-11-10"
+dtend: "2026-11-10"
+description: |-
+  🆕 新着掲載 (公開日: 2026-11-09)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  冬の食中毒 ノロウイルスにご注意を
+  
+  冬場に特に多いノロウイルスによる食中毒・感染性胃腸炎の予防方法についてお知らせします。
+  
+  【ノロウイルスについて】
+  ヒトの腸管内でのみ増殖し、感染者のふん便やおう吐物が手指や食品を介して経口感染します。ワクチンがなく、治療は対症療法に限定されます。わずか10～100個程度のウイルスでも感染の可能性があり、幼児や高齢者は重症化するおそれがあります。
+  
+  【症状】
+  感染後1～2日で、吐き気、おう吐、腹痛、下痢、発熱などが1～2日続いた後通常は治癒します。症状が消えても1週間、長くは1ヶ月程度ウイルスが排泄され、二次感染に注意が必要です。
+  
+  【予防方法】
+  ・トイレ使用後や貝類取扱後は十分に手洗い（2度洗いが効果的）
+  ・まな板、包丁など調理器具の洗浄消毒を徹底（柄部分も含む）
+  ・食品は中心温度85℃～90℃で90秒以上加熱（冷凍品はさらに加熱）
+  ・患者のふん便やおう吐物は使い捨て手袋・マスク・エプロンを装着して処理
+  ・0.1％次亜塩素酸ナトリウム溶液でペーパータオルなどを処理
+  ・処理後は必ず手指を消毒薬で洗浄消毒
+  ・下痢している人はシャワーのみか入浴を最後にし、タオル共用を避け、風呂のお湯は毎日交換
+  ・体調不良時は調理に従事しない
+  
+  問い合わせ：埼玉県狭山保健所生活衛生・薬事担当 04-2941-6535
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/14596.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "14596"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/14596.html"
+  fetched_at: "2026-11-08T21:34:44.298066Z"
+  content_hash: "sha256-dfc2b72bf31d7d2d"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-11-09"
