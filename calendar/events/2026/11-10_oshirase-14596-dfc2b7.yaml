@@ -44,3 +44,38 @@ source:
   content_hash: "sha256-dfc2b72bf31d7d2d"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-11-09"
+translations:
+  en:
+    summary: "ℹ️ Winter Food Poisoning: Watch Out for Norovirus!"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 Newly Posted (Published: November 9, 2026)
+      
+      Winter Food Poisoning: Watch Out for Norovirus
+      
+      We're sharing information about how to prevent food poisoning and infectious gastroenteritis caused by norovirus, which is especially common in winter.
+      
+      【About Norovirus】
+      Norovirus multiplies only in the human intestines. It spreads through oral ingestion via stool or vomit from infected people, which can contaminate hands or food. There is no vaccine, and treatment is limited to symptom management. Even just 10–100 virus particles can cause infection, and young children and elderly people risk severe illness.
+      
+      【Symptoms】
+      1–2 days after infection, nausea, vomiting, abdominal pain, diarrhea, and fever typically appear and last 1–2 days before recovery. Even after symptoms disappear, the virus continues to be shed for about a week, or up to a month in some cases, so watch for secondary infections.
+      
+      【Prevention Methods】
+      • Wash hands thoroughly after using the toilet or handling shellfish (washing twice is more effective)
+      • Thoroughly clean and disinfect cooking tools like cutting boards and knives (including handles)
+      • Heat food to 85–90°C at the center for 90 seconds or more (frozen foods require extra heating time)
+      • When handling patient stool or vomit, wear disposable gloves, a mask, and an apron
+      • Clean the area with 0.1% sodium hypochlorite solution using paper towels
+      • Always disinfect your hands with disinfectant after cleanup
+      • If you have diarrhea, shower only or bathe last; avoid sharing towels; change bathwater daily
+      • Do not work in food preparation if you're unwell
+      
+      Inquiries: Saitama Sayama Health and Welfare Bureau, Living Environment and Pharmaceutical Division 04-2941-6535
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/14596.html
+    translation_hash: "sha256-7324f7e5af51d583"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-11-08T21:36:23.806746Z"
+    format_version: 3
