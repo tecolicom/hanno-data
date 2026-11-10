@@ -1,0 +1,32 @@
+uid: "oshirase-14152-4f1145@hanno.city.tecoli.com"
+summary: "ℹ️ 公共施設での令和8年熊本地震災害義援金受付について"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/bosai/14152.html"
+dtstart: "2026-11-11"
+dtend: "2026-11-11"
+description: |-
+  🔄 内容更新 (公開日: 2026-11-09 / 前回掲載: 2026-08-08)
+  主な変更: 公共施設での義援金受付は10月27日で終了し、96,422円が集まりました。市役所本庁舎正面玄関の募金箱では引き続き受け付けています。
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  令和8年8月10日から10月27日まで市内公共施設に設置した熊本地震災害義援金募金は、合計96,422円が集まりました。寄付金は日本赤十字社を通じて被災都道府県の義援金配分委員会へ送金され、全額が被災者の生活支援に充てられます。
+  
+  当該期間での義援金箱設置は終了しましたが、市役所本庁舎正面玄関総合案内では引き続き受け付けています。領収書の発行希望者は、市役所本庁舎1階地域福祉課（11番窓口）までお問い合わせください。
+  
+  温かいご支援をいただきありがとうございました。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/bosai/14152.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "14152"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/bosai/14152.html"
+  fetched_at: "2026-11-10T01:05:23.666059Z"
+  content_hash: "sha256-4f1145212c18fc3a"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-11-09"
+  supersedes: "oshirase-14152-0c9b92@hanno.city.tecoli.com"

@@ -1,0 +1,33 @@
+uid: "oshirase-13166-39cfd1@hanno.city.tecoli.com"
+summary: "ℹ️ 戸籍の証明書および戸籍の附票のみコンビニ交付をご利用いただけません"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/johosystem/13166.html"
+dtstart: "2026-11-11"
+dtend: "2026-11-11"
+description: |-
+  🔄 内容更新 (公開日: 2026-11-10 / 前回掲載: 2026-05-15)
+  主な変更: 戸籍の証明書および戸籍の附票のコンビニ交付が令和8年11月10日6時30分頃からシステム障害により停止中です。復旧日時は判明次第お知らせします。
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  【サービス停止中】戸籍の証明書および戸籍の附票のコンビニ交付サービスが、令和8年11月10日(火曜日)6時30分頃からシステム障害により利用できなくなっています。復旧日時は判明次第ホームページでお知らせします。
+  
+  この期間に戸籍の証明書または戸籍の附票の発行が必要な場合は、以下の窓口をご利用ください。
+  
+  ・市役所、各地区行政センター(富士見地区行政センター除く):午前9時～午後4時30分
+  ・飯能駅サービスコーナー:午前9時～午後5時
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/johosystem/13166.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13166"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/johosystem/13166.html"
+  fetched_at: "2026-11-10T01:05:19.522349Z"
+  content_hash: "sha256-39cfd10dfa5cd152"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-11-10"
+  supersedes: "oshirase-13166@hanno.city.tecoli.com"
