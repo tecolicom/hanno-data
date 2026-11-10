@@ -31,3 +31,25 @@ source:
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-11-10"
   supersedes: "oshirase-13166@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ Convenience store service suspended for family register certificates and attachments"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Update (published Nov 10, 2026 / previously posted May 15, 2026)
+      
+      Main change: Convenience store service for family register certificates and attachments has been unavailable due to a system error since around 6:30 a.m. on November 10, 2026 (Reiwa 8). We will announce the restoration time as soon as it is confirmed.
+      
+      【Service suspended】The convenience store service for issuing family register certificates and family register attachments has been unavailable due to a system error since around 6:30 a.m. on Tuesday, November 10, 2026 (Reiwa 8). We will announce the restoration time on our website as soon as it is confirmed.
+      
+      If you need a family register certificate or family register attachment issued during this period, please use one of the following locations:
+      
+      • Hanno City Hall and each district administrative center (excluding Fujimi District Administrative Center): 9:00 a.m. to 4:30 p.m.
+      • Hanno Station Service Counter: 9:00 a.m. to 5:00 p.m.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/johosystem/13166.html
+    translation_hash: "sha256-40fea5cccdb8a42e"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-11-10T01:07:12.438420Z"
+    format_version: 3

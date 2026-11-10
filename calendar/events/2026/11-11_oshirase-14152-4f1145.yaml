@@ -30,3 +30,23 @@ source:
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-11-09"
   supersedes: "oshirase-14152-0c9b92@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ Update on Kumamoto Earthquake Disaster Relief Donations at Public Facilities"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content Update (Published: November 9, 2026 / Previously posted: August 8, 2026)
+      Main change: Public facility donation boxes closed on October 27, collecting ¥96,422. Donations are still accepted at the main donation box by the front entrance of City Hall.
+      
+      From August 10 to October 27, 2026, donation boxes placed at public facilities throughout Hanno collected a total of ¥96,422 for relief from the Kumamoto Earthquake disaster. Donations are forwarded through the Japanese Red Cross Society to the prefectural disaster relief committees in affected areas, with 100% going toward support for disaster victims.
+      
+      The donation boxes at public facilities have now closed, but City Hall's main front entrance information desk continues to accept donations. If you need a receipt, contact the Community Welfare Division (Window 11) on the 1st floor of the City Hall main building.
+      
+      Thank you for your generous support.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/bosai/14152.html
+    translation_hash: "sha256-747cb661bf32d32a"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-11-10T01:07:16.059215Z"
+    format_version: 3
