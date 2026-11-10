@@ -1,0 +1,34 @@
+{
+  "created": "2026-11-10T01:07:01.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🔄 内容更新 (公開日: 2026-11-09 / 前回掲載: 2026-08-08)\n主な変更: 公共施設での義援金受付は10月27日で終了し、96,422円が集まりました。市役所本庁舎正面玄関の募金箱では引き続き受け付けています。\n\nAI による要約 (正確な情報は元記事をご確認ください)\n\n令和8年8月10日から10月27日まで市内公共施設に設置した熊本地震災害義援金募金は、合計96,422円が集まりました。寄付金は日本赤十字社を通じて被災都道府県の義援金配分委員会へ送金され、全額が被災者の生活支援に充てられます。\n\n当該期間での義援金箱設置は終了しましたが、市役所本庁舎正面玄関総合案内では引き続き受け付けています。領収書の発行希望者は、市役所本庁舎1階地域福祉課（11番窓口）までお問い合わせください。\n\n温かいご支援をいただきありがとうございました。\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/bosai/14152.html",
+  "end": {
+    "date": "2026-11-12"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Z29qYWNoZDZoajMyYzlrNmwwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSA2NzQ1OTE0YjI0MzIzMTEyYTE1ZjQzZGMyMGIzYTBmNGE0ODE3YWZkODAwYzhkMTY4N2QwYmYwYjdmODkwYzYxQGc",
+  "iCalUID": "oshirase-14152-4f1145@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6gojachd6hj32c9k6l06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/somubu/bosaikikikanri/bosai/14152.html"
+  },
+  "start": {
+    "date": "2026-11-11"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 公共施設での令和8年熊本地震災害義援金受付について",
+  "updated": "2026-11-10T01:07:01.679Z"
+}
