@@ -43,3 +43,34 @@ source:
   fetched_at: "2026-11-10T22:44:01.742664Z"
   content_hash: "sha256-9daeca10b8b4abf1"
   publish_date: "2026-11-09"
+translations:
+  en:
+    summary: "📝 Mayor: Reiwa 8 Excellent Construction Project Contractor Awards Ceremony"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      📝 Mayor's Blog Update (Published: November 9, 2026)
+      
+      On Monday, November 9, 2026 (Reiwa 8), the Hanno City Excellent Construction Project Contractor Awards Ceremony was held. The award winners by category are as follows.
+      
+      Civil Engineering Category: Nashiki Construction Co., Ltd.
+      Project Name: Municipal Road 1-2668-2 (Pavement Replacement Work in Sakae Town and Tayanagi Area)
+      
+      Civil Engineering Category: Kaneko Gumi Co., Ltd.
+      Project Name: Municipal Road 8-129 (Disaster Countermeasures Work at Shomaru Pass)
+      Project Name: Municipal Road 1-1797-2 (Pavement Replacement Work in Tayanagi Area)
+      
+      Civil Engineering Category: Yamato Construction Co., Ltd.
+      Project Name: Asu-Okokubo Line Road Development Work (Iwakita Section 3)
+      Project Name: Asu-Okokubo Line Road Development Work (Iwakita Section 4)
+      
+      Mechanical Systems Category: Uno Equipment Engineering Co., Ltd.
+      Project Name: Misugi Dai Junior High School Building Special Classrooms Wing Air Conditioning Equipment Renovation Work (Mechanical Systems Work)
+      
+      Photo: https://www.city.hanno.lg.jp/material/images/group/79/081109reiwa8nendoyuryokensetsukojiukeoisyahyosyoshiki.jpg
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202611/14618.html
+    translation_hash: "sha256-ee877cc09f7a4b10"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-11-10T22:46:00.311148Z"
+    format_version: 3

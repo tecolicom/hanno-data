@@ -38,3 +38,36 @@ source:
   summary_method: "full"
   publish_date: "2026-11-10"
   supersedes: "oshirase-13166-39cfd1@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ Convenience store services for family register certificates, family register supplements, and family register certificate registration applications have resumed"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      System update (published: November 10, 2026 / previous: November 11, 2026)
+      Main change: Convenience store services for issuing family register certificates, family register supplements, and family register certificate registration applications, which were suspended due to a system failure, resumed around 4:30 PM on November 10, 2026.
+      
+      【Convenience Store Services for Family Register Certificates, Family Register Supplements, and Family Register Certificate Registration Applications Now Resumed】
+      
+      A system failure that began around 6:30 AM on Tuesday, November 10, 2026 (Reiwa 8) temporarily prevented access to some convenience store services.
+      
+      We are pleased to inform you that the service has now resumed.
+      
+      Services that were unavailable:
+      • Family register certificates
+      • Family register supplements
+      • Family register certificate registration applications
+      
+      Outage period: From around 6:30 AM on Tuesday, November 10, 2026 (Reiwa 8) to around 4:30 PM on the same day
+      
+      We apologize for any inconvenience this may have caused.
+      
+      【About Convenience Store Certificate Services】
+      
+      Taxation (non-taxation) and income certificates [Convenience Store Certificate Service]
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/johosystem/13166.html
+    translation_hash: "sha256-378ddde75cbff5a0"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-11-10T22:45:53.491973Z"
+    format_version: 3
