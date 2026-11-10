@@ -1,0 +1,34 @@
+{
+  "created": "2026-11-10T22:46:11.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n📝 Mayor's Blog Update (Published: November 3, 2026)\n\nOn Tuesday, November 3, 2026 (a national holiday), I attended the Youth Statement Competition held at Hanno City Citizens' Hall. This competition is an important opportunity for elementary and junior high school students to express their own thoughts and ideas in words—an experience that contributes to their personal growth. I would like to thank the Youth Development Hanno Citizens' Council, the organizers of this competition, and all those involved in making it possible.\n\nPhoto: https://www.city.hanno.lg.jp/material/images/group/79/081103hannoshisyonennosyucyoutaikai.jpg\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202611/14614.html",
+  "end": {
+    "date": "2026-11-12"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2VkazZpb3I4ZHNtbTRyM2Zjc21qMmQxbTY0cTJxYzlnNm9vM2lwaTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIGI2ZjM2ZTE5NzUxYzA1Y2NlOTlmYTAwODI4ZTQyOWY0MGY2ZGIxMDBlMmRiZTQ0MmJjMjYyMmEyNWRhOTczMTZAZw",
+  "iCalUID": "shicho-blog-14614-10609f@hanno.city.tecoli.com",
+  "id": "_edk6ior8dsmm4r3fcsmj2d1m64q2qc9g6oo3ipi0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202611/14614.html"
+  },
+  "start": {
+    "date": "2026-11-11"
+  },
+  "status": "confirmed",
+  "summary": "📝 Mayor: Hanno City Youth Statement Competition",
+  "updated": "2026-11-10T22:46:12.015Z"
+}

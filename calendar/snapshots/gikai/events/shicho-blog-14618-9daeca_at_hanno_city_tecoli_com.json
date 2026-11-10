@@ -1,0 +1,34 @@
+{
+  "created": "2026-11-10T22:45:41.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "📝 市長ブログ更新 (公開日: 2026-11-09)\n\n11月9日（月曜日）に、令和8年度飯能市優良建設工事請負者表彰式を執り行いました。各部門の受賞者は以下のとおりです。\n\n土木部門：株式会社梨木建設\n\n工事名：市道1-2668-2号線（栄町・双柳地内）舗装打換工事\n\n土木部門：株式会社金子組\n\n工事名：市道8-129号線（正丸峠）災害対策工事\n\n工事名：市道1-1797-2号線（大字双柳地内）舗装打換工事\n\n土木部門：株式会社大和建設\n\n工事名：阿須小久保線道路整備工事（岩北その3）\n\n工事名：阿須小久保線道路整備工事（岩北その4）\n\n機械部門：宇野設備工業株式会社\n\n工事名：美杉台中学校校舎特別教室棟空調設備改修工事（機械設備工事）\n\n写真: https://www.city.hanno.lg.jp/material/images/group/79/081109reiwa8nendoyuryokensetsukojiukeoisyahyosyoshiki.jpg\n\n市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202611/14618.html",
+  "end": {
+    "date": "2026-11-12"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2VkazZpb3I4ZHNtbTRyM2Zjc21qMmQxbTY0czJxZWI0YzVpbTZvYTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIDY3NDU5MTRiMjQzMjMxMTJhMTVmNDNkYzIwYjNhMGY0YTQ4MTdhZmQ4MDBjOGQxNjg3ZDBiZjBiN2Y4OTBjNjFAZw",
+  "iCalUID": "shicho-blog-14618-9daeca@hanno.city.tecoli.com",
+  "id": "_edk6ior8dsmm4r3fcsmj2d1m64s2qeb4c5im6oa0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202611/14618.html"
+  },
+  "start": {
+    "date": "2026-11-11"
+  },
+  "status": "confirmed",
+  "summary": "📝 市長：令和8年度優良建設工事請負者表彰式",
+  "updated": "2026-11-10T22:45:41.640Z"
+}

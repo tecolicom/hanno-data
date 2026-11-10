@@ -1,0 +1,34 @@
+{
+  "created": "2026-11-10T22:46:10.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nSystem update (published: November 10, 2026 / previous: November 11, 2026)\nMain change: Convenience store services for issuing family register certificates, family register supplements, and family register certificate registration applications, which were suspended due to a system failure, resumed around 4:30 PM on November 10, 2026.\n\n【Convenience Store Services for Family Register Certificates, Family Register Supplements, and Family Register Certificate Registration Applications Now Resumed】\n\nA system failure that began around 6:30 AM on Tuesday, November 10, 2026 (Reiwa 8) temporarily prevented access to some convenience store services.\n\nWe are pleased to inform you that the service has now resumed.\n\nServices that were unavailable:\n• Family register certificates\n• Family register supplements\n• Family register certificate registration applications\n\nOutage period: From around 6:30 AM on Tuesday, November 10, 2026 (Reiwa 8) to around 4:30 PM on the same day\n\nWe apologize for any inconvenience this may have caused.\n\n【About Convenience Store Certificate Services】\n\nTaxation (non-taxation) and income certificates [Convenience Store Certificate Service]\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/johosystem/13166.html",
+  "end": {
+    "date": "2026-11-12"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y29qY2RoZDc0cWpjZHBwNzUwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-13166-956799@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6cojcdhd74qjcdpp7506gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/johosystem/13166.html"
+  },
+  "start": {
+    "date": "2026-11-11"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Convenience store services for family register certificates, family register supplements, and family register certificate registration applications have resumed",
+  "updated": "2026-11-10T22:46:11.284Z"
+}
