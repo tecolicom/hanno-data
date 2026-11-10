@@ -1,0 +1,25 @@
+uid: "shicho-blog-14614-10609f@hanno.city.tecoli.com"
+summary: "📝 市長：飯能市少年の主張大会"
+url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202611/14614.html"
+dtstart: "2026-11-11"
+dtend: "2026-11-11"
+description: |-
+  📝 市長ブログ更新 (公開日: 2026-11-03)
+  
+  11月3日(火曜日・祝日)、飯能市市民会館で開催された少年の主張大会に出席しました。 本大会は、小学生、中学生の皆さんが自らの考えを言葉にして伝える、自身の成長にもつながる大切な機会です。大会を開催いただいた、主催者である青少年育成飯能市民会議の皆様、関係者の皆様に感謝いたします。
+  
+  写真: https://www.city.hanno.lg.jp/material/images/group/79/081103hannoshisyonennosyucyoutaikai.jpg
+  
+  市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202611/14614.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-shicho-blog
+  id: "14614"
+  url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202611/14614.html"
+  fetched_at: "2026-11-10T22:44:02.327289Z"
+  content_hash: "sha256-10609f4c716e38fb"
+  publish_date: "2026-11-03"

@@ -1,0 +1,40 @@
+uid: "oshirase-13166-956799@hanno.city.tecoli.com"
+summary: "ℹ️ 戸籍の証明書、戸籍の附票の発行および戸籍証明書交付の利用登録申請のコンビニ交付サービスが再開しました"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/johosystem/13166.html"
+dtstart: "2026-11-11"
+dtend: "2026-11-11"
+description: |-
+  🔄 内容更新 (公開日: 2026-11-10 / 前回掲載: 2026-11-11)
+  主な変更: システム障害により停止していた戸籍の証明書、戸籍の附票、戸籍証明書交付の利用登録申請のコンビニ交付サービスが、11月10日16時30分頃に復旧しました。
+  
+  ## 戸籍の証明書、戸籍の附票の発行および戸籍証明書交付の利用登録申請のコンビニ交付サービスが再開しました。
+  
+  令和8年11月10日(火曜日)6時30分頃から発生していたシステム障害により、一部コンビニ交付サービスがご利用いただけませんでした。
+  
+  サービスが再開しましたのでお知らせいたします。
+  
+  利用できなかったサービス：戸籍の証明書、戸籍の附票の発行および戸籍証明書交付の利用登録申請
+  
+  発生期間：令和8年11月10日(火曜日)6時30分頃から令和8年11月10日(火曜日)16時30分頃まで
+  
+  ご迷惑をお掛けし申し訳ございませんでした。
+  
+  証明書等コンビニ交付サービスについて
+  
+  課税(非課税)・所得証明書[コンビニ交付サービス]
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/johosystem/13166.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13166"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/johosystem/13166.html"
+  fetched_at: "2026-11-10T22:44:06.778782Z"
+  content_hash: "sha256-956799ec6a648561"
+  summary_method: "full"
+  publish_date: "2026-11-10"
+  supersedes: "oshirase-13166-39cfd1@hanno.city.tecoli.com"
