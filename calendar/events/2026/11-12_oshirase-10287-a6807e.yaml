@@ -1,0 +1,47 @@
+uid: "oshirase-10287-a6807e@hanno.city.tecoli.com"
+summary: "ℹ️ 市民活動センター冬のイベント"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jitishinkoka/shiminkatudou/10287.html"
+dtstart: "2026-11-12"
+dtend: "2026-11-12"
+description: |-
+  🔄 内容更新 (公開日: 2026-11-10 / 前回掲載: 2026-10-30)
+  主な変更: みん活ウィンター2026で発表プログラムと交流広場の詳細（出演団体・ワークショップ内容等）が追加されました。
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  市民活動センターで冬のイベント2つを開催します。
+  
+  【みん活ウィンター2026】
+  日時：12月6日(日曜日)10時30分～16時
+  会場：市民活動センター
+  市民活動団体による音楽・ダンス等の発表ステージ、ワークショップ、物販コーナーを実施。発表プログラムは11時からキーボードサークル、手作り紙芝居「令和版よだかの星」、歌声健康教室、ダンスパフォーマンス、チアダンス、サックスジャズ等を予定。交流広場では焼菓子や手作り小物、リユース品等の販売。書道ワークショップ「書いてみよう！私の一文字」（1回3名まで・全4回、10時30分～16時の間に実施、事前予約不要・当日先着順）。クリスマスツリー飾りつけコーナーもあります。
+  
+  【同時開催：LINEアプリ活用教室】
+  日時：12月6日(日曜日)13時30分～15時30分
+  会場：市民活動センター会議室
+  定員：15名(申込順)
+  スマートフォンを持参の上参加してください。申込方法：11月8日(日曜日)からお電話で申し込み。
+  
+  【クリスマスコンサート】
+  日時：12月19日(土曜日)14時～15時
+  会場：多目的ホール
+  出演：Sカルテットオルゴールによるサックスコンサート
+  定員：80名(申込順)
+  申込方法：11月14日(土曜日)からお電話で申し込み。
+  駐車場は市役所駐車場をご利用ください。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jitishinkoka/shiminkatudou/10287.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "10287"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jitishinkoka/shiminkatudou/10287.html"
+  fetched_at: "2026-11-11T23:58:29.331273Z"
+  content_hash: "sha256-a6807ea0c54cd459"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-11-10"
+  supersedes: "oshirase-10287-e35aca@hanno.city.tecoli.com"

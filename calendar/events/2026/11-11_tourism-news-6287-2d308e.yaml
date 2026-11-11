@@ -1,0 +1,25 @@
+uid: "tourism-news-6287-2d308e@hanno.city.tecoli.com"
+summary: "📢 11/15(日) 秋のお散歩マーケット"
+url: "https://hanno-tourism.jp/news/11-15%e6%97%a5%e3%80%80%e7%a7%8b%e3%81%ae%e3%81%8a%e6%95%a3%e6%ad%a9%e3%83%9e%e3%83%bc%e3%82%b1%e3%83%83%e3%83%88"
+dtstart: "2026-11-11"
+dtend: "2026-11-11"
+description: |-
+  奥むさし飯能観光協会: https://hanno-tourism.jp/news/11-15%e6%97%a5%e3%80%80%e7%a7%8b%e3%81%ae%e3%81%8a%e6%95%a3%e6%ad%a9%e3%83%9e%e3%83%bc%e3%82%b1%e3%83%83%e3%83%88
+  
+  🆕 新着掲載 (公開日: 2026-11-11)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  秋のお散歩マーケットが2026年11月15日(日)に飯能の山間の集落・黒指細田地区で開催されます。家の軒先に並べられた季節の農産物や手作り品を、山道を散歩しながら購入でき、住民とのふれあいも楽しめます。
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-tourism-jp-news
+  id: "6287"
+  url: "https://hanno-tourism.jp/news/11-15%e6%97%a5%e3%80%80%e7%a7%8b%e3%81%ae%e3%81%8a%e6%95%a3%e6%ad%a9%e3%83%9e%e3%83%bc%e3%82%b1%e3%83%83%e3%83%88"
+  fetched_at: "2026-11-11T23:56:44.820684Z"
+  modified_gmt: "2026-11-11T07:45:07"
+  content_hash: "sha256-2d308e08734d74f1"

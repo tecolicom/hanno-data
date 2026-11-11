@@ -1,0 +1,36 @@
+uid: "oshirase-13388-e2c3ec@hanno.city.tecoli.com"
+summary: "ℹ️ 【令和8年度】報道発表資料"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/hodohappyo/houdouhappyou2025_1/13388.html"
+dtstart: "2026-11-12"
+dtend: "2026-11-12"
+description: |-
+  🔄 内容更新 (公開日: 2026-11-11 / 前回掲載: 2026-10-30)
+  主な変更: 健康づくり応援フェス2026の開催について（11月11日発表）が新たに追加されました。
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  飯能市の一覧ページが更新されました。令和8年度の報道発表資料として、以下の案件が公表されています。
+  
+  ・健康づくり応援フェス2026の開催について（11月11日発表）
+  ・第78回埼玉県消防協会定例表彰「現場功労章」受章について（10月29日発表）
+  ・飯能市防災行政無線音声応答サービスについて（10月16日発表）
+  ・こども図書館の施設修繕に伴う臨時休館について（10月16日発表）
+  ・飯能市防災行政無線音声応答サービスの一時停止について（10月15日発表）
+  
+  これより前の発表は元記事をご覧ください。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/hodohappyo/houdouhappyou2025_1/13388.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "13388"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/hodohappyo/houdouhappyou2025_1/13388.html"
+  fetched_at: "2026-11-11T23:58:12.333507Z"
+  content_hash: "sha256-e2c3ec7d6d46ffda"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-11-11"
+  supersedes: "oshirase-13388-10ab80@hanno.city.tecoli.com"
