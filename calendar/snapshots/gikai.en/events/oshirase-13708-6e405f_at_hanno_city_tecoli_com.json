@@ -1,0 +1,34 @@
+{
+  "created": "2026-11-12T00:00:57.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 New (Published November 11, 2026)\n\nThe city is conducting patrols to check for damage from the invasive spotted longhorn beetle (Xyleborinus saxesanii). Staff inspect about 1,800 cherry trees at public facilities across Hanno for feeding damage, and inject pesticide into damaged trees for removal.\n\n【First Patrol】\nPeriod: October 18 (Sunday) – October 23 (Friday)\nAreas: Agano, Higashi-Agano, Hannou (Oaza), Inari-cho, Yamate-cho, Iwasawa, Misugi-dai, Iwabuchi, Koseto, Haraichiba, Naguri\nTrees checked: 308, Damaged: 24\n\n【Second Patrol】\nPeriod: October 26 (Monday) – October 30 (Friday)\nAreas: Hongo, Nagata-dai, Koiwai, Yamate-cho, Asu, Ashigariiba, Soyanaqi, Shin-cho, Kawaji, Soyaji-cho\nTrees checked: 205, Damaged: 2\n\n【Third Patrol】\nPeriod: November 2 (Monday) – November 6 (Friday)\nAreas: Misugi-dai, Shitahata\nTrees checked: 166, Damaged: None\n\nThe spotted longhorn beetle is an invasive pest that feeds on Rosaceae trees such as cherry, plum, and peach. Damage is expanding primarily in northern Saitama Prefecture. As of the end of fiscal year 2025 (Reiwa 7), Hanno has had 2 confirmed cases. If residents spot the beetle, please capture and kill it promptly, then report it through the Environmental & Water Division or via the Saitama Prefecture form. For agricultural damage, also report to the Agricultural Promotion Division (042-973-2111, main number).\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/kankyomidorimizuka/13708.html",
+  "end": {
+    "date": "2026-11-13"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3JqMGUxZDZwaWo4YzFsY3AwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-13708-6e405f@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6crj0e1d6pij8c1lcp06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/kankyomidorimizuka/13708.html"
+  },
+  "start": {
+    "date": "2026-11-12"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Spotted Longhorn Beetle (Xyleborinus saxesanii) Damage Monitoring",
+  "updated": "2026-11-12T00:00:57.943Z"
+}

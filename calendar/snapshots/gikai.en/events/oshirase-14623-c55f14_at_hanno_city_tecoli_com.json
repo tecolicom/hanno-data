@@ -1,0 +1,34 @@
+{
+  "created": "2026-11-12T00:00:58.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 New (Published: November 10, 2026)\n\nHanno City is conducting a survey on gender equality awareness and living conditions. We ask for your cooperation.\n\nThe survey aims to understand residents' awareness and actual living situations regarding gender equality in Hanno City, and to provide baseline data for future city policy initiatives.\n\nEligibility: Residents of Hanno City aged 18 and older\n\nSurvey Period: Tuesday, November 10, 2026 (Reiwa 8), 9:00 AM – Saturday, January 9, 2027 (Reiwa 9), 11:59 PM\n\nHow to Respond: Via the internet (electronic application and notification service) or by paper form. Internet responses are preferred. If you cannot respond online, please contact the Human Rights, Lifestyle and Safety Division.\n\nSurvey Content: Questions (approximately 24 total) covering demographics, awareness of gender equality, home and child-rearing, work and work-life balance, community activities and social participation, human rights and violence, policies for a gender-equal society, and support for women facing difficult circumstances.\n\nThe survey is anonymous. Responses are mainly multiple-choice, and there are no items that identify individuals.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/kurashi/14623.html",
+  "end": {
+    "date": "2026-11-13"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Z3IzNGNwZGNjcWphcGhoNmgwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-14623-c55f14@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6gr34cpdccqjaphh6h06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/kurashi/14623.html"
+  },
+  "start": {
+    "date": "2026-11-12"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Reiwa 8 (2026) Hanno City Survey on Gender Equality Awareness — Your Participation Requested",
+  "updated": "2026-11-12T00:00:58.398Z"
+}

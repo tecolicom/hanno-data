@@ -1,0 +1,34 @@
+{
+  "created": "2026-11-12T00:00:08.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🆕 新着掲載 (公開日: 2026-11-11)\n\nAI による要約 (正確な情報は元記事をご確認ください)\n\n特定外来生物クビアカツヤカミキリの被害状況確認巡視を実施しています。市内の公共施設約1,800本のサクラから食害がないかを職員が確認し、被害木には薬剤を注入して駆除します。\n\n【第1回巡視】\n期間：10月18日（日曜日）～10月23日（金曜日）\n場所：吾野、東吾野、大字飯能、稲荷町、山手町、岩沢、美杉台、岩渕、小瀬戸、原市場、名栗\n巡視本数：308本、被害：24本\n\n【第2回巡視】\n期間：10月26日（月曜日）～10月30日（金曜日）\n場所：本郷、永田台、小岩井、山手町、阿須、芦苅場、双柳、新町、川寺、征矢町\n巡視本数：205本、被害：2本\n\n【第3回巡視】\n期間：11月2日（月曜日）～11月6日（金曜日）\n場所：美杉台、下畑\n巡視本数：166本、被害：なし\n\nクビアカツヤカミキリはサクラ、ウメ、モモ等のバラ科樹木を食害する外来害虫で、埼玉県北部を中心に被害が拡大しています。飯能市では令和7年度末までに2件の発見事例があります。市民が確認した場合は速やかに捕殺し、環境緑水課又は埼玉県のフォームから情報提供してください。農業被害は農業振興課（042-973-2111代表）にも報告をお願いします。\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/kankyomidorimizuka/13708.html",
+  "end": {
+    "date": "2026-11-13"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3JqMGUxZDZwaWo4YzFsY3AwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSA2NzQ1OTE0YjI0MzIzMTEyYTE1ZjQzZGMyMGIzYTBmNGE0ODE3YWZkODAwYzhkMTY4N2QwYmYwYjdmODkwYzYxQGc",
+  "iCalUID": "oshirase-13708-6e405f@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6crj0e1d6pij8c1lcp06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/kankyomidorimizuka/13708.html"
+  },
+  "start": {
+    "date": "2026-11-12"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 特定外来生物クビアカツヤカミキリについて",
+  "updated": "2026-11-12T00:00:08.147Z"
+}
