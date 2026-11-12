@@ -1,0 +1,36 @@
+uid: "oshirase-14567-12413a@hanno.city.tecoli.com"
+summary: "ℹ️ 株式会社北武蔵調査測量設計事務所から寄附をいただきました"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/toshikeikakuka/keikakumachidukuri/14567.html"
+dtstart: "2026-11-13"
+dtend: "2026-11-13"
+description: |-
+  🆕 新着掲載 (公開日: 2026-11-10)
+  
+  飯能まちなか未来ビジョンの推進にあたり、株式会社北武蔵調査測量設計事務所（本社：埼玉県熊谷市、代表取締役：今井 一昭）から企業版ふるさと納税による御寄附をいただきました。
+  
+  ## 寄附額
+  
+  金100,000円
+  
+  ## 寄附受領日
+  
+  令和8年11月5日（木曜日）
+  
+  ## 寄附企業詳細
+  
+  株式会社北武蔵調査測量設計事務所のホームぺージ
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/toshikeikakuka/keikakumachidukuri/14567.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "14567"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/toshikeikakuka/keikakumachidukuri/14567.html"
+  fetched_at: "2026-11-12T23:06:44.587828Z"
+  content_hash: "sha256-12413a6ec5a337cb"
+  summary_method: "full"
+  publish_date: "2026-11-10"
