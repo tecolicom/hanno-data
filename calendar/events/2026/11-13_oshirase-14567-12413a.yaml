@@ -34,3 +34,30 @@ source:
   content_hash: "sha256-12413a6ec5a337cb"
   summary_method: "full"
   publish_date: "2026-11-10"
+translations:
+  en:
+    summary: "ℹ️ Donation received from Kitabusuma Survey and Design Office Co., Ltd."
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New (Posted: November 10, 2026)
+      
+      In support of the Hanno Machi-naka Future Vision initiative, we have received a corporate donation through the Enterprise Edition Hometown Tax benefit (企業版ふるさと納税) from Kitabusuma Survey and Design Office Co., Ltd. (Headquarters: Kumagaya, Saitama Prefecture; Representative Director: Imai Kazuaki).
+      
+      ■ Donation Amount
+      
+      100,000 yen
+      
+      ■ Date Donation Received
+      
+      November 5, 2026 (Thursday) (Reiwa 8)
+      
+      ■ Donor Company Details
+      
+      Kitabusuma Survey and Design Office Co., Ltd. website
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/toshikeikakuka/keikakumachidukuri/14567.html
+    translation_hash: "sha256-7f544b0998289105"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-11-12T23:08:40.796736Z"
+    format_version: 3
