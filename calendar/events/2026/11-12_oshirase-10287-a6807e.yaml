@@ -45,3 +45,38 @@ source:
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-11-10"
   supersedes: "oshirase-10287-e35aca@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ Citizen Activity Center Winter Events"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content updated (Published: November 10, 2026 / Previous: October 30, 2026)
+      Main changes: Details added for performance programs and exchange plaza at Minkatsu Winter 2026 (participating groups, workshop details, etc.).
+      
+      The Citizen Activity Center will hold two winter events.
+      
+      【Minkatsu Winter 2026】
+      Date and time: Sunday, December 6, 2026, 10:30 a.m.–4:00 p.m.
+      Venue: Citizen Activity Center
+      Citizen activity groups will present music and dance performances, offer workshops, and run a sales corner. Performance programs from 11:00 a.m. will include Keyboard Circle, handmade paper theater "Yodaka's Star (Reiwa Version)," singing for health class, dance performances, cheer dancing, saxophone jazz, and more. The exchange plaza will sell baked goods, handmade small items, and reused goods. Calligraphy workshop "Write It! My One Character" (up to 3 people per session, 4 sessions total, held between 10:30 a.m. and 4:00 p.m., no advance reservation needed—first-come first-served on the day). A Christmas tree decoration corner is also available.
+      
+      【Held at same time: LINE App How-to Class】
+      Date and time: Sunday, December 6, 2026, 1:30 p.m.–3:30 p.m.
+      Venue: Citizen Activity Center Conference Room
+      Capacity: 15 people (application order)
+      Bring a smartphone to participate. Application method: Apply by phone starting Sunday, November 8, 2026.
+      
+      【Christmas Concert】
+      Date and time: Saturday, December 19, 2026, 2:00 p.m.–3:00 p.m.
+      Venue: Multi-Purpose Hall
+      Performers: S Quartet Orgel—Saxophone Concert
+      Capacity: 80 people (application order)
+      Application method: Apply by phone starting Saturday, November 14, 2026.
+      Use Hanno City Hall parking for parking.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jitishinkoka/shiminkatudou/10287.html
+    translation_hash: "sha256-86746484cef8f1d2"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-11-12T00:00:31.473894Z"
+    format_version: 3

@@ -36,3 +36,30 @@ source:
   content_hash: "sha256-c55f1492630da47b"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-11-10"
+translations:
+  en:
+    summary: "ℹ️ Reiwa 8 (2026) Hanno City Survey on Gender Equality Awareness — Your Participation Requested"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New (Published: November 10, 2026)
+      
+      Hanno City is conducting a survey on gender equality awareness and living conditions. We ask for your cooperation.
+      
+      The survey aims to understand residents' awareness and actual living situations regarding gender equality in Hanno City, and to provide baseline data for future city policy initiatives.
+      
+      Eligibility: Residents of Hanno City aged 18 and older
+      
+      Survey Period: Tuesday, November 10, 2026 (Reiwa 8), 9:00 AM – Saturday, January 9, 2027 (Reiwa 9), 11:59 PM
+      
+      How to Respond: Via the internet (electronic application and notification service) or by paper form. Internet responses are preferred. If you cannot respond online, please contact the Human Rights, Lifestyle and Safety Division.
+      
+      Survey Content: Questions (approximately 24 total) covering demographics, awareness of gender equality, home and child-rearing, work and work-life balance, community activities and social participation, human rights and violence, policies for a gender-equal society, and support for women facing difficult circumstances.
+      
+      The survey is anonymous. Responses are mainly multiple-choice, and there are no items that identify individuals.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/kurashi/14623.html
+    translation_hash: "sha256-cc8a8f9c1fe65506"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-11-12T00:00:46.375639Z"
+    format_version: 3

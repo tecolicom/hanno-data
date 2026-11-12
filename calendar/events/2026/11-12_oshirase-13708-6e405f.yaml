@@ -41,3 +41,35 @@ source:
   content_hash: "sha256-6e405ffec5b6353d"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-11-11"
+translations:
+  en:
+    summary: "ℹ️ Spotted Longhorn Beetle (Xyleborinus saxesanii) Damage Monitoring"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New (Published November 11, 2026)
+      
+      The city is conducting patrols to check for damage from the invasive spotted longhorn beetle (Xyleborinus saxesanii). Staff inspect about 1,800 cherry trees at public facilities across Hanno for feeding damage, and inject pesticide into damaged trees for removal.
+      
+      【First Patrol】
+      Period: October 18 (Sunday) – October 23 (Friday)
+      Areas: Agano, Higashi-Agano, Hannou (Oaza), Inari-cho, Yamate-cho, Iwasawa, Misugi-dai, Iwabuchi, Koseto, Haraichiba, Naguri
+      Trees checked: 308, Damaged: 24
+      
+      【Second Patrol】
+      Period: October 26 (Monday) – October 30 (Friday)
+      Areas: Hongo, Nagata-dai, Koiwai, Yamate-cho, Asu, Ashigariiba, Soyanaqi, Shin-cho, Kawaji, Soyaji-cho
+      Trees checked: 205, Damaged: 2
+      
+      【Third Patrol】
+      Period: November 2 (Monday) – November 6 (Friday)
+      Areas: Misugi-dai, Shitahata
+      Trees checked: 166, Damaged: None
+      
+      The spotted longhorn beetle is an invasive pest that feeds on Rosaceae trees such as cherry, plum, and peach. Damage is expanding primarily in northern Saitama Prefecture. As of the end of fiscal year 2025 (Reiwa 7), Hanno has had 2 confirmed cases. If residents spot the beetle, please capture and kill it promptly, then report it through the Environmental & Water Division or via the Saitama Prefecture form. For agricultural damage, also report to the Agricultural Promotion Division (042-973-2111, main number).
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/kankyomidorimizuka/13708.html
+    translation_hash: "sha256-e6cf1d54d78efba3"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-11-12T00:00:41.649369Z"
+    format_version: 3

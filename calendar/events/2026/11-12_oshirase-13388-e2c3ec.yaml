@@ -34,3 +34,27 @@ source:
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-11-11"
   supersedes: "oshirase-13388-10ab80@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ 【Fiscal Year 2026】Press Release Materials"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content Updated (Published: November 11, 2026 / Previous: October 30, 2026)
+      Main change: New addition of announcement about Health & Wellness Support Festival 2026 (announced November 11).
+      
+      Hanno City's announcement page has been updated. The following items have been released as press materials for fiscal year 2026 (Reiwa 8):
+      
+      • Announcement of Health & Wellness Support Festival 2026 (announced November 11)
+      • Receipt of "Commendation for On-Site Service" from the 78th Saitama Prefectural Fire Association Regular Awards Ceremony (announced October 29)
+      • Hanno City Emergency Broadcast System Voice Response Service (announced October 16)
+      • Temporary Closure of Children's Library Due to Facility Repairs (announced October 16)
+      • Temporary Suspension of Hanno City Emergency Broadcast System Voice Response Service (announced October 15)
+      
+      For earlier announcements, please see the original article.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/hodohappyo/houdouhappyou2025_1/13388.html
+    translation_hash: "sha256-0665c83ae062b256"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-11-12T00:00:35.182434Z"
+    format_version: 3
