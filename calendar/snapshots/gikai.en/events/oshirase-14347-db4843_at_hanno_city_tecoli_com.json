@@ -1,0 +1,34 @@
+{
+  "created": "2026-11-13T23:13:12.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 New (Published: November 13, 2026)\n\nPublic Briefing on Hanno City's Fiscal Situation\n\nHanno City will hold a public briefing on the fiscal year 2025 settlement, current financial conditions, and planned major initiatives for fiscal year 2027.\n\nBriefing Details\n\nVenue: Hanno City Hall (Annex Building)\nDate and Time:\n• Friday, November 20 — 7:00 PM to 9:00 PM\n• Sunday, November 22 — 10:00 AM to 12:00 PM\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kinkyuuzaiseitaisaku/14347.html",
+  "end": {
+    "date": "2026-11-15"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Z3BqOGRwZGNoaDM4ZTFrNmQwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-14347-db4843@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6gpj8dpdchh38e1k6d06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kinkyuuzaiseitaisaku/14347.html"
+  },
+  "start": {
+    "date": "2026-11-14"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Public briefing on the city's fiscal situation",
+  "updated": "2026-11-13T23:13:12.838Z"
+}

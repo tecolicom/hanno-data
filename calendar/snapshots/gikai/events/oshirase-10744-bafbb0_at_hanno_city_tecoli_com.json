@@ -1,0 +1,34 @@
+{
+  "created": "2026-11-13T23:12:48.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🆕 新着掲載 (公開日: 2026-11-13)\n\nトーベ・ヤンソンあけぼの子どもの森公園は、メタセコイア（アケボノスギ）の木々に囲まれており、紅葉の人気スポットとなっています。紅葉のピークは例年11月下旬ごろです。\n\n紅葉の状況については、このページのほか、公園の公式SNS（インスタグラム、X、フェイスブック）でお知らせしていきます。\n\n## 紅葉の状況\n\n## 昨年の紅葉風景\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/akebono/oshirase/10744.html",
+  "end": {
+    "date": "2026-11-15"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2MHJqOGQxZGM5Z21jb2oyNjEwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSA2NzQ1OTE0YjI0MzIzMTEyYTE1ZjQzZGMyMGIzYTBmNGE0ODE3YWZkODAwYzhkMTY4N2QwYmYwYjdmODkwYzYxQGc",
+  "iCalUID": "oshirase-10744-bafbb0@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h60rj8d1dc9gmcoj26106gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/akebono/oshirase/10744.html"
+  },
+  "start": {
+    "date": "2026-11-14"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ メタセコイア（アケボノスギ）紅葉情報",
+  "updated": "2026-11-13T23:12:48.146Z"
+}
