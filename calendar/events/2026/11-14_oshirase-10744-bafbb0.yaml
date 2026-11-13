@@ -1,0 +1,30 @@
+uid: "oshirase-10744-bafbb0@hanno.city.tecoli.com"
+summary: "ℹ️ メタセコイア（アケボノスギ）紅葉情報"
+url: "https://www.city.hanno.lg.jp/akebono/oshirase/10744.html"
+dtstart: "2026-11-14"
+dtend: "2026-11-14"
+description: |-
+  🆕 新着掲載 (公開日: 2026-11-13)
+  
+  トーベ・ヤンソンあけぼの子どもの森公園は、メタセコイア（アケボノスギ）の木々に囲まれており、紅葉の人気スポットとなっています。紅葉のピークは例年11月下旬ごろです。
+  
+  紅葉の状況については、このページのほか、公園の公式SNS（インスタグラム、X、フェイスブック）でお知らせしていきます。
+  
+  ## 紅葉の状況
+  
+  ## 昨年の紅葉風景
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/akebono/oshirase/10744.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "10744"
+  url: "https://www.city.hanno.lg.jp/akebono/oshirase/10744.html"
+  fetched_at: "2026-11-13T23:08:37.182070Z"
+  content_hash: "sha256-bafbb028ef68d639"
+  summary_method: "full"
+  publish_date: "2026-11-13"

@@ -1,0 +1,25 @@
+uid: "tourism-news-4745-77d15a@hanno.city.tecoli.com"
+summary: "📢 令和8年飯能まつりは終了いたしました"
+url: "https://hanno-tourism.jp/news/%e4%bb%a4%e5%92%8c%ef%bc%97%e5%b9%b4%e9%a3%af%e8%83%bd%e3%81%be%e3%81%a4%e3%82%8a%e3%81%af%e7%b5%82%e4%ba%86%e3%81%84%e3%81%9f%e3%81%97%e3%81%be%e3%81%97%e3%81%9f"
+dtstart: "2026-11-13"
+dtend: "2026-11-13"
+description: |-
+  奥むさし飯能観光協会: https://hanno-tourism.jp/news/%e4%bb%a4%e5%92%8c%ef%bc%97%e5%b9%b4%e9%a3%af%e8%83%bd%e3%81%be%e3%81%a4%e3%82%8a%e3%81%af%e7%b5%82%e4%ba%86%e3%81%84%e3%81%9f%e3%81%97%e3%81%be%e3%81%97%e3%81%9f
+  
+  🆕 新着掲載 (公開日: 2026-11-13)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  令和8年飯能まつりは11月7日(土)及び11月8日(日)の2日間で開催され、約144,000人の来場者を集めて盛大に終了いたしました。
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-tourism-jp-news
+  id: "4745"
+  url: "https://hanno-tourism.jp/news/%e4%bb%a4%e5%92%8c%ef%bc%97%e5%b9%b4%e9%a3%af%e8%83%bd%e3%81%be%e3%81%a4%e3%82%8a%e3%81%af%e7%b5%82%e4%ba%86%e3%81%84%e3%81%9f%e3%81%97%e3%81%be%e3%81%97%e3%81%9f"
+  fetched_at: "2026-11-13T23:08:18.800966Z"
+  modified_gmt: "2026-11-13T03:04:52"
+  content_hash: "sha256-77d15aaeb211001e"

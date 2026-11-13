@@ -1,0 +1,40 @@
+uid: "oshirase-14347-db4843@hanno.city.tecoli.com"
+summary: "ℹ️ 財政状況等についての市民向け説明会の開催"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kinkyuuzaiseitaisaku/14347.html"
+dtstart: "2026-11-14"
+dtend: "2026-11-14"
+description: |-
+  🆕 新着掲載 (公開日: 2026-11-13)
+  
+  ## 財政状況等についての市民向け説明会の開催について
+  
+  令和7年度決算、財政の諸状況、令和9年度の主な取り組みの予定などについて、市民向け説明会を開催します。
+  
+  	本説明会の会場、期日、開催時間
+  
+  			会場
+  			期日
+  			開催時間
+  
+  			飯能市役所（本庁舎別館）
+  			11月20日金曜日
+  			19時00分～21時00分
+  
+  			飯能市役所（本庁舎別館）
+  			11月22日日曜日
+  			10時00分～12時00分
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kinkyuuzaiseitaisaku/14347.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "14347"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kinkyuuzaiseitaisaku/14347.html"
+  fetched_at: "2026-11-13T23:08:36.391217Z"
+  content_hash: "sha256-db4843876b823724"
+  summary_method: "full"
+  publish_date: "2026-11-13"
