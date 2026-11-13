@@ -21,3 +21,16 @@ source:
   fetched_at: "2026-11-13T23:08:18.847496Z"
   modified_gmt: "2026-11-13T03:04:52"
   content_hash: "sha256-77d15aaeb211001e"
+translations:
+  en:
+    summary: "🎪 Hanno Festival 2026 (Reiwa 8) has ended"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      The Hanno Festival 2026 (Reiwa 8) took place over two days on November 7 and 8 (Saturday and Sunday) and concluded successfully, drawing approximately 144,000 visitors.
+      
+      Oku-Musashi Hanno Tourism Association: https://hanno-tourism.jp/news/%e4%bb%a4%e5%92%8c%ef%bc%97%e5%b9%b4%e9%a3%af%e8%83%bd%e3%81%be%e3%81%a4%e3%82%8a%e3%81%af%e7%b5%82%e4%ba%86%e3%81%84%e3%81%9f%e3%81%97%e3%81%be%e3%81%97%e3%81%9f
+    translation_hash: "sha256-cf79965bfdd59e7d"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-11-13T23:12:57.520863Z"
+    format_version: 3

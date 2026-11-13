@@ -38,3 +38,27 @@ source:
   content_hash: "sha256-db4843876b823724"
   summary_method: "full"
   publish_date: "2026-11-13"
+translations:
+  en:
+    summary: "ℹ️ Public briefing on the city's fiscal situation"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New (Published: November 13, 2026)
+      
+      Public Briefing on Hanno City's Fiscal Situation
+      
+      Hanno City will hold a public briefing on the fiscal year 2025 settlement, current financial conditions, and planned major initiatives for fiscal year 2027.
+      
+      Briefing Details
+      
+      Venue: Hanno City Hall (Annex Building)
+      Date and Time:
+      • Friday, November 20 — 7:00 PM to 9:00 PM
+      • Sunday, November 22 — 10:00 AM to 12:00 PM
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kinkyuuzaiseitaisaku/14347.html
+    translation_hash: "sha256-1722cadec6730385"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-11-13T23:13:02.540885Z"
+    format_version: 3

@@ -23,3 +23,16 @@ source:
   fetched_at: "2026-11-13T23:08:18.800966Z"
   modified_gmt: "2026-11-13T03:04:52"
   content_hash: "sha256-77d15aaeb211001e"
+translations:
+  en:
+    summary: "📢 Hanno Festival Reiwa 8 has ended"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      The Hanno Festival for Reiwa 8 (2026) took place on November 7 (Saturday) and November 8 (Sunday), drawing approximately 144,000 visitors and concluding successfully.
+      
+      Source: Okumushi Hanno Tourism Association
+    translation_hash: "sha256-f7900bde7a50de01"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-11-13T23:12:59.193097Z"
+    format_version: 3
