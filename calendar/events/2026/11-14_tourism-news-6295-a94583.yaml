@@ -23,3 +23,16 @@ source:
   fetched_at: "2026-11-14T21:53:36.687043Z"
   modified_gmt: "2026-11-14T01:42:10"
   content_hash: "sha256-a945833890c3e911"
+translations:
+  en:
+    summary: "📢 Starting Nov 17 (Tue): Kitchen Cars & Weekly Market at Hanno City Hall!"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      New listing (published: November 14, 2026)
+      
+      Kitchen cars and a weekly market are launching at Hanno City Hall from November 17 (Tuesday). This popular program that ran in spring is returning with new vendors. You can enjoy food from shops that appear only at this event, now available at City Hall.
+    translation_hash: "sha256-b0ead2cfaf2531d6"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-11-14T21:55:41.799884Z"
+    format_version: 3
