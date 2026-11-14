@@ -1,0 +1,35 @@
+{
+  "created": "2026-11-14T21:55:51.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nA Microsoft 365 communication outage occurred early Friday, November 13, 2026 (Reiwa 8), affecting Hanno City Hall staff communications.\n\nWe apologize for the inconvenience and difficulties this may cause.\n\nNot all staff are affected—some employees can still communicate. Please call our main phone number to reach us.\n\nCurrent impacts:\n• Incoming calls to City Hall are difficult to reach (some lines)\n• Email and calendar functions are unavailable in Outlook (all staff)\n• Microsoft Teams is difficult to access (some connections)\n\nBackground: A major Microsoft global outage lasting over 6 hours has caused widespread disruptions worldwide. Limited recovery has been confirmed, but email, AI services, and other functions remain unavailable (Source: MSN)\n\nSource (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2883/",
+  "end": {
+    "date": "2026-11-14"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHMzZ2NwZDcxajNjY2oyNmQwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiOTMyNjEzZWUxMWIzYjE2NjU3Yjk4NmE3ZWMxYmQ4MmFkN2MzODVjMzBkZTc1YTJkYjU4MzRiYTFhMjk3ZTMyQGc",
+  "iCalUID": "cci-event-2883-8f62b3@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68s3gcpd71j3ccj26d06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ（EN）",
+    "email": "b932613ee11b3b16657b986a7ec1bd82ad7c385c30de75a2db5834ba1a297e32@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2883/"
+  },
+  "start": {
+    "date": "2026-11-13"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Microsoft 365 Outage Impact on Hanno City Hall—Important Notice",
+  "updated": "2026-11-14T21:55:51.215Z"
+}

@@ -1,0 +1,35 @@
+{
+  "created": "2026-11-14T21:55:30.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "2026年11月13日（金）未明に発生した Microsoft365の通信障害により、当所職員への連絡がし難い状況が発生しています。\n\nお客様におかれましては、ご不便・ご迷惑をお掛けいたしますこと、お詫び申し上げます。\n\n職員全員ではなく、一部職員は通信が可能ですので、代表番号へお掛けいただきますよう、お願いいたします。\n\n当所向け電話がつながりにくい（一部）\nOutlookにおけるメール・予定が確認できない（全職員）\nTeamsがつながりにくい（一部）\n\n＜参考＞\n\nマイクロソフト大規模障害 発生6時間超 世界で不具合続く 「限定的に復旧を確認」もメール・AIサービスなど利用できず（出典：MSN）\n\nhttps://www.hanno-cci.or.jp/xo_event/xo_event-2883/",
+  "end": {
+    "date": "2026-11-14"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkaG1pYmI1ZXBpbXN0MWQ2OHMzZ2NwZDcxajNjY2oyNmQwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiMGE1NmM4ZTFmNTI0NmNkYTQxZTJmZGIzYzQ0OWIyMGM1MGJiMzY1YWFjOTIzMzNhNGE5MjkwYTIxZTdlZGNmQGc",
+  "iCalUID": "cci-event-2883-8f62b3@hanno.city.tecoli.com",
+  "id": "_cdhmibb5epimst1d68s3gcpd71j3ccj26d06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能商工会議所",
+  "organizer": {
+    "displayName": "商工会議所からのお知らせ",
+    "email": "b0a56c8e1f5246cda41e2fdb3c449b20c50bb365aac92333a4a9290a21e7edcf@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-cci.or.jp",
+    "url": "https://www.hanno-cci.or.jp/xo_event/xo_event-2883/"
+  },
+  "start": {
+    "date": "2026-11-13"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Microsoft365 の通信障害における当所への影響について＜重要＞",
+  "updated": "2026-11-14T21:55:30.642Z"
+}
