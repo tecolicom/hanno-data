@@ -1,0 +1,34 @@
+uid: "cci-event-2883-8f62b3@hanno.city.tecoli.com"
+summary: "ℹ️ Microsoft365 の通信障害における当所への影響について＜重要＞"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2883/"
+dtstart: "2026-11-13"
+dtend: "2026-11-13"
+description: |-
+  2026年11月13日（金）未明に発生した Microsoft365の通信障害により、当所職員への連絡がし難い状況が発生しています。
+  
+  お客様におかれましては、ご不便・ご迷惑をお掛けいたしますこと、お詫び申し上げます。
+  
+  職員全員ではなく、一部職員は通信が可能ですので、代表番号へお掛けいただきますよう、お願いいたします。
+  
+  当所向け電話がつながりにくい（一部）
+  Outlookにおけるメール・予定が確認できない（全職員）
+  Teamsがつながりにくい（一部）
+  
+  ＜参考＞
+  
+  マイクロソフト大規模障害 発生6時間超 世界で不具合続く 「限定的に復旧を確認」もメール・AIサービスなど利用できず（出典：MSN）
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2883/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2883"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2883/"
+  category: "お知らせ"
+  summary_method: "full"
+  content_hash: "sha256-8f62b3458a14c378"
