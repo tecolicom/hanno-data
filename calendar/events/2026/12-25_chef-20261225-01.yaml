@@ -1,12 +1,10 @@
-uid: "chef-20261127-01@hanno.city.tecoli.com"
-summary: "北京ごはん"
+uid: "chef-20261225-01@hanno.city.tecoli.com"
+summary: "12月25日（金）～1月5日（火）まで年末年始休業"
 location: "日替わりシェフレストラン"
 url: "https://www.hanno-cci.or.jp/manage/founded/#02"
-dtstart: "2026-11-27"
-dtend: "2026-11-27"
+dtstart: "2026-12-25"
+dtend: "2026-12-25"
 description: |-
-  魯肉飯、タピオカ他
-  
   https://www.hanno-cci.or.jp/manage/founded/#02
 
 render:
@@ -15,6 +13,6 @@ render:
 
 source:
   type: hanno-cci-chef
-  id: "20261127-01"
+  id: "20261225-01"
   url: "https://www.hanno-cci.or.jp/manage/founded/#02"
-  content_hash: "sha256-e6d1fd2418c18fe7"
+  content_hash: "sha256-14c708f73b634b62"

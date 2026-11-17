@@ -1,0 +1,40 @@
+uid: "cci-event-2887-3cff82@hanno.city.tecoli.com"
+summary: "ℹ️ 令和8年度 飯能市男女共同参画に関する市民意識調査の実施について"
+location: "飯能商工会議所"
+url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2887/"
+dtstart: "2026-11-16"
+dtend: "2026-11-16"
+description: |-
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  令和8年度飯能市男女共同参画に関する市民意識調査
+  
+  実施期間：令和8年11月10日（火）9時00分～令和9年1月9日（土）23時59分
+  
+  対象：飯能市在住の18歳以上の方
+  
+  回答方法：電子申請またはオンラインフォーム、または回答用紙での郵送
+  
+  電子フォーム：https://apply.e-tumo.jp/city-hanno-saitama-u/offer/offerList_detail?tempSeq=126621
+  
+  回答用紙希望者は、人権くらし安全課までご連絡ください。費用は無料。
+  
+  第7次飯能市男女共同参画プラン策定の参考とするため実施される意識調査です。ご協力をお願いします。
+  
+  問合せ：人権くらし安全課 出井
+  電話：042-973-2111（内線6201）
+  メール：kurashi@city.hanno.lg.jp
+  
+  https://www.hanno-cci.or.jp/xo_event/xo_event-2887/
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-cci-event
+  id: "2887"
+  url: "https://www.hanno-cci.or.jp/xo_event/xo_event-2887/"
+  category: "お知らせ"
+  summary_method: "llm-haiku-4-5"
+  content_hash: "sha256-3cff825c21e4f98f"

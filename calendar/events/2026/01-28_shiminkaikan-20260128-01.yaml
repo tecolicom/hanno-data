@@ -18,19 +18,5 @@ source:
   type: city-hanno-shiminkaikan
   id: "20260128-01"
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html"
-  fetched_at: "2026-10-31T20:52:53.467525Z"
-  content_hash: "sha256-6ac96927dc00e911"
-translations:
-  en:
-    summary: "Try playing a grand piano in our hall"
-    description: |-
-      Automated translation (refer to source for accuracy)
-      
-      Venue: Hanno Civic Hall, Small Hall
-      Host: Hanno Civic Hall
-      
-      For more details, visit: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html
-    translation_hash: "sha256-23e893056c531e67"
-    model: "claude-haiku-4-5"
-    translated_at: "2026-10-31T20:54:51.474684Z"
-    format_version: 3
+  fetched_at: "2026-11-17T01:26:27.384640Z"
+  content_hash: "sha256-c98d5691bedcec00"
