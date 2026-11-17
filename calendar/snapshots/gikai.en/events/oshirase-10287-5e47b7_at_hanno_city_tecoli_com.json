@@ -1,0 +1,34 @@
+{
+  "created": "2026-11-17T01:29:57.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🔄 Content Update (Published: November 10, 2026 / Previous: November 12, 2026)\nKey changes: Calligraphy workshop now includes eraser stamp making; detailed time schedule added. Christmas Concert performers unified as \"S Quartet Music Box\".\n\nThe Citizen Activities Center will hold winter events.\n\n【Minkatsu Winter 2026】\nDate and time: Sunday, December 6, 10:30 a.m.–4:00 p.m.\nVenue: Citizen Activities Center\n\nCitizen activity groups will present music, dance, kamishibai (picture shows), and other performances, plus workshops and a sales corner.\n\n• From 11:00 a.m.: Performances by Machinaka Keyboard Circle, Jump the Kenji, Machinaka Singing for Health Class, Team of Dragon, Miki's Cheer, and Hakkioi Saxophone\n• Exchange Plaza will have sales by Hanno City International Exchange Association, Okashi Kobo Aora, Saturday Hanno Latin Club, and KAFIN HANNO IRUMA. Citizen Activities Center will run two workshops: \"Write Your Personal Kanji\" (eraser stamp making) and \"Decorate the Christmas Tree\"\n• Workshops first-come, first-served on the day (3 people per session, 4 sessions total); no advance reservation needed\n\n【LINE App Practical Class】\nDate and time: Sunday, December 6, 1:30 p.m.–3:30 p.m.\nVenue: Citizen Activities Center Conference Room\nCapacity: 15 people (by application order)\nHow to apply: Starting Sunday, November 8, call the Citizen Activities Center to register.\n※ Please bring your own smartphone\n\n【Christmas Concert】\nDate and time: Saturday, December 19, 2:00 p.m.–3:00 p.m.\nVenue: Multipurpose Hall\nPerformers: S Quartet Music Box\nCapacity: 80 people (by application order)\nHow to apply: Starting Saturday, November 14, call the Citizen Activities Center to register.\nPlease use the City Hall parking lot when you visit.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jitishinkoka/shiminkatudou/10287.html",
+  "end": {
+    "date": "2026-11-18"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2MHAzZ2RwZDZsaWo4ZHIyNnQwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-10287-5e47b7@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h60p3gdpd6lij8dr26t06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jitishinkoka/shiminkatudou/10287.html"
+  },
+  "start": {
+    "date": "2026-11-17"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Citizen Activities Center Winter Events",
+  "updated": "2026-11-17T01:29:57.724Z"
+}

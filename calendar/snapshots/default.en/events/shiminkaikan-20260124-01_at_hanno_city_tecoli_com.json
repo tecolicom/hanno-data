@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "🕒 13:00–15:00\n\nAutomated translation (refer to source for accuracy)\n\nVenue: Hanno Civic Hall, Small Hall\nOrganized by: Pastel Music Studio\n\nFor details, visit: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html",
+  "description": "🕒 13:00–15:00\n\nAutomated translation (refer to source for accuracy)\n\nVenue: Hanno Civic Hall, Small Hall\n\nOrganizer: Pastel Music Hall\n\n(See the link above for more details.)",
   "end": {
     "date": "2026-01-25"
   },
@@ -30,6 +30,6 @@
     "date": "2026-01-24"
   },
   "status": "confirmed",
-  "summary": "Charity Concert of Song and Piano",
-  "updated": "2026-10-31T20:55:09.307Z"
+  "summary": "Charity Concert: Song and Piano",
+  "updated": "2026-11-17T01:29:53.486Z"
 }

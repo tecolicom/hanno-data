@@ -1,0 +1,34 @@
+{
+  "created": "2026-11-17T01:29:56.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nHanno City Hall will host kitchen cars and a weekly market. This popular spring event is back with new vendors. Enjoy unique shops and flavors you can only find at this event, now at City Hall.\n\n(Content updated: November 14, 2026)",
+  "end": {
+    "date": "2026-11-15"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFyajVldHBpcWRoaTc0cWlxZDlsYzlpamljcTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIGQ5MTkzY2Y1ZjY0NGFiNDFhMjhlMjI2OGE5OGFiYzVhYTQyNmJkMmQ1NzcxNTI4MzQyNDRhZDY5YTMxZjVhNjhAZw",
+  "iCalUID": "tourism-news-6295-55be93@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqrj5etpiqdhi74qiqd9lc9ijicq0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/news/11-17%e7%81%ab%ef%bd%9e%e3%80%8c%e9%a3%af%e8%83%bd%e5%b8%82%e5%bd%b9%e6%89%80%e3%81%a7%e3%82%ad%e3%83%83%e3%83%81%e3%83%b3%e3%82%ab%e3%83%bc%e3%81%a8%e9%80%b1%e4%b8%80%e3%83%9e%e3%83%ab%e3%82%b7"
+  },
+  "start": {
+    "date": "2026-11-14"
+  },
+  "status": "confirmed",
+  "summary": "📢 Kitchen cars and weekly market at Hanno City Hall starting 11/17 (Tue)",
+  "updated": "2026-11-17T01:29:56.372Z"
+}

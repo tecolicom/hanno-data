@@ -1,16 +1,16 @@
 {
-  "created": "2026-10-13T22:14:58.000Z",
+  "created": "2026-11-17T01:28:58.000Z",
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "魯肉飯、タピオカ他\n\nhttps://www.hanno-cci.or.jp/manage/founded/#02",
+  "description": "https://www.hanno-cci.or.jp/manage/founded/#02",
   "end": {
-    "date": "2026-11-21"
+    "date": "2026-12-26"
   },
   "eventType": "default",
-  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkazZhcGhkNjhvMzRkaGg2NHAzMGI5ZzY1MDZnb2JlZHBuaXNvcjllaHNpc3QzNWNkbm1vcTllY2RubXEgYWUxNTc3ZjM2ZDJiNTFkYjIwOGJhZWM1OWNjODRlOTBjZWFiMjVkNDFiYWQxNjZiNDJjMzdmYjcwNjNmNGE0NkBn",
-  "iCalUID": "chef-20261120-01@hanno.city.tecoli.com",
-  "id": "_cdk6aphd68o34dhh64p30b9g6506gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2NkazZhcGhkNjhvMzRkaGg2OHAzYWI5ZzY1MDZnb2JlZHBuaXNvcjllaHNpc3QzNWNkbm1vcTllY2RubXEgYWUxNTc3ZjM2ZDJiNTFkYjIwOGJhZWM1OWNjODRlOTBjZWFiMjVkNDFiYWQxNjZiNDJjMzdmYjcwNjNmNGE0NkBn",
+  "iCalUID": "chef-20261225-01@hanno.city.tecoli.com",
+  "id": "_cdk6aphd68o34dhh68p3ab9g6506gobedpnisor9ehsist35cdnmoq9ecdnmq",
   "kind": "calendar#event",
   "location": "日替わりシェフレストラン",
   "organizer": {
@@ -27,9 +27,9 @@
     "url": "https://www.hanno-cci.or.jp/manage/founded/#02"
   },
   "start": {
-    "date": "2026-11-20"
+    "date": "2026-12-25"
   },
   "status": "confirmed",
-  "summary": "北京ごはん",
-  "updated": "2026-10-13T22:14:58.283Z"
+  "summary": "12月25日（金）～1月5日（火）まで年末年始休業",
+  "updated": "2026-11-17T01:28:58.204Z"
 }
