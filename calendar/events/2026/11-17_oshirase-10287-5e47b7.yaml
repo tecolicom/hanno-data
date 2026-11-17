@@ -51,3 +51,44 @@ source:
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-11-10"
   supersedes: "oshirase-10287-a6807e@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ Citizen Activities Center Winter Events"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content Update (Published: November 10, 2026 / Previous: November 12, 2026)
+      Key changes: Calligraphy workshop now includes eraser stamp making; detailed time schedule added. Christmas Concert performers unified as "S Quartet Music Box".
+      
+      The Citizen Activities Center will hold winter events.
+      
+      【Minkatsu Winter 2026】
+      Date and time: Sunday, December 6, 10:30 a.m.–4:00 p.m.
+      Venue: Citizen Activities Center
+      
+      Citizen activity groups will present music, dance, kamishibai (picture shows), and other performances, plus workshops and a sales corner.
+      
+      • From 11:00 a.m.: Performances by Machinaka Keyboard Circle, Jump the Kenji, Machinaka Singing for Health Class, Team of Dragon, Miki's Cheer, and Hakkioi Saxophone
+      • Exchange Plaza will have sales by Hanno City International Exchange Association, Okashi Kobo Aora, Saturday Hanno Latin Club, and KAFIN HANNO IRUMA. Citizen Activities Center will run two workshops: "Write Your Personal Kanji" (eraser stamp making) and "Decorate the Christmas Tree"
+      • Workshops first-come, first-served on the day (3 people per session, 4 sessions total); no advance reservation needed
+      
+      【LINE App Practical Class】
+      Date and time: Sunday, December 6, 1:30 p.m.–3:30 p.m.
+      Venue: Citizen Activities Center Conference Room
+      Capacity: 15 people (by application order)
+      How to apply: Starting Sunday, November 8, call the Citizen Activities Center to register.
+      ※ Please bring your own smartphone
+      
+      【Christmas Concert】
+      Date and time: Saturday, December 19, 2:00 p.m.–3:00 p.m.
+      Venue: Multipurpose Hall
+      Performers: S Quartet Music Box
+      Capacity: 80 people (by application order)
+      How to apply: Starting Saturday, November 14, call the Citizen Activities Center to register.
+      Please use the City Hall parking lot when you visit.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jitishinkoka/shiminkatudou/10287.html
+    translation_hash: "sha256-f122d2749686a8fb"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-11-17T01:29:24.929791Z"
+    format_version: 3

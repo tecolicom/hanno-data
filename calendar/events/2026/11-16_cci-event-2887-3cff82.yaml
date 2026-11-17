@@ -38,3 +38,32 @@ source:
   category: "お知らせ"
   summary_method: "llm-haiku-4-5"
   content_hash: "sha256-3cff825c21e4f98f"
+translations:
+  en:
+    summary: "ℹ️ Hanno City Gender Equality Awareness Survey 2026 (Reiwa 8)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno City Gender Equality Awareness Survey 2026 (Reiwa 8)
+      
+      Survey period: November 10, 2026 (Reiwa 8) at 9:00 AM to January 9, 2027 at 11:59 PM
+      
+      Who can participate: Residents of Hanno City aged 18 and older
+      
+      How to respond: Complete the survey online via electronic form or paper form by mail
+      
+      Electronic form: https://apply.e-tumo.jp/city-hanno-saitama-u/offer/offerList_detail?tempSeq=126621
+      
+      If you prefer a paper form, please contact the Human Rights, Daily Life and Safety Division. The survey is free to complete.
+      
+      This survey gathers your views to help create the 7th Hanno City Gender Equality Plan. Your participation is appreciated.
+      
+      Contact: Human Rights, Daily Life and Safety Division, Deshii
+      Phone: 042-973-2111 (extension 6201)
+      Email: kurashi@city.hanno.lg.jp
+      
+      Source (Japanese): https://www.hanno-cci.or.jp/xo_event/xo_event-2887/
+    translation_hash: "sha256-68926522ac96fb6d"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-11-17T01:29:18.948150Z"
+    format_version: 3

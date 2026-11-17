@@ -21,3 +21,19 @@ source:
   url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html"
   fetched_at: "2026-11-17T01:26:27.382834Z"
   content_hash: "sha256-c98d5691bedcec00"
+translations:
+  en:
+    summary: "Hanno Fire Brigade New Year Ceremony and Awards Presentation"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Venue: Hanno Civic Hall
+      
+      【Venue】 Main Hall
+      【Organizer】 Hanno Fire Brigade
+      
+      For details, visit: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/shiminkaikan/5889.html
+    translation_hash: "sha256-4a808bfaf7c82e08"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-11-17T01:29:05.171628Z"
+    format_version: 3

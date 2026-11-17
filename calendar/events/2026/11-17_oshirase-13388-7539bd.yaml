@@ -34,3 +34,28 @@ source:
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-11-11"
   supersedes: "oshirase-13388-e2c3ec@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ 【2026 Fiscal Year】Press Release Materials"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content Updated (Published: November 11, 2026 / Previous: November 12, 2026)
+      
+      Main changes: Influenza vaccination starting earlier (September 17, 2026); Wasegaku Dream-Building High School 5th anniversary ceremony (September 11, 2026); partnership agreement with Neko Inc. (Puss in Boots company) (August 26, 2026); first public unveiling of Shimo-Naguri lion dance secret transmission documents (August 17, 2026); Sengen Childcare Center privatization operator recruitment (August 5, 2026); appointment of Hanno City PR ambassadors (August 3, 2026); forest conservation agreement with Coca-Cola (July 29, 2026); Hanno Summer Solstice Festival Beer Garden opening (July 23, 2026); and private sector proposals (July 1, 2026).
+      
+      The press release archive page has been updated. Latest announcements:
+      
+      • Health & Wellness Support Festival 2026 (announced November 11, 2026)
+      • 78th Saitama Firefighters Association Regular Commendation - On-Site Service Medal (announced October 29, 2026)
+      • Hanno City Emergency Wireless Public Address Voice Response Service (announced October 16, 2026)
+      • Hanno Children's Library temporary closure due to facility repairs (announced October 16, 2026)
+      • Hanno City Emergency Wireless Public Address Voice Response Service temporarily suspended (announced October 15, 2026)
+      
+      For earlier announcements, see the original articles.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/hodohappyo/houdouhappyou2025_1/13388.html
+    translation_hash: "sha256-9d5c9d8a1c59361e"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-11-17T01:29:32.424662Z"
+    format_version: 3

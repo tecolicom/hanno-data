@@ -24,3 +24,16 @@ source:
   modified_gmt: "2026-11-16T04:32:27"
   content_hash: "sha256-55be9310d50dada7"
   supersedes: "tourism-news-6295-a94583@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "📢 Kitchen cars and weekly market at Hanno City Hall starting 11/17 (Tue)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno City Hall will host kitchen cars and a weekly market. This popular spring event is back with new vendors. Enjoy unique shops and flavors you can only find at this event, now at City Hall.
+      
+      (Content updated: November 14, 2026)
+    translation_hash: "sha256-c7b98a4184bc99e3"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-11-17T01:29:15.213126Z"
+    format_version: 3

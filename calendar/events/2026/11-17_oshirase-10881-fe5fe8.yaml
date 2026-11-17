@@ -34,3 +34,35 @@ source:
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-11-16"
   supersedes: "oshirase-10881-5291ec@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ Winter Traffic Safety Campaign launched (December 1–14, Reiwa 8)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content updated (published: November 16, 2026 / previously: July 8, 2026)
+      Key changes: Winter traffic safety campaign runs December 1–14, 2026. Coordinated action days are December 4 (Drunk Driving Elimination Day) and December 10 (Traffic Fatality Zero Target Day / Bicycle Traffic Safety Day).
+      
+      Saitama Prefecture will conduct a winter traffic safety campaign from December 1 (Tuesday) through December 14 (Monday), 2026 — 14 days total.
+      
+      Saitama has the 8th highest traffic fatality rate nationwide. As year-end approaches, increased movement of people and vehicles raises accident risks. Drunk driving is a particular concern as social drinking occasions increase.
+      
+      Campaign priorities:
+      • Prevent traffic accidents involving elderly people during twilight and nighttime hours
+      • Eliminate drunk driving
+      • Promote bicycle traffic rule compliance and helmet use
+      • Advance speed reduction measures on residential roads
+      
+      Coordinated action days:
+      • December 4 (Friday) — Drunk Driving Elimination Day
+      • December 10 (Thursday) — Traffic Fatality Zero Target Day and Bicycle Traffic Safety Day
+      
+      Campaign slogan: "People, vehicles, and bicycles together — Safe and secure Saitama."
+      
+      Saitama Police and municipalities will work together to run awareness activities.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/bohan/10881.html
+    translation_hash: "sha256-14903316540864a7"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-11-17T01:29:28.322395Z"
+    format_version: 3
