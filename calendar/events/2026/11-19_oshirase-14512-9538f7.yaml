@@ -43,3 +43,36 @@ source:
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-11-17"
   supersedes: "oshirase-14512-df18bf@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ Hanno City invites public comments on the revised draft Comprehensive Management Plan for Public Facilities"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content update (published: November 17, 2026 / previously posted: October 31, 2026)
+      Main change: Mailing and fax have been added as options for submitting comments.
+      
+      Hanno City is accepting public comments on the revised draft Comprehensive Management Plan for Public Facilities.
+      
+      This plan covers a 30-year period from fiscal 2017 (Heisei 29) through fiscal 2048 (Reiwa 28). It aims to address changes in public facility usage demand due to population decline by systematically planning updates, consolidations, and extending the lifespan of facilities from a long-term perspective. This reduces fiscal burden, stabilizes spending, and optimizes the placement of public facilities. Since 10 years have passed since the original plan was adopted in fiscal 2026 (Reiwa 8), a revised draft has been prepared.
+      
+      【Public Comment Period】
+      November 18, 2026 (Wednesday) through December 21, 2026 (Monday)
+      
+      【Where to View the Draft】
+      Hanno City website, City Hall (3rd floor) Public Information Counter, Hanno Station Service Counter, Citizen Activities Center, district administrative centers, Hanno City Library
+      
+      【How to Submit Comments】
+      Submit by one of the following methods during the comment period:
+      • Drop into the opinion collection box at any viewing location
+      • Mail: 357-8501 Hanno City, Moroyanagi 1-chome 1, Asset Management Division
+      • Fax: 042-974-0044
+      • Hanno City Electronic Application and Notification Service online form
+      
+      Submitted comments and the city's responses will be posted on the website later. Individual replies will not be provided. Personal information will not be disclosed.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/shisankeieika/shisannkeiei/14512.html
+    translation_hash: "sha256-c91d56eb99aebbb6"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-11-18T00:24:48.033620Z"
+    format_version: 3

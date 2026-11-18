@@ -30,3 +30,26 @@ source:
   content_hash: "sha256-70632fbad130a98a"
   summary_method: "full"
   publish_date: "2026-11-18"
+translations:
+  en:
+    summary: "ℹ️ Hanno City Children's Library: Market research underway to sustain core services"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New post (Published: November 18, 2026 / Reiwa 8)
+      
+      Hanno City is conducting market research to maintain Children's Library services
+      
+      Following our "Basic Policy for Phased Review of Individual Facilities," Hanno City examines how to sustain services based on the functions facilities provide, rather than the buildings themselves.
+      
+      For Hanno City Children's Library, we are exploring ways to maintain and continue essential children's library services more efficiently and sustainably, while continuing to use the current building as our foundation.
+      
+      For details on this market research initiative, please visit the Hanno City Library website.
+      
+      Hanno City Library Website
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/toshokan/14632.html
+    translation_hash: "sha256-af78b08dc746792f"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-11-18T00:24:50.456913Z"
+    format_version: 3
