@@ -25,3 +25,22 @@ source:
   fetched_at: "2026-11-18T23:49:31.511114Z"
   content_hash: "sha256-f48406741ccb2a6e"
   publish_date: "2026-11-11"
+translations:
+  en:
+    summary: "📝 Mayor: Received donation of frame stamps from Japan Post Kanto Branch"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      📝 Mayor's Blog Update (Published: November 11, 2026)
+      
+      On Wednesday, November 11, 2026 (Reiwa 8), Japan Post Company Limited Kanto Branch generously donated frame stamps featuring "Yama no Susume" (a manga series set in Hanno City) to Hanno City. The presentation ceremony was held with the author of the series, Shiro, in attendance at our city.
+      
+      These frame stamps were created to commemorate the 15th anniversary of "Yama no Susume." They are being sold in limited quantities at 92 post offices throughout Saitama Prefecture.
+      
+      We are deeply grateful for this generous donation. We hope that through the sale of these frame stamps, Hanno City's appeal will be widely shared, leading to increased tourism and community revitalization.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202611/14638.html
+    translation_hash: "sha256-39885715a9e5b125"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-11-18T23:51:31.111793Z"
+    format_version: 3

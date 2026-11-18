@@ -29,3 +29,24 @@ source:
   summary_method: "full"
   publish_date: "2026-11-18"
   supersedes: "oshirase-10744-b6b96c@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ Metasequoia (Dawn Redwood) Fall Color Report"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content updated (published: November 18, 2026 / previous: November 16, 2026)
+      
+      Tove Jansson Akebono Children's Forest Park is surrounded by metasequoia (dawn redwood) trees and is a popular spot for viewing fall foliage. Peak color typically occurs around late November.
+      
+      We'll share updates on the foliage conditions on this page and on the park's official social media (Instagram, X, Facebook).
+      
+      Current Fall Color Status
+      
+      Fall Foliage from Last Year
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/akebono/oshirase/10744.html
+    translation_hash: "sha256-6ea05746cde2c46d"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-11-18T23:51:26.280484Z"
+    format_version: 3

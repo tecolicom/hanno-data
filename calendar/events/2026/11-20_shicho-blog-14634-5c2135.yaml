@@ -25,3 +25,22 @@ source:
   fetched_at: "2026-11-18T23:49:33.685135Z"
   content_hash: "sha256-5c2135630cd2816e"
   publish_date: "2026-11-05"
+translations:
+  en:
+    summary: "📝 Mayor: Advocacy for forestry policy measures"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      📝 Mayor's Blog Update (Published: November 5, 2026)
+      
+      On Thursday, November 5, representing four forestry councils in Saitama Prefecture, the mayor presented requests to Governor Motohiro Ono and Vice-Speaker Hidetoshi Kira of the Saitama Prefectural Assembly. The requests focused on vigorously advancing "Katsugi" (active use of forest resources) for sustainable circulation of timber, as well as establishing sustainable regional forestry and wood industry practices.
+      
+      The mayor is committed to working with full effort to promote forestry development and revitalize mountain communities.
+      
+      Photo: https://www.city.hanno.lg.jp/material/images/group/79/081105ringyotaisakukyogikainoyobokatsudou.jpg
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202611/14634.html
+    translation_hash: "sha256-3a3b6e33d899f9fd"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-11-18T23:51:28.583678Z"
+    format_version: 3
