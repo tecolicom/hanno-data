@@ -1,0 +1,34 @@
+{
+  "created": "2026-11-18T23:51:43.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n📝 Mayor's Blog Update (Published: November 11, 2026)\n\nOn Wednesday, November 11, 2026 (Reiwa 8), Japan Post Company Limited Kanto Branch generously donated frame stamps featuring \"Yama no Susume\" (a manga series set in Hanno City) to Hanno City. The presentation ceremony was held with the author of the series, Shiro, in attendance at our city.\n\nThese frame stamps were created to commemorate the 15th anniversary of \"Yama no Susume.\" They are being sold in limited quantities at 92 post offices throughout Saitama Prefecture.\n\nWe are deeply grateful for this generous donation. We hope that through the sale of these frame stamps, Hanno City's appeal will be widely shared, leading to increased tourism and community revitalization.\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202611/14638.html",
+  "end": {
+    "date": "2026-11-21"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2VkazZpb3I4ZHNtbTRyM2Zjc21qMmQxbTZjczJxcGhrNzBxMzBkaTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIGI2ZjM2ZTE5NzUxYzA1Y2NlOTlmYTAwODI4ZTQyOWY0MGY2ZGIxMDBlMmRiZTQ0MmJjMjYyMmEyNWRhOTczMTZAZw",
+  "iCalUID": "shicho-blog-14638-f48406@hanno.city.tecoli.com",
+  "id": "_edk6ior8dsmm4r3fcsmj2d1m6cs2qphk70q30di0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202611/14638.html"
+  },
+  "start": {
+    "date": "2026-11-20"
+  },
+  "status": "confirmed",
+  "summary": "📝 Mayor: Received donation of frame stamps from Japan Post Kanto Branch",
+  "updated": "2026-11-18T23:51:43.438Z"
+}
