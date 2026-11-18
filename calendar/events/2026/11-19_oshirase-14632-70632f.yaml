@@ -1,0 +1,32 @@
+uid: "oshirase-14632-70632f@hanno.city.tecoli.com"
+summary: "ℹ️ 飯能市立こども図書館の機能維持に向けたサウンディング型市場調査の実施について"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/toshokan/14632.html"
+dtstart: "2026-11-19"
+dtend: "2026-11-19"
+description: |-
+  🆕 新着掲載 (公開日: 2026-11-18)
+  
+  ## 飯能市立こども図書館の機能維持に向けたサウンディング型市場調査を実施します
+  
+  本市では、「個別施設のあり方に関する段階的検討の基本方針」に基づき、施設そのものではなく、施設が担う「機能」を起点として、個別施設のあり方を検討することとしています。
+  
+  飯能市立こども図書館については、現在の施設を引き続き活用することを基本として、こども図書館として必要な機能を、より効率的かつ持続可能な方法で維持、継続できる可能性を検討しています。
+  
+  サウンディング型市場調査の詳細については、飯能市立図書館のウェブサイトをご覧ください。
+  
+  飯能市立図書館ウェブサイト
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/toshokan/14632.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "14632"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/toshokan/14632.html"
+  fetched_at: "2026-11-18T00:23:00.946311Z"
+  content_hash: "sha256-70632fbad130a98a"
+  summary_method: "full"
+  publish_date: "2026-11-18"
