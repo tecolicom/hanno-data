@@ -1,0 +1,27 @@
+uid: "shicho-blog-14638-f48406@hanno.city.tecoli.com"
+summary: "📝 市長：日本郵便株式会社関東支社様 寄附品の受領"
+url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202611/14638.html"
+dtstart: "2026-11-20"
+dtend: "2026-11-20"
+description: |-
+  📝 市長ブログ更新 (公開日: 2026-11-11)
+  
+  11月11日（水曜日）、 日本郵便株式会社関東支社様より、飯能市を舞台にした作品「ヤマノススメ」を題材にしたフレーム切手を御寄贈いただきました。当日は、作品の作者である「しろ様」にも本市にお越しいただき、贈呈式が行われました。
+  
+  このフレーム切手は、「ヤマノススメ」の連載15周年を記念して作成されたもので、埼玉県内の一部郵便局（計92局）で限定販売されています。
+  
+  この度の御寄贈に心より感謝申し上げます。今回のフレーム切手販売を通じて、本市の魅力が広く発信され、観光振興や地域活性化につながることを期待しております。
+  
+  市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202611/14638.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-shicho-blog
+  id: "14638"
+  url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202611/14638.html"
+  fetched_at: "2026-11-18T23:49:31.511114Z"
+  content_hash: "sha256-f48406741ccb2a6e"
+  publish_date: "2026-11-11"

@@ -1,0 +1,27 @@
+uid: "shicho-blog-14634-5c2135@hanno.city.tecoli.com"
+summary: "📝 市長：林業対策協議会の要望活動"
+url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202611/14634.html"
+dtstart: "2026-11-20"
+dtend: "2026-11-20"
+description: |-
+  📝 市長ブログ更新 (公開日: 2026-11-05)
+  
+  11月5日（木曜日）、埼玉県内に4つある林業対策協議会を代表し、大野元裕埼玉県知事、吉良英敏埼玉県議会副議長に森林資源の循環利用を図る「活樹」の取組を力強く進めること、持続可能な地域林業と木材産業の確立などを要望しました。
+  
+  林業振興、山間地域の活性化に向け、力の限り取り組んでいきます。
+  
+  写真: https://www.city.hanno.lg.jp/material/images/group/79/081105ringyotaisakukyogikainoyobokatsudou.jpg
+  
+  市長ブログ「市政一直線」: https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202611/14634.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-shicho-blog
+  id: "14634"
+  url: "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202611/14634.html"
+  fetched_at: "2026-11-18T23:49:33.685135Z"
+  content_hash: "sha256-5c2135630cd2816e"
+  publish_date: "2026-11-05"
