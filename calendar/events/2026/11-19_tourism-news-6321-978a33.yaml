@@ -23,3 +23,20 @@ source:
   fetched_at: "2026-11-20T00:11:43.639066Z"
   modified_gmt: "2026-11-19T01:47:21"
   content_hash: "sha256-978a332bf98c640d"
+translations:
+  en:
+    summary: "📢 Closure Notice: December 5–6, 2026 (Reiwa 8)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      On December 5–6, 2026 (Reiwa 8), Oku-Musashi Hanno Tourism Association will be closed for scheduled facility maintenance at Hanno Chamber of Commerce and Industry. During this closure, the office will not answer phones or provide information services.
+      
+      Services unavailable during closure:
+      • Eagle Bus pass purchases
+      • Manhole card distribution
+      
+      Alternative: Platto Hanno (Hanno Station Tourist Information Center, Tel. 042-978-9111, 9:00–17:00) will operate normally.
+    translation_hash: "sha256-20d04bc8e0e985ce"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-11-20T00:13:09.720731Z"
+    format_version: 3

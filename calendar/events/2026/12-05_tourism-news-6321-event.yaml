@@ -21,3 +21,16 @@ source:
   fetched_at: "2026-11-20T00:11:43.678830Z"
   modified_gmt: "2026-11-19T01:47:21"
   content_hash: "sha256-978a332bf98c640d"
+translations:
+  en:
+    summary: "ℹ️ Closure notice: December 5–6, 2026 (Reiwa 8)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Okumushi Hanno Tourism Association will close its guidance services, including phone support, on Saturday, December 5 and Sunday, December 6, 2026 (Reiwa 8) due to regular facility maintenance at Hanno Chamber of Commerce and Industry. During this period, purchases of Eagle Bus passes and distribution of manhole cards will not be available.
+      
+      Plat Hanno (Hanno Station Tourist Information Center, TEL 042-978-9111, 9:00–17:00) will remain open as usual.
+    translation_hash: "sha256-98e8838e43419286"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-11-20T00:13:11.804208Z"
+    format_version: 3
