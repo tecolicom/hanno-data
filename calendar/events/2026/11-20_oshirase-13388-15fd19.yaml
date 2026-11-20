@@ -34,3 +34,27 @@ source:
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-11-19"
   supersedes: "oshirase-13388-7539bd@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ 2026 Press Release Materials"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content updated (Published: November 19, 2026 / Previous: November 17, 2026)
+      Main change: Added new announcement about donation from Nippon Life Insurance Mutual Company (announced November 19, 2026 Reiwa 8).
+      
+      This page lists press releases for fiscal year 2026 (Reiwa 8). Key announcements include:
+      
+      • Health Promotion Support Festival 2026 (announced November 11, 2026)
+      • Children's Library temporary closure for facility repairs (announced October 16, 2026)
+      • Flu vaccination program start date moved up for 2026 (announced September 17, 2026)
+      • Washigaku Dream Education High School 5th Anniversary Ceremony (announced September 11, 2026)
+      • Survey on future use of former Mukaihara Housing Complex site (announced June 3, 2026)
+      
+      For earlier announcements, see the original article.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/hodohappyo/houdouhappyou2025_1/13388.html
+    translation_hash: "sha256-25991aefac754f2f"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-11-20T23:36:45.967838Z"
+    format_version: 3

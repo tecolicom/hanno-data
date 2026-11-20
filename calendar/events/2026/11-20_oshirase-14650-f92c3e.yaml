@@ -26,3 +26,22 @@ source:
   content_hash: "sha256-f92c3e2ebfaece6d"
   summary_method: "full"
   publish_date: "2026-11-18"
+translations:
+  en:
+    summary: "ℹ️ Fund Portfolio Basic Policy"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New posting (Published: November 18, 2026)
+      
+      Fund Portfolio Basic Policy established
+      
+      The Fund Portfolio Basic Policy sets out the basic approach for future fund management. It is based on the idea of "preparing for fiscal risks across all funds as a whole," and optimizes each fund (through integration, closure, etc.). The policy also pre-establishes response levels based on the ratio of the Financial Adjustment Fund and Debt Repayment Fund to the standard fiscal size. This makes clear what level each fund currently occupies and provides the basic framework for taking necessary action at the right time.
+      
+      Fund Portfolio Basic Policy (PDF file: 664.6 KB)
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kinkyuuzaiseitaisaku/14650.html
+    translation_hash: "sha256-cdf84bb7a18e5494"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-11-20T23:36:53.131980Z"
+    format_version: 3

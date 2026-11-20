@@ -46,3 +46,38 @@ source:
   summary_method: "full"
   publish_date: "2026-11-20"
   supersedes: "oshirase-14546-8850a1@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ Hanno City website functions restored following PHP security fix"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content Update (Published: November 20, 2026 / Previously posted: October 29, 2026)
+      Main change: Most city website functions have been restored. Email delivery system and Nishikawa Broad-Area Forest Union website remain suspended.
+      
+      【Restoration of Hanno City website functions】
+      
+      Following emergency security measures (application of a security patch) for a vulnerability in the PHP programming language system, the city website functions that were temporarily suspended have now been fully restored.
+      
+      However, the following services remain suspended:
+      
+      Residents appreciate your patience and understanding. These are important safety measures to ensure you can use our services securely. We will announce restoration as soon as it is complete.
+      
+      【Services temporarily suspended】
+      
+      • Hanno City Email Delivery System
+      • Nishikawa Broad-Area Forest Union Website
+      
+      【Suspension period】
+      
+      The restart date is not yet determined. Services will be resumed sequentially as safety measures are implemented.
+      
+      【Related links】
+      
+      National Cyber Security Center (Alerts and Warnings) - X
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/14546.html
+    translation_hash: "sha256-121137d53fa26900"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-11-20T23:37:03.341392Z"
+    format_version: 3

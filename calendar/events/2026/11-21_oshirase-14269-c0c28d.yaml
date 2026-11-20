@@ -32,3 +32,27 @@ source:
   summary_method: "full"
   publish_date: "2026-11-20"
   supersedes: "oshirase-14269-b5ce9f@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ Nagarebashi Bridge Reopens"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content update (Published: November 20, 2026 / Previous: August 19, 2026)
+      Key change: Repairs to Nagarebashi Bridge are complete. Traffic resumes from 4:00 p.m. on Friday, November 20, 2026 (Reiwa 8).
+      
+      Notice
+      
+      Following our August 18 announcement about the closure of Nagarebashi Bridge, which connects Asu Sports Park and Iwasawa Sports Park, repairs have been completed and the bridge is now open to traffic.
+      
+      We sincerely apologize for the inconvenience this closure has caused. We appreciate your understanding and cooperation with city operations.
+      
+      Reopening date and time
+      
+      Friday, November 20, 2026 (Reiwa 8), from 4:00 p.m.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/ijikanrika/kouen/14269.html
+    translation_hash: "sha256-3cd8c6dbd2e36c3e"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-11-20T23:36:59.300911Z"
+    format_version: 3

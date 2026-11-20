@@ -39,3 +39,33 @@ source:
   content_hash: "sha256-95223f3e90055008"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-11-19"
+translations:
+  en:
+    summary: "ℹ️ Hanno City invites comments on the 3rd Environmental Basic Plan and climate action implementation plans"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Now posted (Published: November 19, 2026)
+      
+      Hanno City is accepting comments on the 3rd Environmental Basic Plan, the 1st Climate Action Implementation Plan (area-wide measures section), and the 4th Climate Action Implementation Plan (city operations section).
+      
+      【Submission Period】
+      December 1, 2026 (Reiwa 8) at 9:00 AM – January 8, 2027 (Reiwa 9) at 11:59 PM
+      
+      【How to Submit】
+      Online: Submit through the electronic application system
+      Paper form: Submit to the opinion collection box at the Environmental & Water Resources Division (3rd floor, Clean Center) or the City Information Corner (3rd floor, City Hall Main Building)
+      
+      Opinion submission forms (Word and PDF) are available.
+      
+      【Plans Being Reviewed】
+      • 3rd Environmental Basic Plan and 1st Climate Action Implementation Plan (area-wide measures section): Planning period from fiscal year 2023 to fiscal year 2032, with mid-term review planned for fiscal year 2027
+      • 4th Climate Action Implementation Plan (city operations section): Planning period from fiscal year 2024 to fiscal year 2028, with the next plan beginning in fiscal year 2028
+      
+      Submitted comments will be presented to the Environmental Council and published on the city website.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/kankyomidorimizuka/14647.html
+    translation_hash: "sha256-19b9f597ab6cbcc7"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-11-20T23:36:50.209636Z"
+    format_version: 3
