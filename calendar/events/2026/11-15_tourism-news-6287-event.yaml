@@ -8,7 +8,7 @@ description: |-
   
   AI による要約 (正確な情報は元記事をご確認ください)
   
-  秋のお散歩マーケットが2026年11月15日(日)に飯能の山間の集落・黒指細田地区で開催されます。家の軒先に並べられた季節の農産物や手作り品を、山道を散歩しながら購入でき、住民とのふれあいも楽しめます。
+  秋のお散歩マーケットが11月15日(日)に飯能の山間の集落・黒指細田地区で開催されます。家の軒先に並べられた季節の農産物や手作り品を、山道を散歩しながら購入でき、住民とのふれあいも楽しめます。
 
 render:
   gcal:
@@ -18,19 +18,6 @@ source:
   type: hanno-tourism-jp-news
   id: "6287"
   url: "https://hanno-tourism.jp/news/11-15%e6%97%a5%e3%80%80%e7%a7%8b%e3%81%ae%e3%81%8a%e6%95%a3%e6%ad%a9%e3%83%9e%e3%83%bc%e3%82%b1%e3%83%83%e3%83%88"
-  fetched_at: "2026-11-11T23:56:44.856296Z"
-  modified_gmt: "2026-11-11T07:45:07"
+  fetched_at: "2026-11-20T00:11:45.326429Z"
+  modified_gmt: "2026-11-19T01:28:51"
   content_hash: "sha256-2d308e08734d74f1"
-translations:
-  en:
-    summary: "🎪 Autumn Stroll Market"
-    description: |-
-      Automated translation (refer to source for accuracy)
-      
-      The Autumn Stroll Market will be held on Sunday, November 15, 2026 (Reiwa 8) in the mountain village of Kuroさし Hosoda district in Hanno.
-      
-      As you walk through the mountain paths, you can browse and buy seasonal farm produce and handmade items displayed on the porches of local homes. It's a chance to enjoy connecting with the residents of the community.
-    translation_hash: "sha256-fdf2977647142021"
-    model: "claude-haiku-4-5"
-    translated_at: "2026-11-12T00:00:48.768624Z"
-    format_version: 3

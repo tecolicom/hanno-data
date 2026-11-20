@@ -1,0 +1,23 @@
+uid: "tourism-news-6321-event@hanno.city.tecoli.com"
+summary: "ℹ️ 令和8年12月5日(土)・12月6日(日) 休業のお知らせ"
+url: "https://hanno-tourism.jp/news/%e4%bb%a4%e5%92%8c8%e5%b9%b412%e6%9c%885%e6%97%a5%e5%9c%9f%e3%83%bb12%e6%9c%886%e6%97%a5%e6%97%a5%e3%80%80%e4%bc%91%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b"
+dtstart: "2026-12-05"
+dtend: "2026-12-06"
+description: |-
+  奥むさし飯能観光協会: https://hanno-tourism.jp/news/%e4%bb%a4%e5%92%8c8%e5%b9%b412%e6%9c%885%e6%97%a5%e5%9c%9f%e3%83%bb12%e6%9c%886%e6%97%a5%e6%97%a5%e3%80%80%e4%bc%91%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  令和8年12月5日(土)・12月6日(日)、飯能商工会議所の定期施設メンテナンスのため、奥むさし飯能観光協会は電話対応を含む案内業務を休業いたします。この期間はイーグルバス定期券のご購入、マンホールカードの配布はできかねます。なお、ぷらっと飯能（飯能駅観光案内所 TEL 042-978-9111 9時〜17時）は通常通り営業しております。
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-tourism-jp-news
+  id: "6321"
+  url: "https://hanno-tourism.jp/news/%e4%bb%a4%e5%92%8c8%e5%b9%b412%e6%9c%885%e6%97%a5%e5%9c%9f%e3%83%bb12%e6%9c%886%e6%97%a5%e6%97%a5%e3%80%80%e4%bc%91%e6%a5%ad%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b"
+  fetched_at: "2026-11-20T00:11:43.678830Z"
+  modified_gmt: "2026-11-19T01:47:21"
+  content_hash: "sha256-978a332bf98c640d"
