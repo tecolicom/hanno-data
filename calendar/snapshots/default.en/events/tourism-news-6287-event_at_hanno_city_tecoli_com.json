@@ -3,7 +3,7 @@
   "creator": {
     "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
   },
-  "description": "Automated translation (refer to source for accuracy)\n\nThe Autumn Stroll Market will be held on Sunday, November 15, 2026 (Reiwa 8) in the mountain village of Kuroさし Hosoda district in Hanno.\n\nAs you walk through the mountain paths, you can browse and buy seasonal farm produce and handmade items displayed on the porches of local homes. It's a chance to enjoy connecting with the residents of the community.",
+  "description": "Automated translation (refer to source for accuracy)\n\nThe Autumn Stroll Market will be held on November 15 (Sunday) in the Kurosasahosoda district, a mountain village in Hanno. You can walk along mountain paths while browsing and buying seasonal farm produce and handmade goods displayed in front of local homes, and enjoy time connecting with residents.\n\nMore information: https://hanno-tourism.jp/news/11-15%e6%97%a5%e3%80%80%e7%a7%8b%e3%81%ae%e3%81%8a%e6%95%a3%e6%ad%a9%e3%83%9e%e3%83%bc%e3%82%b1%e3%83%83%e3%83%88",
   "end": {
     "date": "2026-11-16"
   },
@@ -30,5 +30,5 @@
   },
   "status": "confirmed",
   "summary": "🎪 Autumn Stroll Market",
-  "updated": "2026-11-12T00:00:58.855Z"
+  "updated": "2026-11-20T00:13:20.884Z"
 }
