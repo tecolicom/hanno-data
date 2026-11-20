@@ -1,0 +1,28 @@
+uid: "oshirase-14650-f92c3e@hanno.city.tecoli.com"
+summary: "ℹ️ 基金ポートフォリオ基本方針"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kinkyuuzaiseitaisaku/14650.html"
+dtstart: "2026-11-20"
+dtend: "2026-11-20"
+description: |-
+  🆕 新着掲載 (公開日: 2026-11-18)
+  
+  ## 基金ポートフォリオ基本方針を策定しました
+  
+  基金ポートフォリオ基本方針は、今後の基金管理において「基金全体で財政リスクに備える」という考え方を基本に各基金を最適化（統合、廃止等）するとともに、財政調整基金及び減債基金の標準財政規模に対する割合に応じた対応水準を予め設定することで、当該基金が現在どの水準に位置しているかを明確にし、必要なタイミングで必要な対応を実施するための基本的な考え方を定めたものです。
+  
+  基金ポートフォリオ基本方針 (PDFファイル: 664.6KB)
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kinkyuuzaiseitaisaku/14650.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "14650"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kinkyuuzaiseitaisaku/14650.html"
+  fetched_at: "2026-11-20T23:35:04.154061Z"
+  content_hash: "sha256-f92c3e2ebfaece6d"
+  summary_method: "full"
+  publish_date: "2026-11-18"

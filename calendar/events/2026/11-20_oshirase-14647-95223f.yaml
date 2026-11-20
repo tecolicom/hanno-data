@@ -1,0 +1,41 @@
+uid: "oshirase-14647-95223f@hanno.city.tecoli.com"
+summary: "ℹ️ 飯能市環境基本計画及び地球温暖化対策実行計画（区域施策編）、（事務事業編）に関する意見を募集します"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/kankyomidorimizuka/14647.html"
+dtstart: "2026-11-20"
+dtend: "2026-11-20"
+description: |-
+  🆕 新着掲載 (公開日: 2026-11-19)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  第3次飯能市環境基本計画、第1次地球温暖化対策実行計画（区域施策編）及び第4次地球温暖化対策実行計画（事務事業編）に関する意見を募集しています。
+  
+  【募集期間】
+  令和8年12月1日（火曜日）9時から令和9年1月8日（金曜日）23時59分まで
+  
+  【提出方法】
+  インターネット：電子申請システムから提出
+  紙面：環境緑水課（クリーンセンター3階）または市役所本庁舎3階市政資料コーナーの意見回収箱に提出
+  
+  意見記入用紙（Word・PDF）が利用可能です。
+  
+  【対象計画】
+  ・第3次環境基本計画及び第1次地球温暖化対策実行計画（区域施策編）：計画期間は令和5年度から令和14年度、令和9年度に中間見直し予定
+  ・第4次地球温暖化対策実行計画（事務事業編）：計画期間は令和6年度から令和10年度、令和10年度より次期計画始動予定
+  
+  提出された意見は環境審議会へ提出され、ホームページで公表します。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/kankyomidorimizuka/14647.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "14647"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/kankyomidorimizuka/14647.html"
+  fetched_at: "2026-11-20T23:34:57.855224Z"
+  content_hash: "sha256-95223f3e90055008"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-11-19"
