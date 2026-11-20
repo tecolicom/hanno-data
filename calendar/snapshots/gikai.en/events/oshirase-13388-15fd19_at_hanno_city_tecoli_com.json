@@ -1,0 +1,34 @@
+{
+  "created": "2026-11-20T23:37:12.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🔄 Content updated (Published: November 19, 2026 / Previous: November 17, 2026)\nMain change: Added new announcement about donation from Nippon Life Insurance Mutual Company (announced November 19, 2026 Reiwa 8).\n\nThis page lists press releases for fiscal year 2026 (Reiwa 8). Key announcements include:\n\n• Health Promotion Support Festival 2026 (announced November 11, 2026)\n• Children's Library temporary closure for facility repairs (announced October 16, 2026)\n• Flu vaccination program start date moved up for 2026 (announced September 17, 2026)\n• Washigaku Dream Education High School 5th Anniversary Ceremony (announced September 11, 2026)\n• Survey on future use of former Mukaihara Housing Complex site (announced June 3, 2026)\n\nFor earlier announcements, see the original article.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/hodohappyo/houdouhappyou2025_1/13388.html",
+  "end": {
+    "date": "2026-11-21"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y3BqZ2UxZDY0cW1jcDFoNzUwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-13388-15fd19@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6cpjge1d64qmcp1h7506gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/hodohappyo/houdouhappyou2025_1/13388.html"
+  },
+  "start": {
+    "date": "2026-11-20"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 2026 Press Release Materials",
+  "updated": "2026-11-20T23:37:12.295Z"
+}

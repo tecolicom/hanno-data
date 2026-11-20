@@ -1,0 +1,34 @@
+{
+  "created": "2026-11-20T23:37:11.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🔄 Content Update (Published: November 19, 2026 / Previous: July 30, 2026)\nMain changes: No changes found.\n\nThe Arima Area Water Source Forest Conservation Project (nicknamed the \"Kumataka and Yamane Forest Project\") began as a pilot initiative in fiscal year 2025 (Reiwa 7).\n\nThe project targets approximately 1,300 hectares of city-owned forest in the Naguribe district and upstream of the Arima Dam. It focuses on poorly maintained cedar and cypress plantations, transforming them into mixed conifer-broadleaf forests and eventually restoring them to natural forest.\n\nThe project implements forest management aimed at water source conservation, disaster prevention, and improved biodiversity. Two endangered species found in the area serve as symbol species: the Mountain Hawk-Eagle (Kumataka) — classified as Critically Endangered (IB) by Japan's Ministry of the Environment and Saitama Prefecture, and designated as a rare wild species — and the Japanese Dwarf Flying Squirrel (Yamane) — classified as Near Threatened (Type 1) by Saitama Prefecture and designated a Natural Monument. Forest work includes selective thinning and deer damage control that consider the habitat needs of these species.\n\nIn approximately five years (around 2030), the project aims to create a rich forest where diverse wildlife can thrive. It also includes outreach and evaluation through events, monitoring, and adaptive management.\n\nFunding comes from Corporate Hometown Tax contributions by UBJ Corporation and UBJS Corporation, and water source area conservation support grants from Saitama Prefecture.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/shinrinzukurika/shinrinseibi/13168.html",
+  "end": {
+    "date": "2026-11-21"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Y29qY2UxZGNjcjZjcGo1Y2QwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-13168-c6ffec@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6cojce1dccr6cpj5cd06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/shinrinzukurika/shinrinseibi/13168.html"
+  },
+  "start": {
+    "date": "2026-11-20"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Arima Area Water Source Forest Conservation Project (Kumataka and Yamane Forest Project)",
+  "updated": "2026-11-20T23:37:11.692Z"
+}
