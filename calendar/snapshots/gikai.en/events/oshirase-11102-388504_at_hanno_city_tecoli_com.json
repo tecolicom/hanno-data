@@ -1,0 +1,34 @@
+{
+  "created": "2026-11-22T23:08:11.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🔄 Content Updated (Published: November 23, 2026 / Previous: September 26, 2026)\nMain Changes: Dates changed to January 19 and 30. The January 30 gathering location has been unified to Hanno City Hall West Parking Lot (changed from Hanno City Hall Annex Front).\n\nSugo-ashi Leisurely Walk January will be held.\n\nDates: January 19 (Tuesday) and January 30 (Saturday), 2027 (Reiwa 9)\n\nGathering Time: 10:00 a.m.\n\nGathering Place: Hanno City Hall West Parking Lot\n\nCourse: Two routes will be selected based on weather and number of participants\n• Course (1): City Hall → Benzaiten Shrine → Chikkanji Temple → Nakayama West Signal → Yatsuda → Ninin-ji Temple → Chuo Park → Hongocho Water Purification Plant → Hanno River Stepping Stones Bridge → Hanno Station → Higashi-Hanno Station → Hanno City Hall\n• Course (2): City Hall → Hanno City area (Shimokaji, Soyagi, Kaji) → Iruma City area (Shinko, Noda) → Fushiko Station (return by train)\n\nDistance: Approximately 7 kilometers\n\nPlanned Duration: Approximately 2 hours 30 minutes\n\nFee: Free (participants are responsible for their own insurance)\n\nWhat to Bring: Drinking water, rain gear, transportation IC card, Sugo-ashi handbook (if you have one)\n\nRegistration: Same-day participation (please arrive by the gathering time)\n\nCancellation Check: To confirm cancellations due to weather or other reasons, contact Onda at 090-2205-8073 after 3:00 p.m. the day before.\n\nHost: Hanno Walking Club\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/11102.html",
+  "end": {
+    "date": "2026-11-25"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2NG9qMGNoZDZjczNnZDlnNmgwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-11102-388504@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h64oj0chd6cs3gd9g6h06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/11102.html"
+  },
+  "start": {
+    "date": "2026-11-24"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Sugo-ashi Event: Sugo-ashi Leisurely Walk in January on Tuesday, January 19 and Saturday, January 30, 2027",
+  "updated": "2026-11-22T23:08:12.209Z"
+}

@@ -1,0 +1,34 @@
+{
+  "created": "2026-11-22T23:08:11.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🔄 Content updated (Published: November 22, 2026 / Previous update: November 21, 2026)\n\nTove Jansson Akebono Children's Forest Park is surrounded by metasequoia (dawn redwood) trees and is a popular spot for viewing fall foliage. The peak of the autumn color season is typically around late November each year.\n\nWe will share updates on the current foliage conditions on this page as well as on the park's official social media accounts (Instagram, X, and Facebook).\n\nCurrent Foliage Status\n\nLast Year's Foliage Views\n\nSource (Japanese): https://www.city.hanno.lg.jp/akebono/oshirase/10744.html",
+  "end": {
+    "date": "2026-11-24"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2MHJqOGQxZGM1ajZjb2ozNjEwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-10744-affbc0@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h60rj8d1dc5j6coj36106gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/akebono/oshirase/10744.html"
+  },
+  "start": {
+    "date": "2026-11-23"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Metasequoia (Dawn Redwood) Fall Foliage Report",
+  "updated": "2026-11-22T23:08:11.388Z"
+}
