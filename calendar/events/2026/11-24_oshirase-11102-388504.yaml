@@ -50,3 +50,43 @@ source:
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-11-23"
   supersedes: "oshirase-11102-991265@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ Sugo-ashi Event: Sugo-ashi Leisurely Walk in January on Tuesday, January 19 and Saturday, January 30, 2027"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content Updated (Published: November 23, 2026 / Previous: September 26, 2026)
+      Main Changes: Dates changed to January 19 and 30. The January 30 gathering location has been unified to Hanno City Hall West Parking Lot (changed from Hanno City Hall Annex Front).
+      
+      Sugo-ashi Leisurely Walk January will be held.
+      
+      Dates: January 19 (Tuesday) and January 30 (Saturday), 2027 (Reiwa 9)
+      
+      Gathering Time: 10:00 a.m.
+      
+      Gathering Place: Hanno City Hall West Parking Lot
+      
+      Course: Two routes will be selected based on weather and number of participants
+      • Course (1): City Hall → Benzaiten Shrine → Chikkanji Temple → Nakayama West Signal → Yatsuda → Ninin-ji Temple → Chuo Park → Hongocho Water Purification Plant → Hanno River Stepping Stones Bridge → Hanno Station → Higashi-Hanno Station → Hanno City Hall
+      • Course (2): City Hall → Hanno City area (Shimokaji, Soyagi, Kaji) → Iruma City area (Shinko, Noda) → Fushiko Station (return by train)
+      
+      Distance: Approximately 7 kilometers
+      
+      Planned Duration: Approximately 2 hours 30 minutes
+      
+      Fee: Free (participants are responsible for their own insurance)
+      
+      What to Bring: Drinking water, rain gear, transportation IC card, Sugo-ashi handbook (if you have one)
+      
+      Registration: Same-day participation (please arrive by the gathering time)
+      
+      Cancellation Check: To confirm cancellations due to weather or other reasons, contact Onda at 090-2205-8073 after 3:00 p.m. the day before.
+      
+      Host: Hanno Walking Club
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kenkohukusibu/hokencenter/11102.html
+    translation_hash: "sha256-f016a713c7c914d3"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-11-22T23:08:03.105774Z"
+    format_version: 3
