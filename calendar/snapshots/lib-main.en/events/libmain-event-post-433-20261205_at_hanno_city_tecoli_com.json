@@ -1,0 +1,35 @@
+{
+  "created": "2026-11-23T02:48:46.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nThe information workshop \"Learning with University Students! Introduction to ChatGPT～AI Experience for Everyday Life～\" has reached capacity and registration is now closed.\n\n【Workshop Details】\nDate and Time: Saturday, December 5, 2026 (Reiwa 8), 1:00 PM–3:00 PM\nVenue: Hanno City Library, 2nd Floor Multipurpose Hall\nInstructor: Student staff from Surugadai University\nCapacity: 10 people (first come, first served)\nTarget Audience: Beginners with generative AI \"ChatGPT\" (those with a smartphone)\nFee: Free\nWhat to Bring: Smartphone, charger, writing materials\n\n【Content】\nYou will learn the basic operations of generative AI \"ChatGPT\" (such as account creation), hands-on practice, and important precautions for safely enjoying generative AI. Student staff from Surugadai University will explain the operating methods step by step.\n\n【Important Note】\nEntry after the workshop has started is not permitted.\n\nInquiries: Hanno City Library  TEL 042-972-2114\n\nSource (Japanese): https://www.hanno-lib.jp/event/post-433.html",
+  "end": {
+    "date": "2026-12-06"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Roa200cmIxZDVuMnFwYm1jbG43OGJiZ2R0cG44YjlrNmNwaXFjaGc2OHIzMmNoZzZsMDZnb2JlZHBuaXNvcjllaHNpc3QzNWNkbm1vcTllY2RubXEgMjhkOWM4NjRhNjM0ODc4YWQyNWI0OTNjMjdlYzc4ZTA2YmFjMGJhMmE4NWZkNWRmZGE0YWFjMmQwNzUyZjdkNkBn",
+  "iCalUID": "libmain-event-post-433-20261205@hanno.city.tecoli.com",
+  "id": "_dhkm4rb1d5n2qpbmcln78bbgdtpn8b9k6cpiqchg68r32chg6l06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "location": "飯能市立図書館",
+  "organizer": {
+    "displayName": "飯能市立図書館（EN）",
+    "email": "28d9c864a634878ad25b493c27ec78e06bac0ba2a85fd5dfda4aac2d0752f7d6@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.hanno-lib.jp",
+    "url": "https://www.hanno-lib.jp/event/post-433.html"
+  },
+  "start": {
+    "date": "2026-12-05"
+  },
+  "status": "confirmed",
+  "summary": "📚 【Registration Full】Information Workshop \"Learning with University Students! Introduction to ChatGPT～AI Experience for Everyday Life～\" Registration Now Closed",
+  "updated": "2026-11-23T02:48:46.553Z"
+}
