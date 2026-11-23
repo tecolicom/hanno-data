@@ -1,0 +1,40 @@
+uid: "libmain-event-post-433-20261205@hanno.city.tecoli.com"
+summary: "📚 【満員御礼】情報活用講座「大学生と学ぼう！はじめてのChatGPT ～暮らしを彩るAI体験講座～」の申込受付終了のお知らせ"
+location: "飯能市立図書館"
+url: "https://www.hanno-lib.jp/event/post-433.html"
+dtstart: "2026-12-05"
+dtend: "2026-12-05"
+description: |-
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  情報活用講座「大学生と学ぼう！はじめてのChatGPT ～暮らしを彩るAI体験講座～」は定員に達したため、申込受付を終了いたしました。
+  
+  【講座概要】
+  日時：令和8年12月5日（土）13：00～15：00
+  会場：飯能市立図書館2階多目的ホール
+  講師：駿河台大学学生スタッフ
+  定員：10名（先着順）
+  対象：生成AI「ChatGPT」初心者の方（スマートフォンをお持ちの方）
+  参加費：無料
+  持ち物：スマートフォン、充電器、筆記用具
+  
+  【内容】
+  生成AI「ChatGPT」の基本操作（アカウント作成など）、実践ワーク、安心して生成AIを楽しむための注意事項について学びます。駿河台大学の学生スタッフが、操作方法を丁寧にご説明いたします。
+  
+  【注意事項】
+  講座開始後の入室はできません。
+  
+  お問合せ：飯能市立図書館 TEL 042-972-2114
+  
+  https://www.hanno-lib.jp/event/post-433.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-lib-main-event
+  id: "post-433"
+  url: "https://www.hanno-lib.jp/event/post-433.html"
+  content_hash: "sha256-196fd081a7a53c6f"
+  summary_method: "llm-haiku-4-5"

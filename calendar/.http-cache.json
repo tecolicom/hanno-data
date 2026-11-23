@@ -366,8 +366,8 @@
     "modified_gmt": "2026-10-09T02:23:38"
   },
   "https://www.city.hanno.lg.jp/akebono/oshirase/10744.html": {
-    "etag": "\"6b0246b8-ba68\"",
-    "last_modified": "Sun, 22 Nov 2026 01:34:48 GMT"
+    "etag": "\"6b03a164-ba44\"",
+    "last_modified": "Mon, 23 Nov 2026 02:13:56 GMT"
   },
   "https://www.city.hanno.lg.jp/emergency/10396.html": {
     "etag": "\"6aa06e45-b555\"",
@@ -1660,5 +1660,9 @@
   "https://www.hanno-lib.jp/calendar/post-85.html": {
     "etag": null,
     "last_modified": "Fri, 23 Oct 2026 05:06:47 GMT"
+  },
+  "https://www.hanno-lib.jp/event/post-433.html": {
+    "etag": null,
+    "last_modified": "Wed, 18 Nov 2026 06:48:40 GMT"
   }
 }
