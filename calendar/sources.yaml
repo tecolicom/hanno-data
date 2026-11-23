@@ -104,16 +104,21 @@ lib-event:
   events_url: "https://www.hanno-lib.jp/events.php"
   site_url: "https://www.hanno-lib.jp/"
   url_host_allowlist: www.hanno-lib.jp
-  url_path_prefix: "/calendar/"
   summary_prefix: "📚 "
   months_ahead: 12
   max_event_days: 60
+  # url_path_prefix (記事の置き場) は館ごとに違う。events.php が返す詳細 URL は、
+  # 本館 01 が /event/ (サイトの「行事案内」)、こども図書館 02 が /calendar/
+  # (「こども図書館カレンダー」)。本館は 2026-11 に初めて event_day が出て
+  # (/event/post-433.html) 判明した。置き場の外は失敗に数える (Ruling 18)。
   libraries:
     - code: "01"
       name: "飯能市立図書館"
+      url_path_prefix: "/event/"
       uid_prefix: libmain-event
       source_type: hanno-lib-main-event
     - code: "02"
       name: "こども図書館"
+      url_path_prefix: "/calendar/"
       uid_prefix: libkids-event
       source_type: hanno-lib-kids-event

@@ -432,7 +432,8 @@ def test_build_description_falls_back_to_full_when_llm_unavailable():
 
 def _run_synthetic(links, detail_html=None, day="2026-08-01",
                    fetch_with_cache=None, events_html=None,
-                   no_event_days=False, extra_empty_day=None):
+                   no_event_days=False, extra_empty_day=None,
+                   lib_code="02"):
     """1 館ぶんの合成データで main() を走らせ (exit code, 出力, 書かれた
     ファイル名) を返す.
 
@@ -442,6 +443,7 @@ def _run_synthetic(links, detail_html=None, day="2026-08-01",
     events_html を渡すと events.php の中身をそのまま使う (パーサを壊す再現用)。
     no_event_days=True で cal.php が event_day を 1 件も返さない館を作る。
     extra_empty_day にその日だけリンク 0 件の日を足せる。
+    lib_code は event_day を返す館 (既定はこども図書館 02)。他の館は 0 件。
     """
     items = "".join(f"<li><a href='{h}'>{t}</a></li>" for h, t in links)
     if events_html is None:
@@ -455,9 +457,9 @@ def _run_synthetic(links, detail_html=None, day="2026-08-01",
     if extra_empty_day:
         days = sorted(days + [extra_empty_day])
 
-    def fake_fetch_cal(cal_url, lib_code, term_from, term_to):
-        ed = days if lib_code == "02" else []
-        return {"libraries": [{"code": lib_code,
+    def fake_fetch_cal(cal_url, code_, term_from, term_to):
+        ed = days if code_ == lib_code else []
+        return {"libraries": [{"code": code_,
                                "term": [{"month": day[:4] + day[5:7],
                                          "event_day": ed}]}]}
 
@@ -682,6 +684,34 @@ def test_path_prefix_is_matched_from_the_start_not_anywhere():
         _OK_LINK,
         ("https://www.hanno-lib.jp/archive/calendar/901.html", "置き場の外"),
     ])
+    assert code == 2, (code, out)
+    assert len(files) == 1, files
+
+
+def test_path_prefix_is_per_library_main_uses_event():
+    """記事の置き場は館ごとに違う。本館 01 は /event/ (行事案内)、こども図書館
+    02 は /calendar/ (こども図書館カレンダー)。
+
+    以前は lib-event 全体で /calendar/ 1 本だった。本館に初めて event_day が
+    出た 2026-12-05 (post-433) が「記事の置き場の外」と判定され、2026-11-06
+    から CI が赤になった。
+    """
+    code, out, files = _run_synthetic(
+        [("https://www.hanno-lib.jp/event/post-433.html", "本館の記事")],
+        lib_code="01")
+    assert code == 0, (code, out)
+    assert len(files) == 1, files
+    assert files[0].startswith("08-01_libmain-event-post-433-"), files
+
+
+def test_path_prefix_is_per_library_main_rejects_calendar():
+    """館ごとに分けても Ruling 18 の見張りは館ごとに効くこと。本館の記事が
+    こども図書館の置き場 (/calendar/) に出たら取りこぼしとして失敗にする。
+    """
+    code, out, files = _run_synthetic([
+        ("https://www.hanno-lib.jp/event/post-433.html", "本館の記事"),
+        ("https://www.hanno-lib.jp/calendar/900.html", "置き場の外"),
+    ], lib_code="01")
     assert code == 2, (code, out)
     assert len(files) == 1, files
 

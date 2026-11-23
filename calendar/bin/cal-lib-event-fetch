@@ -260,6 +260,13 @@ def main() -> None:
         host = cfg[key].split("/")[2]
         if host != cfg["url_host_allowlist"]:
             sys.exit(f"URL outside allowlist: {cfg[key]}")
+    # 記事の置き場は館ごとに違う (本館 01 は /event/、こども図書館 02 は
+    # /calendar/)。記事ごとの try の中で初めて読むと、設定漏れが「記事の
+    # 失敗」に化けるので、ここで全館ぶん揃っているかを見ておく。
+    for lib in cfg["libraries"]:
+        if not lib.get("url_path_prefix"):
+            sys.exit(f"sources.yaml lib-event: 館 {lib.get('code')} に "
+                     f"url_path_prefix が無い")
 
     today = args.today or _date.today().isoformat()
     term_from, term_to = month_window(today, int(cfg["months_ahead"]))
@@ -360,7 +367,7 @@ def main() -> None:
                               file=sys.stderr)
                         offsite_links.append(f"{code}/{day}/{detail_url}")
                         continue
-                    if not parsed.path.startswith(cfg["url_path_prefix"]):
+                    if not parsed.path.startswith(lib["url_path_prefix"]):
                         # 同じホストなのに記事の置き場から外れている =
                         # 配信元が記事を移した。**取りこぼしが明確**なので
                         # 失敗に数える (Ruling 18)。イベントは件数で異常を

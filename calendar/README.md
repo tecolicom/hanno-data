@@ -831,8 +831,14 @@ RSS フィードは見ず、`events/` を走査して対象記事だけ再 fetch
 ```
 cal.php?libraries=<館>&term_from=YYYYMM&term_to=YYYYMM  → closing_day[] / event_day[]
 events.php?kind=2&target=general&libraries=<館>&term_from=YYYYMMDD → その日の記事
-/calendar/<page>.html                                    → 本文 (Last-Modified あり)
+/event/<page>.html (本館) | /calendar/<page>.html (こども) → 本文 (Last-Modified あり)
 ```
+
+**記事の置き場は館ごとに違う。** 本館 01 は `/event/` (サイトの「行事案内」)、
+こども図書館 02 は `/calendar/` (「こども図書館カレンダー」)。`sources.yaml` の
+`url_path_prefix` は館ごとに持つ。以前は全体で `/calendar/` 1 本にしており、
+本館に初めて `event_day` が出た 2026-11 に本館の記事が「置き場の外」として
+弾かれ、CI が赤くなった。
 
 **1 リクエスト 1 館。** `libraries=01,02` とまとめると `event_day` が空で返る。
 
@@ -871,7 +877,7 @@ events.php?kind=2&target=general&libraries=<館>&term_from=YYYYMMDD → その�
 失敗、3 = 削除超過) で終わる。
 
 `events.php` のリンクが allowlist を外れたときは理由で分ける。同じホストで
-`url_path_prefix` の外なら「配信元が記事を移した = 取りこぼし」なので失敗に数え、
+その館の `url_path_prefix` の外なら「配信元が記事を移した = 取りこぼし」なので失敗に数え、
 別ホスト・`#`・相対 URL は WARN に留める (外部リンク 1 本で CI が恒常的に赤に
 ならないように)。後者に全部落ちる取りこぼしは「リンクはあったのに受理 0 件の日」を
 backstop にして捉える。
