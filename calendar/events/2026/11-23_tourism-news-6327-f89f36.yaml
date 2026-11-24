@@ -1,0 +1,25 @@
+uid: "tourism-news-6327-f89f36@hanno.city.tecoli.com"
+summary: "📢 五十嵐酒造 新酒祭り12/5開催！"
+url: "https://hanno-tourism.jp/news/%e4%ba%94%e5%8d%81%e5%b5%90%e9%85%92%e9%80%a0%e3%80%80%e6%96%b0%e9%85%92%e7%a5%ad%e3%82%8a12-5%e9%96%8b%e5%82%ac%ef%bc%81"
+dtstart: "2026-11-23"
+dtend: "2026-11-23"
+description: |-
+  奥むさし飯能観光協会: https://hanno-tourism.jp/news/%e4%ba%94%e5%8d%81%e5%b5%90%e9%85%92%e9%80%a0%e3%80%80%e6%96%b0%e9%85%92%e7%a5%ad%e3%82%8a12-5%e9%96%8b%e5%82%ac%ef%bc%81
+  
+  🆕 新着掲載 (公開日: 2026-11-23)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  五十嵐酒造の恒例新酒祭りが開催されます。日時は2026年12月5日(土)10:00~15:00。会場は五十嵐酒造（埼玉県飯能市川寺667−1）。飯能駅南口からシャトルバスが随時運行されます。新酒祭り限定酒の販売、新酒無料試飲（お一人様1回限り）、甘酒無料、日本酒バー、飲食ブース多数出展があります。
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-tourism-jp-news
+  id: "6327"
+  url: "https://hanno-tourism.jp/news/%e4%ba%94%e5%8d%81%e5%b5%90%e9%85%92%e9%80%a0%e3%80%80%e6%96%b0%e9%85%92%e7%a5%ad%e3%82%8a12-5%e9%96%8b%e5%82%ac%ef%bc%81"
+  fetched_at: "2026-11-24T03:42:54.650745Z"
+  modified_gmt: "2026-11-23T06:01:58"
+  content_hash: "sha256-f89f3632f023c546"
