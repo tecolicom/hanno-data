@@ -1,0 +1,34 @@
+{
+  "created": "2026-11-24T03:45:46.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nNew listing (published November 23, 2026)\n\nIgarashi Sake Brewery's annual New Sake Festival will be held.\n\n日時 (Date and time): Saturday, December 5, 2026 (Reiwa 8), 10:00 AM – 3:00 PM\n会場 (Venue): Igarashi Sake Brewery, 667-1 Kawaji, Hanno, Saitama Prefecture\n\nShuttle buses run regularly from the south exit of Hanno Station.\n\nEvent highlights:\n• Limited-edition new sake for sale\n• Free sake tasting (one taste per person)\n• Free amazake (sweet rice drink)\n• Sake bar\n• Multiple food and drink stalls\n\nMore information: https://hanno-tourism.jp/news/%e4%ba%94%e5%8d%81%e5%b5%90%e9%85%92%e9%80%a0%e3%80%80%e6%96%b0%e9%85%92%e7%a5%ad%e3%82%8a12-5%e9%96%8b%e5%82%ac%ef%bc%81",
+  "end": {
+    "date": "2026-11-24"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFyajVldHBpcWRoajY4cmlxcGhvNzVqMzZkaTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIGQ5MTkzY2Y1ZjY0NGFiNDFhMjhlMjI2OGE5OGFiYzVhYTQyNmJkMmQ1NzcxNTI4MzQyNDRhZDY5YTMxZjVhNjhAZw",
+  "iCalUID": "tourism-news-6327-f89f36@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqrj5etpiqdhj68riqpho75j36di0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/news/%e4%ba%94%e5%8d%81%e5%b5%90%e9%85%92%e9%80%a0%e3%80%80%e6%96%b0%e9%85%92%e7%a5%ad%e3%82%8a12-5%e9%96%8b%e5%82%ac%ef%bc%81"
+  },
+  "start": {
+    "date": "2026-11-23"
+  },
+  "status": "confirmed",
+  "summary": "📢 Igarashi Sake Brewery New Sake Festival on December 5",
+  "updated": "2026-11-24T03:45:46.253Z"
+}
