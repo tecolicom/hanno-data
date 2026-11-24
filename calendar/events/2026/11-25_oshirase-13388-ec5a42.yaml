@@ -34,3 +34,28 @@ source:
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-11-24"
   supersedes: "oshirase-13388-15fd19@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ Fiscal 2026 Press Release Materials"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content Updated (Published: November 24, 2026 / Previously posted: November 20, 2026)
+      
+      Main changes: New announcements added regarding donations from Tsuyoshi Yamamoto and Nippon Life Insurance.
+      
+      The Fiscal 2026 press release materials list page has been updated. Latest announcements:
+      
+      • Donation from Tsuyoshi Yamamoto (Announced November 24)
+      • Donation from Nippon Life Insurance (Announced November 19)
+      • Hanno Health & Wellness Festival 2026 (Announced November 11)
+      • 78th Saitama Firefighters Association Regular Commendation - On-Site Service Award (Announced October 29)
+      • Hanno City Disaster Prevention Radio Voice Response Service (Announced October 16)
+      
+      For earlier announcements, please see the original articles.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/hodohappyo/houdouhappyou2025_1/13388.html
+    translation_hash: "sha256-7d75653008d6489f"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-11-24T03:45:26.970084Z"
+    format_version: 3

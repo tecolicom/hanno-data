@@ -21,3 +21,28 @@ source:
   fetched_at: "2026-11-24T03:42:54.700756Z"
   modified_gmt: "2026-11-23T06:01:58"
   content_hash: "sha256-f89f3632f023c546"
+translations:
+  en:
+    summary: "🎪 Igarashi Sake Brewery New Sake Festival – December 5, 2026"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Oku-Musashi Hanno Tourism Association
+      
+      Igarashi Sake Brewery's annual New Sake Festival will be held.
+      
+      Date and time: Saturday, December 5, 2026 (Reiwa 8), 10:00–15:00
+      Venue: Igarashi Sake Brewery (667–1 Kawadera, Hanno, Saitama)
+      
+      Shuttle buses run regularly from the south exit of Hanno Station.
+      
+      Activities and attractions:
+      • Limited-edition new sake sales
+      • Free new sake tasting (one tasting per person)
+      • Free sweet sake (amazake)
+      • Sake bar
+      • Many food and drink vendor booths
+    translation_hash: "sha256-1d778369254735aa"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-11-24T03:45:33.922178Z"
+    format_version: 3

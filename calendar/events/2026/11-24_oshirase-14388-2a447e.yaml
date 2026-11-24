@@ -51,3 +51,20 @@ source:
   summary_method: "full"
   publish_date: "2026-11-20"
   supersedes: "oshirase-14388-52a548@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ Children's Cultural Heritage Workshop:"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content update (Published Nov 20, 2026 / Previously posted Nov 6, 2026)
+      
+      To understand our past, we must study historical documents and other sources. This workshop teaches children about the history of writing and books, and lets them make a traditional Japanese bound book (washinji hon) with their own hands.
+      
+      【Children's Cultural Heritage Workshop:
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/bunkazaitanto/bunkazai/14388.html
+    translation_hash: "sha256-0d4da5aa382b55d3"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-11-24T03:45:24.540509Z"
+    format_version: 3

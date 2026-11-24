@@ -23,3 +23,30 @@ source:
   fetched_at: "2026-11-24T03:42:54.650745Z"
   modified_gmt: "2026-11-23T06:01:58"
   content_hash: "sha256-f89f3632f023c546"
+translations:
+  en:
+    summary: "📢 Igarashi Sake Brewery New Sake Festival on December 5"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      New listing (published November 23, 2026)
+      
+      Igarashi Sake Brewery's annual New Sake Festival will be held.
+      
+      日時 (Date and time): Saturday, December 5, 2026 (Reiwa 8), 10:00 AM – 3:00 PM
+      会場 (Venue): Igarashi Sake Brewery, 667-1 Kawaji, Hanno, Saitama Prefecture
+      
+      Shuttle buses run regularly from the south exit of Hanno Station.
+      
+      Event highlights:
+      • Limited-edition new sake for sale
+      • Free sake tasting (one taste per person)
+      • Free amazake (sweet rice drink)
+      • Sake bar
+      • Multiple food and drink stalls
+      
+      More information: https://hanno-tourism.jp/news/%e4%ba%94%e5%8d%81%e5%b5%90%e9%85%92%e9%80%a0%e3%80%80%e6%96%b0%e9%85%92%e7%a5%ad%e3%82%8a12-5%e9%96%8b%e5%82%ac%ef%bc%81
+    translation_hash: "sha256-e997dd02db0f1138"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-11-24T03:45:22.745705Z"
+    format_version: 3
