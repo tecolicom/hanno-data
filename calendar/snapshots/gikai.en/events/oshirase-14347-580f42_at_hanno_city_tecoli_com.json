@@ -1,0 +1,34 @@
+{
+  "created": "2026-11-25T01:52:28.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🔄 Content updated (Published: November 25, 2026 / Previous: November 14, 2026)\nMain change: The briefing sessions have ended. On November 20, 40 people attended; on November 22, 27 people attended. Briefing materials are now posted.\n\n【Citizen Briefing on the City's Finances (Ended)】\n\nThe city held public briefing sessions to explain the fiscal year 2025 settlement (Reiwa 7), the city's financial situation, and planned initiatives for fiscal year 2027 (Reiwa 9).\n\nBriefing session details:\n\nLocation: Hanno City Hall (Annex Building)\nDate: November 20 (Friday), 7:00 PM–9:00 PM — 40 participants\nDate: November 22 (Sunday), 10:00 AM–12:00 PM — 27 participants\n\nBriefing materials (Finance Division) — PDF file: 2.4 MB\n(Note: Some terminology in the materials has been simplified for clarity.)\n\nBriefing materials (Planning Division) — PDF file: 329.2 KB\n(Note: Survey results will be posted as soon as they are ready.)\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kinkyuuzaiseitaisaku/14347.html",
+  "end": {
+    "date": "2026-11-27"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Z3BqOGRwZDZrczMwcGhrNjkwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-14347-580f42@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6gpj8dpd6ks30phk6906gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kinkyuuzaiseitaisaku/14347.html"
+  },
+  "start": {
+    "date": "2026-11-26"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Citizen briefing on the city's finances (Ended)",
+  "updated": "2026-11-25T01:52:29.076Z"
+}

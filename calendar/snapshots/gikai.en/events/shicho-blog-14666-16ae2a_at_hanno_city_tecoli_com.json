@@ -1,0 +1,34 @@
+{
+  "created": "2026-11-25T01:52:27.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n📝 Mayor's blog update (published: November 11, 2026)\n\nOn Wednesday, November 11, I visited the construction site of the Asu Guard expansion project underway on the Tomioka-Iruma prefectural road in Asu district.\n\nDuring this visit, I was able to confirm that construction of the steel box beams that form the backbone of the new Asu Guard has been completed, and the guard now shows its expanded state.\n\nConstruction has now moved into the phase of removing the old Asu Guard, and work is proceeding using methods that take noise and vibration into consideration. I also confirmed that careful attention is being paid to safety management and schedule management, and received a report that the project is proceeding smoothly on schedule.\n\nApproximately one and a half years remain until completion by the end of fiscal year 2027 (Reiwa 9). We apologize for the inconvenience caused by detours and other disruptions due to the construction. We continue to appreciate your understanding and cooperation.\n\nSource (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202611/14666.html",
+  "end": {
+    "date": "2026-11-26"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2VkazZpb3I4ZHNtbTRyM2Zjc21qMmQxbTZvcjJxYzltYzVpajRvYTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIGI2ZjM2ZTE5NzUxYzA1Y2NlOTlmYTAwODI4ZTQyOWY0MGY2ZGIxMDBlMmRiZTQ0MmJjMjYyMmEyNWRhOTczMTZAZw",
+  "iCalUID": "shicho-blog-14666-16ae2a@hanno.city.tecoli.com",
+  "id": "_edk6ior8dsmm4r3fcsmj2d1m6or2qc9mc5ij4oa0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202611/14666.html"
+  },
+  "start": {
+    "date": "2026-11-25"
+  },
+  "status": "confirmed",
+  "summary": "📝 Mayor: Site visit to Asu Guard expansion project",
+  "updated": "2026-11-25T01:52:28.255Z"
+}
