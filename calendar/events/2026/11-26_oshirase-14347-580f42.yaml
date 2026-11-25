@@ -51,3 +51,33 @@ source:
   summary_method: "full"
   publish_date: "2026-11-25"
   supersedes: "oshirase-14347-db4843@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ Citizen briefing on the city's finances (Ended)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content updated (Published: November 25, 2026 / Previous: November 14, 2026)
+      Main change: The briefing sessions have ended. On November 20, 40 people attended; on November 22, 27 people attended. Briefing materials are now posted.
+      
+      【Citizen Briefing on the City's Finances (Ended)】
+      
+      The city held public briefing sessions to explain the fiscal year 2025 settlement (Reiwa 7), the city's financial situation, and planned initiatives for fiscal year 2027 (Reiwa 9).
+      
+      Briefing session details:
+      
+      Location: Hanno City Hall (Annex Building)
+      Date: November 20 (Friday), 7:00 PM–9:00 PM — 40 participants
+      Date: November 22 (Sunday), 10:00 AM–12:00 PM — 27 participants
+      
+      Briefing materials (Finance Division) — PDF file: 2.4 MB
+      (Note: Some terminology in the materials has been simplified for clarity.)
+      
+      Briefing materials (Planning Division) — PDF file: 329.2 KB
+      (Note: Survey results will be posted as soon as they are ready.)
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kinkyuuzaiseitaisaku/14347.html
+    translation_hash: "sha256-ea1bbd76d6eb591e"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-11-25T01:52:17.156656Z"
+    format_version: 3

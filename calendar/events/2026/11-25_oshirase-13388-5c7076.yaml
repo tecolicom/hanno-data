@@ -34,3 +34,28 @@ source:
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-11-24"
   supersedes: "oshirase-13388-ec5a42@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ Hanno City Press Releases — Reiwa 8 (2026)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content updated (Published: November 24, 2026 / Previously posted: November 25, 2026)
+      
+      Main change: A new donation from Hokubuzo Surveying & Design Co., Ltd. (corporate furusato tax donation) has been added as of November 24.
+      
+      The list of Reiwa 8 press releases has been updated. The latest announcements are:
+      
+      • Donation from Hokubuzo Surveying & Design Co., Ltd. (Corporate Furusato Tax Donation) — announced November 24
+      • Donation from Tsuyoshi Yamamoto — announced November 24
+      • Donation from Nippon Life Insurance Mutual Company — announced November 19
+      • Hanno Health Festival 2026 Event Held — announced November 11
+      • 78th Saitama Prefecture Fire Department Association Ceremony Award "On-Site Service Medal" — announced October 29
+      
+      For earlier announcements, please see the original articles.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/hishokohoka/joho/hodohappyo/houdouhappyou2025_1/13388.html
+    translation_hash: "sha256-f9878833c10baeac"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-11-25T01:52:10.571726Z"
+    format_version: 3

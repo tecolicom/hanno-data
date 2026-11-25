@@ -27,3 +27,24 @@ source:
   fetched_at: "2026-11-25T01:50:26.561363Z"
   content_hash: "sha256-16ae2ad32c78dfb3"
   publish_date: "2026-11-11"
+translations:
+  en:
+    summary: "📝 Mayor: Site visit to Asu Guard expansion project"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      📝 Mayor's blog update (published: November 11, 2026)
+      
+      On Wednesday, November 11, I visited the construction site of the Asu Guard expansion project underway on the Tomioka-Iruma prefectural road in Asu district.
+      
+      During this visit, I was able to confirm that construction of the steel box beams that form the backbone of the new Asu Guard has been completed, and the guard now shows its expanded state.
+      
+      Construction has now moved into the phase of removing the old Asu Guard, and work is proceeding using methods that take noise and vibration into consideration. I also confirmed that careful attention is being paid to safety management and schedule management, and received a report that the project is proceeding smoothly on schedule.
+      
+      Approximately one and a half years remain until completion by the end of fiscal year 2027 (Reiwa 9). We apologize for the inconvenience caused by detours and other disruptions due to the construction. We continue to appreciate your understanding and cooperation.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/shiseijoho/shichoshitsu/shichoblog/shisei2026/shisei202611/14666.html
+    translation_hash: "sha256-a5204d84cc272c5d"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-11-25T01:52:13.841699Z"
+    format_version: 3
