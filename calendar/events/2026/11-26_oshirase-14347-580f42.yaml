@@ -1,0 +1,53 @@
+uid: "oshirase-14347-580f42@hanno.city.tecoli.com"
+summary: "ℹ️ 財政状況等についての市民向け説明会の開催（終了しました）"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kinkyuuzaiseitaisaku/14347.html"
+dtstart: "2026-11-26"
+dtend: "2026-11-26"
+description: |-
+  🔄 内容更新 (公開日: 2026-11-25 / 前回掲載: 2026-11-14)
+  主な変更: 説明会は終了し、11月20日に40人、11月22日に27人が参加しました。説明会資料が掲載されています。
+  
+  ## 財政状況等についての市民向け説明会の開催について（終了）
+  
+  令和7年度決算、財政の諸状況、令和9年度の主な取組の予定などについて、市民向け説明会を開催しました。
+  
+  	本説明会の会場、期日、開催時間
+  
+  			会場
+  			期日
+  			開催時間
+  			参加人数
+  
+  			飯能市役所（本庁舎別館）
+  			11月20日（金曜日）
+  			19時00分～21時00分
+  			40人
+  
+  			飯能市役所（本庁舎別館）
+  			11月22日（日曜日）
+  			10時00分～12時00分
+  			27人
+  
+  説明会資料（財政課）(PDFファイル:2.4MB)
+  
+  （注釈）資料内の一部の用語解説は、分かりやすくお伝えするため、表現を簡潔にしています。
+  
+  説明会資料（企画課）(PDFファイル:329.2KB)
+  
+  （注釈）アンケート結果は、準備できしだい掲載します。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kinkyuuzaiseitaisaku/14347.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "14347"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/sogoseisakubu/zaiseika/kinkyuuzaiseitaisaku/14347.html"
+  fetched_at: "2026-11-25T01:50:32.309158Z"
+  content_hash: "sha256-580f4291c06e1aab"
+  summary_method: "full"
+  publish_date: "2026-11-25"
+  supersedes: "oshirase-14347-db4843@hanno.city.tecoli.com"
