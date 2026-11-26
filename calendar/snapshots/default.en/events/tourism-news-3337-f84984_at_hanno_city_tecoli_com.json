@@ -1,0 +1,34 @@
+{
+  "created": "2026-11-26T01:29:14.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nHanno Water (飯能水) – spring water from the Oku-Musashi region – is sourced from the mountains of Naguri and ranks among the finest waters in the Kanto area. Known for its smooth, mild taste, it is available for purchase at Hanno Station Tourist Information Center (ぷらっと飯能), district administrative centers, and vending machines throughout the region. Price: ¥120 per bottle (tax included).\n\n【Home Delivery】\nHome delivery is available. Orders start from 1 case (24 bottles) for ¥2,880 (tax included). Nationwide shipping is supported, though additional delivery charges apply. Contact Oku-Musashi Hanno Tourism Association to order: TEL 042-980-5051, FAX 042-971-5052. Payment options: cash at the counter or bank transfer. Delivery takes approximately one week after payment confirmation.\n\n【Product Details】\nVolume: 500 ml per bottle\nShelf life: 2 years from manufacturing date",
+  "end": {
+    "date": "2026-11-26"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFyajVldHBpcWNwajZjcmlxcGhvNmdzamdkMjBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIGQ5MTkzY2Y1ZjY0NGFiNDFhMjhlMjI2OGE5OGFiYzVhYTQyNmJkMmQ1NzcxNTI4MzQyNDRhZDY5YTMxZjVhNjhAZw",
+  "iCalUID": "tourism-news-3337-f84984@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqrj5etpiqcpj6criqpho6gsjgd20d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/news/gennryuhannosui"
+  },
+  "start": {
+    "date": "2026-11-25"
+  },
+  "status": "confirmed",
+  "summary": "📢 Genryū Hanno Water",
+  "updated": "2026-11-26T01:29:14.269Z"
+}

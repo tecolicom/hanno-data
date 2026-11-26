@@ -1,0 +1,34 @@
+{
+  "created": "2026-11-26T01:29:15.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 New (Posted: November 25, 2026)\n\nThe outdoor lighting facility (night lighting) at Hanno First Junior High School has been provided to residents for sports activities. However, usage has declined in recent years, and there have been no users since early July 2026 (Reiwa 8). We will therefore suspend usage of this facility effective March 31, 2027 (Reiwa 9).\n\nWe will review the future direction of the lighting facility during fiscal year 2027 (Reiwa 9).\n\nWe ask for your understanding.\n\n【Facility being suspended】\nHanno First Junior High School Outdoor Lighting Facility (Night Lighting)\n\n【Suspension effective date】\nEnd of March, Reiwa 9 (March 31, 2027)\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/syogaigakusyu-sports/sports/sportssisetsu/14661.html",
+  "end": {
+    "date": "2026-11-27"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Z3IzY2M5ZDYxaW04b2hpYzUwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-14661-0edb2a@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6gr3cc9d61im8ohic506gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/syogaigakusyu-sports/sports/sportssisetsu/14661.html"
+  },
+  "start": {
+    "date": "2026-11-26"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Hanno First Junior High School outdoor lighting facility usage suspended",
+  "updated": "2026-11-26T01:29:15.826Z"
+}

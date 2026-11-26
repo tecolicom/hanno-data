@@ -1,0 +1,34 @@
+{
+  "created": "2026-11-26T01:29:16.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🔄 Content Updated (Published: November 26, 2026 / Previous: November 24, 2026)\nMain changes: Opening time moved from 9:45 a.m. to 9:30 a.m.; participation fee of 300 yen (materials and insurance) added.\n\nOn Sunday, December 6, 2026 (Reiwa 8), from 10:00 a.m. to 12:00 p.m., Hanno City Museum (Learning & Research Room) will hold a Children's Cultural Heritage Class: Make Japanese Hand-Bound Books.\n\nOpen to elementary school children and younger, accompanied by their guardians. Participants will view and handle Edo-period historical documents, learn about the history of writing and books, and make a hand-bound book.\n\nSince the craft uses pointed tools such as pointed awls and needles, a guardian's accompaniment is required.\n\nCapacity: 10 groups (first-come, first-served). Participation fee: 300 yen per child making a book (materials and insurance). Accompanying guardians are free.\n\nApplications accepted from 10:00 a.m. on Tuesday, November 17 until 4:00 p.m. on Tuesday, December 1. Apply at the museum (online preferred), or by window, phone, or email. On the museum's closed days, call 042-972-2301 (Cultural Heritage Division).\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/bunkazaitanto/bunkazai/14388.html",
+  "end": {
+    "date": "2026-11-28"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Z3BqZ2UxZGM4cTY4cGozY3AwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSBiNmYzNmUxOTc1MWMwNWNjZTk5ZmEwMDgyOGU0MjlmNDBmNmRiMTAwZTJkYmU0NDJiYzI2MjJhMjVkYTk3MzE2QGc",
+  "iCalUID": "oshirase-14388-b4dfcf@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6gpjge1dc8q68pj3cp06gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/bunkazaitanto/bunkazai/14388.html"
+  },
+  "start": {
+    "date": "2026-11-27"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Children's Cultural Heritage Class on December 6: Make Japanese Hand-Bound Books",
+  "updated": "2026-11-26T01:29:16.479Z"
+}

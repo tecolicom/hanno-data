@@ -1,0 +1,34 @@
+{
+  "created": "2026-11-26T01:28:45.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "🆕 新着掲載 (公開日: 2026-11-25)\n\n飯能第一中学校の屋外照明施設（ナイター照明）につきましては、これまで市民の皆様のスポーツ活動の場として提供してきましたが、近年は利用が減少し令和8年7月上旬から利用がない状態となっていることから、令和9年3月31日をもって利用を休止します。\n\nなお、照明施設の今後の在り方については、令和9年度において検討してまいります。\n\n市民の皆様には、ご理解くださいますようお願いいたします。\n\n## 利用休止となる施設\n\n飯能第一中学校 屋外照明施設（ナイター照明）\n\n## 利用休止日\n\n令和9年3月末日\n\n飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/syogaigakusyu-sports/sports/sportssisetsu/14661.html",
+  "end": {
+    "date": "2026-11-27"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOWg2Z3IzY2M5ZDYxaW04b2hpYzUwNmdvYmVkcG5pc29yOWVoc2lzdDM1Y2RubW9xOWVjZG5tcSA2NzQ1OTE0YjI0MzIzMTEyYTE1ZjQzZGMyMGIzYTBmNGE0ODE3YWZkODAwYzhkMTY4N2QwYmYwYjdmODkwYzYxQGc",
+  "iCalUID": "oshirase-14661-0edb2a@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9h6gr3cc9d61im8ohic506gobedpnisor9ehsist35cdnmoq9ecdnmq",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所",
+    "email": "6745914b24323112a15f43dc20b3a0f4a4817afd800c8d1687d0bf0b7f890c61@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/syogaigakusyu-sports/sports/sportssisetsu/14661.html"
+  },
+  "start": {
+    "date": "2026-11-26"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 飯能第一中学校屋外照明施設の利用休止について",
+  "updated": "2026-11-26T01:28:45.511Z"
+}
