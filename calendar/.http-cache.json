@@ -353,6 +353,9 @@
   "https://hanno-tourism.jp/news/ecotourguide-seminar": {
     "modified_gmt": "2026-05-22T08:21:52"
   },
+  "https://hanno-tourism.jp/news/gennryuhannosui": {
+    "modified_gmt": "2026-11-25T02:58:28"
+  },
   "https://hanno-tourism.jp/news/gw%e4%bc%91%e6%a5%ad%e6%97%a5%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b": {
     "modified_gmt": "2026-04-28T07:35:55"
   },
@@ -369,8 +372,8 @@
     "modified_gmt": "2026-10-09T02:23:38"
   },
   "https://www.city.hanno.lg.jp/akebono/oshirase/10744.html": {
-    "etag": "\"6b03a164-ba44\"",
-    "last_modified": "Mon, 23 Nov 2026 02:13:56 GMT"
+    "etag": "\"6b06498a-b8eb\"",
+    "last_modified": "Wed, 25 Nov 2026 02:35:54 GMT"
   },
   "https://www.city.hanno.lg.jp/emergency/10396.html": {
     "etag": "\"6aa06e45-b555\"",
@@ -1197,8 +1200,8 @@
     "last_modified": "Thu, 12 Nov 2026 01:29:51 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/bunkazaitanto/bunkazai/14388.html": {
-    "etag": "\"6b03c398-c2e5\"",
-    "last_modified": "Mon, 23 Nov 2026 04:39:52 GMT"
+    "etag": "\"6b07899b-c52e\"",
+    "last_modified": "Thu, 26 Nov 2026 01:21:31 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/bunkazaitanto/bunkazai/14521.html": {
     "etag": "\"6af51698-be9a\"",
@@ -1223,6 +1226,10 @@
   "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/syogaigakusyu-sports/sports/osirase/13949.html": {
     "etag": "\"6a9e1ce4-cc72\"",
     "last_modified": "Mon, 07 Sep 2026 02:09:40 GMT"
+  },
+  "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/syogaigakusyu-sports/sports/sportssisetsu/14661.html": {
+    "etag": "\"6b068c51-c041\"",
+    "last_modified": "Wed, 25 Nov 2026 07:20:49 GMT"
   },
   "https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/toshokan/14632.html": {
     "etag": "\"6afcea83-bd78\"",

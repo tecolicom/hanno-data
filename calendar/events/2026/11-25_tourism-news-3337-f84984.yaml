@@ -1,0 +1,25 @@
+uid: "tourism-news-3337-f84984@hanno.city.tecoli.com"
+summary: "📢 源流 飯能水"
+url: "https://hanno-tourism.jp/news/gennryuhannosui"
+dtstart: "2026-11-25"
+dtend: "2026-11-25"
+description: |-
+  奥むさし飯能観光協会: https://hanno-tourism.jp/news/gennryuhannosui
+  
+  🆕 新着掲載 (公開日: 2026-11-25)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  奥武蔵の源流水「飯能水」は、名栗の山間地から取水した関東有数の名水です。まろやかな味わいが特徴で、飯能駅観光案内所ぷらっと飯能や地区行政センター、各地の自販機で購入できます。価格は1本120円（税込）。宅配も承っており、1ケース24本入り2,880円（税込）から注文可能です。全国配送に対応していますが、別途配送料がかかります。注文は奥むさし飯能観光協会（TEL 042-980-5051、FAX 042-971-5052）まで。支払方法は窓口払いまたは口座振込から選択でき、ご入金確認後一週間前後でお届けします。内容量500ml、賞味期限は製造日より2年です。
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-tourism-jp-news
+  id: "3337"
+  url: "https://hanno-tourism.jp/news/gennryuhannosui"
+  fetched_at: "2026-11-26T01:26:44.437217Z"
+  modified_gmt: "2026-11-25T02:58:28"
+  content_hash: "sha256-f84984e9ebd5c6d0"
