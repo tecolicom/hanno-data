@@ -23,3 +23,21 @@ source:
   fetched_at: "2026-11-26T01:26:44.437217Z"
   modified_gmt: "2026-11-25T02:58:28"
   content_hash: "sha256-f84984e9ebd5c6d0"
+translations:
+  en:
+    summary: "📢 Genryū Hanno Water"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      Hanno Water (飯能水) – spring water from the Oku-Musashi region – is sourced from the mountains of Naguri and ranks among the finest waters in the Kanto area. Known for its smooth, mild taste, it is available for purchase at Hanno Station Tourist Information Center (ぷらっと飯能), district administrative centers, and vending machines throughout the region. Price: ¥120 per bottle (tax included).
+      
+      【Home Delivery】
+      Home delivery is available. Orders start from 1 case (24 bottles) for ¥2,880 (tax included). Nationwide shipping is supported, though additional delivery charges apply. Contact Oku-Musashi Hanno Tourism Association to order: TEL 042-980-5051, FAX 042-971-5052. Payment options: cash at the counter or bank transfer. Delivery takes approximately one week after payment confirmation.
+      
+      【Product Details】
+      Volume: 500 ml per bottle
+      Shelf life: 2 years from manufacturing date
+    translation_hash: "sha256-6c94c86f007566a3"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-11-26T01:28:55.081146Z"
+    format_version: 3

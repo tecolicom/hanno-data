@@ -34,3 +34,27 @@ source:
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-11-26"
   supersedes: "oshirase-14388-2a447e@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ Children's Cultural Heritage Class on December 6: Make Japanese Hand-Bound Books"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content Updated (Published: November 26, 2026 / Previous: November 24, 2026)
+      Main changes: Opening time moved from 9:45 a.m. to 9:30 a.m.; participation fee of 300 yen (materials and insurance) added.
+      
+      On Sunday, December 6, 2026 (Reiwa 8), from 10:00 a.m. to 12:00 p.m., Hanno City Museum (Learning & Research Room) will hold a Children's Cultural Heritage Class: Make Japanese Hand-Bound Books.
+      
+      Open to elementary school children and younger, accompanied by their guardians. Participants will view and handle Edo-period historical documents, learn about the history of writing and books, and make a hand-bound book.
+      
+      Since the craft uses pointed tools such as pointed awls and needles, a guardian's accompaniment is required.
+      
+      Capacity: 10 groups (first-come, first-served). Participation fee: 300 yen per child making a book (materials and insurance). Accompanying guardians are free.
+      
+      Applications accepted from 10:00 a.m. on Tuesday, November 17 until 4:00 p.m. on Tuesday, December 1. Apply at the museum (online preferred), or by window, phone, or email. On the museum's closed days, call 042-972-2301 (Cultural Heritage Division).
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/hakubutsukan/bunkazaitanto/bunkazai/14388.html
+    translation_hash: "sha256-71527e8a2c6d7d3f"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-11-26T01:29:05.981059Z"
+    format_version: 3

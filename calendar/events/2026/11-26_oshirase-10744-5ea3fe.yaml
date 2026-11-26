@@ -27,3 +27,20 @@ source:
   summary_method: "full"
   publish_date: "2026-11-25"
   supersedes: "oshirase-10744-74f24b@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ Metasequoia (Dawn Redwood) Autumn Foliage Updates"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content updated (Published: November 25, 2026 / Previous update: November 24, 2026)
+      
+      Tove Jansson Akebono Children's Forest Park is surrounded by metasequoia (dawn redwood) trees and is a popular spot for viewing autumn foliage. The peak foliage season is typically around late November each year.
+      
+      We will continue to share foliage status updates on this page and on the park's official social media accounts (Instagram, X, and Facebook).
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/akebono/oshirase/10744.html
+    translation_hash: "sha256-a0135dbb8773374f"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-11-26T01:28:57.623883Z"
+    format_version: 3

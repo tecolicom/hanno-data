@@ -34,3 +34,28 @@ source:
   content_hash: "sha256-0edb2af91a105138"
   summary_method: "full"
   publish_date: "2026-11-25"
+translations:
+  en:
+    summary: "ℹ️ Hanno First Junior High School outdoor lighting facility usage suspended"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New (Posted: November 25, 2026)
+      
+      The outdoor lighting facility (night lighting) at Hanno First Junior High School has been provided to residents for sports activities. However, usage has declined in recent years, and there have been no users since early July 2026 (Reiwa 8). We will therefore suspend usage of this facility effective March 31, 2027 (Reiwa 9).
+      
+      We will review the future direction of the lighting facility during fiscal year 2027 (Reiwa 9).
+      
+      We ask for your understanding.
+      
+      【Facility being suspended】
+      Hanno First Junior High School Outdoor Lighting Facility (Night Lighting)
+      
+      【Suspension effective date】
+      End of March, Reiwa 9 (March 31, 2027)
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kyoikubu/syogaigakusyu-sports/sports/sportssisetsu/14661.html
+    translation_hash: "sha256-37fbdc7c261f037a"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-11-26T01:29:01.170192Z"
+    format_version: 3
