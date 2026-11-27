@@ -1,10 +1,12 @@
-uid: "chef-20261207-01@hanno.city.tecoli.com"
-summary: "くるくる"
+uid: "chef-20261218-01@hanno.city.tecoli.com"
+summary: "北京ごはん"
 location: "日替わりシェフレストラン"
 url: "https://www.hanno-cci.or.jp/manage/founded/#02"
-dtstart: "2026-12-07"
-dtend: "2026-12-07"
+dtstart: "2026-12-18"
+dtend: "2026-12-18"
 description: |-
+  魯肉飯、タピオカ他
+  
   https://www.hanno-cci.or.jp/manage/founded/#02
 
 render:
@@ -13,6 +15,6 @@ render:
 
 source:
   type: hanno-cci-chef
-  id: "20261207-01"
+  id: "20261218-01"
   url: "https://www.hanno-cci.or.jp/manage/founded/#02"
-  content_hash: "sha256-ef2493a8dbef1d4d"
+  content_hash: "sha256-7638abe25a926465"

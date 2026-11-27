@@ -1,0 +1,25 @@
+uid: "tourism-news-6336-acea57@hanno.city.tecoli.com"
+summary: "📢 「飯能市役所でキッチンカーと週一マルシェ」12月予定"
+url: "https://hanno-tourism.jp/news/%e3%80%8c%e9%a3%af%e8%83%bd%e5%b8%82%e5%bd%b9%e6%89%80%e3%81%a7%e3%82%ad%e3%83%83%e3%83%81%e3%83%b3%e3%82%ab%e3%83%bc%e3%81%a8%e9%80%b1%e4%b8%80%e3%83%9e%e3%83%ab%e3%82%b7%e3%82%a7%e3%80%8d12%e6%9c%88"
+dtstart: "2026-11-26"
+dtend: "2026-11-26"
+description: |-
+  奥むさし飯能観光協会: https://hanno-tourism.jp/news/%e3%80%8c%e9%a3%af%e8%83%bd%e5%b8%82%e5%bd%b9%e6%89%80%e3%81%a7%e3%82%ad%e3%83%83%e3%83%81%e3%83%b3%e3%82%ab%e3%83%bc%e3%81%a8%e9%80%b1%e4%b8%80%e3%83%9e%e3%83%ab%e3%82%b7%e3%82%a7%e3%80%8d12%e6%9c%88
+  
+  🆕 新着掲載 (公開日: 2026-11-26)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  飯能市役所でキッチンカーと週一マルシェが開催されます。12月のスケジュールが決定しました。イベントでしか出会えない店舗の味が市役所で楽しめます。詳細な日程・出店店舗については本文をご確認ください。
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: hanno-tourism-jp-news
+  id: "6336"
+  url: "https://hanno-tourism.jp/news/%e3%80%8c%e9%a3%af%e8%83%bd%e5%b8%82%e5%bd%b9%e6%89%80%e3%81%a7%e3%82%ad%e3%83%83%e3%83%81%e3%83%b3%e3%82%ab%e3%83%bc%e3%81%a8%e9%80%b1%e4%b8%80%e3%83%9e%e3%83%ab%e3%82%b7%e3%82%a7%e3%80%8d12%e6%9c%88"
+  fetched_at: "2026-11-27T01:24:38.932173Z"
+  modified_gmt: "2026-11-26T03:40:01"
+  content_hash: "sha256-acea57498ff01b18"

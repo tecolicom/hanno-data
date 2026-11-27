@@ -1,0 +1,40 @@
+uid: "oshirase-8625-e0f118@hanno.city.tecoli.com"
+summary: "ℹ️ 第35回「はんのき賞」【令和8年12月4日から令和9年1月6日まで募集】"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jitishinkoka/shiminkatudo/8625.html"
+dtstart: "2026-11-28"
+dtend: "2026-11-28"
+description: |-
+  🆕 新着掲載 (公開日: 2026-11-27)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  第35回「はんのき賞」の募集。飯能市自治会連合会では、明るく住みよい地域社会づくりのため、地道に実践活動を続けている市民や団体に「はんのき賞」をお贈りしています。
+  
+  対象活動：心のふれあいを深める活動、健やかな心身を育てる活動、住みよいふるさとをつくる活動
+  
+  対象：市内で活動する個人・団体・グループ・地域集団など
+  
+  推薦方法：規定の推薦書に必要事項をご記入のうえ提出してください。推薦者には電話等でヒアリングを行うほか、選考会にご出席いただきます。
+  
+  提出先：飯能市自治会連合会事務局（飯能市役所本庁舎別館1階自治振興課内）〒357-8501飯能市大字双柳1番地の1、電話042-973-2111（内線6401）、mail: jiti@city.hanno.lg.jp、または各地区行政センター
+  
+  提出期間：令和8年12月4日（金曜日）～令和9年1月6日（水曜日）
+  
+  選考スケジュール：ヒアリング（推薦書受付後随時）、選考委員会令和9年2月17日（水曜日）飯能市役所本庁舎別館
+  
+  注意：宗教的活動、営利活動の一環、職務として行っている活動、団体の一員としての活動は対象となりません。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jitishinkoka/shiminkatudo/8625.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "8625"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jitishinkoka/shiminkatudo/8625.html"
+  fetched_at: "2026-11-27T01:26:11.637005Z"
+  content_hash: "sha256-e0f11828977e5524"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-11-27"
