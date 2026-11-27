@@ -32,3 +32,35 @@ source:
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-11-26"
   supersedes: "oshirase-7608-81a17d@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ Hanno City Public Housing – Residents Wanted (December 2026 Recruitment)"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content Updated (Published: November 26, 2026 / Previous: June 2, 2026)
+      Main Change: Application period changed from June 1–15 to December 1–15.
+      
+      Hanno City is recruiting residents for public housing (December 2026 recruitment).
+      
+      Application Period: December 1 (Tuesday) – December 15 (Tuesday), Reiwa 8 (2026) (postmark valid).
+      
+      How to Apply: Mail your application in the reply envelope included with the recruitment guide. Once submitted, you cannot change details on the form. Application forms and documents will not be returned.
+      
+      Eligibility and Important Terms:
+      • Target: Low-income households in housing need
+      • A cosigner (連帯保証人) is required
+      • Application documents must be complete; incomplete applications will not be accepted
+      • Pets (dogs, cats, etc.) are prohibited
+      • Pre-move repairs should be minimal
+      • Read the recruitment guide carefully and confirm the location and surrounding conditions of the housing before applying
+      
+      For full details, see the Hanno City Public Housing Recruitment Guide (PDF file). Housing is managed by Saitama Prefecture Housing Supply Corporation.
+      
+      Inquiries: Saitama Prefecture Housing Supply Corporation, Kawagoe Branch — Phone: 049-227-6418
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/kenchikuka/jutaku/shieijyuuraku/7608.html
+    translation_hash: "sha256-eaa13e2450e7c31f"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-11-27T01:28:16.083379Z"
+    format_version: 3
