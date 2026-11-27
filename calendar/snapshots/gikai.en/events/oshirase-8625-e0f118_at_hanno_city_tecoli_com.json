@@ -1,0 +1,34 @@
+{
+  "created": "2026-11-27T01:28:33.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nNew listing (posted November 27, 2026)\n\n35th Hannoki Award nomination period. Hanno City's Neighborhood Association Federation presents the Hannoki Award to citizens and organizations who have been steadily engaged in practical community activities to build a bright, livable local society.\n\nEligible activities: Activities that deepen human connection and understanding, activities that nurture healthy mind and body, activities that build a pleasant hometown.\n\nWho can be nominated: Individuals, organizations, groups, and community associations active in the city.\n\nHow to nominate: Fill out the required nomination form with all necessary information and submit it. Nominators will be interviewed by phone or other means and will be asked to attend the selection meeting.\n\nWhere to submit: Hanno City Neighborhood Association Federation Secretariat (Jichi Shinko Division, 1st floor of the Annex Building, Hanno City Hall), 1-1 Oaza Futayanagi, Hanno City, Saitama 357-8501. Phone: 042-973-2111 (ext. 6401). Email: jiti@city.hanno.lg.jp. Or submit to any district administrative center.\n\nSubmission period: Friday, December 4, 2026 through Wednesday, January 6, 2027.\n\nSelection schedule: Interviews (ongoing after nomination forms are received), Selection Committee meeting Wednesday, February 17, 2027, Annex Building, Hanno City Hall.\n\nImportant: Religious activities, activities that are part of profit-making ventures, activities performed as job duties, and activities undertaken as a member of an organization are not eligible.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jitishinkoka/shiminkatudo/8625.html",
+  "end": {
+    "date": "2026-11-29"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOW82b3AzYWJiNTYxajMyYzlvODFrNjJyamVkc242NnFia2Y0bjc4cGIzZHRtNmliajNkdG1nIGI2ZjM2ZTE5NzUxYzA1Y2NlOTlmYTAwODI4ZTQyOWY0MGY2ZGIxMDBlMmRiZTQ0MmJjMjYyMmEyNWRhOTczMTZAZw",
+  "iCalUID": "oshirase-8625-e0f118@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9o6op3abb561j32c9o81k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jitishinkoka/shiminkatudo/8625.html"
+  },
+  "start": {
+    "date": "2026-11-28"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ 35th Hannoki Award — Nominations open December 4, 2026 to January 6, 2027",
+  "updated": "2026-11-27T01:28:33.513Z"
+}

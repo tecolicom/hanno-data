@@ -1,0 +1,34 @@
+{
+  "created": "2026-11-27T01:28:30.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\nNew listing (Published: November 26, 2026)\n\nKitchen cars and a weekly market will be held at Hanno City Hall. The December schedule has been decided. You can enjoy unique flavors from vendors that only appear at this event, right at City Hall. For detailed dates and participating vendors, see the information at the link below.\n\n(Continued at the link below)",
+  "end": {
+    "date": "2026-11-27"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2Vobm5hc2o5ZWRtaXFyajVldHBpcWRoajZjcjJxb2IzY2xnamFkcTBkMWdtc3JqZjVwaG1pdDNwNXBxNmFvcmZkaGtpc29yZmRrIGQ5MTkzY2Y1ZjY0NGFiNDFhMjhlMjI2OGE5OGFiYzVhYTQyNmJkMmQ1NzcxNTI4MzQyNDRhZDY5YTMxZjVhNjhAZw",
+  "iCalUID": "tourism-news-6336-acea57@hanno.city.tecoli.com",
+  "id": "_ehnnasj9edmiqrj5etpiqdhj6cr2qob3clgjadq0d1gmsrjf5phmit3p5pq6aorfdhkisorfdk",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能カレンダー（EN）",
+    "email": "d9193cf5f644ab41a28e2268a98abc5aa426bd2d577152834244ad69a31f5a68@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "hanno-tourism.jp",
+    "url": "https://hanno-tourism.jp/news/%e3%80%8c%e9%a3%af%e8%83%bd%e5%b8%82%e5%bd%b9%e6%89%80%e3%81%a7%e3%82%ad%e3%83%83%e3%83%81%e3%83%b3%e3%82%ab%e3%83%bc%e3%81%a8%e9%80%b1%e4%b8%80%e3%83%9e%e3%83%ab%e3%82%b7%e3%82%a7%e3%80%8d12%e6%9c%88"
+  },
+  "start": {
+    "date": "2026-11-26"
+  },
+  "status": "confirmed",
+  "summary": "📢 Kitchen cars and weekly market at Hanno City Hall — December schedule",
+  "updated": "2026-11-27T01:28:31.968Z"
+}

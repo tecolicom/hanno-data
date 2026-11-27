@@ -1,0 +1,34 @@
+{
+  "created": "2026-11-27T01:28:32.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🔄 Content Updated (Published: November 26, 2026 / Previous: June 2, 2026)\nMain Change: Application period changed from June 1–15 to December 1–15.\n\nHanno City is recruiting residents for public housing (December 2026 recruitment).\n\nApplication Period: December 1 (Tuesday) – December 15 (Tuesday), Reiwa 8 (2026) (postmark valid).\n\nHow to Apply: Mail your application in the reply envelope included with the recruitment guide. Once submitted, you cannot change details on the form. Application forms and documents will not be returned.\n\nEligibility and Important Terms:\n• Target: Low-income households in housing need\n• A cosigner (連帯保証人) is required\n• Application documents must be complete; incomplete applications will not be accepted\n• Pets (dogs, cats, etc.) are prohibited\n• Pre-move repairs should be minimal\n• Read the recruitment guide carefully and confirm the location and surrounding conditions of the housing before applying\n\nFor full details, see the Hanno City Public Housing Recruitment Guide (PDF file). Housing is managed by Saitama Prefecture Housing Supply Corporation.\n\nInquiries: Saitama Prefecture Housing Supply Corporation, Kawagoe Branch — Phone: 049-227-6418\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/kenchikuka/jutaku/shieijyuuraku/7608.html",
+  "end": {
+    "date": "2026-11-28"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOW42b28zZ2I5amNrbzNnY2o2ODFrNjJyamVkc242NnFia2Y0bjc4cGIzZHRtNmliajNkdG1nIGI2ZjM2ZTE5NzUxYzA1Y2NlOTlmYTAwODI4ZTQyOWY0MGY2ZGIxMDBlMmRiZTQ0MmJjMjYyMmEyNWRhOTczMTZAZw",
+  "iCalUID": "oshirase-7608-3e082f@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9n6oo3gb9jcko3gcj681k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/tosikensetubu/kenchikuka/jutaku/shieijyuuraku/7608.html"
+  },
+  "start": {
+    "date": "2026-11-27"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Hanno City Public Housing – Residents Wanted (December 2026 Recruitment)",
+  "updated": "2026-11-27T01:28:32.755Z"
+}
