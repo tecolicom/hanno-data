@@ -44,3 +44,48 @@ source:
   content_hash: "sha256-431cf37c5fe5f7f5"
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-11-27"
+translations:
+  en:
+    summary: "ℹ️ Dog Training Class hosted by Hanno–Hidaka Rabies Prevention Association"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🆕 New listing (published: November 27, 2026)
+      
+      The Hanno–Hidaka Rabies Prevention Association is hosting a "Dog Manners & Training Lecture." This class is for people who are having trouble with their dog's behavior, or who are thinking about getting a dog.
+      
+      【Date and Time】
+      January 30, 2027 (Saturday), 1:00 p.m.–3:00 p.m. (Reception opens at 12:40 p.m.)
+      
+      【Venue】
+      Hidaka City Takahagi Community Center (802-3 Aza-Takahagi, Hidaka City; 10 minutes walk from Musashi-Takahagi Station on the JR Kawagoe Line)
+      
+      【Instructor】
+      Shigemi Iriko, Ph.D. (Associate Professor, Tokyo University of Agriculture and Technology; Veterinarian; Diplomate, American College of Veterinary Behaviorists)
+      
+      【Capacity】
+      50 people (first-come, first-served; registration closes when capacity is reached)
+      
+      【Who Can Attend】
+      People having trouble with their dog's behavior, or people considering getting a dog
+      
+      【Fee】
+      Free
+      
+      【Registration Deadline】
+      January 8, 2027 (Friday)
+      
+      【How to Register】
+      Monday–Friday, 9:00 a.m.–4:30 p.m.: apply in person at the Environment and Water Resources Division office (phone: 042-973-2125), by phone, or through the online application system.
+      
+      【What to Bring】
+      Nothing in particular. Dogs may not attend or be brought along.
+      
+      【Parking】
+      Parking is limited. Please use public transportation.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/kankyomidorimizuka/8724.html
+    translation_hash: "sha256-dd18f2b638927726"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-11-28T00:59:59.746710Z"
+    format_version: 3

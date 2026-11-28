@@ -36,3 +36,32 @@ source:
   summary_method: "llm-haiku-4-5"
   publish_date: "2026-11-27"
   supersedes: "oshirase-7837-b030ec@hanno.city.tecoli.com"
+translations:
+  en:
+    summary: "ℹ️ Traffic death alert issued"
+    description: |-
+      Automated translation (refer to source for accuracy)
+      
+      🔄 Content update (Published: November 27, 2026 / Previously posted: October 28, 2026)
+      Main change: Alert period changed to November 27 – December 6, 2026 (Reiwa 8). Of the 5 fatal accidents this period, cargo trucks were involved in 4 cases. Deaths include 3 pedestrians crossing at crosswalks and 2 cyclists (including one person in their teens).
+      
+      Saitama Prefecture has issued a traffic death alert following 5 fatal accidents occurring between November 24–26, 2026 (Reiwa 8).
+      
+      Alert period: November 27, 2026 (Friday) through December 6, 2026 (Sunday) — 10 days total.
+      
+      Key features of the 5 accidents:
+      • Cargo trucks (such as lorries) involved in 4 of the 5 cases
+      • 3 deaths: pedestrians crossing at crosswalks
+      • 2 deaths: cyclists (1 in their teens)
+      
+      To drivers: Please obey speed limits, give priority to pedestrians at crosswalks, use high-beam headlights at night, watch for people crossing from the right, drive considerately around elderly road users, and turn on headlights early.
+      
+      To pedestrians: Use crosswalks and pedestrian bridges, look both ways and signal with your hand, wear reflective materials or carry lights at dusk/night/early morning, and wear bright clothing.
+      
+      We call on all road users to heighten awareness and protect precious lives.
+      
+      Source (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/bohan/7837.html
+    translation_hash: "sha256-068fc3e48324f0b4"
+    model: "claude-haiku-4-5"
+    translated_at: "2026-11-28T00:59:53.915086Z"
+    format_version: 3
