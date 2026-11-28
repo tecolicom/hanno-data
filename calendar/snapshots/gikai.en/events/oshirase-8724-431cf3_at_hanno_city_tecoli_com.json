@@ -1,0 +1,34 @@
+{
+  "created": "2026-11-28T01:00:08.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🆕 New listing (published: November 27, 2026)\n\nThe Hanno–Hidaka Rabies Prevention Association is hosting a \"Dog Manners & Training Lecture.\" This class is for people who are having trouble with their dog's behavior, or who are thinking about getting a dog.\n\n【Date and Time】\nJanuary 30, 2027 (Saturday), 1:00 p.m.–3:00 p.m. (Reception opens at 12:40 p.m.)\n\n【Venue】\nHidaka City Takahagi Community Center (802-3 Aza-Takahagi, Hidaka City; 10 minutes walk from Musashi-Takahagi Station on the JR Kawagoe Line)\n\n【Instructor】\nShigemi Iriko, Ph.D. (Associate Professor, Tokyo University of Agriculture and Technology; Veterinarian; Diplomate, American College of Veterinary Behaviorists)\n\n【Capacity】\n50 people (first-come, first-served; registration closes when capacity is reached)\n\n【Who Can Attend】\nPeople having trouble with their dog's behavior, or people considering getting a dog\n\n【Fee】\nFree\n\n【Registration Deadline】\nJanuary 8, 2027 (Friday)\n\n【How to Register】\nMonday–Friday, 9:00 a.m.–4:30 p.m.: apply in person at the Environment and Water Resources Division office (phone: 042-973-2125), by phone, or through the online application system.\n\n【What to Bring】\nNothing in particular. Dogs may not attend or be brought along.\n\n【Parking】\nParking is limited. Please use public transportation.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/kankyomidorimizuka/8724.html",
+  "end": {
+    "date": "2026-11-29"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOW82c3AzOGI5azZjb202cGhqODFrNjJyamVkc242NnFia2Y0bjc4cGIzZHRtNmliajNkdG1nIGI2ZjM2ZTE5NzUxYzA1Y2NlOTlmYTAwODI4ZTQyOWY0MGY2ZGIxMDBlMmRiZTQ0MmJjMjYyMmEyNWRhOTczMTZAZw",
+  "iCalUID": "oshirase-8724-431cf3@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9o6sp38b9k6com6phj81k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/kankyomidorimizuka/8724.html"
+  },
+  "start": {
+    "date": "2026-11-28"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Dog Training Class hosted by Hanno–Hidaka Rabies Prevention Association",
+  "updated": "2026-11-28T01:00:08.956Z"
+}

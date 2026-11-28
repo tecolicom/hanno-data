@@ -1,0 +1,34 @@
+{
+  "created": "2026-11-28T01:00:08.000Z",
+  "creator": {
+    "email": "myhanno-bot@city-tecoli.iam.gserviceaccount.com"
+  },
+  "description": "Automated translation (refer to source for accuracy)\n\n🔄 Content update (Published: November 27, 2026 / Previously posted: October 28, 2026)\nMain change: Alert period changed to November 27 – December 6, 2026 (Reiwa 8). Of the 5 fatal accidents this period, cargo trucks were involved in 4 cases. Deaths include 3 pedestrians crossing at crosswalks and 2 cyclists (including one person in their teens).\n\nSaitama Prefecture has issued a traffic death alert following 5 fatal accidents occurring between November 24–26, 2026 (Reiwa 8).\n\nAlert period: November 27, 2026 (Friday) through December 6, 2026 (Sunday) — 10 days total.\n\nKey features of the 5 accidents:\n• Cargo trucks (such as lorries) involved in 4 of the 5 cases\n• 3 deaths: pedestrians crossing at crosswalks\n• 2 deaths: cyclists (1 in their teens)\n\nTo drivers: Please obey speed limits, give priority to pedestrians at crosswalks, use high-beam headlights at night, watch for people crossing from the right, drive considerately around elderly road users, and turn on headlights early.\n\nTo pedestrians: Use crosswalks and pedestrian bridges, look both ways and signal with your hand, wear reflective materials or carry lights at dusk/night/early morning, and wear bright clothing.\n\nWe call on all road users to heighten awareness and protect precious lives.\n\nSource (Japanese): https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/bohan/7837.html",
+  "end": {
+    "date": "2026-11-29"
+  },
+  "eventType": "default",
+  "htmlLink": "https://www.google.com/calendar/event?eid=X2R0cG1ncWJpYzVwbWFiOW43MHBqZWI5bmNsaDMwcDlpODFrNjJyamVkc242NnFia2Y0bjc4cGIzZHRtNmliajNkdG1nIGI2ZjM2ZTE5NzUxYzA1Y2NlOTlmYTAwODI4ZTQyOWY0MGY2ZGIxMDBlMmRiZTQ0MmJjMjYyMmEyNWRhOTczMTZAZw",
+  "iCalUID": "oshirase-7837-7eb0e2@hanno.city.tecoli.com",
+  "id": "_dtpmgqbic5pmab9n70pjeb9nclh30p9i81k62rjedsn66qbkf4n78pb3dtm6ibj3dtmg",
+  "kind": "calendar#event",
+  "organizer": {
+    "displayName": "飯能市役所（EN）",
+    "email": "b6f36e19751c05cce99fa00828e429f40f6db100e2dbe442bc2622a25da97316@group.calendar.google.com",
+    "self": true
+  },
+  "reminders": {
+    "useDefault": false
+  },
+  "sequence": 0,
+  "source": {
+    "title": "www.city.hanno.lg.jp",
+    "url": "https://www.city.hanno.lg.jp/soshikikarasagasu/shiminseikatsubu/jinkenkurashianzen/bohan/7837.html"
+  },
+  "start": {
+    "date": "2026-11-28"
+  },
+  "status": "confirmed",
+  "summary": "ℹ️ Traffic death alert issued",
+  "updated": "2026-11-28T01:00:08.394Z"
+}
