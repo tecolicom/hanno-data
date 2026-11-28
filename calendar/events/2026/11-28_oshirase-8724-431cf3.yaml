@@ -1,0 +1,46 @@
+uid: "oshirase-8724-431cf3@hanno.city.tecoli.com"
+summary: "ℹ️ 飯能・日高狂犬病予防協会主催犬のしつけ方教室"
+url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/kankyomidorimizuka/8724.html"
+dtstart: "2026-11-28"
+dtend: "2026-11-28"
+description: |-
+  🆕 新着掲載 (公開日: 2026-11-27)
+  
+  AI による要約 (正確な情報は元記事をご確認ください)
+  
+  飯能・日高狂犬病予防協会主催「愛犬のマナー＆トレーニング講座」を開催します。飼い犬の行動で困っている方、犬を飼うことを考えている方が対象です。
+  
+  開催日時：令和9年1月30日（土曜日）13時～15時（受付は12時40分から）
+  
+  会場：日高市高萩公民館（日高市大字高萩802番地3、JR川越線「武蔵高萩駅」から徒歩10分）
+  
+  講師：入交眞巳先生（東京農工大学特任准教授、獣医師、米国獣医行動学専門医）
+  
+  定員：50名（先着順、定員になり次第受付終了）
+  
+  対象：飼い犬の行動で困っている方、犬を飼うことを考えている方
+  
+  費用：無料
+  
+  受付期限：令和9年1月8日（金曜日）まで
+  
+  受付方法：月曜日～金曜日9時00分～16時30分に、環境緑水課窓口（042-973-2125）、電話、または電子申請でお申し込みください。
+  
+  持ち物：特にありません。飼い犬の参加、同行はできません。
+  
+  駐車場は限りがあります。公共交通機関のご利用をお勧めします。
+  
+  飯能市公式サイト 新着情報: https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/kankyomidorimizuka/8724.html
+
+render:
+  gcal:
+    mode: single-allday
+
+source:
+  type: city-hanno-oshirase
+  id: "8724"
+  url: "https://www.city.hanno.lg.jp/soshikikarasagasu/kankyokeizaibu/kankyomidorimizuka/8724.html"
+  fetched_at: "2026-11-28T00:58:16.448984Z"
+  content_hash: "sha256-431cf37c5fe5f7f5"
+  summary_method: "llm-haiku-4-5"
+  publish_date: "2026-11-27"
